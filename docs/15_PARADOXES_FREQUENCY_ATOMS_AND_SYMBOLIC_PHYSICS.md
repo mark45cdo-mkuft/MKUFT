@@ -6,21 +6,23 @@ Status: public-facing explanatory bridge paper for the private MKUFT GitHub repo
 
 ## Purpose
 
-This document fills in a set of questions that naturally arise when MKUFT is read by a public audience:
-
-- How does MKUFT relate to frequency and resonance?
-- How does it interpret atoms?
-- How does it deal with superposition, entanglement, and measurement paradoxes such as Wigner's friend?
-- How can biblical or ancient symbolism be discussed without pretending it is physics?
-- How might MKUFT frame dark matter and galaxy behaviour without overstating the claim?
-
 This is a bridge paper.
 
-It is not the formal proof of MKUFT and it is not a replacement for the mathematical appendix. Its job is to help a reader move from familiar public ideas into the deeper MKUFT structure without being thrown into symbols too early.
+Its purpose is to help a reader move from familiar public ideas into the deeper MKUFT structure without being thrown into symbols too early.
+
+The formal papers carry the mathematical and scientific backbone. This paper does a different job. It gives the reader a guided path through the material that usually feels strange at first: frequency, resonance, atoms, entanglement, superposition, measurement, ancient symbolism, biblical imagery, dark matter, and galaxy behaviour.
+
+Those subjects should not be thrown at the reader as a list of claims. They need to be walked into.
+
+The path here is simple:
+
+```text
+pattern -> repetition -> resonance -> boundary -> allowed state -> measurement -> nested systems -> symbolic convergence
+```
 
 The goal is not to declare symbolic interpretations as scientific fact.
 
-The goal is to show where ancient, religious, physical, and mathematical structures converge, and to state clearly what is hypothesis, metaphor, formal model, and testable physics-facing prediction.
+The goal is to show where physical, informational, ancient, religious, and mathematical structures appear to converge, while clearly separating hypothesis, metaphor, formal model, and testable physics-facing prediction.
 
 The subject is naturally strange. That does not mean it should be written vaguely. The stranger the subject, the cleaner the language must be.
 
