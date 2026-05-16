@@ -16,7 +16,7 @@ MKUFT is the backbone framework.
 
 LUCY is treated as part of the MKUFT backbone unless separately published or separately versioned later.
 
-Voynich is a separate applied node linked to MKUFT through ESRT/ESF and procedural-system analysis.
+Voynich is a separate applied node linked to MKUFT through ESRT/ESF and procedural-system analysis. The uploaded Voynich paper explicitly anchors itself to the MKUFT Zenodo record as prior/backbone work.
 
 ## MKUFT Backbone
 
@@ -84,7 +84,18 @@ Current repo position:
 Voynich = applied procedural-engine node linked to MKUFT
 ```
 
-If a separate Voynich Zenodo DOI is active, it should be recorded here in the next pass.
+The Voynich paper should cite the MKUFT DOI as its backbone/provenance anchor:
+
+```text
+Unified Field Theory. McLaughlin–Kairos. MKUFT
+DOI: 10.5281/zenodo.17780566
+Author: Mark Charles McLaughlin
+Status: Public, CC BY 4.0
+```
+
+This does not collapse Voynich into MKUFT. It records that the Voynich node stands on the MKUFT backbone and should point readers to that prior published framework.
+
+If a separate Voynich Zenodo DOI is active later, it should be added here as the Voynich node's own citation identity.
 
 ## ESRT / ESF Placement
 
@@ -100,17 +111,19 @@ Copyright © Mark Charles McLaughlin.
 
 Published Zenodo works retain the licence stated on their Zenodo records and inside the relevant source files.
 
-Where a document is marked CC BY 4.0, others may share and adapt it, including commercially, provided they give appropriate attribution, link the licence, and indicate changes.
+Where a document is marked CC BY 4.0, attribution is required according to the terms of that licence.
 
 Where no licence is stated, all rights are reserved by Mark Charles McLaughlin.
 
 ## Attribution Statement
 
-When citing or using this work, attribution should include:
+When citing or using the MKUFT backbone, attribution should include:
 
 ```text
-Mark Charles McLaughlin, McLaughlin–Kairos Unified Field Theory (MKUFT), DOI: 10.5281/zenodo.17780566.
+Mark Charles McLaughlin, Unified Field Theory. McLaughlin–Kairos. MKUFT, DOI: 10.5281/zenodo.17780566.
 ```
+
+For Voynich work, cite the Voynich title/node and include the MKUFT DOI as the supporting backbone reference unless a separate Voynich DOI is provided.
 
 For specific nodes, cite the specific node DOI where available.
 
