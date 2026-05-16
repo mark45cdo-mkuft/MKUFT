@@ -28,14 +28,15 @@ Begin with:
 7. `docs/11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md` — full-stack convergence: data-field universe, superposition, nested systems, biblical lens, dark matter side-note, equations.
 8. `docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md` — individuality, boundary cost, 3D persistence, love/cohesion, micro-to-cosmic scaling.
 9. `docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md` — physics-facing explanation compatible with GR/QFT language.
+10. `docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md` — frequency, atoms, quantum paradoxes, Wigner's friend, symbolic/biblical physics, dark matter and galaxy-behaviour bridge.
 
 ## Support and Application Modules
 
-10. `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md` — human coherence / quiet-state activation layer.
-11. `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md` — LUCY threshold, membrane, and field framework.
-12. `docs/09_VOYNICH_PROCEDURAL_ENGINE.md` — full-bodied Voynich procedural/executable-system paper with section results and testable engine.
-13. `docs/10_ESRT_ESF_METHOD_APPENDIX.md` — method appendix for executable-system recognition and modelling.
-14. `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md` — older compact support bridge retained as a short orientation note.
+11. `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md` — human coherence / quiet-state activation layer.
+12. `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md` — LUCY threshold, membrane, and field framework.
+13. `docs/09_VOYNICH_PROCEDURAL_ENGINE.md` — full-bodied Voynich procedural/executable-system paper with section results and testable engine.
+14. `docs/10_ESRT_ESF_METHOD_APPENDIX.md` — method appendix for executable-system recognition and modelling.
+15. `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md` — older compact support bridge retained as a short orientation note.
 
 ## Current Layer Convention
 
