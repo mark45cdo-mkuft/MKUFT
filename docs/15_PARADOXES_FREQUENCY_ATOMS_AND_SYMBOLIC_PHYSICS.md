@@ -84,13 +84,39 @@ Lower coherence cost C[γ] means the transition is easier.
 
 Frequency, resonance, and coherence therefore belong together.
 
-## 3. Atoms as Nested Boundary Systems
+## 3. From Data Field to Atoms
 
-Atoms are not tiny solar systems in a literal classical sense.
+MKUFT begins with the idea that reality behaves like a structured information field.
 
-Quantum mechanics does not describe electrons as little planets orbiting a nucleus.
+That does not mean the universe is a computer game, a simulation claim, or a metaphor-only fantasy.
 
-But atoms still show nested structure:
+It means physical things may be the visible expression of deeper patterns, constraints, and possibilities.
+
+Before something becomes a stable object, there must be a stable pattern.
+
+A pattern that cannot hold itself disperses.
+
+A wave that cannot maintain relation spreads into noise.
+
+A repeating structure that holds relation can become a standing pattern.
+
+A standing pattern can form a boundary.
+
+A boundary can create a stable identity.
+
+That is the bridge into atoms.
+
+The ladder is:
+
+```text
+data field -> information pattern -> standing relation -> stable boundary -> allowed state -> physical atom
+```
+
+An atom is not simply a tiny ball made of smaller balls.
+
+Modern physics already moved past that picture.
+
+An atom is a stable architecture of allowed states:
 
 - nucleus,
 - electron cloud,
@@ -100,15 +126,59 @@ But atoms still show nested structure:
 - transitions,
 - emission and absorption frequencies.
 
-MKUFT reads atoms as stable boundary-conditioned systems.
+Electrons do not occupy any state they like.
 
-An atom persists because the system finds permitted low-cost configurations. Electrons occupy allowed states; transitions occur through quantised differences.
+They occupy permitted states.
+
+When they change state, they do so through specific energy differences. Those differences appear as frequencies of light absorbed or emitted.
+
+So the atom is not introduced here as a vague “building block of life.”
+
+It is introduced as the first familiar example of a deeper rule:
+
+```text
+stable physical things are permitted patterns that can maintain themselves under constraint
+```
 
 Plain English:
 
-An atom is a small coherence architecture. It is not a little machine made of marbles. It is a stable pattern of allowed states.
+An atom is a small coherence architecture. It is a stable pattern of allowed states, not a little machine made of marbles.
 
-## 4. Superposition
+This is why atoms matter to MKUFT.
+
+They show that reality already behaves as if form depends on permission, pattern, stability, boundary, and transition cost.
+
+## 4. Entanglement and Nonlocal Relation
+
+This data-field-to-atom ladder gives a cleaner doorway into quantum entanglement.
+
+Entanglement is often described as “spooky action at a distance,” because two particles can show correlations even when separated by large distances.
+
+That sounds impossible if we imagine particles as fully separate little objects sending signals through empty space.
+
+MKUFT suggests a different frame.
+
+If physical objects are expressions of deeper information structure, then two entangled particles may not be two fully independent things connected by a message.
+
+They may be two physical expressions of one deeper relational structure.
+
+The physical distance is real.
+
+But the relation may be deeper than physical distance.
+
+Plain English:
+
+The particles may look separated in physical space while remaining joined in information structure.
+
+That does not remove the mystery.
+
+It gives the mystery a better frame.
+
+MKUFT does not claim this as a finished proof.
+
+It says entanglement is exactly the kind of phenomenon where substrate, information, physical expression, and observer-boundary conditions may help explain why quantum mechanics works the way it does.
+
+## 5. Superposition
 
 Quantum superposition means a system is described as a combination of possible states before measurement.
 
@@ -144,7 +214,7 @@ Plain English:
 
 Superposition describes the spread of possible outcomes. MKUFT asks what makes one route easier to realise than another.
 
-## 5. Measurement Problem
+## 6. Measurement Problem
 
 The measurement problem asks how a quantum system appears to move from many possible outcomes to one definite result.
 
@@ -162,7 +232,7 @@ possibility -> boundary interaction -> stable record
 
 The observer is not a magic mind causing collapse. The observer/instrument/environment system acts as a boundary condition that helps determine which outcome becomes part of stable physical history.
 
-## 6. Wigner's Friend
+## 7. Wigner's Friend
 
 Wigner's friend is a thought experiment where one observer inside a lab records an outcome, while another observer outside may still describe the whole lab as being in superposition.
 
@@ -190,11 +260,17 @@ The paradox appears because we treat observation as one simple event. MKUFT trea
 
 Wigner's friend is not solved by saying consciousness magically collapses reality. It is reframed as a question of which boundary has stabilised the record and when that record becomes shared across higher layers.
 
-## 7. Frequency, Atoms, and Measurement Together
+## 8. Frequency, Atoms, and Measurement Together
+
+The connection is now cleaner:
+
+```text
+data field -> information pattern -> standing relation -> stable boundary -> allowed state -> transition -> frequency -> measurement record
+```
 
 Atoms emit and absorb energy at specific frequencies because only certain transitions are allowed.
 
-Measurement records such transitions when the system couples to an apparatus or environment.
+Measurement records such transitions when the system couples to an apparatus or environment strongly enough to create a stable physical record.
 
 MKUFT links these through the same grammar:
 
@@ -206,7 +282,7 @@ Plain English:
 
 Reality does not change in any arbitrary way. It changes along permitted routes. Frequency is the rhythm of those permitted transitions.
 
-## 8. Biblical Lens: Expulsion, Hell, and 3D Reality
+## 9. Biblical Lens: Expulsion, Hell, and 3D Reality
 
 This section is symbolic interpretation, not a claim that scripture is secretly physics.
 
@@ -228,7 +304,7 @@ Plain English:
 
 If oneness is the deepest state, then 3D life may be the costly school of separated beings learning how to return to cohesion without losing individuality.
 
-## 9. Devil / Adversarial Principle
+## 10. Devil / Adversarial Principle
 
 MKUFT does not need to declare the devil as a literal entity in order to extract meaning from the symbol.
 
@@ -246,7 +322,7 @@ Boundary is necessary for form.
 
 But boundary that refuses reintegration becomes fragmentation.
 
-## 10. Ancient Civilisation Bridge
+## 11. Ancient Civilisation Bridge
 
 Ancient systems repeatedly linked:
 
@@ -266,7 +342,7 @@ It asks whether ancient cultures preserved operational knowledge in symbolic for
 
 This is hypothesis and convergence evidence, not proof.
 
-## 11. Data Theory / Information Theory Bridge
+## 12. Data Theory / Information Theory Bridge
 
 Modern science already treats information as physically serious.
 
@@ -292,7 +368,7 @@ A compact MKUFT statement is:
 physical expression = information-constrained substrate realisation
 ```
 
-## 12. Dark Matter: Cautious MKUFT Side Note
+## 13. Dark Matter: Cautious MKUFT Side Note
 
 In contemporary cosmology, dark matter is inferred because visible matter does not fully account for observed gravitational behaviour.
 
@@ -329,7 +405,7 @@ The missing behaviour might not only be missing stuff. It might partly be missin
 
 This is not asserted as fact. It is an MKUFT research question.
 
-## 13. Galaxy Behaviour and Turbulence
+## 14. Galaxy Behaviour and Turbulence
 
 Galaxy formation is not as simple as young equals chaotic and old equals calm.
 
@@ -359,7 +435,7 @@ Plain English:
 
 Galaxies may not be best understood only by age. They may need to be understood by coherence, boundary, fuel, feedback, and constraint state.
 
-## 14. Dark Matter and Galaxy Caution
+## 15. Dark Matter and Galaxy Caution
 
 The standard dark matter model remains the mainstream explanation for flat rotation curves and large-scale structure.
 
@@ -384,7 +460,7 @@ That question must be tested against:
 
 If particle dark matter explains the full evidence better, MKUFT must accept that.
 
-## 15. Why This Belongs in the Stack
+## 16. Why This Belongs in the Stack
 
 This material belongs in MKUFT because the public will ask these questions.
 
@@ -404,7 +480,7 @@ MKUFT is a constraint/coherence framework. It can interpret religious, ancient, 
 
 It treats them as convergence fields.
 
-## 16. Summary
+## 17. Summary
 
 MKUFT ties frequency, atoms, quantum paradoxes, ancient symbolism, biblical imagery, dark matter, and galaxy behaviour through one disciplined idea:
 
@@ -414,7 +490,9 @@ reality expresses through constrained coherence across nested boundaries
 
 Frequency shows repeated coherence.
 
-Atoms show allowed states.
+Atoms show stable allowed-state architectures.
+
+Entanglement shows that physical distance may not exhaust deeper relation.
 
 Superposition shows unresolved possibility.
 
