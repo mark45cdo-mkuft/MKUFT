@@ -169,9 +169,11 @@ The controversial part is observer coupling.
 
 MKUFT states it cleanly:
 
-Observers act as boundary conditions, not forces.
+Observers act as boundary conditions, not crude forces.
 
-No mind-over-matter.
+Observer effects are modelled as lawful, constraint-bound modulation rather than arbitrary control.
+
+Any such effect must remain inside the system's gradients, coherence state, physical conditions, and realisation constraints.
 
 No collapse magic.
 
