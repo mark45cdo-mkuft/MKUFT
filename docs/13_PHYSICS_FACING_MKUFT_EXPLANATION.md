@@ -211,9 +211,9 @@ Quiet, coherent, aligned environments increase detectability.
 
 ## 11. Nested Micro–Macro Structure
 
-MKUFT explains micro–macro correspondence by treating every coherent structure as a locally closed optimisation problem nested within a global coherence constraint.
+MKUFT explains micro–macro correspondence by treating every coherent structure as a bounded local optimisation field nested within a global coherence constraint.
 
-A system at scale n is a boundary-conditioned sub-problem of the system at scale n+1.
+A system at scale n is a boundary-conditioned local optimisation field inside the system at scale n+1.
 
 This allows the same formal logic to apply across:
 
@@ -234,12 +234,12 @@ The nesting mechanism is:
 
 1. Local closure: sufficient internal coherence forms a semi-closed region.
 2. Boundary emergence: the closure creates a boundary.
-3. Sub-problem formation: the region solves local optimisation under global constraints.
+3. Local optimisation: the region resolves its own constraints under global constraints.
 4. Upward coupling: the macro system sees aggregate variables, not full internal detail.
 
 Plain English:
 
-A cell does not need to tell the planet what it is doing. A galaxy does not need to track every neuron. Coherent systems become local problems nested inside larger systems.
+A cell does not need to tell the planet what it is doing. A galaxy does not need to track every neuron. Coherent systems become bounded local systems nested inside larger systems.
 
 ## 13. Anomalous Regimes
 
