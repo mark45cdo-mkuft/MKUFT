@@ -2,9 +2,17 @@
 
 Private working repository for the current MKUFT canon stack.
 
-Author: Mark McLaughlin  
+Author: Mark Charles McLaughlin  
 Repository status: controlled private canon workspace  
 Primary purpose: preserve, organise, and develop the active MKUFT documents without losing model structure through compression, drift, or outdated wording.
+
+## Start Here
+
+Begin with:
+
+- `START_HERE_PUBLIC_OVERVIEW.md` — public-facing overview in plain English.
+- `CANON_MAP.md` — current hierarchy of the research stack.
+- `PROVENANCE_DOI_AND_ATTRIBUTION.md` — DOI, copyright, licence, and citation structure.
 
 ## Canon Spine
 
@@ -33,14 +41,27 @@ The active MKUFT layer convention is:
 
 Older wordings that define `P` as Perception/Boundary or `O` as Output are treated as superseded historical shorthand and are not used as the formal canon convention.
 
+## Public-Reading Rule
+
+The repo must be readable to a bright public reader, not only scientists or AI systems. Technical structure is preserved, but each major file should also explain the what, why, where, and how in plain English.
+
+## Provenance / DOI / Copyright
+
+Copyright © Mark Charles McLaughlin.
+
+The MKUFT backbone is associated with the Zenodo record:
+
+```text
+Unified Field Theory. McLaughlin–Kairos. MKUFT
+DOI: 10.5281/zenodo.17780566
+Author: Mark Charles McLaughlin
+Licence stated in source material: CC BY 4.0
+```
+
+Each published node keeps its own DOI, authorship, licence, and citation identity. MKUFT is the backbone framework. LUCY is treated as part of the MKUFT backbone unless separately published or versioned. Voynich is a separate applied node linked to MKUFT through ESRT/ESF and procedural-system analysis.
+
+See `PROVENANCE_DOI_AND_ATTRIBUTION.md` and `RIGHTS_AND_LICENSE_NOTICE.md`.
+
 ## Repo Rule
 
 This repository is not the master truth unless Mark explicitly designates it so. It is a controlled GitHub working copy of the active canon. Original source files and prior releases remain separately preserved.
-
-## Plain-English Rule
-
-Formal structure matters, but the repo must also remain readable to humans. Each major document should explain the what, why, where, and how in plain English before or alongside technical terms.
-
-## Licence / Rights
-
-Documents retain the licence and copyright notices stated within each document. Where no specific licence is stated, all rights are reserved by Mark McLaughlin. See `RIGHTS_AND_LICENSE_NOTICE.md`.
