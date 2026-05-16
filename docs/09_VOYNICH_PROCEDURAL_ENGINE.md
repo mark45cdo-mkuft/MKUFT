@@ -1,6 +1,6 @@
 # Voynich Procedural Engine
 
-Author: Mark McLaughlin
+Author: Mark Charles McLaughlin
 
 Status: cleaned full-bodied support/application paper for the private MKUFT GitHub repository.
 
@@ -19,6 +19,18 @@ It is treated as an operational or executable system encoded as operational art:
 Plain English:
 
 It is less like a book of sentences and more like a system of instructions. It may not be meant to be read word by word. It may be meant to be run.
+
+## What This Work Assumes
+
+This analysis assumes:
+
+- no linguistic decoding,
+- no cipher hypothesis,
+- no external theory required to run the structural tests,
+- no need for fine geometric measurement,
+- no need to interpret glyphs as words.
+
+All claims are based on observable layout, positional structure, repetition, density, and cross-page consistency.
 
 ## Why the Language Assumption Fails
 
@@ -73,37 +85,106 @@ A page then assembles multiple execution-bounded lines into a larger procedure.
 
 A section groups related procedures into operational domains.
 
-## Image and Script Coupling
+## Section Results
 
-The illustrations do not behave like simple labels for adjacent text.
+The manuscript sections appear to perform distinct, non-overlapping roles in a closed procedural system.
 
-Instead, they act as anchors, state diagrams, domain markers, or execution surfaces.
+### Botanical Pages — PDF pp. ~60–110
 
-### Botanical Section
+Botanical pages centre on a single illustrated plant.
 
-Plants appear composite and non-botanical. Under the procedural model, they are not necessarily species descriptions.
+Across pages, text placement relative to the illustration remains highly stable even when plant appearance varies.
 
-They may function as root-node instruction trees: branching input/process surfaces that encode relationships, preparation logic, or procedural pathways.
+This behaviour is inconsistent with ordinary descriptive prose and consistent with procedural text operating on the illustrated entity.
 
-### Pharmaceutical Section
+Interpretation:
 
-Jars and containers are treated as state classes.
+- roots = lower input or grounding structures,
+- stems = transfer pathways,
+- leaves = outputs, branches, or active sub-components,
+- secondary text blocks = possible application or binding steps.
 
-They may mark storage, containment, transformation stage, mixture class, or parameter set.
+Plain English:
 
-The key claim is that containers are interfaces, not identities.
+The plant may not be a species to identify. It may be an operational diagram.
 
-### Balneological Section
+### Astrological / Zodiac Pages — PDF pp. ~125–135
 
-The bathing figures are not treated as narrative scenes.
+Astrological pages contain circular diagrams divided into rings and angular segments.
 
-They are embedded in flow networks and may mark containment, bodily state, transition, recycling, or reintegration.
+Each circle can be treated as an address space.
 
-### Astronomical / Astrological Section
+The method divides wheels into twelve coarse sectors. Across multiple wheels, including pages around PDF pp. 126, 130, and 131, the same sector positions are expected to carry similar text density and internal structure.
 
-Circular diagrams are treated as address spaces and timing gates.
+Interpretation:
 
-They enforce address-by-angle. Meaning resolves by angular sector rather than linear prose.
+- inner rings = sparse, stable header/state/mode layer,
+- outer rings = variable execution/action layer,
+- sectors = angular addresses,
+- repeated sector roles = procedural encoding.
+
+Plain English:
+
+The wheel may not be a picture of the sky. It may be a clock-face for instructions.
+
+### Pharmaceutical Pages — PDF pp. ~175–190
+
+Pharmaceutical pages show repeated jar-like containers with detached plant parts.
+
+Jar shapes fall into a small number of recurring classes reused across pages. Associated text is short, repetitive, and positionally stable.
+
+Interpretation:
+
+- jars = state classes or containers,
+- detached roots/fragments = material inputs,
+- short text blocks = state labels, parameters, or component instructions.
+
+Plain English:
+
+These pages may function like a component and state registry.
+
+### Recipe Pages — PDF pp. ~190–205
+
+Recipe pages consist of dense text blocks with no illustrations.
+
+Short, repetitive units from pharmaceutical pages appear to recur in consistent positions within recipe lines.
+
+Interpretation:
+
+The recipe pages may be compressed execution instructions that reference predefined component states rather than restating them.
+
+Plain English:
+
+Once the earlier pages define the parts, the recipe section runs the procedure.
+
+### Balneological Pages — PDF pp. ~140–170
+
+Balneological pages depict figures interacting with pools connected by channels.
+
+Structurally, these pages behave like flow diagrams.
+
+Interpretation:
+
+- pools = states,
+- figures = carriers,
+- channels = transfer paths,
+- text at junctions = transition markers.
+
+Plain English:
+
+The bathing figures may not be a scene. They may show a state machine.
+
+## Cross-Section Integration
+
+Each section performs a distinct role:
+
+- Botanical pages: generation of entities or inputs.
+- Pharmaceutical pages: definition of component states.
+- Recipe pages: macro-level execution instructions.
+- Balneological pages: flow and transformation of states.
+- Astrological pages: positional addressing and coordination.
+
+Together, these sections form a closed instructional system.
 
 ## ESRT Classification
 
@@ -155,62 +236,124 @@ Examples include:
 - dense lower blocks functioning as subroutines,
 - repeated token clusters with constrained deformation.
 
-## ESF Integration
+## Testable Analysis Engine
 
-The Executable System Framework separates three layers:
+The engine is a repeatable method for detecting non-random structural organisation in the manuscript.
 
-1. **Addressing** — where execution occurs.
-2. **State** — what condition a component occupies.
-3. **Flow** — how transitions proceed.
+It is not a translation method.
 
-A system is executable if these jointly constrain action reproducibly.
+It does not interpret glyph meaning.
 
-The Voynich Manuscript is interpreted as an executable system because its layout, repetition, and illustration coupling preserve these three layers even without translation.
+It operates only on layout, position, repetition, and cross-page consistency.
+
+### Step 1 — Page Classification
+
+Classify each page into one of five structural types:
+
+- Botanical,
+- Astrological/Zodiac,
+- Pharmaceutical,
+- Balneological,
+- Recipe.
+
+### Step 2 — Coarse Spatial Binning
+
+Rectangular pages are divided into:
+
+- top / middle / bottom,
+- left / centre / right.
+
+Circular pages are divided into:
+
+- inner ring / outer ring,
+- twelve equal angular sectors.
+
+No fine measurement is required.
+
+### Step 3 — Text Block Identification
+
+Treat text as blocks rather than words.
+
+For each block, record:
+
+- page number,
+- bin location,
+- approximate length: short / medium / long,
+- relative sequence position: early / middle / late.
+
+### Step 4 — Density and Role Ranking
+
+Count text blocks per bin.
+
+Rank bins by density rather than absolute measurement.
+
+### Step 5 — Cross-Page Comparison
+
+Compare pages of the same type.
+
+Check whether the same bins repeatedly perform similar roles across multiple pages.
+
+### Step 6 — Cross-Section Linking
+
+Track short, highly repetitive block shapes across different page types.
+
+If a block class recurs in similar positional roles across sections, record structural linkage.
+
+## Section-Specific Engine Tests
+
+### Astrological Test
+
+Divide zodiac wheels into twelve sectors.
+
+Count text blocks per sector for inner and outer rings separately.
+
+Rank sectors by density.
+
+Prediction:
+
+If decorative, rankings should vary randomly across wheels.
+
+If procedural, sector roles should repeat.
+
+### Pharmaceutical Test
+
+Group containers into coarse shape classes.
+
+Record where text blocks appear relative to each class.
+
+Prediction:
+
+If decorative, associations drift.
+
+If functional, the same container classes attract similar text roles across pages.
+
+### Recipe Test
+
+Identify short, frequently repeated block shapes.
+
+Check whether these blocks appear at consistent positions within recipe lines and whether they match blocks from pharmaceutical pages.
+
+### Balneological Test
+
+Treat pools as states and channels as transitions.
+
+Record whether text appears at entries, junctions, and exits.
+
+Check whether placement is consistent across pages.
 
 ## NLT Grammar: Node / Line / Token
 
 The working grammar is:
 
-- **Nodes** = positional anchors, addresses, entry points.
-- **Lines** = transitions and routing between nodes.
-- **Tokens** = parameters, modifiers, or state flags.
+- Nodes = positional anchors, addresses, entry points.
+- Lines = transitions and routing between nodes.
+- Tokens = parameters, modifiers, or state flags.
 
 Meaning is positional and structural, not phonetic.
 
 Plain English:
 
 Where something appears may matter more than what it sounds like.
-
-## Astro Section: Key Findings
-
-The astronomical/astrological wheels are central because their geometry enforces addressing.
-
-### Address-by-Angle
-
-Circular wheels create angular sectors. Meaning is tested per sector, not by reading around the wheel like prose.
-
-### Radial Layering
-
-The radial structure implies different execution layers:
-
-- inner ring = header, mode, or state selection,
-- outer ring = action, execution, or content steps.
-
-### Cross-Wheel Reuse
-
-Sector-index behaviour is predicted to repeat across wheels once rotational alignment is accounted for.
-
-This gives a falsifiable test:
-
-If the same sector roles recur across wheels after alignment, the procedural model gains support.
-
-If they do not, the model weakens.
-
-### Mis-Address Collapse
-
-If the addressing frame is shifted by one sector, the reuse signal should degrade sharply.
-
-This is important because executable systems are often noise-tolerant at the symbol level but fragile at the addressing level.
 
 ## Block-2 Discovery
 
@@ -299,23 +442,13 @@ It does claim:
 - procedural/executable classification fits the global structure better,
 - ESRT/ESF provide falsifiable tests for that classification.
 
-## Verification Method
-
-A reader can test the model by following four steps:
-
-1. Ignore phonetic and semantic assumptions.
-2. Treat glyphs as abstract operators.
-3. Measure line lengths, repetition patterns, and cluster deformation across sections.
-4. Test whether illustrations and layouts align with process stages rather than depicted objects.
-
-Expected result:
-
-The procedural model should hold across sections. Alternative readings should fragment.
-
 ## Falsification Conditions
 
-The procedural model is weakened or falsified if:
+The model is weakened or falsified if:
 
+- sector density rankings do not repeat across zodiac wheels,
+- container classes do not correlate with stable text roles,
+- repetitive block shapes do not recur across sections,
 - line lengths behave like natural-language sentences,
 - repeated clusters behave like flexible words rather than parameterised modules,
 - illustration placement does not correlate with execution phases,
@@ -323,6 +456,8 @@ The procedural model is weakened or falsified if:
 - mis-addressing does not degrade pattern reuse,
 - dense lower blocks behave like ordinary commentary rather than subroutines,
 - the manuscript yields stable linguistic translation under ordinary methods.
+
+Any one major engine failure is enough to reject or substantially weaken the structural-engine model.
 
 ## Summary
 
