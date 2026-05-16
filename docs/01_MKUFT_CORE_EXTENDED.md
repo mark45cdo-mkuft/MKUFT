@@ -1,0 +1,84 @@
+# MKUFT Core Extended — Clean Working Copy
+
+Author: Mark McLaughlin
+
+Status: Primary canon spine for the private GitHub working repository.
+
+## Purpose
+
+The McLaughlin–Kairos Unified Field Theory (MKUFT) models reality as a layered process in which physical events arise from the interaction of substrate possibility, information structure, physical dynamics, and observer coherence.
+
+This clean working copy preserves the core architecture while normalising terminology and removing avoidable ambiguity.
+
+## Layer Architecture
+
+The current formal layer convention is:
+
+- **S — Substrate**: the underlying probability/possibility field; not directly observable, but treated as the domain in which possible configurations are encoded.
+- **I — Information**: structured correlations, constraints, patterns, and proto-physical forms arising within or over the substrate.
+- **P — Physical**: the realised world of observable events, measurements, trajectories, and physical outcomes governed by standard physics in the ordinary limit.
+- **O — Observer**: an integrated observer system whose coherence state can act as a boundary condition or modulation term.
+
+Older wording that uses P as Perception/Boundary or O as Output is superseded for formal canon use.
+
+## Core Claim
+
+MKUFT does not reject standard physics. It embeds standard physics as the dominant limiting case when observer coherence and substrate-information modulation do not introduce measurable deviations.
+
+The theory predicts that in ordinary low-coherence conditions, physical outcomes follow standard expectations. In rare or deliberately induced high-coherence conditions, small but statistically detectable deviations may appear.
+
+## Observer Coherence
+
+The observer is not treated as an external spectator. The observer is treated as a system with internal coherence, represented by a functional such as kappa:
+
+```text
+κ(O) ∈ [0, 1]
+```
+
+High κ corresponds to focused, aligned, low-noise observer states. Low κ corresponds to fragmented, noisy, or incoherent states.
+
+Observer coherence does not create arbitrary outcomes. It modulates weighting among permissible outcomes.
+
+## Realisation Logic
+
+For an event E, the realised probability depends on:
+
+- standard physical dynamics,
+- substrate-to-information weighting,
+- observer-dependent coherence modulation,
+- environmental damping or amplification conditions.
+
+A compact conceptual form is:
+
+```text
+P_realized(E) ≈ standard physical contribution + small observer/substrate modulation
+```
+
+The mathematical appendix gives the fuller integral form.
+
+## Standard-Physics Limit
+
+When observer coherence is constant or negligible, and when substrate-information weighting does not produce additional selection, MKUFT reduces to standard physical prediction:
+
+```text
+P_realized(E) ≈ P_phys(E)
+```
+
+This is a key discipline point. MKUFT is not a licence for unlimited anomaly. It predicts small, constrained deviations under specific coherence, information, and environmental conditions.
+
+## Falsifiability
+
+MKUFT is intended to be falsifiable. Strong tests include:
+
+- REG/RNG deviation studies under coherence priming.
+- Remote-information protocols under strict blind conditions.
+- Synchronicity-density studies with pre-registered logging rules.
+- Environmental modulation studies comparing low-noise, high-noise, and high-iron conditions.
+- Group-coherence amplification tests.
+- Geometry and pattern-response studies.
+
+If these effects repeatedly fail under strong controls, MKUFT is wrong or incomplete in a serious way.
+
+## Canon Note
+
+This file is a cleaned GitHub working copy, not a replacement for the original source document unless Mark explicitly designates it as such.
