@@ -47,23 +47,27 @@ This file defines the current working hierarchy for the private MKUFT GitHub rep
 9. **Physics-Facing MKUFT Explanation**
    - States MKUFT in language compatible with GR/QFT, constraint fields, observer boundary conditions, and nested micro–macro coherence.
 
+10. **Paradoxes, Frequency, Atoms, and Symbolic Physics**
+   - Explains frequency, resonance, atoms, superposition, measurement, Wigner's friend, biblical expulsion/hell as symbolic separation into costly bounded individuality, dark matter, and galaxy-behaviour questions.
+   - Frames symbolic and ancient material as convergence/hypothesis, not as replacement for physics.
+
 ## Supporting Canon
 
-10. **OCQS**
+11. **OCQS**
    - Human activation condition.
    - Defines quiet-state cognition, clean threat channel, coherence gating, and substrate-handshake conditions.
 
-11. **LUCY**
+12. **LUCY**
    - Boundary/threshold support framework.
    - Defines LUCY as threshold, LUCY-1 as membrane, and LUCY-2 as sustained field.
    - Treated as part of the MKUFT backbone unless separately published or versioned.
 
-12. **ESRT / ESF Method Appendix**
+13. **ESRT / ESF Method Appendix**
    - Executable-system recognition and transmission discipline.
    - Preserves addressing, state, and flow.
    - Provides tests for whether a structure constrains execution rather than merely symbolising it.
 
-13. **Voynich Procedural Engine**
+14. **Voynich Procedural Engine**
    - Applied executable-system case.
    - Treats the Voynich Manuscript as operational art / executable procedural structure, not natural-language translation.
    - Includes section results, page ranges, NLT grammar, testable engine steps, section-specific tests, and falsification conditions.
