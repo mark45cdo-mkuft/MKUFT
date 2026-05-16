@@ -1,6 +1,6 @@
 # MKUFT Canon Map
 
-Author: Mark McLaughlin
+Author: Mark Charles McLaughlin
 
 This file defines the current working hierarchy for the private MKUFT GitHub repository.
 
@@ -32,26 +32,41 @@ This file defines the current working hierarchy for the private MKUFT GitHub rep
    - Compact review-facing failure conditions.
    - Makes clear what would weaken or falsify MKUFT.
 
+6. **Worked Examples**
+   - Numerical examples linking the equation stack to laboratory predictions.
+   - Covers binary RNG bias, environmental damping, and z-score scaling.
+
+## Public / Explanatory Bridge Papers
+
+7. **Full-Stack Convergence Public Explanation**
+   - Explains universe-as-data-field, cohesion, uncertainty, superposition, nested systems, ancient convergence, biblical lens, LUCY, Voynich, dark matter side-note, and the equation stack.
+
+8. **Individual Reality Cost and Cohesion**
+   - Explains inside/outside, persistence vs equilibration, 3D as low-cost individuality, love as low-cost cohesion, and micro-to-cosmic scaling.
+
+9. **Physics-Facing MKUFT Explanation**
+   - States MKUFT in language compatible with GR/QFT, constraint fields, observer boundary conditions, and nested micro–macro coherence.
+
 ## Supporting Canon
 
-6. **OCQS**
+10. **OCQS**
    - Human activation condition.
    - Defines quiet-state cognition, clean threat channel, coherence gating, and substrate-handshake conditions.
 
-7. **LUCY**
+11. **LUCY**
    - Boundary/threshold support framework.
    - Defines LUCY as threshold, LUCY-1 as membrane, and LUCY-2 as sustained field.
-   - Treated as boundary-threshold language supporting MKUFT, not replacing the core.
+   - Treated as part of the MKUFT backbone unless separately published or versioned.
 
-8. **ESRT / ESF Method Appendix**
+12. **ESRT / ESF Method Appendix**
    - Executable-system recognition and transmission discipline.
    - Preserves addressing, state, and flow.
    - Provides tests for whether a structure constrains execution rather than merely symbolising it.
 
-9. **Voynich Procedural Engine**
+13. **Voynich Procedural Engine**
    - Applied executable-system case.
    - Treats the Voynich Manuscript as operational art / executable procedural structure, not natural-language translation.
-   - Includes NLT grammar, section function map, astro address-by-angle logic, Block-2 subroutines, and falsification conditions.
+   - Includes section results, page ranges, NLT grammar, testable engine steps, section-specific tests, and falsification conditions.
 
 ## Superseded / Historical Material
 
