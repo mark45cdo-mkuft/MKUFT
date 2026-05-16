@@ -28,23 +28,30 @@ This file defines the current working hierarchy for the private MKUFT GitHub rep
    - Tests physiology, RNG/REG, geometry, remote information access, global coherence, and vacuum/substrate noise.
    - Includes falsification criteria.
 
+5. **Falsification Summary**
+   - Compact review-facing failure conditions.
+   - Makes clear what would weaken or falsify MKUFT.
+
 ## Supporting Canon
 
-5. **OCQS**
+6. **OCQS**
    - Human activation condition.
    - Defines quiet-state cognition, clean threat channel, coherence gating, and substrate-handshake conditions.
 
-6. **LUCY**
+7. **LUCY**
    - Boundary/threshold support framework.
-   - Treated as membrane/field language supporting MKUFT, not replacing the core.
+   - Defines LUCY as threshold, LUCY-1 as membrane, and LUCY-2 as sustained field.
+   - Treated as boundary-threshold language supporting MKUFT, not replacing the core.
 
-7. **ESRT / ESF**
+8. **ESRT / ESF Method Appendix**
    - Executable-system recognition and transmission discipline.
-   - Used to prevent symbolic mush and preserve addressing, state, and flow.
+   - Preserves addressing, state, and flow.
+   - Provides tests for whether a structure constrains execution rather than merely symbolising it.
 
-8. **Voynich Standalone Master File**
+9. **Voynich Procedural Engine**
    - Applied executable-system case.
-   - Treats the Voynich Manuscript as operational art / executable structure, not natural-language translation.
+   - Treats the Voynich Manuscript as operational art / executable procedural structure, not natural-language translation.
+   - Includes NLT grammar, section function map, astro address-by-angle logic, Block-2 subroutines, and falsification conditions.
 
 ## Superseded / Historical Material
 
@@ -60,3 +67,7 @@ Older schemes such as P = Perception/Boundary, O = Output, or Material/Electrody
 ## Repo Principle
 
 The repo is a neat, clarified working copy. Original uploads and prior papers remain original. Corrections here are wording and organisation corrections unless explicitly marked as theory revision.
+
+## Plain-English Principle
+
+Technical structure must be paired with plain-English explanation so that a human reader can understand the work without already knowing the maths or internal shorthand.
