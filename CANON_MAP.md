@@ -62,12 +62,18 @@ This file defines the current working hierarchy for the private MKUFT GitHub rep
    - Defines LUCY as threshold, LUCY-1 as membrane, and LUCY-2 as sustained field.
    - Treated as part of the MKUFT backbone unless separately published or versioned.
 
-13. **ESRT / ESF Method Appendix**
+13. **Gradient Mechanics and Boundary-Shear Geometry**
+   - Public-facing boundary-physics addendum.
+   - Restores the gradient-mechanics bridge between substrate/information weighting and physical-layer behaviour.
+   - Introduces the scalar tension potential tau, vector tension potential A_tau, LUCY threshold coupling, boundary-shear angle, and geometry-dependent orientation predictions.
+   - Treats unusual-motion reports only as dry observational edge cases, never as proof or origin claims.
+
+14. **ESRT / ESF Method Appendix**
    - Executable-system recognition and transmission discipline.
    - Preserves addressing, state, and flow.
    - Provides tests for whether a structure constrains execution rather than merely symbolising it.
 
-14. **Voynich Procedural Engine**
+15. **Voynich Procedural Engine**
    - Applied executable-system case.
    - Treats the Voynich Manuscript as operational art / executable procedural structure, not natural-language translation.
    - Includes section results, page ranges, NLT grammar, testable engine steps, section-specific tests, and falsification conditions.
