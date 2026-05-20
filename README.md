@@ -18,7 +18,7 @@ Begin with:
 
 1. `docs/01_MKUFT_CORE_EXTENDED.md` — primary theory spine.
 2. `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical formalisation.
-3. `docs/03_STANDALONE_FORMAL_ADDENDUM.md` — node/trajectory/coherence-cost formalisation.
+3. `docs/03_STANDALONE_FORMAL_ADDENDUM.md` — node/trajectory/coherence-cost formalism.
 4. `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — empirical testing and falsification programme.
 5. `docs/05_FALSIFICATION_SUMMARY.md` — compact falsification and review-facing summary.
 6. `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — worked numerical examples linking equations to testable predictions.
@@ -34,9 +34,10 @@ Begin with:
 
 11. `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md` — human coherence / quiet-state activation layer.
 12. `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md` — LUCY threshold, membrane, and field framework.
-13. `docs/09_VOYNICH_PROCEDURAL_ENGINE.md` — full-bodied Voynich procedural/executable-system paper with section results and testable engine.
-14. `docs/10_ESRT_ESF_METHOD_APPENDIX.md` — method appendix for executable-system recognition and modelling.
-15. `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md` — older compact support bridge retained as a short orientation note.
+13. `docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md` — gradient mechanics, LUCY boundary coupling, boundary-shear geometry, and geometry-dependent orientation predictions.
+14. `docs/09_VOYNICH_PROCEDURAL_ENGINE.md` — full-bodied Voynich procedural/executable-system paper with section results and testable engine.
+15. `docs/10_ESRT_ESF_METHOD_APPENDIX.md` — method appendix for executable-system recognition and modelling.
+16. `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md` — older compact support bridge retained as a short orientation note.
 
 ## Current Layer Convention
 
