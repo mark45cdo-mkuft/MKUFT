@@ -1,175 +1,243 @@
-# MKUFT — Standalone Formal Addendum
+MKUFT — STANDALONE FORMAL ADDENDUM
 
-Author: Mark McLaughlin
+Mathematical Formalisation, Falsifiability & Experimental Pathways
 
-Status: official cleaned working copy for the private MKUFT GitHub repository.
+Status: Official Standalone Addendum to MKUFT
+Relationship to Core: Extends and sharpens the original MKUFT core paper.
+Core MKUFT Status: Unchanged and remains authoritative.
 
-## Relationship to Core
+This document introduces formal mathematical structure, explicit falsifiability, and experimental pathways that were implicit in the original MKUFT framework. No new ontology, entities, or metaphysical assumptions are introduced.
 
-This addendum extends and sharpens the original MKUFT core paper. It does not replace the core and introduces no new ontology, entities, or metaphysical assumptions.
 
-Its purpose is to formalise concepts already present in MKUFT using a node/trajectory/coherence-cost model.
+---
 
-## 1. Architectural Premise
+1. Purpose of This Addendum
 
-MKUFT treats geometry as architecture, not decoration.
+This addendum exists to:
+
+Formalise structural concepts already present in MKUFT
+
+Define operational mathematical objects in a Word-safe format
+
+Introduce explicit falsifiability conditions
+
+Propose concrete experimental and observational tests
+
+
+This document does not revise or replace the original MKUFT core paper. It stands alongside it as a formal expansion.
+
+
+---
+
+2. Architectural Premise
+
+MKUFT treats geometry as the literal architecture of reality.
 
 Geometric relations determine:
 
-- which states of reality are stable,
-- which transitions between states are permissible,
-- the relative coherence cost of such transitions.
+Which states of reality are stable
 
-Physical laws are treated as emergent behaviours constrained by this architecture.
+Which transitions between states are permissible
 
-## 2. Mathematical State Space
+The relative cost of such transitions
+
+
+Physical laws are understood as emergent behaviours constrained by this architecture, not as arbitrary rules imposed on an unconstrained substrate.
+
+
+---
+
+3. Mathematical State Space
 
 Define the permissible state space as a constrained graph:
 
-```text
 G = (N, E)
-```
 
 Where:
 
-- N = set of stable attractor states or nodes.
-- E = set of admissible transitions or edges.
+N = set of stable attractor states (nodes)
+E = set of admissible transitions (edges)
 
 Nodes correspond to symmetry-locked, coherence-stable solutions permitted by geometric constraint.
 
-The grammar of N is finite, while traversal through the graph can be unbounded.
+The grammatical structure of N is finite, while traversal through the graph is unbounded.
 
-## 3. Trajectories
+
+---
+
+4. Trajectories
 
 A trajectory γ is an ordered path through G:
 
-```text
-γ = (n_0 → n_1 → n_2 → ... → n_k)
-```
+γ = (n0 -> n1 -> n2 -> … -> nk)
 
-Traversal is governed by adjacency constraints. Not all node pairs are directly connected.
+Traversal is governed strictly by adjacency constraints.
+Not all node pairs are directly connected.
 
-Agency, interaction, evolution, learning, and observation occur as constrained traversal, not arbitrary state creation.
+Agency, interaction, and evolution occur as constrained traversal, not state creation.
 
-## 4. Coherence Cost Functional
+
+---
+
+5. Coherence Cost Functional
 
 Each trajectory carries a traversal cost:
 
-```text
 C[γ] = ∫_γ λ(x) ds
-```
 
 Where:
 
-- λ(x) = local coherence friction / gradient tension.
-- ds = differential path element along γ.
+λ(x) = local coherence friction / gradient tension
+ds = differential path element along γ
 
 Interpretation:
 
-- Low λ(x): smooth, stable traversal.
-- High λ(x): resistance, instability, or distortion.
+Low λ(x) implies smooth, stable traversal
 
-Traversal cost is structural, not merely subjective.
+High λ(x) implies resistance, instability, or distortion
 
-## 5. Probability as Path Density
+
+Traversal cost is structural, not subjective.
+
+
+---
+
+6. Probability as Path Density
 
 Transition likelihood between node A and node B is defined as:
 
-```text
-P(B | A) ∝ Σ_{γ ∈ Γ(A→B)} exp(-C[γ])
-```
+P(B|A) ∝ Σ_{γ ∈ Γ(A->B)} exp( - C[γ] )
 
 Where:
 
-- Γ(A→B) = set of admissible trajectories between A and B.
+Γ(A->B) = set of admissible trajectories between A and B
 
-Probability is an emergent property of path availability and cost, not intrinsic randomness alone.
+Probability is therefore an emergent property of path availability and cost, not intrinsic randomness.
 
-## 6. Learning and Adaptation
+
+---
+
+7. Learning and Adaptation
 
 Learning is defined as local reduction of coherence friction λ(x) along frequently traversed paths.
 
-- No new nodes are required.
-- Structural grammar remains unchanged.
-- Skill acquisition corresponds to reduced traversal cost.
+No new nodes are created
+
+Structural grammar remains unchanged
+
+Skill acquisition corresponds to reduced traversal cost
+
 
 Learning is therefore path reinforcement, not state expansion.
 
-## 7. Time as Emergent Quantity
+
+---
+
+8. Time as Emergent Quantity
 
 Experienced time correlates with accumulated traversal cost:
 
-```text
 T_experienced ≈ Σ C[γ_i]
-```
 
-Predictions:
+This predicts:
 
-- Time compression in low-cost traversal regimes.
-- Time dilation under high-cost or constrained traversal.
+Time compression in low-cost traversal regimes
 
-Time is therefore treated as a derived measure, not as the deepest primitive.
+Time dilation under high-cost or constrained traversal
 
-## 8. Formal Mapping to Existing MKUFT Claims
 
-### 8.1 Learning and Skill Acquisition
+Time is thus a derived measure, not a fundamental dimension.
 
-- Nodes: stable skill states.
-- Trajectories: learning paths.
-- λ(x): effort, error rate, energetic/cognitive cost.
 
-Prediction: learning curves reflect decreasing traversal cost.
+---
 
-Falsification: learning introduces new stable states without cost reduction.
+9. Falsifiability Framework
 
-### 8.2 Boundary Effects and Anomalous Phenomena
+MKUFT makes explicit, testable predictions.
 
-- Nodes: stable regimes.
-- Boundaries: near-forbidden adjacencies.
-- λ(x): coherence stress.
+9.1 Probability Structure
 
-Prediction: anomalies cluster near high-cost transitions.
+Prediction:
+Outcome likelihood correlates with path density between nodes.
 
-Falsification: anomalies distribute randomly, independent of boundary or coherence conditions.
+Disproof Condition:
+Demonstration of preferred outcomes without increased path availability or reduced traversal cost.
 
-### 8.3 Time Compression and Dilation
 
-- Trajectory complexity and accumulated coherence cost map to experienced duration.
+---
 
-Prediction: time perception correlates with traversal cost.
+9.2 Learning Curves
 
-Falsification: time perception is independent of traversal complexity and coherence cost.
+Prediction:
+Learning follows cost-reduction curves along existing trajectories.
 
-### 8.4 Measurement and Observation
+Disproof Condition:
+Evidence that learning introduces new stable states rather than reducing traversal cost.
 
-- Nodes: pre-existing permissible outcomes.
-- Measurement: routing constraint.
 
-Prediction: measurement alters transition statistics, not state availability.
+---
 
-Falsification: observation demonstrably creates new permissible states.
+9.3 Anomaly Clustering
 
-### 8.5 Environmental and Geometric Correlations
+Prediction:
+Anomalous phenomena cluster near high-cost or near-forbidden adjacency regions.
 
-- Geometry: adjacency grammar.
-- Structures: stable subgraphs.
-- Environment: modulation of λ(x).
+Disproof Condition:
+Uniform random distribution of anomalies independent of coherence gradients.
 
-Prediction: recurrent geometries correlate with reduced traversal cost.
 
-Falsification: no correlation between structure and traversal efficiency.
+---
 
-## 9. Falsifiability Summary
+9.4 Measurement Effects
 
-MKUFT is constrained or falsified if:
+Prediction:
+Measurement alters routing statistics, not state availability.
 
-- probability does not correlate with path density,
-- learning does not correspond to cost reduction,
-- anomalies do not cluster near high-cost or boundary conditions,
-- observation creates new permissible states rather than routing among available states,
-- time perception is independent of traversal cost,
-- geometry shows no measurable relation to traversal stability or coherence.
+Disproof Condition:
+Observation demonstrably creates new permissible states.
 
-## 10. Canon Status
 
-This addendum supersedes earlier short or partial addenda while preserving the original MKUFT core as authoritative.
+---
+
+10. Experimental Pathways
+
+Potential tests include:
+
+Statistical analysis of learning curves across skill domains
+
+Correlation of anomalous events with environmental coherence gradients
+
+Measurement-context dependency studies
+
+Computational simulations of constrained traversal graphs
+
+
+Each pathway targets a specific falsifiable claim.
+
+
+---
+
+11. Relationship to MKUFT Core
+
+This addendum:
+
+Does not modify the MKUFT core paper
+
+Sharpens interpretation and operationalisation
+
+May be read independently or alongside the core
+
+
+The original MKUFT document remains the canonical architectural foundation.
+
+
+---
+
+12. Canon Status
+
+This document is designated:
+
+MKUFT — Standalone Formal Addendum
+(Mathematical Formalisation & Falsification Expansion)
+
+It supersedes earlier short addenda and informal drafts while preserving the integrity and continuity of the original MKUFT core.
