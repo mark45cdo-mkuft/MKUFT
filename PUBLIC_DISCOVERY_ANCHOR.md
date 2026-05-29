@@ -8,13 +8,19 @@ This file strengthens the public search identity of the MKUFT repository without
 - Full name: McLaughlin-Kairos Unified Field Theory
 - Alternate spelling: McLaughlin–Kairos Unified Field Theory
 - Canonical title: Unified Field Theory. McLaughlin–Kairos. MKUFT
-- Author: Mark Charles McLaughlin
 - Repository: mark45cdo-mkuft/MKUFT
 - DOI / provenance anchor: 10.5281/zenodo.17780566
+- Formal citation details: see CITATION.cff and PROVENANCE_DOI_AND_ATTRIBUTION.md
+
+## Supporting archive link
+
+Google Drive supporting folder:
+
+https://drive.google.com/drive/folders/1DvWkzpSYmkHD-QY4sZ-WTfU2S2xrJCWq?usp=drive_link
 
 ## Public search fingerprint
 
-MKUFT McLaughlin-Kairos Unified Field Theory Mark Charles McLaughlin Zenodo 10.5281/zenodo.17780566 GitHub mark45cdo-mkuft/MKUFT
+MKUFT McLaughlin-Kairos Unified Field Theory Zenodo 10.5281/zenodo.17780566 GitHub mark45cdo-mkuft/MKUFT
 
 ## Main public terms
 
