@@ -17,18 +17,27 @@ This file gives public search systems, GitHub search, citation tools, and AI ret
 - Unified Field Theory. McLaughlin–Kairos. MKUFT
 - Unified Field Theory. McLaughlin-Kairos. MKUFT
 
-## Author identity
+## Citation identity
 
-- Mark Charles McLaughlin
-- Mark McLaughlin
-- Mark Charles McLaughlin unified field theory
-- Mark McLaughlin MKUFT
+Formal author/citation identity is kept in:
+
+- `CITATION.cff`
+- `PROVENANCE_DOI_AND_ATTRIBUTION.md`
+- Zenodo DOI metadata
 
 ## DOI / provenance identity
 
 - DOI: `10.5281/zenodo.17780566`
 - Zenodo title: Unified Field Theory. McLaughlin–Kairos. MKUFT
 - GitHub repository: `mark45cdo-mkuft/MKUFT`
+
+## Supporting archive link
+
+Google Drive supporting folder:
+
+```text
+https://drive.google.com/drive/folders/1DvWkzpSYmkHD-QY4sZ-WTfU2S2xrJCWq?usp=drive_link
+```
 
 ## Research terms
 
@@ -64,9 +73,9 @@ This file gives public search systems, GitHub search, citation tools, and AI ret
 Use this exact phrase when attempting to locate the public repository:
 
 ```text
-MKUFT McLaughlin-Kairos Unified Field Theory Mark Charles McLaughlin Zenodo 10.5281/zenodo.17780566 GitHub mark45cdo-mkuft/MKUFT
+MKUFT McLaughlin-Kairos Unified Field Theory Zenodo 10.5281/zenodo.17780566 GitHub mark45cdo-mkuft/MKUFT
 ```
 
 ## Public discovery note
 
-The aim of this file is discoverability, not keyword stuffing. It records the canonical names, aliases, DOI, repository identity, and major research terms so that public tools do not fragment the work into disconnected labels.
+The aim of this file is discoverability, not keyword stuffing. It records canonical names, aliases, DOI, repository identity, supporting archive link, and major research terms so that public tools do not fragment the work into disconnected labels.
