@@ -51,29 +51,34 @@ This file defines the current working hierarchy for the private MKUFT GitHub rep
    - Explains frequency, resonance, atoms, superposition, measurement, Wigner's friend, biblical expulsion/hell as symbolic separation into costly bounded individuality, dark matter, and galaxy-behaviour questions.
    - Frames symbolic and ancient material as convergence/hypothesis, not as replacement for physics.
 
+11. **Clear Public MKUFT Explanation**
+   - Plain-English public explanation of MKUFT.
+   - Covers possible paths, constraint/cost/ambiguity, paradox resolution, ancient symbols, ancient-text lessons, Voynich as operating surface, and Mark’s truth/load-bearing psychology.
+   - File: `docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md`.
+
 ## Supporting Canon
 
-11. **OCQS**
+12. **OCQS**
    - Human activation condition.
    - Defines quiet-state cognition, clean threat channel, coherence gating, and substrate-handshake conditions.
 
-12. **LUCY**
+13. **LUCY**
    - Boundary/threshold support framework.
    - Defines LUCY as threshold, LUCY-1 as membrane, and LUCY-2 as sustained field.
    - Treated as part of the MKUFT backbone unless separately published or versioned.
 
-13. **Gradient Mechanics and Boundary-Shear Geometry**
+14. **Gradient Mechanics and Boundary-Shear Geometry**
    - Public-facing boundary-physics addendum.
    - Restores the gradient-mechanics bridge between substrate/information weighting and physical-layer behaviour.
    - Introduces the scalar tension potential tau, vector tension potential A_tau, LUCY threshold coupling, boundary-shear angle, and geometry-dependent orientation predictions.
    - Treats unusual-motion reports only as dry observational edge cases, never as proof or origin claims.
 
-14. **ESRT / ESF Method Appendix**
+15. **ESRT / ESF Method Appendix**
    - Executable-system recognition and transmission discipline.
    - Preserves addressing, state, and flow.
    - Provides tests for whether a structure constrains execution rather than merely symbolising it.
 
-15. **Voynich Procedural Engine**
+16. **Voynich Procedural Engine**
    - Applied executable-system case.
    - Treats the Voynich Manuscript as operational art / executable procedural structure, not natural-language translation.
    - Includes section results, page ranges, NLT grammar, testable engine steps, section-specific tests, and falsification conditions.
