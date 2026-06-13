@@ -30,15 +30,16 @@ Begin with:
 9. `docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md` — physics-facing explanation compatible with GR/QFT language.
 10. `docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md` — frequency, atoms, quantum paradoxes, Wigner's friend, symbolic/biblical physics, dark matter and galaxy-behaviour bridge.
 11. `docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md` — Tesla–Dollard-compatible field-geometry bridge covering electricity, gravity, resonance-addressing, telluric/solar structure, and UAP motion as physical-layer rendering.
+12. `docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md` — clear public explanation of MKUFT, its build path, ancient-symbol/Voynich bridge, paradox resolution, and Mark’s truth/load-bearing psychology.
 
 ## Support and Application Modules
 
-12. `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md` — human coherence / quiet-state activation layer.
-13. `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md` — LUCY threshold, membrane, and field framework.
-14. `docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md` — gradient mechanics, LUCY boundary coupling, boundary-shear geometry, and geometry-dependent orientation predictions.
-15. `docs/09_VOYNICH_PROCEDURAL_ENGINE.md` — full-bodied Voynich procedural/executable-system paper with section results and testable engine.
-16. `docs/10_ESRT_ESF_METHOD_APPENDIX.md` — method appendix for executable-system recognition and modelling.
-17. `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md` — older compact support bridge retained as a short orientation note.
+13. `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md` — human coherence / quiet-state activation layer.
+14. `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md` — LUCY threshold, membrane, and field framework.
+15. `docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md` — gradient mechanics, LUCY boundary coupling, boundary-shear geometry, and geometry-dependent orientation predictions.
+16. `docs/09_VOYNICH_PROCEDURAL_ENGINE.md` — full-bodied Voynich procedural/executable-system paper with section results and testable engine.
+17. `docs/10_ESRT_ESF_METHOD_APPENDIX.md` — method appendix for executable-system recognition and modelling.
+18. `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md` — older compact support bridge retained as a short orientation note.
 
 ## Current Layer Convention
 
