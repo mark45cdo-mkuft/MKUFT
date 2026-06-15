@@ -1,9 +1,9 @@
 # MKUFT — McLaughlin–Kairos Unified Field Theory
 
-Private working repository for the current MKUFT canon stack.
+Public-facing controlled working copy of the current MKUFT canon stack.
 
 Author: Mark Charles McLaughlin  
-Repository status: controlled private canon workspace  
+Repository status: public controlled canon workspace  
 Primary purpose: preserve, organise, and develop the active MKUFT documents without losing model structure through compression, drift, or outdated wording.
 
 ## Start Here
