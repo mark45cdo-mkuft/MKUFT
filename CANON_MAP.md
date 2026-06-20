@@ -77,6 +77,7 @@ This file defines the current working hierarchy for the public MKUFT GitHub repo
 12. **OCQS**
    - Human activation condition.
    - Defines quiet-state cognition, clean threat channel, coherence gating, and substrate-handshake conditions.
+   - Officially cross-links to Authentic Traversal Cognition: OCQS prepares the quiet state; Authentic Traversal Cognition performs the observer-side decontamination before or during kernel use.
 
 13. **LUCY**
    - Boundary/threshold support framework.
