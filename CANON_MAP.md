@@ -2,7 +2,16 @@
 
 Author: Mark Charles McLaughlin
 
-This file defines the current working hierarchy for the private MKUFT GitHub repository.
+This file defines the current working hierarchy for the public MKUFT GitHub repository.
+
+## Kernel / Recovery Handle
+
+**MKUFT Reconstitution Kernel**
+- File: `docs/19_MKUFT_RECONSTITUTION_KERNEL.md`.
+- Short kernel document with surrounding explanation.
+- Does not replace the full MKUFT scientific paper.
+- Preserves the raw recovery route: `Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome`.
+- Gives readers and future AI systems a compact handle for rebuilding the MKUFT method from any point in the stack.
 
 ## Primary Canon
 
