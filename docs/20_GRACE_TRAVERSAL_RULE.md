@@ -1,8 +1,18 @@
 # GRACE Traversal Rule
 
-**Status:** Public-facing support note  
+**Status:** Public-facing support / bridge note; not a standalone canonical paper  
 **Author:** McLaughlin  
 **Project:** MKUFT - McLaughlin-Kairos Unified Field Theory
+
+---
+
+## Stack placement
+
+This note is a support bridge inside the public MKUFT stack.
+
+It does not replace the main MKUFT scientific paper, the reconstitution kernel, or OCQS.
+
+The main MKUFT paper remains the spine. The kernel preserves the recovery route. OCQS remains the observer-state support module. This note explains GRACE as the clean traversal rule and names Authentic Traversal Cognition as the observer-side discipline that helps the observer use the route without excess distortion.
 
 ---
 
@@ -104,6 +114,14 @@ Authentic Traversal Cognition is the observer applying the same discipline inwar
 
 ---
 
+## Relation to OCQS
+
+OCQS is the quiet-state support module.
+
+This GRACE note does not redefine OCQS, the Q gate, or the OCQS role in the MKUFT stack. It only gives the related traversal discipline: OCQS prepares the quiet state; Authentic Traversal Cognition performs the observer-side decontamination; GRACE governs clean traversal.
+
+---
+
 ## Corruption checks
 
 GRACE is corrupted if geometry becomes aesthetic rather than structural.
@@ -127,6 +145,8 @@ SIPO is where reality unfolds.
 GRACE is how it unfolds cleanly.
 
 The kernel preserves the route.
+
+OCQS prepares the quiet state.
 
 Authentic Traversal Cognition cleans the observer enough to use the route.
 
