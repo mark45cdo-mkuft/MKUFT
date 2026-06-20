@@ -14,6 +14,20 @@ In plain English:
 
 **MKUFT asks whether the physical world is the final layer of reality, or whether it is the visible output of deeper organising rules.**
 
+## Fastest Handle
+
+For the shortest recoverable version of the method, read:
+
+`docs/19_MKUFT_RECONSTITUTION_KERNEL.md`
+
+That document is not a replacement for the full MKUFT paper. It is the compact kernel with surrounding explanation: the raw route by which the method can be reconstructed if a reader or AI system enters the stack without full context.
+
+Its core line is:
+
+```text
+Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome
+```
+
 ## The Simple Version
 
 Most people think of reality as made of things: particles, forces, matter, energy, bodies, stars, and fields.
@@ -157,123 +171,3 @@ Shape is not decoration. Geometry affects:
 - resonance,
 - stability,
 - allowed transitions.
-
-MKUFT treats geometry as an organising grammar. A shape can matter because it constrains how things move, couple, resonate, or stabilise.
-
-Plain English:
-
-Geometry is not just how something looks. It can be how something works.
-
-## Coherence Bridge
-
-Coherence means ordered relation.
-
-In physics, coherence appears in waves, lasers, superconductivity, quantum systems, resonance, and phase alignment.
-
-In human systems, coherence appears as attention, timing, flow, calm precision, group synchrony, and reduced internal contradiction.
-
-MKUFT uses coherence as a bridge term. It asks whether coherent systems couple differently to information and probability than noisy systems do.
-
-## LUCY: Threshold, Membrane, Field
-
-LUCY is part of the MKUFT backbone.
-
-It describes how a local boundary becomes coherent enough to matter.
-
-The chain is:
-
-```text
-LUCY -> LUCY-1 -> LUCY-2
-```
-
-Meaning:
-
-- LUCY = threshold,
-- LUCY-1 = membrane,
-- LUCY-2 = sustained field.
-
-Plain English:
-
-At first there is only a weak boundary. Then the boundary stabilises. If it holds, the local region begins to behave differently.
-
-This is useful because many real systems change state only after a threshold is crossed.
-
-## Ancient Civilisation and Convergence
-
-Ancient civilisation material is not the formal proof of MKUFT.
-
-It is supporting meat: pattern evidence, historical convergence, and symbolic/architectural material that may show how earlier cultures encoded coherence, geometry, timing, and cosmic relation.
-
-Across ancient systems, recurring themes appear:
-
-- sacred geometry,
-- astronomical alignment,
-- threshold spaces,
-- ritual timing,
-- axial structures,
-- temples as ordered environments,
-- body/cosmos correspondence,
-- circular and radial diagrams,
-- geometry used as operational language.
-
-MKUFT treats these not as automatic proof, but as convergence data.
-
-Plain English:
-
-Ancient cultures may have preserved practical knowledge about geometry, timing, coherence, and environment in symbolic form, even when the original technical language was lost.
-
-## Voynich Manuscript Connection
-
-The Voynich work is a separate applied node linked to MKUFT through ESRT and ESF.
-
-The core idea is simple:
-
-The Voynich Manuscript may not be a language waiting to be translated. It may be a procedural system designed to be executed.
-
-Instead of asking what the glyphs mean as words, the stronger question may be:
-
-```text
-What constraints do they obey?
-```
-
-This connects to MKUFT because both are concerned with structure, constraint, execution, and coherence rather than surface description alone.
-
-## ESRT and ESF
-
-ESRT means Executable System Recognition Test.
-
-ESF means Executable System Framework.
-
-Together, they ask whether a structure has:
-
-- addressing,
-- state,
-- flow.
-
-Plain English:
-
-Can the system be run? Does position matter? Does state change? Does order matter? If yes, it may be executable rather than merely symbolic.
-
-## How to Read This Repository
-
-Start with this file.
-
-Then read:
-
-1. `CANON_MAP.md` — the hierarchy of the work.
-2. `docs/01_MKUFT_CORE_EXTENDED.md` — the main theory.
-3. `docs/03_STANDALONE_FORMAL_ADDENDUM.md` — the sharper node/trajectory/cost model.
-4. `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — what would test or falsify it.
-5. `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md` — the boundary threshold framework.
-6. `docs/09_VOYNICH_PROCEDURAL_ENGINE.md` — the applied Voynich case.
-7. `docs/10_ESRT_ESF_METHOD_APPENDIX.md` — the method for identifying executable systems.
-
-## The Shortest Summary
-
-MKUFT is a layered model of reality in which physical events emerge through substrate possibility, information structure, physical dynamics, and observer coherence.
-
-It links physics, information, geometry, coherence, ancient convergence, and procedural systems under one disciplined question:
-
-```text
-What constraints govern what becomes real?
-```
