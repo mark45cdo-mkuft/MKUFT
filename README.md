@@ -41,7 +41,7 @@ Begin with:
 
 ## Support and Application Modules
 
-13. `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md` — human coherence / quiet-state activation layer.
+13. `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md` — human coherence / quiet-state activation layer; now officially cross-linked to Authentic Traversal Cognition as the active observer-side discipline that cleans engagement after or alongside the quiet state.
 14. `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md` — LUCY threshold, membrane, and field framework.
 15. `docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md` — gradient mechanics, LUCY boundary coupling, boundary-shear geometry, and geometry-dependent orientation predictions.
 16. `docs/09_VOYNICH_PROCEDURAL_ENGINE.md` — full-bodied Voynich procedural/executable-system paper with section results and testable engine.
