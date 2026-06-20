@@ -11,8 +11,13 @@ Primary purpose: preserve, organise, and develop the active MKUFT documents with
 Begin with:
 
 - `START_HERE_PUBLIC_OVERVIEW.md` — public-facing overview in plain English.
+- `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery kernel with surrounding explanation; the shortest handle for rebuilding the MKUFT method without replacing the full papers.
 - `CANON_MAP.md` — current hierarchy of the research stack.
 - `PROVENANCE_DOI_AND_ATTRIBUTION.md` — DOI, copyright, licence, and citation structure.
+
+## Kernel / Recovery Handle
+
+- `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — reconstitution kernel with explanation. This is not a replacement for the full MKUFT paper. It preserves the raw route `Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome` and gives enough explanation for a reader or AI system to orient from anywhere in the MKUFT tree.
 
 ## Canon Spine
 
