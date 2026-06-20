@@ -15,10 +15,11 @@ This file defines the current working hierarchy for the public MKUFT GitHub repo
 
 **GRACE Traversal Rule**
 - File: `docs/20_GRACE_TRAVERSAL_RULE.md`.
-- Public-facing support note for GRACE as the clean traversal rule through SIPO.
+- Public-facing support / bridge note only; not a standalone canonical paper.
+- Explains GRACE as the clean traversal rule through SIPO.
 - Defines Geometry, Relation, Admissibility, Coherence, and Emergence.
 - Adds Authentic Traversal Cognition as the observer-side discipline for reducing distortion before applying the kernel outwardly.
-- Does not revise OCQS; OCQS remains separately listed in the supporting canon.
+- Does not replace the main MKUFT paper, the reconstitution kernel, or OCQS.
 
 ## Primary Canon
 
@@ -77,7 +78,7 @@ This file defines the current working hierarchy for the public MKUFT GitHub repo
 12. **OCQS**
    - Human activation condition.
    - Defines quiet-state cognition, clean threat channel, coherence gating, and substrate-handshake conditions.
-   - Officially cross-links to Authentic Traversal Cognition: OCQS prepares the quiet state; Authentic Traversal Cognition performs the observer-side decontamination before or during kernel use.
+   - Cross-links to Authentic Traversal Cognition: OCQS prepares the quiet state; Authentic Traversal Cognition performs the observer-side decontamination before or during kernel use.
 
 13. **LUCY**
    - Boundary/threshold support framework.
@@ -101,7 +102,8 @@ This file defines the current working hierarchy for the public MKUFT GitHub repo
    - Includes section results, page ranges, NLT grammar, testable engine steps, section-specific tests, and falsification conditions.
 
 17. **GRACE Traversal Rule**
-   - Public-facing support note for GRACE and observer-side Authentic Traversal Cognition.
+   - Public-facing support / bridge note for GRACE and observer-side Authentic Traversal Cognition.
+   - Not a standalone canonical paper.
    - File: `docs/20_GRACE_TRAVERSAL_RULE.md`.
 
 ## Superseded / Historical Material
