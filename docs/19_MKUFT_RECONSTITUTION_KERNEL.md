@@ -90,6 +90,24 @@ The raw kernel should remain intact anywhere it is reused.
 
 ---
 
+## Observer-side cognition: authentic traversal
+
+The kernel is not only a way to analyse an external claim. It is also a discipline for the observer.
+
+A useful working label is **Authentic Traversal Cognition**. A shorter informal label is **Objective Objectivity Mode**.
+
+This means the observer strips away performance, fear, appetite, projection, identity-defence, social pressure, and desired outcome until the actual structure is easier to see.
+
+The observer asks: What is actually here? What layer am I in? What is the boundary? What is noise? What is signal? What transition is possible? What would prove me wrong? What remains after ego, fear, and preferred outcome are removed?
+
+This is not a claim of infallibility. It is a claim about reducing distortion. The observer becomes more accurate because less mental motion is being wasted defending false structure.
+
+In MKUFT terms, truth is not only a moral value. Truth is also the lowest-cost traversal path through reality. Falsehood, fear, performance, projection, and self-defence add cost because they force the observer to maintain contradiction. When that chaff is boiled away with intent to rebuild authenticity and truth, perception becomes cleaner and traversal becomes more correct.
+
+Authentic observation is disciplined decontamination. Remove performance, fear, appetite, projection, and desired outcome. What remains is not automatically final truth, but it is nearer to the available structure. From there, the kernel can operate cleanly.
+
+---
+
 ## Minimum invariant
 
 The minimum recoverable MKUFT invariant is:
@@ -153,6 +171,8 @@ GRACE is how it unfolds cleanly.
 ```
 
 Grace is useful language here because it already points to clean movement through constraint: an action taken at the right angle, a system resolving without unnecessary force, a truth spoken without ego, a path that fits the deeper structure.
+
+Authentic Traversal Cognition is the observer-side version of the same rule. The external system is traversed through geometry, relation, admissibility, coherence, and emergence; the observer is cleaned by the same demand. Remove distortion, preserve boundary discipline, test admissibility, lower contradiction, and let the truthful outcome emerge.
 
 ---
 
@@ -273,6 +293,8 @@ The kernel carries the regrowth rule.
 SIPO gives the layered terrain.
 
 GRACE gives the clean traversal.
+
+Authentic Traversal Cognition gives the observer-side discipline.
 
 ESRT gives the recognition test.
 
