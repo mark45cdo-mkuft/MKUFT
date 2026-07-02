@@ -56,7 +56,7 @@ This file defines the current working hierarchy for the public MKUFT GitHub repo
 ## Public / Explanatory Bridge Papers
 
 7. **Full-Stack Convergence Public Explanation**
-   - Explains universe-as-data-field, cohesion, uncertainty, superposition, nested systems, ancient convergence, biblical lens, LUCY, Voynich, dark matter side-note, and the equation stack.
+   - Explains universe-as-data-field, cohesion, uncertainty, superposition, nested systems, symbolic/religious-text pattern bridges, LUCY, Voynich, dark matter side-note, and the equation stack.
 
 8. **Individual Reality Cost and Cohesion**
    - Explains inside/outside, persistence vs equilibration, 3D as low-cost individuality, love as low-cost cohesion, and micro-to-cosmic scaling.
@@ -65,12 +65,12 @@ This file defines the current working hierarchy for the public MKUFT GitHub repo
    - States MKUFT in language compatible with GR/QFT, constraint fields, observer boundary conditions, and nested micro–macro coherence.
 
 10. **Paradoxes, Frequency, Atoms, and Symbolic Physics**
-    - Explains frequency, resonance, atoms, superposition, measurement, Wigner's friend, biblical expulsion/hell as symbolic separation into costly bounded individuality, dark matter, and galaxy-behaviour questions.
+    - Explains frequency, resonance, atoms, superposition, measurement, Wigner's friend, symbolic/religious-text bridge material, dark matter, and galaxy-behaviour questions.
     - Frames symbolic and ancient material as convergence/hypothesis, not as replacement for physics.
 
 11. **Clear Public MKUFT Explanation**
     - Plain-English public explanation of MKUFT.
-    - Covers possible paths, constraint/cost/ambiguity, paradox resolution, ancient symbols, ancient-text lessons, Voynich as operating surface, and Mark’s truth/load-bearing psychology.
+    - Covers possible paths, constraint/cost/ambiguity, paradox resolution, ancient-symbol bridge material, Voynich as an applied operating-surface hypothesis, and truth/load-bearing method.
     - File: `docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md`.
 
 ## Supporting Canon
