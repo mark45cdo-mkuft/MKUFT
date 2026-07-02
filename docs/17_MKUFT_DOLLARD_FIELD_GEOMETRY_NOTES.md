@@ -1,9 +1,8 @@
 # MKUFT–Dollard Field Geometry Notes
 
-A Respectful Technical Bridge Between Field-Realist Electricity,
-Substrate Mechanics, Solar Structure, and Constraint Geometry
+A Respectful Technical Bridge Between Field-Realist Electricity, Substrate Mechanics, Solar Structure, and Constraint Geometry
 
-Status: working theoretical bridge
+Status: public-facing working theoretical bridge inside the controlled MKUFT GitHub working copy.
 
 Purpose: to place MKUFT field-geometry ideas beside Tesla–Dollard electrical concepts in a form that preserves engineering usefulness, avoids overclaim, and gives clear structural correspondences for further testing.
 
@@ -25,15 +24,15 @@ The deeper relationship may involve:
 - medium condition;
 - and the way a system is allowed to resolve into physical behaviour.
 
-MKUFT calls this deeper ordering layer the S-layer or data-field. In older electrical language it may correspond partly to aetheric, counterspatial, dielectric, telluric, or non-Hertzian field relationships.
+MKUFT calls this deeper ordering layer the S-layer or substrate. In older electrical language it may partially overlap with terms such as aether, counterspace, dielectric field structure, telluric behaviour, or non-Hertzian field relationships. These are treated here as translation terms, not as final ontology.
 
-The aim here is not to replace one vocabulary with another. The aim is to place them side by side so the shared structure becomes clearer.
+The aim here is not to replace one vocabulary with another. The aim is to place them side by side so shared structure becomes clearer.
 
 ## 2. Plain Core Statement
 
 Reality may not be moved only by objects pushing through empty space.
 
-It may also be organised by deeper field geometry, where electricity, light, gravity, plasma behaviour, and motion follow the cheapest lawful route through a hidden relationship-field.
+It may also be organised by deeper field geometry, where electricity, light, gravity, plasma behaviour, and motion follow lawful routes through a relationship-field.
 
 At the surface, this appears as force, wave, current, heat, glow, gravity, or movement.
 
@@ -41,11 +40,11 @@ At the deeper level, it may be tension, rhythm, boundary, resonance, curvature, 
 
 Clean formulation:
 
-The visible event is often not the engine. The engine is the hidden field relationship that makes that event the easiest lawful resolution.
+The visible event is often not the engine. The engine may be the hidden field relationship that makes that event the easiest lawful resolution.
 
 ## 3. Translation Layer
 
-| MKUFT / Data-Field Language | Tesla–Dollard-Compatible Language | Plain Meaning |
+| MKUFT / Substrate Language | Tesla–Dollard-Compatible Language | Plain Meaning |
 |---|---|---|
 | S-layer / substrate | Aether / counterspace / field medium | Hidden relationship-space beneath physical appearance |
 | Constraint field | Dielectric tension / field pressure | Stored tendency shaping what can occur |
@@ -53,8 +52,8 @@ The visible event is often not the engine. The engine is the hidden field relati
 | Curvature / circulation | Magnetic induction / rotational field component | Moving, curling, circulating side of field behaviour |
 | Resonance | Tuned relation / matched oscillation | Strong coupling through matched rhythm |
 | Addressing | Frequency or state matching | Selecting where/how a system can resolve |
-| Amplifier / projector | Terminal / field actuator / directed coupling device | Surface hardware that biases deeper field geometry |
-| Physical rendering | Spark, glow, heat, current, motion, visible craft behaviour | What the observer sees |
+| Amplifier / actuator | Terminal / field actuator / directed coupling device | Surface hardware that biases deeper field geometry |
+| Physical rendering | Spark, glow, heat, current, motion, visible behaviour | What the observer sees |
 | Gravity | Curvature / constraint-field resolution | Matter following the cheapest lawful route through geometry |
 
 This table is not final doctrine. It is a working translation map.
@@ -71,7 +70,7 @@ Here the useful meaning is:
 dielectric = stored field tension
 ```
 
-Like a bowstring pulled back. Nothing has flown yet, but the system is loaded.
+Like a loaded spring. Nothing has released yet, but the system is loaded.
 
 ### Magnetic
 
@@ -80,8 +79,6 @@ Magnetic behaviour is the moving or curling side of the field.
 ```text
 magnetic = circulation, curvature, motion, or field-flow rotation
 ```
-
-Like water swirling or a rope being spun.
 
 ### Induction
 
@@ -278,15 +275,15 @@ The Sun may be treated as:
 - solar-system-scale coherence source;
 - regulator of local field conditions.
 
-In the Logos/MKUFT bridge:
+In the MKUFT symbolic/field bridge:
 
-- Logos / data-field = deepest lawful manifestation capacity;
+- substrate / information field = deepest lawful manifestation capacity;
 - Sun / stellar field = local coherence regime;
 - planets = moving modulation nodes within that regime;
 - planetary alignments = changing phase relationships in the local field;
-- astrology = possible symbolic map of local field modulation, not simplistic fate-control.
+- astrology = possible historical-symbolic map of local field modulation, not fate-control and not proof.
 
-This is not a proof of astrology. It is a structural way to ask whether planetary relationships encode real field-state changes.
+This is not a proof of astrology. It is a structural way to ask whether planetary relationships encode measurable or symbolic field-state changes.
 
 ## 11. Gravity as Constraint-Field Resolution
 
@@ -308,7 +305,7 @@ MKUFT bridge:
 
 Gravity is the physical-layer expression of deeper coherence geometry.
 
-Mass-energy changes the available paths through the data-field / S-layer geometry. Matter follows the lowest-cost lawful route.
+Mass-energy changes the available paths through the substrate / S-layer geometry. Matter follows the lowest-cost lawful route.
 
 Plain version:
 
@@ -352,16 +349,16 @@ Together they may express a deeper balance between compression, expansion, movem
 
 ## 13. Amplifiers as Surface Actuators
 
-Directional field devices or “gravity amplifiers” need not contradict deeper geometry.
+Directional field devices or “gravity amplifiers” are treated here as speculative actuator concepts, not established hardware claims.
 
 They may be the surface hardware that biases the deeper geometry.
 
-Suede analogy:
+Analogy:
 
-- S-layer / data-field = fabric and fibre direction;
-- mass = pressure on the fabric;
-- gravity = visible lay of the fabric changing;
-- amplifier = finger brushing the suede;
+- S-layer / substrate = underlying field condition;
+- mass = pressure or constraint within that condition;
+- gravity = visible path-bias under that condition;
+- actuator = local steering or biasing contact point;
 - movement = matter following the newly biased path.
 
 The device may not be pulling gravity like a rope.
@@ -370,7 +367,7 @@ It may be changing the local field condition so a path becomes cheaper, cleaner,
 
 Clean formulation:
 
-The amplifier is not the engine. It is the steering contact point.
+The actuator is not the engine. It is the steering contact point.
 
 A surface-level technology may need visible pointing hardware. A deeper technology may interact with the geometry directly.
 
@@ -378,12 +375,12 @@ A surface-level technology may need visible pointing hardware. A deeper technolo
 
 A local/prepared-endpoint system can be modelled like this:
 
-- the craft/system is tuned into a resonant state;
+- the system is tuned into a resonant state;
 - ordinary positional constraint becomes malleable;
 - a destination has been physically pre-conditioned or frequency-matched;
 - when the system loosens from ordinary locality, it resolves at the prepared endpoint.
 
-This is “spooky action at a distance” as observed A-to-D behaviour, but it does not remove the hidden B/C mechanics.
+This may look like apparent A-to-D behaviour, but it does not remove the hidden B/C mechanics.
 
 Distinction:
 
@@ -395,23 +392,23 @@ Clean formulation:
 
 Resonance may be the addressing/control layer. S-layer geometry may be the route. Gradient mechanics may be the transition cost discipline.
 
-## 15. UAP Motion as Physical-Layer Rendering
+## 15. Anomalous Motion as Physical-Layer Rendering
 
-If anomalous craft or lights interact with deeper field geometry, “top speed” may not be the root variable.
+If anomalous craft, lights, or sensor events interact with deeper field geometry, “top speed” may not be the root variable.
 
 Observed movement may include:
 
 1. Resolved physical track — a visible point moves in a line, possibly as a physical-layer anchor.
 2. Fold / vanish / reappear — de-couple here, traverse hidden relation-space, re-couple elsewhere.
 3. Recession without normal speed — distance relation changes so the observer cannot close the gap.
-4. Carrier reassignment — the event resolves through available scene templates such as lights, cars, aircraft-like points, silhouettes, or road traffic.
+4. Carrier reassignment — the event resolves through available scene templates such as lights, aircraft-like points, silhouettes, or traffic-like patterns.
 5. Prism split — one coherent source appears as two visible outputs because layered geometry refracts the manifestation path.
 
 Clean line:
 
-They may not simply move fast across the chessboard. They may change which square they are allowed to be real on.
+The observed object may not simply move faster through ordinary space. It may shift the conditions under which it resolves into ordinary space.
 
-## 16. UAP Split as Prism Geometry
+## 16. Split Events as Prism Geometry
 
 Some split events may not be two objects or one object physically dividing.
 
@@ -420,7 +417,7 @@ They may be one coherent source resolving through layered geometry.
 Model:
 
 - source = coherent input;
-- S-layer / ESLAR geometry = refractive or routing medium;
+- S-layer / routing geometry = refractive or routing medium;
 - visible split = physical-layer rendering of multiple available paths.
 
 Like light through a prism, the split tells us about the medium as much as the source.
