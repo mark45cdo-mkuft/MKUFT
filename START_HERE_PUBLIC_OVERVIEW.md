@@ -68,7 +68,7 @@ It is not treated as ordinary matter. It is the domain of possible configuration
 
 Plain English:
 
-The substrate is the deep menu of what could happen.
+The substrate is the structured possibility-space from which specific outcomes may resolve.
 
 ### 2. Information
 
@@ -94,7 +94,7 @@ The physical layer is what actually shows up.
 
 The observer is not just a person looking at something.
 
-In MKUFT, an observer is any coherent system whose state may influence how possibilities become selected, weighted, or stabilised.
+In MKUFT, an observer is any coherent system whose state may influence how already-admissible possibilities become selected, weighted, interpreted, or stabilised.
 
 Plain English:
 
@@ -114,7 +114,7 @@ Those are loose claims. MKUFT is trying to be sharper than that.
 
 MKUFT says:
 
-**An observer may slightly affect which already-possible pathway becomes easier, stronger, or more likely, especially under coherent conditions.**
+**An observer may act as a bounded modulation condition among already-possible pathways, especially under coherent conditions.**
 
 ## How It Connects to Known Physics
 
@@ -146,7 +146,7 @@ Quantum theory uses probability amplitudes, measurement, state preparation, and 
 
 Plain English:
 
-Quantum physics shows that reality has a possibility layer. MKUFT asks whether that possibility layer is structured by coherence and constraint.
+Quantum physics shows that physical theory already requires possibility-structure. MKUFT asks whether possibility-structure can be modelled through coherence and constraint.
 
 ## Field Theory Bridge
 
