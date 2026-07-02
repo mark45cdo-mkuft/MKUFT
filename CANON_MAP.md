@@ -106,12 +106,6 @@ This file defines the current working hierarchy for the public MKUFT GitHub repo
     - Not a standalone canonical paper.
     - File: `docs/20_GRACE_TRAVERSAL_RULE.md`.
 
-18. **Recursive Model–Field Feedback**
-    - Public-facing support / bridge note for model-construction feedback under observer/model coherence.
-    - Treats mirror-like returns as useful only when they add constraint, correction, prediction, operational clarity, or falsification value.
-    - Preserves closure tests such as salience bias, priming, retrospective selection, cultural overlap, recommendation effects, and overfitting.
-    - File: `docs/21_RECURSIVE_MODEL_FIELD_FEEDBACK.md`.
-
 ## Superseded / Historical Material
 
 Older schemes such as P = Perception/Boundary, O = Output, or Material/Electrodynamic/Informational/Symmetry/Core are retained only as historical scaffold unless Mark explicitly reactivates them.
