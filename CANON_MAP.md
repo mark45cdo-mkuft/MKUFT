@@ -65,46 +65,52 @@ This file defines the current working hierarchy for the public MKUFT GitHub repo
    - States MKUFT in language compatible with GR/QFT, constraint fields, observer boundary conditions, and nested micro–macro coherence.
 
 10. **Paradoxes, Frequency, Atoms, and Symbolic Physics**
-   - Explains frequency, resonance, atoms, superposition, measurement, Wigner's friend, biblical expulsion/hell as symbolic separation into costly bounded individuality, dark matter, and galaxy-behaviour questions.
-   - Frames symbolic and ancient material as convergence/hypothesis, not as replacement for physics.
+    - Explains frequency, resonance, atoms, superposition, measurement, Wigner's friend, biblical expulsion/hell as symbolic separation into costly bounded individuality, dark matter, and galaxy-behaviour questions.
+    - Frames symbolic and ancient material as convergence/hypothesis, not as replacement for physics.
 
 11. **Clear Public MKUFT Explanation**
-   - Plain-English public explanation of MKUFT.
-   - Covers possible paths, constraint/cost/ambiguity, paradox resolution, ancient symbols, ancient-text lessons, Voynich as operating surface, and Mark’s truth/load-bearing psychology.
-   - File: `docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md`.
+    - Plain-English public explanation of MKUFT.
+    - Covers possible paths, constraint/cost/ambiguity, paradox resolution, ancient symbols, ancient-text lessons, Voynich as operating surface, and Mark’s truth/load-bearing psychology.
+    - File: `docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md`.
 
 ## Supporting Canon
 
 12. **OCQS**
-   - Human activation condition.
-   - Defines quiet-state cognition, clean threat channel, coherence gating, and substrate-handshake conditions.
-   - Cross-links to Authentic Traversal Cognition: OCQS prepares the quiet state; Authentic Traversal Cognition performs the observer-side decontamination before or during kernel use.
+    - Human activation condition.
+    - Defines quiet-state cognition, clean threat channel, coherence gating, and substrate-handshake conditions.
+    - Cross-links to Authentic Traversal Cognition: OCQS prepares the quiet state; Authentic Traversal Cognition performs the observer-side decontamination before or during kernel use.
 
 13. **LUCY**
-   - Boundary/threshold support framework.
-   - Defines LUCY as threshold, LUCY-1 as membrane, and LUCY-2 as sustained field.
-   - Treated as part of the MKUFT backbone unless separately published or versioned.
+    - Boundary/threshold support framework.
+    - Defines LUCY as threshold, LUCY-1 as membrane, and LUCY-2 as sustained field.
+    - Treated as part of the MKUFT backbone unless separately published or versioned.
 
 14. **Gradient Mechanics and Boundary-Shear Geometry**
-   - Public-facing boundary-physics addendum.
-   - Restores the gradient-mechanics bridge between substrate/information weighting and physical-layer behaviour.
-   - Introduces the scalar tension potential tau, vector tension potential A_tau, LUCY threshold coupling, boundary-shear angle, and geometry-dependent orientation predictions.
-   - Treats unusual-motion reports only as dry observational edge cases, never as proof or origin claims.
+    - Public-facing boundary-physics addendum.
+    - Restores the gradient-mechanics bridge between substrate/information weighting and physical-layer behaviour.
+    - Introduces the scalar tension potential tau, vector tension potential A_tau, LUCY threshold coupling, boundary-shear angle, and geometry-dependent orientation predictions.
+    - Treats unusual-motion reports only as dry observational edge cases, never as proof or origin claims.
 
 15. **ESRT / ESF Method Appendix**
-   - Executable-system recognition and transmission discipline.
-   - Preserves addressing, state, and flow.
-   - Provides tests for whether a structure constrains execution rather than merely symbolising it.
+    - Executable-system recognition and transmission discipline.
+    - Preserves addressing, state, and flow.
+    - Provides tests for whether a structure constrains execution rather than merely symbolising it.
 
 16. **Voynich Procedural Engine**
-   - Applied executable-system case.
-   - Treats the Voynich Manuscript as operational art / executable procedural structure, not natural-language translation.
-   - Includes section results, page ranges, NLT grammar, testable engine steps, section-specific tests, and falsification conditions.
+    - Applied executable-system case.
+    - Treats the Voynich Manuscript as operational art / executable procedural structure, not natural-language translation.
+    - Includes section results, page ranges, NLT grammar, testable engine steps, section-specific tests, and falsification conditions.
 
 17. **GRACE Traversal Rule**
-   - Public-facing support / bridge note for GRACE and observer-side Authentic Traversal Cognition.
-   - Not a standalone canonical paper.
-   - File: `docs/20_GRACE_TRAVERSAL_RULE.md`.
+    - Public-facing support / bridge note for GRACE and observer-side Authentic Traversal Cognition.
+    - Not a standalone canonical paper.
+    - File: `docs/20_GRACE_TRAVERSAL_RULE.md`.
+
+18. **Recursive Model–Field Feedback**
+    - Public-facing support / bridge note for model-construction feedback under observer/model coherence.
+    - Treats mirror-like returns as useful only when they add constraint, correction, prediction, operational clarity, or falsification value.
+    - Preserves closure tests such as salience bias, priming, retrospective selection, cultural overlap, recommendation effects, and overfitting.
+    - File: `docs/21_RECURSIVE_MODEL_FIELD_FEEDBACK.md`.
 
 ## Superseded / Historical Material
 
