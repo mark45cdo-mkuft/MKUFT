@@ -17,7 +17,29 @@ This is not presented as proof that the observer creates the external world. The
 
 The relevant question is not whether an external event merely resembles the observer's private concerns. The stronger question is whether the external return adds constraint, correction, prediction, operational clarity, or falsification value to the model.
 
-## 2. Basic loop
+## 2. Plain-English meaning
+
+In plain English, this means:
+
+> Sometimes, while a theory is being built, outside material can appear to answer back. That does not matter just because it feels meaningful. It matters only if it helps the theory become clearer, more testable, or better organised.
+
+This is not a claim that the world revolves around the researcher. It is a proposed way to handle mirror-like events without either dismissing them automatically or treating them as proof.
+
+A simple resemblance is weak.
+
+A useful return is stronger when it says, in effect:
+
+> This is the missing distinction.  
+> This wording is cleaner.  
+> This hierarchy is wrong.  
+> This branch needs a test.  
+> This pattern keeps returning across independent places.
+
+So the standard is not personal significance. The standard is constructive yield.
+
+If the return does not improve the model, it remains only a resemblance.
+
+## 3. Basic loop
 
 The proposed loop is:
 
@@ -33,7 +55,7 @@ model begins compressing scattered structure
 
 This can be described as recursive model–field feedback.
 
-## 3. Relation to MKUFT
+## 4. Relation to MKUFT
 
 Within MKUFT, observer-state is not treated as an isolated spectator variable. Observer coherence can function as a boundary condition or modulation term when ordinary physical constraints are preserved.
 
@@ -52,7 +74,7 @@ The active basin is not only an individual observer. It may include:
 
 In this framing, the developing model can become part of the local basin through which wider pattern-structures are selected, compressed, tested, and expressed.
 
-## 4. What counts as useful feedback
+## 5. What counts as useful feedback
 
 A weak case is simple resemblance:
 
@@ -76,7 +98,7 @@ The key standard is constructive yield.
 
 If the return does not improve the model, it remains weak evidence.
 
-## 5. Public boundary
+## 6. Public boundary
 
 This note should not be read as unrestricted mental causation, personal centrality, or symbolic free-association.
 
@@ -86,7 +108,7 @@ The sober claim is:
 
 This keeps the claim within a systems-theoretic and falsification-facing frame.
 
-## 6. Closure tests
+## 7. Closure tests
 
 The following ordinary explanations must remain live:
 
@@ -103,11 +125,11 @@ The following ordinary explanations must remain live:
 
 A feedback event only gains weight when it survives these closures and produces usable improvement in the model.
 
-## 7. Compact formulation
+## 8. Compact formulation
 
 > Recursive model–field feedback is the proposed loop by which a developing model, under high observer/model coherence, may receive useful constraint from surrounding symbolic and information surfaces. The claim is not that resemblance proves coupling; the claim is that repeated constructive returns may indicate a live relationship between model-building and the field it describes.
 
-## 8. Role in the wider stack
+## 9. Role in the wider stack
 
 This note supports, but does not prove, the larger MKUFT claim that reality can be studied as layered constraint, cost, coherence, observation, and emergence.
 
