@@ -1,8 +1,8 @@
 # MKUFT Core Extended — Clean Working Copy
 
-Author: Mark McLaughlin
+Author: Mark Charles McLaughlin
 
-Status: Primary canon spine for the private GitHub working repository.
+Status: Primary canon spine for the public controlled GitHub working copy.
 
 ## Purpose
 
@@ -81,4 +81,4 @@ If these effects repeatedly fail under strong controls, MKUFT is wrong or incomp
 
 ## Canon Note
 
-This file is a cleaned GitHub working copy, not a replacement for the original source document unless Mark explicitly designates it as such.
+This file is a cleaned public GitHub working copy, not a replacement for the original source document unless Mark explicitly designates it as such.
