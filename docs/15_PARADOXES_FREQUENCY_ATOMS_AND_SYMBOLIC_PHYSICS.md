@@ -2,7 +2,7 @@
 
 Author: Mark Charles McLaughlin
 
-Status: public-facing explanatory bridge paper for the private MKUFT GitHub repository.
+Status: public-facing explanatory bridge paper inside the controlled MKUFT GitHub working copy.
 
 ## Purpose
 
@@ -10,9 +10,9 @@ This is a bridge paper.
 
 Its purpose is to help a reader move from familiar public ideas into the deeper MKUFT structure without being thrown into symbols too early.
 
-The formal papers carry the mathematical and scientific backbone. This paper does a different job. It gives the reader a guided path through the material that usually feels strange at first: frequency, resonance, atoms, entanglement, superposition, measurement, ancient symbolism, biblical imagery, dark matter, and galaxy behaviour.
+The formal papers carry the mathematical and scientific backbone. This paper does a different job. It gives the reader a guided path through material that can otherwise feel strange at first: frequency, resonance, atoms, entanglement, superposition, measurement, ancient symbolism, religious-text symbolism, dark matter, and galaxy behaviour.
 
-Those subjects should not be thrown at the reader as a list of claims. They need to be walked into.
+Those subjects should not be presented as a list of claims. They need to be walked into.
 
 The path here is simple:
 
@@ -22,9 +22,9 @@ pattern -> repetition -> resonance -> boundary -> allowed state -> measurement -
 
 The goal is not to declare symbolic interpretations as scientific fact.
 
-The goal is to show where physical, informational, ancient, religious, and mathematical structures appear to converge, while clearly separating hypothesis, metaphor, formal model, and testable physics-facing prediction.
+The goal is to show where physical, informational, ancient, religious-text, and mathematical structures appear to converge, while clearly separating hypothesis, metaphor, formal model, and testable physics-facing prediction.
 
-The subject is naturally strange. That does not mean it should be written vaguely. The stranger the subject, the cleaner the language must be.
+The subject is naturally difficult. That does not mean it should be written vaguely. The stranger the subject, the cleaner the language must be.
 
 ## 1. Frequency as Repeated Coherence
 
@@ -52,19 +52,7 @@ A single vibration can be noise. A stable frequency is a maintained pattern. It 
 
 In MKUFT, frequency matters because repeated coherence can stabilise a pathway. A system that repeats cleanly can couple, resonate, reinforce, entrain, or phase-lock with another system.
 
-This connects to:
-
-- waves,
-- resonance,
-- lasers,
-- sound,
-- brain rhythms,
-- ritual timing,
-- music,
-- breathing,
-- planetary and astronomical cycles.
-
-Frequency therefore becomes a bridge between physics and embodied experience.
+This connects to waves, resonance, lasers, sound, brain rhythms, ritual timing, music, breathing, and planetary or astronomical cycles.
 
 The important point is not that every frequency is special. Most are not. The point is that stable repetition gives a system a way to hold identity through time.
 
@@ -104,7 +92,7 @@ Lower coherence cost C[γ] means the transition is easier.
 
 Frequency, resonance, and coherence therefore belong together.
 
-This is also why ancient systems matter as convergence evidence. Temples, chants, drums, bells, breath practices, circular calendars, astronomical alignments, and sacred proportions may look religious on the surface, but structurally many of them are about timing, orientation, rhythm, and state control.
+This is also why ancient systems matter as comparative bridge material. Temples, chants, drums, bells, breath practices, circular calendars, astronomical alignments, and sacred proportions may look religious on the surface, but structurally many of them concern timing, orientation, rhythm, and state control.
 
 That does not prove MKUFT.
 
@@ -114,11 +102,11 @@ It does show that many human cultures kept returning to the same operational ing
 pattern -> repetition -> resonance -> state change -> coherence
 ```
 
-## 3. From Data Field to Atoms
+## 3. From Information Field to Atoms
 
 MKUFT begins with the idea that reality behaves like a structured information field.
 
-That does not mean the universe is a computer game, a simulation claim, or a metaphor-only fantasy.
+That does not mean the universe is a computer game, a simulation claim, or metaphor-only speculation.
 
 It means physical things may be the visible expression of deeper patterns, constraints, and possibilities.
 
@@ -139,7 +127,7 @@ That is the bridge into atoms.
 The ladder is:
 
 ```text
-data field -> information pattern -> standing relation -> stable boundary -> allowed state -> physical atom
+information field -> information pattern -> standing relation -> stable boundary -> allowed state -> physical atom
 ```
 
 An atom is not simply a tiny ball made of smaller balls.
@@ -180,11 +168,11 @@ They show that reality already behaves as if form depends on permission, pattern
 
 ## 4. Entanglement and Nonlocal Relation
 
-This data-field-to-atom ladder gives a cleaner doorway into quantum entanglement.
+This information-field-to-atom ladder gives a cleaner doorway into quantum entanglement.
 
 Entanglement is often described as “spooky action at a distance,” because two particles can show correlations even when separated by large distances.
 
-That phrase is useful because it captures the shock. It is also misleading if it makes people imagine two tiny balls secretly texting each other faster than light.
+That phrase is useful because it captures the shock. It is also misleading if it makes people imagine two tiny balls secretly exchanging signals faster than light.
 
 That sounds impossible if we imagine particles as fully separate little objects sending signals through empty space.
 
@@ -233,7 +221,7 @@ with outcome probability:
 P(i) = |c_i|²
 ```
 
-To a public reader, superposition can sound like magic: the particle is here and there, alive and dead, real and unreal.
+To a public reader, superposition can sound like an unlimited contradiction: here and there, alive and dead, real and unreal.
 
 A cleaner reading is:
 
@@ -279,11 +267,11 @@ In MKUFT language:
 possibility -> boundary interaction -> stable record
 ```
 
-The observer is not a magic mind causing collapse. The observer/instrument/environment system acts as a boundary condition that helps determine which outcome becomes part of stable physical history.
+The observer is not a mind that freely causes collapse. The observer/instrument/environment system acts as a boundary condition that helps determine which outcome becomes part of stable physical history.
 
 This is important because it avoids two weak extremes.
 
-One weak extreme says consciousness magically creates reality.
+One weak extreme says consciousness creates reality without constraint.
 
 The other says observation is irrelevant, even though quantum experiments depend heavily on how systems are prepared, isolated, measured, and recorded.
 
@@ -323,7 +311,7 @@ Plain English:
 
 The paradox appears because we treat observation as one simple event. MKUFT treats observation as nested boundary integration.
 
-Wigner's friend is not solved by saying consciousness magically collapses reality. It is reframed as a question of which boundary has stabilised the record and when that record becomes shared across higher layers.
+Wigner's friend is not solved by saying consciousness collapses reality without constraint. It is reframed as a question of which boundary has stabilised the record and when that record becomes shared across higher layers.
 
 This also shows why MKUFT cares so much about nested systems.
 
@@ -334,7 +322,7 @@ A record can be true inside one layer and not yet integrated at another layer. T
 The connection is now cleaner:
 
 ```text
-data field -> information pattern -> standing relation -> stable boundary -> allowed state -> transition -> frequency -> measurement record
+information field -> information pattern -> standing relation -> stable boundary -> allowed state -> transition -> frequency -> measurement record
 ```
 
 Atoms emit and absorb energy at specific frequencies because only certain transitions are allowed.
@@ -353,50 +341,50 @@ Reality does not change in any arbitrary way. It changes along permitted routes.
 
 That sentence carries a lot of the MKUFT instinct.
 
-It says the world is not random mush. It is not mechanical deadness either. It is a layered system in which possibility becomes expression through lawful constraint.
+It says the world is neither random mush nor mechanical deadness. It is a layered system in which possibility becomes expression through lawful constraint.
 
-## 9. Biblical Lens: Expulsion, Hell, and 3D Reality
+## 9. Religious-Text Symbolism: Separation and Bounded Individuality
 
-This section is symbolic interpretation, not a claim that scripture is secretly physics.
+This section is symbolic interpretation, not a claim that religious text is secretly physics.
 
 A useful MKUFT reading is:
 
 ```text
-oneness -> boundary -> separation -> costly individuality -> reintegration
+unity -> boundary -> separation -> costly individuality -> reintegration
 ```
 
-In biblical language, expulsion from Eden, fall, exile, or hell can be read as symbolic accounts of separation from unity.
+In religious-text symbolism, expulsion, fall, exile, or separation can be read as symbolic accounts of separation from unity.
 
-Hell, in this frame, is not merely a place of fire. It can be read as a state of maximum separation: boundary without reintegration, individuality without love, intelligence without cohesion.
+In this frame, maximum separation can be read as boundary without reintegration: individuality without cohesion, intelligence without return to relation.
 
 3D reality is then symbolically interesting because it is the realm of bounded individuality.
 
-Bodies have edges. Lives have duration. Choices have cost. Separation becomes real enough to hurt, but also real enough to allow love, repair, and return.
+Bodies have edges. Lives have duration. Choices have cost. Separation becomes real enough to matter, but also real enough to allow love, repair, and return.
 
 Plain English:
 
-If oneness is the deepest state, then 3D life may be the costly school of separated beings learning how to return to cohesion without losing individuality.
+If unity is treated as the deepest symbolic state, then 3D life can be read as the costly school of separated beings learning how to return to cohesion without losing individuality.
 
-This is where the symbolism becomes powerful.
+This is where the symbolism becomes useful.
 
 A being cannot love if it is not distinct enough to choose. But a being that becomes only distinct, only separate, only self-enclosed, loses the very cohesion that makes love possible.
 
 So the symbolic drama of separation and return maps cleanly onto the MKUFT mechanics of boundary and reintegration.
 
-Again: this is not proof that scripture is physics.
+Again: this is not proof that religious text is physics.
 
 It is a disciplined interpretive bridge.
 
-## 10. Devil / Adversarial Principle
+## 10. Symbolic Boundary Fragmentation Principle
 
-MKUFT does not need to declare the devil as a literal entity in order to extract meaning from the symbol.
+MKUFT does not need to treat a symbolic figure as literal in order to extract structural meaning from the symbol.
 
-The devil can be read structurally as the adversarial principle of incoherent boundary:
+The fragmentation principle can be read structurally as incoherent boundary:
 
 - division without higher integration,
 - intelligence without love,
 - distinction without humility,
-- separation weaponised against unity,
+- separation against unity,
 - boundary becoming parasitic rather than creative.
 
 This fits the MKUFT boundary logic.
@@ -405,9 +393,7 @@ Boundary is necessary for form.
 
 But boundary that refuses reintegration becomes fragmentation.
 
-A knife can cut food or cut flesh. A wall can protect a home or become a prison. A self can become a person or become a sealed fortress.
-
-The adversarial principle is not boundary itself.
+The principle is not boundary itself.
 
 It is boundary detached from love, truth, and reintegration.
 
@@ -415,7 +401,7 @@ In MKUFT terms:
 
 ```text
 creative boundary = distinction serving coherence
-adversarial boundary = distinction serving fragmentation
+fragmenting boundary = distinction serving fragmentation
 ```
 
 ## 11. Ancient Civilisation Bridge
@@ -436,7 +422,7 @@ MKUFT does not claim every ancient symbol is advanced physics.
 
 It asks whether ancient cultures preserved operational knowledge in symbolic form, especially knowledge about coherence, timing, orientation, and environment.
 
-This is hypothesis and convergence evidence, not proof.
+This is hypothesis and comparative convergence, not proof.
 
 The key point is repetition across cultures.
 
@@ -464,15 +450,7 @@ That is enough to be interesting without becoming sloppy.
 
 Modern science already treats information as physically serious.
 
-Examples include:
-
-- entropy,
-- thermodynamic information,
-- black-hole entropy,
-- quantum information,
-- error correction,
-- Shannon information,
-- computational complexity.
+Examples include entropy, thermodynamic information, black-hole entropy, quantum information, error correction, Shannon information, and computational complexity.
 
 MKUFT uses this bridge carefully.
 
@@ -599,14 +577,7 @@ It is to open a disciplined alternative question:
 Are all hidden gravitational effects caused by unseen matter, or do some represent hidden constraint geometry?
 ```
 
-That question must be tested against:
-
-- galaxy rotation curves,
-- gravitational lensing,
-- cluster dynamics,
-- cosmic microwave background constraints,
-- structure formation,
-- early-galaxy observations.
+That question must be tested against galaxy rotation curves, gravitational lensing, cluster dynamics, cosmic microwave background constraints, structure formation, and early-galaxy observations.
 
 If particle dark matter explains the full evidence better, MKUFT must accept that.
 
@@ -618,15 +589,9 @@ That is the right edge: open, but not loose.
 
 ## 16. Why This Belongs in the Stack
 
-This material belongs in MKUFT because the public will ask these questions.
+This material belongs in MKUFT because readers will ask these questions.
 
-They will ask:
-
-- Is this quantum woo?
-- Is this religion disguised as physics?
-- Is this denying dark matter?
-- Is this saying consciousness creates reality?
-- Is this ancient aliens?
+They will ask whether MKUFT is loose quantum language, religion substituted for physics, denial of dark matter, unrestricted observer-creation, or ancient-technology speculation.
 
 The answer must be clear:
 
@@ -634,7 +599,7 @@ No.
 
 MKUFT is a constraint/coherence framework. It can interpret religious, ancient, and anomalous material, but it does not use them as substitutes for physics.
 
-It treats them as convergence fields.
+It treats them as bridge fields.
 
 The public-facing value is not only in the equations. It is in showing the reader that the same pattern keeps appearing:
 
@@ -642,7 +607,7 @@ The public-facing value is not only in the equations. It is in showing the reade
 possibility -> pattern -> boundary -> state -> transition -> record
 ```
 
-That pattern appears in atoms, measurement, ritual, scripture, civilisation, galaxies, and the Voynich structural engine.
+That pattern appears in atoms, measurement, ritual, religious-text symbolism, civilisation, galaxies, and the Voynich structural engine.
 
 The claim is not that all these things are the same.
 
@@ -650,7 +615,7 @@ The claim is that they may share a deeper grammar.
 
 ## 17. Summary
 
-MKUFT ties frequency, atoms, quantum paradoxes, ancient symbolism, biblical imagery, dark matter, and galaxy behaviour through one disciplined idea:
+MKUFT ties frequency, atoms, quantum paradoxes, ancient symbolism, religious-text symbolism, dark matter, and galaxy behaviour through one disciplined idea:
 
 ```text
 reality expresses through constrained coherence across nested boundaries
@@ -668,7 +633,7 @@ Measurement shows boundary stabilisation.
 
 Wigner's friend shows nested observer boundaries.
 
-Biblical expulsion shows symbolic separation from unity into costly individuality.
+Religious-text separation symbolism shows boundary from unity into costly individuality.
 
 Dark matter raises the question of hidden mass versus hidden constraint.
 
@@ -682,10 +647,10 @@ Not proof by symbol.
 
 A structured convergence map.
 
-The reason it is powerful is not that any single comparison proves it.
+The reason it is useful is not that any single comparison proves it.
 
-The power is the stack:
+The value is the stack:
 
-physics, information, boundary, frequency, symbol, measurement, civilisation, and cosmic structure all keep pointing toward the same kind of grammar.
+physics, information, boundary, frequency, symbol, measurement, civilisation, and cosmic structure all point toward the same class of grammar.
 
 That is the MKUFT signal.
