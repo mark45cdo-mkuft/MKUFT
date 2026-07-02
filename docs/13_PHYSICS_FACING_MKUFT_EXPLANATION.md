@@ -2,7 +2,7 @@
 
 Author: Mark Charles McLaughlin
 
-Status: public and physics-facing explanatory paper for the private MKUFT GitHub repository.
+Status: public and physics-facing explanatory paper inside the controlled MKUFT GitHub working copy.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ It avoids loose symbolism and focuses on definitions, claims, scope, and falsifi
 
 ## 1. One-Line Summary
 
-MKUFT proposes that known physical laws emerge from a deeper coherence-optimising constraint field that biases allowable histories without violating local dynamics, explaining both the stability of physics and its rare structured breakdowns.
+MKUFT proposes that known physical laws emerge from a deeper coherence-optimising constraint field that biases allowable histories without violating local dynamics, explaining both the stability of physics and the possibility of rare structured anomalies.
 
 ## 2. What MKUFT Is
 
@@ -32,7 +32,7 @@ MKUFT is not:
 - a replacement for quantum field theory,
 - consciousness-collapse idealism,
 - simulation theory,
-- a licence for magical causation,
+- a licence for unrestricted causation,
 - a claim that belief overrides physics.
 
 It is a unification of constraint, information, coherence, and emergence.
@@ -175,7 +175,7 @@ Observer effects are modelled as lawful, constraint-bound modulation rather than
 
 Any such effect must remain inside the system's gradients, coherence state, physical conditions, and realisation constraints.
 
-No collapse magic.
+No unbounded collapse mechanism.
 
 No violation of conservation laws.
 
@@ -243,7 +243,7 @@ A cell does not need to tell the planet what it is doing. A galaxy does not need
 
 ## 13. Anomalous Regimes
 
-MKUFT predicts that rare breakdowns of ordinary behaviour should not be random.
+MKUFT predicts that rare deviations from ordinary behaviour should not be random.
 
 They should cluster where:
 
@@ -254,7 +254,7 @@ They should cluster where:
 - systems approach coherence thresholds,
 - boundary conditions are under stress.
 
-This gives a way to discuss UAP-like or anomaly-like behaviour without immediately invoking exotic propulsion, fantasy, or denial.
+This gives a way to discuss UAP-like or anomaly-like behaviour without immediately invoking exotic propulsion, unsupported explanation, or dismissal.
 
 Physics-facing claim:
 
