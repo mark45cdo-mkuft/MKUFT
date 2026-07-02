@@ -2,13 +2,13 @@
 
 Author: Mark Charles McLaughlin
 
-Status: public-facing explanatory paper for the private MKUFT GitHub repository.
+Status: public-facing explanatory bridge inside the controlled MKUFT GitHub working copy.
 
 ## Purpose
 
 This document explains the wider MKUFT stack in clear English.
 
-It is not the formal backbone paper. It is the meat around the backbone: the convergence layer that shows why the model matters, how it touches known physics, why ancient systems keep reappearing in the discussion, and how nested systems, scripture, geometry, uncertainty, and dark-matter questions can be discussed without collapsing the work into loose speculation.
+It is not the formal backbone paper. It is a convergence bridge that shows why the model matters, how it touches known physics, why ancient symbolic systems keep reappearing in the discussion, and how nested systems, geometry, uncertainty, religious-text symbolism, and dark-matter questions can be discussed without collapsing the work into loose speculation.
 
 The aim is simple:
 
@@ -31,20 +31,20 @@ O = Observer
 
 Meaning:
 
-- Substrate = the deep field of possible states.
+- Substrate = the structured field of possible states.
 - Information = pattern, constraint, relation, and structure.
 - Physical = what becomes measurable and embodied.
 - Observer = the coherent system engaging the field.
 
 Plain English:
 
-Reality may be less like a pile of objects and more like a living field of rules, routes, thresholds, and expressions.
+Reality may be less like a pile of objects and more like a layered field of rules, routes, thresholds, and expressions.
 
-## 2. Universe as Data Field
+## 2. Universe as Information Field
 
-When MKUFT says the universe is like a data field, it does not mean the universe is literally a computer screen or video game.
+When MKUFT says the universe is like an information field, it does not mean the universe is literally a computer screen or video game.
 
-It means the universe behaves as if information is fundamental.
+It means the universe behaves as if information is fundamental to how physical outcomes are structured.
 
 Modern physics already points this way in several places:
 
@@ -61,7 +61,7 @@ MKUFT extends this by saying:
 Reality = structured possibility becoming physical expression under constraint.
 ```
 
-The substrate is the deeper possibility-field. Information shapes it. Physics expresses it. Observation participates in how it becomes definite.
+The substrate is the deeper possibility-field. Information shapes it. Physics expresses it. Observation participates in how it becomes definite, but only within bounded physical and informational limits.
 
 ## 3. Cohesion
 
@@ -129,7 +129,7 @@ Quantum theory gives a set of possible outcomes. MKUFT asks whether coherence an
 
 MKUFT does not say the observer can create anything at will.
 
-It says observer coherence may act as a boundary condition.
+It says observer coherence may act as a bounded modulation condition.
 
 A simple observer-coherence term is:
 
@@ -167,9 +167,9 @@ The same kind of logic can appear at different scales:
 - rituals inside civilisations,
 - individual cognition inside collective meaning.
 
-This is where the phrase “as above, so below” becomes useful.
+The phrase “as above, so below” is used only as a nested-systems shorthand.
 
-It does not mean everything is magically identical. It means similar structural patterns can recur across scales because the same constraint logic is operating at different levels.
+It does not mean everything is magically identical. It means similar structural patterns can recur across scales because similar constraint logic may operate at different levels.
 
 Plain English:
 
@@ -179,7 +179,7 @@ A pattern can reappear at many scales without being a copy. It is the same gramm
 
 Ancient civilisation material is not the formal proof of MKUFT.
 
-It is convergence evidence: repeated historical clues that many cultures treated geometry, timing, place, body, sky, and ritual as interlocking systems.
+It is comparative bridge material: repeated historical examples showing that many cultures treated geometry, timing, place, body, sky, and ritual as interlocking systems.
 
 Recurring ancient patterns include:
 
@@ -196,35 +196,35 @@ Recurring ancient patterns include:
 - pyramidal or stepped architectures,
 - repeated use of proportion and resonance.
 
-MKUFT reads this as possible evidence that ancient systems preserved operational knowledge in symbolic and architectural form.
+MKUFT reads this as a possible historical record of symbolic and architectural systems organised around boundary, timing, geometry, and coherence.
 
 Plain English:
 
 Ancient structures may not simply represent beliefs. Some may have been designed to place humans, geometry, timing, and environment into coherent relation.
 
-## 8. Biblical Lens and Boundary from Oneness
+## 8. Religious-Text Symbolism and Boundary from Unity
 
-Biblical language can be read through MKUFT as an interpretive lens, not as a forced scientific proof.
+Religious-text symbolism can be read through MKUFT as an interpretive bridge, not as forced scientific proof.
 
 A useful symbolic reading is:
 
-- God / oneness = undivided source or totality,
+- unity = undivided source or totality,
 - creation = differentiation from unity into form,
 - light = intelligible order emerging from undifferentiated depth,
 - fall / division = fragmentation, boundary, distortion, or separation from coherence,
-- devil / adversarial principle = the pattern that divides, isolates, distorts, or weaponises boundary against unity.
+- adversarial principle = the pattern that divides, isolates, distorts, or weaponises boundary against unity.
 
 This is not presented as a literal physics claim.
 
 It is a meaning-layer interpretation:
 
 ```text
-Oneness -> boundary -> separation -> distortion -> restoration / reintegration
+unity -> boundary -> separation -> distortion -> restoration / reintegration
 ```
 
 Plain English:
 
-If unity is the deepest state, then evil can be modelled as destructive separation: boundary without love, distinction without cohesion, intelligence without reintegration.
+If unity is treated as the deepest symbolic state, destructive separation can be modelled as boundary without reintegration: distinction that loses cohesion.
 
 This links to MKUFT because MKUFT treats boundaries as powerful. A boundary can create form, but a boundary can also fragment the system if it stops serving cohesion.
 
@@ -336,7 +336,7 @@ MKUFT matters because it tries to hold together things that are usually separate
 - consciousness,
 - geometry,
 - ancient architecture,
-- biblical meaning,
+- religious-text symbolism,
 - procedural systems,
 - anomalous phenomena,
 - falsifiable testing.
@@ -415,7 +415,7 @@ MKUFT says reality may be a nested coherence system.
 
 The physical world is real, but it may be the final expression of deeper layers: substrate possibility, information structure, physical dynamics, and observer coherence.
 
-Ancient systems, biblical symbolism, quantum uncertainty, geometry, and procedural manuscripts such as the Voynich all become interesting because they may preserve fragments of the same deeper grammar:
+Ancient systems, religious-text symbolism, quantum uncertainty, geometry, and procedural manuscripts such as the Voynich all become relevant bridge material because they may preserve fragments of the same deeper grammar:
 
 ```text
 possibility -> pattern -> boundary -> expression -> reintegration
@@ -423,8 +423,4 @@ possibility -> pattern -> boundary -> expression -> reintegration
 
 The theory must still be tested.
 
-But the convergence is the signal.
-
-Not one clue.
-
-A stack of clues.
+The convergence is not proof by itself. It is the reason to test the stack carefully.
