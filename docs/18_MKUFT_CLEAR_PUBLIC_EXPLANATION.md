@@ -76,7 +76,7 @@ The **free will problem** can be reframed because freedom is not unlimited chaos
 
 The **time problem** can be reframed because time can be understood as the lived sequence of state changes: one situation becoming the next.
 
-The **symbol problem** can be reframed because symbols do not only describe reality. They can change behaviour, identity, social status, fear, courage, loyalty, or belief. A symbol can alter the path a person or group takes.
+The **symbol problem** can be reframed because symbols do not only describe reality. They can change behaviour, identity, social status, confidence, fear, loyalty, or belief. A symbol can alter the path a person or group takes.
 
 That is where ancient symbols and texts became useful as bridge material.
 
@@ -104,11 +104,11 @@ Ancient texts can be read in the same structural way.
 
 When an ancient story says, “do not cross this boundary,” it may be teaching that some states have a cost if entered too early or wrongly.
 
-When a text speaks about purification before entering a sacred place, the structural pattern is state change. The person moves from ordinary condition to prepared condition.
+When a text speaks about preparation before entering a protected or sacred place, the structural pattern is state change. The person moves from ordinary condition to prepared condition.
 
-When sacrifice appears in ancient material, the systems lesson is cost. Change is not free. A transition may require something to be given up.
+When offering or renunciation appears in ancient material, the systems lesson is cost. Change is not free. A transition may require something to be given up.
 
-When names, blessings, curses, vows, or commands matter, the lesson is that words can alter reality socially and psychologically. A vow can change a person’s future. A verdict can change someone’s legal status. A military order can move a whole group from waiting to action. Words can act like switches.
+When names, vows, verdicts, or formal declarations matter, the lesson is that words can alter reality socially and psychologically. A vow can change a person’s future. A verdict can change someone’s legal status. An instruction can move a group from waiting to action. Words can act like switches.
 
 That is not a replacement for physics. It is an example of symbolic structure producing real effects in human systems.
 
@@ -116,7 +116,7 @@ A wedding vow changes social reality.
 
 A judge’s sentence changes legal reality.
 
-A command changes battlefield reality.
+A formal instruction changes group behaviour.
 
 A warning sign changes behaviour before any physical force appears.
 
@@ -182,7 +182,7 @@ It checks whether a pattern repeats across different environments.
 
 It asks whether a system behaves the same way under different labels.
 
-It is more interested in the working mechanism than the accepted costume.
+It is more interested in the working mechanism than the accepted label.
 
 It treats truth, coherence, and cost as practical realities, not academic decorations.
 
@@ -192,7 +192,7 @@ It is asking:
 
 **What structure keeps showing up when everything else is stripped away?**
 
-That is also why MKUFT is not symbolic language wearing scientific clothing.
+That is also why MKUFT keeps symbolic material subordinate to structure, testing, and falsification.
 
 It keeps returning to practical tests:
 
