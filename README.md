@@ -35,12 +35,12 @@ Optional support bridge:
 
 ## Public / Explanatory Bridge Papers
 
-7. `docs/11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md` — full-stack convergence: data-field universe, superposition, nested systems, biblical lens, dark matter side-note, equations.
+7. `docs/11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md` — full-stack convergence: data-field universe, superposition, nested systems, symbolic/religious-text pattern bridges, dark matter side-note, equations.
 8. `docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md` — individuality, boundary cost, 3D persistence, love/cohesion, micro-to-cosmic scaling.
 9. `docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md` — physics-facing explanation compatible with GR/QFT language.
-10. `docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md` — frequency, atoms, quantum paradoxes, Wigner's friend, symbolic/biblical physics, dark matter and galaxy-behaviour bridge.
+10. `docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md` — frequency, atoms, quantum paradoxes, Wigner's friend, symbolic/religious-text bridge material, dark matter and galaxy-behaviour questions.
 11. `docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md` — Tesla–Dollard-compatible field-geometry bridge covering electricity, gravity, resonance-addressing, telluric/solar structure, and UAP motion as physical-layer rendering.
-12. `docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md` — clear public explanation of MKUFT, its build path, ancient-symbol/Voynich bridge, paradox resolution, and Mark’s truth/load-bearing psychology.
+12. `docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md` — clear public explanation of MKUFT, its build path, ancient-symbol/Voynich bridge, paradox resolution, and truth/load-bearing method.
 
 ## Support and Application Modules
 
