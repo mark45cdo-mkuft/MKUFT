@@ -2,11 +2,11 @@
 
 Author: Mark Charles McLaughlin
 
-Status: public-facing explanatory paper for the private MKUFT GitHub repository.
+Status: public-facing explanatory bridge inside the controlled MKUFT GitHub working copy.
 
 ## Purpose
 
-This document explains one of the most important deep ideas in the MKUFT stack: individuality has a cost.
+This document explains one of the core structural ideas in the MKUFT stack: individuality has a maintenance cost.
 
 Anything that becomes separate from the background must maintain a boundary. That boundary creates gradients. Those gradients leak, resist, attract, repel, stabilise, distort, or collapse depending on the system.
 
@@ -38,7 +38,7 @@ A second formulation is:
 persistence vs equilibration
 ```
 
-Equilibration alone becomes soup.
+Equilibration alone becomes undifferentiated mixture.
 
 Persistence alone becomes rigidity or fracture.
 
@@ -122,7 +122,7 @@ It manages:
 - external threat,
 - selective permeability.
 
-Death is boundary failure.
+Biological death can be read structurally as irreversible boundary failure.
 
 Life is maintained gradient control.
 
@@ -152,7 +152,7 @@ At the social scale:
 
 Civilisations fail when their boundary cost outruns their cohesion capacity.
 
-They also fail when internal gradients diverge so far that the system can no longer act as one body.
+They also fail when internal gradients diverge so far that the system can no longer act coherently.
 
 ## 9. Cosmic Scale
 
@@ -161,7 +161,7 @@ At the cosmic scale:
 - galaxies can be read as persistent density basins,
 - gravity as global persistence leakage,
 - expansion as background relaxation pressure,
-- dark-matter-like effects as possible off-ledger boundary enforcement or hidden constraint.
+- dark-matter-like effects as possible hidden boundary enforcement or hidden constraint.
 
 This does not claim dark matter is solved.
 
@@ -173,19 +173,17 @@ Is the observed missing behaviour caused only by missing matter, or partly by hi
 
 ## 10. Love as Low-Cost Cohesion
 
-In this framework, love is not merely sentiment.
-
-Love can be read as a low-cost cohesion vector.
+In this framework, love is treated as an example of low-cost cohesion rather than only as sentiment.
 
 A system held by fear requires constant force, surveillance, and defensive expenditure.
 
-A system held by love, trust, and truthful relation can maintain complexity with less internal friction.
+A system held by trust, care, and truthful relation can maintain complexity with less internal friction.
 
 Plain English:
 
 Love lowers the cost of staying together without crushing difference.
 
-This is why love matters mechanically in MKUFT.
+This is why love/cohesion matters mechanically in MKUFT.
 
 It stabilises individuality without isolating it from the whole.
 
@@ -214,13 +212,13 @@ Where difference overwhelms the system, fragmentation occurs.
 
 ## 12. Stability Requires Oscillation
 
-Perfect equilibrium is dead.
+Perfect equilibrium erases difference.
 
-Perfect rigidity is dead.
+Perfect rigidity prevents adaptation.
 
 Stable systems oscillate.
 
-They breathe. They flex. They correct. They return.
+They flex. They correct. They return.
 
 This applies to:
 
@@ -231,7 +229,7 @@ This applies to:
 - planets,
 - universes.
 
-A system that stops oscillating either dissolves or shatters.
+A system that stops adaptive oscillation either dissolves or shatters.
 
 ## 13. Link to MKUFT Equations
 
