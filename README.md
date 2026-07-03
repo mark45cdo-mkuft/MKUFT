@@ -11,6 +11,7 @@ Primary purpose: preserve, organise, and develop the active MKUFT documents with
 Begin with:
 
 - `MKUFT_INTEGRATED_MASTER_SPINE.md` — the front-door synthesis. This is the missing integrated argument: what MKUFT is, why it matters, how the layers fit, how the maths carries the model, how it ties into science, where it is novel, and what would weaken or falsify it.
+- `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — living science/support map: domain -> science finding/gap -> MKUFT resonance -> novelty -> strength -> risk/falsifier -> next check.
 
 Then read:
 
@@ -46,6 +47,10 @@ The public claim is not that belief overrides physics. The public claim is that 
 - `MKUFT_INTEGRATED_MASTER_SPINE.md` — integrated master spine and current best front-door argument. It ties the parts together and should be read before judging the repo.
 - `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — reconstitution kernel with explanation. This is not a replacement for the full MKUFT paper. It preserves the raw route `Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome` and gives enough explanation for a reader or AI system to orient from anywhere in the MKUFT tree.
 - `docs/20_GRACE_TRAVERSAL_RULE.md` — support / bridge note connected to the kernel. It explains Geometry, Relation, Admissibility, Coherence, and Emergence as the clean route through SIPO, and adds the observer-side discipline of Authentic Traversal Cognition. It does not replace the main paper, the kernel, or OCQS.
+
+## Science Support / Verification Map
+
+- `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — tracks where real science supports, resembles, stress-tests, or challenges MKUFT. It uses the fixed scan order: science finding/gap, MKUFT resonance, novelty, strength, risk/falsifier, next check.
 
 ## Canon Spine
 
