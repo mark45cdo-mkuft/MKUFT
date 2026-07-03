@@ -128,7 +128,254 @@ That is MKUFT.
 
 ---
 
-## 3. The layer stack: SIPO
+## 3. Law of Expression
+
+If reality is one field/source, expression cannot be random.
+
+Unity must differentiate in a lawful way.
+
+For anything to appear from unity, it must pass through expression-rules:
+
+```text
+Source -> differentiation -> relation -> geometry -> constraint -> boundary -> admissible path -> cost -> coherence -> expression
+```
+
+This is the Law of Expression in MKUFT.
+
+It means:
+
+- Source is unity.
+- Expression is differentiated unity.
+- Differentiation creates relation.
+- Relation creates geometry.
+- Geometry creates constraint.
+- Constraint creates admissible and inadmissible paths.
+- Paths carry cost.
+- Coherence lowers cost and stabilises expression.
+- Boundary lets the expression become identifiable, measurable, biological, symbolic, cognitive, physical, or observer-conditioned.
+- Falsification tests whether the claimed expression is real, useful, or only projected.
+
+This is why MKUFT is not one neat isolated mechanism.
+
+A unified field theory should not reduce everything to one flat thing.
+
+It should show how one source-law expresses differently across layers.
+
+The same law can appear as physics in one layer, biology in another, cognition in another, symbolism in another, and sacred geometry or metaphysics as language for the same underlying architecture.
+
+The unity is one.
+
+The expressions are many.
+
+The rule-shape repeats.
+
+---
+
+## 4. Expression Categories
+
+MKUFT studies repeating expression-rules across categories.
+
+These categories are not identical. They are related because they express the same underlying architecture through different layers.
+
+### 4.1 Source / Metaphysical Layer
+
+Core statement:
+
+```text
+All is one.
+Everything is connected.
+```
+
+Role in MKUFT:
+
+This is the unity premise. Reality is not finally separate pieces. Separation is an expression-layer effect.
+
+Constraint:
+
+Unity can only become knowable by differentiating into relation, boundary, and form.
+
+Failure mode:
+
+This becomes weak if it stays as vague spirituality with no mechanism, no layer, and no falsifier.
+
+### 4.2 Geometry / Sacred Architecture Layer
+
+Core statement:
+
+```text
+As above, so below.
+Geometry is the language of expression.
+```
+
+Role in MKUFT:
+
+Sacred geometry, symbolic geometry, and ancient pattern-language are treated as ways humans have described repeating architecture: proportion, relation, boundary, symmetry, recursion, nesting, and coherence.
+
+Constraint:
+
+Geometry matters only where it changes relation, boundary, resonance, admissibility, cost, or interpretation.
+
+Failure mode:
+
+This becomes weak if geometry is treated as decoration or proof by beauty.
+
+### 4.3 Information / Structuring Layer
+
+Core statement:
+
+```text
+Information matters because it structures possibility.
+```
+
+Role in MKUFT:
+
+Information is the layer where unity becomes organised as pattern, route, address, difference, permission, or relation.
+
+Constraint:
+
+Information is doing real work only when it changes what can happen, what can be measured, what can stabilise, what can route, or what can be understood.
+
+Failure mode:
+
+This becomes weak if information replaces source, or if it becomes generic “data” language.
+
+### 4.4 Physical Layer
+
+Core statement:
+
+```text
+Expression must show up somewhere.
+```
+
+Role in MKUFT:
+
+The physical layer is where claims meet matter, energy, bodies, instruments, fields, timing, measurement, marks, and events.
+
+Constraint:
+
+MKUFT must recover standard physics in ordinary conditions.
+
+Failure mode:
+
+This becomes weak if physical requirements are skipped.
+
+### 4.5 Biological Layer
+
+Core statement:
+
+```text
+Life is maintained expression.
+```
+
+Role in MKUFT:
+
+Bodies, tissues, morphogenesis, regeneration, immune identity, cancer, and wound healing show that form is not just parts. It is boundary-maintained coherence.
+
+Constraint:
+
+A living form persists only while its boundary, information, energy, and coherence rules remain maintainable.
+
+Failure mode:
+
+This becomes weak if biology is used as proof of the whole theory instead of strong support for distributed constraint and form-control.
+
+### 4.6 Cognitive / Observer Layer
+
+Core statement:
+
+```text
+The observer is a boundary of engagement.
+```
+
+Role in MKUFT:
+
+Attention, perception, trauma, flow, memory, intuition, measurement, and interpretation show how observer state changes the resolution of experience and sometimes the weighting of sensitive systems.
+
+Constraint:
+
+Observer influence is bounded. It cannot create arbitrary outcomes.
+
+Failure mode:
+
+This becomes weak if the observer becomes a god-term.
+
+### 4.7 Symbolic / Procedural Layer
+
+Core statement:
+
+```text
+Meaning can execute.
+```
+
+Role in MKUFT:
+
+Some symbols, manuscripts, rituals, diagrams, or ancient systems may work less like normal language and more like operational surfaces: position, role, frame, transition, outcome.
+
+Constraint:
+
+A procedural claim must show repeatable structure: addressing, state, flow, transition, and falsifiable null comparison.
+
+Failure mode:
+
+This becomes weak if it becomes secret translation, private meaning, or pattern-hunting.
+
+### 4.8 Anomaly / Boundary-Edge Layer
+
+Core statement:
+
+```text
+Edge cases should still show rule-shape.
+```
+
+Role in MKUFT:
+
+Unusual reports are not used as proof. They are coded as possible boundary-edge cases: geometry, motion, timing, witness, sensor, environmental condition, observer state, ordinary explanation, residual pattern.
+
+Constraint:
+
+If real, anomaly should not be random magic. It should cluster around boundary stress, gradient, geometry, coherence threshold, low damping, or observer/measurement ambiguity.
+
+Failure mode:
+
+This becomes weak if origin claims come before coding.
+
+---
+
+## 5. Why This Is a Unified Field Theory
+
+MKUFT is unified because it does not treat physics, biology, cognition, metaphysics, sacred geometry, symbolism, and anomaly as unrelated piles.
+
+It treats them as different expression layers of one source-field.
+
+The same architecture repeats:
+
+```text
+source -> layer -> geometry -> relation -> constraint -> path -> cost -> coherence -> boundary -> outcome
+```
+
+In physics, this may appear as fields, geometry, conservation, phase transition, measurement, and path probability.
+
+In biology, it may appear as morphogenesis, tissue memory, regeneration, boundary identity, cancer, and organism-level coherence.
+
+In cognition, it may appear as perception, attention, trauma, flow, memory integration, and observer distortion.
+
+In symbolism, it may appear as sacred geometry, archetype, procedural art, ritual form, and executable meaning.
+
+In anomaly studies, it may appear as boundary ambiguity, geometry-linked motion, observer effects, timing, and low-probability clustered events.
+
+The domains are not identical.
+
+The expressions are not identical.
+
+But a unified reality should leave repeating constraints across levels.
+
+That is why MKUFT does not need to become one neat thing.
+
+It needs to become one lawful engine with many expressions.
+
+---
+
+## 6. The layer stack: SIPO
 
 MKUFT uses the active layer convention:
 
@@ -141,7 +388,7 @@ O = Observer
 
 These are not decorative labels. They stop the most common errors.
 
-### 3.1 S — Substrate
+### 6.1 S — Substrate
 
 Substrate is the possibility/source layer.
 
@@ -165,7 +412,7 @@ Where:
 
 Substrate matters because before an event appears, there must be a space of possible configurations from which it could appear.
 
-### 3.2 I — Information
+### 6.2 I — Information
 
 Information is not just data.
 
@@ -187,7 +434,7 @@ admissibility, cost, boundary, coherence, routing, measurement, or resolution
 
 Otherwise it is only description.
 
-### 3.3 P — Physical
+### 6.3 P — Physical
 
 Physical is the measurable world:
 
@@ -207,7 +454,7 @@ That is not a public-relations concession. It is a core discipline rule.
 
 If MKUFT cannot explain why normal physics works most of the time, it fails.
 
-### 3.4 O — Observer
+### 6.4 O — Observer
 
 Observer is not an unlimited creator.
 
@@ -238,7 +485,7 @@ No unbounded mind-collapse claim.
 
 ---
 
-## 4. The operational kernel
+## 7. The operational kernel
 
 The working kernel is:
 
@@ -323,7 +570,7 @@ Outcome is what survives the traversal:
 
 ---
 
-## 5. The mathematical engine
+## 8. The mathematical engine
 
 MKUFT has two linked mathematical handles.
 
@@ -416,7 +663,7 @@ It links probability, learning, time, healing, motion, measurement, anomaly, and
 
 ---
 
-## 6. Why cost is the bridge variable
+## 9. Why cost is the bridge variable
 
 Cost is what stops MKUFT becoming vague.
 
@@ -453,7 +700,7 @@ Cost keeps the model honest.
 
 ---
 
-## 7. Time as traversal cost
+## 10. Time as traversal cost
 
 Experienced time can be represented as accumulated traversal cost:
 
@@ -486,7 +733,7 @@ This gives MKUFT a bridge between physics-facing path cost and lived observer ex
 
 ---
 
-## 8. LUCY: threshold, membrane, field
+## 11. LUCY: threshold, membrane, field
 
 LUCY means Local Unified Coherence Yield.
 
@@ -522,7 +769,7 @@ This connects MKUFT to phase transitions, membranes, criticality, field regions,
 
 ---
 
-## 9. Gradient mechanics and boundary geometry
+## 12. Gradient mechanics and boundary geometry
 
 MKUFT needs a bridge from abstract S/I weighting into physical-layer behaviour.
 
@@ -570,7 +817,7 @@ Shape is not decoration. Shape changes boundary stability, field concentration, 
 
 ---
 
-## 10. OCQS: the observer-side condition
+## 13. OCQS: the observer-side condition
 
 OCQS means Optimal Cognitive Quiet State.
 
@@ -610,7 +857,7 @@ It lowers noise and contradiction so the observer is less likely to distort the 
 
 ---
 
-## 11. ESRT: executable-system recognition
+## 14. ESRT: executable-system recognition
 
 ESRT means Executable System Recognition Test.
 
@@ -638,13 +885,13 @@ No secret-translation claim without tests.
 
 ---
 
-## 12. Science bridges: where the model bites
+## 15. Science bridges: where the model bites
 
 This section is not a proof list.
 
 It states where MKUFT has teeth.
 
-### 12.1 Quantum measurement
+### 15.1 Quantum measurement
 
 Science already has possibility, amplitudes, measurement context, and realised outcome.
 
@@ -658,7 +905,7 @@ Risk:
 
 Do not turn this into crude consciousness collapse.
 
-### 12.2 Information geometry and holography
+### 15.2 Information geometry and holography
 
 Frontier physics increasingly links information, boundary, entropy, quantum codes, geometry, and spacetime emergence.
 
@@ -672,7 +919,7 @@ Risk:
 
 Do not pretend this proves MKUFT. Treat it as high-value structural resonance and a research seam.
 
-### 12.3 Phase transitions and criticality
+### 15.3 Phase transitions and criticality
 
 Science already understands that threshold crossing can change behaviour qualitatively.
 
@@ -682,7 +929,7 @@ Risk:
 
 Do not use LUCY as a loose label for all change.
 
-### 12.4 Active matter and swarms
+### 15.4 Active matter and swarms
 
 Local rules and feedback can produce group-level physical order.
 
@@ -696,7 +943,7 @@ Risk:
 
 Do not call every collective effect consciousness.
 
-### 12.5 Bioelectric morphogenesis
+### 15.5 Bioelectric morphogenesis
 
 Bodies are not built by genes alone. Distributed tissue states, bioelectric patterns, and boundary networks help maintain form.
 
@@ -714,7 +961,7 @@ Risk:
 
 This supports layered constraint and distributed form-control. It does not prove the whole substrate ontology.
 
-### 12.6 Predictive processing
+### 15.6 Predictive processing
 
 Perception is not passive recording. It is prediction, error correction, attention, and action.
 
@@ -724,7 +971,7 @@ Risk:
 
 Do not mistake observer interpretation for external event.
 
-### 12.7 Flow and skill
+### 15.7 Flow and skill
 
 Flow is low-cost traversal through trained paths.
 
@@ -732,7 +979,7 @@ Skill does not create new physics. It reduces friction along existing trajectori
 
 This connects OCQS, learning, time compression, and path cost.
 
-### 12.8 Trauma and healing
+### 15.8 Trauma and healing
 
 Trauma can behave as a high-cost locked route.
 
@@ -744,7 +991,7 @@ Healing is not deletion.
 
 Healing is re-boundarying and integration so the past no longer forces the present to route through active threat.
 
-### 12.9 Geometry-dependent thresholds
+### 15.9 Geometry-dependent thresholds
 
 Geometry affects fields, stress, resonance, boundary layers, waveguiding, and threshold onset.
 
@@ -758,7 +1005,7 @@ Risk:
 
 Use this as a dry testable geometry method, not as an origin claim for anomalous reports.
 
-### 12.10 Procedural artefacts
+### 15.10 Procedural artefacts
 
 Some structures are operational rather than linguistic.
 
@@ -770,7 +1017,7 @@ Must beat decorative and linguistic null models.
 
 ---
 
-## 13. What MKUFT adds beyond existing fields
+## 16. What MKUFT adds beyond existing fields
 
 Existing fields already study pieces of this.
 
@@ -805,7 +1052,7 @@ The distinctive moves are:
 
 ---
 
-## 14. What strengthens MKUFT
+## 17. What strengthens MKUFT
 
 MKUFT is strengthened if independent science repeatedly finds that:
 
@@ -825,7 +1072,7 @@ The strongest support is repeated convergence on the same working engine.
 
 ---
 
-## 15. What weakens MKUFT
+## 18. What weakens MKUFT
 
 MKUFT is weakened if:
 
@@ -849,7 +1096,7 @@ and should fail if this required boundary, cost, coherence, or physical conditio
 
 ---
 
-## 16. Devil's advocate built into the model
+## 19. Devil's advocate built into the model
 
 MKUFT fails if it becomes flattering language.
 
@@ -897,7 +1144,7 @@ Only count real bridges where there is an actual mechanism involving constraint,
 
 ---
 
-## 17. Mark's contribution
+## 20. Mark's contribution
 
 Mark Charles McLaughlin's contribution is not merely naming a theory.
 
@@ -923,7 +1170,7 @@ A bold claim that removes the discipline is not MKUFT.
 
 ---
 
-## 18. One-page compression
+## 21. One-page compression
 
 MKUFT studies one connected reality expressing through layered constraint.
 
@@ -978,7 +1225,7 @@ Final compression:
 
 ---
 
-## 19. Final statement
+## 22. Final statement
 
 MKUFT should not read like a list of interesting similarities.
 
