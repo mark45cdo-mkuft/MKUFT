@@ -14,6 +14,13 @@ This file defines the current working hierarchy for the public MKUFT GitHub repo
 - Does not replace the full papers, appendices, original source files, DOI records, or module-specific documents.
 - Should be read before judging the repo.
 
+**Science Convergence and Novelty Map**
+- File: `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md`.
+- Living research map for verification/support, not proof theatre.
+- Uses the scan order: domain, science finding/gap, MKUFT resonance, novelty, strength, risk/falsifier, next check.
+- Tracks where real science supports, resembles, stress-tests, sharpens, or challenges MKUFT.
+- Should be updated as new domains, papers, and timeline/provenance concerns arise.
+
 ## Kernel / Recovery Handle
 
 **MKUFT Reconstitution Kernel**
