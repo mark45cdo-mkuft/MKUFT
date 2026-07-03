@@ -6,33 +6,41 @@ Role: this document is the front-door synthesis. It ties the theory together so 
 
 ---
 
-## 0. The blunt claim
+## 0. The core claim
 
-MKUFT is not a slogan that says "everything is connected" or "information matters".
+MKUFT is a unified field theory built from the principle that reality itself shows constraint, pattern, boundary, and layered rule-structure.
 
-Those are weak statements.
+It does say the simple things first:
 
-MKUFT is a model of **how a possible state becomes a real, stable, measurable, or operational state**.
+```text
+Everything is connected.
+Information matters.
+As above, so below.
+All is one.
+```
+
+Those are not rejected as weak. They are the starting recognition.
+
+MKUFT's work is to show **how** those statements can be made useful rather than left as slogans.
 
 The claim is:
 
-> A thing appears, persists, changes, heals, breaks, moves, means, or measures only where a permitted path exists and the cost of maintaining that path can be paid.
+> Reality is one field/source expressing through layers. Those layers show hidden rules of constraint, geometry, relation, admissibility, cost, coherence, boundary, and observer-position. MKUFT maps those rules and uses them to explain how possible states become physical, operational, meaningful, or measurable outcomes.
 
-That is the first spine.
+This is why metaphysics, ancient symbolic systems, sacred geometry, physics, cognition, biology, and procedural artefacts can sit in the same wider framework without being flattened into the same thing.
 
-The second spine is:
+They are different expressions of underlying architecture.
 
-> Information becomes physically or operationally consequential only when it changes what paths are admissible, what those paths cost, what boundary can hold, what coherence can be maintained, or what observer/measurement condition can resolve.
+The point is not that every domain is identical.
 
-That is the difference between MKUFT and vague information talk.
-
-MKUFT does not merely say that information is important. It asks the harder question:
+The point is that a unified reality should leave repeating signatures across levels.
 
 ```text
-What does the information change?
+as above -> so below
+source -> layer -> geometry -> constraint -> expression
 ```
 
-If it changes nothing in admissibility, cost, boundary, coherence, routing, measurement, or resolution, then it is not doing MKUFT work.
+That is the public spine.
 
 ---
 
@@ -45,7 +53,7 @@ A body forms.
 A wound heals.  
 A memory locks.  
 A flock turns.  
-A symbol means something.  
+A symbol carries meaning.  
 A quantum outcome is recorded.  
 A strange event is reported.  
 A system becomes stable.
@@ -53,24 +61,33 @@ A system becomes stable.
 MKUFT asks the earlier question:
 
 ```text
-What made that outcome reachable at all?
+What hidden rules made that outcome reachable at all?
 ```
 
 Then it asks:
 
 ```text
-What made that reachable outcome cheaper, more stable, more coherent, or more likely than the alternatives?
+What layer is active?
+What geometry or relation is present?
+What path is allowed?
+What cost must be paid?
+What boundary holds?
+What coherence keeps it stable?
+What observer or measurement condition enters?
+What would break the reading?
 ```
 
 That is where the theory bites.
 
-The model is not trying to decorate existing science with spiritual language. It is trying to extract the repeated engine behind many hard problems:
+The model is not trying to decorate existing science with metaphysics. It is saying that metaphysics, ancient geometry, scientific law, cognitive state, biological form, and symbolic/procedural systems may be different languages for the same deeper architecture when they are disciplined through constraint and falsifier.
+
+The repeated engine is:
 
 ```text
-possibility -> constraint -> admissible route -> cost -> coherence -> boundary -> physical or operational resolution
+unity/source -> layered expression -> geometry/relation -> constraint -> admissible path -> cost -> coherence -> boundary -> resolution
 ```
 
-This matters because many sciences already touch pieces of this engine but do not normally hold the whole pattern in one frame.
+This matters because many fields already touch pieces of this engine but do not normally hold the whole pattern in one frame.
 
 Physics sees fields, geometry, probability, boundaries, phase transitions, measurement context, and conservation.
 
@@ -82,21 +99,19 @@ Complex systems see attractors, tipping points, self-organisation, collective or
 
 Symbolic/procedural systems show that meaning can sometimes be executable: position, role, frame, transition, outcome.
 
-MKUFT's value is not that all these fields are secretly the same thing.
-
-They are not.
-
-The value is that the same **constraint logic** keeps appearing inside them.
+MKUFT's value is that these are not random similarities. In a unified reality, repeating rule-shapes are expected.
 
 ---
 
 ## 2. The one-sentence version
 
-> MKUFT studies reality as constrained traversal: possible states become actual, stable, meaningful, or measurable only through admissible paths whose cost, coherence, boundary conditions, and observer/measurement context allow them to resolve.
+> MKUFT maps the layered rules by which one connected reality expresses as physical, informational, symbolic, biological, cognitive, and observer-conditioned outcomes through constraint, geometry, admissible transition, cost, coherence, boundary, and falsifiable resolution.
 
-If that sentence sounds abstract, the operational version is sharper:
+The operational version is:
 
 ```text
+What is the source/layer?
+What geometry or relation is active?
 What can exist?
 What can persist?
 What can change?
@@ -156,19 +171,21 @@ Information is not just data.
 
 Information is structured difference: pattern, relation, constraint, address, route, rule, form, or permission.
 
+It is one active layer of expression, not the whole model and not a safe substitute for source/unity.
+
 Mathematical handle:
 
 ```text
 I = { f : Ω -> R | f ∈ L²(Ω, μ) }
 ```
 
-Information matters only when it changes the system:
+Information matters when it changes the system:
 
 ```text
 admissibility, cost, boundary, coherence, routing, measurement, or resolution
 ```
 
-Otherwise it is just description.
+Otherwise it is only description.
 
 ### 3.3 P — Physical
 
@@ -887,12 +904,12 @@ Mark Charles McLaughlin's contribution is not merely naming a theory.
 It is the recognition and formulation of a repeated reality-engine across domains usually kept apart:
 
 ```text
-constraint, boundary, admissibility, cost, coherence, observer position, resolution
+unity/source, layer, geometry, constraint, boundary, admissibility, cost, coherence, observer position, resolution
 ```
 
 The work did not begin as an academic literature survey.
 
-It came from pattern recognition, lived anomaly analysis, symbolic/procedural work, physics-facing questioning, cognitive self-audit, and repeated attempts to compress a large structure without killing it.
+It came from pattern recognition, lived anomaly analysis, metaphysical and sacred-geometry language, symbolic/procedural work, physics-facing questioning, cognitive self-audit, and repeated attempts to compress a large structure without killing it.
 
 The public repo must preserve both things:
 
@@ -908,7 +925,7 @@ A bold claim that removes the discipline is not MKUFT.
 
 ## 18. One-page compression
 
-MKUFT studies constrained traversal.
+MKUFT studies one connected reality expressing through layered constraint.
 
 Layer stack:
 
@@ -957,7 +974,7 @@ Position -> Role -> Frame -> Transition -> Outcome
 
 Final compression:
 
-> Reality holds together because incoherent paths are expensive and coherent admissible paths persist.
+> All is one, but it expresses through layers. MKUFT maps the hidden rules by which that unity becomes geometry, constraint, boundary, path, cost, coherence, and realised outcome.
 
 ---
 
@@ -970,6 +987,8 @@ It should read like a single engine.
 That engine is:
 
 ```text
+unity expresses through layers;
+geometry gives relation;
 constraint creates admissibility;
 admissibility defines possible transitions;
 transitions carry cost;
