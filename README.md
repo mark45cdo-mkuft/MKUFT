@@ -4,13 +4,17 @@ Public-facing controlled working copy of the current MKUFT canon stack.
 
 Author: Mark Charles McLaughlin  
 Repository status: public controlled canon workspace  
-Primary purpose: preserve, organise, and develop the active MKUFT documents without losing model structure through compression, drift, or outdated wording.
+Primary purpose: preserve, organise, and develop the active MKUFT documents without losing model structure through compression, drift, outdated wording, or over-sanitised summaries.
 
-## Start Here
+## Read First
 
 Begin with:
 
-- `START_HERE_PUBLIC_OVERVIEW.md` — public-facing overview in plain English.
+- `MKUFT_INTEGRATED_MASTER_SPINE.md` — the front-door synthesis. This is the missing integrated argument: what MKUFT is, why it matters, how the layers fit, how the maths carries the model, how it ties into science, where it is novel, and what would weaken or falsify it.
+
+Then read:
+
+- `START_HERE_PUBLIC_OVERVIEW.md` — shorter public-facing overview in plain English.
 - `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery kernel with surrounding explanation; the shortest handle for rebuilding the MKUFT method without replacing the full papers.
 - `CANON_MAP.md` — current hierarchy of the research stack.
 - `PROVENANCE_DOI_AND_ATTRIBUTION.md` — DOI, copyright, licence, and citation structure.
@@ -19,8 +23,27 @@ Optional support bridge:
 
 - `docs/20_GRACE_TRAVERSAL_RULE.md` — support / bridge note only, not a standalone canonical paper. It explains GRACE as the clean traversal rule and Authentic Traversal Cognition as the observer-side discipline.
 
+## Central Thesis
+
+MKUFT studies reality as constrained traversal.
+
+It asks how possible states become stable physical or operational outcomes through:
+
+```text
+Substrate -> Information -> Physical -> Observer
+```
+
+and through the working kernel:
+
+```text
+Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome
+```
+
+The public claim is not that belief overrides physics. The public claim is that physical outcomes, cognition, biological form, symbolic/procedural systems, and anomaly-edge cases may all be studied through a shared grammar of constraint, admissibility, cost, coherence, boundary, observer-position, and falsifiable resolution.
+
 ## Kernel / Recovery Handle
 
+- `MKUFT_INTEGRATED_MASTER_SPINE.md` — integrated master spine and current best front-door argument. It ties the parts together and should be read before judging the repo.
 - `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — reconstitution kernel with explanation. This is not a replacement for the full MKUFT paper. It preserves the raw route `Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome` and gives enough explanation for a reader or AI system to orient from anywhere in the MKUFT tree.
 - `docs/20_GRACE_TRAVERSAL_RULE.md` — support / bridge note connected to the kernel. It explains Geometry, Relation, Admissibility, Coherence, and Emergence as the clean route through SIPO, and adds the observer-side discipline of Authentic Traversal Cognition. It does not replace the main paper, the kernel, or OCQS.
 
@@ -66,6 +89,8 @@ Older wordings that define `P` as Perception/Boundary or `O` as Output are treat
 ## Public-Reading Rule
 
 The repo must be readable to a bright public reader, not only scientists or AI systems. Technical structure is preserved, but each major file should also explain the what, why, where, and how in plain English.
+
+The integrated master spine is now the required first read because it ties the model together rather than only listing documents.
 
 ## Provenance / DOI / Copyright
 
