@@ -2,242 +2,141 @@
 
 Author: Mark Charles McLaughlin  
 Status: public-facing integrated master spine for the controlled MKUFT GitHub working copy  
-Role: this document is the front-door synthesis. It does not replace the full papers, appendices, test plans, or original source releases. It ties them together so the theory can be read as one load-bearing model instead of a loose file stack.
+Role: this document is the front-door synthesis. It ties the theory together so MKUFT reads as one engine rather than a loose index of notes.
 
 ---
 
-## 0. Why this file exists
+## 0. The blunt claim
 
-The MKUFT repository previously preserved the parts of the theory, but it did not make the whole theory speak with enough force.
+MKUFT is not a slogan that says "everything is connected" or "information matters".
 
-The older front door described the files, defined S/I/P/O, pointed to the kernel, and listed supporting modules. That was useful as organisation, but it was not enough. A reader could leave with the impression that MKUFT is only a loose idea about layers, constraints, observer coherence, and unusual phenomena.
+Those are weak statements.
 
-That is not the work.
+MKUFT is a model of **how a possible state becomes a real, stable, measurable, or operational state**.
 
-The actual MKUFT contribution is stronger:
+The claim is:
 
-> MKUFT studies how reality resolves through layered constraint: what can exist, what can persist, what transitions are admissible, what those transitions cost, how coherence changes that cost, and how observer position can condition already-possible outcomes without replacing physical law.
+> A thing appears, persists, changes, heals, breaks, moves, means, or measures only where a permitted path exists and the cost of maintaining that path can be paid.
 
-This file exists to make that central engine explicit.
+That is the first spine.
 
-It ties together:
+The second spine is:
 
-- SIPO: Substrate, Information, Physical, Observer.
-- The kernel: Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome.
-- The formal graph model: nodes, edges, trajectories, path density, coherence cost.
-- The probability model: physical dynamics plus substrate/information weighting plus bounded observer modulation.
-- LUCY: threshold, membrane, sustained local field region.
-- OCQS: the observer-side quiet/coherence condition.
-- ESRT: executable-system recognition through position, role, frame, transition, and outcome.
-- The science-facing bridge: physics, information theory, complex systems, active matter, morphogenesis, cognition, and anomaly-edge cases.
-- Falsification: what would weaken, constrain, or break the model.
+> Information becomes physically or operationally consequential only when it changes what paths are admissible, what those paths cost, what boundary can hold, what coherence can be maintained, or what observer/measurement condition can resolve.
 
-This file should be read before judging the repo.
+That is the difference between MKUFT and vague information talk.
 
----
-
-## 1. The central claim
-
-MKUFT does not begin with objects.
-
-It begins with constraints.
-
-An object is not just a lump sitting in space. It is a stable resolution of a deeper set of conditions. It persists because the route that maintains it is admissible and lower-cost than immediate collapse, dissolution, or transformation.
-
-A physical event is not treated as an isolated occurrence. It is treated as the end of a layered resolving process:
+MKUFT does not merely say that information is important. It asks the harder question:
 
 ```text
-possibility -> constraint -> admissible structure -> physical expression -> observer-conditioned interpretation or modulation
+What does the information change?
 ```
 
-In MKUFT language:
+If it changes nothing in admissibility, cost, boundary, coherence, routing, measurement, or resolution, then it is not doing MKUFT work.
+
+---
+
+## 1. Why the model matters
+
+Reality is usually described from the outside after something has already appeared.
+
+A particle is measured.  
+A body forms.  
+A wound heals.  
+A memory locks.  
+A flock turns.  
+A symbol means something.  
+A quantum outcome is recorded.  
+A strange event is reported.  
+A system becomes stable.
+
+MKUFT asks the earlier question:
 
 ```text
-S -> I -> P -> O
+What made that outcome reachable at all?
 ```
 
-Where:
-
-- S = Substrate / possibility / source-potential.
-- I = Information / structure / constraint / routing.
-- P = Physical expression / measurable event / body / instrument.
-- O = Observer / conscious or coherent boundary condition / situated engagement.
-
-The important point is not that these are four labels. The important point is that layer confusion causes bad theory.
-
-A symbolic pattern is not automatically a physical event. A subjective experience is not automatically external proof. A physical measurement is not automatically interpreted correctly. A probability structure is not the same thing as its realised outcome. MKUFT exists partly to stop those layer errors.
-
----
-
-## 2. Why this matters
-
-MKUFT matters because many difficult problems have the same hidden structure.
-
-They involve:
-
-- possible states,
-- blocked or allowed transitions,
-- boundaries,
-- thresholds,
-- coherence and decoherence,
-- cost of maintaining form,
-- observer or measurement context,
-- emergence of stable outcomes from deeper possibility.
-
-That pattern appears in physics, biology, cognition, symbolic systems, social systems, anomalous reports, healing, flow states, and procedural artefacts.
-
-MKUFT does not claim all those domains are identical. It claims they may share a common invariant:
-
-> A system becomes real, stable, meaningful, or measurable when constraints permit a coherent traversal path that can be physically or operationally maintained.
-
-That is the spine.
-
-This gives the model its public value.
-
-It is not merely saying "information matters". Many fields already say that. MKUFT says something sharper:
-
-> Information becomes consequential when it changes admissibility, path-cost, boundary behaviour, coherence, or observer-conditioned resolution.
-
-That is the difference between a slogan and a working model.
-
----
-
-## 3. The core engine
-
-The reconstitution kernel preserves the working route:
+Then it asks:
 
 ```text
-Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome
+What made that reachable outcome cheaper, more stable, more coherent, or more likely than the alternatives?
 ```
 
-This is not decoration. It is the audit order.
+That is where the theory bites.
 
-### 3.1 Layer
+The model is not trying to decorate existing science with spiritual language. It is trying to extract the repeated engine behind many hard problems:
 
-Layer asks what kind of claim is being made.
+```text
+possibility -> constraint -> admissible route -> cost -> coherence -> boundary -> physical or operational resolution
+```
 
-Is the issue about:
+This matters because many sciences already touch pieces of this engine but do not normally hold the whole pattern in one frame.
 
-- substrate possibility,
-- information structure,
-- physical measurement,
-- observer experience,
-- or a confused mixture?
+Physics sees fields, geometry, probability, boundaries, phase transitions, measurement context, and conservation.
 
-Layer discipline prevents the model from answering a physics question with a psychological answer, or treating a symbolic pattern as if it were already an instrument reading.
+Biology sees morphogenesis, regeneration, bioelectric coordination, homeostasis, cancer as loss of organisation, and tissue-level control.
 
-### 3.2 Boundary
+Cognition sees prediction, attention, flow, trauma loops, memory reconsolidation, and observer distortion.
 
-Boundary asks what separates one thing from another.
+Complex systems see attractors, tipping points, self-organisation, collective order, and local rules creating global behaviour.
 
-Without a boundary, there is no object, identity, measurement, transition, inside, outside, life-form, manuscript unit, event, or observer position.
+Symbolic/procedural systems show that meaning can sometimes be executable: position, role, frame, transition, outcome.
 
-Boundaries may be physical, informational, symbolic, cognitive, procedural, biological, social, or observational.
+MKUFT's value is not that all these fields are secretly the same thing.
 
-A boundary is not just an edge. It is the condition that makes relation possible.
+They are not.
 
-### 3.3 Node
-
-A node is a stable state, attractor, role, position, address, or repeatable configuration.
-
-In different contexts, a node may be:
-
-- a physical state,
-- a cognitive state,
-- a biological form,
-- a manuscript location,
-- a procedural role,
-- a social position,
-- a stable measurement context,
-- a geometric configuration.
-
-Nodes matter because reality does not traverse pure chaos. It moves through stable or semi-stable possibilities.
-
-### 3.4 Transition
-
-Transition asks what movement or transformation is being claimed.
-
-What changes?
-
-What route opens?
-
-What state becomes reachable?
-
-What does the system move from and to?
-
-A model that only names parts but cannot describe transitions is not yet doing enough work.
-
-### 3.5 Cost
-
-Cost is central.
-
-A transition may be possible but too expensive to persist. Another may be low-cost and therefore stable. Another may be forbidden because no admissible path exists.
-
-In MKUFT, cost is not merely money, energy, or subjective effort. It includes structural cost: contradiction, instability, maintenance burden, coherence friction, environmental damping, information mismatch, boundary failure, or impossible geometry.
-
-This is why the model can connect physics, cognition, biology, and symbolic systems without collapsing them into one vague thing. Each domain has its own kind of cost, but the role of cost is invariant.
-
-### 3.6 Coherence
-
-Coherence is structural fit.
-
-A coherent system wastes less force maintaining itself because its parts fit the available constraint structure. An incoherent system must spend more energy, attention, contradiction, or repair effort to continue.
-
-Coherence is not emotional approval. A comforting story can be incoherent. A painful truth can be coherent.
-
-### 3.7 Observer
-
-The observer is not an unlimited creator.
-
-The observer is a boundary condition.
-
-Observer position can affect:
-
-- measurement context,
-- interpretation,
-- attention,
-- intention,
-- selection among already-admissible pathways,
-- the stability or collapse of an observer-dependent reading,
-- and in testable marginal cases, the weighting of sensitive outcomes.
-
-Observer coherence may matter, but only inside constraints.
-
-No arbitrary creation. No belief-over-physics. No unlimited collapse claim.
-
-### 3.8 Falsifier
-
-Every serious MKUFT reading must state what would break it.
-
-If a claim cannot say what would make it wrong, it is not ready.
-
-Falsification is not decoration added for public respectability. It is part of the kernel.
-
-### 3.9 Outcome
-
-Outcome is the resolved result:
-
-- prediction,
-- measured event,
-- failed prediction,
-- stable interpretation,
-- rejected branch,
-- physical transition,
-- cognitive shift,
-- procedural execution,
-- or model correction.
-
-The outcome closes the traversal.
+The value is that the same **constraint logic** keeps appearing inside them.
 
 ---
 
-## 4. The mathematical spine
+## 2. The one-sentence version
 
-The public model should not hide the maths, but the maths must be tied to the reality it describes.
+> MKUFT studies reality as constrained traversal: possible states become actual, stable, meaningful, or measurable only through admissible paths whose cost, coherence, boundary conditions, and observer/measurement context allow them to resolve.
 
-### 4.1 Substrate as possibility space
+If that sentence sounds abstract, the operational version is sharper:
 
-A useful formal representation of the substrate is:
+```text
+What can exist?
+What can persist?
+What can change?
+What path permits the change?
+What does that path cost?
+What boundary holds it?
+What coherence keeps it from collapsing?
+What observer or measurement condition enters?
+What would prove the reading wrong?
+What outcome survives?
+```
+
+That is MKUFT.
+
+---
+
+## 3. The layer stack: SIPO
+
+MKUFT uses the active layer convention:
+
+```text
+S = Substrate
+I = Information
+P = Physical
+O = Observer
+```
+
+These are not decorative labels. They stop the most common errors.
+
+### 3.1 S — Substrate
+
+Substrate is the possibility/source layer.
+
+It is not an ordinary hidden material and it is not a second physical world sitting behind this one.
+
+A clean public description is:
+
+> S is the structured possibility-space from which physical outcomes may become selected, weighted, or stabilised.
+
+Mathematical handle:
 
 ```text
 S = (Ω, Σ, μ)
@@ -246,63 +145,180 @@ S = (Ω, Σ, μ)
 Where:
 
 - Ω is the set of possible configurations.
-- Σ is a sigma-algebra of measurable subsets of Ω.
-- μ assigns baseline weight or propensity to configurations.
+- Σ is a sigma-algebra of measurable subsets.
+- μ assigns baseline weight or propensity.
 
-Plain English:
+Substrate matters because before an event appears, there must be a space of possible configurations from which it could appear.
 
-The substrate is not an ordinary hidden material. It is the structured possibility-space from which specific physical outcomes may become selected, weighted, or stabilised.
+### 3.2 I — Information
 
-### 4.2 Information as structured constraint
+Information is not just data.
 
-Information structures can be represented as functions over the substrate:
+Information is structured difference: pattern, relation, constraint, address, route, rule, form, or permission.
+
+Mathematical handle:
 
 ```text
 I = { f : Ω -> R | f ∈ L²(Ω, μ) }
 ```
 
-Plain English:
-
-Information is not only data in a computer. It is structured difference: pattern, relation, constraint, route, address, form, or rule.
-
-In MKUFT, information is the layer where possibility becomes shaped.
-
-### 4.3 Physical dynamics as the ordinary baseline
-
-The physical layer supplies the standard dynamical contribution:
+Information matters only when it changes the system:
 
 ```text
-P_phys(E)
+admissibility, cost, boundary, coherence, routing, measurement, or resolution
 ```
 
-This matters. MKUFT does not throw away accepted physics. Ordinary physical dynamics remain the baseline and limiting case.
+Otherwise it is just description.
 
-Any MKUFT addition must explain why ordinary physics works so well most of the time.
+### 3.3 P — Physical
 
-### 4.4 Observer coherence
+Physical is the measurable world:
 
-Observer coherence is represented by a functional:
+- particles,
+- fields,
+- bodies,
+- instruments,
+- environments,
+- marks,
+- timings,
+- forces,
+- events.
+
+MKUFT must recover standard physics in ordinary conditions.
+
+That is not a public-relations concession. It is a core discipline rule.
+
+If MKUFT cannot explain why normal physics works most of the time, it fails.
+
+### 3.4 O — Observer
+
+Observer is not an unlimited creator.
+
+Observer is a bounded condition of engagement.
+
+The observer may affect:
+
+- attention,
+- interpretation,
+- measurement context,
+- selection among already-admissible paths,
+- the stability of a reading,
+- and, in high-sensitivity tests, small probability weighting.
+
+Observer coherence can be represented as:
 
 ```text
 κ : States(H_O) -> [0,1]
 ```
 
-Where:
+Where high κ means lower noise, lower contradiction, cleaner attention, and greater alignment.
 
-- κ close to 1 indicates high coherence: focused, aligned, low internal contradiction, low noise.
-- κ close to 0 indicates fragmentation, noise, contradiction, or incoherence.
+But the observer does not create arbitrary outcomes.
 
-κ is not mystical authority. It is a proposed variable for observer-state quality.
+No belief-over-physics.  
+No anything-goes quantum language.  
+No unbounded mind-collapse claim.
 
-### 4.5 Realisation equation
+---
 
-For an event E, the unnormalised MKUFT weight is:
+## 4. The operational kernel
+
+The working kernel is:
+
+```text
+Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome
+```
+
+This is the audit order.
+
+### Layer
+
+Name the active layer before making the claim.
+
+Do not answer a physical question with a symbolic answer.  
+Do not treat a subjective experience as an external measurement.  
+Do not dismiss a physical report as psychology before checking the physical layer.  
+Do not turn probability structure into realised outcome without a transition.
+
+### Boundary
+
+Boundary makes identity possible.
+
+No boundary, no object.  
+No object, no measurement.  
+No measurement, no stable claim.  
+No stable claim, no theory.
+
+A boundary may be physical, biological, cognitive, symbolic, procedural, instrumental, or social.
+
+### Node
+
+A node is a stable state, attractor, position, role, address, or repeatable configuration.
+
+Reality does not traverse pure chaos. It moves through possible states that can be held long enough to matter.
+
+### Transition
+
+Transition asks what changes.
+
+A theory that names parts but cannot describe movement is not doing enough work.
+
+### Cost
+
+Cost is central.
+
+A path can be possible and still fail because it costs too much to maintain.
+
+Cost includes energy, instability, contradiction, friction, noise, boundary stress, environmental damping, information mismatch, and maintenance burden.
+
+### Coherence
+
+Coherence is structural fit.
+
+A coherent system wastes less force because its parts fit the available constraint structure.
+
+An incoherent system spends energy maintaining contradiction.
+
+### Observer
+
+Observer is included only after layer, boundary, transition, cost, and coherence are named.
+
+That prevents observer inflation.
+
+### Falsifier
+
+Every strong MKUFT reading must say what would break it.
+
+Without falsifier, the reading is not ready.
+
+### Outcome
+
+Outcome is what survives the traversal:
+
+- physical event,
+- measurement,
+- failed prediction,
+- stable interpretation,
+- rejected branch,
+- cognitive shift,
+- procedural execution,
+- or model correction.
+
+---
+
+## 5. The mathematical engine
+
+MKUFT has two linked mathematical handles.
+
+The first is the realisation equation.
+
+For an event E:
 
 ```text
 W_total(E) = ∫_{I ∈ I(E)} D_phys(E | I) · W(I | S, E) · C(O | I, E) dν(I)
 ```
 
-The realised probability is:
+And:
 
 ```text
 P_realized(E) = W_total(E) / Z
@@ -316,76 +332,33 @@ Z = Σ_{E'} W_total(E')
 
 Interpretation:
 
-- D_phys(E | I) is the ordinary physical contribution conditioned on information structure I.
-- W(I | S, E) is substrate-to-information weighting.
-- C(O | I, E) is bounded observer/coherence modulation.
-- ν is a measure over compatible information structures.
+- `D_phys(E | I)` = ordinary physical dynamics conditioned on information structure.
+- `W(I | S, E)` = substrate-to-information weighting.
+- `C(O | I, E)` = bounded observer/coherence modulation.
+- `ν` = measure over compatible information structures.
 
-This says that realised events are not only raw physical possibility. They are physical possibility filtered through information structure and, in special cases, observer-conditioned coherence.
-
-### 4.6 Standard-physics limit
-
-If observer coherence contributes no event-specific modulation:
+Standard-physics limit:
 
 ```text
 C(O | I, E) = C_0
-```
-
-And if information weighting introduces no additional selection beyond ordinary physics:
-
-```text
 P_realized(E) ≈ P_phys(E)
 ```
 
-This is a discipline condition. MKUFT must reduce to standard physics in ordinary conditions.
-
-### 4.7 Linear-response observer modulation
-
-A bounded observer term can be written:
+Bounded observer modulation:
 
 ```text
 C(O | I, E) = C_0 [1 + ε κ(O) h(I,E)]
 ```
 
-Where:
-
-- ε is a small coupling parameter.
-- κ(O) is observer coherence.
-- h(I,E) captures alignment between observer state and information structure.
-
-To first order:
+First-order form:
 
 ```text
 P_realized(E) ≈ P_phys(E) + ε Δ_O(E)
 ```
 
-Plain English:
+This is not arbitrary observer creation. It is a small modulation term inside already-allowed conditions.
 
-Standard physics gives the baseline. Observer coherence, if real, is a small correction under sensitive conditions. It is not arbitrary control.
-
-### 4.8 Environmental damping
-
-Observer coherence is not isolated from physical conditions.
-
-Define:
-
-```text
-κ_eff = κ · η(F)
-```
-
-Where:
-
-- κ is intrinsic observer coherence.
-- η(F) is environmental damping or amplification.
-- F includes relevant environmental conditions such as noise, field conditions, geometry, shielding, material conditions, or physiological state.
-
-Plain English:
-
-The same observer should not be expected to produce the same result in every environment. If MKUFT is right, effect size should depend on coherence and damping conditions.
-
-### 4.9 Constrained graph formalism
-
-The formal addendum sharpens the same idea through a constrained graph:
+The second handle is the traversal graph.
 
 ```text
 G = (N, E)
@@ -393,27 +366,24 @@ G = (N, E)
 
 Where:
 
-- N is the set of stable attractor states or nodes.
-- E is the set of admissible transitions or edges.
+- `N` = stable attractor states / nodes.
+- `E` = admissible transitions / edges.
 
-A trajectory is an ordered path:
+A trajectory is:
 
 ```text
 γ = (n0 -> n1 -> n2 -> ... -> nk)
 ```
 
-Traversal cost is:
+Traversal cost:
 
 ```text
 C[γ] = ∫_γ λ(x) ds
 ```
 
-Where:
+Where `λ(x)` is local coherence friction / gradient tension.
 
-- λ(x) is local coherence friction / gradient tension.
-- ds is the differential path element.
-
-Transition likelihood becomes path-density weighted by cost:
+Path-density probability:
 
 ```text
 P(B|A) ∝ Σ_{γ ∈ Γ(A->B)} exp( - C[γ] )
@@ -421,13 +391,52 @@ P(B|A) ∝ Σ_{γ ∈ Γ(A->B)} exp( - C[γ] )
 
 Plain English:
 
-An outcome becomes likely when there are enough admissible paths to it and the cost of those paths is low enough.
+> An outcome becomes more likely when more admissible paths lead to it and those paths cost less to maintain.
 
-This is one of the strongest mathematical handles in MKUFT.
+This is one of the strongest mathematical centres of MKUFT.
 
-It connects probability, learning, time, anomaly, measurement, boundary, and coherence through one engine.
+It links probability, learning, time, healing, motion, measurement, anomaly, and symbolic execution without pretending they are the same material mechanism.
 
-### 4.10 Time as traversal cost
+---
+
+## 6. Why cost is the bridge variable
+
+Cost is what stops MKUFT becoming vague.
+
+Without cost, the theory says only:
+
+```text
+things are connected
+```
+
+With cost, it asks:
+
+```text
+which connection can actually hold?
+```
+
+That question matters everywhere.
+
+A particle path has action/cost.  
+A biological form has maintenance cost.  
+A wound has repair cost.  
+A cancer has boundary/identity failure cost.  
+A trauma loop has cognitive/body-state maintenance cost.  
+A skill has traversal friction that drops with practice.  
+A symbol has execution cost if it routes state or behaviour.  
+A measurement has boundary and context cost.  
+A social system has trust, role, enforcement, and contradiction cost.  
+An edge-case anomaly, if real, should show non-random cost/gradient/boundary structure.
+
+That is why MKUFT can cross domains without dissolving them.
+
+The substrate is not used as a magic answer.
+
+Cost keeps the model honest.
+
+---
+
+## 7. Time as traversal cost
 
 Experienced time can be represented as accumulated traversal cost:
 
@@ -435,19 +444,38 @@ Experienced time can be represented as accumulated traversal cost:
 T_experienced ≈ Σ C[γ_i]
 ```
 
-This predicts:
+This does not replace physical clock time.
 
-- time compression in low-cost traversal regimes,
-- time dilation or dragging under high-cost or highly constrained traversal,
-- flow-state timing shifts,
-- trauma-loop time distortion,
-- and altered time-sense under high coherence or high threat.
+It explains why time can feel different when the traversal state changes.
 
-This does not replace physical clock time. It models experienced or system-relative time as cost of traversal.
+Low-cost traversal:
 
-### 4.11 LUCY threshold maths
+- flow,
+- skilled action,
+- clean attention,
+- stable pattern recognition,
+- rapid integration.
 
-LUCY gives a threshold language:
+High-cost traversal:
+
+- threat loops,
+- trauma activation,
+- contradiction maintenance,
+- confusion,
+- forced self-monitoring,
+- blocked action.
+
+This gives MKUFT a bridge between physics-facing path cost and lived observer experience without collapsing them into one layer.
+
+---
+
+## 8. LUCY: threshold, membrane, field
+
+LUCY means Local Unified Coherence Yield.
+
+It is not a new force.
+
+It is a threshold language for when a boundary becomes coherent enough to hold.
 
 ```text
 LUCY   = threshold
@@ -455,63 +483,61 @@ LUCY-1 = membrane formation
 LUCY-2 = sustained local field region
 ```
 
-The boundary chain is:
+Boundary chain:
 
 ```text
 gradient accumulation -> LUCY threshold -> LUCY-1 membrane -> LUCY-2 local field region
 ```
 
-A local coherence condition can be written:
+Threshold condition:
 
 ```text
 C_L(x,t) >= C_crit
 ```
 
-If not met, boundary behaviour remains noisy or non-sustaining.
+A weak boundary does not hold.
 
-If met, a boundary may become coherent enough to behave like a membrane. If sustained, it may create a local region with distinct field-like behaviour.
+A coherent boundary begins to act like a surface that can organise what crosses it.
 
-This gives MKUFT a way to talk about threshold, boundary, and field formation without inventing a new force for every case.
+If sustained, that boundary can create a local region whose behaviour differs from baseline.
 
-### 4.12 Boundary-gradient bridge
+This connects MKUFT to phase transitions, membranes, criticality, field regions, and geometry-dependent thresholds.
 
-A boundary tension potential may be represented as:
+---
+
+## 9. Gradient mechanics and boundary geometry
+
+MKUFT needs a bridge from abstract S/I weighting into physical-layer behaviour.
+
+Gradient mechanics is that bridge.
+
+A boundary tension potential can be written:
 
 ```text
 τ(x,t)
 ```
 
-With effective gradient field:
+Effective gradient field:
 
 ```text
 G_τ(x,t) = -∇τ(x,t)
 ```
 
-And gradient energy density:
+Gradient energy density:
 
 ```text
 U_G = 1/2 α |∇τ|^2
 ```
 
-For circulation or shear-like behaviour, introduce a vector tension potential:
+For circulation/shear:
 
 ```text
 A_τ(x,t)
-```
-
-With rotational boundary field:
-
-```text
 H_τ(x,t) = ∇ × A_τ(x,t)
-```
-
-And energy density:
-
-```text
 U_H = 1/2 β |∇ × A_τ|^2
 ```
 
-Total effective boundary energy density:
+Total effective boundary energy:
 
 ```text
 U_boundary = 1/2 α |∇τ|^2 + 1/2 β |∇ × A_τ|^2 + V(τ, A_τ)
@@ -519,535 +545,360 @@ U_boundary = 1/2 α |∇τ|^2 + 1/2 β |∇ × A_τ|^2 + V(τ, A_τ)
 
 Plain English:
 
-This is the bridge from abstract substrate/information weighting into boundary conditions that could, in principle, connect to physical-layer behaviour.
+> If a boundary condition becomes coherent, its geometry and gradients may change which transitions are stable, which orientations are favoured, and which paths become low-cost.
+
+This is why geometry matters.
+
+Shape is not decoration. Shape changes boundary stability, field concentration, resonance, orientation, and threshold behaviour.
 
 ---
 
-## 5. What MKUFT adds beyond existing science
+## 10. OCQS: the observer-side condition
 
-Many sciences already study parts of this territory.
+OCQS means Optimal Cognitive Quiet State.
 
-Physics studies fields, symmetries, conservation laws, boundary conditions, phase transitions, geometry, probability, and measurement.
+It is the observer-layer condition where internal noise is low enough for clean engagement.
 
-Information theory studies signal, entropy, coding, compression, and uncertainty.
+It includes:
 
-Complex systems study emergence, attractors, criticality, self-organisation, and nonlinear transitions.
+- low internal chatter,
+- reduced self-monitoring,
+- accurate threat detection,
+- clean emotional signal,
+- open but non-scattered attention,
+- compressed non-verbal intention.
 
-Biology studies morphogenesis, bioelectric coordination, development, regeneration, homeostasis, and multiscale organism control.
-
-Cognitive science studies perception, prediction, attention, flow, trauma, embodied action, and observer-dependent interpretation.
-
-MKUFT is not claiming those fields did nothing.
-
-MKUFT's claim is that these fields repeatedly run into the same deeper grammar:
+OCQS supports observer coherence:
 
 ```text
-constraint -> admissibility -> cost -> coherence -> boundary -> resolution
+κ(O)
 ```
 
-The novelty is the unified traversal view.
+And can be gated as:
 
-MKUFT says:
+```text
+Q = 0 -> OCQS inactive
+Q = 1 -> OCQS active
+```
 
-1. Reality is best analysed as constrained resolution rather than isolated object-behaviour.
-2. Information matters when it changes route, cost, boundary, coherence, or admissibility.
-3. Boundaries are not incidental; they are where identity, measurement, transition, and physical expression become possible.
-4. Coherence is not a vague virtue; it is reduced contradiction and lower traversal cost.
-5. Observer position matters as a boundary condition, but only under constraints.
-6. The same invariant can be used across scales without claiming every domain is literally the same mechanism.
+A simple relation:
 
-That is the contribution.
+```text
+coherence = Q · H · engagement
+```
+
+OCQS does not make the observer infallible.
+
+It lowers noise and contradiction so the observer is less likely to distort the layer, boundary, transition, cost, and falsifier.
 
 ---
 
-## 6. Science bridges and what MKUFT does with them
+## 11. ESRT: executable-system recognition
 
-This section is not an evidence dump. It is a map of where the model bites.
+ESRT means Executable System Recognition Test.
 
-### 6.1 Quantum measurement and contextuality
+Its operational route is:
 
-Science finding / gap:
+```text
+Position -> Role -> Frame -> Transition -> Outcome
+```
 
-Quantum theory uses probability amplitudes, state preparation, measurement contexts, decoherence, and Born-rule probabilities. It works extremely well, but interpretation remains difficult. The transition from possibility to realised measurement outcome is still philosophically and conceptually contested.
+This matters because not every meaningful structure is ordinary language.
 
-MKUFT resonance:
+Some systems do not primarily say something. They do something.
 
-Quantum theory already requires possibility-structure and context-sensitive realisation.
+They route attention.  
+They change state.  
+They assign role.  
+They open or close a transition.  
+They execute under a frame.
 
-MKUFT does not say consciousness magically collapses the wavefunction. It asks whether realised outcomes can be interpreted as physical probability weighted through information structure, coherence, boundary condition, and measurement context.
+A structure is recognised by what it allows, blocks, transforms, or resolves.
 
-Novel take:
+That is why Voynich-style work belongs in the MKUFT tree only if it passes structural tests: addressing, state, flow, cross-page role repeat, misalignment collapse, and falsifiable null comparisons.
 
-Observer is not a magician. Observer is a bounded modulation condition inside the measurement context.
-
-Risk:
-
-This bridge fails if MKUFT turns into vague mind-collapse language or predicts deviations that strict quantum experiments do not show.
-
-### 6.2 General relativity, geometry, and information
-
-Science finding / gap:
-
-Modern physics increasingly treats geometry, information, entropy, and boundary relations as deeply connected. Spacetime is not merely an inert stage; geometry governs motion and may itself be tied to deeper relational/informational structure in some frontier approaches.
-
-MKUFT resonance:
-
-MKUFT treats geometry as architecture: it constrains which states are stable and which transitions are admissible.
-
-Novel take:
-
-Cost should be treated as a missing translation variable between information structure and experienced or effective geometry.
-
-Risk:
-
-This is conceptual support, not direct proof. MKUFT must not pretend to replace the mathematical success of GR.
-
-### 6.3 Phase transitions and criticality
-
-Science finding / gap:
-
-Many systems behave one way below a threshold and differently above it: superconductivity, phase changes, ionisation, critical phenomena, neural phase transitions, social tipping points, and biological state changes.
-
-MKUFT resonance:
-
-LUCY uses the same modelling grammar: threshold first, post-threshold state second, sustained region third.
-
-Novel take:
-
-LUCY generalises the idea of thresholded coherence: when enough local gradient coherence accumulates, a boundary can become active rather than merely separating two states.
-
-Risk:
-
-LUCY becomes weak if used as a loose label for everything. It must be tied to specific threshold conditions and measurable changes.
-
-### 6.4 Active matter, swarms, and collective order
-
-Science finding / gap:
-
-Active systems such as bacteria, cells, tissues, insect colonies, flocks, and synthetic active particles can generate macroscopic order from local rules, feedback, energy use, and information flow.
-
-MKUFT resonance:
-
-This is an I-to-P bridge: local information rules and thresholds become physical collective behaviour.
-
-Novel take:
-
-Collective coherence is not emotional agreement. It is distributed threshold-locking that lowers coordination cost enough for the group to behave as one system.
-
-Risk:
-
-Do not flatten all active matter into consciousness. Many active systems require no human observer term.
-
-### 6.5 Bioelectric morphogenesis and organism identity
-
-Science finding / gap:
-
-Development, regeneration, wound repair, and cancer suppression involve more than genes alone. Cells coordinate through bioelectric states, chemical signals, tissue-scale patterning, and boundary conditions. The open problem is how distributed tissues maintain or restore target morphology.
-
-MKUFT resonance:
-
-This is one of the strongest biological supports for the model. Body-form looks like a maintained information/coherence state rather than only a local parts list.
-
-Novel take:
-
-Identity is not stored only in parts. It is maintained across boundary networks. A body persists because local cells remain constrained by higher-level form coherence.
-
-Risk:
-
-This bridge does not prove substrate ontology. It supports the layered constraint model and the reality of distributed form-control.
-
-### 6.6 Predictive processing and perception
-
-Science finding / gap:
-
-Cognition is not passive reception. Perception is often modelled as prediction, error correction, attention, and action-oriented inference.
-
-MKUFT resonance:
-
-Observer is not merely a camera. Observer state shapes interpretation, attention, error weighting, and action selection.
-
-Novel take:
-
-Perception is a traversal through possible interpretations under constraint. Clear observation lowers cost by reducing internal contradiction and false maintenance burden.
-
-Risk:
-
-Do not mistake interpretation effects for external physical effects.
-
-### 6.7 Flow states and OCQS
-
-Science finding / gap:
-
-Flow states show altered self-monitoring, high performance, time distortion, efficient action, and reduced cognitive noise.
-
-MKUFT resonance:
-
-OCQS provides an observer-layer explanation: low internal noise, high attentional stability, clean emotional signal, precise threat detection, and compressed non-verbal intention.
-
-Novel take:
-
-Flow is low-cost traversal through an already-trained action graph. Skill does not create new physics; it lowers path friction through existing routes.
-
-Risk:
-
-Do not inflate flow into paranormal certainty. Flow supports the coherence/cost model first.
-
-### 6.8 Trauma, healing, and boundary repair
-
-Science finding / gap:
-
-Trauma often behaves like persistent threat-locking, failed integration, body-state dysregulation, memory fragmentation, and repeated high-cost loops.
-
-MKUFT resonance:
-
-Trauma is a boundary injury and routing problem. The system keeps paying cost to maintain unresolved danger states.
-
-Novel take:
-
-Healing is not forgetting. Healing is re-boundarying: integrating memory so it no longer forces high-cost traversal through the present.
-
-Risk:
-
-This is a model bridge, not a substitute for medical or therapeutic care.
-
-### 6.9 Symbolic/procedural systems and Voynich/ESRT
-
-Science finding / gap:
-
-Some artefacts may not be well analysed as ordinary prose. They may encode procedure, address, state, route, frame, or operational instruction.
-
-MKUFT resonance:
-
-ESRT asks what a structure does from a position under a frame, rather than only what a symbol means.
-
-Novel take:
-
-Meaning can be executable. A manuscript, diagram, ritual, tactical map, or symbolic system may function by routing attention and state transitions, not by translating word-for-word.
-
-Risk:
-
-The Voynich claim fails if positional/state/flow tests do not outperform decorative or linguistic null models.
-
-### 6.10 Anomalous reports and boundary-edge cases
-
-Science finding / gap:
-
-Some reports describe unusual motion, timing, visibility, perception, or physical ambiguity. Many reduce to error, artefact, misidentification, ordinary craft, social contagion, or sensor limitation. Some remain structurally interesting.
-
-MKUFT resonance:
-
-MKUFT gives a disciplined edge-case method: code geometry, motion, environment, observer state, sensor quality, and falsifiers before interpretation.
-
-Novel take:
-
-If any genuine edge case exists, it should not be random magic. It should cluster near gradients, unstable boundaries, low damping, coherence thresholds, and geometry-dependent transition patterns.
-
-Risk:
-
-This bridge becomes corrupt if it begins with origin claims. Public-facing analysis must begin with ordinary explanations, data quality, geometry, and motion coding.
+No secret-translation claim without tests.
 
 ---
 
-## 7. Why constraints are reality-facing, not abstract
+## 12. Science bridges: where the model bites
 
-The word "constraint" can sound dry. In MKUFT it is concrete.
+This section is not a proof list.
 
-A constraint is what decides:
+It states where MKUFT has teeth.
 
-- whether a particle interaction is allowed,
-- whether a molecule can form,
-- whether a cell keeps its identity,
-- whether a tissue heals or scars,
-- whether a thought becomes action,
-- whether a trained movement flows or jams,
-- whether a social system stabilises or fragments,
-- whether a symbolic system executes or remains decoration,
-- whether a measurement produces a stable reading,
-- whether an unusual observation has a physical route or only an interpretive one.
+### 12.1 Quantum measurement
 
-Constraints are not secondary. They are the grammar of existence.
+Science already has possibility, amplitudes, measurement context, and realised outcome.
 
-A thing exists because it is allowed, bounded, and maintained.
+MKUFT adds:
 
-A thing persists because its maintenance path remains affordable.
+```text
+outcome as constrained resolution through physical dynamics, information weighting, and bounded observer/measurement condition
+```
 
-A thing changes when a transition route opens, cost lowers, or the old boundary can no longer hold.
+Risk:
 
-This is why MKUFT can speak across domains without pretending they are identical. The materials differ. The invariant remains.
+Do not turn this into crude consciousness collapse.
+
+### 12.2 Information geometry and holography
+
+Frontier physics increasingly links information, boundary, entropy, quantum codes, geometry, and spacetime emergence.
+
+MKUFT adds:
+
+```text
+cost/admissibility as the bridge between information relation and resolved geometry
+```
+
+Risk:
+
+Do not pretend this proves MKUFT. Treat it as high-value structural resonance and a research seam.
+
+### 12.3 Phase transitions and criticality
+
+Science already understands that threshold crossing can change behaviour qualitatively.
+
+MKUFT adds LUCY as a general boundary-coherence version of that grammar.
+
+Risk:
+
+Do not use LUCY as a loose label for all change.
+
+### 12.4 Active matter and swarms
+
+Local rules and feedback can produce group-level physical order.
+
+MKUFT reads this as:
+
+```text
+information rule + threshold + local feedback -> collective admissible path
+```
+
+Risk:
+
+Do not call every collective effect consciousness.
+
+### 12.5 Bioelectric morphogenesis
+
+Bodies are not built by genes alone. Distributed tissue states, bioelectric patterns, and boundary networks help maintain form.
+
+MKUFT reads this as:
+
+```text
+distributed boundary state -> form coherence -> physical morphology
+```
+
+Novel bite:
+
+> Identity is not stored only in parts. It is maintained across boundary networks.
+
+Risk:
+
+This supports layered constraint and distributed form-control. It does not prove the whole substrate ontology.
+
+### 12.6 Predictive processing
+
+Perception is not passive recording. It is prediction, error correction, attention, and action.
+
+MKUFT reads perception as constrained traversal through possible interpretations.
+
+Risk:
+
+Do not mistake observer interpretation for external event.
+
+### 12.7 Flow and skill
+
+Flow is low-cost traversal through trained paths.
+
+Skill does not create new physics. It reduces friction along existing trajectories.
+
+This connects OCQS, learning, time compression, and path cost.
+
+### 12.8 Trauma and healing
+
+Trauma can behave as a high-cost locked route.
+
+```text
+unresolved threat -> locked node -> forced traversal -> distorted present resolution
+```
+
+Healing is not deletion.
+
+Healing is re-boundarying and integration so the past no longer forces the present to route through active threat.
+
+### 12.9 Geometry-dependent thresholds
+
+Geometry affects fields, stress, resonance, boundary layers, waveguiding, and threshold onset.
+
+MKUFT adds:
+
+```text
+shape / curvature / orientation -> boundary stability -> threshold onset -> path-cost change
+```
+
+Risk:
+
+Use this as a dry testable geometry method, not as an origin claim for anomalous reports.
+
+### 12.10 Procedural artefacts
+
+Some structures are operational rather than linguistic.
+
+MKUFT/ESRT asks what they do from a given position and frame.
+
+Risk:
+
+Must beat decorative and linguistic null models.
 
 ---
 
-## 8. How the modules fit together
+## 13. What MKUFT adds beyond existing fields
 
-### 8.1 Core Extended
+Existing fields already study pieces of this.
 
-Defines the primary S/I/P/O architecture and the basic observer-coherence claim.
+MKUFT adds the combined route:
 
-Role:
+```text
+Layer discipline + boundary identity + admissible transition + cost + coherence + bounded observer + falsifier
+```
 
-Foundation.
+The distinctive moves are:
 
-Problem if read alone:
+1. **Cost as bridge variable**  
+   Cost links physics, cognition, biology, time, anomaly, and symbolic execution without making them the same mechanism.
 
-Too compressed to carry the whole theory.
+2. **Admissibility before explanation**  
+   First ask whether the path is allowed.
 
-### 8.2 Mathematical Appendix
+3. **Boundary as identity-maker**  
+   Boundary is what allows object, observer, measurement, transition, and persistence.
 
-Defines substrate probability space, information structures, observer coherence, realisation equation, standard-physics limit, environmental damping, and group coherence.
+4. **Information as consequential only when it changes route**  
+   Information that changes no admissibility, cost, boundary, coherence, or resolution is not doing MKUFT work.
 
-Role:
+5. **Observer as bounded modulation condition**  
+   The observer matters without becoming an unlimited creator.
 
-Formal probability scaffold.
+6. **Falsifier inside the kernel**  
+   The model must state what breaks it.
 
-Problem if read alone:
-
-It can feel like notation without enough worked meaning.
-
-### 8.3 Standalone Formal Addendum
-
-Defines graph, nodes, admissible edges, trajectories, coherence cost, path density, learning, time as traversal cost, and falsifiability.
-
-Role:
-
-Sharpest operational formal engine.
-
-Problem if read alone:
-
-It can look separate from SIPO unless integrated back into the theory.
-
-### 8.4 Experimental Test Programme
-
-Defines testable claims and candidate protocols: physiological coherence, RNG/REG deviation, boundary pattern formation, pattern response, remote-information tests, global coherence, and vacuum/substrate noise.
-
-Role:
-
-Empirical spine.
-
-Problem if read alone:
-
-It needs the integrated model to explain why these tests belong together.
-
-### 8.5 Worked Examples
-
-Shows how the realisation equation turns into measurable RNG/environment predictions.
-
-Role:
-
-Numerical bridge.
-
-Problem if read alone:
-
-Only covers a narrow slice of the theory.
-
-### 8.6 LUCY
-
-Defines local threshold, membrane, and sustained field region.
-
-Role:
-
-Boundary-threshold framework.
-
-Problem if read alone:
-
-Can look like a separate add-on unless tied to the graph/cost and gradient mechanics.
-
-### 8.7 Gradient Mechanics
-
-Builds the bridge from substrate/information gradients to boundary conditions, membrane-like behaviour, orientation/shear hypotheses, and testable geometry effects.
-
-Role:
-
-Physical-layer boundary bridge.
-
-Problem if read alone:
-
-Can be mistaken for a speculative object explanation unless its purpose is kept dry: boundary geometry and path-cost testing.
-
-### 8.8 OCQS
-
-Defines the human observer condition: low noise, high coherence, accurate threat channel, clean emotional signal, compressed intention.
-
-Role:
-
-Observer-layer activation and coherence-gating condition.
-
-Problem if read alone:
-
-Can be mistaken for self-help or intuition language unless tied to κ(O), falsification, and observer-limited modulation.
-
-### 8.9 ESRT / Voynich
-
-Defines executable-system recognition through addressing, state, flow, position, role, frame, transition, and outcome.
-
-Role:
-
-Applied procedural-system analysis.
-
-Problem if read alone:
-
-Can be mistaken for a translation claim unless the test structure is kept central.
-
-### 8.10 GRACE / Authentic Traversal
-
-Defines Geometry, Relation, Admissibility, Coherence, Emergence and the observer-side discipline needed to reduce distortion.
-
-Role:
-
-Traversal discipline.
-
-Problem if read alone:
-
-Can look too symbolic unless grounded back into kernel and falsifier.
+7. **Traversal formalism across domains**  
+   Same audit logic can be used across different materials without claiming they are identical.
 
 ---
 
-## 9. The public argument in one route
+## 14. What strengthens MKUFT
 
-A reader should be able to follow this route:
+MKUFT is strengthened if independent science repeatedly finds that:
 
-1. Reality appears as physical events, but physical events are constrained by deeper rules.
-2. Those rules are not arbitrary; they define possible states and allowed transitions.
-3. Stable forms are nodes or attractors.
-4. Changes occur through admissible paths.
-5. Paths have cost.
-6. Low-cost coherent paths stabilise and repeat.
-7. High-cost incoherent paths fail, distort, or require unusual support.
-8. Boundaries make identity, measurement, transition, and observer relation possible.
-9. Information matters when it changes admissibility, cost, routing, or boundary behaviour.
-10. Observer coherence can matter as a bounded condition, especially in sensitive or ambiguous regimes.
-11. Ordinary physics remains the limiting case.
-12. The theory is meaningful only where it makes different predictions or stronger classifications than ordinary description.
-13. Every strong reading requires a falsifier.
-
-That is MKUFT in public-facing form.
-
----
-
-## 10. What would make MKUFT stronger
-
-MKUFT is strengthened if independent work shows recurring patterns of:
-
-- information structures changing physical or biological organisation,
-- boundary conditions producing qualitative state changes,
-- geometry affecting threshold, stability, or path-cost,
-- coherence reducing noise and improving traversal,
-- observer state correlating with small but repeatable deviations in sensitive systems,
-- biological identity being maintained by distributed field-like or network-level constraints,
-- active systems producing macroscopic order from local information rules,
-- measurement context changing routing statistics without creating impossible states,
-- anomalies clustering around gradients, boundary stress, coherence thresholds, or low damping,
-- symbolic/procedural systems showing position-role-transition structure beyond decoration.
+- information structures alter physical or biological organisation,
+- boundaries create identity and measurement conditions,
+- geometry changes threshold or stability,
+- coherence lowers noise or traversal cost,
+- observer or measurement context changes routing statistics without creating impossible states,
+- biological form is maintained by distributed constraints,
+- active systems create order from local information rules,
+- trauma/flow/learning track with cost and coherence changes,
+- symbolic/procedural systems show position-role-transition structure beyond decoration.
 
 The strongest support is not one dramatic proof.
 
-The strongest support is repeated convergence on the same invariant across independent domains:
-
-```text
-constraint -> admissibility -> cost -> coherence -> boundary -> resolution
-```
+The strongest support is repeated convergence on the same working engine.
 
 ---
 
-## 11. What would weaken or break MKUFT
+## 15. What weakens MKUFT
 
 MKUFT is weakened if:
 
 - it cannot recover standard physics in ordinary conditions,
 - it predicts deviations where none appear under strong controls,
-- observer coherence does not correlate with any measurable effect in sensitive protocols,
-- environmental damping does not change effect size where the theory says it should,
+- observer coherence does not correlate with measurable effects in sensitive systems,
+- environmental damping does not affect effect size where the theory says it should,
 - geometry does not affect threshold, stability, or pattern formation in controlled systems,
-- path-density/cost models do not predict learning, transition, or timing patterns better than existing baselines,
-- symbolic/procedural tests do not outperform decorative or random null models,
-- anomaly clustering does not correlate with boundary/gradient/coherence variables,
+- path-cost models do not predict learning, transition, or timing better than existing baselines,
+- procedural tests do not outperform decorative or random null models,
+- anomaly coding shows no relation to gradient, boundary, geometry, or coherence variables,
 - the model explains everything equally and therefore explains nothing specifically.
 
-The last point matters.
-
-A theory that can fit everything after the fact is weak.
-
-MKUFT must continue to sharpen into:
+A useful MKUFT prediction should have this form:
 
 ```text
-this should happen more here than there, under these conditions, and fail under those conditions
+This should happen more here than there,
+under these conditions rather than those,
+and should fail if this required boundary, cost, coherence, or physical condition is absent.
 ```
 
 ---
 
-## 12. Devil's advocate: the main risks
+## 16. Devil's advocate built into the model
 
-### Risk 1: Layer slippage
+MKUFT fails if it becomes flattering language.
 
-The model can become weak if S, I, P, and O are mixed.
+The main corruption risks are:
 
-Correction:
+### Layer slippage
 
-Always state the layer before making the claim.
-
-### Risk 2: Observer inflation
-
-The observer can be wrongly treated as an unlimited creator.
+S, I, P, and O get mixed.
 
 Correction:
 
-Observer is a boundary condition and possible modulation term, not a god-term inside the equations.
+State the layer before making the claim.
 
-### Risk 3: Metaphor replacing mechanism
+### Observer inflation
 
-The model can become poetic but non-operational.
-
-Correction:
-
-Every claim must pass through boundary, transition, cost, coherence, physical requirement, and falsifier.
-
-### Risk 4: Over-public sanitising
-
-The model can be made so safe that it no longer says what Mark actually found.
+The observer becomes a god-term.
 
 Correction:
 
-Keep the force of the claim: constraints, cost, coherence, boundary, and observer-position are not presentation language; they are the proposed engine.
+Observer is bounded modulation, not creation.
 
-### Risk 5: Weak analogy
+### Metaphor replacing mechanism
 
-Many things can be made to "sound like" MKUFT.
-
-Correction:
-
-Only count it as a real bridge if the domain has an actual mechanism involving constraint, boundary, threshold, cost, coherence, or admissible transition.
-
-### Risk 6: No novelty
-
-The model can become a collage of existing fields.
+The theory becomes poetic but cannot predict or fail.
 
 Correction:
 
-State what MKUFT adds: a cross-domain invariant and a traversal formalism that lets the same constraint logic be audited across scales.
+Force every claim through boundary, transition, cost, coherence, physical requirement, and falsifier.
+
+### Over-public sanitising
+
+The theory is made so safe that it no longer says what Mark found.
+
+Correction:
+
+Keep the force: constraint, cost, coherence, boundary, and observer-position are not presentation language. They are the engine.
+
+### Weak analogy
+
+Everything starts sounding like MKUFT.
+
+Correction:
+
+Only count real bridges where there is an actual mechanism involving constraint, boundary, threshold, cost, coherence, or admissible transition.
 
 ---
 
-## 13. Mark's contribution
-
-This repository must not hide the authorship force of the work.
+## 17. Mark's contribution
 
 Mark Charles McLaughlin's contribution is not merely naming a theory.
 
-The contribution is the recognition and formulation of a repeated invariant across domains that are usually kept separate:
+It is the recognition and formulation of a repeated reality-engine across domains usually kept apart:
 
 ```text
-constraint, boundary, cost, coherence, observer position, and resolution
+constraint, boundary, admissibility, cost, coherence, observer position, resolution
 ```
 
-The work did not begin as an academic literature survey. It came from pattern recognition, lived anomaly analysis, symbolic/procedural work, physics-facing questioning, cognitive self-audit, and repeated attempts to compress a large structure without killing it.
+The work did not begin as an academic literature survey.
 
-That matters because MKUFT's originality is not only in any single equation. It is in the unifying move:
+It came from pattern recognition, lived anomaly analysis, symbolic/procedural work, physics-facing questioning, cognitive self-audit, and repeated attempts to compress a large structure without killing it.
 
-> Treat reality as constrained traversal through layered possibility, rather than as separate piles of matter, mind, symbol, and anomaly.
+The public repo must preserve both things:
 
-The public repo must therefore preserve both:
-
-- technical discipline,
-- and the actual boldness of the idea.
+```text
+boldness + discipline
+```
 
 A safe summary that removes the boldness is not faithful.
 
@@ -1055,117 +906,23 @@ A bold claim that removes the discipline is not MKUFT.
 
 ---
 
-## 14. Public wording discipline
+## 18. One-page compression
 
-The strongest public wording is not timid and not reckless.
+MKUFT studies constrained traversal.
 
-Use:
-
-> MKUFT is a speculative but structured unification framework studying how reality resolves through layered constraints, admissible transitions, coherence cost, boundary conditions, and bounded observer participation.
-
-Avoid:
-
-- "everything is consciousness" as a public technical opener,
-- "mind creates reality",
-- "aliens prove it",
-- "quantum physics means anything goes",
-- "ancient symbols prove hidden physics",
-- "this explains everything",
-- "standard physics is wrong".
-
-Preferred public claim:
-
-> Standard physics is the ordinary limiting case. MKUFT asks whether constraint, information, coherence, and observer conditions provide a deeper organising layer that becomes detectable only in specific high-sensitivity regimes.
-
-Preferred internal claim:
-
-> The same engine keeps appearing: what can exist, what can persist, what can move, what it costs, what coherence lowers the cost, and what boundary or observer condition changes the route.
-
-Both can coexist.
-
----
-
-## 15. Immediate research priorities
-
-### Priority 1: Integrated maths
-
-The graph/cost/path-density formalism should become the mathematical centre.
-
-Needed work:
-
-- connect `G = (N,E)` directly to SIPO,
-- define how I-layer constraints alter E or C[γ],
-- define when LUCY changes Γ to Γ_LUCY,
-- define observer modulation as a small term affecting path weighting, not state creation,
-- show examples across physics, cognition, biology, and procedural systems.
-
-### Priority 2: Science convergence map
-
-The repo needs a living map:
-
-```text
-Domain -> finding/gap -> MKUFT invariant -> novelty -> strength -> falsifier
-```
-
-This should include:
-
-- quantum measurement / decoherence / contextuality,
-- information geometry / holography / entropy-boundary work,
-- phase transitions / criticality,
-- active matter / swarm behaviour,
-- bioelectric morphogenesis,
-- predictive processing,
-- flow-state neuroscience,
-- trauma and boundary repair,
-- procedural/executable systems,
-- geometry-dependent threshold systems.
-
-### Priority 3: Worked examples beyond RNG
-
-The repo should add worked examples for:
-
-- learning as cost reduction,
-- trauma as high-cost loop and repair as re-boundarying,
-- LUCY threshold in a generic phase-transition-like system,
-- geometry-dependent boundary stability,
-- ESRT sector/position tests,
-- bioelectric morphogenesis as distributed boundary coherence.
-
-### Priority 4: Falsification hardening
-
-Every module should state:
-
-- what it predicts,
-- what it does not predict,
-- what would weaken it,
-- what would break it,
-- what null model it must beat.
-
-### Priority 5: Provenance and authorship clarity
-
-The repo should preserve timestamp, authorship, DOI, licence, and version lineage.
-
-The theory should be readable as Mark's work, not as anonymous generic convergence language.
-
----
-
-## 16. One-page compression
-
-MKUFT studies reality as constrained traversal.
-
-The model says that physical events are not isolated appearances but resolved outcomes of layered conditions:
+Layer stack:
 
 ```text
 Substrate -> Information -> Physical -> Observer
 ```
 
-The operational route is:
+Operational kernel:
 
 ```text
 Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome
 ```
 
-The mathematical engine is:
+Graph engine:
 
 ```text
 G = (N,E)
@@ -1173,44 +930,40 @@ C[γ] = ∫_γ λ(x) ds
 P(B|A) ∝ Σ exp(-C[γ])
 ```
 
-And, for event realisation:
+Realisation equation:
 
 ```text
 W_total(E) = ∫ D_phys(E|I) W(I|S,E) C(O|I,E) dν(I)
 P_realized(E) = W_total(E) / Z
 ```
 
-The boundary-threshold bridge is:
+LUCY chain:
 
 ```text
 gradient accumulation -> LUCY -> LUCY-1 membrane -> LUCY-2 local field region
 ```
 
-The observer-side condition is:
+Observer condition:
 
 ```text
 OCQS + Authentic Traversal = lower observer noise, cleaner engagement, better layer discipline
 ```
 
-The recognition test for procedural systems is:
+Procedural recognition:
 
 ```text
 Position -> Role -> Frame -> Transition -> Outcome
 ```
 
-The public claim is:
-
-> MKUFT is a structured speculative framework for studying how constraint, information, coherence, boundary conditions, and observer position affect the resolution of possible states into stable physical or operational outcomes.
-
-The deeper claim is:
+Final compression:
 
 > Reality holds together because incoherent paths are expensive and coherent admissible paths persist.
 
 ---
 
-## 17. Final statement
+## 19. Final statement
 
-MKUFT should not read like a pile of interesting notes.
+MKUFT should not read like a list of interesting similarities.
 
 It should read like a single engine.
 
@@ -1226,7 +979,5 @@ observer position can condition resolution;
 falsification keeps the reading honest;
 outcome is what survives the traversal.
 ```
-
-That is the master spine.
 
 All MKUFT documents should now be read as branches of this engine unless Mark explicitly designates a separate or superseded path.
