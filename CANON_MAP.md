@@ -4,6 +4,16 @@ Author: Mark Charles McLaughlin
 
 This file defines the current working hierarchy for the public MKUFT GitHub repository.
 
+## Front-Door Synthesis
+
+**MKUFT Integrated Master Spine**
+- File: `MKUFT_INTEGRATED_MASTER_SPINE.md`.
+- Current best front-door argument for the public repo.
+- Explains what MKUFT is, why it matters, how SIPO fits together, how the maths carries the model, where it touches science, what Mark's contribution is, what is novel, and what would weaken or falsify it.
+- Exists because the repo previously preserved parts of the theory but did not make the whole theory speak as one load-bearing model.
+- Does not replace the full papers, appendices, original source files, DOI records, or module-specific documents.
+- Should be read before judging the repo.
+
 ## Kernel / Recovery Handle
 
 **MKUFT Reconstitution Kernel**
@@ -65,46 +75,46 @@ This file defines the current working hierarchy for the public MKUFT GitHub repo
    - States MKUFT in language compatible with GR/QFT, constraint fields, observer boundary conditions, and nested micro–macro coherence.
 
 10. **Paradoxes, Frequency, Atoms, and Symbolic Physics**
-    - Explains frequency, resonance, atoms, superposition, measurement, Wigner's friend, symbolic/religious-text bridge material, dark matter, and galaxy-behaviour questions.
-    - Frames symbolic and ancient material as convergence/hypothesis, not as replacement for physics.
+     - Explains frequency, resonance, atoms, superposition, measurement, Wigner's friend, symbolic/religious-text bridge material, dark matter, and galaxy-behaviour questions.
+     - Frames symbolic and ancient material as convergence/hypothesis, not as replacement for physics.
 
 11. **Clear Public MKUFT Explanation**
-    - Plain-English public explanation of MKUFT.
-    - Covers possible paths, constraint/cost/ambiguity, paradox resolution, ancient-symbol bridge material, Voynich as an applied operating-surface hypothesis, and truth/load-bearing method.
-    - File: `docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md`.
+     - Plain-English public explanation of MKUFT.
+     - Covers possible paths, constraint/cost/ambiguity, paradox resolution, ancient-symbol bridge material, Voynich as an applied operating-surface hypothesis, and truth/load-bearing method.
+     - File: `docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md`.
 
 ## Supporting Canon
 
 12. **OCQS**
-    - Human activation condition.
-    - Defines quiet-state cognition, clean threat channel, coherence gating, and substrate-handshake conditions.
-    - Cross-links to Authentic Traversal Cognition: OCQS prepares the quiet state; Authentic Traversal Cognition performs the observer-side decontamination before or during kernel use.
+     - Human activation condition.
+     - Defines quiet-state cognition, clean threat channel, coherence gating, and substrate-handshake conditions.
+     - Cross-links to Authentic Traversal Cognition: OCQS prepares the quiet state; Authentic Traversal Cognition performs the observer-side decontamination before or during kernel use.
 
 13. **LUCY**
-    - Boundary/threshold support framework.
-    - Defines LUCY as threshold, LUCY-1 as membrane, and LUCY-2 as sustained field.
-    - Treated as part of the MKUFT backbone unless separately published or versioned.
+     - Boundary/threshold support framework.
+     - Defines LUCY as threshold, LUCY-1 as membrane, and LUCY-2 as sustained field.
+     - Treated as part of the MKUFT backbone unless separately published or versioned.
 
 14. **Gradient Mechanics and Boundary-Shear Geometry**
-    - Public-facing boundary-physics addendum.
-    - Restores the gradient-mechanics bridge between substrate/information weighting and physical-layer behaviour.
-    - Introduces the scalar tension potential tau, vector tension potential A_tau, LUCY threshold coupling, boundary-shear angle, and geometry-dependent orientation predictions.
-    - Treats unusual-motion reports only as dry observational edge cases, never as proof or origin claims.
+     - Public-facing boundary-physics addendum.
+     - Restores the gradient-mechanics bridge between substrate/information weighting and physical-layer behaviour.
+     - Introduces the scalar tension potential tau, vector tension potential A_tau, LUCY threshold coupling, boundary-shear angle, and geometry-dependent orientation predictions.
+     - Treats unusual-motion reports only as dry observational edge cases, never as proof or origin claims.
 
 15. **ESRT / ESF Method Appendix**
-    - Executable-system recognition and transmission discipline.
-    - Preserves addressing, state, and flow.
-    - Provides tests for whether a structure constrains execution rather than merely symbolising it.
+     - Executable-system recognition and transmission discipline.
+     - Preserves addressing, state, and flow.
+     - Provides tests for whether a structure constrains execution rather than merely symbolising it.
 
 16. **Voynich Procedural Engine**
-    - Applied executable-system case.
-    - Treats the Voynich Manuscript as operational art / executable procedural structure, not natural-language translation.
-    - Includes section results, page ranges, NLT grammar, testable engine steps, section-specific tests, and falsification conditions.
+     - Applied executable-system case.
+     - Treats the Voynich Manuscript as operational art / executable procedural structure, not natural-language translation.
+     - Includes section results, page ranges, NLT grammar, testable engine steps, section-specific tests, and falsification conditions.
 
 17. **GRACE Traversal Rule**
-    - Public-facing support / bridge note for GRACE and observer-side Authentic Traversal Cognition.
-    - Not a standalone canonical paper.
-    - File: `docs/20_GRACE_TRAVERSAL_RULE.md`.
+     - Public-facing support / bridge note for GRACE and observer-side Authentic Traversal Cognition.
+     - Not a standalone canonical paper.
+     - File: `docs/20_GRACE_TRAVERSAL_RULE.md`.
 
 ## Superseded / Historical Material
 
@@ -124,3 +134,5 @@ The repo is a neat, clarified working copy. Original uploads and prior papers re
 ## Plain-English Principle
 
 Technical structure must be paired with plain-English explanation so that a human reader can understand the work without already knowing the maths or internal shorthand.
+
+The integrated master spine now enforces this principle at the front of the repo.
