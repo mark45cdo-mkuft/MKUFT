@@ -1,20 +1,21 @@
 # MKUFT Silver Update — Release Notes
 
 Author: Mark Charles McLaughlin  
-Status: Draft structural release on the `silver-update` branch  
-Scope: Cross-layer architecture, ambiguity dynamics, agency accessibility, repository traversal, and public-release hygiene
+Status: final structural release  
+Date: 12 July 2026  
+Scope: cross-layer architecture, ambiguity dynamics, agency accessibility, repository traversal, and public-release hardening
 
 ---
 
 ## 1. Release purpose
 
-The Silver Update makes implicit structure explicit.
+The Silver Update makes previously implicit structure explicit.
 
 The public MKUFT stack already contained constrained traversal, S–I–P–O, cost, coherence, boundary, observer discipline, LUCY, GRACE, OCQS, experimental pathways, and falsification.
 
 This release adds connective machinery that allows those parts to support one another more reliably.
 
-It is not a replacement for the original DOI work. It is a structural revision of the controlled public working copy.
+It does not replace the original DOI work. It is a structural revision of the controlled public working copy.
 
 ---
 
@@ -26,7 +27,7 @@ The update separates:
 
 - unresolved state volume;
 - low-cost route connectivity;
-- preserved access, influence, extraction, or credibility.
+- preserved access or influence.
 
 ```text
 A_t^vol = log(1 + μ(Ω_t)/μ_0)
@@ -35,7 +36,7 @@ X_t ∈ [0,1]
 M_t = A_t^vol × R_t × X_t
 ```
 
-`M_t` is explicitly a heuristic audit index, not a validated universal law.
+`M_t` is a heuristic audit index, not a validated universal law.
 
 ### Cross-layer invariants gain an address rule
 
@@ -45,7 +46,7 @@ K_L = A_L(K;θ_L)
 
 > One invariant. Many layer addresses. No fragmentation.
 
-The same formula across layers is now labelled as a template unless layer-specific variables, units, coupling, and evidence are supplied.
+The same formula across layers is treated as a template unless layer-specific variables, units, coupling, evidence, and falsifiers are supplied.
 
 ### Agency capacity is separated from practical access
 
@@ -54,7 +55,7 @@ U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
 Agency_effective(t) = Agency_capacity × a_t
 ```
 
-The capture index is labelled heuristic and its factors are normalised. The module explicitly states that it is not a clinical, legal, or moral diagnostic score.
+The capture index is labelled heuristic and its factors are normalised. The module is not a clinical, legal, or moral diagnostic score.
 
 ### The repository gains dependency architecture
 
@@ -71,37 +72,30 @@ The cross-support map now includes a complete integration registry for numbered 
 
 ---
 
-## 4. Existing files integrated or hardened
+## 4. Existing stack integrated and hardened
 
-- `README.md`
-- `CANON_MAP.md`
-- `docs/02_MKUFT_MATH_APPENDIX.md`
-- `docs/03_STANDALONE_FORMAL_ADDENDUM.md`
-- `docs/04_EXPERIMENTAL_TEST_PROGRAM.md`
-- `docs/05_FALSIFICATION_SUMMARY.md`
-- `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md`
-- `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md`
-- `docs/10_ESRT_ESF_METHOD_APPENDIX.md`
-- `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md`
+The release updates the public entry shell, integrated master spine, canon map, mathematical and formal spine, experimental programme, falsification summary, worked examples, observer and threshold modules, and procedural/Voynich branches.
 
-The dedicated modules remain canonical homes. Other documents carry only the formal handle or route needed for their role.
+Dedicated modules remain canonical homes. Other documents carry only the formal handle or route needed for their role.
 
 ---
 
-## 5. Public-hygiene findings corrected
+## 5. Release-hardening corrections
 
-The audit found and corrected:
+The final audit corrected:
 
-- public documents incorrectly labelled as belonging to a private repository;
-- ambiguity notation that could collide with an older path-uncertainty symbol;
-- unnormalised manoeuvrability and capture factors;
-- a two-condition RNG example using a one-sample standard error;
-- threshold equations presented without a clear template/validated-law distinction;
-- experimental language that did not clearly separate proposed tests from established findings;
-- procedural/Voynich wording that could overstate candidate classification as established function;
-- release-firewall wording that revealed unnecessary detail about non-public work.
+- inaccurate visibility and status labels;
+- notation collisions;
+- unnormalised heuristic factors;
+- a statistical error in a two-condition worked example;
+- unclear distinctions between templates, hypotheses, and validated laws;
+- experimental wording that blurred proposals and findings;
+- applied wording that exceeded its evidence;
+- incomplete routing between older work and the Silver architecture.
 
-No access credentials, private correspondence, personal medical information, relationship material, or non-public case data were identified in the reviewed public canon or Silver branch.
+No access secret or uncleared non-public material was identified in the release.
+
+The public audit records categories of checks and corrections without reproducing discarded wording or private source material.
 
 ---
 
@@ -120,7 +114,7 @@ The Silver Update does not claim:
 
 ---
 
-## 7. Review gates before merge
+## 7. Release gates passed
 
 ### Coherence
 
@@ -130,7 +124,7 @@ The Silver Update does not claim:
 - old and new documents connected through the integration registry;
 - no silent symbol collision.
 
-### Hostile reader
+### Hostile-reader resistance
 
 - metaphor is not mechanism;
 - analogy is not evidence;
@@ -138,27 +132,22 @@ The Silver Update does not claim:
 - ontology does not outrun pattern evidence;
 - ordinary alternatives remain active.
 
-### Statistical
+### Statistical discipline
 
-- correct uncertainty formula for the actual comparison;
-- illustrative data labelled as illustrative;
-- effect size and replication retained;
+- uncertainty calculation matches the actual comparison;
+- illustrative data is labelled illustrative;
+- effect size and replication remain central;
 - nulls cannot be blamed on unspecified conditions.
 
 ### Public hygiene
 
-- no private metadata or internal-only instructions;
-- no non-public personal data;
-- accurate authorship and status lines;
-- no credentials or private links;
-- public wording remains intelligible outside the Mark/Kairos working context.
-
-### Merge rule
-
-Do not merge merely because the architecture is impressive. Merge only when the public branch is readable, technically honest about its status, connected to the prior work, and free of non-public material.
+- only publication-cleared material is included;
+- authorship and status lines are accurate;
+- no access secrets or private links are present;
+- wording is intelligible outside the original working context.
 
 ---
 
 ## 8. Release summary
 
-> The Silver Update moves MKUFT from an organised canon toward a self-supporting public architecture: ambiguity is formalised as movement space, repeated structures are layer-addressed, agency accessibility is separated from capacity, old modules are routed through a complete integration registry, statistical errors are corrected, and the public/private boundary is hardened.
+> The Silver Update moves MKUFT from an organised canon toward a self-supporting public architecture: ambiguity is formalised as movement space, repeated structures are layer-addressed, agency accessibility is separated from capacity, older modules are routed through a complete integration registry, statistical errors are corrected, and public claim boundaries are hardened.
