@@ -1,55 +1,32 @@
 # ESRT / ESF Method Appendix
 
-Author: Mark McLaughlin
+Author: Mark Charles McLaughlin
 
-Status: cleaned full-bodied method appendix for the private MKUFT GitHub repository.
+Status: public method appendix inside the controlled MKUFT GitHub working copy.
 
 ## Purpose
 
-This appendix explains the Executable System Recognition Test (ESRT) and the Executable System Framework (ESF), and shows how they support MKUFT without replacing or distorting the main theory.
+This appendix defines the Executable System Recognition Test (ESRT) and the Executable System Framework (ESF). They support MKUFT without replacing the main theory.
 
-The purpose is methodological clarity.
-
-ESRT and ESF answer a specific question:
+They answer one question:
 
 ```text
-Is this structure merely symbolic or descriptive, or does it constrain execution?
+Does this structure merely describe or symbolise, or does its arrangement constrain a reproducible sequence of action or state change?
 ```
+
+ESRT is a candidate-classification method. It is not proof of original intent, hidden meaning, historical use, or metaphysical function.
+
+## Part 1 — ESRT
+
+### Core hypothesis
+
+If an artefact encodes executable knowledge, then position, state representation, and flow ordering should jointly constrain performance even when semantic content is unknown.
 
 In plain English:
 
-Some systems do not primarily explain. They make something happen when followed correctly. ESRT and ESF are tools for identifying that kind of structure.
+If rearranging the structure predictably breaks the procedure, and if repeated positions and transitions retain stable roles, the artefact may function executably.
 
-## Part 1 — ESRT: Executable System Recognition Test
-
-ESRT is a classification instrument.
-
-It tests whether an artefact functions as a non-linguistic executable system rather than a narrative, symbolic, decorative, or expressive object.
-
-ESRT does not make claims about:
-
-- origin,
-- authorship,
-- spirituality,
-- intent,
-- final meaning,
-- historical certainty.
-
-It only asks whether structure constrains execution in a reproducible and testable way.
-
-## ESRT Core Hypothesis
-
-If an artefact encodes executable knowledge, then positional structure, state representation, and flow ordering will jointly constrain action even when semantic content is unknown or absent.
-
-In simpler terms:
-
-If moving pieces around breaks the system, and if repeated positions, states, and transitions behave consistently, then the structure may be executable.
-
-## ESRT Primary Criteria
-
-A structure must satisfy all three primary criteria to pass ESRT.
-
-### P1 — Positional Addressing
+### Primary criterion P1 — Positional addressing
 
 Question:
 
@@ -57,248 +34,208 @@ Question:
 Does spatial placement determine role?
 ```
 
-Indicators:
+Possible indicators:
 
-- fixed zones,
-- rings,
-- columns,
-- sectors,
-- anchors,
-- repeated frames,
+- fixed zones;
+- rings, columns, sectors, or anchors;
+- repeated frames;
 - stable positions with stable roles.
 
 Failure test:
 
-If moving elements between zones does not alter function, the addressing claim weakens.
+If controlled rearrangement does not alter predicted function or classification, the addressing claim weakens.
 
-### P2 — State Containers
+### Primary criterion P2 — State representation
 
 Question:
 
 ```text
-Are there recurring forms that represent condition or mode rather than depiction?
+Are there recurring forms that reliably mark condition, mode, or phase?
 ```
 
-Indicators:
+Possible indicators:
 
-- containers,
-- nodes,
-- pools,
-- vessels,
-- blocks,
-- bodies,
-- repeated glyph clusters,
-- mode markers.
+- containers;
+- nodes;
+- pools or vessels;
+- repeated blocks or glyph clusters;
+- mode or state markers.
 
 Failure test:
 
-If the forms behave only as pictures or decoration, the state-container claim weakens.
+If the forms are explained equally or better as illustration, decoration, scribal convention, or ordinary language structure, the state claim weakens.
 
-### P3 — Flow / Transformation
+### Primary criterion P3 — Flow or transformation
 
 Question:
 
 ```text
-Is there ordered progression, transition, circulation, or routing?
+Is there ordered progression, transition, circulation, branching, or routing?
 ```
 
-Indicators:
+Possible indicators:
 
-- paths,
-- channels,
-- loops,
-- sequencing,
-- reset structures,
-- branching,
+- paths or channels;
+- loops and sequence;
+- reset structures;
+- branching;
 - conditional transitions.
 
 Failure test:
 
-If reordering the sequence produces no predictable change, the flow claim weakens.
+If reordering does not change any pre-specified output or structural prediction, the flow claim weakens.
 
-## ESRT Secondary Criteria
+### Secondary criteria
 
-Secondary criteria strengthen the classification.
+Secondary criteria can strengthen—but cannot independently establish—the classification:
 
-### S1 — Cross-Domain Stability
+- cross-context stability of the same grammar;
+- compression through reusable modules or subroutines;
+- tolerance of copying or stylistic noise;
+- predictable failure after structural violation.
 
-The same execution grammar appears under different surface imagery.
+### Scoring boundary
 
-### S2 — Compression
+A provisional ESRT pass requires:
 
-Dense blocks, macros, or subroutines reduce repetition.
+- all three primary criteria;
+- at least two secondary criteria;
+- performance above matched linguistic, decorative, diagrammatic, scribal, and chance baselines;
+- a pre-specified perturbation test.
 
-### S3 — Noise Tolerance
+A pass means **executable-system candidate**, not confirmed historical function.
 
-The system survives stylistic variation or imperfect copying without collapsing.
+## Part 2 — ESF
 
-### S4 — Predictable Failure
+ESF models executable systems through three linked dimensions:
 
-Structural violations produce consistent, non-random failure.
+1. **Addressing** — where execution occurs.
+2. **State** — what condition a component occupies.
+3. **Flow** — how transitions proceed.
 
-## ESRT Scoring
+A structure is usefully executable when those dimensions jointly constrain action in a reproducible way.
 
-Passing threshold:
+## Worked Example 1 — Thermostat-Controlled Heating
 
-- all three Primary Criteria satisfied,
-- at least two Secondary Criteria satisfied.
+### Addressing
 
-Failure threshold:
+- environment or air volume;
+- sensor position;
+- heater or actuator.
 
-- missing any Primary Criterion,
-- execution depends entirely on translation or external legend,
-- element reordering has no functional effect.
+Placement matters: a badly placed sensor predictably distorts regulation.
 
-## Part 2 — ESF: Executable System Framework
+### State
 
-ESF is the modelling framework that explains how executable systems work.
-
-It uses three orthogonal structural layers:
-
-1. Addressing — where execution occurs.
-2. State — what condition a component occupies.
-3. Flow — how transitions and execution proceed.
-
-A system is executable when these three layers jointly constrain action in a reproducible manner.
-
-## ESF Worked Example 1 — Thermostat-Controlled Heating System
-
-### System Description
-
-A thermostat-controlled heating system is a closed-loop, self-regulating executable system.
-
-It operates independently of explanation or belief.
-
-### Addressing Layer
-
-Address regions:
-
-- environment / air volume,
-- sensor / thermostat position,
-- actuator / heater unit.
-
-Placement determines function.
-
-Move the thermostat to a bad location and system regulation distorts.
-
-### State Layer
-
-States include:
-
-- temperature below threshold,
-- temperature within threshold,
-- temperature above threshold,
-- heater on,
+- temperature below threshold;
+- within threshold;
+- above threshold;
+- heater on;
 - heater off.
 
-These states recur cyclically.
-
-### Flow Layer
-
-Flow sequence:
+### Flow
 
 ```text
-Temperature change -> sensor detection -> actuator response -> environmental change
+temperature change
+→ sensor detection
+→ actuator response
+→ environmental change
 ```
 
-This is a closed feedback loop.
+### Tests
 
-### ESF Tests
+- reproduce the loop in independent systems;
+- move the sensor and predict the distortion;
+- inject measurement noise;
+- break the feedback path as a negative control.
 
-- Reproducibility: independent systems regulate temperature equivalently.
-- Perturbation: sensor relocation predictably distorts regulation.
-- Noise tolerance: measurement error does not immediately collapse function.
-- Negative control: breaking the loop causes failure.
+This is an established executable example used to validate the method’s grammar.
 
-### Classification
+## Worked Example 2 — Diagram-Only Assembly
 
-The thermostat qualifies as an executable system.
+### Addressing
 
-## ESF Worked Example 2 — Non-Verbal Human Task Training
+Workspaces, tool zones, component placement, and panels define where actions occur.
 
-### System Description
+### State
 
-A diagram-only assembly system teaches action without ordinary prose.
+Components move through:
 
-### Addressing Layer
-
-Workspaces, tool zones, component placement, and visual panels define addressing.
-
-Reordering zones disrupts task execution.
-
-### State Layer
-
-Components occupy states:
-
-- unassembled,
-- partially assembled,
-- aligned,
-- locked,
+- unassembled;
+- aligned;
+- partially assembled;
+- locked;
 - completed.
 
-### Flow Layer
+### Flow
 
-Steps constrain action.
+The sequence constrains action. Skipping or reordering steps should produce predictable error.
 
-Skipping or reordering steps causes predictable failure.
-
-### Classification
-
-The system qualifies as executable because it transmits procedure through structure, not explanation.
+This example shows that executable structure need not rely on ordinary prose.
 
 ## Application to MKUFT
 
-ESF supports MKUFT at the transmission and coherence-analysis layer.
+ESRT/ESF support the information and transmission layers of MKUFT.
 
-ESF does not:
+They do not:
 
-- replace MKUFT field models,
-- alter MKUFT physical claims,
-- introduce symbolism or narrative interpretation,
-- claim that all patterns are executable.
+- replace MKUFT physical models;
+- prove that a visual pattern is executable;
+- establish origin, authorship, intent, or spirituality;
+- convert analogy into evidence.
 
-ESF does:
+They do:
 
-- enforce structural coherence,
-- prevent interpretive drift,
-- identify whether a system survives context loss,
-- provide executable transmission surfaces,
-- distinguish executable models from narrative claims.
+- make addressing, state, and flow explicit;
+- reduce interpretive drift;
+- support perturbation and negative-control tests;
+- distinguish reproducible structure from narrative resemblance;
+- test whether a model survives compression and context loss.
 
-## Why ESRT / ESF Sharpen MKUFT
+## Voynich Application Boundary
 
-MKUFT depends on coherence, constraint, and transmission integrity.
+The Voynich Manuscript is an ESRT/ESF **candidate application** because it appears to contain positional structure, recurring forms, and possible flow relations.
 
-A theory can fail not only because its content is false, but because its transmission layer degrades under compression, metaphor, or reinterpretation.
+That classification remains provisional until it outperforms ordinary alternatives in blinded quantitative tests.
 
-ESRT/ESF prevent this by asking:
+A valid test programme should compare:
 
-- What is the address?
-- What is the state?
-- What is the flow?
-- What changes if the structure is moved?
-- What breaks if order is altered?
-- What survives copying or context loss?
+- the procedural hypothesis;
+- linguistic and cipher models;
+- scribal and layout conventions;
+- decorative or mnemonic structure;
+- matched pseudo-manuscript controls.
 
-This turns qualitative coherence claims into structural tests.
+The application home is:
 
-## Use in the Voynich Work
+`docs/09_VOYNICH_PROCEDURAL_ENGINE.md`
 
-The Voynich Manuscript is classified through ESRT/ESF because it appears to preserve:
+## Falsification
 
-- positional addressing,
-- state containers,
-- flow and transition structures,
-- cross-section grammar,
-- compressed subroutines,
-- predictable addressing failure.
+ESRT/ESF are weakened if:
 
-This does not prove a translation. It classifies the manuscript as an executable system candidate.
+- the three criteria cannot be independently coded;
+- raters cannot classify structures reliably;
+- perturbations do not produce predicted changes;
+- known non-executable artefacts pass at a high rate;
+- known executable artefacts fail at a high rate;
+- simpler classification systems perform better;
+- the method only confirms interpretations chosen in advance.
+
+## Architecture Route
+
+```text
+parent: information-layer structure and constrained traversal
+short support bridge: docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md
+application: docs/09_VOYNICH_PROCEDURAL_ENGINE.md
+falsification: docs/05_FALSIFICATION_SUMMARY.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
+```
 
 ## Summary
 
-ESRT asks whether an artefact is executable.
+ESRT asks whether structure constrains execution.
 
-ESF explains how executable systems preserve action through addressing, state, and flow.
+ESF describes that constraint through addressing, state, and flow.
 
-Together, they give MKUFT a disciplined way to analyse non-verbal structure without collapsing into loose symbolism.
+Together they provide a falsifiable method for studying non-verbal procedural structure without collapsing resemblance into proof.
