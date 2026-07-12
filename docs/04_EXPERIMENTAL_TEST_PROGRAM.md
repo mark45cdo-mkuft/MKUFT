@@ -1,14 +1,16 @@
 # MKUFT Experimental Test Programme — Clean Working Copy
 
-Author: Mark McLaughlin
+Author: Mark Charles McLaughlin
 
-Status: empirical and falsification spine for the private MKUFT GitHub working repository.
+Status: public empirical and falsification spine inside the controlled MKUFT GitHub working copy.
 
 ## Purpose
 
-This document outlines testable experimental pathways for MKUFT.
+This document outlines experimental pathways that could test, constrain, or reject specific MKUFT claims.
 
-Terminology has been normalised to the current formal convention:
+The experiments are proposals, not reports of established effects. Each protocol must use appropriate ethics review, power analysis, pre-registration, blinding, control conditions, multiple-comparison correction, and publication of null results.
+
+Current layer convention:
 
 - S = Substrate
 - I = Information
@@ -17,227 +19,208 @@ Terminology has been normalised to the current formal convention:
 
 Older wording such as P = Perception/Boundary and O = Output is superseded here.
 
-## Core Testable Claims
+## Core Testable Hypotheses
 
-MKUFT makes the following testable claims:
+MKUFT proposes the following hypotheses for testing:
 
-1. The vacuum/background is not inert; it contains substrate structure that may couple weakly to EM, biological, and informational systems.
-2. Information and geometry are not descriptive only; under specific conditions they may help organise matter, fields, cognition, and probability distributions.
-3. Observers and boundary conditions are active modulation terms, not external spectators.
-4. Coherent observer states may slightly bias probability distributions, especially in REG/RNG, synchronicity, and remote-information protocols.
-5. Environmental conditions such as EM noise, geometry, geomagnetic state, iron concentration, and physiological coherence may damp or amplify effects.
+1. Background or vacuum behaviour may contain reproducible structure not captured by the selected null model.
+2. Information and geometry may alter measurable outcomes where a defined physical coupling exists.
+3. Observer or measurement conditions may act as bounded modulation terms in sensitive systems.
+4. Measured coherence states may correlate with small deviations in pre-specified REG/RNG or remote-information protocols.
+5. Environmental conditions may modulate any genuine effect size.
 
-## Experiment 1 — Substrate Resonance and Physiological Coherence
+None of these hypotheses should be treated as established before controlled replication.
 
-### Goal
-
-Test whether exposure to substrate-relevant frequencies, especially Schumann-band frequencies around 7–8 Hz, produces measurable increases in human physiological and cognitive coherence compared with sham conditions.
-
-### MKUFT Claim Tested
-
-Substrate-relevant resonance can couple weakly to biological systems, increasing coherence and stability.
-
-### Design
-
-Participants: 40–100 healthy adults.
-
-Conditions:
-
-- Real low-intensity EM field around 7.83 Hz.
-- Sham condition with identical setup and no active field.
-
-Measures:
-
-- HRV coherence.
-- EEG alpha/theta coherence.
-- Attention or working-memory task performance.
-- Subjective clarity/calm scales.
-
-### Prediction
-
-Real exposure produces statistically significant coherence gains compared with sham.
-
-### Falsification Condition
-
-Repeated well-controlled studies show no consistent real-vs-sham difference.
-
-## Experiment 2 — Consciousness–Randomness Coupling
+## Experiment 1 — Low-Frequency Exposure and Physiological Coherence
 
 ### Goal
 
-Test whether coherent observer states measurably bias true random event generator output.
+Test whether controlled low-intensity exposure near a pre-registered frequency band, including the commonly discussed 7–8 Hz range, changes physiological or cognitive measures compared with sham exposure.
 
-### MKUFT Claim Tested
+### Measures
 
-Observer coherence κ(O) can modulate outcome probability slightly when the system is sufficiently sensitive.
+- heart-rate variability;
+- EEG measures selected in advance;
+- attention or working-memory performance;
+- subjective state scales;
+- adverse-event monitoring.
 
-### Design
+### Controls
 
-Conditions:
+- double-blind real/sham exposure;
+- matched acoustic, thermal, electrical, and expectancy conditions;
+- exposure verification;
+- correction for multiple outcomes.
 
-- Baseline no-intention blocks.
-- Coherence-induction plus intention blocks.
-- Sham/control blocks.
+### Falsification condition
 
-Measures:
+Repeated adequately powered studies show no reproducible real-versus-sham difference.
 
-- REG/RNG bit distribution.
-- Z-scores against expected 50/50 distribution.
-- Physiological or behavioural coherence measures.
-
-### Prediction
-
-Coherence/intention phases show small but consistent deviations from baseline and sham.
-
-### Falsification Condition
-
-Large pre-registered studies repeatedly show no above-baseline deviation during coherence phases.
-
-## Experiment 3 — Boundary Decoherence and Pattern Formation
+## Experiment 2 — Coherence and Random Event Generators
 
 ### Goal
 
-Test whether geometry or boundary conditions influence pattern formation beyond ordinary physical expectations.
-
-### MKUFT Claim Tested
-
-Information-layer geometry can affect physical pattern stability and formation.
+Test whether a pre-defined coherence condition correlates with a small deviation in a true random event generator.
 
 ### Design
 
-Use controlled physical systems such as crystallisation, fluid patterning, acoustic/EM resonance, or material deposition.
+- baseline blocks;
+- coherence-induction blocks;
+- intention and non-intention controls;
+- concealed block order;
+- device diagnostics and independent data logging.
 
-Compare:
+### Primary outcome
 
-- High-coherence geometries.
-- Arbitrary or pseudo-random control geometries.
-- Matched container/material conditions.
+A single pre-registered statistic comparing conditions against the device null model.
 
-### Prediction
+### Falsification condition
 
-High-coherence geometries produce statistically distinguishable pattern stability or structural ordering.
+Large, blinded, independently replicated studies show no condition-linked deviation beyond chance, drift, optional stopping, hardware bias, or analytical flexibility.
 
-### Falsification Condition
-
-Repeated image/statistical analysis finds no difference beyond ordinary container or material effects.
-
-## Experiment 4 — Cognitive and Neural Response to High-Coherence Patterns
+## Experiment 3 — Geometry and Physical Pattern Formation
 
 ### Goal
 
-Test whether the brain responds differently to high-coherence patterns compared with matched pseudo-coherent controls.
-
-### MKUFT Claim Tested
-
-I-layer patterns aligned with substrate rules produce measurable cognitive or physiological signatures.
+Test whether geometry affects crystallisation, fluid patterning, acoustic or electromagnetic resonance, or material deposition beyond known boundary and container effects.
 
 ### Design
 
-Stimuli:
+Compare pre-specified geometries with controls matched for:
 
-- φ-based spirals, pentagonal geometries, quasi-crystal tilings, high-symmetry forms.
-- Matched pseudo-random controls with similar brightness, complexity, colour, and spatial frequency.
+- material;
+- dimensions;
+- surface area;
+- thermal behaviour;
+- field distribution;
+- vibration;
+- manufacturing tolerance.
 
-Measures:
+### Falsification condition
 
-- EEG coherence.
-- Pupillometry and eye tracking.
-- Preference ratings.
-- Recognition and memory performance.
+Any apparent effect disappears after ordinary geometric and material variables are modelled, or fails independent replication.
 
-### Prediction
-
-High-coherence patterns increase neural coherence, preference, or memory relative to controls.
-
-### Falsification Condition
-
-After low-level feature matching, no distinct physiological or behavioural advantage remains.
-
-## Experiment 5 — Remote Information Access Under Substrate-Friendly Conditions
+## Experiment 4 — Cognitive Response to Structured Patterns
 
 ### Goal
 
-Test whether information about distant targets can be described above chance under strict blind protocols, and whether performance improves under coherence-aligned conditions.
+Test whether selected high-regularity or high-symmetry patterns produce distinct neural or behavioural responses compared with feature-matched controls.
 
-### MKUFT Claim Tested
+### Measures
 
-Observer coherence can improve access to information structures not available through ordinary sensory channels.
+- EEG or other registered physiological measures;
+- eye tracking and pupillometry;
+- recognition and memory;
+- preference and confidence;
+- calibration between confidence and accuracy.
 
-### Design
+### Boundary
 
-- Randomly selected image/location/video targets.
-- Double-blind viewer and experimenter.
-- Time-stamped transcripts.
-- Independent blind judging.
-- Baseline and substrate-aligned conditions.
+A preference or neural response would establish a cognitive effect, not a substrate mechanism. Cross-layer claims require an independently defined coupling.
 
-### Prediction
+### Falsification condition
 
-Hit rate exceeds chance slightly but consistently, with better performance under aligned conditions.
+No reliable difference remains after matching low-level visual features and correcting for multiple tests.
 
-### Falsification Condition
-
-Strict, pre-registered protocols over many sessions show no excess over chance.
-
-## Experiment 6 — Global Coherence and Collective Behaviour
+## Experiment 5 — Remote Information Under Strict Blind Conditions
 
 ### Goal
 
-Test whether planetary-scale EM or Schumann resonance states correlate with changes in REG networks, collective behaviour, or global physiological data where available.
+Test whether descriptions of concealed targets exceed chance under a fully specified judging protocol, and whether any performance covaries with measured observer state.
 
-### MKUFT Claim Tested
+### Design requirements
 
-The substrate can act as a weak global coupling medium under specific coherent states.
+- random target selection;
+- double-blind viewer and experimenter;
+- time-stamped, immutable transcripts;
+- independent blind judging;
+- fixed scoring method;
+- leakage and cueing controls;
+- pre-registered exclusion rules;
+- replication by an independent team.
 
-### Design
+### Falsification condition
 
-Collect time-stamped data from:
+Performance converges to chance across adequately powered, leakage-resistant replications.
 
-- REG networks.
-- Schumann/geomagnetic monitoring.
-- Collective activity markers such as search trends, financial volatility, or sentiment indices.
-
-Use time-series analysis, cross-correlation, phase-shift controls, and multiple-comparison correction.
-
-### Prediction
-
-Specific coherence windows correlate with slight but reliable deviations or synchronisation changes.
-
-### Falsification Condition
-
-No robust correlation remains after controls and correction.
-
-## Experiment 7 — Vacuum/Substrate Noise Measurement
+## Experiment 6 — Environmental and Collective Correlation Tests
 
 ### Goal
 
-Look for structure in vacuum or zero-point noise that better fits MKUFT substrate structure than a purely featureless vacuum model.
+Test whether pre-specified environmental measures correlate with REG networks, physiological aggregates, or collective-behaviour indicators.
 
-### Design
+### Candidate variables
 
-Use ultra-sensitive detection in shielded cavities or controlled EM/geometric environments.
+- geomagnetic indices;
+- measured electromagnetic noise;
+- local environmental conditions;
+- Schumann-band measurements where instrument quality is adequate;
+- pre-defined behavioural or physiological series.
 
-Compare noise characteristics against standard predictions and MKUFT substrate-structure predictions.
+### Required controls
 
-### Prediction
+- time-shift and surrogate-data tests;
+- correction for autocorrelation and seasonality;
+- multiple-comparison control;
+- out-of-sample prediction;
+- avoidance of post-event window selection.
 
-Tiny but systematic deviations appear under specific geometry, EM, orientation, or environmental states.
+### Falsification condition
 
-### Falsification Condition
+No robust association survives correction, out-of-sample testing, and independent replication.
 
-Observed noise follows standard expectations and all deviations reduce to ordinary technical/systematic causes.
+## Experiment 7 — Precision Noise and Boundary Conditions
 
-## Summary of Falsifiable Predictions
+### Goal
 
-MKUFT is weakened or falsified if strong repeated tests fail to show:
+Test whether high-precision physical noise differs reproducibly across pre-registered geometry, orientation, shielding, or boundary conditions after known systematics are controlled.
 
-- physiological coherence effects under substrate-relevant exposure,
-- REG/RNG deviations under coherent intention,
-- geometry-dependent pattern effects,
-- cognitive/neural response differences to high-coherence patterns,
-- remote-information performance above chance under strict conditions,
-- environmental modulation of effect sizes,
-- global coherence correlations,
-- substrate-structure signatures in high-precision noise studies.
+### Design requirements
 
-If these fail under honest, sufficiently powered testing, MKUFT is wrong or seriously incomplete.
+- instrument-characterisation plan;
+- thermal, vibration, electromagnetic, timing, and software controls;
+- calibration injections;
+- blinded condition labels;
+- comparison with accepted physical models;
+- independent replication before interpretation.
+
+### Falsification condition
+
+Observed structure is fully explained by known noise, calibration, environmental, or analytical causes, or does not reproduce.
+
+## Experimental Integrity Rules
+
+1. One primary outcome per principal test.
+2. Exploratory findings must be labelled exploratory.
+3. Effect size and uncertainty matter more than isolated p-values.
+4. Null results remain part of the evidence.
+5. A failed test is not dismissed by inventing unmeasured “conditions.”
+6. Observer, information, and physical-layer evidence must remain separate.
+7. Ordinary explanations are tested before a wider MKUFT interpretation.
+8. Any claimed environmental variable must be measured, not inferred after the event.
+9. Safety and ethics override theoretical interest.
+
+## Relationship to the Silver Update
+
+The new structural modules sharpen experimental design:
+
+- `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` requires fixed definitions and pre-registered frame costs;
+- `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md` requires evidence at the layer where the claim is made;
+- `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` is not a clinical instrument and requires domain-appropriate validation;
+- `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` preserves the route from hypothesis to mechanism, prediction, falsifier, and reduction rule.
+
+## Summary of Falsification
+
+MKUFT is weakened when proposed effects repeatedly fail under strong controls, when apparent effects collapse into ordinary causes, or when the framework cannot make predictions more specific than flexible retrospective interpretation.
+
+If the observer, environmental, geometric, remote-information, and precision-noise branches fail under honest and sufficiently powered testing, those branches must be removed or substantially revised. They cannot be protected by the breadth of the wider framework.
+
+## Architecture Route
+
+```text
+parent: MKUFT core and mathematical appendix
+worked numerical examples: docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md
+compact failure conditions: docs/05_FALSIFICATION_SUMMARY.md
+science comparison: SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
+```
