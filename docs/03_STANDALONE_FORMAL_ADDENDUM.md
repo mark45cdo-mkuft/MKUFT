@@ -1,361 +1,317 @@
-MKUFT — STANDALONE FORMAL ADDENDUM
+# MKUFT — Standalone Formal Addendum
 
-Mathematical Formalisation, Falsifiability & Experimental Pathways
+## Mathematical Formalisation, Falsifiability, and Experimental Pathways
 
-Status: Official Standalone Addendum to MKUFT
-Relationship to Core: Extends and sharpens the original MKUFT core paper.
-Core MKUFT Status: Unchanged and remains authoritative.
+Author: Mark Charles McLaughlin  
+Status: public formal addendum inside the controlled MKUFT GitHub working copy  
+Relationship to core: sharpens and operationalises the core without replacing the DOI-linked source work.
 
-This document introduces formal mathematical structure, explicit falsifiability, and experimental pathways that were implicit in the original MKUFT framework. No new ontology, entities, or metaphysical assumptions are introduced.
+This addendum introduces mathematical objects and failure conditions for structural concepts already present in MKUFT.
 
-
----
-
-1. Purpose of This Addendum
-
-This addendum exists to:
-
-Formalise structural concepts already present in MKUFT
-
-Define operational mathematical objects in a Word-safe format
-
-Introduce explicit falsifiability conditions
-
-Propose concrete experimental and observational tests
-
-
-This document does not revise or replace the original MKUFT core paper. It stands alongside it as a formal expansion.
-
+The objects below are working models. They are not established physical laws merely because they are written mathematically.
 
 ---
 
-2. Architectural Premise
+## 1. Purpose
 
-MKUFT treats geometry as the literal architecture of reality.
+This addendum aims to:
 
-Geometric relations determine:
+- formalise constrained state and transition structure;
+- define traversal cost;
+- connect path availability to candidate probability models;
+- state explicit falsifiers;
+- show how the Silver Update extends the original graph formalism.
 
-Which states of reality are stable
-
-Which transitions between states are permissible
-
-The relative cost of such transitions
-
-
-Physical laws are understood as emergent behaviours constrained by this architecture, not as arbitrary rules imposed on an unconstrained substrate.
-
+No new entity or ontology is established by this document.
 
 ---
 
-3. Mathematical State Space
+## 2. Architectural premise
 
-Define the permissible state space as a constrained graph:
+MKUFT tests the hypothesis that geometry, relation, boundary, and constraint help determine:
 
-G = (N, E)
+- which states are stable;
+- which transitions are admissible;
+- what transitions cost;
+- what outcomes persist.
 
-Where:
-
-N = set of stable attractor states (nodes)
-
-E = set of admissible transitions (edges)
-
-
-Nodes correspond to symmetry-locked, coherence-stable solutions permitted by geometric constraint.
-
-The grammatical structure of N is finite, while traversal through the graph is unbounded.
-
+The public claim is not that all physical law has already been derived from MKUFT geometry. The claim is that constrained traversal provides a common modelling grammar that can be tested across layers.
 
 ---
 
-4. Trajectories
+## 3. Constrained state graph
 
-A trajectory γ is an ordered path through G:
+Represent a modelled state space as:
 
-γ = (n0 -> n1 -> n2 -> … -> nk)
+```text
+G = (N,E)
+```
 
-Traversal is governed strictly by adjacency constraints.
-Not all node pairs are directly connected.
+where:
 
-Agency, interaction, and evolution occur as constrained traversal, not state creation.
+- `N` is a set of stable or operationally distinguishable states;
+- `E` is a set of admissible transitions.
 
+Whether `N` is finite, countable, or continuous depends on the domain and discretisation. No universal finiteness claim is made.
+
+A node may represent an attractor, physical state, information state, role, address, or repeatable configuration.
 
 ---
 
-5. Coherence Cost Functional
+## 4. Trajectories
 
-Each trajectory carries a traversal cost:
+A trajectory is an ordered path:
 
+```text
+γ = (n_0 → n_1 → ... → n_k)
+```
+
+Traversal is constrained by adjacency or by the continuous equivalent defined for the chosen domain.
+
+Agency, interaction, and evolution can be analysed as movement through available state structure. This does not imply that genuinely new effective states can never emerge; it requires any claimed state creation to be defined rather than smuggled into the model.
+
+---
+
+## 5. Traversal cost
+
+A candidate cost functional is:
+
+```text
 C[γ] = ∫_γ λ(x) ds
+```
 
-Where:
+where:
 
-λ(x) = local coherence friction / gradient tension
+- `λ(x)` is a domain-specific local cost, friction, instability, contradiction, or gradient term;
+- `ds` is a path element.
 
-ds = differential path element along γ
+`λ` must be given units or a clearly normalised scale in any quantitative application.
 
-Interpretation:
-
-Low λ(x) implies smooth, stable traversal
-
-High λ(x) implies resistance, instability, or distortion
-
-
-Traversal cost is structural, not subjective.
-
+Low `C[γ]` indicates a comparatively accessible route under the selected model. High `C[γ]` indicates resistance, instability, or low admissibility.
 
 ---
 
-6. Probability as Path Density
+## 6. Path-weight model
 
-Transition likelihood between node A and node B is defined as:
+A candidate transition weighting is:
 
-P(B|A) ∝ Σ_{γ ∈ Γ(A->B)} exp( - C[γ] )
+```text
+P(B|A) ∝ Σ_{γ ∈ Γ(A→B)} exp[-C[γ]]
+```
 
-Where:
+where `Γ(A→B)` is the set of modelled admissible paths from `A` to `B`.
 
-Γ(A->B) = set of admissible trajectories between A and B
+This is a Gibbs-like path-weight model. It does not establish that fundamental probability is nothing but path density. It tests whether path availability and cost improve prediction in a specified domain.
 
-Probability is therefore an emergent property of path availability and cost, not intrinsic randomness.
-
-
----
-
-7. Learning and Adaptation
-
-Learning is defined as local reduction of coherence friction λ(x) along frequently traversed paths.
-
-No new nodes are created
-
-Structural grammar remains unchanged
-
-Skill acquisition corresponds to reduced traversal cost
-
-
-Learning is therefore path reinforcement, not state expansion.
-
+The model fails where accepted domain models predict better without this additional structure.
 
 ---
 
-8. Time as Emergent Quantity
+## 7. Learning and adaptation
 
-Experienced time correlates with accumulated traversal cost:
+One useful learning model is local cost reduction along repeatedly successful trajectories:
 
-T_experienced ≈ Σ C[γ_i]
+```text
+λ_{t+1}(x) < λ_t(x)
+```
 
-This predicts:
+for relevant segments of the practiced route.
 
-Time compression in low-cost traversal regimes
+This can represent skill acquisition, habit, improved control, or lower prediction error.
 
-Time dilation under high-cost or constrained traversal
-
-
-Time is thus a derived measure, not a fundamental dimension.
-
+It is not claimed that learning can never create new effective representations or states. The narrower claim is that many learning curves can be modelled as changes in accessibility and cost over an existing or expanding state graph.
 
 ---
 
-9. Falsifiability Framework
+## 8. Experienced time
 
-MKUFT makes explicit, testable predictions.
+A working phenomenological hypothesis is:
 
-9.1 Probability Structure
+```text
+T_experienced ∝ Σ_i C[γ_i]
+```
+
+This predicts that high processing burden, conflict, threat, or constrained traversal may correlate with experienced slowing, while fluent low-cost traversal may correlate with time compression.
+
+This is a model of experienced time, not proof that physical time is non-fundamental.
+
+---
+
+## 9. Core falsifiability
+
+### 9.1 Path structure
 
 Prediction:
-Outcome likelihood correlates with path density between nodes.
 
-Disproof Condition:
-Demonstration of preferred outcomes without increased path availability or reduced traversal cost.
+Path availability and cost improve outcome prediction beyond simpler baselines.
 
+Failure condition:
 
----
+They add no predictive value, or preferred outcomes occur independently of the defined path structure.
 
-9.2 Learning Curves
-
-Prediction:
-Learning follows cost-reduction curves along existing trajectories.
-
-Disproof Condition:
-Evidence that learning introduces new stable states rather than reducing traversal cost.
-
-
----
-
-9.3 Anomaly Clustering
+### 9.2 Learning
 
 Prediction:
-Anomalous phenomena cluster near high-cost or near-forbidden adjacency regions.
 
-Disproof Condition:
-Uniform random distribution of anomalies independent of coherence gradients.
+Practice changes measurable route cost, error, or accessibility.
 
+Failure condition:
 
----
+The cost model performs worse than standard learning models and adds no useful discrimination.
 
-9.4 Measurement Effects
+### 9.3 Boundary-edge clustering
 
 Prediction:
-Measurement alters routing statistics, not state availability.
 
-Disproof Condition:
-Observation demonstrably creates new permissible states.
+Some pre-defined anomaly classes cluster near measurable thresholds, gradients, or adjacency changes.
 
+Failure condition:
 
----
+No clustering survives selection-bias controls, exposure correction, and out-of-sample testing.
 
-10. Experimental Pathways
+### 9.4 Measurement context
 
-Potential tests include:
+Prediction:
 
-Statistical analysis of learning curves across skill domains
+Measurement context changes routing or recorded statistics in ways specified before the test.
 
-Correlation of anomalous events with environmental coherence gradients
+Failure condition:
 
-Measurement-context dependency studies
-
-Computational simulations of constrained traversal graphs
-
-
-Each pathway targets a specific falsifiable claim.
-
+No predicted context effect remains after accepted physical and statistical explanations.
 
 ---
 
-11. Relationship to MKUFT Core
+## 10. Experimental pathways
 
-This addendum:
+Candidate tests include:
 
-Does not modify the MKUFT core paper
+- computational simulation of constrained graphs;
+- learning-curve comparisons;
+- threshold and boundary experiments;
+- measurement-context studies;
+- pre-registered anomaly-distribution analysis.
 
-Sharpens interpretation and operationalisation
-
-May be read independently or alongside the core
-
-
-The original MKUFT document remains the canonical architectural foundation.
-
+Each experiment must define its domain variables, baseline model, primary outcome, and failure condition.
 
 ---
 
-12. Canon Status
+## 11. Silver Update — unresolved feasible regions
 
-This document is designated:
+The original graph describes resolved or operationally named states. The Silver Update adds the unresolved region still compatible with evidence and constraint.
 
-MKUFT — Standalone Formal Addendum
-(Mathematical Formalisation & Falsification Expansion)
+```text
+A_t^vol = log(1 + μ(Ω_t)/μ_0)
+```
 
-It supersedes earlier short addenda and informal drafts while preserving the integrity and continuity of the original MKUFT core.
+where:
 
+- `Ω_t` is the unresolved feasible region;
+- `μ_0` is a reference scale.
 
----
+Let:
 
-13. Silver Update Extension — Unresolved Regions
+```text
+R_t ∈ [0,1]
+```
 
-The original graph `G = (N,E)` describes stable nodes and admissible transitions. The Silver Update adds a formal handle for cases where the active state, interpretation, role, or route is not yet resolved to one node.
+represent normalised low-cost connectivity, and:
 
-At time `t`, let `Ω_t` be the feasible region still compatible with available evidence and active constraints.
+```text
+X_t ∈ [0,1]
+```
 
-Define ambiguity volume:
+represent normalised preserved access.
 
-A_t = log(1 + μ(Ω_t) / μ_0)
+The heuristic manoeuvrability index is:
 
-where `μ_0` is a reference scale.
+```text
+M_t = A_t^vol × R_t × X_t
+```
 
-Represent low-cost transitions within that unresolved region by weighted connectivity `R_t`, and let `X_t` represent preserved access, influence, extraction, or credibility during movement.
+This extends the graph model:
 
-The working manoeuvrability measure is:
+- nodes describe states that can be held or named;
+- `Ω_t` describes unresolved alternatives;
+- `R_t` describes movement among them;
+- `X_t` describes whether movement preserves access or influence.
 
-M_t = A_t × R_t × X_t
-
-This extends the graph formalism without replacing it:
-
-- resolved nodes describe states the system can hold;
-- `Ω_t` describes the unresolved feasible region around or between candidate states;
-- `R_t` describes movement through that region;
-- `X_t` describes whether the movement preserves access to the sustaining system or source.
-
-If `R_t` or `X_t` is negligible, high ambiguity alone does not imply high manoeuvrability.
-
-Full definitions and falsifiers are in:
-
-`21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`
-
+See `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`.
 
 ---
 
-14. Silver Update Extension — Layer Addressing
+## 12. Silver Update — layer addressing
 
-A repeated structure must not be flattened across layers or fragmented into unrelated mechanisms.
+Let `K` be a candidate invariant, `L ∈ {S,I,P,O}` the active layer, and `θ_L` the layer-specific constraints and observables.
 
-Let `K` be a candidate invariant and `L ∈ {S,I,P,O}` the active layer. Let `θ_L` contain layer-specific variables and constraints.
-
-The address relation is:
-
-K_L = A_L(K ; θ_L)
-
-This means one invariant may have different measurable expressions at different layer addresses.
+```text
+K_L = A_L(K;θ_L)
+```
 
 A valid address must specify:
 
-The invariant relation
+- the invariant relation;
+- the active layer;
+- changed variables and units;
+- evidence required at that layer;
+- any cross-layer coupling;
+- an independent falsifier.
 
-The active layer
+A repeated algebraic form does not prove an identical mechanism across layers.
 
-The variables that change
-
-The evidence required at that layer
-
-The coupling to other layers, if claimed
-
-The independent falsifier
-
-Full definitions are in:
-
-`22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
-
+See `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`.
 
 ---
 
-15. Silver Update Extension — Agency Accessibility
+## 13. Silver Update — agency accessibility
 
-For agents or systems with constrained practical choice, distinguish the actual action set `U_t` from the perceived or accessible action set.
+Let `U_t` be the actual action set and `U_t^access` the practically accessible subset:
 
-U_t^access = {u ∈ U_t : G_t(u ; T_t, H_t) > θ_access}
+```text
+U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
+```
 
-where `T_t` represents perceived threat and `H_t` represents reinforcement history.
+A retained capacity may remain while access is degraded:
 
-A retained capacity may therefore remain structurally present while practical access is degraded.
-
+```text
 Agency_effective(t) = Agency_capacity × a_t
+```
 
-with `a_t ∈ [0,1]` representing present accessibility.
+with `a_t ∈ [0,1]`.
 
 This is an operational distinction, not a complete moral, legal, or clinical equation.
 
-Full definitions, recovery mechanics, and ontology limits are in:
-
-`23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md`
-
+See `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md`.
 
 ---
 
-16. Silver Update Integrity Rule
-
-The new variables are additions to the audit structure, not proof of any application ontology.
+## 14. Integrity rule
 
 A formal expression counts only when it:
 
-Improves discrimination
+- improves discrimination;
+- supports prediction;
+- states a null result;
+- survives ordinary explanations;
+- keeps layer evidence separate;
+- can be revised or removed after failure.
 
-Supports prediction
+A failed submodel must not be protected by the breadth of the wider framework.
 
-States a null result
+---
 
-Survives ordinary explanations
+## 15. Architecture route
 
-Keeps layer evidence separate
+```text
+conceptual core: docs/01_MKUFT_CORE_EXTENDED.md
+math definitions: docs/02_MKUFT_MATH_APPENDIX.md
+experiments: docs/04_EXPERIMENTAL_TEST_PROGRAM.md
+falsification: docs/05_FALSIFICATION_SUMMARY.md
+ambiguity: docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md
+layer addressing: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
+agency accessibility: docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
+```
 
-Can be revised or removed after failure
+## 16. Canon status
 
-The complete dependency and traversal architecture is in:
-
-`24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
+This document is a public formal expansion of MKUFT. It sharpens the working copy while preserving the provenance and identity of the original DOI-linked material.
