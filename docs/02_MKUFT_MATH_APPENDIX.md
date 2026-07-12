@@ -1,6 +1,6 @@
 # MKUFT Mathematical Appendix — Clean Working Copy
 
-Author: Mark McLaughlin
+Author: Mark Charles McLaughlin
 
 Status: mathematical backbone for the public controlled MKUFT GitHub working repository.
 
@@ -12,67 +12,62 @@ The substrate is modelled as a probability or measure space:
 S = (Ω, Σ, μ)
 ```
 
-Where:
+where:
 
-- Ω is the set of possible configurations.
-- Σ is a sigma-algebra of measurable subsets of Ω.
-- μ is a measure assigning baseline weight or propensity to configurations.
+- `Ω` is the set of possible configurations;
+- `Σ` is a sigma-algebra of measurable subsets of `Ω`;
+- `μ` assigns baseline weight or propensity.
 
-The substrate is not directly observed; it is the possibility field from which physically realised events are selected.
+The substrate is not directly observed. This is a mathematical representation of structured possibility, not evidence that a separate material medium has been detected.
 
 ## A2. Information Structures
 
 Information structures are represented as functions over the substrate:
 
 ```text
-I = { f : Ω → R | f ∈ L²(Ω, μ) }
+I = {f : Ω → R | f ∈ L²(Ω, μ)}
 ```
 
-These structures encode patterns, constraints, correlations, and proto-physical forms.
+These functions encode candidate patterns, constraints, correlations, and proto-physical forms.
 
-For a physical event E, define I(E) as the set of information structures compatible with E.
+For event `E`, define `I(E)` as the set of information structures compatible with `E`.
 
 ## A3. Physical Dynamics
 
-The physical layer supplies the standard dynamical contribution. Standard dynamics map initial physical states to probability distributions over future events.
-
-For an event E:
+The physical layer supplies the accepted dynamical contribution:
 
 ```text
 P_phys(E)
 ```
 
-is the standard physical probability derived from accepted physical dynamics.
+This is the probability or prediction obtained from the relevant established physical model.
 
 ## A4. Observer System and Coherence Functional
 
-The observer O is modelled as a system with internal state ρ_O. Coherence is represented by a functional:
+The observer is modelled as a system with state `ρ_O`. A bounded coherence functional is:
 
 ```text
-κ : States(H_O) → [0, 1]
+κ : States(H_O) → [0,1]
 ```
 
-Where:
+where high `κ` means lower measured internal noise or contradiction according to a pre-defined proxy.
 
-- κ close to 1 indicates high coherence: focused, aligned, low internal contradiction.
-- κ close to 0 indicates fragmentation, noise, or disorder.
-
-κ is not fixed to one measurement method. It may be approximated through physiological, cognitive, or behavioural proxies.
+`κ` is not fixed to one measurement method and must be operationally defined in each experiment.
 
 ## A5. Integral Realisation Equation
 
-For event E, the unnormalised MKUFT weight is:
+For event `E`, define the unnormalised working weight:
 
 ```text
-W_total(E) = ∫_{I ∈ I(E)} D_phys(E | I) · W(I | S, E) · C(O | I, E) dν(I)
+W_total(E) = ∫_{I ∈ I(E)} D_phys(E|I) W(I|S,E) C(O|I,E) dν(I)
 ```
 
-Where:
+where:
 
-- D_phys(E | I) is the standard physical contribution conditioned on information structure I.
-- W(I | S, E) is the substrate-to-information weighting.
-- C(O | I, E) is the observer-dependent coherence modulation.
-- ν is a measure over compatible information structures.
+- `D_phys(E|I)` is the accepted physical contribution conditioned on `I`;
+- `W(I|S,E)` is a candidate substrate-to-information weighting;
+- `C(O|I,E)` is a bounded observer-condition term;
+- `ν` is a measure over compatible information structures.
 
 The realised probability is:
 
@@ -86,34 +81,33 @@ with:
 Z = Σ_{E'} W_total(E')
 ```
 
+This equation is a theoretical scaffold. It becomes empirical only when the terms are independently operationalised.
+
 ## A6. Reduction to Standard Physics
 
-If observer coherence does not contribute, then:
+If the observer term is constant:
 
 ```text
-C(O | I, E) = C_0
+C(O|I,E) = C_0
 ```
 
-If information weighting introduces no additional selection beyond standard physics, then:
+and the additional information weighting does not alter standard selection, then:
 
 ```text
 P_realized(E) ≈ P_phys(E)
 ```
 
-This recovers standard physics as the limiting case.
+Failure to recover the ordinary limit is a failure of the model.
 
-## A7. Linear Response Approximation
+## A7. Linear-Response Approximation
 
-Observer influence is treated as a small perturbation:
+A small bounded observer term may be written:
 
 ```text
-C(O | I, E) = C_0 [1 + ε g_O(I, E)]
+C(O|I,E) = C_0 [1 + ε g_O(I,E)]
 ```
 
-Where:
-
-- ε is a small dimensionless strength parameter.
-- g_O(I, E) encodes observer-state-dependent weighting.
+where `ε` is a small dimensionless parameter.
 
 To first order:
 
@@ -121,73 +115,76 @@ To first order:
 P_realized(E) ≈ P_phys(E) + ε Δ_O(E)
 ```
 
-This gives a disciplined bridge between standard physics and small systematic deviations.
+The sign, scale, and form of `Δ_O` must be pre-specified for a test; it cannot be inferred after observing the result.
 
 ## A8. Coherence-Linked Modulation
 
-Tie observer coherence directly to the modulation term:
+One candidate form is:
 
 ```text
-C(O | I, E) = C_0 [1 + ε κ(ρ_O) h(I, E)]
+C(O|I,E) = C_0 [1 + ε κ(ρ_O) h(I,E)]
 ```
 
-Where h(I, E) captures pattern matching between observer state and information structure.
+where:
 
-Interpretation:
+- `κ` measures the selected observer-state proxy;
+- `h` specifies a pre-defined interaction with event structure.
 
-- κ determines how strong the observer modulation can become.
-- h determines which event structures are favoured.
-- Low κ drives the system back toward standard physics.
+Low or irrelevant `κ` should return the model toward the standard-physics limit.
 
 ## A9. Environmental Damping
 
-Let F denote environmental parameters such as EM field characteristics, geomagnetic indices, iron concentration, geometry, and noise.
+Let `F` denote measured environmental parameters such as electromagnetic noise, geomagnetic indices, geometry, shielding, vibration, temperature, or pre-registered material composition.
 
-Both W and C may depend on F:
-
-```text
-W(I | S, E, F)
-C(O | I, E, F)
-```
-
-A simplified environmental damping form is:
+A simplified form is:
 
 ```text
-κ_eff = κ(ρ_O) · η(F)
+κ_eff = κ(ρ_O) η(F)
 ```
 
-Where η(F) ∈ [0,1]. Disruptive environments reduce effective coherence.
+with:
+
+```text
+η(F) ∈ [0,1]
+```
+
+`η(F)` must be specified or estimated from measurements. It cannot be assigned retrospectively to rescue a null result.
 
 ## A10. Group Coherence
 
-For a group of observers {O_1, ..., O_N}, define:
+For observers `{O_1, ..., O_N}`:
 
 ```text
 κ_group = Φ(κ_1, ..., κ_N, C_corr)
 ```
 
-Where C_corr represents alignment or correlation of intention/state.
+where `C_corr` represents measured alignment or correlation.
 
-Possible approximations include:
+A simple candidate approximation is:
 
 ```text
-κ_group = (1/N) Σ κ_i
-κ_group = A · (1/N) Σ κ_i
+κ_group = A_align × (1/N) Σ κ_i
 ```
 
-Where A ∈ [0,1] is an alignment factor.
+with `A_align ∈ [0,1]`.
+
+Group coherence is a coupled O/I/P condition, not a fifth ontological layer.
 
 ## A11. Experimental Connections
 
-- RNG/REG experiments: E corresponds to bit sequences or summary statistics.
-- Remote viewing: E corresponds to correct or incorrect target-description matches.
-- Synchronicity: E encodes theme-compatible co-occurrences.
-- Environmental modulation: F changes κ_eff and effect size.
-- Group effects: κ_group predicts amplification under shared coherent alignment.
+Candidate application classes include:
+
+- REG/RNG condition comparisons;
+- strictly blinded remote-information protocols;
+- pre-registered co-occurrence studies;
+- environmental modulation tests;
+- group-alignment tests.
+
+These are proposed tests, not established confirmations.
 
 ## A12. Ambiguity Volume
 
-For a live claim or system at time `t`, define the feasible region:
+For a live claim or system at time `t`:
 
 ```text
 Ω_t = {states, paths, interpretations, identities, or hypotheses compatible with E_t and C_t}
@@ -195,84 +192,99 @@ For a live claim or system at time `t`, define the feasible region:
 
 where `E_t` is available evidence and `C_t` is the active constraint set.
 
-Let `μ_0` be a reference measure. Define dimensionless ambiguity volume:
+Let `μ_0` be a reference measure. Define:
 
 ```text
-A_t = log(1 + μ(Ω_t) / μ_0)
+A_t^vol = log(1 + μ(Ω_t) / μ_0)
 ```
 
-This is a formal audit handle, not a claim that every dimension is directly measurable.
+`A_t^vol` is dimensionless and is distinct from the older path-objective term `A(γ,t)` used for uncertainty along a candidate trajectory.
 
-The ambiguity module adds route connectivity `R_t` and preserved access `X_t`:
+Let:
 
 ```text
-M_t = A_t × R_t × X_t
+R_t ∈ [0,1]
 ```
 
-`M_t` is a working measure of manoeuvrability inside unresolved state space.
+be normalised low-cost route connectivity, and:
 
-- High `A_t` alone means many possibilities remain.
-- High `R_t` means low-cost transitions exist between unresolved frames or states.
-- High `X_t` means those transitions preserve access, influence, extraction, or credibility.
+```text
+X_t ∈ [0,1]
+```
 
-See `21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` for definitions, discriminators, predictions, and falsifiers.
+be normalised preserved access.
+
+Then the working manoeuvrability index is:
+
+```text
+M_t = A_t^vol × R_t × X_t
+```
+
+`M_t` is a heuristic audit index, not a validated universal law.
+
+See `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`.
 
 ## A13. Cross-Layer Address Map
 
-Let `K` be a candidate invariant and `L ∈ {S,I,P,O}` the active layer.
-
-Let `θ_L` denote the layer-specific constraints, observables, units, noise terms, and admissible transitions.
-
-Define the layer expression:
+Let `K` be a candidate invariant and `L ∈ {S,I,P,O}` the active layer. Let `θ_L` denote layer-specific constraints, observables, units, noise terms, and admissible transitions.
 
 ```text
-K_L = A_L(K ; θ_L)
+K_L = A_L(K; θ_L)
 ```
 
-This does not make a new ontology at every layer. It states that the same invariant may require a different measurable expression at each address.
+`A_L` is an address map, not a new ontology.
 
 A valid address map must preserve:
 
 - the defining relation of `K`;
-- explicit changes in variables;
+- explicit variable changes;
 - layer-appropriate evidence;
 - independent falsifiers;
-- a stated cross-layer coupling where one is claimed.
+- a stated coupling where cross-layer influence is claimed.
 
-See `22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`.
+The same algebraic template across layers does not establish the same physical mechanism. Each address requires its own operationalisation.
+
+See `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`.
 
 ## A14. Agency Accessibility
 
-Let `U_t` be the actions actually available to an agent and `Û_t` the actions perceived as available.
+Let `U_t` be the actions actually available and `Û_t` the actions perceived as available.
 
-Let `G_t(u ; T_t, H_t)` be the gating function for action `u`, with `T_t` representing perceived threat and `H_t` representing reinforcement history.
-
-Define the practically accessible action set:
+Let `G_t(u;T_t,H_t)` be a gating function for action `u`, where `T_t` represents perceived threat and `H_t` represents reinforcement history.
 
 ```text
-U_t^access = {u ∈ U_t : G_t(u ; T_t, H_t) > θ_access}
+U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
 ```
 
-Let `a_t ∈ [0,1]` represent practical accessibility to retained agency:
+Let `a_t ∈ [0,1]` represent practical accessibility:
 
 ```text
 Agency_effective(t) = Agency_capacity × a_t
 ```
 
-This is an operational distinction, not a complete moral or clinical equation.
+This is an operational distinction, not a moral, legal, or clinical equation.
 
-See `23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` for capture variables, responsibility gradients, recovery mechanics, and ontology boundaries.
+See `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md`.
 
 ## A15. Silver Update Reduction Rules
 
-The new formal handles must reduce cleanly:
-
 - If `R_t` or `X_t` is negligible, high ambiguity does not imply high manoeuvrability.
-- If one layer address fails, the failure must not be hidden by evidence from another address.
+- If one layer address fails, evidence from another address cannot conceal the failure.
 - If perceived and actual action sets do not differ, the agency-accessibility mechanism is unnecessary.
-- If simpler noise, incentive, habit, uncertainty, or standard physical models explain the data better, use them.
-- No formal expression counts as evidence merely because it is mathematically writable.
+- If simpler noise, incentive, habit, uncertainty, or standard physical models perform better, use them.
+- A mathematical expression is not evidence merely because it can be written.
+
+## A16. Architecture Route
+
+```text
+conceptual core: docs/01_MKUFT_CORE_EXTENDED.md
+trajectory formalism: docs/03_STANDALONE_FORMAL_ADDENDUM.md
+experiments: docs/04_EXPERIMENTAL_TEST_PROGRAM.md
+worked examples: docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md
+falsification: docs/05_FALSIFICATION_SUMMARY.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
+```
 
 ## Notation Correction
 
-Converted-source glitches such as `Prealized` are normalised as `P_realized`. Broken placeholder symbols are rendered as I(E), Ω, or other explicit notation where context is clear.
+Converted-source glitches such as `Prealized` are normalised as `P_realized`. Broken placeholder symbols are rendered explicitly where context is clear.
