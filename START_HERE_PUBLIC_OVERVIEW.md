@@ -2,67 +2,68 @@
 
 Author: Mark Charles McLaughlin
 
-## First Read
+Status: short public orientation for the controlled MKUFT GitHub working copy.
 
-Read this first:
+## What this repository is
 
-`MKUFT_INTEGRATED_MASTER_SPINE.md`
+MKUFT stands for McLaughlin–Kairos Unified Field Theory.
 
-That file is now the front-door synthesis. It explains what MKUFT is, why it matters, how the layers fit, how the maths carries the model, where it touches science, what is novel, and what would weaken or falsify it.
+It is presented here as a speculative, structured research framework—not as an accepted completed theory.
 
-This overview is the shorter plain-English orientation.
+Its central question is:
 
-## What This Repository Is
+> Can reality across several domains be analysed through a common grammar of possibility, boundary, admissible transition, cost, coherence, observation, and falsifiable resolution?
 
-This repository presents the current working stack for the McLaughlin–Kairos Unified Field Theory, or MKUFT.
+The framework spans physics-facing hypotheses, information structure, cognition, complex systems, symbolic/procedural artefacts, and anomaly-edge cases. Those domains are not treated as identical and do not have equal evidence.
 
-MKUFT is a theory about how reality may organise itself through layers of constraint, coherence, information, physical expression, and observation.
+## The simple version
 
-It is not presented here as finished doctrine. It is presented as a structured research framework: a way of asking sharper questions about physics, consciousness, information, geometry, ancient systems, non-linguistic procedural knowledge, and edge-case phenomena without losing layer discipline.
+Reality can be modelled not only as things, but as possible states and routes between them.
 
-In plain English:
+A route may be:
 
-**MKUFT asks whether the physical world is the final layer of reality, or whether it is the visible output of deeper organising constraints.**
+- physically impossible;
+- possible but costly;
+- accessible only under specific boundary conditions;
+- stable because its parts cohere;
+- misread because the observer or information map is distorted;
+- rejected when evidence or experiment fails.
 
-## The Simple Version
+A useful metaphor is terrain.
 
-Most people think of reality as made of things: particles, forces, matter, energy, bodies, stars, and fields.
+You do not create the mountain by walking. But the terrain, your condition, and your route determine what can be reached.
 
-MKUFT starts slightly deeper. It treats reality more like a system of:
+MKUFT asks whether that constraint-and-traversal grammar can be made useful across layers without flattening them into one thing.
 
-- possible states,
-- rules of transition,
-- costs of movement between states,
-- information structures,
-- boundary conditions,
-- observer conditions,
-- coherence thresholds.
-
-A simple metaphor:
-
-Reality is not a blank page.
-
-It is terrain.
-
-You do not invent the mountain by walking, but your route still matters. Some paths are easy. Some are steep. Some are blocked. Some become worn by repeated use. MKUFT studies those paths: why some routes stabilise, why some transitions cost more, and why coherence may affect which route becomes easier.
-
-## The Operational Kernel
-
-For the shortest recoverable version of the method, read:
-
-`docs/19_MKUFT_RECONSTITUTION_KERNEL.md`
-
-Its core line is:
+## The operational kernel
 
 ```text
-Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome
+Layer
+→ Boundary
+→ Node
+→ Transition
+→ Cost
+→ Coherence
+→ Observer
+→ Falsifier
+→ Outcome
 ```
 
-This line matters because it prevents drift. Every serious MKUFT reading should name the active layer, define the boundary, identify the stable state or node, describe the transition, state the cost, check coherence, limit the observer, provide a falsifier, and then state the outcome.
+This is the shortest recovery handle.
 
-## The Four MKUFT Layers
+A serious reading should say:
 
-The active MKUFT layer convention is:
+- what layer is active;
+- what object or identity boundary exists;
+- what stable state or node is being named;
+- what transition is claimed;
+- what that transition costs;
+- what coherence does;
+- how the observer enters and where its limits are;
+- what would make the reading wrong;
+- what outcome survives the test.
+
+## The four layers
 
 ```text
 S = Substrate
@@ -71,197 +72,167 @@ P = Physical
 O = Observer
 ```
 
-### 1. Substrate
+### S — Substrate
 
-The substrate is the deeper possibility field beneath physical events.
+A mathematical and metaphysical possibility domain in the framework.
 
-It is not treated as ordinary matter. It is the domain of possible configurations from which physical reality may be selected or stabilised.
+It is not automatically a physical lattice, medium, grid, or hidden material.
 
-Plain English:
+### I — Information
 
-The substrate is the structured possibility-space from which specific outcomes may resolve.
+Pattern, relation, rule, address, constraint, state, and routing.
 
-### 2. Information
+Information is doing real work only when it changes what is admissible, measurable, stable, or executable.
 
-Information means structure, pattern, relation, constraint, and form.
+### P — Physical
 
-It is not only data in a computer. It is the organisation that makes one outcome different from another.
+Matter, energy, bodies, fields, instruments, records, timing, and measurable events.
 
-Plain English:
+Physical claims must recover accepted physics in the ordinary limit and require evidence at the physical layer.
 
-Information is the shape of the possible.
+### O — Observer
 
-### 3. Physical
+Attention, interpretation, measurement context, memory, salience, and bounded state-dependent modulation.
 
-The physical layer is the measurable world: particles, fields, forces, bodies, instruments, environments, and events.
+The observer is not an unlimited creator and cannot replace missing physical dynamics.
 
-MKUFT does not throw away normal physics. Normal physics is the baseline and limiting case.
+## What MKUFT does not say
 
-Plain English:
+MKUFT does not say that:
 
-The physical layer is what actually shows up.
+- belief overrides physics;
+- any thought creates any outcome;
+- every coincidence has external meaning;
+- quantum mechanics permits anything;
+- symbolic resemblance is scientific evidence;
+- an anomaly proves its preferred ontology;
+- a mathematical expression proves the process it describes.
 
-### 4. Observer
+## The Silver Update
 
-The observer is not just a person looking at something.
+The Silver Update makes several previously implicit structures explicit.
 
-In MKUFT, an observer is any coherent system whose state may influence how already-admissible possibilities become selected, weighted, interpreted, or stabilised.
-
-Plain English:
-
-The observer is the condition under which reality is being engaged.
-
-## What MKUFT Does Not Say
-
-MKUFT does not say:
-
-- thoughts magically create anything,
-- belief overrides physics,
-- every coincidence is meaningful,
-- ancient symbols automatically prove hidden technology,
-- quantum physics means anything goes,
-- anomalous reports should be accepted without ordinary explanation.
-
-Those are loose claims. MKUFT is trying to be sharper than that.
-
-MKUFT says:
-
-**An observer may act as a bounded modulation condition among already-possible pathways, especially under coherent conditions.**
-
-## How It Connects to Known Physics
-
-MKUFT is not meant to replace physics. It is meant to sit underneath or alongside physics as a constraint model.
-
-Known physics already shows that reality is not merely a pile of solid objects.
-
-Modern physics includes:
-
-- fields,
-- probability distributions,
-- wave functions,
-- symmetry,
-- conservation laws,
-- information limits,
-- phase transitions,
-- boundary conditions,
-- observer-dependent measurement contexts.
-
-MKUFT takes these seriously and asks whether they point toward a deeper rule-set of admissibility, cost, coherence, and boundary-conditioned resolution.
-
-## Quantum Physics Bridge
-
-Quantum physics already forces a difficult question:
-
-How does a field of possibilities become one measured result?
-
-Quantum theory uses probability amplitudes, measurement, state preparation, and observer/instrument interactions. MKUFT does not claim to solve quantum mechanics in one move. Instead, it asks whether the transition from possibility to realised event can be described using substrate, information, physical dynamics, and bounded observer coherence.
-
-Plain English:
-
-Quantum physics shows that physical theory already requires possibility-structure. MKUFT asks whether possibility-structure can be modelled through coherence and constraint.
-
-## Field and Geometry Bridge
-
-Physics already treats fields as more fundamental than isolated objects in many contexts.
-
-Electromagnetic fields, gravitational fields, quantum fields, and spacetime geometry show that the background is not passive. Fields organise motion, energy, and interaction.
-
-Geometry matters deeply in physics. Shape is not decoration. Geometry affects:
-
-- motion,
-- curvature,
-- energy distribution,
-- field behaviour,
-- resonance,
-- stability,
-- allowed transitions.
-
-MKUFT extends that instinct:
-
-Maybe the deepest background is not empty. Maybe it has structure, cost, and information.
-
-## Why It Matters
-
-MKUFT is strongest where science already finds that parts alone do not explain the whole.
-
-Examples include:
-
-- quantum measurement and context,
-- information and geometry in frontier physics,
-- phase transitions and criticality,
-- active matter and collective order,
-- bioelectric morphogenesis and organism identity,
-- predictive processing and perception,
-- flow states and reduced cognitive noise,
-- trauma as high-cost boundary locking,
-- procedural symbolic systems such as the Voynich/ESRT work.
-
-The shared invariant is:
+### Ambiguity dynamics
 
 ```text
-constraint -> admissibility -> cost -> coherence -> boundary -> resolution
+A_t^vol = log(1 + μ(Ω_t)/μ_0)
+M_t = A_t^vol × R_t × X_t
 ```
 
-## Main Mathematical Handles
+This separates:
 
-MKUFT uses several linked mathematical handles.
+- unresolved state volume;
+- low-cost movement between frames or states;
+- preserved access or influence.
+
+`M_t` is a heuristic audit index, not a validated universal law.
+
+### Cross-layer addressing
+
+```text
+K_L = A_L(K;θ_L)
+```
+
+One candidate invariant may have different expressions across S, I, P, and O. The variables, units, evidence, and falsifiers must change honestly with the address.
+
+### Agency accessibility
+
+```text
+U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
+```
+
+A capacity may remain while practical access to it is narrowed by threat, distorted information, habit, coercion, dependency, or reinforcement.
+
+This is not a diagnostic score.
+
+### Repository architecture
+
+`docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` maps every numbered document to:
+
+- its parent concepts;
+- nearest neighbours;
+- outward applications;
+- primary falsifier or limiting rule.
+
+That is the self-supporting architecture of the public stack.
+
+## Main mathematical handles
 
 Substrate as possibility space:
 
 ```text
-S = (Ω, Σ, μ)
+S = (Ω,Σ,μ)
 ```
 
 Information structures:
 
 ```text
-I = { f : Ω -> R | f ∈ L²(Ω, μ) }
+I = {f : Ω → R | f ∈ L²(Ω,μ)}
 ```
 
-Realisation equation:
+Working realisation scaffold:
 
 ```text
 W_total(E) = ∫ D_phys(E|I) W(I|S,E) C(O|I,E) dν(I)
-P_realized(E) = W_total(E) / Z
+P_realized(E) = W_total(E)/Z
 ```
 
-Constrained traversal graph:
+Constrained graph and cost:
 
 ```text
 G = (N,E)
 C[γ] = ∫_γ λ(x) ds
-P(B|A) ∝ Σ exp(-C[γ])
 ```
 
-LUCY threshold chain:
+These are theoretical handles. They require operational definitions and do not count as evidence merely because they are writable.
 
-```text
-gradient accumulation -> LUCY -> LUCY-1 membrane -> LUCY-2 local field region
-```
+## How it relates to science
 
-## Read Order
+The nearest comparison fields include:
 
-1. `MKUFT_INTEGRATED_MASTER_SPINE.md`
-2. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md`
-3. `docs/01_MKUFT_CORE_EXTENDED.md`
-4. `docs/03_STANDALONE_FORMAL_ADDENDUM.md`
-5. `docs/02_MKUFT_MATH_APPENDIX.md`
-6. `docs/04_EXPERIMENTAL_TEST_PROGRAM.md`
-7. `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md`
-8. `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md`
-9. `docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md`
-10. `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md`
-11. `docs/09_VOYNICH_PROCEDURAL_ENGINE.md`
-12. `CANON_MAP.md`
+- complex and dynamical systems;
+- constraint-based modelling;
+- information theory;
+- statistical mechanics;
+- quantum foundations and measurement context;
+- phase transitions and criticality;
+- morphogenesis and biological control;
+- predictive processing and cognition;
+- graph and path models;
+- falsifiable research-programme design.
 
-## Final Plain-English Summary
+Similarity is not identity. The `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` tracks where the relationship is strong, weak, speculative, or in need of testing.
 
-MKUFT says reality holds together because incoherent paths are expensive.
+## Public read order
 
-Stable things persist because their constraints, boundaries, and transitions can be maintained.
+1. `README.md`
+2. `START_HERE_PUBLIC_OVERVIEW.md`
+3. `MKUFT_INTEGRATED_MASTER_SPINE.md`
+4. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md`
+5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
+6. `CANON_MAP.md`
+7. the relevant technical or application module
+8. `docs/05_FALSIFICATION_SUMMARY.md`
 
-Change happens when a path becomes admissible, cost lowers, coherence rises, or an old boundary can no longer hold.
+Technical readers should then use:
 
-Observer position matters, but only inside constraint.
+- `docs/01_MKUFT_CORE_EXTENDED.md`
+- `docs/02_MKUFT_MATH_APPENDIX.md`
+- `docs/03_STANDALONE_FORMAL_ADDENDUM.md`
+- `docs/04_EXPERIMENTAL_TEST_PROGRAM.md`
+- `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md`
 
-The model survives only if it can make sharper classifications, predictions, and falsifiers than loose metaphor.
+## Final summary
+
+MKUFT proposes that outcomes can be studied as constrained traversal through layered possibility, information, physical dynamics, and bounded observation.
+
+Its value depends on whether it can:
+
+- clarify mechanisms rather than rename mysteries;
+- make predictions sharper than loose metaphor;
+- preserve layer discipline;
+- recover ordinary explanations and physics;
+- record failed branches honestly;
+- remain reconstructable from several entry points without changing meaning.
+
+The public stack is designed to be readable, self-supporting, and falsifiable. It survives only where those disciplines hold.
