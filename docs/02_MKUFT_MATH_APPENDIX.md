@@ -2,7 +2,7 @@
 
 Author: Mark McLaughlin
 
-Status: mathematical backbone for the private MKUFT GitHub working repository.
+Status: mathematical backbone for the public controlled MKUFT GitHub working repository.
 
 ## A1. Substrate as Probability Space
 
@@ -184,6 +184,94 @@ Where A ∈ [0,1] is an alignment factor.
 - Synchronicity: E encodes theme-compatible co-occurrences.
 - Environmental modulation: F changes κ_eff and effect size.
 - Group effects: κ_group predicts amplification under shared coherent alignment.
+
+## A12. Ambiguity Volume
+
+For a live claim or system at time `t`, define the feasible region:
+
+```text
+Ω_t = {states, paths, interpretations, identities, or hypotheses compatible with E_t and C_t}
+```
+
+where `E_t` is available evidence and `C_t` is the active constraint set.
+
+Let `μ_0` be a reference measure. Define dimensionless ambiguity volume:
+
+```text
+A_t = log(1 + μ(Ω_t) / μ_0)
+```
+
+This is a formal audit handle, not a claim that every dimension is directly measurable.
+
+The ambiguity module adds route connectivity `R_t` and preserved access `X_t`:
+
+```text
+M_t = A_t × R_t × X_t
+```
+
+`M_t` is a working measure of manoeuvrability inside unresolved state space.
+
+- High `A_t` alone means many possibilities remain.
+- High `R_t` means low-cost transitions exist between unresolved frames or states.
+- High `X_t` means those transitions preserve access, influence, extraction, or credibility.
+
+See `21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` for definitions, discriminators, predictions, and falsifiers.
+
+## A13. Cross-Layer Address Map
+
+Let `K` be a candidate invariant and `L ∈ {S,I,P,O}` the active layer.
+
+Let `θ_L` denote the layer-specific constraints, observables, units, noise terms, and admissible transitions.
+
+Define the layer expression:
+
+```text
+K_L = A_L(K ; θ_L)
+```
+
+This does not make a new ontology at every layer. It states that the same invariant may require a different measurable expression at each address.
+
+A valid address map must preserve:
+
+- the defining relation of `K`;
+- explicit changes in variables;
+- layer-appropriate evidence;
+- independent falsifiers;
+- a stated cross-layer coupling where one is claimed.
+
+See `22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`.
+
+## A14. Agency Accessibility
+
+Let `U_t` be the actions actually available to an agent and `Û_t` the actions perceived as available.
+
+Let `G_t(u ; T_t, H_t)` be the gating function for action `u`, with `T_t` representing perceived threat and `H_t` representing reinforcement history.
+
+Define the practically accessible action set:
+
+```text
+U_t^access = {u ∈ U_t : G_t(u ; T_t, H_t) > θ_access}
+```
+
+Let `a_t ∈ [0,1]` represent practical accessibility to retained agency:
+
+```text
+Agency_effective(t) = Agency_capacity × a_t
+```
+
+This is an operational distinction, not a complete moral or clinical equation.
+
+See `23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` for capture variables, responsibility gradients, recovery mechanics, and ontology boundaries.
+
+## A15. Silver Update Reduction Rules
+
+The new formal handles must reduce cleanly:
+
+- If `R_t` or `X_t` is negligible, high ambiguity does not imply high manoeuvrability.
+- If one layer address fails, the failure must not be hidden by evidence from another address.
+- If perceived and actual action sets do not differ, the agency-accessibility mechanism is unnecessary.
+- If simpler noise, incentive, habit, uncertainty, or standard physical models explain the data better, use them.
+- No formal expression counts as evidence merely because it is mathematically writable.
 
 ## Notation Correction
 
