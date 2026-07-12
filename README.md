@@ -17,6 +17,7 @@ Then read:
 
 - `START_HERE_PUBLIC_OVERVIEW.md` — shorter public-facing overview in plain English.
 - `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery kernel with surrounding explanation; the shortest handle for rebuilding the MKUFT method without replacing the full papers.
+- `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — dependency and traversal map showing how the public stack reconstructs itself from multiple entry points.
 - `CANON_MAP.md` — current hierarchy of the research stack.
 - `PROVENANCE_DOI_AND_ATTRIBUTION.md` — DOI, copyright, licence, and citation structure.
 
@@ -47,6 +48,7 @@ The public claim is not that belief overrides physics. The public claim is that 
 - `MKUFT_INTEGRATED_MASTER_SPINE.md` — integrated master spine and current best front-door argument. It ties the parts together and should be read before judging the repo.
 - `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — reconstitution kernel with explanation. This is not a replacement for the full MKUFT paper. It preserves the raw route `Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome` and gives enough explanation for a reader or AI system to orient from anywhere in the MKUFT tree.
 - `docs/20_GRACE_TRAVERSAL_RULE.md` — support / bridge note connected to the kernel. It explains Geometry, Relation, Admissibility, Coherence, and Emergence as the clean route through SIPO, and adds the observer-side discipline of Authentic Traversal Cognition. It does not replace the main paper, the kernel, or OCQS.
+- `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — architecture layer connecting invariants, layer addresses, variables, applications, discriminators, falsifiers, and neighbouring modules.
 
 ## Science Support / Verification Map
 
@@ -80,6 +82,15 @@ The public claim is not that belief overrides physics. The public claim is that 
 18. `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md` — older compact support bridge retained as a short orientation note.
 19. `docs/20_GRACE_TRAVERSAL_RULE.md` — support / bridge note for GRACE traversal and observer-side Authentic Traversal Cognition; not a standalone canonical paper.
 
+## Silver Update — Structural Modules
+
+20. `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` — formalises ambiguity as unresolved state volume, low-cost frame connectivity, and preserved access; includes generative/adversarial discrimination and falsifiers.
+21. `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md` — establishes one-invariant/many-address discipline across S–I–P–O, with LUCY as the primary worked example.
+22. `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` — distinguishes retained agency capacity from practical access, formalises corrupted action maps, threat-gating, capture, responsibility gradients, and recovery.
+23. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — converts the canon hierarchy into a dependency, routing, recovery, and audit architecture.
+
+These modules are a structural revision of the public working canon. They do not replace the original DOI work, import private continuity material, or make every application ontology equally evidenced.
+
 ## Current Layer Convention
 
 The active MKUFT layer convention is:
@@ -95,7 +106,7 @@ Older wordings that define `P` as Perception/Boundary or `O` as Output are treat
 
 The repo must be readable to a bright public reader, not only scientists or AI systems. Technical structure is preserved, but each major file should also explain the what, why, where, and how in plain English.
 
-The integrated master spine is now the required first read because it ties the model together rather than only listing documents.
+The integrated master spine is the required first read. The cross-support and traversal map is the structural recovery guide when following concepts across modules.
 
 ## Provenance / DOI / Copyright
 
