@@ -2,19 +2,21 @@
 
 Author: Mark McLaughlin
 
-Status: cleaned support module for the private MKUFT GitHub repository.
+Status: public support module inside the controlled MKUFT GitHub working copy.
 
 ## Purpose
 
-LUCY provides a clear boundary-threshold language for MKUFT. It describes the point at which a boundary gradient becomes coherent enough to form a stable membrane and, if sustained, a local field region.
+LUCY provides boundary-threshold language for MKUFT. It describes a working hypothesis: a boundary gradient may become coherent enough to form a stable membrane-like condition and, if sustained, a local field-like region.
 
-LUCY is not a replacement for MKUFT. It is a support framework that explains how threshold, membrane, and field behaviour can be discussed cleanly without forcing every boundary effect back into the full theory engine.
+LUCY is not a replacement for MKUFT. It is a support framework for discussing threshold, membrane, and field behaviour without forcing every boundary effect back into the full theory engine.
+
+This document supplies modelling language, not evidence that a new physical field has been discovered. Physical applications require defined observables, units, controls, effect sizes, and independent reproduction.
 
 ## Name
 
 LUCY = Local Unified Coherence Yield.
 
-The name marks a local threshold event: a point where coherence yield becomes sufficient for boundary stabilisation.
+The name marks a candidate local threshold event: a point where coherence yield becomes sufficient for boundary stabilisation.
 
 ## The Three-Part Chain
 
@@ -27,59 +29,59 @@ LUCY -> LUCY-1 -> LUCY-2
 Meaning:
 
 1. **LUCY** = threshold.
-2. **LUCY-1** = membrane formation.
-3. **LUCY-2** = sustained field region.
+2. **LUCY-1** = membrane-like boundary formation.
+3. **LUCY-2** = sustained local field-like region.
+
+These labels describe stages in the model. They are not separate forces or entities.
 
 ## LUCY — Threshold
 
-LUCY is the main threshold where a boundary gradient becomes coherent.
+LUCY is the proposed threshold where a boundary gradient becomes coherent.
 
-Before this threshold, the boundary remains unstable, noisy, or non-sustaining. After the threshold, coherence becomes strong enough for structure to appear.
-
-Plain English:
-
-A weak or scattered boundary does not hold. A coherent boundary begins to behave like a surface that can organise what crosses it.
-
-## LUCY-1 — Lucy Membrane
-
-LUCY-1 is the first state after the threshold.
-
-At LUCY-1, a stable boundary layer forms. This layer is called the Lucy Membrane.
-
-The Lucy Membrane is the thin skin where substrate behaviour changes.
+Before this threshold, the boundary remains unstable, noisy, or non-sustaining. After the threshold, the model predicts that coherence may become strong enough for stable structure to appear.
 
 Plain English:
 
-The system has not yet produced a full field, but it has formed a meaningful boundary. The edge itself has become active.
+A weak or scattered boundary does not hold. A coherent boundary may begin to behave like a surface that organises what crosses it.
 
-## LUCY-2 — Lucy Field
+## LUCY-1 — Membrane Condition
 
-LUCY-2 is the second state.
+LUCY-1 is the first modelled state after threshold.
 
-If the Lucy Membrane remains stable long enough, it creates a region where substrate behaviour differs from the surrounding baseline. This region is the Lucy Field.
+At LUCY-1, a stable boundary layer is proposed to form. The phrase **LUCY membrane** is shorthand for that condition, not a claim that a literal biological membrane exists in every application.
 
 Plain English:
 
-The boundary has held long enough to change the local behaviour around it. The system now has a sustained coherence region.
+The system has not produced a sustained field region, but its edge has become stable enough to constrain crossing and routing.
+
+## LUCY-2 — Sustained Field Condition
+
+LUCY-2 is the second modelled state.
+
+If the boundary condition remains stable, the model permits a region where local behaviour differs from the surrounding baseline. The phrase **LUCY field** refers to that sustained region.
+
+Plain English:
+
+The boundary has held long enough that measurable local behaviour may differ from baseline.
 
 ## Professional Physics Analogy
 
-This structure is acceptable as modelling language because many physical systems use:
+This is acceptable as modelling grammar because many physical systems use:
 
-- one main threshold,
+- one principal threshold,
 - multiple post-threshold phases,
-- qualitatively different behaviour after the threshold.
+- qualitatively different behaviour after threshold.
 
 Examples include:
 
 - phase transitions,
-- superconductivity types,
+- superconducting phases,
 - Hall states,
 - ionisation levels,
 - membrane formation,
 - criticality transitions.
 
-LUCY uses the same kind of modelling grammar: threshold first, phase/state distinction second.
+These are analogies to threshold grammar, not evidence that LUCY is physically equivalent to any one of them.
 
 ## Relationship to MKUFT
 
@@ -90,34 +92,71 @@ Within MKUFT:
 - P = Physical
 - O = Observer
 
-LUCY describes how local S/I gradients become coherent enough to affect P-layer behaviour under specific conditions, with O-layer coherence potentially acting as a stabilising or destabilising boundary condition.
+LUCY is now governed by the layer-address rule:
 
-It is therefore a boundary-threshold bridge between substrate/information structure and physically measurable behaviour.
+> One invariant. Many layer addresses. No fragmentation.
+
+The invariant is a local coherence-to-boundary transition. Its measurable expression must change honestly by layer:
+
+- `LUCY(I)` — informational or routing coherence;
+- `LUCY(O)` — observer-state coherence;
+- `LUCY(P)` — physical or material coherence.
+
+The full address discipline and working template are defined in:
+
+`docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
+
+A physical LUCY claim cannot borrow evidence from an informational or observer application.
 
 ## Correct Usage
 
 Use LUCY when discussing:
 
 - boundary formation,
-- substrate-gradient stabilisation,
-- membrane-like coherence effects,
-- local field-region behaviour,
-- threshold-to-field transitions,
-- why some effects appear only after enough coherence accumulates.
+- coherence-threshold hypotheses,
+- membrane-like boundary effects,
+- sustained local-region behaviour,
+- threshold-to-phase transitions,
+- why an effect might appear only after sufficient coherence accumulates.
 
 Do not use LUCY as:
 
 - a replacement ontology,
 - a separate force,
 - a mystical entity,
-- a loose synonym for all MKUFT effects.
+- a loose synonym for all MKUFT effects,
+- proof supplied by analogy alone.
+
+## Falsification and Reduction
+
+A LUCY address is weakened when:
+
+- its threshold cannot be operationally defined;
+- post-threshold behaviour does not differ from baseline;
+- effects do not scale with the proposed coherence or noise variable;
+- ordinary domain-specific models explain the observations more accurately;
+- the same formula changes meaning silently across layers;
+- physical claims lack units, controls, and reproducible measurement.
+
+Below threshold, or when no additional effect is measured, the model reduces to the ordinary behaviour of the addressed domain.
+
+## Architecture Route
+
+```text
+parent: boundary, coherence, and threshold structure
+layer-address discipline: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
+physical bridge: docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md
+observer bridge: docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md
+falsification: docs/05_FALSIFICATION_SUMMARY.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
+```
 
 ## Summary
 
-LUCY is the threshold.
+LUCY is the proposed threshold.
 
-LUCY-1 is the membrane.
+LUCY-1 is the membrane-like boundary condition.
 
-LUCY-2 is the sustained field.
+LUCY-2 is the sustained local field-like condition.
 
-The framework gives MKUFT a clean way to discuss boundary coherence without overloading the main theory paper.
+The framework gives MKUFT a disciplined way to discuss boundary coherence while keeping each layer address testable and separate.
