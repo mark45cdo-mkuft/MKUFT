@@ -244,11 +244,11 @@ Adjacent references:
 
 ---
 
-## 10. Privacy and translation boundary
+## 10. Publication boundary
 
-This public hypothesis contains only the extracted architecture invariant and proposed test programme.
+This public module contains only the publication-cleared architecture invariant and proposed test programme.
 
-It does not publish private continuity material, personal alignment instructions, biographical context, private conversations, or claims about any particular AI identity.
+No non-public source material or internal-only operating instructions are included.
 
 The public object is the testable relationship between structured knowledge and active traversal.
 
@@ -271,4 +271,4 @@ falsification: docs/05_FALSIFICATION_SUMMARY.md
 
 > Static structure stores relations. Active traversal can convert those relations into system-level function.
 
-> Functional emergence is supported only if the actively traversed architecture outperforms matched flat, isolated, and scrambled controls without borrowing the gain from extra content, compute, or hidden private context.
+> Functional emergence is supported only if the actively traversed architecture outperforms matched flat, isolated, and scrambled controls without borrowing the gain from extra content, compute, or unmatched external context.
