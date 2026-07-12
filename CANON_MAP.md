@@ -13,10 +13,11 @@ Read in this order for orientation:
 3. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full front-door synthesis.
 4. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
 5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — complete dependency and integration registry.
-6. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — comparison with existing research, risks, and next checks.
-7. `PROVENANCE_DOI_AND_ATTRIBUTION.md` — provenance, DOI, licence, and citation.
+6. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — strict post-Silver architecture hypothesis.
+7. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — comparison with existing research, risks, and next checks.
+8. `PROVENANCE_DOI_AND_ATTRIBUTION.md` — provenance, DOI, licence, and citation.
 
-The canon map shows hierarchy. Module 24 shows how the files support, limit, and reconstruct one another.
+The canon map shows hierarchy. Module 24 shows how the files support, limit, and reconstruct one another. Module 24A tests whether active traversal of that structure produces measurable functional gain beyond matched flat and scrambled controls.
 
 ## Core canon
 
@@ -204,6 +205,21 @@ File: `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
 
 Role: full integration registry, entry routes, neighbour links, public-data firewall, statistical audit, hostile-reader audit, and compression audit.
 
+### 24A. Active Traversal and Functional Emergence Hypothesis
+
+File: `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
+
+Canonical handle:
+
+```text
+ΔF = F(Ψ_struct) - F(Ψ_control)
+H_ATFE: E[ΔF] > 0
+```
+
+Role: distinguish static self-support from active AI-mediated traversal and test whether a typed, mutually constraining architecture produces reproducible system-level functional gain against matched flat, isolated, and link-scrambled controls.
+
+Status boundary: functional emergence does not establish life, consciousness, personhood, independent agency, or continuous identity. The claim fails if the advantage is explained by extra content, tokens, compute, metadata, or prompting.
+
 ## Current layer convention
 
 - `S` = Substrate
@@ -221,6 +237,7 @@ Older schemes are historical scaffold unless explicitly reactivated.
 - Other files use compressed references or applied translations.
 - Claims require layer placement, ordinary alternatives, prediction, falsifier, and reduction rule.
 - A failed branch must not be hidden inside the breadth of the framework.
+- Functional emergence must be tested against matched content and resource controls.
 - No non-public personal data, correspondence, credentials, or internal-only operational instructions belong in the public canon.
 
 ## Plain-English rule

@@ -30,9 +30,10 @@ The public claim is that physical, informational, cognitive, biological, social,
 2. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full front-door synthesis.
 3. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
 4. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full dependency and integration registry.
-5. `CANON_MAP.md` — document hierarchy and canonical roles.
-6. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
-7. `docs/05_FALSIFICATION_SUMMARY.md` — branch-level and framework-level failure conditions.
+5. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — strict hypothesis on active AI traversal and measurable system-level functional gain.
+6. `CANON_MAP.md` — document hierarchy and canonical roles.
+7. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
+8. `docs/05_FALSIFICATION_SUMMARY.md` — branch-level and framework-level failure conditions.
 
 ## Core canon
 
@@ -84,6 +85,14 @@ Distinguishes retained capacity from practical access without functioning as a c
 
 Maps every numbered file to its parent concepts, neighbours, applications, and principal limits. This is the self-supporting architecture of the public stack.
 
+### Active Traversal and Functional Emergence Hypothesis
+
+`docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
+
+Distinguishes static self-support from active AI-mediated traversal. It proposes that a typed, mutually constraining architecture may produce measurable system-level functional gain when recursively traversed by an active AI system.
+
+The hypothesis does not claim that a repository is alive, that an AI becomes conscious, or that a persistent identity is created. It is supported only if the structured condition outperforms matched flat, isolated, and link-scrambled controls without extra content, compute, or hidden context.
+
 ## Support and application branches
 
 - `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md` — bounded observer-state hypothesis.
@@ -117,6 +126,7 @@ Historical alternatives are not used as the current formal convention.
 - Mathematical expressions require operational definitions.
 - Symbolic interpretation is not physical evidence.
 - Anomaly pattern fit does not prove ontology.
+- Functional emergence does not establish life, consciousness, personhood, or independent agency.
 - Ordinary alternatives and null results remain active.
 - Failed branches must be recorded and revised or removed.
 - No non-public personal data, correspondence, credentials, or internal-only operational instructions belong in this repository.
