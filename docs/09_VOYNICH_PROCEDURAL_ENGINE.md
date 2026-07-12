@@ -1,476 +1,346 @@
-# Voynich Procedural Engine
+# Voynich Procedural-Structure Hypothesis
 
 Author: Mark Charles McLaughlin
 
-Status: cleaned full-bodied support/application paper for the private MKUFT GitHub repository.
+Status: public applied-research hypothesis inside the controlled MKUFT GitHub working copy.
 
 ## Purpose
 
-This document presents the Voynich Manuscript interpretation developed through the MKUFT / ESRT / ESF stack.
+This document presents a testable alternative classification of the Voynich Manuscript using the MKUFT / ESRT / ESF method.
 
-The aim is not to translate the manuscript as a language. The aim is to classify what kind of system it is and explain why a procedural/executable interpretation fits its structure better than linguistic or cipher-based approaches.
+It does not claim a translation, proven historical purpose, or established executable function.
 
-## Core Position
+The hypothesis is narrower:
 
-The Voynich Manuscript is not treated here as a natural-language text.
+> Some Voynich layout, repetition, positional structure, and cross-section organisation may be better modelled as procedural or operational structure than as ordinary continuous prose alone.
 
-It is treated as an operational or executable system encoded as operational art: a structured surface designed to guide process, state transition, timing, containment, and execution.
+This hypothesis must be compared quantitatively with linguistic, cipher, scribal, decorative, mnemonic, diagrammatic, and null models.
 
-Plain English:
+## Core position
 
-It is less like a book of sentences and more like a system of instructions. It may not be meant to be read word by word. It may be meant to be run.
+The manuscript is treated here as an **executable-system candidate**.
 
-## What This Work Assumes
-
-This analysis assumes:
-
-- no linguistic decoding,
-- no cipher hypothesis,
-- no external theory required to run the structural tests,
-- no need for fine geometric measurement,
-- no need to interpret glyphs as words.
-
-All claims are based on observable layout, positional structure, repetition, density, and cross-page consistency.
-
-## Why the Language Assumption Fails
-
-The manuscript has resisted translation for more than a century. That failure is not automatically evidence of nonsense. It may indicate a category error.
-
-When treated as language, the manuscript fails to produce stable:
-
-- semantics,
-- grammar,
-- phonetics,
-- reference,
-- syntax,
-- translation output.
-
-Yet it remains highly ordered.
-
-Word-like units recur with strict positional rules. Line lengths remain narrowly bounded. Symbol variation follows constrained patterns. These behaviours do not fit ordinary prose well, but they do fit procedural systems where signs encode action, state, repetition, gating, reset, and transition.
-
-## Procedural Interpretation
-
-Under the procedural interpretation, the glyphs are not letters.
-
-They behave as operators.
-
-Possible operator roles include:
-
-- flow,
-- repetition,
-- holding,
-- reset,
-- transition,
-- permission,
-- boundary,
-- parameter adjustment,
-- state marking.
-
-Groups of glyphs act as reusable modules. Their small variations do not behave like synonym replacement. They behave more like parameter changes in a procedure.
+The candidate model asks whether position, state-like forms, and flow relations constrain how the artefact is organised.
 
 Plain English:
 
-A repeated glyph cluster may be less like a repeated word and more like a repeated command with a changed setting.
+It may contain more than sentences to be translated. Some parts may work like diagrams, indexes, process surfaces, or memory aids in which placement and sequence matter.
 
-## Execution-Bounded Lines
+## Evidence boundary
 
-The lines are not treated as sentences.
+The public case may use:
 
-They are treated as bounded execution units.
+- observable layout;
+- position and orientation;
+- repeated forms;
+- block density;
+- line and paragraph structure;
+- cross-page consistency;
+- perturbation or scrambling tests.
 
-A line contains a sequence short enough to be enacted, tracked, or processed as one continuous operation. This explains why line length is constrained in ways that do not behave like ordinary sentence length.
+It must not rely on private intuition, hidden keys, retrospective glyph meanings, or an interpretation that cannot be scored by independent raters.
 
-A page then assembles multiple execution-bounded lines into a larger procedure.
+## Why test a procedural alternative?
 
-A section groups related procedures into operational domains.
+The manuscript has resisted stable consensus translation. That fact does not prove it is non-linguistic, but it permits competing models to be tested.
 
-## Section Results
+A procedural model is worth testing where:
 
-The manuscript sections appear to perform distinct, non-overlapping roles in a closed procedural system.
+- word-like forms show strong positional dependence;
+- layout roles repeat across pages;
+- illustrations and text blocks form stable spatial relations;
+- variations resemble parameter changes or state markers;
+- reordering would predictably damage the proposed structure.
 
-### Botanical Pages — PDF pp. ~60–110
+These observations are hypotheses until quantified against alternatives.
 
-Botanical pages centre on a single illustrated plant.
+## ESRT criteria
 
-Across pages, text placement relative to the illustration remains highly stable even when plant appearance varies.
+The Executable System Recognition Test asks for three primary features.
 
-This behaviour is inconsistent with ordinary descriptive prose and consistent with procedural text operating on the illustrated entity.
+### 1. Addressing
 
-Interpretation:
+Does position determine role?
 
-- roots = lower input or grounding structures,
-- stems = transfer pathways,
-- leaves = outputs, branches, or active sub-components,
-- secondary text blocks = possible application or binding steps.
+Candidate indicators:
 
-Plain English:
+- rings and sectors;
+- columns and zones;
+- recurring anchors;
+- text blocks with stable spatial roles;
+- repeated page frames.
 
-The plant may not be a species to identify. It may be an operational diagram.
+### 2. State representation
 
-### Astrological / Zodiac Pages — PDF pp. ~125–135
+Do recurring forms mark condition, phase, category, or mode?
 
-Astrological pages contain circular diagrams divided into rings and angular segments.
+Candidate indicators:
 
-Each circle can be treated as an address space.
+- jars or containers;
+- pools;
+- roots and plant parts;
+- repeated token clusters;
+- stars, wheels, or figures occupying consistent roles.
 
-The method divides wheels into twelve coarse sectors. Across multiple wheels, including pages around PDF pp. 126, 130, and 131, the same sector positions are expected to carry similar text density and internal structure.
+### 3. Flow
 
-Interpretation:
+Does the artefact show ordered transition, routing, circulation, or sequence?
 
-- inner rings = sparse, stable header/state/mode layer,
-- outer rings = variable execution/action layer,
-- sectors = angular addresses,
-- repeated sector roles = procedural encoding.
+Candidate indicators:
 
-Plain English:
+- channels;
+- radial progression;
+- branching;
+- repeated line structure;
+- entry, junction, and exit placement.
 
-The wheel may not be a picture of the sky. It may be a clock-face for instructions.
+A manuscript can contain these features without being executable. The classification becomes meaningful only when the combined model makes predictions that alternatives do not.
 
-### Pharmaceutical Pages — PDF pp. ~175–190
+## Working section map
 
-Pharmaceutical pages show repeated jar-like containers with detached plant parts.
+### Botanical folios
 
-Jar shapes fall into a small number of recurring classes reused across pages. Associated text is short, repetitive, and positionally stable.
+Candidate reading:
 
-Interpretation:
+- illustration parts may act as spatial anchors;
+- roots, stems, leaves, and attached text may define recurring positional roles;
+- secondary blocks may mark a separate operation, qualifier, or reference.
 
-- jars = state classes or containers,
-- detached roots/fragments = material inputs,
-- short text blocks = state labels, parameters, or component instructions.
+Ordinary alternatives:
 
-Plain English:
+- herbal description;
+- mnemonic or emblematic illustration;
+- scribal page convention;
+- invented or composite botany;
+- decorative layout.
 
-These pages may function like a component and state registry.
+Test:
 
-### Recipe Pages — PDF pp. ~190–205
+Code illustration-relative text positions across botanical folios and compare their stability with matched illustrated manuscripts and shuffled controls.
 
-Recipe pages consist of dense text blocks with no illustrations.
+### Circular and zodiac-like folios
 
-Short, repetitive units from pharmaceutical pages appear to recur in consistent positions within recipe lines.
+Candidate reading:
 
-Interpretation:
+- rings and angular sectors may form an address space;
+- inner and outer rings may carry different structural roles;
+- repeated sector positions may show comparable density or token classes.
 
-The recipe pages may be compressed execution instructions that reference predefined component states rather than restating them.
+Ordinary alternatives:
 
-Plain English:
+- astronomical or astrological diagram;
+- calendar;
+- cosmological illustration;
+- decorative ring structure;
+- conventional label placement.
 
-Once the earlier pages define the parts, the recipe section runs the procedure.
+Test:
 
-### Balneological Pages — PDF pp. ~140–170
+Pre-register sector boundaries, code density and token classes, and test cross-wheel repeatability against rotation, shuffling, and comparable medieval diagrams.
 
-Balneological pages depict figures interacting with pools connected by channels.
+### Pharmaceutical folios
 
-Structurally, these pages behave like flow diagrams.
+Candidate reading:
 
-Interpretation:
+- recurring container classes may mark categories or states;
+- detached plant parts may function as indexed inputs;
+- short text blocks may label components, quantities, or conditions.
 
-- pools = states,
-- figures = carriers,
-- channels = transfer paths,
-- text at junctions = transition markers.
+Ordinary alternatives:
 
-Plain English:
+- materia medica inventory;
+- apothecary illustration;
+- decorative container taxonomy;
+- conventional captioning.
 
-The bathing figures may not be a scene. They may show a state machine.
+Test:
 
-## Cross-Section Integration
+Blindly classify container shapes and test whether associated text features remain stable within classes better than chance and matched baselines.
 
-Each section performs a distinct role:
+### Recipe-like folios
 
-- Botanical pages: generation of entities or inputs.
-- Pharmaceutical pages: definition of component states.
-- Recipe pages: macro-level execution instructions.
-- Balneological pages: flow and transformation of states.
-- Astrological pages: positional addressing and coordination.
+Candidate reading:
 
-Together, these sections form a closed instructional system.
+- dense text may reference components or states defined elsewhere;
+- repeated short forms may occupy stable positions within lines or paragraphs.
 
-## ESRT Classification
+Ordinary alternatives:
 
-The Executable System Recognition Test asks whether a structure has:
+- ordinary recipe prose;
+- lists;
+- repeated grammatical particles;
+- scribal abbreviation.
 
-1. Addressing.
-2. State.
-3. Flow.
+Test:
 
-The Voynich Manuscript passes this classification under the MKUFT/ESRT frame.
+Compare positional recurrence with natural-language, cipher, and generated pseudo-text models.
 
-### Addressing
+### Balneological folios
 
-The manuscript uses stable positional structures:
+Candidate reading:
 
-- sectors,
-- rings,
-- columns,
-- anchors,
-- repeated frames,
-- spatially distinct blocks.
+- pools and channels may form state-and-transition diagrams;
+- figures may occupy carrier, stage, or participant roles;
+- text may cluster at entries, junctions, or exits.
 
-Position matters. Moving a part changes its role.
+Ordinary alternatives:
 
-### State
+- bathing or medical illustration;
+- symbolic narrative;
+- decorative connection;
+- conventional caption placement.
 
-The manuscript uses recurring state-bearing forms:
+Test:
 
-- containers,
-- pools,
-- bodies,
-- roots,
-- stars,
-- wheels,
-- dense blocks,
-- repeated token clusters.
+Code graph structure independently of interpretation and test whether text placement tracks graph roles across folios.
 
-These appear to carry mode, condition, phase, or parameter rather than ordinary depiction.
+## Cross-section hypothesis
 
-### Flow
+A stronger version of the procedural model predicts complementary roles:
 
-The manuscript shows transitions, routing, circulation, and sequencing.
+```text
+botanical or material indexing
+→ component or state classification
+→ process instruction
+→ transformation or flow
+→ timing or positional coordination
+```
 
-Examples include:
+This is not asserted as established. It is the integration pattern to be tested.
 
-- channels in the bathing sections,
-- branching plant structures,
-- radial wheel sectors,
-- dense lower blocks functioning as subroutines,
-- repeated token clusters with constrained deformation.
+## Testable analysis engine
 
-## Testable Analysis Engine
+### Step 1 — Page classification
 
-The engine is a repeatable method for detecting non-random structural organisation in the manuscript.
+Use categories defined before detailed scoring, including an “uncertain/mixed” class.
 
-It is not a translation method.
+### Step 2 — Spatial binning
 
-It does not interpret glyph meaning.
+For rectangular pages, use coarse registered zones.
 
-It operates only on layout, position, repetition, and cross-page consistency.
+For circular pages, use registered ring and angular divisions, then repeat the analysis under rotated boundaries to test robustness.
 
-### Step 1 — Page Classification
+### Step 3 — Block identification
 
-Classify each page into one of five structural types:
+Record:
 
-- Botanical,
-- Astrological/Zodiac,
-- Pharmaceutical,
-- Balneological,
-- Recipe.
+- folio identifier;
+- position;
+- block length;
+- sequence position;
+- relation to illustration or diagram;
+- coder confidence.
 
-### Step 2 — Coarse Spatial Binning
+### Step 4 — Feature extraction
 
-Rectangular pages are divided into:
+Measure or classify:
 
-- top / middle / bottom,
-- left / centre / right.
+- density;
+- token-class distribution;
+- recurrence;
+- positional mutual information;
+- cross-page role stability;
+- graph-node relation where applicable.
 
-Circular pages are divided into:
+### Step 5 — Baseline comparison
 
-- inner ring / outer ring,
-- twelve equal angular sectors.
+Compare with:
 
-No fine measurement is required.
+- shuffled layouts;
+- rotated circular diagrams;
+- matched medieval manuscripts;
+- natural-language and cipher models;
+- generated pseudo-text;
+- independent scribal-layout models.
 
-### Step 3 — Text Block Identification
+### Step 6 — Blinded prediction
 
-Treat text as blocks rather than words.
+Train the model on one folio subset and predict held-out page roles, block locations, or cross-section associations.
 
-For each block, record:
+A model that only explains pages after inspection does not pass.
 
-- page number,
-- bin location,
-- approximate length: short / medium / long,
-- relative sequence position: early / middle / late.
+## Node / Line / Token working grammar
 
-### Step 4 — Density and Role Ranking
+The NLT shorthand is:
 
-Count text blocks per bin.
+- **Node** — a positional anchor or address;
+- **Line** — a candidate transition or routing sequence;
+- **Token** — a possible parameter, modifier, state flag, word, or other repeated unit.
 
-Rank bins by density rather than absolute measurement.
+The word “token” remains neutral. It must not be declared an operator without comparative evidence.
 
-### Step 5 — Cross-Page Comparison
+## Candidate practice domains
 
-Compare pages of the same type.
+If procedural structure is supported, possible historical use classes might include:
 
-Check whether the same bins repeatedly perform similar roles across multiple pages.
+- medical or physiological regimen;
+- pharmacological or alchemical procedure;
+- calendrical or astrological timing;
+- ritual, mnemonic, or embodied instruction;
+- training or memory system;
+- a mixed illustrated compendium.
 
-### Step 6 — Cross-Section Linking
+These are competing use classes, not conclusions.
 
-Track short, highly repetitive block shapes across different page types.
+## Relationship to MKUFT
 
-If a block class recurs in similar positional roles across sections, record structural linkage.
+The Voynich case tests whether complex information can be carried through addressing, state, and flow without relying entirely on ordinary prose.
 
-## Section-Specific Engine Tests
+It is an application branch. It does not support MKUFT physical claims merely by fitting an informational model.
 
-### Astrological Test
-
-Divide zodiac wheels into twelve sectors.
-
-Count text blocks per sector for inner and outer rings separately.
-
-Rank sectors by density.
-
-Prediction:
-
-If decorative, rankings should vary randomly across wheels.
-
-If procedural, sector roles should repeat.
-
-### Pharmaceutical Test
-
-Group containers into coarse shape classes.
-
-Record where text blocks appear relative to each class.
-
-Prediction:
-
-If decorative, associations drift.
-
-If functional, the same container classes attract similar text roles across pages.
-
-### Recipe Test
-
-Identify short, frequently repeated block shapes.
-
-Check whether these blocks appear at consistent positions within recipe lines and whether they match blocks from pharmaceutical pages.
-
-### Balneological Test
-
-Treat pools as states and channels as transitions.
-
-Record whether text appears at entries, junctions, and exits.
-
-Check whether placement is consistent across pages.
-
-## NLT Grammar: Node / Line / Token
-
-The working grammar is:
-
-- Nodes = positional anchors, addresses, entry points.
-- Lines = transitions and routing between nodes.
-- Tokens = parameters, modifiers, or state flags.
-
-Meaning is positional and structural, not phonetic.
-
-Plain English:
-
-Where something appears may matter more than what it sounds like.
-
-## Block-2 Discovery
-
-Secondary dense blocks behave like subroutines or conditional handlers.
-
-Root-heavy folios appear more likely to include a distinct lower Block-2 that is shorter, denser, and spatially anchored to the root node.
-
-Plain English:
-
-The lower block may not be extra commentary. It may be the procedure called by the main structure when a certain condition is reached.
-
-## Operational EMC Frame
-
-Some Voynich working material uses the term EMC: Energetic Memory Complex.
-
-This is an operational label only.
-
-It refers to a conserved execution thread or identity-carrier that traverses addressed phases and interacts with containers, timing gates, and state transitions.
-
-This document does not require a metaphysical claim. The EMC term marks a structural role: something conserved across changes of state.
-
-Operational properties derived from structure:
-
-1. A conserved thread persists across cycles.
-2. Containers act as interfaces, not identities.
-3. Addressed gates control transitions.
-4. Inputs tune parameters rather than replacing the thread.
-5. Symbol-level noise can be tolerated, but incorrect addressing breaks coherence.
-
-## Candidate Practice Domains
-
-The procedural model does not assert one final translation. It narrows the class of possible use.
-
-Candidate domains include:
-
-### 1. Medical or Physiological Regimen
-
-The manuscript may encode body-state transitions, inputs, preparations, timing cycles, and recovery protocols.
-
-### 2. Pharmacological or Alchemical Craft
-
-The jars and containers may encode preparation stages, state classes, conditional subroutines, and timing gates.
-
-### 3. Hybrid Ritual Technology
-
-The manuscript may combine embodied practice, preparation, timing, and state traversal in a non-verbal instruction surface.
-
-### 4. Electional / Astrological Timing Overlay
-
-The wheels may function as timing permissions for when certain transitions or preparations are allowed.
-
-### 5. Training System for Coherence Under Constraint
-
-The manuscript may train a user to preserve addressing, state awareness, and multi-layer tracking under non-verbal constraints.
-
-## Why This Matters to MKUFT
-
-Voynich matters to MKUFT because it tests whether complex structure can transmit operational coherence without ordinary explanation.
-
-If the manuscript is executable rather than linguistic, it becomes an example of high-density information preserved by addressing, state, and flow rather than prose.
-
-This directly supports MKUFT's wider emphasis on:
-
-- coherence,
-- constraint,
-- transmission integrity,
-- non-verbal structure,
-- observer/system interaction,
-- procedural information surviving context loss.
-
-## What This Interpretation Does Not Claim
+## Claims not made
 
 This document does not claim:
 
-- a full translation,
-- phonetic decoding,
-- ordinary natural language grammar,
-- final identification of all glyphs,
-- final proof of original historical intent,
-- certainty about one exclusive practice domain.
+- translation;
+- phonetic decoding;
+- proof that glyphs are operators;
+- certainty about original intent;
+- certainty about one practice domain;
+- a hidden energetic or metaphysical mechanism;
+- proof that linguistic approaches are impossible.
 
-It does claim:
+## Predictions
 
-- the manuscript is too structured to be dismissed as random nonsense,
-- linguistic/cipher approaches fail to explain the full pattern,
-- procedural/executable classification fits the global structure better,
-- ESRT/ESF provide falsifiable tests for that classification.
+The procedural hypothesis predicts, before held-out analysis:
 
-## Falsification Conditions
+- stable positional roles across comparable folios;
+- cross-page recurrence of structure beyond matched baselines;
+- predictable degradation after layout scrambling;
+- section-specific but related structural grammars;
+- better held-out classification than simpler alternatives.
 
-The model is weakened or falsified if:
+## Falsification
 
-- sector density rankings do not repeat across zodiac wheels,
-- container classes do not correlate with stable text roles,
-- repetitive block shapes do not recur across sections,
-- line lengths behave like natural-language sentences,
-- repeated clusters behave like flexible words rather than parameterised modules,
-- illustration placement does not correlate with execution phases,
-- angular sector roles do not repeat across comparable wheels,
-- mis-addressing does not degrade pattern reuse,
-- dense lower blocks behave like ordinary commentary rather than subroutines,
-- the manuscript yields stable linguistic translation under ordinary methods.
+The model is weakened or rejected if:
 
-Any one major engine failure is enough to reject or substantially weaken the structural-engine model.
+- positional roles do not replicate;
+- sector or container classifications are coder-dependent and unreliable;
+- shuffled or rotated controls perform equally well;
+- natural-language, cipher, scribal, or decorative models explain the data better;
+- the model cannot predict held-out pages;
+- apparent cross-section links disappear after correction for frequency and layout;
+- the method depends on assigning meaning after observing the result.
+
+No single failed page rejects every procedural possibility, but repeated failure of the registered primary predictions rejects this model.
+
+## Architecture route
+
+```text
+parent: information-layer constrained traversal
+method: docs/10_ESRT_ESF_METHOD_APPENDIX.md
+short bridge: docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md
+public explanation: docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md
+falsification: docs/05_FALSIFICATION_SUMMARY.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
+```
 
 ## Summary
 
-The Voynich Manuscript is best approached not as a text to be read, but as a system to be executed.
+The Voynich procedural model is a serious candidate hypothesis only if it beats ordinary alternatives under blinded, quantitative, held-out tests.
 
-Its mystery may persist because analysis has asked the wrong question.
-
-Instead of asking what the symbols mean, the stronger question is:
+The useful question is not merely “What do the symbols mean?” but:
 
 ```text
-What constraints do they obey?
+What constraints does the observable structure obey, and which model predicts them best?
 ```
-
-Under that question, the manuscript resolves as procedural structure: node, line, token; addressing, state, flow; operation, containment, transition.
-
-It is operational art.

@@ -1,78 +1,173 @@
 # MKUFT Falsification Summary — Clean Working Copy
 
-Author: Mark McLaughlin
+Author: Mark Charles McLaughlin
+
+Status: public falsification and review-facing summary inside the controlled MKUFT GitHub working copy.
 
 ## Purpose
 
-This document gives a compact falsification-facing summary of MKUFT.
+This document states what would weaken, remove, or falsify specific MKUFT claims.
 
-The purpose is not to protect the theory from failure. The purpose is to make failure conditions explicit.
+A broad framework must not hide failed branches inside its breadth. Each module must be allowed to fail independently, and failure of enough load-bearing claims must constrain the wider theory.
 
-## Core Scientific Shape
+## Core scientific shape
 
-MKUFT proposes that physical reality emerges through interaction among:
+MKUFT uses:
 
-- S — Substrate
-- I — Information
-- P — Physical
-- O — Observer
+- S — Substrate;
+- I — Information;
+- P — Physical;
+- O — Observer.
 
-The observer is not granted unlimited causal power. Observer coherence acts only as a constrained modulation term inside a wider physical/informational system.
+The observer is bounded. It cannot replace missing physical dynamics.
 
-## Standard-Physics Recovery
+## Standard-physics recovery
 
-MKUFT must recover standard physics when observer coherence and substrate-information modulation are constant, absent, or negligible.
-
-If it cannot recover standard physical prediction in the ordinary limit, the framework fails.
-
-## Compact Realisation Form
-
-A simplified realisation model is:
+When additional observer and substrate-information terms are absent, constant, or empirically unnecessary:
 
 ```text
-P_realized(E) = normalised contribution of D_phys(E|I), W(I|S,E), and C(O|I,E)
+P_realized(E) ≈ P_phys(E)
 ```
 
-Where:
+If MKUFT cannot recover accepted physical prediction in the ordinary limit, its physics-facing formulation fails.
 
-- D_phys = standard physical dynamics.
-- W = substrate-to-information weighting.
-- C = observer coherence modulation.
+## Core failure conditions
 
-## Main Failure Conditions
+### 1. Additional weighting adds no predictive value
 
-MKUFT is materially weakened or falsified if:
+The realised-probability scaffold is weakened if its additional terms cannot be operationally defined or improve no prediction beyond accepted physical and statistical models.
 
-1. **Observer coherence does not correlate with measurable deviations**
-   - REG/RNG studies show no reliable coherence-phase deviations.
-   - Remote-information studies show no above-chance performance under strict controls.
+### 2. Observer-linked branches fail
 
-2. **Environmental modulation does not occur**
-   - EM noise, geometry, geomagnetic state, iron concentration, and low-noise conditions do not affect effect size.
+REG/RNG, remote-information, group-alignment, or other observer-linked branches must be removed or substantially revised if repeated, adequately powered, blinded studies converge to null results.
 
-3. **Group coherence does not amplify effects**
-   - Coherent aligned groups produce no greater effect than individuals or controls.
+Failure of one application does not automatically falsify every MKUFT claim, but it does falsify that branch and weakens any general observer-modulation claim built from it.
 
-4. **Geometry has no measurable causal role**
-   - High-coherence geometries produce no differences in physical pattern formation or cognitive response after controls.
+### 3. Environmental modulation fails
 
-5. **Path-density/cost predictions fail**
-   - Learning, boundary anomaly, time-perception, and measurement effects do not correlate with trajectory cost, path density, or adjacency constraints.
+Environmental branches are weakened if pre-registered, measured variables do not predict effect-size changes and apparent differences reduce to ordinary thermal, electromagnetic, mechanical, material, timing, or analytical causes.
 
-6. **Standard physics is violated too broadly**
-   - If MKUFT predicts large uncontrolled violations rather than small bounded deviations, it loses scientific discipline.
+### 4. Geometry adds no causal or predictive value
 
-## What Would Strengthen MKUFT
+Geometry claims are weakened if feature-matched controls, conventional boundary models, and ordinary mechanics explain outcomes equally or better.
 
-MKUFT becomes stronger if independent, pre-registered, sufficiently powered studies show:
+### 5. Path-density and cost models fail
 
-- small but repeatable REG deviations under coherence,
-- remote-information performance above chance under strict blind conditions,
-- effect-size modulation by environment,
-- group amplification under measured alignment,
-- geometry-dependent pattern or neural effects,
-- substrate-like structure in high-precision noise systems.
+Traversal-cost claims are weakened if path availability and cost add no predictive value to learning, transition, boundary, timing, or measurement models.
 
-## Integrity Rule
+### 6. Unbounded violations are required
 
-A failed test is not automatically dismissed as poor conditions. Repeated strong failures must constrain or revise the theory.
+If the theory requires large, uncontrolled departures from accepted physics while claiming only small bounded modulation, it becomes internally inconsistent.
+
+## Silver Update failure conditions
+
+### Ambiguity dynamics
+
+The model is weakened if:
+
+- `A_t^vol`, `R_t`, and `X_t` cannot be distinguished or scored reliably;
+- generative and exploitative ambiguity show no repeatable difference under inquiry;
+- ambiguity regeneration does not track threatened access or attribution;
+- frame-switching cost cannot be measured or classified independently;
+- the model only explains events retrospectively;
+- simpler incentive, noise, uncertainty, or error models perform better.
+
+High ambiguity alone is not evidence of deception or hostile agency.
+
+### Cross-layer invariants
+
+A proposed invariant is weakened if:
+
+- it cannot be stated independently of examples;
+- layer addresses silently change its meaning;
+- no lawful coupling or address map is available;
+- evidence from one layer rescues failure at another;
+- predicted couplings repeatedly fail;
+- the invariant produces no new prediction or compression.
+
+A shared algebraic template is not evidence of one physical mechanism.
+
+### LUCY
+
+A LUCY address is weakened if:
+
+- the threshold cannot be operationally defined;
+- post-threshold behaviour does not differ from baseline;
+- effects do not scale with the proposed coherence or noise variable;
+- physical applications lack units or dimensional consistency;
+- threshold values are fitted only after observation;
+- ordinary domain models perform better.
+
+### Agency accessibility
+
+The model is weakened if:
+
+- actual and perceived action sets cannot be distinguished;
+- threat-gating does not predict exit avoidance;
+- identity fusion does not predict attractor defence;
+- map restoration does not improve access where material barriers are controlled;
+- simpler habit, preference, incentive, or impairment accounts perform better;
+- the framework becomes a label for disagreement.
+
+Capture geometry does not independently prove an external entity.
+
+### ESRT / Voynich
+
+The procedural branch is weakened if:
+
+- coding is unreliable between independent raters;
+- shuffled, rotated, or matched controls perform equally well;
+- the method cannot predict held-out pages;
+- linguistic, cipher, scribal, decorative, or mnemonic models explain the structure better;
+- meanings or operators are assigned after the observed pattern.
+
+A procedural candidate classification is not a translation.
+
+## Cross-module integrity tests
+
+A claim is not ready unless it states:
+
+1. the mechanism or invariant;
+2. the active S–I–P–O address;
+3. the variables doing real work;
+4. the nearest ordinary explanation;
+5. the predicted observation;
+6. the null result;
+7. the result that forces revision;
+8. the ontology established—and not established—by the evidence.
+
+The repository fails structurally if independent entry routes produce conflicting definitions, equations, layer placements, or falsifiers.
+
+## What would strengthen the framework
+
+Strength requires independent, pre-registered, adequately powered evidence such as:
+
+- stable effect sizes under replicated observer-linked tests;
+- environmental modulation predicted before measurement;
+- geometry-dependent effects beyond conventional models;
+- path-cost models outperforming simpler baselines;
+- reliable generative/exploitative ambiguity discrimination;
+- valid cross-layer predictions with independent evidence at each address;
+- improved agency accessibility after predicted interventions;
+- procedural models predicting held-out artefact structure;
+- consistent reconstruction of the same theory from multiple repository entry points.
+
+## Integrity rules
+
+- A failed test is not dismissed as unspecified poor conditions.
+- A mathematical expression is not evidence by itself.
+- Metaphysical openness is not immunity from specification.
+- Ordinary explanations remain active until they fail.
+- A visible pattern is not proof of its proposed root ontology.
+- Failure of a branch must be recorded, not absorbed into a broader slogan.
+
+## Architecture route
+
+```text
+core: docs/01_MKUFT_CORE_EXTENDED.md
+math: docs/02_MKUFT_MATH_APPENDIX.md
+formal model: docs/03_STANDALONE_FORMAL_ADDENDUM.md
+experiments: docs/04_EXPERIMENTAL_TEST_PROGRAM.md
+worked examples: docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
+```

@@ -2,21 +2,19 @@
 
 Author: Mark Charles McLaughlin
 
-Status: cleaned worked-example appendix for the private MKUFT GitHub repository.
+Status: public worked-example appendix inside the controlled MKUFT GitHub working copy.
 
 ## Purpose
 
-This document gives concrete worked examples showing how the MKUFT equations connect to measurable predictions.
+This document shows how selected MKUFT equations could connect to measurable predictions.
 
-The goal is to close the gap between theory and experiment.
+The numerical values below are illustrative only. They are not observed results, expected effect sizes, or evidence for MKUFT.
 
-Plain English:
-
-If MKUFT is real science, it must say what should change in the world, not only sound interesting.
+If MKUFT is to function scientifically, it must state what would be measured, how uncertainty is calculated, and what result would count against the model.
 
 ## 1. Realisation Equation
 
-MKUFT defines the realised probability of an event E as:
+For event `E`:
 
 ```text
 P_realized(E) = W_total(E) / Σ_{E'} W_total(E')
@@ -28,26 +26,28 @@ with unnormalised weight:
 W_total(E) = ∫ D_phys(E|I) W(I|S,E) C(O|I,E) dν(I)
 ```
 
-Where:
+where:
 
-- D_phys(E|I) = standard physical dynamics,
-- W(I|S,E) = substrate-to-information weighting,
-- C(O|I,E) = observer-coherence modulation,
-- dν(I) = integration over compatible information structures.
+- `D_phys(E|I)` = standard physical dynamics;
+- `W(I|S,E)` = substrate-to-information weighting;
+- `C(O|I,E)` = observer-condition modulation;
+- `dν(I)` = measure over compatible information structures.
 
-## 2. Linear Observer Response
+This is a working formal scaffold. The model gains empirical content only when each term is operationally defined for a specific experiment.
 
-Observer modulation can be modelled in linear-response form:
+## 2. Linear-Response Form
+
+A bounded observer term may be written:
 
 ```text
-C(O|I,E) = C₀ [1 + ε κ(O) h(I,E)]
+C(O|I,E) = C_0 [1 + ε κ(O) h(I,E)]
 ```
 
-Where:
+where:
 
-- κ(O) ∈ [0,1] is observer coherence,
-- ε is a small coupling coefficient,
-- h(I,E) encodes alignment between information structures and the targeted event.
+- `κ(O) ∈ [0,1]` is a measured coherence proxy;
+- `ε` is a small coupling parameter;
+- `h(I,E)` is a pre-specified event-structure interaction term.
 
 Define:
 
@@ -64,12 +64,10 @@ and:
 Then:
 
 ```text
-W_total(E) = C₀ [ W_phys(E) + ε κ(O) ΔW_O(E) ]
+W_total(E) = C_0 [W_phys(E) + ε κ(O) ΔW_O(E)]
 ```
 
-The constant C₀ cancels under normalisation.
-
-For small ε:
+For small `ε`, the testable approximation is:
 
 ```text
 P_realized(E) ≈ P_phys(E) + ε Δ_O(E)
@@ -77,272 +75,217 @@ P_realized(E) ≈ P_phys(E) + ε Δ_O(E)
 
 Plain English:
 
-Standard physics gives the baseline probability. Observer coherence adds only a small correction, and only if the system is sensitive enough.
+Standard physics supplies the baseline. MKUFT permits only a small, bounded correction that must be estimated rather than assumed.
 
 ## 3. Binary RNG Example
 
-Let a binary random number generator have two outcomes:
+Let a binary random number generator produce:
 
 ```text
-E1 = output “1”
-E0 = output “0”
+E_1 = output 1
+E_0 = output 0
 ```
 
-For a fair physical RNG:
+For a fair generator:
 
 ```text
-P_phys(E1) = 0.5
-P_phys(E0) = 0.5
+P_phys(E_1) = P_phys(E_0) = 0.5
 ```
 
-Under MKUFT, with high observer coherence:
+A pre-registered MKUFT test would compare two independent blocks:
+
+- baseline or control;
+- coherence/intention condition.
+
+The null hypothesis is:
 
 ```text
-P_realized(E1) ≈ 0.5 + ε Δ_O(E1)
+p_control = p_condition = 0.5
 ```
 
-and:
+The alternative is a small condition-linked difference specified before data collection.
+
+## 4. Correct Two-Proportion Numerical Example
+
+Assume two independent blocks with:
 
 ```text
-P_realized(E0) ≈ 0.5 - ε Δ_O(E1)
+N_control = 10,000,000
+N_condition = 10,000,000
 ```
 
-Plain English:
-
-If the observer effect exists, the RNG should shift very slightly away from 50/50 during coherent intention phases.
-
-## 4. Numerical Example
-
-Suppose the RNG baseline proportion is:
+Illustrative proportions:
 
 ```text
-p_base = 0.503
+p_control = 0.5000
+p_condition = 0.5007
 ```
 
-During a high-coherence intention phase, suppose the observed proportion is:
+Difference:
 
 ```text
-p_coh = 0.520
+Δp = 0.0007
 ```
 
-For:
+For two independent proportions near `p = 0.5`, the approximate standard error of the difference is:
 
 ```text
-N = 1,000,000 trials
+SE_diff = sqrt[p_control(1-p_control)/N_control
+             + p_condition(1-p_condition)/N_condition]
 ```
 
-The standard error under p = 0.5 is:
+Numerically:
 
 ```text
-σ = sqrt(p(1-p)/N)
+SE_diff ≈ sqrt(0.25/10,000,000 + 0.25/10,000,000)
+        ≈ 0.0002236
 ```
 
-Approximating p = 0.5:
+Therefore:
 
 ```text
-σ ≈ sqrt(0.25 / 1,000,000) = 0.0005
+z = Δp / SE_diff
+  ≈ 0.0007 / 0.0002236
+  ≈ 3.13
 ```
 
-The observed deviation is:
+A result near `z = 3.13` would be interesting but not decisive by itself. Interpretation would still depend on:
+
+- pre-registration;
+- device integrity;
+- independence of trials;
+- correction for repeated analyses;
+- concealed condition order;
+- replication;
+- effect-size stability.
+
+This replaces the incorrect practice of dividing a two-condition difference by the standard error of only one block.
+
+## 5. Effect-Size Interpretation
+
+Under the linear form:
 
 ```text
-Δp = p_coh - p_base = 0.017
+Δp ≈ ε Δ_O(E_1)
 ```
 
-The z-score is:
+The worked example does not tell us the true values of `ε` or `Δ_O`. It only shows the sample size and precision needed to resolve a small shift.
 
-```text
-z = Δp / σ = 0.017 / 0.0005 ≈ 34
-```
-
-A z-score around 34 would be extraordinarily significant if obtained in a clean, pre-registered, well-controlled experiment.
-
-## 5. Interpretation
-
-Within MKUFT:
-
-```text
-p_coh = p_phys + ε Δ_O(E1)
-```
-
-For this numerical example:
-
-```text
-ε Δ_O(E1) ≈ 0.017
-```
-
-This does not prove MKUFT by itself.
-
-It shows what kind of measurable shift MKUFT would expect under high-coherence conditions.
+A genuine theory should predict the sign, scale, and condition dependence before the experiment. It should not choose them after seeing the result.
 
 ## 6. Environmental Modulation
 
-MKUFT predicts that environment matters.
-
-Observer coherence is not isolated from physical conditions.
-
-Define effective coherence:
+Let `F` represent measured environmental variables and let:
 
 ```text
-κ_eff = κ η(F)
+κ_eff = κ × η(F)
 ```
 
-Where:
+where:
 
-- κ = intrinsic observer coherence,
-- η(F) ∈ [0,1] = environmental damping function,
-- F = environmental conditions such as EM noise, iron mass, geomagnetic state, or shielding.
+- `κ` = measured observer-state term;
+- `η(F) ∈ [0,1]` = pre-defined environmental modulation function.
 
-## 7. RNG with Environmental Term
-
-The binary RNG case becomes:
+The binary model becomes:
 
 ```text
-P_realized(E1; F) ≈ P_phys(E1) + ε η(F) Δ_O(E1)
-```
-
-The anomaly magnitude is:
-
-```text
-Δp(F) = ε η(F) Δ_O(E1)
-```
-
-Plain English:
-
-The same observer may produce different effect sizes in different environments because the environment changes how much coherence reaches the system.
-
-## 8. Quiet vs Noisy Environment
-
-Consider:
-
-```text
-F_Q = quiet environment, η(F_Q) ≈ 1
-F_N = noisy environment, η(F_N) = 0.3
-```
-
-Then:
-
-```text
-Δp(F_Q) = ε Δ_O(E1)
+P_realized(E_1;F) ≈ P_phys(E_1) + ε η(F) Δ_O(E_1)
 ```
 
 and:
 
 ```text
-Δp(F_N) = 0.3 ε Δ_O(E1)
+Δp(F) = ε η(F) Δ_O(E_1)
 ```
 
-The ratio is:
+`η(F)` must be estimated from measured conditions. It cannot be assigned after the result merely to rescue a failed prediction.
+
+## 7. Quiet and Noisy Condition Example
+
+Suppose a protocol pre-registers:
 
 ```text
-Δp(F_Q) / Δp(F_N) ≈ 1 / 0.3 ≈ 3.3
+η(F_quiet) = 1.0
+η(F_noisy) = 0.3
 ```
 
-## 9. z-Score Scaling
-
-For a binomial process with baseline probability p₀ ≈ 0.5:
+If all other terms remain constant, the model predicts:
 
 ```text
-σ ≈ 0.5 / sqrt(N)
+Δp(F_noisy) / Δp(F_quiet) = 0.3
 ```
 
-Define:
+The same ratio should apply approximately to the condition-linked z-scores when sample sizes and variances are matched:
 
 ```text
-z_Q = Δp(F_Q) / σ
-z_N = Δp(F_N) / σ
+z_noisy / z_quiet ≈ 0.3
 ```
 
-Then:
+This is a conditional model prediction, not an observed fact.
+
+## 8. Experimental Design Requirements
+
+A valid test should include:
+
+- device calibration and health monitoring;
+- independent control and condition blocks;
+- randomised concealed order;
+- a single primary statistic;
+- pre-defined environmental variables;
+- matched sample sizes;
+- correction for optional stopping and multiple testing;
+- blinded analysis where possible;
+- release of code and anonymised data;
+- independent replication.
+
+## 9. Falsification
+
+The RNG branch is weakened if:
+
+- pre-registered condition differences converge to zero;
+- effect direction or scale is unstable across replications;
+- results track hardware drift, analysis choice, expectancy, or stopping rules;
+- measured coherence does not correlate with the proposed modulation;
+- environmental ratios fail to predict effect-size ratios;
+- ordinary statistical and engineering models explain the data better.
+
+A null result cannot automatically be blamed on unspecified “bad conditions.” Repeated strong nulls must constrain or remove the branch.
+
+## 10. Relationship to the Silver Update
+
+The ambiguity module requires fixed definitions and prevents post-result frame switching.
+
+The layer-address module prevents an observer-state result from being presented as a physical-field result.
+
+The traversal map keeps the numerical example connected to its assumptions, test design, falsifiers, and reduction rule.
+
+See:
+
+- `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`
+- `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
+- `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
+
+## Architecture Route
 
 ```text
-z_Q / z_N = Δp(F_Q) / Δp(F_N) = 1 / η(F_N)
+parent equations: docs/02_MKUFT_MATH_APPENDIX.md
+experimental programme: docs/04_EXPERIMENTAL_TEST_PROGRAM.md
+falsification: docs/05_FALSIFICATION_SUMMARY.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 ```
 
-For:
+## Summary
+
+The worked example demonstrates the correct chain:
 
 ```text
-η(F_N) = 0.3
+model term
+→ pre-registered effect
+→ sample-size requirement
+→ correct uncertainty calculation
+→ controlled comparison
+→ replication
+→ falsification or revision
 ```
 
-we get:
-
-```text
-z_Q / z_N ≈ 3.3
-```
-
-So if a quiet condition produces:
-
-```text
-z_Q ≈ 30–35
-```
-
-MKUFT predicts a noisy/damping condition might produce:
-
-```text
-z_N ≈ 9–11
-```
-
-assuming all other factors are held constant.
-
-## 10. Experimental Meaning
-
-This gives a laboratory-testable prediction.
-
-Run matched RNG experiments under:
-
-- quiet low-noise conditions,
-- EM-noisy conditions,
-- iron-rich conditions,
-- shielded conditions,
-- geomagnetically different windows.
-
-Measure:
-
-- Δp,
-- z-scores,
-- observer coherence κ,
-- environmental damping proxy η(F).
-
-Prediction:
-
-The same observer and protocol should show stronger deviations in coherent/quiet conditions and weaker deviations in damping/noisy conditions.
-
-## 11. Falsification
-
-The environmental modulation equation is weakened or falsified if:
-
-- matched environments show no systematic effect-size difference,
-- noisy/damping environments do not suppress deviations,
-- effect ratios do not track any plausible η(F),
-- pre-registered high-N experiments produce no coherence-phase deviation above baseline.
-
-## 12. Why This Matters
-
-These examples matter because they turn MKUFT from broad theory into measurable prediction.
-
-The framework says:
-
-```text
-observer coherence + sensitive system + low damping = small probability shift
-```
-
-and:
-
-```text
-same observer + same protocol + higher damping = reduced shift
-```
-
-That is testable.
-
-If it fails repeatedly under clean conditions, the model must change or fall.
-
-## 13. Summary
-
-The RNG and environmental examples show the chain:
-
-```text
-MKUFT equation -> observer coherence -> probability shift -> environmental damping -> measurable z-score change
-```
-
-This is exactly the kind of bridge a serious theory needs: from concept to number, from number to experiment, from experiment to possible falsification.
+That is the bridge from mathematical possibility to empirical accountability.

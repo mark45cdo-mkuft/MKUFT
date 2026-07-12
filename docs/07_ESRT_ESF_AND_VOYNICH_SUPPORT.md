@@ -2,7 +2,7 @@
 
 Author: Mark McLaughlin
 
-Status: support and applied-case layer for the private MKUFT GitHub repository.
+Status: public support and applied-case layer inside the controlled MKUFT GitHub working copy.
 
 ## Purpose
 
@@ -39,27 +39,29 @@ Useful checks:
 
 ## Voynich Application
 
-The Voynich Manuscript is treated in the current stack as:
+The Voynich Manuscript is treated in the current stack as a candidate:
 
 ```text
 Operational / Executable System encoded as Operational Art
 ```
 
-It is not treated as ordinary natural language translation.
+It is not treated as an established natural-language translation or as a proven executable artefact.
 
-Current applied claims include:
+Current applied hypotheses include:
 
 - Nodes = positional anchors.
 - Lines = transitions and routing.
 - Tokens = parameters, modifiers, or state flags.
-- Meaning is positional and structural, not primarily phonetic.
+- Meaning may be positional and structural rather than primarily phonetic.
 
-Section-level mapping:
+Section-level working map:
 
-- Botanical: root-node instruction trees.
-- Pharmaceutical: state encoding through jar/container classes.
-- Balneological: state-transition networks.
-- Astronomical: angular address spaces.
+- Botanical: possible root-node instruction trees.
+- Pharmaceutical: possible state encoding through jar/container classes.
+- Balneological: possible state-transition networks.
+- Astronomical: possible angular address spaces.
+
+These are hypotheses to be tested against linguistic, cipher, decorative, scribal, and other ordinary alternatives.
 
 ## Boundary Discipline
 
@@ -72,6 +74,16 @@ It belongs in the repo as an applied research branch and pattern-recognition tes
 - Primary canon: MKUFT core, math appendix, formal addendum, experiments, falsification.
 - Support canon: OCQS, LUCY, ESRT/ESF, Voynich.
 
+## Architecture Route
+
+```text
+parent: constrained traversal and information-layer structure
+method home: docs/10_ESRT_ESF_METHOD_APPENDIX.md
+application home: docs/09_VOYNICH_PROCEDURAL_ENGINE.md
+limits and falsification: docs/05_FALSIFICATION_SUMMARY.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
+```
+
 ## Next Development Need
 
-The Voynich material should eventually have its own repo or subfolder with original evidence, page references, sector maps, falsification checks, and a clean separation between structural claim and translation claim.
+The Voynich material should eventually have its own repo or subfolder with original evidence, page references, sector maps, blinded comparison tests, falsification checks, and a clean separation between structural claim and translation claim.

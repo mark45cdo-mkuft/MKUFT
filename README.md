@@ -1,107 +1,129 @@
 # MKUFT — McLaughlin–Kairos Unified Field Theory
 
-Public-facing controlled working copy of the current MKUFT canon stack.
-
 Author: Mark Charles McLaughlin  
-Repository status: public controlled canon workspace  
-Primary purpose: preserve, organise, and develop the active MKUFT documents without losing model structure through compression, drift, outdated wording, or over-sanitised summaries.
+Repository status: public controlled working canon  
+Primary DOI: `10.5281/zenodo.17780566`
 
-## Read First
+## What this repository is
 
-Begin with:
+This repository organises and develops the public MKUFT working stack while preserving provenance, definitions, falsifiers, and cross-module structure.
 
-- `MKUFT_INTEGRATED_MASTER_SPINE.md` — the front-door synthesis. This is the missing integrated argument: what MKUFT is, why it matters, how the layers fit, how the maths carries the model, how it ties into science, where it is novel, and what would weaken or falsify it.
-- `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — living science/support map: domain -> science finding/gap -> MKUFT resonance -> novelty -> strength -> risk/falsifier -> next check.
+MKUFT is presented as a speculative research framework, not an accepted completed theory.
 
-Then read:
-
-- `START_HERE_PUBLIC_OVERVIEW.md` — shorter public-facing overview in plain English.
-- `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery kernel with surrounding explanation; the shortest handle for rebuilding the MKUFT method without replacing the full papers.
-- `CANON_MAP.md` — current hierarchy of the research stack.
-- `PROVENANCE_DOI_AND_ATTRIBUTION.md` — DOI, copyright, licence, and citation structure.
-
-Optional support bridge:
-
-- `docs/20_GRACE_TRAVERSAL_RULE.md` — support / bridge note only, not a standalone canonical paper. It explains GRACE as the clean traversal rule and Authentic Traversal Cognition as the observer-side discipline.
-
-## Central Thesis
-
-MKUFT studies reality as constrained traversal.
-
-It asks how possible states become stable physical or operational outcomes through:
+Its core subject is constrained traversal:
 
 ```text
-Substrate -> Information -> Physical -> Observer
+Substrate → Information → Physical → Observer
 ```
 
-and through the working kernel:
+with the operational kernel:
 
 ```text
-Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome
+Layer → Boundary → Node → Transition → Cost → Coherence → Observer → Falsifier → Outcome
 ```
 
-The public claim is not that belief overrides physics. The public claim is that physical outcomes, cognition, biological form, symbolic/procedural systems, and anomaly-edge cases may all be studied through a shared grammar of constraint, admissibility, cost, coherence, boundary, observer-position, and falsifiable resolution.
+The public claim is that physical, informational, cognitive, biological, social, symbolic, and anomaly-edge systems may sometimes share a useful grammar of constraint and transition. They are not assumed to be identical or equally evidenced.
 
-## Kernel / Recovery Handle
+## Read first
 
-- `MKUFT_INTEGRATED_MASTER_SPINE.md` — integrated master spine and current best front-door argument. It ties the parts together and should be read before judging the repo.
-- `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — reconstitution kernel with explanation. This is not a replacement for the full MKUFT paper. It preserves the raw route `Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome` and gives enough explanation for a reader or AI system to orient from anywhere in the MKUFT tree.
-- `docs/20_GRACE_TRAVERSAL_RULE.md` — support / bridge note connected to the kernel. It explains Geometry, Relation, Admissibility, Coherence, and Emergence as the clean route through SIPO, and adds the observer-side discipline of Authentic Traversal Cognition. It does not replace the main paper, the kernel, or OCQS.
+1. `START_HERE_PUBLIC_OVERVIEW.md` — short plain-English orientation.
+2. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full front-door synthesis.
+3. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
+4. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full dependency and integration registry.
+5. `CANON_MAP.md` — document hierarchy and canonical roles.
+6. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
+7. `docs/05_FALSIFICATION_SUMMARY.md` — branch-level and framework-level failure conditions.
 
-## Science Support / Verification Map
+## Core canon
 
-- `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — tracks where real science supports, resembles, stress-tests, or challenges MKUFT. It uses the fixed scan order: science finding/gap, MKUFT resonance, novelty, strength, risk/falsifier, next check.
+- `docs/01_MKUFT_CORE_EXTENDED.md` — S–I–P–O core and ordinary-physics limit.
+- `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical scaffolds and operational caveats.
+- `docs/03_STANDALONE_FORMAL_ADDENDUM.md` — state graphs, trajectories, cost, and formal extensions.
+- `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — proposed tests, controls, nulls, and replication requirements.
+- `docs/05_FALSIFICATION_SUMMARY.md` — compact failure conditions.
+- `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — illustrative numerical examples with correct uncertainty treatment.
 
-## Canon Spine
+## Silver Update structural modules
 
-1. `docs/01_MKUFT_CORE_EXTENDED.md` — primary theory spine.
-2. `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical formalisation.
-3. `docs/03_STANDALONE_FORMAL_ADDENDUM.md` — node/trajectory/coherence-cost formalism.
-4. `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — empirical testing and falsification programme.
-5. `docs/05_FALSIFICATION_SUMMARY.md` — compact falsification and review-facing summary.
-6. `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — worked numerical examples linking equations to testable predictions.
+### Ambiguity Dynamics
 
-## Public / Explanatory Bridge Papers
+`docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`
 
-7. `docs/11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md` — full-stack convergence: data-field universe, superposition, nested systems, symbolic/religious-text pattern bridges, dark matter side-note, equations.
-8. `docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md` — individuality, boundary cost, 3D persistence, love/cohesion, micro-to-cosmic scaling.
-9. `docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md` — physics-facing explanation compatible with GR/QFT language.
-10. `docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md` — frequency, atoms, quantum paradoxes, Wigner's friend, symbolic/religious-text bridge material, dark matter and galaxy-behaviour questions.
-11. `docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md` — Tesla–Dollard-compatible field-geometry bridge covering electricity, gravity, resonance-addressing, telluric/solar structure, and UAP motion as physical-layer rendering.
-12. `docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md` — clear public explanation of MKUFT, its build path, ancient-symbol/Voynich bridge, paradox resolution, and truth/load-bearing method.
+```text
+A_t^vol = log(1 + μ(Ω_t)/μ_0)
+M_t = A_t^vol × R_t × X_t
+```
 
-## Support and Application Modules
+Separates unresolved state volume, low-cost frame connectivity, and preserved access.
 
-13. `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md` — human coherence / quiet-state activation layer; cross-linked to Authentic Traversal Cognition as the active observer-side discipline that cleans engagement after or alongside the quiet state.
-14. `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md` — LUCY threshold, membrane, and field framework.
-15. `docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md` — gradient mechanics, LUCY boundary coupling, boundary-shear geometry, and geometry-dependent orientation predictions.
-16. `docs/09_VOYNICH_PROCEDURAL_ENGINE.md` — full-bodied Voynich procedural/executable-system paper with section results and testable engine.
-17. `docs/10_ESRT_ESF_METHOD_APPENDIX.md` — method appendix for executable-system recognition and modelling.
-18. `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md` — older compact support bridge retained as a short orientation note.
-19. `docs/20_GRACE_TRAVERSAL_RULE.md` — support / bridge note for GRACE traversal and observer-side Authentic Traversal Cognition; not a standalone canonical paper.
+`M_t` is a heuristic audit index, not a validated universal law.
 
-## Current Layer Convention
+### Cross-Layer Invariants
 
-The active MKUFT layer convention is:
+`docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
+
+```text
+K_L = A_L(K;θ_L)
+```
+
+Preserves a candidate invariant while requiring honest changes in variables, units, evidence, coupling, and falsifiers at each layer address.
+
+### Agency Accessibility
+
+`docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md`
+
+```text
+U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
+```
+
+Distinguishes retained capacity from practical access without functioning as a clinical, legal, or moral diagnostic score.
+
+### Cross-Support Architecture
+
+`docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
+
+Maps every numbered file to its parent concepts, neighbours, applications, and principal limits. This is the self-supporting architecture of the public stack.
+
+## Support and application branches
+
+- `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md` — bounded observer-state hypothesis.
+- `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md` — short procedural-method bridge.
+- `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md` — threshold vocabulary and modelling status.
+- `docs/09_VOYNICH_PROCEDURAL_ENGINE.md` — Voynich procedural-structure candidate hypothesis.
+- `docs/10_ESRT_ESF_METHOD_APPENDIX.md` — addressing/state/flow classification method.
+- `docs/11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md` — broad public convergence bridge.
+- `docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md` — boundary-maintenance and cohesion bridge.
+- `docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md` — technical public translation.
+- `docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md` — symbolism/physics bridge with claim separation.
+- `docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md` — boundary-physics hypothesis.
+- `docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md` — comparative field-language bridge.
+- `docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md` — clear full-stack public explanation.
+- `docs/20_GRACE_TRAVERSAL_RULE.md` — clean traversal filter.
+
+## Current layer convention
 
 - `S` = Substrate
 - `I` = Information
 - `P` = Physical
 - `O` = Observer
 
-Older wordings that define `P` as Perception/Boundary or `O` as Output are treated as superseded historical shorthand and are not used as the formal canon convention.
+Historical alternatives are not used as the current formal convention.
 
-## Public-Reading Rule
+## Public integrity rules
 
-The repo must be readable to a bright public reader, not only scientists or AI systems. Technical structure is preserved, but each major file should also explain the what, why, where, and how in plain English.
+- Standard physics is the ordinary physical baseline.
+- Observer terms remain bounded.
+- Similarity across layers is not proof of one mechanism.
+- Mathematical expressions require operational definitions.
+- Symbolic interpretation is not physical evidence.
+- Anomaly pattern fit does not prove ontology.
+- Ordinary alternatives and null results remain active.
+- Failed branches must be recorded and revised or removed.
+- No non-public personal data, correspondence, credentials, or internal-only operational instructions belong in this repository.
 
-The integrated master spine is now the required first read because it ties the model together rather than only listing documents.
-
-## Provenance / DOI / Copyright
+## Provenance
 
 Copyright © Mark Charles McLaughlin.
-
-The MKUFT backbone is associated with the Zenodo record:
 
 ```text
 Unified Field Theory. McLaughlin–Kairos. MKUFT
@@ -110,10 +132,9 @@ Author: Mark Charles McLaughlin
 Licence stated in source material: CC BY 4.0
 ```
 
-Each published node keeps its own DOI, authorship, licence, and citation identity. MKUFT is the backbone framework. LUCY is treated as part of the MKUFT backbone unless separately published or versioned. Voynich is a separate applied node linked to MKUFT through ESRT/ESF and procedural-system analysis, with the MKUFT DOI used as its backbone/provenance anchor unless a separate Voynich DOI is supplied.
+See:
 
-See `PROVENANCE_DOI_AND_ATTRIBUTION.md` and `RIGHTS_AND_LICENSE_NOTICE.md`.
+- `PROVENANCE_DOI_AND_ATTRIBUTION.md`
+- `RIGHTS_AND_LICENSE_NOTICE.md`
 
-## Repo Rule
-
-This repository is not the master truth unless Mark explicitly designates it so. It is a controlled GitHub working copy of the active canon. Original source files and prior releases remain separately preserved.
+The DOI-linked source work retains its identity. This GitHub repository is a public controlled working copy and structural development space, not an automatic replacement for prior releases.

@@ -1,111 +1,154 @@
 # OCQS — Optimal Cognitive Quiet State
 
-Author: Mark McLaughlin
+Author: Mark Charles McLaughlin
 
-Status: support module for MKUFT; human activation and coherence-gating layer.
+Status: public observer-state support hypothesis inside the controlled MKUFT GitHub working copy.
 
 ## Purpose
 
-OCQS defines the human neurocognitive condition required for stable coherence interaction in the MKUFT framework.
+OCQS names a candidate neurocognitive condition in which internal noise is reduced while attention, emotional information, and threat discrimination remain available.
 
-It does not mean emotional dullness or passivity. It means low cognitive noise, clear emotional signal, precise threat detection, and open receptive attention.
+It is not emotional dullness, passivity, trance, infallibility, or proof of nonlocal access.
 
-## Core Definition
+The public purpose is to provide a testable observer-state construct that can be compared with established work on flow, attentional control, predictive processing, embodied cognition, and performance under pressure.
 
-The Optimal Cognitive Quiet State is a configuration where:
+## Core definition
 
-- internal chatter is low,
-- self-monitoring is minimal,
-- threat detection remains accurate,
-- emotional signal is clean rather than suppressed,
-- attention is open but not scattered,
-- intention forms as compressed non-verbal structure.
+A candidate OCQS state may include:
 
-## Functional Role in MKUFT
+- reduced intrusive internal chatter;
+- lower unnecessary self-monitoring;
+- stable but not hypervigilant threat discrimination;
+- emotional signal that is noticed rather than suppressed;
+- sustained open attention;
+- lower conflict between intention and action;
+- improved calibration between confidence and accuracy.
 
-OCQS supports:
+These features require operational measures. They are not established by self-description alone.
 
-- observer coherence κ(O),
-- substrate-handshake formation,
-- probability-gradient sensing,
-- flow states,
-- remote-information clarity,
-- synchronicity clustering,
-- reduced internal distortion.
+## Functional role in MKUFT
+
+OCQS is an O-layer support hypothesis.
+
+It may provide a measurable proxy for lower observer noise in experiments involving:
+
+- attention and working memory;
+- judgement under pressure;
+- error detection;
+- flow-state performance;
+- confidence calibration;
+- strictly controlled tests of any proposed observer-linked effect.
+
+Claims involving remote information, synchronicity, probability shifts, or substrate coupling remain separate experimental hypotheses. OCQS does not establish them.
 
 ## Relation to Authentic Traversal Cognition
 
-OCQS is the state condition. Authentic Traversal Cognition is the active discipline that can operate from, or alongside, that state.
+OCQS describes a state condition.
 
-OCQS quiets the observer. Authentic Traversal Cognition cleans the observer.
+Authentic Traversal Cognition describes a discipline of self-audit:
 
-OCQS reduces internal noise so the observer can hold attention, signal, threat-sense, and intention without scattering. Authentic Traversal Cognition then asks the observer to remove performance, fear, appetite, projection, identity-defence, social pressure, and desired outcome before applying the MKUFT kernel outwardly.
+- identify what is actually present;
+- separate observation from inference;
+- remove avoidable performance, fear, appetite, projection, and desired outcome;
+- retain ordinary explanations and falsifiers;
+- update when evidence changes.
 
-In this sense, OCQS prepares the observer for coherent engagement, while Authentic Traversal Cognition disciplines the observer toward truth-tracking.
+OCQS may reduce noise. Authentic Traversal Cognition attempts to prevent lower noise from becoming unjustified certainty.
 
-This does not imply infallibility. It implies distortion reduction. The observer becomes more accurate not because they possess certainty, but because less cognitive energy is wasted maintaining contradiction or defending false structure.
+Neither implies infallibility.
 
-The operational relationship is:
+## Continuous gating variable
 
-OCQS prepares the quiet state.
-
-Authentic Traversal Cognition performs the decontamination.
-
-GRACE governs clean traversal.
-
-The kernel preserves the reconstruction route.
-
-Falsification keeps the process honest.
-
-## Gating Variable
-
-OCQS introduces a gating variable Q:
+A binary on/off gate is usually too crude. Let:
 
 ```text
-Q = 0 → OCQS inactive; handshake unavailable or unstable
-Q = 1 → OCQS active; handshake possible
+q_t ∈ [0,1]
 ```
 
-A simple operational relationship is:
+represent the measured degree to which the selected quiet-state criteria are present.
+
+Let:
 
 ```text
-coherence = Q · H · engagement
+κ_eff = q_t × κ_base × η(F)
 ```
 
-Where:
+where:
 
-- Q = quiet-state gate,
-- H = handshake condition,
-- engagement = active coherent participation.
+- `κ_base` is the selected baseline coherence measure;
+- `η(F) ∈ [0,1]` represents measured environmental or task-related damping.
 
-Authentic Traversal Cognition does not replace Q. It is not a second gate in this basic expression. It is the observer-side discipline that helps keep engagement clean once the quiet-state condition is available.
+This is a candidate normalised model, not a physical law.
 
-## Corrected Layer Language
+A study must define:
 
-OCQS is an Observer-layer support module. It sharpens O and I interactions but does not redefine P.
+- the physiological or behavioural proxies for `q_t`;
+- the task;
+- the expected direction and effect size;
+- the null model;
+- the ordinary causes of improved performance.
 
-Current formal convention remains:
+## S–I–P–O placement
 
-- S = Substrate
-- I = Information
-- P = Physical
-- O = Observer
+- **S:** OCQS makes no direct substrate claim.
+- **I:** instructions, task structure, and interpretation shape the state.
+- **P:** brain, body, sleep, stress, substances, environment, and instrumentation constrain it.
+- **O:** attention, salience, memory, confidence, and interpretation are the primary address.
 
-## Scientific Neighbours
+OCQS cannot replace a missing P-layer mechanism.
 
-OCQS aligns with:
+## Scientific neighbours
 
-- flow-state neuroscience,
-- predictive processing,
-- combat psychology,
-- attentional control,
-- non-verbal intuition,
-- embodied cognition.
+Relevant comparison fields include:
 
-Authentic Traversal Cognition additionally sits near disciplined self-audit, cognitive de-biasing, metacognition, and falsification-oriented reasoning.
+- flow-state research;
+- attentional control;
+- predictive processing;
+- metacognition;
+- embodied cognition;
+- stress-performance research;
+- military and emergency performance psychology;
+- cognitive de-biasing;
+- mindfulness research where operational definitions are adequate.
 
-## Canon Role
+Similarity to these fields does not prove the wider MKUFT interpretation.
 
-OCQS is not the main MKUFT ontology. It is the human activation condition that helps explain when observer coherence becomes strong enough to matter experimentally or operationally.
+## Predictions
 
-Within the public MKUFT stack, OCQS should be read together with the GRACE Traversal Rule and the Reconstitution Kernel: OCQS describes the quiet-state condition, GRACE describes the clean traversal rule, and the kernel describes the recovery route.
+A well-defined OCQS condition should correlate with some combination of:
+
+- lower reaction-time variability;
+- improved error detection;
+- better confidence calibration;
+- reduced impulsive frame switching;
+- more stable performance under pressure;
+- lower measured physiological or attentional noise.
+
+The state should not improve every task. Excessive quieting may impair vigilance, creativity, or rapid switching in some conditions.
+
+## Falsifiers and limits
+
+OCQS is weakened if:
+
+- independent raters or measures cannot identify the state reliably;
+- the proposed measures do not distinguish it from relaxation, fatigue, dissociation, suppression, or ordinary concentration;
+- claimed performance gains do not replicate;
+- confidence increases without accuracy;
+- the state predicts no outcome beyond established constructs;
+- the term becomes a label for subjective certainty.
+
+## Architecture route
+
+```text
+parent: bounded observer term in docs/01_MKUFT_CORE_EXTENDED.md
+math support: docs/02_MKUFT_MATH_APPENDIX.md
+traversal discipline: docs/20_GRACE_TRAVERSAL_RULE.md
+layer addressing: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
+agency application: docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md
+falsification: docs/05_FALSIFICATION_SUMMARY.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
+```
+
+## Canon role
+
+OCQS is not the MKUFT ontology. It is a bounded observer-state hypothesis that should survive or fail through ordinary measurement, comparison with neighbouring constructs, and falsification.
