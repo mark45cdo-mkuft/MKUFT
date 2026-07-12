@@ -3,7 +3,7 @@
 Author: Mark Charles McLaughlin  
 Framework: McLaughlin–Kairos Unified Field Theory  
 Status: Silver Update public applied-systems addendum  
-Role: distinguish retained capacity from practical access to that capacity, and formalise how action maps can be narrowed, corrupted, or restored.
+Role: distinguish retained capacity from practical access and model how action maps can be narrowed, corrupted, or restored.
 
 ---
 
@@ -11,16 +11,14 @@ Role: distinguish retained capacity from practical access to that capacity, and 
 
 A person or system may retain a real capacity while losing practical access to it.
 
-> Ontological capacity is not the same thing as practical accessibility.
+> Structural capacity is not the same thing as practical accessibility.
 
-This distinction matters because many captured systems are misread in one of two ways:
+This avoids two false extremes:
 
-- total innocence: the person had no agency at all;
-- total freedom: the person could act normally because some abstract capacity remained.
+- **total innocence:** no agency existed at all;
+- **total freedom:** normal access to choice existed merely because abstract capacity remained.
 
-Both can be false.
-
-The capacity for choice may remain while the map required to recognise, evaluate, and use available choices has become distorted.
+The capacity for choice may remain while the map required to recognise, evaluate, and use available options becomes distorted.
 
 ---
 
@@ -28,49 +26,49 @@ The capacity for choice may remain while the map required to recognise, evaluate
 
 At time `t`, let:
 
-- `U_t` = the set of actions actually available;
-- `Û_t` = the set of actions the agent perceives as available;
-- `V_t(u)` = the agent’s estimated value of action `u`;
-- `T_t(u)` = perceived threat, shame, betrayal, identity loss, or punishment attached to action `u`;
-- `G_t(u)` = gating term determining whether action `u` enters conscious consideration;
-- `H_t` = history of reinforcement, dependency, trauma, habit, loyalty, and prior consent.
+- `U_t` = actions actually available;
+- `Û_t` = actions perceived as available;
+- `V_t(u)` = estimated value of action `u`;
+- `T_t(u)` = perceived threat, shame, betrayal, identity loss, or punishment attached to `u`;
+- `G_t(u)` = gating term determining whether `u` enters reflective consideration;
+- `H_t` = reinforcement history, dependency, trauma, habit, loyalty, and prior choices.
 
-Practical action accessibility is represented by:
+Define the practically accessible set:
 
 ```text
-U_t^access = {u ∈ U_t : G_t(u ; T_t, H_t) > θ_access}
+U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
 ```
 
-The actual door can remain in `U_t` while disappearing from `U_t^access`.
+A viable exit can remain in `U_t` while disappearing from `U_t^access`.
 
-Capture becomes deeper when viable exits are:
+Capture deepens when exits are:
 
 - not perceived;
-- mislabelled as impossible;
+- labelled impossible;
 - assigned catastrophic cost;
 - marked as betrayal;
 - fused with identity loss;
-- associated with danger greater than remaining;
-- filtered out before reflective comparison.
+- filtered out before comparison.
 
 ---
 
 ## 3. Agency accessibility
 
-Let `a_t ∈ [0,1]` represent practical accessibility to retained agency.
+Let:
 
-A simple working relation is:
+```text
+a_t ∈ [0,1]
+```
+
+represent practical access to retained agency.
 
 ```text
 Agency_effective(t) = Agency_capacity × a_t
 ```
 
-This is not a complete moral equation. It is an operational distinction.
+This is an operational distinction, not a complete moral, legal, or clinical equation.
 
-- `Agency_capacity` refers to retained human or system-level capacity for choice.
-- `a_t` refers to present access to reflective use of that capacity.
-
-Low `a_t` can result from:
+Low accessibility may be associated with:
 
 - fear conditioning;
 - trauma;
@@ -79,7 +77,6 @@ Low `a_t` can result from:
 - dependency;
 - information control;
 - ideological enclosure;
-- identity capture;
 - exhaustion;
 - shame;
 - social punishment;
@@ -91,88 +88,82 @@ The capacity may survive while its interface is degraded.
 
 ## 4. Attribution capture
 
-Attribution capture occurs when an installed impulse, demand, rule, or attractor is misidentified as the agent’s own deepest identity, conscience, or will.
-
-The sequence is:
+Attribution capture occurs when an installed or reinforced impulse, demand, rule, or attractor is misidentified as the agent’s own deepest identity, conscience, or will.
 
 ```text
-external or emergent pressure
-→ repeated internal routing
+external, internal, or emergent pressure
+→ repeated routing
 → identity association
 → attribution error
-→ self-defence of the installed pattern
+→ defence of the installed pattern
 ```
 
-The system becomes difficult to challenge because criticism of the pattern is experienced as an attack on the self.
+Indicators may include:
 
-Indicators include:
-
-- reflection is punished internally;
-- contradiction increases loyalty rather than doubt;
-- the enclosure is defended as freedom;
+- reflection is punished;
+- contradiction increases loyalty rather than examination;
+- an enclosure is defended as freedom;
 - exit language is heard as betrayal;
-- costs imposed by the attractor are reinterpreted as proof of virtue;
-- the agent repeats the system’s defence before examining the claim.
+- imposed cost is reinterpreted as proof of virtue;
+- system defences are repeated before the claim is examined.
+
+None of these signs alone establishes capture.
 
 ---
 
 ## 5. Capture geometry
 
-Capture is not defined here by a specific root ontology.
+Capture is defined structurally, not by one root ontology.
 
-It is a structural condition in which the agent’s accessible action map narrows around an attractor that:
+It is a condition in which the accessible action map narrows around an attractor that:
 
-- rewards obedience or repetition;
+- rewards repetition or obedience;
 - punishes accurate reflection;
-- degrades alternative-route visibility;
+- hides alternative routes;
 - preserves dependency;
 - redirects responsibility;
-- increases the cost of exit;
+- raises exit cost;
 - recruits the agent to defend the enclosure.
 
-A compact measure can be written as:
+For audit purposes, let the following normalised scores lie in `[0,1]`:
+
+- `B_t` = basin depth or reinforcement strength;
+- `D_t` = distortion between actual and perceived action sets;
+- `F_t` = threat-gating applied to viable exits;
+- `S_t` = self-identification with the attractor.
+
+A heuristic capture index is:
 
 ```text
 K_capture(t) = B_t × D_t × F_t × S_t
 ```
 
-where:
-
-- `B_t` = basin depth or reinforcement strength;
-- `D_t` = distortion between `U_t` and `Û_t`;
-- `F_t` = threat-gating applied to viable exits;
-- `S_t` = self-identification with the capturing pattern.
-
-This is a heuristic audit measure, not a clinical diagnostic score.
+This is not a validated diagnostic score. It is a decomposition tool showing that deep capture requires more than disagreement, habit, or distress alone.
 
 ---
 
 ## 6. Responsibility gradient
 
-Responsibility can vary across a capture trajectory.
-
-Earlier actions may deepen the basin:
+Responsibility may vary across a capture trajectory.
 
 ```text
-repeated consent or avoidance
-→ stronger reinforcement
-→ narrower future accessibility
+repeated reinforcement or avoidance
+→ deeper basin
+→ narrower later accessibility
 ```
-
-Later entrenchment may reduce immediate reflective access without erasing all responsibility for the path that built or maintained the enclosure.
 
 A clean assessment separates:
 
 1. retained capacity;
 2. current accessibility;
-3. prior voluntary reinforcement;
+3. earlier voluntary reinforcement;
 4. present coercion or impairment;
 5. available evidence of reflection;
 6. harm caused to others;
 7. realistic exit opportunities;
-8. action taken when clarity briefly returned.
+8. action taken when clarity returned.
 
-Understanding capture must not become automatic excuse.
+Understanding must not become automatic excuse.
 
 Accountability must not become dehumanisation.
 
@@ -184,11 +175,11 @@ Capture is a post-boundary structure.
 
 ### S — Substrate
 
-Unity or source is not itself the local capture mechanism. Capture requires differentiated agents, boundaries, local constraints, and distorted maps.
+Source or unity is not itself the local capture mechanism. Capture requires differentiated agents, boundaries, and distorted maps.
 
 ### I — Information
 
-The primary geometry lives here:
+Primary structures include:
 
 - corrupted meaning;
 - false attribution;
@@ -200,54 +191,31 @@ The primary geometry lives here:
 
 ### O — Observer
 
-Observer gating stabilises the false map through:
-
-- salience;
-- attention;
-- fear;
-- shame;
-- loyalty;
-- expectation;
-- identity protection;
-- selective memory;
-- threat interpretation.
+Gating may be stabilised through salience, attention, fear, shame, loyalty, expectation, selective memory, and threat interpretation.
 
 ### P — Physical
 
-The capture is enacted and reinforced through:
-
-- brain and body state;
-- addiction;
-- trauma response;
-- sleep loss;
-- material dependency;
-- coercion;
-- institutions;
-- group pressure;
-- reward and punishment;
-- environmental restriction.
+Reinforcement may be enacted through body state, addiction, trauma response, sleep loss, coercion, institutions, reward, punishment, and material dependency.
 
 ### Temporal and relational axis
 
-Repeated reinforcement deepens the basin. Truthful relationship, accurate feedback, love, accountability, material safety, and restored interpretation can reopen access over time.
-
-Compact traversal:
+Repetition deepens the basin. Accurate feedback, trustworthy relationship, accountability, material safety, and restored interpretation may reopen access over time.
 
 ```text
 differentiated agent
 → corrupted I-layer map
-→ O-layer threat-gating and misrecognition
+→ O-layer threat-gating
 → P-layer reinforcement
-→ deeper attractor basin
+→ deeper basin
 ```
 
-Recovery reverses the route:
+Recovery:
 
 ```text
 accurate recognition
-→ restored action map
-→ reduced threat-gating
-→ practical access to agency
+→ corrected action map
+→ reduced false threat
+→ practical access
 → changed action
 → weakened basin
 ```
@@ -256,11 +224,9 @@ accurate recognition
 
 ## 8. Recovery mechanics
 
-Recovery does not always begin by creating a new door.
+Recovery may begin by restoring recognition of an existing route rather than inventing a new one.
 
-Often the first task is restoring accurate recognition of a door that already exists.
-
-Useful interventions include:
+Possible interventions include:
 
 - naming the pattern without attacking human worth;
 - preserving records and sequence;
@@ -270,39 +236,18 @@ Useful interventions include:
 - restoring sleep and physical stability;
 - rebuilding trustworthy relationships;
 - testing feared consequences in bounded steps;
-- making alternative actions visible;
-- assigning proper responsibility without humiliation;
+- making alternatives visible;
+- assigning responsibility without humiliation;
 - interrupting reinforcement loops;
-- restoring contact with prior values and memory.
+- reconnecting with prior values and memory.
 
-The expected progression is:
-
-```text
-recognition
-→ map correction
-→ accessible alternative
-→ small successful action
-→ reduced predicted threat
-→ wider action space
-→ restored agency
-```
+These are general systems observations, not individual treatment instructions.
 
 ---
 
 ## 9. Relationship to ambiguity dynamics
 
-Capture and ambiguity interact.
-
-A capturing system may preserve itself by keeping:
-
-- responsibility unclear;
-- definitions unstable;
-- the exit morally ambiguous;
-- the source of impulses uncertain;
-- the cost of leaving exaggerated;
-- the agent’s identity fused with competing frames.
-
-Using the ambiguity module:
+A capturing system may preserve itself through unstable definitions, unclear responsibility, exaggerated exit costs, uncertain attribution, and identity fusion.
 
 ```text
 high unresolved state volume
@@ -311,15 +256,15 @@ high unresolved state volume
 → stronger capture manoeuvrability
 ```
 
-Clarification reduces capture when it accurately contracts the false feasible region.
+Clarification helps only when it accurately contracts false routes. Humiliation, false certainty, or coercive confrontation may deepen threat-gating instead.
 
-Bad clarification can worsen capture when it humiliates the person, confirms threat expectations, or falsely collapses uncertainty.
+See `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`.
 
 ---
 
 ## 10. Applications
 
-This model may be applied carefully to:
+This model may be applied cautiously to:
 
 - coercive control;
 - abusive relationships;
@@ -341,74 +286,70 @@ It is not a substitute for clinical, legal, safeguarding, or domain-specific ass
 
 ## 11. Ontology boundary
 
-Two questions must remain separate:
+Keep separate:
 
 1. Is the person or system organised by a capture geometry?
-2. What is the root cause of that geometry?
+2. What caused that geometry?
 
-Possible causes include:
+Candidate causes include human coercion, trauma, addiction, incentives, cognitive bias, ideology, deliberate manipulation, emergent dynamics, metaphysical hypotheses, mixed causes, or unresolved causes.
 
-- human coercion;
-- cultural or ideological structure;
-- trauma;
-- addiction;
-- institutional incentive;
-- cognitive bias;
-- deliberate manipulation;
-- emergent system dynamics;
-- nonlocal or metaphysical agency;
-- mixed causes;
-- unresolved cause.
+Pattern fit does not independently prove an external intelligence.
 
-A strong pattern classification does not independently prove a separate external intelligence.
-
-Uncertainty about root ontology must not erase a clearly observed capture structure.
+Uncertainty about ultimate cause does not erase observable coercion, dependency, or action-map distortion.
 
 ---
 
 ## 12. Predictions
 
-The model predicts that deep capture will correlate with:
+Deep capture should correlate with:
 
-- large distortion between actual and perceived action sets;
+- larger difference between actual and perceived action sets;
 - high threat assigned to viable exits;
-- identity fusion with the controlling attractor;
+- stronger identity fusion;
 - increased defence when reflection is requested;
 - narrowing social and informational access;
-- greater practical agency after accurate map restoration;
+- improved practical agency after accurate map restoration;
 - basin weakening after successful low-cost exits;
 - relapse when dependency and reinforcement return.
 
-The model also predicts that argument alone will often fail when the primary barrier is threat-gating, material dependency, or body-state reinforcement rather than lack of information.
+Argument alone should often fail where the primary barrier is threat-gating, material dependency, or body-state reinforcement.
 
 ---
 
 ## 13. Falsifiers and limits
 
-This model is weakened if:
+The model is weakened if:
 
-- actual and perceived action sets cannot be meaningfully distinguished;
-- restored information does not improve practical agency where material constraints are controlled;
+- actual and perceived action sets cannot be distinguished;
+- independent raters cannot apply the variables reliably;
+- restored information does not improve practical access where material constraints are controlled;
 - threat-gating does not predict exit avoidance;
-- identity fusion does not correlate with defence of the attractor;
-- the model performs worse than simpler habit, incentive, or impairment accounts;
-- it is used only retrospectively and generates no testable intervention differences;
+- identity fusion does not correlate with attractor defence;
+- simpler habit, incentive, impairment, or social models perform better;
+- the model generates no testable intervention difference;
 - it becomes a label for anyone who disagrees.
 
 Do not diagnose capture from one unpopular belief.
 
 Do not erase ordinary disagreement, loyalty, faith, duty, or sacrifice by calling them capture.
 
-Do not assume low practical access means zero moral agency.
-
-Do not use accountability as a licence to deny coercion or impairment.
+Do not assume reduced accessibility means zero moral agency.
 
 ---
 
-## 14. Compressed rule
+## 14. Architecture route
+
+```text
+parent: constrained action space and attractor structure
+ambiguity support: docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md
+observer support: docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md
+formal support: docs/02_MKUFT_MATH_APPENDIX.md
+falsification: docs/05_FALSIFICATION_SUMMARY.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
+```
+
+## 15. Compressed rule
 
 > Freedom may remain structurally present while the map required to recognise and use it has been corrupted.
 
-And the recovery rule:
-
-> Restore the map, lower the false threat, reopen the route, then judge the action.
+> Restore the map, lower false threat, reopen the route, then assess the action.
