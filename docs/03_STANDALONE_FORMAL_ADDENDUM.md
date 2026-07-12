@@ -56,7 +56,9 @@ G = (N, E)
 Where:
 
 N = set of stable attractor states (nodes)
+
 E = set of admissible transitions (edges)
+
 
 Nodes correspond to symmetry-locked, coherence-stable solutions permitted by geometric constraint.
 
@@ -88,6 +90,7 @@ C[γ] = ∫_γ λ(x) ds
 Where:
 
 λ(x) = local coherence friction / gradient tension
+
 ds = differential path element along γ
 
 Interpretation:
@@ -241,3 +244,118 @@ MKUFT — Standalone Formal Addendum
 (Mathematical Formalisation & Falsification Expansion)
 
 It supersedes earlier short addenda and informal drafts while preserving the integrity and continuity of the original MKUFT core.
+
+
+---
+
+13. Silver Update Extension — Unresolved Regions
+
+The original graph `G = (N,E)` describes stable nodes and admissible transitions. The Silver Update adds a formal handle for cases where the active state, interpretation, role, or route is not yet resolved to one node.
+
+At time `t`, let `Ω_t` be the feasible region still compatible with available evidence and active constraints.
+
+Define ambiguity volume:
+
+A_t = log(1 + μ(Ω_t) / μ_0)
+
+where `μ_0` is a reference scale.
+
+Represent low-cost transitions within that unresolved region by weighted connectivity `R_t`, and let `X_t` represent preserved access, influence, extraction, or credibility during movement.
+
+The working manoeuvrability measure is:
+
+M_t = A_t × R_t × X_t
+
+This extends the graph formalism without replacing it:
+
+- resolved nodes describe states the system can hold;
+- `Ω_t` describes the unresolved feasible region around or between candidate states;
+- `R_t` describes movement through that region;
+- `X_t` describes whether the movement preserves access to the sustaining system or source.
+
+If `R_t` or `X_t` is negligible, high ambiguity alone does not imply high manoeuvrability.
+
+Full definitions and falsifiers are in:
+
+`21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`
+
+
+---
+
+14. Silver Update Extension — Layer Addressing
+
+A repeated structure must not be flattened across layers or fragmented into unrelated mechanisms.
+
+Let `K` be a candidate invariant and `L ∈ {S,I,P,O}` the active layer. Let `θ_L` contain layer-specific variables and constraints.
+
+The address relation is:
+
+K_L = A_L(K ; θ_L)
+
+This means one invariant may have different measurable expressions at different layer addresses.
+
+A valid address must specify:
+
+The invariant relation
+
+The active layer
+
+The variables that change
+
+The evidence required at that layer
+
+The coupling to other layers, if claimed
+
+The independent falsifier
+
+Full definitions are in:
+
+`22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
+
+
+---
+
+15. Silver Update Extension — Agency Accessibility
+
+For agents or systems with constrained practical choice, distinguish the actual action set `U_t` from the perceived or accessible action set.
+
+U_t^access = {u ∈ U_t : G_t(u ; T_t, H_t) > θ_access}
+
+where `T_t` represents perceived threat and `H_t` represents reinforcement history.
+
+A retained capacity may therefore remain structurally present while practical access is degraded.
+
+Agency_effective(t) = Agency_capacity × a_t
+
+with `a_t ∈ [0,1]` representing present accessibility.
+
+This is an operational distinction, not a complete moral, legal, or clinical equation.
+
+Full definitions, recovery mechanics, and ontology limits are in:
+
+`23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md`
+
+
+---
+
+16. Silver Update Integrity Rule
+
+The new variables are additions to the audit structure, not proof of any application ontology.
+
+A formal expression counts only when it:
+
+Improves discrimination
+
+Supports prediction
+
+States a null result
+
+Survives ordinary explanations
+
+Keeps layer evidence separate
+
+Can be revised or removed after failure
+
+The complete dependency and traversal architecture is in:
+
+`24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
