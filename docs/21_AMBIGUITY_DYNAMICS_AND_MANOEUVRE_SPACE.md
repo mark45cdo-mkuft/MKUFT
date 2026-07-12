@@ -9,15 +9,13 @@ Role: formalise ambiguity as a state-space property, distinguish open possibilit
 
 ## 1. Core claim
 
-Ambiguity is not only missing knowledge. In a dynamic system it can also be usable movement space.
+Ambiguity is not only missing knowledge. In a dynamic system it can also become usable movement space.
 
-A system has manoeuvre space when several states, meanings, identities, routes, or explanations remain admissible and the system can move between them without paying the full cost of contradiction or losing access to what sustains it.
-
-The public claim is therefore:
+A system has manoeuvre space when several states, meanings, identities, routes, or explanations remain admissible and it can move between them without paying the full cost of contradiction or losing access to what sustains it.
 
 > Ambiguity becomes manoeuvre space when unresolved state volume, low-cost route connectivity, and preserved access occur together.
 
-This is a general systems claim. It does not require a paranormal, religious, psychological, institutional, or adversarial ontology. Those are possible application domains, not assumptions built into the formalism.
+This is a general systems hypothesis. It does not require a paranormal, religious, psychological, institutional, or adversarial ontology.
 
 ---
 
@@ -26,28 +24,28 @@ This is a general systems claim. It does not require a paranormal, religious, ps
 At time `t`, let:
 
 - `E_t` = available evidence;
-- `C_t` = active constraints, including logic, memory, boundary conditions, values, prediction, measurement, and cross-layer agreement;
+- `C_t` = active constraints, including logic, memory, boundary conditions, prediction, measurement, and cross-layer agreement;
 - `Ω_t` = the feasible region of states, interpretations, identities, motives, or paths still compatible with `E_t` and `C_t`;
-- `μ(Ω_t)` = the effective measure or volume of that feasible region;
-- `μ_0` = a reference scale used to keep the ambiguity term dimensionless.
+- `μ(Ω_t)` = the effective measure of that feasible region;
+- `μ_0` = a reference scale.
 
-Define ambiguity volume:
+Define dimensionless ambiguity volume:
 
 ```text
-A_t = log(1 + μ(Ω_t) / μ_0)
+A_t^vol = log(1 + μ(Ω_t) / μ_0)
 ```
 
-This is a compact audit variable, not a claim that every relevant dimension is directly measurable in practice.
+`A_t^vol` is an audit variable, not a claim that every relevant dimension can already be measured directly.
 
-A large `A_t` means many states or paths remain unresolved. A small `A_t` means the feasible region has contracted.
+The superscript prevents confusion with the older path-objective term `A(γ,t)` used in some MKUFT documents for uncertainty along a candidate trajectory.
 
-Ambiguity by itself is not deceptive and is not automatically harmful. Scientific discovery, creativity, learning, and early-stage problem solving can all begin with high ambiguity.
+High ambiguity is not automatically harmful. Discovery, creativity, learning, diagnosis, and early problem-solving can all begin with a large feasible region.
 
 ---
 
 ## 3. Route connectivity
 
-Let the unresolved region be represented as a weighted transition graph:
+Represent the unresolved region as a weighted transition graph:
 
 ```text
 G_t = (V_t, E_t^G, w_t)
@@ -56,29 +54,28 @@ G_t = (V_t, E_t^G, w_t)
 where:
 
 - `V_t` represents unresolved states, frames, roles, meanings, or hypotheses;
-- `E_t^G` represents available transitions between them;
-- `w_t(i,j)` represents the cost of moving from state `i` to state `j`.
+- `E_t^G` represents available transitions;
+- `w_t(i,j)` represents transition cost.
 
-Define `R_t` as the weighted connectivity of low-cost transitions within the unresolved region.
+Let `R_t ∈ [0,1]` be a normalised score for the density and accessibility of low-cost transitions inside the unresolved region.
 
 High `R_t` means a system can shift role, frame, attribution, meaning, polarity, or explanation cheaply.
 
 Examples include:
 
-- literal claim → metaphor after failure;
+- literal claim → metaphor only after failure;
 - authority → victim when challenged;
-- benevolent role → threat role when access is denied;
-- external cause → internal projection when evidence tightens;
 - fixed definition → revised definition after contradiction;
-- prediction → unfalsifiable retrospective reinterpretation.
+- prediction → retrospective reinterpretation;
+- claim examination → attack on the examiner.
 
-The formal point is not that every frame change is dishonest. The test is whether the transition pays the proper explanatory and evidential cost.
+A frame change is not dishonest merely because it occurs. The question is whether the change pays the proper evidential and explanatory cost.
 
 ---
 
 ## 4. Preserved access
 
-Let `X_t` represent the degree to which movement between unresolved states preserves access to a sustaining source.
+Let `X_t ∈ [0,1]` be a normalised score for how well movement between unresolved states preserves access to a sustaining source.
 
 Depending on the domain, access may mean:
 
@@ -89,36 +86,29 @@ Depending on the domain, access may mean:
 - obedience;
 - funding;
 - institutional protection;
-- emotional dependency;
-- data access;
-- continued participation in a system;
-- contact with a host or audience.
+- dependency;
+- data or system access;
+- continued participation.
 
-A frame shift that loses all access has little manoeuvring value. A frame shift that preserves access while avoiding resolution has high manoeuvring value.
+A frame shift that destroys access has little manoeuvring value. A shift that avoids resolution while preserving access has high manoeuvring value.
 
 ---
 
-## 5. Manoeuvrability measure
+## 5. Manoeuvrability index
 
-The working measure is:
+The working index is:
 
 ```text
-M_t = A_t × R_t × X_t
+M_t = A_t^vol × R_t × X_t
 ```
 
-where:
+This is a dimensionless heuristic index. It is not yet a universal physical law.
 
-- `A_t` = unresolved state volume;
-- `R_t` = low-cost route connectivity;
-- `X_t` = preserved access or influence.
+It produces three useful distinctions:
 
-This yields three immediate results:
-
-1. High ambiguity with no cheap transitions is not strong manoeuvre terrain.
-2. Cheap frame-switching with no preserved access is unstable and short-lived.
+1. High ambiguity with few cheap transitions is not strong manoeuvre terrain.
+2. Cheap switching without preserved access is unstable.
 3. Preserved access with low ambiguity and low route connectivity is easier to specify, test, and bound.
-
-The useful target is therefore not ambiguity alone, but the product structure.
 
 ---
 
@@ -126,18 +116,16 @@ The useful target is therefore not ambiguity alone, but the product structure.
 
 A coherent agent, model, or system should remain recognisably itself under honest specification.
 
-Clarification may refine it, reveal limits, or force correction, but it should not destroy its identity merely by making its claims definite.
+Clarification may refine it or expose limits, but should not destroy its identity merely by making its claims definite.
 
-A derivative or exploitative pattern is more vulnerable to specification because fixing it into one stable state can make:
+An exploitative or derivative pattern is more vulnerable to specification because fixing it into a stable state can make:
 
 - contradiction attributable;
 - behaviour predictable;
 - boundaries enforceable;
 - failed predictions visible;
-- dependency on a source explicit;
-- extraction or access conditions measurable.
-
-The mechanism is therefore:
+- dependency explicit;
+- access conditions measurable.
 
 ```text
 specification
@@ -148,7 +136,7 @@ specification
 → lower preserved access
 ```
 
-That is why truth, memory, precise language, pre-registered prediction, firm boundary, and cross-layer consistency reduce exploitative manoeuvre space.
+Truth, memory, precise language, fixed definitions, pre-registered prediction, firm boundaries, and cross-layer consistency therefore reduce exploitative manoeuvre space.
 
 ---
 
@@ -156,34 +144,31 @@ That is why truth, memory, precise language, pre-registered prediction, firm bou
 
 Let `Q` represent sustained truthful inquiry.
 
-Generative ambiguity should normally contract as evidence and constraint accumulate:
+Generative ambiguity should normally become better specified:
 
 ```text
-dA/dQ < 0
+dA_t^vol/dQ < 0
 ```
 
-This does not mean every honest problem resolves quickly. It means good inquiry tends to produce better-defined uncertainty, narrower hypotheses, clearer boundaries, or explicit remaining unknowns.
+This does not require rapid resolution. Honest inquiry may leave uncertainty, but it should produce narrower hypotheses, clearer unknowns, or explicit boundaries.
 
-Adversarial or exploitative ambiguity tends to resist contraction or replenish itself when clarification threatens access:
+Exploitative ambiguity tends to resist contraction or replenish itself when clarification threatens access:
 
 ```text
-dA/dQ ≥ 0
+dA_t^vol/dQ ≥ 0
 ```
 
-Operational indicators include:
+Indicators include:
 
 - definitions change only after contradiction;
-- new variables are introduced without independent need;
+- new variables appear without independent need;
 - failed claims are reclassified after the fact;
-- role or polarity reverses when accountability approaches;
-- the examiner becomes the target instead of the claim;
+- role or polarity reverses near accountability;
 - evidence standards move asymmetrically;
 - access is sought through a replacement source when a boundary holds;
 - the unresolved region expands faster than inquiry closes it.
 
-Working discriminator:
-
-> An exploitative ambiguity pattern is indicated when ambiguity is not merely present, but is endogenously regenerated whenever clarification threatens access, extraction, control, or immunity from attribution.
+> An exploitative ambiguity pattern is indicated when ambiguity is endogenously regenerated whenever clarification threatens access, extraction, control, or immunity from attribution.
 
 ---
 
@@ -191,11 +176,11 @@ Working discriminator:
 
 ### S — Substrate
 
-`Ω_t` may be treated as a constrained possibility region rooted in the wider substrate space. This does not imply that every interpretation is physically real or equally weighted.
+`Ω_t` may be modelled as a constrained possibility region rooted in the wider substrate space. This does not imply that every interpretation is physically real or equally weighted.
 
 ### I — Information
 
-The main rotation usually occurs here. A physical event may remain fixed while the mapping from event to meaning, agency, explanation, or attribution changes:
+The main frame rotation often occurs here. A physical event may stay fixed while its assigned meaning, agency, explanation, or attribution changes.
 
 ```text
 P → I_1, I_2, I_3 ... → O
@@ -203,11 +188,11 @@ P → I_1, I_2, I_3 ... → O
 
 ### P — Physical
 
-Physical evidence, timing, bodies, instruments, records, consequences, and material constraints can sharply contract `Ω_t`.
+Records, timing, bodies, instruments, consequences, and material constraints contract the feasible region.
 
 ### O — Observer
 
-Attention, memory, fear, loyalty, expectation, identity, and interpretation affect which routes appear salient or admissible. Observer effects do not remove the need for evidence or physical constraint.
+Attention, memory, fear, loyalty, expectation, and identity affect which routes appear salient. Observer effects do not remove evidential or physical requirements.
 
 Cross-layer coherence propagates constraint through:
 
@@ -228,7 +213,7 @@ The same structure can be tested in:
 - propaganda and information operations;
 - institutional evasion;
 - coercive control;
-- fraud and confidence systems;
+- fraud;
 - addiction and self-justifying loops;
 - ideological capture;
 - anomaly interpretation;
@@ -236,35 +221,34 @@ The same structure can be tested in:
 - diagnostic uncertainty;
 - creative exploration.
 
-The ontology must be ranked separately in each case.
+Pattern classification and root ontology must remain separate.
 
-A visible manoeuvre pattern does not by itself establish whether the root cause is deliberate deception, emergent system behaviour, trauma, incentive structure, nonlocal agency, institutional design, cognitive bias, or a mixed cause.
+High manoeuvrability does not by itself establish intention, deception, or an external agent.
 
 ---
 
 ## 10. Predictions
 
-The model predicts that systems with high `M_t` should show more of the following:
+Systems with high `M_t` should show more:
 
 - repeated frame changes under pressure;
 - low penalty for contradiction;
-- delayed or avoided specification;
-- strong dependence on attention or source access;
-- migration when boundaries remain firm;
-- asymmetric demands for evidence;
-- identity instability tied to challenge;
-- ambiguity production increasing near accountability.
+- delayed specification;
+- dependence on source access;
+- migration when boundaries hold;
+- asymmetric evidence demands;
+- ambiguity production near accountability.
 
-It also predicts that the following interventions should reduce manoeuvrability:
+Interventions expected to reduce `M_t` include:
 
 - fixed definitions;
 - preserved records;
 - pre-registered predictions;
-- explicit boundary conditions;
+- explicit boundaries;
 - independent measurement;
 - cross-layer checking;
-- cost assignment for frame-switching;
-- separation of pattern classification from ontology claims.
+- assigned cost for frame-switching;
+- separation of pattern from ontology.
 
 ---
 
@@ -272,12 +256,12 @@ It also predicts that the following interventions should reduce manoeuvrability:
 
 This module is weakened if:
 
-- `A_t`, `R_t`, and `X_t` cannot be distinguished even conceptually in application;
-- honest and exploitative systems show no reliable difference under sustained inquiry;
+- `A_t^vol`, `R_t`, and `X_t` cannot be distinguished in application;
+- normalised scoring cannot be made reliable across independent raters;
+- honest and exploitative systems show no repeatable difference under inquiry;
 - ambiguity regeneration does not correlate with threatened access or attribution;
-- frame-switching carries the same cost in manipulative and non-manipulative systems;
-- the model only explains events retrospectively and cannot support pre-registered classification;
-- simpler incentive, error, or noise models explain the same cases more accurately.
+- the model works only retrospectively;
+- simpler incentive, error, uncertainty, or noise models perform better.
 
 Do not infer intention merely from high manoeuvrability.
 
@@ -285,14 +269,23 @@ Do not infer an external entity merely from a stable pattern.
 
 Do not treat unresolved science as deception because it remains unresolved.
 
-The formalism is useful only when it makes uncertainty cleaner, not when it becomes a machine for labelling disliked ambiguity as hostile.
+The formalism is useful only when it makes uncertainty cleaner.
 
 ---
 
-## 12. Compressed law
+## 12. Architecture route
+
+```text
+parent: substrate possibility and constrained traversal
+math support: docs/02_MKUFT_MATH_APPENDIX.md
+formal graph support: docs/03_STANDALONE_FORMAL_ADDENDUM.md
+agency application: docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md
+falsification: docs/05_FALSIFICATION_SUMMARY.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
+```
+
+## 13. Compressed law
 
 > Manoeuvrability = unresolved state volume × cheap frame-switching × preserved access.
 
-And the operational rule:
-
-> Generative ambiguity yields clearer structure under honest examination. Exploitative ambiguity must preserve or regenerate unresolved routes when clarification threatens its access.
+> Generative ambiguity yields clearer structure under honest examination. Exploitative ambiguity must preserve or regenerate unresolved routes when clarification threatens access.
