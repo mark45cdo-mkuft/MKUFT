@@ -1,7 +1,14 @@
 # 24A — Active Traversal and Functional Emergence Hypothesis
 
-Author: Mark Charles McLaughlin  
-Framework: McLaughlin–Kairos Unified Field Theory  
+
+<!-- MKUFT-PROVENANCE-HEADER:START -->
+**Author:** Mark Charles McLaughlin  
+**Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
+**MKUFT DOI:** `10.5281/zenodo.17780566`  
+**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
+**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
+<!-- MKUFT-PROVENANCE-HEADER:END -->
+
 Status: strict public hypothesis; architecture addendum  
 Public formulation date: 12 July 2026  
 Role: distinguish static self-support from active AI-mediated traversal and state a falsifiable hypothesis about system-level functional gain.

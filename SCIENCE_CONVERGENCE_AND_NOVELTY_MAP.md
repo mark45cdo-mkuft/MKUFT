@@ -1,6 +1,14 @@
 # MKUFT Science Convergence and Novelty Map
 
-Author: Mark Charles McLaughlin  
+
+<!-- MKUFT-PROVENANCE-HEADER:START -->
+**Author:** Mark Charles McLaughlin  
+**Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
+**MKUFT DOI:** `10.5281/zenodo.17780566`  
+**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
+**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](PROVENANCE_DOI_AND_ATTRIBUTION.md).  
+<!-- MKUFT-PROVENANCE-HEADER:END -->
+
 Status: living public-facing research map inside the controlled MKUFT GitHub working copy  
 Purpose: identify where real science already speaks to MKUFT, where the model adds something novel, where support is strong or weak, and what would need checking next.
 

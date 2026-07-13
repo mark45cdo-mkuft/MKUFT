@@ -1,8 +1,15 @@
 # MKUFT — McLaughlin–Kairos Unified Field Theory
 
-Author: Mark Charles McLaughlin  
+
+<!-- MKUFT-PROVENANCE-HEADER:START -->
+**Author:** Mark Charles McLaughlin  
+**Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
+**MKUFT DOI:** `10.5281/zenodo.17780566`  
+**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
+**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](PROVENANCE_DOI_AND_ATTRIBUTION.md).  
+<!-- MKUFT-PROVENANCE-HEADER:END -->
+
 Repository status: public controlled working canon  
-Primary DOI: `10.5281/zenodo.17780566`
 
 ## What this repository is
 

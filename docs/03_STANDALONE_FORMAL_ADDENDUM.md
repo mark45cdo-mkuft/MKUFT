@@ -1,8 +1,16 @@
 # MKUFT — Standalone Formal Addendum
 
+
+<!-- MKUFT-PROVENANCE-HEADER:START -->
+**Author:** Mark Charles McLaughlin  
+**Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
+**MKUFT DOI:** `10.5281/zenodo.17780566`  
+**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
+**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
+<!-- MKUFT-PROVENANCE-HEADER:END -->
+
 ## Mathematical Formalisation, Falsifiability, and Experimental Pathways
 
-Author: Mark Charles McLaughlin  
 Status: public formal addendum inside the controlled MKUFT GitHub working copy  
 Relationship to core: sharpens and operationalises the core without replacing the DOI-linked source work.
 

@@ -1,6 +1,14 @@
 # MKUFT Falsification Summary — Clean Working Copy
 
-Author: Mark Charles McLaughlin
+
+
+<!-- MKUFT-PROVENANCE-HEADER:START -->
+**Author:** Mark Charles McLaughlin  
+**Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
+**MKUFT DOI:** `10.5281/zenodo.17780566`  
+**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
+**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
+<!-- MKUFT-PROVENANCE-HEADER:END -->
 
 Status: public falsification and review-facing summary inside the controlled MKUFT GitHub working copy.
 
