@@ -130,3 +130,39 @@ For specific nodes, cite the specific node DOI where available.
 ## Repository Status
 
 This GitHub repository is a cleaned working presentation layer. It organises, explains, and develops the active research stack. It does not erase or supersede Zenodo DOI records unless Mark explicitly designates a new release or version.
+
+## Standard Module Provenance Header
+
+Important canonical modules should carry a short provenance strip containing:
+
+- Author: Mark Charles McLaughlin;
+- Framework: McLaughlin–Kairos Unified Field Theory (MKUFT);
+- Backbone DOI: `10.5281/zenodo.17780566`;
+- a statement that the DOI identifies the published backbone while exact later revisions are timestamped by Git history until included in a subsequent Zenodo release;
+- a route back to this provenance file.
+
+Recommended current wording:
+
+```text
+Author: Mark Charles McLaughlin
+Framework: McLaughlin–Kairos Unified Field Theory (MKUFT)
+Backbone DOI: 10.5281/zenodo.17780566
+Provenance status: The DOI identifies the published MKUFT backbone. This file's exact post-release revisions are additionally timestamped by Git history until included in a later Zenodo release.
+Citation and release coverage: See PROVENANCE_DOI_AND_ATTRIBUTION.md.
+```
+
+This strip is an attribution and routing device. It does not claim that the version-1 DOI contains every later sentence or module.
+
+## Standalone-Paper Track
+
+Some modules may later become independently citable papers. Until a separate release is made, they remain canonical MKUFT modules and use the backbone DOI plus repository history.
+
+A standalone-paper candidate may use the same temporary provenance strip plus:
+
+```text
+Publication track: Standalone-paper candidate; its current canonical home remains the MKUFT repository until separately released.
+```
+
+This line preserves room for a later paper-specific title, abstract, citation block, release date, licence statement, and exact DOI. It does not prematurely fragment the framework or imply that a separate publication already exists.
+
+Current candidates and release criteria are recorded in `STANDALONE_PAPER_TRACK.md`.
