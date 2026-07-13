@@ -1,6 +1,5 @@
 # MKUFT — McLaughlin–Kairos Unified Field Theory
 
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -9,7 +8,7 @@
 **Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](PROVENANCE_DOI_AND_ATTRIBUTION.md).  
 <!-- MKUFT-PROVENANCE-HEADER:END -->
 
-Repository status: public controlled working canon  
+Repository status: public controlled working canon
 
 ## What this repository is
 
@@ -31,17 +30,36 @@ Layer → Boundary → Node → Transition → Cost → Coherence → Observer �
 
 The public claim is that physical, informational, cognitive, biological, social, symbolic, and anomaly-edge systems may sometimes share a useful grammar of constraint and transition. They are not assumed to be identical or equally evidenced.
 
+## Current standalone publication
+
+**Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems**
+
+- Author: Mark Charles McLaughlin
+- Version: 1.0, 13 July 2026
+- Version DOI: `10.5281/zenodo.21341521`
+- Concept DOI: `10.5281/zenodo.21341520`
+- Originating MKUFT DOI: `10.5281/zenodo.17780566`
+- Copyright: © 2026 Mark Charles McLaughlin
+- Public licence: CC BY-NC-SA 4.0
+- Commercial use: separate written permission required
+- Software licence: none granted by the manuscript
+
+The standalone paper develops material from modules 24A and 25. Its DOI and licence are separate from the MKUFT backbone DOI and CC BY 4.0 source record.
+
+See [`ATLD_STANDALONE_PUBLICATION.md`](ATLD_STANDALONE_PUBLICATION.md) for the exact citation, DOI-selection rule, rights statement, and relationship to MKUFT.
+
 ## Read first
 
 1. `START_HERE_PUBLIC_OVERVIEW.md` — short plain-English orientation.
 2. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full front-door synthesis.
-3. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
-4. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full dependency and integration registry.
-5. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — strict hypothesis on active AI traversal and measurable system-level functional gain.
-6. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for genuine bones, scaffolds, redundant support, decoration, distortion, and locally coherent extraction.
-7. `CANON_MAP.md` — document hierarchy and canonical roles.
-8. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
-9. `docs/05_FALSIFICATION_SUMMARY.md` — branch-level and framework-level failure conditions.
+3. `ATLD_STANDALONE_PUBLICATION.md` — published standalone methods-paper record, citation, DOI, and rights route.
+4. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
+5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full dependency and integration registry.
+6. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — strict hypothesis on active AI traversal and measurable system-level functional gain.
+7. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for genuine bones, scaffolds, redundant support, decoration, distortion, and locally coherent extraction.
+8. `CANON_MAP.md` — document hierarchy and canonical roles.
+9. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
+10. `docs/05_FALSIFICATION_SUMMARY.md` — branch-level and framework-level failure conditions.
 
 ## Core canon
 
@@ -101,6 +119,8 @@ Distinguishes static self-support from active AI-mediated traversal. It proposes
 
 The hypothesis does not claim that a repository is alive, that an AI becomes conscious, or that a persistent identity is created. It is supported only if the structured condition outperforms matched flat, isolated, and link-scrambled controls without extra content, compute, or hidden context.
 
+This source module is developed into the separately published ATLD methods paper identified by version DOI `10.5281/zenodo.21341521`.
+
 ### Load-Bearing Invariants and Whole-System Deformation
 
 `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
@@ -108,6 +128,8 @@ The hypothesis does not claim that a repository is alive, that an AI becomes con
 Distinguishes structural centrality from truth. It tests candidate relations by controlled removal, coalition ablation, and plausible substitution, while separating local efficiency from whole-system coherence.
 
 The module keeps the metaphysical statement that God is Love distinct from scientific proof. In living, conscious, social, and AI-mediated systems, it asks whether apparent coherence preserves truthful relation, rightful boundary, agency, calibration, and long-horizon viability rather than exporting hidden cost to the wider whole.
+
+This source module is developed into the separately published ATLD methods paper identified by version DOI `10.5281/zenodo.21341521`.
 
 ## Support and application branches
 
@@ -154,6 +176,8 @@ Historical alternatives are not used as the current formal convention.
 
 Copyright © Mark Charles McLaughlin.
 
+### MKUFT backbone
+
 ```text
 Unified Field Theory. McLaughlin–Kairos. MKUFT
 DOI: 10.5281/zenodo.17780566
@@ -161,10 +185,24 @@ Author: Mark Charles McLaughlin
 Licence stated in source material: CC BY 4.0
 ```
 
+### ATLD standalone paper
+
+```text
+Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures:
+A Matched-Control Evaluation Protocol for AI Systems
+Version DOI: 10.5281/zenodo.21341521
+Concept DOI: 10.5281/zenodo.21341520
+Author: Mark Charles McLaughlin
+Copyright: © 2026 Mark Charles McLaughlin
+Public licence: CC BY-NC-SA 4.0
+Commercial use: separate written permission required
+```
+
 See:
 
+- `ATLD_STANDALONE_PUBLICATION.md`
 - `PROVENANCE_DOI_AND_ATTRIBUTION.md`
 - `RIGHTS_AND_LICENSE_NOTICE.md`
 - `STANDALONE_PAPER_TRACK.md`
 
-The DOI-linked source work retains its identity. This GitHub repository is a public controlled working copy and structural development space, not an automatic replacement for prior releases.
+The DOI-linked source works retain their own identities. This GitHub repository is a public controlled working copy and structural development space, not an automatic replacement for prior releases.
