@@ -106,9 +106,12 @@ MKUFT does not say that:
 - quantum mechanics permits anything;
 - symbolic resemblance is scientific evidence;
 - an anomaly proves its preferred ontology;
-- a mathematical expression proves the process it describes.
+- a mathematical expression proves the process it describes;
+- a relation is true merely because the wider model depends upon it;
+- local efficiency automatically establishes whole-system coherence;
+- metaphysical meaning can substitute for evidence at another layer.
 
-## The Silver Update
+## The Silver Update and post-Silver architecture
 
 The Silver Update makes several previously implicit structures explicit.
 
@@ -156,6 +159,29 @@ This is not a diagnostic score.
 
 That is the self-supporting architecture of the public stack.
 
+### Active traversal
+
+`docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` asks whether an active AI recursively traversing a typed corpus can produce measurable functional gain over the same material presented as flat, isolated, or semantically scrambled documents.
+
+The hypothesis is supported only where content, retrieval, context, compute, prompting, and evaluation are matched. Functional gain does not establish consciousness, personhood, independent agency, or continuous identity.
+
+### Load-bearing invariants and whole-system deformation
+
+`docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` asks a harder question:
+
+> Which relations are genuine bones, and which are merely central assumptions, redundant supports, decorative links, distortions, or locally efficient forms of extraction?
+
+A relation is not established as true merely because removing it damages the model. The module separates:
+
+- structural load;
+- reality or empirical load;
+- generative load;
+- whole-system integrity load.
+
+It uses single-relation ablation, coalition ablation, and plausible counterfactual substitution. It also distinguishes local coherence from whole-system coherence. A subsystem may be efficient while exporting cost, disorder, agency loss, or delayed fragility to the larger system.
+
+Within MKUFT's metaphysical interpretation, God is Love. Love is treated as a unity-principle that does not erase distinction or secure order through capture. Coherence is Love's structural partner. This metaphysical orientation is not inserted into physical equations as an unmeasured force and does not replace evidence at the active layer.
+
 ## Main mathematical handles
 
 Substrate as possibility space:
@@ -184,6 +210,12 @@ G = (N,E)
 C[γ] = ∫_γ λ(x) ds
 ```
 
+Relation-level deformation scaffold:
+
+```text
+D(r) = [ΔR, ΔC, ΔP, ΔK, ΔA, ΔW]
+```
+
 These are theoretical handles. They require operational definitions and do not count as evidence merely because they are writable.
 
 ## How it relates to science
@@ -199,6 +231,8 @@ The nearest comparison fields include:
 - morphogenesis and biological control;
 - predictive processing and cognition;
 - graph and path models;
+- causal and ablation analysis;
+- knowledge graphs and active retrieval;
 - falsifiable research-programme design.
 
 Similarity is not identity. The `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` tracks where the relationship is strong, weak, speculative, or in need of testing.
@@ -210,9 +244,11 @@ Similarity is not identity. The `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` tracks 
 3. `MKUFT_INTEGRATED_MASTER_SPINE.md`
 4. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md`
 5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
-6. `CANON_MAP.md`
-7. the relevant technical or application module
-8. `docs/05_FALSIFICATION_SUMMARY.md`
+6. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
+7. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
+8. `CANON_MAP.md`
+9. the relevant technical or application module
+10. `docs/05_FALSIFICATION_SUMMARY.md`
 
 Technical readers should then use:
 
@@ -232,6 +268,8 @@ Its value depends on whether it can:
 - make predictions sharper than loose metaphor;
 - preserve layer discipline;
 - recover ordinary explanations and physics;
+- distinguish structural centrality from truth;
+- distinguish local efficiency from whole-system coherence;
 - record failed branches honestly;
 - remain reconstructable from several entry points without changing meaning.
 
