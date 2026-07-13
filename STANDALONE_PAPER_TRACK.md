@@ -1,7 +1,5 @@
 # MKUFT Standalone-Paper Track
 
-
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -12,7 +10,35 @@
 
 ## Purpose
 
-This file records modules that may justify separate paper treatment later. It does not assign a new DOI prematurely and does not remove any module from the MKUFT canon.
+This file records both published standalone papers derived from the MKUFT canon and modules that may justify separate paper treatment later.
+
+A standalone DOI supplements the MKUFT DOI. It does not remove the source modules from the MKUFT canon or obscure Mark Charles McLaughlin's authorship and revision history.
+
+## Published standalone papers
+
+### Active Traversal and Load-Bearing Dependency
+
+**Title:** *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*  
+**Author:** Mark Charles McLaughlin  
+**Version:** 1.0  
+**Publication date:** 13 July 2026  
+**Version DOI:** `10.5281/zenodo.21341521`  
+**Concept DOI:** `10.5281/zenodo.21341520`  
+**Originating MKUFT DOI:** `10.5281/zenodo.17780566`  
+**Public licence:** CC BY-NC-SA 4.0  
+**Commercial use:** separate written permission required  
+**Software licence:** none granted by the manuscript
+
+Source modules:
+
+- `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
+- `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
+
+Full publication and rights route: `ATLD_STANDALONE_PUBLICATION.md`.
+
+The exact v1.0 paper should be cited using DOI `10.5281/zenodo.21341521`. The concept DOI `10.5281/zenodo.21341520` identifies the continuing publication across versions.
+
+## Current standalone candidates
 
 Until separately released, each candidate remains:
 
@@ -21,15 +47,15 @@ Until separately released, each candidate remains:
 - visibly linked to the MKUFT DOI;
 - exactly timestamped at revision level by Git history.
 
-## Primary standalone candidates
+### Primary candidates
 
 1. `docs/09_VOYNICH_PROCEDURAL_ENGINE.md` — applied procedural-structure hypothesis.
 2. `docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md` — physics-facing geometry and boundary hypothesis.
 3. `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` — formal ambiguity and manoeuvre-space model.
 4. `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md` — layer-addressing and invariant-preservation method.
 5. `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` — agency-access systems model.
-6. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — active traversal and matched-control functional emergence hypothesis.
-7. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation and whole-system coherence assay.
+
+Modules 24A and 25 are no longer listed as merely awaiting standalone treatment. Their combined method has been published as the ATLD standalone paper above.
 
 ## Secondary review candidates
 
@@ -41,7 +67,7 @@ These require later review for novelty, evidence maturity, independent scope, an
 
 ## Header rule
 
-Standalone-paper candidates carry the same visible MKUFT DOI header as the rest of the important canon:
+Unpublished standalone-paper candidates carry the same visible MKUFT DOI header as the rest of the important canon:
 
 ```text
 Author: Mark Charles McLaughlin
@@ -51,9 +77,9 @@ Provenance: This module is part of the public MKUFT canon. Exact revisions are t
 Citation: See PROVENANCE_DOI_AND_ATTRIBUTION.md.
 ```
 
-Candidate status is recorded here rather than announced in the module header. The header should not say that the module is awaiting a DOI or suggest that it sits outside the existing MKUFT provenance chain.
+Candidate status is recorded here rather than announced in the module header. The header should not say that a module is awaiting a DOI or suggest that it sits outside the existing MKUFT provenance chain.
 
-This keeps provenance strong and simple at the point of entry while preserving room for a later paper-specific title, abstract, citation block, licence statement, release date, and exact standalone DOI.
+Once a standalone paper is published, the repository should record its exact title, DOI or DOIs, publication date, licence, citation route, and source-module relationship without replacing the originating MKUFT header.
 
 ## Release rule
 
