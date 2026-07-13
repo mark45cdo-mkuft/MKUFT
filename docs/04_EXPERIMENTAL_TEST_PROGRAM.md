@@ -16,7 +16,7 @@ Status: public empirical and falsification spine inside the controlled MKUFT Git
 
 This document outlines experimental pathways that could test, constrain, or reject specific MKUFT claims.
 
-The experiments are proposals, not reports of established effects. Each protocol must use appropriate ethics review, power analysis, pre-registration, blinding, control conditions, multiple-comparison correction, and publication of null results.
+Some underlying phenomena are already observed or routinely measurable. These protocols do not treat their existence as confirmation of MKUFT; they test whether the specific MKUFT variables, dependencies, and predicted interventions add reproducible explanatory or predictive value beyond matched ordinary models. The framework-specific experiments remain proposals, not reports that those hypotheses have already passed. Each protocol must use appropriate ethics review, power analysis, pre-registration, blinding, control conditions, multiple-comparison correction, and publication of null results.
 
 Current layer convention:
 
