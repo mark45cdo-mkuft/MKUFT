@@ -158,5 +158,6 @@ See:
 
 - `PROVENANCE_DOI_AND_ATTRIBUTION.md`
 - `RIGHTS_AND_LICENSE_NOTICE.md`
+- `STANDALONE_PAPER_TRACK.md`
 
 The DOI-linked source work retains its identity. This GitHub repository is a public controlled working copy and structural development space, not an automatic replacement for prior releases.
