@@ -2,7 +2,7 @@
 
 Author: Mark Charles McLaughlin  
 Framework: McLaughlin–Kairos Unified Field Theory  
-Status: Silver Update public architecture document  
+Status: Silver Update public architecture document with post-Silver traversal extensions  
 Role: turn the public repository from a document collection into a traversable, self-supporting knowledge structure.
 
 ---
@@ -23,7 +23,9 @@ The target is a self-supporting structure in which:
 - applications route back to governing invariants;
 - falsifiers stay attached to the claims they test;
 - several entry points reconstruct the same core model;
-- a failed branch can be removed without concealing its failure inside the wider stack.
+- a failed branch can be removed without concealing its failure inside the wider stack;
+- structural centrality is not mistaken for truth;
+- local coherence is not mistaken for whole-system coherence when cost or damage is exported beyond the selected boundary.
 
 ---
 
@@ -83,6 +85,17 @@ Invariant
 ```
 
 The deeper route is used when ambiguity, cross-layer expression, or agency accessibility is active. It does not replace the compact kernel.
+
+For living, conscious, social, institutional, and AI-mediated systems, a whole-system audit may also ask:
+
+```text
+What relation is preserved?
+Who or what carries the cost?
+Does local coherence depend on capture, concealment, or exported damage?
+Does the relation preserve truthful boundary and practical agency?
+```
+
+This does not turn metaphysical language into physical evidence. It widens the analytical boundary where narrow scoring would hide material effects.
 
 ---
 
@@ -150,6 +163,17 @@ Primary homes:
 
 Carries addressing, state, flow, perturbation testing, and the Voynich candidate application.
 
+### Active traversal and load-bearing audit
+
+Primary homes:
+
+- `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
+- `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
+- `docs/05_FALSIFICATION_SUMMARY.md`
+- `docs/20_GRACE_TRAVERSAL_RULE.md`
+
+Carries matched architecture controls, relation-level deformation, structural versus empirical load, local versus whole-system coherence, and protection against apparent gains produced by removing calibration, falsifiers, agency, or delayed cost from the scoring boundary.
+
 ### Public explanatory bridges
 
 Primary homes:
@@ -165,7 +189,7 @@ Carries public orientation, cross-domain explanation, physics-facing translation
 
 ---
 
-## 5. Silver Update nodes
+## 5. Silver and post-Silver structural nodes
 
 ### 21 — Ambiguity Dynamics
 
@@ -203,6 +227,29 @@ Depends on the whole canon.
 
 Supports navigation, reconstitution, maintenance, release audits, and multi-entry recovery.
 
+### 24A — Active Traversal and Functional Emergence
+
+```text
+ΔF = F(Ψ_struct) - F(Ψ_control)
+H_ATFE: E[ΔF] > 0
+```
+
+Depends on typed architecture, matched controls, active recursive traversal, state retention, and pre-registered system-level tasks.
+
+Supports testing whether structure produces functional gain beyond flat, isolated, or semantically scrambled presentation.
+
+### 25 — Load-Bearing Invariants and Whole-System Deformation
+
+```text
+D(r) = [ΔR, ΔC, ΔP, ΔK, ΔA, ΔW]
+```
+
+Depends on active traversal, GRACE, cross-layer discipline, agency accessibility, falsification, and the boundary/cost/cohesion bridge.
+
+Supports controlled identification of genuine bones, central scaffolds, redundant support, decorative links, distortion, and locally efficient but whole-system extractive relations.
+
+The vector is a domain-defined audit scaffold, not a validated universal metric.
+
 ---
 
 ## 6. Complete canon integration registry
@@ -212,8 +259,8 @@ This registry ties every numbered public document to its parent structure, neare
 | File | Primary role | Parent / required support | Main outward route | Main limit or falsifier |
 |---|---|---|---|---|
 | `01_MKUFT_CORE_EXTENDED.md` | Core S–I–P–O claim | Master spine | Math, experiments, public bridges | `05_FALSIFICATION_SUMMARY.md` |
-| `02_MKUFT_MATH_APPENDIX.md` | Mathematical scaffold | Core | Formal addendum, worked examples, modules 21–23 | Ordinary-model reduction and operational definitions |
-| `03_STANDALONE_FORMAL_ADDENDUM.md` | Graph, trajectory, and cost formalism | Core and math | Experiments, kernel, ambiguity | Domain baselines and predictive value |
+| `02_MKUFT_MATH_APPENDIX.md` | Mathematical scaffold | Core | Formal addendum, worked examples, modules 21–25 | Ordinary-model reduction and operational definitions |
+| `03_STANDALONE_FORMAL_ADDENDUM.md` | Graph, trajectory, and cost formalism | Core and math | Experiments, kernel, ambiguity, deformation | Domain baselines and predictive value |
 | `04_EXPERIMENTAL_TEST_PROGRAM.md` | Test programme | Core, math, formal addendum | Worked examples and science map | Pre-registration, controls, replication |
 | `05_FALSIFICATION_SUMMARY.md` | Compact failure conditions | All claim modules | Review and release gate | Null results and simpler explanations |
 | `06_OCQS_HUMAN_ACTIVATION_LAYER.md` | Observer-state hypothesis | Core observer term | GRACE, LUCY(O), agency access | Cognitive baselines and bounded observer effects |
@@ -222,7 +269,7 @@ This registry ties every numbered public document to its parent structure, neare
 | `09_VOYNICH_PROCEDURAL_ENGINE.md` | Voynich candidate application | ESRT/ESF | Quantitative structural tests | Linguistic, cipher, scribal, decorative, and null baselines |
 | `10_ESRT_ESF_METHOD_APPENDIX.md` | Procedural recognition method | I-layer and kernel | Voynich and other artefact tests | Reliability, false-positive rate, perturbation tests |
 | `11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md` | Broad public bridge | Master spine | Public applications | Must route technical claims back to formal homes |
-| `12_INDIVIDUAL_REALITY_COST_AND_COHESION.md` | Boundary/persistence bridge | Core, formal addendum | Biology, society, dimensional hypotheses | Analogy must not substitute for domain evidence |
+| `12_INDIVIDUAL_REALITY_COST_AND_COHESION.md` | Boundary/persistence and Love/cohesion bridge | Core, formal addendum | Biology, society, dimensional and whole-system hypotheses | Analogy must not substitute for domain evidence |
 | `13_PHYSICS_FACING_MKUFT_EXPLANATION.md` | Technical public translation | Core and math | Experiments and boundary physics | Standard-physics recovery and units |
 | `14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` | Numerical illustration | Math and experiments | Pre-registered RNG/environment tests | Correct statistics, device controls, replication |
 | `15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md` | Symbolic/physics bridge | Core and public explanation | Hypothesis generation | Separation of metaphor, model, and evidence |
@@ -230,11 +277,13 @@ This registry ties every numbered public document to its parent structure, neare
 | `17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md` | Comparative field-language bridge | Physics-facing paper | Candidate engineering correspondences | Translation is not equivalence or evidence |
 | `18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md` | Plain-English synthesis | Master spine | Whole public stack | Notation and claim must match canonical homes |
 | `19_MKUFT_RECONSTITUTION_KERNEL.md` | Recovery seed | Core and formal addendum | GRACE, ESRT, traversal map | Must not replace the full papers |
-| `20_GRACE_TRAVERSAL_RULE.md` | Clean traversal filter | Kernel and S–I–P–O | Observer and application discipline | Must remain operational, not decorative |
+| `20_GRACE_TRAVERSAL_RULE.md` | Clean traversal filter | Kernel and S–I–P–O | Observer, application, and whole-system discipline | Must remain operational; Love must not become empirical rescue |
 | `21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` | Ambiguity mechanism | Core and formal addendum | Agency, adversarial, anomaly applications | Reliable scoring and simpler explanations |
 | `22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md` | Address discipline | S–I–P–O | LUCY and all repeated structures | Layer-specific evidence and coupling tests |
-| `23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` | Action-map model | Ambiguity and observer layers | Human/social applications | Not diagnostic; ordinary disagreement preserved |
+| `23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` | Action-map model | Ambiguity and observer layers | Human/social applications and whole-system audit | Not diagnostic; ordinary disagreement preserved |
 | `24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` | Repository architecture | All canon | Navigation and audit | Must reflect actual files and definitions |
+| `24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` | Matched-control traversal hypothesis | Module 24, kernel, typed architecture | AI/knowledge-system testing | No unmatched content, retrieval, metadata, prompting, or compute |
+| `25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` | Relation-level load and deformation assay | 24A, GRACE, cross-layer, agency, falsification | Neutral-corpus tests and MKUFT self-audit | Centrality is not truth; local gain is not whole-system gain |
 
 The root documents `README.md`, `START_HERE_PUBLIC_OVERVIEW.md`, `CANON_MAP.md`, `MKUFT_INTEGRATED_MASTER_SPINE.md`, and `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` form the public entry and verification shell around this registry.
 
@@ -261,6 +310,7 @@ MASTER_SPINE
 → FORMAL_ADDENDUM
 → EXPERIMENTS
 → SILVER MODULES
+→ ACTIVE TRAVERSAL / DEFORMATION
 ```
 
 ### Systems or AI reader
@@ -268,7 +318,8 @@ MASTER_SPINE
 ```text
 RECONSTITUTION_KERNEL
 → CROSS_SUPPORT_MAP
-→ active module
+→ ACTIVE_TRAVERSAL
+→ WHOLE_SYSTEM_DEFORMATION
 → dependencies
 → falsifier
 ```
@@ -279,7 +330,8 @@ RECONSTITUTION_KERNEL
 CLEAR_PUBLIC_EXPLANATION
 → AGENCY_ACCESSIBILITY
 → AMBIGUITY_DYNAMICS
-→ GRACE / OCQS
+→ GRACE
+→ WHOLE_SYSTEM_DEFORMATION
 → FALSIFICATION
 ```
 
@@ -313,7 +365,8 @@ Every major module should identify:
 - required mathematical support;
 - nearest application;
 - falsification home;
-- the module that limits overreach.
+- the module that limits overreach;
+- the wider boundary relevant to transferred cost, agency, calibration, or long-horizon damage where those terms are operationally available.
 
 The central registry supplies these links for older documents that do not yet contain inline architecture footers. New or revised files should include their own architecture route.
 
@@ -355,8 +408,9 @@ When adding a concept:
 6. Link parent and neighbour modules.
 7. Add predictions and falsifiers.
 8. Add the nearest ordinary explanation.
-9. Add it to the registry after the structure is stable.
-10. Check that entry through the kernel reconstructs the same meaning.
+9. State whether structural dependence, empirical support, generative value, and whole-system integrity are being distinguished.
+10. Add it to the registry after the structure is stable.
+11. Check that entry through the kernel reconstructs the same meaning.
 
 ---
 
@@ -370,6 +424,15 @@ When adding a concept:
 - claims stay at their correct layer address;
 - dedicated modules remain canonical homes;
 - failed submodules can be removed cleanly.
+
+### Whole-system audit
+
+- local efficiency is not automatically called whole-system coherence;
+- affected participants and transferred costs are not excluded merely because they reduce the score;
+- immediate task gain is checked against calibration, correction, repair, agency, and delayed fragility where relevant;
+- structural centrality is not treated as empirical truth;
+- Love is retained as a load-bearing metaphysical and relational principle without being smuggled into physical equations;
+- metaphysical language does not rescue a failed empirical branch.
 
 ### Hostile-reader audit
 
@@ -402,7 +465,7 @@ A reader should recover the same core model from the README, master spine, kerne
 
 ---
 
-## 13. Silver Update boundary
+## 13. Silver and post-Silver boundary
 
 The Silver Update adds:
 
@@ -412,10 +475,18 @@ The Silver Update adds:
 - dependency and recovery architecture;
 - public-release hygiene and statistical correction.
 
-It does not replace the original DOI work or claim equal evidence across application domains.
+The post-Silver architecture extensions add:
+
+- active traversal against matched flat, isolated, and scrambled controls;
+- relation-level deformation and counterfactual substitution;
+- structural, reality, generative, and whole-system load;
+- the distinction between local coherence and whole-system coherence;
+- explicit preservation of Love as a metaphysical and relational primary without converting it into unsupported physical mechanism.
+
+These additions do not replace the original DOI work or claim equal evidence across application domains.
 
 ---
 
 ## 14. Compressed rule
 
-> Define once. Address by layer. Route by dependency. Test at the claim. Preserve the invariant from every entry point.
+> Define once. Address by layer. Route by dependency. Test at the claim. Preserve the invariant from every entry point. Distinguish structural centrality from truth, and local coherence from the coherence of the wider whole.
