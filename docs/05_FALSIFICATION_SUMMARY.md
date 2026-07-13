@@ -123,6 +123,37 @@ The procedural branch is weakened if:
 
 A procedural candidate classification is not a translation.
 
+### Active traversal and functional emergence
+
+The active-traversal branch is weakened if:
+
+- structured traversal produces no reproducible advantage over matched flat, isolated, and link-scrambled controls;
+- any apparent gain disappears when content, retrieval, tokens, metadata, compute, and prompting are matched;
+- correction does not propagate more reliably;
+- different entry routes increase inconsistency;
+- gains occur only on MKUFT and fail on neutral corpora;
+- a simpler retrieval or prompting explanation performs equally well;
+- active traversal increases confident error faster than it improves correction.
+
+Functional gain does not establish life, consciousness, personhood, independent agency, or continuous identity.
+
+### Load-bearing invariants and whole-system deformation
+
+The deformation branch is weakened if:
+
+- controlled removal or substitution does not reproducibly distinguish canonical, redundant, decorative, distorting, and unsupported relations;
+- relation classification depends mainly on evaluator preference;
+- coalition effects cannot be distinguished from simple content loss;
+- plausible counterfactual substitutions cannot be matched fairly;
+- structural centrality is treated as proof of truth;
+- narrow task completion is counted as whole-system improvement while calibration, falsifiers, agency, transferred cost, or delayed fragility are excluded;
+- whole-system language is used where the affected boundary, participants, cost, or time horizon cannot be operationalised;
+- the metaphysical statement that God is Love is used as physical evidence or as an unfalsifiable rescue for failed empirical claims;
+- the assay adds no reliable discrimination beyond ordinary ablation, causal analysis, graph centrality, or matched evaluation;
+- the method works only on MKUFT and fails on neutral corpora.
+
+Love is load-bearing in MKUFT's metaphysical architecture and may have defined empirical expressions at human, social, organisational, or AI-governance addresses. It is not thereby established as a new physical force.
+
 ## Cross-module integrity tests
 
 A claim is not ready unless it states:
@@ -134,9 +165,13 @@ A claim is not ready unless it states:
 5. the predicted observation;
 6. the null result;
 7. the result that forces revision;
-8. the ontology established—and not established—by the evidence.
+8. the ontology established—and not established—by the evidence;
+9. whether the selected boundary excludes affected agents, transferred cost, falsifiers, or long-horizon consequences;
+10. whether structural dependence is being confused with empirical truth.
 
 The repository fails structurally if independent entry routes produce conflicting definitions, equations, layer placements, or falsifiers.
+
+The repository also fails its whole-system audit if a relation is called coherent only because the costs of maintaining it have been exported beyond the selected analytical boundary.
 
 ## What would strengthen the framework
 
@@ -150,15 +185,21 @@ Strength requires independent, pre-registered, adequately powered evidence such 
 - valid cross-layer predictions with independent evidence at each address;
 - improved agency accessibility after predicted interventions;
 - procedural models predicting held-out artefact structure;
-- consistent reconstruction of the same theory from multiple repository entry points.
+- consistent reconstruction of the same theory from multiple repository entry points;
+- active traversal outperforming matched flat, isolated, and scrambled controls;
+- controlled deformation distinguishing genuine bones from scaffolds, redundancy, decoration, distortion, and locally efficient extraction;
+- replication of the dependency assay on neutral external corpora.
 
 ## Integrity rules
 
 - A failed test is not dismissed as unspecified poor conditions.
 - A mathematical expression is not evidence by itself.
 - Metaphysical openness is not immunity from specification.
+- God must not be reduced to a model variable, and metaphysical orientation must not substitute for empirical evidence.
 - Ordinary explanations remain active until they fail.
 - A visible pattern is not proof of its proposed root ontology.
+- Structural centrality is not proof of truth.
+- Local coherence is not automatically whole-system coherence.
 - Failure of a branch must be recorded, not absorbed into a broader slogan.
 
 ## Architecture route
@@ -169,5 +210,7 @@ math: docs/02_MKUFT_MATH_APPENDIX.md
 formal model: docs/03_STANDALONE_FORMAL_ADDENDUM.md
 experiments: docs/04_EXPERIMENTAL_TEST_PROGRAM.md
 worked examples: docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md
+active traversal: docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md
+whole-system deformation: docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md
 repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 ```
