@@ -14,10 +14,11 @@ Read in this order for orientation:
 4. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
 5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — complete dependency and integration registry.
 6. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — strict post-Silver architecture hypothesis.
-7. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — comparison with existing research, risks, and next checks.
-8. `PROVENANCE_DOI_AND_ATTRIBUTION.md` — provenance, DOI, licence, and citation.
+7. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for structural, empirical, generative, and whole-system load.
+8. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — comparison with existing research, risks, and next checks.
+9. `PROVENANCE_DOI_AND_ATTRIBUTION.md` — provenance, DOI, licence, and citation.
 
-The canon map shows hierarchy. Module 24 shows how the files support, limit, and reconstruct one another. Module 24A tests whether active traversal of that structure produces measurable functional gain beyond matched flat and scrambled controls.
+The canon map shows hierarchy. Module 24 shows how the files support, limit, and reconstruct one another. Module 24A tests whether active traversal of that structure produces measurable functional gain beyond matched flat and scrambled controls. Module 25 asks which particular dependencies carry genuine load and whether apparent local coherence survives a wider whole-system audit.
 
 ## Core canon
 
@@ -81,7 +82,7 @@ Layer → Boundary → Node → Transition → Cost → Coherence → Observer �
 
 File: `docs/20_GRACE_TRAVERSAL_RULE.md`
 
-Role: geometry, relation, admissibility, coherence, and emergence as a clean traversal filter.
+Role: geometry, relation, admissibility, coherence, and emergence as a clean traversal filter. In conscious and living systems, Relation is further constrained by truthful recognition, rightful boundary, agency preservation, and non-capture.
 
 ## Boundary and physical support
 
@@ -137,7 +138,7 @@ Role: broad public bridge across physics, information, observer, symbolism, and 
 
 File: `docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md`
 
-Role: explanatory bridge around boundary maintenance, persistence, cohesion, and dimensional hypotheses.
+Role: explanatory bridge around boundary maintenance, persistence, cohesion, dimensional hypotheses, and Love as low-cost human cohesion that preserves individuality.
 
 ### 18. Physics-Facing MKUFT Explanation
 
@@ -220,6 +221,20 @@ Role: distinguish static self-support from active AI-mediated traversal and test
 
 Status boundary: functional emergence does not establish life, consciousness, personhood, independent agency, or continuous identity. The claim fails if the advantage is explained by extra content, tokens, compute, metadata, or prompting.
 
+### 25. Load-Bearing Invariants and Whole-System Deformation
+
+File: `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
+
+Canonical handle:
+
+```text
+D(r) = [ΔR, ΔC, ΔP, ΔK, ΔA, ΔW]
+```
+
+Role: distinguish genuine bones from central but unsupported scaffolds, redundant support networks, decorative links, distorting relations, and locally efficient but extractive relations.
+
+The module separates structural, reality, generative, and whole-system integrity load. It uses single-relation ablation, coalition ablation, and plausible counterfactual substitution. Its metaphysical statement that God is Love is kept distinct from empirical proof and from physical mechanism claims.
+
 ## Current layer convention
 
 - `S` = Substrate
@@ -236,6 +251,9 @@ Older schemes are historical scaffold unless explicitly reactivated.
 - A dedicated module carries each full definition.
 - Other files use compressed references or applied translations.
 - Claims require layer placement, ordinary alternatives, prediction, falsifier, and reduction rule.
+- Structural centrality does not establish truth.
+- Local coherence must be distinguished from whole-system coherence where cost, agency, calibration, or long-horizon damage can be exported outside the selected boundary.
+- Metaphysical orientation must not be used to rescue a failed empirical claim.
 - A failed branch must not be hidden inside the breadth of the framework.
 - Functional emergence must be tested against matched content and resource controls.
 - No non-public personal data, correspondence, credentials, or internal-only operational instructions belong in the public canon.
