@@ -2,7 +2,7 @@
 
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**Backbone DOI:** `10.5281/zenodo.17780566`
+**MKUFT DOI:** `10.5281/zenodo.17780566`
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Until separately released, each candidate remains:
 
 - part of the public MKUFT working canon;
 - attributable to Mark Charles McLaughlin;
-- linked to the MKUFT backbone DOI;
+- visibly linked to the MKUFT DOI;
 - exactly timestamped at revision level by Git history.
 
 ## Primary standalone candidates
@@ -33,13 +33,21 @@ Until separately released, each candidate remains:
 
 These require later review for novelty, evidence maturity, independent scope, and whether separate publication improves rather than fragments the MKUFT architecture.
 
-## Current header rule
+## Header rule
 
-A standalone-paper candidate may carry the same temporary provenance strip as the rest of the canon, plus this line:
+Standalone-paper candidates carry the same visible MKUFT DOI header as the rest of the important canon:
 
-> **Publication track:** Standalone-paper candidate; its current canonical home remains the MKUFT repository until separately released.
+```text
+Author: Mark Charles McLaughlin
+Framework: McLaughlin–Kairos Unified Field Theory (MKUFT)
+MKUFT DOI: 10.5281/zenodo.17780566
+Provenance: This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.
+Citation: See PROVENANCE_DOI_AND_ATTRIBUTION.md.
+```
 
-This does not commit the module to separate publication and does not prevent a later paper-specific title, abstract, citation block, licence statement, release date, or exact DOI.
+Candidate status is recorded here rather than announced in the module header. The header should not say that the module is awaiting a DOI or suggest that it sits outside the existing MKUFT provenance chain.
+
+This keeps provenance strong and simple at the point of entry while preserving room for a later paper-specific title, abstract, citation block, licence statement, release date, and exact standalone DOI.
 
 ## Release rule
 
@@ -51,4 +59,4 @@ A candidate receives a separate DOI only when it has:
 - independent falsifiers;
 - enough content to be cited without requiring the reader to reconstruct the entire repository.
 
-A separate DOI supplements the MKUFT backbone DOI; it does not replace or obscure the originating framework and author attribution.
+A separate DOI supplements the MKUFT DOI; it does not replace or obscure the originating framework and author attribution.
