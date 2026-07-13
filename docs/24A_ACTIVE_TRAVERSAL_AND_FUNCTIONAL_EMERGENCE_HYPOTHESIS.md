@@ -192,7 +192,44 @@ Controls should match content, model, context allowance, retrieval budget, tool 
 
 ---
 
-## 8. Falsifiers and reduction rules
+## 8. Load-bearing dependency extension
+
+Architecture-level gain does not by itself identify which relations are genuine bones.
+
+A false or overfitted architecture may also depend heavily upon a central assumption. Module 25 therefore adds controlled deformation:
+
+```text
+single-relation ablation
++ coalition ablation
++ plausible counterfactual substitution
+→ relation-level load profile
+```
+
+The extension distinguishes:
+
+- genuine bones;
+- central but unsupported scaffolds;
+- redundant support networks;
+- decorative links;
+- distorting relations;
+- locally efficient but whole-system extractive relations.
+
+A complete evaluation should separate:
+
+- structural load;
+- reality or empirical load;
+- generative load;
+- whole-system integrity load where the domain permits agency, transferred cost, calibration, and time horizon to be operationalised.
+
+This matters because removing uncertainty, safeguards, falsifiers, or affected participants may improve immediate completion while worsening calibration, correction, agency, and long-horizon viability.
+
+The relation-level assay is canonical in:
+
+`docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
+
+---
+
+## 9. Falsifiers and reduction rules
 
 The hypothesis is weakened or rejected if:
 
@@ -204,7 +241,8 @@ The hypothesis is weakened or rejected if:
 - correction does not propagate more reliably through the structured condition;
 - the effect is model-specific and does not replicate across systems;
 - a simpler prompting or retrieval explanation accounts for the result;
-- active traversal increases confident error faster than it improves correction.
+- active traversal increases confident error faster than it improves correction;
+- apparent gain depends upon removing falsifiers, calibration, agency, or long-horizon costs from the scoring boundary.
 
 Reduction rule:
 
@@ -212,7 +250,7 @@ Reduction rule:
 
 ---
 
-## 9. Relationship to adjacent work and priority boundary
+## 10. Relationship to adjacent work and priority boundary
 
 This module does not claim that knowledge graphs, recursive reasoning, retrieval-augmented generation, agentic search, emergent capability, or human–AI knowledge synergy are new ideas.
 
@@ -233,6 +271,8 @@ active traversal producing matched-control functional gain
 
 with multi-entry convergence, correction propagation, link-scrambling ablation, branch removal, and strict non-consciousness boundaries as discriminators.
 
+Module 25 adds relation-level deformation and the distinction between local performance and whole-system integrity. It does not convert metaphysical orientation into empirical proof.
+
 This document records the first public, timestamped MKUFT formulation of that specific hypothesis. It does not assert global historical priority over all related research.
 
 Adjacent references:
@@ -244,7 +284,7 @@ Adjacent references:
 
 ---
 
-## 10. Publication boundary
+## 11. Publication boundary
 
 This public module contains only the publication-cleared architecture invariant and proposed test programme.
 
@@ -254,7 +294,7 @@ The public object is the testable relationship between structured knowledge and 
 
 ---
 
-## 11. Architecture route
+## 12. Architecture route
 
 ```text
 parent architecture: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
@@ -262,13 +302,16 @@ traversal kernel: docs/19_MKUFT_RECONSTITUTION_KERNEL.md
 clean route discipline: docs/20_GRACE_TRAVERSAL_RULE.md
 cross-layer address discipline: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
 ambiguity and route space: docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md
+load-bearing deformation: docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md
 falsification: docs/05_FALSIFICATION_SUMMARY.md
 ```
 
 ---
 
-## 12. Compressed hypothesis
+## 13. Compressed hypothesis
 
 > Static structure stores relations. Active traversal can convert those relations into system-level function.
 
 > Functional emergence is supported only if the actively traversed architecture outperforms matched flat, isolated, and scrambled controls without borrowing the gain from extra content, compute, or unmatched external context.
+
+> Relation-level load is supported only where controlled deformation identifies repeatable differences between genuine bones, scaffolds, redundant support, decoration, distortion, and locally efficient extraction.
