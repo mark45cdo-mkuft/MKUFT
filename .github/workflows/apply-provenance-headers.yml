@@ -4,18 +4,25 @@ on:
   push:
     paths:
       - '.github/workflows/apply-provenance-headers.yml'
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+    branches: [main]
 
 permissions:
   contents: write
 
 jobs:
   apply:
+    if: github.event_name != 'pull_request_target' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
+    env:
+      TARGET_BRANCH: ${{ github.event_name == 'pull_request_target' && github.event.pull_request.head.ref || github.ref_name }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: ${{ env.TARGET_BRANCH }}
 
       - name: Apply standard provenance headers
         shell: bash
@@ -118,8 +125,6 @@ jobs:
               else:
                   lines = text.splitlines()
                   title_idx = next((i for i, line in enumerate(lines) if line.startswith("# ")), 0)
-
-                  # Remove legacy identity/provenance lines only from the opening metadata region.
                   scan_end = min(len(lines), title_idx + 28)
                   cleaned = []
                   for i, line in enumerate(lines):
@@ -212,6 +217,10 @@ A candidate receives a separate DOI only when it has a coherent standalone claim
 A separate DOI supplements the MKUFT backbone DOI; it does not replace or obscure the originating framework and author attribution.
 """, encoding="utf-8")
 
+          trigger = Path("PROVENANCE_MIGRATION_TRIGGER.md")
+          if trigger.exists():
+              trigger.unlink()
+
           readme = Path("README.md")
           if readme.exists():
               text = readme.read_text(encoding="utf-8")
@@ -233,6 +242,6 @@ A separate DOI supplements the MKUFT backbone DOI; it does not replace or obscur
           fi
           git config user.name "MKUFT provenance migration"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md START_HERE_PUBLIC_OVERVIEW.md MKUFT_INTEGRATED_MASTER_SPINE.md SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md CANON_MAP.md PROVENANCE_DOI_AND_ATTRIBUTION.md STANDALONE_PAPER_TRACK.md docs/*.md
+          git add -A
           git commit -m "Standardise MKUFT module provenance and paper track"
-          git push origin HEAD:main
+          git push origin HEAD:"${TARGET_BRANCH}"
