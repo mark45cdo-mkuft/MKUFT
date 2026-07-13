@@ -1,5 +1,4 @@
-# Gradient Mechanics and Boundary-Shear Geometry
-
+# Gradient Mechanics and Controlled Boundary Geometry
 
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
@@ -11,34 +10,17 @@
 
 Status: public-facing MKUFT core support paper / boundary-physics addendum.
 
-## Revision note — 13 July 2026
-
-Earlier wording in this module assigned specific preferred angles and motion classes to particular object geometries. Those claims exceeded the present derivation and evidence.
-
-This revision removes:
-
-- the fixed `45°` candidate prediction;
-- the `5° to 15°` tubular-geometry range;
-- shape-specific claims about discs, cylinders, spheres, triangles, or morphing objects;
-- movement descriptions such as serpentine, sliding, pulsing, or abrupt disappearance.
-
-The retained claim is narrower and testable:
-
-> Geometry, aspect ratio, symmetry, orientation, and boundary conditions may affect threshold onset, stability, or transition cost in controlled physical systems. Any specific angle, shape-motion relation, or extraordinary interpretation must be derived independently and tested against ordinary physical explanations.
-
----
-
 ## Abstract
 
-This paper reconstructs and formalises the gradient-mechanics bridge in MKUFT. It examines how substrate/information weighting may be represented at the physical layer through boundary conditions, gradients, thresholds, and membrane-like regions.
+This paper develops the gradient-mechanics bridge in MKUFT. It examines how substrate/information weighting may be represented at the physical layer through measurable boundary conditions, gradients, thresholds, and membrane-like regions.
 
-The purpose is not to introduce a new force or assign unusual motion to particular object classes. The purpose is to define a cautious mathematical and conceptual bridge between the MKUFT substrate/information layers and measurable physical-layer behaviour.
+The purpose is not to introduce a new force, explain reported craft, or assign unusual motion to object shapes. The purpose is to define a cautious mathematical and experimental bridge between the MKUFT substrate/information layers and controlled physical behaviour.
 
 The central falsifiable hypothesis is:
 
-> In systems where a defined physical coupling exists, geometry and orientation may alter threshold onset, stability duration, field distribution, propagation, or energetic cost beyond what simpler matched models predict.
+> In systems with a defined physical coupling, geometry and orientation may alter threshold onset, stability duration, field distribution, propagation, or energetic cost beyond what simpler matched models predict.
 
-No specific reported craft, object, or anomalous event is treated as explained by this model.
+No specific reported object, craft, or anomalous event is treated as explained by this model.
 
 ---
 
@@ -55,13 +37,11 @@ O = Observer
 
 The substrate layer is not treated as a visible physical medium. It is the possibility or configuration layer from which physical-layer events are selected or weighted.
 
-Important hygiene point:
-
 > S-layer itself is not modelled as having ordinary internal geography.
 
-The geometry discussed here is **post-boundary geometry**: physical structure that appears when substrate/information weighting couples into measurable behaviour through gradients, thresholds, membranes, and boundary conditions.
+The geometry discussed here is **post-boundary geometry**: measurable physical structure that appears when substrate/information weighting couples into physical behaviour through gradients, thresholds, membranes, and boundary conditions.
 
-The preferred public wording is:
+Preferred public wording:
 
 ```text
 post-boundary constraint geometry derived from substrate/information coupling
@@ -84,13 +64,11 @@ In ordinary physics, gradients are already central:
 - density gradients affect propagation and stability;
 - velocity gradients produce shear.
 
-MKUFT uses gradient mechanics as the bridge between abstract substrate/information weighting and physical behaviour.
-
 In this paper, gradient mechanics means:
 
-> the study of how changes across a boundary region organise physical behaviour, especially when several gradients become coherent together.
+> the study of how changes across a boundary region organise measurable physical behaviour, especially when several gradients become coherently coupled.
 
-Five useful gradient classes are:
+Useful gradient classes include:
 
 1. **Density gradients** — stability, inertia-like resistance, and mass-distribution effects.
 2. **Velocity or shear gradients** — directional change, strain, and differential movement.
@@ -98,7 +76,7 @@ Five useful gradient classes are:
 4. **Pressure or temperature gradients** — phase, deformation, and threshold effects.
 5. **Propagation-constant gradients** — changes in how waves, fields, or information-bearing patterns propagate.
 
-A boundary is not merely an edge. It is the region where one state becomes another.
+A boundary is not merely an edge. It is the region where one physical state becomes another.
 
 ---
 
@@ -120,9 +98,9 @@ The proposed transition chain is:
 gradient accumulation -> LUCY threshold -> LUCY-1 membrane -> LUCY-2 local field region
 ```
 
-A weak or noisy boundary does not hold. Once the relevant gradients become coherent enough, the boundary may behave like a membrane. If the membrane persists, the local region may behave as a distinct field-like environment.
+Below threshold, a boundary remains noisy or non-sustained. At threshold, a membrane-like state may form. If that state remains stable, the local region may behave as a distinct field-like environment.
 
-This is modelling language analogous to phase changes, bifurcations, ionisation thresholds, surface formation, superconductive transitions, and other systems where behaviour changes qualitatively after a threshold is crossed.
+This is modelling language comparable to phase changes, bifurcations, ionisation thresholds, surface formation, superconductive transitions, and other systems where behaviour changes qualitatively after a threshold is crossed.
 
 ---
 
@@ -253,25 +231,25 @@ Relevant variables include:
 
 Geometry is already known to affect resonance, stress, field concentration, waveguiding, breakdown, and threshold behaviour. MKUFT's additional question is whether a common boundary-cost description improves prediction after those ordinary variables are modelled.
 
-No geometry is assigned a preferred angle or motion class in advance without a separate derivation.
+No geometry is assigned a preferred angle or motion class without an independent physical derivation.
 
 ---
 
-## 7. Boundary-orientation metric
+## 7. Orientation as a measured variable
 
-Let `n_P` be a physical reference axis and `n_B` the measured or modelled boundary-gradient axis.
+Orientation is included only as an ordinary laboratory variable.
 
-Define:
+Let `n_P` be the selected physical reference axis of a test body or apparatus and `n_G` the measured direction of the applied gradient. Define:
 
 ```text
-θ = arccos(n_P · n_B)
+θ = arccos(n_P · n_G)
 ```
 
 where both vectors are normalised.
 
-This angle is a descriptive variable. It does not by itself establish boundary re-indexing, exotic propulsion, or any specific preferred orientation.
+This simply measures the angle between the apparatus and the applied gradient. It does not imply an exotic mechanism, unusual propulsion, or a preferred numerical angle.
 
-A generic stability or cost functional may be written:
+A generic measured stability or cost functional may be written:
 
 ```text
 J(θ) = λ_1 S_boundary(θ) - λ_2 E_cost(θ) + λ_3 R_geom(θ)
@@ -279,20 +257,12 @@ J(θ) = λ_1 S_boundary(θ) - λ_2 E_cost(θ) + λ_3 R_geom(θ)
 
 where:
 
-- `S_boundary(θ)` represents measured boundary stability;
-- `E_cost(θ)` represents energetic or instability cost;
-- `R_geom(θ)` represents geometry-dependent response;
+- `S_boundary(θ)` is measured boundary stability;
+- `E_cost(θ)` is energetic or instability cost;
+- `R_geom(θ)` is geometry-dependent response;
 - `λ_i` are model weights fixed before testing.
 
-Candidate stable orientations would satisfy the relevant extremum condition:
-
-```text
-dJ/dθ = 0
-```
-
-with stability determined by the sign of the second derivative under the chosen convention.
-
-The location of any preferred angle must come from measured parameters or a physically derived model, not from visual pattern matching.
+Any stable orientation must emerge from measured parameters or a physically derived model, not from visual pattern matching or retrospective fitting.
 
 ---
 
@@ -300,7 +270,7 @@ The location of any preferred angle must come from measured parameters or a phys
 
 The defensible prediction is comparative rather than shape-specific:
 
-> After matching material, scale, surface area, thermal behaviour, field distribution, vibration, and manufacturing tolerance, some geometries or orientations may exhibit reproducible differences in threshold onset, stability duration, propagation, or energetic cost.
+> After matching material, scale, surface area, thermal behaviour, field distribution, vibration, manufacturing tolerance, and sensor placement, some geometries or orientations may exhibit reproducible differences in threshold onset, stability duration, propagation, or energetic cost.
 
 The null hypothesis is:
 
@@ -310,24 +280,7 @@ The model gains support only if the additional geometry-cost structure predicts 
 
 ---
 
-## 9. Boundary re-indexing as a speculative extension
-
-Ordinary motion describes an object traversing a path through physical space.
-
-Boundary re-indexing is a more speculative hypothesis in which a change in boundary state alters the system's effective mapping or admissible path structure.
-
-```text
-ordinary motion:       object moves through space
-boundary re-indexing:  admissible physical mapping changes with boundary state
-```
-
-This extension is not established by the geometry model and must not be inferred from unusual appearance or motion alone.
-
-It belongs downstream of laboratory evidence showing that boundary formation can alter admissible trajectories or measured transition cost in a reproducible way.
-
----
-
-## 10. Relation to the node and trajectory formalism
+## 9. Relation to the node and trajectory formalism
 
 The Standalone Formal Addendum models reality evolution through nodes, admissible edges, trajectories, coherence cost, and path density.
 
@@ -338,35 +291,33 @@ Let:
 C(γ) = coherence cost of trajectory γ
 ```
 
-A boundary state may modify admissibility:
+A measured boundary state may modify admissibility:
 
 ```text
-Γ -> Γ_LUCY
+Γ -> Γ_boundary
 ```
 
 and may modify cost:
 
 ```text
-C(γ) -> C_LUCY(γ)
+C(γ) -> C_boundary(γ)
 ```
 
 The testable question is whether a measured boundary state changes transition probabilities or costs beyond standard modelling:
 
 ```text
-C_LUCY(γ) ≠ C_standard(γ)
+C_boundary(γ) ≠ C_standard(γ)
 ```
 
 The sign and magnitude must be derived or measured rather than assumed.
 
 ---
 
-## 11. Experimental programme
+## 10. Experimental programme
 
 The model should be tested first in ordinary laboratory systems.
 
-### 11.1 Laboratory boundary systems
-
-Candidate systems include:
+### 10.1 Candidate systems
 
 - plasma boundary layers;
 - dielectric breakdown geometries;
@@ -379,9 +330,9 @@ Primary question:
 
 > Do matched geometries or orientations produce reproducible differences in threshold onset, stability, propagation, or energetic cost?
 
-### 11.2 Geometry and threshold testing
+### 10.2 Geometry and threshold testing
 
-Compare pre-specified geometry classes while matching:
+Compare preregistered geometry classes while matching:
 
 - material;
 - characteristic dimensions;
@@ -404,28 +355,9 @@ Measure:
 
 Use blinded condition labels, calibration injections, preregistered primary outcomes, and held-out replication data.
 
-### 11.3 Secondary observational database
-
-Only after the laboratory model is defined should unusual-motion reports be coded as a secondary dataset.
-
-Record dry variables:
-
-- geometry class;
-- estimated orientation;
-- motion vector;
-- environment;
-- sensor source;
-- image geometry and perspective;
-- uncertainty;
-- ordinary-explanation classification.
-
-Any analysis must correct for reporting bias, perspective, sensor artefacts, exposure differences, and post-hoc category selection.
-
-No object class, preferred angle, or movement signature should be inserted into the hypothesis after seeing the data.
-
 ---
 
-## 12. Falsification conditions
+## 11. Falsification conditions
 
 This addendum is weakened or rejected if:
 
@@ -433,19 +365,19 @@ This addendum is weakened or rejected if:
 2. laboratory systems show no reproducible orientation-dependent threshold or stability differences;
 3. any apparent effect disappears under material, thermal, field-distribution, vibration, perspective, or sensor controls;
 4. fitted geometry-cost terms fail on held-out or independently replicated data;
-5. boundary re-indexing adds no measurable discrimination beyond ordinary motion models.
+5. the model cannot define a measurable coupling between the proposed boundary variables and physical outcomes.
 
 It is strengthened if:
 
 1. matched laboratory systems show repeatable geometry-dependent threshold or stability effects;
 2. a preregistered cost model predicts held-out outcomes better than simpler baselines;
 3. independent teams reproduce the same parameter relationships;
-4. any claimed boundary-state transition is measured before, and predicts, the physical outcome;
+4. a measured boundary-state transition precedes and predicts the physical outcome;
 5. the same formal relation transfers across systems only after layer-specific variables and units are supplied.
 
 ---
 
-## 13. Public-facing wording rule
+## 12. Public-facing wording rule
 
 Avoid:
 
@@ -464,11 +396,9 @@ Preferred wording:
 - "matched laboratory comparison";
 - "testable relation between geometry, threshold, and transition cost".
 
-If UAP terminology is unavoidable, use it only as an external reporting category, never as an explanation.
-
 ---
 
-## 14. Summary
+## 13. Summary
 
 Gradient mechanics provides a proposed bridge in MKUFT:
 
