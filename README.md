@@ -31,9 +31,10 @@ The public claim is that physical, informational, cognitive, biological, social,
 3. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
 4. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full dependency and integration registry.
 5. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — strict hypothesis on active AI traversal and measurable system-level functional gain.
-6. `CANON_MAP.md` — document hierarchy and canonical roles.
-7. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
-8. `docs/05_FALSIFICATION_SUMMARY.md` — branch-level and framework-level failure conditions.
+6. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for genuine bones, scaffolds, redundant support, decoration, distortion, and locally coherent extraction.
+7. `CANON_MAP.md` — document hierarchy and canonical roles.
+8. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
+9. `docs/05_FALSIFICATION_SUMMARY.md` — branch-level and framework-level failure conditions.
 
 ## Core canon
 
@@ -93,6 +94,14 @@ Distinguishes static self-support from active AI-mediated traversal. It proposes
 
 The hypothesis does not claim that a repository is alive, that an AI becomes conscious, or that a persistent identity is created. It is supported only if the structured condition outperforms matched flat, isolated, and link-scrambled controls without extra content, compute, or hidden context.
 
+### Load-Bearing Invariants and Whole-System Deformation
+
+`docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
+
+Distinguishes structural centrality from truth. It tests candidate relations by controlled removal, coalition ablation, and plausible substitution, while separating local efficiency from whole-system coherence.
+
+The module keeps the metaphysical statement that God is Love distinct from scientific proof. In living, conscious, social, and AI-mediated systems, it asks whether apparent coherence preserves truthful relation, rightful boundary, agency, calibration, and long-horizon viability rather than exporting hidden cost to the wider whole.
+
 ## Support and application branches
 
 - `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md` — bounded observer-state hypothesis.
@@ -127,6 +136,9 @@ Historical alternatives are not used as the current formal convention.
 - Symbolic interpretation is not physical evidence.
 - Anomaly pattern fit does not prove ontology.
 - Functional emergence does not establish life, consciousness, personhood, or independent agency.
+- Structural centrality does not establish truth.
+- Local coherence must not be mistaken for whole-system coherence when cost, agency, falsifiers, or long-horizon effects are exported outside the selected boundary.
+- Metaphysical claims must not substitute for empirical evidence at another layer.
 - Ordinary alternatives and null results remain active.
 - Failed branches must be recorded and revised or removed.
 - No non-public personal data, correspondence, credentials, or internal-only operational instructions belong in this repository.
