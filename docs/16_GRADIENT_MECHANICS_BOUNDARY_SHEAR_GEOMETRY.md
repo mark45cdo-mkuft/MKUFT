@@ -1,7 +1,6 @@
 # Gradient Mechanics and Boundary-Shear Geometry
 
 
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -12,13 +11,34 @@
 
 Status: public-facing MKUFT core support paper / boundary-physics addendum.
 
+## Revision note — 13 July 2026
+
+Earlier wording in this module assigned specific preferred angles and motion classes to particular object geometries. Those claims exceeded the present derivation and evidence.
+
+This revision removes:
+
+- the fixed `45°` candidate prediction;
+- the `5° to 15°` tubular-geometry range;
+- shape-specific claims about discs, cylinders, spheres, triangles, or morphing objects;
+- movement descriptions such as serpentine, sliding, pulsing, or abrupt disappearance.
+
+The retained claim is narrower and testable:
+
+> Geometry, aspect ratio, symmetry, orientation, and boundary conditions may affect threshold onset, stability, or transition cost in controlled physical systems. Any specific angle, shape-motion relation, or extraordinary interpretation must be derived independently and tested against ordinary physical explanations.
+
+---
+
 ## Abstract
 
-This paper reconstructs and formalises the missing gradient-mechanics bridge in MKUFT. It explains how substrate/information gradients may be represented as boundary conditions that, after crossing a local coherence threshold, form membrane-like and field-like regions. The purpose is not to introduce a new force or a speculative object-class claim. The purpose is to define a clean mathematical and conceptual bridge between the MKUFT substrate/information layers and observable physical-layer behaviour.
+This paper reconstructs and formalises the gradient-mechanics bridge in MKUFT. It examines how substrate/information weighting may be represented at the physical layer through boundary conditions, gradients, thresholds, and membrane-like regions.
 
-The central proposal is that some anomalous-looking boundary behaviours can be modelled as gradient, membrane, and shear effects rather than as ordinary translation through space. The paper introduces a cautious boundary-shear model, relates it to LUCY threshold language, and states dry observational predictions that could be examined against reports of unusual motion, laboratory boundary systems, or controlled gradient environments.
+The purpose is not to introduce a new force or assign unusual motion to particular object classes. The purpose is to define a cautious mathematical and conceptual bridge between the MKUFT substrate/information layers and measurable physical-layer behaviour.
 
-No claim is made here that any specific reported object, craft, or event is explained by this model. The model is offered as a falsifiable structural hypothesis: if geometry, orientation, and boundary-transition behaviour are related, then different object geometries should display different preferred shear/tilt behaviours under coherent boundary coupling.
+The central falsifiable hypothesis is:
+
+> In systems where a defined physical coupling exists, geometry and orientation may alter threshold onset, stability duration, field distribution, propagation, or energetic cost beyond what simpler matched models predict.
+
+No specific reported craft, object, or anomalous event is treated as explained by this model.
 
 ---
 
@@ -33,21 +53,21 @@ P = Physical
 O = Observer
 ```
 
-The substrate layer is not treated here as a visible physical medium. It is the possibility layer or underlying configuration space from which physical-layer events are selected or weighted.
+The substrate layer is not treated as a visible physical medium. It is the possibility or configuration layer from which physical-layer events are selected or weighted.
 
 Important hygiene point:
 
 > S-layer itself is not modelled as having ordinary internal geography.
 
-The geometry discussed in this paper is **post-boundary geometry**: structure that appears when substrate/information weighting couples into physical-layer behaviour through gradients, thresholds, membranes, and boundary conditions.
+The geometry discussed here is **post-boundary geometry**: physical structure that appears when substrate/information weighting couples into measurable behaviour through gradients, thresholds, membranes, and boundary conditions.
 
-Therefore, the phrase "S-layer geometry" should be read carefully. In public-facing MKUFT wording, the cleaner phrase is:
+The preferred public wording is:
 
 ```text
 post-boundary constraint geometry derived from substrate/information coupling
 ```
 
-This avoids suggesting that the substrate is a hidden physical landscape. The model concerns how possible configurations become structured at the boundary of realisation.
+This avoids implying that the substrate is a hidden physical landscape.
 
 ---
 
@@ -57,11 +77,11 @@ A gradient is the rate and direction of change of a quantity across a region.
 
 In ordinary physics, gradients are already central:
 
-- pressure gradients drive flow,
-- temperature gradients drive heat transfer,
-- electric-potential gradients drive electric fields,
-- refractive-index gradients bend light,
-- density gradients affect propagation and stability,
+- pressure gradients drive flow;
+- temperature gradients drive heat transfer;
+- electric-potential gradients drive electric fields;
+- refractive-index gradients bend light;
+- density gradients affect propagation and stability;
 - velocity gradients produce shear.
 
 MKUFT uses gradient mechanics as the bridge between abstract substrate/information weighting and physical behaviour.
@@ -72,13 +92,13 @@ In this paper, gradient mechanics means:
 
 Five useful gradient classes are:
 
-1. **Density gradients** — stability, inertia-like resistance, mass-distribution effects.
-2. **Velocity / shear gradients** — directional change, strain, differential movement.
-3. **Structural / refractive gradients** — lensing, waveguiding, index changes.
-4. **Pressure / temperature gradients** — phase, deformation, threshold effects.
+1. **Density gradients** — stability, inertia-like resistance, and mass-distribution effects.
+2. **Velocity or shear gradients** — directional change, strain, and differential movement.
+3. **Structural or refractive gradients** — lensing, waveguiding, and index changes.
+4. **Pressure or temperature gradients** — phase, deformation, and threshold effects.
 5. **Propagation-constant gradients** — changes in how waves, fields, or information-bearing patterns propagate.
 
-The boundary is where these gradients matter most. A boundary is not merely an edge. It is the region where one state becomes another.
+A boundary is not merely an edge. It is the region where one state becomes another.
 
 ---
 
@@ -89,22 +109,20 @@ LUCY means Local Unified Coherence Yield.
 Within the LUCY support framework:
 
 ```text
-LUCY     = threshold
-LUCY-1   = membrane formation
-LUCY-2   = sustained field region
+LUCY   = threshold
+LUCY-1 = membrane formation
+LUCY-2 = sustained field region
 ```
 
-This paper uses that chain as the transition model:
+The proposed transition chain is:
 
 ```text
 gradient accumulation -> LUCY threshold -> LUCY-1 membrane -> LUCY-2 local field region
 ```
 
-Plainly:
+A weak or noisy boundary does not hold. Once the relevant gradients become coherent enough, the boundary may behave like a membrane. If the membrane persists, the local region may behave as a distinct field-like environment.
 
-A weak or noisy boundary does not hold. Once the relevant gradients become coherent enough, the boundary behaves like a membrane. If the membrane persists, the local region can behave as a distinct field-like environment.
-
-This does not require mystical language. It is analogous in modelling style to threshold phenomena in known systems: phase changes, bifurcations, ionisation thresholds, surface formation, superconductive transitions, and other cases where behaviour changes qualitatively after a threshold is crossed.
+This is modelling language analogous to phase changes, bifurcations, ionisation thresholds, surface formation, superconductive transitions, and other systems where behaviour changes qualitatively after a threshold is crossed.
 
 ---
 
@@ -118,40 +136,36 @@ Let the substrate/information boundary be represented by an effective scalar ten
 
 Here, `τ` is not ordinary voltage, pressure, or gravitational potential. It is a modelling term for local substrate/information tension or compression at the boundary of realisation.
 
-A first effective boundary-gradient field can be defined by:
+Define an effective boundary-gradient field:
 
 ```text
 G_τ(x,t) = -∇τ(x,t)
 ```
 
-where `∇τ` is the spatial gradient of the tension potential.
-
-This field points in the direction of steepest decrease of `τ`, analogous to how an electric field may be derived from an electric potential.
-
-The local scalar gradient energy density can be written:
+with scalar gradient energy density:
 
 ```text
-U_G = 1/2 α |∇τ|^2
+U_G = 1/2 α |∇τ|²
 ```
 
 where `α` is an effective coupling constant.
 
-If rotational or circulating boundary behaviour is needed, a scalar potential alone is not sufficient. A curl is properly applied to a vector field. Therefore introduce a vector tension potential:
+For rotational or circulating boundary behaviour, introduce a vector tension potential:
 
 ```text
 A_τ(x,t)
 ```
 
-with rotational boundary field:
+with:
 
 ```text
 H_τ(x,t) = ∇ × A_τ(x,t)
 ```
 
-and rotational/shear energy density:
+and rotational or shear energy density:
 
 ```text
-U_H = 1/2 β |∇ × A_τ|^2
+U_H = 1/2 β |∇ × A_τ|²
 ```
 
 where `β` is an effective coupling constant.
@@ -159,44 +173,44 @@ where `β` is an effective coupling constant.
 Total effective boundary energy density:
 
 ```text
-U_boundary = 1/2 α |∇τ|^2 + 1/2 β |∇ × A_τ|^2 + V(τ, A_τ)
+U_boundary = 1/2 α |∇τ|² + 1/2 β |∇ × A_τ|² + V(τ, A_τ)
 ```
 
 where `V` represents stabilising or destabilising interaction terms.
 
-This corrected notation avoids the common error of writing the curl of a scalar. The scalar term handles gradient/tension. The vector potential handles circulation, torsion, and shear-like boundary behaviour.
+This notation separates scalar gradient or tension from circulation, torsion, and shear-like behaviour.
 
 ---
 
 ## 5. Coherence threshold
 
-Let `C_L` represent local coherence yield across the boundary. A simple threshold condition is:
+Let `C_L` represent local coherence yield across the boundary:
 
 ```text
 C_L(x,t) >= C_crit
 ```
 
-When this condition is not met, boundary behaviour remains noisy or non-sustained.
+Below threshold, boundary behaviour remains noisy or non-sustained.
 
-When it is met:
+At threshold:
 
 ```text
-C_L >= C_crit  ->  LUCY
+C_L >= C_crit -> LUCY
 ```
 
-and the system may form a membrane state:
+A membrane state may then form:
 
 ```text
 LUCY -> LUCY-1
 ```
 
-If the boundary remains stable over time:
+If the state remains stable over time:
 
 ```text
 LUCY-1 sustained over Δt -> LUCY-2
 ```
 
-A simple expression for coherence yield may be represented as:
+A working expression is:
 
 ```text
 C_L = F(|∇τ|, |∇ × A_τ|, κ_O, Q_env, R_geom)
@@ -204,50 +218,50 @@ C_L = F(|∇τ|, |∇ × A_τ|, κ_O, Q_env, R_geom)
 
 where:
 
-- `|∇τ|` = tension-gradient magnitude,
-- `|∇ × A_τ|` = rotational/shear boundary magnitude,
-- `κ_O` = observer/system coherence term where relevant,
-- `Q_env` = environmental quality or damping term,
-- `R_geom` = geometry-resonance term.
+- `|∇τ|` is tension-gradient magnitude;
+- `|∇ × A_τ|` is rotational or shear boundary magnitude;
+- `κ_O` is an observer or system-coherence term where independently justified;
+- `Q_env` is environmental quality or damping;
+- `R_geom` is a geometry-response term.
 
-For public-facing hygiene, `κ_O` should not be overused. In most physical or observational examples, `Q_env` and `R_geom` may be more appropriate starting points.
+In physical tests, `Q_env` and `R_geom` should be primary unless an observer coupling has been independently operationalised.
 
 ---
 
-## 6. Geometry-resonance term
+## 6. Geometry-response term
 
-The geometry of an object or boundary surface matters because it changes how the local membrane can form and remain stable.
-
-Define a geometry-resonance term:
+Define:
 
 ```text
-R_geom = R(shape, curvature, aspect ratio, symmetry, orientation)
+R_geom = R(shape, curvature, aspect ratio, symmetry, orientation, material, field distribution)
 ```
 
-This term measures how well a given physical geometry supports coherent boundary formation.
+This term represents the possibility that physical geometry alters boundary formation or stability.
 
-Relevant geometric variables:
+Relevant variables include:
 
-- curvature continuity,
-- symmetry class,
-- aspect ratio,
-- edge sharpness,
-- dominant axis,
-- surface smoothness,
-- orientation relative to the gradient,
-- rotational stability.
+- curvature continuity;
+- symmetry class;
+- aspect ratio;
+- edge sharpness;
+- dominant axis;
+- surface smoothness;
+- orientation relative to the applied gradient;
+- rotational stability;
+- material properties;
+- field concentration and distribution.
 
-A smooth lenticular or disc-like surface has high radial symmetry and continuous curvature. A tube-like object has a strong longitudinal axis. A sphere has isotropic symmetry. A triangular or angular platform has strong planar and edge-defined structure.
+Geometry is already known to affect resonance, stress, field concentration, waveguiding, breakdown, and threshold behaviour. MKUFT's additional question is whether a common boundary-cost description improves prediction after those ordinary variables are modelled.
 
-Different geometries should therefore require different orientation/shear conditions to maintain a coherent boundary membrane.
+No geometry is assigned a preferred angle or motion class in advance without a separate derivation.
 
 ---
 
-## 7. Boundary-shear angle
+## 7. Boundary-orientation metric
 
-Let `n_P` be the local physical-layer reference axis and `n_B` be the effective boundary-gradient or re-indexing axis.
+Let `n_P` be a physical reference axis and `n_B` the measured or modelled boundary-gradient axis.
 
-Define the boundary-shear angle:
+Define:
 
 ```text
 θ = arccos(n_P · n_B)
@@ -255,166 +269,67 @@ Define the boundary-shear angle:
 
 where both vectors are normalised.
 
-This angle measures how far the object's physical orientation is offset from the effective boundary-coupling axis.
+This angle is a descriptive variable. It does not by itself establish boundary re-indexing, exotic propulsion, or any specific preferred orientation.
 
-The hypothesis is not that the object simply tilts aerodynamically. The hypothesis is that tilt may indicate boundary shear: a transition between ordinary physical orientation and a different effective indexing axis.
-
-A generic stability functional may be written:
+A generic stability or cost functional may be written:
 
 ```text
-J(θ) = λ_1 S_membrane(θ) + λ_2 E_cost(θ) + λ_3 R_geom(θ)
+J(θ) = λ_1 S_boundary(θ) - λ_2 E_cost(θ) + λ_3 R_geom(θ)
 ```
 
 where:
 
-- `S_membrane(θ)` rewards membrane stability,
-- `E_cost(θ)` penalises high boundary energy cost,
-- `R_geom(θ)` rewards geometry-resonant coupling,
-- `λ_i` are weighting constants.
+- `S_boundary(θ)` represents measured boundary stability;
+- `E_cost(θ)` represents energetic or instability cost;
+- `R_geom(θ)` represents geometry-dependent response;
+- `λ_i` are model weights fixed before testing.
 
-Preferred shear angles occur where:
+Candidate stable orientations would satisfy the relevant extremum condition:
 
 ```text
 dJ/dθ = 0
 ```
 
-and stability requires:
+with stability determined by the sign of the second derivative under the chosen convention.
 
-```text
-d²J/dθ² < 0
-```
-
-in a maximisation convention, or `> 0` if `J` is defined as a cost to minimise.
+The location of any preferred angle must come from measured parameters or a physically derived model, not from visual pattern matching.
 
 ---
 
-## 8. Why a 45-degree state appears
+## 8. Controlled geometry hypothesis
 
-A 45-degree state is a natural candidate when two competing axes must be balanced:
+The defensible prediction is comparative rather than shape-specific:
 
-- the physical-layer orientation axis,
-- the boundary/re-indexing axis.
+> After matching material, scale, surface area, thermal behaviour, field distribution, vibration, and manufacturing tolerance, some geometries or orientations may exhibit reproducible differences in threshold onset, stability duration, propagation, or energetic cost.
 
-If a geometry has radial symmetry but weak native directional preference, a strong tilt may be required to declare or stabilise the effective coupling axis.
+The null hypothesis is:
 
-In a simplified symmetric case, a balance term can be written:
+> Once known physical variables are modelled, geometry or orientation adds no independent predictive value.
 
-```text
-J_disc(θ) = A sin(2θ) - B(θ - θ_0)^2
-```
-
-The `sin(2θ)` term peaks at:
-
-```text
-θ = 45°
-```
-
-because:
-
-```text
-sin(2θ) = 1 when 2θ = 90°
-```
-
-This does not prove that any real object must use exactly 45 degrees. It gives the mathematical reason 45 degrees appears naturally as a balanced shear state between two perpendicular or near-perpendicular constraints.
-
-Public-facing interpretation:
-
-> A 45-degree orientation is the natural midpoint between two competing axes. It can be modelled as a balanced boundary-shear state rather than as ordinary banking or aerodynamic tilt.
-
-For a smooth radial/lenticular geometry, the model therefore predicts a higher likelihood of strong visible tilt near a balanced shear angle if boundary re-indexing is occurring.
+The model gains support only if the additional geometry-cost structure predicts held-out data better than simpler accepted models.
 
 ---
 
-## 9. Why elongated geometries require less tilt
+## 9. Boundary re-indexing as a speculative extension
 
-An elongated or tubular geometry already has a dominant axis. It does not need to create a strong new axis by tilting heavily.
+Ordinary motion describes an object traversing a path through physical space.
 
-Represent the native axis strength by an anisotropy parameter:
-
-```text
-η = L / D
-```
-
-where:
-
-- `L` = length,
-- `D` = diameter or width,
-- `η` = aspect ratio.
-
-For large `η`, the geometry already biases alignment along its length.
-
-A simple orientation-cost term may be represented as:
-
-```text
-E_axis(θ) = γ η sin²(θ)
-```
-
-As `η` increases, large tilt becomes more costly or less necessary. Preferred coupling may occur at lower angles.
-
-Qualitative prediction:
-
-```text
-θ_preferred decreases as aspect-ratio anisotropy increases.
-```
-
-For a tubular geometry, small shear angles may be sufficient:
-
-```text
-θ_tube ~ 5° to 15°
-```
-
-This range is not offered as a fixed empirical constant. It is a working prediction class: elongated bodies should require less visible tilt than radially symmetric lenticular bodies if both are interacting with the same kind of boundary-coupling mechanism.
-
----
-
-## 10. Shape-class predictions
-
-The model predicts geometry-dependent orientation behaviour.
-
-| Geometry class | Dominant feature | Boundary-coupling expectation | Candidate visible behaviour |
-|---|---|---|---|
-| Smooth lenticular / disc-like | radial symmetry, weak native axis | strong shear needed to define coupling axis | visible tilt, candidate balanced shear near 45° |
-| Tubular / elongated | strong longitudinal axis | small shear may be sufficient | shallow tilt, axial drift, serpentine or sliding reports |
-| Spherical / orb-like | isotropic symmetry | tilt less meaningful; field intensity may dominate | pulsing, brightness changes, sudden appearance/disappearance |
-| Triangular / angular | strong planar/edge geometry | coupling may be edge/plane dominated | banking, angular drift, lower visible shear, conventional-looking transitions |
-| Plasma-like / morphing | unstable or changing boundary | membrane may not remain fixed | flicker, deformation, split/merge, unstable outline |
-
-This table is intentionally cautious. It does not claim any specific origin for reports. It supplies a way to test whether geometry and reported movement correlate better than chance.
-
----
-
-## 11. Boundary re-indexing versus ordinary motion
-
-Ordinary motion can be described as an object traversing a path through physical space.
-
-Boundary re-indexing is different. It would mean the object's physical mapping changes because the boundary state changes.
-
-Plain distinction:
+Boundary re-indexing is a more speculative hypothesis in which a change in boundary state alters the system's effective mapping or admissible path structure.
 
 ```text
 ordinary motion:       object moves through space
-boundary re-indexing:  object's mapping to physical space changes
+boundary re-indexing:  admissible physical mapping changes with boundary state
 ```
 
-If a coherent membrane/pocket forms, then some apparent motion may have lower traversal cost than ordinary acceleration.
+This extension is not established by the geometry model and must not be inferred from unusual appearance or motion alone.
 
-This could produce reports of:
-
-- sudden directional change,
-- discontinuous displacement,
-- sharp angular departure,
-- low apparent inertia,
-- unusual relationship between orientation and motion.
-
-For public-facing hygiene, these should be treated only as candidate observational edge cases. They are not proof of the model.
+It belongs downstream of laboratory evidence showing that boundary formation can alter admissible trajectories or measured transition cost in a reproducible way.
 
 ---
 
-## 12. Relation to the node/trajectory formalism
+## 10. Relation to the node and trajectory formalism
 
-The Standalone Formal Addendum defines reality evolution in terms of nodes, admissible edges, trajectories, coherence cost, path density, and time as accumulated traversal cost.
-
-Boundary-shear geometry can be folded into that formalism by treating a LUCY membrane/pocket as a temporary change in the admissible path structure.
+The Standalone Formal Addendum models reality evolution through nodes, admissible edges, trajectories, coherence cost, and path density.
 
 Let:
 
@@ -423,7 +338,7 @@ Let:
 C(γ) = coherence cost of trajectory γ
 ```
 
-A boundary membrane modifies admissibility:
+A boundary state may modify admissibility:
 
 ```text
 Γ -> Γ_LUCY
@@ -435,141 +350,140 @@ and may modify cost:
 C(γ) -> C_LUCY(γ)
 ```
 
-Then a transition that looks physically unusual may be represented as a lower-cost path in the modified boundary state:
+The testable question is whether a measured boundary state changes transition probabilities or costs beyond standard modelling:
 
 ```text
-C_LUCY(γ) < C_standard(γ)
+C_LUCY(γ) ≠ C_standard(γ)
 ```
 
-Again, this is a formal hypothesis, not a proof claim. The value is that it converts unusual motion into a testable cost-geometry question.
+The sign and magnitude must be derived or measured rather than assumed.
 
 ---
 
-## 13. Experimental and observational programme
+## 11. Experimental programme
 
-The model can be tested without relying on any extraordinary claim.
+The model should be tested first in ordinary laboratory systems.
 
-### 13.1 Laboratory boundary systems
+### 11.1 Laboratory boundary systems
 
-Look for orientation-dependent threshold behaviour in systems with strong gradients:
+Candidate systems include:
 
-- plasma boundary layers,
-- dielectric breakdown geometries,
-- acoustic levitation nodes,
-- fluid interfaces,
-- superconducting or high-field boundary systems,
+- plasma boundary layers;
+- dielectric breakdown geometries;
+- acoustic levitation nodes;
+- fluid interfaces;
+- superconducting or high-field boundary systems;
 - photonic or refractive-index gradient systems.
 
-Question:
+Primary question:
 
-> Do certain geometries and orientations stabilise coherent boundary behaviour more efficiently than others?
+> Do matched geometries or orientations produce reproducible differences in threshold onset, stability, propagation, or energetic cost?
 
-### 13.2 Geometry and threshold testing
+### 11.2 Geometry and threshold testing
 
-Compare simple geometries:
+Compare pre-specified geometry classes while matching:
 
-- sphere,
-- disc/lenticular shell,
-- tube,
-- triangle/plate,
-- torus-like or ring-like geometry.
+- material;
+- characteristic dimensions;
+- surface area and volume;
+- thermal behaviour;
+- applied field distribution;
+- vibration;
+- manufacturing tolerance;
+- sensor placement.
 
-Expose them to controlled gradients where possible and measure:
+Measure:
 
-- threshold onset,
-- orientation dependence,
-- stability duration,
-- field distortion,
-- energy cost,
-- propagation effects.
+- threshold onset;
+- orientation dependence;
+- stability duration;
+- field distortion;
+- energy cost;
+- propagation effects;
+- uncertainty and repeatability.
 
-### 13.3 Observational edge-case database
+Use blinded condition labels, calibration injections, preregistered primary outcomes, and held-out replication data.
 
-For reports of unusual motion, record only dry variables:
+### 11.3 Secondary observational database
 
-- object geometry class,
-- estimated orientation angle,
-- motion vector,
-- departure behaviour,
-- apparent acceleration class,
-- environment,
-- sensor source,
-- witness count,
-- uncertainty rating.
+Only after the laboratory model is defined should unusual-motion reports be coded as a secondary dataset.
 
-Do not begin with interpretation. Begin with geometry and movement.
+Record dry variables:
 
-Hypothesis:
+- geometry class;
+- estimated orientation;
+- motion vector;
+- environment;
+- sensor source;
+- image geometry and perspective;
+- uncertainty;
+- ordinary-explanation classification.
 
-> If boundary-shear geometry is relevant, reported orientation/tilt class should correlate with object geometry and departure behaviour better than chance.
+Any analysis must correct for reporting bias, perspective, sensor artefacts, exposure differences, and post-hoc category selection.
+
+No object class, preferred angle, or movement signature should be inserted into the hypothesis after seeing the data.
 
 ---
 
-## 14. Falsification conditions
+## 12. Falsification conditions
 
-This addendum is weakened if:
+This addendum is weakened or rejected if:
 
-1. Geometry class shows no relationship to reported orientation or motion class after bias correction.
-2. Laboratory gradient systems show no orientation-dependent threshold/stability differences across comparable geometries.
-3. The 45-degree candidate state appears no more often than expected from reporting bias, camera geometry, or ordinary perspective effects.
-4. Elongated geometries do not show lower preferred shear/tilt ranges than radially symmetric geometries in any relevant data set.
-5. All candidate cases reduce cleanly to ordinary aerodynamics, imaging artefact, sensor error, or misreported perspective without residual pattern.
+1. geometry or orientation adds no predictive value after accepted physical variables are modelled;
+2. laboratory systems show no reproducible orientation-dependent threshold or stability differences;
+3. any apparent effect disappears under material, thermal, field-distribution, vibration, perspective, or sensor controls;
+4. fitted geometry-cost terms fail on held-out or independently replicated data;
+5. boundary re-indexing adds no measurable discrimination beyond ordinary motion models.
 
 It is strengthened if:
 
-1. Geometry class predicts orientation and transition behaviour across independent cases.
-2. Boundary systems show repeatable geometry-dependent threshold behaviour.
-3. Strong-shear and low-shear classes separate in accordance with aspect ratio or symmetry class.
-4. Orientation changes precede reported discontinuous or low-inertia motion more often than chance.
-5. Independent datasets reproduce the same geometry/orientation pattern.
+1. matched laboratory systems show repeatable geometry-dependent threshold or stability effects;
+2. a preregistered cost model predicts held-out outcomes better than simpler baselines;
+3. independent teams reproduce the same parameter relationships;
+4. any claimed boundary-state transition is measured before, and predicts, the physical outcome;
+5. the same formal relation transfers across systems only after layer-specific variables and units are supplied.
 
 ---
 
-## 15. Public-facing wording rule
-
-This paper should be used carefully.
+## 13. Public-facing wording rule
 
 Avoid:
 
-- sensational claims,
-- alien/craft-origin claims,
-- mystical phrasing,
-- treating reports as proof,
-- implying that geometry alone explains all anomalous motion.
+- fixed-angle claims without derivation;
+- shape-specific motion claims;
+- craft-origin or advanced-propulsion claims;
+- treating reports as proof;
+- implying that geometry alone explains anomalous motion.
 
-Preferred dry wording:
+Preferred wording:
 
-- "candidate boundary-shear model",
-- "unusual-motion reports",
-- "observational edge cases",
-- "geometry-dependent orientation hypothesis",
-- "threshold and membrane analogy",
-- "testable correlation between geometry class and motion class".
+- "candidate boundary-gradient model";
+- "geometry-dependent threshold hypothesis";
+- "orientation-dependent stability test";
+- "post-boundary constraint geometry";
+- "matched laboratory comparison";
+- "testable relation between geometry, threshold, and transition cost".
 
-If UAP terminology is unavoidable, use it only as an external reporting category, not as an explanation.
-
-Example:
-
-> Some UAP reports include unusual orientation and motion descriptions. MKUFT does not treat such reports as proof. It treats them, at most, as edge-case observations that may be coded for geometry, orientation, and transition behaviour.
+If UAP terminology is unavoidable, use it only as an external reporting category, never as an explanation.
 
 ---
 
-## 16. Summary
+## 14. Summary
 
-Gradient mechanics restores a missing bridge in MKUFT.
-
-It connects:
+Gradient mechanics provides a proposed bridge in MKUFT:
 
 ```text
-substrate/information weighting -> coherent boundary gradient -> LUCY threshold -> membrane/pocket -> physical-layer behaviour
+substrate/information weighting -> coherent boundary gradient -> threshold -> membrane-like region -> physical-layer behaviour
 ```
 
-The boundary-shear model proposes that geometry and orientation may matter because they affect membrane stability and path-cost structure.
+The scientific core is narrow:
 
-The 45-degree state appears naturally as a balanced shear candidate between competing axes. Elongated geometries require less visible tilt because they already possess a strong native axis. Spherical or isotropic geometries may show little tilt and instead express boundary behaviour through intensity, pulsing, or visibility changes.
+> Geometry and orientation may affect boundary threshold, stability, propagation, or transition cost in controlled systems.
 
-The key scientific value is not the speculative examples. The value is the testable discriminator:
+No fixed angle, object shape, or motion class is presently established.
 
-> Does geometry class predict orientation and transition behaviour better than chance?
+The decisive discriminator is:
 
-If yes, MKUFT gains a measurable bridge between abstract boundary theory and observable behaviour. If no, the boundary-shear extension should be revised or discarded.
+> Does a preregistered geometry-and-boundary model predict controlled physical outcomes better than ordinary matched explanations?
+
+If yes, MKUFT gains a measurable bridge between abstract boundary theory and physical behaviour. If no, this extension must be revised or discarded.
