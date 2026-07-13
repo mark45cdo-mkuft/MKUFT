@@ -1,0 +1,160 @@
+name: Run MKUFT DOI header migration
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.event.issue.title == 'RUN_MKUFT_DOI_HEADER_MIGRATION'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Apply standard DOI headers
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          DOI = "10.5281/zenodo.17780566"
+          roots = [
+              Path("README.md"),
+              Path("START_HERE_PUBLIC_OVERVIEW.md"),
+              Path("MKUFT_INTEGRATED_MASTER_SPINE.md"),
+              Path("SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md"),
+              Path("CANON_MAP.md"),
+          ]
+          targets = roots + sorted(Path("docs").glob("*.md"))
+
+          marker_start = "<!-- MKUFT-PROVENANCE-HEADER:START -->"
+          marker_end = "<!-- MKUFT-PROVENANCE-HEADER:END -->"
+          old_prefixes = (
+              "author:", "**author:**",
+              "framework:", "**framework:**",
+              "project:", "**project:**",
+              "primary doi:", "**primary doi:**",
+              "backbone doi:", "**backbone doi:**",
+              "mkuft doi:", "**mkuft doi:**",
+              "provenance status:", "**provenance status:**",
+              "provenance:", "**provenance:**",
+              "citation and release coverage:", "**citation and release coverage:**",
+              "citation:", "**citation:**",
+              "publication track:", "**publication track:**",
+          )
+
+          def header_for(path: Path) -> str:
+              provenance_link = "PROVENANCE_DOI_AND_ATTRIBUTION.md" if path.parent == Path(".") else "../PROVENANCE_DOI_AND_ATTRIBUTION.md"
+              return "\n".join([
+                  marker_start,
+                  "**Author:** Mark Charles McLaughlin  ",
+                  "**Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  ",
+                  f"**MKUFT DOI:** `{DOI}`  ",
+                  "**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  ",
+                  f"**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`]({provenance_link}).  ",
+                  marker_end,
+              ])
+
+          def apply_header(path: Path) -> None:
+              if not path.exists():
+                  return
+              text = path.read_text(encoding="utf-8")
+              header = header_for(path)
+              if marker_start in text and marker_end in text:
+                  new = re.sub(
+                      re.escape(marker_start) + r".*?" + re.escape(marker_end),
+                      header,
+                      text,
+                      count=1,
+                      flags=re.S,
+                  )
+              else:
+                  lines = text.splitlines()
+                  title_idx = next((i for i, line in enumerate(lines) if line.startswith("# ")), 0)
+                  scan_end = min(len(lines), title_idx + 32)
+                  cleaned = []
+                  for i, line in enumerate(lines):
+                      if title_idx < i < scan_end and line.strip().lower().startswith(old_prefixes):
+                          continue
+                      cleaned.append(line)
+                  lines = cleaned
+                  title_idx = next((i for i, line in enumerate(lines) if line.startswith("# ")), 0)
+                  insertion = title_idx + 1
+                  while insertion < len(lines) and lines[insertion] == "":
+                      insertion += 1
+                  lines[insertion:insertion] = ["", header, ""]
+                  new = "\n".join(lines).rstrip() + "\n"
+              path.write_text(new, encoding="utf-8")
+
+          for target in targets:
+              apply_header(target)
+
+          provenance = Path("PROVENANCE_DOI_AND_ATTRIBUTION.md")
+          if provenance.exists():
+              text = provenance.read_text(encoding="utf-8")
+              section = f'''## Standard Module Provenance Header
+
+Important canonical modules carry the same short provenance strip:
+
+```text
+Author: Mark Charles McLaughlin
+Framework: McLaughlin–Kairos Unified Field Theory (MKUFT)
+MKUFT DOI: {DOI}
+Provenance: This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.
+Citation: See PROVENANCE_DOI_AND_ATTRIBUTION.md.
+```
+
+The DOI is displayed directly on ordinary modules and standalone-paper candidates alike. Candidate status is recorded separately in `STANDALONE_PAPER_TRACK.md`; it is not presented in a module header as an absence of DOI coverage or a pending-protection notice.
+
+The MKUFT DOI anchors each module to the published framework and author identity. Git history records the exact text and revision date of later working-canon material until it is included in a subsequent frozen Zenodo release.
+
+## Standalone-Paper Track
+
+Some modules may later become independently citable papers. Until a separate release is made, they remain canonical MKUFT modules and display the standard MKUFT DOI.
+
+A later standalone DOI supplements the MKUFT DOI; it does not replace or obscure the originating framework or Mark Charles McLaughlin's authorship.
+
+Current candidates and release criteria are recorded in `STANDALONE_PAPER_TRACK.md`.
+'''
+              heading = "## Standard Module Provenance Header"
+              if heading in text:
+                  text = text[:text.index(heading)].rstrip() + "\n\n" + section
+              else:
+                  text = text.rstrip() + "\n\n" + section
+              provenance.write_text(text.rstrip() + "\n", encoding="utf-8")
+
+          track = Path("STANDALONE_PAPER_TRACK.md")
+          if track.exists():
+              text = track.read_text(encoding="utf-8")
+              text = re.sub(
+                  r"## Current header rule.*?(?=\n## Release rule)",
+                  "## Header rule\n\nStandalone-paper candidates carry the same visible MKUFT DOI header as the rest of the important canon. Their candidate status is recorded here rather than announced in the module header.\n\nThis keeps provenance strong and simple at the point of entry while preserving room for a later paper-specific title, abstract, citation block, licence statement, release date, and exact standalone DOI.\n",
+                  text,
+                  flags=re.S,
+              )
+              text = text.replace("**Backbone DOI:**", "**MKUFT DOI:**")
+              track.write_text(text.rstrip() + "\n", encoding="utf-8")
+          PY
+
+      - name: Commit and remove temporary workflows
+        shell: bash
+        run: |
+          rm -f .github/workflows/apply-standard-doi-headers.yml
+          rm -f .github/workflows/issue-provenance-migration.yml
+          git config user.name "MKUFT provenance migration"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes required."
+            exit 0
+          fi
+          git commit -m "Standardise MKUFT DOI headers across public canon"
+          git push origin HEAD:main
