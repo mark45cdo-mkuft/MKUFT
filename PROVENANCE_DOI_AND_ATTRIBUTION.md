@@ -133,36 +133,28 @@ This GitHub repository is a cleaned working presentation layer. It organises, ex
 
 ## Standard Module Provenance Header
 
-Important canonical modules should carry a short provenance strip containing:
-
-- Author: Mark Charles McLaughlin;
-- Framework: McLaughlin–Kairos Unified Field Theory (MKUFT);
-- Backbone DOI: `10.5281/zenodo.17780566`;
-- a statement that the DOI identifies the published backbone while exact later revisions are timestamped by Git history until included in a subsequent Zenodo release;
-- a route back to this provenance file.
-
-Recommended current wording:
+Important canonical modules should carry the same short provenance strip:
 
 ```text
 Author: Mark Charles McLaughlin
 Framework: McLaughlin–Kairos Unified Field Theory (MKUFT)
-Backbone DOI: 10.5281/zenodo.17780566
-Provenance status: The DOI identifies the published MKUFT backbone. This file's exact post-release revisions are additionally timestamped by Git history until included in a later Zenodo release.
-Citation and release coverage: See PROVENANCE_DOI_AND_ATTRIBUTION.md.
+MKUFT DOI: 10.5281/zenodo.17780566
+Provenance: This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.
+Citation: See PROVENANCE_DOI_AND_ATTRIBUTION.md.
 ```
 
-This strip is an attribution and routing device. It does not claim that the version-1 DOI contains every later sentence or module.
+The MKUFT DOI should be displayed directly on ordinary modules and standalone-paper candidates alike.
+
+Candidate status belongs in `STANDALONE_PAPER_TRACK.md`, not in the module header. A header should not announce that a module is awaiting its own DOI or imply a gap in provenance.
+
+The DOI anchors the module visibly to the MKUFT framework and Mark Charles McLaughlin's author identity. Git history records the exact working-copy text and revision date of later material until it is included in a subsequent frozen Zenodo release.
+
+This is an attribution and routing rule. It does not silently convert the version-1 deposit into a verbatim archive of every later sentence.
 
 ## Standalone-Paper Track
 
-Some modules may later become independently citable papers. Until a separate release is made, they remain canonical MKUFT modules and use the backbone DOI plus repository history.
+Some modules may later become independently citable papers. Until a separate release is made, they remain canonical MKUFT modules and display the standard MKUFT DOI.
 
-A standalone-paper candidate may use the same temporary provenance strip plus:
-
-```text
-Publication track: Standalone-paper candidate; its current canonical home remains the MKUFT repository until separately released.
-```
-
-This line preserves room for a later paper-specific title, abstract, citation block, release date, licence statement, and exact DOI. It does not prematurely fragment the framework or imply that a separate publication already exists.
+A later standalone DOI supplements the MKUFT DOI; it does not replace or obscure the originating framework or Mark Charles McLaughlin's authorship.
 
 Current candidates and release criteria are recorded in `STANDALONE_PAPER_TRACK.md`.
