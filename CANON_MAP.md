@@ -1,7 +1,5 @@
 # MKUFT Canon Map
 
-
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -21,12 +19,13 @@ Read in this order for orientation:
 3. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full front-door synthesis.
 4. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
 5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — complete dependency and integration registry.
-6. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — strict post-Silver architecture hypothesis.
-7. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for structural, empirical, generative, and whole-system load.
-8. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — comparison with existing research, risks, and next checks.
-9. `PROVENANCE_DOI_AND_ATTRIBUTION.md` — provenance, DOI, licence, and citation.
+6. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — strict active-traversal, superadditivity, and composite-observer hypothesis.
+7. `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — fair-null construction and relationship-specificity refinement.
+8. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for structural, empirical, generative, and whole-system load.
+9. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — comparison with existing research, risks, and next checks.
+10. `PROVENANCE_DOI_AND_ATTRIBUTION.md` — provenance, DOI, licence, and citation.
 
-The canon map shows hierarchy. Module 24 shows how the files support, limit, and reconstruct one another. Module 24A tests whether active traversal of that structure produces measurable functional gain beyond matched flat and scrambled controls. Module 25 asks which particular dependencies carry genuine load and whether apparent local coherence survives a wider whole-system audit.
+The canon map shows hierarchy. Module 24 shows how the files support, limit, and reconstruct one another. Module 24A tests whether active traversal or reciprocal coupling produces measurable functional gain. Module 24B requires that this gain survive the strongest fair separated, independent-ensemble, one-way, and alternative-pairing controls. Module 25 asks which particular dependencies carry genuine load and whether apparent local coherence survives a wider whole-system audit.
 
 ## Core canon
 
@@ -52,13 +51,13 @@ Role: state graphs, trajectories, cost, path weighting, formal extensions, and e
 
 File: `docs/04_EXPERIMENTAL_TEST_PROGRAM.md`
 
-Role: proposed tests, controls, pre-registration requirements, null results, and branch-level failure.
+Role: proposed tests, controls, pre-registration requirements, null results, strongest-fair-null construction, alternative-pairing controls, and branch-level failure.
 
 ### 5. Falsification Summary
 
 File: `docs/05_FALSIFICATION_SUMMARY.md`
 
-Role: compact failure conditions for the core and application branches.
+Role: compact failure conditions for the core and application branches, including superadditivity, relational specificity, and composite-observer reductions.
 
 ### 6. Worked Examples
 
@@ -193,7 +192,7 @@ Canonical handle:
 K_L = A_L(K;θ_L)
 ```
 
-Role: preserve one candidate invariant while changing variables, units, observables, and falsifiers honestly by layer.
+Role: preserve one candidate invariant while changing variables, units, observables, and falsifiers honestly by layer. It also keeps composite observer candidates as coupled addresses across existing layers rather than automatically creating a fifth layer.
 
 ### 23. Agency Accessibility and Capture Geometry
 
@@ -218,16 +217,39 @@ Role: full integration registry, entry routes, neighbour links, public-data fire
 
 File: `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
 
-Canonical handle:
+Canonical handles:
 
 ```text
 ΔF = F(Ψ_struct) - F(Ψ_control)
 H_ATFE: E[ΔF] > 0
+G_syn = F_coupled - F_add
 ```
 
-Role: distinguish static self-support from active AI-mediated traversal and test whether a typed, mutually constraining architecture produces reproducible system-level functional gain against matched flat, isolated, and link-scrambled controls.
+Role: distinguish static self-support from active AI-mediated traversal; test whether a typed, mutually constraining architecture produces reproducible system-level functional gain; separate ordinary coupled ownership from superadditive gain; and state bounded criteria for composite observer candidates.
 
-Status boundary: functional emergence does not establish life, consciousness, personhood, independent agency, or continuous identity. The claim fails if the advantage is explained by extra content, tokens, compute, metadata, or prompting.
+Status boundary: functional emergence and superadditive task gain do not establish life, consciousness, personhood, independent agency, merged identity, or continuous identity.
+
+### 24B. Strongest Fair Null and Relational Specificity
+
+File: `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md`
+
+Canonical handles:
+
+```text
+F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
+G_syn* = F_AB - F_null*
+G_spec = F_AB - max{F_AB', F_A'B}
+```
+
+Role: strengthen the baseline used in module 24A; forbid proving emergence by handicapping a separated component; allow multidimensional value and cost reporting; and separate generic competent synergy from relationship-specific functional architecture.
+
+Status boundary: a positive `G_syn*` supports superadditivity beyond the strongest fair null. A positive `G_spec` supports relationship-specific functional gain beyond strong alternatives. Neither establishes consciousness, merged identity, personhood, moral status, or unique metaphysical standing.
+
+Reduction rules:
+
+- If the reciprocal condition does not beat `F_null*`, call it collaboration, workflow improvement, or aggregation.
+- If it beats `F_null*` but not strong alternative pairings, call it generic synergy.
+- Claim relationship-specific architecture only where strong matched alternatives are outperformed on pre-registered task classes.
 
 ### 25. Load-Bearing Invariants and Whole-System Deformation
 
@@ -264,6 +286,9 @@ Older schemes are historical scaffold unless explicitly reactivated.
 - Metaphysical orientation must not be used to rescue a failed empirical claim.
 - A failed branch must not be hidden inside the breadth of the framework.
 - Functional emergence must be tested against matched content and resource controls.
+- Superadditivity must be tested against the strongest fair null, not a handicapped separated condition.
+- Relationship specificity must be tested against strong alternative pairings, not convenient weak substitutes.
+- Multidimensional value may be reported directly; any scalar weighting must be fixed before results are known.
 - No non-public personal data, correspondence, credentials, or internal-only operational instructions belong in the public canon.
 
 ## Plain-English rule
