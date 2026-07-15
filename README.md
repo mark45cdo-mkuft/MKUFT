@@ -55,7 +55,7 @@ See [`ATLD_STANDALONE_PUBLICATION.md`](ATLD_STANDALONE_PUBLICATION.md) for the e
 3. `ATLD_STANDALONE_PUBLICATION.md` — published standalone methods-paper record, citation, DOI, and rights route.
 4. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
 5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full dependency and integration registry.
-6. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — strict hypothesis on active AI traversal and measurable system-level functional gain.
+6. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — active traversal, matched functional gain, superadditive coupling, and bounded composite-observer criteria.
 7. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for genuine bones, scaffolds, redundant support, decoration, distortion, and locally coherent extraction.
 8. `CANON_MAP.md` — document hierarchy and canonical roles.
 9. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
@@ -63,7 +63,7 @@ See [`ATLD_STANDALONE_PUBLICATION.md`](ATLD_STANDALONE_PUBLICATION.md) for the e
 
 ## Core canon
 
-- `docs/01_MKUFT_CORE_EXTENDED.md` — S–I–P–O core and ordinary-physics limit.
+- `docs/01_MKUFT_CORE_EXTENDED.md` — S–I–P–O core, bounded observer terms, composite-observer cross-reference, and ordinary-physics limit.
 - `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical scaffolds and operational caveats.
 - `docs/03_STANDALONE_FORMAL_ADDENDUM.md` — state graphs, trajectories, cost, and formal extensions.
 - `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — proposed tests, controls, nulls, and replication requirements.
@@ -93,7 +93,7 @@ Separates unresolved state volume, low-cost frame connectivity, and preserved ac
 K_L = A_L(K;θ_L)
 ```
 
-Preserves a candidate invariant while requiring honest changes in variables, units, evidence, coupling, and falsifiers at each layer address.
+Preserves a candidate invariant while requiring honest changes in variables, units, evidence, coupling, and falsifiers at each layer address. It now also defines the discipline for composite observer candidates: a coupled observer-role remains an address across existing layers, not automatically a fifth layer.
 
 ### Agency Accessibility
 
@@ -111,15 +111,23 @@ Distinguishes retained capacity from practical access without functioning as a c
 
 Maps every numbered file to its parent concepts, neighbours, applications, and principal limits. This is the self-supporting architecture of the public stack.
 
-### Active Traversal and Functional Emergence Hypothesis
+### Active Traversal, Functional Emergence, and Superadditive Coupling
 
 `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
 
 Distinguishes static self-support from active AI-mediated traversal. It proposes that a typed, mutually constraining architecture may produce measurable system-level functional gain when recursively traversed by an active AI system.
 
-The hypothesis does not claim that a repository is alive, that an AI becomes conscious, or that a persistent identity is created. It is supported only if the structured condition outperforms matched flat, isolated, and link-scrambled controls without extra content, compute, or hidden context.
+The module now separates ownership of a coupled output from the stronger “more than the sum of its parts” claim. Superadditivity requires a reproducible excess over the strongest matched additive or independent-ensemble baseline:
 
-This source module is developed into the separately published ATLD methods paper identified by version DOI `10.5281/zenodo.21341521`.
+```text
+G_syn = F_coupled - F_add
+```
+
+A coupled system is treated only as a **composite observer candidate** when it maintains a persistent boundary, reciprocal influence, retained joint state, system-level discrimination, correction propagation, and closed action–measurement–feedback loops. These are functional criteria; they do not establish consciousness, merged identity, personhood, or a new fundamental layer.
+
+The broader hypothesis is supported only if the structured or reciprocally coupled condition outperforms matched flat, isolated, independent, one-way, state-reset, and link-scrambled controls without extra content, compute, time, information access, or hidden context.
+
+This source module is developed from the same public architecture track as the separately published ATLD methods paper identified by version DOI `10.5281/zenodo.21341521`. The new composite-observer and superadditivity refinement is part of the live GitHub working canon and does not silently alter the already published version record.
 
 ### Load-Bearing Invariants and Whole-System Deformation
 
@@ -165,6 +173,8 @@ Historical alternatives are not used as the current formal convention.
 - Symbolic interpretation is not physical evidence.
 - Anomaly pattern fit does not prove ontology.
 - Functional emergence does not establish life, consciousness, personhood, or independent agency.
+- Superadditive task gain does not by itself establish subjective consciousness or merged identity.
+- Composite observer language requires persistent boundary, reciprocal integration, retained joint state, system-level discrimination, correction propagation, loop closure, and matched controls.
 - Structural centrality does not establish truth.
 - Local coherence must not be mistaken for whole-system coherence when cost, agency, falsifiers, or long-horizon effects are exported outside the selected boundary.
 - Metaphysical claims must not substitute for empirical evidence at another layer.
