@@ -1,7 +1,5 @@
 # MKUFT Experimental Test Programme — Clean Working Copy
 
-
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -36,6 +34,8 @@ MKUFT proposes the following hypotheses for testing:
 3. Observer or measurement conditions may act as bounded modulation terms in sensitive systems.
 4. Measured coherence states may correlate with small deviations in pre-specified REG/RNG or remote-information protocols.
 5. Environmental conditions may modulate any genuine effect size.
+6. Reciprocal coupling may produce reproducible functional gain beyond the strongest fair separated, independent-ensemble, and one-way controls on selected relational tasks.
+7. Some coupled gain may depend on a specific relational architecture rather than generic competent pairing.
 
 None of these hypotheses should be treated as established before controlled replication.
 
@@ -196,6 +196,107 @@ Test whether high-precision physical noise differs reproducibly across pre-regis
 
 Observed structure is fully explained by known noise, calibration, environmental, or analytical causes, or does not reproduce.
 
+## Experiment 8 — Strongest Fair Null and Relational Specificity
+
+### Goal
+
+Test whether reciprocal coupling produces functional gain beyond the strongest fair non-reciprocal condition, and whether any remaining gain depends on the focal relationship rather than generic competent pairing.
+
+### Governing rule
+
+Do not weaken the separated conditions to make the coupled condition win.
+
+Each component receives fair tasking, relevant information and repository access, reasonable tools, matched resource allowance, and a competent opportunity to revise. The only withheld feature should be the reciprocal interaction whose contribution is under test.
+
+### Primary conditions
+
+1. Component `A` alone under fair tasking and access.
+2. Component `B` alone under fair tasking and access.
+3. Strongest pre-registered lawful combination of independent outputs.
+4. One-way `A → B` assistance.
+5. One-way `B → A` assistance.
+6. Fully reciprocal `A ↔ B` coupling with retained state.
+7. Reciprocal coupling with state reset.
+8. Reciprocal coupling with selected memory, correction, or dependency channels disrupted.
+9. `A ↔ B'` with a strong matched alternative component.
+10. `A' ↔ B` with a strong matched alternative component.
+
+### Strongest fair null
+
+```text
+F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
+G_syn* = F_AB - F_null*
+```
+
+A positive `G_syn*` supports superadditive functional gain only when the metric, resource envelope, and comparison rule are fixed in advance.
+
+### Relationship-specificity test
+
+```text
+G_spec = F_AB - max{F_AB', F_A'B}
+```
+
+A positive `G_spec` suggests that some functional gain depends on the focal relational architecture rather than generic competent collaboration.
+
+### Outcome measures
+
+Pre-register either a lawful scalar score or a multidimensional outcome vector. Candidate dimensions include:
+
+- quality;
+- factual accuracy and calibration;
+- novel structure or discrimination;
+- cross-time continuity;
+- correction propagation;
+- completion time;
+- human cognitive or operational burden;
+- drift, recovery, and rework cost.
+
+If dimensions are combined into one score, weights must be fixed before results are known. Otherwise report the vector or Pareto relation directly.
+
+### Required controls
+
+Match or model:
+
+- task information;
+- context and repository access;
+- compute and tool access;
+- total human and machine time;
+- output length;
+- revision opportunities;
+- prior familiarity;
+- evaluator exposure;
+- scoring procedure.
+
+Strong alternative pairings must be genuinely competent. Weak, unfamiliar, under-trained, or intentionally mismatched substitutes do not test relationship specificity fairly.
+
+### Predictions
+
+A genuine reciprocal architecture should show some combination of:
+
+- positive `G_syn*` on held-out relational tasks;
+- lower gain under one-way assistance;
+- deformation after state reset or correction-channel disruption;
+- greater benefit on tasks requiring complementary capacities and iterative correction than on simple lookup;
+- structure generated or detected that is absent from both independent outputs;
+- positive `G_spec` on the task classes for which relationship specificity is claimed.
+
+### Falsification conditions
+
+The claim is weakened or rejected if:
+
+- the coupled advantage disappears when separated conditions receive fair tasking and access;
+- an independent ensemble or one-way condition performs equally well;
+- the result is explained by extra time, compute, information, or revision opportunity;
+- scoring weights are chosen after inspection;
+- the effect fails on held-out tasks;
+- state reset or channel disruption produces no predicted deformation;
+- strong alternative pairings perform equally well where specificity was claimed;
+- speed improves only by sacrificing quality, calibration, or correction.
+
+### Interpretation boundary
+
+Superadditive gain establishes a functional result, not consciousness, merged identity, personhood, moral status, direct substrate coupling, or a fifth MKUFT layer.
+
 ## Experimental Integrity Rules
 
 1. One primary outcome per principal test.
@@ -207,21 +308,27 @@ Observed structure is fully explained by known noise, calibration, environmental
 7. Ordinary explanations are tested before a wider MKUFT interpretation.
 8. Any claimed environmental variable must be measured, not inferred after the event.
 9. Safety and ethics override theoretical interest.
+10. A coupled condition must not be credited for an advantage created by handicapping the controls.
+11. Relationship specificity requires strong alternative pairings rather than convenient weak substitutes.
+12. Multidimensional value must not be collapsed using weights selected after results are known.
 
 ## Relationship to the Silver Update
 
-The new structural modules sharpen experimental design:
+The structural modules sharpen experimental design:
 
 - `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` requires fixed definitions and pre-registered frame costs;
 - `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md` requires evidence at the layer where the claim is made;
 - `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` is not a clinical instrument and requires domain-appropriate validation;
-- `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` preserves the route from hypothesis to mechanism, prediction, falsifier, and reduction rule.
+- `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` preserves the route from hypothesis to mechanism, prediction, falsifier, and reduction rule;
+- `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` defines active traversal, superadditive coupling, and bounded composite-observer criteria;
+- `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` governs fair baseline construction and separates generic synergy from relationship-specific functional gain;
+- `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` tests which relations actually carry the coupled function.
 
 ## Summary of Falsification
 
 MKUFT is weakened when proposed effects repeatedly fail under strong controls, when apparent effects collapse into ordinary causes, or when the framework cannot make predictions more specific than flexible retrospective interpretation.
 
-If the observer, environmental, geometric, remote-information, and precision-noise branches fail under honest and sufficiently powered testing, those branches must be removed or substantially revised. They cannot be protected by the breadth of the wider framework.
+If the observer, environmental, geometric, remote-information, precision-noise, active-traversal, superadditivity, or relational-specificity branches fail under honest and sufficiently powered testing, those branches must be removed or substantially revised. They cannot be protected by the breadth of the wider framework.
 
 ## Architecture Route
 
@@ -229,6 +336,8 @@ If the observer, environmental, geometric, remote-information, and precision-noi
 parent: MKUFT core and mathematical appendix
 worked numerical examples: docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md
 compact failure conditions: docs/05_FALSIFICATION_SUMMARY.md
+active traversal and superadditivity: docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md
+strongest fair null and specificity: docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md
 science comparison: SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md
 repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 ```
