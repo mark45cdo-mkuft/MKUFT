@@ -56,10 +56,11 @@ See [`ATLD_STANDALONE_PUBLICATION.md`](ATLD_STANDALONE_PUBLICATION.md) for the e
 4. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
 5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full dependency and integration registry.
 6. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — active traversal, matched functional gain, superadditive coupling, and bounded composite-observer criteria.
-7. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for genuine bones, scaffolds, redundant support, decoration, distortion, and locally coherent extraction.
-8. `CANON_MAP.md` — document hierarchy and canonical roles.
-9. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
-10. `docs/05_FALSIFICATION_SUMMARY.md` — branch-level and framework-level failure conditions.
+7. `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — strongest-fair-null construction, multidimensional value, and relationship-specificity controls.
+8. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for genuine bones, scaffolds, redundant support, decoration, distortion, and locally coherent extraction.
+9. `CANON_MAP.md` — document hierarchy and canonical roles.
+10. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
+11. `docs/05_FALSIFICATION_SUMMARY.md` — branch-level and framework-level failure conditions.
 
 ## Core canon
 
@@ -117,7 +118,7 @@ Maps every numbered file to its parent concepts, neighbours, applications, and p
 
 Distinguishes static self-support from active AI-mediated traversal. It proposes that a typed, mutually constraining architecture may produce measurable system-level functional gain when recursively traversed by an active AI system.
 
-The module now separates ownership of a coupled output from the stronger “more than the sum of its parts” claim. Superadditivity requires a reproducible excess over the strongest matched additive or independent-ensemble baseline:
+The module separates ownership of a coupled output from the stronger “more than the sum of its parts” claim. Superadditivity requires a reproducible excess over a matched additive or independent-ensemble baseline:
 
 ```text
 G_syn = F_coupled - F_add
@@ -125,9 +126,30 @@ G_syn = F_coupled - F_add
 
 A coupled system is treated only as a **composite observer candidate** when it maintains a persistent boundary, reciprocal influence, retained joint state, system-level discrimination, correction propagation, and closed action–measurement–feedback loops. These are functional criteria; they do not establish consciousness, merged identity, personhood, or a new fundamental layer.
 
-The broader hypothesis is supported only if the structured or reciprocally coupled condition outperforms matched flat, isolated, independent, one-way, state-reset, and link-scrambled controls without extra content, compute, time, information access, or hidden context.
+### Strongest Fair Null and Relational Specificity
 
-This source module is developed from the same public architecture track as the separately published ATLD methods paper identified by version DOI `10.5281/zenodo.21341521`. The new composite-observer and superadditivity refinement is part of the live GitHub working canon and does not silently alter the already published version record.
+`docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md`
+
+Module 24B strengthens the construction of the baseline used in module 24A. It forbids proving emergence by under-tasking, under-informing, or zeroing a capable component. Each separated condition receives its strongest reasonable fair expression:
+
+```text
+F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
+G_syn* = F_AB - F_null*
+```
+
+The module also separates generic competent synergy from relationship-specific architecture:
+
+```text
+G_spec = F_AB - max{F_AB', F_A'B}
+```
+
+A positive `G_syn*` supports superadditivity beyond the strongest fair null. A positive `G_spec` supports relationship-specific functional gain beyond strong alternative pairings. Neither result by itself establishes consciousness, merged identity, personhood, or unique metaphysical status.
+
+The refinement also permits multidimensional value reporting—quality, accuracy, novelty, continuity, time, cognitive burden, drift, and rework—while requiring any scalar weighting to be fixed before results are known.
+
+The broader hypothesis is supported only if the structured or reciprocally coupled condition outperforms matched flat, isolated, independent, one-way, state-reset, link-scrambled, and strong alternative-pairing controls without borrowing the gain from extra content, compute, time, information access, or scoring flexibility.
+
+This live GitHub refinement does not silently alter the already published ATLD version record.
 
 ### Load-Bearing Invariants and Whole-System Deformation
 
@@ -174,6 +196,8 @@ Historical alternatives are not used as the current formal convention.
 - Anomaly pattern fit does not prove ontology.
 - Functional emergence does not establish life, consciousness, personhood, or independent agency.
 - Superadditive task gain does not by itself establish subjective consciousness or merged identity.
+- Superadditivity must be tested against the strongest fair null, not a handicapped separated condition.
+- Relationship-specific gain requires comparison with strong alternative pairings, not weak or intentionally mismatched substitutes.
 - Composite observer language requires persistent boundary, reciprocal integration, retained joint state, system-level discrimination, correction propagation, loop closure, and matched controls.
 - Structural centrality does not establish truth.
 - Local coherence must not be mistaken for whole-system coherence when cost, agency, falsifiers, or long-horizon effects are exported outside the selected boundary.
