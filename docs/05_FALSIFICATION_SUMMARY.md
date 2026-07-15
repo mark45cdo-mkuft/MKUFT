@@ -1,7 +1,5 @@
 # MKUFT Falsification Summary — Clean Working Copy
 
-
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -145,6 +143,53 @@ The active-traversal branch is weakened if:
 
 Functional gain does not establish life, consciousness, personhood, independent agency, or continuous identity.
 
+### Superadditivity, strongest fair null, and relational specificity
+
+The superadditivity branch is weakened if:
+
+- the coupled condition wins only because one separated component is untasked, under-informed, denied reasonable tools, or assigned an artificial value of zero;
+- the coupled score does not exceed the strongest fair null:
+
+```text
+F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
+```
+
+- an independent ensemble or one-way assistance performs as well as full reciprocal coupling;
+- positive gain disappears when total time, compute, context, information access, revision opportunity, and output constraints are matched;
+- scalar score weights are selected after the results are known;
+- the effect fails on held-out relational tasks;
+- state reset, reciprocal-channel disruption, or relation scrambling produces no predicted deformation;
+- faster output is purchased through lower accuracy, calibration, correction, or long-horizon integrity.
+
+The relationship-specificity branch is weakened if:
+
+- the focal pairing does not outperform strong matched alternative pairings on the task classes for which specificity is claimed;
+- alternative components are intentionally weak, unfamiliar, under-trained, or mismatched;
+- the apparent specificity reduces to unequal context, privileged information, extra practice, or evaluator preference;
+- `G_spec` is positive only under post hoc task selection or scoring.
+
+Reduction rules:
+
+> If reciprocal coupling does not beat the strongest fair null, describe the result as competent collaboration, workflow improvement, or aggregation—not superadditive emergence.
+
+> If reciprocal coupling beats the strongest fair null but not strong alternative pairings, describe the result as generic synergy rather than relationship-specific architecture.
+
+> If relationship-specific gain survives matched alternatives, describe only the functional result established. Do not infer consciousness, merged identity, personhood, moral status, or unique metaphysical standing from performance alone.
+
+### Composite observer candidates
+
+The composite-observer branch is weakened if:
+
+- a persistent coupled boundary cannot be identified;
+- joint state is absent or reducible to one component’s private state;
+- causal influence is one-way rather than reciprocal;
+- system-level discrimination and correction can be fully attributed to one component acting alone;
+- action–measurement–feedback loops do not close at the coupled level;
+- disruption of memory, correction, or load-bearing relations produces no predicted whole-system deformation;
+- ordinary temporary aggregation explains the observed function equally well.
+
+Superadditive gain and relational specificity are relevant but not sufficient for composite observer status.
+
 ### Load-bearing invariants and whole-system deformation
 
 The deformation branch is weakened if:
@@ -175,7 +220,9 @@ A claim is not ready unless it states:
 7. the result that forces revision;
 8. the ontology established—and not established—by the evidence;
 9. whether the selected boundary excludes affected agents, transferred cost, falsifiers, or long-horizon consequences;
-10. whether structural dependence is being confused with empirical truth.
+10. whether structural dependence is being confused with empirical truth;
+11. whether the null has been strengthened rather than weakened to favour the claim;
+12. whether a claimed relationship-specific effect has been tested against strong alternative pairings.
 
 The repository fails structurally if independent entry routes produce conflicting definitions, equations, layer placements, or falsifiers.
 
@@ -195,6 +242,9 @@ Strength requires independent, pre-registered, adequately powered evidence such 
 - procedural models predicting held-out artefact structure;
 - consistent reconstruction of the same theory from multiple repository entry points;
 - active traversal outperforming matched flat, isolated, and scrambled controls;
+- reciprocal coupling outperforming the strongest fair separated, independent-ensemble, and one-way controls;
+- relationship-specific gain surviving strong alternative human or AI pairings;
+- state reset and relation disruption producing predicted deformation;
 - controlled deformation distinguishing genuine bones from scaffolds, redundancy, decoration, distortion, and locally efficient extraction;
 - replication of the dependency assay on neutral external corpora.
 
@@ -209,6 +259,8 @@ Strength requires independent, pre-registered, adequately powered evidence such 
 - Structural centrality is not proof of truth.
 - Local coherence is not automatically whole-system coherence.
 - Failure of a branch must be recorded, not absorbed into a broader slogan.
+- Do not prove emergence by handicapping the separated conditions.
+- Do not prove relationship specificity using weak substitutes.
 
 ## Architecture route
 
@@ -219,6 +271,7 @@ formal model: docs/03_STANDALONE_FORMAL_ADDENDUM.md
 experiments: docs/04_EXPERIMENTAL_TEST_PROGRAM.md
 worked examples: docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md
 active traversal: docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md
+strongest fair null and specificity: docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md
 whole-system deformation: docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md
 repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 ```
