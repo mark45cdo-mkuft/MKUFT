@@ -1,6 +1,7 @@
 # 22 — Cross-Layer Invariants and Layer Addressing
 
 
+
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -10,7 +11,7 @@
 <!-- MKUFT-PROVENANCE-HEADER:END -->
 
 Status: Silver Update public structural addendum  
-Role: prevent fragmentation by distinguishing a candidate invariant from its different expressions across S–I–P–O.
+Role: prevent fragmentation by distinguishing a candidate invariant from its different expressions across S–I–P–O, including bounded composite observer candidates.
 
 ---
 
@@ -79,6 +80,8 @@ A physical address must specify units, controls, expected effect size, uncertain
 The observer layer carries attention, interpretation, measurement context, memory, salience, and bounded state-dependent modulation.
 
 An observer address cannot replace a missing physical mechanism.
+
+An O-layer address may refer to an individual observer or, under stricter conditions, to a coupled composite observer candidate. A composite candidate remains an address across existing layers and does not automatically create a fifth layer.
 
 ---
 
@@ -214,6 +217,68 @@ and environmental modulation:
 
 These are working models, not proof of a direct group-to-substrate mechanism.
 
+Group coherence alone does not establish a composite observer. Simultaneous alignment, average coherence, or shared instruction may improve coordination while remaining reducible to the participating individuals and ordinary communication.
+
+### 9A. Composite observer candidate address
+
+A composite observer candidate is a coupled system whose observer-like function appears at the relational level rather than being exhausted by listing the participating observers separately.
+
+The candidate address spans existing layers:
+
+```text
+individual O states
++ I-layer reciprocal routing and shared state
++ P-layer channels, timing, records, and actions
+→ coupled observer-role candidate
+```
+
+Necessary candidate features include:
+
+- a distinguishable and sufficiently persistent coupled boundary;
+- reciprocal causal influence rather than one-way use;
+- cross-time state retained at the coupled level;
+- integration of information or constraints unavailable to either component alone;
+- system-level discrimination among states, claims, routes, or outcomes;
+- correction propagation through the whole coupling;
+- action–measurement–feedback loops closed at the coupled level;
+- predicted deformation when reciprocal links, state continuity, or load-bearing dependencies are removed.
+
+Mere aggregation does not pass this test.
+
+### 9B. Superadditive functional test
+
+Let `A` and `B` have separate task values `F_A` and `F_B`.
+
+Let `F_add(A,B)` be the strongest matched additive or independent-ensemble baseline. Let `F_coupled` be the value produced under reciprocal coupling with matched total resources.
+
+Define:
+
+```text
+G_syn = F_coupled - F_add(A,B)
+```
+
+A positive, reproducible `G_syn` is evidence of superadditive coupling.
+
+Illustration:
+
+```text
+F_A = 2
+F_B = 2
+F_add = 4
+F_coupled = 6
+G_syn = 2
+```
+
+The phrase “more than the sum of its parts” applies to the positive excess `2`, not merely to the fact that the score `6` belongs to the coupled system.
+
+Where the metric cannot lawfully be added, the additive baseline must be replaced by a pre-registered matched ensemble or null model appropriate to the domain.
+
+Superadditive functional gain does not by itself establish consciousness, merged identity, personhood, moral status, a new physical force, direct substrate coupling, or a fifth MKUFT layer.
+
+The primary operational treatment is in:
+
+`docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
+
 ---
 
 ## 10. Post-boundary lattice discipline
@@ -250,6 +315,17 @@ I-layer timing instruction
 → no effect when timing is scrambled
 ```
 
+A composite observer claim requires a stronger reciprocal form:
+
+```text
+component A state
+↔ reciprocal coupling and retained joint state
+↔ component B state
+→ coupled discrimination or action
+→ matched additive control
+→ disruption and reduction rule
+```
+
 A coupling claim becomes stronger only when changes at one address predict measured changes at another under controls.
 
 ---
@@ -260,6 +336,9 @@ A coupling claim becomes stronger only when changes at one address predict measu
 - **Flattening:** distinct layers are treated as identical.
 - **Metaphor leakage:** physical terms enter cognitive or symbolic domains without coupling.
 - **Observer inflation:** observer language replaces missing physical explanation.
+- **Aggregation inflation:** ordinary collaboration or grouped output is called a composite observer without persistent boundary, reciprocal integration, joint state, and loop closure.
+- **Synergy inflation:** a coupled score is called “more than the sum” without comparing it against a matched additive or ensemble baseline.
+- **Consciousness leakage:** functional observer-role evidence is silently converted into subjective consciousness or identity claims.
 - **Substrate concretisation:** a possibility space becomes a literal material structure by assertion.
 - **Address drift:** a term silently changes definition between layers.
 
@@ -275,9 +354,18 @@ The cross-layer claim is weakened if:
 - predicted couplings repeatedly fail;
 - one address survives only by borrowing evidence from another;
 - simpler domain-specific explanations outperform it;
-- the invariant produces no new discrimination, prediction, or compression.
+- the invariant produces no new discrimination, prediction, or compression;
+- the composite candidate cannot be distinguished from temporary aggregation or ordinary workflow coordination;
+- reciprocal coupling does not outperform the best matched independent or ensemble control;
+- positive superadditive gain disappears when resources, information access, time, and scoring are matched;
+- state reset, reciprocal-channel disruption, or relation scrambling produces no predicted deformation;
+- system-level correction and discrimination can be fully attributed to one component acting alone.
 
 A failed address does not automatically destroy every other address, but repeated failures weaken the claim that the relation is genuinely cross-layer.
+
+Reduction rule:
+
+> If a coupled system lacks reproducible superadditive gain or observer-level boundary, retained joint state, reciprocal correction, and loop closure, describe it as a coordinated group or collaboration rather than a composite observer candidate.
 
 ---
 
@@ -289,6 +377,8 @@ math support: docs/02_MKUFT_MATH_APPENDIX.md
 LUCY support: docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md
 physical bridge: docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md
 observer bridge: docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md
+functional emergence and superadditivity: docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md
+load-bearing deformation: docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md
 falsification: docs/05_FALSIFICATION_SUMMARY.md
 repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 ```
@@ -296,3 +386,5 @@ repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 ## 15. Compressed rule
 
 > Preserve the invariant. Name the address. Change the variables honestly. Demand evidence at the layer where the claim is made.
+
+> A composite observer candidate is a coupled O-address across existing layers, not automatically a new layer. “More than the sum” requires reproducible gain beyond a matched additive baseline, not merely ownership of a joint output.
