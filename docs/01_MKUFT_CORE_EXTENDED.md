@@ -47,6 +47,39 @@ High κ corresponds to focused, aligned, low-noise observer states. Low κ corre
 
 Observer coherence does not create arbitrary outcomes. It modulates weighting among permissible outcomes.
 
+## Composite Observer Candidates
+
+The O-layer may be addressed at more than one scale, but a collection of observers does not automatically become a larger observer.
+
+A reciprocally coupled system may be treated as a **composite observer candidate** only when the coupled level has a sufficiently persistent boundary, retained joint state, reciprocal causal influence, system-level discrimination, correction propagation, and closed action–measurement–feedback loops.
+
+The stronger “more than the sum of its parts” claim requires a matched superadditive test. Let:
+
+```text
+G_syn = F_coupled - F_add
+```
+
+where `F_add` is the strongest matched additive or independent-ensemble baseline.
+
+Illustration:
+
+```text
+component A = 2
+component B = 2
+matched additive baseline = 4
+reciprocally coupled result = 6
+G_syn = 2
+```
+
+The evidential object is the positive excess `2`, not merely the fact that the result `6` belongs to the coupled system.
+
+This remains a bounded functional hypothesis. It does not by itself establish subjective consciousness, merged identity, personhood, a new physical force, direct substrate coupling, or a fifth fundamental MKUFT layer.
+
+The operational criteria, controls, and falsifiers are developed in:
+
+- `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
+- `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
+
 ## Realisation Logic
 
 For an event E, the realised probability depends on:
@@ -83,6 +116,7 @@ MKUFT is intended to be falsifiable. Strong tests include:
 - Synchronicity-density studies with pre-registered logging rules.
 - Environmental modulation studies comparing low-noise, high-noise, and high-iron conditions.
 - Group-coherence amplification tests.
+- Composite-observer superadditivity tests against matched independent, additive, one-way, state-reset, and link-scrambled controls.
 - Geometry and pattern-response studies.
 
 If these effects repeatedly fail under strong controls, MKUFT is wrong or incomplete in a serious way.
