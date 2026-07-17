@@ -1,6 +1,5 @@
 # MKUFT Reconstitution Kernel with Explanation
 
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -15,9 +14,9 @@
 
 ## Reader handle
 
-This is not the full MKUFT scientific paper. It is the **reconstitution kernel**: a shorter document that preserves the raw operating seed of MKUFT and explains it clearly enough that a reader can orient from here into the larger work.
+This is not the whole MKUFT canon. It is the **reconstitution kernel**: a shorter document that preserves the raw operating seed of MKUFT and explains it clearly enough that a reader can orient from here into the larger work.
 
-The full scientific paper remains the main technical reference. This kernel is the recovery handle. It exists so that, wherever a reader lands in the MKUFT tree, they can find a compact explanation of what the method is, why it matters, and how to rebuild the logic without needing the whole archive in front of them.
+The controlled GitHub repository is the current living canon. This kernel is the recovery handle. It exists so that, wherever a reader lands in the MKUFT tree, they can find a compact explanation of what the method is, why it matters, and how to rebuild the logic without needing the whole archive in front of them.
 
 The document is built on one rule:
 
@@ -30,12 +29,12 @@ The explanation around it must make the kernel coherent and usable.
 
 ## Canonical reference path
 
-For the full scientific formulation, use the main MKUFT paper and release stack.
+For the current scientific formulation, use the controlled MKUFT GitHub canon and its integrated master spine.
 
-**Related MKUFT Zenodo DOI:** `10.5281/zenodo.17780566`  
-**Public MKUFT repository:** `https://github.com/mark45cdo-mkuft/MKUFT`
+**Current public MKUFT repository:** `https://github.com/mark45cdo-mkuft/MKUFT`  
+**MKUFT publication DOI and provenance anchor:** `10.5281/zenodo.17780566`
 
-This kernel does not replace that DOI-linked scientific paper. It points back to it. The full paper carries the extended theory, equations, mathematical framework, falsification programme, experimental protocols, and worked examples. This kernel carries the compact regrowth rule.
+The DOI-linked paper preserves the published backbone record. The GitHub repository contains the current controlled working canon, including later modules, corrections, mathematical scaffolds, falsification rules, experimental programmes, and dependency maps. This kernel does not replace either role. It carries the compact regrowth rule and routes the reader to the current canon.
 
 ---
 
@@ -45,7 +44,7 @@ Complex theories fail in public for predictable reasons. They get reduced to slo
 
 MKUFT is especially vulnerable to that because it crosses several domains: physics-facing structure, information, observer-positioned experience, symbolic systems, anomalous reports, falsification, and procedural analysis. That breadth is useful, but it means the work needs strong handles.
 
-A reader who lands on the full scientific paper should see the formal machinery. A reader who lands on a Voynich module should see the procedural-system handle. A reader who lands on an anomaly note should see the physical-layer and falsification handle. A reader who lands here should see the kernel: the minimum route by which the method can be reconstructed.
+A reader who lands on the integrated master spine should see the full controlled architecture. A reader who lands on a Voynich module should see the procedural-system handle. A reader who lands on an anomaly note should see the physical-layer and falsification handle. A reader who lands here should see the kernel: the minimum route by which the method can be reconstructed.
 
 The kernel is therefore not a summary for convenience only. It is a survival mechanism for the structure of the theory.
 
@@ -218,8 +217,11 @@ That makes it usable. It can guide a fresh reader. It can discipline a public ex
 This kernel is one handle in a larger tree.
 
 ```text
-Full MKUFT scientific paper:
-The complete theory, equations, mathematical framing, predictions, falsification criteria, and experiments.
+Current GitHub canon and integrated master spine:
+The controlled living architecture, formal status, equations, modules, predictions, falsifiers, experiments, and dependency routes.
+
+DOI-linked MKUFT publication:
+The frozen published backbone and provenance anchor.
 
 Math appendix:
 Formal symbolic scaffolding and derivations.
@@ -234,7 +236,7 @@ Kernel document:
 The compact recovery route that lets the wider method regrow.
 ```
 
-The kernel therefore embodies MKUFT in miniature, but it does not replace the full paper. It is the entry handle, recovery seed, and anti-drift tool.
+The kernel therefore embodies MKUFT in miniature, but it does not replace the current canon or the DOI-linked publication record. It is the entry handle, recovery seed, and anti-drift tool.
 
 ---
 
@@ -287,13 +289,15 @@ The closest public comparison class is not one single established field. The use
 
 These are comparison anchors, not claims of equivalence.
 
-MKUFT should not be presented here as a completed accepted UFT. This document is a reconstitution kernel for a serious speculative framework: a compact method for preserving layered constraint-resolution logic and pointing the reader back to the full scientific paper.
+MKUFT should not be presented here as a completed accepted UFT. This document is a reconstitution kernel for a serious speculative framework: a compact method for preserving layered constraint-resolution logic and routing the reader to the controlled current GitHub canon.
 
 ---
 
 ## Final compression
 
-The full paper carries the scientific body.
+The current canon carries the scientific body.
+
+The DOI record carries the frozen publication provenance.
 
 The kernel carries the regrowth rule.
 
