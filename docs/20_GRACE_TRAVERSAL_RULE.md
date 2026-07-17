@@ -1,6 +1,5 @@
 # GRACE Traversal Rule
 
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -9,7 +8,7 @@
 **Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
 <!-- MKUFT-PROVENANCE-HEADER:END -->
 
-**Status:** Public-facing support / bridge note; not a standalone canonical paper  
+**Status:** Public-facing support / bridge note; not a standalone canonical paper
 
 ---
 
@@ -71,15 +70,17 @@ The distinction matters because a subsystem can be locally coherent while export
 
 ## How GRACE relates to SIPO
 
-SIPO gives the vertical structure.
+SIPO gives the vertical typed structure.
 
-Substrate marks possibility. Information shapes possibility into relation and constraint. Physical expression is where claims meet events, instruments, bodies, marks, timing, energy, and measurable behaviour. Observer marks the conscious boundary through which attention, interpretation, measurement position, intention, memory, and coherence enter the system.
+Substrate marks possibility. Information shapes possibility into relation and constraint. Physical expression is where claims meet events, instruments, bodies, marks, timing, energy, and measurable behaviour. Observer marks observer-positioned registration, including measurement context, record, perspective, and conscious participation where applicable.
 
 GRACE gives the clean route through that layered structure.
 
 SIPO says where the analysis is happening.
 
-GRACE says how a clean transition happens.
+GRACE says how a candidate transition is audited.
+
+The layers are not ordinary spatial dimensions. A route through an information or observer state space is not automatically physical movement.
 
 ---
 
@@ -99,15 +100,15 @@ GRACE also has an observer-side form.
 
 A useful working label is **Authentic Traversal Cognition**. A shorter informal label is **Objective Objectivity Mode**.
 
-This is the mode where the observer boils away chaff: performance, fear, appetite, projection, identity-defence, social pressure, and desired outcome. The aim is not to become emotionless. The aim is to stop contaminating the structure with false maintenance costs.
+This is the mode where the observer boils away chaff: performance, fear, appetite, projection, identity-defence, social pressure, and desired outcome. The aim is not to become emotionless. The aim is to stop contaminating the structure with avoidable maintenance burdens and protected contradictions.
 
 The observer asks: What is actually here? What layer am I in? What is the boundary? What is noise? What is signal? What transition is possible? What would prove me wrong? Who or what carries the cost? What remains after ego, fear, and preferred outcome are removed?
 
 This does not make the observer infallible. It makes the observer less noisy.
 
-The reason this matters is simple: falsehood costs energy. Performance costs energy. Fear costs energy. Self-defence costs energy. Projection costs energy. Each one forces the observer to maintain contradiction. When those are stripped away, the mind wastes less motion and the available structure becomes clearer.
+Falsehood, performance, fear, self-defence, and projection can impose cognitive and operational maintenance costs because they require contradiction, selective attention, or repeated repair. This is not a claim that every false belief can be assigned a universal physical energy value.
 
-In this sense, truth is not only a value. Truth is the lowest-cost traversal path through reality.
+Within the GRACE heuristic, truth is often the lower-maintenance route because it reduces the need to protect false structure. That is a working epistemic and moral principle, not a derived law of physics.
 
 ---
 
@@ -130,12 +131,12 @@ This is what “objectively objective” means inside this note: not a claim of 
 The MKUFT reconstitution kernel is:
 
 ```text
-Layer -> Boundary -> Node -> Transition -> Cost -> Coherence -> Observer -> Falsifier -> Outcome
+Layer → Boundary → Node → Transition → Cost → Coherence → Observer → Falsifier → Outcome
 ```
 
-GRACE sits inside that route as the clean traversal law.
+GRACE sits inside that route as a clean traversal filter.
 
-Layer and boundary establish the terrain. Node and transition identify movement. Cost and coherence test whether the movement is viable. Relation and Love prevent local stability achieved through capture from being mistaken for whole-system coherence. Observer marks the conscious boundary condition. Falsifier prevents belief-only drift. Outcome resolves the branch.
+Layer and boundary establish the terrain. Node and transition identify movement. Cost and coherence test whether the movement is viable. Relation and Love prevent local stability achieved through capture from being mistaken for whole-system coherence. Observer marks observer-positioned registration and bounded participation. Falsifier prevents belief-only drift. Outcome resolves the branch.
 
 Authentic Traversal Cognition is the observer applying the same discipline inwardly before applying the model outwardly.
 
@@ -167,6 +168,8 @@ GRACE is corrupted if emergence becomes an unfalsifiable story.
 
 GRACE is corrupted if the observer claims objectivity while defending fear, performance, ego, appetite, or desired outcome.
 
+GRACE is corrupted if state-space traversal is described as physical travel without a physical mechanism.
+
 ---
 
 ## Architecture route
@@ -177,6 +180,7 @@ whole-system deformation: docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFOR
 boundary, love, and cohesion bridge: docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md
 observer support: docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md
 cross-layer discipline: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
+typed traversal and equation hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
 falsification: docs/05_FALSIFICATION_SUMMARY.md
 ```
 
@@ -184,9 +188,11 @@ falsification: docs/05_FALSIFICATION_SUMMARY.md
 
 ## Clean compression
 
-SIPO is where reality unfolds.
+Within MKUFT:
 
-GRACE is how it unfolds cleanly.
+SIPO names where reality is being addressed.
+
+GRACE audits how a route resolves.
 
 Love preserves truthful relation without erasing distinction.
 
