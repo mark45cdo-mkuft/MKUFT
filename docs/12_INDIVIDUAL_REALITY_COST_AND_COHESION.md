@@ -1,7 +1,5 @@
 # Individuality, Boundary Cost, and Cohesion
 
-
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -33,7 +31,7 @@ That distinction may be:
 - social;
 - procedural.
 
-The cost of persistence may involve energy, maintenance, error correction, material replacement, regulatory effort, contradiction, or information loss.
+The cost of persistence may involve energy, maintenance, error correction, material replacement, regulatory effort, contradiction, or information loss. Outside physics, “cost” need not mean physical energy and must be operationalised for the active domain.
 
 ## 2. Persistence and equilibration
 
@@ -46,13 +44,21 @@ This is a general systems pattern, not a universal law that every stable system 
 
 ## 3. Dimensionality hypothesis
 
-Three-dimensional space permits closed surfaces that enclose volume, orientation, curvature, rotation, and torque.
+In `n` spatial dimensions, a codimension-one boundary may enclose an `n`-dimensional region when the relevant topology permits it. Three-dimensional space specifically permits familiar two-dimensional closed surfaces enclosing volume, together with the rotational and orientational structure observed in ordinary physical systems.
 
-MKUFT treats the usefulness of three dimensions for persistent bounded structures as a question worth examining.
+MKUFT treats the usefulness of three dimensions for persistent bounded physical structures as a question worth examining.
 
-A stronger claim—that 3D is the uniquely cheapest dimensionality for individuality—would require a defined cost function and comparison with mathematically specified systems in other dimensions.
+A stronger claim—that 3D is the uniquely cheapest dimensionality for individuality—would require:
+
+- a declared class of comparable systems in other dimensions;
+- a defined boundary, stability, and maintenance cost;
+- matched topology and dynamics;
+- a proof or numerical comparison;
+- a reason the result is not an artefact of the selected model.
 
 Until then, it remains a heuristic hypothesis, not a result.
+
+Higher-dimensional state spaces used to describe information, cognition, or control variables are not additional physical spatial dimensions. “Traversal” through such a state space must not be presented as literal physical movement without a physical model.
 
 ## 4. Boundary, gradient, and field
 
@@ -134,6 +140,8 @@ A trust-based system may carry complexity with less friction when trust is deser
 
 This is a psychological and social systems claim. It is not presented as a new physical interaction.
 
+Within MKUFT's metaphysical interpretation, Love is more than a low-cost proxy: it is a load-bearing unity-principle. Measurable social proxies do not exhaust or prove that metaphysical claim.
+
 ## 11. Boundaries and intelligence
 
 Novel information often appears at interfaces where systems encounter difference: sensory boundaries, ecological edges, disciplinary crossings, social frontiers, or changing task conditions.
@@ -146,21 +154,23 @@ The narrower hypothesis is:
 
 ## 12. Link to traversal cost
 
-A candidate path-cost model is:
+For a path `γ` within one declared state space, a candidate path-cost model is:
 
 ```text
 C[γ] = ∫_γ λ(x) ds
 ```
 
-where `λ(x)` must be defined for the domain.
+where `λ(x)`, `ds`, and the resulting units must be defined for the domain.
 
-A candidate path-weight model is:
+A Gibbs-like path-weight model requires a dimensionless exponent:
 
 ```text
-P(B|A) ∝ Σ_{γ ∈ Γ(A→B)} exp[-C[γ]]
+P(B|A) = (1/Z_A) Σ_(γ ∈ Γ(A→B)) exp[-β C[γ]]
 ```
 
-These expressions test whether lower-cost and more numerous admissible routes improve prediction. They are not established universal laws.
+or an explicitly dimensionless normalised cost.
+
+These expressions test whether lower-cost and more numerous admissible routes improve prediction. They are not established universal laws, and an abstract route is not automatically a physical trajectory.
 
 ## 13. Falsifiers and limits
 
@@ -170,6 +180,7 @@ The bridge is weakened if:
 - one domain’s evidence is used as proof in another;
 - physical terms are applied metaphorically without warning;
 - dimensional claims lack an explicit comparison model;
+- state-space dimension is confused with physical spatial dimension;
 - social or psychological claims perform worse than established theories;
 - the framework cannot specify what “cost” means in the active domain.
 
@@ -179,6 +190,7 @@ The bridge is weakened if:
 parent: boundary, cost, and coherence in the MKUFT core
 formal model: docs/03_STANDALONE_FORMAL_ADDENDUM.md
 layer discipline: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
+typed traversal and equation hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
 agency application: docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md
 physics-facing limits: docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md
 falsification: docs/05_FALSIFICATION_SUMMARY.md
@@ -196,7 +208,7 @@ What boundary is maintained?
 What difference does it preserve?
 What does maintenance cost?
 What happens when the boundary becomes too weak or too rigid?
-Which parts are literal, and which are only analogous?
+Which dimensions are physical, which belong to a state space, and which are only analogical?
 ```
 
 That is the useful convergence. The mechanism must still be proven separately at each layer.
