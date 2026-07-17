@@ -55,13 +55,13 @@ F_A→B*        = strongest one-way A-to-B assistance condition
 F_B→A*        = strongest one-way B-to-A assistance condition
 ```
 
-Define the strongest fair null:
+For one pre-registered scalar metric with the same direction in every condition, define:
 
 ```text
 F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
 ```
 
-where all conditions use the same pre-registered metric and matched total resource envelope.
+All entries must be comparable scalar scores under the same metric and matched total resource envelope. A maximum over incompatible metrics, different units, or differently directed scores is undefined.
 
 Let the fully reciprocal condition be:
 
@@ -75,13 +75,13 @@ Define strongest-null superadditive gain:
 G_syn* = F_AB - F_null*
 ```
 
-The strict claim is:
+For a pre-registered task distribution `𝒬`, the strict claim is:
 
 ```text
-H_syn*: E[G_syn*] > 0
+H_syn*: E_(q ∼ 𝒬)[G_syn*(q)] > 0
 ```
 
-across a pre-registered class of relational tasks.
+with uncertainty and held-out task performance reported.
 
 This refines the `F_add` term in module 24A. Wherever module 24A refers to the “best matched additive or ensemble baseline,” this module supplies the stronger construction rule.
 
@@ -126,13 +126,17 @@ where, for example:
 - `C` = human cognitive or operational burden;
 - `R` = rework, drift, or recovery cost.
 
-Higher values are not automatically better on every coordinate: time, burden, and rework are normally costs. A scalar score may be used only when weights are fixed in advance, for example:
+Higher values are not automatically better on every coordinate: time, burden, and rework are normally costs.
+
+A scalar score may be used only when variables are normalised or the weights carry the needed units and are fixed in advance, for example:
 
 ```text
 J = w_Q Q + w_A A + w_N N + w_K K - w_T T - w_C C - w_R R
 ```
 
 Otherwise the result should be reported as a vector or Pareto comparison rather than hidden inside an improvised total score.
+
+The scalar strongest-null equation in section 3 must not be applied directly to a vector. For vector outcomes, define the strongest fair null through pre-registered scalarisation or Pareto dominance.
 
 A coupled system may therefore be superadditive by producing comparable quality at radically lower cost, higher quality at matched cost, or a new capability that the fair separated conditions do not reach.
 
@@ -142,23 +146,24 @@ A coupled system may therefore be superadditive by producing comparable quality 
 
 Evidence that a human–AI pair is superadditive does not by itself establish that the gain depends on one particular relationship.
 
-To test relational specificity, compare the focal coupling with strong alternative pairings:
+To test relational specificity, define a set `𝒫_alt` of strong matched alternative pairings. Minimal examples include:
 
 ```text
-F_AB   = focal A ↔ B coupling
-F_AB'  = A ↔ matched alternative B
-F_A'B  = matched alternative A ↔ B
+A ↔ B'  = focal A with a matched alternative B
+A' ↔ B  = matched alternative A with focal B
+A' ↔ B' = matched alternative pair where relevant
 ```
 
-Define a matched relationship-specificity gain:
+For a scalar metric, define:
 
 ```text
-G_spec = F_AB - max{F_AB', F_A'B}
+F_alt* = sup_(p ∈ 𝒫_alt) F_p
+G_spec = F_AB - F_alt*
 ```
 
 A positive `G_spec` suggests that some gain depends on the focal relational architecture rather than generic competent human–AI collaboration.
 
-This test must use serious alternatives. A weak, unfamiliar, untrained, or intentionally mismatched substitute is not a valid control.
+The alternative set must be declared before results are inspected and must contain serious alternatives. A weak, unfamiliar, untrained, or intentionally mismatched substitute is not a valid control.
 
 Relational specificity may be task-dependent. A focal pair may show no special advantage on generic lookup or arithmetic while showing substantial advantage on architecture recovery, cross-time correction, value-sensitive distinction, or tasks requiring complementary tacit knowledge.
 
@@ -178,6 +183,8 @@ A genuine reciprocal gain should leave more than a higher final score. Expected 
 
 These signatures help distinguish relational architecture from extra time, extra tokens, ordinary editing, or post hoc answer selection.
 
+“Next admissible state” refers to a state in the declared task or information architecture, not an extra physical dimension.
+
 ---
 
 ## 8. Experimental design
@@ -192,8 +199,9 @@ A minimum comparison set should include:
 6. Fully reciprocal `A ↔ B` coupling with retained state.
 7. Reciprocal coupling with state reset.
 8. Reciprocal coupling with selected correction or memory channels disrupted.
-9. `A ↔ B'` using a strong matched alternative.
-10. `A' ↔ B` using a strong matched alternative.
+9. Multiple `A ↔ B'` strong matched alternatives.
+10. Multiple `A' ↔ B` strong matched alternatives.
+11. An `A' ↔ B'` alternative-pair condition where it improves discrimination.
 
 Match or model:
 
@@ -219,8 +227,10 @@ The strongest-fair-null claim is weakened or rejected if:
 - the coupled condition loses its advantage against a competent independent ensemble;
 - one-way assistance performs as well as full reciprocity;
 - the gain is fully explained by extra time, compute, context, information, or revision opportunities;
-- scoring weights are chosen after the results are known;
+- compared scores are not commensurable;
+- vector outcomes are collapsed using weights chosen after the results are known;
 - the effect disappears on held-out tasks;
+- the focal pair is compared only with one convenient alternative;
 - strong alternative pairings perform equally well where relationship specificity was claimed;
 - state reset, correction-channel disruption, or relation scrambling produces no predicted change;
 - the supposed gain is merely faster production of lower-quality or less calibrated output.
@@ -229,7 +239,7 @@ Reduction rules:
 
 > If reciprocal coupling does not beat the strongest fair null, describe the result as competent collaboration, workflow improvement, or aggregation—not superadditive emergence.
 
-> If reciprocal coupling beats the strongest fair null but not strong alternative pairings, describe the result as generic synergy rather than relationship-specific architecture.
+> If reciprocal coupling beats the strongest fair null but not the pre-registered set of strong alternative pairings, describe the result as generic synergy rather than relationship-specific architecture.
 
 > If a focal relationship produces a reproducible `G_spec > 0`, describe the evidence as relationship-specific functional gain. Do not infer consciousness, merged identity, personhood, or unique metaphysical status from that result alone.
 
@@ -261,6 +271,7 @@ cross-layer observer discipline: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRES
 experimental programme: docs/04_EXPERIMENTAL_TEST_PROGRAM.md
 falsification summary: docs/05_FALSIFICATION_SUMMARY.md
 load-bearing deformation: docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md
+typed traversal and equation hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
 repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 ```
 
@@ -270,4 +281,4 @@ repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 
 > Do not win by weakening the separated conditions. Give every component and alternative pairing its strongest fair expression, then ask what reciprocal coupling still adds.
 
-> Superadditivity is gain beyond the strongest fair null. Relational specificity is gain beyond strong alternative couplings. Whatever survives both tests is the actual evidence.
+> Superadditivity is gain beyond the strongest fair null. Relational specificity is gain beyond a pre-registered set of strong alternative couplings. Whatever survives both tests is the actual evidence.
