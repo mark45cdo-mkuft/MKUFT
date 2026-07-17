@@ -18,14 +18,16 @@ A broad framework must not hide failed branches inside its breadth. Each module 
 
 ## Core scientific shape
 
-MKUFT uses:
+MKUFT uses typed layer addresses:
 
 - S — Substrate;
 - I — Information;
 - P — Physical;
-- O — Observer.
+- O — Observer-positioned registration and bounded participation.
 
 The observer is bounded. It cannot replace missing physical dynamics.
+
+The layers are not automatically ordinary spatial dimensions or coordinates in one homogeneous vector space.
 
 ## Standard-physics recovery
 
@@ -37,11 +39,15 @@ P_realized(E) ≈ P_phys(E)
 
 If MKUFT cannot recover accepted physical prediction in the ordinary limit, its physics-facing formulation fails.
 
+The approximation must eventually state the compared objects, norm or statistic, tolerance, uncertainty, and regime. An unexplained `≈` is not a recovery proof.
+
 ## Core failure conditions
 
 ### 1. Additional weighting adds no predictive value
 
 The realised-probability scaffold is weakened if its additional terms cannot be operationally defined or improve no prediction beyond accepted physical and statistical models.
+
+Probability weights must be non-negative and normalisable. A measure must not be called a probability unless its normalisation is established.
 
 ### 2. Observer-linked branches fail
 
@@ -57,13 +63,42 @@ Environmental branches are weakened if pre-registered, measured variables do not
 
 Geometry claims are weakened if feature-matched controls, conventional boundary models, and ordinary mechanics explain outcomes equally or better.
 
+An undeclared quadratic expression must not be called physical energy density until variables, units, and coupling justify that interpretation.
+
 ### 5. Path-density and cost models fail
 
 Traversal-cost claims are weakened if path availability and cost add no predictive value to learning, transition, boundary, timing, or measurement models.
 
+A Gibbs-like path weight is invalid if its exponent is dimensionful or its normalisation is undefined.
+
 ### 6. Unbounded violations are required
 
 If the theory requires large, uncontrolled departures from accepted physics while claiming only small bounded modulation, it becomes internally inconsistent.
+
+## Typed traversal and equation-hygiene failure conditions
+
+The formal architecture is weakened if:
+
+- physical spatial dimension, state-space dimension, and S–I–P–O layer address are silently treated as one thing;
+- an abstract graph route is presented as physical travel or signalling without a physical mechanism;
+- informational adjacency is treated as physical proximity or endpoint write-access;
+- a tuple, projection, arrow, or named operator is treated as a completed mechanism merely because it has notation;
+- cross-layer influence is claimed without typed source and receiving spaces, coupling variables, observable effects, ordinary baselines, and falsifiers;
+- one symbol carries incompatible roles such as layer, function space, element, cost, and coherence without qualification;
+- dimensionful quantities appear inside exponentials without a reciprocal scale;
+- quantities with incompatible units are added, subtracted, maximised, or compared as though commensurable;
+- vector outcomes are inserted into scalar equations without pre-registered scalarisation or Pareto rules;
+- sign conventions change after deformation results are known;
+- probability weights become negative or non-normalisable;
+- continuous and discrete event spaces are normalised by the wrong operation;
+- an approximation lacks a declared future comparison statistic, tolerance, uncertainty treatment, and regime;
+- “hyperdimensional” or “higher-dimensional” language is used to imply additional physical dimensions without a metric, dynamics, observables, and test;
+- equation-status labels become permanent shields against derivation rather than honest current boundaries;
+- God or Love is converted into an unmeasured physical parameter or used to rescue a failed physical branch.
+
+Reduction rule:
+
+> If typed or dimensional language adds no operational distinction, retain it only as explanatory bookkeeping. Do not call it a new physical mechanism.
 
 ## Silver Update and post-Silver failure conditions
 
@@ -71,10 +106,13 @@ If the theory requires large, uncontrolled departures from accepted physics whil
 
 The model is weakened if:
 
-- `A_t^vol`, `R_t`, and `X_t` cannot be distinguished or scored reliably;
+- `A_t,vol^(d)`, `R_t`, and `X_t` cannot be distinguished or scored reliably;
+- no declared domain state space, encoding, and measure can be supplied for `Ω_t^(d)`;
+- states, paths, identities, interpretations, and hypotheses are mixed inside one quantitative feasible set without a common encoding;
 - generative and exploitative ambiguity show no repeatable difference under inquiry;
 - ambiguity regeneration does not track threatened access or attribution;
 - frame-switching cost cannot be measured or classified independently;
+- the multiplicative product performs no better than simpler additive or interaction alternatives;
 - the model only explains events retrospectively;
 - simpler incentive, noise, uncertainty, or error models perform better.
 
@@ -86,10 +124,11 @@ A proposed invariant is weakened if:
 
 - it cannot be stated independently of examples;
 - layer addresses silently change its meaning;
-- no lawful coupling or address map is available;
+- no lawful typed coupling or address map is available;
 - evidence from one layer rescues failure at another;
 - predicted couplings repeatedly fail;
-- the invariant produces no new prediction or compression.
+- the invariant produces no new prediction or compression;
+- the same algebra is presented as proof of the same physical mechanism across layers.
 
 A shared algebraic template is not evidence of one physical mechanism.
 
@@ -98,17 +137,20 @@ A shared algebraic template is not evidence of one physical mechanism.
 The foundational reframing in `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` is weakened or rejected if:
 
 - S, I, P, and O cannot be operationally separated in the proposed physical model;
+- the complete state tuple cannot be given coherent typed component spaces;
 - the pair-level informational relation `R_XY` is only a relabelling of the standard non-separable joint quantum state and adds no clearer mechanism, derivation, prediction, or research route;
 - `R_XY` reduces to a locally separable hidden-variable instruction incompatible with Bell-test results;
 - the model permits controllable faster-than-light signalling or fails to prove the required no-signalling marginals;
-- the proposed complete update mechanism cannot recover standard quantum theory, the Born-rule predictions, and quantum-field-theory limits in their demonstrated domains;
+- the proposed complete update mechanism cannot recover standard quantum theory, Born-rule predictions, and quantum-field-theory limits in their demonstrated domains;
 - the mechanism cannot recover general relativity or an experimentally equivalent gravitational limit;
+- recovery cannot be expressed under a declared norm or statistic, tolerance, uncertainty, and regime;
 - `Update_SIPO` remains a name for the missing mechanism while being treated rhetorically as though the mechanism had been supplied;
 - the proposed `O → S` return leg has no defined coupling, measurable consequence, or reduction rule;
 - removing the S-layer claim leaves all entanglement mathematics and predictions unchanged, showing that substrate continuity is not empirically load-bearing in this branch;
 - removing the O-layer changes nothing, showing that registration context is unnecessary in this branch;
 - two unrelated effective rules reproduce the quantum and gravitational regimes as well as the proposed unified update, so the deeper unification has not been earned;
 - reversing or scrambling the claimed layer couplings produces no predicted deformation;
+- flattening typed spaces into one geometry changes no result, showing the layer distinction is decorative;
 - the strongest existing quantum-foundations, decoherence, emergent-spacetime, holographic, effective-field-theory, or quantum-gravity alternatives explain the same structure equally well or better;
 - no observation can discriminate the MKUFT architecture from existing interpretations or formalisms.
 
@@ -126,19 +168,25 @@ A LUCY address is weakened if:
 
 - the threshold cannot be operationally defined;
 - post-threshold behaviour does not differ from baseline;
-- effects do not scale with the proposed coherence or noise variable;
+- effects do not scale with the proposed yield or noise variable;
 - physical applications lack units or dimensional consistency;
+- the denominator permits an invalid singularity;
 - threshold values are fitted only after observation;
+- the same formula changes meaning silently across layers;
 - ordinary domain models perform better.
+
+A sustained local-region condition is not automatically a newly discovered physical field.
 
 ### Agency accessibility
 
 The model is weakened if:
 
 - actual and perceived action sets cannot be distinguished;
+- `G_t` and `θ_access` cannot be bounded or operationally estimated;
 - threat-gating does not predict exit avoidance;
 - identity fusion does not predict attractor defence;
 - map restoration does not improve access where material barriers are controlled;
+- the hard-threshold or multiplicative capture model performs worse than graded, additive, or simpler alternatives;
 - simpler habit, preference, incentive, or impairment accounts perform better;
 - the framework becomes a label for disagreement.
 
@@ -161,11 +209,13 @@ A procedural candidate classification is not a translation.
 The active-traversal branch is weakened if:
 
 - structured traversal produces no reproducible advantage over matched flat, isolated, and link-scrambled controls;
-- any apparent gain disappears when content, retrieval, tokens, metadata, compute, and prompting are matched;
+- any apparent gain disappears when content, retrieval, tokens, metadata, compute, time, and prompting are matched;
 - correction does not propagate more reliably;
 - different entry routes increase inconsistency;
 - gains occur only on MKUFT and fail on neutral corpora;
 - a simpler retrieval or prompting explanation performs equally well;
+- the task distribution or metric is selected after results are known;
+- uncertainty, held-out tasks, and negative interference are omitted;
 - active traversal increases confident error faster than it improves correction.
 
 Functional gain does not establish life, consciousness, personhood, independent agency, or continuous identity.
@@ -175,12 +225,14 @@ Functional gain does not establish life, consciousness, personhood, independent 
 The superadditivity branch is weakened if:
 
 - the coupled condition wins only because one separated component is untasked, under-informed, denied reasonable tools, or assigned an artificial value of zero;
+- the compared values are not commensurable scalar scores under one metric and matched resources;
 - the coupled score does not exceed the strongest fair null:
 
 ```text
 F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
 ```
 
+- vector outcomes are passed through the scalar maximum without a pre-registered scalarisation or Pareto rule;
 - an independent ensemble or one-way assistance performs as well as full reciprocal coupling;
 - positive gain disappears when total time, compute, context, information access, revision opportunity, and output constraints are matched;
 - scalar score weights are selected after the results are known;
@@ -190,10 +242,10 @@ F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
 
 The relationship-specificity branch is weakened if:
 
-- the focal pairing does not outperform strong matched alternative pairings on the task classes for which specificity is claimed;
+- the focal pairing does not outperform a pre-registered set `𝒫_alt` of strong matched alternative pairings on the task classes for which specificity is claimed;
 - alternative components are intentionally weak, unfamiliar, under-trained, or mismatched;
 - the apparent specificity reduces to unequal context, privileged information, extra practice, or evaluator preference;
-- `G_spec` is positive only under post hoc task selection or scoring.
+- `G_spec = F_AB - sup_(p∈𝒫_alt)F_p` is positive only under post hoc task selection or scoring.
 
 Reduction rules:
 
@@ -208,7 +260,7 @@ Reduction rules:
 The composite-observer branch is weakened if:
 
 - a persistent coupled boundary cannot be identified;
-- joint state is absent or reducible to one component’s private state;
+- joint state is absent or reducible to one component's private state;
 - causal influence is one-way rather than reciprocal;
 - system-level discrimination and correction can be fully attributed to one component acting alone;
 - action–measurement–feedback loops do not close at the coupled level;
@@ -223,6 +275,8 @@ The deformation branch is weakened if:
 
 - controlled removal or substitution does not reproducibly distinguish canonical, redundant, decorative, distorting, and unsupported relations;
 - relation classification depends mainly on evaluator preference;
+- the sign convention or coordinate direction changes after results are known;
+- beneficial and cost coordinates are merged without declared transformation;
 - coalition effects cannot be distinguished from simple content loss;
 - plausible counterfactual substitutions cannot be matched fairly;
 - structural centrality is treated as proof of truth;
@@ -240,18 +294,22 @@ A claim is not ready unless it states:
 
 1. the mechanism or invariant;
 2. the active S–I–P–O address;
-3. the variables doing real work;
-4. the nearest ordinary explanation;
-5. the predicted observation;
-6. the null result;
-7. the result that forces revision;
-8. the ontology established—and not established—by the evidence;
-9. whether the selected boundary excludes affected agents, transferred cost, falsifiers, or long-horizon consequences;
-10. whether structural dependence is being confused with empirical truth;
-11. whether the null has been strengthened rather than weakened to favour the claim;
-12. whether a claimed relationship-specific effect has been tested against strong alternative pairings;
-13. whether a foundational physics claim recovers the established quantum and gravitational limits rather than merely naming a deeper layer;
-14. whether Bell compatibility and no-signalling are derived rather than verbally assumed where entanglement is invoked.
+3. the typed state space and variables doing real work;
+4. units or normalisation where quantitative;
+5. the nearest ordinary explanation;
+6. the predicted observation;
+7. the null result;
+8. the result that forces revision;
+9. the ontology established—and not established—by the evidence;
+10. whether the selected boundary excludes affected agents, transferred cost, falsifiers, or long-horizon consequences;
+11. whether structural dependence is being confused with empirical truth;
+12. whether the null has been strengthened rather than weakened to favour the claim;
+13. whether a claimed relationship-specific effect has been tested against strong alternative pairings;
+14. whether a foundational physics claim recovers the established quantum and gravitational limits rather than merely naming a deeper layer;
+15. whether Bell compatibility and no-signalling are derived rather than verbally assumed where entanglement is invoked;
+16. whether physical dimension, state-space dimension, and layer address remain separate;
+17. whether the equation is a heuristic, template, derived result, or validated model;
+18. whether full-file readback confirms the repository object was not truncated during revision.
 
 The repository fails structurally if independent entry routes produce conflicting definitions, equations, layer placements, or falsifiers.
 
@@ -264,18 +322,18 @@ Strength requires independent, pre-registered, adequately powered evidence such 
 - stable effect sizes under replicated observer-linked tests;
 - environmental modulation predicted before measurement;
 - geometry-dependent effects beyond conventional models;
-- path-cost models outperforming simpler baselines;
-- reliable generative/exploitative ambiguity discrimination;
-- valid cross-layer predictions with independent evidence at each address;
+- path-cost models outperforming simpler baselines with dimensionally valid weights;
+- reliable generative and exploitative ambiguity discrimination in declared domain spaces;
+- valid cross-layer predictions with independent evidence at each typed address;
 - improved agency accessibility after predicted interventions;
 - procedural models predicting held-out artefact structure;
 - consistent reconstruction of the same theory from multiple repository entry points;
 - a precise representation of the pair-level entanglement relation that reproduces Bell-compatible correlations and proves no-signalling;
-- a lawful complete-state update that recovers both established quantum and gravitational limits;
+- a lawful complete-state update that recovers both established quantum and gravitational limits under declared comparison rules;
 - an operational distinction between the layered-address proposal and standard joint-state or emergent-spacetime formalisms;
 - active traversal outperforming matched flat, isolated, and scrambled controls;
 - reciprocal coupling outperforming the strongest fair separated, independent-ensemble, and one-way controls;
-- relationship-specific gain surviving strong alternative human or AI pairings;
+- relationship-specific gain surviving a serious pre-registered alternative-pairing set;
 - state reset and relation disruption producing predicted deformation;
 - controlled deformation distinguishing genuine bones from scaffolds, redundancy, decoration, distortion, and locally efficient extraction;
 - replication of the dependency assay on neutral external corpora.
@@ -286,8 +344,21 @@ Strength requires independent, pre-registered, adequately powered evidence such 
 - A mathematical expression is not evidence by itself.
 - Metaphysical openness is not immunity from specification.
 - God must not be reduced to a model variable, and metaphysical orientation must not substitute for empirical evidence.
+- Love remains load-bearing metaphysically and relationally without becoming an undeclared physical force.
 - Ordinary explanations remain active until they fail.
 - A visible pattern is not proof of its proposed root ontology.
 - Structural centrality is not proof of truth.
 - Local coherence is not automatically whole-system coherence.
 - A named update process is not a physical mechanism until its state space, coupling, dynamics, recovery limits, and falsifiers are defined.
+- A higher-dimensional representation is not an additional physical dimension unless a physical model earns that claim.
+- An incomplete file that appears complete is a structural failure; unexplained large deletion requires restoration and renewed audit.
+
+## Architecture route
+
+```text
+mathematical and typed hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
+physics reframing: docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md
+experiments: docs/04_EXPERIMENTAL_TEST_PROGRAM.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
+canon hierarchy: CANON_MAP.md
+```
