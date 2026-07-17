@@ -30,6 +30,24 @@ Layer → Boundary → Node → Transition → Cost → Coherence → Observer �
 
 The public claim is that physical, informational, cognitive, biological, social, symbolic, and anomaly-edge systems may sometimes share a useful grammar of constraint and transition. They are not assumed to be identical or equally evidenced.
 
+## For physicists: why MKUFT uses the term Unified Field Theory
+
+A conventional unified-field or quantum-gravity programme is expected to address the relationship between quantum theory and gravitation, including entanglement, Bell-compatible correlations, no-signalling, quantum-field-theory limits, and recovery of general relativity.
+
+MKUFT does **not** claim that this mathematical work has already been completed. It has not yet derived the Born rule, Bell correlations, quantum field theory, general relativity, or a finished quantum theory of gravity.
+
+Its proposed intervention comes one step earlier:
+
+> The attempt to unify quantum theory and gravity may begin at the realised-law layer rather than at the deeper architecture that generates both regimes.
+
+MKUFT therefore asks whether quantum and gravitational behaviour are effective physical outputs of different relational conditions within one deeper S–I–P–O mechanism, rather than two original objects that must be directly welded together. This reframing does not reduce the scientific burden. A successful formulation must still recover established quantum and gravitational predictions in their demonstrated domains, preserve Bell compatibility and no-signalling, define every cross-layer coupling, and produce some discriminating result beyond existing formalisms.
+
+The complete public working proposal is:
+
+- [`docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md`](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) — the foundational layer-before-law reframing, entanglement worked case, recovery requirements, strongest fair null, deformation tests, and failure conditions.
+
+This paper is one physics-facing module inside the wider MKUFT stack. It does not replace the core, mathematical appendix, experimental programme, falsification summary, or integrated master spine.
+
 ## Current standalone publication
 
 **Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems**
@@ -48,19 +66,35 @@ The standalone paper develops material from modules 24A and 25. Its DOI and lice
 
 See [`ATLD_STANDALONE_PUBLICATION.md`](ATLD_STANDALONE_PUBLICATION.md) for the exact citation, DOI-selection rule, rights statement, and relationship to MKUFT.
 
-## Read first
+## Choose an entry route
+
+### Physics and quantum-gravity route
+
+1. `README.md` — first-contact scientific position and limits.
+2. `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` — proposed category reframing, entanglement, Bell and no-signalling burdens, and quantum/gravitational recovery limits.
+3. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full architecture and formal status.
+4. `docs/01_MKUFT_CORE_EXTENDED.md` — S–I–P–O core and ordinary-physics limit.
+5. `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical scaffolds and operational caveats.
+6. `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — controls, nulls, and proposed tests.
+7. `docs/05_FALSIFICATION_SUMMARY.md` — branch-level and framework-level failure conditions.
+8. `docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md` — broader technical translation and constrained physical applications.
+
+### General architecture route
 
 1. `START_HERE_PUBLIC_OVERVIEW.md` — short plain-English orientation.
 2. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full front-door synthesis.
-3. `ATLD_STANDALONE_PUBLICATION.md` — published standalone methods-paper record, citation, DOI, and rights route.
-4. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
-5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full dependency and integration registry.
-6. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — active traversal, matched functional gain, superadditive coupling, and bounded composite-observer criteria.
-7. `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — strongest-fair-null construction, multidimensional value, and relationship-specificity controls.
-8. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for genuine bones, scaffolds, redundant support, decoration, distortion, and locally coherent extraction.
-9. `CANON_MAP.md` — document hierarchy and canonical roles.
-10. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
-11. `docs/05_FALSIFICATION_SUMMARY.md` — branch-level and framework-level failure conditions.
+3. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
+4. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full dependency and integration registry.
+5. `CANON_MAP.md` — hierarchy and canonical roles.
+6. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
+7. `docs/05_FALSIFICATION_SUMMARY.md` — compact failure conditions.
+
+### AI and typed-knowledge architecture route
+
+1. `ATLD_STANDALONE_PUBLICATION.md` — published methods-paper record and citation route.
+2. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — active traversal, matched functional gain, and bounded composite-observer criteria.
+3. `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — strongest-fair-null construction and relationship-specificity controls.
+4. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for genuine bones, scaffolds, redundancy, decoration, distortion, and locally coherent extraction.
 
 ## Core canon
 
@@ -70,6 +104,23 @@ See [`ATLD_STANDALONE_PUBLICATION.md`](ATLD_STANDALONE_PUBLICATION.md) for the e
 - `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — proposed tests, controls, nulls, and replication requirements.
 - `docs/05_FALSIFICATION_SUMMARY.md` — compact failure conditions.
 - `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — illustrative numerical examples with correct uncertainty treatment.
+
+## Physics-facing foundational clarification
+
+### Layer Before Law
+
+`docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md`
+
+This module states the proposed category reframing directly:
+
+```text
+deep cross-layer mechanism
+→ quantum effective behaviour
+and
+→ gravitational effective behaviour
+```
+
+It uses entanglement as an initial worked case while preserving physically distinct addresses, Bell-test constraints, and no-signalling. It introduces `Update_SIPO` only as a readable placeholder for an unknown lawful update process. It does not claim a completed derivation, and it explicitly fails if it cannot recover established quantum and gravitational limits or distinguish itself from existing formalisms.
 
 ## Silver Update structural modules
 
@@ -186,9 +237,13 @@ This source module is developed into the separately published ATLD methods paper
 
 Historical alternatives are not used as the current formal convention.
 
+The public canon commonly displays the forward traversal `S → I → P → O`. Module 26 explores an explicit recursive return leg `O → S` as a proposed update-logic clarification. That proposal does not silently establish the coupling or rewrite the existing core; the coupling must be defined and tested.
+
 ## Public integrity rules
 
 - Standard physics is the ordinary physical baseline.
+- The term Unified Field Theory does not waive the requirement to address quantum theory, gravitation, entanglement, Bell constraints, no-signalling, and recovery of accepted physical limits.
+- The layer-before-law proposal is architectural until a lawful update mechanism and physical derivations are supplied.
 - Observer terms remain bounded.
 - Similarity across layers is not proof of one mechanism.
 - Mathematical expressions require operational definitions.
