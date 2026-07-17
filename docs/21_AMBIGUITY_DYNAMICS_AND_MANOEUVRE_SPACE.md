@@ -1,6 +1,5 @@
 # 21 — Ambiguity Dynamics and Manoeuvre Space
 
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -18,7 +17,7 @@ Role: formalise ambiguity as a state-space property, distinguish open possibilit
 
 Ambiguity is not only missing knowledge. In a dynamic system it can also become usable movement space.
 
-A system has manoeuvre space when several states, meanings, identities, routes, or explanations remain admissible and it can move between them without paying the full cost of contradiction or losing access to what sustains it.
+A system has manoeuvre space when several admissible states or descriptions remain available and it can move between them without paying the full cost of contradiction or losing access to what sustains it.
 
 > Ambiguity becomes manoeuvre space when unresolved state volume, low-cost route connectivity, and preserved access occur together.
 
@@ -28,23 +27,32 @@ This is a general systems hypothesis. It does not require a paranormal, religiou
 
 ## 2. State-space definition
 
-At time `t`, let:
+A quantitative ambiguity region must belong to one declared domain and encoding.
 
+For domain `d` at time `t`, let:
+
+- `X_d` = the declared state or representation space;
 - `E_t` = available evidence;
 - `C_t` = active constraints, including logic, memory, boundary conditions, prediction, measurement, and cross-layer agreement;
-- `Ω_t` = the feasible region of states, interpretations, identities, motives, or paths still compatible with `E_t` and `C_t`;
-- `μ(Ω_t)` = the effective measure of that feasible region;
-- `μ_0` = a reference scale.
+- `Ω_t^(d)` = the feasible region in `X_d` still compatible with `E_t` and `C_t`;
+- `μ_d(Ω_t^(d))` = the effective measure of that region;
+- `μ_0,d` = a reference measure in the same domain.
+
+Formally:
+
+```text
+Ω_t^(d) = {z ∈ X_d : z remains compatible with E_t and C_t}
+```
 
 Define dimensionless ambiguity volume:
 
 ```text
-A_t^vol = log(1 + μ(Ω_t) / μ_0)
+A_t,vol^(d) = log[1 + μ_d(Ω_t^(d)) / μ_0,d]
 ```
 
-`A_t^vol` is an audit variable, not a claim that every relevant dimension can already be measured directly.
+`A_t,vol^(d)` is an audit variable, not a claim that every relevant dimension can already be measured directly.
 
-The superscript prevents confusion with the older path-objective term `A(γ,t)` used in some MKUFT documents for uncertainty along a candidate trajectory.
+States, paths, interpretations, identities, motives, and hypotheses must not be combined inside one quantitative feasible region unless a common encoding has been declared. Qualitative examples may span these classes; one numerical measure may not silently do so.
 
 High ambiguity is not automatically harmful. Discovery, creativity, learning, diagnosis, and early problem-solving can all begin with a large feasible region.
 
@@ -55,18 +63,18 @@ High ambiguity is not automatically harmful. Discovery, creativity, learning, di
 Represent the unresolved region as a weighted transition graph:
 
 ```text
-G_t = (V_t, E_t^G, w_t)
+𝓖_t^(d) = (V_t^(d), E_t^(d), w_t)
 ```
 
 where:
 
-- `V_t` represents unresolved states, frames, roles, meanings, or hypotheses;
-- `E_t^G` represents available transitions;
+- `V_t^(d)` represents unresolved states or encoded frames in domain `d`;
+- `E_t^(d)` represents available transitions;
 - `w_t(i,j)` represents transition cost.
 
 Let `R_t ∈ [0,1]` be a normalised score for the density and accessibility of low-cost transitions inside the unresolved region.
 
-High `R_t` means a system can shift role, frame, attribution, meaning, polarity, or explanation cheaply.
+High `R_t` means a system can shift role, frame, attribution, meaning, polarity, or explanation cheaply within the declared encoding.
 
 Examples include:
 
@@ -106,12 +114,14 @@ A frame shift that destroys access has little manoeuvring value. A shift that av
 The working index is:
 
 ```text
-M_t = A_t^vol × R_t × X_t
+M_t = A_t,vol × R_t × X_t
 ```
 
-This is a dimensionless heuristic index. It is not yet a universal physical law.
+This is a dimensionless heuristic index. It is not a universal physical law.
 
-It produces three useful distinctions:
+The multiplicative form encodes a joint-dependence hypothesis: unresolved volume, cheap switching, and preserved access are all treated as necessary contributors to strong manoeuvrability. Additive, interaction, threshold, and non-linear alternatives must remain live competitors where data permit.
+
+The index produces three useful distinctions:
 
 1. High ambiguity with few cheap transitions is not strong manoeuvre terrain.
 2. Cheap switching without preserved access is unstable.
@@ -149,12 +159,18 @@ Truth, memory, precise language, fixed definitions, pre-registered prediction, f
 
 ## 7. Inquiry-contraction discriminator
 
-Let `Q` represent sustained truthful inquiry.
+Let one declared inquiry step update evidence and constraints from `t` to `t+1`.
+
+Define the finite inquiry change:
+
+```text
+Δ_Q A_t,vol = A_(t+1),vol - A_t,vol
+```
 
 Generative ambiguity should normally become better specified:
 
 ```text
-dA_t^vol/dQ < 0
+Δ_Q A_t,vol < 0
 ```
 
 This does not require rapid resolution. Honest inquiry may leave uncertainty, but it should produce narrower hypotheses, clearer unknowns, or explicit boundaries.
@@ -162,8 +178,10 @@ This does not require rapid resolution. Honest inquiry may leave uncertainty, bu
 Exploitative ambiguity tends to resist contraction or replenish itself when clarification threatens access:
 
 ```text
-dA_t^vol/dQ ≥ 0
+Δ_Q A_t,vol ≥ 0
 ```
+
+Use a derivative such as `dA/dQ` only when inquiry progress or intensity has been defined as a continuous variable.
 
 Indicators include:
 
@@ -183,14 +201,14 @@ Indicators include:
 
 ### S — Substrate
 
-`Ω_t` may be modelled as a constrained possibility region rooted in the wider substrate space. This does not imply that every interpretation is physically real or equally weighted.
+`Ω_t^(d)` may be related to a wider possibility model, but a domain-specific feasible region is not automatically identical to the formal substrate space. This does not imply that every interpretation is physically real or equally weighted.
 
 ### I — Information
 
 The main frame rotation often occurs here. A physical event may stay fixed while its assigned meaning, agency, explanation, or attribution changes.
 
 ```text
-P → I_1, I_2, I_3 ... → O
+P → {I_1, I_2, I_3, ...} → O
 ```
 
 ### P — Physical
@@ -201,11 +219,13 @@ Records, timing, bodies, instruments, consequences, and material constraints con
 
 Attention, memory, fear, loyalty, expectation, and identity affect which routes appear salient. Observer effects do not remove evidential or physical requirements.
 
-Cross-layer coherence propagates constraint through:
+Cross-layer constraint may propagate through typed couplings:
 
 ```text
 S ↔ I ↔ P ↔ O
 ```
+
+The arrows are not a common spatial metric. Each claimed coupling requires a source variable, receiving variable, measurable effect, ordinary baseline, and falsifier.
 
 Healthy cohesion need not reduce lawful creativity. It reduces contradictory escape routes.
 
@@ -263,10 +283,12 @@ Interventions expected to reduce `M_t` include:
 
 This module is weakened if:
 
-- `A_t^vol`, `R_t`, and `X_t` cannot be distinguished in application;
+- `A_t,vol`, `R_t`, and `X_t` cannot be distinguished in application;
+- the domain space, encoding, or measure cannot be stated;
 - normalised scoring cannot be made reliable across independent raters;
 - honest and exploitative systems show no repeatable difference under inquiry;
 - ambiguity regeneration does not correlate with threatened access or attribution;
+- the product model performs no better than simpler alternatives;
 - the model works only retrospectively;
 - simpler incentive, error, uncertainty, or noise models perform better.
 
@@ -287,6 +309,7 @@ parent: substrate possibility and constrained traversal
 math support: docs/02_MKUFT_MATH_APPENDIX.md
 formal graph support: docs/03_STANDALONE_FORMAL_ADDENDUM.md
 agency application: docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md
+typed traversal and equation hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
 falsification: docs/05_FALSIFICATION_SUMMARY.md
 repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 ```
