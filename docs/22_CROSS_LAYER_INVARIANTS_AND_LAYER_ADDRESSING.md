@@ -1,7 +1,5 @@
 # 22 — Cross-Layer Invariants and Layer Addressing
 
-
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -11,7 +9,7 @@
 <!-- MKUFT-PROVENANCE-HEADER:END -->
 
 Status: Silver Update public structural addendum  
-Role: prevent fragmentation by distinguishing a candidate invariant from its different expressions across S–I–P–O, including bounded composite observer candidates.
+Role: prevent fragmentation by distinguishing a candidate invariant from its different expressions across S–I–P–O, including bounded composite observer candidates and typed cross-layer couplings.
 
 ---
 
@@ -22,6 +20,8 @@ A single invariant may appear differently at different layers without becoming s
 > One invariant. Many layer addresses. No fragmentation.
 
 Unified models commonly fail by either flattening distinct layers or renaming one repeated relation as multiple disconnected theories. Layer addressing is the control against both errors.
+
+Unity is preserved through lawful relation and recoverable mapping, not by pretending that all layers occupy one homogeneous space.
 
 ---
 
@@ -53,6 +53,16 @@ A valid cross-layer claim requires:
 
 Resemblance alone does not establish an invariant.
 
+Where a cross-layer coupling is formalised, declare typed spaces and a map or relation such as:
+
+```text
+C_LM : X_L → X_M
+```
+
+or a more general typed relation when a single-valued map is inappropriate.
+
+No default metric measures distance between S, I, P, and O. A cross-layer arrow is not ordinary movement through physical space.
+
 ---
 
 ## 3. S–I–P–O discipline
@@ -61,13 +71,15 @@ Resemblance alone does not establish an invariant.
 
 The substrate is the structured possibility or source domain in the model.
 
-It is not automatically a physical grid, cognitive image, symbolic diagram, or information database.
+It is not automatically a physical grid, cognitive image, symbolic diagram, information database, or extra spatial dimension.
 
 ### I — Information
 
 The information layer carries pattern, address, role, state, rule, routing, permission, and executable structure.
 
 Physical force language must not be imported here without a defined coupling.
+
+Informational adjacency is not physical proximity.
 
 ### P — Physical
 
@@ -77,7 +89,7 @@ A physical address must specify units, controls, expected effect size, uncertain
 
 ### O — Observer
 
-The observer layer carries attention, interpretation, measurement context, memory, salience, and bounded state-dependent modulation.
+The observer layer carries observer-positioned registration: measurement context, record, perspective, attention, interpretation, memory, salience, and bounded state-dependent participation where operationally defined.
 
 An observer address cannot replace a missing physical mechanism.
 
@@ -92,6 +104,8 @@ When one term appears in more than one layer, ask:
 ```text
 What is invariant?
 What changes at this address?
+What space does the variable inhabit?
+What units or normalisation apply?
 What is measured here?
 What is only analogous?
 What coupling connects the addresses?
@@ -118,24 +132,26 @@ Useful addresses:
 - `LUCY(O)` — observer-state coherence;
 - `LUCY(P)` — physical or material coherence.
 
+To avoid collision with `C` as path cost and general coherence, new formal work uses `Y_L` for the yield index. Legacy documents may contain `C_L` for the same template.
+
 A general threshold template is:
 
 ```text
-C_L(x,t) = χ_L ||∇τ_L(x,t)||² / (N_L(x,t) + ε)
+Y_L(x,t) = χ_L ||∇τ_L(x,t)||² / [N_L(x,t) + ε_L]
 ```
 
 with threshold:
 
 ```text
-C_L(x,t) ≥ C_*
+Y_L(x,t) ≥ Y_*
 ```
 
 where:
 
-- `τ_L` = a layer-specific post-boundary potential or tension variable;
+- `τ_L` = a layer-specific post-boundary potential, tension, or state variable;
 - `χ_L` = layer-specific sensitivity;
 - `N_L` = layer-specific noise or disorder;
-- `ε` = a stabiliser.
+- `ε_L` = a declared stabiliser that prevents an invalid singularity.
 
 ### Critical status boundary
 
@@ -143,7 +159,7 @@ This equation is a **cross-layer template**, not a validated law shared by cogni
 
 At each address, the variables must be operationalised independently. A physical use requires dimensional consistency and units. An informational or observer use may be a normalised index rather than a physical quantity.
 
-The common claim is the threshold relation—not identity of mechanism, units, or causal substrate.
+The common claim is the threshold relation—not identity of mechanism, units, geometry, or causal substrate.
 
 ---
 
@@ -152,7 +168,7 @@ The common claim is the threshold relation—not identity of mechanism, units, o
 Candidate variables:
 
 - `τ_I` = tension among interpretations, routes, or executions;
-- `∇τ_I` = gradient toward a structurally preferred route;
+- `∇τ_I` = gradient toward a structurally preferred route in a declared information state space;
 - `N_I` = ambiguity, contradiction, noise, mis-addressing, or drift.
 
 The testable signature is not mystical “information energy.” It is improved execution consistency, lower interpretation variance, stronger error detection, reduced route ambiguity, and stable reconstruction from partial information.
@@ -164,7 +180,7 @@ The testable signature is not mystical “information energy.” It is improved 
 Candidate variables:
 
 - `τ_O` = tension among attentional, interpretive, emotional, and memory states;
-- `∇τ_O` = gradient toward a stable observer configuration;
+- `∇τ_O` = gradient toward a stable observer configuration in a declared observer-state model;
 - `N_O` = distraction, fear contamination, fatigue, expectation bias, or internal noise.
 
 Possible measures include calibration, judgement stability, signal discrimination, and reduced impulsive frame-switching.
@@ -177,13 +193,13 @@ Observer coherence remains bounded and does not permit arbitrary physical outcom
 
 Candidate variables:
 
-- `τ_P` = a defined physical boundary potential;
-- `∇τ_P` = its measurable gradient;
+- `τ_P` = a defined physical boundary variable or potential;
+- `∇τ_P` = its measurable physical gradient;
 - `N_P` = thermal disorder, decoherence, vibration, electromagnetic noise, impurity, or turbulence.
 
 Candidate systems include superconductors, superfluids, condensate-like systems, coherent mass-current systems, and geometry-controlled media.
 
-Before use as a physical equation, `τ_P`, `χ_P`, `N_P`, and `C_*` must have compatible dimensions and a pre-registered measurement protocol.
+Before use as a physical equation, `τ_P`, `χ_P`, `N_P`, `ε_P`, and `Y_*` must have compatible dimensions and a pre-registered measurement protocol.
 
 LUCY(P) is weakened if no boundary-linked effect scales with coherence, reduced noise, or geometry beyond accepted physics.
 
@@ -206,14 +222,16 @@ A candidate group form is:
 with a simple approximation:
 
 ```text
-κ_group = A_align × (1/N) Σ κ_i
+κ_group = A_align × (1/N) Σ_i κ_i
 ```
 
 and environmental modulation:
 
 ```text
-κ_eff,group = κ_group × η(F)
+κ_eff,group = κ_group × η(F_env)
 ```
+
+The ranges of `Φ`, `C_corr`, and `η` must be declared before quantitative use.
 
 These are working models, not proof of a direct group-to-substrate mechanism.
 
@@ -257,7 +275,7 @@ Define:
 G_syn = F_coupled - F_add(A,B)
 ```
 
-A positive, reproducible `G_syn` is evidence of superadditive coupling.
+A positive, reproducible `G_syn` is evidence of superadditive coupling relative to the declared baseline.
 
 Illustration:
 
@@ -291,6 +309,8 @@ Clean wording:
 
 A useful representation must not be mistaken for a discovered physical object.
 
+A high-dimensional graph or state space is not evidence of additional physical spacetime dimensions.
+
 ---
 
 ## 11. Cross-layer coupling
@@ -298,18 +318,20 @@ A useful representation must not be mistaken for a discovered physical object.
 A valid coupling statement should specify:
 
 ```text
-source address
-→ coupling variable
-→ receiving address
+source space and address
+→ source variable
+→ typed coupling rule
+→ receiving space and address
 → measurable effect
-→ reduction rule
+→ ordinary baseline
+→ reduction rule and falsifier
 ```
 
 Example:
 
 ```text
 I-layer timing instruction
-→ measured coordination
+→ measured coordination channel
 → O/P alignment
 → lower behavioural variance
 → no effect when timing is scrambled
@@ -328,12 +350,15 @@ component A state
 
 A coupling claim becomes stronger only when changes at one address predict measured changes at another under controls.
 
+The arrow does not create a shared metric or physical shortcut merely by being drawn.
+
 ---
 
 ## 12. Failure modes
 
 - **Fragmentation:** one invariant is split into several mechanisms without need.
 - **Flattening:** distinct layers are treated as identical.
+- **Dimensional flattening:** state-space dimension, layer address, and physical spatial dimension are silently treated as one thing.
 - **Metaphor leakage:** physical terms enter cognitive or symbolic domains without coupling.
 - **Observer inflation:** observer language replaces missing physical explanation.
 - **Aggregation inflation:** ordinary collaboration or grouped output is called a composite observer without persistent boundary, reciprocal integration, joint state, and loop closure.
@@ -341,6 +366,7 @@ A coupling claim becomes stronger only when changes at one address predict measu
 - **Consciousness leakage:** functional observer-role evidence is silently converted into subjective consciousness or identity claims.
 - **Substrate concretisation:** a possibility space becomes a literal material structure by assertion.
 - **Address drift:** a term silently changes definition between layers.
+- **Symbol collision:** one symbol carries incompatible meanings without explicit qualification.
 
 ---
 
@@ -351,6 +377,7 @@ The cross-layer claim is weakened if:
 - the invariant cannot be stated independently of examples;
 - addresses require incompatible definitions;
 - no lawful address map exists;
+- typed couplings cannot be defined where causal influence is claimed;
 - predicted couplings repeatedly fail;
 - one address survives only by borrowing evidence from another;
 - simpler domain-specific explanations outperform it;
@@ -379,12 +406,13 @@ physical bridge: docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md
 observer bridge: docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md
 functional emergence and superadditivity: docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md
 load-bearing deformation: docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md
+typed traversal and equation hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
 falsification: docs/05_FALSIFICATION_SUMMARY.md
 repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 ```
 
 ## 15. Compressed rule
 
-> Preserve the invariant. Name the address. Change the variables honestly. Demand evidence at the layer where the claim is made.
+> Preserve one invariant through typed layer addresses. Do not convert analogy into mechanism, a graph into physical geography, or a coupled observer-role into a new ontology.
 
 > A composite observer candidate is a coupled O-address across existing layers, not automatically a new layer. “More than the sum” requires reproducible gain beyond a matched additive baseline, not merely ownership of a joint output.
