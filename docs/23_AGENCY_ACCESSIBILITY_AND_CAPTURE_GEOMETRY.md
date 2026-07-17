@@ -1,6 +1,5 @@
 # 23 — Agency Accessibility and Capture Geometry
 
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -37,8 +36,15 @@ At time `t`, let:
 - `Û_t` = actions perceived as available;
 - `V_t(u)` = estimated value of action `u`;
 - `T_t(u)` = perceived threat, shame, betrayal, identity loss, or punishment attached to `u`;
-- `G_t(u)` = gating term determining whether `u` enters reflective consideration;
-- `H_t` = reinforcement history, dependency, trauma, habit, loyalty, and prior choices.
+- `H_t` = reinforcement history, dependency, trauma, habit, loyalty, and prior choices;
+- `G_t(u;T_t,H_t)` = a normalised gating function determining whether `u` enters reflective consideration.
+
+Require:
+
+```text
+G_t(u;T_t,H_t) ∈ [0,1]
+θ_access ∈ [0,1]
+```
 
 Define the practically accessible set:
 
@@ -47,6 +53,8 @@ U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
 ```
 
 A viable exit can remain in `U_t` while disappearing from `U_t^access`.
+
+The threshold is a modelling device. It may be replaced by a probabilistic or graded-access model where the domain does not support a hard gate.
 
 Capture deepens when exits are:
 
@@ -73,7 +81,7 @@ represent practical access to retained agency.
 Agency_effective(t) = Agency_capacity × a_t
 ```
 
-This is an operational distinction, not a complete moral, legal, or clinical equation.
+This is an operational distinction, not a complete moral, legal, or clinical equation. `Agency_capacity` and `a_t` require domain-specific operational definitions before quantitative use.
 
 Low accessibility may be associated with:
 
@@ -145,7 +153,9 @@ A heuristic capture index is:
 K_capture(t) = B_t × D_t × F_t × S_t
 ```
 
-This is not a validated diagnostic score. It is a decomposition tool showing that deep capture requires more than disagreement, habit, or distress alone.
+This is not a validated diagnostic score. It is a decomposition tool showing that deep capture may require several factors together.
+
+The multiplicative form encodes a conjunction assumption: if one factor is near zero, the product falls sharply. Additive, interaction, threshold, and probabilistic alternatives must be compared where data permit. The product must not be protected merely because it fits the intended narrative.
 
 ---
 
@@ -227,6 +237,8 @@ accurate recognition
 → weakened basin
 ```
 
+These arrows express a candidate causal sequence, not movement through literal additional physical dimensions. Each measured application must define its variables and timescale.
+
 ---
 
 ## 8. Recovery mechanics
@@ -262,6 +274,8 @@ high unresolved state volume
 × preserved dependency
 → stronger capture manoeuvrability
 ```
+
+This is a structural compression, not an additional diagnostic equation.
 
 Clarification helps only when it accurately contracts false routes. Humiliation, false certainty, or coercive confrontation may deepen threat-gating instead.
 
@@ -332,6 +346,7 @@ The model is weakened if:
 - restored information does not improve practical access where material constraints are controlled;
 - threat-gating does not predict exit avoidance;
 - identity fusion does not correlate with attractor defence;
+- the hard-threshold or multiplicative model performs worse than simpler alternatives;
 - simpler habit, incentive, impairment, or social models perform better;
 - the model generates no testable intervention difference;
 - it becomes a label for anyone who disagrees.
@@ -351,6 +366,7 @@ parent: constrained action space and attractor structure
 ambiguity support: docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md
 observer support: docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md
 formal support: docs/02_MKUFT_MATH_APPENDIX.md
+typed traversal and equation hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
 falsification: docs/05_FALSIFICATION_SUMMARY.md
 repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 ```
