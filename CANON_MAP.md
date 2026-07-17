@@ -10,22 +10,37 @@
 
 Status: public hierarchy and navigation map for the controlled MKUFT GitHub working copy.
 
-## Public entry shell
+## Public entry routes
 
-Read in this order for orientation:
+### Physics and quantum-gravity route
 
-1. `README.md` — repository purpose and current entry points.
+1. `README.md` — immediate statement of the conventional unification burden and MKUFT's status.
+2. `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` — category reframing, entanglement worked case, Bell and no-signalling requirements, recovery limits, deformation tests, and failure conditions.
+3. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full architecture and formal status.
+4. `docs/01_MKUFT_CORE_EXTENDED.md` — primary S–I–P–O theory spine and ordinary-physics limit.
+5. `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical scaffolds and operational caveats.
+6. `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — controls, nulls, and proposed tests.
+7. `docs/05_FALSIFICATION_SUMMARY.md` — failure conditions for the core and every major branch.
+8. `docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md` — broader technical translation and constrained physical applications.
+
+### General architecture route
+
+1. `README.md` — repository purpose and entry tracks.
 2. `START_HERE_PUBLIC_OVERVIEW.md` — short plain-English orientation.
 3. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full front-door synthesis.
 4. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
 5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — complete dependency and integration registry.
-6. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — strict active-traversal, superadditivity, and composite-observer hypothesis.
-7. `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — fair-null construction and relationship-specificity refinement.
-8. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for structural, empirical, generative, and whole-system load.
-9. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — comparison with existing research, risks, and next checks.
-10. `PROVENANCE_DOI_AND_ATTRIBUTION.md` — provenance, DOI, licence, and citation.
+6. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — comparison with existing research, risks, and next checks.
+7. `PROVENANCE_DOI_AND_ATTRIBUTION.md` — provenance, DOI, licence, and citation.
 
-The canon map shows hierarchy. Module 24 shows how the files support, limit, and reconstruct one another. Module 24A tests whether active traversal or reciprocal coupling produces measurable functional gain. Module 24B requires that this gain survive the strongest fair separated, independent-ensemble, one-way, and alternative-pairing controls. Module 25 asks which particular dependencies carry genuine load and whether apparent local coherence survives a wider whole-system audit.
+### AI and typed-knowledge architecture route
+
+1. `ATLD_STANDALONE_PUBLICATION.md` — published methods-paper record and citation route.
+2. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — active traversal, superadditivity, and composite-observer hypothesis.
+3. `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — fair-null construction and relationship-specificity refinement.
+4. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for structural, empirical, generative, and whole-system load.
+
+The canon map shows hierarchy. Module 24 shows how the files support, limit, and reconstruct one another. Module 26 gives the early physics-facing category reframing but does not replace the core, mathematics, experiments, or falsification programme. Module 24A tests whether active traversal or reciprocal coupling produces measurable functional gain. Module 24B requires that this gain survive the strongest fair separated, independent-ensemble, one-way, and alternative-pairing controls. Module 25 asks which particular dependencies carry genuine load and whether apparent local coherence survives a wider whole-system audit.
 
 ## Core canon
 
@@ -33,7 +48,7 @@ The canon map shows hierarchy. Module 24 shows how the files support, limit, and
 
 File: `docs/01_MKUFT_CORE_EXTENDED.md`
 
-Role: primary S–I–P–O theory spine and standard-physics limit.
+Role: primary S–I–P–O theory spine, bounded observer terms, and standard-physics limit. It now routes direct physics readers to module 26 before observer-linked applications are treated as foundational physics.
 
 ### 2. MKUFT Mathematical Appendix
 
@@ -57,7 +72,7 @@ Role: proposed tests, controls, pre-registration requirements, null results, str
 
 File: `docs/05_FALSIFICATION_SUMMARY.md`
 
-Role: compact failure conditions for the core and application branches, including superadditivity, relational specificity, and composite-observer reductions.
+Role: compact failure conditions for the core and application branches, including the Layer Before Law quantum-gravity branch, superadditivity, relational specificity, and composite-observer reductions.
 
 ### 6. Worked Examples
 
@@ -66,6 +81,33 @@ File: `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md`
 Role: illustrative numerical bridge from model terms to correct uncertainty calculation and test design.
 
 The numbers are examples, not observed effects or expected effect sizes.
+
+## Physics-facing foundational module
+
+### 26. Layer Before Law
+
+File: `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md`
+
+Role: state the proposed category error in the conventional quantum-gravity problem, define a layered address for objects, treat entanglement as a pair-level I-layer relation between distinct P-layer systems, and specify the scientific burden required of any deeper SIPO update mechanism.
+
+Canonical handles:
+
+```text
+S → I → P → O → S
+U_n --Update_SIPO--> U_(n+1)
+shared pair-level informational relation + distinct physical embodiments
+```
+
+Status boundary: `Update_SIPO` is a readable placeholder, not a completed dynamical law. The module does not derive quantum mechanics, the Born rule, Bell correlations, quantum field theory, general relativity, or quantum gravity.
+
+Required tests include:
+
+- Bell-compatible correlations;
+- proof of no-signalling;
+- quantum and QFT recovery;
+- general-relativistic or equivalent gravitational recovery;
+- comparison with the standard joint-state formalism and the strongest existing emergent-spacetime and quantum-gravity alternatives;
+- deformation tests showing that the exact SIPO architecture carries more than decorative or interpretive load.
 
 ## Observer and traversal support
 
@@ -151,7 +193,7 @@ Role: explanatory bridge around boundary maintenance, persistence, cohesion, dim
 
 File: `docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md`
 
-Role: technical public translation, standard-physics compatibility, and constrained anomaly language.
+Role: broader technical public translation, standard-physics compatibility, constrained anomaly language, and routing to the earlier Layer Before Law module for the quantum-gravity burden.
 
 ### 19. Paradoxes, Frequency, Atoms, and Symbolic Physics
 
@@ -274,6 +316,8 @@ The module separates structural, reality, generative, and whole-system integrity
 
 Older schemes are historical scaffold unless explicitly reactivated.
 
+The public core commonly displays `S → I → P → O`. Module 26 explores `O → S` as a proposed recursive update leg. That proposal is not canonical physical fact until the coupling is defined, tested, and reconciled with the rest of the stack.
+
 ## Canon rules
 
 - The DOI-linked source work retains its provenance and identity.
@@ -281,6 +325,8 @@ Older schemes are historical scaffold unless explicitly reactivated.
 - A dedicated module carries each full definition.
 - Other files use compressed references or applied translations.
 - Claims require layer placement, ordinary alternatives, prediction, falsifier, and reduction rule.
+- The term Unified Field Theory requires early and explicit treatment of the quantum-gravity burden.
+- Architectural reframing does not count as completed physical derivation.
 - Structural centrality does not establish truth.
 - Local coherence must be distinguished from whole-system coherence where cost, agency, calibration, or long-horizon damage can be exported outside the selected boundary.
 - Metaphysical orientation must not be used to rescue a failed empirical claim.
