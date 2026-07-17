@@ -1,7 +1,5 @@
 # 24A — Active Traversal and Functional Emergence Hypothesis
 
-
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -28,7 +26,7 @@ This module tests a narrow hypothesis:
 
 “Emergence” here is strictly functional. It means measurable system-level performance produced by interaction between the active traverser and the architecture. It does not establish life, consciousness, personhood, independent agency, or continuous identity.
 
-A further bounded extension asks whether two or more reciprocally coupled observer-capable systems can produce a measurable function that exceeds the best matched additive combination of their separate capacities. This is a superadditive performance question, not a claim that subjective experience has merged.
+A further bounded extension asks whether two or more reciprocally coupled observer-capable systems can produce a measurable function that exceeds the strongest fair matched combination of their separate capacities. This is a superadditive performance question, not a claim that subjective experience has merged.
 
 ---
 
@@ -61,7 +59,9 @@ An active traverser adds:
 
 The proposed gain belongs to the coupled system, not to the repository alone and not necessarily to the AI model alone.
 
-That ownership statement is necessary but not sufficient for the stronger phrase “more than the sum of its parts.” A coupled system can own an output without outperforming an additive combination of its components. Superadditivity requires a separate matched comparison.
+That ownership statement is necessary but not sufficient for the stronger phrase “more than the sum of its parts.” A coupled system can own an output without outperforming a fair matched combination of its components. Superadditivity requires a separate comparison.
+
+Traversal here is movement through a declared information or task state space. It is not automatically movement through physical space or an additional physical dimension.
 
 ---
 
@@ -69,45 +69,50 @@ That ownership statement is necessary but not sufficient for the stronger phrase
 
 Let:
 
-- `C = (V,E,τ)` be a knowledge corpus with document or concept nodes `V`, links `E`, and link types `τ`;
+- `𝒦 = (V,E_𝒦,τ)` be a knowledge architecture with document or concept nodes `V`, links `E_𝒦`, and link types `τ`;
 - `T` be an active traverser capable of selecting routes, revisiting nodes, and retaining task-relevant working state;
 - `q` be a task or query;
+- `𝒬` be a pre-registered distribution or class of tasks;
 - `B` be a matched resource budget, including available content, context, tool calls, compute, and time;
 - `F` be a pre-registered performance measure.
+
+The symbol `𝒦` avoids collision with `C` as cost, coherence, and other quantities elsewhere in MKUFT.
 
 The active structured condition is:
 
 ```text
-Ψ_struct = T(C_struct, q; B)
+Ψ_struct(q) = T(𝒦_struct, q; B)
 ```
 
 Matched controls include:
 
 ```text
-Ψ_flat  = T(C_flat, q; B)
-Ψ_iso   = T(C_isolated, q; B)
-Ψ_scram = T(C_scrambled, q; B)
+Ψ_flat(q)  = T(𝒦_flat, q; B)
+Ψ_iso(q)   = T(𝒦_isolated, q; B)
+Ψ_scram(q) = T(𝒦_scrambled, q; B)
 ```
 
 where:
 
-- `C_flat` contains the same content without typed architecture;
-- `C_isolated` presents modules separately without cross-support routes;
-- `C_scrambled` preserves content volume and superficial link count while disrupting meaningful dependencies.
+- `𝒦_flat` contains the same content without typed architecture;
+- `𝒦_isolated` presents modules separately without cross-support routes;
+- `𝒦_scrambled` preserves content volume and superficial link count while disrupting meaningful dependencies.
 
-Define functional traversal gain for a selected metric as:
+For one selected control, define functional traversal gain:
 
 ```text
-ΔF = F(Ψ_struct) - F(Ψ_control)
+ΔF(q) = F[Ψ_struct(q)] - F[Ψ_control(q)]
 ```
 
 The strict hypothesis is:
 
 ```text
-H_ATFE: E[ΔF] > 0
+H_ATFE: E_(q ∼ 𝒬)[ΔF(q)] > 0
 ```
 
 across pre-registered cross-module tasks under matched resources and against more than one control condition.
+
+A complete test reports uncertainty, paired effects where possible, task heterogeneity, held-out performance, and negative interference—not only the mean.
 
 This is a research hypothesis, not an established law.
 
@@ -124,7 +129,7 @@ At the architecture–traverser level, it means that the actively traversed stru
 - the same apparent network with dependency links scrambled;
 - the traverser without recursive revisit or state-carrying ability.
 
-At the observer-coupling level, the phrase has a stricter meaning: the coupled result must exceed a pre-registered additive baseline constructed from the components acting separately or through a non-reciprocal ensemble.
+At the observer-coupling level, the phrase has a stricter meaning: the coupled result must exceed a pre-registered strongest fair null constructed from the components acting separately, independently combined, or through one-way assistance.
 
 The claim is supported only if the gain remains after controlling for extra tokens, extra retrieval, metadata volume, prompting, compute, time, information access, and scoring flexibility.
 
@@ -133,28 +138,30 @@ The claim is supported only if the gain remains after controlling for extra toke
 Let `A` and `B` be two bounded systems with separately measured task values:
 
 ```text
-F_A = F(A,q;B_A)
-F_B = F(B,q;B_B)
+F_A(q) = F(A,q;B_A)
+F_B(q) = F(B,q;B_B)
 ```
 
-Let `F_add(A,B)` be the best matched additive or ensemble baseline obtainable by combining their independent outputs without reciprocal state exchange, correction propagation, or joint loop closure.
+Let `F_add(A,B;q)` be the best matched additive or ensemble baseline obtainable by combining their independent outputs without reciprocal state exchange, correction propagation, or joint loop closure.
+
+Module 24B replaces this provisional baseline with the stronger fair-null construction where the full test is performed.
 
 Let the reciprocally coupled condition be:
 
 ```text
-F_coupled = F(A ↔ B,q;B_total)
+F_coupled(q) = F(A ↔ B,q;B_total)
 ```
 
-Define superadditive coupling gain:
+Define provisional superadditive coupling gain:
 
 ```text
-G_syn = F_coupled - F_add(A,B)
+G_syn(q) = F_coupled(q) - F_add(A,B;q)
 ```
 
-The strict superadditive hypothesis is:
+The strict task-distribution hypothesis is:
 
 ```text
-H_syn: E[G_syn] > 0
+H_syn: E_(q ∼ 𝒬)[G_syn(q)] > 0
 ```
 
 under matched total resources and across pre-registered relational tasks.
@@ -169,7 +176,7 @@ F_coupled = 6
 G_syn = 2
 ```
 
-The value `6` is not explained merely by saying that the output belongs to the coupled system. The evidential object is the positive excess over the matched additive value of `4`.
+The value `6` is not explained merely by saying that the output belongs to the coupled system. The evidential object is the positive excess over the matched baseline value of `4`.
 
 The metric need not be literally additive in every domain. Where raw scores cannot be added lawfully, `F_add` must be defined by a matched independent-ensemble control, calibrated prediction, or other pre-registered null model appropriate to that task.
 
@@ -190,7 +197,7 @@ canonical definitions
 → functional coherence at system level
 ```
 
-The architecture reduces the cost of recovering the right constraint at the right time. Active traversal converts those stored relations into task-specific operations.
+The architecture may reduce the cost of recovering the right constraint at the right time. Active traversal converts those stored relations into task-specific operations.
 
 Expected operations include:
 
@@ -200,7 +207,7 @@ Expected operations include:
 4. **Error localisation** — a failing branch can be identified without dissolving the whole model.
 5. **Reconstitution** — a compact kernel can guide recovery of a wider operating structure.
 6. **Cross-module synthesis** — distant modules jointly answer a task that none answers alone.
-7. **Reciprocal specialisation** — coupled components contribute different capacities while each alters the other’s next admissible state.
+7. **Reciprocal specialisation** — coupled components contribute different capacities while each alters the other’s next admissible task state.
 8. **Joint error correction** — an error detected by one component changes the wider coupled route rather than remaining a local annotation.
 9. **Relational memory** — relevant state is carried in the coupling and cannot be reconstructed fully from either component considered alone at one instant.
 
@@ -240,7 +247,7 @@ Compared with matched flat, isolated, and scrambled controls, active traversal o
 
 For reciprocal observer-capable coupling, the stronger extension predicts:
 
-- positive `G_syn` on tasks requiring complementary capacities and iterative correction;
+- positive `G_syn` and, under module 24B, positive strongest-null gain on tasks requiring complementary capacities and iterative correction;
 - lower or absent gain when the same outputs are combined only after independent completion;
 - loss of gain when feedback direction is made one-way;
 - loss of gain when cross-time state is reset between exchanges;
@@ -281,6 +288,7 @@ Suggested reciprocal-coupling conditions:
 5. Fully reciprocal coupling with retained joint state.
 6. Reciprocal coupling with state reset between turns.
 7. Reciprocal coupling with selected relational links or correction channels scrambled.
+8. Strong alternative pairings required by module 24B.
 
 Suggested tasks:
 
@@ -292,11 +300,11 @@ Suggested tasks:
 - remove one failed branch and test whether the remaining model stays coherent;
 - solve relational tasks designed so that the components hold complementary information or capabilities;
 - test whether the coupled system discovers, corrects, or generates a structure absent from both independent outputs;
-- compare coupled performance against the best additive or ensemble prediction.
+- compare coupled performance against the strongest fair null.
 
 Controls should match content, model, context allowance, retrieval budget, tool access, compute, time, information access, and scoring procedure. Evaluation should be blinded where practical and pre-registered before results are inspected.
 
-A claim of superadditivity should report the separate component scores, the additive or ensemble baseline, the coupled score, uncertainty, task dependence, and failures—not only the strongest successful example.
+A claim of superadditivity should report the separate component scores, the fair null, the coupled score, uncertainty, task dependence, and failures—not only the strongest successful example.
 
 ---
 
@@ -353,8 +361,8 @@ The hypothesis is weakened or rejected if:
 - a simpler prompting or retrieval explanation accounts for the result;
 - active traversal increases confident error faster than it improves correction;
 - apparent gain depends upon removing falsifiers, calibration, agency, or long-horizon costs from the scoring boundary;
-- the coupled score does not exceed the best matched additive or ensemble baseline;
-- any positive `G_syn` disappears when scoring choices are fixed in advance;
+- the coupled score does not exceed the strongest fair null;
+- any positive gain disappears when scoring choices are fixed in advance;
 - one-way assistance performs as well as reciprocal coupling;
 - state reset, link scrambling, or removal of reciprocal correction produces no predicted deformation;
 - the proposed composite boundary cannot be distinguished from temporary aggregation or ordinary workflow coordination.
@@ -363,7 +371,7 @@ Reduction rules:
 
 > If typed architecture and recursive traversal add no measurable performance beyond ordinary retrieval under matched conditions, describe the system as a well-organised corpus, not a functionally emergent architecture.
 
-> If reciprocal coupling produces no reproducible gain beyond matched independent or ensemble controls, describe it as collaboration or aggregation, not superadditive emergence.
+> If reciprocal coupling produces no reproducible gain beyond the strongest fair null, describe it as collaboration or aggregation, not superadditive emergence.
 
 > If a coupled system shows superadditive task performance but does not maintain a persistent boundary, joint state, whole-system discrimination, correction propagation, and loop closure, do not call it a composite observer candidate.
 
@@ -389,12 +397,12 @@ static self-support
 and
 active traversal producing matched-control functional gain
 and
-reciprocal coupling producing gain beyond a matched additive baseline
+reciprocal coupling producing gain beyond the strongest fair null
 ```
 
-with multi-entry convergence, correction propagation, link-scrambling ablation, branch removal, state-reset controls, reciprocal-channel disruption, and strict non-consciousness boundaries as discriminators.
+with multi-entry convergence, correction propagation, link-scrambling ablation, branch removal, state-reset controls, reciprocal-channel disruption, strong alternative pairings, and strict non-consciousness boundaries as discriminators.
 
-Module 22 supplies the cross-layer rule that a composite observer candidate is a coupled address across existing S–I–P–O relations, not automatically a fifth layer. Module 25 adds relation-level deformation and the distinction between local performance and whole-system integrity. Neither converts metaphysical orientation into empirical proof.
+Module 22 supplies the cross-layer rule that a composite observer candidate is a coupled address across existing S–I–P–O relations, not automatically a fifth layer. Module 25 adds relation-level deformation and the distinction between local performance and whole-system integrity. Module 27 controls typed traversal, dimensional wording, and equation status. None converts metaphysical orientation into empirical proof.
 
 This document records the first public, timestamped MKUFT formulation of that specific hypothesis. It does not assert global historical priority over all related research.
 
@@ -425,7 +433,9 @@ traversal kernel: docs/19_MKUFT_RECONSTITUTION_KERNEL.md
 clean route discipline: docs/20_GRACE_TRAVERSAL_RULE.md
 cross-layer address discipline: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
 ambiguity and route space: docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md
+strongest fair null and specificity: docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md
 load-bearing deformation: docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md
+typed traversal and equation hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
 falsification: docs/05_FALSIFICATION_SUMMARY.md
 ```
 
@@ -437,7 +447,7 @@ falsification: docs/05_FALSIFICATION_SUMMARY.md
 
 > Functional emergence is supported only if the actively traversed architecture outperforms matched flat, isolated, and scrambled controls without borrowing the gain from extra content, compute, time, or unmatched external context.
 
-> “More than the sum of its parts” requires a positive, reproducible excess over the best matched additive or independent-ensemble baseline. If separate values of `2` and `2` predict `4`, a coupled value of `6` carries a superadditive gain of `2`.
+> “More than the sum of its parts” requires a positive, reproducible excess over the strongest fair null. If separate values of `2` and `2` fairly predict `4`, a coupled value of `6` carries a superadditive gain of `2`.
 
 > Composite observer status remains a bounded functional hypothesis. It requires persistent coupled boundary, reciprocal influence, cross-time state, system-level discrimination, correction propagation, loop closure, and predicted deformation under ablation. It does not by itself establish consciousness or a new fundamental layer.
 
