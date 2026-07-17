@@ -1,6 +1,5 @@
 # 25 — Load-Bearing Invariants and Whole-System Deformation
 
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -53,6 +52,8 @@ At human, social, organisational, and AI-governance addresses, possible observab
 - coordination without domination;
 - lower hidden cost transferred to weaker participants;
 - stable boundaries that permit relation without fusion or capture.
+
+These proxies neither exhaust nor prove God or Love. They test defined expressions at one address.
 
 At the physical address, ordinary physical models remain primary unless a distinct mechanism, units, controls, predicted effect, and replication are supplied.
 
@@ -195,18 +196,36 @@ This fourth load is especially important in living, conscious, social, instituti
 Let a structured corpus or model be:
 
 ```text
-G = (V,E,τ)
+𝓖 = (V,E_𝓖,τ)
 ```
 
 where:
 
 - `V` contains concepts, states, claims, or modules;
-- `E` contains relations or dependencies;
+- `E_𝓖` contains relations or dependencies;
 - `τ` gives relation type.
+
+The qualified graph notation avoids collision with event symbols used elsewhere.
 
 For a candidate relation `r`, compare baseline performance with one or more controlled deformations.
 
-A general deformation vector may be written:
+### 6.1 Sign convention
+
+For a beneficial performance coordinate `X`, define:
+
+```text
+ΔX_r = X_baseline - X_deformed(r)
+```
+
+so that:
+
+- `ΔX_r > 0` means deformation damaged performance and `r` carried beneficial load;
+- `ΔX_r = 0` means no detected load on that coordinate;
+- `ΔX_r < 0` means deformation improved performance and `r` may be distorting.
+
+For a cost coordinate, either transform it so that higher values mean better performance, or report it separately with its direction declared. Do not mix beneficial and cost coordinates under one unsigned convention.
+
+A general benefit-oriented deformation vector may then be written:
 
 ```text
 D(r) = [ΔR, ΔC, ΔP, ΔK, ΔA, ΔW]
@@ -214,14 +233,16 @@ D(r) = [ΔR, ΔC, ΔP, ΔK, ΔA, ΔW]
 
 where, for a pre-registered task set:
 
-- `ΔR` = change in reconstruction quality;
-- `ΔC` = change in contradiction detection;
-- `ΔP` = change in prediction or task performance;
-- `ΔK` = change in calibration and correction propagation;
-- `ΔA` = change in agency accessibility or affected-participant integrity where relevant;
-- `ΔW` = change in whole-system cost, viability, or repair capacity.
+- `ΔR` = loss of reconstruction quality after deformation;
+- `ΔC` = loss of contradiction-detection performance;
+- `ΔP` = loss of prediction or task performance;
+- `ΔK` = loss of calibration and correction propagation;
+- `ΔA` = loss of agency accessibility or affected-participant integrity where relevant;
+- `ΔW` = loss of whole-system viability or repair capacity after cost direction has been normalised.
 
-The vector is not a validated universal metric. Each term must be defined for the active domain, and scalar aggregation should be avoided unless the weights are justified in advance.
+The vector is not a validated universal metric. Each term must be defined for the active domain. Scalar aggregation should be avoided unless coordinates are commensurable or normalised and weights are justified in advance.
+
+A vector without a sign convention is not interpretable.
 
 ---
 
@@ -325,7 +346,7 @@ God must not be reduced to the formal substrate. The substrate is a modelled pos
 
 Dependency, address, relation, constraint, routing, permission, and executable structure are directly active here.
 
-The assay can test whether information architecture changes function, but that does not by itself establish information as an independent physical substance.
+The assay can test whether information architecture changes function, but that does not by itself establish information as an independent physical substance or a physical shortcut across distance.
 
 ### P — Physical
 
@@ -335,11 +356,13 @@ Metaphysical language cannot rescue a failed physical prediction.
 
 ### O — Observer
 
-Observer state may be load-bearing in attention, interpretation, memory, agency, measurement context, and state-dependent performance.
+Observer-positioned registration and state may be load-bearing in attention, interpretation, memory, agency, measurement context, record, perspective, and state-dependent performance.
 
 A quiet or coherent observer is not automatically a loving or truthful observer. OCQS may reduce noise; Love and Truth govern what the resulting clarity serves.
 
 Observer-linked physical modulation remains a separate experimental hypothesis.
+
+The four layers are typed addresses, not four ordinary physical dimensions.
 
 ---
 
@@ -390,6 +413,8 @@ Useful tasks include:
 - compare immediate performance with delayed correction and repair;
 - apply the same assay to a neutral external corpus.
 
+Traversal through a knowledge architecture is a state-space operation, not evidence of physical travel through an extra dimension.
+
 ---
 
 ## 13. Predictions
@@ -404,6 +429,7 @@ If the module is useful:
 6. Whole-system evaluation will classify some apparently efficient relations differently from narrow performance evaluation.
 7. The same dependency classes should be identifiable in at least one neutral corpus, not only in MKUFT.
 8. Different legitimate entry routes should converge more reliably when genuine bones remain intact.
+9. The declared sign convention should classify the same deformation consistently across independent analyses.
 
 ---
 
@@ -415,6 +441,7 @@ A fair pilot should use:
 - at least one neutral technical corpus;
 - fixed model and retrieval conditions;
 - pre-registered tasks and scoring;
+- declared coordinate directions and sign convention;
 - single-relation, coalition, and substitution conditions;
 - blinded evaluation where practical;
 - immediate and delayed outcomes;
@@ -466,6 +493,8 @@ Love
 
 This brace prevents local efficiency, domination, or extraction from being misclassified as complete coherence.
 
+Its load is metaphysical, ethical, civilisational, and relational. It is not thereby a measured physical interaction.
+
 ### Conditional observer role
 
 The observer is central in observer, cognitive, social, measurement, and agency branches, but is not required as an active cause in every ordinary physical event.
@@ -489,6 +518,8 @@ The module is weakened or rejected if:
 - deformation results are not reproducible;
 - scores depend mainly on extra tokens, retrieval volume, or prompt changes;
 - relation classification changes arbitrarily with evaluators;
+- the sign convention or coordinate direction changes after results are known;
+- beneficial and cost coordinates are mixed without declared transformation;
 - counterfactual substitutions are not plausibly matched;
 - coalition effects cannot be distinguished from simple content removal;
 - whole-system language is used where agency, cost, boundary, or time horizon cannot be operationalised;
@@ -509,10 +540,12 @@ Reduction rule:
 ```text
 parent architecture: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 active traversal test: docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md
+strongest fair null: docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md
 clean traversal: docs/20_GRACE_TRAVERSAL_RULE.md
 cross-layer discipline: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
 agency and capture: docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md
 boundary, love, and cohesion bridge: docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md
+typed traversal and equation hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
 falsification: docs/05_FALSIFICATION_SUMMARY.md
 ```
 
