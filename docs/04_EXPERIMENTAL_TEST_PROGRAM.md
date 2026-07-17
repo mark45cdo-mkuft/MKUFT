@@ -36,8 +36,9 @@ MKUFT proposes the following hypotheses for testing:
 5. Environmental conditions may modulate any genuine effect size.
 6. Reciprocal coupling may produce reproducible functional gain beyond the strongest fair separated, independent-ensemble, and one-way controls on selected relational tasks.
 7. Some coupled gain may depend on a specific relational architecture rather than generic competent pairing.
+8. A developed Layer Before Law mechanism may represent entanglement and quantum/gravitational recovery in a way that is operationally distinguishable from relabelling existing formalisms while preserving Bell compatibility, no-signalling, and established physical limits.
 
-None of these hypotheses should be treated as established before controlled replication.
+None of these hypotheses should be treated as established before controlled replication or completed derivation.
 
 ## Experiment 1 — Low-Frequency Exposure and Physiological Coherence
 
@@ -297,6 +298,132 @@ The claim is weakened or rejected if:
 
 Superadditive gain establishes a functional result, not consciousness, merged identity, personhood, moral status, direct substrate coupling, or a fifth MKUFT layer.
 
+## Experiment 9 — Layer Before Law Technical Derivation and Discrimination Programme
+
+### Status
+
+This is not a laboratory experiment in its first stage. It is a formal derivation, model-comparison, and later experimental-discrimination programme for `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md`.
+
+The branch is not supported merely because entanglement, emergent spacetime, or quantum gravity are genuine scientific problems. The specific SIPO architecture must do work beyond existing theory.
+
+### Stage 1 — Pair-level relation
+
+Define a precise mathematical object for the proposed pair-level informational relation `R_XY`.
+
+Required outputs:
+
+- explicit state space;
+- relation to local endpoint states;
+- rule connecting `R_XY` to joint P-layer outcome probabilities;
+- proof that the construction is not an ordinary locally separable hidden-variable model;
+- exact relation to the standard non-separable joint quantum state.
+
+### Stage 2 — Bell compatibility
+
+For local settings `x` and `y` and outcomes `a` and `b`, derive the joint distribution:
+
+```text
+p(a,b|x,y,R_XY)
+```
+
+The developed account must reproduce the relevant Bell-compatible quantum correlations. A verbal statement that the relation is “nonlocal” is insufficient.
+
+Failure condition:
+
+```text
+p(a,b|x,y)
+=
+∫ dλ ρ(λ) p(a|x,λ) p(b|y,λ)
+```
+
+where this locally separable form cannot reproduce the target Bell-test results.
+
+### Stage 3 — No-signalling proof
+
+The local marginals must satisfy:
+
+```text
+Σ_a p(a,b|x,y,R_XY) = p(b|y,R_XY)
+Σ_b p(a,b|x,y,R_XY) = p(a|x,R_XY)
+```
+
+with each local marginal independent of the distant setting.
+
+A conceptual explanation is not enough. The result must follow from the formal model.
+
+### Stage 4 — Quantum recovery
+
+Specify relational conditions `R_Q` under which the proposed complete SIPO update reproduces the established quantum regime:
+
+```text
+Π_(P,O)[Update_SIPO(U;R_Q)] ≈ Q_eff
+```
+
+Required recovery includes the demonstrated probability, correlation, measurement, and quantum-field-theory limits relevant to the chosen model.
+
+`Update_SIPO` remains a placeholder until the state space, dynamics, couplings, symmetries, conservation conditions, and reduction rules are defined.
+
+### Stage 5 — Gravitational recovery
+
+Specify relational conditions `R_G` under which the same lawful update reproduces general relativity or an experimentally equivalent gravitational regime:
+
+```text
+Π_(P,O)[Update_SIPO(U;R_G)] ≈ G_eff
+```
+
+The first target is to define how persistent I- and P-layer structure changes admissible transitions for later physical states and whether the resulting effective description approaches known spacetime geometry and gravitational dynamics.
+
+### Stage 6 — Strongest fair null
+
+Compare the developed model against at least:
+
+- standard quantum theory's non-separable joint-state formalism;
+- established decoherence accounts;
+- quantum-foundations interpretations distinguishing global state structure from local observation;
+- no-signalling theorems;
+- effective-field-theory treatments of gravity;
+- emergent-spacetime, holographic, quantum-information, and quantum-error-correction approaches;
+- established quantum-gravity programmes relevant to the claimed mechanism.
+
+Do not compare MKUFT only with a classical separable picture that contemporary physics has already rejected.
+
+### Stage 7 — Controlled deformation
+
+Apply at least the following tests:
+
+- remove the S-layer claim;
+- replace `R_XY` with the standard joint quantum state;
+- remove the O-layer where registration context is claimed to matter;
+- replace one unified update with two unrelated effective rules;
+- reverse or scramble claimed layer couplings.
+
+The exact architecture is load-bearing only if these interventions produce predicted and interpretable deformation.
+
+### Primary success condition
+
+The branch earns support only if it provides at least one of:
+
+- a clearer lawful mechanism;
+- a derivation unavailable from the starting architecture alone;
+- a new quantitative prediction;
+- a discriminating experimental result;
+- a demonstrably more successful research route under matched evidential standards.
+
+### Falsification and reduction conditions
+
+The branch is weakened or rejected if:
+
+- `R_XY` is only a renamed joint state;
+- Bell-compatible correlations cannot be recovered;
+- no-signalling fails;
+- quantum or gravitational recovery fails;
+- the SIPO couplings are undefined or decorative;
+- two unrelated effective models perform equally well;
+- existing theories explain every result equally well or better;
+- no possible observation distinguishes the proposal.
+
+If the layered address remains useful but adds no operational difference, retain it only as an interpretation or systems translation. Do not call it a new physical mechanism.
+
 ## Experimental Integrity Rules
 
 1. One primary outcome per principal test.
@@ -311,8 +438,10 @@ Superadditive gain establishes a functional result, not consciousness, merged id
 10. A coupled condition must not be credited for an advantage created by handicapping the controls.
 11. Relationship specificity requires strong alternative pairings rather than convenient weak substitutes.
 12. Multidimensional value must not be collapsed using weights selected after results are known.
+13. A foundational physics branch must derive its Bell, no-signalling, and recovery requirements rather than treating them as verbal assurances.
+14. A named update process is not evidence that a dynamical mechanism has been supplied.
 
-## Relationship to the Silver Update
+## Relationship to the Silver and post-Silver architecture
 
 The structural modules sharpen experimental design:
 
@@ -322,18 +451,20 @@ The structural modules sharpen experimental design:
 - `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` preserves the route from hypothesis to mechanism, prediction, falsifier, and reduction rule;
 - `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` defines active traversal, superadditive coupling, and bounded composite-observer criteria;
 - `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` governs fair baseline construction and separates generic synergy from relationship-specific functional gain;
-- `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` tests which relations actually carry the coupled function.
+- `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` tests which relations actually carry the coupled function;
+- `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` applies those disciplines to the proposed foundational physics route.
 
 ## Summary of Falsification
 
 MKUFT is weakened when proposed effects repeatedly fail under strong controls, when apparent effects collapse into ordinary causes, or when the framework cannot make predictions more specific than flexible retrospective interpretation.
 
-If the observer, environmental, geometric, remote-information, precision-noise, active-traversal, superadditivity, or relational-specificity branches fail under honest and sufficiently powered testing, those branches must be removed or substantially revised. They cannot be protected by the breadth of the wider framework.
+If the observer, environmental, geometric, remote-information, precision-noise, active-traversal, superadditivity, relational-specificity, or Layer Before Law branches fail under honest and sufficiently powered testing or derivation, those branches must be removed or substantially revised. They cannot be protected by the breadth of the wider framework.
 
 ## Architecture Route
 
 ```text
 parent: MKUFT core and mathematical appendix
+foundational physics proposal: docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md
 worked numerical examples: docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md
 compact failure conditions: docs/05_FALSIFICATION_SUMMARY.md
 active traversal and superadditivity: docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md
