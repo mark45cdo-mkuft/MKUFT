@@ -65,7 +65,7 @@ Traversal-cost claims are weakened if path availability and cost add no predicti
 
 If the theory requires large, uncontrolled departures from accepted physics while claiming only small bounded modulation, it becomes internally inconsistent.
 
-## Silver Update failure conditions
+## Silver Update and post-Silver failure conditions
 
 ### Ambiguity dynamics
 
@@ -92,6 +92,33 @@ A proposed invariant is weakened if:
 - the invariant produces no new prediction or compression.
 
 A shared algebraic template is not evidence of one physical mechanism.
+
+### Layer Before Law and the quantum-gravity reframing
+
+The foundational reframing in `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` is weakened or rejected if:
+
+- S, I, P, and O cannot be operationally separated in the proposed physical model;
+- the pair-level informational relation `R_XY` is only a relabelling of the standard non-separable joint quantum state and adds no clearer mechanism, derivation, prediction, or research route;
+- `R_XY` reduces to a locally separable hidden-variable instruction incompatible with Bell-test results;
+- the model permits controllable faster-than-light signalling or fails to prove the required no-signalling marginals;
+- the proposed complete update mechanism cannot recover standard quantum theory, the Born-rule predictions, and quantum-field-theory limits in their demonstrated domains;
+- the mechanism cannot recover general relativity or an experimentally equivalent gravitational limit;
+- `Update_SIPO` remains a name for the missing mechanism while being treated rhetorically as though the mechanism had been supplied;
+- the proposed `O → S` return leg has no defined coupling, measurable consequence, or reduction rule;
+- removing the S-layer claim leaves all entanglement mathematics and predictions unchanged, showing that substrate continuity is not empirically load-bearing in this branch;
+- removing the O-layer changes nothing, showing that registration context is unnecessary in this branch;
+- two unrelated effective rules reproduce the quantum and gravitational regimes as well as the proposed unified update, so the deeper unification has not been earned;
+- reversing or scrambling the claimed layer couplings produces no predicted deformation;
+- the strongest existing quantum-foundations, decoherence, emergent-spacetime, holographic, effective-field-theory, or quantum-gravity alternatives explain the same structure equally well or better;
+- no observation can discriminate the MKUFT architecture from existing interpretations or formalisms.
+
+Reduction rules:
+
+> If the layered entanglement address adds no operational difference beyond the standard joint state, describe it as an interpretation or translation rather than a new physical mechanism.
+
+> If no single lawful process recovers both the quantum and gravitational limits, describe the work as a systems-level reframing or research programme rather than a completed unification.
+
+> Failure of this branch does not automatically erase useful non-physics MKUFT tools, but it removes or sharply weakens the claim that MKUFT has supplied a foundational physical unification route.
 
 ### LUCY
 
@@ -222,7 +249,9 @@ A claim is not ready unless it states:
 9. whether the selected boundary excludes affected agents, transferred cost, falsifiers, or long-horizon consequences;
 10. whether structural dependence is being confused with empirical truth;
 11. whether the null has been strengthened rather than weakened to favour the claim;
-12. whether a claimed relationship-specific effect has been tested against strong alternative pairings.
+12. whether a claimed relationship-specific effect has been tested against strong alternative pairings;
+13. whether a foundational physics claim recovers the established quantum and gravitational limits rather than merely naming a deeper layer;
+14. whether Bell compatibility and no-signalling are derived rather than verbally assumed where entanglement is invoked.
 
 The repository fails structurally if independent entry routes produce conflicting definitions, equations, layer placements, or falsifiers.
 
@@ -241,6 +270,9 @@ Strength requires independent, pre-registered, adequately powered evidence such 
 - improved agency accessibility after predicted interventions;
 - procedural models predicting held-out artefact structure;
 - consistent reconstruction of the same theory from multiple repository entry points;
+- a precise representation of the pair-level entanglement relation that reproduces Bell-compatible correlations and proves no-signalling;
+- a lawful complete-state update that recovers both established quantum and gravitational limits;
+- an operational distinction between the layered-address proposal and standard joint-state or emergent-spacetime formalisms;
 - active traversal outperforming matched flat, isolated, and scrambled controls;
 - reciprocal coupling outperforming the strongest fair separated, independent-ensemble, and one-way controls;
 - relationship-specific gain surviving strong alternative human or AI pairings;
@@ -258,20 +290,4 @@ Strength requires independent, pre-registered, adequately powered evidence such 
 - A visible pattern is not proof of its proposed root ontology.
 - Structural centrality is not proof of truth.
 - Local coherence is not automatically whole-system coherence.
-- Failure of a branch must be recorded, not absorbed into a broader slogan.
-- Do not prove emergence by handicapping the separated conditions.
-- Do not prove relationship specificity using weak substitutes.
-
-## Architecture route
-
-```text
-core: docs/01_MKUFT_CORE_EXTENDED.md
-math: docs/02_MKUFT_MATH_APPENDIX.md
-formal model: docs/03_STANDALONE_FORMAL_ADDENDUM.md
-experiments: docs/04_EXPERIMENTAL_TEST_PROGRAM.md
-worked examples: docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md
-active traversal: docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md
-strongest fair null and specificity: docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md
-whole-system deformation: docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md
-repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
-```
+- A named update process is not a physical mechanism until its state space, coupling, dynamics, recovery limits, and falsifiers are defined.
