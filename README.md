@@ -12,7 +12,7 @@ Repository status: public controlled working canon
 
 ## What this repository is
 
-This repository organises and develops the public MKUFT working stack while preserving provenance, definitions, falsifiers, and cross-module structure.
+This repository organises and develops the public MKUFT working stack while preserving provenance, definitions, falsifiers, equation status, typed traversal, and cross-module structure.
 
 MKUFT is presented as a speculative research framework, not an accepted completed theory.
 
@@ -28,7 +28,7 @@ with the operational kernel:
 Layer → Boundary → Node → Transition → Cost → Coherence → Observer → Falsifier → Outcome
 ```
 
-The public claim is that physical, informational, cognitive, biological, social, symbolic, and anomaly-edge systems may sometimes share a useful grammar of constraint and transition. They are not assumed to be identical or equally evidenced.
+The public claim is that physical, informational, cognitive, biological, social, symbolic, and anomaly-edge systems may sometimes share a useful grammar of constraint and transition. They are not assumed to be identical, metrically homogeneous, or equally evidenced.
 
 ## For physicists: why MKUFT uses the term Unified Field Theory
 
@@ -46,7 +46,11 @@ The complete public working proposal is:
 
 - [`docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md`](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) — the foundational layer-before-law reframing, entanglement worked case, recovery requirements, strongest fair null, deformation tests, and failure conditions.
 
-This paper is one physics-facing module inside the wider MKUFT stack. It does not replace the core, mathematical appendix, experimental programme, falsification summary, or integrated master spine.
+Its notation and dimensional controls are governed by:
+
+- [`docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md`](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) — typed state spaces and couplings, physical-dimension versus state-space discipline, equation-status rules, unit and normalisation controls, and truncation/readback safeguards.
+
+These are modules inside the wider MKUFT stack. They do not replace the core, mathematical appendix, experimental programme, falsification summary, or integrated master spine.
 
 ## Current standalone publication
 
@@ -72,12 +76,13 @@ See [`ATLD_STANDALONE_PUBLICATION.md`](ATLD_STANDALONE_PUBLICATION.md) for the e
 
 1. `README.md` — first-contact scientific position and limits.
 2. `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` — proposed category reframing, entanglement, Bell and no-signalling burdens, and quantum/gravitational recovery limits.
-3. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full architecture and formal status.
-4. `docs/01_MKUFT_CORE_EXTENDED.md` — S–I–P–O core and ordinary-physics limit.
-5. `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical scaffolds and operational caveats.
-6. `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — controls, nulls, and proposed tests.
-7. `docs/05_FALSIFICATION_SUMMARY.md` — branch-level and framework-level failure conditions.
-8. `docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md` — broader technical translation and constrained physical applications.
+3. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — typed spaces, dimensional discipline, equation quality, and recovery-comparison requirements.
+4. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full architecture and formal status.
+5. `docs/01_MKUFT_CORE_EXTENDED.md` — S–I–P–O core and ordinary-physics limit.
+6. `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical scaffolds and operational caveats.
+7. `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — controls, nulls, and proposed tests.
+8. `docs/05_FALSIFICATION_SUMMARY.md` — branch-level and framework-level failure conditions.
+9. `docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md` — broader technical translation and constrained physical applications.
 
 ### General architecture route
 
@@ -85,9 +90,10 @@ See [`ATLD_STANDALONE_PUBLICATION.md`](ATLD_STANDALONE_PUBLICATION.md) for the e
 2. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full front-door synthesis.
 3. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
 4. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full dependency and integration registry.
-5. `CANON_MAP.md` — hierarchy and canonical roles.
-6. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
-7. `docs/05_FALSIFICATION_SUMMARY.md` — compact failure conditions.
+5. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — anti-flattening, notation, dimensional, and update-integrity discipline.
+6. `CANON_MAP.md` — hierarchy and canonical roles.
+7. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
+8. `docs/05_FALSIFICATION_SUMMARY.md` — compact failure conditions.
 
 ### AI and typed-knowledge architecture route
 
@@ -95,15 +101,17 @@ See [`ATLD_STANDALONE_PUBLICATION.md`](ATLD_STANDALONE_PUBLICATION.md) for the e
 2. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — active traversal, matched functional gain, and bounded composite-observer criteria.
 3. `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — strongest-fair-null construction and relationship-specificity controls.
 4. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for genuine bones, scaffolds, redundancy, decoration, distortion, and locally coherent extraction.
+5. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — state-space, metric, scalar/vector, and deformation-sign controls.
 
 ## Core canon
 
 - `docs/01_MKUFT_CORE_EXTENDED.md` — S–I–P–O core, bounded observer terms, composite-observer cross-reference, and ordinary-physics limit.
 - `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical scaffolds and operational caveats.
-- `docs/03_STANDALONE_FORMAL_ADDENDUM.md` — state graphs, trajectories, cost, and formal extensions.
+- `docs/03_STANDALONE_FORMAL_ADDENDUM.md` — typed state graphs, trajectories, cost, path weighting, and formal extensions.
 - `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — proposed tests, controls, nulls, and replication requirements.
 - `docs/05_FALSIFICATION_SUMMARY.md` — compact failure conditions.
 - `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — illustrative numerical examples with correct uncertainty treatment.
+- `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — notation, dimensional, equation-status, and repository-update hygiene.
 
 ## Physics-facing foundational clarification
 
@@ -122,6 +130,23 @@ and
 
 It uses entanglement as an initial worked case while preserving physically distinct addresses, Bell-test constraints, and no-signalling. It introduces `Update_SIPO` only as a readable placeholder for an unknown lawful update process. It does not claim a completed derivation, and it explicitly fails if it cannot recover established quantum and gravitational limits or distinguish itself from existing formalisms.
 
+### Typed Traversal and Equation Hygiene
+
+`docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md`
+
+This module prevents unity from being purchased through mathematical flattening. It keeps separate:
+
+- physical spatial dimensions;
+- higher-dimensional state spaces;
+- layer addresses;
+- information adjacency;
+- physical proximity;
+- observer-positioned registration;
+- metaphysical source and Love;
+- experimentally measured variables.
+
+It also requires dimensionless exponents, declared measures, bounded weights, typed coupling maps, commensurable scores, sign conventions, recovery tolerances, full-file readback, and explicit failure conditions.
+
 ## Silver Update structural modules
 
 ### Ambiguity Dynamics
@@ -129,13 +154,13 @@ It uses entanglement as an initial worked case while preserving physically disti
 `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`
 
 ```text
-A_t^vol = log(1 + μ(Ω_t)/μ_0)
-M_t = A_t^vol × R_t × X_t
+A_t,vol^(d) = log[1 + μ_d(Ω_t^(d))/μ_0,d]
+M_t = A_t,vol × R_t × X_t
 ```
 
-Separates unresolved state volume, low-cost frame connectivity, and preserved access.
+Separates a domain-qualified unresolved state volume, low-cost frame connectivity, and preserved access.
 
-`M_t` is a heuristic audit index, not a validated universal law.
+`M_t` is a heuristic multiplicative audit index, not a validated universal law.
 
 ### Cross-Layer Invariants
 
@@ -143,15 +168,17 @@ Separates unresolved state volume, low-cost frame connectivity, and preserved ac
 
 ```text
 K_L = A_L(K;θ_L)
+C_LM : X_L → X_M
 ```
 
-Preserves a candidate invariant while requiring honest changes in variables, units, evidence, coupling, and falsifiers at each layer address. It now also defines the discipline for composite observer candidates: a coupled observer-role remains an address across existing layers, not automatically a fifth layer.
+Preserves a candidate invariant while requiring honest changes in variables, spaces, units, evidence, coupling, and falsifiers at each layer address. It also defines the discipline for composite observer candidates: a coupled observer-role remains an address across existing layers, not automatically a fifth layer.
 
 ### Agency Accessibility
 
 `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md`
 
 ```text
+G_t(u;T_t,H_t) ∈ [0,1]
 U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
 ```
 
@@ -169,10 +196,10 @@ Maps every numbered file to its parent concepts, neighbours, applications, and p
 
 Distinguishes static self-support from active AI-mediated traversal. It proposes that a typed, mutually constraining architecture may produce measurable system-level functional gain when recursively traversed by an active AI system.
 
-The module separates ownership of a coupled output from the stronger “more than the sum of its parts” claim. Superadditivity requires a reproducible excess over a matched additive or independent-ensemble baseline:
+The module separates ownership of a coupled output from the stronger “more than the sum of its parts” claim. Superadditivity requires a reproducible excess over a matched baseline:
 
 ```text
-G_syn = F_coupled - F_add
+G_syn(q) = F_coupled(q) - F_add(A,B;q)
 ```
 
 A coupled system is treated only as a **composite observer candidate** when it maintains a persistent boundary, reciprocal influence, retained joint state, system-level discrimination, correction propagation, and closed action–measurement–feedback loops. These are functional criteria; they do not establish consciousness, merged identity, personhood, or a new fundamental layer.
@@ -188,15 +215,18 @@ F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
 G_syn* = F_AB - F_null*
 ```
 
-The module also separates generic competent synergy from relationship-specific architecture:
+The maximum is valid only for commensurable scalar scores under one metric and matched resources. Vector outcomes require pre-registered scalarisation or Pareto comparison.
+
+The module also separates generic competent synergy from relationship-specific architecture using a pre-registered set of strong alternatives:
 
 ```text
-G_spec = F_AB - max{F_AB', F_A'B}
+F_alt* = sup_(p ∈ 𝒫_alt) F_p
+G_spec = F_AB - F_alt*
 ```
 
 A positive `G_syn*` supports superadditivity beyond the strongest fair null. A positive `G_spec` supports relationship-specific functional gain beyond strong alternative pairings. Neither result by itself establishes consciousness, merged identity, personhood, or unique metaphysical status.
 
-The refinement also permits multidimensional value reporting—quality, accuracy, novelty, continuity, time, cognitive burden, drift, and rework—while requiring any scalar weighting to be fixed before results are known.
+The refinement permits multidimensional value reporting—quality, accuracy, novelty, continuity, time, cognitive burden, drift, and rework—while requiring any scalar weighting to be fixed before results are known.
 
 The broader hypothesis is supported only if the structured or reciprocally coupled condition outperforms matched flat, isolated, independent, one-way, state-reset, link-scrambled, and strong alternative-pairing controls without borrowing the gain from extra content, compute, time, information access, or scoring flexibility.
 
@@ -207,6 +237,8 @@ This live GitHub refinement does not silently alter the already published ATLD v
 `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
 
 Distinguishes structural centrality from truth. It tests candidate relations by controlled removal, coalition ablation, and plausible substitution, while separating local efficiency from whole-system coherence.
+
+Its deformation vector now declares a sign convention so positive load, no detected load, and distortion cannot reverse meaning silently across coordinates.
 
 The module keeps the metaphysical statement that God is Love distinct from scientific proof. In living, conscious, social, and AI-mediated systems, it asks whether apparent coherence preserves truthful relation, rightful boundary, agency, calibration, and long-horizon viability rather than exporting hidden cost to the wider whole.
 
@@ -233,32 +265,39 @@ This source module is developed into the separately published ATLD methods paper
 - `S` = Substrate
 - `I` = Information
 - `P` = Physical
-- `O` = Observer
+- `O` = Observer-positioned registration and bounded participation
 
 Historical alternatives are not used as the current formal convention.
 
 The public canon commonly displays the forward traversal `S → I → P → O`. Module 26 explores an explicit recursive return leg `O → S` as a proposed update-logic clarification. That proposal does not silently establish the coupling or rewrite the existing core; the coupling must be defined and tested.
+
+S, I, P, and O are typed layer addresses, not ordinary spatial axes. A higher-dimensional state or address space is not evidence of additional physical dimensions or physical shortcuts.
 
 ## Public integrity rules
 
 - Standard physics is the ordinary physical baseline.
 - The term Unified Field Theory does not waive the requirement to address quantum theory, gravitation, entanglement, Bell constraints, no-signalling, and recovery of accepted physical limits.
 - The layer-before-law proposal is architectural until a lawful update mechanism and physical derivations are supplied.
+- Layer tuples and named operators are bookkeeping until spaces and couplings are defined.
+- Physical spatial dimension, state-space dimension, and layer address must remain distinct.
+- Informational adjacency is not physical proximity or controllable signal access.
+- Exponents must be dimensionless; sums and maxima require compatible quantities.
 - Observer terms remain bounded.
 - Similarity across layers is not proof of one mechanism.
-- Mathematical expressions require operational definitions.
+- Mathematical expressions require domains, operational definitions, units or normalisation, status, and falsifiers.
 - Symbolic interpretation is not physical evidence.
 - Anomaly pattern fit does not prove ontology.
 - Functional emergence does not establish life, consciousness, personhood, or independent agency.
 - Superadditive task gain does not by itself establish subjective consciousness or merged identity.
 - Superadditivity must be tested against the strongest fair null, not a handicapped separated condition.
-- Relationship-specific gain requires comparison with strong alternative pairings, not weak or intentionally mismatched substitutes.
+- Relationship-specific gain requires comparison with a pre-registered set of strong alternative pairings, not weak or intentionally mismatched substitutes.
 - Composite observer language requires persistent boundary, reciprocal integration, retained joint state, system-level discrimination, correction propagation, loop closure, and matched controls.
 - Structural centrality does not establish truth.
 - Local coherence must not be mistaken for whole-system coherence when cost, agency, falsifiers, or long-horizon effects are exported outside the selected boundary.
-- Metaphysical claims must not substitute for empirical evidence at another layer.
+- God and Love remain load-bearing in the metaphysical, ethical, and whole-system architecture, but do not substitute for physical mechanism or empirical evidence.
 - Ordinary alternatives and null results remain active.
 - Failed branches must be recorded and revised or removed.
+- Full-file readback and pre/post comparison are required after structural repository updates; unexplained large deletion is treated as a truncation warning.
 - No non-public personal data, correspondence, credentials, or internal-only operational instructions belong in this repository.
 
 ## Provenance
