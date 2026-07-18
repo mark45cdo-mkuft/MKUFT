@@ -35,7 +35,7 @@ Commercial use: separate written permission required
 Software licence: none granted by the manuscript
 ```
 
-The ATLD paper is derived from the public MKUFT working canon, particularly modules 24A and 25. Its standalone DOI supplements the MKUFT backbone DOI; it does not replace it.
+The ATLD standalone paper is derived from the public MKUFT working canon, particularly modules 24A and 25. Its standalone DOI supplements the MKUFT backbone DOI; it does not replace it.
 
 See `ATLD_STANDALONE_PUBLICATION.md` for the exact citation and rights route.
 
@@ -51,37 +51,38 @@ The current repository versions of the following files are ATLD-origin source or
 - `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md`;
 - `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`.
 
-Their presence inside the MKUFT repository, their derivation from MKUFT, and their use of the MKUFT backbone DOI for provenance do **not** by themselves place those current repository versions under the earlier MKUFT backbone CC BY 4.0 licence.
+Their presence inside the MKUFT repository, their derivation from MKUFT, and their use of the MKUFT backbone DOI for provenance do **not** place those current repository versions under the earlier MKUFT backbone CC BY 4.0 licence.
 
-Unless a specific historical copy or version was expressly released under a different licence, these current repository versions are:
+Unless a specific historical copy or version was expressly released under a different licence, the current repository versions identified above are:
 
 ```text
 Copyright © 2026 Mark Charles McLaughlin
-Public licence: CC BY-NC-SA 4.0
-Commercial use: separate written permission required
+All rights reserved
 ```
 
-The public licence applies only to rights that copyright and similar law actually cover. It permits non-commercial use subject to attribution and ShareAlike. Commercial copying, commercial adaptation, commercial redistribution, or commercial incorporation of copyright-protected ATLD text, diagrams, equations, protocol materials, selection, arrangement, or other protected expression requires separate written permission from Mark Charles McLaughlin.
+Public repository access permits reading, linking, and lawful citation. No additional licence is granted to copy, adapt, redistribute, republish, translate, incorporate, certify, sublicense, or commercially implement these current module versions without separate written permission from Mark Charles McLaughlin, except for rights independently provided by applicable law.
 
 No software licence, patent licence, trademark licence, certification licence, or commercial implementation licence is granted by these modules or by their presence in this repository.
 
-This clarification does not revoke any permission already granted for a specific historical copy that was expressly released under another licence. Rights must be determined from the licence attached to the exact file, publication, deposit, commit, or version being used.
+The MKUFT DOI shown in a module provenance header records origin and attribution. It is **not** a licence statement and does not import the MKUFT backbone licence into a later or separate module version.
+
+This notice governs the current repository versions from this correction onward. It does not purport to revoke permissions already granted for an exact historical copy that was expressly released under another licence. Rights must be determined from the licence attached to the exact file, publication, deposit, commit, or version being used.
 
 ## Licence Rule
 
 The documents in this repository retain the licence, copyright, and authorship notices stated inside each source document or publication record.
 
-The MKUFT backbone licence and the ATLD standalone-paper licence are distinct:
+The MKUFT backbone licence, the ATLD standalone-paper licence, and the current ATLD-origin source-module status are distinct:
 
 - material released under the MKUFT backbone record retains its stated CC BY 4.0 status;
-- the ATLD standalone manuscript retains its stated CC BY-NC-SA 4.0 status;
-- the ATLD-origin source modules identified above retain the module-specific status stated in this notice for their current repository versions;
-- the ATLD licence does not retrospectively replace the earlier MKUFT licence;
-- the earlier MKUFT licence does not erase the ATLD paper's or ATLD-origin modules' separate citation and licence identity.
+- the exact ATLD standalone manuscript retains its stated CC BY-NC-SA 4.0 status;
+- the current repository versions of modules 24A, 24B, and 25 are all rights reserved unless an exact file version expressly states otherwise;
+- the ATLD standalone-paper licence does not retrospectively license the source modules;
+- the earlier MKUFT licence does not erase the ATLD paper's or ATLD-origin modules' separate citation and rights identity.
 
 Where no specific licence is stated inside a document or source record, all rights are reserved by Mark Charles McLaughlin.
 
-No repository-level open-source software licence is granted by default. The ATLD manuscript and ATLD-origin modules grant no software, patent, trademark, certification, or commercial implementation licence.
+No repository-level open-source software licence is granted by default.
 
 ## Licence Priority Rule
 
