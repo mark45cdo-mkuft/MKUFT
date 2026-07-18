@@ -69,6 +69,7 @@ Unless an exact file version expressly states a different licence, the current G
 |---|---|
 | `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` | All rights reserved unless an exact version or later standalone publication states otherwise |
 | `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md` | All rights reserved unless an exact version or later standalone publication states otherwise |
+| `docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md` | All rights reserved unless an exact version or later standalone publication states otherwise |
 | `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` | All rights reserved unless an exact version or later standalone publication states otherwise |
 | `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` | All rights reserved unless an exact version states otherwise |
 | `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` | All rights reserved unless an exact version or later standalone publication states otherwise |
