@@ -219,7 +219,7 @@ A relation is not established as true merely because removing it damages the mod
 
 It uses single-relation ablation, coalition ablation, and plausible counterfactual substitution. It also distinguishes local coherence from whole-system coherence. A subsystem may be efficient while exporting cost, disorder, agency loss, or delayed fragility to the larger system.
 
-Within MKUFT's metaphysical interpretation, God is Love. Love is treated as a unity-principle that does not erase distinction or secure order through capture. Coherence is Love's structural partner. This metaphysical orientation is not inserted into physical equations as an unmeasured force and does not replace evidence at the active layer.
+Within MKUFT's metaphysical interpretation, Love is treated as the primary unity-principle: relation that does not erase distinction or secure order through capture. Coherence is Love's structural partner. At the deeper metaphysical address, this unity-principle is identified with God. This orientation is not inserted into physical equations as an unmeasured force and does not replace evidence at the active layer.
 
 ## Main mathematical handles
 
