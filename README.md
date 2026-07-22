@@ -70,6 +70,16 @@ The standalone paper develops material from modules 24A and 25. Its DOI and lice
 
 See [`ATLD_STANDALONE_PUBLICATION.md`](ATLD_STANDALONE_PUBLICATION.md) for the exact citation, DOI-selection rule, rights statement, and relationship to MKUFT.
 
+## Current evaluated work
+
+The primary work under evaluation is the **ATLD standalone methods paper** and its associated DOI.
+
+The purpose of this repository is broader than the ATLD paper alone. It serves as the public archive for the wider MKUFT research programme, including supporting technical modules, methodological development, provenance records, and longer-term interdisciplinary research.
+
+Readers evaluating the ATLD methodology are **not required to assess the wider MKUFT framework** in order to review the standalone methods paper, its experimental design, or its stated claims. The repository is structured so that ATLD can be examined independently while preserving the broader research record for transparency, attribution, and future development.
+
+Researchers wishing to explore the wider programme may do so through the remaining documents, which are clearly distinguished from the standalone ATLD evaluation pathway.
+
 ## Choose an entry route
 
 ### Physics and quantum-gravity route
