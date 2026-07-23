@@ -20,9 +20,19 @@ Repository: `mark45cdo-mkuft/MKUFT`
 - `docs/01_MKUFT_CORE_EXTENDED.md` — primary MKUFT theory spine.
 - `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical formalisation.
 - `docs/03_STANDALONE_FORMAL_ADDENDUM.md` — node, trajectory, and coherence-cost formalism.
-- `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — empirical testing and falsification programme.
+- `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — broad empirical testing and falsification programme.
+- `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` — evidence tiers, promotion gates, flagship sequencing, and experiment-specific interpretation limits.
 - `docs/05_FALSIFICATION_SUMMARY.md` — compact falsification summary.
-- `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — worked numerical examples.
+- `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — worked numerical examples; illustrative rather than observed or canonical effect sizes.
+
+## Empirical reading route
+
+1. `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — candidate branches and controls.
+2. `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` — which branches are calibration, reconnaissance, discriminating signatures, mechanism flagships, or foundational recovery programmes.
+3. `docs/05_FALSIFICATION_SUMMARY.md` — branch and framework failure conditions.
+4. `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — statistical illustration only; it does not report an effect.
+
+The promotion framework governs how broad assays may be upgraded. A positive anomaly is not treated as an MKUFT result unless MKUFT predicted the distinguishing fingerprint before the result was known.
 
 ## Public bridge files
 
