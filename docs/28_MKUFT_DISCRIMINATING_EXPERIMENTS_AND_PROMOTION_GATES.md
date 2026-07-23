@@ -136,7 +136,10 @@ The null set should include, where relevant:
 - independent ensembles;
 - one-way assistance;
 - strong alternative pairings;
+- complete full-history replay or transfer conditions;
 - flexible nonparametric residual models.
+
+Where retained relational history is claimed to be load-bearing, the replay condition must give fresh, reset, or matched substitute systems the complete frozen explicit record, fair preparation time, tools, and opportunity for reciprocal work. Otherwise a deficit may show only missing information or familiarity rather than traversal-path dependence.
 
 ### Gate 4 — locked prediction
 
@@ -192,18 +195,19 @@ Use:
 
 ### Gate 8 — deformation and ablation
 
-Remove or scramble the proposed load-bearing relation.
+Remove or scramble the proposed load-bearing relation while preserving every ordinary resource that can be preserved.
 
 Examples:
 
 - replace reciprocal interaction with one-way assistance;
 - reset retained state;
 - disrupt correction propagation;
+- give a fresh matched system the complete frozen history while removing participation in the originating traversal;
 - substitute the standard joint quantum state for the proposed relation;
 - remove the O-layer term;
 - rotate or scramble a claimed boundary relation.
 
-If removal produces no predicted deformation, the removed element is not empirically load-bearing.
+If removal produces no predicted deformation, the removed element is not empirically load-bearing. If complete history replay restores the full effect, the successful object may be transferable explicit architecture rather than live traversal-path dependence.
 
 ### Gate 9 — independent replication
 
@@ -237,7 +241,7 @@ Examples:
 | Remote information | 1 | high-burden anomaly assay | leakage-resistant multi-lab replication plus an MKUFT-specific condition function |
 | Environmental / collective correlations | 1 | out-of-sample modulation assay | prospectively predicted effect-size ordering, no post-event window selection |
 | Precision noise / boundary conditions | 1–2 | physical residual bridge | one apparatus, one residual equation, held-out parameter sweep and second-platform prediction |
-| Strongest fair null / relational specificity | 3 candidate | near-term operational flagship | preregistered ATLD execution by independent evaluators on neutral corpora |
+| Strongest fair null / relational specificity | 3 candidate | near-term operational flagship | preregistered ATLD execution with full-history replay by independent evaluators on neutral corpora |
 | Layer Before Law | 4 candidate | foundational physics gate | complete typed derivation, standard recovery, sensitivity analysis and new discriminator |
 
 The word “candidate” means the design is capable of reaching that tier. It does not mean the tier has already been earned.
@@ -255,18 +259,21 @@ The active-traversal and strongest-fair-null programme already has the required 
 - one-way B → A;
 - reciprocal A ↔ B with retained state;
 - reset and disrupted-channel conditions;
+- full-history replay or transfer to fresh, reset, and matched substitute systems;
 - strong alternative pairings;
 - held-out tasks and neutral corpora.
 
-This is stronger than simply asking whether a human and AI do better together. Existing human–AI work already shows that AI-alone performance does not reliably predict user–AI performance and that grounding failures can compound over a conversation. MKUFT/ATLD must therefore test its more specific claim: that typed reciprocal traversal, retained correction and load-bearing dependency produce a distinctive functional advantage and predictable deformation.
+This is stronger than simply asking whether a human and AI do better together. Existing human–AI work already shows that AI-alone performance does not reliably predict user–AI performance and that grounding failures can compound over a conversation. MKUFT/ATLD must therefore test its more specific claim: that typed reciprocal traversal, retained correction and load-bearing dependency produce a distinctive functional advantage and predictable deformation not recovered merely by possession of the complete explicit history.
 
 ### 5.2 Primary confirmatory quantities
 
 Retain:
 
 ```text
-F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
-G_syn* = F_AB - F_null*
+F_replay* = strongest pre-registered full-history replay or transfer condition
+F_null*   = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*, F_replay*}
+G_syn*    = F_AB - F_null*
+G_path    = F_AB - F_replay*
 ```
 
 and:
@@ -287,6 +294,7 @@ Required outcome dimensions should include:
 - contradiction rate;
 - correction propagation;
 - recovery after injected error;
+- transfer recovery from the frozen history bundle;
 - rework cost;
 - elapsed and active human time;
 - confidence inflation;
@@ -296,19 +304,50 @@ Required outcome dimensions should include:
 
 A flagship result should not be merely `F_AB > F_A`.
 
-The predicted pattern is:
+The predicted pattern for a traversal-path-specific claim is:
 
 ```text
-full reciprocal retained-state condition
-> strongest fair non-reciprocal null
-> reset or correction-disrupted condition
+F_AB > max{strongest fair non-reciprocal condition, F_replay*}
+```
+
+and:
+
+```text
+F_AB > reset, relation-scrambled, or correction-disrupted conditions
 ```
 
 on relational tasks requiring iterative correction, while advantages should shrink on simple lookup tasks.
 
-If reset, relation scrambling and correction-channel disruption do not produce the predicted deformation, the ATLD architecture is not load-bearing.
+If reset, relation scrambling and correction-channel disruption do not produce the predicted deformation, the ATLD architecture is not load-bearing. If a competent full-history replay condition matches `F_AB`, the result supports transferable explicit architecture or record-mediated intelligence, but not a stronger live traversal-path claim.
 
-### 5.4 Interpretation boundary
+### 5.4 Full-history replay control
+
+The confirmatory protocol must freeze a complete history bundle `H_full` before held-out tasks are released. It should include, where relevant:
+
+- the complete interaction transcript;
+- the exact repository and document versions used;
+- canonical corrections and stated rationale;
+- intermediate artefacts, tool outputs, and decision records;
+- rejected branches whose rejection constrains later work;
+- sequence or timing metadata where order is part of the mechanism.
+
+Pre-register a serious replay set including, where feasible:
+
+```text
+A ↔ B'_H      = focal A with a matched fresh or reset B given H_full
+A'_H ↔ B      = matched fresh A with focal B given H_full
+A'_H ↔ B'_H   = matched fresh pair given H_full
+```
+
+Replay systems must receive fair study time, retrieval access, tools, and opportunity for reciprocal work. The history bundle must not contain held-out answers or information unavailable to the live condition at the equivalent point.
+
+The discriminator is:
+
+> Does traversing and forming the history together change later system function differently from merely possessing and competently using a complete record of that history?
+
+If the answer is no, the architecture may still be important because it is portable and externally recoverable. If the answer is reproducibly yes, `G_path > 0` identifies a path-dependent functional contribution not reducible to explicit information or familiarity alone.
+
+### 5.5 Interpretation boundary
 
 A successful ATLD study would establish a functional systems result. It would support typed reciprocal architecture and active traversal. It would not by itself establish:
 
@@ -530,7 +569,7 @@ A broad difference between two shapes remains ordinary geometry. A predicted res
 
 ### Immediate empirical priority
 
-Run or externally register the ATLD strongest-fair-null programme. It is the most complete near-term flagship because the independent variables, ablations, fair controls and interpretation boundary already exist.
+Run or externally register the ATLD strongest-fair-null programme, including the complete full-history replay set. It is the most complete near-term flagship because the independent variables, ablations, fair controls and interpretation boundary already exist.
 
 ### Immediate physics priority
 
@@ -561,6 +600,7 @@ broad phenomenon
 → calibrated assay
 → locked interaction fingerprint
 → strongest fair null
+→ complete history replay / transfer
 → deformation / ablation
 → held-out prediction
 → independent replication
