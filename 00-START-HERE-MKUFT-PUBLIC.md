@@ -36,14 +36,28 @@ The active layer convention is:
 2. `CANON_MAP.md` — current hierarchy of the research stack.
 3. `PROVENANCE_DOI_AND_ATTRIBUTION.md` — DOI, copyright, licence, citation, and provenance.
 4. `README.md` — repository map and active canon spine.
-5. `INDEX.md` — public index of major files.
-6. `CITATION.cff` — citation metadata.
-7. `codemeta.json` — machine-readable project metadata.
-8. `DISCOVERY_KEYWORDS.md` — public discovery terms and exact search phrases.
+5. `INDEX.md` — public index of major files and the empirical reading route.
+6. `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` — evidence tiers, promotion gates, flagship sequencing, and interpretation boundaries for the experimental programme.
+7. `CITATION.cff` — citation metadata.
+8. `codemeta.json` — machine-readable project metadata.
+9. `DISCOVERY_KEYWORDS.md` — public discovery terms and exact search phrases.
+
+## Empirical route
+
+Read the experimental stack in this order:
+
+```text
+docs/04_EXPERIMENTAL_TEST_PROGRAM.md
+→ docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md
+→ docs/05_FALSIFICATION_SUMMARY.md
+→ docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md
+```
+
+The broad programme lists candidate assays. Module 28 states what those assays currently count as, what is required before any can be promoted to a theory-discriminating or flagship test, and what a positive result would not establish. The RNG worked examples remain statistical illustrations rather than reported effects or canonical effect sizes.
 
 ## Linked modules
 
-The MKUFT stack includes linked work on LUCY / Local Unified Coherence Yield, OCQS / Optimal Cognitive Quiet State, ESF / Executable System Framework, ESRT / Executable System Recognition Test, and the Voynich procedural-engine analysis.
+The MKUFT stack includes linked work on LUCY / Local Unified Coherence Yield, OCQS / Optimal Cognitive Quiet State, ESF / Executable System Framework, ESRT / Executable System Recognition Test, the Voynich procedural-engine analysis, ATLD active traversal, Layer Before Law, typed traversal and equation hygiene, and discriminating experiment promotion.
 
 ## Preferred citation
 

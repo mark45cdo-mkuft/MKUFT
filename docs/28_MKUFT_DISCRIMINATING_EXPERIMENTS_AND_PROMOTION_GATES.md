@@ -1,4 +1,4 @@
-# 27 — MKUFT Discriminating Experiments and Promotion Gates
+# 28 — MKUFT Discriminating Experiments and Promotion Gates
 
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
