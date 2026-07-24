@@ -1,0 +1,120 @@
+name: Export full repository backup
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+  actions: read
+
+jobs:
+  export-full-backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build complete repository recovery package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          repo="${GITHUB_REPOSITORY#*/}"
+          root="$RUNNER_TEMP/${repo}-full-backup"
+          mirror="$RUNNER_TEMP/${repo}.git"
+          mkdir -p "$root/metadata" "$root/pull-reviews"
+
+          auth_repo="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          public_repo="https://github.com/${GITHUB_REPOSITORY}.git"
+
+          git clone --mirror "$auth_repo" "$mirror"
+          git -C "$mirror" fetch --force origin \
+            '+refs/heads/*:refs/heads/*' \
+            '+refs/tags/*:refs/tags/*' \
+            '+refs/pull/*/head:refs/pull/*/head' || true
+          git -C "$mirror" remote set-url origin "$public_repo"
+          git -C "$mirror" fsck --full
+
+          git -C "$mirror" show-ref | sort > "$root/REFS.txt"
+          git -C "$mirror" for-each-ref \
+            --sort=refname \
+            --format='%(refname) %(objectname) %(objecttype) %(committerdate:iso-strict)' \
+            > "$root/REF-MANIFEST.txt"
+          git -C "$mirror" log --all --date=iso-strict \
+            --pretty=format:'%H%x09%P%x09%ad%x09%an%x09%ae%x09%s' \
+            > "$root/COMMIT-MANIFEST.tsv"
+
+          git -C "$mirror" bundle create "$root/${repo}-full.bundle" --all
+
+          if git lfs version >/dev/null 2>&1; then
+            git -C "$mirror" lfs fetch --all || true
+          fi
+
+          tar -C "$RUNNER_TEMP" -czf "$root/${repo}-mirror.tar.gz" "${repo}.git"
+
+          wiki_auth="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git"
+          wiki_public="https://github.com/${GITHUB_REPOSITORY}.wiki.git"
+          if git ls-remote "$wiki_auth" HEAD >/dev/null 2>&1; then
+            git clone --mirror "$wiki_auth" "$RUNNER_TEMP/${repo}.wiki.git"
+            git -C "$RUNNER_TEMP/${repo}.wiki.git" remote set-url origin "$wiki_public"
+            git -C "$RUNNER_TEMP/${repo}.wiki.git" bundle create "$root/${repo}-wiki.bundle" --all
+            tar -C "$RUNNER_TEMP" -czf "$root/${repo}-wiki-mirror.tar.gz" "${repo}.wiki.git"
+          fi
+
+          gh api "repos/${GITHUB_REPOSITORY}" > "$root/metadata/repository.json"
+          gh api --paginate "repos/${GITHUB_REPOSITORY}/branches?per_page=100" | jq -s 'add // []' > "$root/metadata/branches.json"
+          gh api --paginate "repos/${GITHUB_REPOSITORY}/tags?per_page=100" | jq -s 'add // []' > "$root/metadata/tags.json"
+          gh api --paginate "repos/${GITHUB_REPOSITORY}/pulls?state=all&per_page=100" | jq -s 'add // []' > "$root/metadata/pulls.json"
+          gh api --paginate "repos/${GITHUB_REPOSITORY}/issues?state=all&per_page=100" | jq -s 'add // []' > "$root/metadata/issues.json"
+          gh api --paginate "repos/${GITHUB_REPOSITORY}/issues/comments?per_page=100" | jq -s 'add // []' > "$root/metadata/issue-comments.json"
+          gh api --paginate "repos/${GITHUB_REPOSITORY}/pulls/comments?per_page=100" | jq -s 'add // []' > "$root/metadata/pull-review-comments.json"
+          gh api --paginate "repos/${GITHUB_REPOSITORY}/releases?per_page=100" | jq -s 'add // []' > "$root/metadata/releases.json"
+          gh api "repos/${GITHUB_REPOSITORY}/rulesets" > "$root/metadata/rulesets.json" 2>/dev/null || printf '[]\n' > "$root/metadata/rulesets.json"
+
+          while IFS= read -r number; do
+            gh api --paginate "repos/${GITHUB_REPOSITORY}/pulls/${number}/reviews?per_page=100" \
+              | jq -s 'add // []' > "$root/pull-reviews/${number}.json"
+          done < <(jq -r '.[].number' "$root/metadata/pulls.json")
+
+          cat > "$root/RESTORE-INSTRUCTIONS.md" <<EOF
+          # Full Git repository recovery
+
+          Repository: ${GITHUB_REPOSITORY}
+          Exported from GitHub Actions run: ${GITHUB_RUN_ID}
+          Source commit: ${GITHUB_SHA}
+
+          ## Preferred portable restore
+
+          \`git clone ${repo}-full.bundle ${repo}\`
+
+          This restores the complete Git object history and every ref included in the bundle.
+
+          ## Exact mirror restore
+
+          Extract \`${repo}-mirror.tar.gz\`. The resulting \`${repo}.git\` is a bare mirror. To create a working copy:
+
+          \`git clone ${repo}.git ${repo}\`
+
+          To republish the mirror to a replacement remote:
+
+          \`git --git-dir=${repo}.git push --mirror <replacement-repository-url>\`
+
+          Metadata under \`metadata/\` preserves repository, branch, tag, pull-request, issue, comment, release, and ruleset records available to the workflow token. These records are archival JSON and are not automatically recreated by \`git push --mirror\`.
+          EOF
+
+          find "$root" -type f ! -name SHA256SUMS.txt -print0 \
+            | sort -z \
+            | xargs -0 sha256sum \
+            | sed "s#  $root/#  #" \
+            > "$root/SHA256SUMS.txt"
+
+      - name: Upload complete recovery package
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.repository.name }}-full-repository-backup
+          path: ${{ runner.temp }}/${{ github.event.repository.name }}-full-backup
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 0
