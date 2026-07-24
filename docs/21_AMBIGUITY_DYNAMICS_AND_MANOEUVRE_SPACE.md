@@ -157,6 +157,70 @@ Truth, memory, precise language, fixed definitions, pre-registered prediction, f
 
 ---
 
+## 6A. Semantic constraint and meaning provenance
+
+Interpretive ambiguity is not flat. Candidate meanings are constrained by the communicative object that actually exists.
+
+For a declared linguistic, technical, legal, or local domain `d`, let:
+
+- `U_t` = the utterance or communicative record available at time `t`;
+- `X_d` = the candidate interpretation space in that domain;
+- `Σ_t(U_t,d)` = the set of interpretations reasonably licensed at time `t` by the wording, syntax, declared domain usage, established local definitions, dialect, and known shared lexicon.
+
+```text
+Σ_t(U_t,d) = {i ∈ X_d : i is reasonably licensed by U_t in domain d at time t}
+```
+
+For an interpretation-domain ambiguity model, semantic licence acts as a constraint on the feasible region:
+
+```text
+Ω_t,sem^(d) = Ω_t^(d) ∩ Σ_t(U_t,d)
+```
+
+Context, pragmatics, prior usage, and operational constraints may rank or remove members of `Σ_t`. A later clarification may update the intended referent and contract the live interpretation region. It does not retroactively alter the historical fact that another interpretation may have been reasonably licensed by the earlier wording.
+
+```text
+utterance record
+→ semantic licence
+→ contextual weighting
+→ initial interpretation
+→ clarification or new evidence
+→ revised working referent
+```
+
+A reading can therefore be reasonable at time `t` and still not be the meaning the speaker intended. The corrected working object and the provenance of the earlier reading can both remain true.
+
+Healthy clarification normally:
+
+- identifies the term, domain, assumption, or missing context that caused divergence;
+- contracts uncertainty or explicitly preserves intentional plurality;
+- updates the working referent;
+- preserves the original wording and the route by which the earlier interpretation arose;
+- accepts the proper evidential or communicative cost without converting misunderstanding into a total character or competence verdict.
+
+Exploitative semantic manoeuvre may instead:
+
+- claim retrospectively that only one meaning was ever possible;
+- convert a failed literal claim into metaphor only after failure;
+- revise a fixed definition after contradiction while denying that a change occurred;
+- use reported private intent to erase public wording;
+- use dictionary meaning to deny an already clarified local referent;
+- preserve access, authority, innocence, or immunity from attribution by rewriting semantic history.
+
+No single authority is absolute:
+
+- syntax is not complete meaning because irony, metaphor, ellipsis, and compression exist;
+- dictionary meaning does not automatically override a declared technical or established local definition;
+- context cannot silently replace the words;
+- reported intent is evidence of intended meaning, not universal proof of original stable intent where memory conflict, deception, source corruption, or strategic redefinition remain live;
+- a reasonable interpretation does not by itself assign blame.
+
+A time-indexed semantic record therefore prevents two opposite distortions: clarification erasing a previously reasonable reading, and literal semantics being used to overrule a clarified intended object.
+
+> Clarification may correct meaning. It may not rewrite semantic history.
+
+---
+
 ## 7. Inquiry-contraction discriminator
 
 Let one declared inquiry step update evidence and constraints from `t` to `t+1`.
@@ -277,6 +341,13 @@ Interventions expected to reduce `M_t` include:
 - assigned cost for frame-switching;
 - separation of pattern from ontology.
 
+For semantic-provenance testing:
+
+- independent raters given the pre-clarification utterance and a fixed domain should agree above chance on which readings are licensed, weak, or unlicensed;
+- healthy clarification should increase convergence on the working referent while preserving agreement about what the original wording reasonably allowed;
+- exploitative clarification should show more retrospective-obviousness claims, denied definition changes, and asymmetric treatment of comparable wording;
+- provenance-preserving reconstruction should improve correction accuracy and responsibility allocation relative to intent-only or dictionary-only baselines.
+
 ---
 
 ## 11. Falsifiers and limits
@@ -290,13 +361,19 @@ This module is weakened if:
 - ambiguity regeneration does not correlate with threatened access or attribution;
 - the product model performs no better than simpler alternatives;
 - the model works only retrospectively;
-- simpler incentive, error, uncertainty, or noise models perform better.
+- simpler incentive, error, uncertainty, or noise models perform better;
+- semantic licence cannot be rated reliably when wording and domain are fixed;
+- preserving semantic provenance does not improve dispute reconstruction, correction accuracy, or responsibility allocation;
+- healthy clarification cannot be distinguished from retrospective semantic rewriting;
+- the semantic model produces pedantry without changing any load-bearing conclusion.
 
 Do not infer intention merely from high manoeuvrability.
 
 Do not infer an external entity merely from a stable pattern.
 
 Do not treat unresolved science as deception because it remains unresolved.
+
+Do not treat all ambiguity, metaphor, humour, translation error, or ordinary correction as semantic manoeuvre.
 
 The formalism is useful only when it makes uncertainty cleaner.
 
@@ -319,3 +396,5 @@ repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 > Manoeuvrability = unresolved state volume × cheap frame-switching × preserved access.
 
 > Generative ambiguity yields clearer structure under honest examination. Exploitative ambiguity must preserve or regenerate unresolved routes when clarification threatens access.
+
+> Ambiguity preserves possibilities. Semantics constrains and weights their admissibility. Truth contracts the space without falsifying the route by which it was crossed.
