@@ -165,19 +165,19 @@ For a declared linguistic, technical, legal, or local domain `d`, let:
 
 - `U_t` = the utterance or communicative record available at time `t`;
 - `X_d` = the candidate interpretation space in that domain;
-- `Σ_t(U_t,d)` = the set of interpretations reasonably licensed at time `t` by the wording, syntax, declared domain usage, established local definitions, dialect, and known shared lexicon.
+- `Λ_t(U_t,d)` = the set of interpretations reasonably licensed at time `t` by the wording, syntax, declared domain usage, established local definitions, dialect, and known shared lexicon.
 
 ```text
-Σ_t(U_t,d) = {i ∈ X_d : i is reasonably licensed by U_t in domain d at time t}
+Λ_t(U_t,d) = {i ∈ X_d : i is reasonably licensed by U_t in domain d at time t}
 ```
 
 For an interpretation-domain ambiguity model, semantic licence acts as a constraint on the feasible region:
 
 ```text
-Ω_t,sem^(d) = Ω_t^(d) ∩ Σ_t(U_t,d)
+Ω_t,sem^(d) = Ω_t^(d) ∩ Λ_t(U_t,d)
 ```
 
-Context, pragmatics, prior usage, and operational constraints may rank or remove members of `Σ_t`. A later clarification may update the intended referent and contract the live interpretation region. It does not retroactively alter the historical fact that another interpretation may have been reasonably licensed by the earlier wording.
+Context, pragmatics, prior usage, and operational constraints may rank or remove members of `Λ_t`. A later clarification may update the intended referent and contract the live interpretation region. It does not retroactively alter the historical fact that another interpretation may have been reasonably licensed by the earlier wording.
 
 ```text
 utterance record
