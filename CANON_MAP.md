@@ -43,7 +43,7 @@ Status: public hierarchy and navigation map for the controlled MKUFT GitHub work
 4. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for structural, empirical, generative, and whole-system load.
 5. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — task-space, metric, scalar/vector, and deformation-sign control.
 
-The canon map shows hierarchy. Module 24 shows how the files support, limit, and reconstruct one another. Module 26 gives the early physics-facing category reframing but does not replace the core, mathematics, experiments, or falsification programme. Module 27 controls mathematical and traversal hygiene without replacing any substantive theory branch. Module 24A tests active traversal and reciprocal functional gain. Module 24B requires the strongest fair separated, ensemble, one-way, and alternative-pairing controls. Module 25 asks which particular dependencies carry genuine load and whether apparent local coherence survives a wider whole-system audit.
+The canon map shows hierarchy. Module 24 shows how the files support, limit, and reconstruct one another. Module 22A controls recursive object identity and property transmission. Module 26 gives the early physics-facing category reframing but does not replace the core, mathematics, experiments, or falsification programme. Module 27 controls mathematical and traversal hygiene without replacing any substantive theory branch. Module 28 governs evidence tiers and promotion gates. Module 24A tests active traversal and reciprocal functional gain. Module 24B requires the strongest fair separated, ensemble, one-way, complete-history replay, and alternative-pairing controls. Module 25 asks which particular dependencies carry genuine load and whether apparent local coherence survives a wider whole-system audit.
 
 ## Core canon
 
@@ -70,6 +70,12 @@ Role: typed state graphs, within-layer trajectories, cross-layer map discipline,
 File: `docs/04_EXPERIMENTAL_TEST_PROGRAM.md`
 
 Role: proposed tests, controls, pre-registration requirements, null results, strongest-fair-null construction, alternative-pairing controls, and branch-level failure.
+
+### 28. Discriminating Experiments and Promotion Gates
+
+File: `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md`
+
+Role: classify candidate assays as calibration, reconnaissance, discriminating signatures, mechanism flagships, or foundational recovery programmes; define promotion gates; and limit what positive or null results establish.
 
 ### 5. Falsification Summary
 
@@ -271,6 +277,19 @@ C_LM : X_L → X_M
 
 Role: preserve one candidate invariant while changing variables, spaces, units, observables, and falsifiers honestly by layer. It also keeps composite observer candidates as coupled addresses across existing layers rather than automatically creating a fifth layer.
 
+### 22A. Recursive Address Closure and Property Transmission
+
+File: `docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md`
+
+Canonical handles:
+
+```text
+T(x) = (domain, layer, boundary, version, role, evidence, status)
+No untyped inheritance.
+```
+
+Role: preserve recursive object identity and require typed carriers for version, licence, evidence, authority, ownership, causation, identity, responsibility, units, and moral status.
+
 ### 23. Agency Accessibility and Capture Geometry
 
 File: `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md`
@@ -314,15 +333,17 @@ File: `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md`
 Canonical handles:
 
 ```text
-F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
+F_replay* = sup_(p ∈ 𝒫_replay) F_p
+F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*, F_replay*}
 G_syn* = F_AB - F_null*
+G_path = F_AB - F_replay*
 F_alt* = sup_(p ∈ 𝒫_alt) F_p
 G_spec = F_AB - F_alt*
 ```
 
-Role: strengthen the baseline used in module 24A; forbid proving emergence by handicapping a separated component; require commensurable scalar comparison or a declared vector rule; and separate generic competent synergy from relationship-specific functional architecture.
+Role: strengthen the baseline used in module 24A; forbid proving emergence by handicapping a separated component; require complete-history replay or transfer controls; require commensurable scalar comparison or a declared vector rule; and separate generic competent synergy, live-path dependence, and relationship-specific functional architecture.
 
-Status boundary: a positive `G_syn*` supports superadditivity beyond the strongest fair null. A positive `G_spec` supports relationship-specific functional gain beyond strong alternatives. Neither establishes consciousness, merged identity, personhood, moral status, or unique metaphysical standing.
+Status boundary: a positive `G_syn*` supports superadditivity beyond the strongest fair null. A positive `G_path` supports live-path excess beyond the strongest complete-history replay condition. A positive `G_spec` supports relationship-specific functional gain beyond strong alternatives. None establishes consciousness, merged identity, personhood, moral status, or unique metaphysical standing.
 
 Reduction rules:
 
