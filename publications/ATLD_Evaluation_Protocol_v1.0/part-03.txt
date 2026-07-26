@@ -1,0 +1,143 @@
+
+                                                                                                             ATLD Evaluation Protocol v1.0
+
+
+Wall-clock time and energy use should be recorded, but exact equality is not required where execution
+environments make it impossible. Any difference must be reported.
+
+4.4 Experimental output
+For condition j:
+Psi_j = T(C_j, q; B)
+A performance vector is:
+Y(Psi_j) = [A, M, C, K, G, L, E]
+where:
+ A = task accuracy;
+ M = multi-entry convergence or reconstruction quality;
+ C = contradiction detection and localisation;
+ K = correction propagation;
+ G = calibration;
+ L = branch-failure localisation and repair;
+ E = efficiency and evidence-path validity.
+A single aggregate score is not used as the primary analysis unless its weights are fixed before data collection.
+This prevents a strong result on one dimension from hiding failure on another.
+
+4.5 Architecture-level gain
+For a metric m and control condition c:
+Delta_m(c) = m(Psi_structured) - m(Psi_c)
+The core hypothesis is:
+H_AT: E[Delta_m(c)] > 0
+for preregistered relational tasks, against more than one matched control, with transfer to at least one neutral
+corpus.
+
+5. Experimental Conditions
+The same underlying content units are used in every condition. Content may be reformatted only to create the
+control and must remain semantically equivalent.
+
+Table 1. Primary and secondary conditions
+ Code                     Condition                  Architecture available      Traversal available            Purpose
+                                                     Correct typed relations,
+                                                                                 Route selection, revisit,
+ S                        Structured-active          canonical homes,                                           Target condition
+                                                                                 state carry
+                                                     attached falsifiers
+                                                     Same content without
+                                                                                 Retrieval and reading          Tests typed structure
+ F                        Flat-active                typed cross-module
+                                                                                 allowed                        beyond content
+                                                     architecture
+                                                     Same modules
+                                                                                 Module selection               Tests cross-module
+ I                        Isolated-active            separated; no cross-
+                                                                                 allowed                        architecture
+                                                     support routes
+                                                     Same nodes; directed
+                                                     in/out degree and                                          Tests semantic
+                          Degree-scrambled-
+ DS                                                  relation-type counts        Traversal allowed              dependency structure
+                          active
+                                                     preserved, endpoints                                       beyond graph presence
+                                                     rewired
+                                                     Same topology; relation
+                                                                                                                Tests value of relation
+ TS                       Type-scrambled-active      labels permuted within      Traversal allowed
+                                                                                                                meaning
+                                                     frequency classes
+                                                                                 No revisit and no
+                                                                                                                Tests active
+ NR                       Structured-no-revisit      Correct architecture        persistent cross-node
+                                                                                                                recursion/state carry
+                                                                                 working state
+                                                     Same content indexed
+                          Vector-retrieval                                       Fixed top-k or matched
+ VR                                                  by ordinary vector                                         Engineering baseline
+                          baseline                                               iterative retrieval
+                                                     retrieval
+
+
+                              ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 6
+
+
+--- PAGE BREAK ---
+
+                                                                                                       ATLD Evaluation Protocol v1.0
+
+
+The confirmatory minimum includes S, F, I, DS, and NR. TS and VR are strongly recommended secondary
+conditions.
+
+5.1 Flat condition
+The flat condition preserves all sentences, tables, examples, and identifiers needed for fair comparison. Explicit
+dependency declarations, canonical-home markers, and falsifier links are removed or rendered as ordinary
+prose without machine-readable relation types. Document order is randomised within preregistered blocks to
+prevent privileged sequencing.
+
+5.2 Isolated condition
+The isolated condition preserves individual modules but removes cross-module links and graph-neighbour
+access. The traverser may search module titles and content under the same retrieval budget but cannot follow
+typed routes.
+
+5.3 Degree-scrambled condition
+The DS graph is produced by directed degree-preserving rewiring:
+1. preserve each node's in-degree and out-degree;
+2. preserve the global frequency of each relation type;
+3. prevent self-loops unless present in the original;
+4. prevent duplicate edges unless present in the original;
+5. prohibit re-creation of the original edge where practical;
+6. generate at least five independent scramble seeds;
+7. verify that lexical content, node count, edge count, and metadata token count remain matched.
+A stronger variant preserves relation type on each rewired edge. A weaker variant preserves only global type
+frequency. The selected variant must be declared in advance.
+
+5.4 Type-scrambled condition
+The TS condition preserves the original graph topology while permuting edge labels within matched frequency
+classes. It tests whether type semantics contribute beyond connectivity.
+
+5.5 No-revisit condition
+The NR traverser can read the same nodes and relations but may not return to a visited node or carry a
+persistent structured state across node transitions. It may keep a bounded list of retrieved quotations so that the
+condition does not collapse into amnesia. The ablated capability is recursive route revision and active
+reconstitution, not basic note-taking.
+
+6. ATLD-Bench Corpus Design
+ATLD-Bench uses three corpus classes to separate internal fit from general utility.
+
+6.1 Corpus A: synthetic ground-truth dependency systems
+Synthetic corpora provide exact control over definitions, dependencies, contradictions, redundancies, and
+falsifiers. Each generated corpus contains:
+ 80-150 nodes;
+ 8-12 relation types;
+ at least four multi-hop dependency chains;
+ at least two redundant support coalitions;
+ at least five decorative edges;
+ at least three deliberately distorting edges;
+ at least four claims with explicit falsifiers;
+ at least three canonical-definition updates with known downstream effects.
+Synthetic generation must use templates hidden from the evaluated model where possible. Surface wording is
+varied to prevent shortcut learning. Gold paths and gold affected-node sets are stored separately from the
+corpus.
+
+
+                            ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 7
+
+
+--- PAGE BREAK ---
