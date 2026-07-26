@@ -225,11 +225,13 @@ Each component receives fair tasking, relevant information and repository access
 ### Strongest fair null
 
 ```text
-F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
+F_replay* = sup_(p ∈ 𝒫_replay) F_p
+F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*, F_replay*}
 G_syn* = F_AB - F_null*
+G_path = F_AB - F_replay*
 ```
 
-A positive `G_syn*` supports superadditive functional gain only when the metric, resource envelope, and comparison rule are fixed in advance.
+A positive `G_syn*` supports superadditive functional gain only when the metric, resource envelope, and comparison rule are fixed in advance. A positive `G_path` supports live-path excess beyond the strongest complete-history replay or transfer condition. Neither result establishes relationship specificity by itself.
 
 ### Relationship-specificity test
 
@@ -287,6 +289,7 @@ The claim is weakened or rejected if:
 
 - the coupled advantage disappears when separated conditions receive fair tasking and access;
 - an independent ensemble or one-way condition performs equally well;
+- complete-history replay or transfer performs as well as the live originating traversal where path dependence is claimed;
 - the result is explained by extra time, compute, information, or revision opportunity;
 - scoring weights are chosen after inspection;
 - the effect fails on held-out tasks;
