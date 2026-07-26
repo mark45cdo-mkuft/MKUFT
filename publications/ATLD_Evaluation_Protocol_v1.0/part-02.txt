@@ -1,0 +1,123 @@
+
+                                                                                                       ATLD Evaluation Protocol v1.0
+
+
+ propagate a corrected definition or constraint;
+ stop when an evidence-sufficiency rule is met or a fixed budget is exhausted.
+The proposed functional gain belongs to the coupled system: traverser plus architecture. It is not attributed
+automatically to the corpus alone or to the underlying model alone.
+
+2.3 Functional emergence
+The term functional emergence is used in a deliberately narrow sense:
+     A system-level capability or performance gain produced by interaction between an active traverser
+     and a structured corpus, where the gain is not available under matched presentations of the same
+     components.
+This definition does not imply consciousness, life, personhood, subjective experience, independent agency, or
+continuous identity.
+
+2.4 Load-bearing dependency
+A dependency is load-bearing only provisionally and only relative to declared tasks, boundaries, and budgets.
+Structural centrality is not enough. A relation may be indispensable to a false model. The protocol therefore
+distinguishes:
+   structural load: contribution to reconstruction, consistency, routing, correction, and branch localisation;
+   reality or task load: contribution to held-out accuracy, prediction, intervention, or externally scored
+    performance;
+   generative load: contribution to lawful transfer, compression, or novel task resolution without ad hoc
+    rescue;
+   whole-system integrity load: contribution to calibration, traceability, practical agency, repairability, and
+    long-horizon viability where those terms can be measured.
+
+3. Relationship to Prior Work and Novelty Boundary
+The proposed protocol sits beside several established research lines.
+
+3.1 Retrieval and iterative retrieval
+RAG combines generation with external retrieval [2]. IRCoT showed that what should be retrieved can depend
+on what has already been reasoned, motivating interleaved retrieval and reasoning [3]. Self-RAG introduced
+adaptive retrieval and self-reflection [4]. These systems establish that retrieval policy and intermediate state can
+affect output quality.
+The present work does not claim adaptive retrieval as new. It asks whether typed dependency architecture
+contributes beyond an ordinary or iterative retrieval policy under matched budgets.
+
+3.2 Hierarchical and graph-organised memory
+RAPTOR uses recursively constructed tree summaries [8]. GraphRAG constructs graph and community
+summaries for broad corpus questions [9]. HippoRAG uses knowledge-graph structure and graph algorithms to
+integrate associative evidence [11]. MemGPT manages hierarchical memory tiers [7].
+The present work does not claim graph or hierarchical organisation as new. It requires controls that preserve
+content, token allowance, and access while removing or corrupting the meaningful dependency structure.
+
+3.3 Graph traversal and graph agents
+Think-on-Graph treats a language model as an agent that explores knowledge-graph paths [6], while later
+versions combine structured and unstructured retrieval and dynamically evolve graph context [13, 15].
+GraphReader plans and explores a graph representation of long documents [10]. Graph-of-Thought represents
+dependencies among generated reasoning units [5]. Language Agents as Optimizable Graphs represents agent
+workflows as computational graphs and optimises nodes and edges [12]. Graph of Agents dynamically
+constructs collaboration structures for long-context processing [14].
+These systems strongly motivate the active-traversal hypothesis. The present contribution is not the existence of
+a traversing agent. It is the combined causal discriminator set:
+
+
+                            ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 4
+
+
+--- PAGE BREAK ---
+
+                                                                                                       ATLD Evaluation Protocol v1.0
+
+
+   same content;
+   matched context and tool budgets;
+   meaningful typed architecture versus flat, isolated, topology-scrambled, and type-scrambled controls;
+   recursive revisit versus no-revisit traversal;
+   multi-entry convergence and correction propagation as direct outcomes;
+   architecture-level gain followed by relation-level single, coalition, and substitution deformation;
+   calibration and repair constraints that prevent false improvement.
+
+3.4 Priority statement
+This paper records the first standalone MKUFT formulation by Mark Charles McLaughlin of this particular
+matched-control protocol and relation-deformation extension. It does not assert historical priority over
+knowledge graphs, graph reasoning, retrieval-augmented generation, recursive retrieval, graph agents, memory
+management, or emergent capability research.
+
+4. Formal Model
+4.1 Corpus
+Let a typed knowledge corpus be:
+C = (V, E, tau, h, f)
+where:
+   V is a set of nodes containing claims, definitions, procedures, examples, constraints, or modules;
+   E is a set of directed relations;
+   tau(e) assigns a relation type to each edge, such as defines, depends_on, limits, tests,
+    contradicts, updates, applies, or exemplifies;
+   h(v) identifies the canonical home of a definition or claim when one exists;
+   f(v) identifies attached falsifiers, contraindications, failure conditions, or invalidation routes.
+The formalism does not require a knowledge graph in the narrow triple-store sense. A versioned document
+repository, software architecture, guideline system, or regulatory corpus may qualify if its relations can be
+typed and tested.
+
+4.2 Traverser
+Let T be an active traverser with working state s_t. At step t, it selects an action:
+a_t in {read, follow, compare, revisit, update, test, stop}
+using the query q, current state s_t, visited set H_t, and remaining budget B_t.
+A generic transition is:
+s_(t+1) = U(s_t, observation_t, tau(e_t), q)
+where U is the state-update rule. The traverser is not required to expose private chain-of-thought. It must expose
+an auditable action and evidence trace sufficient to determine which nodes and relations were used.
+
+4.3 Budget
+The matched budget is:
+B = (b_context, b_retrieved, b_calls, b_steps, b_time, b_compute)
+At minimum, the confirmatory experiment must match:
+   maximum corpus tokens made available;
+   maximum tokens inserted into model context;
+   maximum retrieval or graph calls;
+   maximum traversal steps;
+   model and model version;
+   decoding settings;
+   tool availability;
+   evaluation prompt;
+   stopping budget.
+
+
+                            ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 5
+
+
+--- PAGE BREAK ---
