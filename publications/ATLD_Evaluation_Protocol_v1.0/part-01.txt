@@ -1,0 +1,158 @@
+                                                                                                    ATLD Evaluation Protocol v1.0
+
+
+    Active Traversal and Load-Bearing Dependency
+           in Typed Knowledge Architectures
+                   A Matched-Control Evaluation Protocol for AI Systems
+                                         Mark Charles McLaughlin
+                                   Independent Researcher, United Kingdom
+                             McLaughlin-Kairos Unified Field Theory (MKUFT)
+                              MKUFT backbone DOI: 10.5281/zenodo.17780566
+
+
+                               Standalone paper DOI: 10.5281/zenodo.21341521
+
+
+                                                Version 1.0
+                                               13 July 2026
+                               Methods paper and registered evaluation protocol
+
+
+Recommended citation: McLaughlin, Mark Charles. (2026). Active Traversal and Load-Bearing Dependency in Typed Knowledge
+      Architectures: A Matched-Control Evaluation Protocol for AI Systems. Zenodo. DOI: 10.5281/zenodo.21341521.
+
+
+                                   Copyright © 2026 Mark Charles McLaughlin
+                                    CC BY-NC-SA 4.0 for noncommercial use
+                                Commercial use requires separate written permission
+                                  No software licence is granted by this document
+
+
+                         ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 1
+
+
+--- PAGE BREAK ---
+
+                                                                                                        ATLD Evaluation Protocol v1.0
+
+
+Abstract
+Large language model systems increasingly combine retrieval, graph structure, memory, reflection, and agentic
+search. Existing work shows that iterative retrieval, graph-guided exploration, hierarchical memory, and
+dynamically organised agent workflows can improve reasoning over large or distributed corpora. Yet a central
+causal question remains insufficiently isolated: when a system performs better, how much of the gain comes
+from the meaningful dependency architecture itself, rather than from extra tokens, richer metadata, more
+retrieval, more tool calls, prompt differences, or the mere presence of a graph?
+This paper introduces a complete matched-control evaluation protocol for active traversal and load-bearing
+dependency in typed knowledge architectures. A static corpus may store canonical definitions, dependency
+types, correction routes, and attached falsifiers. An active traverser can convert those stored relations into task-
+specific operations by selecting routes, revisiting earlier nodes, retaining working state, propagating
+corrections, and comparing distant claims. The protocol tests whether this coupled system produces
+reproducible functional gain over the same content presented as flat, isolated, degree-matched but semantically
+scrambled, or non-recursively traversed controls.
+The protocol adds a relation-level deformation assay. Individual dependencies, dependency coalitions, and
+plausible counterfactual substitutions are tested while content and resource budgets are held constant. Relations
+are then classified provisionally as load-bearing, unsupported scaffolds, redundant support networks, decorative
+links, distorting links, or locally efficient but system-degrading links. Primary outcomes include cross-module
+task accuracy, multi-entry convergence, contradiction localisation, correction propagation, calibration,
+evidence-path validity, and branch-failure localisation. Whole-system integrity measures are included only
+where agency, transferred cost, repairability, and time horizon can be operationalised without metaphor.
+The paper defines the formal objects, benchmark conditions, transformation rules, task families, preregistered
+hypotheses, statistical analysis, decision criteria, confound controls, falsifiers, and reproducibility package
+required for a fair test. It makes no claim that knowledge graphs, retrieval-augmented generation, graph
+reasoning, recursive retrieval, or agentic search are new. The claimed contribution is the combined causal
+evaluation design: meaningful typed architecture versus matched controls, active traversal versus non-recursive
+access, and architecture-level gain followed by relation-level deformation.
+Keywords: active traversal; typed knowledge architecture; graph retrieval; agentic RAG; knowledge graphs;
+dependency ablation; functional emergence; correction propagation; calibration; AI evaluation
+
+1. Introduction
+Retrieval-augmented generation established a practical route for combining parametric language models with
+external non-parametric memory [2]. Subsequent systems have made retrieval adaptive, recursive, reflective,
+graph-guided, hierarchical, or agentic. IRCoT interleaves retrieval with intermediate reasoning steps [3]. Self-
+RAG learns when to retrieve and when to critique retrieved evidence and generated text [4]. RAPTOR
+organises recursive summaries into a retrieval tree [8]. GraphRAG builds graph and community representations
+for corpus-level sensemaking [9]. Think-on-Graph systems use a language model to explore knowledge-graph
+paths [6, 13, 15]. GraphReader uses an agent to plan and traverse a graph representation of long text [10].
+HippoRAG combines language models, knowledge graphs, and graph algorithms for associative retrieval [11].
+MemGPT manages several memory tiers under a limited context window [7]. Graph-of-Thought and graph-of-
+agent systems represent reasoning or collaboration as graph processes [5, 12, 14].
+These systems make a broad proposition increasingly credible: organisation and traversal can matter
+independently of raw content volume. However, demonstrations of performance gain do not always identify the
+causal source of the gain. A structured system may receive more metadata, longer prompts, more retrieved text,
+more calls, better ordering, privileged entity labels, or an easier search space. A graph may help because its
+semantic dependencies are correct, because it compresses the corpus, because it leaks the answer through
+labels, or simply because it grants additional computation.
+The present paper isolates a narrower question:
+     Under matched content and resource budgets, does an active AI traverser obtain reproducible
+     functional gain from a correctly typed, mutually constraining knowledge architecture compared
+     with the same material flattened, isolated, or semantically scrambled?
+A second question follows:
+
+
+                             ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 2
+
+
+--- PAGE BREAK ---
+
+                                                                                                        ATLD Evaluation Protocol v1.0
+
+
+      Which individual relations or relation coalitions produce the gain, and do they improve only a
+      narrow task score or also calibration, correction, traceability, and repair?
+The distinction matters scientifically and practically. If meaningful dependency structure contributes causally,
+then architecture design becomes a measurable engineering variable rather than a stylistic preference. If the
+gain disappears under matched controls, the system should be described as a well-organised retrieval corpus
+rather than as an architecture producing additional function. If only a small subset of relations carries the effect,
+those relations become candidates for standardisation, optimisation, licensing, and safety audit. If narrow
+performance improves while calibration or repair degrades, the system should not be classified as improved
+without declaring the boundary that excludes those losses.
+This paper is a methods and protocol contribution. It does not report completed experimental results. Its
+completeness lies in fixing the claim, controls, tasks, metrics, statistical plan, support criteria, and failure
+conditions before outcome data are inspected.
+
+1.1 Contributions
+The paper contributes:
+1.   A formal distinction between static self-support and active traversal.
+2.   Matched corpus conditions that preserve content while altering dependency architecture.
+3.   Degree- and type-aware scrambling controls designed to separate semantic structure from graph presence.
+4.   A traverser-ablation condition that removes recursive revisit and state carry while retaining access to the
+     same corpus.
+5.   Task families that directly measure multi-entry convergence, correction propagation, contradiction
+     localisation, falsifier recovery, cross-module synthesis, and branch removal.
+6.   A relation-level deformation assay using single-relation ablation, coalition ablation, and counterfactual
+     substitution.
+7.   A preregistered decision rule requiring neutral-corpus transfer, replication across model families, and non-
+     inferior calibration.
+8.   A whole-system safeguard against counting gains obtained by suppressing uncertainty, falsifiers, user
+     options, or repair channels.
+9.   A reproducibility specification for an Active Traversal and Load-Bearing Dependency Benchmark
+     (ATLD-Bench).
+
+2. Claim Boundary and Definitions
+2.1 Static self-support
+A corpus is statically self-supporting when its organisation preserves enough structure for a competent reader
+or system to recover the intended model. Typical properties include:
+ canonical definitions have identifiable homes;
+ relations are typed rather than merely linked;
+ applications route back to governing definitions or constraints;
+ claims remain connected to the conditions that could falsify them;
+ different legitimate entry points recover materially compatible core structure;
+ a failed branch can be removed without concealing the failure elsewhere.
+Static self-support is a property of the stored architecture. The corpus does not select a route or perform a task
+by itself.
+
+2.2 Active traversal
+An active traverser is a system that can:
+    select a route according to the current task;
+    follow typed relations;
+    revisit previously read nodes;
+    retain task-relevant working state;
+    compare non-adjacent claims;
+    detect unresolved contradiction;
+
+
+                             ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 3
+
+
+--- PAGE BREAK ---
