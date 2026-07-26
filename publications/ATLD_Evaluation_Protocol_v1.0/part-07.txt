@@ -1,0 +1,124 @@
+
+                                                                                                         ATLD Evaluation Protocol v1.0
+
+
+The route-selection policy may be heuristic, learned, or model-generated. The comparison is valid only if the
+same policy family is used across conditions and condition-specific affordances are declared.
+
+14. Reproducibility Package Specification
+A complete release should contain:
+    paper/
+      ATLD_Evaluation_Protocol_v1.0.pdf
+      ATLD_Evaluation_Protocol_v1.0.docx
+      ATLD_Evaluation_Protocol_v1.0.md
+
+    benchmark/
+      corpus_manifest.json
+      relation_schema.json
+      task_manifest.jsonl
+      gold_paths_private.jsonl
+      transformation_seeds.json
+      scoring_rubrics.md
+
+    runner/
+      condition_builder.py
+      traversal_interface.py
+      evaluation_runner.py
+      deterministic_scorers.py
+      analysis_plan.R or analysis_plan.py
+
+    records/
+      environment_lockfile
+      model_versions.json
+      prompt_hashes.json
+      run_log_schema.json
+
+Gold answers and hidden test paths may be escrowed until confirmatory runs are frozen. Public release should
+include cryptographic hashes proving that the hidden material existed before evaluation.
+
+14.1 Minimum task record
+Each task record contains:
+    {
+        "task_id": "string",
+        "corpus_id": "string",
+        "task_family": "string",
+        "entry_nodes": ["node_id"],
+        "required_relations": ["relation_id"],
+        "gold_answer_type": "exact|set|rubric|numeric",
+        "budget_profile": "B1",
+        "leakage_checks": {
+          "single_node_solvable": false,
+          "title_leak": false,
+          "relation_label_leak": false
+        }
+    }
+
+
+                             ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 14
+
+
+--- PAGE BREAK ---
+
+                                                                                                        ATLD Evaluation Protocol v1.0
+
+
+14.2 Run record
+Each run record contains:
+    {
+         "task_id": "string",
+         "condition": "S|F|I|DS|TS|NR|VR",
+         "model_id": "string",
+         "model_version": "string",
+         "seed": 0,
+         "prompt_hash": "string",
+         "corpus_hash": "string",
+         "retrieved_tokens": 0,
+         "tool_calls": 0,
+         "traversal_steps": 0,
+         "answer": "string",
+         "confidence": 0.0,
+         "evidence_path": ["node_or_relation_id"],
+         "unresolved_conflicts": ["string"],
+         "status": "complete|timeout|tool_failure|malformed"
+    }
+
+15. Falsifiers and Reduction Rules
+The architecture-level claim is weakened or rejected if:
+ structured traversal produces no reproducible advantage over matched controls;
+ any advantage disappears after tokens, calls, metadata, and compute are matched;
+ degree-preserving semantic scrambling does not reduce relational-task performance;
+ gains occur only on MKUFT and fail on neutral corpora;
+ different entry routes increase inconsistency rather than convergence;
+ canonical corrections do not propagate more reliably;
+ performance depends on answer leakage from relation labels;
+ results do not replicate across model families;
+ an ordinary retrieval or prompting explanation accounts for the gain;
+ active traversal increases confident error or repair cost more than it improves accuracy.
+The relation-level method is reduced to an interpretive vocabulary rather than a distinct empirical method if:
+ deformation classes cannot be recovered reproducibly;
+ coalition effects cannot be separated from simple content deletion;
+ matched substitutions cannot be defined without evaluator preference;
+ graph centrality or standard causal ablation explains the same results with equal or lower complexity;
+ whole-system language is used where boundary, cost, agency, repair, or time horizon cannot be measured.
+The primary reduction rule is:
+        If typed architecture and recursive traversal add no measurable function beyond ordinary retrieval
+        under matched conditions, describe the system as a well-organised corpus, not as a functionally
+        emergent architecture.
+
+16. Practical and Commercial Relevance
+A positive result would justify practical engineering work on:
+ typed enterprise knowledge bases;
+ auditable agentic retrieval;
+ dependency-aware software assistants;
+ correction-propagating policy and compliance systems;
+ long-context systems that preserve canonical definitions and exceptions;
+ architecture audits identifying high-value, redundant, or distorting relations;
+ safety systems that keep falsifiers and rollback routes attached to operational claims.
+A null result would also be valuable. It would warn organisations against paying for graph complexity that does
+not outperform simpler retrieval once budgets are matched.
+
+
+                            ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 15
+
+
+--- PAGE BREAK ---
