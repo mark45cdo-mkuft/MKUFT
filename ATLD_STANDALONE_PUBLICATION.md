@@ -18,6 +18,20 @@
 
 Use the version DOI when citing the exact v1.0 release. Use the concept DOI when referring to the continuing publication across versions.
 
+## Canonical repository copies
+
+- **Complete frozen manuscript mirror:** [`publications/ATLD_Evaluation_Protocol_v1.0/`](publications/ATLD_Evaluation_Protocol_v1.0/)
+- **Integrity manifest:** [`publications/ATLD_Evaluation_Protocol_v1.0/SHA256SUMS.txt`](publications/ATLD_Evaluation_Protocol_v1.0/SHA256SUMS.txt)
+- **Publication-mirror boundary:** [`publications/README.md`](publications/README.md)
+
+The GitHub canon now contains the complete manuscript text, split mechanically into eight ordered parts for reading, cloning, active traversal, and recovery. The version-DOI PDF on Zenodo remains the controlling object for exact pagination and visual layout. The mirror does not revise the paper.
+
+Deposited PDF SHA-256 (preservation identity):
+
+```text
+da2f6b3e10a92720acf470a0ebfa885ece7bcb620039fcf984fffa976ced6a4b
+```
+
 ## Recommended citation
 
 ```text
