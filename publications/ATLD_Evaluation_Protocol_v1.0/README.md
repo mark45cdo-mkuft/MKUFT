@@ -8,7 +8,7 @@ Version DOI: `10.5281/zenodo.21341521`
 Concept DOI: `10.5281/zenodo.21341520`  
 Originating MKUFT DOI: `10.5281/zenodo.17780566`
 
-This directory contains the complete frozen v1.0 manuscript text in eight ordered parts. The split is mechanical and exists only so the full publication remains readable, clonable, traversable, and recoverable inside the GitHub canon. Concatenating `part-01.txt` through `part-08.txt` byte-for-byte reconstructs the complete repository text mirror.
+This directory contains the complete frozen v1.0 manuscript text in eight ordered parts. The split is mechanical and exists only so the full publication remains readable, clonable, traversable, and recoverable inside the GitHub canon. Concatenating `part-01.txt` through `part-08.txt` in order reconstructs the complete repository text mirror. GitHub's text write normalisation omits the source file's final terminal newline; manuscript wording is unchanged.
 
 Read in order:
 
@@ -23,10 +23,10 @@ Read in order:
 
 Integrity data: [`SHA256SUMS.txt`](SHA256SUMS.txt).
 
-Complete reconstructed text SHA-256:
+Complete reconstructed repository text SHA-256:
 
 ```text
-81da376ee01628b2afecc22191dbe7fa983ff2b77ede9ccf56ac30537e993439
+15b0a3caf4dc58ebfd2e0d9264cb798e9f87d9f5f8a72fa0bcc1246baac8ab2f
 ```
 
 Deposited version-DOI PDF SHA-256 (preservation identity):
