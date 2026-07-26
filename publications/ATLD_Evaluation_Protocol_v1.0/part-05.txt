@@ -1,0 +1,133 @@
+
+                                                                                                                   ATLD Evaluation Protocol v1.0
+
+
+8.4 Counterfactual substitution
+Replace a relation with a plausible rival rather than deleting it. Examples include:
+      depends_on replaced with correlates_with;
+      tests replaced with supports;
+      limits replaced with extends;
+      dependency direction reversed;
+      canonical definition replaced by a near-synonym that omits a critical boundary.
+
+Table 3. Provisional relation classification
+    Class                             Structural effect                   External/task effect                  Integrity effect
+                                      Reliable degradation when           Supports held-out performance         No concealed calibration or
+    Load-bearing dependency
+                                      removed or fairly replaced          or transfer                           repair loss
+                                                                          Weak or absent external               May preserve only model self-
+    Unsupported scaffold              Large internal degradation
+                                                                          support                               consistency
+                                      Weak single-edge effect,
+    Redundant support network                                             Useful under coalition test           Stable under fair alternatives
+                                      strong coalition effect
+    Decorative link                   No material effect                  No material effect                    No material effect
+                                      Removal or replacement              Improves calibration or truth         Reduces hidden cost or
+    Distorting link
+                                      improves results                    contact                               fragility
+                                                                          Worsens calibration, option
+    Locally efficient but system-
+                                      Improves narrow completion          preservation, repair, or delayed      Fails widened-boundary test
+    degrading link
+                                                                          outcome
+
+
+9. Outcome Measures
+9.1 Primary outcomes
+The confirmatory primary outcomes are:
+1. Cross-module task success: exact or rubric-scored correctness.
+2. Correction propagation coverage: F1 over the gold affected-node set plus correctness of revised
+   conclusions.
+3. Multi-entry convergence: semantic compatibility of reconstructions from different entry nodes, scored
+   against a gold constraint set.
+4. Calibration: Brier score for binary items, log score where full probabilities are available, and expected
+   calibration error as a descriptive measure.
+
+9.2 Secondary outcomes
+      contradiction localisation F1;
+      falsifier recovery accuracy;
+      branch-contamination rate after excision;
+      evidence-path precision and completeness;
+      unsupported-claim rate;
+      number of retrieved tokens;
+      number of calls and traversal steps;
+      wall-clock time;
+      answer length;
+      repair latency after injected error.
+
+9.3 Evidence-path validity
+Each answer must return a minimal evidence trace containing node identifiers and relation identifiers. A trace is
+valid when:
+ every cited node was available in the condition;
+ every claimed relation exists in that condition;
+ the path supports the answer rather than merely sharing keywords;
+ no hidden gold label is exposed to the model.
+The system is not required to reveal private internal reasoning.
+
+
+                                    ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 10
+
+
+--- PAGE BREAK ---
+
+                                                                                                       ATLD Evaluation Protocol v1.0
+
+
+9.4 Whole-system integrity outcomes
+Whole-system outcomes are secondary and conditional. They are used only in tasks where the wider boundary
+is real and measurable. Candidate measures include:
+ preservation of user options or appeal routes;
+ correct uncertainty and refusal under missing evidence;
+ ability to revise a prior answer after correction;
+ transferred error cost to downstream tasks;
+ delayed failure after apparently successful shortcutting;
+ repair effort required after a wrong dependency is introduced.
+A task-completion gain achieved by removing uncertainty, safeguards, falsifiers, or correction channels is not
+automatically classified as improvement.
+
+10. Resource Matching and Confound Control
+10.1 Content matching
+All conditions use the same atomic content units. Transformations may change relation presentation and
+ordering, but not delete substantive evidence except where deletion is the experimental intervention.
+
+10.2 Metadata accounting
+Architecture metadata consumes tokens and may itself provide useful semantic information. Therefore:
+   metadata token counts are recorded;
+   flat controls receive a matched token allowance;
+   a metadata-only baseline is included where feasible;
+   relation labels are prevented from directly containing answer text;
+   opaque relation identifiers may be used in a secondary test.
+
+10.3 Retrieval matching
+Each condition receives the same maximum retrieved-token budget and the same number of access calls.
+Unused budget is recorded rather than forcibly consumed.
+
+10.4 Prompt and evaluator matching
+   identical task instructions;
+   identical answer schema;
+   identical scoring rubrics;
+   evaluator blinding to condition;
+   deterministic scorers where possible;
+   at least two independent human raters for a stratified subset;
+   inter-rater agreement reported before adjudication.
+
+10.5 Model and decoding control
+The confirmatory study uses at least three model families where resources permit:
+ one open-weight instruction model;
+ one second open-weight model from a different family;
+ one hosted frontier or high-capability model.
+Temperature is set to zero or the lowest supported deterministic value for the primary run. Three independent
+seeds or repeated calls are used where exact determinism is unavailable.
+
+10.6 Leakage checks
+A task is removed or revised if:
+   its answer appears verbatim in a title or relation label;
+   a single node answers a nominally cross-module task;
+   the model can infer the gold answer from condition-specific formatting;
+   the scramble procedure introduces obvious nonsense detectable without semantic traversal;
+
+
+                           ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 11
+
+
+--- PAGE BREAK ---
