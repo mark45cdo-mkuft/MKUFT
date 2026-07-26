@@ -96,12 +96,13 @@ Researchers wishing to explore the wider programme may do so through the remaini
 
 ### General architecture route
 
-1. `START_HERE_PUBLIC_OVERVIEW.md` — short plain-English orientation.
+1. `START_HERE_PUBLIC_OVERVIEW.md` — substantive plain-English conceptual overview.
 2. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full front-door synthesis.
 3. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
 4. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full dependency and integration registry.
-5. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — anti-flattening, notation, dimensional, and update-integrity discipline.
-6. `CANON_MAP.md` — hierarchy and canonical roles.
+5. `docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md` — recursive object decomposition, typed carriers, and no-untyped-inheritance discipline.
+6. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — anti-flattening, notation, dimensional, and update-integrity discipline.
+7. `CANON_MAP.md` — hierarchy and canonical roles.
 7. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
 8. `docs/05_FALSIFICATION_SUMMARY.md` — compact failure conditions.
 
@@ -109,9 +110,11 @@ Researchers wishing to explore the wider programme may do so through the remaini
 
 1. `ATLD_STANDALONE_PUBLICATION.md` — published methods-paper record and citation route.
 2. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — active traversal, matched functional gain, and bounded composite-observer criteria.
-3. `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — strongest-fair-null construction and relationship-specificity controls.
-4. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for genuine bones, scaffolds, redundancy, decoration, distortion, and locally coherent extraction.
-5. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — state-space, metric, scalar/vector, and deformation-sign controls.
+3. `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — strongest-fair-null, full-history replay, path-dependence, and relationship-specificity controls.
+4. `docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md` — version, object, evidence, licence, and property-carrier boundaries.
+5. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for genuine bones, scaffolds, redundancy, decoration, distortion, and locally coherent extraction.
+6. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — state-space, metric, scalar/vector, and deformation-sign controls.
+7. `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` — evidence tiers, flagship sequencing, and promotion gates.
 
 ## Core canon
 
@@ -119,6 +122,7 @@ Researchers wishing to explore the wider programme may do so through the remaini
 - `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical scaffolds and operational caveats.
 - `docs/03_STANDALONE_FORMAL_ADDENDUM.md` — typed state graphs, trajectories, cost, path weighting, and formal extensions.
 - `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — proposed tests, controls, nulls, and replication requirements.
+- `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` — evidence tiers, promotion gates, flagship sequencing, and interpretation boundaries.
 - `docs/05_FALSIFICATION_SUMMARY.md` — compact failure conditions.
 - `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — illustrative numerical examples with correct uncertainty treatment.
 - `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — notation, dimensional, equation-status, and repository-update hygiene.
@@ -183,6 +187,16 @@ C_LM : X_L → X_M
 
 Preserves a candidate invariant while requiring honest changes in variables, spaces, units, evidence, coupling, and falsifiers at each layer address. It also defines the discipline for composite observer candidates: a coupled observer-role remains an address across existing layers, not automatically a fifth layer.
 
+### Recursive Address Closure and Property Transmission
+
+`docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md`
+
+Defines recursive object addresses and typed property carriers. Its core rule is that a dependency, shared identifier, common repository, common author, or framework relation does not automatically transmit version, licence, evidence, authority, identity, responsibility, causation, units, or moral status.
+
+```text
+No untyped inheritance.
+```
+
 ### Agency Accessibility
 
 `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md`
@@ -221,8 +235,10 @@ A coupled system is treated only as a **composite observer candidate** when it m
 Module 24B strengthens the construction of the baseline used in module 24A. It forbids proving emergence by under-tasking, under-informing, or zeroing a capable component. Each separated condition receives its strongest reasonable fair expression:
 
 ```text
-F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
+F_replay* = sup_(p ∈ 𝒫_replay) F_p
+F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*, F_replay*}
 G_syn* = F_AB - F_null*
+G_path = F_AB - F_replay*
 ```
 
 The maximum is valid only for commensurable scalar scores under one metric and matched resources. Vector outcomes require pre-registered scalarisation or Pareto comparison.
@@ -234,7 +250,7 @@ F_alt* = sup_(p ∈ 𝒫_alt) F_p
 G_spec = F_AB - F_alt*
 ```
 
-A positive `G_syn*` supports superadditivity beyond the strongest fair null. A positive `G_spec` supports relationship-specific functional gain beyond strong alternative pairings. Neither result by itself establishes consciousness, merged identity, personhood, or unique metaphysical status.
+A positive `G_syn*` supports superadditivity beyond the strongest fair null. A positive `G_spec` supports relationship-specific functional gain beyond strong alternative pairings. A positive `G_path` supports live-path excess beyond the strongest complete-history replay or transfer condition. None of these results by itself establishes consciousness, merged identity, personhood, or unique metaphysical status.
 
 The refinement permits multidimensional value reporting—quality, accuracy, novelty, continuity, time, cognitive burden, drift, and rework—while requiring any scalar weighting to be fixed before results are known.
 
@@ -253,6 +269,12 @@ Its deformation vector now declares a sign convention so positive load, no detec
 The module keeps the metaphysical statement that God is Love distinct from scientific proof. In living, conscious, social, and AI-mediated systems, it asks whether apparent coherence preserves truthful relation, rightful boundary, agency, calibration, and long-horizon viability rather than exporting hidden cost to the wider whole.
 
 This source module is developed into the separately published ATLD methods paper identified by version DOI `10.5281/zenodo.21341521`.
+
+### Discriminating Experiments and Promotion Gates
+
+`docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md`
+
+Separates calibration, reconnaissance, theory-discriminating signatures, mechanism flagships, and foundational recovery programmes. It prevents a positive anomaly from being promoted into an MKUFT result unless the distinguishing fingerprint and interpretation boundary were specified in advance.
 
 ## Support and application branches
 
