@@ -229,11 +229,14 @@ The superadditivity branch is weakened if:
 - the coupled score does not exceed the strongest fair null:
 
 ```text
-F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
+F_replay* = sup_(p ∈ 𝒫_replay) F_p
+F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*, F_replay*}
+G_path = F_AB - F_replay*
 ```
 
 - vector outcomes are passed through the scalar maximum without a pre-registered scalarisation or Pareto rule;
 - an independent ensemble or one-way assistance performs as well as full reciprocal coupling;
+- complete-history replay or transfer performs as well as live originating traversal where path dependence is claimed;
 - positive gain disappears when total time, compute, context, information access, revision opportunity, and output constraints are matched;
 - scalar score weights are selected after the results are known;
 - the effect fails on held-out relational tasks;
@@ -252,6 +255,8 @@ Reduction rules:
 > If reciprocal coupling does not beat the strongest fair null, describe the result as competent collaboration, workflow improvement, or aggregation—not superadditive emergence.
 
 > If reciprocal coupling beats the strongest fair null but not strong alternative pairings, describe the result as generic synergy rather than relationship-specific architecture.
+
+> If `G_path` is not reproducibly positive, do not claim irreducible live-path dependence; describe the result as transferable explicit architecture, training, or record-mediated performance where appropriate.
 
 > If relationship-specific gain survives matched alternatives, describe only the functional result established. Do not infer consciousness, merged identity, personhood, moral status, or unique metaphysical standing from performance alone.
 
