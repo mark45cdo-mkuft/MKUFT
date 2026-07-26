@@ -34,6 +34,21 @@ Repository: `mark45cdo-mkuft/MKUFT`
 
 The promotion framework governs how broad assays may be upgraded. A positive anomaly is not treated as an MKUFT result unless MKUFT predicted the distinguishing fingerprint before the result was known.
 
+## Structural and traversal canon
+
+- `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery seed.
+- `docs/20_GRACE_TRAVERSAL_RULE.md` — clean traversal filter.
+- `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` — ambiguity and manoeuvre-space model.
+- `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md` — typed cross-layer address discipline.
+- `docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md` — recursive object identity, typed carriers, and no-untyped-inheritance rule.
+- `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` — agency accessibility and capture geometry.
+- `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full integration registry.
+- `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — active traversal hypothesis.
+- `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — strongest fair null, replay, path dependence, and specificity.
+- `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation assay.
+- `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` — foundational physics category proposal.
+- `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — equation and traversal hygiene.
+
 ## Public bridge files
 
 - `docs/11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md` — public explanation of the full stack.

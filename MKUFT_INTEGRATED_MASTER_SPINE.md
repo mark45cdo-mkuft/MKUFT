@@ -355,6 +355,24 @@ Canonical home:
 
 `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
 
+## 7A. Recursive address closure and property transmission
+
+For any object `x`, a typed address may include:
+
+```text
+T(x) = (domain, layer, boundary, version, role, evidence, status)
+```
+
+The governing rule is:
+
+> No untyped inheritance.
+
+A relation may carry provenance without carrying licence, evidence, authority, ownership, causation, identity, responsibility, units, or moral status. This keeps source modules, frozen publications, later companion modules, and current repository versions distinct but connected.
+
+Canonical home:
+
+`docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md`
+
 ## 8. Silver Update III — agency accessibility
 
 Let `U_t` be the actions actually available and `U_t^access` the practically accessible subset.
@@ -578,7 +596,10 @@ The public experimental branch requires:
 Canonical homes:
 
 - `docs/04_EXPERIMENTAL_TEST_PROGRAM.md`
+- `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md`
 - `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md`
+
+Module 28 separates calibration, reconnaissance, discriminating signatures, mechanism flagships, and foundational recovery programmes. A positive anomaly is not promoted into an MKUFT result unless the distinguishing fingerprint and interpretation boundary were fixed in advance.
 
 ## 17. Falsification
 
@@ -623,7 +644,7 @@ The complete file-by-file integration registry is:
 
 `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
 
-That map ties documents `01` through `24` to their parents, neighbours, applications, and primary limits.
+That map ties the numbered canon—including `22A`, `24A`, `24B`, and `28`—to parents, neighbours, applications, and primary limits.
 
 ## 19. Public integrity boundary
 

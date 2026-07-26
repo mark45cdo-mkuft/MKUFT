@@ -89,3 +89,24 @@ Future work should add:
 - a paper-facing abstract,
 - a human-readable plain-English explainer,
 - a separate applied Voynich folder or repository.
+
+## 8. Module 25 truncation recovery — 26 July 2026
+
+Issue:
+
+- Commit `6f8678af5998910510a789eeb0086857f62324d6` intended to refine metaphysical wording in module 25.
+- The same commit unintentionally deleted the operational deformation assay from section 5 onward.
+
+Action taken:
+
+- Restored the exact complete pre-truncation module from historical blob `799e5f8f965d4f007827bdc05692e331d75204e3`.
+- Preserved the intended later wording that treats Love as the primary unity-principle and keeps measurable proxies distinct from proof of God or Love.
+- Read back the restored sign convention, deformation passes, classification, test programme, falsifiers, architecture route, and terminal compressed rule.
+
+## 9. Post-Silver canon synchronisation — 26 July 2026
+
+Action taken:
+
+- Registered module 22A and module 28 across the public shell and integration registry.
+- Propagated the complete-history replay condition, `F_replay*`, and live-path comparison, `G_path`, from module 24B into the experimental, falsification, canon-map, cross-support, README, and equation-hygiene references.
+- Retained both public entry documents while distinguishing the short landing page from the substantive conceptual overview.

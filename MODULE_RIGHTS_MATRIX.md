@@ -74,6 +74,7 @@ Unless an exact file version expressly states a different licence, the current G
 | `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` | All rights reserved unless an exact version states otherwise |
 | `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` | All rights reserved unless an exact version or later standalone publication states otherwise |
 | `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` | All rights reserved unless an exact version states otherwise |
+| `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` | All rights reserved unless an exact version or later standalone publication states otherwise |
 
 ### ATLD-origin source and companion modules
 

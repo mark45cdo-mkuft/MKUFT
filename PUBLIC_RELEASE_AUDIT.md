@@ -125,3 +125,16 @@ The Silver Update was cleared for merge after confirming that:
 The Silver Update is materially more readable, statistically correct, structurally integrated, and publicly disciplined than the previous working copy.
 
 No information-hygiene blocker was identified.
+
+## Post-Silver integrity repair — 26 July 2026
+
+A later repository audit identified and repaired a truncation in `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`. The exact complete historical object was restored before bounded wording changes were reapplied.
+
+The same repair synchronised:
+
+- module 22A recursive address closure and no-untyped-inheritance rules;
+- module 28 evidence tiers and promotion gates;
+- module 24B complete-history replay and `G_path` controls;
+- the distinction between the short public landing page and the substantive public overview.
+
+The repair does not alter the frozen ATLD v1.0 manuscript or upgrade any hypothesis to evidence. It restores the current GitHub canon and makes the public entry routes converge on the same current definitions.

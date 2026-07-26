@@ -1,5 +1,9 @@
 # 00 — Start Here: MKUFT Public Page
 
+Status: public landing page and route selector for the controlled MKUFT GitHub working copy.
+
+This file is the short discovery entrance. The substantive conceptual overview is `START_HERE_PUBLIC_OVERVIEW.md`.
+
 ## Canonical identity
 
 **MKUFT** stands for **McLaughlin–Kairos Unified Field Theory**.
