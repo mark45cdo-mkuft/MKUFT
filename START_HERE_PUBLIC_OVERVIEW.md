@@ -8,7 +8,7 @@
 **Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](PROVENANCE_DOI_AND_ATTRIBUTION.md).  
 <!-- MKUFT-PROVENANCE-HEADER:END -->
 
-Status: short public orientation for the controlled MKUFT GitHub working copy.
+Status: substantive public conceptual overview for the controlled MKUFT GitHub working copy.
 
 ## What this repository is
 
@@ -177,6 +177,18 @@ K_L = A_L(K;θ_L)
 
 One candidate invariant may have different expressions across S, I, P, and O. The variables, units, evidence, and falsifiers must change honestly with the address.
 
+### Recursive address closure and property transmission
+
+`docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md` prevents properties from travelling merely because two objects share a repository, identifier, dependency, author, or framework.
+
+Its governing rule is:
+
+```text
+No untyped inheritance.
+```
+
+Version, licence, evidence, identity, authority, responsibility, units, and causal status require their own declared carriers. This keeps frozen publications, live source modules, later companions, and current repository revisions distinct but traceable.
+
 ### Agency accessibility
 
 ```text
@@ -203,6 +215,12 @@ That is the self-supporting architecture of the public stack.
 `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` asks whether an active AI recursively traversing a typed corpus can produce measurable functional gain over the same material presented as flat, isolated, or semantically scrambled documents.
 
 The hypothesis is supported only where content, retrieval, context, compute, prompting, and evaluation are matched. Functional gain does not establish consciousness, personhood, independent agency, or continuous identity.
+
+### Discriminating experiments and promotion gates
+
+`docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` separates calibration, reconnaissance, discriminating signatures, mechanism flagships, and foundational recovery programmes.
+
+A positive anomaly is not promoted into an MKUFT result unless the distinguishing fingerprint, controls, interpretation boundary, and reduction rule were fixed before the result was known.
 
 ### Load-bearing invariants and whole-system deformation
 
@@ -306,13 +324,17 @@ Similarity is not identity. The `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` tracks 
 3. `MKUFT_INTEGRATED_MASTER_SPINE.md`
 4. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md`
 5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
-6. `CANON_MAP.md`
-7. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md`
-8. `docs/05_FALSIFICATION_SUMMARY.md`
+6. `docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md`
+7. `CANON_MAP.md`
+8. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md`
+9. `docs/05_FALSIFICATION_SUMMARY.md`
 
 ### AI and typed-knowledge architecture route
 
 1. `ATLD_STANDALONE_PUBLICATION.md`
 2. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
 3. `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md`
-4. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
+4. `docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md`
+5. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
+6. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md`
+7. `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md`
