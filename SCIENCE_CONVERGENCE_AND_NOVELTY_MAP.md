@@ -700,7 +700,7 @@ That is what should now be tracked, tested, and defended.
 
 ## 7. Selected external references for named convergence entries
 
-The references below identify specific work discussed in the convergence map. Their inclusion records relevant prior work, independent convergence, and strong alternative programmes.
+The references below identify specific work discussed in the convergence map. They are included to recognise legitimate parallel work and strong alternative programmes relevant to comparison and testing.
 
 Bose, S., Mazumdar, A., Morley, G. W., Ulbricht, H., Toroš, M., Paternostro, M., Geraci, A. A., Barker, P. F., Kim, M. S., and Milburn, G. (2017). “Spin Entanglement Witness for Quantum Gravity.” *Physical Review Letters*, 119, 240401. DOI: `10.1103/PhysRevLett.119.240401`.
 
