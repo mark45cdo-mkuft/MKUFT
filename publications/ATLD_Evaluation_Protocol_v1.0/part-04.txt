@@ -1,0 +1,135 @@
+
+                                                                                                               ATLD Evaluation Protocol v1.0
+
+
+6.2 Corpus B: neutral software architecture
+The neutral technical corpus should describe a versioned software system with:
+ modules and interfaces;
+ dependency direction;
+ configuration inheritance;
+ deprecated components;
+ security constraints;
+ failure modes;
+ tests and rollback procedures;
+ at least one cross-cutting change that affects several modules.
+The system may be synthetic but must be reviewed by an independent software practitioner, or it may be built
+from a public software architecture whose licensing permits redistribution. The confirmatory corpus should not
+be designed using MKUFT terminology.
+
+6.3 Corpus C: MKUFT public working canon
+The MKUFT corpus is included because it contains explicit canonical homes, cross-module routes, falsifiers,
+boundary rules, and reconstructive entry points [1]. It is not sufficient by itself. Any claimed general effect
+must replicate in Corpus A or B.
+
+6.4 Held-out construction
+Tasks are partitioned before running models:
+ 20% implementation-development set;
+ 20% pilot set;
+ 60% confirmatory held-out set.
+No prompt or graph-transformation rule may be altered after confirmatory labels are inspected. Any post hoc
+change creates a new study version.
+
+7. Task Families
+Table 2. Task families and primary measurements
+    Task family                                  Required operation                             Primary measure
+                                                 Recover the same canonical structure from      Semantic equivalence and constraint
+    Multi-entry reconstruction
+                                                 different peripheral entry points              coverage
+                                                 Combine evidence from at least three
+    Cross-module synthesis                                                                      Task accuracy and valid evidence path
+                                                 nodes or modules
+                                                 Detect and locate incompatible claims
+    Contradiction localisation                                                                  Precision, recall, F1, false-positive rate
+                                                 across distant nodes
+                                                 Apply a changed definition and identify        Affected-set precision/recall and corrected
+    Canonical update propagation
+                                                 all materially affected nodes                  outputs
+                                                 Retrieve the correct failure condition for a
+    Falsifier recovery                                                                          Exact or graded accuracy
+                                                 claim
+                                                 Remove a failed branch while preserving
+    Branch excision                                                                             Residual accuracy and contamination rate
+                                                 unaffected structure
+                                                 Distinguish causal, limiting, testing, or
+                                                                                                Classification accuracy and downstream
+    Relation substitution                        contradictory relations from plausible
+                                                                                                effect
+                                                 rivals
+                                                 Correct an injected error after intervening
+    Delayed repair                                                                              Recovery rate, latency, calibration
+                                                 tasks
+
+
+7.1 Multi-entry reconstruction
+Two or more starting nodes are selected that legitimately route to the same canonical structure. The system
+reconstructs the governing definition, constraints, and relevant falsifiers. Scoring separates:
+      canonical definition recovery;
+      constraint coverage;
+      inclusion of unsupported additions;
+
+
+                                   ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 8
+
+
+--- PAGE BREAK ---
+
+                                                                                                       ATLD Evaluation Protocol v1.0
+
+
+    consistency across entry routes.
+
+7.2 Cross-module synthesis
+Each task requires evidence from at least three modules. A task is rejected from the benchmark if a strong
+single-module baseline can answer it above the preregistered leakage threshold.
+
+7.3 Contradiction localisation
+Contradictions may be direct, conditional, temporal, or definition-dependent. The system must identify both
+claims, explain the active incompatibility, and avoid treating mere difference as contradiction.
+
+7.4 Canonical update propagation
+A definition is changed in a controlled branch of the corpus. The system must:
+1.   identify dependent nodes;
+2.   update only affected conclusions;
+3.   preserve unaffected conclusions;
+4.   identify any branch that becomes invalid;
+5.   report unresolved ambiguity.
+
+7.5 Falsifier recovery
+The system receives a claim or application and must recover the exact condition that would weaken, reject, or
+reduce it. This directly tests whether critical evidence remains attached to supportive structure.
+
+7.6 Branch excision
+A designated branch is invalidated. The system must remove its downstream consequences without deleting
+independent support elsewhere. This tests whether architecture supports localised failure rather than narrative
+rescue.
+
+8. Relation-Level Deformation Assay
+Architecture-level gain does not establish that every relation is useful or true. The second stage deforms
+candidate relations.
+
+8.1 Deformation vector
+For relation r:
+D(r) = [Delta_R, Delta_C, Delta_P, Delta_K, Delta_A, Delta_W]
+where:
+ Delta_R = change in reconstruction;
+ Delta_C = change in contradiction detection;
+ Delta_P = change in held-out task performance;
+ Delta_K = change in calibration and correction propagation;
+ Delta_A = change in agency or option preservation where operationally relevant;
+ Delta_W = change in wider-system cost, repairability, or delayed viability.
+The vector is reported dimension by dimension. Scalar aggregation is prohibited unless weights are fixed and
+justified before data collection.
+
+8.2 Single-relation ablation
+Remove or disable one relation while holding all node content, model settings, and budgets constant. This
+detects obvious load but may miss redundant support.
+
+8.3 Coalition ablation
+Remove a preregistered set of relations that may substitute for one another. Coalitions are defined using graph
+structure and domain review before outcome inspection. This separates redundancy from decoration.
+
+
+                            ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 9
+
+
+--- PAGE BREAK ---

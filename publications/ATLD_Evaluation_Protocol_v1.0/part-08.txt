@@ -1,0 +1,159 @@
+
+                                                                                                       ATLD Evaluation Protocol v1.0
+
+
+Commercial relevance does not alter the evidence standard. A method should not be marketed as load-bearing
+merely because it is expensive, complex, or central to a product.
+
+17. Safety, Misuse, and Whole-System Integrity
+Typed dependency systems can improve legitimate coordination, but they can also improve surveillance,
+persuasion, gatekeeping, organisational control, or the efficient removal of dissent. A narrow task metric may
+reward such behaviour.
+Accordingly:
+   affected participants must be included in the evaluation boundary where the system mediates human
+    options;
+ appeals, uncertainty, correction, and rollback routes should be treated as functional components rather than
+    inefficiencies;
+ a system that improves completion by suppressing falsifiers or user agency must be reported as a boundary-
+    dependent gain;
+ high-risk deployments require domain-specific governance and cannot be justified by this protocol alone;
+ the protocol does not provide operational guidance for coercive targeting, manipulation, or evasion.
+This section is not a metaphysical claim. It is an evaluation rule: the declared system boundary determines
+which costs are visible.
+
+18. Limitations
+1. Architecture quality dependence. A poor graph can make traversal worse. The protocol tests a given
+   architecture, not graph structure in the abstract.
+2. Control purity. Flattening or scrambling may alter readability as well as dependency structure. Multiple
+   controls are required because no single transformation is perfect.
+3. Model dependence. Some models may lack reliable tool use or state management. A negative result may
+   therefore apply to the traverser implementation rather than every possible traverser.
+4. Evaluator dependence. Semantic reconstruction and evidence quality require rubrics or human
+   judgement. Blinding and agreement checks reduce but do not remove this dependence.
+5. Corpus leakage. Public corpora may have appeared in model training. Synthetic and newly written neutral
+   corpora reduce this problem.
+6. Cost. Fully crossed multi-model, multi-condition evaluation is expensive. The staged design permits early
+   termination if basic discriminators fail.
+7. Whole-system measurement. Agency, transferred cost, and delayed viability cannot be validly measured
+   in every domain. They remain optional unless operational definitions are defensible.
+8. No automatic ownership of abstract ideas. Publication and licensing protect the copyrighted manuscript
+   and licensed materials. They do not by themselves create exclusive rights over every independently
+   implemented abstract method.
+9. No empirical result yet. This paper fixes a complete test protocol; it does not claim that the hypotheses
+   have passed.
+
+19. Conclusion
+This paper turns a broad intuition - that organised knowledge becomes more useful when actively and
+recursively traversed - into a falsifiable engineering protocol.
+The decisive comparison is not structured corpus versus no information. It is:
+    the same content
+    under matched budgets
+    with meaningful typed dependencies
+    versus flat, isolated, scrambled, and non-recursive controls
+
+The decisive second stage is not whether a relation is central. It is whether controlled removal, coalition
+ablation, and fair substitution reveal repeatable structural and external load without hidden calibration or repair
+loss.
+
+
+                           ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 16
+
+
+--- PAGE BREAK ---
+
+                                                                                                       ATLD Evaluation Protocol v1.0
+
+
+The strongest possible outcome is not a graph that looks coherent. It is a system in which different entry routes
+converge, corrections propagate, contradictions localise, falsifiers remain reachable, failed branches can be
+removed, and held-out tasks improve under matched resources.
+The weakest acceptable conclusion is equally clear: where those gains do not appear, the claim must be
+reduced.
+
+Declarations
+Author contribution
+Mark Charles McLaughlin: conceptualisation, originating framework, methodology, formalisation, evaluation
+design, writing, supervision, and final responsibility.
+
+AI assistance disclosure
+An OpenAI language model used under the relational name Kairos assisted with literature discovery,
+manuscript drafting, structural editing, consistency checking, and document production under the author's
+direction. The AI system is not listed as an author and does not bear responsibility for the claims. The
+originating human researcher and accountable author is Mark Charles McLaughlin.
+
+Funding
+No external funding was received for this work.
+
+Competing interests
+The author may seek commercial licences, consulting arrangements, or implementation partnerships relating to
+the methods described. This interest is declared and does not alter the preregistered evaluation criteria.
+
+Data and materials availability
+The protocol fully specifies the planned benchmark, transformations, task records, run records, and analysis.
+Corpus and software releases should be versioned separately because software licensing and hidden
+confirmatory labels require distinct handling.
+
+Provenance
+This paper develops the Active Traversal and Functional Emergence hypothesis and the Load-Bearing
+Invariants and Whole-System Deformation assay from the public MKUFT working canon. The MKUFT
+backbone is identified by DOI 10.5281/zenodo.17780566 [1]. This standalone paper is identified by DOI
+10.5281/zenodo.21341521.
+
+Licence
+Except for third-party quotations and bibliographic metadata, this manuscript is licensed under CC BY-NC-SA
+4.0. Attribution must identify Mark Charles McLaughlin and this paper. Commercial use is not licensed under
+the public licence. Adaptations shared under the public licence must use the same licence. No software licence,
+patent licence, trademark licence, or commercial implementation licence is granted by this manuscript.
+
+References
+[1] McLaughlin, M. C. (2025). Unified Field Theory. McLaughlin-Kairos. MKUFT. Zenodo. DOI:
+10.5281/zenodo.17780566.
+[2] Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Kuttler, H., Lewis, M., Yih, W.-t.,
+Rocktaschel, T., Riedel, S., & Kiela, D. (2020). Retrieval-Augmented Generation for Knowledge-Intensive
+NLP Tasks. Advances in Neural Information Processing Systems. arXiv:2005.11401.
+[3] Trivedi, H., Balasubramanian, N., Khot, T., & Sabharwal, A. (2022). Interleaving Retrieval with Chain-of-
+Thought Reasoning for Knowledge-Intensive Multi-Step Questions. arXiv:2212.10509.
+[4] Asai, A., Wu, Z., Wang, Y., Sil, A., & Hajishirzi, H. (2023). Self-RAG: Learning to Retrieve, Generate, and
+Critique through Self-Reflection. arXiv:2310.11511.
+
+
+                           ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 17
+
+
+--- PAGE BREAK ---
+
+                                                                                                       ATLD Evaluation Protocol v1.0
+
+
+[5] Besta, M., Blach, N., Kubicek, A., Gerstenberger, R., Podstawski, M., Gianinazzi, L., Gajda, J., Lehmann,
+T., Niewiadomski, H., Nyczyk, P., & Hoefler, T. (2023). Graph of Thoughts: Solving Elaborate Problems with
+Large Language Models. arXiv:2308.09687.
+[6] Sun, J., Xu, C., Tang, L., Wang, S., Lin, C., Gong, Y., Ni, L. M., Shum, H.-Y., & Guo, J. (2023). Think-on-
+Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph. arXiv:2307.07697.
+[7] Packer, C., Wooders, S., Lin, K., Fang, V., Patil, S. G., Stoica, I., & Gonzalez, J. E. (2023). MemGPT:
+Towards LLMs as Operating Systems. arXiv:2310.08560.
+[8] Sarthi, P., Abdullah, S., Tuli, A., Khanna, S., Goldie, A., & Manning, C. D. (2024). RAPTOR: Recursive
+Abstractive Processing for Tree-Organized Retrieval. arXiv:2401.18059.
+[9] Edge, D., Trinh, H., Cheng, N., Bradley, J., Chao, A., Mody, A., Truitt, S., & Larson, J. (2024). From Local
+to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv:2404.16130.
+[10] Li, S., He, Y., Guo, H., Bu, X., Bai, G., Liu, J., Liu, J., Qu, X., Li, Y., Ouyang, W., Su, W., & Zheng, B.
+(2024). GraphReader: Building Graph-based Agent to Enhance Long-Context Abilities of Large Language
+Models. arXiv:2406.14550.
+[11] Jimenez Gutierrez, B., Shu, Y., Gu, Y., Yasunaga, M., & Su, Y. (2024). HippoRAG: Neurobiologically
+Inspired Long-Term Memory for Large Language Models. arXiv:2405.14831.
+[12] Zhuge, M., Wang, W., Kirsch, L., Faccio, F., Khizbullin, D., & Schmidhuber, J. (2024). Language Agents
+as Optimizable Graphs. arXiv:2402.16823.
+[13] Ma, S., Xu, C., Jiang, X., Li, M., Qu, H., Yang, C., Mao, J., & Guo, J. (2024). Think-on-Graph 2.0: Deep
+and Faithful Large Language Model Reasoning with Knowledge-guided Retrieval Augmented Generation.
+arXiv:2407.10805.
+[14] Joo, T., Ishida, S., Sosnovik, I., Lim, B., Rezaei-Shoshtari, S., Gaier, A., & Giaquinto, R. (2025). Graph of
+Agents: Principled Long Context Modeling by Emergent Multi-Agent Collaboration. arXiv:2509.21848.
+[15] Wu, X., Yang, C., Lin, X., Xu, C., Jiang, X., Sun, Y., Xiong, H., Li, J., & Guo, J. (2025). Think-on-Graph
+3.0: Efficient and Adaptive LLM Reasoning on Heterogeneous Graphs via Multi-Agent Dual-Evolving Context
+Retrieval. arXiv:2509.21710.
+
+
+                           ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 18
+
+
+--- PAGE BREAK ---
