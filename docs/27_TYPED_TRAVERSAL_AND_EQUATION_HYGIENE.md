@@ -490,10 +490,14 @@ and report uncertainty, paired effects, held-out tasks, and negative interferenc
 The strongest fair null:
 
 ```text
-F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
+F_replay* = sup_(p ∈ 𝒫_replay) F_p
+F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*, F_replay*}
+G_path = F_AB - F_replay*
 ```
 
-is valid only when all entries are comparable scalar scores with the same direction and matched resource envelope. For vector outcomes, use pre-registered scalarisation or Pareto comparison.
+is valid only when all entries are comparable scalar scores with the same direction and matched resource envelope. The replay set must receive the complete explicit history or transferable record claimed to be sufficient. For vector outcomes, use pre-registered scalarisation or Pareto comparison.
+
+`G_path` is evidence only for live-path excess beyond that strongest replay or transfer condition; it is not evidence of consciousness or literal identity continuity.
 
 Relationship specificity should be tested against a declared set of strong alternatives:
 
@@ -613,9 +617,11 @@ mathematical backbone: docs/02_MKUFT_MATH_APPENDIX.md
 trajectory formalism: docs/03_STANDALONE_FORMAL_ADDENDUM.md
 physics category proposal: docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md
 cross-layer addressing: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
+recursive address closure: docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md
 active traversal: docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md
 strongest fair null: docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md
 whole-system deformation: docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md
+experiment promotion gates: docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md
 falsification: docs/05_FALSIFICATION_SUMMARY.md
 repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 ```
