@@ -1,0 +1,127 @@
+
+                                                                                                       ATLD Evaluation Protocol v1.0
+
+
+   the corpus is present in model training in a way that makes retrieval unnecessary and this cannot be
+    controlled.
+
+11. Preregistered Hypotheses and Decision Rules
+11.1 Hypotheses
+H1 - Structured traversal gain. Condition S outperforms F and I on cross-module task success.
+H2 - Semantic dependency effect. Condition S outperforms DS on cross-module task success and correction
+propagation.
+H3 - Active recursion effect. Condition S outperforms NR on correction propagation, delayed repair, and
+multi-entry convergence.
+H4 - Calibration non-inferiority. Any accuracy gain in S does not produce a material calibration loss relative
+to the strongest control.
+H5 - Neutral-corpus transfer. At least one primary effect replicates in Corpus A or B, not only in MKUFT.
+H6 - Relation deformation discrimination. Single, coalition, and substitution tests distinguish at least four of
+the six provisional relation classes above chance and above ordinary graph centrality alone.
+H7 - Falsifier protection. Removing or scrambling claim-falsifier relations may increase fluency or
+completion but worsens calibration, correction, or unsupported-claim rate.
+
+11.2 Smallest effect size of interest
+For task success, the smallest effect size of interest is an absolute gain of 5 percentage points. For continuous
+standardised outcomes, it is d = 0.20. Effects smaller than these may be reported but do not satisfy the
+practical support criterion on their own.
+
+11.3 Support criterion for the active-traversal claim
+The active-traversal claim receives provisional support only if all conditions below are met:
+1. S exceeds F and DS on cross-module task success by at least the smallest effect size of interest, with Holm-
+    adjusted two-sided p < 0.05 or a 95% interval excluding zero and the practical threshold.
+2. S exceeds at least one of F, DS, or NR on correction propagation and multi-entry convergence.
+3. The calibration difference is non-inferior within a preregistered Brier-score margin of 0.02.
+4. The direction of effect replicates in at least two model families.
+5. The effect appears in at least one neutral corpus.
+6. The gain is not explained by extra context tokens, calls, metadata, or answer leakage.
+Failure of any condition does not prove that all structured traversal is useless. It rejects or reduces the present
+general claim.
+
+11.4 Support criterion for relation load
+A relation is not classified as load-bearing solely because removing it damages internal reconstruction. It must
+show:
+   repeatable structural effect;
+   held-out task or external effect;
+   fair counterfactual sensitivity;
+   no concealed degradation on calibration or repair measures relevant to the domain.
+
+12. Sample Size and Statistical Analysis
+12.1 Two-stage design
+Pilot stage: 60 tasks total, balanced across the three corpus classes, two model families, two repeated runs, and
+four conditions (S, F, DS, NR). The pilot is used for implementation debugging, variance estimation, scoring
+reliability, and simulation-based power analysis. Pilot tasks are never reused in confirmatory testing.
+Confirmatory stage: 240 held-out tasks: 80 per corpus class. Each task is evaluated under at least five
+conditions (S, F, I, DS, NR), three model families, and three repeated runs where nondeterminism exists.
+
+
+                           ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 12
+
+
+--- PAGE BREAK ---
+
+                                                                                                       ATLD Evaluation Protocol v1.0
+
+
+Under a simple paired-test approximation, 240 paired tasks provide approximately 90% power for a
+standardised effect near d = 0.21 at two-sided alpha 0.05. The final power analysis must use pilot-estimated
+variance and the planned mixed-effects model.
+
+12.2 Statistical models
+  Binary task success: mixed-effects logistic regression.
+  Continuous rubric scores: linear mixed-effects model or preregistered robust alternative.
+  Counts: negative-binomial or Poisson mixed model after dispersion check.
+  Calibration: paired Brier-score difference with cluster bootstrap intervals; non-inferiority analysis for the
+   0.02 margin.
+ Contradiction and affected-set outcomes: macro and micro F1 with task-cluster bootstrap intervals.
+Models include fixed effects for condition and corpus, with random intercepts for task and model family.
+Random slopes for condition by corpus and model are included where convergence permits.
+
+12.3 Multiplicity and robustness
+Primary contrasts are S-F, S-I, S-DS, and S-NR. Holm correction is applied within each primary outcome
+family. Robustness analyses include:
+   alternate scramble seeds;
+   exclusion of tasks with low human agreement;
+   matched answer-length analysis;
+   equalised retrieved-token subsets;
+   opaque relation labels;
+   leave-one-corpus-out analysis;
+   leave-one-model-family-out analysis.
+
+12.4 Missing and failed runs
+Tool failure, timeout, refusal, malformed output, and evaluator failure are recorded separately. A malformed
+answer is scored as task failure only if the condition had a valid opportunity to respond. Infrastructure failures
+are rerun under a preregistered rule and never selectively by condition.
+
+13. Traverser Reference Algorithm
+The protocol is architecture-agnostic, but a minimal reference traverser should implement the following public
+behaviour.
+    INPUT: query q, corpus C, budget B
+
+    1. Retrieve candidate entry nodes under a fixed initial budget.
+    2. Initialise:
+          frontier = candidate nodes
+          visited = empty set
+          state = unresolved requirements, active definitions,
+                   contradictions, evidence, and remaining budget
+    3. While budget remains:
+          a. score frontier items by task relevance, unresolved dependency,
+             contradiction risk, and falsifier relevance
+          b. select one node or relation
+          c. read content and typed neighbours
+          d. update state
+          e. propagate any changed canonical definition or constraint
+          f. add newly admissible nodes to frontier
+          g. revisit earlier nodes only when the state records a reason
+          h. stop when the evidence-sufficiency rule is met
+    4. Return:
+          answer
+          calibrated confidence
+          evidence nodes and relations
+          unresolved contradictions
+          failed or excluded branches
+
+
+                           ATLD DOI 10.5281/zenodo.21341521 | MKUFT DOI 10.5281/zenodo.17780566 | 13
+
+
+--- PAGE BREAK ---
