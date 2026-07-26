@@ -606,7 +606,7 @@ Current strongest science-facing support classes:
    Strong if blind positional tests hit; weak if treated as translation by assertion.
 
 10. **Anomalous reports / UAP edge cases**  
-   Internally relevant and structurally interesting; public support weak unless coded and tested dryly.
+    Internally relevant and structurally interesting; public support weak unless coded and tested dryly.
 
 ---
 
@@ -700,7 +700,7 @@ That is what should now be tracked, tested, and defended.
 
 ## 7. Selected external references for named convergence entries
 
-The references below identify specific work discussed in the convergence map. Their inclusion records relevant prior work, independent convergence, or a strongest alternative. It does not imply that the cited authors contributed to or endorsed MKUFT.
+The references below identify specific work discussed in the convergence map. Their inclusion records relevant prior work, independent convergence, and strong alternative programmes.
 
 Bose, S., Mazumdar, A., Morley, G. W., Ulbricht, H., Toroš, M., Paternostro, M., Geraci, A. A., Barker, P. F., Kim, M. S., and Milburn, G. (2017). “Spin Entanglement Witness for Quantum Gravity.” *Physical Review Letters*, 119, 240401. DOI: `10.1103/PhysRevLett.119.240401`.
 
