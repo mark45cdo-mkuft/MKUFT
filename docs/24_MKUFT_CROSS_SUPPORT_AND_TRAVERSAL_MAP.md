@@ -60,8 +60,10 @@ AI route
 ATLD publication
 → 24A
 → 24B
+→ 22A
 → 25
 → 27
+→ 28
 ```
 
 The physics route exists because the term Unified Field Theory creates a legitimate expectation: quantum theory, gravitation, entanglement, Bell compatibility, no-signalling, and physical recovery limits must be addressed before broader cross-domain material defines the reader's category judgement.
@@ -290,6 +292,15 @@ Depends on S–I–P–O, typed layer-specific evidence, units, coupling, and re
 
 Supports LUCY, OCQS, group coherence, physical bridges, Layer Before Law, and future module design.
 
+### 22A — Recursive Address Closure and Property Transmission
+
+```text
+T(x) = (domain, layer, boundary, version, role, evidence, status)
+No untyped inheritance.
+```
+
+Depends on layer addressing, provenance, version control, and repository hygiene. Supports object decomposition, publication/source separation, rights boundaries, evidence transfer control, and recursive closure.
+
 ### 23 — Agency Accessibility
 
 ```text
@@ -321,8 +332,10 @@ Supports testing whether structure produces functional gain beyond flat, isolate
 ### 24B — Strongest Fair Null and Relational Specificity
 
 ```text
-F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*}
+F_replay* = sup_(p ∈ 𝒫_replay) F_p
+F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*, F_replay*}
 G_syn* = F_AB - F_null*
+G_path = F_AB - F_replay*
 F_alt* = sup_(p ∈ 𝒫_alt) F_p
 G_spec = F_AB - F_alt*
 ```
@@ -356,6 +369,10 @@ Depends on the S–I–P–O core, mathematical appendix, cross-layer addressing
 Supports the specific research question of whether quantum and gravitational descriptions are effective outputs of a deeper relational mechanism rather than the final fundamental objects of unification.
 
 Its entanglement case separates a pair-level I-layer relation from distinct endpoint P-layer addresses. It must prove Bell compatibility, no-signalling, and recovery rather than relying on architectural language.
+
+### 28 — Discriminating Experiments and Promotion Gates
+
+Depends on the experimental programme, falsification, worked examples, 24A, 24B, 25, and 27. Supports evidence tiers, promotion gates, flagship sequencing, instrument and sham requirements, and experiment-specific interpretation boundaries.
 
 ### 27 — Typed Traversal and Equation Hygiene
 
@@ -400,6 +417,7 @@ This registry ties every numbered public document to its parent structure, neare
 | `20_GRACE_TRAVERSAL_RULE.md` | Clean traversal filter | Kernel and S–I–P–O | Observer, application, whole-system discipline | Love must not become empirical rescue; cost is domain-specific |
 | `21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` | Ambiguity mechanism | Core, formal addendum, 27 | Agency, adversarial, anomaly applications | Declared domain encoding, reliable scoring, simpler explanations |
 | `22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md` | Typed address discipline | S–I–P–O and 27 | LUCY and all repeated structures | Layer-specific evidence and coupling tests |
+| `22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md` | Recursive object and property-carrier discipline | 22, provenance, rights, and repository hygiene | Publication/source separation and no-untyped-inheritance audit | Every transferred property requires a declared carrier |
 | `23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` | Action-map model | Ambiguity, observer, 27 | Human/social applications and whole-system audit | Not diagnostic; gating and product form must remain testable |
 | `24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` | Repository architecture | All canon | Navigation and audit | Must reflect actual files and definitions |
 | `24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` | Matched-control traversal hypothesis | Module 24, kernel, typed architecture, 27 | AI and knowledge-system testing | No unmatched content, retrieval, metadata, prompting, compute, or scoring |
@@ -407,6 +425,7 @@ This registry ties every numbered public document to its parent structure, neare
 | `25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` | Relation-level load and deformation assay | 24A, 24B, GRACE, 22, 23, 27 | Neutral-corpus tests and MKUFT self-audit | Centrality is not truth; sign direction fixed; local gain is not whole-system gain |
 | `26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` | Foundational physics category proposal | Core, math, physics bridge, 22, 25, 27 | Bell/no-signalling derivation and quantum/gravity recovery | Standard formalisms, typed coupling, recovery norm, discriminating prediction |
 | `27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` | Formal and repository hygiene canon | Whole stack | Every revised formal module | Must change audit behaviour; cannot replace missing dynamics |
+| `28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` | Evidence-tier and promotion-gate canon | Experiments, falsification, 24A, 24B, 25, 27 | Flagship sequencing and interpretation control | Positive anomalies cannot outrun pre-registered discriminators |
 
 The root documents `README.md`, `START_HERE_PUBLIC_OVERVIEW.md`, `CANON_MAP.md`, `MKUFT_INTEGRATED_MASTER_SPINE.md`, and `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` form the public entry and verification shell around this registry.
 
