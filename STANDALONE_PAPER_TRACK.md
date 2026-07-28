@@ -42,6 +42,12 @@ Later companion refinement:
 
 Module 24B was formulated after the ATLD v1.0 publication date. It refines the public working architecture but is not silently incorporated into the frozen v1.0 manuscript. It becomes part of a later ATLD publication only if expressly included in a later deposited version.
 
+Approved next-version revision:
+
+- [`ATLD_V1_1_WORKING_REVISION_VOYNICH_PROVENANCE.md`](ATLD_V1_1_WORKING_REVISION_VOYNICH_PROVENANCE.md) — approved professional manuscript text for insertion before the contributions subsection in ATLD v1.1 or the next deposited version.
+
+This revision records that the underlying cognitive method and MKUFT architecture predated the Voynich analysis, while the Voynich procedural-engine work made a material developmental contribution by providing a close external correspondence that exposed and operationalised traversal mechanics. It includes the author's synchronistic interpretation as developmental history, not as empirical evidence, and adds the relevant Voynich publication reference. It is not silently part of the frozen v1.0 manuscript.
+
 The current GitHub versions of modules 24A, 24B, and 25 are separate files and are all rights reserved unless an exact file version expressly states another licence. The ATLD manuscript's CC BY-NC-SA licence does not automatically license those source or companion files.
 
 Full publication and rights route:
