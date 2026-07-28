@@ -103,8 +103,8 @@ Researchers wishing to explore the wider programme may do so through the remaini
 5. `docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md` — recursive object decomposition, typed carriers, and no-untyped-inheritance discipline.
 6. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — anti-flattening, notation, dimensional, and update-integrity discipline.
 7. `CANON_MAP.md` — hierarchy and canonical roles.
-7. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
-8. `docs/05_FALSIFICATION_SUMMARY.md` — compact failure conditions.
+8. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — relationship to existing research, risk, and next checks.
+9. `docs/05_FALSIFICATION_SUMMARY.md` — compact failure conditions.
 
 ### AI and typed-knowledge architecture route
 
@@ -113,8 +113,9 @@ Researchers wishing to explore the wider programme may do so through the remaini
 3. `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — strongest-fair-null, full-history replay, path-dependence, and relationship-specificity controls.
 4. `docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md` — version, object, evidence, licence, and property-carrier boundaries.
 5. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for genuine bones, scaffolds, redundancy, decoration, distortion, and locally coherent extraction.
-6. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — state-space, metric, scalar/vector, and deformation-sign controls.
-7. `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` — evidence tiers, flagship sequencing, and promotion gates.
+6. `docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md` — provisional node-level extension testing signature-bearing coherence anchors through relation-preserving reroute, substitution, perturbation, and recovery.
+7. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — state-space, metric, scalar/vector, and deformation-sign controls.
+8. `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` — evidence tiers, flagship sequencing, and promotion gates.
 
 ## Core canon
 
@@ -269,6 +270,14 @@ Its deformation vector now declares a sign convention so positive load, no detec
 The module keeps the metaphysical statement that God is Love distinct from scientific proof. In living, conscious, social, and AI-mediated systems, it asks whether apparent coherence preserves truthful relation, rightful boundary, agency, calibration, and long-horizon viability rather than exporting hidden cost to the wider whole.
 
 This source module is developed into the separately published ATLD methods paper identified by version DOI `10.5281/zenodo.21341521`.
+
+### Fundamental Traversal Coherence Nodes
+
+`docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md`
+
+Defines a provisional node-level complement to relation-level load: candidate signature-bearing coherence anchors whose organising contribution may not be reducible to their incident relations alone.
+
+Classification requires controlled node removal, relation-preserving reroute, signature substitution, multi-entry reconstruction, perturbation, and recovery. The module does not establish a new physical force, universal node dynamics, consciousness, or a domain-independent measurement scale.
 
 ### Discriminating Experiments and Promotion Gates
 
