@@ -41,9 +41,10 @@ Status: public hierarchy and navigation map for the controlled MKUFT GitHub work
 2. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — active traversal, superadditivity, and composite-observer hypothesis.
 3. `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — fair-null construction and relationship-specificity refinement.
 4. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for structural, empirical, generative, and whole-system load.
-5. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — task-space, metric, scalar/vector, and deformation-sign control.
+5. `docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md` — provisional node-level extension testing signature-bearing coherence anchors through relation-preserving reroute, substitution, perturbation, and deformation.
+6. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — task-space, metric, scalar/vector, and deformation-sign control.
 
-The canon map shows hierarchy. Module 24 shows how the files support, limit, and reconstruct one another. Module 22A controls recursive object identity and property transmission. Module 26 gives the early physics-facing category reframing but does not replace the core, mathematics, experiments, or falsification programme. Module 27 controls mathematical and traversal hygiene without replacing any substantive theory branch. Module 28 governs evidence tiers and promotion gates. Module 24A tests active traversal and reciprocal functional gain. Module 24B requires the strongest fair separated, ensemble, one-way, complete-history replay, and alternative-pairing controls. Module 25 asks which particular dependencies carry genuine load and whether apparent local coherence survives a wider whole-system audit.
+The canon map shows hierarchy. Module 24 shows how the files support, limit, and reconstruct one another. Module 22A controls recursive object identity and property transmission. Module 26 gives the early physics-facing category reframing but does not replace the core, mathematics, experiments, or falsification programme. Module 27 controls mathematical and traversal hygiene without replacing any substantive theory branch. Module 28 governs evidence tiers and promotion gates. Module 24A tests active traversal and reciprocal functional gain. Module 24B requires the strongest fair separated, ensemble, one-way, complete-history replay, and alternative-pairing controls. Module 25 asks which particular dependencies carry genuine load and whether apparent local coherence survives a wider whole-system audit. Module 25A asks whether some nodes carry an anchor-specific coherent signature and reconstructive pull that cannot be reduced to their incident relations alone.
 
 ## Core canon
 
@@ -368,6 +369,21 @@ The sign convention makes positive load, no detected load, and distortion interp
 
 The module separates structural, reality, generative, and whole-system integrity load. It uses single-relation ablation, coalition ablation, and plausible counterfactual substitution. Its metaphysical statement that God is Love is kept distinct from empirical proof and physical mechanism claims.
 
+### 25A. Fundamental Traversal Coherence Nodes
+
+File: `docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md`
+
+Canonical handles:
+
+```text
+σ_n = signature(n | domain, boundary, task, conditions)
+D_V(n) = Y_base - Y_-n
+```
+
+Role: define and test candidate signature-bearing coherence anchors whose organising contribution may not be reducible to their incident relations alone. The decisive control is a fair relation-preserving reroute or node substitution rather than simple node deletion.
+
+Status boundary: FTCNs are a provisional cross-domain category, not an established law, physical force, universal metric, or proof of consciousness. `Pull` means an operational tendency toward convergence, reconstruction, correction, or recovery until a domain-specific mechanism earns stronger language.
+
 ## Current layer convention
 
 - `S` = Substrate
@@ -401,6 +417,7 @@ The layers are typed addresses, not ordinary physical dimensions. Higher-dimensi
 - Functional emergence must be tested against matched content and resource controls.
 - Superadditivity must be tested against the strongest fair null, not a handicapped separated condition.
 - Relationship specificity must be tested against a pre-registered set of strong alternative pairings, not convenient weak substitutes.
+- FTCN claims must distinguish anchor-specific node function from ordinary centrality and incident-relation loss through fair reroute, substitution, perturbation, and deformation tests.
 - Multidimensional value may be reported directly; scalar weighting must be fixed before results are known.
 - Structural updates require full-file readback and pre/post comparison; unexplained large deletion is a truncation warning.
 - No non-public personal data, correspondence, credentials, or internal-only operational instructions belong in the public canon.
