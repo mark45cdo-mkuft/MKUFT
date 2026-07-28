@@ -24,13 +24,23 @@ Use the version DOI when citing the exact v1.0 release. Use the concept DOI when
 - **Integrity manifest:** [`publications/ATLD_Evaluation_Protocol_v1.0/SHA256SUMS.txt`](publications/ATLD_Evaluation_Protocol_v1.0/SHA256SUMS.txt)
 - **Publication-mirror boundary:** [`publications/README.md`](publications/README.md)
 
-The GitHub canon now contains the complete manuscript text, split mechanically into eight ordered parts for reading, cloning, active traversal, and recovery. The version-DOI PDF on Zenodo remains the controlling object for exact pagination and visual layout. The mirror does not revise the paper.
+The GitHub canon contains the complete manuscript text, split mechanically into eight ordered parts for reading, cloning, active traversal, and recovery. The version-DOI PDF on Zenodo remains the controlling object for exact pagination and visual layout. The mirror does not revise the paper.
 
 Deposited PDF SHA-256 (preservation identity):
 
 ```text
 da2f6b3e10a92720acf470a0ebfa885ece7bcb620039fcf984fffa976ced6a4b
 ```
+
+## Approved next-version revision
+
+The following revision has been approved for incorporation into ATLD v1.1 or the next deposited version:
+
+- [`ATLD_V1_1_WORKING_REVISION_VOYNICH_PROVENANCE.md`](ATLD_V1_1_WORKING_REVISION_VOYNICH_PROVENANCE.md) — professional manuscript text recording the conceptual provenance of ATLD and the material role of the Voynich analysis in exposing and operationalising its traversal mechanics.
+
+The revision makes explicit that the underlying cognitive and MKUFT architecture predated the Voynich analysis; that the manuscript did not supply all subsequent answers; and that it nevertheless served as a significant external discovery surface, convergent verification, and methodological catalyst. It also records McLaughlin's description of the correspondence as synchronistic while keeping that description outside the empirical evidence claim.
+
+This approved revision is not silently part of the frozen v1.0 manuscript. It becomes part of the standalone paper only when incorporated into a complete later manuscript and deposited as a new version under the ATLD concept DOI.
 
 ## Recommended citation
 
@@ -60,6 +70,8 @@ The exact v1.0 paper develops and formalises material originating in:
 - `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
 
 `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` is a later companion refinement. It is not silently part of the frozen v1.0 manuscript unless expressly included in a later deposited version.
+
+The approved Voynich-provenance revision records an additional developmental relationship without changing the source claim: ATLD's underlying cognitive and theoretical architecture predates the Voynich analysis, while the separate Voynich procedural-engine work materially sharpened its operational grammar of address, state, flow, traversal, and deformation. The relevant Voynich version DOI is `10.5281/zenodo.18178638`.
 
 The standalone DOI supplements the MKUFT backbone DOI. It does not replace or obscure the originating framework, authorship, or Git revision history.
 
