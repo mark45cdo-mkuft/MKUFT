@@ -18,10 +18,11 @@ Repository: `mark45cdo-mkuft/MKUFT`
 ## Core theory files
 
 - `docs/01_MKUFT_CORE_EXTENDED.md` — primary MKUFT theory spine.
-- `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical formalisation.
+- `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical formalisation and scaffold.
 - `docs/03_STANDALONE_FORMAL_ADDENDUM.md` — node, trajectory, and coherence-cost formalism.
 - `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — broad empirical testing and falsification programme.
 - `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` — evidence tiers, promotion gates, flagship sequencing, and experiment-specific interpretation limits.
+- `docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md` — governing distinction between architecture, mathematics, evidence, mechanism, novelty, and claim status.
 - `docs/05_FALSIFICATION_SUMMARY.md` — compact falsification summary.
 - `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — worked numerical examples; illustrative rather than observed or canonical effect sizes.
 
@@ -29,10 +30,11 @@ Repository: `mark45cdo-mkuft/MKUFT`
 
 1. `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — candidate branches and controls.
 2. `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` — which branches are calibration, reconnaissance, discriminating signatures, mechanism flagships, or foundational recovery programmes.
-3. `docs/05_FALSIFICATION_SUMMARY.md` — branch and framework failure conditions.
-4. `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — statistical illustration only; it does not report an effect.
+3. `docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md` — equation-status labels, novelty limits, public priority order, and hard claim boundaries.
+4. `docs/05_FALSIFICATION_SUMMARY.md` — branch and framework failure conditions.
+5. `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — statistical illustration only; it does not report an effect.
 
-The promotion framework governs how broad assays may be upgraded. A positive anomaly is not treated as an MKUFT result unless MKUFT predicted the distinguishing fingerprint before the result was known.
+The promotion and claim-discipline framework governs how broad assays may be upgraded. A positive anomaly is not treated as an MKUFT result unless MKUFT predicted the distinguishing fingerprint before the result was known. Mathematical legality, architectural coherence, empirical support, and physical mechanism remain separate claims.
 
 ## Structural and traversal canon
 
@@ -61,7 +63,7 @@ The promotion framework governs how broad assays may be upgraded. A positive ano
 
 - `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md` — OCQS human quiet-state activation layer.
 - `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md` — LUCY threshold, membrane, and field framework.
-- `docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md` — gradient mechanics and boundary shear geometry.
+- `docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md` — laboratory-first gradient mechanics and controlled boundary geometry; no fixed-angle or craft-motion claim.
 - `docs/09_VOYNICH_PROCEDURAL_ENGINE.md` — Voynich procedural-engine analysis.
 - `docs/10_ESRT_ESF_METHOD_APPENDIX.md` — ESRT / ESF method appendix.
 - `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md` — compact support bridge.
