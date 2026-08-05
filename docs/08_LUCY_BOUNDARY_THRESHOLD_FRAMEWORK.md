@@ -2,7 +2,7 @@
 
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
-**Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
+**Framework:** McLaughlin-Kairos Unified Field Theory (MKUFT)  
 **MKUFT DOI:** `10.5281/zenodo.17780566`  
 **Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
 **Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
@@ -124,6 +124,23 @@ The full address discipline and equation hygiene are defined in:
 
 A physical LUCY claim cannot borrow evidence from an informational or observer application.
 
+## Physics-facing threshold-geometry extension
+
+The dedicated physics-facing extension is:
+
+- [`docs/29_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md`](29_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
+
+That module keeps the base LUCY chain intact while adding:
+
+- relational closure as the stronger post-coherence condition;
+- a conventional state-selection and domain-boundary scaffold;
+- separation of localised high-gradient and extended effective-geometry regimes without naming two gravities;
+- neutron-rich superheavy nuclei as a candidate seed class only, with no assumed gravitational coupling;
+- common-boundary, composition, wavelength, clock, scaling, conservation, and astrophysical discriminators;
+- explicit promotion gates and branch-level falsifiers.
+
+It does not claim novelty for emergent gravity, scalar-tensor threshold behaviour, phase-transition mathematics, or superheavy nuclear shell effects. Its proposed contribution is the typed LUCY conjunction and test programme.
+
 ## Correct Usage
 
 Use LUCY when discussing:
@@ -165,6 +182,7 @@ Below threshold, or when no additional effect is measured, the model reduces to 
 parent: boundary, coherence, and threshold structure
 layer-address discipline: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
 physical bridge: docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md
+physics-facing threshold geometry: docs/29_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md
 observer bridge: docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md
 typed traversal and equation hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
 falsification: docs/05_FALSIFICATION_SUMMARY.md
