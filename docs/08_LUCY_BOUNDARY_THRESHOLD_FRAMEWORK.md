@@ -110,6 +110,35 @@ Closure adds persistence, reciprocal constraint, perturbation correction, bounda
 
 The stronger physical LUCY claim begins at closure, not at resemblance, synchrony, or high correlation alone.
 
+### 3.3 Deeper constraint-closure hypothesis
+
+Coherence may not be the primitive transition variable. It may be an observable consequence of a deeper condition in which a network of constraints becomes mutually satisfiable, reciprocally supporting, and sufficiently closed to persist under perturbation.
+
+The candidate cross-domain transition grammar is:
+
+```text
+constraint compatibility
+→ reciprocal support
+→ closure threshold
+→ coherent state
+→ stable boundary
+→ sustained local regime
+→ domain-specific emergent behaviour
+```
+
+This does not assert that nuclear stability, collective physical phases, biological organisation, cognition, and effective geometry share one mechanism or one equation. It proposes that they may instantiate a common structural transition: a previously unstable set of relations becomes self-supporting enough to maintain identity, boundary, correction, and continued operation.
+
+In this reading:
+
+- coherence is the measurable alignment of the realised state;
+- closure is the condition that lets the state persist;
+- the boundary is the physical or operational expression of that closure;
+- and the post-threshold behaviour remains domain-specific.
+
+This hypothesis is retained only if it adds predictive discrimination beyond established domain models. It fails as a physical addition when "constraint closure" merely redescribes stability after the fact, cannot be operationalised independently, or transfers mechanisms between domains without a defined carrier.
+
+LUCY retains **coherence** in its name and operational measures. Constraint closure is the deeper candidate interpretation, not a silent renaming or completed derivation.
+
 ## 4. Layer discipline
 
 MKUFT uses the recursive architecture:
