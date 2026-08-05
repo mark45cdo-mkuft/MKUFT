@@ -139,6 +139,38 @@ This hypothesis is retained only if it adds predictive discrimination beyond est
 
 LUCY retains **coherence** in its name and operational measures. Constraint closure is the deeper candidate interpretation, not a silent renaming or completed derivation.
 
+### 3.4 O-layer closure address
+
+Within the recursive MKUFT architecture, `O` is the address at which a realised configuration becomes registered as a sufficiently determinate relation to complete the loop and become available for recurrence into `S`.
+
+The source-level cycle is:
+
+```text
+S potential
+→ I constraint / address
+→ P realisation
+→ O registration / closure
+→ S updated possibility
+```
+
+Applied locally to LUCY:
+
+```text
+constraint compatibility at I
+→ coherent realisation at P
+→ registration and closure at O
+→ boundary maintenance at P
+→ sustained regime
+```
+
+This placement does not restrict `O` to a human witness or conscious biological observer. `O` is the observer-positioned function of registration, resolution, feedback, or durable state-recording that closes the relevant action-response relation. Depending on the system, that function may be instantiated by a measurement arrangement, an internal feedback path, a boundary response, an environmental coupling, or a self-model capable of returning the realised state into the next cycle.
+
+The causal work may be distributed across `I`, `P`, and `O`, but MKUFT assigns the completed closure address to `O`: coherence prepares and expresses the candidate state; `O` completes its registration as a closed relation; the maintained boundary preserves the resulting regime.
+
+This is an architectural hypothesis, not a declaration that human observation creates physical reality or that every measurement causes a LUCY transition. An `O`-layer event counts as closure only when it completes a previously open relation and its feedback or registration is required for the state to persist, recurse, or remain operationally determinate.
+
+The placement must add discrimination. A developed model should identify the relevant `O` channel and predict what changes when that registration or feedback is removed, delayed, corrupted, or decoupled. If no identifiable `O` function is required and the assignment produces no different prediction from a purely post-hoc description of stability, the proposed closure address requires revision.
+
 ## 4. Layer discipline
 
 MKUFT uses the recursive architecture:
@@ -152,15 +184,15 @@ where:
 - `S` = substrate or source-potential;
 - `I` = information, relation, address, constraint, and admissible transition;
 - `P` = physical expression and measurable interaction;
-- `O` = observer-positioned registration, measurement context, and record.
+- `O` = observer-positioned registration, state resolution, feedback or record, and the closure address through which a realised `P` state becomes available for recurrence into `S`.
 
 These are typed addresses, not four ordinary spatial dimensions.
 
 LUCY can be addressed at multiple layers, but the variables and evidence must change honestly:
 
-- `LUCY(I)` — informational, routing, or relational closure;
-- `LUCY(P)` — material or physical boundary transition;
-- `LUCY(O)` — observer-state or measurement-system closure where operationally defined.
+- `LUCY(I)` — informational, routing, or relational constraint formation;
+- `LUCY(P)` — material or physical realisation, boundary transition, and maintenance;
+- `LUCY(O)` — registration or observer-positioned closure of the realised relation, where operationally defined.
 
 A result at one address does not prove a result at another.
 
