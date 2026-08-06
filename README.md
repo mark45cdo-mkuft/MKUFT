@@ -22,12 +22,6 @@ Its core subject is constrained traversal:
 Substrate → Information → Physical → Observer
 ```
 
-with the operational kernel:
-
-```text
-Layer → Boundary → Node → Transition → Cost → Coherence → Observer → Falsifier → Outcome
-```
-
 The public claim is that physical, informational, cognitive, biological, social, symbolic, and anomaly-edge systems may sometimes share a useful grammar of constraint and transition. They are not assumed to be identical, metrically homogeneous, or equally evidenced.
 
 ## For physicists: why MKUFT uses the term Unified Field Theory
@@ -98,7 +92,6 @@ Researchers wishing to explore the wider programme may do so through the remaini
 
 1. `START_HERE_PUBLIC_OVERVIEW.md` — substantive plain-English conceptual overview.
 2. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full front-door synthesis.
-3. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
 4. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full dependency and integration registry.
 5. `docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md` — recursive object decomposition, typed carriers, and no-untyped-inheritance discipline.
 6. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — anti-flattening, notation, dimensional, and update-integrity discipline.

@@ -29,7 +29,6 @@ Status: public hierarchy and navigation map for the controlled MKUFT GitHub work
 1. `README.md` — repository purpose and entry tracks.
 2. `START_HERE_PUBLIC_OVERVIEW.md` — short plain-English orientation.
 3. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full front-door synthesis.
-4. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery rule.
 5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — complete dependency and integration registry.
 6. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — anti-flattening and formal-quality control.
 7. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — comparison with existing research, risks, and next checks.
@@ -157,16 +156,6 @@ Status boundary: this is a hygiene and audit module. It does not provide the mis
 File: `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md`
 
 Role: bounded observer-state hypothesis, compared with established cognitive constructs and prevented from substituting for missing physical mechanisms.
-
-### 8. Reconstitution Kernel
-
-File: `docs/19_MKUFT_RECONSTITUTION_KERNEL.md`
-
-Role: compact reconstruction order:
-
-```text
-Layer → Boundary → Node → Transition → Cost → Coherence → Observer → Falsifier → Outcome
-```
 
 ### 9. GRACE Traversal Rule
 

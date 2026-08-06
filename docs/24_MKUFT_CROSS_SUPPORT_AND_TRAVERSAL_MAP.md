@@ -52,7 +52,6 @@ architecture route
 README
 → Start Here
 → master spine
-→ kernel
 → cross-support map
 → hygiene canon
 
@@ -95,68 +94,6 @@ A document need not repeat every element. The repository must make the route rea
 
 ---
 
-## 3. Traversal kernel
-
-The compact kernel remains:
-
-```text
-Layer
-→ Boundary
-→ Node
-→ Transition
-→ Cost
-→ Coherence
-→ Observer
-→ Falsifier
-→ Outcome
-```
-
-The deeper route is:
-
-```text
-Invariant
-→ Typed layer address
-→ State space
-→ Boundary
-→ Feasible region
-→ Node
-→ Transition or coupling
-→ Cost
-→ Coherence
-→ Observer-positioned registration
-→ Ambiguity contraction
-→ Falsifier
-→ Outcome
-```
-
-The deeper route is used when ambiguity, cross-layer expression, agency accessibility, or formal dimensionality is active. It does not replace the compact kernel.
-
-A within-layer trajectory may be represented inside one declared state space. A cross-layer traversal must be a composable sequence of typed maps. An information-graph edge is not automatically a physical path.
-
-For living, conscious, social, institutional, and AI-mediated systems, a whole-system audit may also ask:
-
-```text
-What relation is preserved?
-Who or what carries the cost?
-Does local coherence depend on capture, concealment, or exported damage?
-Does the relation preserve truthful boundary and practical agency?
-```
-
-This does not turn metaphysical language into physical evidence. It widens the analytical boundary where narrow scoring would hide material effects.
-
-For foundational physics claims, a parallel audit asks:
-
-```text
-What established physical regime must be recovered?
-What Bell, locality, signalling, conservation, symmetry, and dimensional constraints apply?
-Are the state spaces and couplings typed?
-Is the proposed mechanism more than a renamed missing step?
-What strongest existing formalism already explains the result?
-What observation would discriminate the new architecture?
-```
-
----
-
 ## 4. Core dependency groups
 
 ### Source and possibility
@@ -190,7 +127,6 @@ The branch remains architectural until a lawful mechanism is supplied. `Update_S
 Primary homes:
 
 - `docs/03_STANDALONE_FORMAL_ADDENDUM.md`
-- `docs/19_MKUFT_RECONSTITUTION_KERNEL.md`
 - `docs/20_GRACE_TRAVERSAL_RULE.md`
 - `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md`
 

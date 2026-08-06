@@ -59,34 +59,6 @@ You do not create the mountain by walking. But the terrain, your condition, and 
 
 MKUFT asks whether that constraint-and-traversal grammar can be made useful across layers without flattening them into one thing.
 
-## The operational kernel
-
-```text
-Layer
-→ Boundary
-→ Node
-→ Transition
-→ Cost
-→ Coherence
-→ Observer
-→ Falsifier
-→ Outcome
-```
-
-This is the shortest recovery handle.
-
-A serious reading should say:
-
-- what layer is active;
-- what object or identity boundary exists;
-- what stable state or node is being named;
-- what transition is claimed;
-- what that transition costs;
-- what coherence does;
-- how the observer enters and where its limits are;
-- what would make the reading wrong;
-- what outcome survives the test.
-
 ## The four layers
 
 ```text
@@ -322,7 +294,6 @@ Similarity is not identity. The `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` tracks 
 1. `README.md`
 2. `START_HERE_PUBLIC_OVERVIEW.md`
 3. `MKUFT_INTEGRATED_MASTER_SPINE.md`
-4. `docs/19_MKUFT_RECONSTITUTION_KERNEL.md`
 5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
 6. `docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md`
 7. `CANON_MAP.md`
