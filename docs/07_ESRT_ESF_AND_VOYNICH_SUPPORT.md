@@ -1,97 +1,71 @@
 # ESRT / ESF / Voynich Support Layer
 
-
-
-<!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** `10.5281/zenodo.17780566`  
-**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
-**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
-<!-- MKUFT-PROVENANCE-HEADER:END -->
+**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-Status: public support and applied-case layer inside the controlled MKUFT GitHub working copy.
+**Status:** public support and applied-case module.
 
 ## Purpose
 
-This document keeps the executable-system support material attached to MKUFT without letting it blur the primary theory spine.
-
-The core theory remains MKUFT: S/I/P/O, observer coherence, substrate-information weighting, physical dynamics, and falsifiable tests.
-
-ESRT, ESF, and the Voynich work are support and application layers.
+This document connects the Executable System Recognition Test (ESRT), Executable System Framework (ESF), and Voynich procedural-structure work to the wider MKUFT research programme without treating those applications as the primary physical theory.
 
 ## ESRT — Executable System Recognition Test
 
-ESRT is used to distinguish a genuinely executable structure from symbolic or decorative patterning.
+ESRT distinguishes a candidate executable structure from symbolic or decorative patterning by looking for three primary properties:
 
-A system must show:
+- **Addressing** — identifiable positional anchors, indexing, or role-bearing locations;
+- **State** — persistent or transformable condition markers;
+- **Flow** — transitions, routing, or execution order.
 
-- Addressing: identifiable positional anchors or indexing.
-- State: persistent or transformable condition markers.
-- Flow: transitions, routing, or execution order.
-
-If these are absent, the structure is not treated as executable.
+Where these properties cannot be demonstrated under controlled comparison, the structure is not classified as executable.
 
 ## ESF — Executable System Framework
 
-ESF preserves how executable systems transmit structure without collapsing into prose-only explanation.
-
-Useful checks:
+ESF describes executable structure through questions such as:
 
 - What is the address?
 - What is the state?
 - What changes?
 - What routes the change?
 - What repeats across sections?
-- What falsifies the claimed structure?
+- What would falsify the claimed structure?
 
-## Voynich Application
+The detailed criteria and perturbation tests are given in the [ESRT / ESF Method Appendix](10_ESRT_ESF_METHOD_APPENDIX.md).
 
-The Voynich Manuscript is treated in the current stack as a candidate:
+## Voynich application
 
-```text
-Operational / Executable System encoded as Operational Art
-```
+The Voynich Manuscript is treated as a candidate **operational or executable system encoded through operational art**.
 
-It is not treated as an established natural-language translation or as a proven executable artefact.
+This is not an established natural-language translation and does not establish that the manuscript is a proven executable artefact.
 
-Current applied hypotheses include:
+Current hypotheses include:
 
-- Nodes = positional anchors.
-- Lines = transitions and routing.
-- Tokens = parameters, modifiers, or state flags.
-- Meaning may be positional and structural rather than primarily phonetic.
+- nodes as possible positional anchors;
+- lines as possible transitions or routing;
+- tokens as possible parameters, modifiers, or state flags;
+- meaning that may be partly positional and structural rather than primarily phonetic.
 
-Section-level working map:
+Candidate section-level interpretations include botanical pages as possible root-node instruction trees, pharmaceutical pages as possible state encoding through container classes, balneological pages as possible state-transition networks, and astronomical pages as possible angular address spaces.
 
-- Botanical: possible root-node instruction trees.
-- Pharmaceutical: possible state encoding through jar/container classes.
-- Balneological: possible state-transition networks.
-- Astronomical: possible angular address spaces.
+These hypotheses remain in competition with linguistic, cipher, scribal, mnemonic, decorative, and other ordinary alternatives.
 
-These are hypotheses to be tested against linguistic, cipher, decorative, scribal, and other ordinary alternatives.
+## Boundary discipline
 
-## Boundary Discipline
+The Voynich work is an application of MKUFT/ESRT/ESF reasoning. It does not establish MKUFT physical claims and cannot be used to bypass physical evidence requirements.
 
-The Voynich work is an application of MKUFT/ESRT/ESF reasoning. It should not overwrite the MKUFT physical theory.
+A structural pattern is not evidence of original historical intent merely because it fits the ESRT/ESF grammar. The application requires blinded comparison, perturbation tests, held-out prediction, and explicit ordinary alternatives.
 
-It belongs in the repo as an applied research branch and pattern-recognition test case.
+## Public role
 
-## Canon Role
+The primary MKUFT scientific spine remains the [Core](01_MKUFT_CORE_EXTENDED.md), [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md), [Formal Addendum](03_STANDALONE_FORMAL_ADDENDUM.md), [Experimental Test Programme](04_EXPERIMENTAL_TEST_PROGRAM.md), and [Falsification Summary](05_FALSIFICATION_SUMMARY.md).
 
-- Primary canon: MKUFT core, math appendix, formal addendum, experiments, falsification.
-- Support canon: OCQS, LUCY, ESRT/ESF, Voynich.
+ESRT/ESF and Voynich are public support and application branches.
 
-## Architecture Route
+## Related public documents
 
-```text
-parent: constrained traversal and information-layer structure
-method home: docs/10_ESRT_ESF_METHOD_APPENDIX.md
-application home: docs/09_VOYNICH_PROCEDURAL_ENGINE.md
-limits and falsification: docs/05_FALSIFICATION_SUMMARY.md
-repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
-```
-
-## Next Development Need
-
-The Voynich material should eventually have its own repo or subfolder with original evidence, page references, sector maps, blinded comparison tests, falsification checks, and a clean separation between structural claim and translation claim.
+- [ESRT / ESF Method Appendix](10_ESRT_ESF_METHOD_APPENDIX.md)
+- [Voynich Procedural-Engine Analysis](09_VOYNICH_PROCEDURAL_ENGINE.md)
+- [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
+- [Cross-Support and Traversal Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
