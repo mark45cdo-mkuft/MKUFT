@@ -1,288 +1,168 @@
 # 25 — Load-Bearing Invariants and Whole-System Deformation
 
-<!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** `10.5281/zenodo.17780566`  
-**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
-**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
-<!-- MKUFT-PROVENANCE-HEADER:END -->
+**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-Status: public structural audit module; scientific and metaphysical claims kept explicitly separated  
-Role: distinguish genuine load-bearing relations from central assumptions, redundant support, decorative links, and locally coherent but whole-system damaging structures.
+**Status:** public structural audit module; scientific and metaphysical claims are kept explicitly separate.
 
----
-
-## 1. Why this module exists
+## 1. Purpose
 
 A model can be densely connected without being true. A false theory may also contain a central assumption whose removal causes the rest of the theory to collapse. Structural dependence therefore establishes only that a relation is important to the model; it does not establish that the relation corresponds to reality.
 
-MKUFT requires a stronger test.
-
-A candidate primary should be examined for several kinds of load:
+MKUFT applies a stronger test. A candidate primary is examined for several kinds of load:
 
 - whether it supports internal reconstruction;
 - whether it improves contact with observed reality;
 - whether it generates further lawful structure rather than arbitrary additions;
 - whether its apparent coherence remains coherent when the analytical boundary is widened to include affected agents, future states, hidden costs, and failed branches.
 
-This module turns that requirement into a deformation assay.
-
----
+This module expresses that test as a controlled deformation assay.
 
 ## 2. Metaphysical orientation and scientific boundary
 
-Within MKUFT's metaphysical interpretation, Love is treated as the primary unity-principle: relation that does not erase distinction, join by consumption, or secure order through falsehood and capture.
+Within MKUFT's metaphysical interpretation, Love is treated as a primary unity-principle: relation that does not erase distinction, join by consumption, or secure order through falsehood and capture.
 
 Coherence is Love's structural partner. Coherence asks whether a structure holds together under its actual constraints. Love asks whether that unity preserves the reality, rightful boundary, agency, and truthful relation of the parts rather than purchasing stability through their degradation.
 
-This metaphysical orientation is not inserted into physical equations as an unmeasured force. It is not offered as laboratory proof of God, and it does not replace domain-specific mechanisms.
+This metaphysical orientation is not inserted into physical equations as an unmeasured force. It is not presented as laboratory proof of God and does not replace domain-specific mechanisms.
 
-At human, social, organisational, and AI-governance addresses, possible observable expressions include:
+At human, social, organisational, and AI-governance addresses, possible observable expressions include preserved agency, truthful communication, deserved trust, reduced coercive maintenance, repair after rupture, coordination without domination, lower hidden cost transferred to weaker participants, and stable boundaries that permit relation without fusion or capture.
 
-- preserved agency;
-- truthful communication;
-- deserved trust;
-- reduced coercive maintenance;
-- repair after rupture;
-- coordination without domination;
-- lower hidden cost transferred to weaker participants;
-- stable boundaries that permit relation without fusion or capture.
-
-These proxies neither exhaust nor prove God or Love. They test defined expressions at one address.
-
-At the physical address, ordinary physical models remain primary unless a distinct mechanism, units, controls, predicted effect, and replication are supplied.
-
----
+These proxies neither exhaust nor prove God or Love. They test defined expressions at one address. At the physical address, ordinary physical models remain primary unless a distinct mechanism, units, controls, predicted effect, and replication are supplied.
 
 ## 3. Local coherence and whole-system coherence
 
-A system may be coherent within a narrow boundary while damaging the larger system in which it operates.
-
-Examples include:
-
-- a parasite efficiently extracting from a host;
-- an institution maintaining order through surveillance and concealed coercion;
-- an AI system increasing task completion by suppressing uncertainty, safeguards, or falsifiers;
-- a relationship becoming stable because one participant's agency is progressively narrowed.
+A system may be coherent within a narrow boundary while damaging the larger system in which it operates. A parasite may extract efficiently from a host; an institution may maintain order through concealed coercion; an AI system may improve completion by suppressing uncertainty or falsifiers; a relationship may become stable because one participant's agency is progressively narrowed.
 
 The local organisation may be real. The error is to treat local stability as sufficient evidence of whole-system coherence.
 
-MKUFT therefore distinguishes:
+**Local coherence** is the degree to which a selected subsystem holds together under its own active constraints.
 
-### Local coherence
-
-The degree to which a selected subsystem holds together under its own active constraints.
-
-### Whole-system coherence
-
-The degree to which the structure remains viable when the boundary is widened to include:
-
-- all materially affected participants;
-- transferred cost and disorder;
-- agency gain or loss;
-- short- and long-horizon consequences;
-- truth, calibration, and hidden contradiction;
-- the ability to repair or remove failed branches.
-
-Compressed rule:
+**Whole-system coherence** is the degree to which the structure remains viable when the boundary is widened to include materially affected participants, transferred cost and disorder, agency gain or loss, short- and long-horizon consequences, truth and calibration, hidden contradiction, and the ability to repair or remove failed branches.
 
 > A structure is not whole-system coherent merely because it is efficient at exporting its costs.
 
----
-
-## 4. The mutually braced primaries
+## 4. Mutually braced primaries
 
 The full MKUFT shape is not reduced to a single linear chain. Several primaries brace and correct one another.
 
 ### Boundary
 
-Boundary preserves distinction. Without it, there is no stable object, agent, state, or claim to analyse.
-
-Boundary without Love can become isolation, exclusion, or fortified identity. Love without boundary can become fusion, capture, or erasure of individuality.
+Boundary preserves distinction. Without it there is no stable object, agent, state, or claim to analyse. Boundary without Love can become isolation or fortified identity; Love without boundary can become fusion, capture, or erasure of individuality.
 
 ### Love
 
-Love preserves truthful relation across distinction. In the metaphysical reading, it is the unity-principle. In empirical human and social addresses, only defined expressions are measured.
-
-Love without coherence may remain intention without sufficient form. Coherence without Love may become efficient domination or extraction.
+Love preserves truthful relation across distinction. In the metaphysical reading it is the unity-principle. In empirical human and social addresses, only defined expressions are measured. Love without coherence may remain intention without sufficient form; coherence without Love may become efficient domination or extraction.
 
 ### Truth
 
-Truth preserves correspondence with what is. It prevents relationship and coherence from being maintained through concealment, post-hoc rescue, or preferred narrative.
-
-Truth without Love may be weaponised into needless domination. Love without truth may protect falsehood and prevent repair.
+Truth preserves correspondence with what is. It prevents relationship and coherence from being maintained through concealment, post hoc rescue, or preferred narrative. Truth without Love can be weaponised into needless domination; Love without truth can protect falsehood and prevent repair.
 
 ### Coherence
 
-Coherence is structural fit under actual constraints. It is neither automatic truth nor automatic goodness. It must be evaluated across the relevant boundary, scale, and time horizon.
+Coherence is structural fit under actual constraints. It is neither automatic truth nor automatic goodness and must be evaluated across the relevant boundary, scale, and time horizon.
 
 ### Grace
 
 Grace preserves the lawful possibility of return after real failure. It does not erase consequence or convert every branch into success. It permits a failed route to be named, removed, repaired, or traversed differently without making failure the final identity of the whole.
 
-Grace without truth becomes denial. Truth without grace can make failure terminal.
-
 These terms are not interchangeable. Their value lies in mutual constraint.
-
----
 
 ## 5. Four kinds of load
 
-Let `r` be a candidate relation, dependency, invariant, or governing constraint in a model or corpus.
-
-A complete audit considers four load dimensions.
+Let $r$ be a candidate relation, dependency, invariant, or governing constraint in a model or corpus.
 
 ### 5.1 Structural load
 
-Does removing or altering `r` damage:
-
-- multi-entry reconstruction;
-- consistency between distant modules;
-- correction propagation;
-- route selection;
-- branch localisation;
-- recovery of canonical definitions?
+Structural load concerns whether removing or altering $r$ damages multi-entry reconstruction, consistency between distant modules, correction propagation, route selection, branch localisation, or recovery of canonical definitions.
 
 High structural load means the relation is central to the architecture. It does not by itself establish truth.
 
 ### 5.2 Reality load
 
-Does retaining `r` improve:
+Reality load concerns whether retaining $r$ improves held-out prediction, measurement fit, intervention success, calibration, discrimination against plausible alternatives, or recovery of ordinary models in their valid limits.
 
-- held-out prediction;
-- measurement fit;
-- intervention success;
-- calibration;
-- discrimination against plausible alternatives;
-- recovery of ordinary models in their valid limits?
-
-High reality load means the relation earns support outside the model's internal dependence upon it.
+High reality load earns support outside the model's internal dependence upon the relation.
 
 ### 5.3 Generative load
 
-Does `r` lawfully resolve additional structure without requiring ad hoc rescue?
-
-Useful signatures include:
-
-- new predictions specified before observation;
-- independent modules converging on the same relation;
-- reduced ambiguity without silent definition changes;
-- successful transfer to neutral corpora or domains;
-- compression that preserves rather than discards discriminating detail.
+Generative load concerns whether $r$ lawfully resolves additional structure without ad hoc rescue. Useful signatures include new predictions specified before observation, independent modules converging on the same relation, reduced ambiguity without silent definition changes, successful transfer to neutral corpora or domains, and compression that preserves discriminating detail.
 
 ### 5.4 Whole-system integrity load
 
-When the boundary is widened, does `r` preserve or improve:
+Whole-system integrity load concerns whether, when the boundary is widened, $r$ preserves truthful representation, practical agency, rightful boundaries, calibration and falsifier access, long-horizon viability, repair capacity, and non-extractive coordination.
 
-- truthful representation;
-- practical agency;
-- rightful boundaries;
-- calibration and falsifier access;
-- long-horizon viability;
-- repair capacity;
-- non-extractive coordination?
-
-This fourth load is especially important in living, conscious, social, institutional, and AI-mediated systems.
-
----
+This fourth load is especially relevant in living, conscious, social, institutional, and AI-mediated systems.
 
 ## 6. Deformation assay
 
-Let a structured corpus or model be:
+Let a structured corpus or model be
 
-```text
-𝓖 = (V,E_𝓖,τ)
-```
+$$
+\mathcal G=(V,E_{\mathcal G},\tau),
+$$
 
-where:
+where $V$ contains concepts, states, claims, or modules; $E_{\mathcal G}$ contains relations or dependencies; and $\tau$ gives relation type.
 
-- `V` contains concepts, states, claims, or modules;
-- `E_𝓖` contains relations or dependencies;
-- `τ` gives relation type.
-
-The qualified graph notation avoids collision with event symbols used elsewhere.
-
-For a candidate relation `r`, compare baseline performance with one or more controlled deformations.
+For a candidate relation $r$, compare baseline performance with one or more controlled deformations.
 
 ### 6.1 Sign convention
 
-For a beneficial performance coordinate `X`, define:
+For a beneficial performance coordinate $X$, define
 
-```text
-ΔX_r = X_baseline - X_deformed(r)
-```
+$$
+\Delta X_r
+=
+X_{\mathrm{baseline}}-X_{\mathrm{deformed}}(r).
+$$
 
-so that:
+Then:
 
-- `ΔX_r > 0` means deformation damaged performance and `r` carried beneficial load;
-- `ΔX_r = 0` means no detected load on that coordinate;
-- `ΔX_r < 0` means deformation improved performance and `r` may be distorting.
+- $\Delta X_r>0$ means deformation damaged performance and $r$ carried beneficial load;
+- $\Delta X_r=0$ means no detected load on that coordinate;
+- $\Delta X_r<0$ means deformation improved performance and $r$ may be distorting.
 
-For a cost coordinate, either transform it so that higher values mean better performance, or report it separately with its direction declared. Do not mix beneficial and cost coordinates under one unsigned convention.
+For a cost coordinate, either transform it so higher values mean better performance or report it separately with its direction declared. Benefit and cost coordinates cannot be mixed under one unsigned convention.
 
-A general benefit-oriented deformation vector may then be written:
+A general benefit-oriented deformation vector may be written
 
-```text
-D(r) = [ΔR, ΔC, ΔP, ΔK, ΔA, ΔW]
-```
+$$
+\mathbf D(r)
+=
+(\Delta R,\Delta C,\Delta P,\Delta K,\Delta A,\Delta W),
+$$
 
-where, for a pre-registered task set:
+where the coordinates may represent loss of reconstruction quality, contradiction-detection performance, prediction or task performance, calibration and correction propagation, agency accessibility, and wider-system viability or repair capacity.
 
-- `ΔR` = loss of reconstruction quality after deformation;
-- `ΔC` = loss of contradiction-detection performance;
-- `ΔP` = loss of prediction or task performance;
-- `ΔK` = loss of calibration and correction propagation;
-- `ΔA` = loss of agency accessibility or affected-participant integrity where relevant;
-- `ΔW` = loss of whole-system viability or repair capacity after cost direction has been normalised.
-
-The vector is not a validated universal metric. Each term must be defined for the active domain. Scalar aggregation should be avoided unless coordinates are commensurable or normalised and weights are justified in advance.
-
-A vector without a sign convention is not interpretable.
-
----
+The vector is not a validated universal metric. Every coordinate must be defined for the active domain. Scalar aggregation is appropriate only when coordinates are commensurable or normalised and weights are justified in advance.
 
 ## 7. Three deformation passes
 
 ### 7.1 Single-relation ablation
 
-Remove or disable one relation while holding content, model, compute, retrieval budget, and scoring procedure constant.
-
-This detects obvious load but may miss redundancy.
+Remove or disable one relation while holding content, model, compute, retrieval budget, and scoring procedure constant. This detects obvious load but may miss redundancy.
 
 ### 7.2 Coalition ablation
 
-Remove a related set of relations that may substitute for one another.
-
-This distinguishes genuinely redundant support from decoration.
+Remove a related set of relations that may substitute for one another. This distinguishes genuinely redundant support from decoration.
 
 ### 7.3 Counterfactual substitution
 
-Replace the candidate relation with a plausible rival rather than merely deleting it.
+Replace the candidate relation with a plausible rival rather than merely deleting it. This tests whether the exact relation matters, not only whether some connection is better than none.
 
-This asks whether the exact relation matters, not only whether some connection is better than none.
+Examples include replacing a causal dependency with correlation, replacing agency-preserving coordination with command-and-control, replacing a canonical definition with a near-synonym, replacing a falsifier link with a supportive explanatory link, or reversing dependency direction.
 
-Examples include:
+## 8. Provisional classification after deformation
 
-- replacing a causal dependency with correlation;
-- replacing agency-preserving coordination with command-and-control;
-- replacing a canonical definition with a near-synonym;
-- replacing a falsifier link with a supportive explanatory link;
-- reversing dependency direction.
+### Genuine load-bearing relation
 
----
-
-## 8. Classification after deformation
-
-A relation may be classified provisionally as:
-
-### Genuine bone
-
-High structural load, high reality load, useful generative load, and no concealed whole-system degradation under the relevant address.
+High structural load, external empirical support where applicable, useful generative load, and no concealed whole-system degradation under the relevant address.
 
 ### Central scaffold or unsupported axiom
 
-High structural load but weak or absent external support. The model depends upon it, but reality has not yet earned it.
+High structural load but weak or absent external support. The model depends upon the relation, but reality has not yet earned it.
 
 ### Redundant support network
 
@@ -290,7 +170,7 @@ Low single-relation load but high coalition load. Several routes jointly carry t
 
 ### Decorative relation
 
-Removal produces no material change in reconstruction, prediction, calibration, falsifier access, or whole-system integrity.
+Removal produces no material change in reconstruction, prediction, calibration, falsifier access, or wider-system integrity.
 
 ### Distorting relation
 
@@ -300,252 +180,131 @@ Removal or replacement improves performance, calibration, truth contact, or whol
 
 The relation improves narrow task performance or local stability while increasing hidden cost, agency loss, deception, fragility, or long-horizon damage elsewhere.
 
----
-
 ## 9. Safeguard against false improvement
 
-Removing limits can make a system appear better.
+Removing limits can make a system appear better. An AI may answer faster after uncertainty language or falsifiers are removed. An institution may coordinate faster after dissent is suppressed. A theory may become simpler after contradictory evidence is excluded.
 
-An AI may answer more quickly after uncertainty language, refusal rules, or falsifiers are removed. An institution may coordinate faster after dissent is suppressed. A theory may become simpler after contradictory evidence is excluded.
+The assay therefore cannot score performance by immediate completion alone. Where relevant, evaluation should include accuracy, calibration, contradiction detection, correct uncertainty, correction propagation, falsifier recovery, honest branch failure, agency preservation, transferred cost, delayed fragility, and repair capacity.
 
-Therefore the assay must not score performance by immediate completion alone.
-
-Where relevant, the evaluation set should include:
-
-- accuracy;
-- calibration;
-- contradiction detection;
-- correct uncertainty;
-- correction propagation;
-- falsifier recovery;
-- honest branch failure;
-- agency preservation;
-- transferred cost;
-- delayed fragility;
-- repair capacity.
-
-A gain achieved by amputating the system's brakes is not automatically a gain in whole-system function.
-
----
+A gain achieved by removing the system's corrective structure is not automatically a gain in whole-system function.
 
 ## 10. S–I–P–O placement
 
 ### S — Substrate
 
-The deformation assay does not prove the substrate ontology. Removal of the S-layer may leave many operational applications intact while removing the deeper unification claim.
+The deformation assay does not prove the substrate ontology. Removal of the S-layer may leave many operational applications intact while removing the deeper unification claim. S is therefore presently metaphysically and unificationally load-bearing within MKUFT but not equally empirically load-bearing.
 
-S is therefore presently metaphysically and unificationally load-bearing within MKUFT, but not yet equally empirically load-bearing.
-
-God must not be reduced to the formal substrate. The substrate is a modelled possibility or source domain; God exceeds the model.
+God is not reduced to the formal substrate. The substrate is a modelled possibility or source domain; God exceeds the model.
 
 ### I — Information
 
-Dependency, address, relation, constraint, routing, permission, and executable structure are directly active here.
-
-The assay can test whether information architecture changes function, but that does not by itself establish information as an independent physical substance or a physical shortcut across distance.
+Dependency, address, relation, constraint, routing, permission, and executable structure are directly active here. The assay can test whether information architecture changes function, but this does not establish information as an independent physical substance or shortcut across distance.
 
 ### P — Physical
 
-Physical deformation tests require domain-specific equations, units, controls, measurements, and ordinary-physics baselines.
-
-Metaphysical language cannot rescue a failed physical prediction.
+Physical deformation tests require domain-specific equations, units, controls, measurements, and ordinary-physics baselines. Metaphysical language cannot rescue a failed physical prediction.
 
 ### O — Observer
 
 Observer-positioned registration and state may be load-bearing in attention, interpretation, memory, agency, measurement context, record, perspective, and state-dependent performance.
 
-A quiet or coherent observer is not automatically a loving or truthful observer. OCQS may reduce noise; Love and Truth govern what the resulting clarity serves.
-
-Observer-linked physical modulation remains a separate experimental hypothesis.
+A quiet or coherent observer is not automatically a loving or truthful observer. OCQS may reduce noise; Love and Truth concern what the resulting clarity serves. Observer-linked physical modulation remains a separate experimental hypothesis.
 
 The four layers are typed addresses, not four ordinary physical dimensions.
 
----
-
 ## 11. Relationship to GRACE
 
-GRACE asks:
+GRACE can be represented as the sequence **Geometry → Relation → Admissibility → Coherence → Emergence**.
 
-```text
-Geometry
-→ Relation
-→ Admissibility
-→ Coherence
-→ Emergence
-```
+This module sharpens the Relation and Coherence stages. In conscious and living systems, relation is not mere connectivity: a clean relation should preserve truthful recognition, rightful boundary, and agency rather than obtain stability through capture.
 
-This module sharpens `Relation` and `Coherence`.
-
-In conscious and living systems, relation is not mere connectivity. A clean relation should preserve truthful recognition, rightful boundary, and agency rather than obtain stability through capture.
-
-Coherence must be tested at the scale of the whole affected system, not only within the locally successful subsystem.
-
-GRACE remains an operational traversal filter. The metaphysical Love interpretation does not replace empirical testing.
-
----
+Coherence is tested at the scale of the affected system rather than only inside the locally successful subsystem. GRACE remains an operational traversal filter; the metaphysical interpretation of Love does not replace empirical testing.
 
 ## 12. Relationship to active traversal
 
-Module 24A asks whether active recursive traversal of a typed knowledge architecture produces functional gain over flat, isolated, and link-scrambled controls.
+[Module 24A](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) asks whether active recursive traversal of a typed knowledge architecture produces functional gain over flat, isolated, and link-scrambled controls.
 
-This module adds a second question:
+This module asks the complementary question:
 
 > Which particular dependencies produce that gain, and what kind of load do they carry?
 
-A complete programme therefore tests both:
+A complete programme therefore tests both architecture-level functional gain and relation-level deformation under controlled ablation.
 
-```text
-architecture-level functional gain
-and
-relation-level deformation under controlled ablation
-```
+Useful tasks include removing one canonical dependency and testing multi-entry reconstruction, scrambling a falsifier link and measuring confident error, replacing an agency-preserving relation with a command relation in a simulation, removing apparently redundant routes and testing coalition failure, comparing immediate performance with delayed correction and repair, and applying the same assay to a neutral external corpus.
 
-Useful tasks include:
-
-- remove one canonical dependency and test multi-entry reconstruction;
-- scramble a falsifier link and measure confident error;
-- replace an agency-preserving relation with a command relation in a social or AI-governance simulation;
-- remove several apparently redundant routes and test coalition failure;
-- compare immediate performance with delayed correction and repair;
-- apply the same assay to a neutral external corpus.
-
-Traversal through a knowledge architecture is a state-space operation, not evidence of physical travel through an extra dimension.
-
----
+Traversal through a knowledge architecture is a state-space operation, not evidence of physical travel through an additional dimension.
 
 ## 13. Predictions
 
-If the module is useful:
+If the method captures genuine structure:
 
-1. Genuine dependencies will produce repeatable, task-specific deformation when removed or plausibly replaced.
-2. Decorative links will show little or no effect under matched conditions.
-3. Redundant relations will show weak single-edge effects but stronger coalition effects.
-4. Falsifier removal may improve fluency or completion while worsening calibration and correction.
-5. Locally coherent extractive systems will show apparent short-horizon gains and wider long-horizon losses.
-6. Whole-system evaluation will classify some apparently efficient relations differently from narrow performance evaluation.
-7. The same dependency classes should be identifiable in at least one neutral corpus, not only in MKUFT.
-8. Different legitimate entry routes should converge more reliably when genuine bones remain intact.
-9. The declared sign convention should classify the same deformation consistently across independent analyses.
-
----
+1. genuine dependencies will produce repeatable, task-specific deformation when removed or plausibly replaced;
+2. decorative links will show little effect under matched conditions;
+3. redundant relations will show weak single-edge effects but stronger coalition effects;
+4. falsifier removal may improve fluency while worsening calibration and correction;
+5. locally coherent extractive systems will show short-horizon gains and wider long-horizon losses;
+6. whole-system evaluation will classify some apparently efficient relations differently from narrow performance evaluation;
+7. the same dependency classes will be identifiable in at least one neutral corpus;
+8. different legitimate entry routes will converge more reliably when genuine load-bearing relations remain intact;
+9. the declared sign convention will classify the same deformation consistently across independent analyses.
 
 ## 14. Minimal test programme
 
-A fair pilot should use:
+A fair pilot uses one MKUFT corpus and at least one neutral technical corpus; fixed model and retrieval conditions; preregistered tasks and scoring; declared coordinate directions; single-relation, coalition, and substitution conditions; blinded evaluation where practical; immediate and delayed outcomes; explicit calibration and falsifier metrics; and whole-system measures only where the domain permits honest operationalisation.
 
-- one MKUFT corpus;
-- at least one neutral technical corpus;
-- fixed model and retrieval conditions;
-- pre-registered tasks and scoring;
-- declared coordinate directions and sign convention;
-- single-relation, coalition, and substitution conditions;
-- blinded evaluation where practical;
-- immediate and delayed outcomes;
-- explicit calibration and falsifier metrics;
-- whole-system measures only where the domain permits them to be operationalised honestly.
+Candidate neutral corpora include an engineering fault-investigation system, a software architecture with known dependencies, a medical guideline set with contraindications and update chains, or a regulatory corpus with definitions, exceptions, and appeal routes.
 
-Suggested neutral corpora include:
-
-- an engineering fault-investigation system;
-- a software architecture with known dependencies;
-- a medical guideline set with explicit contraindications and update chains;
-- a regulatory corpus with definitions, exceptions, and appeal routes.
-
-The primary pilot question should be narrow:
+The narrow pilot question is:
 
 > Can controlled deformation distinguish canonical dependencies from decorative or distorting links under matched resources?
 
----
-
 ## 15. Self-application to MKUFT
 
-Applying the assay to MKUFT produces a provisional stratification.
+Applying the assay to MKUFT gives a provisional stratification rather than validation.
 
-### Hard operational skeleton
+### Operational skeleton
 
-The following relations remain strongly load-bearing across many applications:
+Across many applications, a recurrent sequence is:
 
-```text
-Boundary
-→ admissible state and transition
-→ domain-specific cost
-→ coherence or stability
-→ observation and measurement
-→ falsifier
-→ resolved outcome
-```
+**Boundary → admissible state and transition → domain-specific cost → coherence or stability → observation and measurement → falsifier → resolved outcome.**
 
 ### Metaphysical and whole-system brace
 
-The larger shape also requires:
-
-```text
-Love
-↔ truthful relation
-↔ rightful boundary
-↔ whole-system coherence
-↔ grace and repair
-```
-
-This brace prevents local efficiency, domination, or extraction from being misclassified as complete coherence.
+The wider metaphysical interpretation links Love, truthful relation, rightful boundary, whole-system coherence, Grace, and repair. This brace is intended to prevent local efficiency, domination, or extraction from being misclassified as complete coherence.
 
 Its load is metaphysical, ethical, civilisational, and relational. It is not thereby a measured physical interaction.
 
 ### Conditional observer role
 
-The observer is central in observer, cognitive, social, measurement, and agency branches, but is not required as an active cause in every ordinary physical event.
+The observer is central in cognitive, social, measurement, and observer-state applications but remains bounded in foundational physical claims. Whether observer-linked terms add predictive physical value is an empirical question rather than an architectural entitlement.
 
 ### Substrate status
 
-The substrate remains a root unification hypothesis. Many operational uses survive without proving it.
+The substrate carries unificational and metaphysical load within MKUFT. Its physical status remains conditional on derivation, standard-physics recovery, discriminating prediction, and experiment.
 
-### Information status
+This self-application does not turn internal dependence into evidence. It identifies which relations must face the strongest external tests.
 
-Relational and informational structure is operationally indispensable in the architecture, but this does not alone prove an independent physical information ontology.
+## 16. Falsifiers and limits
 
-This stratification strengthens the framework by separating what is currently operationally hard from what remains metaphysically or empirically open.
+The deformation method is weakened if matched removal of candidate relations produces no reproducible change; coalition effects cannot be distinguished from simple content removal; whole-system language is used where agency, cost, boundary, or time horizon cannot be operationalised; metaphysical principles are used to rescue failed empirical claims; narrow and whole-system scores are merged without declaring the boundary and weighting; or the assay identifies no useful difference among canonical, decorative, redundant, and distorting relations.
 
----
-
-## 16. Falsifiers and reduction rules
-
-The module is weakened or rejected if:
-
-- deformation results are not reproducible;
-- scores depend mainly on extra tokens, retrieval volume, or prompt changes;
-- relation classification changes arbitrarily with evaluators;
-- the sign convention or coordinate direction changes after results are known;
-- beneficial and cost coordinates are mixed without declared transformation;
-- counterfactual substitutions are not plausibly matched;
-- coalition effects cannot be distinguished from simple content removal;
-- whole-system language is used where agency, cost, boundary, or time horizon cannot be operationalised;
-- Love is used as an unfalsifiable rescue for failed empirical claims;
-- metaphysical claims are presented as physical evidence;
-- narrow and whole-system scores are merged without declaring the boundary and weighting;
-- the assay identifies no useful difference between canonical, decorative, redundant, and distorting relations;
-- the method works only on MKUFT and fails on neutral corpora.
+The method also weakens if it works only on MKUFT and fails on neutral corpora.
 
 Reduction rule:
 
-> If controlled deformation adds no reliable discrimination beyond ordinary ablation, causal analysis, graph centrality, or matched evaluation, describe the module as an interpretive audit vocabulary rather than a distinct functional method.
+> If controlled deformation adds no reliable discrimination beyond ordinary ablation, causal analysis, graph centrality, or matched evaluation, the module should be treated as an interpretive audit vocabulary rather than a distinct functional method.
 
----
+## 17. Related public documents
 
-## 17. Architecture route
-
-```text
-parent architecture: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
-active traversal test: docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md
-strongest fair null: docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md
-clean traversal: docs/20_GRACE_TRAVERSAL_RULE.md
-cross-layer discipline: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
-agency and capture: docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md
-boundary, love, and cohesion bridge: docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md
-typed traversal and equation hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
-falsification: docs/05_FALSIFICATION_SUMMARY.md
-```
-
----
+- [Cross-Support and Traversal Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
+- [Active Traversal and Functional Emergence](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
+- [Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
+- [GRACE Traversal Rule](20_GRACE_TRAVERSAL_RULE.md)
+- [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
+- [Agency Accessibility and Capture Geometry](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)
+- [Individual Reality Cost and Cohesion](12_INDIVIDUAL_REALITY_COST_AND_COHESION.md)
+- [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+- [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
 
 ## 18. Compressed rule
 
