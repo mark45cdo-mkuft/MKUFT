@@ -1,299 +1,277 @@
 # MKUFT Worked Examples — RNG Bias and Environmental Modulation
 
-
-
-<!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** `10.5281/zenodo.17780566`  
-**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
-**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
-<!-- MKUFT-PROVENANCE-HEADER:END -->
+**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-Status: public worked-example appendix inside the controlled MKUFT GitHub working copy.
+**Status:** public worked-example appendix.
 
 ## Purpose
 
-This document shows how selected MKUFT equations could connect to measurable predictions.
+This document illustrates how selected MKUFT equations could connect to measurable predictions. The numerical values are illustrative only; they are not observed results, expected effect sizes, or evidence for MKUFT.
 
-The numerical values below are illustrative only. They are not observed results, expected effect sizes, or evidence for MKUFT.
+A scientifically useful model must state what is measured, how uncertainty is calculated, and what result would count against it.
 
-If MKUFT is to function scientifically, it must state what would be measured, how uncertainty is calculated, and what result would count against the model.
+## 1. Realisation equation
 
-## 1. Realisation Equation
+For event $E$,
 
-For event `E`:
+$$
+P_{\mathrm{realized}}(E)
+=
+\frac{\widetilde W(E)}{\displaystyle\sum_{E'}\widetilde W(E')},
+$$
 
-```text
-P_realized(E) = W_total(E) / Σ_{E'} W_total(E')
-```
+with unnormalised weight
 
-with unnormalised weight:
+$$
+\widetilde W(E)
+=
+\int
+D_{\mathrm{phys}}(E\mid i)
+W_{SI}(i\mid S,E)
+C_O(O\mid i,E)
+\,d\nu(i).
+$$
 
-```text
-W_total(E) = ∫ D_phys(E|I) W(I|S,E) C(O|I,E) dν(I)
-```
+$D_{\mathrm{phys}}$ represents accepted physical dynamics, $W_{SI}$ a candidate substrate-to-information weighting, $C_O$ a bounded observer-condition term, and $\nu$ a measure over compatible information structures.
 
-where:
+The scaffold acquires empirical content only when each term is operationally defined for a specific experiment.
 
-- `D_phys(E|I)` = standard physical dynamics;
-- `W(I|S,E)` = substrate-to-information weighting;
-- `C(O|I,E)` = observer-condition modulation;
-- `dν(I)` = measure over compatible information structures.
+## 2. Linear-response form
 
-This is a working formal scaffold. The model gains empirical content only when each term is operationally defined for a specific experiment.
+A bounded observer term may be written
 
-## 2. Linear-Response Form
+$$
+C_O(O\mid i,E)
+=
+C_0\left[1+\varepsilon\kappa(O)h(i,E)\right],
+$$
 
-A bounded observer term may be written:
+where $\kappa(O)\in[0,1]$ is a measured coherence proxy, $\varepsilon$ a small coupling parameter, and $h(i,E)$ a prespecified event-structure interaction.
 
-```text
-C(O|I,E) = C_0 [1 + ε κ(O) h(I,E)]
-```
+Define
 
-where:
+$$
+W_{\mathrm{phys}}(E)
+=
+\int
+D_{\mathrm{phys}}(E\mid i)
+W_{SI}(i\mid S,E)
+\,d\nu(i),
+$$
 
-- `κ(O) ∈ [0,1]` is a measured coherence proxy;
-- `ε` is a small coupling parameter;
-- `h(I,E)` is a pre-specified event-structure interaction term.
+and
 
-Define:
+$$
+\Delta W_O(E)
+=
+\int
+D_{\mathrm{phys}}(E\mid i)
+W_{SI}(i\mid S,E)
+h(i,E)
+\,d\nu(i).
+$$
 
-```text
-W_phys(E) = ∫ D_phys(E|I) W(I|S,E) dν(I)
-```
+Then
+
+$$
+\widetilde W(E)
+=
+C_0\left[W_{\mathrm{phys}}(E)+\varepsilon\kappa(O)\Delta W_O(E)\right].
+$$
 
-and:
+For sufficiently small $\varepsilon$, a testable first-order form is
 
-```text
-ΔW_O(E) = ∫ D_phys(E|I) W(I|S,E) h(I,E) dν(I)
-```
+$$
+P_{\mathrm{realized}}(E)
+\approx
+P_{\mathrm{phys}}(E)+\varepsilon\Delta_O(E),
+$$
 
-Then:
+provided the normalisation is expanded consistently and higher-order terms remain bounded.
 
-```text
-W_total(E) = C_0 [W_phys(E) + ε κ(O) ΔW_O(E)]
-```
+## 3. Binary RNG example
 
-For small `ε`, the testable approximation is:
+Let a binary random number generator produce outcomes $E_1$ and $E_0$. For a fair generator,
 
-```text
-P_realized(E) ≈ P_phys(E) + ε Δ_O(E)
-```
+$$
+P_{\mathrm{phys}}(E_1)
+=
+P_{\mathrm{phys}}(E_0)
+=0.5.
+$$
 
-Plain English:
+A preregistered MKUFT test could compare two independent blocks: a baseline/control block and a coherence/intention block.
 
-Standard physics supplies the baseline. MKUFT permits only a small, bounded correction that must be estimated rather than assumed.
+The null hypothesis is
 
-## 3. Binary RNG Example
+$$
+p_{\mathrm{control}}
+=
+p_{\mathrm{condition}}
+=0.5.
+$$
 
-Let a binary random number generator produce:
+The alternative is a small condition-linked difference whose direction and analysis are specified before data collection.
 
-```text
-E_1 = output 1
-E_0 = output 0
-```
+## 4. Correct two-proportion numerical example
 
-For a fair generator:
+Assume two independent blocks with
 
-```text
-P_phys(E_1) = P_phys(E_0) = 0.5
-```
+$$
+N_{\mathrm{control}}
+=N_{\mathrm{condition}}
+=10{,}000{,}000.
+$$
 
-A pre-registered MKUFT test would compare two independent blocks:
+Take illustrative proportions
 
-- baseline or control;
-- coherence/intention condition.
+$$
+p_{\mathrm{control}}=0.5000,
+\qquad
+p_{\mathrm{condition}}=0.5007,
+$$
 
-The null hypothesis is:
+so
 
-```text
-p_control = p_condition = 0.5
-```
+$$
+\Delta p=0.0007.
+$$
 
-The alternative is a small condition-linked difference specified before data collection.
+For two independent proportions, the approximate standard error of the difference is
 
-## 4. Correct Two-Proportion Numerical Example
+$$
+SE_{\mathrm{diff}}
+=
+\sqrt{
+\frac{p_{\mathrm{control}}(1-p_{\mathrm{control}})}{N_{\mathrm{control}}}
++
+\frac{p_{\mathrm{condition}}(1-p_{\mathrm{condition}})}{N_{\mathrm{condition}}}
+}.
+$$
 
-Assume two independent blocks with:
+Using the illustrative values,
 
-```text
-N_control = 10,000,000
-N_condition = 10,000,000
-```
+$$
+SE_{\mathrm{diff}}
+\approx
+\sqrt{
+\frac{0.25}{10{,}000{,}000}
++
+\frac{0.25}{10{,}000{,}000}
+}
+\approx0.0002236.
+$$
 
-Illustrative proportions:
+Therefore
 
-```text
-p_control = 0.5000
-p_condition = 0.5007
-```
+$$
+z
+=
+\frac{\Delta p}{SE_{\mathrm{diff}}}
+\approx
+\frac{0.0007}{0.0002236}
+\approx3.13.
+$$
 
-Difference:
+A result near $z=3.13$ would be interesting but not decisive by itself. Interpretation would still depend on preregistration, device integrity, independence of trials, correction for repeated analyses, concealed condition order, replication, and effect-size stability.
 
-```text
-Δp = 0.0007
-```
+This calculation uses the uncertainty of the difference between two independent proportions rather than the standard error of only one block.
 
-For two independent proportions near `p = 0.5`, the approximate standard error of the difference is:
+## 5. Effect-size interpretation
 
-```text
-SE_diff = sqrt[p_control(1-p_control)/N_control
-             + p_condition(1-p_condition)/N_condition]
-```
+Under the linear model,
 
-Numerically:
+$$
+\Delta p\approx\varepsilon\Delta_O(E_1).
+$$
 
-```text
-SE_diff ≈ sqrt(0.25/10,000,000 + 0.25/10,000,000)
-        ≈ 0.0002236
-```
+The worked example does not determine the real values of $\varepsilon$ or $\Delta_O$. It illustrates the precision required to resolve a small shift.
 
-Therefore:
+A developed theory should predict sign, scale, and condition dependence before the experiment rather than choosing them after observing the result.
 
-```text
-z = Δp / SE_diff
-  ≈ 0.0007 / 0.0002236
-  ≈ 3.13
-```
+## 6. Environmental modulation
 
-A result near `z = 3.13` would be interesting but not decisive by itself. Interpretation would still depend on:
+Let $F$ represent measured environmental variables and
 
-- pre-registration;
-- device integrity;
-- independence of trials;
-- correction for repeated analyses;
-- concealed condition order;
-- replication;
-- effect-size stability.
+$$
+\kappa_{\mathrm{eff}}
+=
+\kappa\,\eta(F),
+\qquad
+\eta(F)\in[0,1].
+$$
 
-This replaces the incorrect practice of dividing a two-condition difference by the standard error of only one block.
+The binary model becomes
 
-## 5. Effect-Size Interpretation
+$$
+P_{\mathrm{realized}}(E_1;F)
+\approx
+P_{\mathrm{phys}}(E_1)
++
+\varepsilon\eta(F)\Delta_O(E_1),
+$$
 
-Under the linear form:
+so
 
-```text
-Δp ≈ ε Δ_O(E_1)
-```
+$$
+\Delta p(F)
+=
+\varepsilon\eta(F)\Delta_O(E_1).
+$$
 
-The worked example does not tell us the true values of `ε` or `Δ_O`. It only shows the sample size and precision needed to resolve a small shift.
+$\eta(F)$ must be specified or estimated from measured conditions rather than assigned after the result to rescue a failed prediction.
 
-A genuine theory should predict the sign, scale, and condition dependence before the experiment. It should not choose them after seeing the result.
+## 7. Quiet and noisy condition illustration
 
-## 6. Environmental Modulation
+Suppose a protocol preregisters
 
-Let `F` represent measured environmental variables and let:
+$$
+\eta(F_{\mathrm{quiet}})=1.0,
+\qquad
+\eta(F_{\mathrm{noisy}})=0.3.
+$$
 
-```text
-κ_eff = κ × η(F)
-```
+If all other terms remain constant, the model predicts
 
-where:
+$$
+\frac{\Delta p(F_{\mathrm{noisy}})}
+{\Delta p(F_{\mathrm{quiet}})}
+=0.3.
+$$
 
-- `κ` = measured observer-state term;
-- `η(F) ∈ [0,1]` = pre-defined environmental modulation function.
+When sample sizes and variances are matched, the condition-linked $z$ scores should show approximately the same ratio:
 
-The binary model becomes:
-
-```text
-P_realized(E_1;F) ≈ P_phys(E_1) + ε η(F) Δ_O(E_1)
-```
-
-and:
-
-```text
-Δp(F) = ε η(F) Δ_O(E_1)
-```
-
-`η(F)` must be estimated from measured conditions. It cannot be assigned after the result merely to rescue a failed prediction.
-
-## 7. Quiet and Noisy Condition Example
-
-Suppose a protocol pre-registers:
-
-```text
-η(F_quiet) = 1.0
-η(F_noisy) = 0.3
-```
-
-If all other terms remain constant, the model predicts:
-
-```text
-Δp(F_noisy) / Δp(F_quiet) = 0.3
-```
-
-The same ratio should apply approximately to the condition-linked z-scores when sample sizes and variances are matched:
-
-```text
-z_noisy / z_quiet ≈ 0.3
-```
+$$
+\frac{z_{\mathrm{noisy}}}{z_{\mathrm{quiet}}}
+\approx0.3.
+$$
 
 This is a conditional model prediction, not an observed fact.
 
-## 8. Experimental Design Requirements
+## 8. Experimental design requirements
 
-A valid test should include:
-
-- device calibration and health monitoring;
-- independent control and condition blocks;
-- randomised concealed order;
-- a single primary statistic;
-- pre-defined environmental variables;
-- matched sample sizes;
-- correction for optional stopping and multiple testing;
-- blinded analysis where possible;
-- release of code and anonymised data;
-- independent replication.
+A valid test should include device calibration and health monitoring, independent control and condition blocks, randomised concealed order, one primary statistic, predefined environmental variables, matched sample sizes, correction for optional stopping and multiple testing, blinded analysis where practical, release of code and anonymised data, and independent replication.
 
 ## 9. Falsification
 
-The RNG branch is weakened if:
+The RNG branch is weakened if preregistered condition differences converge to zero; effect direction or scale is unstable across replications; results track hardware drift, analysis choice, expectancy, or stopping rules; measured coherence does not correlate with the proposed modulation; environmental ratios fail to predict effect-size ratios; or ordinary statistical and engineering models explain the data better.
 
-- pre-registered condition differences converge to zero;
-- effect direction or scale is unstable across replications;
-- results track hardware drift, analysis choice, expectancy, or stopping rules;
-- measured coherence does not correlate with the proposed modulation;
-- environmental ratios fail to predict effect-size ratios;
-- ordinary statistical and engineering models explain the data better.
+A null result cannot automatically be attributed to unspecified adverse conditions. Repeated strong nulls must constrain or remove the branch.
 
-A null result cannot automatically be blamed on unspecified “bad conditions.” Repeated strong nulls must constrain or remove the branch.
+## 10. Related public documents
 
-## 10. Relationship to the Silver Update
-
-The ambiguity module requires fixed definitions and prevents post-result frame switching.
-
-The layer-address module prevents an observer-state result from being presented as a physical-field result.
-
-The traversal map keeps the numerical example connected to its assumptions, test design, falsifiers, and reduction rule.
-
-See:
-
-- `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`
-- `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
-- `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
-
-## Architecture Route
-
-```text
-parent equations: docs/02_MKUFT_MATH_APPENDIX.md
-experimental programme: docs/04_EXPERIMENTAL_TEST_PROGRAM.md
-falsification: docs/05_FALSIFICATION_SUMMARY.md
-repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
-```
+- [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md)
+- [Experimental Test Programme](04_EXPERIMENTAL_TEST_PROGRAM.md)
+- [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
+- [Ambiguity Dynamics and Manoeuvre Space](21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md)
+- [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
+- [Cross-Support and Traversal Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 
 ## Summary
 
-The worked example demonstrates the correct chain:
-
-```text
-model term
-→ pre-registered effect
-→ sample-size requirement
-→ correct uncertainty calculation
-→ controlled comparison
-→ replication
-→ falsification or revision
-```
+The worked example demonstrates the scientific chain **model term → preregistered effect → sample-size requirement → correct uncertainty calculation → controlled comparison → replication → falsification or revision**.
 
 That is the bridge from mathematical possibility to empirical accountability.

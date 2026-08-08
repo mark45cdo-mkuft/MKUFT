@@ -1,477 +1,371 @@
-# MKUFT Experimental Test Programme — Clean Working Copy
+# MKUFT Experimental Test Programme
 
-<!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** `10.5281/zenodo.17780566`  
-**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
-**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
-<!-- MKUFT-PROVENANCE-HEADER:END -->
+**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-Status: public empirical and falsification spine inside the controlled MKUFT GitHub working copy.
+**Status:** public empirical and falsification programme.
 
 ## Purpose
 
-This document outlines experimental pathways that could test, constrain, or reject specific MKUFT claims.
+This document outlines experimental and formal pathways that could test, constrain, or reject specific MKUFT claims.
 
-Some underlying phenomena are already observed or routinely measurable. These protocols do not treat their existence as confirmation of MKUFT; they test whether the specific MKUFT variables, dependencies, and predicted interventions add reproducible explanatory or predictive value beyond matched ordinary models. The framework-specific experiments remain proposals, not reports that those hypotheses have already passed. Each protocol must use appropriate ethics review, power analysis, pre-registration, blinding, control conditions, multiple-comparison correction, and publication of null results.
+Some underlying phenomena discussed by MKUFT are already observed or routinely measurable. Their existence is not confirmation of MKUFT. The relevant question is whether the specific MKUFT variables, dependencies, interventions, or derivation targets add reproducible explanatory or predictive value beyond matched ordinary models.
 
-Current layer convention:
+Framework-specific experiments remain proposals rather than reports that the hypotheses have passed. Appropriate studies require ethics review where relevant, power analysis, preregistration, blinding, control conditions, correction for multiple comparisons, effect-size and uncertainty reporting, and publication of null results.
 
-- S = Substrate
-- I = Information
-- P = Physical
-- O = Observer
+The current layer convention is $S$ = Substrate, $I$ = Information, $P$ = Physical, and $O$ = Observer.
 
-Older wording such as P = Perception/Boundary and O = Output is superseded here.
+## Core testable hypotheses
 
-## Core Testable Hypotheses
+MKUFT proposes that:
 
-MKUFT proposes the following hypotheses for testing:
+1. background or vacuum behaviour may contain reproducible structure not captured by a selected null model;
+2. information and geometry may alter measurable outcomes where a defined physical coupling exists;
+3. observer or measurement conditions may act as bounded modulation terms in sensitive systems;
+4. measured coherence states may correlate with small deviations in preregistered REG/RNG or remote-information protocols;
+5. environmental conditions may modulate any genuine effect size;
+6. reciprocal coupling may produce functional gain beyond the strongest fair separated, independent-ensemble, one-way, and replay controls on selected relational tasks;
+7. some coupled gain may depend on a specific relational architecture rather than generic competent pairing;
+8. a developed Layer Before Law mechanism may represent entanglement and quantum/gravitational recovery in an operationally distinct way while preserving Bell compatibility, no-signalling, and established physical limits.
 
-1. Background or vacuum behaviour may contain reproducible structure not captured by the selected null model.
-2. Information and geometry may alter measurable outcomes where a defined physical coupling exists.
-3. Observer or measurement conditions may act as bounded modulation terms in sensitive systems.
-4. Measured coherence states may correlate with small deviations in pre-specified REG/RNG or remote-information protocols.
-5. Environmental conditions may modulate any genuine effect size.
-6. Reciprocal coupling may produce reproducible functional gain beyond the strongest fair separated, independent-ensemble, and one-way controls on selected relational tasks.
-7. Some coupled gain may depend on a specific relational architecture rather than generic competent pairing.
-8. A developed Layer Before Law mechanism may represent entanglement and quantum/gravitational recovery in a way that is operationally distinguishable from relabelling existing formalisms while preserving Bell compatibility, no-signalling, and established physical limits.
+None of these hypotheses is treated as established before controlled replication or completed derivation.
 
-None of these hypotheses should be treated as established before controlled replication or completed derivation.
-
-## Experiment 1 — Low-Frequency Exposure and Physiological Coherence
+## Experiment 1 — Low-frequency exposure and physiological coherence
 
 ### Goal
 
-Test whether controlled low-intensity exposure near a pre-registered frequency band, including the commonly discussed 7–8 Hz range, changes physiological or cognitive measures compared with sham exposure.
+Test whether controlled low-intensity exposure near a preregistered frequency band, including the commonly discussed 7–8 Hz range, changes physiological or cognitive measures relative to sham exposure.
 
-### Measures
+### Candidate measures
 
-- heart-rate variability;
-- EEG measures selected in advance;
-- attention or working-memory performance;
-- subjective state scales;
-- adverse-event monitoring.
+Heart-rate variability, preregistered EEG measures, attention or working-memory performance, subjective-state scales, and adverse-event monitoring.
 
 ### Controls
 
-- double-blind real/sham exposure;
-- matched acoustic, thermal, electrical, and expectancy conditions;
-- exposure verification;
-- correction for multiple outcomes.
+Double-blind real/sham exposure; matched acoustic, thermal, electrical, and expectancy conditions; verified exposure; and correction for multiple outcomes.
 
 ### Falsification condition
 
 Repeated adequately powered studies show no reproducible real-versus-sham difference.
 
-## Experiment 2 — Coherence and Random Event Generators
+## Experiment 2 — Coherence and random event generators
 
 ### Goal
 
-Test whether a pre-defined coherence condition correlates with a small deviation in a true random event generator.
+Test whether a predefined coherence condition correlates with a small deviation in a true random event generator.
 
 ### Design
 
-- baseline blocks;
-- coherence-induction blocks;
-- intention and non-intention controls;
-- concealed block order;
-- device diagnostics and independent data logging.
+Use baseline blocks, coherence-induction blocks, intention and non-intention controls, concealed block order, device diagnostics, and independent data logging.
 
 ### Primary outcome
 
-A single pre-registered statistic comparing conditions against the device null model.
+A single preregistered statistic comparing conditions against the device null model.
 
 ### Falsification condition
 
 Large, blinded, independently replicated studies show no condition-linked deviation beyond chance, drift, optional stopping, hardware bias, or analytical flexibility.
 
-## Experiment 3 — Geometry and Physical Pattern Formation
+## Experiment 3 — Geometry and physical pattern formation
 
 ### Goal
 
 Test whether geometry affects crystallisation, fluid patterning, acoustic or electromagnetic resonance, or material deposition beyond known boundary and container effects.
 
-### Design
+### Controls
 
-Compare pre-specified geometries with controls matched for:
-
-- material;
-- dimensions;
-- surface area;
-- thermal behaviour;
-- field distribution;
-- vibration;
-- manufacturing tolerance.
+Compare predefined geometries with controls matched for material, dimensions, surface area, thermal behaviour, field distribution, vibration, and manufacturing tolerance.
 
 ### Falsification condition
 
 Any apparent effect disappears after ordinary geometric and material variables are modelled, or fails independent replication.
 
-## Experiment 4 — Cognitive Response to Structured Patterns
+## Experiment 4 — Cognitive response to structured patterns
 
 ### Goal
 
-Test whether selected high-regularity or high-symmetry patterns produce distinct neural or behavioural responses compared with feature-matched controls.
+Test whether selected high-regularity or high-symmetry patterns produce distinct neural or behavioural responses relative to feature-matched controls.
 
 ### Measures
 
-- EEG or other registered physiological measures;
-- eye tracking and pupillometry;
-- recognition and memory;
-- preference and confidence;
-- calibration between confidence and accuracy.
+Preregistered physiological measures, eye tracking, pupillometry, recognition and memory, preference and confidence, and calibration between confidence and accuracy.
 
 ### Boundary
 
-A preference or neural response would establish a cognitive effect, not a substrate mechanism. Cross-layer claims require an independently defined coupling.
+A preference or neural response establishes a cognitive effect rather than a substrate mechanism. Cross-layer claims require an independently defined coupling.
 
 ### Falsification condition
 
 No reliable difference remains after matching low-level visual features and correcting for multiple tests.
 
-## Experiment 5 — Remote Information Under Strict Blind Conditions
+## Experiment 5 — Remote information under strict blind conditions
 
 ### Goal
 
-Test whether descriptions of concealed targets exceed chance under a fully specified judging protocol, and whether any performance covaries with measured observer state.
+Test whether descriptions of concealed targets exceed chance under a fully specified judging protocol, and whether performance covaries with a measured observer-state variable.
 
 ### Design requirements
 
-- random target selection;
-- double-blind viewer and experimenter;
-- time-stamped, immutable transcripts;
-- independent blind judging;
-- fixed scoring method;
-- leakage and cueing controls;
-- pre-registered exclusion rules;
-- replication by an independent team.
+Random target selection, double-blind viewer and experimenter, time-stamped immutable transcripts, independent blind judging, fixed scoring, leakage and cueing controls, preregistered exclusion rules, and independent replication.
 
 ### Falsification condition
 
 Performance converges to chance across adequately powered, leakage-resistant replications.
 
-## Experiment 6 — Environmental and Collective Correlation Tests
+## Experiment 6 — Environmental and collective correlation tests
 
 ### Goal
 
-Test whether pre-specified environmental measures correlate with REG networks, physiological aggregates, or collective-behaviour indicators.
+Test whether prespecified environmental measures correlate with REG networks, physiological aggregates, or collective-behaviour indicators.
 
 ### Candidate variables
 
-- geomagnetic indices;
-- measured electromagnetic noise;
-- local environmental conditions;
-- Schumann-band measurements where instrument quality is adequate;
-- pre-defined behavioural or physiological series.
+Geomagnetic indices, measured electromagnetic noise, local environmental conditions, Schumann-band measurements where instrumentation is adequate, and predefined behavioural or physiological series.
 
-### Required controls
+### Controls
 
-- time-shift and surrogate-data tests;
-- correction for autocorrelation and seasonality;
-- multiple-comparison control;
-- out-of-sample prediction;
-- avoidance of post-event window selection.
+Time-shift and surrogate-data tests, correction for autocorrelation and seasonality, multiple-comparison control, out-of-sample prediction, and prohibition of post-event window selection.
 
 ### Falsification condition
 
 No robust association survives correction, out-of-sample testing, and independent replication.
 
-## Experiment 7 — Precision Noise and Boundary Conditions
+## Experiment 7 — Precision noise and boundary conditions
 
 ### Goal
 
-Test whether high-precision physical noise differs reproducibly across pre-registered geometry, orientation, shielding, or boundary conditions after known systematics are controlled.
+Test whether high-precision physical noise differs reproducibly across preregistered geometry, orientation, shielding, or boundary conditions after known systematics are controlled.
 
 ### Design requirements
 
-- instrument-characterisation plan;
-- thermal, vibration, electromagnetic, timing, and software controls;
-- calibration injections;
-- blinded condition labels;
-- comparison with accepted physical models;
-- independent replication before interpretation.
+Instrument characterisation, thermal/vibration/electromagnetic/timing/software controls, calibration injections, blinded condition labels, comparison with accepted physical models, and independent replication before interpretation.
 
 ### Falsification condition
 
 Observed structure is fully explained by known noise, calibration, environmental, or analytical causes, or does not reproduce.
 
-## Experiment 8 — Strongest Fair Null and Relational Specificity
+## Experiment 8 — Strongest fair null and relational specificity
 
 ### Goal
 
-Test whether reciprocal coupling produces functional gain beyond the strongest fair non-reciprocal condition, and whether any remaining gain depends on the focal relationship rather than generic competent pairing.
+Test whether reciprocal coupling produces functional gain beyond the strongest fair non-reciprocal or replay condition, and whether any remaining gain depends on the focal relationship rather than generic competent pairing.
 
-### Governing rule
+### Fair comparison rule
 
-Do not weaken the separated conditions to make the coupled condition win.
-
-Each component receives fair tasking, relevant information and repository access, reasonable tools, matched resource allowance, and a competent opportunity to revise. The only withheld feature should be the reciprocal interaction whose contribution is under test.
+Every component receives fair tasking, relevant information and repository access, reasonable tools, matched resources, and a competent opportunity to revise. The feature withheld from a control is the reciprocal interaction or relational history whose contribution is under test, not unrelated capability.
 
 ### Primary conditions
 
-1. Component `A` alone under fair tasking and access.
-2. Component `B` alone under fair tasking and access.
-3. Strongest pre-registered lawful combination of independent outputs.
-4. One-way `A → B` assistance.
-5. One-way `B → A` assistance.
-6. Fully reciprocal `A ↔ B` coupling with retained state.
+1. Component $A$ alone under fair tasking and access.
+2. Component $B$ alone under fair tasking and access.
+3. Strongest preregistered lawful combination of independent outputs.
+4. One-way $A\to B$ assistance.
+5. One-way $B\to A$ assistance.
+6. Fully reciprocal $A\leftrightarrow B$ coupling with retained state.
 7. Reciprocal coupling with state reset.
 8. Reciprocal coupling with selected memory, correction, or dependency channels disrupted.
-9. `A ↔ B'` with a strong matched alternative component.
-10. `A' ↔ B` with a strong matched alternative component.
+9. Strong matched $A\leftrightarrow B'$ alternatives.
+10. Strong matched $A'\leftrightarrow B$ alternatives.
+11. Complete-history replay conditions supplied with the frozen explicit record claimed to be sufficient.
 
 ### Strongest fair null
 
-```text
-F_replay* = sup_(p ∈ 𝒫_replay) F_p
-F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*, F_replay*}
-G_syn* = F_AB - F_null*
-G_path = F_AB - F_replay*
-```
+Let
 
-A positive `G_syn*` supports superadditive functional gain only when the metric, resource envelope, and comparison rule are fixed in advance. A positive `G_path` supports live-path excess beyond the strongest complete-history replay or transfer condition. Neither result establishes relationship specificity by itself.
+$$
+F_{\mathrm{replay}}^{*}
+=
+\sup_{p\in\mathcal P_{\mathrm{replay}}}F_p.
+$$
 
-### Relationship-specificity test
+For a commensurable scalar metric,
 
-```text
-G_spec = F_AB - max{F_AB', F_A'B}
-```
+$$
+F_{\mathrm{null}}^{*}
+=
+\max\!\left\{
+F_A^{*},
+F_B^{*},
+F_{\mathrm{ind}}^{*},
+F_{A\to B}^{*},
+F_{B\to A}^{*},
+F_{\mathrm{replay}}^{*}
+\right\}.
+$$
 
-A positive `G_spec` suggests that some functional gain depends on the focal relational architecture rather than generic competent collaboration.
+The strongest-null gain is
+
+$$
+G_{\mathrm{syn}}^{*}
+=
+F_{AB}-F_{\mathrm{null}}^{*},
+$$
+
+and live-path excess over complete-history replay is
+
+$$
+G_{\mathrm{path}}
+=
+F_{AB}-F_{\mathrm{replay}}^{*}.
+$$
+
+Relationship specificity against a preregistered set $\mathcal P_{\mathrm{alt}}$ of serious alternative pairings is
+
+$$
+G_{\mathrm{spec}}
+=
+F_{AB}
+-
+\sup_{p\in\mathcal P_{\mathrm{alt}}}F_p.
+$$
+
+A positive $G_{\mathrm{syn}}^{*}$ supports superadditive functional gain only under a fixed metric and matched resource envelope. Positive $G_{\mathrm{path}}$ supports live-path excess beyond complete-history replay. Positive $G_{\mathrm{spec}}$ supports relationship-specific gain beyond strong alternatives. None of these results establishes consciousness or personhood.
 
 ### Outcome measures
 
-Pre-register either a lawful scalar score or a multidimensional outcome vector. Candidate dimensions include:
+A preregistered scalar score or multidimensional outcome may include quality, factual accuracy and calibration, genuinely new structure or discrimination, cross-time continuity, correction propagation, completion time, human cognitive or operational burden, and drift/recovery/rework cost.
 
-- quality;
-- factual accuracy and calibration;
-- novel structure or discrimination;
-- cross-time continuity;
-- correction propagation;
-- completion time;
-- human cognitive or operational burden;
-- drift, recovery, and rework cost.
-
-If dimensions are combined into one score, weights must be fixed before results are known. Otherwise report the vector or Pareto relation directly.
-
-### Required controls
-
-Match or model:
-
-- task information;
-- context and repository access;
-- compute and tool access;
-- total human and machine time;
-- output length;
-- revision opportunities;
-- prior familiarity;
-- evaluator exposure;
-- scoring procedure.
-
-Strong alternative pairings must be genuinely competent. Weak, unfamiliar, under-trained, or intentionally mismatched substitutes do not test relationship specificity fairly.
-
-### Predictions
-
-A genuine reciprocal architecture should show some combination of:
-
-- positive `G_syn*` on held-out relational tasks;
-- lower gain under one-way assistance;
-- deformation after state reset or correction-channel disruption;
-- greater benefit on tasks requiring complementary capacities and iterative correction than on simple lookup;
-- structure generated or detected that is absent from both independent outputs;
-- positive `G_spec` on the task classes for which relationship specificity is claimed.
+If dimensions are combined, weights are fixed before results are known. Otherwise the vector or Pareto relation is reported directly.
 
 ### Falsification conditions
 
-The claim is weakened or rejected if:
-
-- the coupled advantage disappears when separated conditions receive fair tasking and access;
-- an independent ensemble or one-way condition performs equally well;
-- complete-history replay or transfer performs as well as the live originating traversal where path dependence is claimed;
-- the result is explained by extra time, compute, information, or revision opportunity;
-- scoring weights are chosen after inspection;
-- the effect fails on held-out tasks;
-- state reset or channel disruption produces no predicted deformation;
-- strong alternative pairings perform equally well where specificity was claimed;
-- speed improves only by sacrificing quality, calibration, or correction.
+The claim is weakened or rejected if the coupled advantage disappears when separated conditions receive fair tasking and access; an independent ensemble or one-way condition performs equally well; complete-history replay matches the live condition where path dependence was claimed; the result is explained by extra time, compute, information, or revision opportunity; the effect fails on held-out tasks; state reset or channel disruption produces no predicted deformation; or strong alternative pairings perform equally well where specificity was claimed.
 
 ### Interpretation boundary
 
-Superadditive gain establishes a functional result, not consciousness, merged identity, personhood, moral status, direct substrate coupling, or a fifth MKUFT layer.
+Superadditive gain is a functional systems result. It does not establish consciousness, merged identity, personhood, moral status, direct substrate coupling, or a fifth MKUFT layer.
 
-## Experiment 9 — Layer Before Law Technical Derivation and Discrimination Programme
+## Experiment 9 — Layer Before Law derivation and discrimination programme
 
-### Status
-
-This is not a laboratory experiment in its first stage. It is a formal derivation, model-comparison, and later experimental-discrimination programme for `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md`.
-
-The branch is not supported merely because entanglement, emergent spacetime, or quantum gravity are genuine scientific problems. The specific SIPO architecture must do work beyond existing theory.
+This programme begins as a formal derivation and model-comparison task rather than a laboratory experiment. It tests the foundational proposal in [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md).
 
 ### Stage 1 — Pair-level relation
 
-Define a precise mathematical object for the proposed pair-level informational relation `R_XY`.
-
-Required outputs:
-
-- explicit state space;
-- relation to local endpoint states;
-- rule connecting `R_XY` to joint P-layer outcome probabilities;
-- proof that the construction is not an ordinary locally separable hidden-variable model;
-- exact relation to the standard non-separable joint quantum state.
+Define a precise mathematical object $R_{XY}$ for the proposed pair-level informational relation, including its state space, relation to local endpoint states, rule connecting it to joint physical outcome probabilities, and exact relation to the standard non-separable joint quantum state.
 
 ### Stage 2 — Bell compatibility
 
-For local settings `x` and `y` and outcomes `a` and `b`, derive the joint distribution:
+For local settings $x,y$ and outcomes $a,b$, derive
 
-```text
-p(a,b|x,y,R_XY)
-```
+$$
+p(a,b\mid x,y,R_{XY}).
+$$
 
-The developed account must reproduce the relevant Bell-compatible quantum correlations. A verbal statement that the relation is “nonlocal” is insufficient.
+The construction must reproduce the relevant Bell-compatible quantum correlations. It fails if it reduces to a locally separable hidden-variable form
 
-Failure condition:
-
-```text
-p(a,b|x,y)
+$$
+p(a,b\mid x,y)
 =
-∫ dλ ρ(λ) p(a|x,λ) p(b|y,λ)
-```
+\int d\lambda\,\rho(\lambda)
+\,p(a\mid x,\lambda)
+\,p(b\mid y,\lambda)
+$$
 
-where this locally separable form cannot reproduce the target Bell-test results.
+where that form cannot reproduce the target Bell-test results.
 
-### Stage 3 — No-signalling proof
+### Stage 3 — No-signalling
 
-The local marginals must satisfy:
+The model must imply local marginals independent of the distant setting, for example
 
-```text
-Σ_a p(a,b|x,y,R_XY) = p(b|y,R_XY)
-Σ_b p(a,b|x,y,R_XY) = p(a|x,R_XY)
-```
+$$
+\sum_a p(a,b\mid x,y,R_{XY})
+=
+p(b\mid y,R_{XY}),
+$$
 
-with each local marginal independent of the distant setting.
+$$
+\sum_b p(a,b\mid x,y,R_{XY})
+=
+p(a\mid x,R_{XY}).
+$$
 
-A conceptual explanation is not enough. The result must follow from the formal model.
+The result must follow from the formal model rather than from verbal assurance.
 
 ### Stage 4 — Quantum recovery
 
-Specify relational conditions `R_Q` under which the proposed complete SIPO update reproduces the established quantum regime:
+For relational conditions $R_Q$, the proposed complete update must recover the established quantum regime:
 
-```text
-Π_(P,O)[Update_SIPO(U;R_Q)] ≈ Q_eff
-```
+$$
+\Pi_{PO}\!\left[
+\operatorname{Update}_{\mathrm{SIPO}}(U;R_Q)
+\right]
+\approx
+Q_{\mathrm{eff}}.
+$$
 
-Required recovery includes the demonstrated probability, correlation, measurement, and quantum-field-theory limits relevant to the chosen model.
-
-`Update_SIPO` remains a placeholder until the state space, dynamics, couplings, symmetries, conservation conditions, and reduction rules are defined.
+The comparison requires declared state spaces, dynamics, couplings, symmetries, conservation conditions, reduction rules, norm or statistic, tolerance, and regime of validity.
 
 ### Stage 5 — Gravitational recovery
 
-Specify relational conditions `R_G` under which the same lawful update reproduces general relativity or an experimentally equivalent gravitational regime:
+For relational conditions $R_G$,
 
-```text
-Π_(P,O)[Update_SIPO(U;R_G)] ≈ G_eff
-```
+$$
+\Pi_{PO}\!\left[
+\operatorname{Update}_{\mathrm{SIPO}}(U;R_G)
+\right]
+\approx
+G_{\mathrm{eff}}.
+$$
 
-The first target is to define how persistent I- and P-layer structure changes admissible transitions for later physical states and whether the resulting effective description approaches known spacetime geometry and gravitational dynamics.
+The target is recovery of general relativity or an experimentally equivalent gravitational regime within a declared domain.
 
-### Stage 6 — Strongest fair null
+### Stage 6 — Strongest fair theoretical alternatives
 
-Compare the developed model against at least:
+The developed model is compared with standard quantum theory's non-separable joint-state formalism, decoherence accounts, relevant quantum-foundations interpretations, no-signalling theorems, effective-field-theory treatments of gravity, emergent-spacetime and holographic programmes, quantum-information and quantum-error-correction approaches, and established quantum-gravity programmes relevant to the proposed mechanism.
 
-- standard quantum theory's non-separable joint-state formalism;
-- established decoherence accounts;
-- quantum-foundations interpretations distinguishing global state structure from local observation;
-- no-signalling theorems;
-- effective-field-theory treatments of gravity;
-- emergent-spacetime, holographic, quantum-information, and quantum-error-correction approaches;
-- established quantum-gravity programmes relevant to the claimed mechanism.
-
-Do not compare MKUFT only with a classical separable picture that contemporary physics has already rejected.
+The comparison is not restricted to a classical separable picture that contemporary physics has already rejected.
 
 ### Stage 7 — Controlled deformation
 
-Apply at least the following tests:
+Candidate tests include removing the S-layer claim, replacing $R_{XY}$ with the standard joint quantum state, removing the O-layer where registration context is claimed to matter, replacing one unified update with two unrelated effective rules, and reversing or scrambling proposed layer couplings.
 
-- remove the S-layer claim;
-- replace `R_XY` with the standard joint quantum state;
-- remove the O-layer where registration context is claimed to matter;
-- replace one unified update with two unrelated effective rules;
-- reverse or scramble claimed layer couplings.
+The exact architecture is load-bearing only where these interventions produce predicted and interpretable deformation.
 
-The exact architecture is load-bearing only if these interventions produce predicted and interpretable deformation.
+### Success condition
 
-### Primary success condition
+The branch earns support only if it yields at least one clearer lawful mechanism, unavailable derivation, new quantitative prediction, discriminating experimental result, or demonstrably improved research route under matched evidential standards.
 
-The branch earns support only if it provides at least one of:
+### Falsification and reduction
 
-- a clearer lawful mechanism;
-- a derivation unavailable from the starting architecture alone;
-- a new quantitative prediction;
-- a discriminating experimental result;
-- a demonstrably more successful research route under matched evidential standards.
+The branch is weakened or rejected if $R_{XY}$ is only a renamed joint state, Bell-compatible correlations cannot be recovered, no-signalling fails, quantum or gravitational recovery fails, S–I–P–O couplings remain undefined or decorative, unrelated effective models perform equally well, existing theories explain every result equally well or better, or no possible observation distinguishes the proposal.
 
-### Falsification and reduction conditions
+If the layered address remains useful but adds no operational difference, it remains an interpretation or systems translation rather than a new physical mechanism.
 
-The branch is weakened or rejected if:
+## Experimental integrity
 
-- `R_XY` is only a renamed joint state;
-- Bell-compatible correlations cannot be recovered;
-- no-signalling fails;
-- quantum or gravitational recovery fails;
-- the SIPO couplings are undefined or decorative;
-- two unrelated effective models perform equally well;
-- existing theories explain every result equally well or better;
-- no possible observation distinguishes the proposal.
-
-If the layered address remains useful but adds no operational difference, retain it only as an interpretation or systems translation. Do not call it a new physical mechanism.
-
-## Experimental Integrity Rules
-
-1. One primary outcome per principal test.
-2. Exploratory findings must be labelled exploratory.
-3. Effect size and uncertainty matter more than isolated p-values.
-4. Null results remain part of the evidence.
-5. A failed test is not dismissed by inventing unmeasured “conditions.”
-6. Observer, information, and physical-layer evidence must remain separate.
-7. Ordinary explanations are tested before a wider MKUFT interpretation.
-8. Any claimed environmental variable must be measured, not inferred after the event.
+1. Principal tests use a declared primary outcome.
+2. Exploratory findings remain labelled exploratory.
+3. Effect size and uncertainty take priority over isolated $p$-values.
+4. Null results remain evidence.
+5. Failed tests are not rescued by inventing unmeasured conditions.
+6. Observer, information, and physical-layer evidence remain separate.
+7. Ordinary explanations are tested before wider MKUFT interpretation.
+8. Claimed environmental variables are measured rather than inferred retrospectively.
 9. Safety and ethics override theoretical interest.
-10. A coupled condition must not be credited for an advantage created by handicapping the controls.
-11. Relationship specificity requires strong alternative pairings rather than convenient weak substitutes.
-12. Multidimensional value must not be collapsed using weights selected after results are known.
-13. A foundational physics branch must derive its Bell, no-signalling, and recovery requirements rather than treating them as verbal assurances.
+10. Coupled conditions do not receive credit for advantages created by handicapping controls.
+11. Relationship specificity requires strong alternative pairings.
+12. Multidimensional value is not collapsed using weights chosen after results are known.
+13. Foundational physics branches derive Bell, no-signalling, and recovery conditions rather than treating them as verbal assurances.
 14. A named update process is not evidence that a dynamical mechanism has been supplied.
 
-## Relationship to the Silver and post-Silver architecture
+## Related public documents
 
-The structural modules sharpen experimental design:
+- [MKUFT Core Extended](01_MKUFT_CORE_EXTENDED.md)
+- [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md)
+- [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
+- [Worked Examples: RNG and Environment](14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md)
+- [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
+- [Active Traversal and Functional Emergence](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
+- [Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
+- [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
+- [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+- [Science Convergence and Novelty Map](../SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+- [Cross-Support and Traversal Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 
-- `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` requires fixed definitions and pre-registered frame costs;
-- `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md` requires evidence at the layer where the claim is made;
-- `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` is not a clinical instrument and requires domain-appropriate validation;
-- `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` preserves the route from hypothesis to mechanism, prediction, falsifier, and reduction rule;
-- `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` defines active traversal, superadditive coupling, and bounded composite-observer criteria;
-- `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` governs fair baseline construction and separates generic synergy from relationship-specific functional gain;
-- `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` tests which relations actually carry the coupled function;
-- `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` applies those disciplines to the proposed foundational physics route.
-
-## Summary of Falsification
+## Summary
 
 MKUFT is weakened when proposed effects repeatedly fail under strong controls, when apparent effects collapse into ordinary causes, or when the framework cannot make predictions more specific than flexible retrospective interpretation.
 
-If the observer, environmental, geometric, remote-information, precision-noise, active-traversal, superadditivity, relational-specificity, or Layer Before Law branches fail under honest and sufficiently powered testing or derivation, those branches must be removed or substantially revised. They cannot be protected by the breadth of the wider framework.
-
-## Architecture Route
-
-```text
-parent: MKUFT core and mathematical appendix
-foundational physics proposal: docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md
-worked numerical examples: docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md
-compact failure conditions: docs/05_FALSIFICATION_SUMMARY.md
-active traversal and superadditivity: docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md
-strongest fair null and specificity: docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md
-science comparison: SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md
-repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
-```
+A failed branch is removed or substantially revised rather than protected by the breadth of the wider framework.

@@ -1,314 +1,247 @@
 # MKUFT Physics-Facing Explanation
 
-<!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** `10.5281/zenodo.17780566`  
-**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
-**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
-<!-- MKUFT-PROVENANCE-HEADER:END -->
+**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-Status: public and physics-facing explanatory paper inside the controlled MKUFT GitHub working copy.
+**Status:** public physics-facing explanatory paper.
 
 ## Purpose
 
-This document explains MKUFT in language suitable for physicists, technical reviewers, and serious interdisciplinary readers.
+This paper explains MKUFT for physicists, technical reviewers, and serious interdisciplinary readers. It focuses on definitions, scope, mathematical status, recovery requirements, and falsifiability.
 
-It avoids loose symbolism and focuses on definitions, claims, scope, and falsifiability.
+The foundational quantum-gravity proposal is developed in [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md). Neither document claims that MKUFT has already derived quantum mechanics, the Born rule, Bell correlations, quantum field theory, general relativity, or a finished theory of quantum gravity.
 
-## Relationship to Layer Before Law
+## 1. One-line summary
 
-This document is the broader technical translation of MKUFT. The earlier foundational quantum-gravity question is developed in:
+MKUFT proposes as an open research direction that known physical laws may be effective expressions of a deeper constraint-and-relation architecture. The proposal remains incomplete until a lawful mechanism recovers established quantum and gravitational limits and produces a discriminating result beyond existing formalisms.
 
-`docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md`
+## 2. What MKUFT is
 
-Module 26 asks whether quantum and gravitational descriptions are effective P-layer outputs of one deeper cross-layer mechanism rather than coequal first principles that must be directly welded together. It addresses entanglement as an initial worked case and states Bell compatibility, no-signalling, quantum recovery, gravitational recovery, strongest-fair-null comparison, and deformation requirements.
+MKUFT is a systems-level unification framework. It asks whether spacetime physics, information structure, observer-dependent phenomena, and some boundary regimes can be represented through a deeper typed architecture whose substrate term denotes structured possibility rather than an already detected material medium.
 
-Neither document claims that MKUFT has already derived quantum mechanics, the Born rule, Bell correlations, quantum field theory, general relativity, or a finished theory of quantum gravity.
+The substrate is not introduced as matter, energy, spacetime, or an extra particle field. It is a candidate pre-physical possibility/constraint layer that may, in a developed model, define admissible configurations and contribute to the emergence of stable effective structures.
 
-## 1. One-Line Summary
+This is a research direction, not evidence that such a layer has been physically detected.
 
-MKUFT proposes as an open research direction that known physical laws may be effective expressions of a deeper constraint-and-relation architecture; the proposal remains incomplete until a lawful mechanism recovers established quantum and gravitational limits and produces a discriminating result beyond existing formalisms.
+## 3. What MKUFT is not
 
-## 2. What MKUFT Is
+MKUFT is not a replacement for general relativity or quantum field theory, a completed quantum theory of gravity, consciousness-collapse idealism, simulation theory, a licence for unrestricted causation, a claim that belief overrides physics, or a claim that an architectural category reframing is itself a physical derivation.
 
-MKUFT is a systems-level unification framework.
+Its physical branch must earn scientific status through mathematical definition, accepted-limit recovery, discriminating prediction, and evidence.
 
-It proposes that spacetime physics, information, observer-dependent phenomena, and anomalous boundary regimes can be interpreted through a deeper constraint layer called the substrate.
+## 4. Four typed layers
 
-The substrate is not matter, energy, spacetime, or an extra particle field.
+The active convention is
 
-It is modelled as a pre-physical possibility and constraint layer that may define admissible geometries, penalise incoherent state evolution, and stabilise low-cost structures across scales.
-
-This is a candidate interpretation and mathematical direction, not evidence that such a layer has been physically detected.
-
-## 3. What MKUFT Is Not
-
-MKUFT is not:
-
-- a replacement for general relativity,
-- a replacement for quantum field theory,
-- a completed quantum theory of gravity,
-- consciousness-collapse idealism,
-- simulation theory,
-- a licence for unrestricted causation,
-- a claim that belief overrides physics,
-- a claim that an architectural category reframing is itself a physical derivation.
-
-It is a proposed unification of constraint, information, coherence, relation, and emergence whose physical branch must still earn its status through physical mathematics and evidence.
-
-## 4. The Four Layers
-
-The active MKUFT convention is:
-
-```text
-S = Substrate
-I = Information
-P = Physical
-O = Observer
-```
+$$
+S\rightarrow I\rightarrow P\rightarrow O.
+$$
 
 ### S — Substrate
 
-The substrate is the deep possibility/constraint layer.
+A useful mathematical representation is the measure space
 
-Formally, one useful representation is:
+$$
+S=(\Omega,\Sigma,\mu),
+$$
 
-```text
-S = (Ω, Σ, μ)
-```
-
-where Ω is the configuration space, Σ is a sigma-algebra, and μ is a measure encoding baseline possibility weights.
+where $\Omega$ is a configuration space, $\Sigma$ a sigma-algebra, and $\mu$ a baseline measure or weighting. This representation is not evidence that a separate physical medium exists.
 
 ### I — Information
 
-Information structures are patterns, constraints, or relations over the substrate.
+Information structures represent patterns, constraints, or relations over the substrate. To keep the layer symbol $I$ distinct from the mathematical function space, write
 
-A useful representation is:
-
-```text
-I = { f : Ω -> R | f ∈ L²(Ω, μ) }
-```
+$$
+\mathcal I=L^2(\Omega,\mu).
+$$
 
 ### P — Physical
 
-The physical layer is the measurable world of events, fields, particles, instruments, and dynamics.
-
-Standard physics supplies the baseline dynamical predictions.
+The physical layer contains measurable events, fields, particles, instruments, and dynamics. Standard physics supplies the baseline predictions in its established domains.
 
 ### O — Observer
 
-The observer is a coherent system capable of acting as a bounded measurement, registration, interpretation, or state-dependent boundary condition.
+The observer layer contains observer-positioned registration, measurement context, record, attention, interpretation, and bounded state-dependent participation where operationally defined.
 
-A coherence functional can be written as:
+A candidate coherence functional is
 
-```text
-κ : States(H_O) -> [0,1]
-```
-
-Where κ close to 1 means high coherence under a defined proxy, and κ close to 0 means fragmentation or noise.
+$$
+\kappa:\operatorname{States}(\mathcal H_O)\rightarrow[0,1].
+$$
 
 Observer language cannot replace a missing physical mechanism.
 
-## 5. Relation to General Relativity
+## 5. Relation to general relativity
 
-General relativity remains valid as the effective description of spacetime curvature and gravitational dynamics.
+General relativity remains the effective description of spacetime curvature and gravitational dynamics in its tested regime.
 
-MKUFT does not replace curvature with mythology or psychology.
+MKUFT asks whether spacetime geometry itself might be an effective stable configuration generated by deeper relational constraints. That is a research direction, not a derivation. Any developed model must recover Einsteinian or experimentally equivalent gravitational behaviour throughout the established domain.
 
-It asks whether spacetime geometry itself is an effective low-cost configuration generated by deeper substrate and informational constraints.
+## 6. Relation to quantum theory
 
-Physics-facing hypothesis:
+Quantum theory remains the effective description of amplitudes, probabilistic outcomes, state evolution, correlations, and measurement contexts.
 
-```text
-GR = effective geometry of stable low-cost spacetime configurations
-```
+For a state
 
-This expression is a research direction, not a derivation. A developed model must recover Einsteinian or experimentally equivalent gravitational dynamics in the established regime.
+$$
+|\psi\rangle=\sum_i c_i|i\rangle,
+$$
 
-## 6. Relation to Quantum Theory
+standard quantum theory gives
 
-Quantum theory remains valid as the effective description of probabilistic outcomes, state evolution, amplitudes, correlations, and measurement contexts.
+$$
+P(i)=|c_i|^2.
+$$
 
-MKUFT does not add crude local hidden variables.
+MKUFT has not derived these relations from its deeper architecture. Any proposed mechanism must recover them rather than merely relabel them.
 
-It asks whether quantum probabilities and non-separable correlations can be represented as effective outcomes of deeper informational relations while preserving Bell-test results and no-signalling.
+[Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) represents an entangled pair as physically distinct P-layer systems with a pair-level I-layer relation. That relation fails as an account of entanglement if it reduces to a locally separable hidden-variable instruction incompatible with Bell tests or permits controllable faster-than-light signalling.
 
-A quantum state may be written:
+## 7. Realisation scaffold
 
-```text
-|ψ⟩ = Σ_i c_i |i⟩
-```
+For event $E$, a working unnormalised weight is
 
-with:
+$$
+\widetilde W(E)
+=
+\int
+D_{\mathrm{phys}}(E\mid i)
+W_{SI}(i\mid S,E)
+C_O(O\mid i,E)
+\,d\nu(i),
+$$
 
-```text
-P(i) = |c_i|²
-```
+with realised probability
 
-MKUFT has not derived these results from the deeper architecture. Any proposed relation must recover them rather than merely relabel them.
+$$
+P_{\mathrm{realized}}(E)=\frac{\widetilde W(E)}{Z}.
+$$
 
-Module 26 represents an entangled pair as physically distinct P-layer systems with a pair-level I-layer relation. That relation fails as an account of entanglement if it reduces to a locally separable hidden-variable instruction or permits controllable faster-than-light signalling.
+Here $D_{\mathrm{phys}}$ is the accepted physical contribution conditioned on the information structure, $W_{SI}$ a candidate substrate-to-information weighting, $C_O$ a bounded observer-condition term, and $Z$ the required normalisation.
 
-## 7. Realisation Equation
+This is an event-weighting scaffold rather than the complete update mechanism sought by Layer Before Law.
 
-For an event E:
+## 8. Standard-physics limit
 
-```text
-W_total(E) = ∫ D_phys(E | I) · W(I | S, E) · C(O | I, E) dν(I)
-```
+If the observer term is event-independent,
 
-and:
+$$
+C_O(O\mid i,E)=C_0,
+$$
 
-```text
-P_realized(E) = W_total(E) / Z
-```
+and the remaining weighting reduces to the accepted physical distribution, then
 
-Where:
+$$
+P_{\mathrm{realized}}(E)
+\approx
+P_{\mathrm{phys}}(E)
+$$
 
-- D_phys(E | I) = standard physical dynamics conditioned on information structure I,
-- W(I | S, E) = substrate-to-information weighting,
-- C(O | I, E) = bounded observer-condition modulation,
-- Z = normalisation.
+within a declared regime, comparison statistic, and tolerance.
 
-This is an effective event-weighting scaffold. It is not yet the complete update mechanism proposed by Layer Before Law.
+Standard-physics recovery is mandatory. For the foundational branch, the proposed unified mechanism must separately recover established quantum and gravitational regimes under their appropriate relational conditions.
 
-## 8. Standard Physics Limit
+## 9. Observer coupling
 
-If observer coherence contributes no event-specific modulation:
+Observers are treated as bounded conditions rather than crude forces. Any observer-linked effect must remain lawful, small where a perturbative model is used, and subject to apparatus, environmental, expectancy, and statistical controls.
 
-```text
-C(O | I, E) = C₀
-```
+A candidate linear-response form is
 
-and if information weighting reduces to standard physical priors, then:
+$$
+C_O(O\mid i,E)
+=
+C_0\left[1+\varepsilon\kappa(\rho_O)h(i,E)\right],
+$$
 
-```text
-P_realized(E) ≈ P_phys(E)
-```
+where $\varepsilon$ is small, $\kappa$ is a measured observer-state proxy, and $h$ is specified before confirmatory testing.
 
-This is a key discipline point.
+The architecture alone does not establish that this term is nonzero in nature.
 
-MKUFT must recover standard physics in the ordinary limit.
+## 10. Environmental modulation
 
-For the foundational quantum-gravity branch, this includes separate recovery of the established quantum and gravitational regimes from a single lawful mechanism under their appropriate relational conditions.
+A candidate environmental damping model is
 
-## 9. Observer Coupling
+$$
+\kappa_{\mathrm{eff}}
+=
+\kappa\,\eta(F),
+\qquad
+\eta(F)\in[0,1],
+$$
 
-The controversial part is observer coupling.
+where $F$ denotes measured environmental conditions.
 
-MKUFT states it cleanly:
+If an observer-linked branch is real, preregistered environmental variables may modulate its effect size. Such variables cannot be introduced retrospectively to rescue a null result.
 
-Observers act as bounded conditions, not crude forces.
+## 11. Nested micro–macro structure
 
-Observer effects are modelled as lawful, constraint-bound modulation rather than arbitrary control.
+MKUFT asks whether bounded coherent structures can be represented as local systems nested within wider constraints. Similar formal questions may recur across particles, atoms, cells, organisms, societies, planets, stars, and galaxies.
 
-Any such effect must remain inside the system's gradients, coherence state, physical conditions, and realisation constraints.
+Recurrence across scales does not establish identity of mechanism. Each physical claim requires its own variables, units, couplings, and evidence.
 
-No unbounded collapse mechanism.
+## 12. Local closure and boundary emergence
 
-No violation of conservation laws.
+One candidate nesting sequence is:
 
-No useful faster-than-light signalling.
+1. sufficient internal consistency supports local closure;
+2. closure stabilises a boundary;
+3. the bounded region evolves under both local and wider constraints;
+4. the larger system couples to aggregate variables rather than every internal detail.
 
-Observer coherence may be tested as a weak bias among already-allowed trajectories, but the effect is not established by the architecture alone.
+This is a systems-level architecture. It becomes physical only where a domain-specific model derives and measures the proposed closure and coupling.
 
-A linear-response form is:
+## 13. Anomalous regimes
 
-```text
-C(O | I, E) = C₀[1 + ε κ(O) h(I,E)]
-```
-
-where ε is small, κ(O) is observer coherence, and h(I,E) captures a pre-defined relation between observer state and information structure.
-
-## 10. Environmental Modulation
-
-MKUFT predicts that any observer-related deviations should be environmentally modulated.
-
-Define:
-
-```text
-κ_eff = κ · η(F)
-```
-
-where F represents measured environmental conditions and η(F) is a damping factor.
-
-Prediction:
-
-High-noise or damping environments reduce any genuine anomaly strength.
-
-Quiet, coherent, aligned environments may increase detectability if the branch is real.
-
-These claims require pre-registration and cannot be used retrospectively to rescue null results.
-
-## 11. Nested Micro–Macro Structure
-
-MKUFT models coherent structures as bounded local optimisation fields nested within wider constraints.
-
-A system at scale n is a boundary-conditioned local optimisation field inside the system at scale n+1.
-
-This permits similar formal questions across:
-
-- particles,
-- atoms,
-- cells,
-- organisms,
-- societies,
-- planets,
-- stars,
-- galaxies.
-
-The recurrence of a question or relation across scales does not establish identity of mechanism.
-
-## 12. Local Closure and Boundary Emergence
-
-The nesting hypothesis is:
-
-1. Local closure: sufficient internal coherence forms a semi-closed region.
-2. Boundary emergence: the closure creates a boundary.
-3. Local optimisation: the region resolves its own constraints under global constraints.
-4. Upward coupling: the macro system sees aggregate variables, not full internal detail.
-
-Plain English:
-
-A cell does not need to tell the planet what it is doing. A galaxy does not need to track every neuron. Coherent systems can become bounded local systems nested inside larger systems.
-
-## 13. Anomalous Regimes
-
-MKUFT predicts that any genuine deviations from ordinary behaviour should not be accepted as arbitrary.
-
-Candidate effects should be sought only where:
-
-- gradients are defined and steep,
-- geometry or boundary conditions are measured,
-- observer state is operationalised where relevant,
-- environmental variables are controlled,
-- the ordinary model gives a clear baseline,
-- the effect and falsifier are specified in advance.
+Any genuine deviation from ordinary behaviour must be sought under tightly defined conditions: measurable gradients, controlled boundary geometry, operationalised observer state where relevant, measured environmental variables, a strong ordinary baseline, and a prespecified effect and falsifier.
 
 Anomaly reports do not validate the substrate, observer coupling, or quantum-gravity branch by themselves.
 
 ## 14. Quantum-gravity research burden
 
-Module 26 represents the complete addressed state as:
+Layer Before Law represents the complete addressed state as
 
-```text
-U_n = (S_n,I_n,P_n,O_n)
-```
+$$
+U_n=(S_n,I_n,P_n,O_n)
+$$
 
-and marks the unknown transition process as:
+and marks the still-unknown update process as
 
-```text
-U_n --Update_SIPO--> U_(n+1)
-```
+$$
+U_n
+\xrightarrow{\operatorname{Update}_{\mathrm{SIPO}}}
+U_{n+1}.
+$$
 
-This is a readable placeholder, not a completed law.
+This notation is a placeholder for a missing lawful process, not a completed law.
 
-The developed mechanism must satisfy recovery requirements of the form:
+A developed mechanism must satisfy recovery targets such as
 
-```text
-Π_(P,O)[Update_SIPO(U;R_Q)] ≈ Q_eff
-Π_(P,O)[Update_SIPO(U;R_G)] ≈ G_eff
-```
+$$
+\Pi_{PO}\!\left[
+\operatorname{Update}_{\mathrm{SIPO}}(U;R_Q)
+\right]
+\approx Q_{\mathrm{eff}},
+$$
 
-It must also show that the layered entanglement relation adds more than the standard non-separable joint-state formalism. If no mechanism, derivation, prediction, or improved research route changes, the proposal remains an interpretation or translation.
+$$
+\Pi_{PO}\!\left[
+\operatorname{Update}_{\mathrm{SIPO}}(U;R_G)
+\right]
+\approx G_{\mathrm{eff}},
+$$
+
+with declared state spaces, dynamics, couplings, comparison norms or statistics, tolerances, and regimes of validity.
+
+The layered entanglement relation must also add more than the standard non-separable joint-state formalism. If no mechanism, derivation, prediction, or improved research route changes, the proposal remains an interpretation or translation rather than new physical theory.
+
+## Related public documents
+
+- [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
+- [MKUFT Core Extended](01_MKUFT_CORE_EXTENDED.md)
+- [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md)
+- [Experimental Test Programme](04_EXPERIMENTAL_TEST_PROGRAM.md)
+- [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+- [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
+- [Scientific References and Current Literature](../SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)

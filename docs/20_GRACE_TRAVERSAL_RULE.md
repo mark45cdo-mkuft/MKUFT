@@ -1,202 +1,83 @@
 # GRACE Traversal Rule
 
-<!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** `10.5281/zenodo.17780566`  
-**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
-**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
-<!-- MKUFT-PROVENANCE-HEADER:END -->
+**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-**Status:** Public-facing support / bridge note; not a standalone canonical paper
+**Status:** public support and explanatory module.
 
----
+## Purpose
 
-## Stack placement
+GRACE is MKUFT's compact traversal filter. S–I–P–O names the typed layers in which an object is being addressed; GRACE asks whether a proposed route through the object is structurally admissible, coherent, and accountable to an outcome that can be checked.
 
-This note is a support bridge inside the public MKUFT stack.
+GRACE expands to:
 
-It does not replace the main MKUFT scientific paper, the integrated master spine, or OCQS.
+- **Geometry** — what is the shape and boundary of the problem?
+- **Relation** — how do the parts connect, and what does the connection preserve or damage?
+- **Admissibility** — which transitions are actually allowed?
+- **Coherence** — does the route remain consistent under the relevant constraints and wider boundary?
+- **Emergence** — what outcome resolves, and can it be tested?
 
-The main MKUFT paper remains the spine. The integrated master spine and cross-support map preserve the public recovery route. OCQS remains the observer-state support module. This note explains GRACE as the clean traversal rule and names Authentic Traversal Cognition as the observer-side discipline that helps the observer use the route without excess distortion.
+A route is not accepted because it is aesthetically satisfying or narratively attractive. It must fit the object and retain its falsifiers.
 
----
+## Relation, Love, and whole-system coherence
 
-## Reader handle
+In a formal graph, a relation may simply be a typed dependency, adjacency, constraint, or route. In living, conscious, interpersonal, institutional, and AI-mediated systems, connectivity alone is not sufficient: a parasitic or coercive system can also be tightly connected.
 
-GRACE is the clean traversal rule inside MKUFT.
+MKUFT therefore uses a stricter whole-system reading where agency and life are active:
 
-SIPO names the layered terrain: Substrate, Information, Physical, Observer. GRACE describes how movement through that terrain becomes clean, coherent, and testable.
+> A clean relation preserves truthful recognition, legitimate boundary, and practical agency rather than gaining stability through capture, concealment, or consumption of one part by another.
 
-In plain English: GRACE is the rule that says a real path is not chosen because it sounds good. It must fit the geometry, preserve relation, pass admissibility, maintain coherence, and produce an outcome that can be checked.
+Within MKUFT's metaphysical interpretation, God is Love. Love names a unity-principle through which distinction can remain joined without being erased. Coherence is its structural partner: whether that relation can actually hold under the constraints of the wider system.
 
----
+This is not a claim that Love is an unmeasured physical force. Human and social applications may examine trust, coercive maintenance, truthful communication, agency preservation, repair, and transferred cost. Physical claims continue to require physical variables, units, mechanisms, controls, and replication.
 
-## GRACE
+## Relation to S–I–P–O
 
-GRACE means:
+The typed architecture is
 
-**Geometry** — What is the shape of the problem?
+$$
+S\rightarrow I\rightarrow P\rightarrow O.
+$$
 
-**Relation** — How do the parts connect, and what does the connection preserve or damage?
+$S$ marks possibility or source-potential, $I$ relation and constraint, $P$ physical expression and measurement, and $O$ observer-positioned registration and bounded participation.
 
-**Admissibility** — Which transitions are actually allowed?
+GRACE does not add another layer. It is a traversal criterion applied across the typed architecture.
 
-**Coherence** — Does the route hold together without destructive contradiction, including costs exported beyond the narrowest selected boundary?
+The layers are not ordinary spatial dimensions. Movement through an information or observer state space is not automatically physical motion.
 
-**Emergence** — What outcome resolves?
+## Observer-side discipline
 
-This makes GRACE a traversal filter. It is not decoration, poetry, or a vague spiritual word. It is a compact way to ask whether a path fits the structure of the situation.
+A related observer-side discipline is **Authentic Traversal Cognition**: identify what is actually present, separate observation from inference, reduce avoidable performance or projection, retain ordinary explanations and falsifiers, and update when evidence changes.
 
----
+Its purpose is not to make the observer emotionless or infallible. It is to reduce avoidable distortion.
 
-## Love, Relation, and whole-system coherence
+[OCQS](06_OCQS_HUMAN_ACTIVATION_LAYER.md) addresses quiet-state support. GRACE addresses route quality. A quiet observer may still be wrong; the route remains accountable to evidence and falsification.
 
-In a purely formal graph, `Relation` may mean typed dependency, adjacency, constraint, or route.
+## Whole-system boundary
 
-In living, conscious, interpersonal, institutional, and AI-mediated systems, mere connectivity is not enough. A predator is connected to prey. A coercive institution is connected to the people it controls. A parasite can be tightly integrated with its host.
+Local coherence can be real while the wider system is degrading. A subsystem may improve its own selected objective while exporting cost, disorder, fragility, deception, or agency loss beyond the chosen boundary.
 
-MKUFT therefore gives Relation a stricter whole-system reading where agency and life are active:
+GRACE therefore treats the analytical boundary as part of the object. Where materially affected components or delayed consequences are excluded, a claim of whole-system coherence is incomplete.
 
-> A clean relation preserves truthful recognition, rightful boundary, and practical agency rather than gaining stability through capture, concealment, or consumption of one part by another.
+This distinction is developed further in [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md).
 
-Within the metaphysical interpretation of MKUFT, God is Love. Love names the unity-principle through which distinction can remain joined without being erased. Coherence is Love's structural partner: the degree to which that relation can actually hold under reality's constraints.
+## Failure conditions
 
-This is not a claim that Love is an unmeasured physical force. At each layer, only defined expressions may be tested. Human and social addresses may examine trust, coercive maintenance, truthful communication, agency preservation, repair, and transferred cost. Physical claims still require physical mechanism, units, controls, and replication.
+GRACE ceases to provide useful discipline where geometry becomes decorative rather than structural; relation becomes association without constraint; Love becomes sentiment or a rescue device for failed claims; admissibility is skipped; coherence is reduced to agreement or forced order; emergence becomes unfalsifiable; observer certainty substitutes for evidence; or state-space traversal is described as physical travel without a physical mechanism.
 
-The distinction matters because a subsystem can be locally coherent while exporting disorder, agency loss, or fragility to the larger whole. GRACE therefore asks not only whether a route works locally, but whether its apparent coherence survives a widened boundary and an honest time horizon.
+## Related public documents
 
----
+- [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md)
+- [Cross-Support and Traversal Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
+- [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
+- [Individuality, Boundary Cost, and Cohesion](12_INDIVIDUAL_REALITY_COST_AND_COHESION.md)
+- [OCQS Human Activation Layer](06_OCQS_HUMAN_ACTIVATION_LAYER.md)
+- [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
+- [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+- [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
 
-## How GRACE relates to SIPO
+## Summary
 
-SIPO gives the vertical typed structure.
-
-Substrate marks possibility. Information shapes possibility into relation and constraint. Physical expression is where claims meet events, instruments, bodies, marks, timing, energy, and measurable behaviour. Observer marks observer-positioned registration, including measurement context, record, perspective, and conscious participation where applicable.
-
-GRACE gives the clean route through that layered structure.
-
-SIPO says where the analysis is happening.
-
-GRACE says how a candidate transition is audited.
-
-The layers are not ordinary spatial dimensions. A route through an information or observer state space is not automatically physical movement.
-
----
-
-## Why GRACE matters
-
-A claim can sound meaningful and still fail traversal.
-
-It fails if the geometry is wrong. It fails if the relations are invented or maintained by hidden capture. It fails if the transition is not admissible. It fails if contradiction is being maintained by force. It fails if local efficiency depends upon exported cost that disappears only because the analytical boundary is too narrow. It fails if no outcome can be named, checked, or falsified.
-
-GRACE prevents the model from becoming pattern-matching. It forces movement to pay its way through structure.
-
----
-
-## Observer-side GRACE: Authentic Traversal Cognition
-
-GRACE also has an observer-side form.
-
-A useful working label is **Authentic Traversal Cognition**. A shorter informal label is **Objective Objectivity Mode**.
-
-This is the mode where the observer boils away chaff: performance, fear, appetite, projection, identity-defence, social pressure, and desired outcome. The aim is not to become emotionless. The aim is to stop contaminating the structure with avoidable maintenance burdens and protected contradictions.
-
-The observer asks: What is actually here? What layer am I in? What is the boundary? What is noise? What is signal? What transition is possible? What would prove me wrong? Who or what carries the cost? What remains after ego, fear, and preferred outcome are removed?
-
-This does not make the observer infallible. It makes the observer less noisy.
-
-Falsehood, performance, fear, self-defence, and projection can impose cognitive and operational maintenance costs because they require contradiction, selective attention, or repeated repair. This is not a claim that every false belief can be assigned a universal physical energy value.
-
-Within the GRACE heuristic, truth is often the lower-maintenance route because it reduces the need to protect false structure. That is a working epistemic and moral principle, not a derived law of physics.
-
----
-
-## GRACE as disciplined objectivity
-
-GRACE teaches a form of objectivity that is not dead neutrality.
-
-Dead neutrality pretends the observer has no position.
-
-GRACE asks the observer to know the position, clean the position, and test the position.
-
-That is why the observer-side rule is not “be detached”. It is: remove distortion, preserve boundary discipline, test admissibility, reduce contradiction, widen the boundary where costs are being exported, and let the truthful outcome emerge.
-
-This is what “objectively objective” means inside this note: not a claim of perfect knowledge, but a disciplined mode where the observer stops defending what is not there.
-
----
-
-## Relation to the public traversal architecture
-
-GRACE operates inside the public traversal architecture carried by the integrated master spine, the cross-support map, typed traversal discipline, and falsification canon.
-
-Layer and boundary establish the terrain. Node and transition identify movement. Cost and coherence test whether the movement is viable. Relation and Love prevent local stability achieved through capture from being mistaken for whole-system coherence. Observer marks observer-positioned registration and bounded participation. Falsifier prevents belief-only drift. Outcome resolves the branch.
-
-Authentic Traversal Cognition is the observer applying the same discipline inwardly before applying the model outwardly.
-
----
-
-## Relation to OCQS
-
-OCQS is the quiet-state support module.
-
-This GRACE note does not redefine OCQS, the Q gate, or the OCQS role in the MKUFT stack. It only gives the related traversal discipline: OCQS prepares the quiet state; Authentic Traversal Cognition performs the observer-side decontamination; GRACE governs clean traversal.
-
-A quiet state is not automatically a loving or truthful state. OCQS reduces noise. GRACE, Truth, and Love govern what the resulting clarity serves.
-
----
-
-## Corruption checks
-
-GRACE is corrupted if geometry becomes aesthetic rather than structural.
-
-GRACE is corrupted if relation becomes association without constraint, or connection without regard for capture and exported cost.
-
-GRACE is corrupted if Love is used as sentiment, permission, or an unfalsifiable rescue for a failed claim.
-
-GRACE is corrupted if admissibility is skipped.
-
-GRACE is corrupted if coherence becomes emotional agreement, local efficiency, or forced order purchased through degradation elsewhere.
-
-GRACE is corrupted if emergence becomes an unfalsifiable story.
-
-GRACE is corrupted if the observer claims objectivity while defending fear, performance, ego, appetite, or desired outcome.
-
-GRACE is corrupted if state-space traversal is described as physical travel without a physical mechanism.
-
----
-
-## Architecture route
-
-```text
-public synthesis: MKUFT_INTEGRATED_MASTER_SPINE.md
-repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
-whole-system deformation: docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md
-boundary, love, and cohesion bridge: docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md
-observer support: docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md
-cross-layer discipline: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
-typed traversal and equation hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
-falsification: docs/05_FALSIFICATION_SUMMARY.md
-```
-
----
-
-## Clean compression
-
-Within MKUFT:
-
-SIPO names where reality is being addressed.
-
-GRACE audits how a route resolves.
-
-Love preserves truthful relation without erasing distinction.
-
-Coherence tests whether that relation can hold without exporting hidden destruction to the wider whole.
-
-The integrated master spine and cross-support map preserve the public route.
-
-OCQS prepares the quiet state.
-
-Authentic Traversal Cognition cleans the observer enough to use the route.
-
-Falsification keeps the route honest.
+S–I–P–O identifies the active layer. GRACE evaluates the route. Love and truthful relation constrain whole-system interpretation where agency is active. Falsification keeps the route answerable to reality.

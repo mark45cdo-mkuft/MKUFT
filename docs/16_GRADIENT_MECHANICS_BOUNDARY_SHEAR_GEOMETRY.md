@@ -1,459 +1,229 @@
 # Gradient Mechanics and Controlled Boundary Geometry
 
-<!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** `10.5281/zenodo.17780566`  
-**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
-**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
-<!-- MKUFT-PROVENANCE-HEADER:END -->
+**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-Status: public-facing MKUFT core support paper / boundary-physics addendum.
+**Status:** public boundary-physics support paper.
 
 ## Abstract
 
-This paper develops the gradient-mechanics bridge in MKUFT. It examines how substrate/information weighting may be represented at the physical layer through measurable boundary conditions, gradients, thresholds, and membrane-like regions.
+This paper develops a cautious gradient-mechanics bridge in MKUFT. It asks whether defined physical gradients, boundaries, thresholds, geometry, and orientation can alter measurable behaviour beyond simpler matched models.
 
-The purpose is not to introduce a new force, explain reported craft, or assign unusual motion to object shapes. The purpose is to define a cautious mathematical and experimental bridge between the MKUFT substrate/information layers and controlled physical behaviour.
+It does not introduce a new force, explain reported craft, assign unusual motion to object shapes, or grant physical meaning to an undefined substrate variable.
 
 The central falsifiable hypothesis is:
 
-> In systems with a defined physical coupling, geometry and orientation may alter threshold onset, stability duration, field distribution, propagation, or energetic cost beyond what simpler matched models predict.
-
-No specific reported object, craft, or anomalous event is treated as explained by this model.
-
----
+> In a system with a defined physical coupling, geometry and orientation may alter threshold onset, stability duration, field distribution, propagation, or energetic cost beyond what stronger ordinary models predict.
 
 ## 1. Position inside MKUFT
 
-MKUFT uses the layer convention:
+The typed architecture is
 
-```text
-S = Substrate
-I = Information
-P = Physical
-O = Observer
-```
+$$
+S\rightarrow I\rightarrow P\rightarrow O.
+$$
 
-The substrate layer is not treated as a visible physical medium. It is the possibility or configuration layer from which physical-layer events are proposed to be selected or weighted.
+The substrate layer is not treated as a visible physical medium with ordinary internal geography. The geometry examined here is **post-boundary geometry**: measurable physical structure arising in an actual P-layer system under a proposed and explicitly defined coupling.
 
-> S-layer itself is not modelled as having ordinary internal geography.
-
-The geometry discussed here is **post-boundary geometry**: measurable physical structure that appears when substrate/information weighting is hypothesised to couple into physical behaviour through gradients, thresholds, membranes, and boundary conditions.
-
-Preferred public wording:
-
-```text
-post-boundary constraint geometry under a proposed substrate/information coupling
-```
-
-This avoids implying that the substrate is a hidden physical landscape or that the coupling has already been established.
-
----
+A useful description is **post-boundary constraint geometry under a proposed substrate/information coupling**. The coupling itself remains hypothetical until derived and measured.
 
 ## 2. Gradient mechanics
 
-A gradient is the rate and direction of change of a quantity across a region.
+A gradient is the rate and direction of change of a quantity across a region. Pressure gradients drive flow, temperature gradients drive heat transfer, electric-potential gradients define electric fields, refractive-index gradients bend light, density gradients affect propagation and stability, and velocity gradients produce shear.
 
-In ordinary physics, gradients are already central:
+Here **gradient mechanics** means the study of how measured changes across a boundary region organise physical behaviour, especially when several declared gradients become coupled.
 
-- pressure gradients drive flow;
-- temperature gradients drive heat transfer;
-- electric-potential gradients define electric fields;
-- refractive-index gradients bend light;
-- density gradients affect propagation and stability;
-- velocity gradients produce shear.
+Candidate classes include density, velocity/shear, refractive or structural, pressure/temperature, and propagation-constant gradients.
 
-In this paper, gradient mechanics means:
-
-> the study of how changes across a boundary region organise measurable physical behaviour, especially when several defined gradients become coupled.
-
-Useful gradient classes include:
-
-1. **Density gradients** — stability, inertia-like resistance, and mass-distribution effects.
-2. **Velocity or shear gradients** — directional change, strain, and differential movement.
-3. **Structural or refractive gradients** — lensing, waveguiding, and index changes.
-4. **Pressure or temperature gradients** — phase, deformation, and threshold effects.
-5. **Propagation-constant gradients** — changes in how waves, fields, or information-bearing patterns propagate physically.
-
-A boundary is not merely an edge. It may be a region where one physical state becomes another.
-
----
+A boundary may be a finite region in which one physical state becomes another rather than an infinitely thin edge.
 
 ## 3. LUCY threshold relation
 
-LUCY means Local Unified Coherence Yield.
+The canonical LUCY sequence is:
 
-Within the LUCY support framework:
+**LUCY threshold → LUCY-1 membrane → LUCY-2 sustained local region.**
 
-```text
-LUCY   = threshold
-LUCY-1 = membrane formation
-LUCY-2 = sustained local-region condition
-```
+The physical question is whether increasing a declared control parameter produces a reproducible threshold, followed by an interface state and, if sufficiently stable, a sustained finite region with behaviour distinguishable from the baseline.
 
-The proposed transition chain is:
+This language is comparable to phase transitions, bifurcations, ionisation thresholds, surface formation, superconductive transitions, and related threshold phenomena. The comparison supplies mathematical grammar rather than evidence for a new field.
 
-```text
-gradient accumulation → LUCY threshold → LUCY-1 membrane-like condition → LUCY-2 sustained local region
-```
-
-Below threshold, a boundary remains noisy or non-sustained. At threshold, a membrane-like state may form. If that state remains stable, the local region may display behaviour distinct from baseline.
-
-This is modelling language comparable to phase changes, bifurcations, ionisation thresholds, surface formation, superconductive transitions, and other systems where behaviour changes qualitatively after a threshold is crossed.
-
-These comparisons supply threshold grammar, not evidence of a new field.
-
----
+See [LUCY Boundary Threshold Framework](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md) and the downstream [LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md).
 
 ## 4. Minimal mathematical scaffold
 
-Let a proposed boundary state be represented by an effective scalar variable:
+Let a candidate physical boundary state be represented by a scalar variable $\tau(x,t)$. The symbol does not acquire physical meaning by notation alone; its units and measurement protocol must be specified in each application.
 
-```text
-τ(x,t)
-```
+Define
 
-Here, `τ` is not automatically voltage, pressure, gravitational potential, energy, or a discovered substrate quantity. It is a placeholder for a boundary-state variable whose physical meaning, units, and measurement must be defined in each application.
+$$
+\mathbf G_\tau(x,t)=-\nabla\tau(x,t).
+$$
 
-Define an effective gradient variable:
+For rotational or circulating structure, introduce a vector variable $\mathbf A_\tau(x,t)$ with
 
-```text
-G_τ(x,t) = -∇τ(x,t)
-```
+$$
+\mathbf H_\tau(x,t)=\nabla\times\mathbf A_\tau(x,t).
+$$
 
-For rotational or circulating boundary structure, introduce a vector variable:
+A candidate boundary functional density is
 
-```text
-A_τ(x,t)
-```
+$$
+\mathcal F_{\mathrm{boundary}}
+=
+\frac{1}{2}\alpha\lVert\nabla\tau\rVert^2
++
+\frac{1}{2}\beta\lVert\nabla\times\mathbf A_\tau\rVert^2
++V(\tau,\mathbf A_\tau).
+$$
 
-with:
+$\alpha$, $\beta$, and $V$ are effective coefficients or interaction terms. Every term must share compatible dimensions before quantitative use.
 
-```text
-H_τ(x,t) = ∇ × A_τ(x,t)
-```
-
-A candidate quadratic boundary functional density is:
-
-```text
-𝓕_boundary =
-(1/2) α |∇τ|²
-+ (1/2) β |∇ × A_τ|²
-+ V(τ, A_τ)
-```
-
-where:
-
-- `α` and `β` are effective coefficients;
-- `V` represents stabilising or destabilising interaction terms;
-- every term must share compatible dimensions before quantitative use.
-
-Until `τ`, `A_τ`, `α`, `β`, and `V` are physically derived and assigned units, `𝓕_boundary` is an **effective functional density**, not automatically an energy density or Lagrangian density.
-
-It may be interpreted as physical energy density only after dimensional analysis, coupling, and measurement justify that interpretation.
-
-This notation separates scalar-gradient structure from circulation or shear-like structure without claiming that either is a new physical field.
-
----
+Until $\tau$, $\mathbf A_\tau$, $\alpha$, $\beta$, and $V$ are physically derived and measured, $\mathcal F_{\mathrm{boundary}}$ is an **effective functional density**, not automatically an energy or Lagrangian density.
 
 ## 5. Coherence threshold
 
-Let `Y_L` represent a local coherence-yield or threshold index across the boundary:
+Let $Y_L$ be a local yield or threshold index:
 
-```text
-Y_L(x,t) ≥ Y_crit
-```
+$$
+Y_L(x,t)\ge Y_{\mathrm{crit}}.
+$$
 
-The symbol `Y_L` is preferred here because `C` is already heavily used for path cost, coherence, and other quantities elsewhere in MKUFT.
+A generic response model may be written
 
-Below threshold, boundary behaviour remains noisy or non-sustained.
+$$
+Y_L
+=
+F\!\left(
+\lVert\nabla\tau\rVert,
+\lVert\nabla\times\mathbf A_\tau\rVert,
+\kappa_O,
+Q_{\mathrm{env}},
+R_{\mathrm{geom}}
+\right).
+$$
 
-At threshold:
+The function $F$ and threshold remain placeholders until a specific physical system supplies variables, units or normalisation, and a measurement protocol.
 
-```text
-Y_L ≥ Y_crit → LUCY
-```
-
-A membrane-like state may then form:
-
-```text
-LUCY → LUCY-1
-```
-
-If the state remains stable over a declared duration:
-
-```text
-LUCY-1 sustained over Δt → LUCY-2
-```
-
-A working response form is:
-
-```text
-Y_L = F(|∇τ|, |∇ × A_τ|, κ_O, Q_env, R_geom)
-```
-
-where:
-
-- `|∇τ|` is the magnitude of the defined scalar gradient;
-- `|∇ × A_τ|` is the magnitude of the defined rotational or shear variable;
-- `κ_O` is an observer or system-coherence term only where independently justified;
-- `Q_env` is environmental quality or damping;
-- `R_geom` is a geometry-response term.
-
-The function `F` and the threshold are placeholders until a specific system supplies variables, units or normalisation, and a measurement protocol.
-
-In physical tests, ordinary environmental, material, and geometry variables should be primary unless an observer coupling has been independently operationalised.
-
----
+In physical tests, ordinary environmental, material, and geometry variables remain primary unless an observer coupling has independently demonstrated predictive value.
 
 ## 6. Geometry-response term
 
-Define:
+A geometry term may depend on shape, curvature, aspect ratio, symmetry, orientation, material, and field distribution:
 
-```text
-R_geom = R(shape, curvature, aspect ratio, symmetry, orientation, material, field distribution)
-```
+$$
+R_{\mathrm{geom}}
+=
+R(	ext{shape},\text{curvature},\text{aspect ratio},\text{symmetry},\theta,\text{material},\text{field distribution}).
+$$
 
-This term represents the possibility that physical geometry alters boundary formation or stability.
+Geometry already affects resonance, stress, field concentration, waveguiding, breakdown, and threshold behaviour. MKUFT's additional question is whether a common boundary-cost description improves held-out prediction after these ordinary effects are modelled.
 
-Relevant variables include:
-
-- curvature continuity;
-- symmetry class;
-- aspect ratio;
-- edge sharpness;
-- dominant axis;
-- surface smoothness;
-- orientation relative to the applied gradient;
-- rotational stability;
-- material properties;
-- field concentration and distribution.
-
-Geometry is already known to affect resonance, stress, field concentration, waveguiding, breakdown, and threshold behaviour. MKUFT's additional question is whether a common boundary-cost description improves prediction after those ordinary variables are modelled.
-
-No geometry is assigned a preferred angle or motion class without an independent physical derivation.
-
----
+No geometry is assigned a preferred angle or motion class without an independent derivation.
 
 ## 7. Orientation as a measured variable
 
-Orientation is included only as an ordinary laboratory variable.
+Let $\hat{\mathbf n}_P$ be a normalised physical reference axis of the apparatus and $\hat{\mathbf n}_G$ the measured direction of the applied gradient. Define
 
-Let `n_P` be the selected physical reference axis of a test body or apparatus and `n_G` the measured direction of the applied gradient. Define:
+$$
+\theta
+=
+\arccos\!\left(\hat{\mathbf n}_P\cdot\hat{\mathbf n}_G\right).
+$$
 
-```text
-θ = arccos(n_P · n_G)
-```
+This measures apparatus orientation relative to the gradient. It does not imply unusual propulsion or a privileged numerical angle.
 
-where both vectors are normalised.
+A generic scalar comparison score may use normalised components:
 
-This simply measures the angle between the apparatus and the applied gradient. It does not imply an exotic mechanism, unusual propulsion, or a preferred numerical angle.
+$$
+J(\theta)
+=
+w_S\widetilde S_{\mathrm{boundary}}(\theta)
+-w_E\widetilde E_{\mathrm{cost}}(\theta)
++w_R\widetilde R_{\mathrm{geom}}(\theta),
+$$
 
-A generic measured comparison score may be written using normalised coordinates:
-
-```text
-J(θ) =
-w_S S̃_boundary(θ)
-- w_E Ẽ_cost(θ)
-+ w_R R̃_geom(θ)
-```
-
-where:
-
-- `S̃_boundary(θ)` is normalised measured boundary stability;
-- `Ẽ_cost(θ)` is normalised energetic or instability cost;
-- `R̃_geom(θ)` is normalised geometry-dependent response;
-- `w_S`, `w_E`, and `w_R` are pre-registered dimensionless weights.
-
-Alternatively, unnormalised physical quantities may be used only if the weights carry the reciprocal units needed to make the sum meaningful.
-
-Any stable orientation must emerge from measured parameters or a physically derived model, not from visual pattern matching or retrospective fitting.
-
----
+where the weights are fixed in advance. If unnormalised physical quantities are combined, the weights must carry the units required to make the expression meaningful.
 
 ## 8. Controlled geometry hypothesis
 
-The defensible prediction is comparative rather than shape-specific:
+The defensible prediction is comparative:
 
 > After matching material, scale, surface area, thermal behaviour, field distribution, vibration, manufacturing tolerance, and sensor placement, some geometries or orientations may exhibit reproducible differences in threshold onset, stability duration, propagation, or energetic cost.
 
-The null hypothesis is:
+The null is that geometry or orientation adds no predictive value once established physical variables are modelled.
 
-> Once known physical variables are modelled, geometry or orientation adds no independent predictive value.
+## 9. Relation to trajectory formalism
 
-The model gains support only if the additional geometry-cost structure predicts held-out data better than simpler accepted models.
+Let $\Gamma$ be an admissible physical trajectory set and $C[\gamma]$ a declared physical-state-space cost. A measured boundary condition may modify either:
 
----
+$$
+\Gamma\longrightarrow\Gamma_{\mathrm{boundary}},
+$$
 
-## 9. Relation to the node and trajectory formalism
+$$
+C[\gamma]\longrightarrow C_{\mathrm{boundary}}[\gamma].
+$$
 
-The Standalone Formal Addendum models constrained evolution through nodes, admissible edges, trajectories, cost, and candidate path weighting.
+The testable question is whether
 
-Let:
+$$
+C_{\mathrm{boundary}}[\gamma]
+\neq
+C_{\mathrm{standard}}[\gamma]
+$$
 
-```text
-Γ = set of admissible trajectories
-C[γ] = declared cost of trajectory γ
-```
+in a way predicted before measurement and unexplained by the ordinary baseline.
 
-A measured boundary state may modify admissibility:
+A Gibbs-like path weight, where appropriate, requires a dimensionless exponent:
 
-```text
-Γ → Γ_boundary
-```
+$$
+P(B\mid A)
+\propto
+\sum_{\gamma\in\Gamma(A\to B)}
+\exp[-\beta C[\gamma]].
+$$
 
-and may modify cost:
-
-```text
-C[γ] → C_boundary[γ]
-```
-
-The testable question is whether a measured boundary state changes transition probabilities or costs beyond standard modelling:
-
-```text
-C_boundary[γ] ≠ C_standard[γ]
-```
-
-The sign and magnitude must be derived or measured rather than assumed.
-
-Where a Gibbs-like path weight is used, the exponent must be dimensionless:
-
-```text
-P(B|A) ∝ Σ_(γ ∈ Γ(A→B)) exp[-β C[γ]]
-```
-
-or use a dimensionless normalised cost.
-
-A path through the physical apparatus belongs to a physical state space. It must not be identified automatically with an I-layer graph route or S-layer relation.
-
----
+A physical apparatus trajectory belongs to a physical state space. It is not automatically an I-layer graph route or S-layer relation.
 
 ## 10. Experimental programme
 
-The model should be tested first in ordinary laboratory systems.
+Candidate systems include plasma boundary layers, dielectric breakdown geometries, acoustic levitation nodes, fluid interfaces, superconducting or high-field boundary systems, and photonic or refractive-index-gradient systems.
 
-### 10.1 Candidate systems
+Matched tests should control material, characteristic dimensions, surface area and volume, thermal behaviour, applied field distribution, vibration, manufacturing tolerance, and sensor placement.
 
-- plasma boundary layers;
-- dielectric breakdown geometries;
-- acoustic levitation nodes;
-- fluid interfaces;
-- superconducting or high-field boundary systems;
-- photonic or refractive-index gradient systems.
+Primary observables may include threshold onset, orientation dependence, stability duration, field distortion, energetic cost, propagation effects, uncertainty, and repeatability.
 
-Primary question:
-
-> Do matched geometries or orientations produce reproducible differences in threshold onset, stability, propagation, or energetic cost?
-
-### 10.2 Geometry and threshold testing
-
-Compare preregistered geometry classes while matching:
-
-- material;
-- characteristic dimensions;
-- surface area and volume;
-- thermal behaviour;
-- applied field distribution;
-- vibration;
-- manufacturing tolerance;
-- sensor placement.
-
-Measure:
-
-- threshold onset;
-- orientation dependence;
-- stability duration;
-- field distortion;
-- energy cost;
-- propagation effects;
-- uncertainty and repeatability.
-
-Use blinded condition labels, calibration injections, preregistered primary outcomes, and held-out replication data.
-
----
+Blinded condition labels, calibration injections, preregistered primary outcomes, and held-out replication data are preferred.
 
 ## 11. Falsification conditions
 
-This addendum is weakened or rejected if:
+This branch is weakened or rejected if geometry or orientation adds no predictive value after accepted physical variables are modelled; apparent effects disappear under material, thermal, field-distribution, vibration, perspective, or sensor controls; fitted geometry-cost terms fail on held-out or independently replicated data; no measurable coupling can be defined; or the proposed functional cannot be made dimensionally consistent or outperform existing physical models.
 
-1. geometry or orientation adds no predictive value after accepted physical variables are modelled;
-2. laboratory systems show no reproducible orientation-dependent threshold or stability differences beyond ordinary predictions;
-3. any apparent effect disappears under material, thermal, field-distribution, vibration, perspective, or sensor controls;
-4. fitted geometry-cost terms fail on held-out or independently replicated data;
-5. the model cannot define a measurable coupling between proposed boundary variables and physical outcomes;
-6. the quadratic functional cannot be given consistent dimensions or adds no value beyond existing physical energy and stability models.
+It is strengthened only by preregistered, reproducible geometry-dependent effects that survive strong ordinary models and retain the same parameter relationships under independent replication.
 
-It is strengthened if:
+## 12. Public interpretation boundary
 
-1. matched laboratory systems show repeatable geometry-dependent threshold or stability effects not already captured by accepted models;
-2. a preregistered cost model predicts held-out outcomes better than simpler baselines;
-3. independent teams reproduce the same parameter relationships;
-4. a measured boundary-state transition precedes and predicts the physical outcome;
-5. the same formal relation transfers across systems only after layer-specific variables and units are supplied.
+This model does not establish fixed-angle behaviour, shape-specific anomalous motion, craft origin, advanced propulsion, or physical travel through extra dimensions.
 
----
+Appropriate descriptions include **candidate boundary-gradient model**, **effective boundary functional**, **geometry-dependent threshold hypothesis**, **orientation-dependent stability test**, **post-boundary constraint geometry**, and **matched laboratory comparison**.
 
-## 12. Public-facing wording rule
+## 13. Related public documents
 
-Avoid:
-
-- fixed-angle claims without derivation;
-- shape-specific motion claims;
-- craft-origin or advanced-propulsion claims;
-- treating reports as proof;
-- implying that geometry alone explains anomalous motion;
-- calling an undeclared quadratic expression an energy density;
-- treating abstract state-space traversal as physical movement through extra dimensions.
-
-Preferred wording:
-
-- "candidate boundary-gradient model";
-- "effective boundary functional";
-- "geometry-dependent threshold hypothesis";
-- "orientation-dependent stability test";
-- "post-boundary constraint geometry";
-- "matched laboratory comparison";
-- "testable relation between geometry, threshold, and transition cost".
-
----
-
-## 13. Architecture route
-
-```text
-parent: S–I–P–O core and boundary/coherence hypothesis
-LUCY support: docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md
-mathematical backbone: docs/02_MKUFT_MATH_APPENDIX.md
-trajectory formalism: docs/03_STANDALONE_FORMAL_ADDENDUM.md
-cross-layer discipline: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
-typed traversal and equation hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
-experiments: docs/04_EXPERIMENTAL_TEST_PROGRAM.md
-falsification: docs/05_FALSIFICATION_SUMMARY.md
-```
-
----
+- [LUCY Boundary Threshold Framework](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md)
+- [LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
+- [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md)
+- [Standalone Formal Addendum](03_STANDALONE_FORMAL_ADDENDUM.md)
+- [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
+- [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+- [Experimental Test Programme](04_EXPERIMENTAL_TEST_PROGRAM.md)
+- [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
 
 ## 14. Summary
 
-Gradient mechanics provides a proposed bridge in MKUFT:
+The narrow scientific proposal is:
 
-```text
-substrate/information weighting
-→ defined physical coupling
-→ measurable boundary gradient
-→ threshold
-→ membrane-like or sustained local condition
-→ physical-layer behaviour
-```
+> Geometry and orientation may affect boundary threshold, stability, propagation, or transition cost in controlled physical systems.
 
-The scientific core is narrow:
-
-> Geometry and orientation may affect boundary threshold, stability, propagation, or transition cost in controlled systems.
-
-No fixed angle, object shape, extra physical dimension, or motion class is presently established.
-
-The decisive discriminator is:
-
-> Does a preregistered geometry-and-boundary model predict controlled physical outcomes better than ordinary matched explanations?
-
-If yes, MKUFT gains a measurable bridge between abstract boundary theory and physical behaviour. If no, this extension must be revised or discarded.
+The decisive question is whether a preregistered geometry-and-boundary model predicts controlled outcomes better than the strongest ordinary matched explanation. If not, this extension is revised or discarded.

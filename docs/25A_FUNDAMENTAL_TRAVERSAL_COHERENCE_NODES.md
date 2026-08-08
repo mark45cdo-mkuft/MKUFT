@@ -1,17 +1,11 @@
 # 25A — Fundamental Traversal Coherence Nodes
 
-<!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** `10.5281/zenodo.17780566`  
-**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
-**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
-<!-- MKUFT-PROVENANCE-HEADER:END -->
+**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-Status: provisional public cross-domain hypothesis and terminology module  
-Role: define a node-level complement to relation-level load by identifying candidate signature-bearing coherence anchors whose organising contribution may not be reducible to the incident relations alone.
-
----
+**Status:** provisional public cross-domain hypothesis and terminology module.
 
 ## 1. Claim boundary
 
@@ -21,38 +15,21 @@ Its narrower question is:
 
 > Can some nodes carry an anchor-specific coherence function that remains after ordinary connection count, graph centrality, relation density, content volume, and resource differences are controlled?
 
-The proposal is operational. A candidate node earns the classification only where controlled removal, rerouting, substitution, perturbation, and recovery tests show a reproducible node-specific contribution.
+A candidate node earns the classification only where controlled removal, rerouting, substitution, perturbation, and recovery tests show a reproducible node-specific contribution.
 
----
+## 2. Traversal fundamentals
 
-## 2. Traversal Fundamentals
+**Traversal Fundamentals** is the provisional umbrella category for nodes, relations, boundaries, constraints, transitions, or return routes whose preservation is required for coherent traversal in a declared domain.
 
-`Traversal Fundamentals` is the provisional umbrella category.
+The category may be investigated in physics, information and knowledge systems, artificial intelligence, cognition, biology, language and procedural artefacts, organisations, institutions, and social systems.
 
-A traversal fundamental is a node, relation, boundary, constraint, transition, or return route whose preservation is required for coherent traversal in a declared domain.
-
-The category is deliberately cross-domain. It may be investigated in:
-
-- physics;
-- information and knowledge systems;
-- artificial intelligence;
-- cognition;
-- biology;
-- language and procedural artefacts;
-- organisations and institutions;
-- social and interpersonal systems.
-
-Cross-domain use does not imply one ontology, mechanism, metric, unit, or evidential standard. Every application must define its own state space, observables, controls, alternatives, and falsifiers.
-
----
+Cross-domain use does not imply one ontology, mechanism, metric, unit, or evidential standard. Every application requires its own state space, observables, controls, alternatives, and falsifiers.
 
 ## 3. Fundamental Traversal Coherence Node
 
-A **Fundamental Traversal Coherence Node**, abbreviated `FTCN`, is provisionally defined as:
+A **Fundamental Traversal Coherence Node (FTCN)** is provisionally defined as:
 
-> A signature-bearing coherence anchor around which multiple relations organise and through which traversal remains mutually consistent. Its significance is not exhausted by relation count or graph centrality: the node contributes a locally identifiable organising pattern that helps neighbouring routes converge, remain compatible, resist drift, and recover after perturbation.
-
-An FTCN is therefore not merely a busy junction.
+> A signature-bearing coherence anchor around which multiple relations organise and through which traversal remains mutually consistent. Its significance is not exhausted by relation count or graph centrality: the node contributes an identifiable organising pattern that helps neighbouring routes converge, remain compatible, resist drift, and recover after perturbation.
 
 A candidate FTCN combines four properties:
 
@@ -61,146 +38,83 @@ A candidate FTCN combines four properties:
 3. **Coherent signature** — the node has a recoverable constraint-pattern or response-pattern of its own.
 4. **Coherence attraction** — surrounding routes or states tend to reconstruct, return toward, or organise around that signature after disturbance.
 
-The originating intuitive term for the fourth property is `pull`.
+The intuitive term **pull** refers only to this fourth operational property. In a scientific context it must be translated into a measurable domain-specific tendency; it is not automatically a physical force, field, energy, potential, or universal causal law.
 
-In public scientific use, pull must be translated into a measurable domain-specific tendency. It is not automatically a physical force, field, energy, potential, or universal causal law.
+## 4. Node-specific load versus incident relations
 
----
+[Module 25](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) tests load carried by relations and dependencies. A candidate FTCN may receive, reconcile, preserve, and regenerate coherence carried by several relations while contributing an anchor signature not reproduced by retaining the same incident links around a different node.
 
-## 4. Why a node is not reducible automatically to its relations
+The decisive discriminator is therefore not merely whether removing the node breaks its links. The stronger question is:
 
-Module 25 tests the load carried by relations and dependencies.
+> If the surrounding relations are preserved or fairly rerouted, does removal or substitution of the node still cause material deformation?
 
-A candidate FTCN may receive, reconcile, preserve, and regenerate the coherence carried by several relations while also contributing an anchor signature that is not reproduced by retaining the same incident links around a different node.
-
-The decisive discriminator is therefore not simply:
-
-```text
-Does removing the node break its links?
-```
-
-It is:
-
-```text
-If the surrounding relations are preserved or fairly rerouted,
-does removal or substitution of the node still cause material deformation?
-```
-
-If all relevant function survives a relation-preserving reroute, the candidate may be a convenient junction rather than an FTCN.
-
-If the surrounding relations remain available but convergence, compatibility, correction, recovery, or whole-system coherence still degrades reproducibly, the candidate may carry anchor-specific load.
-
----
+If relevant function survives a fair relation-preserving reroute, the candidate may be a convenient junction rather than an FTCN. If convergence, compatibility, correction, recovery, or whole-system coherence still degrades with the relations preserved, the node may carry anchor-specific load.
 
 ## 5. Coherent signature
 
-Let `n` be a candidate node in a declared domain.
+Let $n$ be a candidate node in a declared domain. Its provisional coherent signature may be represented abstractly as
 
-Its provisional coherent signature may be represented abstractly as:
+$$
+\sigma_n
+=
+\sigma\!\left(n\mid d,\mathcal B,\mathcal T,\mathcal C\right),
+$$
 
-```text
-σ_n = signature(n | domain, boundary, task, conditions)
-```
+where $d$ denotes domain, $\mathcal B$ the relevant boundary, $\mathcal T$ the task set, and $\mathcal C$ the declared conditions.
 
-The signature may contain any domain-lawful combination of:
+The signature may contain canonical constraints, admissible transition rules, characteristic perturbation responses, routing or correction behaviour, stable relationships among neighbouring states, reconstruction requirements, calibration boundaries, or observer-positioned registration where operationally relevant.
 
-- canonical constraints;
-- admissible transition rules;
-- characteristic response to perturbation;
-- routing or correction behaviour;
-- stable relationships among neighbouring states;
-- reconstruction requirements;
-- calibration or error boundaries;
-- observer-positioned registration where operationally relevant.
-
-`σ_n` is a bookkeeping handle, not a claim that every node contains a literal hidden code or physical field.
+$\sigma_n$ is a bookkeeping handle, not a claim that every node contains a literal hidden code or physical field.
 
 A coherent signature should be recoverable from more than one legitimate entry route and should discriminate the candidate node from plausible substitutes.
 
----
+## 6. Coherence attraction
 
-## 6. Coherence attraction or pull
+**Coherence attraction** is the provisional name for the measurable tendency of neighbouring routes, states, corrections, or interpretations to converge toward, preserve, or reconstruct a candidate node's coherent signature.
 
-Coherence attraction is the provisional name for:
+Possible operational indicators include improved multi-entry convergence, reduced divergence after correction, lower reconstruction cost, increased probability of recovering the same constraint set after perturbation, stable routing toward a common resolution, reconstitution from partial neighbouring structure, lower contradiction persistence, and improved repair after branch failure.
 
-> The measurable tendency of neighbouring routes, states, corrections, or interpretations to converge toward, preserve, or reconstruct a candidate node's coherent signature.
+No single indicator is universal.
 
-Possible operational indicators include:
-
-- improved multi-entry convergence;
-- reduced divergence after correction;
-- lower reconstruction cost;
-- increased probability of recovering the same constraint set after perturbation;
-- stable routing toward a common resolution;
-- reconstitution of the candidate node from partial neighbouring structure;
-- lower contradiction persistence;
-- improved repair after branch failure.
-
-No one indicator is universal.
-
-In a physical application, force, energy, potential, field, or attraction language requires equations, units, coupling, conservation analysis, controls, and discriminating measurements. Until those exist, `pull` remains an operational convergence hypothesis rather than a physical-force claim.
-
----
+In a physical application, force, energy, potential, field, or attraction language requires equations, units, coupling, conservation analysis, controls, and discriminating measurements. Until those exist, “pull” remains an operational convergence hypothesis rather than a physical-force claim.
 
 ## 7. Node-level deformation assay
 
-Let the intact system produce a pre-registered outcome vector:
+Let the intact system produce a preregistered outcome vector $\mathbf Y_{\mathrm{base}}$. Let $\mathbf Y_{-n}$ be the outcome after removing or disabling candidate node $n$.
 
-```text
-Y_base
-```
+A provisional node-deformation vector is
 
-Let:
+$$
+\mathbf D_V(n)
+=
+\mathbf Y_{\mathrm{base}}-\mathbf Y_{-n}.
+$$
 
-```text
-Y_-n
-```
+The subtraction is valid only for coordinates whose direction and comparability are declared. Scalar aggregation should be avoided unless quantities are commensurable or normalised and weights are fixed in advance.
 
-be the outcome after removing or disabling candidate node `n`.
+A stronger test preserves the surrounding relation set through a plausible alternative junction $n'$ and compares
 
-Define the node-deformation vector provisionally as:
+$$
+\mathbf Y_{\mathrm{base}}
+\quad\text{with}\quad
+\mathbf Y_{n\to n'}.
+$$
 
-```text
-D_V(n) = Y_base - Y_-n
-```
-
-The subtraction is valid only for coordinates whose direction and comparability are declared. As in module 25, scalar aggregation should be avoided unless quantities are commensurable or normalised and weights are fixed in advance.
-
-A stronger test preserves the surrounding relation set through a plausible alternative junction `n'`:
-
-```text
-Y_n→n'
-```
-
-The anchor-specific question is whether the original node outperforms the fair rerouted substitute on pre-registered measures:
-
-```text
-Y_base versus Y_n→n'
-```
-
-The exact comparison rule must be domain-specific. The module does not declare a universal scalar anchor score.
-
----
+The exact comparison rule is domain-specific. This module does not declare a universal scalar anchor score.
 
 ## 8. Required deformation passes
 
 ### 8.1 Node ablation
 
-Remove or disable the candidate node while holding content, model, compute, time, access, and scoring procedure constant where applicable.
-
-This detects obvious node dependence but confounds the node with the relations lost alongside it.
+Remove or disable the candidate node while holding content, model, compute, time, access, and scoring procedure constant where applicable. This detects obvious node dependence but confounds the node with relations lost alongside it.
 
 ### 8.2 Relation-preserving reroute
 
-Preserve the surrounding relations through a plausible alternative node or route.
-
-This tests whether the original node contributes more than junction convenience.
+Preserve the surrounding relations through a plausible alternative node or route. This tests whether the original node contributes more than junction convenience.
 
 ### 8.3 Signature substitution
 
-Replace the node with a plausible near-equivalent that preserves surface role while removing one defining constraint from `σ_n`.
-
-This tests whether the exact coherent signature matters.
+Replace the node with a plausible near-equivalent that preserves surface role while removing one defining constraint from $\sigma_n$. This tests whether the exact coherent signature matters.
 
 ### 8.4 Multi-entry reconstruction
 
@@ -220,9 +134,7 @@ Test whether an apparently dispensable node becomes load-bearing under transfer,
 
 ### 8.8 Neutral-domain transfer
 
-Apply the classification to newly written or otherwise neutral domains using domain-specific measures. A category that works only inside the originating corpus may be an internal scaffold rather than a general method.
-
----
+Apply the classification to neutral domains using domain-specific measures. A category that works only inside the originating corpus may be an internal scaffold rather than a general method.
 
 ## 9. Provisional node classifications
 
@@ -254,117 +166,58 @@ The node attracts, stabilises, or organises the system while reducing truth cont
 
 The model deforms internally when the node is removed, but held-out performance, external evidence, transfer, or fair substitution does not support the claimed function.
 
----
-
 ## 10. Cross-domain application discipline
 
-The same category may be tested across domains, but the meaning of node, signature, traversal, pull, and deformation must be redefined lawfully each time.
+The same category may be tested across domains, but the meanings of node, signature, traversal, attraction, and deformation must be redefined lawfully each time.
 
-Possible candidate applications include:
-
-- a canonical definition or correction hub in an AI knowledge architecture;
-- a regulatory junction in a biological network;
-- a concept or goal-state that stabilises cognitive interpretation;
-- a procedural address around which several instructions resolve;
-- a trust, role, or norm anchor in a social system;
-- a state, constraint, or relational object in physics.
+Candidate application classes include a canonical definition or correction hub in an AI knowledge architecture, a regulatory junction in a biological network, a concept or goal-state stabilising cognitive interpretation, a procedural address around which several instructions resolve, a trust or norm anchor in a social system, or a state or relational object in physics.
 
 These are application classes, not confirmed examples.
 
-A successful result in one domain does not automatically transmit mechanism, evidence, ontology, units, causation, or physical status to another.
+A successful result in one domain does not automatically transfer mechanism, evidence, ontology, units, causation, or physical status to another.
 
-No untyped inheritance applies.
+> No untyped inheritance.
 
----
+## 11. Relationship to Modules 24A, 24B, and 25
 
-## 11. Relationship to modules 24A, 24B, and 25
+[Module 24A](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) asks whether active traversal of a typed architecture produces functional gain and whether reciprocal coupling can exceed a matched baseline. FTCNs propose one candidate source of traversal stability: specific nodes may anchor convergence, correction, state retention, and reconstitution.
 
-### Module 24A
+[Module 24B](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) requires the strongest fair null, complete-history replay, path-dependence controls, and strong alternative pairings. An FTCN claim therefore requires strong alternative nodes and relation-preserving reroutes rather than a damaged or empty control.
 
-Module 24A asks whether active traversal of a typed architecture produces functional gain and whether reciprocal coupling can exceed a matched additive baseline.
-
-FTCNs propose one candidate source of traversal stability: specific nodes may anchor convergence, correction, state retention, and reconstitution.
-
-### Module 24B
-
-Module 24B requires the strongest fair null, complete-history replay, path-dependence controls, and strong alternative pairings.
-
-An FTCN claim therefore requires strong alternative nodes and relation-preserving reroutes, not only a damaged or empty control.
-
-### Module 25
-
-Module 25 classifies relation-level structural, reality, generative, and whole-system integrity load through controlled deformation.
-
-Module 25A adds a node-level question:
+[Module 25](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) classifies relation-level structural, reality, generative, and whole-system integrity load. Module 25A adds the node-level question:
 
 > Does the intersection merely collect relations, or does it possess a coherent anchor signature whose organising contribution survives controls for the relations themselves?
 
-Module 25 remains the governing deformation and whole-system discipline. Module 25A does not replace it.
-
----
+Module 25 remains the governing deformation and whole-system discipline.
 
 ## 12. Falsifiers and reduction rules
 
-The FTCN hypothesis for a candidate node is reduced or rejected where:
+The FTCN hypothesis for a candidate node is reduced or rejected where relation-preserving rerouting reproduces the complete function; apparent gain is explained by extra content, access, metadata, compute, time, or privileged labels; the candidate has high centrality but no held-out effect; no stable signature is reconstructed across legitimate entry routes; perturbation produces no measurable return or recovery tendency; a simpler established construct explains the result without loss; the proposed anchor improves internal consistency while weakening truth contact or whole-system integrity; or effects do not replicate where generality is claimed.
 
-- relation-preserving rerouting reproduces the complete function;
-- apparent gain is explained by extra content, access, metadata, compute, time, or privileged labels;
-- the candidate has high centrality but no held-out or external effect;
-- no stable signature is reconstructed across legitimate entry routes;
-- perturbation produces no measurable return or recovery tendency;
-- a simpler established construct explains the result without loss;
-- the proposed anchor improves internal consistency while weakening truth contact or whole-system integrity;
-- effects do not replicate across tasks, implementations, or neutral domains where generality is claimed;
-- physical pull language cannot be translated into a lawful physical model where a physical claim is made.
+A physical pull claim also fails where the supposed attraction cannot be translated into a lawful physical model with units, coupling, controls, and measurement.
 
 Reduction rules:
 
-- If relations alone reproduce the function, call it a **relation-supported junction**.
-- If several nodes jointly carry the effect, call it a **redundant anchor network**.
-- If the effect appears only under stress, call it a **latent or stress anchor**.
-- If no material effect survives fair tests, call it **traversal-neutral**.
-- If the node stabilises falsehood or exported damage, call it a **false coherence anchor**, not an FTCN.
-
----
+- if relations alone reproduce the function, classify the object as a **relation-supported junction**;
+- if several nodes jointly carry the effect, classify a **redundant anchor network**;
+- if the effect appears only under stress, classify a **latent or stress anchor**;
+- if no material effect survives fair tests, classify the node as **traversal-neutral**;
+- if the node stabilises falsehood or exported damage, classify a **false coherence anchor**, not an FTCN.
 
 ## 13. Novelty boundary
 
-This module does not claim that nodes, hubs, attractors, control points, graph centrality, regulatory junctions, anchors, ablation, or perturbation analysis are new.
+Nodes, hubs, attractors, control points, graph centrality, regulatory junctions, anchors, ablation, and perturbation analysis are established concepts.
 
-The proposed contribution is the combined cross-domain category and discriminator set:
+The proposed contribution is the combined cross-domain discriminator: a signature-bearing node is tested for convergence, anchoring, operational coherence attraction, relation-preserving reroute resistance, node-level deformation, and whole-system integrity.
 
-```text
-signature-bearing node
-+ convergence
-+ anchoring
-+ operational coherence attraction
-+ relation-preserving reroute control
-+ node-level deformation
-+ whole-system integrity audit
-```
+Any future novelty claim requires comparison with the relevant literature in each target domain.
 
-Any future novelty claim must be tested against the relevant literature in each target domain.
+## 14. Present status
 
----
+This module records a public timestamped research direction. It is not an empirical result, established cross-domain law, completed mathematical theory, or physical-force model.
 
-## 14. Compressed statement
+Promotion requires domain-specific operational definitions, fair reroute and substitution controls, preregistered tasks and measures, held-out effects, replication, neutral-domain transfer where generality is claimed, and no concealed loss of calibration, truth contact, agency, repair, or whole-system viability.
 
-> Relations carry traversal. Fundamental Traversal Coherence Nodes anchor its shared meaning, exert reconstructive pull through their coherent signature, and keep separated routes part of one recoverable whole.
+## 15. Compressed statement
 
----
-
-## 15. Present status
-
-This module records a public, timestamped research direction.
-
-It is not an empirical result, established cross-domain law, completed mathematical theory, or physical-force model.
-
-Promotion requires:
-
-- domain-specific operational definitions;
-- fair reroute and substitution controls;
-- pre-registered tasks and measures;
-- held-out effects;
-- replication;
-- neutral-domain transfer where generality is claimed;
-- and no concealed loss of calibration, truth contact, agency, repair, or whole-system viability.
+> Relations carry traversal. A candidate Fundamental Traversal Coherence Node is an anchor whose signature supports convergence and recovery beyond what is explained by its incident relations alone. That claim survives only if relation-preserving reroutes, fair substitutions, perturbation, and held-out tests leave a reproducible node-specific effect.

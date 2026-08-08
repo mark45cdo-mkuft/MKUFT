@@ -1,153 +1,115 @@
 # MKUFT Silver Update — Release Notes
 
-Author: Mark Charles McLaughlin  
-Status: final structural release  
-Date: 12 July 2026  
-Scope: cross-layer architecture, ambiguity dynamics, agency accessibility, repository traversal, and public-release hardening
-
----
+**Author:** Mark Charles McLaughlin  
+**Release date:** 12 July 2026  
+**Status:** historical public release record
 
 ## 1. Release purpose
 
-The Silver Update makes previously implicit structure explicit.
+The Silver Update made several previously implicit structures explicit within the public MKUFT working canon. It did not replace the original DOI work or claim that all branches had equal evidential support.
 
-The public MKUFT stack already contained constrained traversal, S–I–P–O, cost, coherence, boundary, observer discipline, LUCY, GRACE, OCQS, experimental pathways, and falsification.
+The release concentrated on ambiguity dynamics, cross-layer addressing, agency accessibility, and the public dependency structure linking those modules to the existing theory, mathematical, experimental, and falsification documents.
 
-This release adds connective machinery that allows those parts to support one another more reliably.
+## 2. Principal additions
 
-It does not replace the original DOI work. It is a structural revision of the controlled public working copy.
+### Ambiguity dynamics
 
----
+The update separated unresolved state volume, low-cost route connectivity, and preserved access. A representative form is
 
-## 2. Main advances
+$$
+A_{t,\mathrm{vol}}^{(d)}
+=
+\log\!\left(1+\frac{\mu_d(\Omega_t^{(d)})}{\mu_{0,d}}\right),
+$$
 
-### Ambiguity becomes a formal dynamic variable
+with
 
-The update separates:
+$$
+R_t\in[0,1],
+\qquad
+X_t\in[0,1],
+$$
 
-- unresolved state volume;
-- low-cost route connectivity;
-- preserved access or influence.
+and the provisional manoeuvrability index
 
-```text
-A_t^vol = log(1 + μ(Ω_t)/μ_0)
-R_t ∈ [0,1]
-X_t ∈ [0,1]
-M_t = A_t^vol × R_t × X_t
-```
+$$
+M_t=A_{t,\mathrm{vol}}^{(d)}R_tX_t.
+$$
 
-`M_t` is a heuristic audit index, not a validated universal law.
+$M_t$ is a heuristic audit index, not a validated universal law.
 
-### Cross-layer invariants gain an address rule
+See [Ambiguity Dynamics and Manoeuvre Space](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md).
 
-```text
-K_L = A_L(K;θ_L)
-```
+### Cross-layer invariant addressing
 
-> One invariant. Many layer addresses. No fragmentation.
+The update introduced an explicit layer-address form,
 
-The same formula across layers is treated as a template unless layer-specific variables, units, coupling, evidence, and falsifiers are supplied.
+$$
+K_L=A_L(K;\theta_L),
+$$
 
-### Agency capacity is separated from practical access
+so that a candidate invariant may retain its relational identity while variables, spaces, units, evidence, couplings, and falsifiers change honestly with the active layer.
 
-```text
-U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
-Agency_effective(t) = Agency_capacity × a_t
-```
+See [Cross-Layer Invariants and Layer Addressing](docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md).
 
-The capture index is labelled heuristic and its factors are normalised. The module is not a clinical, legal, or moral diagnostic score.
+### Agency capacity and practical access
 
-### The repository gains dependency architecture
+The agency branch separated retained action capacity from practical accessibility:
 
-The cross-support map now includes a complete integration registry for numbered documents `01` through `24`, plus entry routes, neighbour rules, falsifiers, and release audits.
+$$
+U_t^{\mathrm{access}}
+=
+\left\{u\in U_t:G_t(u;T_t,H_t)>\theta_{\mathrm{access}}\right\},
+$$
 
----
+with a schematic capacity/access distinction
 
-## 3. New modules
+$$
+\mathrm{Agency}_{\mathrm{effective}}(t)
+=
+\mathrm{Agency}_{\mathrm{capacity}}\,a_t.
+$$
 
-- `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`
-- `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
-- `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md`
-- `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
+The model is operational rather than a clinical, legal, or moral diagnostic score.
 
----
+See [Agency Accessibility and Capture Geometry](docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md).
 
-## 4. Existing stack integrated and hardened
+### Public dependency architecture
 
-The release updates the public entry shell, integrated master spine, canon map, mathematical and formal spine, experimental programme, falsification summary, worked examples, observer and threshold modules, and procedural/Voynich branches.
+[Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) linked the numbered public modules by role, support, application, and limiting conditions so that several reader routes could converge on the same definitions and claim boundaries.
 
-Dedicated modules remain canonical homes. Other documents carry only the formal handle or route needed for their role.
+## 3. Silver Update modules
 
----
+- [21 — Ambiguity Dynamics and Manoeuvre Space](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md)
+- [22 — Cross-Layer Invariants and Layer Addressing](docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
+- [23 — Agency Accessibility and Capture Geometry](docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)
+- [24 — Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 
-## 5. Release-hardening corrections
+## 4. Integration with the existing stack
 
-The final audit corrected:
+The release connected the new structural modules to the public entry documents, integrated master spine, mathematical and formal work, experimental programme, falsification summary, observer and threshold modules, and procedural/Voynich branches.
 
-- inaccurate visibility and status labels;
-- notation collisions;
-- unnormalised heuristic factors;
-- a statistical error in a two-condition worked example;
-- unclear distinctions between templates, hypotheses, and validated laws;
-- experimental wording that blurred proposals and findings;
-- applied wording that exceeded its evidence;
-- incomplete routing between older work and the Silver architecture.
+Dedicated modules remain the canonical homes of their full definitions. Other public documents provide only the context or route required for their own role.
 
-No access secret or uncleared non-public material was identified in the release.
+## 5. Scientific boundaries retained
 
-The public audit records categories of checks and corrections without reproducing discarded wording or private source material.
+The Silver Update did not establish that:
 
----
+- high ambiguity proves deception;
+- capture geometry proves a separate entity;
+- one layer may borrow evidence from another;
+- observer coherence overrides physics;
+- cross-layer resemblance proves a common physical mechanism;
+- a mathematical expression is evidence merely because it is internally coherent;
+- every application domain has equal empirical support;
+- the Voynich procedural hypothesis is a completed translation or established historical function.
 
-## 6. Claims not made
+## 6. Subsequent development
 
-The Silver Update does not claim:
+Later public work extended the Silver architecture through active traversal, strongest-fair-null controls, controlled deformation, foundational Layer Before Law analysis, typed equation hygiene, evidence promotion gates, and claim-discipline modules.
 
-- that high ambiguity proves deception;
-- that capture geometry proves a separate entity;
-- that one layer can borrow evidence from another;
-- that observer coherence overrides physics;
-- that cross-layer resemblance proves one mechanism;
-- that a mathematical expression is evidence by itself;
-- that every application domain has equal empirical support;
-- that the Voynich procedural hypothesis is a completed translation or established historical function.
+The current public hierarchy is given in the [Canon Map](CANON_MAP.md), while the current dependency relationships are given in the [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md).
 
----
+## 7. Release summary
 
-## 7. Release gates passed
-
-### Coherence
-
-- stable definitions and notation;
-- correct S–I–P–O placement;
-- canonical homes preserved;
-- old and new documents connected through the integration registry;
-- no silent symbol collision.
-
-### Hostile-reader resistance
-
-- metaphor is not mechanism;
-- analogy is not evidence;
-- observer terms remain bounded;
-- ontology does not outrun pattern evidence;
-- ordinary alternatives remain active.
-
-### Statistical discipline
-
-- uncertainty calculation matches the actual comparison;
-- illustrative data is labelled illustrative;
-- effect size and replication remain central;
-- nulls cannot be blamed on unspecified conditions.
-
-### Public hygiene
-
-- only publication-cleared material is included;
-- authorship and status lines are accurate;
-- no access secrets or private links are present;
-- wording is intelligible outside the original working context.
-
----
-
-## 8. Release summary
-
-> The Silver Update moves MKUFT from an organised canon toward a self-supporting public architecture: ambiguity is formalised as movement space, repeated structures are layer-addressed, agency accessibility is separated from capacity, older modules are routed through a complete integration registry, statistical errors are corrected, and public claim boundaries are hardened.
+> The Silver Update formalised ambiguity as manoeuvre space, introduced typed layer addressing, separated agency accessibility from retained capacity, and connected those additions to the wider public MKUFT architecture without promoting them beyond their stated evidential status.

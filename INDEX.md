@@ -1,80 +1,82 @@
 # MKUFT Public Index
 
-This index helps readers, search engines, citation tools, and AI retrieval tools locate the main public MKUFT files.
+**Author:** Mark Charles McLaughlin  
+**Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
+**DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)
 
-Canonical identity: **MKUFT — McLaughlin–Kairos Unified Field Theory**  
-Author: **Mark Charles McLaughlin**  
-DOI: `10.5281/zenodo.17780566`  
-Repository: `mark45cdo-mkuft/MKUFT`
+This index provides direct links to the principal public MKUFT documents.
 
 ## Start here
 
-- `00-START-HERE-MKUFT-PUBLIC.md` — public discovery and navigation page.
-- `START_HERE_PUBLIC_OVERVIEW.md` — plain-English overview.
-- `CANON_MAP.md` — canon hierarchy and current stack structure.
-- `PROVENANCE_DOI_AND_ATTRIBUTION.md` — DOI, copyright, licence, and citation identity.
-- `README.md` — repository map.
+- [README](README.md) — concise repository front page and reader routes.
+- [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md) — substantive plain-language introduction.
+- [Canon Map](CANON_MAP.md) — hierarchy and public navigation.
+- [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) — full architectural synthesis.
+- [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md) — citation and version identity.
 
-## Core theory files
+## Foundational and mathematical work
 
-- `docs/01_MKUFT_CORE_EXTENDED.md` — primary MKUFT theory spine.
-- `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical formalisation and scaffold.
-- `docs/03_STANDALONE_FORMAL_ADDENDUM.md` — node, trajectory, and coherence-cost formalism.
-- `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — broad empirical testing and falsification programme.
-- `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` — evidence tiers, promotion gates, flagship sequencing, and experiment-specific interpretation limits.
-- `docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md` — governing distinction between architecture, mathematics, evidence, mechanism, novelty, and claim status.
-- `docs/05_FALSIFICATION_SUMMARY.md` — compact falsification summary.
-- `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — worked numerical examples; illustrative rather than observed or canonical effect sizes.
+- [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
+- [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
+- [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
+- [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
+- [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+- [Scientific Tightening and Claim Discipline](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)
 
-## Empirical reading route
+## Experiments, evidence, and falsification
 
-1. `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — candidate branches and controls.
-2. `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md` — which branches are calibration, reconnaissance, discriminating signatures, mechanism flagships, or foundational recovery programmes.
-3. `docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md` — equation-status labels, novelty limits, public priority order, and hard claim boundaries.
-4. `docs/05_FALSIFICATION_SUMMARY.md` — branch and framework failure conditions.
-5. `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md` — statistical illustration only; it does not report an effect.
+- [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
+- [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+- [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+- [Worked Examples: RNG and Environment](docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md)
+- [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+- [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 
-The promotion and claim-discipline framework governs how broad assays may be upgraded. A positive anomaly is not treated as an MKUFT result unless MKUFT predicted the distinguishing fingerprint before the result was known. Mathematical legality, architectural coherence, empirical support, and physical mechanism remain separate claims.
+## Structural and traversal work
 
-## Structural and traversal canon
+- [GRACE Traversal Rule](docs/20_GRACE_TRAVERSAL_RULE.md)
+- [Ambiguity Dynamics and Manoeuvre Space](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md)
+- [Cross-Layer Invariants and Layer Addressing](docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
+- [Recursive Address Closure and Property Transmission](docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
+- [Agency Accessibility and Capture Geometry](docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)
+- [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
+- [Active Traversal and Functional Emergence](docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
+- [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
+- [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
+- [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
 
-- `docs/20_GRACE_TRAVERSAL_RULE.md` — clean traversal filter.
-- `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` — ambiguity and manoeuvre-space model.
-- `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md` — typed cross-layer address discipline.
-- `docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md` — recursive object identity, typed carriers, and no-untyped-inheritance rule.
-- `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` — agency accessibility and capture geometry.
-- `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — full integration registry.
-- `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — active traversal hypothesis.
-- `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — strongest fair null, replay, path dependence, and specificity.
-- `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation assay.
-- `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` — foundational physics category proposal.
-- `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — equation and traversal hygiene.
+## Observer, boundary, and physical support
 
-## Public bridge files
+- [OCQS Human Activation Layer](docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md)
+- [LUCY Boundary Threshold Framework](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md)
+- [Gradient Mechanics and Boundary-Shear Geometry](docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md)
+- [MKUFT–Dollard Field Geometry Notes](docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md)
 
-- `docs/11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md` — public explanation of the full stack.
-- `docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md` — individuality, boundary cost, and cohesion.
-- `docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md` — physics-facing explanation.
-- `docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md` — frequency, atoms, paradoxes, and symbolic physics.
-- `docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md` — field-geometry bridge.
+## Procedural and Voynich support
 
-## Support and application files
+- [ESRT / ESF and Voynich Support](docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md)
+- [ESRT / ESF Method Appendix](docs/10_ESRT_ESF_METHOD_APPENDIX.md)
+- [Voynich Procedural-Engine Analysis](docs/09_VOYNICH_PROCEDURAL_ENGINE.md)
 
-- `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md` — OCQS human quiet-state activation layer.
-- `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md` — LUCY threshold, membrane, and field framework.
-- `docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md` — laboratory-first gradient mechanics and controlled boundary geometry; no fixed-angle or craft-motion claim.
-- `docs/09_VOYNICH_PROCEDURAL_ENGINE.md` — Voynich procedural-engine analysis.
-- `docs/10_ESRT_ESF_METHOD_APPENDIX.md` — ESRT / ESF method appendix.
-- `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md` — compact support bridge.
+## Public explanatory bridges
 
-## Metadata and discovery files
+- [Full-Stack Convergence Public Explanation](docs/11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md)
+- [Individual Reality Cost and Cohesion](docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md)
+- [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
+- [Paradoxes, Frequency, Atoms, and Symbolic Physics](docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md)
+- [Clear Public MKUFT Explanation](docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md)
 
-- `CITATION.cff` — citation metadata.
-- `codemeta.json` — machine-readable scholarly/project metadata.
-- `DISCOVERY_KEYWORDS.md` — public search terms, aliases, and exact fingerprint phrases.
+## Publications
 
-## Exact search fingerprint
+- [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md) — publication record and preferred repository entry point for the ATLD methods paper.
+- [Frozen ATLD v1.0 archive](publications/ATLD_Evaluation_Protocol_v1.0/) — preservation mirror; the Zenodo PDF controls exact pagination and visual layout.
 
-```text
-MKUFT McLaughlin-Kairos Unified Field Theory Mark Charles McLaughlin Zenodo 10.5281/zenodo.17780566 GitHub mark45cdo-mkuft/MKUFT
-```
+## Rights and metadata
+
+- [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md)
+- [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md)
+- [Citation metadata](CITATION.cff)
+- [CodeMeta metadata](codemeta.json)
+- [Discovery keywords](DISCOVERY_KEYWORDS.md)
+
+The exact file, version, DOI record, and licence attached to the material being used determine its citation and rights identity.
