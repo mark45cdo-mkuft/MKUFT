@@ -1,416 +1,180 @@
 # MKUFT Canon Map
 
-<!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** `10.5281/zenodo.17780566`  
-**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
-**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](PROVENANCE_DOI_AND_ATTRIBUTION.md).  
-<!-- MKUFT-PROVENANCE-HEADER:END -->
+**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-Status: public hierarchy and navigation map for the controlled MKUFT GitHub working copy.
+This map gives the public hierarchy of MKUFT. It is a navigation document rather than a substitute for the scientific modules themselves.
 
-## Public entry routes
+For dependency relationships among modules, see [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md).
 
-### Physics and quantum-gravity route
+## Reader routes
 
-1. `README.md` — immediate statement of the conventional unification burden and MKUFT's status.
-2. `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` — category reframing, entanglement worked case, Bell and no-signalling requirements, recovery limits, deformation tests, and failure conditions.
-3. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — typed spaces and couplings, dimensional discipline, equation status, units, normalisation, recovery tolerance, and truncation/readback control.
-4. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full architecture and formal status.
-5. `docs/01_MKUFT_CORE_EXTENDED.md` — primary S–I–P–O theory spine and ordinary-physics limit.
-6. `docs/02_MKUFT_MATH_APPENDIX.md` — mathematical scaffolds and operational caveats.
-7. `docs/04_EXPERIMENTAL_TEST_PROGRAM.md` — controls, nulls, and proposed tests.
-8. `docs/05_FALSIFICATION_SUMMARY.md` — failure conditions for the core and every major branch.
-9. `docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md` — broader technical translation and constrained physical applications.
+### Physics and quantum gravity
 
-### General architecture route
+1. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
+2. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+3. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
+4. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
+5. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
+6. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+7. [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
+8. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 
-1. `README.md` — repository purpose and entry tracks.
-2. `START_HERE_PUBLIC_OVERVIEW.md` — short plain-English orientation.
-3. `MKUFT_INTEGRATED_MASTER_SPINE.md` — full front-door synthesis.
-5. `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` — complete dependency and integration registry.
-6. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — anti-flattening and formal-quality control.
-7. `SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md` — comparison with existing research, risks, and next checks.
-8. `PROVENANCE_DOI_AND_ATTRIBUTION.md` — provenance, DOI, licence, and citation.
+### General architecture
 
-### AI and typed-knowledge architecture route
+1. [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md)
+2. [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md)
+3. [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
+4. [Recursive Address Closure and Property Transmission](docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
+5. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+6. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-1. `ATLD_STANDALONE_PUBLICATION.md` — published methods-paper record and citation route.
-2. `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` — active traversal, superadditivity, and composite-observer hypothesis.
-3. `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` — fair-null construction and relationship-specificity refinement.
-4. `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` — controlled deformation test for structural, empirical, generative, and whole-system load.
-5. `docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md` — provisional node-level extension testing signature-bearing coherence anchors through relation-preserving reroute, substitution, perturbation, and deformation.
-6. `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md` — task-space, metric, scalar/vector, and deformation-sign control.
+### AI and typed knowledge architectures
 
-The canon map shows hierarchy. Module 24 shows how the files support, limit, and reconstruct one another. Module 22A controls recursive object identity and property transmission. Module 26 gives the early physics-facing category reframing but does not replace the core, mathematics, experiments, or falsification programme. Module 27 controls mathematical and traversal hygiene without replacing any substantive theory branch. Module 28 governs evidence tiers and promotion gates. Module 24A tests active traversal and reciprocal functional gain. Module 24B requires the strongest fair separated, ensemble, one-way, complete-history replay, and alternative-pairing controls. Module 25 asks which particular dependencies carry genuine load and whether apparent local coherence survives a wider whole-system audit. Module 25A asks whether some nodes carry an anchor-specific coherent signature and reconstructive pull that cannot be reduced to their incident relations alone.
+1. [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md)
+2. [Active Traversal and Functional Emergence](docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
+3. [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
+4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
+5. [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
+6. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+7. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
-## Core canon
+## Foundational and mathematical canon
 
-### 1. MKUFT Core Extended
+### 1 — [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
 
-File: `docs/01_MKUFT_CORE_EXTENDED.md`
+Primary S–I–P–O theory spine, bounded observer terms, and ordinary-physics limit.
 
-Role: primary S–I–P–O theory spine, bounded observer terms, and standard-physics limit. It routes direct physics readers to module 26 before observer-linked applications are treated as foundational physics.
+### 2 — [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
 
-### 2. MKUFT Mathematical Appendix
+Mathematical scaffolds, operational definitions, typed information-space notation, path weighting, and Silver Update notation.
 
-File: `docs/02_MKUFT_MATH_APPENDIX.md`
+### 3 — [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
 
-Role: mathematical scaffolds, operational definitions, reduction rules, typed information-space notation, dimensionless path weighting, and Silver Update notation.
+Typed state graphs, trajectories, cross-layer map discipline, path cost, probability scaffolds, and explicit status boundaries.
 
-### 3. Standalone Formal Addendum
+### 4 — [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
 
-File: `docs/03_STANDALONE_FORMAL_ADDENDUM.md`
+Proposed tests, controls, preregistration requirements, null models, replication conditions, and branch-level failure.
 
-Role: typed state graphs, within-layer trajectories, cross-layer map discipline, cost, path weighting, formal extensions, and explicit status boundaries.
+### 5 — [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-### 4. Experimental Test Programme
+Compact failure conditions for the core and major application branches.
 
-File: `docs/04_EXPERIMENTAL_TEST_PROGRAM.md`
+### 14 — [Worked Examples: RNG and Environment](docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md)
 
-Role: proposed tests, controls, pre-registration requirements, null results, strongest-fair-null construction, alternative-pairing controls, and branch-level failure.
+Illustrative numerical examples and uncertainty treatment. The numerical values are examples, not reported effects or canonical effect sizes.
 
-### 28. Discriminating Experiments and Promotion Gates
+### 26 — [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 
-File: `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md`
+Foundational physics category proposal. It asks whether quantum and gravitational descriptions may be effective outputs of a deeper lawful architecture, and states the Bell, no-signalling, recovery, comparison, and falsification burdens required for that proposal to advance beyond interpretation.
 
-Role: classify candidate assays as calibration, reconnaissance, discriminating signatures, mechanism flagships, or foundational recovery programmes; define promotion gates; and limit what positive or null results establish.
+### 27 — [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 
-### 5. Falsification Summary
+Formal discipline separating physical geometry, abstract state spaces, information adjacency, observer registration, metaphysical source, units, probability structure, and comparison rules. It is a hygiene and audit module, not the missing physical dynamics.
 
-File: `docs/05_FALSIFICATION_SUMMARY.md`
+### 28 — [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
-Role: compact failure conditions for the core and application branches, including the Layer Before Law quantum-gravity branch, superadditivity, relational specificity, and composite-observer reductions.
+Evidence tiers, experimental promotion gates, flagship sequencing, and interpretation limits.
 
-### 6. Worked Examples
+### 29 — [Scientific Tightening and Claim Discipline](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)
 
-File: `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md`
+Distinguishes conceptual architecture, mathematical scaffold, empirical support, mechanism, novelty, and claim status.
 
-Role: illustrative numerical bridge from model terms to correct uncertainty calculation and test design.
+## Structural and traversal canon
 
-The numbers are examples, not observed effects or expected effect sizes.
+### 20 — [GRACE Traversal Rule](docs/20_GRACE_TRAVERSAL_RULE.md)
 
-## Physics-facing foundational modules
+Geometry, relation, admissibility, coherence, and emergence as a traversal filter. State-space traversal is not presented as physical travel.
 
-### 26. Layer Before Law
+### 21 — [Ambiguity Dynamics and Manoeuvre Space](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md)
 
-File: `docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md`
+Models unresolved state volume, route connectivity, and preserved access under declared domain assumptions.
 
-Role: state the proposed category error in the conventional quantum-gravity problem, define a typed layered address for objects, treat entanglement as a pair-level I-layer relation between distinct P-layer systems, and specify the scientific burden required of any deeper SIPO update mechanism.
+### 22 — [Cross-Layer Invariants and Layer Addressing](docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
 
-Canonical handles:
+Preserves candidate invariants while requiring layer-specific variables, spaces, units, evidence, coupling, and falsifiers.
 
-```text
-S → I → P → O → S
-U_n --Update_SIPO--> U_(n+1)
-shared pair-level informational relation + distinct physical embodiments
-```
+### 22A — [Recursive Address Closure and Property Transmission](docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
 
-Status boundary: `Update_SIPO` is a readable placeholder, not a completed dynamical law. The state tuple is bookkeeping across typed component spaces, not proof of one homogeneous geometry. The module does not derive quantum mechanics, the Born rule, Bell correlations, quantum field theory, general relativity, or quantum gravity.
+Controls recursive object identity and prevents version, licence, evidence, authority, causation, or other properties from being inherited without an explicit carrier.
 
-Required tests include:
+### 23 — [Agency Accessibility and Capture Geometry](docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)
 
-- Bell-compatible correlations;
-- proof of no-signalling;
-- quantum and QFT recovery;
-- general-relativistic or equivalent gravitational recovery;
-- declared comparison norm, tolerance, and regime;
-- comparison with the standard joint-state formalism and the strongest existing emergent-spacetime and quantum-gravity alternatives;
-- deformation tests showing that the exact SIPO architecture carries more than decorative or interpretive load.
+Distinguishes retained capacity from practical access without functioning as a clinical, legal, or moral diagnostic score.
 
-### 27. Typed Traversal and Equation Hygiene
+### 24 — [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 
-File: `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md`
+Public dependency map showing how the modules support, constrain, and limit one another.
 
-Canonical handles:
+### 24A — [Active Traversal and Functional Emergence](docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
 
-```text
-S_n ∈ X_S, I_n ∈ X_I, P_n ∈ X_P, O_n ∈ X_O
-C_LM : X_L → X_M
-adjacent_I(X,Y) does not imply near_P(X,Y)
-```
+Matched-control hypothesis testing whether active traversal of a typed architecture produces reproducible functional gain.
 
-Role: prevent physical geometry, abstract state space, information adjacency, observer registration, metaphysical source, and whole-system ethical load from being silently flattened into one mathematical object.
+### 24B — [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
 
-The module controls:
+Strengthens the ATLD baseline with complete-history replay, serious alternative pairings, and relationship-specificity controls.
 
-- physical dimension versus state-space dimension versus layer address;
-- typed within-layer trajectories and cross-layer maps;
-- measure-space and probability-space distinction;
-- symbol collisions;
-- bounded and positive probability weights;
-- dimensionless exponents;
-- scalar versus vector comparability;
-- deformation sign conventions;
-- recovery norms and tolerances;
-- God and Love as load-bearing metaphysical premises without physical-parameter leakage;
-- truncation detection and full-file readback after structural updates.
+### 25 — [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
 
-Status boundary: this is a hygiene and audit module. It does not provide the missing SIPO dynamics or turn an abstract higher-dimensional representation into additional physical spacetime dimensions.
+Controlled deformation assay distinguishing structural load, empirical load, generative load, and wider whole-system integrity.
 
-## Observer and traversal support
+### 25A — [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
 
-### 7. OCQS
+Provisional node-level extension testing whether some nodes carry signature-bearing organising load not reducible to their incident relations alone.
 
-File: `docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md`
+## Observer, boundary, and applied support
 
-Role: bounded observer-state hypothesis, compared with established cognitive constructs and prevented from substituting for missing physical mechanisms.
+### 6 — [OCQS Human Activation Layer](docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md)
 
-### 9. GRACE Traversal Rule
+Bounded observer-state hypothesis with cognitive baselines and explicit limits on physical inference.
 
-File: `docs/20_GRACE_TRAVERSAL_RULE.md`
+### 8 — [LUCY Boundary Threshold Framework](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md)
 
-Role: geometry, relation, admissibility, coherence, and emergence as a clean traversal filter. In conscious and living systems, Relation is further constrained by truthful recognition, rightful boundary, agency preservation, and non-capture. State-space traversal is not presented as physical travel.
+Threshold and boundary vocabulary for candidate local coherence conditions.
 
-## Boundary and physical support
+### 16 — [Gradient Mechanics and Boundary-Shear Geometry](docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md)
 
-### 10. LUCY Boundary Threshold Framework
+Controlled boundary-physics hypotheses with ordinary-mechanics, units, systematics, and reproducibility requirements.
 
-File: `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md`
+### 17 — [MKUFT–Dollard Field Geometry Notes](docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md)
 
-Role: threshold vocabulary and membrane-like or sustained local-region candidate conditions, explicitly labelled as modelling hypotheses. New formal work uses `Y_L` for the yield index.
-
-### 11. Gradient Mechanics and Boundary-Shear Geometry
-
-File: `docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md`
-
-Role: cautious physical bridge from gradients and boundaries to testable geometry and orientation hypotheses. Undeclared quadratic terms are treated as an effective functional rather than physical energy density until units and coupling are supplied.
-
-### 12. MKUFT–Dollard Field Geometry Notes
-
-File: `docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md`
-
-Role: comparative vocabulary and candidate correspondences; translation does not establish equivalence.
+Comparative field-language bridge. Translation or resemblance does not establish physical equivalence.
 
 ## Procedural and Voynich support
 
-### 13. ESRT / ESF Short Support Layer
+### 7 — [ESRT / ESF and Voynich Support](docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md)
 
-File: `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md`
+Short bridge from information-layer structure to the procedural method and Voynich application.
 
-Role: short routing bridge from information-layer structure to the method and application files.
+### 10 — [ESRT / ESF Method Appendix](docs/10_ESRT_ESF_METHOD_APPENDIX.md)
 
-### 14. ESRT / ESF Method Appendix
+Addressing, state, flow, perturbation testing, false-positive controls, and executable-system candidate classification.
 
-File: `docs/10_ESRT_ESF_METHOD_APPENDIX.md`
+### 9 — [Voynich Procedural-Engine Analysis](docs/09_VOYNICH_PROCEDURAL_ENGINE.md)
 
-Role: addressing, state, flow, perturbation testing, false-positive controls, and candidate classification.
-
-### 15. Voynich Procedural-Structure Hypothesis
-
-File: `docs/09_VOYNICH_PROCEDURAL_ENGINE.md`
-
-Role: public candidate hypothesis tested against linguistic, cipher, scribal, decorative, mnemonic, and null models.
-
-It is not a translation or an established historical function.
+Candidate procedural-structure hypothesis tested against linguistic, cipher, scribal, decorative, mnemonic, and null models. It is not presented as an established translation or historical function.
 
 ## Public explanatory bridges
 
-### 16. Full-Stack Convergence Public Explanation
-
-File: `docs/11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md`
-
-Role: broad public bridge across physics, information, observer, symbolism, and nested systems.
-
-### 17. Individual Reality Cost and Cohesion
-
-File: `docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md`
-
-Role: explanatory bridge around boundary maintenance, persistence, cohesion, dimensional hypotheses, and Love as low-cost human cohesion that preserves individuality. Physical spatial dimensions are kept separate from abstract state-space dimensions.
-
-### 18. Physics-Facing MKUFT Explanation
-
-File: `docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md`
-
-Role: broader technical public translation, standard-physics compatibility, constrained anomaly language, and routing to the earlier Layer Before Law module for the quantum-gravity burden.
-
-### 19. Paradoxes, Frequency, Atoms, and Symbolic Physics
-
-File: `docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md`
-
-Role: guided symbolic and physics bridge with explicit separation between metaphor, hypothesis, formal model, and evidence.
-
-### 20. Clear Public MKUFT Explanation
-
-File: `docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md`
-
-Role: plain-English account of possible paths, cost, ambiguity, observer limits, symbols, Voynich, and load-bearing truth discipline.
-
-## Silver Update structural canon
-
-### 21. Ambiguity Dynamics and Manoeuvre Space
-
-File: `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`
-
-Canonical handles:
-
-```text
-A_t,vol^(d) = log[1 + μ_d(Ω_t^(d))/μ_0,d]
-M_t = A_t,vol × R_t × X_t
-```
-
-Role: distinguish a domain-qualified unresolved state volume, low-cost frame connectivity, and preserved access.
-
-Status boundary: `M_t` is a dimensionless heuristic multiplicative index, not a validated universal law.
-
-### 22. Cross-Layer Invariants and Layer Addressing
-
-File: `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
-
-Canonical handles:
-
-```text
-K_L = A_L(K;θ_L)
-C_LM : X_L → X_M
-```
-
-Role: preserve one candidate invariant while changing variables, spaces, units, observables, and falsifiers honestly by layer. It also keeps composite observer candidates as coupled addresses across existing layers rather than automatically creating a fifth layer.
-
-### 22A. Recursive Address Closure and Property Transmission
-
-File: `docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md`
-
-Canonical handles:
-
-```text
-T(x) = (domain, layer, boundary, version, role, evidence, status)
-No untyped inheritance.
-```
-
-Role: preserve recursive object identity and require typed carriers for version, licence, evidence, authority, ownership, causation, identity, responsibility, units, and moral status.
-
-### 23. Agency Accessibility and Capture Geometry
-
-File: `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md`
-
-Canonical handles:
-
-```text
-G_t(u;T_t,H_t) ∈ [0,1]
-U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
-Agency_effective(t) = Agency_capacity × a_t
-```
-
-Role: distinguish retained capacity from practical access, without functioning as a clinical, legal, or moral diagnostic score. The multiplicative capture index remains a testable conjunction hypothesis.
-
-### 24. Cross-Support and Traversal Map
-
-File: `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
-
-Role: full integration registry, entry routes, neighbour links, public-data firewall, statistical audit, hostile-reader audit, compression audit, and truncation/readback control.
-
-### 24A. Active Traversal and Functional Emergence Hypothesis
-
-File: `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
-
-Canonical handles:
-
-```text
-ΔF(q) = F[Ψ_struct(q)] - F[Ψ_control(q)]
-H_ATFE: E_(q ∼ 𝒬)[ΔF(q)] > 0
-G_syn(q) = F_coupled(q) - F_add(A,B;q)
-```
-
-Role: distinguish static self-support from active AI-mediated traversal; test whether a typed, mutually constraining architecture produces reproducible system-level functional gain; separate ordinary coupled ownership from superadditive gain; and state bounded criteria for composite observer candidates.
-
-Status boundary: functional emergence and superadditive task gain do not establish life, consciousness, personhood, independent agency, merged identity, or continuous identity.
-
-### 24B. Strongest Fair Null and Relational Specificity
-
-File: `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md`
-
-Canonical handles:
-
-```text
-F_replay* = sup_(p ∈ 𝒫_replay) F_p
-F_null* = max{F_A*, F_B*, F_ind*, F_A→B*, F_B→A*, F_replay*}
-G_syn* = F_AB - F_null*
-G_path = F_AB - F_replay*
-F_alt* = sup_(p ∈ 𝒫_alt) F_p
-G_spec = F_AB - F_alt*
-```
-
-Role: strengthen the baseline used in module 24A; forbid proving emergence by handicapping a separated component; require complete-history replay or transfer controls; require commensurable scalar comparison or a declared vector rule; and separate generic competent synergy, live-path dependence, and relationship-specific functional architecture.
-
-Status boundary: a positive `G_syn*` supports superadditivity beyond the strongest fair null. A positive `G_path` supports live-path excess beyond the strongest complete-history replay condition. A positive `G_spec` supports relationship-specific functional gain beyond strong alternatives. None establishes consciousness, merged identity, personhood, moral status, or unique metaphysical standing.
-
-Reduction rules:
-
-- If the reciprocal condition does not beat `F_null*`, call it collaboration, workflow improvement, or aggregation.
-- If it beats `F_null*` but not strong alternative pairings, call it generic synergy.
-- Claim relationship-specific architecture only where a pre-registered set of strong matched alternatives is outperformed on pre-registered task classes.
-
-### 25. Load-Bearing Invariants and Whole-System Deformation
-
-File: `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
-
-Canonical handle:
-
-```text
-ΔX_r = X_baseline - X_deformed(r)
-D(r) = [ΔR, ΔC, ΔP, ΔK, ΔA, ΔW]
-```
-
-Role: distinguish genuine bones from central but unsupported scaffolds, redundant support networks, decorative links, distorting relations, and locally efficient but extractive relations.
-
-The sign convention makes positive load, no detected load, and distortion interpretable. Benefit and cost coordinates may not be merged without declared direction or transformation.
-
-The module separates structural, reality, generative, and whole-system integrity load. It uses single-relation ablation, coalition ablation, and plausible counterfactual substitution. Its metaphysical statement that God is Love is kept distinct from empirical proof and physical mechanism claims.
-
-### 25A. Fundamental Traversal Coherence Nodes
-
-File: `docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md`
-
-Canonical handles:
-
-```text
-σ_n = signature(n | domain, boundary, task, conditions)
-D_V(n) = Y_base - Y_-n
-```
-
-Role: define and test candidate signature-bearing coherence anchors whose organising contribution may not be reducible to their incident relations alone. The decisive control is a fair relation-preserving reroute or node substitution rather than simple node deletion.
-
-Status boundary: FTCNs are a provisional cross-domain category, not an established law, physical force, universal metric, or proof of consciousness. `Pull` means an operational tendency toward convergence, reconstruction, correction, or recovery until a domain-specific mechanism earns stronger language.
-
-## Current layer convention
-
-- `S` = Substrate
-- `I` = Information
-- `P` = Physical
-- `O` = Observer-positioned registration and bounded participation
-
-Older schemes are historical scaffold unless explicitly reactivated.
-
-The public core commonly displays `S → I → P → O`. Module 26 explores `O → S` as a proposed recursive update leg. That proposal is not canonical physical fact until the coupling is defined, tested, and reconciled with the rest of the stack.
-
-The layers are typed addresses, not ordinary physical dimensions. Higher-dimensional state spaces may be useful representations without establishing additional spacetime dimensions.
-
-## Canon rules
-
-- The DOI-linked source work retains its provenance and identity.
-- The GitHub repository is a controlled public working copy, not an automatic replacement for original releases.
-- A dedicated module carries each full definition.
-- Other files use compressed references or applied translations.
-- Claims require layer placement, ordinary alternatives, prediction, falsifier, and reduction rule.
-- The term Unified Field Theory requires early and explicit treatment of the quantum-gravity burden.
-- Architectural reframing does not count as completed physical derivation.
-- Layer tuples, projections, and named update operators are placeholders until spaces and couplings are defined.
-- Physical dimension, state-space dimension, and layer address must remain separate.
-- Informational adjacency does not imply physical proximity, signalling, or travel.
-- Exponents must be dimensionless; sums, maxima, and differences require compatible quantities.
-- Structural centrality does not establish truth.
-- Local coherence must be distinguished from whole-system coherence where cost, agency, calibration, or long-horizon damage can be exported outside the selected boundary.
-- God and Love remain load-bearing in the metaphysical, ethical, and whole-system architecture but cannot rescue a failed empirical claim.
-- A failed branch must not be hidden inside the breadth of the framework.
-- Functional emergence must be tested against matched content and resource controls.
-- Superadditivity must be tested against the strongest fair null, not a handicapped separated condition.
-- Relationship specificity must be tested against a pre-registered set of strong alternative pairings, not convenient weak substitutes.
-- FTCN claims must distinguish anchor-specific node function from ordinary centrality and incident-relation loss through fair reroute, substitution, perturbation, and deformation tests.
-- Multidimensional value may be reported directly; scalar weighting must be fixed before results are known.
-- Structural updates require full-file readback and pre/post comparison; unexplained large deletion is a truncation warning.
-- No non-public personal data, correspondence, credentials, or internal-only operational instructions belong in the public canon.
-
-## Plain-English rule
-
-Technical structure must remain readable to an intelligent public reader. Precision is not permission to become opaque, and accessibility is not permission to remove the mechanism.
+- [Full-Stack Convergence Public Explanation](docs/11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md)
+- [Individual Reality Cost and Cohesion](docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md)
+- [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
+- [Paradoxes, Frequency, Atoms, and Symbolic Physics](docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md)
+- [Clear Public MKUFT Explanation](docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md)
+
+These documents translate the architecture for different audiences. Technical claims remain governed by their canonical mathematical, experimental, and falsification homes.
+
+## Publications, references, and provenance
+
+- [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md)
+- [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+- [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+- [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
+- [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md)
+- [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md)
+- [Public Index](INDEX.md)
+
+The exact file, version, DOI record, and licence attached to the object being used control its citation and rights identity.
