@@ -36,12 +36,13 @@ The framework distinguishes:
 ### Physics and quantum gravity
 
 1. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) — foundational category proposal, entanglement worked case, Bell/no-signalling burden, recovery requirements, and failure conditions.
-2. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) — typed spaces, dimensional discipline, notation, comparison rules, and equation status.
-3. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md) — primary S–I–P–O theory spine.
-4. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md) — mathematical scaffolds and operational caveats.
-5. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md) — proposed tests, controls, nulls, and replication requirements.
-6. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md) — branch-level and framework-level failure conditions.
-7. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md) — primary literature, neighbouring programmes, disputes, and strongest alternatives.
+2. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) — downstream LUCY effective-geometry hypothesis with threshold, common-boundary, recovery, promotion, and falsification requirements.
+3. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) — typed spaces, dimensional discipline, notation, comparison rules, and equation status.
+4. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md) — primary S–I–P–O theory spine.
+5. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md) — mathematical scaffolds and operational caveats.
+6. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md) — proposed tests, controls, nulls, and replication requirements.
+7. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md) — branch-level and framework-level failure conditions.
+8. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md) — primary literature, neighbouring programmes, disputes, and strongest alternatives.
 
 ### General architecture
 
