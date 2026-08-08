@@ -21,6 +21,10 @@ The map is navigation and dependency structure. It does not create evidence, est
 
 [README](../README.md) → [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Core](01_MKUFT_CORE_EXTENDED.md) → [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md) → [Experimental Programme](04_EXPERIMENTAL_TEST_PROGRAM.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
 
+### LUCY and effective geometry
+
+[LUCY Boundary Threshold Framework](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md) → [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
+
 ### General architecture
 
 [Start Here](../START_HERE_PUBLIC_OVERVIEW.md) → [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) → [Canon Map](../CANON_MAP.md) → [Cross-Support Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
@@ -83,12 +87,13 @@ These carry bounded observer-state hypotheses, action-map access, capture, respo
 Primary documents:
 
 - [LUCY Boundary Threshold Framework](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md)
+- [LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
 - [Gradient Mechanics and Boundary-Shear Geometry](16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md)
 - [MKUFT–Dollard Field Geometry Notes](17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md)
 - [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 
-These carry threshold, boundary, geometry, typed layer addressing, units, ordinary physical baselines, and reduction requirements.
+These carry threshold, boundary, selected effective-geometry hypotheses, common-boundary discrimination, typed layer addressing, units, ordinary physical baselines, and reduction requirements.
 
 ### Procedural and Voynich applications
 
@@ -247,6 +252,12 @@ $$
 
 It prevents physical geometry, state-space geometry, information adjacency, observer registration, and metaphysical language from being silently flattened into one mathematical object.
 
+### 30 — LUCY Threshold Geometry and Relational Closure
+
+[LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) is the downstream physical application of the canonical LUCY threshold sequence. It tests whether a declared relational-closure transition could select an effective geometry whose common boundary is independently detected by neutral matter, light, clocks, and related channels.
+
+The cross-layer coupling may be zero. The branch does not advance unless it survives ordinary electromagnetic, thermal, plasma, optical, acoustic, mechanical, scalar-tensor, and general-relativistic alternatives, recovers accepted limits, and passes the stated promotion gates.
+
 ## Complete public registry
 
 | Module | Public role | Primary support | Principal limit |
@@ -283,6 +294,7 @@ It prevents physical geometry, state-space geometry, information adjacency, obse
 | [27 — Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) | Mathematical and traversal discipline | Whole stack | Cannot replace missing dynamics |
 | [28 — Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) | Evidence-tier control | Experiments, falsification | Positive anomalies cannot outrun locked discriminators |
 | [29 — Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md) | Claim-status discipline | Whole scientific stack | Architecture, mathematics, evidence, and mechanism remain distinct |
+| [30 — LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) | Downstream effective-geometry LUCY hypothesis | 08, 26, 27, boundary physics | Conventional closure, accepted-limit recovery, common-boundary discrimination, replication |
 
 ## Public boundary
 
