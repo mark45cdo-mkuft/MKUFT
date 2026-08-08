@@ -1,381 +1,385 @@
-# MKUFT Mathematical Appendix — Clean Working Copy
+# MKUFT Mathematical Appendix
 
-<!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** `10.5281/zenodo.17780566`  
-**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
-**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
-<!-- MKUFT-PROVENANCE-HEADER:END -->
+**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-Status: mathematical backbone for the public controlled MKUFT GitHub working repository.
+**Status:** mathematical backbone for the public MKUFT working canon.
 
-## A1. Substrate as Measure Space
+## A1. Substrate as measure space
 
-The substrate scaffold is modelled as a measure space:
+The substrate scaffold is represented as a measure space,
 
-```text
-S = (Ω, Σ, μ)
-```
+$$
+S=(\Omega,\Sigma,\mu),
+$$
 
-where:
+where $\Omega$ is a set of possible configurations, $\Sigma$ a sigma-algebra of measurable subsets, and $\mu$ a baseline measure, weight, or propensity.
 
-- `Ω` is the set of possible configurations;
-- `Σ` is a sigma-algebra of measurable subsets of `Ω`;
-- `μ` assigns baseline measure, weight, or propensity.
+The scaffold becomes a probability space only when
 
-This becomes a probability space only when:
+$$
+\mu(\Omega)=1.
+$$
 
-```text
-μ(Ω) = 1
-```
+The substrate is not directly observed. This is a mathematical representation of structured possibility rather than evidence that a separate material medium has been detected.
 
-The substrate is not directly observed. This is a mathematical representation of structured possibility, not evidence that a separate material medium has been detected.
+## A2. Information structures
 
-## A2. Information Structures
+Because $I$ names the information layer, the mathematical function space is denoted by
 
-Because `I` already names the information layer, use `𝓘` for the mathematical function space:
+$$
+\mathcal I=L^2(\Omega,\mu).
+$$
 
-```text
-𝓘 = L²(Ω, μ)
-```
+An element $i\in\mathcal I$ represents one candidate information structure over the substrate. Such structures may encode patterns, constraints, correlations, and proto-physical forms.
 
-An element `i ∈ 𝓘` represents one candidate information structure over the substrate. Such structures may encode patterns, constraints, correlations, and proto-physical forms.
+For event $E$, define
 
-For event `E`, define:
+$$
+\mathcal I_E\subseteq\mathcal I
+$$
 
-```text
-𝓘_E ⊆ 𝓘
-```
+as the set of information structures compatible with $E$ under the active model.
 
-as the set of information structures compatible with `E` under the active model.
+## A3. Physical dynamics
 
-## A3. Physical Dynamics
+The physical layer supplies an accepted dynamical contribution,
 
-The physical layer supplies the accepted dynamical contribution:
+$$
+P_{\mathrm{phys}}(E),
+$$
 
-```text
-P_phys(E)
-```
+interpreted as a probability, probability density, or other prediction from the relevant established physical model. The mathematical type must be declared for the active event space.
 
-This is the probability, probability density, or prediction obtained from the relevant established physical model. The type must be stated for the active event space.
+## A4. Observer system and coherence functional
 
-## A4. Observer System and Coherence Functional
+Let the observer state be $\rho_O$. A bounded observer-state coherence functional may be written
 
-The observer is modelled as a system with state `ρ_O`. A bounded coherence functional is:
+$$
+\kappa:\operatorname{States}(\mathcal H_O)\rightarrow[0,1].
+$$
 
-```text
-κ : States(H_O) → [0,1]
-```
+High $\kappa$ denotes lower measured internal noise or contradiction according to a predefined proxy. The functional is not fixed to one measurement method and requires operational definition in each experiment.
 
-where high `κ` means lower measured internal noise or contradiction according to a pre-defined proxy.
+## A5. Integral realisation scaffold
 
-`κ` is not fixed to one measurement method and must be operationally defined in each experiment.
+For event $E$, define the unnormalised working weight
 
-## A5. Integral Realisation Equation
+$$
+\widetilde W(E)
+=
+\int_{i\in\mathcal I_E}
+D_{\mathrm{phys}}(E\mid i)
+W_{SI}(i\mid S,E)
+C_O(O\mid i,E)
+\,d\nu(i),
+$$
 
-For event `E`, define the unnormalised working weight:
+where $D_{\mathrm{phys}}(E\mid i)$ is the accepted physical contribution conditioned on information structure $i$, $W_{SI}(i\mid S,E)$ a candidate substrate-to-information weighting, $C_O(O\mid i,E)$ a bounded observer-condition term, and $\nu$ a measure over compatible information structures.
 
-```text
-W̃(E) = ∫_(i ∈ 𝓘_E)
-        D_phys(E|i)
-        W_SI(i|S,E)
-        C_O(O|i,E)
-        dν(i)
-```
+Where the expression is used as a probability weight, the integrand must be non-negative and the normalisation finite.
 
-where:
+For a discrete event space $\mathcal E$,
 
-- `D_phys(E|i)` is the accepted physical contribution conditioned on information structure `i`;
-- `W_SI(i|S,E)` is a candidate substrate-to-information weighting;
-- `C_O(O|i,E)` is a bounded observer-condition term;
-- `ν` is a measure over compatible information structures.
+$$
+P_{\mathrm{realized}}(E)
+=
+\frac{\widetilde W(E)}{Z},
+$$
 
-Where this is used as a probability weight, the integrand must be non-negative and the normalisation finite.
+with
 
-For a discrete event space `𝓔`, the realised probability is:
+$$
+Z
+=
+\sum_{E'\in\mathcal E}\widetilde W(E').
+$$
 
-```text
-P_realized(E) = W̃(E) / Z
-```
+For a continuous event space, the sum is replaced by an integral over a declared event-space measure.
 
-with:
+This is a theoretical scaffold. It becomes empirical only when its terms are independently operationalised.
 
-```text
-Z = Σ_(E' ∈ 𝓔) W̃(E')
-```
+## A6. Reduction to standard physics
 
-For a continuous event space, replace the sum with an integral over a declared event-space measure.
+If the observer term is constant,
 
-This equation is a theoretical scaffold. It becomes empirical only when the terms are independently operationalised.
+$$
+C_O(O\mid i,E)=C_0,
+$$
 
-## A6. Reduction to Standard Physics
+that constant cancels under normalisation. Standard-physics recovery additionally requires the substrate-to-information weighting and compatible-structure integral to reproduce, or reduce to, the accepted physical distribution:
 
-If the observer term is constant:
+$$
+P_{\mathrm{realized}}(E)
+\approx
+P_{\mathrm{phys}}(E)
+$$
 
-```text
-C_O(O|i,E) = C_0
-```
-
-then that constant cancels under normalisation. Standard-physics recovery additionally requires the substrate-to-information weighting and compatible-structure integral to reproduce, or reduce to, the accepted physical distribution:
-
-```text
-P_realized(E) ≈ P_phys(E)
-```
-
-within a declared regime and tolerance.
+within a declared regime, comparison norm, and tolerance.
 
 Failure to recover the ordinary limit is a failure of the physics-facing model.
 
-## A7. Linear-Response Approximation
+## A7. Linear-response approximation
 
-A small observer-linked term may be written:
+A small observer-linked term may be written
 
-```text
-C_O(O|i,E) = C_0 [1 + ε g_O(i,E)]
-```
+$$
+C_O(O\mid i,E)
+=
+C_0\left[1+\varepsilon g_O(i,E)\right],
+$$
 
-with:
+with
 
-```text
-C_0 > 0
-|ε g_O(i,E)| < 1
-```
+$$
+C_0>0,
+\qquad
+\left|\varepsilon g_O(i,E)\right|<1
+$$
 
-throughout the tested domain, so the weight remains positive.
+throughout the tested domain so that the weight remains positive.
 
-After consistent expansion of both numerator and normalisation, a first-order form may be written:
+After consistent expansion of numerator and normalisation, a first-order form may be written
 
-```text
-P_realized(E) ≈ P_phys(E) + ε Δ_O(E)
-```
+$$
+P_{\mathrm{realized}}(E)
+\approx
+P_{\mathrm{phys}}(E)+\varepsilon\Delta_O(E).
+$$
 
-The sign, scale, and form of `Δ_O` must be pre-specified for a test; it cannot be inferred after observing the result. Neglected higher-order terms must remain bounded.
+The sign, scale, and form of $\Delta_O$ must be specified before a confirmatory test, and neglected higher-order terms must remain bounded.
 
-## A8. Coherence-Linked Modulation
+## A8. Coherence-linked modulation
 
-One candidate form is:
+One candidate form is
 
-```text
-C_O(O|i,E) = C_0 [1 + ε κ(ρ_O) h(i,E)]
-```
+$$
+C_O(O\mid i,E)
+=
+C_0\left[1+\varepsilon\kappa(\rho_O)h(i,E)\right],
+$$
 
-where:
+where $\kappa$ measures the selected observer-state proxy and $h$ specifies a predefined interaction with event structure. Positivity must hold throughout the tested domain.
 
-- `κ` measures the selected observer-state proxy;
-- `h` specifies a pre-defined interaction with event structure;
-- positivity must hold throughout the tested domain.
+Low, irrelevant, or experimentally unsupported $\kappa$ should return the model toward the standard-physics limit.
 
-Low, irrelevant, or experimentally unsupported `κ` should return the model toward the standard-physics limit.
+## A9. Environmental damping
 
-## A9. Environmental Damping
+Let $F_{\mathrm{env}}$ denote measured environmental parameters such as electromagnetic noise, geomagnetic indices, geometry, shielding, vibration, temperature, or preregistered material composition.
 
-Let `F_env` denote measured environmental parameters such as electromagnetic noise, geomagnetic indices, geometry, shielding, vibration, temperature, or pre-registered material composition.
+A simplified form is
 
-A simplified form is:
+$$
+\kappa_{\mathrm{eff}}
+=
+\kappa(\rho_O)\,\eta(F_{\mathrm{env}}),
+$$
 
-```text
-κ_eff = κ(ρ_O) η(F_env)
-```
+with
 
-with:
+$$
+\eta(F_{\mathrm{env}})\in[0,1].
+$$
 
-```text
-η(F_env) ∈ [0,1]
-```
+$\eta$ must be specified or estimated from measurements rather than assigned retrospectively to rescue a null result.
 
-`η(F_env)` must be specified or estimated from measurements. It cannot be assigned retrospectively to rescue a null result.
+## A10. Group coherence
 
-## A10. Group Coherence
+For observers $\{O_1,\ldots,O_N\}$,
 
-For observers `{O_1, ..., O_N}`:
+$$
+\kappa_{\mathrm{group}}
+=
+\Phi(\kappa_1,\ldots,\kappa_N,C_{\mathrm{corr}}),
+$$
 
-```text
-κ_group = Φ(κ_1, ..., κ_N, C_corr)
-```
+where $C_{\mathrm{corr}}$ represents measured alignment or correlation and the range of $\Phi$ must be declared.
 
-where `C_corr` represents measured alignment or correlation and the range of `Φ` must be declared.
+A simple bounded candidate approximation is
 
-A simple bounded candidate approximation is:
+$$
+\kappa_{\mathrm{group}}
+=
+A_{\mathrm{align}}
+\frac{1}{N}\sum_{i=1}^{N}\kappa_i,
+$$
 
-```text
-κ_group = A_align × (1/N) Σ_i κ_i
-```
+with
 
-with:
+$$
+A_{\mathrm{align}}\in[0,1],
+\qquad
+\kappa_i\in[0,1].
+$$
 
-```text
-A_align ∈ [0,1]
-κ_i ∈ [0,1]
-```
+Group coherence is a coupled O/I/P condition rather than a fifth ontological layer.
 
-Group coherence is a coupled O/I/P condition, not a fifth ontological layer.
+## A11. Experimental connections
 
-## A11. Experimental Connections
+Candidate application classes include REG/RNG condition comparisons, strictly blinded remote-information protocols, preregistered co-occurrence studies, environmental modulation tests, and group-alignment tests.
 
-Candidate application classes include:
+These are proposed tests rather than established confirmations.
 
-- REG/RNG condition comparisons;
-- strictly blinded remote-information protocols;
-- pre-registered co-occurrence studies;
-- environmental modulation tests;
-- group-alignment tests.
+## A12. Ambiguity volume
 
-These are proposed tests, not established confirmations.
+A quantitative ambiguity space belongs to one declared domain $d$ with state space $\mathcal X_d$ and explicit encoding.
 
-## A12. Ambiguity Volume
+At time $t$, define
 
-A quantitative ambiguity space must belong to one declared domain `d` with state space `X_d` and an explicit encoding.
+$$
+\Omega_t^{(d)}
+=
+\left\{z\in\mathcal X_d:
+ z\text{ remains compatible with }E_t\text{ and }C_t\right\},
+$$
 
-For a live claim or system at time `t`, define:
+where $E_t$ is available evidence and $C_t$ the active constraint set.
 
-```text
-Ω_t^(d) = {z ∈ X_d : z remains compatible with E_t and C_t}
-```
+Let $\mu_d$ be a domain-specific measure and $\mu_{0,d}$ a reference measure. Define
 
-where `E_t` is available evidence and `C_t` is the active constraint set.
+$$
+A_{t,\mathrm{vol}}^{(d)}
+=
+\log\!\left(1+\frac{\mu_d(\Omega_t^{(d)})}{\mu_{0,d}}\right).
+$$
 
-Let `μ_d` be a domain-specific measure and `μ_0,d` a reference measure. Define:
+This quantity is dimensionless. States, paths, interpretations, identities, and hypotheses cannot be placed into one measured set unless a common encoding has been defined.
 
-```text
-A_t,vol^(d) = log[1 + μ_d(Ω_t^(d)) / μ_0,d]
-```
+Let
 
-This is dimensionless. States, paths, interpretations, identities, and hypotheses must not be placed into one measured set unless a common encoding has been defined.
+$$
+R_t\in[0,1],
+\qquad
+X_t\in[0,1]
+$$
 
-Let:
+be normalised low-cost route connectivity and preserved access respectively. The working manoeuvrability index is
 
-```text
-R_t ∈ [0,1]
-```
+$$
+M_t=A_{t,\mathrm{vol}}^{(d)}R_tX_t.
+$$
 
-be normalised low-cost route connectivity, and:
+$M_t$ is a heuristic multiplicative audit index rather than a validated universal law. The product form should be compared with additive, interaction, and nonlinear alternatives.
 
-```text
-X_t ∈ [0,1]
-```
+See [Ambiguity Dynamics and Manoeuvre Space](21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md).
 
-be normalised preserved access.
+## A13. Cross-layer address map
 
-Then the working manoeuvrability index is:
+Let $K$ be a candidate invariant and $L\in\{S,I,P,O\}$ the active layer. Let $\theta_L$ denote layer-specific constraints, observables, units, noise terms, and admissible transitions.
 
-```text
-M_t = A_t,vol × R_t × X_t
-```
+$$
+K_L=A_L(K;\theta_L).
+$$
 
-`M_t` is a heuristic multiplicative audit index, not a validated universal law. Its product form encodes a joint-dependence hypothesis and should be compared with additive, interaction, and non-linear alternatives.
+$A_L$ is an address map, not a new ontology.
 
-See `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`.
+A valid address map preserves the defining relation of $K$, explicit variable changes, layer-appropriate evidence, independent falsifiers, and a stated coupling where cross-layer influence is claimed.
 
-## A13. Cross-Layer Address Map
+Repeated algebraic form across layers does not establish the same physical mechanism. Formal cross-layer work therefore declares typed spaces and couplings, for example
 
-Let `K` be a candidate invariant and `L ∈ {S,I,P,O}` the active layer. Let `θ_L` denote layer-specific constraints, observables, units, noise terms, and admissible transitions.
+$$
+C_{LM}:\mathcal X_L\rightarrow\mathcal X_M.
+$$
 
-```text
-K_L = A_L(K; θ_L)
-```
+See [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md) and [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md).
 
-`A_L` is an address map, not a new ontology.
+## A14. Agency accessibility
 
-A valid address map must preserve:
+Let $U_t$ be the actions actually available and $\widehat U_t$ the actions perceived as available. Let
 
-- the defining relation of `K`;
-- explicit variable changes;
-- layer-appropriate evidence;
-- independent falsifiers;
-- a stated coupling where cross-layer influence is claimed.
+$$
+G_t(u;T_t,H_t)\in[0,1],
+\qquad
+\theta_{\mathrm{access}}\in[0,1],
+$$
 
-The same algebraic template across layers does not establish the same physical mechanism. Each address requires its own operationalisation.
+where $T_t$ represents perceived threat and $H_t$ reinforcement history.
 
-For formal cross-layer work, declare typed spaces and couplings rather than assuming one common geometry:
+The practically accessible set is
 
-```text
-C_LM : X_L → X_M
-```
+$$
+U_t^{\mathrm{access}}
+=
+\left\{u\in U_t:G_t(u;T_t,H_t)>\theta_{\mathrm{access}}\right\}.
+$$
 
-See:
+Let $a_t\in[0,1]$ represent practical accessibility:
 
-- `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
-- `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md`
+$$
+\mathrm{Agency}_{\mathrm{effective}}(t)
+=
+\mathrm{Agency}_{\mathrm{capacity}}\,a_t.
+$$
 
-## A14. Agency Accessibility
+This is an operational distinction rather than a moral, legal, or clinical equation.
 
-Let `U_t` be the actions actually available and `Û_t` the actions perceived as available.
+See [Agency Accessibility and Capture Geometry](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md).
 
-Let:
+## A15. Path cost and weighting
 
-```text
-G_t(u;T_t,H_t) ∈ [0,1]
-θ_access ∈ [0,1]
-```
+For a trajectory $\gamma$ in one declared state space, a candidate path cost is
 
-where `T_t` represents perceived threat and `H_t` represents reinforcement history.
+$$
+C[\gamma]
+=
+\int_{\gamma}\lambda(x)\,ds.
+$$
 
-```text
-U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
-```
+The path element $ds$, local cost $\lambda$, and resulting units must be declared. This integral cannot be applied across incompatible S, I, P, and O spaces without a typed common construction.
 
-Let `a_t ∈ [0,1]` represent practical accessibility:
+A Gibbs-like path weighting requires a dimensionless exponent. Using a dimensionless normalised cost $\widetilde C[\gamma]$,
 
-```text
-Agency_effective(t) = Agency_capacity × a_t
-```
+$$
+P(B\mid A)
+=
+\frac{1}{Z_A}
+\sum_{\gamma\in\Gamma(A\to B)}
+\exp\!\left[-\widetilde C[\gamma]\right].
+$$
 
-This is an operational distinction, not a moral, legal, or clinical equation.
+Alternatively, with inverse cost scale $\beta$,
 
-See `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md`.
+$$
+P(B\mid A)
+=
+\frac{1}{Z_A}
+\sum_{\gamma\in\Gamma(A\to B)}
+\exp\!\left[-\beta C[\gamma]\right],
+$$
 
-## A15. Path Cost and Weighting
+where
 
-For a trajectory `γ` in one declared state space, a candidate path cost is:
+$$
+Z_A
+=
+\sum_{B'}
+\sum_{\gamma\in\Gamma(A\to B')}
+\exp\!\left[-\beta C[\gamma]\right].
+$$
 
-```text
-C[γ] = ∫_γ λ(x) ds
-```
+Path multiplicity and cost are candidate predictors rather than a universal definition of probability.
 
-The path element `ds`, local cost `λ`, and resulting units must be declared. This integral must not be applied across incompatible S, I, P, and O spaces without a typed common construction.
+## A16. Reduction rules
 
-A Gibbs-like path weighting requires a dimensionless exponent. Use either a dimensionless normalised cost `C̃[γ]`:
-
-```text
-P(B|A) = (1/Z_A) Σ_(γ ∈ Γ(A→B)) exp[-C̃[γ]]
-```
-
-or an inverse cost scale `β`:
-
-```text
-P(B|A) = (1/Z_A) Σ_(γ ∈ Γ(A→B)) exp[-β C[γ]]
-```
-
-with:
-
-```text
-Z_A = Σ_(B') Σ_(γ ∈ Γ(A→B')) exp[-β C[γ]]
-```
-
-Path multiplicity and cost are candidate predictors, not a universal definition of probability.
-
-## A16. Silver Update Reduction Rules
-
-- If `R_t` or `X_t` is negligible, high ambiguity does not imply high manoeuvrability.
+- If $R_t$ or $X_t$ is negligible, high ambiguity does not imply high manoeuvrability.
 - If one layer address fails, evidence from another address cannot conceal the failure.
 - If perceived and actual action sets do not differ, the agency-accessibility mechanism is unnecessary.
-- If simpler noise, incentive, habit, uncertainty, or standard physical models perform better, use them.
+- If simpler noise, incentive, habit, uncertainty, or standard physical models perform better, they remain the preferred explanation.
 - A mathematical expression is not evidence merely because it can be written.
-- A tuple, projection, or named update map does not prove that the component spaces or couplings have been derived.
+- A tuple, projection, or named update map does not prove that its component spaces or couplings have been derived.
 
-## A17. Architecture Route
+## A17. Related public documents
 
-```text
-conceptual core: docs/01_MKUFT_CORE_EXTENDED.md
-trajectory formalism: docs/03_STANDALONE_FORMAL_ADDENDUM.md
-experiments: docs/04_EXPERIMENTAL_TEST_PROGRAM.md
-worked examples: docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md
-falsification: docs/05_FALSIFICATION_SUMMARY.md
-typed traversal and equation hygiene: docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md
-repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
-```
+- [MKUFT Core Extended](01_MKUFT_CORE_EXTENDED.md)
+- [Standalone Formal Addendum](03_STANDALONE_FORMAL_ADDENDUM.md)
+- [Experimental Test Programme](04_EXPERIMENTAL_TEST_PROGRAM.md)
+- [Worked Examples: RNG and Environment](14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md)
+- [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
+- [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+- [Cross-Support and Traversal Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 
-## Notation Correction
+## Notation
 
-Converted-source glitches such as `Prealized` are normalised as `P_realized`. The symbols `I`, `𝓘`, and `i` are kept distinct for the information layer, information-function space, and one information structure respectively. Domain-qualified symbols are used where one unqualified symbol would hide incompatible spaces.
+The symbols $I$, $\mathcal I$, and $i$ are kept distinct for the information layer, information-function space, and one information structure respectively. Domain-qualified symbols are used where an unqualified symbol would hide incompatible spaces.
