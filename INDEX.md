@@ -49,6 +49,7 @@ This index provides direct links to the principal public MKUFT documents.
 
 - [OCQS Human Activation Layer](docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md)
 - [LUCY Boundary Threshold Framework](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md)
+- [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) — downstream effective-geometry application of the LUCY threshold framework.
 - [Gradient Mechanics and Boundary-Shear Geometry](docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md)
 - [MKUFT–Dollard Field Geometry Notes](docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md)
 
