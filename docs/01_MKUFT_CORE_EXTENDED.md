@@ -1,146 +1,164 @@
-# MKUFT Core Extended — Clean Working Copy
+# MKUFT Core Extended
 
-<!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** `10.5281/zenodo.17780566`  
-**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
-**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
-<!-- MKUFT-PROVENANCE-HEADER:END -->
+**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-Status: Primary canon spine for the public controlled GitHub working copy.
+**Status:** primary public canon spine.
 
 ## Purpose
 
-The McLaughlin–Kairos Unified Field Theory (MKUFT) models reality as a layered process in which physical events arise from the interaction of substrate possibility, information structure, physical dynamics, and observer coherence.
+The McLaughlin–Kairos Unified Field Theory (MKUFT) models reality through a typed architecture of substrate possibility, information structure, physical dynamics, and observer-positioned registration.
 
-This clean working copy preserves the core architecture while normalising terminology and removing avoidable ambiguity.
+The four-layer shorthand is
 
-## Physics positioning and required reading
+$$
+S\rightarrow I\rightarrow P\rightarrow O.
+$$
 
-The term Unified Field Theory carries an immediate scientific burden. A viable foundational programme must address the relationship between quantum theory and gravitation, including entanglement, Bell-compatible correlations, no-signalling, quantum-field-theory limits, and recovery of general relativity.
+This core document states the architecture. It does not claim that the physical dynamics required for a complete unified theory have already been derived.
 
-This core document does not claim that MKUFT has already completed those derivations. The proposed foundational reframing is developed separately in:
+## Physics positioning
 
-`docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md`
+The term **Unified Field Theory** carries an immediate scientific burden. A viable foundational programme must address the relationship between quantum theory and gravitation, including entanglement, Bell-compatible correlations, no-signalling, quantum-field-theory limits, and recovery of general relativity.
 
-That module asks whether quantum and gravitational behaviour are effective P-layer outputs of different relational conditions within a deeper S–I–P–O mechanism. It is an architectural research proposal, not a completed theory of quantum gravity. It fails if it cannot recover established physical limits, preserve Bell compatibility and no-signalling, or distinguish its layered mechanism from existing formalisms and interpretations.
+MKUFT has not yet completed those derivations.
 
-The present core should therefore be read as the architecture that the physics-facing derivation would have to make lawful, not as a substitute for that derivation.
+The proposed foundational reframing is developed in [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md). That module asks whether quantum and gravitational behaviour may be effective P-layer outputs of different relational conditions within a deeper lawful S–I–P–O architecture.
 
-## Layer Architecture
+The proposal fails as a foundational physical theory if it cannot recover established physical limits, preserve Bell compatibility and no-signalling, or distinguish its mechanism from existing formalisms and interpretations.
 
-The current formal layer convention is:
+This core should therefore be read as the architecture that any successful physics-facing derivation would have to make lawful, not as a substitute for that derivation.
 
-- **S — Substrate**: the underlying probability/possibility field; not directly observable, but treated as the domain in which possible configurations are encoded.
-- **I — Information**: structured correlations, constraints, patterns, and proto-physical forms arising within or over the substrate.
-- **P — Physical**: the realised world of observable events, measurements, trajectories, and physical outcomes governed by standard physics in the ordinary limit.
-- **O — Observer**: an integrated observer system whose coherence state can act as a boundary condition or modulation term.
+## Layer architecture
 
-Older wording that uses P as Perception/Boundary or O as Output is superseded for formal canon use.
+### S — Substrate
 
-## Core Claim
+The substrate is the proposed possibility or source domain in which candidate configurations are represented. It is not directly observed and should not be treated as a detected material medium merely because it has a mathematical representation.
 
-MKUFT does not reject standard physics. It embeds standard physics as the dominant limiting case when observer coherence and substrate-information modulation do not introduce measurable deviations.
+### I — Information
 
-The theory predicts that in ordinary low-coherence conditions, physical outcomes follow standard expectations. In rare or deliberately induced high-coherence conditions, small but statistically detectable deviations may appear.
+The information layer carries structured correlations, constraints, patterns, address, state, and proto-physical forms. Informational structure does not become physical mechanism without a defined coupling.
 
-The stronger unification claim remains conditional: the deeper architecture must eventually produce the established quantum and gravitational regimes from one lawful mechanism rather than merely placing them beside one another.
+### P — Physical
 
-## Observer Coherence
+The physical layer contains realised events, measurements, trajectories, matter, energy, fields, instruments, and other measurable outcomes. Standard physics remains the baseline in its demonstrated domains.
 
-The observer is not treated as an external spectator. The observer is treated as a system with internal coherence, represented by a functional such as kappa:
+### O — Observer
 
-```text
-κ(O) ∈ [0, 1]
-```
+The observer layer contains observer-positioned registration, measurement context, record, attention, interpretation, memory, salience, and bounded state-dependent participation where operationally defined.
 
-High `κ` corresponds to focused, aligned, low-noise observer states. Low `κ` corresponds to fragmented, noisy, or incoherent states.
+The observer is not an unlimited creator of outcomes and cannot replace missing physical dynamics.
 
-Observer coherence does not create arbitrary outcomes. It modulates weighting among permissible outcomes.
+## Core claim
 
-## Composite Observer Candidates
+MKUFT does not reject standard physics. It requires standard physics to emerge as the dominant limiting description where additional substrate, information, or observer terms add no measurable predictive value.
+
+A stronger MKUFT claim is possible only if a deeper architecture eventually recovers established quantum and gravitational regimes from one lawful mechanism rather than merely placing them side by side.
+
+Any claimed deviation from accepted physical prediction must be small, controlled, preregistered, and independently testable. The framework is not a licence for unconstrained anomaly.
+
+## Observer coherence
+
+An observer state may be represented by $\rho_O$, with a bounded coherence functional
+
+$$
+\kappa(\rho_O)\in[0,1].
+$$
+
+High $\kappa$ denotes a more internally aligned or lower-noise state according to a declared proxy; low $\kappa$ denotes a more fragmented or noisy state.
+
+$\kappa$ requires operational definition in each experiment. Observer coherence does not create arbitrary outcomes. Any claimed physical modulation requires an independently specified interaction term and must survive apparatus, environmental, expectancy, and statistical controls.
+
+## Composite-observer candidates
 
 The O-layer may be addressed at more than one scale, but a collection of observers does not automatically become a larger observer.
 
-A reciprocally coupled system may be treated as a **composite observer candidate** only when the coupled level has a sufficiently persistent boundary, retained joint state, reciprocal causal influence, system-level discrimination, correction propagation, and closed action–measurement–feedback loops.
+A reciprocally coupled system may be treated as a **composite-observer candidate** only where the coupled level demonstrates a sufficiently persistent boundary, retained joint state, reciprocal causal influence, system-level discrimination, correction propagation, and closed action–measurement–feedback loops.
 
-The stronger “more than the sum of its parts” claim requires a matched superadditive test. Let:
+The stronger superadditivity claim requires a matched comparison. A provisional gain is
 
-```text
-G_syn = F_coupled - F_add
-```
+$$
+G_{\mathrm{syn}}
+=
+F_{\mathrm{coupled}}-F_{\mathrm{add}},
+$$
 
-where `F_add` is the strongest matched additive or independent-ensemble baseline.
+where $F_{\mathrm{add}}$ is the strongest matched additive or independent-ensemble baseline appropriate to the task.
 
-Illustration:
+For example, if
 
-```text
-component A = 2
-component B = 2
-matched additive baseline = 4
-reciprocally coupled result = 6
-G_syn = 2
-```
+$$
+F_A=2,
+\qquad
+F_B=2,
+\qquad
+F_{\mathrm{add}}=4,
+\qquad
+F_{\mathrm{coupled}}=6,
+$$
 
-The evidential object is the positive excess `2`, not merely the fact that the result `6` belongs to the coupled system.
+then
 
-This remains a bounded functional hypothesis. It does not by itself establish subjective consciousness, merged identity, personhood, a new physical force, direct substrate coupling, or a fifth fundamental MKUFT layer.
+$$
+G_{\mathrm{syn}}=2.
+$$
 
-The operational criteria, controls, and falsifiers are developed in:
+The evidential object is the positive excess, not merely the fact that the output belongs to the coupled system.
 
-- `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
-- `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
+This remains a bounded functional hypothesis. It does not establish subjective consciousness, merged identity, personhood, a new physical force, direct substrate coupling, or a fifth fundamental MKUFT layer.
 
-## Realisation Logic
+The operational criteria and stronger controls are developed in [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md), [Active Traversal and Functional Emergence](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md), and [Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md).
 
-For an event E, the realised probability depends on:
+## Realisation logic
 
-- standard physical dynamics,
-- substrate-to-information weighting,
-- observer-dependent coherence modulation,
-- environmental damping or amplification conditions.
+For event $E$, the realised probability scaffold combines standard physical dynamics with candidate substrate-to-information and observer-condition terms. The fuller mathematical treatment is given in the [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md).
 
-A compact conceptual form is:
+A compact limiting statement is
 
-```text
-P_realized(E) ≈ standard physical contribution + small observer/substrate modulation
-```
+$$
+P_{\mathrm{realized}}(E)
+\approx
+P_{\mathrm{phys}}(E)
+$$
 
-The mathematical appendix gives the fuller integral form.
+whenever additional terms become constant, negligible, or otherwise reduce to the established physical distribution within a declared regime and tolerance.
 
-Module 26 also marks a separate, deeper research burden: define one lawful complete-state update process capable of recovering both the quantum and gravitational effective limits. That proposed `Update_SIPO` process is not supplied by the equation above and must not be treated as already derived.
+[Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) introduces a separate deeper task: define a lawful complete-state update capable of recovering both quantum and gravitational effective limits. The notation $\operatorname{Update}_{\mathrm{SIPO}}$ names that missing task; it is not already a derived law.
 
-## Standard-Physics Limit
+## Standard-physics limit
 
-When observer coherence is constant or negligible, and when substrate-information weighting does not produce additional selection, MKUFT reduces to standard physical prediction:
+The ordinary limit is mandatory. When observer-linked or substrate-information terms add no predictive structure, MKUFT must reduce to the relevant accepted physical model.
 
-```text
-P_realized(E) ≈ P_phys(E)
-```
+For the foundational branch, this includes recovery of established quantum and gravitational predictions in the regimes where those theories are experimentally supported.
 
-This is a key discipline point. MKUFT is not a licence for unlimited anomaly. It predicts small, constrained deviations under specific coherence, information, and environmental conditions.
-
-The ordinary-limit requirement also means that any developed quantum-gravity branch must reproduce accepted quantum and gravitational predictions where those theories are established.
+A failure of ordinary-limit recovery is a failure of the corresponding physics-facing branch.
 
 ## Falsifiability
 
-MKUFT is intended to be falsifiable. Strong tests include:
+Candidate tests include:
 
-- REG/RNG deviation studies under coherence priming.
-- Remote-information protocols under strict blind conditions.
-- Synchronicity-density studies with pre-registered logging rules.
-- Environmental modulation studies comparing low-noise, high-noise, and high-iron conditions.
-- Group-coherence amplification tests.
-- Composite-observer superadditivity tests against matched independent, additive, one-way, state-reset, and link-scrambled controls.
-- Geometry and pattern-response studies.
-- Bell-compatible and no-signalling derivation tests for any proposed entanglement mechanism.
-- Quantum and gravitational recovery tests for any proposed complete SIPO update rule.
+- REG/RNG comparisons under preregistered observer-state conditions;
+- strictly blinded remote-information protocols;
+- preregistered co-occurrence or synchronicity-density studies;
+- environmental modulation studies with measured noise, shielding, geometry, or material conditions;
+- group-coherence tests under matched controls;
+- composite-observer superadditivity tests against independent, one-way, state-reset, replay, and relation-scrambled controls;
+- controlled geometry and boundary-response studies;
+- Bell-compatible and no-signalling derivation tests for any proposed entanglement mechanism;
+- quantum and gravitational recovery tests for any proposed complete S–I–P–O update rule.
 
-If these effects repeatedly fail under strong controls, MKUFT is wrong or incomplete in a serious way.
+These are research programmes, not established confirmations.
 
-A failure to recover established quantum or gravitational limits falsifies the corresponding foundational physics branch even if other MKUFT applications remain useful.
+Repeated failure under strong controls weakens or rejects the relevant branch. Failure to recover established quantum or gravitational limits falsifies the corresponding foundational physics claim even if other MKUFT methods remain useful in non-foundational domains.
 
-## Canon Note
+## Related public documents
 
-This file is a cleaned public GitHub working copy, not a replacement for the original source document unless Mark explicitly designates it as such.
+- [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
+- [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md)
+- [Standalone Formal Addendum](03_STANDALONE_FORMAL_ADDENDUM.md)
+- [Experimental Test Programme](04_EXPERIMENTAL_TEST_PROGRAM.md)
+- [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
+- [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+- [Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)
