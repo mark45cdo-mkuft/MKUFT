@@ -57,25 +57,25 @@ No removed passage is quoted in this record.
 
 ## Architecture result
 
-Every numbered document from `01` through `24` now has a recorded route to:
+Every numbered document from `01` through `24` then had a recorded route to:
 
 - its primary role;
 - parent or required support;
 - main outward application;
 - principal limit or falsifier.
 
-The public stack can be entered through:
+At the time of the Silver audit, the public stack could be entered through:
 
 - the README;
 - the public overview;
 - the integrated master spine;
-- the reconstitution kernel;
+- the then-current compact recovery route, subsequently retired from the live public canon;
 - the mathematical appendix;
 - the cross-support map;
 - a domain application;
 - the falsification summary.
 
-Those routes are intended to reconstruct the same layer definitions, formulas, claim-status boundaries, and failure conditions.
+Those routes were intended to reconstruct the same layer definitions, formulas, claim-status boundaries, and failure conditions. Current live routing is governed by `docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` rather than by this historical audit record.
 
 ## Statistical result
 
@@ -138,3 +138,9 @@ The same repair synchronised:
 - the distinction between the short public landing page and the substantive public overview.
 
 The repair does not alter the frozen ATLD v1.0 manuscript or upgrade any hypothesis to evidence. It restores the current GitHub canon and makes the public entry routes converge on the same current definitions.
+
+## Post-Silver public-route closure — 8 August 2026
+
+A later closure audit found that removal of a retired public recovery object had not propagated through every live index, rights table, architecture route, and release record. The remaining live references were removed or, where this historical audit required context, rewritten to make their historical status explicit without presenting them as current routes.
+
+The repository now treats deletion and cleanup as propagation tasks rather than single-file edits. Current write and cleanup procedure is governed by `CANON_WRITE_AND_CLOSURE_SOP.md` and the automated canon-integrity guard.
