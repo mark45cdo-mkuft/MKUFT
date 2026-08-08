@@ -1,0 +1,6 @@
+# One forbidden live-canon identifier per line. Lines beginning with # are comments.
+# Matching is case-insensitive across live Markdown.
+docs/19_MKUFT_RECONSTITUTION_KERNEL.md
+19_MKUFT_RECONSTITUTION_KERNEL.md
+RECONSTITUTION_KERNEL
+reconstitution kernel
