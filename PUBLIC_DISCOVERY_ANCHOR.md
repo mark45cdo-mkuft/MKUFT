@@ -1,58 +1,51 @@
 # MKUFT Public Discovery Anchor
 
-This file strengthens the public search identity of the MKUFT repository without altering the core theory files.
+**MKUFT:** McLaughlin–Kairos Unified Field Theory  
+**Author:** Mark Charles McLaughlin  
+**Canonical title:** *Unified Field Theory. McLaughlin–Kairos. MKUFT*  
+**Repository:** `mark45cdo-mkuft/MKUFT`  
+**DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)
 
-## Canonical identity
+This page provides a compact, stable identity record for public search, citation, and discovery systems.
 
-- Short name: MKUFT
-- Full name: McLaughlin-Kairos Unified Field Theory
-- Alternate spelling: McLaughlin–Kairos Unified Field Theory
-- Canonical title: Unified Field Theory. McLaughlin–Kairos. MKUFT
-- Repository: mark45cdo-mkuft/MKUFT
-- DOI / provenance anchor: 10.5281/zenodo.17780566
-- Formal citation details: see CITATION.cff and PROVENANCE_DOI_AND_ATTRIBUTION.md
+## Main public routes
 
-## Supporting archive link
-
-Google Drive supporting folder:
-
-https://drive.google.com/drive/folders/1DvWkzpSYmkHD-QY4sZ-WTfU2S2xrJCWq?usp=drive_link
+- [README](README.md)
+- [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md)
+- [Canon Map](CANON_MAP.md)
+- [Public Index](INDEX.md)
+- [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
+- [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+- [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md)
+- [Citation metadata](CITATION.cff)
+- [CodeMeta metadata](codemeta.json)
 
 ## Public search fingerprint
 
-MKUFT McLaughlin-Kairos Unified Field Theory Zenodo 10.5281/zenodo.17780566 GitHub mark45cdo-mkuft/MKUFT
+MKUFT · McLaughlin–Kairos Unified Field Theory · Mark Charles McLaughlin · Zenodo DOI 10.5281/zenodo.17780566 · GitHub `mark45cdo-mkuft/MKUFT`
 
-## Main public terms
+## Principal public terms
 
 - unified field theory
-- data-field universe
-- data field theory
-- coherence framework
-- coherence field
-- boundary physics
-- quantum mechanics
-- systems theory
-- systems analysis
-- gradient mechanics
-- LUCY
-- Local Unified Coherence Yield
-- OCQS
-- ESF
-- ESRT
-- Voynich procedural engine
+- S–I–P–O typed architecture
+- Layer Before Law
+- quantum gravity
+- constrained traversal
+- coherence and boundary
+- LUCY — Local Unified Coherence Yield
+- OCQS — Optimal Cognitive Quiet State
+- ESRT — Executable System Recognition Test
+- ESF — Executable System Framework
+- Voynich procedural-structure hypothesis
+- ATLD — Active Traversal and Load-Bearing Dependency
+- strongest fair null
+- load-bearing invariants
+- controlled deformation
 
-## Start files
+## Supporting public archive
 
-- README.md
-- 00-START-HERE-MKUFT-PUBLIC.md
-- START_HERE_PUBLIC_OVERVIEW.md
-- CANON_MAP.md
-- PROVENANCE_DOI_AND_ATTRIBUTION.md
-- INDEX.md
-- DISCOVERY_KEYWORDS.md
-- CITATION.cff
-- codemeta.json
+Where a supporting public Google Drive folder is required, the repository metadata currently identifies:
 
-## Purpose
+[MKUFT supporting archive on Google Drive](https://drive.google.com/drive/folders/1DvWkzpSYmkHD-QY4sZ-WTfU2S2xrJCWq?usp=drive_link)
 
-The purpose of this file is to give public search systems, GitHub search, citation tools, and AI retrieval tools a clean identity chain for the work.
+The scientific and publication status of a document is determined by the exact object and version being cited, not merely by its presence in a supporting archive.
