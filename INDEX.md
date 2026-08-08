@@ -38,7 +38,6 @@ The promotion and claim-discipline framework governs how broad assays may be upg
 
 ## Structural and traversal canon
 
-- `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` — compact recovery seed.
 - `docs/20_GRACE_TRAVERSAL_RULE.md` — clean traversal filter.
 - `docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` — ambiguity and manoeuvre-space model.
 - `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md` — typed cross-layer address discipline.
