@@ -1,187 +1,124 @@
 # MKUFT — Clear Public Explanation
 
-
-<!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** `10.5281/zenodo.17780566`  
-**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
-**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
-<!-- MKUFT-PROVENANCE-HEADER:END -->
+**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-Status: public plain-English explanatory bridge inside the controlled MKUFT GitHub working copy.
+**Status:** public plain-English explanatory bridge.
 
 ## The simplest explanation
 
-Reality is not only made of objects. It can also be studied as a system of possible states and paths, where limits, cost, information, timing, boundary conditions, and coherence shape what can occur and persist.
+Reality is not only made of objects. It can also be studied as a system of possible states and paths in which limits, cost, information, timing, boundary conditions, and coherence shape what can occur and persist.
 
-Imagine crossing rough ground at night.
-
-You do not invent the terrain, but you still choose within it. Some routes are blocked. Some are dangerous. Some are visible only from the right position. Some become easier through learning. One route becomes the path actually taken.
+Imagine crossing rough ground at night. You do not invent the terrain, but you still choose within it. Some routes are blocked. Some are dangerous. Some are visible only from the right position. Some become easier through learning. One route becomes the path actually taken.
 
 MKUFT asks whether a version of that constraint-and-traversal logic can be useful across several layers without pretending those layers are identical.
 
 ## The four layers
 
-```text
-S = Substrate
-I = Information
-P = Physical
-O = Observer
-```
+$$
+S\rightarrow I\rightarrow P\rightarrow O.
+$$
 
-- **Substrate** is the possibility or source domain in the framework.
-- **Information** is pattern, relation, address, rule, and constraint.
-- **Physical** is where claims meet matter, energy, bodies, instruments, and events.
-- **Observer** is the bounded condition of attention, interpretation, measurement, and engagement.
+- **Substrate ($S$)** is the possibility or source domain in the framework.
+- **Information ($I$)** is pattern, relation, address, rule, and constraint.
+- **Physical ($P$)** is where claims meet matter, energy, bodies, instruments, and events.
+- **Observer ($O$)** is the bounded condition of attention, interpretation, measurement, record, and engagement.
 
 The physical layer remains compulsory. Symbolic or observer language cannot replace a missing physical mechanism.
 
 ## The core route
 
-```text
-possibility
-→ constraint
-→ admissible path
-→ cost
-→ coherence
-→ boundary
-→ observation
-→ falsification
-→ outcome
-```
+A compact modelling sequence is:
 
-This is a proposed general modelling grammar, not a claim that every domain shares one identical cause.
+**possibility → constraint → admissible path → cost → coherence → boundary → observation → falsification → outcome.**
+
+This is a general modelling grammar, not a claim that every domain shares one identical cause.
 
 ## Path cost and ambiguity
 
-An older compact path objective can be written:
+For a path $\gamma$ in one declared state space, a candidate path objective can be written
 
-```text
-γ* = argmin_γ ∫ [C(γ,t) + λ A_path(γ,t)] dt
-```
+$$
+\gamma^*
+=
+\operatorname*{arg\,min}_{\gamma}
+\int
+\left[C(\gamma,t)+\lambda A_{\mathrm{path}}(\gamma,t)\right]dt.
+$$
 
-where:
+$C(\gamma,t)$ is the domain-specific path cost, $A_{\mathrm{path}}(\gamma,t)$ an uncertainty or ambiguity term, and $\lambda$ a declared relative weighting. The expression is a modelling scaffold rather than a claim that every real system literally solves this optimisation.
 
-- `C(γ,t)` is the cost assigned to a candidate path;
-- `A_path(γ,t)` is uncertainty or ambiguity along that path;
-- `λ` sets their relative weighting.
+The Silver Update introduced a separate unresolved-volume concept:
 
-This is a modelling expression. It does not assert that every real system literally solves this exact optimisation problem.
+$$
+A_{t,\mathrm{vol}}^{(d)}
+=
+\log\!\left(1+\frac{\mu_d(\Omega_t^{(d)})}{\mu_{0,d}}\right),
+$$
 
-The Silver Update adds a separate ambiguity-volume concept:
+with provisional manoeuvrability index
 
-```text
-A_t^vol = log(1 + μ(Ω_t)/μ_0)
-```
+$$
+M_t=A_{t,\mathrm{vol}}^{(d)}R_tX_t.
+$$
 
-where `Ω_t` is the unresolved feasible region.
-
-It then defines a working manoeuvrability index:
-
-```text
-M_t = A_t^vol × R_t × X_t
-```
-
-- `R_t` measures low-cost movement among unresolved frames or states;
-- `X_t` measures preserved access or influence.
-
-This distinction matters because open possibility is not the same thing as exploitable ambiguity.
+$R_t$ represents low-cost movement among unresolved frames or states and $X_t$ preserved access or influence. Open possibility is therefore not identical to exploitable ambiguity.
 
 ## Why coherence matters
 
-Coherence means structural fit, not approval, emotional comfort, or metaphysical virtue.
+Coherence means structural fit, not approval, emotional comfort, or automatic truth. A coherent system generally spends less effort maintaining contradiction among its active constraints. An incoherent system may still persist, but may pay through instability, correction, friction, noise, or collapse.
 
-A coherent system generally wastes less effort maintaining contradiction. Its relations, boundaries, and transitions fit together better.
-
-An incoherent system may still exist, but it pays more through instability, correction, friction, noise, or collapse.
-
-The claim becomes meaningful only where coherence is operationally defined and compared with ordinary domain models.
+The concept becomes scientifically meaningful only where coherence is operationally defined and compared with ordinary domain models.
 
 ## The observer
 
-MKUFT treats the observer as bounded.
+MKUFT treats the observer as bounded. An observer may affect what is attended to, how evidence is interpreted, what measurement context is created, and which already-admissible route is selected in a decision or information system.
 
-An observer may affect:
-
-- what is attended to;
-- how evidence is interpreted;
-- what measurement context is created;
-- which already-admissible route is selected in a decision or information system;
-- possibly, under unconfirmed experimental hypotheses, small statistical weightings in sensitive systems.
-
-The observer does not create arbitrary physical outcomes. Claims of observer-linked physical effects require independent controlled evidence.
+Small observer-linked physical weighting remains an unconfirmed experimental hypothesis. The observer does not create arbitrary physical outcomes, and any physical claim requires independent controlled evidence.
 
 ## Cross-layer addressing
 
-One structural relation may look different across layers.
+One structural relation may look different across layers. A compact address form is
 
-```text
-K_L = A_L(K;θ_L)
-```
+$$
+K_L=A_L(K;\theta_L).
+$$
 
-This means:
-
-- preserve the candidate invariant;
-- name the active layer;
-- change variables and units honestly;
-- demand evidence at that layer;
-- define any coupling;
-- permit that address to fail independently.
-
-A resemblance between cognition and physics is not evidence that they use the same physical mechanism.
+The invariant is retained while the active layer, variables, units, evidence, coupling, and falsifier change honestly with the address. A resemblance between cognition and physics is not evidence that they use the same physical mechanism.
 
 ## Agency accessibility
 
-A person or system can retain a capacity while practical access to it becomes narrow.
+A person or system can retain a capacity while practical access to it becomes narrow. One provisional representation is
 
-```text
-U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
-```
+$$
+U_t^{\mathrm{access}}
+=
+\left\{u\in U_t:G_t(u;T_t,H_t)>\theta_{\mathrm{access}}\right\}.
+$$
 
 A viable action may exist but fail to enter reflective consideration because it is mislabelled, assigned excessive threat, fused with identity loss, or hidden by dependency and reinforcement.
 
-This provides a model for coercion, addiction, ideological enclosure, trauma loops, and institutional capture.
+This is a systems model rather than a clinical, legal, or moral diagnostic score.
 
-It is not a clinical, legal, or moral diagnostic score, and it must not become a label for disagreement.
+## Symbols and procedural systems
 
-## Symbols and ancient systems
+Symbols can have real effects in human systems without violating physics. A vow can alter social obligation, a legal verdict changes legal status, a warning changes behaviour, and a diagram can guide action.
 
-Symbols can produce real effects in human systems without violating physics.
+This makes symbolic and procedural systems legitimate objects of structural study. It does not mean symbolic resemblance proves hidden technology, physical force, or ancient possession of modern scientific theory.
 
-A vow can change social obligation. A legal verdict changes legal status. A warning changes behaviour. A diagram can guide action. A ritual may coordinate memory, identity, timing, and group behaviour.
-
-That makes symbolic systems legitimate objects of structural study.
-
-It does not mean that symbolic resemblance proves hidden technology, physical force, or ancient possession of modern scientific theory.
-
-MKUFT asks:
-
-- What position does the symbol occupy?
-- What relation does it create?
-- What state does it mark?
-- What transition does it permit or block?
-- What changes when its structure is altered?
+The useful questions are: what position does the symbol occupy, what relation does it create, what state does it mark, what transition does it permit or block, and what changes when the structure is altered?
 
 ## The Voynich Manuscript
 
-The Voynich work is a candidate application of the ESRT/ESF method.
+The Voynich work is a candidate application of the ESRT/ESF method. The public hypothesis is not that the manuscript has been translated or proven to be executable.
 
-The public hypothesis is not that the manuscript has been translated or proven to be executable.
-
-It asks whether some of its structure is better predicted by a procedural model involving:
-
-- positional addressing;
-- state-like forms;
-- flow or sequence;
-- repeatable cross-page roles.
+It asks whether some of the manuscript's organisation is better predicted by a procedural model involving positional addressing, state-like forms, flow or sequence, and repeatable cross-page roles.
 
 That hypothesis must compete against linguistic, cipher, scribal, decorative, mnemonic, diagrammatic, and null models using blinded and held-out tests.
 
-See:
-
-- `docs/09_VOYNICH_PROCEDURAL_ENGINE.md`
-- `docs/10_ESRT_ESF_METHOD_APPENDIX.md`
+See [Voynich Procedural-Structure Hypothesis](09_VOYNICH_PROCEDURAL_ENGINE.md) and [ESRT / ESF Method Appendix](10_ESRT_ESF_METHOD_APPENDIX.md).
 
 ## Relation to physics
 
@@ -193,60 +130,28 @@ That proposal fails where it cannot recover standard prediction, define its term
 
 ## Method discipline
 
-The framework asks:
+The framework asks a sequence of ordinary scientific questions: What is actually present? What layer is active? What ordinary explanation applies? What remains unresolved? What boundary defines the object? What transition is claimed? What does it cost? What evidence supports the coupling? What would prove the reading wrong? Which parts survive failure elsewhere?
 
-- What is actually present?
-- What layer is active?
-- What ordinary explanation applies?
-- What remains unresolved?
-- What boundary defines the object?
-- What transition is claimed?
-- What does it cost?
-- What evidence supports the coupling?
-- What would prove the reading wrong?
-- Which parts survive failure elsewhere?
-
-Truth is load-bearing in the practical sense that a false, inflated, or ornamental claim creates contradiction and weakens the structure around it.
-
-The purpose of pressure-testing is not to make the framework socially conventional. It is to stop flexible language from protecting weak claims.
+Truth is load-bearing in the practical sense that a false, inflated, or ornamental claim creates contradiction and weakens the structure around it. Pressure-testing exists to prevent flexible language from protecting weak claims.
 
 ## What MKUFT does not claim
 
-MKUFT does not claim that:
-
-- all domains are identical;
-- every ambiguity is adversarial;
-- every pattern is meaningful;
-- symbols establish physical ontology;
-- observer coherence is proven to bias matter or randomness;
-- anomalous reports establish their cause;
-- equations count as evidence without operationalisation;
-- one failed branch can be ignored because the wider framework is broad.
+MKUFT does not claim that all domains are identical, every ambiguity is adversarial, every pattern is meaningful, symbols establish physical ontology, observer coherence is proven to bias matter or randomness, anomalous reports establish their cause, equations count as evidence without operationalisation, or one failed branch can be ignored because the wider framework is broad.
 
 ## How the public stack supports itself
 
-The public architecture is mapped in:
+The [Cross-Support and Traversal Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) connects public modules to their parent concepts, mathematical or evidential support, nearest applications, limiting rules, and principal falsifiers.
 
-`docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
+The [Canon Map](../CANON_MAP.md) provides the hierarchy. The [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) provides the broad synthesis.
 
-That registry connects every numbered document to:
-
-- its parent concept;
-- mathematical or evidential support;
-- nearest application;
-- limiting rule;
-- principal falsifier.
-
-The aim is that a reader entering through the public overview, mathematical appendix, kernel, application modules, or falsification summary should recover the same definitions and boundaries.
+The aim is that legitimate reader routes reconstruct compatible definitions and boundaries without requiring the reader to understand repository maintenance or private operating material.
 
 ## Final summary
 
 MKUFT is a speculative framework for studying how possible states become stable outcomes through constraint, information, boundary, cost, coherence, physical dynamics, and bounded observation.
 
-Its strongest form is not “everything is connected.”
-
-It is:
+Its strongest form is not “everything is connected.” It is:
 
 > Name the possible states. Name the boundary. Name the lawful route. Name the cost. Name the evidence. Name what would make the claim fail.
 
-Reality may have many possible paths. MKUFT studies why this path becomes reachable, stable, measured, or rejected.
+Reality may have many possible paths. MKUFT studies why a particular path becomes reachable, stable, measured, or rejected.
