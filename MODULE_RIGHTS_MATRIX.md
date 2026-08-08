@@ -60,7 +60,6 @@ Unless an exact file version expressly states a different licence, the current G
 | `docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md` | All rights reserved unless an exact version or later standalone publication states otherwise |
 | `docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md` | All rights reserved unless an exact version states otherwise |
 | `docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md` | All rights reserved unless an exact version states otherwise |
-| `docs/19_MKUFT_RECONSTITUTION_KERNEL.md` | All rights reserved unless an exact version states otherwise |
 | `docs/20_GRACE_TRAVERSAL_RULE.md` | All rights reserved unless an exact version states otherwise |
 
 ### Silver Update and later structural modules

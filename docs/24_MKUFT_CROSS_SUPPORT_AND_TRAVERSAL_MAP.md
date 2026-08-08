@@ -333,14 +333,14 @@ This registry ties every numbered public document to its parent structure, neare
 |---|---|---|---|---|
 | `01_MKUFT_CORE_EXTENDED.md` | Core S–I–P–O claim | Master spine | Math, experiments, public bridges | `05_FALSIFICATION_SUMMARY.md` |
 | `02_MKUFT_MATH_APPENDIX.md` | Mathematical scaffold | Core and module 27 | Formal addendum, worked examples, modules 21–26 | Ordinary-model reduction, typed domains, and operational definitions |
-| `03_STANDALONE_FORMAL_ADDENDUM.md` | Graph, trajectory, and cost formalism | Core, math, module 27 | Experiments, kernel, ambiguity, deformation | Domain baselines, units, dimensionless weighting, predictive value |
+| `03_STANDALONE_FORMAL_ADDENDUM.md` | Graph, trajectory, and cost formalism | Core, math, module 27 | Experiments, ambiguity, deformation | Domain baselines, units, dimensionless weighting, predictive value |
 | `04_EXPERIMENTAL_TEST_PROGRAM.md` | Test programme | Core, math, formal addendum | Worked examples and science map | Pre-registration, controls, replication |
 | `05_FALSIFICATION_SUMMARY.md` | Compact failure conditions | All claim modules | Review and release gate | Null results and simpler explanations |
 | `06_OCQS_HUMAN_ACTIVATION_LAYER.md` | Observer-state hypothesis | Core observer term | GRACE, LUCY(O), agency access | Cognitive baselines and bounded observer effects |
-| `07_ESRT_ESF_AND_VOYNICH_SUPPORT.md` | Short procedural bridge | Kernel and I-layer | Method appendix and Voynich application | Alternative classifications and perturbation tests |
+| `07_ESRT_ESF_AND_VOYNICH_SUPPORT.md` | Short procedural bridge | I-layer and constrained traversal | Method appendix and Voynich application | Alternative classifications and perturbation tests |
 | `08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md` | Threshold vocabulary | Boundary, coherence, 22 and 27 | Layer addressing and gradient mechanics | Operational threshold, units or normalisation, ordinary domain models |
 | `09_VOYNICH_PROCEDURAL_ENGINE.md` | Voynich candidate application | ESRT/ESF | Quantitative structural tests | Linguistic, cipher, scribal, decorative, and null baselines |
-| `10_ESRT_ESF_METHOD_APPENDIX.md` | Procedural recognition method | I-layer and kernel | Voynich and other artefact tests | Reliability, false-positive rate, perturbation tests |
+| `10_ESRT_ESF_METHOD_APPENDIX.md` | Procedural recognition method | I-layer and constrained traversal | Voynich and other artefact tests | Reliability, false-positive rate, perturbation tests |
 | `11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md` | Broad public bridge | Master spine | Public applications | Must route technical claims back to formal homes |
 | `12_INDIVIDUAL_REALITY_COST_AND_COHESION.md` | Boundary, dimensional, and Love/cohesion bridge | Core, formal addendum, 27 | Biology, society, dimensional and whole-system hypotheses | Analogy and state-space dimension must not substitute for physical evidence |
 | `13_PHYSICS_FACING_MKUFT_EXPLANATION.md` | Technical public translation | Core, math, 26 and 27 | Experiments and boundary physics | Standard-physics recovery and units |
@@ -349,14 +349,13 @@ This registry ties every numbered public document to its parent structure, neare
 | `16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md` | Boundary-physics hypothesis | LUCY, math, 22 and 27 | Controlled geometry/orientation tests | Ordinary mechanics, units, systematics, reproducibility |
 | `17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md` | Comparative field-language bridge | Physics-facing paper | Candidate engineering correspondences | Translation is not equivalence or evidence |
 | `18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md` | Plain-English synthesis | Master spine | Whole public stack | Notation and claim must match canonical homes |
-| `19_MKUFT_RECONSTITUTION_KERNEL.md` | Recovery seed | Core, formal addendum, 27 | GRACE, ESRT, traversal map | Must not replace the full papers or flatten typed spaces |
-| `20_GRACE_TRAVERSAL_RULE.md` | Clean traversal filter | Kernel and S–I–P–O | Observer, application, whole-system discipline | Love must not become empirical rescue; cost is domain-specific |
+| `20_GRACE_TRAVERSAL_RULE.md` | Clean traversal filter | S–I–P–O and constrained traversal | Observer, application, whole-system discipline | Love must not become empirical rescue; cost is domain-specific |
 | `21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md` | Ambiguity mechanism | Core, formal addendum, 27 | Agency, adversarial, anomaly applications | Declared domain encoding, reliable scoring, simpler explanations |
 | `22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md` | Typed address discipline | S–I–P–O and 27 | LUCY and all repeated structures | Layer-specific evidence and coupling tests |
 | `22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md` | Recursive object and property-carrier discipline | 22, provenance, rights, and repository hygiene | Publication/source separation and no-untyped-inheritance audit | Every transferred property requires a declared carrier |
 | `23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md` | Action-map model | Ambiguity, observer, 27 | Human/social applications and whole-system audit | Not diagnostic; gating and product form must remain testable |
 | `24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md` | Repository architecture | All canon | Navigation and audit | Must reflect actual files and definitions |
-| `24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` | Matched-control traversal hypothesis | Module 24, kernel, typed architecture, 27 | AI and knowledge-system testing | No unmatched content, retrieval, metadata, prompting, compute, or scoring |
+| `24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md` | Matched-control traversal hypothesis | Module 24, typed architecture, 27 | AI and knowledge-system testing | No unmatched content, retrieval, metadata, prompting, compute, or scoring |
 | `24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` | Fair-null and specificity protocol | 24A and 27 | AI and relationship-specific tests | Commensurable metrics, strong alternative set, pre-registration |
 | `25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md` | Relation-level load and deformation assay | 24A, 24B, GRACE, 22, 23, 27 | Neutral-corpus tests and MKUFT self-audit | Centrality is not truth; sign direction fixed; local gain is not whole-system gain |
 | `26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md` | Foundational physics category proposal | Core, math, physics bridge, 22, 25, 27 | Bell/no-signalling derivation and quantum/gravity recovery | Standard formalisms, typed coupling, recovery norm, discriminating prediction |
@@ -408,7 +407,7 @@ README
 ### Systems or AI reader
 
 ```text
-RECONSTITUTION_KERNEL
+MKUFT_INTEGRATED_MASTER_SPINE
 → CROSS_SUPPORT_MAP
 → ACTIVE_TRAVERSAL
 → STRONGEST_FAIR_NULL
@@ -495,6 +494,8 @@ Public translation rule:
 
 ## 11. Update protocol
 
+`CANON_WRITE_AND_CLOSURE_SOP.md` is the mandatory working procedure for live-canon writes, moves, renames, deletions, and cleanups. This section is its architecture-level summary.
+
 When adding or materially revising a concept:
 
 1. Name the problem it solves.
@@ -508,11 +509,26 @@ When adding or materially revising a concept:
 9. Add the nearest ordinary explanation.
 10. State whether structural dependence, empirical support, generative value, and whole-system integrity are being distinguished.
 11. Add it to the registry after the structure is stable.
-12. Check that entry through the kernel reconstructs the same meaning.
+12. Check that every public entry route reconstructs the same meaning.
 13. Fetch and preserve the complete target file before replacement.
 14. Inspect additions and deletions for unexplained loss.
 15. Read back the changed region and final section.
 16. Compare against the pre-change commit and repair truncation immediately.
+17. For a deletion, rename, move, or cleanup, search the old path, filename, module label, title, aliases, registry rows, entry routes, architecture footers, and semantic dependency language.
+18. Add retired live identifiers to `CANON_RETIRED_IDENTIFIERS.txt` where re-entry must be blocked.
+19. Run `tools/validate_canon_integrity.py` and require zero unexplained stale matches before completion.
+20. Expose a structural change to `main` only after object, dependency, presentation, and readback closure are all verified.
+
+### 11.1 Human-readable equation rule
+
+For every new or materially revised mathematical expression in human-facing Markdown:
+
+- use GitHub-rendered inline or display mathematics;
+- do not use ASCII/pseudo-math fenced `text` blocks as equation presentation;
+- do not use legacy delimiters that may survive transfer as visible source;
+- verify the human reading surface after the write.
+
+Fenced blocks remain available for literal code, terminal material, file trees, and genuine process or architecture diagrams.
 
 ---
 
@@ -544,7 +560,8 @@ When adding or materially revising a concept:
 - vector outcomes are not silently forced into scalar equations;
 - sign conventions are declared;
 - approximations state a future norm, tolerance, and regime;
-- heuristic, template, derived result, and validated model are labelled accurately.
+- heuristic, template, derived result, and validated model are labelled accurately;
+- new or materially revised human-facing equations render as mathematics rather than source-like text.
 
 ### Whole-system audit
 
@@ -581,7 +598,8 @@ When adding or materially revising a concept:
 - no non-public biography, correspondence, credentials, or case material appears;
 - internal-only instructions are absent;
 - titles, status lines, authorship, and file roles are accurate;
-- links refer to real public files.
+- links refer to real public files;
+- retired live-canon identifiers do not survive in routes, registries, or dependencies.
 
 ### Truncation and readback audit
 
@@ -593,7 +611,7 @@ When adding or materially revising a concept:
 
 ### Compression audit
 
-A reader should recover the same core model from the README, master spine, kernel, this map, and any domain application.
+A reader should recover the same core model from the README, Start Here, master spine, this map, and any domain application.
 
 ---
 
@@ -617,7 +635,9 @@ The post-Silver architecture extensions add:
 - an explicit physics-first category proposal for quantum gravity;
 - typed traversal and equation hygiene across physical, informational, observer, and metaphysical language;
 - explicit preservation of God and Love as metaphysical and relational primaries without converting them into unsupported physical mechanism;
-- truncation-resistant structural update protocol.
+- truncation-resistant structural update protocol;
+- mandatory propagation closure for deletions, renames, moves, and public cleanups;
+- machine-checked protection against retired routes and known Markdown-math transfer faults.
 
 These additions do not replace the original DOI work or claim equal evidence across application domains.
 
@@ -625,4 +645,4 @@ These additions do not replace the original DOI work or claim equal evidence acr
 
 ## 14. Compressed rule
 
-> Define once. Address by typed layer. Route by dependency. Test at the claim. Preserve the invariant from every entry point. Keep physical dimensions, abstract state spaces, information adjacency, observer registration, and metaphysical source distinct but connected. Distinguish structural centrality from truth, local coherence from whole-system coherence, and a complete file from one merely appearing complete.
+> Define once. Address by typed layer. Route by dependency. Test at the claim. Preserve the invariant from every entry point. Keep physical dimensions, abstract state spaces, information adjacency, observer registration, and metaphysical source distinct but connected. Distinguish structural centrality from truth, local coherence from whole-system coherence, and a complete file from one merely appearing complete. A structural change is not complete until propagation and readback close.
