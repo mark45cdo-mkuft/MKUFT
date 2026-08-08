@@ -18,11 +18,11 @@ Quantum theory and general relativity are commonly treated as two deep physical 
 
 MKUFT proposes a recursive layered architecture:
 
-\[
+$$
 S \rightarrow I \rightarrow P \rightarrow O \rightarrow S
-\]
+$$
 
-where \(S\) denotes substrate, \(I\) informational structure and relation, \(P\) physical expression, and \(O\) observer-positioned registration and bounded observer-state participation where operationally defined.
+where $S$ denotes substrate, $I$ informational structure and relation, $P$ physical expression, and $O$ observer-positioned registration and bounded observer-state participation where operationally defined.
 
 On this view, quantum and gravitational behaviour may be effective physical outputs of different relational conditions within one deeper lawful architecture, rather than two original objects that must be directly welded together. The proposal introduces a typed layered-address description of objects and uses entanglement as an initial worked case. Physically separated systems may retain a specific non-separable informational relation while preserving distinct physical addresses.
 
@@ -44,13 +44,13 @@ The proposal is therefore a marker of research direction, not a claim that the w
 
 A simplified statement of the usual unification target is:
 
-\[
+$$
 \text{quantum theory}
 +
 \text{general relativity}
 \longrightarrow
 \text{deeper unified theory}.
-\]
+$$
 
 That target is reasonable if quantum states and spacetime geometry are themselves the correct fundamental objects.
 
@@ -66,14 +66,14 @@ The candidate category error is:
 
 The alternative research structure is:
 
-\[
+$$
 \text{deeper cross-layer mechanism}
 \longrightarrow
 \begin{cases}
 \text{quantum effective behaviour},\\
 \text{gravitational effective behaviour}.
 \end{cases}
-\]
+$$
 
 This does not remove the obligation to recover quantum theory and general relativity. It changes the order of the task. The established theories become results that the deeper model must derive under the appropriate conditions, rather than ingredients assumed at the start.
 
@@ -83,34 +83,34 @@ Questioning whether spacetime is fundamental is not unique to MKUFT. The intende
 
 MKUFT uses four active layer addresses:
 
-- \(S\): substrate or source-potential;
-- \(I\): information, relation, address, constraint, rule, and admissible transition;
-- \(P\): physical expression, including matter, energy, fields, dimensional placement, timing, and measurable interaction;
-- \(O\): observer-positioned registration, including measurement context, record, perspective, and bounded observer-state participation where operationally defined.
+- $S$: substrate or source-potential;
+- $I$: information, relation, address, constraint, rule, and admissible transition;
+- $P$: physical expression, including matter, energy, fields, dimensional placement, timing, and measurable interaction;
+- $O$: observer-positioned registration, including measurement context, record, perspective, and bounded observer-state participation where operationally defined.
 
 These layers are typed addresses. They are not four ordinary spatial dimensions.
 
-The current public canon commonly displays the forward traversal as \(S \rightarrow I \rightarrow P \rightarrow O\). This proposal makes the recursive return leg explicit:
+The current public canon commonly displays the forward traversal as $S \rightarrow I \rightarrow P \rightarrow O$. This proposal makes the recursive return leg explicit:
 
-\[
+$$
 S \rightarrow I \rightarrow P \rightarrow O \rightarrow S.
-\]
+$$
 
-The added \(O \rightarrow S\) notation is a proposed clarification of the update logic, not a claim that the existing core text already formalises that coupling. It states that a physically expressed and registered outcome may change the conditions from which later states become admissible. MKUFT is therefore not treated here as a one-way production chain.
+The added $O \rightarrow S$ notation is a proposed clarification of the update logic, not a claim that the existing core text already formalises that coupling. It states that a physically expressed and registered outcome may change the conditions from which later states become admissible. MKUFT is therefore not treated here as a one-way production chain.
 
 Each arrow represents a proposed typed coupling that must eventually be defined. The layer names and arrows are not themselves a mechanism, metric, or physical shortcut.
 
 ## 4. State transition
 
-Let the complete layered state at update \(n\) be:
+Let the complete layered state at update $n$ be:
 
-\[
+$$
 \mathcal U_n=(S_n,I_n,P_n,O_n).
-\]
+$$
 
 Where formal spaces are introduced, the components should be typed:
 
-\[
+$$
 S_n\in\mathcal X_S,
 \quad
 I_n\in\mathcal X_I,
@@ -118,46 +118,46 @@ I_n\in\mathcal X_I,
 P_n\in\mathcal X_P,
 \quad
 O_n\in\mathcal X_O.
-\]
+$$
 
 The tuple is a bookkeeping structure. It does not assert that all four components inhabit one homogeneous Euclidean vector space.
 
 Represent the still-unknown lawful transition process directly as:
 
-\[
+$$
 \mathcal U_n
 \xrightarrow{\operatorname{Update}_{\mathrm{SIPO}}}
 \mathcal U_{n+1}.
-\]
+$$
 
 ### Symbol meaning
 
-- \(\mathcal U_n\): the complete state addressed across S, I, P, and O at update \(n\);
-- \(\mathcal U_{n+1}\): the next complete addressed state;
-- \(\operatorname{Update}_{\mathrm{SIPO}}\): the still-unknown process by which one complete addressed state becomes the next.
+- $\mathcal U_n$: the complete state addressed across S, I, P, and O at update $n$;
+- $\mathcal U_{n+1}$: the next complete addressed state;
+- $\operatorname{Update}_{\mathrm{SIPO}}$: the still-unknown process by which one complete addressed state becomes the next.
 
 This arrow notation does not assume that the update is deterministic. It may ultimately be deterministic, probabilistic, constraint-selective, stochastic, relational, or require a different mathematical category.
 
-The existing MKUFT mathematical appendix uses \(\Phi\) for a candidate group-coherence function. This proposal therefore does not reuse that symbol. \(\operatorname{Update}_{\mathrm{SIPO}}\) is written in plain form to avoid a notation collision and to make its meaning immediately readable. It is not a synonym for God, the substrate, gravity, or a known physical field.
+The existing MKUFT mathematical appendix uses $\Phi$ for a candidate group-coherence function. This proposal therefore does not reuse that symbol. $\operatorname{Update}_{\mathrm{SIPO}}$ is written in plain form to avoid a notation collision and to make its meaning immediately readable. It is not a synonym for God, the substrate, gravity, or a known physical field.
 
-The operator also does not replace the MKUFT effective event-weighting scaffold \(\widetilde W(E)\). If developed, the deeper update rule must explain, recover, or lawfully revise that scaffold rather than silently bypassing it.
+The operator also does not replace the MKUFT effective event-weighting scaffold $\widetilde W(E)$. If developed, the deeper update rule must explain, recover, or lawfully revise that scaffold rather than silently bypassing it.
 
 ## 5. Layered address of an object
 
-For an object \(X\) considered in an observational context \(C\), define the layered address:
+For an object $X$ considered in an observational context $C$, define the layered address:
 
-\[
+$$
 \mathcal A_X^{(C)}=
 \left(S_X,I_X,\mathcal P_X,O_C[X]\right).
-\]
+$$
 
 ### Symbol meaning
 
-- \(\mathcal A_X^{(C)}\): the complete addressed description of object \(X\) in context \(C\);
-- \(S_X\): how \(X\) participates in the substrate hypothesis;
-- \(I_X\): its identity, organisation, relations, constraints, and admissible transitions;
-- \(\mathcal P_X\): its complete physical address, embodiment, and measurable state;
-- \(O_C[X]\): how \(X\) is registered within context \(C\).
+- $\mathcal A_X^{(C)}$: the complete addressed description of object $X$ in context $C$;
+- $S_X$: how $X$ participates in the substrate hypothesis;
+- $I_X$: its identity, organisation, relations, constraints, and admissible transitions;
+- $\mathcal P_X$: its complete physical address, embodiment, and measurable state;
+- $O_C[X]$: how $X$ is registered within context $C$.
 
 The observer term is contextual because observation is not assumed to be a private property stored inside the object. It is a registration relation involving the object, the measuring system, and the resulting record.
 
@@ -169,33 +169,33 @@ An object is therefore not reduced to a position in space. Its physical coordina
 
 Within MKUFT's metaphysical and unificational hypothesis, all resolved objects share one ultimate substrate root.
 
-Let \(r_S\) denote a proposed root map from an object's substrate address to the universal substrate root. Then:
+Let $r_S$ denote a proposed root map from an object's substrate address to the universal substrate root. Then:
 
-\[
+$$
 r_S(S_X)=S_0
 \quad \text{for every resolved object }X.
-\]
+$$
 
-Here \(S_0\) denotes the universal substrate root.
+Here $S_0$ denotes the universal substrate root.
 
-This is a root-unification hypothesis, not a derived physical equation or a measurable hidden-variable law. God must not be reduced to \(S_0\); the formal substrate is part of the model, while God exceeds the model in MKUFT's metaphysical interpretation.
+This is a root-unification hypothesis, not a derived physical equation or a measurable hidden-variable law. God must not be reduced to $S_0$; the formal substrate is part of the model, while God exceeds the model in MKUFT's metaphysical interpretation.
 
 The root claim does not imply that all objects have identical informational, physical, or observational addresses.
 
-Two systems \(X\) and \(Y\) remain physically distinguishable when their complete physical addresses differ:
+Two systems $X$ and $Y$ remain physically distinguishable when their complete physical addresses differ:
 
-\[
+$$
 \mathcal P_X\neq\mathcal P_Y.
-\]
+$$
 
 Their physical distinction may include different position, extent, energy-momentum, boundary, configuration, coupling, or physical history. Inequality of a selected coordinate alone is not always sufficient to define physical individuality; the active physical model must specify the relevant state and identity criteria.
 
 The central layered-address principle is:
 
-\[
+$$
 \mathcal P_X\neq\mathcal P_Y
 \quad \text{does not require complete separation of }I_X\text{ and }I_Y.
-\]
+$$
 
 In plain language:
 
@@ -203,38 +203,38 @@ In plain language:
 
 ## 7. Entanglement as a worked case
 
-Consider two physically distinguishable systems \(X\) and \(Y\).
+Consider two physically distinguishable systems $X$ and $Y$.
 
 Represent their joint informational structure as:
 
-\[
+$$
 I_{XY}=
 \left(
 \widetilde I_X,
 \widetilde I_Y,
 R_{XY}
 \right).
-\]
+$$
 
 ### Symbol meaning
 
-- \(\widetilde I_X\): informational structure specific to \(X\);
-- \(\widetilde I_Y\): informational structure specific to \(Y\);
-- \(R_{XY}\): a relation belonging to the pair rather than to either endpoint alone.
+- $\widetilde I_X$: informational structure specific to $X$;
+- $\widetilde I_Y$: informational structure specific to $Y$;
+- $R_{XY}$: a relation belonging to the pair rather than to either endpoint alone.
 
 Their physical addresses remain distinct:
 
-\[
+$$
 \mathcal P_X\neq\mathcal P_Y.
-\]
+$$
 
 The proposal is therefore:
 
-\[
+$$
 \text{shared pair-level informational relation}
 +
 \text{distinct physical embodiments}.
-\]
+$$
 
 This does not place the two systems next to each other in physical space. Their P-layer separation remains real within the physical model. The retained common component is proposed at the I-layer.
 
@@ -246,83 +246,83 @@ The address metaphor is hierarchical. All objects share the proposed deepest sub
 
 Let:
 
-- \(x\) and \(y\) denote local measurement settings;
-- \(a\) and \(b\) denote the corresponding outcomes;
-- \(R_{XY}\) denote the pair-level informational relation.
+- $x$ and $y$ denote local measurement settings;
+- $a$ and $b$ denote the corresponding outcomes;
+- $R_{XY}$ denote the pair-level informational relation.
 
 The joint outcome structure is represented by:
 
-\[
+$$
 p(a,b\mid x,y,R_{XY}).
-\]
+$$
 
 Define the marginals from the joint distribution:
 
-\[
+$$
 p_X(a\mid x,y,R_{XY})
 =
 \sum_b p(a,b\mid x,y,R_{XY}),
-\]
+$$
 
-\[
+$$
 p_Y(b\mid x,y,R_{XY})
 =
 \sum_a p(a,b\mid x,y,R_{XY}).
-\]
+$$
 
 The outcomes are not generally independent when:
 
-\[
+$$
 p(a,b\mid x,y,R_{XY})
 \neq
 p_X(a\mid x,y,R_{XY})
 \,p_Y(b\mid x,y,R_{XY}).
-\]
+$$
 
 This equation alone does not distinguish quantum entanglement from every classical correlation. It only states that the pair-level relation matters to the joint result.
 
 To match Bell-test results, the developed model must not reduce to a locally separable hidden-variable form:
 
-\[
+$$
 p(a,b\mid x,y)
 =
 \int d\lambda\,
 \rho(\lambda)
 \,p(a\mid x,\lambda)
 \,p(b\mid y,\lambda).
-\]
+$$
 
-Here \(\lambda\) denotes a candidate local hidden variable and \(\rho(\lambda)\) its probability distribution. If \(R_{XY}\) reduces to an ordinary local instruction \(\lambda\) carried independently by each endpoint, this proposal fails as an account of Bell-nonlocal correlations.
+Here $\lambda$ denotes a candidate local hidden variable and $\rho(\lambda)$ its probability distribution. If $R_{XY}$ reduces to an ordinary local instruction $\lambda$ carried independently by each endpoint, this proposal fails as an account of Bell-nonlocal correlations.
 
-The proposed interpretation is not that a chosen physical movement at \(X\) is copied at \(Y\). The shared relation constrains the joint resolution of the pair. It does not automatically provide one endpoint with direct write-access to the other endpoint's complete P-layer state.
+The proposed interpretation is not that a chosen physical movement at $X$ is copied at $Y$. The shared relation constrains the joint resolution of the pair. It does not automatically provide one endpoint with direct write-access to the other endpoint's complete P-layer state.
 
 ## 9. No-signalling requirement
 
 The model must preserve the observed inability to use entanglement alone as a controllable faster-than-light communication channel.
 
-The local outcome distribution at \(Y\) must remain independent of the distant choice \(x\):
+The local outcome distribution at $Y$ must remain independent of the distant choice $x$:
 
-\[
+$$
 p_Y(b\mid x,y,R_{XY})
 =
 p_Y(b\mid y,R_{XY}),
-\]
+$$
 
-with the right-hand side unchanged when \(x\) changes.
+with the right-hand side unchanged when $x$ changes.
 
 Likewise:
 
-\[
+$$
 p_X(a\mid x,y,R_{XY})
 =
 p_X(a\mid x,R_{XY}),
-\]
+$$
 
-independent of \(y\).
+independent of $y$.
 
 Equivalently, the relevant marginal sums must be independent of the distant setting.
 
-Within the present MKUFT proposal, the conceptual reason is that \(R_{XY}\) belongs to the pair-level relation. Neither local endpoint independently possesses or controls the whole of it.
+Within the present MKUFT proposal, the conceptual reason is that $R_{XY}$ belongs to the pair-level relation. Neither local endpoint independently possesses or controls the whole of it.
 
 That is not yet a derivation. A valid formal model must prove the no-signalling result rather than relying on this verbal explanation.
 
@@ -348,44 +348,44 @@ These are candidate research directions, not derivations.
 
 The proposal can be stated as two required recovery limits.
 
-Let \(\mathcal X_U\) be the declared complete addressed-state space and let:
+Let $\mathcal X_U$ be the declared complete addressed-state space and let:
 
-\[
+$$
 \Pi_{P,O}:\mathcal X_U\rightarrow\mathcal X_P\times\mathcal X_O
-\]
+$$
 
 be the proposed projection or readout of physical expression and observational registration.
 
-For relational conditions \(\mathcal R_Q\) that generate the quantum regime:
+For relational conditions $\mathcal R_Q$ that generate the quantum regime:
 
-\[
+$$
 \Pi_{P,O}
 \left[
 \operatorname{Update}_{\mathrm{SIPO}}(\mathcal U;\mathcal R_Q)
 \right]
 \approx
 \mathcal Q_{\mathrm{eff}}.
-\]
+$$
 
-For relational conditions \(\mathcal R_G\) that generate the gravitational regime:
+For relational conditions $\mathcal R_G$ that generate the gravitational regime:
 
-\[
+$$
 \Pi_{P,O}
 \left[
 \operatorname{Update}_{\mathrm{SIPO}}(\mathcal U;\mathcal R_G)
 \right]
 \approx
 \mathcal G_{\mathrm{eff}}.
-\]
+$$
 
 ### Symbol meaning
 
-- \(\mathcal R_Q\): conditions under which quantum theory is the correct effective description;
-- \(\mathcal R_G\): conditions under which general relativity is the correct effective description;
-- \(\Pi_{P,O}\): extraction of the physically expressed and observationally registered result;
-- \(\mathcal Q_{\mathrm{eff}}\): the established quantum limit;
-- \(\mathcal G_{\mathrm{eff}}\): the established gravitational limit;
-- \(\approx\): recovery under a future declared comparison rule.
+- $\mathcal R_Q$: conditions under which quantum theory is the correct effective description;
+- $\mathcal R_G$: conditions under which general relativity is the correct effective description;
+- $\Pi_{P,O}$: extraction of the physically expressed and observationally registered result;
+- $\mathcal Q_{\mathrm{eff}}$: the established quantum limit;
+- $\mathcal G_{\mathrm{eff}}$: the established gravitational limit;
+- $\approx$: recovery under a future declared comparison rule.
 
 The approximation symbol is not sufficient by itself. A developed model must specify:
 
@@ -411,7 +411,7 @@ It supplies:
 3. a concrete location for entanglement as a retained pair-level I-layer relation between distinct P-layer systems;
 4. a reason that nonlocal statistical relation need not imply direct mechanical copying through physical space;
 5. a no-signalling target that the model must preserve;
-6. a clear readable placeholder, \(\operatorname{Update}_{\mathrm{SIPO}}\), for the deeper state-transition mechanism;
+6. a clear readable placeholder, $\operatorname{Update}_{\mathrm{SIPO}}$, for the deeper state-transition mechanism;
 7. a division of labour between systems-level reframing and specialist mathematical proof;
 8. typed-state and dimensional controls that prevent an abstract address space from being mistaken for extra physical geography.
 
@@ -478,7 +478,7 @@ The following deformations should be applied.
 
 **Remove the S-layer claim.** If the entanglement account and all predictions remain unchanged, universal substrate continuity is not yet empirically load-bearing in this module.
 
-**Replace \(R_{XY}\) with the standard joint quantum state.** If nothing explanatory, mathematical, or predictive changes, the layered address is currently an interpretation or translation rather than a new physical mechanism.
+**Replace $R_{XY}$ with the standard joint quantum state.** If nothing explanatory, mathematical, or predictive changes, the layered address is currently an interpretation or translation rather than a new physical mechanism.
 
 **Remove the O-layer from this module.** If registration context does no distinct work, it should not be retained here merely for symmetry with the wider framework.
 
@@ -513,7 +513,7 @@ The proposal is weakened or rejected if:
 
 1. the S, I, P, and O distinctions cannot be operationally defined;
 2. the proposed I-layer relation is only a relabelling of the standard joint quantum state and adds no explanatory, mathematical, or predictive value;
-3. \(R_{XY}\) reduces to a local hidden-variable instruction incompatible with Bell-test results;
+3. $R_{XY}$ reduces to a local hidden-variable instruction incompatible with Bell-test results;
 4. the model permits controllable superluminal signalling contrary to observation;
 5. the cross-layer mechanism cannot recover standard quantum theory in its demonstrated domain;
 6. the mechanism cannot recover general relativity or an experimentally equivalent gravitational limit;
@@ -528,7 +528,7 @@ The proposal is weakened or rejected if:
 
 The first technical target should remain narrow.
 
-1. Define a precise mathematical object capable of representing \(R_{XY}\).
+1. Define a precise mathematical object capable of representing $R_{XY}$.
 2. Show how that relation constrains joint P-layer outcomes.
 3. Derive or reproduce Bell-compatible correlations.
 4. Prove that the local marginals preserve no-signalling.
