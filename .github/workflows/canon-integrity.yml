@@ -1,0 +1,36 @@
+name: Canon integrity
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-canon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve comparison base
+        id: base
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "sha=${{ github.event.pull_request.base.sha }}" >> "$GITHUB_OUTPUT"
+          else
+            BEFORE="${{ github.event.before }}"
+            if [ -n "$BEFORE" ] && [ "$BEFORE" != "0000000000000000000000000000000000000000" ]; then
+              echo "sha=$BEFORE" >> "$GITHUB_OUTPUT"
+            else
+              echo "sha=HEAD^" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Validate public canon writes and closure
+        run: python tools/validate_canon_integrity.py --base "${{ steps.base.outputs.sha }}"
