@@ -22,6 +22,15 @@ For dependency relationships among modules, see [Cross-Support and Traversal Map
 7. [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
 8. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 
+### LUCY and effective geometry
+
+1. [LUCY Boundary Threshold Framework](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md)
+2. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
+3. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
+4. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+5. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+6. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+
 ### General architecture
 
 1. [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md)
@@ -134,6 +143,10 @@ Bounded observer-state hypothesis with cognitive baselines and explicit limits o
 ### 8 — [LUCY Boundary Threshold Framework](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md)
 
 Threshold and boundary vocabulary for candidate local coherence conditions.
+
+### 30 — [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
+
+Downstream LUCY effective-geometry hypothesis. It applies the threshold → membrane → sustained-pocket architecture to a provisional gravitational/effective-geometry branch with common-boundary, composition, wavelength, clock, recovery, promotion, and falsification requirements.
 
 ### 16 — [Gradient Mechanics and Boundary-Shear Geometry](docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md)
 
