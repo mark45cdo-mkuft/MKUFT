@@ -54,7 +54,7 @@ The framework distinguishes:
 
 ### AI and typed knowledge architectures
 
-1. [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md) — publication record, DOI, citation, rights, and reading route.
+1. [ATLD v1.0 — published paper](https://doi.org/10.5281/zenodo.21341521) — standalone matched-control evaluation protocol; [publication record and archive](ATLD_STANDALONE_PUBLICATION.md).
 2. [Active Traversal and Functional Emergence](docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) — matched-control active-traversal hypothesis.
 3. [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) — replay, alternative-pairing, and relationship-specificity controls.
 4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) — controlled deformation and load classification.
@@ -70,7 +70,7 @@ The framework distinguishes:
 - Concept DOI: [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520)
 - Public licence: CC BY-NC-SA 4.0 for the exact deposited manuscript
 
-The [ATLD publication page](ATLD_STANDALONE_PUBLICATION.md) is the preferred repository entry point. The split text under `publications/ATLD_Evaluation_Protocol_v1.0/` is a frozen archival mirror; the Zenodo PDF controls exact pagination and visual layout.
+The [ATLD publication page](ATLD_STANDALONE_PUBLICATION.md) keeps the citation, rights, and quiet archival route. The Zenodo PDF is the primary human-reading object; the split text under `publications/ATLD_Evaluation_Protocol_v1.0/` remains available for preservation, traversal, and recovery.
 
 ## Evidence and claim discipline
 
