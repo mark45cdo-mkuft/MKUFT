@@ -1,26 +1,19 @@
 # ESRT / ESF Method Appendix
 
-
-
-<!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** `10.5281/zenodo.17780566`  
-**Provenance:** This module is part of the public MKUFT canon. Exact revisions are timestamped by Git history.  
-**Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
-<!-- MKUFT-PROVENANCE-HEADER:END -->
+**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-Status: public method appendix inside the controlled MKUFT GitHub working copy.
+**Status:** public method appendix.
 
 ## Purpose
 
-This appendix defines the Executable System Recognition Test (ESRT) and the Executable System Framework (ESF). They support MKUFT without replacing the main theory.
+This appendix defines the Executable System Recognition Test (ESRT) and the Executable System Framework (ESF).
 
-They answer one question:
+Their central question is:
 
-```text
-Does this structure merely describe or symbolise, or does its arrangement constrain a reproducible sequence of action or state change?
-```
+> Does a structure merely describe or symbolise, or does its arrangement constrain a reproducible sequence of action or state change?
 
 ESRT is a candidate-classification method. It is not proof of original intent, hidden meaning, historical use, or metaphysical function.
 
@@ -28,88 +21,39 @@ ESRT is a candidate-classification method. It is not proof of original intent, h
 
 ### Core hypothesis
 
-If an artefact encodes executable knowledge, then position, state representation, and flow ordering should jointly constrain performance even when semantic content is unknown.
+If an artefact encodes executable knowledge, position, state representation, and flow ordering should jointly constrain performance even when semantic content is uncertain.
 
-In plain English:
+If rearranging the structure predictably breaks the procedure, and repeated positions and transitions retain stable roles, the artefact may function executably.
 
-If rearranging the structure predictably breaks the procedure, and if repeated positions and transitions retain stable roles, the artefact may function executably.
+### P1 — Positional addressing
 
-### Primary criterion P1 — Positional addressing
+**Question:** Does spatial placement determine role?
 
-Question:
+Possible indicators include fixed zones, rings, columns, sectors or anchors, repeated frames, and stable positions with stable roles.
 
-```text
-Does spatial placement determine role?
-```
+**Failure test:** if controlled rearrangement does not alter predicted function or classification, the addressing claim weakens.
 
-Possible indicators:
+### P2 — State representation
 
-- fixed zones;
-- rings, columns, sectors, or anchors;
-- repeated frames;
-- stable positions with stable roles.
+**Question:** Are there recurring forms that reliably mark condition, mode, or phase?
 
-Failure test:
+Possible indicators include containers, nodes, pools or vessels, repeated blocks or glyph clusters, and mode/state markers.
 
-If controlled rearrangement does not alter predicted function or classification, the addressing claim weakens.
+**Failure test:** if the forms are explained equally or better as illustration, decoration, scribal convention, or ordinary language structure, the state claim weakens.
 
-### Primary criterion P2 — State representation
+### P3 — Flow or transformation
 
-Question:
+**Question:** Is there ordered progression, transition, circulation, branching, or routing?
 
-```text
-Are there recurring forms that reliably mark condition, mode, or phase?
-```
+Possible indicators include paths or channels, loops and sequence, reset structures, branching, and conditional transitions.
 
-Possible indicators:
-
-- containers;
-- nodes;
-- pools or vessels;
-- repeated blocks or glyph clusters;
-- mode or state markers.
-
-Failure test:
-
-If the forms are explained equally or better as illustration, decoration, scribal convention, or ordinary language structure, the state claim weakens.
-
-### Primary criterion P3 — Flow or transformation
-
-Question:
-
-```text
-Is there ordered progression, transition, circulation, branching, or routing?
-```
-
-Possible indicators:
-
-- paths or channels;
-- loops and sequence;
-- reset structures;
-- branching;
-- conditional transitions.
-
-Failure test:
-
-If reordering does not change any pre-specified output or structural prediction, the flow claim weakens.
+**Failure test:** if reordering does not change a prespecified output or structural prediction, the flow claim weakens.
 
 ### Secondary criteria
 
-Secondary criteria can strengthen—but cannot independently establish—the classification:
+Secondary support may include cross-context stability of the same grammar, compression through reusable modules or subroutines, tolerance of copying or stylistic noise, and predictable failure after structural violation.
 
-- cross-context stability of the same grammar;
-- compression through reusable modules or subroutines;
-- tolerance of copying or stylistic noise;
-- predictable failure after structural violation.
-
-### Scoring boundary
-
-A provisional ESRT pass requires:
-
-- all three primary criteria;
-- at least two secondary criteria;
-- performance above matched linguistic, decorative, diagrammatic, scribal, and chance baselines;
-- a pre-specified perturbation test.
+A provisional ESRT pass requires all three primary criteria, at least two secondary criteria, performance above matched linguistic/decorative/diagrammatic/scribal/chance baselines, and a prespecified perturbation test.
 
 A pass means **executable-system candidate**, not confirmed historical function.
 
@@ -123,127 +67,57 @@ ESF models executable systems through three linked dimensions:
 
 A structure is usefully executable when those dimensions jointly constrain action in a reproducible way.
 
-## Worked Example 1 — Thermostat-Controlled Heating
+## Worked example 1 — Thermostat-controlled heating
 
 ### Addressing
 
-- environment or air volume;
-- sensor position;
-- heater or actuator.
-
-Placement matters: a badly placed sensor predictably distorts regulation.
+The environment, sensor position, and heater/actuator define the relevant locations. Placement matters: a badly placed sensor predictably distorts regulation.
 
 ### State
 
-- temperature below threshold;
-- within threshold;
-- above threshold;
-- heater on;
-- heater off.
+Relevant states include temperature below threshold, within threshold, above threshold, heater on, and heater off.
 
 ### Flow
 
-```text
-temperature change
-→ sensor detection
-→ actuator response
-→ environmental change
-```
+**temperature change → sensor detection → actuator response → environmental change**
 
 ### Tests
 
-- reproduce the loop in independent systems;
-- move the sensor and predict the distortion;
-- inject measurement noise;
-- break the feedback path as a negative control.
+Reproduce the loop independently, move the sensor and predict the resulting distortion, inject measurement noise, and break the feedback path as a negative control.
 
-This is an established executable example used to validate the method’s grammar.
+This is an established executable example used to validate the grammar.
 
-## Worked Example 2 — Diagram-Only Assembly
+## Worked example 2 — Diagram-only assembly
 
-### Addressing
+Addressing is provided by workspaces, tool zones, component placement, and panels. Components move through states such as unassembled, aligned, partially assembled, locked, and completed. The ordered sequence constrains action; skipping or reordering steps should produce predictable error.
 
-Workspaces, tool zones, component placement, and panels define where actions occur.
-
-### State
-
-Components move through:
-
-- unassembled;
-- aligned;
-- partially assembled;
-- locked;
-- completed.
-
-### Flow
-
-The sequence constrains action. Skipping or reordering steps should produce predictable error.
-
-This example shows that executable structure need not rely on ordinary prose.
+This demonstrates that executable structure need not rely on ordinary prose.
 
 ## Application to MKUFT
 
-ESRT/ESF support the information and transmission layers of MKUFT.
+ESRT/ESF support the information and transmission layers of MKUFT. They make addressing, state, and flow explicit; support perturbation and negative-control tests; distinguish reproducible structure from narrative resemblance; and test whether a model survives compression and context loss.
 
-They do not:
+They do not replace MKUFT physical models, prove that a visual pattern is executable, establish origin/authorship/intent/spirituality, or convert analogy into evidence.
 
-- replace MKUFT physical models;
-- prove that a visual pattern is executable;
-- establish origin, authorship, intent, or spirituality;
-- convert analogy into evidence.
+## Voynich application boundary
 
-They do:
+The Voynich Manuscript is an ESRT/ESF candidate application because it appears to contain positional structure, recurring forms, and possible flow relations.
 
-- make addressing, state, and flow explicit;
-- reduce interpretive drift;
-- support perturbation and negative-control tests;
-- distinguish reproducible structure from narrative resemblance;
-- test whether a model survives compression and context loss.
+That classification remains provisional until it outperforms procedural alternatives and matched linguistic, cipher, scribal, layout, decorative, mnemonic, and pseudo-manuscript controls in blinded quantitative tests.
 
-## Voynich Application Boundary
-
-The Voynich Manuscript is an ESRT/ESF **candidate application** because it appears to contain positional structure, recurring forms, and possible flow relations.
-
-That classification remains provisional until it outperforms ordinary alternatives in blinded quantitative tests.
-
-A valid test programme should compare:
-
-- the procedural hypothesis;
-- linguistic and cipher models;
-- scribal and layout conventions;
-- decorative or mnemonic structure;
-- matched pseudo-manuscript controls.
-
-The application home is:
-
-`docs/09_VOYNICH_PROCEDURAL_ENGINE.md`
+See [Voynich Procedural-Structure Hypothesis](09_VOYNICH_PROCEDURAL_ENGINE.md).
 
 ## Falsification
 
-ESRT/ESF are weakened if:
+ESRT/ESF are weakened if the three criteria cannot be independently coded; raters cannot classify structures reliably; perturbations do not produce predicted changes; known non-executable artefacts pass at a high rate; known executable artefacts fail at a high rate; simpler classification systems perform better; or the method merely confirms interpretations chosen in advance.
 
-- the three criteria cannot be independently coded;
-- raters cannot classify structures reliably;
-- perturbations do not produce predicted changes;
-- known non-executable artefacts pass at a high rate;
-- known executable artefacts fail at a high rate;
-- simpler classification systems perform better;
-- the method only confirms interpretations chosen in advance.
+## Related public documents
 
-## Architecture Route
-
-```text
-parent: information-layer structure and constrained traversal
-short support bridge: docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md
-application: docs/09_VOYNICH_PROCEDURAL_ENGINE.md
-falsification: docs/05_FALSIFICATION_SUMMARY.md
-repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
-```
+- [ESRT / ESF and Voynich Support](07_ESRT_ESF_AND_VOYNICH_SUPPORT.md)
+- [Voynich Procedural-Structure Hypothesis](09_VOYNICH_PROCEDURAL_ENGINE.md)
+- [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
+- [Cross-Support and Traversal Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 
 ## Summary
 
-ESRT asks whether structure constrains execution.
-
-ESF describes that constraint through addressing, state, and flow.
-
-Together they provide a falsifiable method for studying non-verbal procedural structure without collapsing resemblance into proof.
+ESRT asks whether structure constrains execution. ESF describes that constraint through addressing, state, and flow. Together they provide a falsifiable method for studying non-verbal procedural structure without collapsing resemblance into proof.
