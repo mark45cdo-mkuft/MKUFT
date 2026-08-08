@@ -16,9 +16,9 @@
 
 This note is a support bridge inside the public MKUFT stack.
 
-It does not replace the main MKUFT scientific paper, the reconstitution kernel, or OCQS.
+It does not replace the main MKUFT scientific paper, the integrated master spine, or OCQS.
 
-The main MKUFT paper remains the spine. The kernel preserves the recovery route. OCQS remains the observer-state support module. This note explains GRACE as the clean traversal rule and names Authentic Traversal Cognition as the observer-side discipline that helps the observer use the route without excess distortion.
+The main MKUFT paper remains the spine. The integrated master spine and cross-support map preserve the public recovery route. OCQS remains the observer-state support module. This note explains GRACE as the clean traversal rule and names Authentic Traversal Cognition as the observer-side discipline that helps the observer use the route without excess distortion.
 
 ---
 
@@ -126,15 +126,9 @@ This is what “objectively objective” means inside this note: not a claim of 
 
 ---
 
-## Relation to the kernel
+## Relation to the public traversal architecture
 
-The MKUFT reconstitution kernel is:
-
-```text
-Layer → Boundary → Node → Transition → Cost → Coherence → Observer → Falsifier → Outcome
-```
-
-GRACE sits inside that route as a clean traversal filter.
+GRACE operates inside the public traversal architecture carried by the integrated master spine, the cross-support map, typed traversal discipline, and falsification canon.
 
 Layer and boundary establish the terrain. Node and transition identify movement. Cost and coherence test whether the movement is viable. Relation and Love prevent local stability achieved through capture from being mistaken for whole-system coherence. Observer marks observer-positioned registration and bounded participation. Falsifier prevents belief-only drift. Outcome resolves the branch.
 
@@ -175,7 +169,8 @@ GRACE is corrupted if state-space traversal is described as physical travel with
 ## Architecture route
 
 ```text
-kernel: docs/19_MKUFT_RECONSTITUTION_KERNEL.md
+public synthesis: MKUFT_INTEGRATED_MASTER_SPINE.md
+repository routing: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
 whole-system deformation: docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md
 boundary, love, and cohesion bridge: docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md
 observer support: docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md
@@ -198,7 +193,7 @@ Love preserves truthful relation without erasing distinction.
 
 Coherence tests whether that relation can hold without exporting hidden destruction to the wider whole.
 
-The kernel preserves the route.
+The integrated master spine and cross-support map preserve the public route.
 
 OCQS prepares the quiet state.
 
