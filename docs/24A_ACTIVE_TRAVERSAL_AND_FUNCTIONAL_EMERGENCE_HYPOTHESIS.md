@@ -243,7 +243,7 @@ Expected operations include:
 2. **Route adaptation** — the traverser changes path according to the active task without abandoning canonical meaning.
 3. **Multi-entry convergence** — different legitimate entry points recover compatible core structure.
 4. **Error localisation** — a failing branch can be identified without dissolving the whole model.
-5. **Reconstitution** — a compact kernel can guide recovery of a wider operating structure.
+5. **Reconstitution** — compact canonical routes can guide recovery of a wider operating structure.
 6. **Cross-module synthesis** — distant modules jointly answer a task that none answers alone.
 7. **Reciprocal specialisation** — coupled components contribute different capacities while each alters the other’s next admissible task state.
 8. **Joint error correction** — an error detected by one component changes the wider coupled route rather than remaining a local annotation.
@@ -467,7 +467,7 @@ The public object is the testable relationship among structured knowledge, activ
 
 ```text
 parent architecture: docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md
-traversal kernel: docs/19_MKUFT_RECONSTITUTION_KERNEL.md
+public synthesis: MKUFT_INTEGRATED_MASTER_SPINE.md
 clean route discipline: docs/20_GRACE_TRAVERSAL_RULE.md
 cross-layer address discipline: docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md
 ambiguity and route space: docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md
