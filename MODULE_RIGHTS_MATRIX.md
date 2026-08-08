@@ -60,6 +60,7 @@ Unless an exact file version expressly states a different licence, the current G
 | [17 — MKUFT–Dollard Field Geometry Notes](docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md) | All rights reserved unless an exact version states otherwise |
 | [18 — Clear Public MKUFT Explanation](docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md) | All rights reserved unless an exact version states otherwise |
 | [20 — GRACE Traversal Rule](docs/20_GRACE_TRAVERSAL_RULE.md) | All rights reserved unless an exact version states otherwise |
+| [30 — LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
 
 ### Silver and post-Silver structural modules
 
