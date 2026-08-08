@@ -374,14 +374,14 @@ LUCY is a threshold architecture. Each physical application must earn its own me
 
 ## 19. Physics-facing application
 
-The dedicated downstream application is [LUCY Threshold Geometry and Relational Closure](29_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md). That paper applies the canonical LUCY structure to the possibility of emergent gravitational behaviour; it does not replace the definition owned here.
+The dedicated downstream application is [LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md). That paper applies the canonical LUCY structure to the possibility of emergent gravitational behaviour; it does not replace the definition owned here.
 
 ## 20. Related public documents
 
 - [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 - [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
 - [Gradient Mechanics and Boundary-Shear Geometry](16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md)
-- [LUCY Threshold Geometry and Relational Closure](29_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
+- [LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
 - [OCQS Human Activation Layer](06_OCQS_HUMAN_ACTIVATION_LAYER.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 - [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
