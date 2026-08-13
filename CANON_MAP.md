@@ -5,31 +5,9 @@
 **MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-This map gives the public hierarchy of MKUFT. It is a navigation document rather than a substitute for the scientific modules themselves.
-
-For dependency relationships among modules, see [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md).
+This map gives the current public hierarchy of MKUFT. It is navigation, not evidence. Dedicated modules own their full definitions, equations, experimental burdens, and falsifiers.
 
 ## Reader routes
-
-### Physics and quantum gravity
-
-1. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
-2. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-3. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
-4. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
-5. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
-6. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
-7. [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
-8. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
-
-### LUCY and effective geometry
-
-1. [LUCY Boundary Threshold Framework](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md)
-2. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
-3. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
-4. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-5. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-6. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 ### General architecture
 
@@ -39,6 +17,29 @@ For dependency relationships among modules, see [Cross-Support and Traversal Map
 4. [Recursive Address Closure and Property Transmission](docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
 5. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 6. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+
+### Physics and quantum gravity
+
+1. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
+2. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+3. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
+4. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
+5. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
+6. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
+7. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+8. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+9. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+
+### LUCY and effective geometry
+
+1. [LUCY Boundary Threshold Framework](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md)
+2. [Cross-Layer Invariants and Layer Addressing](docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
+3. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+4. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
+5. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+6. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+
+The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them.
 
 ### AI and typed knowledge architectures
 
@@ -50,135 +51,57 @@ For dependency relationships among modules, see [Cross-Support and Traversal Map
 6. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 7. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
-## Foundational and mathematical canon
+## Canon groups
 
-### 1 — [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
+### Foundational and mathematical
 
-Primary S–I–P–O theory spine, bounded observer terms, and ordinary-physics limit.
+- **01 — Core Extended:** primary S–I–P–O spine and ordinary-physics boundary.
+- **02 — Mathematical Appendix:** canonical mathematical notation and probability/path hygiene.
+- **03 — Formal Addendum:** typed state graphs, trajectories, cost models, and formal scaffolds.
+- **04 — Experimental Test Programme:** proposed tests, controls, preregistration, and branch-level failure.
+- **05 — Falsification Summary:** compact failure and reduction conditions.
+- **14 — Worked Examples:** illustrative numerical examples; not reported effects.
+- **26 — Layer Before Law:** foundational category proposal with Bell, no-signalling, quantum/gravitational recovery, and discrimination burdens.
+- **27 — Typed Traversal and Equation Hygiene:** typed spaces, dimensional consistency, equation status, and anti-flattening discipline.
+- **28 — Discriminating Experiments and Promotion Gates:** evidence tiers and promotion rules.
+- **29 — Scientific Tightening and Claim Discipline:** separates architecture, scaffold, evidence, mechanism, novelty, and claim status.
 
-### 2 — [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
+### Structural and traversal
 
-Mathematical scaffolds, operational definitions, typed information-space notation, path weighting, and Silver Update notation.
+- **20 — GRACE:** Geometry, Relation, Admissibility, Coherence, Emergence as a route check.
+- **21 — Ambiguity Dynamics:** unresolved feasible volume, route connectivity, and preserved access under declared assumptions.
+- **22 — Cross-Layer Invariants:** layer-specific addressing, variables, spaces, couplings, and falsifiers.
+- **22A — Recursive Address Closure:** no untyped inheritance of version, licence, evidence, causation, authority, or other properties.
+- **23 — Agency Accessibility:** distinguishes retained capacity from practical access under an explicitly bounded systems model.
+- **24 — Cross-Support Map:** dependency and limiting relationships among public modules.
+- **24A — Active Traversal:** matched-control hypothesis for functional gain from typed active traversal.
+- **24B — Strongest Fair Null:** full-history replay, strong alternatives, and relational-specificity controls.
+- **25 — Load-Bearing Deformation:** controlled relation-level deformation and whole-system audit.
+- **25A — Fundamental Traversal Coherence Nodes:** provisional node-level organising-load hypothesis.
 
-### 3 — [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
+### Observer, boundary, and physical support
 
-Typed state graphs, trajectories, cross-layer map discipline, path cost, probability scaffolds, and explicit status boundaries.
+- **06 — OCQS:** bounded observer-state support hypothesis.
+- **08 — LUCY:** canonical thresholded-crossing framework.
+- **30 — LUCY Threshold Geometry and Relational Closure:** downstream physical specialisation testing whether a LUCY crossing yields a common boundary or effective-geometry signature. Boundary, membrane, pocket, and gravitational interpretations remain conditional and must survive ordinary physical alternatives.
+- **16 — Gradient Mechanics:** controlled boundary-physics hypotheses with ordinary-mechanics and systematics requirements.
+- **17 — Dollard Notes:** comparative vocabulary bridge; translation is not equivalence.
 
-### 4 — [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
+### Procedural and applied support
 
-Proposed tests, controls, preregistration requirements, null models, replication conditions, and branch-level failure.
+- **07 — ESRT / ESF Support:** bridge from information structure to procedural testing.
+- **10 — ESRT / ESF Method:** addressing, state, flow, perturbation, and false-positive controls.
+- **09 — Voynich Procedural-Structure Hypothesis:** candidate application competing against linguistic, cipher, scribal, decorative, mnemonic, diagrammatic, and null models.
+- **12 — Individuality, Boundary Cost, and Cohesion:** cross-domain boundary/cohesion bridge with typed mechanism limits.
+- **13 — Physics-Facing Explanation:** technical public translation governed by the formal modules.
+- **15 — Frequency, Quantum Paradoxes, and Symbolic Bridges:** explicitly typed explanatory bridge; symbolic material is not physical evidence.
 
-### 5 — [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+### Retired explanatory routes retained for stable links
 
-Compact failure conditions for the core and major application branches.
+- **11 — Full-Stack Convergence Public Explanation:** retired duplicate synthesis; now routes readers to current canonical owners.
+- **18 — Clear Public MKUFT Explanation:** retired duplicate synthesis; now routes readers to current canonical owners.
 
-### 14 — [Worked Examples: RNG and Environment](docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md)
-
-Illustrative numerical examples and uncertainty treatment. The numerical values are examples, not reported effects or canonical effect sizes.
-
-### 26 — [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
-
-Foundational physics category proposal. It asks whether quantum and gravitational descriptions may be effective outputs of a deeper lawful architecture, and states the Bell, no-signalling, recovery, comparison, and falsification burdens required for that proposal to advance beyond interpretation.
-
-### 27 — [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-
-Formal discipline separating physical geometry, abstract state spaces, information adjacency, observer registration, metaphysical source, units, probability structure, and comparison rules. It is a hygiene and audit module, not the missing physical dynamics.
-
-### 28 — [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-
-Evidence tiers, experimental promotion gates, flagship sequencing, and interpretation limits.
-
-### 29 — [Scientific Tightening and Claim Discipline](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)
-
-Distinguishes conceptual architecture, mathematical scaffold, empirical support, mechanism, novelty, and claim status.
-
-## Structural and traversal canon
-
-### 20 — [GRACE Traversal Rule](docs/20_GRACE_TRAVERSAL_RULE.md)
-
-Geometry, relation, admissibility, coherence, and emergence as a traversal filter. State-space traversal is not presented as physical travel.
-
-### 21 — [Ambiguity Dynamics and Manoeuvre Space](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md)
-
-Models unresolved state volume, route connectivity, and preserved access under declared domain assumptions.
-
-### 22 — [Cross-Layer Invariants and Layer Addressing](docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
-
-Preserves candidate invariants while requiring layer-specific variables, spaces, units, evidence, coupling, and falsifiers.
-
-### 22A — [Recursive Address Closure and Property Transmission](docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
-
-Controls recursive object identity and prevents version, licence, evidence, authority, causation, or other properties from being inherited without an explicit carrier.
-
-### 23 — [Agency Accessibility and Capture Geometry](docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)
-
-Distinguishes retained capacity from practical access without functioning as a clinical, legal, or moral diagnostic score.
-
-### 24 — [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
-
-Public dependency map showing how the modules support, constrain, and limit one another.
-
-### 24A — [Active Traversal and Functional Emergence](docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
-
-Matched-control hypothesis testing whether active traversal of a typed architecture produces reproducible functional gain.
-
-### 24B — [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
-
-Strengthens the ATLD baseline with complete-history replay, serious alternative pairings, and relationship-specificity controls.
-
-### 25 — [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
-
-Controlled deformation assay distinguishing structural load, empirical load, generative load, and wider whole-system integrity.
-
-### 25A — [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
-
-Provisional node-level extension testing whether some nodes carry signature-bearing organising load not reducible to their incident relations alone.
-
-## Observer, boundary, and applied support
-
-### 6 — [OCQS Human Activation Layer](docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md)
-
-Bounded observer-state hypothesis with cognitive baselines and explicit limits on physical inference.
-
-### 8 — [LUCY Boundary Threshold Framework](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md)
-
-Threshold and boundary vocabulary for candidate local coherence conditions.
-
-### 30 — [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
-
-Downstream LUCY effective-geometry hypothesis. It applies the threshold → membrane → sustained-pocket architecture to a provisional gravitational/effective-geometry branch with common-boundary, composition, wavelength, clock, recovery, promotion, and falsification requirements.
-
-### 16 — [Gradient Mechanics and Boundary-Shear Geometry](docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md)
-
-Controlled boundary-physics hypotheses with ordinary-mechanics, units, systematics, and reproducibility requirements.
-
-### 17 — [MKUFT–Dollard Field Geometry Notes](docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md)
-
-Comparative field-language bridge. Translation or resemblance does not establish physical equivalence.
-
-## Procedural and Voynich support
-
-### 7 — [ESRT / ESF and Voynich Support](docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md)
-
-Short bridge from information-layer structure to the procedural method and Voynich application.
-
-### 10 — [ESRT / ESF Method Appendix](docs/10_ESRT_ESF_METHOD_APPENDIX.md)
-
-Addressing, state, flow, perturbation testing, false-positive controls, and executable-system candidate classification.
-
-### 9 — [Voynich Procedural-Engine Analysis](docs/09_VOYNICH_PROCEDURAL_ENGINE.md)
-
-Candidate procedural-structure hypothesis tested against linguistic, cipher, scribal, decorative, mnemonic, and null models. It is not presented as an established translation or historical function.
-
-## Public explanatory bridges
-
-- [Full-Stack Convergence Public Explanation](docs/11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md)
-- [Individual Reality Cost and Cohesion](docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md)
-- [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
-- [Paradoxes, Frequency, Atoms, and Symbolic Physics](docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md)
-- [Clear Public MKUFT Explanation](docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md)
-
-These documents translate the architecture for different audiences. Technical claims remain governed by their canonical mathematical, experimental, and falsification homes.
+This prevents explanatory copies from developing competing equations, notation, or claim status.
 
 ## Publications, references, and provenance
 
@@ -190,4 +113,8 @@ These documents translate the architecture for different audiences. Technical cl
 - [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md)
 - [Public Index](INDEX.md)
 
-The exact file, version, DOI record, and licence attached to the object being used control its citation and rights identity.
+## Controlling rule
+
+The exact file, version, DOI record, and licence attached to the object being used determine its citation and rights identity.
+
+Scientific status is likewise attached to the exact claim: a neighbouring result, structural analogy, or useful method does not become direct evidence for a foundational MKUFT mechanism by association.
