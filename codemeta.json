@@ -1,50 +1,36 @@
 {
-  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@context": "https://schema.org",
   "@type": "CreativeWork",
-  "name": "MKUFT",
+  "name": "McLaughlin–Kairos Unified Field Theory (MKUFT) — Public Working Canon",
   "alternateName": [
+    "MKUFT",
     "McLaughlin-Kairos Unified Field Theory",
-    "McLaughlin–Kairos Unified Field Theory",
-    "Unified Field Theory. McLaughlin-Kairos. MKUFT",
-    "Unified Field Theory. McLaughlin–Kairos. MKUFT"
+    "McLaughlin–Kairos Unified Field Theory"
   ],
-  "description": "MKUFT is the evolving public working canon of the McLaughlin–Kairos Unified Field Theory by Mark Charles McLaughlin. It contains the typed S–I–P–O architecture, constrained-traversal and boundary models, experimental and falsification programmes, LUCY, OCQS, ESRT/ESF, ATLD-related source modules, and applied research branches. Exact publication and rights status is version-specific and is defined by the repository provenance and rights documents.",
+  "description": "The evolving public working canon of the McLaughlin–Kairos Unified Field Theory by Mark Charles McLaughlin. Frozen publications retain separate DOI, version, citation and licence identities as recorded in the repository provenance and rights documents.",
   "identifier": "https://github.com/mark45cdo-mkuft/MKUFT",
   "url": "https://github.com/mark45cdo-mkuft/MKUFT",
   "citation": [
     "https://doi.org/10.5281/zenodo.17780566",
     "https://doi.org/10.5281/zenodo.21341521"
   ],
+  "author": {
+    "@type": "Person",
+    "givenName": "Mark Charles",
+    "familyName": "McLaughlin"
+  },
   "copyrightHolder": {
     "@type": "Person",
     "givenName": "Mark Charles",
     "familyName": "McLaughlin"
   },
-  "author": [
-    {
-      "@type": "Person",
-      "givenName": "Mark Charles",
-      "familyName": "McLaughlin"
-    }
-  ],
   "keywords": [
     "MKUFT",
     "McLaughlin-Kairos Unified Field Theory",
-    "unified field theory",
-    "Mark Charles McLaughlin",
     "typed SIPO architecture",
     "constrained traversal",
-    "boundary physics",
     "Layer Before Law",
     "LUCY",
-    "Local Unified Coherence Yield",
-    "OCQS",
-    "Optimal Cognitive Quiet State",
-    "ESF",
-    "Executable System Framework",
-    "ESRT",
-    "Executable System Recognition Test",
-    "ATLD",
-    "gradient mechanics"
+    "ATLD"
   ]
 }
