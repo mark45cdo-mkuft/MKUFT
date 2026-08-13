@@ -13,7 +13,11 @@
 
 General relativity already removes gravitation from the ordinary Newtonian category of a force, describing free motion through dynamical spacetime geometry. A substantial research literature also treats spacetime and gravitational dynamics as emergent, induced, thermodynamic, hydrodynamic, collective, or quantum-information phenomena. This paper therefore does not claim novelty for emergent gravity itself.
 
-It develops a narrower MKUFT extension. Local Unified Coherence Yield (LUCY) is the proposed threshold at which a local relational configuration becomes self-consistent enough to support a stable boundary, followed by a membrane regime (LUCY-1) and a sustained pocket or domain regime (LUCY-2). The central hypothesis is that some gravity-like observations could be effective outputs of a selected relational geometry rather than evidence of a separately generated wave, particle, or force.
+It develops one downstream MKUFT/LUCY physical branch. In the canonical framework, Local Unified Coherence Yield (LUCY) is the proposed crossing threshold at which an addressed relational or informational configuration becomes consequential at the next layer. For the physics-facing I→P case, the primary claim is the threshold at which a defined relational configuration changes physical transition weighting, admissibility, boundary condition, or effective state beyond the adequate physical baseline.
+
+This paper studies the special case in which that crossing produces a stable interface and then a sustained local domain. In that branch, the useful sequence is **LUCY crossing threshold → LUCY-1 membrane → LUCY-2 sustained pocket**. The membrane and pocket are therefore downstream physical morphologies, not the definition or compulsory geometry of LUCY itself.
+
+The central hypothesis is that some gravity-like observations could be effective outputs of a selected relational geometry rather than evidence of a separately generated wave, particle, or force.
 
 A conventional Landau–Ginzburg and scalar–tensor style scaffold is used only as a toy realisation. Neutron-rich superheavy nuclei are treated as one candidate class of extreme configuration-sensitive matter because shell effects can stabilise nuclei that would otherwise fission rapidly and astrophysical r-process environments can access nuclei far beyond current terrestrial synthesis. No established result connects such nuclei to controllable gravitational behaviour. The proposed cross-layer coupling may be zero.
 
@@ -26,9 +30,9 @@ Two points are already established or well represented in existing research:
 1. In general relativity, gravitation is not an ordinary force transmitted through a fixed background. Freely falling bodies follow geodesics of a dynamical spacetime geometry.
 2. Emergent-gravity research includes induced gravity, thermodynamic derivations, analogue gravity, quantum-many-body spacetime, condensate cosmology, matrix models, and scalar-tensor threshold effects.
 
-The proposed MKUFT contribution is narrower:
+The proposed MKUFT contribution in this paper is narrower:
 
-> A local physical system may admit more than one stable relational configuration. When declared control parameters cross a critical surface, the selected configuration may change discontinuously. Matter trajectories, light propagation, clock relations, and inertial response would then change together because they are outputs of one effective geometry rather than several independently adjusted forces.
+> A local physical system may admit more than one stable relational configuration. When declared control parameters cross a critical surface, a relational configuration may become physically consequential and the selected physical state may change discontinuously. In the boundary-forming branch studied here, matter trajectories, light propagation, clock relations, and inertial response would then change together because they are outputs of one effective geometry rather than several independently adjusted forces.
 
 This becomes physical science only if it yields quantitative residuals beyond the strongest conventional electromagnetic, thermal, plasma, optical, acoustic, mechanical, scalar-tensor, and general-relativistic explanations.
 
@@ -48,19 +52,23 @@ The Layer Before Law proposal is that a law observed at $P$ may be the effective
 
 In this paper, **relational geometry** means the complete constraint structure determining which physical paths, couplings, and transitions are admissible. It is not assumed to be a Lorentzian metric at the deepest level. An effective spacetime metric is one possible P-layer output.
 
-The proposed sequence is **relational constraints → selected stable geometry → effective matter, light, and clock behaviour**.
+The general LUCY crossing relation is **addressed relational constraint → thresholded physical consequence**.
 
-## 3. LUCY threshold chain
+The special branch developed here continues as **relational constraints → consequential I→P crossing → selected stable geometry → effective matter, light, and clock behaviour**.
 
-The canonical sequence is **LUCY threshold → LUCY-1 membrane → LUCY-2 sustained pocket**.
+## 3. LUCY crossing and boundary-forming branch
 
-- **LUCY** is the critical condition at which a candidate relational state becomes dynamically self-supporting.
-- **LUCY-1** is a stable interface or membrane separating that state from its environment.
-- **LUCY-2** is a sustained finite region whose effective behaviour differs from the exterior baseline.
+The canonical definition is owned by [LUCY Boundary Threshold Framework](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md): LUCY is the threshold at which an addressed relation becomes consequential at the next layer. It is not intrinsically a bubble, circle, membrane, pocket, or other spatial shape.
 
-Coherence is used operationally for mutually consistent constraints that maintain a state against perturbation. **Relational closure** is the stronger condition in which the active constraints form a sufficiently complete loop for the state to persist and correct small deviations.
+This paper studies a particular P-layer morphology in which a stable interface follows the crossing:
 
-A physical implementation requires defined state variables and spaces, control parameters, a dynamical or variational rule, order parameter, critical surface, boundary conditions, ordinary limit, energy and entropy accounting, observables, scale, sign, and failure conditions.
+- **LUCY** is the critical condition at which a candidate relational state becomes physically consequential under a declared coupling.
+- **LUCY-1** is a stable interface or membrane when the physical implementation produces one.
+- **LUCY-2** is a sustained finite region when that interface can maintain a distinct local regime.
+
+Coherence is used operationally for mutually consistent constraints that maintain a state against perturbation. **Relational closure** is the stronger condition in which the active constraints form a sufficiently complete loop for the state to persist, correct small deviations, or constrain downstream physical routing.
+
+A physical implementation requires defined state variables and spaces, control parameters, a dynamical or variational rule, order parameter, critical surface, typed carrier into P, ordinary limit, energy and entropy accounting, observables, scale, sign, and failure conditions. Boundary conditions are additionally required for the membrane/pocket branch studied here.
 
 Without these, LUCY remains architecture rather than physics.
 
@@ -68,7 +76,7 @@ Without these, LUCY remains architecture rather than physics.
 
 Neighbouring work already includes Sakharov-style induced gravity, thermodynamic derivations of Einstein dynamics, analogue Lorentzian metrics in condensed matter, spacetime as a quantum many-body or condensate phase, scalar-tensor threshold phenomena and spontaneous scalarisation, and Landau–Ginzburg thresholds, metastability, domain walls, and hysteresis.
 
-The MKUFT/LUCY contribution is the conjunction of typed layer discipline, a local three-stage threshold chain, geometry as a selected state rather than an amplified force, a cross-channel common-boundary signature, and strongest-fair-null governance with preregistered promotion gates.
+The MKUFT/LUCY contribution developed here is the conjunction of typed layer discipline, a thresholded I→P crossing condition, a boundary-forming three-stage physical branch, geometry as a selected state rather than an amplified force, a cross-channel common-boundary signature, and strongest-fair-null governance with preregistered promotion gates.
 
 This conjunction is a research programme rather than a demonstrated mechanism.
 
@@ -119,7 +127,7 @@ F[\psi_0,g_0;\lambda]
 =0.
 $$
 
-Below the surface the baseline state is preferred. Across it, a distinct local state may become preferred. LUCY-1 corresponds to a stable interface solution; LUCY-2 requires a finite domain whose bulk gain exceeds interface and dissipation costs.
+Below the surface the baseline state is preferred. Across it, a distinct physical state may become preferred. In this morphology-specific branch, LUCY-1 corresponds to a stable interface solution and LUCY-2 requires a finite domain whose bulk gain exceeds interface and dissipation costs.
 
 For a schematic spherical pocket,
 
@@ -139,7 +147,7 @@ $$
 R_c=\frac{2\sigma}{\Delta\varepsilon}.
 $$
 
-Any geometry-coupling term must be dimensionally defined rather than inserted to force stability. The scaffold supplies threshold, boundary, pocket, hysteresis, and critical-radius concepts; it does not establish modified gravitation.
+The spherical form is only a toy morphology for a bounded-domain branch. It is not the canonical shape of LUCY. Any geometry-coupling term must be dimensionally defined rather than inserted to force stability. The scaffold supplies threshold, boundary, pocket, hysteresis, and critical-radius concepts for this special case; it does not establish modified gravitation.
 
 ## 6. Effect regimes without two gravities
 
@@ -185,15 +193,17 @@ This describes neutron-capture exposure and is not itself a LUCY or gravitationa
 
 Let $q(x)$ be a dimensionless relational-closure order parameter, with $q=0$ the baseline state and $q\neq0$ a candidate closed state. Let $\lambda$ collect material, geometric, electromagnetic, thermodynamic, and environmental controls.
 
-The base hypothesis is that there exists a critical surface $\Sigma_L$ in control-parameter space such that
+The base hypothesis in this paper is that there exists a critical surface $\Sigma_L$ in control-parameter space such that
 
 $$
 q=0\longrightarrow q=q_*
 $$
 
-produces a stable boundary and a correlated change in more than one independent class of physical observable.
+marks a consequential physical crossing and, in the branch under test, produces a stable boundary with a correlated change in more than one independent class of physical observable.
 
 The stronger gravitational hypothesis is that, after known material and field effects are removed, the $q\neq0$ state modifies an effective geometry experienced by neutral matter and electromagnetic signals in a composition-independent manner consistent with a declared $g_{\mathrm{eff}}(q)$.
+
+The informational or relational variable must earn this physical status prospectively. If it is fully reducible to the adequate measured physical state, then the I-layer description may remain useful but this experiment has not established independent I→P dynamics.
 
 Optical distortion alone is insufficient. Plasma, thermal gradients, nonlinear optics, electromagnetic forces, acoustic fields, vibration, and sensor artefacts can all create boundary-like phenomena. A metric interpretation rises only when one model explains independent matter, light, and clock observables with the same boundary, sign, timing, and threshold.
 
@@ -203,9 +213,13 @@ Optical distortion alone is insufficient. Plasma, thermal gradients, nonlinear o
 
 The response should be nonlinear in a preregistered control parameter and may show hysteresis. A smooth response proportional to applied power favours ordinary leakage, heating, or known field response.
 
+### Independent-content test
+
+The candidate relational or informational variable must improve held-out prediction after the relevant physical state and history are controlled. Relation-preserving re-encoding should not alter the physical prediction unless the re-encoding itself changes a physical or observer variable.
+
 ### Common boundary
 
-Optical phase, neutral test-mass motion, clock comparison, and fluid transport should change at one mapped boundary. Separate boundaries or unrelated onset times weaken the unified-geometry claim.
+Because this paper specifically studies the boundary-forming branch, optical phase, neutral test-mass motion, clock comparison, and fluid transport should change at one mapped boundary. Separate boundaries or unrelated onset times weaken the unified-geometry claim.
 
 ### Geometry dependence
 
@@ -233,29 +247,31 @@ If a specific neutron-rich superheavy configuration is required, nuclear-network
 
 ## 10. Promotion route
 
-- **Tier 0 — mathematical consistency:** typed variables, units, action or update rule, stability, ordinary limit, and causal structure.
-- **Tier 1 — conventional analogue:** threshold and membrane behaviour in a known system without a gravity claim.
-- **Tier 2 — cross-channel anomaly:** blinded reproducible common-boundary residual in at least two independent channels.
+- **Tier 0 — mathematical consistency:** typed variables, units, cross-layer carrier where claimed, action or update rule, stability, ordinary limit, and causal structure.
+- **Tier 1 — conventional analogue:** threshold and, where applicable, membrane behaviour in a known system without a gravity claim.
+- **Tier 2 — cross-channel anomaly:** blinded reproducible common-boundary residual in at least two independent channels, with any proposed I→P variable adding held-out predictive value beyond the adequate physical baseline.
 - **Tier 3 — metric discrimination:** one effective geometry outpredicts the strongest electromagnetic, thermal, plasma, acoustic, mechanical, and sensor models across neutral matter, light, and clocks.
-- **Tier 4 — independent replication and scaling:** separate-laboratory replication of preregistered scaling, hysteresis, composition, and wavelength predictions.
+- **Tier 4 — independent replication and scaling:** separate-laboratory replication of preregistered threshold, representation-invariance, scaling, hysteresis, composition, and wavelength predictions.
 
 No ontology claim is promoted before Tier 3 and no foundational promotion before Tier 4.
 
 ## 11. Falsifiers
 
-The gravitational branch fails or is materially reduced if known conventional models close the observations; no dimensionally valid coupling from the order parameter to effective geometry can be constructed; general relativity and ordinary quantum field theory are not recovered in tested regimes; claimed boundaries differ across measurement channels; neutral-matter and clock effects are absent while optical or charged effects remain; the response is smooth where a critical transition was preregistered; scaling depends on uncontrolled apparatus details rather than declared invariants; energy or momentum accounting fails; the nuclear seed is unnecessary, nonspecific, or contradicted by data; parameters or thresholds are selected after the result; or an existing theory reproduces every predicted observable with equal or fewer assumptions.
+The gravitational branch fails or is materially reduced if known conventional models close the observations; the candidate informational relation reduces to an adequate physical-state description; relation-preserving re-encoding changes the claimed physical result without a physical reason; no dimensionally valid coupling from the order parameter to effective geometry can be constructed; general relativity and ordinary quantum field theory are not recovered in tested regimes; claimed boundaries differ across measurement channels; neutral-matter and clock effects are absent while optical or charged effects remain; the response is smooth where a critical transition was preregistered; scaling depends on uncontrolled apparatus details rather than declared invariants; energy or momentum accounting fails; the nuclear seed is unnecessary, nonspecific, or contradicted by data; parameters or thresholds are selected after the result; or an existing theory reproduces every predicted observable with equal or fewer assumptions.
 
 A null result cannot be moved to an unmeasured layer. The failed branch must be revised or removed.
 
 ## 12. Relationship to canonical LUCY and MKUFT
 
-This paper is downstream of the canonical [LUCY Boundary Threshold Framework](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md). It preserves the threshold → membrane → sustained-pocket sequence and applies it to a possible effective-geometry branch.
+This paper is downstream of the canonical [LUCY Boundary Threshold Framework](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md). The canonical owner defines LUCY as the thresholded crossing at which an addressed relation becomes consequential at the next layer. This paper preserves that definition and studies one physical specialisation in which the crossing yields **LUCY-1 membrane → LUCY-2 sustained pocket** and potentially a different effective geometry.
 
-It also connects to [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), [Gradient Mechanics and Boundary-Shear Geometry](16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md), [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md), [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), and [Falsification Summary](05_FALSIFICATION_SUMMARY.md).
+The membrane and pocket are not retroactively imposed on non-boundary LUCY branches.
+
+This paper also connects to [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), [Gradient Mechanics and Boundary-Shear Geometry](16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md), [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md), [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), and [Falsification Summary](05_FALSIFICATION_SUMMARY.md).
 
 ## 13. Compact rule
 
-> Do not amplify “gravity.” Define the state, cross the threshold, map the boundary, recover the effective geometry, and let independent observables decide whether geometry changed.
+> Do not amplify “gravity.” Define the addressed relation, define the I→P carrier, cross the threshold, and let the physical state decide its morphology. If that morphology is a boundary, map it; if it sustains a domain, test the pocket; if effective geometry is claimed, let independent matter, light, and clock observables decide whether geometry changed.
 
 ## References
 
