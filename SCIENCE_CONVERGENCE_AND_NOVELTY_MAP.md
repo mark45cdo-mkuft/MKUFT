@@ -1,6 +1,5 @@
 # MKUFT Science Convergence and Novelty Map
 
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -9,705 +8,225 @@
 **Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](PROVENANCE_DOI_AND_ATTRIBUTION.md).  
 <!-- MKUFT-PROVENANCE-HEADER:END -->
 
-Status: living public-facing research map inside the controlled MKUFT GitHub working copy  
-Purpose: identify where real science already speaks to MKUFT, where the model adds something novel, where support is strong or weak, and what would need checking next.
-
----
+**Status:** living public scientific-positioning map.  
+**Purpose:** identify where established science constrains, neighbours, or usefully tests MKUFT without converting resemblance into confirmation.
 
 ## 0. Rule of use
 
-This file is not a proof list.
+This file is not a proof list and not a confirmation ledger.
 
-It is also not confirmation theatre.
+Every comparison should distinguish these roles:
 
-It is a structured support and verification map.
+- **Established result** — independently supported science that MKUFT must respect or recover.
+- **Constraint on MKUFT** — a result that rules out, narrows, or conditions an MKUFT claim.
+- **Scientific neighbour** — a serious programme addressing a related problem with different machinery.
+- **Structural analogue** — a similar organising pattern whose domain-specific mechanism remains different.
+- **Candidate MKUFT bridge** — a proposed connection that could become testable if variables and couplings are defined.
+- **Direct MKUFT evidence** — a result that prospectively discriminates an MKUFT prediction from strong alternatives. No foundational-physics branch currently holds this status.
 
-Every entry should state:
-
-```text
-Domain -> science finding/gap -> MKUFT resonance -> novelty -> strength -> risk/falsifier -> next check
-```
-
-Do not force everything to fit.
-
-Do not discard a useful internal lead just because it is not yet public-proof ready.
-
-Do not call a weak analogy a hit.
-
-### 0.1 Independent development, prior work, and parallel convergence
-
-MKUFT was developed independently through its own documented conceptual and revision history. Where a published work directly informed a particular claim, equation, mechanism, or experimental proposal, that relationship should be cited as a source.
-
-Citation also locates independently developed ideas within their proper scientific neighbourhood. Relevant prior and parallel programmes should therefore be acknowledged where they:
-
-- address the same or a closely neighbouring scientific question;
-- provide a serious alternative architecture or interpretation;
-- supply mathematical, experimental, or falsification machinery relevant to an MKUFT branch;
-- establish results that MKUFT must recover, distinguish itself from, or remain compatible with;
-- or demonstrate how a foundational difference may become empirically testable.
-
-Such citation does not imply that the cited work confirms MKUFT or shares its complete architecture. It records the relationship accurately: source where there was source, prior work where there was prior work, independent convergence where there was independent convergence, and strongest alternative where the mechanisms differ.
-
-The earliest MKUFT documents were written primarily to establish and stabilise the internal architecture. As the public framework has matured, wider literature comparison has identified legitimate neighbouring programmes that deserve explicit recognition. Their inclusion strengthens the scientific positioning of the work while preserving the independence and provenance of the MKUFT development.
-
----
-
-## 1. Master invariant
-
-The recurring MKUFT invariant is:
+The working template is:
 
 ```text
-constraint -> admissibility -> cost -> coherence -> boundary -> resolution
+domain
+→ established result
+→ evidential role for MKUFT
+→ exact MKUFT distinction
+→ strongest alternative or null
+→ discriminating next test
 ```
 
-A science domain becomes genuinely relevant to MKUFT when it shows one or more of the following:
+Do not force everything to fit. Do not call analogy evidence. Do not discard a legitimate neighbouring result merely because it does not confirm MKUFT.
 
-- possible states are constrained rather than open-ended,
-- boundaries create identity or measurement,
-- transitions are allowed, blocked, or thresholded,
-- cost affects which transition occurs,
-- coherence stabilises a state or lowers traversal cost,
-- information changes physical, biological, cognitive, or procedural behaviour,
-- observer or measurement context conditions the result,
-- failure modes can be stated.
+## 1. Recurring MKUFT research grammar
 
----
-
-## 2. Domain map
-
-### 2.1 Quantum measurement, contextuality, and decoherence
-
-**Science finding / gap**
-
-Quantum theory already treats physical outcomes through state preparation, probability amplitudes, measurement context, decoherence, and realised results. The interpretation of how possibility becomes one measured outcome remains disputed.
-
-**MKUFT resonance**
-
-This is a direct S/I/P/O pressure point:
+A recurring MKUFT sequence is:
 
 ```text
-possibility structure -> measurement context -> physical result -> observer/instrument boundary
+constraint → admissibility → transition → cost → coherence/stability → boundary → measurable outcome
 ```
 
-**Novelty**
+This is a modelling grammar. Its recurrence across domains does not establish one common physical mechanism.
 
-MKUFT reframes the observer as a bounded modulation condition, not an unlimited collapse agent. It asks whether realised outcomes can be analysed as path-weighted resolution through information structure, physical dynamics, and context.
+A cross-domain comparison earns value only when the preserved relation is stated, the domain-specific variables and units are changed honestly, and the comparison improves prediction, discrimination, or explanatory compression.
 
-**Strength**
+## 2. Quantum foundations and measurement
 
-Strong conceptual resonance. Public-proof strength depends on whether MKUFT predicts anything beyond standard quantum theory under controlled conditions.
+**Established result:** quantum theory uses non-separable states, amplitudes, contextual measurement structure, decoherence, and experimentally constrained outcome statistics.
 
-**Risk / falsifier**
+**Role for MKUFT:** constraint and strongest null. MKUFT must reproduce the relevant quantum predictions, Bell-compatible correlations, and no-signalling.
 
-Weak if it becomes mind-collapse language. Strong only if it stays bounded, mathematical, and experimentally disciplined.
+**Candidate bridge:** the S–I–P–O architecture asks whether the standard description is an effective expression of a deeper typed relation-and-update structure.
 
-**Next check**
+**Failure condition:** if the I-layer relation is only a renaming of the standard joint state and adds no derivation, mechanism, prediction, or research advantage, it remains interpretation rather than new physics.
 
-Compare MKUFT path-weighting language with measurement-context, decoherence, weak measurement, and contextuality literature.
+**Next test:** define a mathematical pair relation, derive joint probabilities and no-signalling, then compare operationally with standard quantum formalism.
 
----
+## 3. Quantum gravity and architecture-first programmes
 
-### 2.2 Holography, information geometry, quantum codes, and spacetime emergence
+**Established scientific neighbourhood:** effective-field-theory gravity, holography, emergent-spacetime programmes, operational reconstructions, invariant-set approaches, hybrid classical–quantum dynamics, and gravity-mediated-entanglement proposals all investigate foundational structure below or beside familiar effective descriptions.
 
-**Science finding / gap**
+**Role for MKUFT:** scientific neighbours and constraints. Their existence legitimises architecture-level questions but does not make S–I–P–O unique.
 
-Frontier physics increasingly links geometry, entropy, information, boundary surfaces, quantum error correction, and emergent spacetime structure.
+**MKUFT distinction:** explicit typed separation of substrate possibility, informational relation, physical expression, and observer-positioned registration, with required recovery and deformation tests.
 
-**MKUFT resonance**
+**Failure condition:** an established competitor performs the same explanatory and predictive work with equal or fewer assumptions, or MKUFT cannot produce a discriminating result.
 
-This is close to the MKUFT claim that physical geometry may be a resolved expression of deeper constraint relations rather than the base container.
+**Next test:** controlled comparison of fundamental objects, state spaces, couplings, Bell treatment, no-signalling, gravitational recovery, and proposed discriminator.
 
-**Novelty**
+## 4. Gravity-mediated entanglement
 
-MKUFT's addition is cost/admissibility language:
+**Established position:** serious experimental proposals exist, but the inference from entanglement to the exact nature of the gravitational mediator remains technically disputed.
+
+**Role for MKUFT:** constraint and experimental neighbour, not confirmation.
+
+**MKUFT requirement:** predict a quantitative feature—such as scaling, dynamics, state dependence, or controlled deformation—that differs from the strongest quantum and classical–quantum alternatives.
+
+**Failure condition:** the branch relies on the presence of entanglement alone or on a weakened classical null.
+
+## 5. Thresholds, criticality, and LUCY
+
+**Established result:** many physical and nonphysical systems undergo thresholded or critical state changes.
+
+**Role for MKUFT:** structural analogue and experimental design neighbourhood.
+
+LUCY names a candidate thresholded addressed crossing:
 
 ```text
-information relation -> boundary/area/geometry -> cost of maintaining resolved structure
+addressed state
+→ coherence / closure threshold
+→ consequential change at the next addressed layer
 ```
 
-The model asks whether cost is the missing translation variable between information structure and effective geometry/time.
-
-**Strength**
-
-High conceptual support. Not direct confirmation.
-
-**Risk / falsifier**
-
-Weak if MKUFT merely repeats "information makes spacetime" without adding cost, boundary, and admissible-transition structure.
-
-**Next check**
-
-Track work on holographic entropy, quantum error correction, quantum complexity, non-stabilizer resources, state-dependent geometry, and matter-geometry coupling.
-
----
-
-### 2.2A Quantum-gravity architecture, gravitationally mediated entanglement, and alternative foundational routes
-
-**Science finding / gap**
-
-The relationship between quantum theory and gravity is being pursued through several serious foundational programmes. These include quantised-gravity approaches, gravity-mediated-entanglement witnesses, hybrid classical–quantum dynamics, information-theoretic reconstructions, and proposals in which deeper global or state-space structure generates the effective quantum description.
-
-Several of these programmes now seek observational or experimental distinctions between competing architectures rather than relying only on conceptual compatibility.
-
-**Relevant prior and parallel work**
-
-Bose and collaborators, including Peter Barker, proposed using gravitationally induced entanglement between two masses as a witness of nonclassical gravitational mediation.
-
-Marletto and Vedral independently developed a general information-theoretic argument: a mediator capable of generating entanglement between two quantum systems must possess at least two noncommuting observables. Their proposal places the capacities of the mediating system or relation at the centre of the experimental inference.
-
-Oppenheim has developed a mathematically explicit alternative in which gravity remains classical while its coupling to quantum matter requires modified and fundamentally stochastic dynamics. This programme is particularly relevant as a strongest alternative because it demonstrates that the quantum–gravity problem can be recategorised without simply assuming the conventional quantisation route, while retaining full consistency, recovery, and experimental burdens.
-
-Palmer’s Invariant Set Theory places a deeper global state-space geometry prior to the ordinary Hilbert-space description and seeks to recover quantum behaviour, Bell correlations, and gravitational relevance from that architecture. Its proposed mechanism differs substantially from MKUFT, but it is relevant prior and parallel work because it similarly asks whether familiar quantum formalism is an effective description generated by a deeper admissibility structure.
-
-These programmes were not the sources from which the MKUFT S–I–P–O architecture was constructed. They are acknowledged because they occupy legitimate neighbouring territory, develop strong alternative accounts, and help define what an architecture-first quantum-gravity proposal must eventually calculate, recover, or test.
-
-**MKUFT resonance**
-
-The shared pressure point is:
+Where a physical implementation produces boundary morphology:
 
 ```text
-foundational architecture
--> permitted relations and dynamics
--> effective quantum or gravitational behaviour
--> discriminating observable
+LUCY-1 = membrane-like boundary condition, when present
+LUCY-2 = sustained local region, when present
 ```
 
-Gravity-mediated-entanglement programmes are relevant to the MKUFT distinction between physically separate endpoints and a relation belonging to the pair.
+These downstream morphologies are conditional, not automatic.
 
-Oppenheim’s programme is relevant to the possibility that a change in foundational category produces different dynamics and observational signatures.
+A current formal template uses:
 
-Palmer’s programme is relevant to the proposal that a deeper state-space geometry or admissibility structure may be more primitive than the familiar realised formalism.
+$$
+Y_L(x,t)
+=
+\chi_L
+\frac{\lVert\nabla\tau_L(x,t)\rVert^2}
+{N_L(x,t)+\varepsilon_L},
+$$
 
-**MKUFT distinction**
+with candidate threshold
 
-MKUFT does not presently adopt:
+$$
+Y_L(x,t)\ge Y_*.
+$$
 
-- the claim that a successful entanglement witness by itself establishes the S–I–P–O architecture;
-- Oppenheim’s specific classical–quantum stochastic dynamics;
-- Palmer’s invariant-set geometry, number-theoretic construction, or treatment of measurement independence;
-- or the claim that informational language alone supplies the missing physical mechanism.
+**Failure condition:** the variable cannot be operationalised, the threshold is fitted after the event, ordinary domain models predict equally well, or the same algebra silently changes physical meaning across layers.
 
-Its proposed contribution is the explicit typed separation of substrate continuity, informational relation, physical expression, and observer-positioned registration within one recursive architecture.
+## 6. Active matter and collective order
 
-That contribution remains architectural until MKUFT defines its state spaces and couplings, recovers the established quantum and gravitational regimes, and produces a result that differs from its strongest existing alternatives.
+**Established result:** local rules, feedback, energy input, sensing, and interaction can generate large-scale collective order.
 
-**Strength**
+**Role for MKUFT:** structural analogue for distributed constraint and emergent organisation.
 
-Strong evidence that architecture-level alternatives to the conventional quantum-gravity problem statement are scientifically legitimate and can be developed towards experimental discrimination.
+**Boundary:** local information rules producing collective physical behaviour do not establish a distinct pre-physical information layer. The physical implementation remains sufficient unless an additional variable improves prediction beyond it.
 
-Strong support for treating relation, mediation, system decomposition, effective-law recovery, and observable deformation as load-bearing questions.
+**Next test:** compare MKUFT language with established active-matter models and identify whether any proposed variable contributes a measurable residual rather than a relabelling.
 
-Not evidence that the specific MKUFT architecture is correct.
+## 7. Morphogenesis and distributed biological control
 
-**Risk / falsifier**
+**Established result:** development, regeneration, tissue-level signalling, bioelectric states, feedback, and multiscale regulation contribute to biological form.
 
-The convergence carries little scientific weight if MKUFT merely restates conclusions already supplied by these programmes without adding a distinct mechanism, recovery result, prediction, or research advantage.
+**Role for MKUFT:** scientific neighbour and structural analogue for boundary, state, feedback, and higher-level constraint.
 
-The Layer Before Law branch is weakened if:
+**Boundary:** biological evidence does not establish foundational substrate physics. Genes, signalling, biomechanics, metabolism, and known regulatory mechanisms remain the scientific baseline.
 
-- its pair-level informational relation is only a renaming of the standard joint quantum state;
-- an existing gravity-mediated-entanglement account already performs all of the claimed work;
-- an established hybrid or emergent-spacetime model explains the same evidence equally well or better;
-- or no observation could distinguish the S–I–P–O architecture from its strongest neighbours.
+**Next test:** ask whether an MKUFT representation produces a quantitative prediction or intervention advantage beyond existing developmental and control models.
 
-**Next check**
+## 8. Learning, flow, attention, and observer models
 
-Construct a controlled comparison table covering:
+**Established result:** learning, skilled performance, attention, confidence calibration, prediction, error correction, and altered subjective time can be studied with ordinary cognitive and behavioural models.
+
+**Role for MKUFT:** structural analogue and O-layer measurement neighbourhood.
+
+A path-cost description may be useful where it predicts measured performance better than simpler learning or control models. Observer variables do not earn physical modulation status merely because they predict cognition.
+
+**Failure condition:** the model adds only renamed versions of established constructs, increases confidence without accuracy, or is used to infer external physical effects without a separate coupling and test.
+
+## 9. Boundaries across domains
+
+**Established result:** boundaries are central in many physical, biological, informational, and social systems, but their mechanisms differ.
+
+**Role for MKUFT:** cross-domain structural analogue.
+
+A useful shared question is:
 
 ```text
-programme
--> fundamental objects
--> status of spacetime and gravity
--> status of information and relation
--> treatment of Bell correlations
--> no-signalling requirement
--> standard-theory recovery
--> distinctive prediction
--> proposed experiment
--> exact difference from MKUFT
+what distinction is maintained
+→ what exchange is permitted
+→ what transition is possible
+→ what maintenance cost exists
+→ what destroys or changes the boundary
 ```
 
-Use the comparison to determine whether MKUFT contributes a new mechanism, a clearer decomposition, a new prediction, or only an alternative interpretive language.
+No cross-domain physical equivalence follows from this grammar alone.
 
----
+## 10. Geometry-dependent physical systems
 
-### 2.3 Phase transitions, thresholds, and criticality
+**Established result:** geometry affects fields, stresses, resonances, transport, waveguiding, cavities, interfaces, and material response.
 
-**Science finding / gap**
+**Role for MKUFT:** ordinary-physics baseline and candidate residual-test platform.
 
-Many systems undergo qualitative changes after a threshold: phase transitions, critical phenomena, superconductivity, ionisation, neural state shifts, biological tipping points, and social transitions.
+A result becomes MKUFT-relevant only when a prospectively specified residual survives complete electromagnetic, thermal, mechanical, material, acoustic, timing, and sensor models and follows an MKUFT-specific response law.
 
-**MKUFT resonance**
+A broad difference between two shapes is ordinary geometry, not evidence for MKUFT.
 
-This is the natural public home of LUCY:
+## 11. Procedural systems and Voynich
 
-```text
-gradient accumulation -> threshold -> membrane/state change -> sustained region
-```
+**Established result:** diagrams, layouts, state machines, workflows, and non-prose artefacts can carry procedural structure.
 
-**Novelty**
+**Role for MKUFT/ESRT:** methodological application.
 
-LUCY generalises threshold language into a boundary-coherence chain:
+The Voynich branch asks whether layout, positional roles, state-like forms, and flow predict held-out structure better than linguistic, cipher, scribal, decorative, mnemonic, diagrammatic, and null alternatives.
 
-```text
-LUCY -> LUCY-1 -> LUCY-2
-```
+A procedural classification is not a translation, historical attribution, or physical result.
 
-Threshold, membrane, sustained local field region.
+## 12. Metaphysical and symbolic material
 
-**Strength**
+Historical, religious, symbolic, and metaphysical comparisons remain explicitly outside the evidential chain for physical claims.
 
-Strong as modelling grammar. Specific physical support depends on whether LUCY predicts measurable threshold/onset/stability differences.
+They may motivate questions about boundary, relation, unity, differentiation, or repair, but they cannot supply missing units, couplings, derivations, controls, or experimental results.
 
-**Risk / falsifier**
+## 13. Novelty discipline
 
-Weak if used as a name for any interesting transition. Strong only when it predicts specific onset conditions, post-threshold state, and failure conditions.
+The potentially distinctive MKUFT contributions are not the isolated words *information*, *coherence*, *boundary*, *observer*, or *cost*. Those concepts already have extensive scientific histories.
 
-**Next check**
+Novelty must be earned by combinations that do concrete work, including:
 
-Map LUCY onto known threshold systems and ask what the MKUFT version predicts differently, if anything.
+1. typed S–I–P–O separation with explicit anti-flattening rules;
+2. cross-layer addressing with no untyped inheritance;
+3. constrained traversal and dimensionally valid path weighting;
+4. strongest-fair-null and controlled-deformation methodology;
+5. the independent-content test separating useful higher-level description from claimed new physical dynamics;
+6. an eventual lawful update or residual that recovers established limits and predicts something competitors do not.
 
----
+## 14. Current scientific ranking
 
-### 2.4 Active matter, swarms, colonies, and collective order
+The public scientific position is best represented by maturity rather than a “support” leaderboard:
 
-**Science finding / gap**
+- **Established external science:** quantum theory, relativity in tested regimes, critical phenomena, active matter, biological regulation, standard cognitive and systems science.
+- **Well-defined MKUFT methods or scaffolds:** typed traversal, equation hygiene, strongest-fair-null design, deformation tests, ambiguity and agency audit variables where operationalised.
+- **Candidate experimental bridges:** LUCY physical specialisations, precision boundary residuals, selected observer-linked assays.
+- **Foundational research programme:** Layer Before Law and a future complete SIPO update/recovery model.
+- **Interpretive/application branches:** metaphysical comparison, symbolic comparison, Voynich procedural hypothesis.
 
-Active systems create large-scale order from local agents using energy, feedback, sensing, and interaction rules. Examples include bacteria, cells, tissues, insect colonies, fish schools, bird flocks, and synthetic active particles.
+No category is promoted merely because another category is interesting or structurally similar.
 
-**MKUFT resonance**
+## 15. Working conclusion
 
-This is a strong I-to-P bridge.
+MKUFT is scientifically strongest when it uses neighbouring science to **increase its burden**, not to decorate itself with apparent confirmation.
 
-Local information rules can become macroscopic physical behaviour.
+> Established science defines the baseline. Structural recurrence suggests a question. MKUFT must then name the extra variable or relation, predict the difference, survive the strongest alternative, and accept reduction if the difference does not appear.
 
-**Novelty**
-
-MKUFT reads collective coherence as distributed threshold-locking, not sentiment or central command.
-
-```text
-local rule + feedback + threshold -> group-level admissible path -> collective body-like action
-```
-
-**Strength**
-
-Strong support for information-to-physical organisation. Suggestive support for the wider MKUFT engine.
-
-**Risk / falsifier**
-
-Weak if everything collective is called observer coherence. Many active systems need no human O-layer term.
-
-**Next check**
-
-Study quorum thresholds, flocking models, active nematics, tissue active matter, and decision-making protocols in collective systems.
-
----
-
-### 2.5 Bioelectric morphogenesis, regeneration, and organism identity
-
-**Science finding / gap**
-
-Development and regeneration involve distributed tissue-level control, bioelectric state, chemical signalling, gap junctions, pattern memory, and target morphology. Genes alone do not fully explain how the whole form is restored or maintained.
-
-**MKUFT resonance**
-
-This is one of the strongest biology bridges.
-
-```text
-distributed boundary state -> form coherence -> physical morphology
-```
-
-**Novelty**
-
-MKUFT frames organism identity as maintained through boundary networks, not stored only in local parts.
-
-Cancer, wound repair, and regeneration can be modelled as failures or restorations of higher-level form coherence.
-
-**Strength**
-
-Strong support for layered constraint and distributed form-control. Not proof of substrate ontology.
-
-**Risk / falsifier**
-
-Weak if it claims biology proves all of MKUFT. Strong if it is used to support the specific claim that form is maintained by distributed constraints across scales.
-
-**Next check**
-
-Map morphogenesis terms to MKUFT terms:
-
-```text
-bioelectric state -> I-layer routing
-morphological target -> attractor / node
-regeneration -> return path
-cancer -> local-cell logic escaping higher-level coherence
-```
-
----
-
-### 2.6 Predictive processing, perception, and action
-
-**Science finding / gap**
-
-Perception is not passive recording. It involves prediction, error correction, attention, action, prior expectation, and embodied context.
-
-**MKUFT resonance**
-
-The observer layer is not a camera. It is a boundary condition with internal state and error-weighting.
-
-**Novelty**
-
-MKUFT describes perception as constrained traversal through possible interpretations.
-
-Clear observation lowers cost by removing contradiction, projection, fear, appetite, and false maintenance burden.
-
-**Strength**
-
-Strong support for O-layer discipline and interpretation. Weaker for physical modulation unless tied to testable marginal effects.
-
-**Risk / falsifier**
-
-Weak if interpretation effects are mistaken for external events.
-
-**Next check**
-
-Connect predictive processing to Authentic Traversal Cognition: observer decontamination as reduction of precision-error distortion.
-
----
-
-### 2.7 Flow states, skill, OCQS, and time distortion
-
-**Science finding / gap**
-
-Flow states involve high performance, reduced self-monitoring, altered time sense, efficient action, and low internal noise.
-
-**MKUFT resonance**
-
-This is a clean observer/coherence/cost bridge.
-
-```text
-trained action graph + low noise + high coherence -> low-cost traversal
-```
-
-**Novelty**
-
-MKUFT explains flow as the felt experience of reduced traversal cost across already-trained paths.
-
-Skill does not create new nodes. It lowers friction along existing trajectories.
-
-**Strength**
-
-Strong support for OCQS and time-as-cost in human action.
-
-**Risk / falsifier**
-
-Weak if flow is inflated into paranormal certainty.
-
-**Next check**
-
-Map flow-state variables to κ(O), Q gate, path-cost reduction, and time-compression predictions.
-
----
-
-### 2.8 Trauma, memory, and boundary repair
-
-**Science finding / gap**
-
-Trauma can produce persistent threat states, fragmented memory, body dysregulation, emotional loops, and present-time reactivation of past danger.
-
-**MKUFT resonance**
-
-Trauma is a high-cost boundary and routing problem.
-
-```text
-unresolved threat -> locked node -> forced high-cost traversal -> distorted present resolution
-```
-
-**Novelty**
-
-Healing is re-boundarying and integration, not deletion. A memory becomes bearable when it no longer forces the present system to route through active threat.
-
-**Strength**
-
-Strong internal and conceptual support. Clinical support must be handled carefully.
-
-**Risk / falsifier**
-
-Weak if used as medical overclaim. Strong if used as a structural analogy and possible modelling language.
-
-**Next check**
-
-Map trauma models to boundary violation, memory reconsolidation, threat prediction, body state, and cost of maintaining contradiction.
-
----
-
-### 2.9 Learning, skill acquisition, and path reinforcement
-
-**Science finding / gap**
-
-Learning often follows practice curves, error correction, reinforcement, chunking, automaticity, and reduced effort over time.
-
-**MKUFT resonance**
-
-The formal addendum states learning as cost reduction along existing paths:
-
-```text
-practice -> lower λ(x) -> lower C[γ] -> smoother traversal
-```
-
-**Novelty**
-
-This ties learning, flow, time compression, and identity persistence into one traversal-cost model.
-
-**Strength**
-
-Strong practical bridge.
-
-**Risk / falsifier**
-
-Weak if the model cannot predict anything better than ordinary learning theory.
-
-**Next check**
-
-Produce worked examples comparing skill curves with cost-reduction curves.
-
----
-
-### 2.10 Biological and social boundaries
-
-**Science finding / gap**
-
-Cells, organisms, groups, institutions, and ecosystems all depend on boundaries: membranes, immune recognition, roles, identities, territories, communication channels, norms, and resource flows.
-
-**MKUFT resonance**
-
-Boundary is the condition for identity and interaction.
-
-No boundary, no object.
-
-No object, no transition.
-
-**Novelty**
-
-MKUFT gives one bridge from membranes to selves to institutions:
-
-```text
-boundary -> identity -> allowed exchange -> cost of maintenance -> coherence or collapse
-```
-
-**Strength**
-
-Strong structural support. Mechanisms differ by domain.
-
-**Risk / falsifier**
-
-Weak if it ignores domain-specific mechanisms.
-
-**Next check**
-
-Build a boundary taxonomy: physical, biological, cognitive, symbolic, procedural, social, instrumental.
-
----
-
-### 2.11 Geometry-dependent physical thresholds
-
-**Science finding / gap**
-
-Physical systems often depend on geometry: field concentration, resonance, stress distribution, boundary layer behaviour, waveguiding, curvature, plasma instability, acoustic nodes, and material deposition.
-
-**MKUFT resonance**
-
-Gradient mechanics and boundary-shear geometry use this public-facing fact as a bridge into MKUFT:
-
-```text
-shape / curvature / orientation -> boundary stability -> threshold onset -> path-cost change
-```
-
-**Novelty**
-
-The model proposes that some edge-case behaviours can be coded by geometry, orientation, and transition class rather than by assumed origin.
-
-**Strength**
-
-Strong as a testable edge-case method.
-
-**Risk / falsifier**
-
-Weak if it becomes speculative object explanation. Strong if it remains dry: geometry class should predict orientation/transition behaviour better than chance.
-
-**Next check**
-
-Build a dataset schema for geometry, orientation angle, motion vector, environment, sensor source, uncertainty, and ordinary-explanation filters.
-
----
-
-### 2.12 Procedural artefacts, symbolic systems, and ESRT
-
-**Science finding / gap**
-
-Some systems may not be best understood as ordinary language. They can function as operational art, diagrams, ritual structures, routing systems, procedure maps, or state machines.
-
-**MKUFT resonance**
-
-ESRT fits directly:
-
-```text
-Position -> Role -> Frame -> Transition -> Outcome
-```
-
-**Novelty**
-
-Meaning is not only semantic. Meaning can be executable.
-
-A structure may be recognised by what it allows, blocks, transforms, or resolves.
-
-**Strength**
-
-Strong if blind structural tests show stable addressing/state/flow beyond chance.
-
-**Risk / falsifier**
-
-Weak if it becomes a secret-translation claim without positional tests.
-
-**Next check**
-
-For Voynich-style work: sector density, cross-page role repeat, container class correlation, flow consistency, and misalignment collapse tests.
-
----
-
-## 3. Strength ranking
-
-Current strongest science-facing support classes:
-
-1. **Bioelectric morphogenesis / organism identity**  
-   Strong support for layered form-control and distributed boundary coherence.
-
-2. **Active matter / collective order**  
-   Strong support for information rules producing physical collective behaviour.
-
-3. **Phase transitions / criticality / thresholds**  
-   Strong support for LUCY-style threshold grammar.
-
-4. **Flow / OCQS / learning curves**  
-   Strong support for cost-reduction traversal in human action and cognition.
-
-5. **Geometry-dependent physical thresholds**  
-   Strong testable bridge for boundary and orientation claims.
-
-6. **Holography / information geometry / quantum codes**  
-   Deep conceptual support for information-boundary-geometry relationships; public-proof weak but structurally important.
-
-7. **Quantum measurement / contextuality**  
-   Strong conceptual resonance; must avoid overclaim.
-
-8. **Trauma / boundary repair**  
-   Strong internal and conceptual support; public/clinical wording must be careful.
-
-9. **ESRT / procedural systems**  
-   Strong if blind positional tests hit; weak if treated as translation by assertion.
-
-10. **Anomalous reports / UAP edge cases**  
-    Internally relevant and structurally interesting; public support weak unless coded and tested dryly.
-
----
-
-## 4. Novelty ranking
-
-The most distinctive MKUFT moves are:
-
-1. **Cost as the bridge variable**  
-   Cost links physics, cognition, biology, time, anomaly, and symbolic execution without making them the same thing.
-
-2. **Layer discipline through SIPO**  
-   Prevents symbolic, physical, observer, and substrate claims from being mixed.
-
-3. **Admissibility before explanation**  
-   First ask what transitions are allowed, not what story sounds meaningful.
-
-4. **Boundary as identity-maker**  
-   Boundary is not decoration. It is what allows object, observer, measurement, transition, and persistence.
-
-5. **Observer as bounded modulation condition**  
-   Keeps observer relevance without collapsing into mind-magic.
-
-6. **LUCY threshold chain**  
-   Gives a public bridge from gradient coherence to membrane-like and sustained-field behaviour.
-
-7. **ESRT executable-system recognition**  
-   Tests structures by role, position, state, transition, and outcome rather than surface resemblance.
-
-8. **Time as traversal cost**  
-   Gives a unified bridge between flow, trauma, learning, constrained motion, and experience.
-
----
-
-## 5. Evidence classes
-
-Use these labels consistently.
-
-### Strong support
-
-A domain independently shows the same mechanism class:
-
-```text
-constraint + boundary + threshold/cost + measurable resolution
-```
-
-### Suggestive support
-
-A domain rhymes structurally but needs sharper mapping or tests.
-
-### Weak analogy
-
-The language sounds similar, but no clear constraint/cost/boundary mechanism is present.
-
-### Public-proof weak but internally useful
-
-The lead matters for Mark's model development but is not suitable as public evidence yet.
-
-### Challenge to the model
-
-A finding that may force revision, narrowing, or rejection of a module.
-
-### No useful fit
-
-The connection is too loose, decorative, or after-the-fact.
-
----
-
-## 6. Working conclusion
-
-MKUFT is strongest where science is already finding that form, behaviour, meaning, or outcome is not caused by parts alone.
-
-The key recurring pattern is:
-
-```text
-parts behave differently when constrained by boundary, information, cost, and coherence.
-```
-
-That is the scientific opening.
-
-The model should not be presented as already proven.
-
-But it should not be flattened into a harmless metaphor either.
-
-The real claim is:
-
-> Across domains, reality behaves as if stable outcomes are selected by admissible, lower-cost, coherent paths through layered constraint.
-
-That is what should now be tracked, tested, and defended.
-
----
-
-## 7. Selected external references for named convergence entries
-
-The references below identify specific work discussed in the convergence map. They are included to recognise legitimate parallel work and strong alternative programmes relevant to comparison and testing.
-
-Bose, S., Mazumdar, A., Morley, G. W., Ulbricht, H., Toroš, M., Paternostro, M., Geraci, A. A., Barker, P. F., Kim, M. S., and Milburn, G. (2017). “Spin Entanglement Witness for Quantum Gravity.” *Physical Review Letters*, 119, 240401. DOI: `10.1103/PhysRevLett.119.240401`.
-
-Marletto, C., and Vedral, V. (2017). “Gravitationally Induced Entanglement between Two Massive Particles is Sufficient Evidence of Quantum Effects in Gravity.” *Physical Review Letters*, 119, 240402. DOI: `10.1103/PhysRevLett.119.240402`.
-
-Oppenheim, J. (2023). “A Postquantum Theory of Classical Gravity?” *Physical Review X*, 13, 041040. DOI: `10.1103/PhysRevX.13.041040`.
-
-Palmer, T. N. (2009). “The Invariant Set Postulate: A New Geometric Framework for the Foundations of Quantum Theory and the Role Played by Gravity.” *Proceedings of the Royal Society A*, 465, 3165–3185. DOI: `10.1098/rspa.2009.0080`.
-
-Palmer, T. N. (2020). “Discretization of the Bloch Sphere, Fractal Invariant Sets and Bell’s Theorem.” *Proceedings of the Royal Society A*, 476, 20190350. DOI: `10.1098/rspa.2019.0350`.
+See [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md), [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md), [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), and [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
