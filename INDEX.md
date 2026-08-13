@@ -4,15 +4,16 @@
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
 **DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)
 
-This index provides direct links to the principal public MKUFT documents.
+This index provides direct links to the principal public MKUFT documents. The evolving GitHub canon and frozen publication objects retain distinct version and rights identities; see the provenance and rights documents for the exact object being used.
 
 ## Start here
 
-- [README](README.md) — concise repository front page and reader routes.
-- [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md) — substantive plain-language introduction.
-- [Canon Map](CANON_MAP.md) — hierarchy and public navigation.
-- [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) — full architectural synthesis.
-- [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md) — citation and version identity.
+- [README](README.md) — repository front page and reader routes.
+- [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md) — substantive introduction.
+- [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) — current public synthesis and canonical compression.
+- [Canon Map](CANON_MAP.md) — hierarchy and navigation.
+- [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md) — publication/version identity.
+- [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md) — exact-object rights rules.
 
 ## Foundational and mathematical work
 
@@ -47,37 +48,37 @@ This index provides direct links to the principal public MKUFT documents.
 
 ## Observer, boundary, and physical support
 
-- [OCQS Human Activation Layer](docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md)
+- [OCQS](docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md)
 - [LUCY Boundary Threshold Framework](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md)
-- [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) — downstream effective-geometry application of the LUCY threshold framework.
+- [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
 - [Gradient Mechanics and Boundary-Shear Geometry](docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md)
 - [MKUFT–Dollard Field Geometry Notes](docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md)
 
-## Procedural and Voynich support
+## Procedural and applied work
 
 - [ESRT / ESF and Voynich Support](docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md)
 - [ESRT / ESF Method Appendix](docs/10_ESRT_ESF_METHOD_APPENDIX.md)
-- [Voynich Procedural-Engine Analysis](docs/09_VOYNICH_PROCEDURAL_ENGINE.md)
-
-## Public explanatory bridges
-
-- [Full-Stack Convergence Public Explanation](docs/11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md)
-- [Individual Reality Cost and Cohesion](docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md)
+- [Voynich Procedural-Structure Hypothesis](docs/09_VOYNICH_PROCEDURAL_ENGINE.md)
+- [Individuality, Boundary Cost, and Cohesion](docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md)
 - [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
-- [Paradoxes, Frequency, Atoms, and Symbolic Physics](docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md)
-- [Clear Public MKUFT Explanation](docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md)
+- [Frequency, Quantum Paradoxes, and Symbolic Bridges](docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md)
+
+## Retired explanatory routes retained for stable links
+
+- [Full-Stack Convergence Public Explanation](docs/11_FULL_STACK_CONVERGENCE_PUBLIC_EXPLANATION.md) — now routes to current canonical owners.
+- [Clear Public MKUFT Explanation](docs/18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md) — now routes to current canonical owners.
 
 ## Publications
 
-- [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md) — publication record and preferred repository entry point for the ATLD methods paper.
-- [Frozen ATLD v1.0 archive](publications/ATLD_Evaluation_Protocol_v1.0/) — preservation mirror; the Zenodo PDF controls exact pagination and visual layout.
+- [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md) — publication record and preferred entry point for ATLD v1.0.
+- [Frozen ATLD v1.0 archive](publications/ATLD_Evaluation_Protocol_v1.0/) — preservation mirror; the deposited Zenodo object controls exact frozen publication identity.
 
-## Rights and metadata
+## Metadata and discovery
 
-- [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md)
 - [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md)
 - [Citation metadata](CITATION.cff)
-- [CodeMeta metadata](codemeta.json)
+- [CodeMeta / discovery metadata](codemeta.json)
 - [Discovery keywords](DISCOVERY_KEYWORDS.md)
+- [Public discovery anchor](PUBLIC_DISCOVERY_ANCHOR.md)
 
-The exact file, version, DOI record, and licence attached to the material being used determine its citation and rights identity.
+The exact file, version, publication record, and licence attached to the material being used determine its citation and rights identity.
