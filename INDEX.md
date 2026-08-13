@@ -77,7 +77,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 
 - [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md)
 - [Citation metadata](CITATION.cff)
-- [CodeMeta / discovery metadata](codemeta.json)
+- [JSON-LD discovery metadata (legacy `codemeta.json` filename)](codemeta.json)
 - [Discovery keywords](DISCOVERY_KEYWORDS.md)
 - [Public discovery anchor](PUBLIC_DISCOVERY_ANCHOR.md)
 
