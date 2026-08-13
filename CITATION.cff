@@ -1,32 +1,25 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite it using the metadata from this file."
+message: "If you cite MKUFT, use the framework identity below and verify the exact version and licence in PROVENANCE_DOI_AND_ATTRIBUTION.md and RIGHTS_AND_LICENSE_NOTICE.md."
 title: "Unified Field Theory. McLaughlin–Kairos. MKUFT"
-type: thesis
 authors:
   - family-names: "McLaughlin"
     given-names: "Mark Charles"
 repository-code: "https://github.com/mark45cdo-mkuft/MKUFT"
-doi: "10.5281/zenodo.17780566"
 url: "https://github.com/mark45cdo-mkuft/MKUFT"
-abstract: "MKUFT, the McLaughlin–Kairos Unified Field Theory, is a theoretical unified-field and coherence framework by Mark Charles McLaughlin. It links substrate, information, physical expression, observer/coherence-boundary dynamics, LUCY, OCQS, ESF/ESRT, and the Voynich procedural-engine analysis."
+doi: "10.5281/zenodo.17780566"
+abstract: "MKUFT, the McLaughlin–Kairos Unified Field Theory, is a speculative research framework by Mark Charles McLaughlin. This GitHub repository is the evolving public working canon; the DOI identifies the frozen MKUFT backbone publication and does not by itself license later repository revisions. Exact version, publication and rights status are defined by the repository provenance and rights documents."
 keywords:
   - MKUFT
   - McLaughlin-Kairos Unified Field Theory
   - unified field theory
   - Mark Charles McLaughlin
-  - coherence framework
-  - data-field universe
+  - typed SIPO architecture
+  - constrained traversal
+  - boundary physics
+  - Layer Before Law
   - LUCY
   - Local Unified Coherence Yield
   - OCQS
   - ESF
   - ESRT
-  - Voynich procedural engine
-license: CC-BY-4.0
-preferred-citation:
-  type: article
-  title: "Unified Field Theory. McLaughlin–Kairos. MKUFT"
-  authors:
-    - family-names: "McLaughlin"
-      given-names: "Mark Charles"
-  doi: "10.5281/zenodo.17780566"
+  - ATLD
