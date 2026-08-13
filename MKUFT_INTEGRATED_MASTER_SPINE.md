@@ -1,6 +1,5 @@
 # MKUFT Integrated Master Spine
 
-
 <!-- MKUFT-PROVENANCE-HEADER:START -->
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
@@ -9,408 +8,279 @@
 **Citation:** See [`PROVENANCE_DOI_AND_ATTRIBUTION.md`](PROVENANCE_DOI_AND_ATTRIBUTION.md).  
 <!-- MKUFT-PROVENANCE-HEADER:END -->
 
-Status: public integrated synthesis for the controlled MKUFT GitHub working copy  
+**Status:** public integrated synthesis for the evolving MKUFT GitHub canon.
 
-## 0. Status and purpose
+## 0. Purpose and claim boundary
 
-MKUFT is presented as a speculative, structured research framework—not as an accepted completed theory.
+MKUFT is a speculative research framework, not an accepted completed physical theory.
 
-This document is the front-door synthesis. It connects the core theory, mathematics, public explanation, experimental programme, falsification rules, observer modules, boundary modules, procedural applications, and Silver Update into one navigable engine.
+This master spine is a **synthesis and routing document**. Dedicated modules own full derivations, definitions, experiments, references, and falsifiers. If a compressed expression here conflicts with its canonical owner, the canonical owner controls and this spine must be corrected.
 
-The theory survives only where it remains:
+MKUFT survives only where it remains:
 
-- layer-disciplined;
-- physically accountable;
-- mathematically explicit about status;
-- open to ordinary explanations;
-- falsifiable at the branch where a claim is made;
-- reconstructable from several entry points without changing meaning.
+- typed by domain and layer;
+- compatible with established results in their demonstrated regimes;
+- explicit about whether an equation is notation, scaffold, model, or derived mechanism;
+- open to ordinary explanations and strong alternatives;
+- falsifiable at the branch where the claim is made;
+- reconstructable from several public entry routes without changing meaning.
 
-## 1. Core question
+## 1. Core research question
 
-MKUFT asks:
-
-> Can possible states become stable physical, informational, cognitive, biological, social, or procedural outcomes through a common grammar of constraint, admissible transition, cost, coherence, boundary, observation, and falsifiable resolution?
-
-The domains are not assumed to be identical.
-
-The proposal is that one connected reality may display recurring structural relations across different layer addresses.
-
-The clean public claim is narrower than “everything is connected”:
-
-> Where a repeated structure is proposed, name the invariant, name the layer, define the variables, specify the coupling, state the ordinary alternatives, and say what would make the claim fail.
-
-## 2. The four-layer stack
+MKUFT asks whether stable outcomes can be studied through a recurring grammar of:
 
 ```text
-S = Substrate
-I = Information
-P = Physical
-O = Observer
+possibility
+→ constraint
+→ admissible transition
+→ cost
+→ coherence / stability
+→ boundary
+→ measurement / registration
+→ falsification
+→ outcome
 ```
+
+The recurrence of this grammar across domains does not establish one identical mechanism across those domains.
+
+## 2. Typed S–I–P–O architecture
+
+```text
+S = Substrate / structured possibility
+I = Information / relation / constraint
+P = Physical expression and dynamics
+O = Observer-positioned registration and bounded participation
+```
+
+The layers are typed addresses, not four ordinary spatial dimensions.
 
 ### S — Substrate
 
-The substrate is the possibility or source domain in the framework.
+A mathematical handle is the measure space
 
-A mathematical handle is:
+$$
+S=(\Omega,\Sigma,\mu).
+$$
 
-```text
-S = (Ω,Σ,μ)
-```
-
-where:
-
-- `Ω` is a configuration or possibility space;
-- `Σ` is a collection of measurable subsets;
-- `μ` assigns baseline weighting.
-
-This is a theoretical representation. It is not evidence that a hidden material medium, grid, lattice, or second physical world has been detected.
+This is a formal representation of a possibility/source domain. It is not evidence that a hidden material medium, lattice, or additional physical space has been detected.
 
 ### I — Information
 
-Information means structured difference that changes what can happen, stabilise, route, be measured, or be understood.
+To avoid symbol collision, use
 
-A candidate mathematical space is:
+$$
+\mathcal I=L^2(\Omega,\mu),
+\qquad i\in\mathcal I,
+$$
 
-```text
-I = {f : Ω → R | f ∈ L²(Ω,μ)}
-```
+where $I$ remains the layer label, $\mathcal I$ the selected information-state/function space, and $i$ one information structure.
 
-Information includes:
-
-- relation;
-- pattern;
-- address;
-- role;
-- state;
-- rule;
-- permission;
-- constraint;
-- executable structure.
-
-Information that changes no route, boundary, cost, measurement, or outcome is descriptive rather than causal in the MKUFT sense.
+Information earns independent physical significance only where a defined coupling adds measurable content beyond an adequate physical description.
 
 ### P — Physical
 
-The physical layer contains:
-
-- matter and energy;
-- fields and forces;
-- bodies and environments;
-- instruments and records;
-- timing and measurable events.
-
-Physical claims must use physical evidence.
-
-MKUFT must recover accepted physics in ordinary conditions. No symbolic, cognitive, or metaphysical account can replace a missing physical mechanism.
+The P-layer contains measurable physical states, fields, bodies, instruments, environments, timing, and dynamics. Physical claims require physical variables, units, controls, conservation accounting where applicable, and ordinary-physics baselines.
 
 ### O — Observer
 
-The observer layer includes:
+The O-layer contains observer-positioned registration, measurement context, record, attention, interpretation, and any bounded state variable that is operationally defined.
 
-- attention;
-- interpretation;
-- measurement context;
-- memory;
-- salience;
-- confidence;
-- bounded state-dependent modulation.
+Observer language cannot replace a missing physical mechanism.
 
-The observer is not an unlimited creator.
+## 3. Realisation scaffold
 
-Observer-linked physical claims remain experimental hypotheses and require controlled evidence.
+For event $E$, a working unnormalised weight is
 
-## 3. Operational kernel
+$$
+\widetilde W(E)
+=
+\int
+D_{\mathrm{phys}}(E\mid i)
+W_{SI}(i\mid S,E)
+C_O(O\mid i,E)
+\,d\nu(i),
+$$
 
-The compact recovery rule is:
+with
 
-```text
-Layer
-→ Boundary
-→ Node
-→ Transition
-→ Cost
-→ Coherence
-→ Observer
-→ Falsifier
-→ Outcome
-```
+$$
+P_{\mathrm{realized}}(E)
+=
+\frac{\widetilde W(E)}{Z}.
+$$
 
-### Layer
+$D_{\mathrm{phys}}$ represents the accepted physical contribution, $W_{SI}$ a candidate substrate-to-information weighting, and $C_O$ a bounded observer-condition term.
 
-What domain is active? Do not answer a physical question with a symbolic result or treat a subjective state as an external measurement.
+These are working scaffolds. Every additional term must be operationalised and the complete probability model must be normalisable.
 
-### Boundary
+The ordinary limit is mandatory:
 
-What makes the object, system, state, or claim distinct enough to analyse?
+$$
+P_{\mathrm{realized}}(E)
+\approx
+P_{\mathrm{phys}}(E)
+$$
 
-### Node
+when additional terms are absent, constant, negligible, or empirically unnecessary within a declared regime and tolerance.
 
-What stable state, role, attractor, address, or repeatable configuration exists?
+## 4. Constrained traversal
 
-### Transition
+Represent a state structure as
 
-What changes, and through what route?
+$$
+\mathcal G=(N,E_{\mathcal G}),
+$$
 
-### Cost
+with trajectory
 
-What energy, friction, contradiction, instability, risk, or maintenance burden is carried by the route?
+$$
+\gamma=(n_0\rightarrow n_1\rightarrow\cdots\rightarrow n_k).
+$$
 
-### Coherence
+For one declared state space, a candidate traversal cost is
 
-How well do the parts fit the actual constraints without destructive contradiction?
+$$
+C[\gamma]
+=
+\int_\gamma\lambda(x)\,ds.
+$$
 
-### Observer
+The path element, cost density, and resulting units must be defined.
 
-How do attention, measurement, memory, interpretation, or state enter—and where do their effects stop?
+A Gibbs-like path model requires a dimensionless exponent. With inverse cost scale $\beta$,
 
-### Falsifier
+$$
+P(B\mid A)
+=
+\frac{1}{Z_A}
+\sum_{\gamma\in\Gamma(A\to B)}
+\exp[-\beta C[\gamma]].
+$$
 
-What result makes the reading wrong, unnecessary, or inferior to a simpler model?
+Alternatively, use an explicitly dimensionless normalised cost $\widetilde C[\gamma]$ in $\exp[-\widetilde C[\gamma]]$.
 
-### Outcome
+This is a candidate model, not a declaration that all probability is fundamentally path density.
 
-What survives: an event, measurement, stable interpretation, failed prediction, rejected branch, or model correction?
+## 5. Time-dependent traversal geometry
 
-## 4. Mathematical engine
+Where admissibility changes with time, use
 
-### 4.1 Realisation scaffold
+$$
+\mathcal G(t)=(N,E_{\mathcal G}(t)).
+$$
 
-For event `E`:
+A temporally addressed path may be represented as
 
-```text
-W_total(E) = ∫_{I ∈ I(E)} D_phys(E|I) W(I|S,E) C(O|I,E) dν(I)
-```
+$$
+\gamma_t=((n_0,t_0)\rightarrow(n_1,t_1)\rightarrow\cdots\rightarrow(n_k,t_k)),
+$$
 
-and:
+with
 
-```text
-P_realized(E) = W_total(E)/Z
-```
+$$
+C[\gamma_t]
+=
+\int_\gamma \lambda(x(s),t(s))\,ds.
+$$
 
-with:
+A candidate conditional weighting is then
 
-```text
-Z = Σ_{E'} W_total(E')
-```
+$$
+P(B,t_B\mid A,t_A)
+=
+\frac{1}{Z}
+\sum_{\gamma_t\in\Gamma_{t_A\to t_B}(A\to B)}
+\exp[-\beta C[\gamma_t]].
+$$
 
-Interpretation:
+The stationary model is recovered when the relevant transition structure and cost are effectively time-independent over the interval.
 
-- `D_phys(E|I)` = accepted physical dynamics conditioned on information structure;
-- `W(I|S,E)` = candidate substrate-to-information weighting;
-- `C(O|I,E)` = bounded observer-condition term;
-- `ν` = measure over compatible information structures.
+Time dependence adds scientific value only where it improves prospective prediction beyond ordinary time-dependent models rather than adding retrospective flexibility.
 
-These are working mathematical scaffolds. They become empirical only when every term is operationally defined.
+## 6. Independent-content criterion
 
-### 4.2 Ordinary-physics limit
-
-If additional terms are constant, absent, or empirically unnecessary:
-
-```text
-P_realized(E) ≈ P_phys(E)
-```
-
-Failure to recover the ordinary limit is a failure of the physics-facing model.
-
-### 4.3 Small observer term
-
-A candidate bounded form is:
-
-```text
-C(O|I,E) = C_0[1 + ε κ(ρ_O) h(I,E)]
-```
-
-which gives, to first order:
-
-```text
-P_realized(E) ≈ P_phys(E) + ε Δ_O(E)
-```
-
-The sign, scale, and condition dependence must be specified before testing. The equation is not evidence for the effect.
-
-### 4.4 Traversal graph
-
-```text
-G = (N,E)
-```
-
-where:
-
-- `N` = operationally distinguishable states or nodes;
-- `E` = admissible transitions.
-
-A trajectory is:
-
-```text
-γ = (n_0 → n_1 → ... → n_k)
-```
-
-A candidate cost functional is:
-
-```text
-C[γ] = ∫_γ λ(x) ds
-```
-
-A candidate Gibbs-like path weighting is:
-
-```text
-P(B|A) ∝ Σ_{γ ∈ Γ(A→B)} exp[-C[γ]]
-```
-
-These models test whether path availability and cost improve prediction. They do not establish that all probability is fundamentally path density.
-
-## 5. Cost and coherence
-
-Cost is a bridge variable only when it is defined at the active layer.
-
-Examples include:
-
-- action or energy in physics;
-- maintenance and regulation in biology;
-- error and control burden in information systems;
-- threat, conflict, or effort in cognition;
-- enforcement and coordination in social systems.
-
-The word “cost” must not hide incompatible meanings.
-
-Coherence means structural fit under the selected constraints.
-
-It is not:
-
-- emotional approval;
-- moral purity;
-- aesthetic beauty;
-- automatic truth;
-- proof of metaphysical alignment.
-
-A coherent model can still be false if its premises or data are wrong.
-
-## 6. Silver Update I — ambiguity dynamics
-
-At time `t`, let `Ω_t` be the unresolved feasible region still compatible with evidence and constraints.
-
-Define dimensionless ambiguity volume:
-
-```text
-A_t^vol = log(1 + μ(Ω_t)/μ_0)
-```
+A central scientific distinction is whether an I-layer description is merely a useful representation of the adequate P-layer state or carries independently measurable predictive content.
 
 Let:
 
-```text
-R_t ∈ [0,1]
-```
+- $X_t$ = measured physical/environmental state;
+- $H_t$ = relevant measured physical history;
+- $I_t$ = candidate information-layer variable;
+- $Y_{t+\Delta}$ = preregistered later physical outcome.
 
-represent normalised low-cost route connectivity, and:
+The physical-only null is schematically
 
-```text
-X_t ∈ [0,1]
-```
+$$
+H_0:\quad
+Y_{t+\Delta}
+\perp\!\!\!\perp
+I_t
+\mid X_t,H_t.
+$$
 
-represent normalised preserved access or influence.
+The stronger I-layer claim earns support only if $I_t$ improves held-out prediction after $X_t$ and $H_t$ are controlled, survives appropriate relation-preserving re-encoding, and cannot be reduced to an adequate physical-state function.
 
-The working manoeuvrability index is:
+If
 
-```text
-M_t = A_t^vol × R_t × X_t
-```
+$$
+I_t=f(X_t,H_t),
+$$
 
-This separates:
+then the I-layer may remain a useful effective description or compression, but this test has not established independent I→P dynamics.
 
-- many unresolved possibilities;
-- cheap switching between them;
-- retention of access while switching.
+The same reduction discipline applies to observer variables.
 
-`M_t` is a heuristic audit index, not a validated universal law.
+## 7. Ambiguity dynamics
 
-Generative ambiguity should normally become more precisely specified under honest inquiry. Exploitative ambiguity tends to replenish unresolved routes when clarification threatens access, attribution, or control.
+For a declared domain $d$, let $\Omega_t^{(d)}$ be the unresolved feasible region compatible with current evidence and constraints. A dimensionless ambiguity-volume index is
 
-High ambiguity alone does not establish deception, intention, or external agency.
+$$
+A_{t,\mathrm{vol}}^{(d)}
+=
+\log\!\left(1+\frac{\mu_d(\Omega_t^{(d)})}{\mu_{0,d}}\right).
+$$
 
-Canonical home:
+With normalised route connectivity $R_t$ and preserved access $X_t$,
 
-`docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`
+$$
+M_t=A_{t,\mathrm{vol}}^{(d)}R_tX_t.
+$$
 
-## 7. Silver Update II — cross-layer addressing
+$M_t$ is a heuristic audit index, not a universal law. The product form must compete with additive and interaction alternatives.
 
-Let `K` be a candidate invariant and `L ∈ {S,I,P,O}` the active layer.
+Canonical owner: [`docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md).
 
-```text
-K_L = A_L(K;θ_L)
-```
+## 8. Cross-layer addressing
 
-A valid address must specify:
+For candidate invariant $K$ at layer $L$,
 
-- what relation is preserved;
-- what variables and units change;
-- what evidence is required;
-- what coupling connects layers;
-- what falsifies this address independently.
+$$
+K_L=A_L(K;\theta_L).
+$$
 
-The same algebraic form at several layers does not prove the same physical mechanism.
+A cross-layer coupling must identify source and receiving spaces, variables, units or normalisation, observable consequence, ordinary baseline, and falsifier.
 
-Canonical home:
+A typed coupling may be represented as
 
-`docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
+$$
+C_{LM}:\mathcal X_L\rightarrow\mathcal X_M.
+$$
 
-## 7A. Recursive address closure and property transmission
+Repeated algebraic form does not prove one physical mechanism.
 
-For any object `x`, a typed address may include:
+The recursive integrity rule is:
 
-```text
-T(x) = (domain, layer, boundary, version, role, evidence, status)
-```
+> **No untyped inheritance.**
 
-The governing rule is:
+Provenance, evidence, licence, causation, authority, responsibility, units, and other properties do not automatically transfer merely because two objects are linked.
 
-> No untyped inheritance.
+Canonical owners: Modules 22 and 22A.
 
-A relation may carry provenance without carrying licence, evidence, authority, ownership, causation, identity, responsibility, units, or moral status. This keeps source modules, frozen publications, later companion modules, and current repository versions distinct but connected.
+## 9. LUCY
 
-Canonical home:
+LUCY means **Local Unified Coherence Yield**.
 
-`docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md`
-
-## 8. Silver Update III — agency accessibility
-
-Let `U_t` be the actions actually available and `U_t^access` the practically accessible subset.
-
-```text
-U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
-```
-
-A retained capacity may remain while access is narrowed by:
-
-- threat;
-- distorted information;
-- reinforcement history;
-- dependency;
-- coercion;
-- habit;
-- exhaustion;
-- identity fusion.
-
-A compressed representation is:
-
-```text
-Agency_effective(t) = Agency_capacity × a_t
-```
-
-with `a_t ∈ [0,1]`.
-
-This is not a clinical, legal, or moral diagnostic equation. It is a systems distinction between capacity and access.
-
-Canonical home:
-
-`docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md`
-
-## 9. LUCY — thresholded layer crossing
-
-LUCY means Local Unified Coherence Yield.
-
-Its primary invariant is not a bubble, circle, membrane, or pocket. It is a candidate **crossing condition**:
+Its canonical invariant is a thresholded addressed crossing:
 
 ```text
 addressed relational state
@@ -418,327 +288,149 @@ addressed relational state
 → consequential change at the next addressed layer
 ```
 
-For the physics-facing I→P case, the stronger claim begins only when a defined informational or relational variable changes a measurable physical transition, admissibility, weighting, boundary condition, or effective state beyond the adequate physical baseline.
+Current formal work uses a yield index $Y_L$ rather than overloading $C$:
 
-Where a particular physical implementation produces a stable interface and finite region, the downstream morphology may be written:
+$$
+Y_L(x,t)
+=
+\chi_L
+\frac{\lVert\nabla\tau_L(x,t)\rVert^2}
+{N_L(x,t)+\varepsilon_L},
+$$
 
-```text
-LUCY crossing = thresholded I→P consequence
-LUCY-1        = membrane-like boundary condition, when present
-LUCY-2        = sustained local region, when present
-```
+with candidate threshold
 
-The general threshold template remains:
+$$
+Y_L(x,t)\ge Y_*.
+$$
 
-```text
-C_L(x,t) = χ_L ||∇τ_L(x,t)||²/(N_L(x,t)+ε)
-```
-
-with:
-
-```text
-C_L(x,t) ≥ C_*
-```
-
-This is a cross-layer template, not a validated law shared by cognition, information systems, and matter. The threshold is not required to trace a closed spatial surface.
-
-Physical applications require dimensional consistency, units, a typed carrier into P, controls, held-out prediction, ordinary-physics recovery, and reproduction. If the informational variable reduces to the adequate measured physical state, the stronger independent I→P claim is not established.
-
-Canonical homes:
-
-- `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md`
-- `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
-- `docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md` for the boundary-forming effective-geometry branch
-
-## 10. OCQS — observer-state hypothesis
-
-OCQS means Optimal Cognitive Quiet State.
-
-It names a candidate state involving reduced intrusive noise with retained attention, emotional information, and threat discrimination.
-
-A continuous model is:
+Where a physical implementation produces boundary morphology:
 
 ```text
-q_t ∈ [0,1]
-κ_eff = q_t × κ_base × η(F)
+LUCY-1 = membrane-like boundary condition, when present
+LUCY-2 = sustained local region, when present
 ```
 
-OCQS does not prove remote information, synchronicity, probability bias, or substrate access.
+These are conditional downstream morphologies, not automatic consequences of every LUCY crossing.
 
-It should be compared with flow, attentional control, metacognition, predictive processing, stress-performance research, and related constructs.
+Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 30.
 
-Canonical home:
+## 10. Observer and procedural support modules
 
-`docs/06_OCQS_HUMAN_ACTIVATION_LAYER.md`
+### OCQS
 
-## 11. GRACE — traversal filter
+OCQS is a bounded observer-state hypothesis. It does not prove remote information, probability modulation, synchronicity, or substrate access. Its value depends on operational measures and comparison with established cognitive models.
 
-GRACE means:
+### GRACE
 
-- Geometry;
-- Relation;
-- Admissibility;
-- Coherence;
-- Emergence.
+GRACE—Geometry, Relation, Admissibility, Coherence, Emergence—is a traversal filter. It does not create a new layer or supply evidence by acronym.
 
-It is a compact question set:
+### ESRT / ESF
+
+ESRT/ESF test whether an artefact or representation contains reproducible **addressing, state, and flow** structure. A pass identifies an executable-system candidate, not a hidden meaning or historical use by assertion.
+
+### Voynich
+
+The Voynich branch is an applied procedural hypothesis. It must compete with linguistic, cipher, scribal, decorative, mnemonic, diagrammatic, and null models under blinded, quantitative, held-out tests. It is not evidence for foundational MKUFT physics.
+
+## 11. Foundational physics — Layer Before Law
+
+The foundational proposal asks whether quantum and gravitational effective behaviour may arise from a deeper typed update architecture rather than being fundamental objects at the same descriptive layer.
+
+The proposed update remains a placeholder task:
+
+$$
+U_n
+\xrightarrow{\operatorname{Update}_{\mathrm{SIPO}}}
+U_{n+1}.
+$$
+
+Writing the operator does not supply the missing dynamics.
+
+A developed mechanism must recover:
+
+- Bell-compatible quantum correlations;
+- no-signalling;
+- the Born-rule and relevant quantum/QFT limits;
+- general-relativistic or experimentally equivalent gravitational behaviour;
+- dimensional and conservation requirements;
+- at least one operational difference from strong alternatives.
+
+If those burdens are not met, the branch remains an architectural reframing or interpretation rather than completed unification.
+
+## 12. Experimental and promotion discipline
+
+A broad interesting effect is not automatically an MKUFT result.
+
+The public experimental route is:
 
 ```text
-What is the shape?
-How are the parts related?
-Which transitions are allowed?
-Does the route hold together?
-What outcome emerges and can be checked?
+calibration
+→ reconnaissance
+→ locked discriminating signature
+→ strongest fair null
+→ deformation / ablation
+→ held-out prediction
+→ independent replication
+→ bounded interpretation
 ```
 
-GRACE is operational language, not evidence supplied by the acronym.
+A branch is reduced or removed when its variables cannot be operationalised, simpler models predict equally or better, the effect disappears under controls, results do not replicate, definitions move after failure, or evidence from another layer is used to rescue it.
 
-Canonical home:
+Canonical owners: Modules 04, 05, 27, 28, and 29.
 
-`docs/20_GRACE_TRAVERSAL_RULE.md`
+## 13. Metaphysical boundary
 
-## 12. ESRT / ESF — procedural recognition
+MKUFT contains a wider metaphysical interpretation in which God and Love may have explicit philosophical roles. Those roles are not inserted into physical equations as unmeasured variables and cannot rescue a failed empirical claim.
 
-ESRT asks whether structure constrains execution through:
+Scientific claims remain answerable to the variables, measurements, alternatives, and falsifiers of the domain in which they are made.
 
-- addressing;
-- state;
-- flow.
+## 14. Public integrity boundary
 
-A provisional pass means **executable-system candidate**, not proven historical function.
+The public canon must not contain non-public personal data, private correspondence, credentials, internal-only operating instructions, or uncleared personal case material.
 
-The method requires:
+Development-stage context should be translated into a public invariant or retired rather than published merely because it helped discovery.
 
-- independent coding;
-- perturbation tests;
-- matched alternatives;
-- false-positive controls;
-- held-out prediction.
-
-Canonical home:
-
-`docs/10_ESRT_ESF_METHOD_APPENDIX.md`
-
-## 13. Voynich application
-
-The public Voynich hypothesis asks whether some manuscript structure is better predicted by a procedural model than by linguistic, cipher, scribal, decorative, mnemonic, diagrammatic, or null models.
-
-It does not claim:
-
-- translation;
-- proven operator meanings;
-- known historical use;
-- hidden energy or metaphysical technology.
-
-Canonical home:
-
-`docs/09_VOYNICH_PROCEDURAL_ENGINE.md`
-
-## 14. Boundary and physical bridges
-
-### Gradient mechanics
-
-The boundary-physics branch asks whether geometry, orientation, gradients, and thresholds produce pre-specified measurable effects beyond ordinary mechanics and systematics.
-
-It must not use anomaly reports as proof.
-
-Canonical home:
-
-`docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md`
-
-### Dollard comparison
-
-The Dollard bridge compares field-realist electrical vocabulary with MKUFT terms.
-
-Translation between vocabularies is not evidence of equivalence or correctness.
-
-Canonical home:
-
-`docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md`
-
-### Boundary cost and cohesion
-
-The individuality bridge asks what distinction a system maintains, what maintenance costs, and where analogy stops.
-
-It does not redefine mass, charge, spin, gravity, love, or trauma as one physical mechanism.
-
-Canonical home:
-
-`docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md`
-
-## 15. Science-facing comparison
-
-Relevant neighbours include:
-
-- dynamical and complex systems;
-- constraint-based modelling;
-- statistical mechanics;
-- information theory;
-- graph and path models;
-- phase transitions and criticality;
-- quantum foundations and measurement context;
-- morphogenesis and biological control;
-- predictive processing and metacognition;
-- constructor-style possible/impossible transformation questions;
-- falsifiable research-programme design.
-
-These are comparison anchors, not claims of equivalence or endorsement.
-
-The living comparison map is:
-
-`SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md`
-
-## 16. Experimental programme
-
-The public experimental branch requires:
-
-- ethics and safety review where relevant;
-- pre-registration;
-- blinding;
-- adequate statistical power;
-- one primary outcome per principal test;
-- effect-size and uncertainty reporting;
-- multiple-comparison correction;
-- publication of nulls;
-- independent replication;
-- measurement of proposed environmental variables;
-- ordinary explanations before wider interpretation.
-
-Canonical homes:
-
-- `docs/04_EXPERIMENTAL_TEST_PROGRAM.md`
-- `docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md`
-- `docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md`
-
-Module 28 separates calibration, reconnaissance, discriminating signatures, mechanism flagships, and foundational recovery programmes. A positive anomaly is not promoted into an MKUFT result unless the distinguishing fingerprint and interpretation boundary were fixed in advance.
-
-## 17. Falsification
-
-A branch is weakened or removed when:
-
-- its variables cannot be operationalised;
-- it adds no predictive value;
-- ordinary models perform better;
-- effects disappear under controls;
-- results cannot be replicated;
-- definitions change after failure;
-- evidence from another layer is used to rescue it;
-- the model only explains events retrospectively.
-
-The framework is weakened more broadly if:
-
-- it cannot recover standard physics;
-- it cannot distinguish metaphor from mechanism;
-- it explains every result equally;
-- its modules cannot fail independently;
-- different entry points reconstruct incompatible theories.
-
-Canonical home:
-
-`docs/05_FALSIFICATION_SUMMARY.md`
-
-## 18. Self-supporting repository architecture
-
-The public stack is designed so that each important concept has:
-
-```text
-canonical definition
-→ compressed references
-→ applied translations
-→ mathematical support
-→ ordinary alternatives
-→ falsifiers
-→ reduction rule
-```
-
-The complete file-by-file integration registry is:
-
-`docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md`
-
-That map ties the numbered canon—including `22A`, `24A`, `24B`, and `28`—to parents, neighbours, applications, and primary limits.
-
-## 19. Public integrity boundary
-
-The public repository must not contain:
-
-- non-public personal data;
-- private correspondence;
-- credentials or access secrets;
-- internal-only operational instructions;
-- case material not deliberately cleared for publication.
-
-The public translation rule is:
-
-> Preserve the invariant, mechanism, attribution, ordinary alternatives, and falsifiers. Remove non-public context that is not required to understand or test the claim.
-
-## 20. What MKUFT adds
-
-MKUFT’s distinctive contribution is not any one word such as information, coherence, geometry, or observer.
-
-It is the combined audit route:
-
-```text
-Layer discipline
-+ boundary identity
-+ admissible transition
-+ cost
-+ coherence
-+ bounded observer
-+ ambiguity dynamics
-+ falsifier
-+ recoverable architecture
-```
-
-The framework is valuable only where this route produces sharper questions, cleaner separation, better prediction, or more honest failure than looser alternatives.
-
-## 21. One-page compression
+## 15. One-page compression
 
 ```text
 S–I–P–O:
 Substrate → Information → Physical → Observer
 
-Kernel:
-Layer → Boundary → Node → Transition → Cost → Coherence → Observer → Falsifier → Outcome
+Information notation:
+I = layer
+𝓘 = selected information state/function space
+i ∈ 𝓘 = one information structure
 
-Graph:
-G = (N,E)
-C[γ] = ∫_γ λ(x) ds
+Traversal:
+𝒢 = (N,E_𝒢)
+C[γ] = ∫ λ(x) ds
+P(B|A) ∝ Σ exp[-βC[γ]]
+
+Dynamic traversal:
+𝒢(t) = (N,E_𝒢(t))
+C[γ_t] = ∫ λ(x(s),t(s)) ds
+
+Independent-content null:
+Y_(t+Δ) ⟂ I_t | X_t,H_t
 
 Ambiguity:
-A_t^vol = log(1 + μ(Ω_t)/μ_0)
-M_t = A_t^vol × R_t × X_t
+A_t,vol = log(1 + μ(Ω_t)/μ_0)
+M_t = A_t,vol R_t X_t
 
 Layer address:
 K_L = A_L(K;θ_L)
 
-Agency access:
-U_t^access = {u ∈ U_t : G_t(u;T_t,H_t) > θ_access}
+LUCY:
+Y_L = χ_L ||∇τ_L||²/(N_L+ε_L)
+Y_L ≥ Y_*
 
 Integrity:
-Define once. Address by layer. Route by dependency. Test at the claim.
+Define once. Type the address. Test the coupling. Recover the baseline. Keep the falsifier.
 ```
 
-## 22. Final statement
+## 16. Final statement
 
 MKUFT should not read as a pile of similarities.
 
-It should read as one disciplined research engine with several application branches.
-
-The engine is:
-
-```text
-possibility is structured;
-boundaries make distinction possible;
-constraints define admissible transition;
-transitions carry cost;
-coherence affects stability;
-observers are bounded conditions;
-ambiguity can become movement space;
-layer addresses prevent flattening;
-falsification removes what does not survive;
-the repository preserves the same meaning from every entry point.
-```
-
-The bold claim is permitted to remain bold.
-
-The discipline is what keeps it from becoming empty.
+It should read as one research architecture in which bold proposals remain bold **because their evidential status, ordinary limits, alternatives, and failure conditions remain visible**.
