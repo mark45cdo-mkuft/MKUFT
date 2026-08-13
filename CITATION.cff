@@ -1,25 +1,29 @@
 cff-version: 1.2.0
-message: "If you cite MKUFT, use the framework identity below and verify the exact version and licence in PROVENANCE_DOI_AND_ATTRIBUTION.md and RIGHTS_AND_LICENSE_NOTICE.md."
-title: "Unified Field Theory. McLaughlin–Kairos. MKUFT"
+message: "This file describes the evolving public MKUFT GitHub canon. For a frozen publication, cite the exact DOI object and verify its version-specific licence."
+title: "McLaughlin–Kairos Unified Field Theory (MKUFT) — Public Working Canon"
+type: generic
 authors:
   - family-names: "McLaughlin"
     given-names: "Mark Charles"
 repository-code: "https://github.com/mark45cdo-mkuft/MKUFT"
 url: "https://github.com/mark45cdo-mkuft/MKUFT"
-doi: "10.5281/zenodo.17780566"
-abstract: "MKUFT, the McLaughlin–Kairos Unified Field Theory, is a speculative research framework by Mark Charles McLaughlin. This GitHub repository is the evolving public working canon; the DOI identifies the frozen MKUFT backbone publication and does not by itself license later repository revisions. Exact version, publication and rights status are defined by the repository provenance and rights documents."
+abstract: "The evolving public working canon of the McLaughlin–Kairos Unified Field Theory (MKUFT). Frozen publications retain their own DOI, version, citation and licence identities. See PROVENANCE_DOI_AND_ATTRIBUTION.md and RIGHTS_AND_LICENSE_NOTICE.md."
 keywords:
   - MKUFT
   - McLaughlin-Kairos Unified Field Theory
   - unified field theory
-  - Mark Charles McLaughlin
   - typed SIPO architecture
   - constrained traversal
   - boundary physics
   - Layer Before Law
   - LUCY
-  - Local Unified Coherence Yield
   - OCQS
-  - ESF
   - ESRT
   - ATLD
+preferred-citation:
+  type: generic
+  title: "Unified Field Theory. McLaughlin–Kairos. MKUFT"
+  authors:
+    - family-names: "McLaughlin"
+      given-names: "Mark Charles"
+  doi: "10.5281/zenodo.17780566"
