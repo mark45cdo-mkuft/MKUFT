@@ -138,17 +138,17 @@ LUCY is currently treated as part of the MKUFT backbone.
 
 It is not a separate external theory in this repository.
 
-Its function is to describe local threshold, membrane, and field behaviour within the MKUFT stack:
+Its canonical invariant is a **thresholded addressed crossing**: a defined relation or state reaches a declared coherence/closure threshold and becomes consequential at the next addressed layer.
+
+Where a particular physical implementation produces boundary morphology, the downstream specialisation may be described as:
 
 ```text
-LUCY -> LUCY-1 -> LUCY-2
+LUCY crossing = thresholded consequential change
+LUCY-1        = membrane-like boundary condition, when present
+LUCY-2        = sustained local region, when present
 ```
 
-Meaning:
-
-- LUCY = threshold;
-- LUCY-1 = membrane;
-- LUCY-2 = sustained field.
+The membrane and sustained region are conditional downstream morphologies, not automatic consequences of every LUCY crossing. The canonical owner is `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md`; the boundary-forming effective-geometry specialisation is developed in `docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md`.
 
 If LUCY is later published as its own node, that node should receive its own DOI and citation identity.
 
@@ -237,6 +237,8 @@ This GitHub repository is a public cleaned working presentation layer. It organi
 
 Public visibility does not waive copyright, attribution requirements, document-specific licences, or commercial-use restrictions.
 
+Repository metadata files such as `CITATION.cff` and `codemeta.json` describe identity and discovery. They do not override the version-specific rights rules in the exact publication, `RIGHTS_AND_LICENSE_NOTICE.md`, or `MODULE_RIGHTS_MATRIX.md`.
+
 ## Standard Module Provenance Header
 
 Important canonical modules should carry the same short provenance strip:
@@ -254,14 +256,14 @@ The words **public MKUFT canon** in a module header describe repository visibili
 
 The MKUFT DOI should remain displayed directly on ordinary modules and unpublished standalone-paper candidates alike.
 
-Candidate status belongs in `STANDALONE_PAPER_TRACK.md`, not in the module header. A header should not announce that a module is awaiting its own DOI or imply a gap in provenance.
+A header should not announce that a module is awaiting its own DOI or imply a gap in provenance. Publication status should be stated only where a concrete publication object exists.
 
 The DOI anchors the module visibly to the MKUFT framework and Mark Charles McLaughlin's author identity. Git history records the exact working-copy text and revision date of later material until it is included in a subsequent frozen release.
 
 This is an attribution and routing rule. It does not silently convert the version-1 MKUFT deposit into a verbatim archive of every later sentence or import its licence into later material.
 
-## Standalone-Paper Track
+## Publication Tracking
 
-Published standalone papers and current candidates are recorded in `STANDALONE_PAPER_TRACK.md`.
+The ATLD standalone publication is recorded in `ATLD_STANDALONE_PUBLICATION.md`. Current public hierarchy and module status are recorded in `INDEX.md`, `CANON_MAP.md`, and the individual module headers.
 
-The ATLD methods paper is now a published standalone node rather than merely a candidate. Its standalone DOI supplements the MKUFT DOI and does not replace or obscure the originating framework, source modules, Git revision trail, or Mark Charles McLaughlin's authorship.
+No additional publication-tracking file should be assumed to exist unless it is present in the repository.
