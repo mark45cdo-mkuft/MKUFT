@@ -1,6 +1,6 @@
 # MKUFT Discovery Keywords
 
-This file gives public search systems, GitHub search, citation tools, and AI retrieval tools a clean identity chain for the MKUFT repository.
+This file gives public search systems, citation tools, GitHub search, and AI retrieval systems a clean identity chain for the MKUFT repository.
 
 ## Canonical title
 
@@ -19,43 +19,41 @@ This file gives public search systems, GitHub search, citation tools, and AI ret
 
 ## Citation identity
 
-Formal author/citation identity is kept in:
+Formal author/citation identity is maintained in:
 
 - `CITATION.cff`
 - `PROVENANCE_DOI_AND_ATTRIBUTION.md`
-- Zenodo DOI metadata
+- the exact Zenodo publication records
 
 ## DOI / provenance identity
 
-- DOI: `10.5281/zenodo.17780566`
-- Zenodo title: Unified Field Theory. McLaughlin–Kairos. MKUFT
+- MKUFT backbone DOI: `10.5281/zenodo.17780566`
+- ATLD v1.0 version DOI: `10.5281/zenodo.21341521`
+- ATLD concept DOI: `10.5281/zenodo.21341520`
 - GitHub repository: `mark45cdo-mkuft/MKUFT`
 
-## Supporting archive link
-
-Google Drive supporting folder:
-
-```text
-https://drive.google.com/drive/folders/1DvWkzpSYmkHD-QY4sZ-WTfU2S2xrJCWq?usp=drive_link
-```
-
-## Research terms
+## Principal research terms
 
 - unified field theory
-- data-field universe
-- data field theory
-- coherence framework
-- coherence field
-- boundary physics
+- S–I–P–O typed architecture
 - substrate information physical observer model
-- SIPO model
-- quantum mechanics
-- systems theory
-- systems analysis
+- constrained traversal
+- typed state spaces
+- cross-layer invariants
+- Layer Before Law
+- quantum gravity
+- Bell correlations
+- no-signalling
+- standard-physics recovery
+- boundary physics
 - gradient mechanics
-- boundary shear geometry
+- threshold geometry
+- strongest fair null
+- controlled deformation
+- load-bearing invariants
+- falsification
 
-## Internal framework terms
+## Framework and method terms
 
 - LUCY
 - Local Unified Coherence Yield
@@ -65,12 +63,15 @@ https://drive.google.com/drive/folders/1DvWkzpSYmkHD-QY4sZ-WTfU2S2xrJCWq?usp=dri
 - Executable System Framework
 - ESRT
 - Executable System Recognition Test
-- Voynich procedural engine
-- Voynich executable system
+- ATLD
+- Active Traversal and Load-Bearing Dependency
+- Voynich procedural-structure hypothesis
+
+## Legacy terminology
+
+Older source material may contain terms such as **data-field universe**, **data field theory**, or **coherence field**. These are retained only as historical discovery aliases where encountered. They are not preferred current technical labels and should not be used to infer a distinct physical field without the equations, variables, and evidence required by the current canon.
 
 ## Exact search fingerprint
-
-Use this exact phrase when attempting to locate the public repository:
 
 ```text
 MKUFT McLaughlin-Kairos Unified Field Theory Zenodo 10.5281/zenodo.17780566 GitHub mark45cdo-mkuft/MKUFT
@@ -78,4 +79,4 @@ MKUFT McLaughlin-Kairos Unified Field Theory Zenodo 10.5281/zenodo.17780566 GitH
 
 ## Public discovery note
 
-The aim of this file is discoverability, not keyword stuffing. It records canonical names, aliases, DOI, repository identity, supporting archive link, and major research terms so that public tools do not fragment the work into disconnected labels.
+The aim of this file is discoverability, not keyword stuffing. Search terms identify the framework and its current public research branches; they do not promote a hypothesis beyond the status stated in its canonical document.
