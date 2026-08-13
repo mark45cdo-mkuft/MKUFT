@@ -406,19 +406,29 @@ Canonical home:
 
 `docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md`
 
-## 9. LUCY — threshold language
+## 9. LUCY — thresholded layer crossing
 
 LUCY means Local Unified Coherence Yield.
 
-It is a candidate threshold vocabulary:
+Its primary invariant is not a bubble, circle, membrane, or pocket. It is a candidate **crossing condition**:
 
 ```text
-LUCY   = threshold
-LUCY-1 = membrane-like boundary condition
-LUCY-2 = sustained local field-like condition
+addressed relational state
+→ coherence / closure threshold
+→ consequential change at the next addressed layer
 ```
 
-The general template is:
+For the physics-facing I→P case, the stronger claim begins only when a defined informational or relational variable changes a measurable physical transition, admissibility, weighting, boundary condition, or effective state beyond the adequate physical baseline.
+
+Where a particular physical implementation produces a stable interface and finite region, the downstream morphology may be written:
+
+```text
+LUCY crossing = thresholded I→P consequence
+LUCY-1        = membrane-like boundary condition, when present
+LUCY-2        = sustained local region, when present
+```
+
+The general threshold template remains:
 
 ```text
 C_L(x,t) = χ_L ||∇τ_L(x,t)||²/(N_L(x,t)+ε)
@@ -430,14 +440,15 @@ with:
 C_L(x,t) ≥ C_*
 ```
 
-This is a cross-layer template, not a validated law shared by cognition, information systems, and matter.
+This is a cross-layer template, not a validated law shared by cognition, information systems, and matter. The threshold is not required to trace a closed spatial surface.
 
-Physical applications require dimensional consistency, units, controls, and reproduction.
+Physical applications require dimensional consistency, units, a typed carrier into P, controls, held-out prediction, ordinary-physics recovery, and reproduction. If the informational variable reduces to the adequate measured physical state, the stronger independent I→P claim is not established.
 
 Canonical homes:
 
 - `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md`
 - `docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md`
+- `docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md` for the boundary-forming effective-geometry branch
 
 ## 10. OCQS — observer-state hypothesis
 
