@@ -2,23 +2,24 @@
 
 **MKUFT:** McLaughlin–Kairos Unified Field Theory  
 **Author:** Mark Charles McLaughlin  
-**Canonical title:** *Unified Field Theory. McLaughlin–Kairos. MKUFT*  
+**Canonical frozen title:** *Unified Field Theory. McLaughlin–Kairos. MKUFT*  
 **Repository:** `mark45cdo-mkuft/MKUFT`  
-**DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)
+**Backbone DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)
 
-This page provides a compact, stable identity record for public search, citation, and discovery systems.
+This page provides a compact identity record for public search, citation, and discovery systems.
 
 ## Main public routes
 
 - [README](README.md)
 - [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md)
+- [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md)
 - [Canon Map](CANON_MAP.md)
 - [Public Index](INDEX.md)
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 - [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md)
 - [Citation metadata](CITATION.cff)
-- [CodeMeta metadata](codemeta.json)
+- [JSON-LD discovery metadata](codemeta.json)
 
 ## Public search fingerprint
 
@@ -31,7 +32,8 @@ MKUFT · McLaughlin–Kairos Unified Field Theory · Mark Charles McLaughlin · 
 - Layer Before Law
 - quantum gravity
 - constrained traversal
-- coherence and boundary
+- cross-layer invariants
+- boundary and threshold models
 - LUCY — Local Unified Coherence Yield
 - OCQS — Optimal Cognitive Quiet State
 - ESRT — Executable System Recognition Test
@@ -48,4 +50,4 @@ Where a supporting public Google Drive folder is required, the repository metada
 
 [MKUFT supporting archive on Google Drive](https://drive.google.com/drive/folders/1DvWkzpSYmkHD-QY4sZ-WTfU2S2xrJCWq?usp=drive_link)
 
-The scientific and publication status of a document is determined by the exact object and version being cited, not merely by its presence in a supporting archive.
+The scientific, version, and rights status of a document is determined by the exact object being used, not merely by its presence in a repository or supporting archive.
