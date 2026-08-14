@@ -45,6 +45,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
 - [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
 - [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
+- [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
 
 ## Observer, boundary, and physical support
 
