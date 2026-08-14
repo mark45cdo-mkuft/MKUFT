@@ -103,6 +103,8 @@ x\sim_O x'
 \forall q\in\mathcal Q_O^{\mathrm{adm}}.
 $$
 
+For stochastic or noisy readouts, exact equality should be replaced by equality or preregistered statistical indistinguishability of the corresponding output distributions under the declared measurement model.
+
 The equivalence class is
 
 $$
@@ -165,7 +167,9 @@ $$
 F_Y:\Omega_t^{(d)}\rightarrow\mathcal Y
 $$
 
-map each admissible state to the predicted target quantity or outcome. With declared metric or divergence $d_Y$, define
+map each admissible state to the predicted target quantity or outcome. Let $d_Y$ be a declared metric or non-negative symmetric discrepancy on $\mathcal Y$; a non-symmetric divergence should be symmetrised or otherwise explicitly handled before the quantity below is called a diameter.
+
+Define the **consequence diameter**
 
 $$
 \Delta_Y(\Omega_t^{(d)})
@@ -199,12 +203,25 @@ This permits a prediction, decision, or experimental question to close even when
 
 ### 6.1 Target factorisation through the measurement quotient
 
-The quotient construction gives a direct test for whether unresolved state distinctions matter to target $Y$.
-
-The target is exactly recoverable from the $O$-resolved state when there exists a map
+Let
 
 $$
-\overline F_Y:\mathcal X/\!\sim_O\rightarrow\mathcal Y
+\Omega=\Omega_t^{(d)}\subseteq\mathcal X
+$$
+
+be the feasible region on which $F_Y$ is defined, and restrict the quotient projection to
+
+$$
+\pi_O^{\Omega}
+=
+\pi_O\!\mid_{\Omega}:
+\Omega\rightarrow\pi_O(\Omega).
+$$
+
+The target is exactly recoverable from the $O$-resolved state on $\Omega$ when there exists a map
+
+$$
+\overline F_Y:\pi_O(\Omega)\rightarrow\mathcal Y
 $$
 
 such that
@@ -212,37 +229,40 @@ such that
 $$
 F_Y
 =
-\overline F_Y\circ\pi_O.
+\overline F_Y\circ\pi_O^{\Omega}.
 $$
 
-Equivalently,
+Equivalently, for states inside the feasible region,
 
 $$
+x,x'\in\Omega,
+\quad
 x\sim_O x'
 \quad\Longrightarrow\quad
 F_Y(x)=F_Y(x').
 $$
 
-If this condition holds, distinctions hidden inside one measurement-equivalence class are irrelevant to that target.
+If this condition holds, distinctions hidden inside one measurement-equivalence class are irrelevant to that target on the tested region.
 
 For approximate recovery, define the within-class target diameter
 
 $$
-\Delta_Y([x]_O)
+\Delta_Y([x]_O\cap\Omega)
 =
-\sup_{z,z'\in[x]_O}
+\sup_{z,z'\in[x]_O\cap\Omega}
 d_Y(F_Y(z),F_Y(z')).
 $$
 
 Then $O$ resolves target $Y$ to tolerance $\delta_Y$ on the tested region when
 
 $$
-\Delta_Y([x]_O)\leq\delta_Y
+\Delta_Y([x]_O\cap\Omega)
+\leq\delta_Y
 $$
 
-for every equivalence class intersecting that region.
+for every measurement-equivalence class intersecting $\Omega$.
 
-If the target does not factor through the quotient, the declared readout family is insufficient by itself to determine that target without additional information or assumptions.
+If the target does not factor through the restricted quotient, the declared readout family is insufficient by itself to determine that target without additional information or assumptions.
 
 This connects observability and ambiguity directly: unresolved state distinctions become consequential only relative to the target they separate.
 
@@ -354,7 +374,7 @@ Predictive closure alone does not establish intelligence, consciousness, personh
 
 ## 11. Established neighbouring concepts and novelty boundary
 
-Observability, state equivalence, quotient representations, tangent cones, dimensionless similarity, sufficient statistics, coarse-graining, Markov lumpability, and dynamical conjugacy or approximate conjugacy are established mathematical and systems concepts.
+Observability, state equivalence, quotient representations, quotient factorisation, tangent cones, dimensionless similarity, sufficient statistics, coarse-graining, Markov lumpability, and dynamical conjugacy or approximate conjugacy are established mathematical and systems concepts.
 
 The proposed MKUFT contribution is not ownership of those tools. It is their typed conjunction with S–I–P–O addressing, recursive address closure, ambiguity dynamics, LUCY, and cross-layer carrier discipline.
 
