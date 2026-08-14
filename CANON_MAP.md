@@ -15,29 +15,32 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 2. [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md)
 3. [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 4. [Recursive Address Closure and Property Transmission](docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
-5. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-6. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+5. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
+6. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+7. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 ### Physics and quantum gravity
 
 1. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 2. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-3. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
-4. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
-5. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
-6. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
-7. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-8. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
-9. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+3. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
+4. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
+5. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
+6. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
+7. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
+8. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+9. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+10. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 
 ### LUCY and effective geometry
 
 1. [LUCY Boundary Threshold Framework](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md)
 2. [Cross-Layer Invariants and Layer Addressing](docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
 3. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-4. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
-5. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-6. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+4. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
+5. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
+6. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+7. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them.
 
@@ -48,8 +51,9 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 3. [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
 4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
 5. [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
-6. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-7. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+6. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
+7. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+8. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
 ## Canon groups
 
@@ -78,6 +82,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **24B — Strongest Fair Null:** full-history replay, strong alternatives, and relational-specificity controls.
 - **25 — Load-Bearing Deformation:** controlled relation-level deformation and whole-system audit.
 - **25A — Fundamental Traversal Coherence Nodes:** provisional node-level organising-load hypothesis.
+- **31 — Context-Conditioned State Comparison:** admissible same-class deformation, measurement-relative state equivalence, target-relative ambiguity closure, and support-preserving cross-implementation comparison.
 
 ### Observer, boundary, and physical support
 
