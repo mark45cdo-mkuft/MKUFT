@@ -82,7 +82,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **24B — Strongest Fair Null:** full-history replay, strong alternatives, and relational-specificity controls.
 - **25 — Load-Bearing Deformation:** controlled relation-level deformation and whole-system audit.
 - **25A — Fundamental Traversal Coherence Nodes:** provisional node-level organising-load hypothesis.
-- **31 — Context-Conditioned State Comparison:** admissible same-class deformation, measurement-relative state equivalence, target-relative ambiguity closure, and support-preserving cross-implementation comparison.
+- **31 — Context-Conditioned State Comparison:** admissible same-class deformation, measurement-relative state equivalence, target-relative ambiguity closure, support-preserving cross-implementation comparison, addressed abstraction, construction-address robustness, and representation-dependence testing.
 
 ### Observer, boundary, and physical support
 
