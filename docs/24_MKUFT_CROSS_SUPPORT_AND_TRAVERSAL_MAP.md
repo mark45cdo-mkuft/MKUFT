@@ -19,19 +19,19 @@ The map is navigation and dependency structure. It does not create evidence, est
 
 ### Physics and quantum gravity
 
-[README](../README.md) → [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Core](01_MKUFT_CORE_EXTENDED.md) → [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md) → [Experimental Programme](04_EXPERIMENTAL_TEST_PROGRAM.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
+[README](../README.md) → [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Core](01_MKUFT_CORE_EXTENDED.md) → [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md) → [Experimental Programme](04_EXPERIMENTAL_TEST_PROGRAM.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
 
 ### LUCY and effective geometry
 
-[LUCY Boundary Threshold Framework](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md) → [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
+[LUCY Boundary Threshold Framework](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md) → [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
 
 ### General architecture
 
-[Start Here](../START_HERE_PUBLIC_OVERVIEW.md) → [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) → [Canon Map](../CANON_MAP.md) → [Cross-Support Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
+[Start Here](../START_HERE_PUBLIC_OVERVIEW.md) → [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) → [Canon Map](../CANON_MAP.md) → [Cross-Support Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) → [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
 
 ### AI and typed knowledge architectures
 
-[ATLD Publication](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+[ATLD Publication](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
 ## Core dependency groups
 
@@ -52,11 +52,12 @@ Primary documents:
 
 - [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+- [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
 - [Physics-Facing MKUFT Explanation](13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
 - [Scientific References and Current Literature](../SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 - [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
 
-This branch carries the category reframing, typed object addresses, entanglement worked case, Bell and no-signalling requirements, quantum and gravitational recovery burden, comparison with established formalisms, and failure conditions.
+This branch carries the category reframing, typed object addresses, admissible comparison discipline, entanglement worked case, Bell and no-signalling requirements, quantum and gravitational recovery burden, comparison with established formalisms, and failure conditions.
 
 The branch remains architectural until a lawful mechanism is supplied. `Update_SIPO` names a missing dynamical task; it does not complete it.
 
@@ -79,8 +80,9 @@ Primary documents:
 - [OCQS Human Activation Layer](06_OCQS_HUMAN_ACTIVATION_LAYER.md)
 - [GRACE Traversal Rule](20_GRACE_TRAVERSAL_RULE.md)
 - [Agency Accessibility and Capture Geometry](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)
+- [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
 
-These carry bounded observer-state hypotheses, action-map access, capture, responsibility, recovery, and the distinction between retained capacity and practical accessibility.
+These carry bounded observer-state hypotheses, measurement-relative observability, action-map access, capture, responsibility, recovery, and the distinction between retained capacity and practical accessibility.
 
 ### Boundary and physical bridges
 
@@ -91,9 +93,10 @@ Primary documents:
 - [Gradient Mechanics and Boundary-Shear Geometry](16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md)
 - [MKUFT–Dollard Field Geometry Notes](17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md)
 - [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
+- [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 
-These carry threshold, boundary, selected effective-geometry hypotheses, common-boundary discrimination, typed layer addressing, units, ordinary physical baselines, and reduction requirements.
+These carry threshold, boundary, selected effective-geometry hypotheses, common-boundary discrimination, typed layer addressing, support-conditioned comparison, units, ordinary physical baselines, and reduction requirements.
 
 ### Procedural and Voynich applications
 
@@ -113,9 +116,10 @@ Primary documents:
 - [Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
 - [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
 - [Fundamental Traversal Coherence Nodes](25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
+- [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
 - [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
-These carry matched architecture controls, full-history replay, relationship specificity, relation-level and node-level deformation, structural versus empirical load, and the distinction between local performance and wider whole-system integrity.
+These carry matched architecture controls, full-history replay, relationship specificity, relation-level and node-level deformation, same-class deformation checks, structural versus empirical load, and the distinction between local performance and wider whole-system integrity.
 
 ## Structural nodes and canonical handles
 
@@ -258,6 +262,36 @@ It prevents physical geometry, state-space geometry, information adjacency, obse
 
 The cross-layer coupling may be zero. The branch does not advance unless it survives ordinary electromagnetic, thermal, plasma, optical, acoustic, mechanical, scalar-tensor, and general-relativistic alternatives, recovers accepted limits, and passes the stated promotion gates.
 
+### 31 — Context-Conditioned State Comparison and Observability
+
+[Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) constrains counterfactuals and cross-implementation comparisons by requiring a declared comparison class, measurement-relative state equivalence, target-relative consequence spread, and support-compatible dynamics.
+
+A same-class deformation requires
+
+$$
+D[\mathcal A_X]\in\mathcal M_X.
+$$
+
+Measurement-relative equivalence is
+
+$$
+x\sim_O x'
+\quad\Longleftrightarrow\quad
+\mathcal R_{O,q}(x)=\mathcal R_{O,q}(x')
+\quad\forall q\in\mathcal Q_O^{\mathrm{adm}}.
+$$
+
+For target $Y$, consequence diameter is
+
+$$
+\Delta_Y(\Omega_t)
+=
+\sup_{z,z'\in\Omega_t}
+d_Y(F_Y(z),F_Y(z')).
+$$
+
+The module does not create a new layer or substrate claim. It prevents a counterfactual from changing the object class while pretending everything else remained fixed, and prevents layer-specific closure from being confused with complete measurement resolution.
+
 ## Complete public registry
 
 | Module | Public role | Primary support | Principal limit |
@@ -295,11 +329,12 @@ The cross-layer coupling may be zero. The branch does not advance unless it surv
 | [28 — Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) | Evidence-tier control | Experiments, falsification | Positive anomalies cannot outrun locked discriminators |
 | [29 — Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md) | Claim-status discipline | Whole scientific stack | Architecture, mathematics, evidence, and mechanism remain distinct |
 | [30 — LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) | Downstream effective-geometry LUCY hypothesis | 08, 26, 27, boundary physics | Conventional closure, accepted-limit recovery, common-boundary discrimination, replication |
+| [31 — Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) | Admissible comparison and observability discipline | 21, 22, 22A, 27 | Context cannot immunise claims; same form is not same dynamics |
 
 ## Public boundary
 
-The public repository contains scientific proposals, mathematical and methodological material, public explanations, provenance and rights information, navigation, and deliberately published archives. A public dependency map describes those objects for the reader; it does not expose private operating instructions or private reasoning architecture.
+The public repository contains scientific proposals, mathematical and methodological material, public explanations, provenance and rights information, navigation, and deliberately published archives. This dependency map describes those public objects only and does not govern non-public development material.
 
 ## Compressed rule
 
-> Define the claim at its proper layer, route it to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, or local performance silently become empirical truth.
+> Define the claim at its proper layer, preserve the comparison class, route it to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, or local performance silently become empirical truth.
