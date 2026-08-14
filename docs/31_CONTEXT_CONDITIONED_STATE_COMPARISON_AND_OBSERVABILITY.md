@@ -67,6 +67,22 @@ The preferred test is therefore the smallest lawful deformation that changes the
 
 Context is not automatically constitutive. A variable may be incidental for one claim and constitutive for another.
 
+### 3.1 Local admissible directions
+
+Where $\mathcal M_X$ has a usable local geometric structure, an infinitesimal same-class perturbation $v$ should lie in the tangent cone
+
+$$
+v\in T_{\mathcal M_X}(\mathcal A_X).
+$$
+
+If $\mathcal M_X$ is smooth at the active address, this reduces to the ordinary tangent space condition.
+
+A coordinate direction that points outside the tangent cone is not a lawful local same-class counterfactual, even if that coordinate can be set algebraically to another value.
+
+This gives a local version of the comparison rule:
+
+> algebraic freedom is not the same as admissible physical or structural freedom.
+
 ## 4. Measurement-relative observability
 
 Let $x\in\mathcal X$ be a system state and let $\mathcal Q_O^{\mathrm{adm}}$ be the declared family of admissible measurements or probes associated with registration address $O$.
@@ -99,6 +115,14 @@ and the resolved description belongs to the quotient
 
 $$
 \mathcal X/\!\sim_O.
+$$
+
+Define the quotient projection
+
+$$
+\pi_O:\mathcal X\rightarrow\mathcal X/\!\sim_O,
+\qquad
+\pi_O(x)=[x]_O.
 $$
 
 If $x\neq x'$ while $x\sim_O x'$, the distinction is unobservable relative to the declared model, boundary, and measurement family. This does not imply that every conceivable measurement system would share the same limitation.
@@ -172,6 +196,55 @@ $$
 This permits a prediction, decision, or experimental question to close even when several underlying states remain unresolved.
 
 > Close the declared target that has earned closure; do not promote that result into complete state resolution.
+
+### 6.1 Target factorisation through the measurement quotient
+
+The quotient construction gives a direct test for whether unresolved state distinctions matter to target $Y$.
+
+The target is exactly recoverable from the $O$-resolved state when there exists a map
+
+$$
+\overline F_Y:\mathcal X/\!\sim_O\rightarrow\mathcal Y
+$$
+
+such that
+
+$$
+F_Y
+=
+\overline F_Y\circ\pi_O.
+$$
+
+Equivalently,
+
+$$
+x\sim_O x'
+\quad\Longrightarrow\quad
+F_Y(x)=F_Y(x').
+$$
+
+If this condition holds, distinctions hidden inside one measurement-equivalence class are irrelevant to that target.
+
+For approximate recovery, define the within-class target diameter
+
+$$
+\Delta_Y([x]_O)
+=
+\sup_{z,z'\in[x]_O}
+d_Y(F_Y(z),F_Y(z')).
+$$
+
+Then $O$ resolves target $Y$ to tolerance $\delta_Y$ on the tested region when
+
+$$
+\Delta_Y([x]_O)\leq\delta_Y
+$$
+
+for every equivalence class intersecting that region.
+
+If the target does not factor through the quotient, the declared readout family is insufficient by itself to determine that target without additional information or assumptions.
+
+This connects observability and ambiguity directly: unresolved state distinctions become consequential only relative to the target they separate.
 
 ## 7. Context-conditioned LUCY
 
@@ -281,7 +354,7 @@ Predictive closure alone does not establish intelligence, consciousness, personh
 
 ## 11. Established neighbouring concepts and novelty boundary
 
-Observability, state equivalence, quotient representations, dimensionless similarity, sufficient statistics, coarse-graining, and dynamical conjugacy or approximate conjugacy are established mathematical and systems concepts.
+Observability, state equivalence, quotient representations, tangent cones, dimensionless similarity, sufficient statistics, coarse-graining, Markov lumpability, and dynamical conjugacy or approximate conjugacy are established mathematical and systems concepts.
 
 The proposed MKUFT contribution is not ownership of those tools. It is their typed conjunction with S–I–P–O addressing, recursive address closure, ambiguity dynamics, LUCY, and cross-layer carrier discipline.
 
