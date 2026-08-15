@@ -17,12 +17,13 @@ A lower-scale degree of freedom need not be physically destroyed when a higher-s
 
 The first formulation of this supplement treated the relevant identity class as though it could be held fixed while that loss was measured. That is not always lawful. If the system's boundary, maintenance relations, active construction address, or constitutive coupling to its environment changes strongly enough, the operational definition of the individuality under comparison may also change.
 
-The corrected distinction is therefore:
+The corrected distinction is:
 
-1. **physical persistence** — the underlying variable or invariant still exists in the realised substrate;
-2. **independent addressability** — the current organised object can still vary, recruit, or route that variable as an independently available relation to itself;
-3. **identity address** — the declared boundary, organisation, environment-coupling relations, history, and equivalence rule under which states count as continuations of the same individuality;
-4. **scale ownership** — a lower-scale variable may remain causally active while becoming bound into a higher-scale constraint relation rather than remaining a free coordinate of the earlier individuality.
+- **physical persistence** — the underlying variable or invariant remains realised;
+- **independent addressability** — the current organised object can still vary, recruit, or route that variable as an independently available relation to itself;
+- **individuality address** — the declared boundary, organisation, environment-coupling relations, history, and within-address equivalence rule under which states count as instances of that individuality;
+- **cross-address continuity** — the separately tested relation by which an individuality at one address may count as a continuation of one at another address;
+- **scale ownership** — a lower-scale variable may remain active while becoming bound into a higher-scale constraint relation rather than remaining a free coordinate of the earlier individuality.
 
 > The invariant can persist while its independent address changes.
 
@@ -44,9 +45,9 @@ $$
 g_t^{SE}\in\mathcal G_t^{SE}
 $$
 
-denote the realised typed coupling state between the candidate system $S$ and the relevant environment $E$. This may include exchange, sensing, action, adhesion, boundary, regulatory, or other domain-appropriate relations. It is not a new physical layer.
+denote the realised typed coupling state between candidate system $S$ and relevant environment $E$. It may contain exchange, sensing, action, adhesion, boundary, regulatory, or other domain-appropriate relations. It is not a new physical layer.
 
-Define an **operational individuality address**
+Define the **operational individuality address**
 
 $$
 \sigma_t
@@ -57,35 +58,33 @@ $$
 \mathcal G_t^{SE},
 \mathcal M_t,
 H_t,
-\sim_t^{\mathrm{id}}
+\sim_{\sigma_t}^{\mathrm{state}}
 \right),
 $$
 
-where $\mathcal B_t$ is the active boundary, $\mathcal M_t$ the relevant maintenance/closure relations, $H_t$ the retained lineage or history, and $\sim_t^{\mathrm{id}}$ the declared identity-equivalence rule for the claim being tested.
+where $\mathcal B_t$ is the active boundary, $\mathcal M_t$ the relevant maintenance/closure relations, $H_t$ the retained lineage/history, and $\sim_{\sigma_t}^{\mathrm{state}}$ the declared **within-address state-equivalence rule**.
 
-A corresponding operational self-state may be represented as the equivalence class
+An operational self-state at this address can be represented as
 
 $$
 s_t
 =
-[(x_t,g_t^{SE})]_{\sim_t^{\mathrm{id}}}
+[(x_t,g_t^{SE})]_{\sim_{\sigma_t}^{\mathrm{state}}}.
 $$
 
-inside the quotient induced by the declared identity rule.
-
-This is an operational systems object, not a metaphysical definition of personhood. The identity rule must be declared at the layer and scale of the actual claim.
+This is an operational systems object, not a metaphysical definition of personhood. The equivalence rule must be declared at the layer and scale of the actual claim.
 
 ## 3. Same-self parity guard
 
-A scale transition can change not only state but the criterion under which two states count as the same individual.
+A scale transition can change not only state but the criterion under which states count as instances or continuations of an individuality.
 
 If
 
 $$
-\sigma_{t+1}\neq\sigma_t
+\sigma_{t+1}\neq\sigma_t,
 $$
 
-because a constitutive boundary, environment coupling, maintenance relation, construction address, or identity-equivalence rule has changed, then the statement
+because a constitutive boundary, environment coupling, maintenance relation, construction address, or state-equivalence rule changed, then the statement
 
 ```text
 "the same self lost degree of freedom i"
@@ -93,7 +92,7 @@ because a constitutive boundary, environment coupling, maintenance relation, con
 
 is not automatically licensed.
 
-A lawful same-self continuation requires a declared continuation or translation map
+A lawful cross-address continuation requires a declared map
 
 $$
 T_{t\rightarrow t+1}^{\mathrm{id}}:
@@ -110,7 +109,7 @@ $$
 J_t:\mathcal S_t\rightarrow\mathcal J
 $$
 
-be a declared identity-bearing invariant or invariant family. Same-self continuity to tolerance $\varepsilon_J$ requires
+be a declared identity-bearing invariant or invariant family. Cross-address continuity to tolerance $\varepsilon_J$ requires
 
 $$
 d_J\!\left(
@@ -120,9 +119,17 @@ J_t(s_t)
 \leq\varepsilon_J,
 $$
 
-plus any domain-specific lineage, viability, or boundary conditions required by the identity claim.
+plus any domain-specific lineage, viability, boundary, or maintenance conditions required by the identity claim.
 
-If no lawful continuation map or identity-bearing invariant can be supplied, then the correct description is not automatically `the same self changed`. The event may instead be a reconstituted individuality, incorporation into another individuality, replacement of the comparison class, or an unresolved identity transition.
+Define a separate cross-address continuity relation
+
+$$
+\sigma_a\approx_{\mathrm{id}}\sigma_b
+$$
+
+only when the declared continuation map and identity-bearing tests between those addresses pass. This relation is **not** the same object as $\sim_{\sigma}^{\mathrm{state}}$, which groups states within one declared individuality address.
+
+If no lawful continuation map or identity-bearing invariant can be supplied, the correct description is not automatically `the same self changed`. The event may instead be a reconstituted individuality, incorporation into another individuality, replacement of the comparison class, or an unresolved identity transition.
 
 > Same substrate is not same self. Same name is not same self. Same components are not same self. Prove the continuation relation at the address where identity is claimed.
 
@@ -136,7 +143,7 @@ $$
 
 be the lower-realisation set compatible with persistence of the individuality class specified by $\sigma_t$.
 
-Define the identity-relative reachable set
+Define
 
 $$
 \mathcal R^{\mathrm{id}}_{\sigma_t}(x_t)
@@ -188,23 +195,19 @@ I_i\text{ passes the identity-relative addressability test}
 \right\}.
 $$
 
-This is a statement about **which relations remain independently deployable while remaining within the declared individuality class**. It is not a statement that molecules, forces, variables, or lower-scale physical possibilities have vanished.
+This concerns **which relations remain independently deployable while remaining within the declared individuality class**. It does not say that the underlying molecules, forces, variables, or physical possibilities vanished.
 
 ## 6. Cross-address comparison of addressability
 
-If $\sigma_{t_2}=\sigma_{t_1}$, ordinary before/after comparison may be available under the declared measure $\mu_A$.
+If the individuality address remains unchanged, ordinary before/after comparison may be available under a declared measure $\mu_A$.
 
-If the individuality address changes, a naive expression such as
+If the address changes but continuity is established,
 
 $$
-\mu_A(\mathcal A_{\ell\mid\sigma_{t_2}})
--
-\mu_A(\mathcal A_{\ell\mid\sigma_{t_1}})
+\sigma_{t_1}\approx_{\mathrm{id}}\sigma_{t_2},
 $$
 
-may be malformed for the same reason that Module 32 forbids subtraction across unaligned state spaces.
-
-Let
+then an additional map is required for the particular addressability relation being compared. Let
 
 $$
 T_A:
@@ -213,19 +216,19 @@ T_A:
 \widetilde{\mathcal A}_{\ell\mid\sigma_{t_2}}
 $$
 
-be a lawful comparison map for the relevant relation class. Then an addressed change in independent accessibility may be written
+be that lawful comparison map. Define
 
 $$
-\Delta_T A_\ell
+\Delta_{T_A} A_\ell
 =
 \mu_A\!\left(\mathcal A_{\ell\mid\sigma_{t_2}}\right)
 -
 \mu_A\!\left(T_A(\mathcal A_{\ell\mid\sigma_{t_1}})\right).
 $$
 
-If no such map is justified, report the two addressability structures separately rather than manufacturing one scalar difference.
+If no justified $T_A$ exists, report the two addressability structures separately rather than manufacturing a scalar difference.
 
-This is the **same-self parity extension** of the no-false-subtraction rule.
+This is the **same-self parity extension** of Module 32's no-false-subtraction rule.
 
 ## 7. Constraint binding rather than destruction
 
@@ -255,18 +258,16 @@ $$
 
 The excluded routes are not necessarily physically impossible in isolation. They are inaccessible **while remaining within the organised identity class being tested**.
 
-If the identity address itself changes across the transition, this statement must be translated through the same-self parity guard before the phrase `the old self lost access` is used.
+If the individuality address itself changes across the transition, the same-self parity guard must be satisfied before the phrase `the old self lost access` is used.
 
 ## 8. Three scale-transition identity classes
 
-The corrected formalism distinguishes at least three cases.
-
 ### 8.1 Same-address restriction
 
-The individuality address remains inside the same declared comparison class and lower-scale independent addressability decreases:
+The individuality address is unchanged and lower-scale independent addressability decreases:
 
 $$
-\sigma_{t_2}\sim_{\mathrm{id}}\sigma_{t_1},
+\sigma_{t_2}=\sigma_{t_1},
 \qquad
 \Delta A_\ell<0.
 $$
@@ -275,21 +276,28 @@ Here it is meaningful to say that the same operational individuality became more
 
 ### 8.2 Readdressed continuation
 
-The individuality address changes, but a lawful continuation map preserves the declared identity-bearing invariant:
+The individuality address changes but passes the separate continuity test:
 
 $$
 \sigma_{t_2}\neq\sigma_{t_1},
 \qquad
-T_{t_1\rightarrow t_2}^{\mathrm{id}}\text{ exists}.
+\sigma_{t_1}\approx_{\mathrm{id}}\sigma_{t_2}.
 $$
 
-Here the individuality may be said to persist through reorganisation, but comparisons of freedom, capability, state or self require the translation map.
+Here the individuality may be said to persist through reorganisation, but comparisons of freedom, capability, state, or self require the relevant cross-address maps.
 
 ### 8.3 Identity replacement, incorporation, or unresolved transition
 
-The individuality address changes and no adequate continuation map has been established.
+The individuality address changes and cross-address continuity has not been established:
 
-Then the formalism does **not** call the pre- and post-transition objects the same self by default. A lower-scale individuality may have been incorporated into a higher-scale whole, replaced as the relevant comparison object, or left unresolved with respect to identity continuity.
+$$
+\sigma_{t_2}\neq\sigma_{t_1},
+\qquad
+\sigma_{t_1}\not\approx_{\mathrm{id}}\sigma_{t_2}
+\quad\text{or is unresolved}.
+$$
+
+The formalism therefore does **not** call the pre- and post-transition objects the same self by default. A lower-scale individuality may have been incorporated into a higher-scale whole, replaced as the relevant comparison object, or left unresolved with respect to identity continuity.
 
 These cases must not be collapsed into one word such as `emergence`.
 
@@ -297,56 +305,48 @@ These cases must not be collapsed into one word such as `emergence`.
 
 A scale transition should not be defined only by the later appearance of a new capability.
 
-When same-self or readdressed continuity has been established, a provisional onset may be associated with a sustained reduction in lower-scale independent addressability under an emerging load-bearing closure:
+Where same-address or readdressed continuity has been established, a provisional onset may be associated with sustained reduction in lower-scale independent addressability under an emerging load-bearing closure:
 
 $$
 t_{\mathrm{access}}
 =
 \inf\left\{
 t:
-\Delta_T A_\ell(t)<-\eta_A
+\Delta_{T_A} A_\ell(t)<-\eta_A
 \text{ and }
 \Gamma_L(t)\ge\tau_\Gamma
 \right\},
 $$
 
-where $\Gamma_L$ is a declared measure of higher-scale closure or organisational persistence.
+where $\Gamma_L$ is a declared measure of higher-scale closure or organisational persistence. For an unchanged address, $T_A$ reduces to the identity comparison.
 
-A fuller transition requires separately measured higher-scale gain, for example
+A fuller transition requires separately measured higher-scale gain. Schematically,
 
 $$
-\Delta_T A_\ell<0,
+\Delta_{T_A}A_\ell<0,
 \qquad
-\Delta_T A_L>0,
+\Delta_{T_L}A_L>0,
 \qquad
-\Delta_T K_L>0,
+\Delta_{T_K}K_L>0,
 $$
 
-with lawful comparison at every address.
+where each $T$ is the lawful comparison map for its own observable; no universal transport map is assumed.
 
-If the identity equivalence rule itself changes and no continuation map is available, the earliest scientifically defensible marker is instead the **identity-address transition**: the point at which the old comparison class ceases to support the observed organisation and a new one becomes necessary.
+If the individuality criterion changes and no continuation map is available, the earliest defensible marker is instead the **identity-address transition**: the point at which the old comparison class ceases to support the observed organisation and a new one becomes necessary.
 
-This separates:
+This separates three events that may coincide or occur in sequence:
 
 - **access loss** — formerly independent relations become bound;
 - **identity readdressing** — the operational criterion of self-continuation changes;
 - **higher-scale gain** — new stable relations or capabilities become available.
 
-The three events may coincide, occur in sequence, or form an extended transition region.
-
 ## 10. Environment coupling can be constitutive
 
 Environment is not automatically constitutive of identity, but it cannot be assumed incidental either.
 
-Module 31 already carries environment $\mathcal E_t$, boundary $\mathcal B_t$, history and support conditions inside the context descriptor precisely because changing them can alter object class or admissible dynamics.
+Module 31 already carries environment $\mathcal E_t$, boundary $\mathcal B_t$, history and support conditions inside the context descriptor because changing them can alter object class or admissible dynamics.
 
-For an individuality claim, test the system–environment coupling directly. Let
-
-$$
-D_E
-$$
-
-be a controlled deformation of the environment or system–environment relation that preserves as much internal component state as the domain permits.
+For an individuality claim, test the system–environment coupling directly. Let $D_E$ be a controlled deformation of the environment or system–environment relation that preserves as much internal component state as the domain permits.
 
 If
 
@@ -362,30 +362,17 @@ This does not mean the environment `is the self`. It means some relations to the
 
 ## 11. Distinguishing endogenous address change from observer coarse-graining
 
-Ordinary coarse-graining can remove fine detail from **our model** while leaving the real system unchanged. A claimed scale or self-address transition therefore needs more than a successful macroscopic description.
+Ordinary coarse-graining can remove fine detail from **our model** while leaving the real system unchanged. A claimed scale or self-address transition therefore needs more than successful macroscopic compression.
 
-Useful controls include:
+Useful controls are: observer-only coarse-graining; release of the proposed higher-scale constraint while preserving lower machinery; controlled deformation of candidate constitutive system–environment coupling; boundary-shift tests; preregistered identity-map falsification; component-preservation tests; and a separately measured higher-scale-gain control.
 
-1. **observer-only coarse-graining control** — change model resolution without changing physical coupling; lower-scale behavioural access should remain unchanged;
-2. **constraint-release control** — remove the proposed higher-scale binding while preserving lower machinery; predicted lower-scale autonomy should return where reversible;
-3. **environment-coupling deformation** — change the candidate constitutive system–environment relation while preserving internal machinery as far as possible and test whether the individuality class changes predictably;
-4. **boundary-shift control** — perturb the proposed boundary while tracking whether the same maintenance/identity relations remain closed;
-5. **identity-map falsification** — propose the continuation map before examining the full outcome and test whether the declared invariant actually survives;
-6. **component-preservation control** — verify that the machinery underlying the old capability remains present when independent deployment is suppressed;
-7. **higher-scale gain control** — show that lost lower-scale access is associated with separately measured higher-scale capability rather than mere suppression.
+The decisive question is whether the real system's available relations change, not merely whether our description uses fewer coordinates.
 
 ## 12. Example geometry — motile cells to organised collective
 
 For a motile lower-scale unit, a free heading or movement repertoire can remain physically supported by cytoskeleton, motors, receptors and energy supply while adhesion, signalling, polarity, collective geometry and environmental coupling restrict which trajectories remain independently available.
 
-The test should ask simultaneously whether:
-
-- the machinery for the old trajectory class is still present;
-- release from the organising relation restores part of the old trajectory repertoire;
-- restriction occurs selectively while higher-scale coordinated movement improves;
-- the relevant system–environment coupling has changed in a way that alters the viable individuality class;
-- a new collective coordinate, such as coherent group direction or centre-of-mass navigation, becomes controllable or predictively useful;
-- a declared continuation map is required before calling the pre- and post-transition unit `the same self`.
+A serious test should establish that the machinery for the old trajectory class remains present; release from the organising relation restores part of the old repertoire where reversibility is predicted; restriction occurs selectively while higher-scale coordinated movement improves; candidate constitutive environment coupling is measured rather than assumed; a new collective coordinate becomes controllable or predictively useful; and any same-self claim across changed individuality addresses supplies a continuation map.
 
 A strong incorporation pattern is therefore not merely
 
@@ -395,34 +382,29 @@ $$
 \Delta K_L>0,
 $$
 
-but
+but the stronger conjunction
 
 $$
 \text{lower machinery persists}
 \;\land\;
 \text{identity relation is declared}
 \;\land\;
-\Delta_T A_\ell<0
+\Delta_{T_A}A_\ell<0
 \;\land\;
-\Delta_T K_L>0.
+\Delta_{T_K}K_L>0.
 $$
 
-That supports **constraint incorporation under an explicit identity address**, rather than literal destruction of the lower variables.
+This supports **constraint incorporation under an explicit individuality address**, rather than literal destruction of the lower variables.
 
 ## 13. Relationship to established neighbours
 
 This refinement sits near substantial prior work and does not claim the broad ingredients as inventions.
 
-- Varela, Maturana and Uribe (1974) formulate autopoietic organisation as the organisation that makes a living system an autonomous unity.
-- Di Paolo (2005) develops adaptivity and sense-making as regulation relative to conditions of viability.
-- Moreno and Etxeberria (2005) treat self-construction and activity in the environment as aspects of one organisation in basic autonomous systems.
-- Barandiaran, Di Paolo and Rohde (2009) explicitly require an agent to define its individuality and describe agency as autonomous organisation adaptively regulating its coupling with the environment.
-- Aguilera and Di Paolo (2018; published extension 2019) use perturbational/information-integration methods to delimit an integrated unit from its environment and model adaptive preservation of integrity under environmental change.
-- Coarse-graining, quotient spaces, multiscale modelling, controlled/uncontrolled manifolds and organisational closure already supply neighbouring mathematical and methodological tools.
+Varela, Maturana and Uribe (1974) formulate autopoietic organisation as the organisation that makes a living system an autonomous unity. Di Paolo (2005) develops adaptivity and sense-making as regulation relative to conditions of viability. Moreno and Etxeberria (2005) treat self-construction and activity in the environment as aspects of one organisation in basic autonomous systems. Barandiaran, Di Paolo and Rohde (2009) explicitly require an agent to define its individuality and describe agency as autonomous organisation adaptively regulating its coupling with the environment. Aguilera and Di Paolo (2018; 2019) use perturbational/information-integration methods to delimit an integrated unit from its environment and model adaptive preservation of integrity under environmental change. Coarse-graining, quotient spaces, multiscale modelling, controlled/uncontrolled manifolds and organisational closure also supply established neighbouring tools.
 
 The broad claim that individuality is relational, self-maintaining, boundary-dependent, or coupled to environment is therefore **not** attributed to MKUFT as a first discovery.
 
-The present MKUFT refinement is narrower: **apply the addressed-state/no-false-parity discipline to the individuality criterion itself, so that changing boundary or environment coupling can readdress the self-state and make naive before/after freedom comparisons undefined until a lawful identity-continuation map is supplied.**
+The present MKUFT refinement is narrower: **apply addressed-state/no-false-parity discipline to the individuality criterion itself, so that changing constitutive boundary or environment coupling can readdress the self-state and make naive before/after freedom comparisons undefined until a lawful identity-continuation relation and observable-specific comparison maps are supplied.**
 
 Historical priority for that exact integration is not asserted here.
 
@@ -439,28 +421,19 @@ Relevant references include:
 
 ## 14. Failure and reduction conditions
 
-This refinement is weakened or reduced if:
+This refinement is weakened or reduced if the lower capability disappears because its physical machinery is destroyed rather than relationally bound; apparent access loss exists only in the observer's coarse-grained model; changing environment coupling fails to alter the claimed individuality class where predicted; the same-self continuation map is post-hoc or fails preregistered invariants; releasing the proposed organising constraint fails to restore lower autonomy where reversibility is predicted; no stable higher-scale closure/capability appears; the higher-scale object adds no predictive/interventional value; or the result depends on arbitrary post-hoc identity rules, thresholds, macrostate definitions or environment boundaries.
 
-- the lower-scale capability disappears because its physical machinery is destroyed rather than relationally bound;
-- the apparent loss of access occurs only in the observer's coarse-grained model;
-- changing environment coupling does not alter the claimed individuality class where the model predicts it should;
-- the proposed same-self continuation map is post-hoc, arbitrary, or fails preregistered invariant tests;
-- release of the proposed organising constraint does not restore lower-scale autonomy where reversibility is predicted;
-- no stable higher-scale closure or capability appears;
-- the claimed higher-scale object adds no predictive or interventional value beyond independent lower-scale components;
-- the result depends on arbitrary post-hoc choices of identity rule, addressability threshold, macrostate definition, or environment boundary.
-
-If those failures occur, use the simpler physical, organismic, dynamical, or coarse-grained description instead.
+If those failures occur, use the simpler physical, organismic, dynamical or coarse-grained description instead.
 
 ## 15. Claim boundary
 
-This module does **not** establish that every emergence event is a scale transition of this form. It does not establish a universal sharp transition time. It does not establish consciousness, survival after death, reincarnation, `source`, or independent I→P dynamics.
+This module does **not** establish that every emergence event is a scale transition of this form. It does not establish a universal sharp transition time, consciousness, survival after death, reincarnation, `source`, or independent I→P dynamics.
 
 It also does not claim that identity is always environmentally extended. Environment coupling must earn constitutive status for the specific individuality claim under test.
 
 The scientifically useful claim is narrower:
 
-> A candidate scale transition can require simultaneous auditing of **physical persistence, independent relational accessibility, and identity parity**. Lower variables can persist while higher-scale closure removes their independent deployment; if constitutive system–environment relations or the identity equivalence rule also change, the self-state itself is readdressed and same-self comparison requires a lawful continuation map.
+> A candidate scale transition can require simultaneous auditing of **physical persistence, independent relational accessibility, and identity parity**. Lower variables can persist while higher-scale closure removes their independent deployment; if constitutive system–environment relations or the within-address identity rule also change, the self-state is readdressed and same-self comparison requires a separate lawful continuation relation.
 
 ## 16. Compressed rules
 
@@ -468,6 +441,8 @@ The scientifically useful claim is narrower:
 
 > **If the relation to the environment changes the criterion of individuality, prove same-self parity before comparing old and new freedom.**
 
+> **Within-address state equivalence and cross-address self continuity are different relations. Never let one silently stand in for the other.**
+
 > **The invariant may persist while its address changes. The self-address may change with it.**
 
-> **A scale transition can begin with load-bearing loss of lower-scale addressability, but completion and identity continuity are separate questions that must each earn their own comparison map.**
+> **A scale transition can begin with load-bearing loss of lower-scale addressability, but higher-scale completion and identity continuity are separate questions that must each earn their own comparison map.**
