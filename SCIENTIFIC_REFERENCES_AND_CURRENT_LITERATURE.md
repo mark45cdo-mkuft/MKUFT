@@ -144,7 +144,16 @@ These sources establish prior art for the mathematical roles used by Module 33: 
 
 Their value to the capstone is as **typing constraints and exact P-layer precedents**. The narrower MKUFT question is whether its already-developed address/admissibility, completion, scale, transport and P-only-null machinery can be composed into a useful recursive `Update_SIPO`, and whether any independently specified I-variable then predicts a P-domain, transition rule or weighting beyond the strongest adequate P-state/history/boundary description.
 
-## 13. Evidence and claim standard
+## 13. Dynamic interfaces, junctions, and Einstein–Rosen bridge geometry
+
+- Einstein, A., and Rosen, N. (1935). “The Particle Problem in the General Theory of Relativity.” *Physical Review* 48, 73–77. DOI 10.1103/PhysRev.48.73.
+- Israel, W. (1966). “Singular hypersurfaces and thin shells in general relativity.” *Il Nuovo Cimento B* 44, 1–14. DOI 10.1007/BF02710419.
+
+These sources bound the physical/geometric comparator used by Module 33S1. Einstein and Rosen's construction supplies an established example in which two sheets participate in a larger geometry joined by a bridge. Israel's junction formalism supplies established general-relativistic treatment of boundary surfaces/thin shells whose history and dynamics are themselves part of the physical model.
+
+Neither result establishes the MKUFT interface object $\mathcal J_{AB,t}$, an independent I layer, a traversable wormhole, or a new energy source. They instead remove broad novelty claims for bridge geometry and dynamic junctions. The narrower MKUFT contribution candidate is the operational **promotion gate**: keep an interface bundled in context unless it is trackable, controlled deformation prospectively changes a load-bearing downstream object, realised dynamics update the interface, and that updated interface changes the next admissibility cycle. State promotion remains distinct from ontology promotion.
+
+## 14. Evidence and claim standard
 
 For each cited neighbour, ask:
 
@@ -156,7 +165,7 @@ For each cited neighbour, ask:
 
 A changing literature can change the scientific context of an MKUFT branch. The public claim must change with it rather than preserving an outdated comparison.
 
-## 14. Closely related MKUFT documents
+## 15. Closely related MKUFT documents
 
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 - [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
@@ -166,16 +175,17 @@ A changing literature can change the scientific context of an MKUFT branch. The 
 - [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 - [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 - [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
+- [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 - [Module 32 Novelty Audit and Contribution Boundary](docs/32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md)
 - [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 - [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-## 15. MKUFT publications
+## 16. MKUFT publications
 
 - McLaughlin, M. C. *Unified Field Theory. McLaughlin–Kairos. MKUFT*. DOI 10.5281/zenodo.17780566.
 - McLaughlin, M. C. (2026). *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*. Version DOI 10.5281/zenodo.21341521; concept DOI 10.5281/zenodo.21341520.
 
-## 16. Boundary statement
+## 17. Boundary statement
 
 Neighbouring work makes the MKUFT research direction scientifically addressable; it does not validate the framework.
 
