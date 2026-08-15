@@ -65,9 +65,13 @@ An interface is not promoted merely because it is visually striking, mathematica
 
 Promotion requires all three conditions below.
 
-### 3.1 Operational distinguishability
+### 3.1 Operational definition and trackability
 
-The candidate interface state must be measurable, manipulable, inferable, or otherwise operationally distinguishable to the resolution needed by the claim. If it cannot be separated even approximately from the states of $A$, $B$, environment and history, retain it as bundled context.
+The candidate interface state must be operationally defined and measurable, manipulable, inferable, or otherwise trackable to the resolution needed by the claim. It must be possible to say what counts as the same interface state, a changed interface state, and the uncertainty of that comparison.
+
+This does **not** require $\mathcal J$ to be causally, ontologically, or microscopically independent of $A$, $B$, environment or history. A fully P-recoverable interface can still be a useful explicit macrostate or sufficient state variable. Independence is a separate I→P question handled by Module 33.
+
+If no stable typed interface quantity can be operationally recovered at the resolution of the claim, retain the relation inside the simpler bundled context.
 
 ### 3.2 Load-bearing prospective effect
 
@@ -266,7 +270,7 @@ Only if a separately specified I-variable adds held-out or interventional predic
 
 Do not promote the interface when:
 
-1. $\mathcal J$ cannot be operationally distinguished from ordinary $A/B/E/H$ state at the resolution of the claim;
+1. no stable typed $\mathcal J$ can be operationally defined or tracked at the resolution of the claim;
 2. controlled deformation of $\mathcal J$ changes no preregistered downstream admissibility, law object, capability or outcome;
 3. the apparent effect disappears when ordinary boundary, hysteresis, drift, memory, geometry or field-history variables are controlled;
 4. the interface is updated by the system but its updated value adds no prospective prediction to the next cycle;
@@ -285,7 +289,7 @@ This module does not claim invention of boundaries, junction conditions, interfa
 
 The candidate MKUFT contribution is the operational conjunction:
 
-> **combine recursive-address closure with the Module 33 law-object update so that a relation/interface is promoted from bundled context to explicit dynamic state only when it is operationally distinguishable, prospectively load-bearing for admissibility or the active law object, recursively changed by realised dynamics, and capable—after independent scale-promotion tests—of changing role from lower-scale boundary to higher-scale internal structure.**
+> **combine recursive-address closure with the Module 33 law-object update so that a relation/interface is promoted from bundled context to explicit dynamic state only when it is operationally trackable, prospectively load-bearing for admissibility or the active law object, recursively changed by realised dynamics, and capable—after independent scale-promotion tests—of changing role from lower-scale boundary to higher-scale internal structure.**
 
 Historical priority for that exact conjunction is not asserted without broader review.
 
