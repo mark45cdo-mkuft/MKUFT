@@ -12,6 +12,17 @@
 - [Standalone preprint](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md)
 - [Canonical source module](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 
+## Later live-canon refinements
+
+The following same-day modules are **later live-canon refinements** and are not silently backdated into preprint v0.1:
+
+- [32S — Load-Bearing Relation Sets and Scale-Transition Tests](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md)
+- [32S1 — Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md)
+- [32S2 — Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
+- [32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
+
+They may be incorporated into a later frozen manuscript only by creating and identifying that later version explicitly. Citation of preprint v0.1 does not by itself imply that these later equations, tests, or claims were present in the v0.1 object.
+
 ## First public formulation anchor
 
 The first recoverable public source-module commit is:
@@ -35,6 +46,8 @@ The publication does **not** claim that constraints, closure of constraints, sem
 The dated formulation claim is narrower:
 
 > By 15 August 2026, Mark Charles McLaughlin had publicly formulated the specific addressed recursive-constraint/reachable-state synthesis stated in the standalone preprint and Module 32, including its comparison guards, scale-separated observables, endogenous admissibility scaffold, relation-typed recurrence test, controlled-deformation programme, and physical-null / I→P boundary, subject to any earlier equivalent prior art later identified.
+
+Later Module 32 supplements retain their own later Git chronology and contribution boundaries. Their existence strengthens the evolving live canon but does not alter the content or timestamp of the first preprint object.
 
 This is a provenance and scientific-priority statement. It is not a patent grant, and it does not claim ownership of abstract scientific principles or mathematical relationships as such.
 
