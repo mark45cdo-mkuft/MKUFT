@@ -93,7 +93,7 @@ These fields provide domain-specific examples of constraint, feedback, distribut
 
 ## 9. Constraint closure, semantic closure, and changing possibility spaces
 
-- Mossio, M., and Moreno, A. (2010). “Organisational closure in biological organisms.” *History and Philosophy of the Life Sciences* 32. The paper argues that organisational closure is important but does not by itself exhaust the organisation of full organisms.
+- Mossio, M., and Moreno, A. (2010). “Organisational closure in biological organisms.” *History and Philosophy of the Life Sciences* 32.
 - Montévil, M., and Mossio, M. (2015). “Biological organisation as closure of constraints.” *Journal of Theoretical Biology* 372, 179–191. DOI 10.1016/j.jtbi.2015.02.029.
 - Pattee, H. H. (2001). “The physics of symbols: bridging the epistemic cut.” *Biosystems* 60. DOI 10.1016/S0303-2647(01)00104-6.
 - Rocha, L. M. (2001). “Evolution with material symbol systems.” *Biosystems* 60, 95–121. DOI 10.1016/S0303-2647(01)00110-1.
@@ -107,7 +107,7 @@ The narrower MKUFT question is whether its typed address discipline, changing-sp
 
 ## 10. Local-to-global consistency, semantic intervention, information conversion, and holographic comparators
 
-- Robinson, M. (2018). “Assignments to sheaves of pseudometric spaces.” arXiv:1805.08927. Introduces a consistency radius for local assignments and studies robust consistency filtrations.
+- Robinson, M. (2018). “Assignments to sheaves of pseudometric spaces.” arXiv:1805.08927.
 - Kolchinsky, A., and Wolpert, D. H. (2018). “Semantic information, autonomous agency and non-equilibrium statistical physics.” *Interface Focus* 8:20180041. DOI 10.1098/rsfs.2018.0041.
 - Varley, T. F., and Hoel, E. (2022). “Emergence as the conversion of information: a unifying theory.” *Philosophical Transactions of the Royal Society A* 380:20210150. DOI 10.1098/rsta.2021.0150.
 - Huang, L., Chen, X., Mühlenbernd, H. et al. (2013). “Three-dimensional optical holography using a plasmonic metasurface.” *Nature Communications* 4:2808. DOI 10.1038/ncomms3808.
@@ -130,7 +130,21 @@ This literature supplies two hard constraints/comparators for Module 32S4. First
 
 Jaffe's formulation and passivity results are retained as explicit guards against turning a useful zero-point-mode picture into a claim that the vacuum is a free cyclic work reservoir. Any MKUFT boundary/vacuum proposal must therefore close ordinary energy accounting before a residual is interpreted.
 
-## 12. Evidence and claim standard
+## 12. Constraint-conditioned law domains, path processes, measurement instruments, and gravitational constraints
+
+- Facchi, P., Garnero, G., and Ligabò, M. (2018). “Self-adjoint extensions and unitary operators on the boundary.” *Letters in Mathematical Physics* 108, 195–212. DOI 10.1007/s11005-017-1001-8.
+- Asorey, M., Clemente-Gallardo, J., and Muñoz-Castañeda, J. M. (2007/2008). “Boundary conditions: The path integral approach.” arXiv:0712.4353.
+- Fritz, T. (2020). “A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics.” *Advances in Mathematics* 370, 107239. DOI 10.1016/j.aim.2020.107239.
+- Dixit, P. D., Wagoner, J., Weistuch, C., Pressé, S., Ghosh, K., and Dill, K. A. (2018). “Perspective: Maximum caliber is a general variational principle for dynamical systems.” *Journal of Chemical Physics* 148, 010901. DOI 10.1063/1.5012990.
+- Ozawa, M. (2001). “Quantum Measurement, Information, and Completely Positive Maps.” arXiv:quant-ph/0107090.
+- Arnowitt, R., Deser, S., and Misner, C. W. (1962; arXiv repost 2004). “The Dynamics of General Relativity.” arXiv:gr-qc/0405109.
+- Anco, S. C., and Tung, R. S. (2001). “Covariant Hamiltonian boundary conditions in General Relativity for spatially bounded spacetime regions.” arXiv:gr-qc/0109013.
+
+These sources establish prior art for the mathematical roles used by Module 33: constrained/conditioned dynamics, path-distribution inference under constraints, boundary-selected self-adjoint quantum dynamics, quantum instruments that jointly determine outcome statistics and post-measurement state, and gravitational Hamiltonian constraint/boundary structure. They therefore remove any broad novelty claim for `domain before generator`, support conditioning, P→(P,O) measurement typing, or GR constraint surfaces in isolation.
+
+Their value to the capstone is as **typing constraints and exact P-layer precedents**. The narrower MKUFT question is whether its already-developed address/admissibility, completion, scale, transport and P-only-null machinery can be composed into a useful recursive `Update_SIPO`, and whether any independently specified I-variable then predicts a P-domain, transition rule or weighting beyond the strongest adequate P-state/history/boundary description.
+
+## 13. Evidence and claim standard
 
 For each cited neighbour, ask:
 
@@ -142,7 +156,7 @@ For each cited neighbour, ask:
 
 A changing literature can change the scientific context of an MKUFT branch. The public claim must change with it rather than preserving an outdated comparison.
 
-## 13. Closely related MKUFT documents
+## 14. Closely related MKUFT documents
 
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 - [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
@@ -151,17 +165,18 @@ A changing literature can change the scientific context of an MKUFT branch. The 
 - [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 - [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 - [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
+- [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 - [Module 32 Novelty Audit and Contribution Boundary](docs/32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md)
 - [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 - [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-## 14. MKUFT publications
+## 15. MKUFT publications
 
 - McLaughlin, M. C. *Unified Field Theory. McLaughlin–Kairos. MKUFT*. DOI 10.5281/zenodo.17780566.
 - McLaughlin, M. C. (2026). *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*. Version DOI 10.5281/zenodo.21341521; concept DOI 10.5281/zenodo.21341520.
 
-## 15. Boundary statement
+## 16. Boundary statement
 
 Neighbouring work makes the MKUFT research direction scientifically addressable; it does not validate the framework.
 
-> MKUFT remains a speculative research architecture until its proposed typed couplings are formalised, accepted limits are recovered, and at least one result discriminates the architecture from its strongest alternatives.
+> MKUFT remains a speculative research architecture until its proposed typed couplings are instantiated in concrete regimes, accepted limits are recovered, and at least one result discriminates the architecture from its strongest alternatives.
