@@ -160,7 +160,7 @@ It is related to MKUFT, but not identical to MKUFT.
 
 Its role is to apply MKUFT, ESRT, and ESF reasoning to the Voynich Manuscript as a procedural or executable system.
 
-Published/archived citation identity:
+Archived citation identity recorded in the project provenance trail:
 
 ```text
 Voynich Manuscript – Systems/Engine Framework
@@ -174,7 +174,7 @@ Current repository position:
 Voynich = applied procedural-engine node linked to MKUFT
 ```
 
-The Voynich paper should cite both its own concept DOI and the MKUFT DOI as its backbone or provenance anchor:
+The Voynich work should preserve both its own concept DOI and the MKUFT DOI as its backbone or provenance anchor:
 
 ```text
 Voynich Manuscript – Systems/Engine Framework
@@ -190,7 +190,7 @@ Status of exact deposited MKUFT version: Public, CC BY 4.0
 
 This does not collapse Voynich into MKUFT or import the MKUFT deposit's licence into the Voynich publication or later Voynich files. It records that the Voynich node has its own citation identity while standing on the MKUFT backbone.
 
-The Voynich DOI is a provenance and citation anchor. Its exact licence and version-specific rights remain those stated on the corresponding Zenodo record and deposited source material; they should not be inferred from the MKUFT backbone licence.
+The Voynich DOI is a provenance and citation anchor. Its exact publication status, licence, and version-specific rights should be read from the corresponding Zenodo record or deposited source material and should not be inferred from the MKUFT backbone licence.
 
 ## ESRT / ESF Placement
 
@@ -240,7 +240,7 @@ When citing the exact ATLD v1.0 paper, attribution should include:
 McLaughlin, Mark Charles. (2026). Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems. Zenodo. DOI: 10.5281/zenodo.21341521.
 ```
 
-For Voynich work, cite the Voynich node with concept DOI `10.5281/zenodo.18178637` and include the MKUFT DOI as the supporting backbone reference.
+For Voynich work, preserve the Voynich concept DOI `10.5281/zenodo.18178637` and include the MKUFT DOI as the supporting backbone reference. Use the exact Zenodo record metadata when a formal bibliographic citation is required.
 
 For any other separately published node, cite its own DOI where available and preserve the relationship to its originating framework.
 
