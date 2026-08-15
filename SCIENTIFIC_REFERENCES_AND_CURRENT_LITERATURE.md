@@ -89,7 +89,21 @@ These are scientific neighbours for threshold, criticality, and coherence langua
 
 These fields provide domain-specific examples of constraint, feedback, distributed control, state transitions, and multiscale organisation. They are structural neighbours and comparison sources, not evidence that biology and foundational physics share one mechanism.
 
-## 9. Evidence and claim standard
+## 9. Constraint closure, semantic closure, and changing possibility spaces
+
+- Mossio, M., and Moreno, A. (2010). “Organisational closure in biological organisms.” *History and Philosophy of the Life Sciences* 32. The paper argues that organisational closure is important but does not by itself exhaust the organisation of full organisms.
+- Montévil, M., and Mossio, M. (2015). “Biological organisation as closure of constraints.” *Journal of Theoretical Biology* 372, 179–191. DOI 10.1016/j.jtbi.2015.02.029.
+- Pattee, H. H. (2001). “The physics of symbols: bridging the epistemic cut.” *Biosystems* 60. DOI 10.1016/S0303-2647(01)00104-6.
+- Rocha, L. M. (2001). “Evolution with material symbol systems.” *Biosystems* 60, 95–121. DOI 10.1016/S0303-2647(01)00110-1.
+- Longo, G., Montévil, M., and Kauffman, S. (2012). “No entailing laws, but enablement in the evolution of the biosphere.” *GECCO ’12 Companion*, 1379–1392. DOI 10.1145/2330784.2330946.
+- Adams, A. M., Jacopin, E., Gagrani, P., and Witkowski, O. (2024). “An Open-Ended Approach to Understanding Local, Emergent Conservation Laws in Biological Evolution.” arXiv:2407.03345.
+- López-Díaz, A. J., and Gershenson, C. (2026). “A Matter of Time: Towards a General Theory of Agency.” arXiv:2606.23122. Recent preprint; treat as current adjacent work rather than established consensus.
+
+This literature is close prior and adjacent work for Module 32. It establishes no priority for MKUFT over the isolated ideas of constraint closure, semantic closure, enablement, internally maintained constraints, changing rule spaces, or reconstruction of future possibility spaces.
+
+The narrower MKUFT question is whether its typed address discipline, changing-space comparison guard, endogenous-admissibility scaffold, scale-separated feasible-state/capability test, strongest-fair-null methodology, and independent-content I→P boundary form a useful discriminating conjunction. That conjunction must still outperform simpler fixed-space, standard control, learning, developmental, or evolutionary descriptions before stronger novelty is claimed.
+
+## 10. Evidence and claim standard
 
 For each cited neighbour, ask:
 
@@ -101,21 +115,22 @@ For each cited neighbour, ask:
 
 A changing literature can change the scientific context of an MKUFT branch. The public claim must change with it rather than preserving an outdated comparison.
 
-## 10. Closely related MKUFT documents
+## 11. Closely related MKUFT documents
 
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 - [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
 - [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 - [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+- [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 - [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 - [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-## 11. MKUFT publications
+## 12. MKUFT publications
 
 - McLaughlin, M. C. *Unified Field Theory. McLaughlin–Kairos. MKUFT*. DOI 10.5281/zenodo.17780566.
 - McLaughlin, M. C. (2026). *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*. Version DOI 10.5281/zenodo.21341521; concept DOI 10.5281/zenodo.21341520.
 
-## 12. Boundary statement
+## 13. Boundary statement
 
 Neighbouring work makes the MKUFT research direction scientifically addressable; it does not validate the framework.
 
