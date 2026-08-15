@@ -19,19 +19,19 @@ The map is navigation and dependency structure. It does not create evidence, est
 
 ### Physics and quantum gravity
 
-[README](../README.md) → [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Relational Brackets / I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) → [Intrinsic–Extrinsic Transport](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) → [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) → [Experimental Programme](04_EXPERIMENTAL_TEST_PROGRAM.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
+[README](../README.md) → [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Relational Brackets / I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) → [Intrinsic–Extrinsic Transport](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) → [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) → [Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) → [Experimental Programme](04_EXPERIMENTAL_TEST_PROGRAM.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
 
 ### LUCY and effective geometry
 
-[LUCY Boundary Threshold Framework](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md) → [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Relational Brackets and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) → [Transport / Boundary-Conditioned Realisation](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) → [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
+[LUCY Boundary Threshold Framework](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md) → [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Relational Brackets and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) → [Transport / Boundary-Conditioned Realisation](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) → [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) → [Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
 
 ### General architecture
 
-[Start Here](../START_HERE_PUBLIC_OVERVIEW.md) → [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) → [Canon Map](../CANON_MAP.md) → [Cross-Support Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Load-Bearing Relation Sets](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) → [Relational Addressability](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) → [Temporal Continuity](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) → [Relational Brackets / Completion](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) → [Intrinsic–Extrinsic Transport](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) → [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
+[Start Here](../START_HERE_PUBLIC_OVERVIEW.md) → [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) → [Canon Map](../CANON_MAP.md) → [Cross-Support Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Load-Bearing Relation Sets](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) → [Relational Addressability](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) → [Temporal Continuity](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) → [Relational Brackets / Completion](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) → [Intrinsic–Extrinsic Transport](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) → [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) → [Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
 
 ### AI and typed knowledge architectures
 
-[ATLD Publication](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Transport / Readdressing](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) → [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+[ATLD Publication](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Transport / Readdressing](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) → [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) → [Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
 ## Core dependency groups
 
@@ -43,9 +43,10 @@ Primary documents:
 - [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md)
 - [Standalone Formal Addendum](03_STANDALONE_FORMAL_ADDENDUM.md)
 - [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md)
-- [SIPO Capstone](33_SIPO_CAPSTONE_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
+- [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
+- [Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 
-These carry the S–I–P–O architecture, possibility and information structure, physical realisation, bounded observer terms, typed state graphs, trajectories, path-cost scaffolds, and the current addressed-state → admissibility descriptor → physical-law object `(D,T,W)` → P propagation → P/O instrument → readdressing factorisation.
+These carry the S–I–P–O architecture, possibility and information structure, physical realisation, bounded observer terms, typed state graphs, trajectories, path-cost scaffolds, the current addressed-state → admissibility descriptor → physical-law object `(D,T,W)` → P propagation → P/O instrument → readdressing factorisation, and the criterion for when a load-bearing interface must become an explicit recursively updated state variable rather than remain bundled context.
 
 ### Foundational physics
 
@@ -57,13 +58,14 @@ Primary documents:
 - [Relational Brackets, Completion Geometry, and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 - [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 - [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
+- [Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 - [Physics-Facing MKUFT Explanation](13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
 - [Scientific References and Current Literature](../SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 - [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
 
-This branch carries category reframing, typed object/address discipline, admissible comparison, transport/history, Bell/no-signalling requirements, quantum and gravitational recovery burdens, and the current SIPO update architecture.
+This branch carries category reframing, typed object/address discipline, admissible comparison, transport/history, dynamic interface re-entry, Bell/no-signalling requirements, quantum and gravitational recovery burdens, and the current SIPO update architecture.
 
-The **architectural update object is now closed** by Module 33. The branch remains incomplete as fundamental physics until the admissibility descriptor and physical-law assembler are instantiated for concrete quantum/gravitational regimes, the resulting `(D,T,W)` object is mathematically well-defined, accepted limits are derived, and independent predictive content is demonstrated where claimed.
+The **architectural update object is now closed** by Module 33. Module 33S1 does not reopen that object; it refines the readdressing stage by specifying when a trackable interface that changes the next admissibility/law object and is itself changed by realised dynamics must re-enter the state explicitly. The branch remains incomplete as fundamental physics until the admissibility descriptor and physical-law assembler are instantiated for concrete quantum/gravitational regimes, the resulting `(D,T,W)` object is mathematically well-defined, accepted limits are derived, and independent predictive content is demonstrated where claimed.
 
 ### Empirical discipline
 
@@ -102,9 +104,10 @@ Primary documents:
 - [Relational Brackets, Completion Geometry, and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 - [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 - [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
+- [Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 
-These carry threshold, boundary, effective-geometry hypotheses, support-conditioned comparison, completion/admissibility geometry, transport/context, law-object assembly, ordinary physical baselines and reduction requirements.
+These carry threshold, boundary, effective-geometry hypotheses, support-conditioned comparison, completion/admissibility geometry, transport/context, law-object assembly, dynamic boundary/interface promotion, ordinary physical baselines and reduction requirements.
 
 ### Procedural and Voynich applications
 
@@ -132,9 +135,10 @@ Primary documents:
 - [Relational Brackets, Completion Geometry, and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 - [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 - [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
+- [Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 - [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
-These carry matched architecture controls, full-history replay, relationship specificity, relation-level/node-level deformation, adaptive addressed-state comparison, local-feasibility versus higher-scale-capability tests, identity/addressability guards, temporal continuity, completion fibers, macro realisation classes, transport, recursive readdressing, and structural versus empirical load.
+These carry matched architecture controls, full-history replay, relationship specificity, relation-level/node-level deformation, adaptive addressed-state comparison, local-feasibility versus higher-scale-capability tests, identity/addressability guards, temporal continuity, completion fibers, macro realisation classes, transport, recursive readdressing, explicit interface-state promotion, and structural versus empirical load.
 
 ## Structural nodes and canonical handles
 
@@ -172,7 +176,7 @@ Repeated algebraic form does not establish a shared physical mechanism.
 
 ### 22A — Recursive Address Closure
 
-[Recursive Address Closure and Property Transmission](22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md) treats an object's public identity as a typed address rather than an unqualified name. Version, evidence, licence, authority, causation, responsibility, and other properties require their own carriers.
+[Recursive Address Closure and Property Transmission](22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md) treats an object's public identity as a typed address rather than an unqualified name. Version, evidence, licence, authority, causation, responsibility, and other properties require their own carriers. Module 33S1 applies the same recursive re-entry discipline to a dynamic interface: once a relation is both prospectively load-bearing and updated by the realised transition, it can no longer remain an unnamed piece of scenery in the next-cycle state.
 
 ### 23 — Agency Accessibility
 
@@ -359,6 +363,30 @@ $$
 
 `Domain before generator` and `support before weighting` are retained as clean specialisations, while the general capstone permits a demonstrated relation to change domain, transition rule, weighting, or a typed combination. The P-only null remains controlling. This closes architecture, not the branch-specific quantum/gravitational derivation.
 
+### 33S1 — Dynamic Interface Promotion and Recursive Boundary Closure
+
+[Dynamic Interface Promotion and Recursive Boundary Closure](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) asks when a relation that is already permitted inside the addressed state must be made explicit as a recursively updated interface variable.
+
+Let
+
+$$
+\mathcal J_{AB,t}
+$$
+
+be a typed interface/junction state between addressed systems $A_t$ and $B_t$. Promotion requires: operational definition/trackability; a controlled prospective effect on $\Xi$, the active law object `(D,T,W)`, or another preregistered load-bearing outcome; and recursive back-action such that
+
+$$
+\mathcal J_{AB,t}
+\rightarrow
+(A_{t+\Delta},B_{t+\Delta})
+\rightarrow
+\mathcal J_{AB,t+\Delta}
+\rightarrow
+\Xi_{t+\Delta}.
+$$
+
+A fully P-recoverable interface can pass this state-representation gate; that does not establish independent I→P dynamics. If the coupled lower-scale object later passes the existing Module 32S promotion tests, the former boundary can become an internal relation of the promoted whole. Physical boundary work remains inside the energy ledger, and the Einstein–Rosen bridge is used only as a bounded geometric comparator rather than evidence for literal wormholes.
+
 ## Complete public registry
 
 | Module | Public role | Principal limit |
@@ -405,6 +433,7 @@ $$
 | [32S3 — Relational Brackets / I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) | Completion, macro realisation, admissibility | Independent I→P must beat P-only null |
 | [32S4 — Intrinsic/Extrinsic Transport](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) | Context-indexed realisation / path transport | Prior transport/boundary physics; energy accounting |
 | [33 — SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) | Addressed admissibility and physical-law-object update factorisation | Concrete law-assembler instantiation, accepted-limit recovery and discrimination |
+| [33S1 — Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) | Load-bearing interface re-entry and scale-role transition | Trackability, prospective discrimination, recursive back-action, P-only null and complete boundary-energy accounting |
 
 ## Public boundary
 
@@ -412,4 +441,4 @@ The public repository contains scientific proposals, mathematical and methodolog
 
 ## Compressed rule
 
-> Define the claim at its proper layer, preserve the comparison class and construction address, build the typed admissibility descriptor, assemble the active physical law object, route it to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, local restriction, relational completion, macro persistence, or local performance silently become empirical truth.
+> Define the claim at its proper layer, preserve the comparison class and construction address, build the typed admissibility descriptor, assemble the active physical law object, promote an interface into explicit state only when it is trackable, prospectively load-bearing and recursively updated, route the result to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, local restriction, relational completion, macro persistence, or local performance silently become empirical truth.
