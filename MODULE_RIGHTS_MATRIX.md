@@ -77,6 +77,11 @@ Unless an exact file version expressly states a different licence, the current G
 | [25A — Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
 | [31 — Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
 | [32 — Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
+| [32A — Module 32 Novelty Audit and Contribution Boundary](docs/32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md) | All rights reserved unless an exact version states otherwise |
+| [32S — Load-Bearing Relation Sets and Scale-Transition Tests](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
+| [32S1 — Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
+| [32S2 — Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
+| [32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) | **All rights reserved** unless an exact version or later standalone publication states otherwise |
 
 The current GitHub source and companion modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by the ATLD manuscript's CC BY-NC-SA 4.0 licence merely because the manuscript was developed from related material.
 
