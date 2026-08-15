@@ -18,12 +18,16 @@ This page provides a compact identity record for public search, citation, and di
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 - [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md)
+- [Recursive Constraint Closure Standalone Publication Record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md)
+- [Recursive Constraint Closure and Reachable-State Geometry — public preprint v0.1](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md)
 - [Citation metadata](CITATION.cff)
 - [JSON-LD discovery metadata](codemeta.json)
 
 ## Public search fingerprint
 
 MKUFT · McLaughlin–Kairos Unified Field Theory · Mark Charles McLaughlin · Zenodo DOI 10.5281/zenodo.17780566 · GitHub `mark45cdo-mkuft/MKUFT`
+
+Recursive Constraint Closure and Reachable-State Geometry · addressed adaptive systems · changing possibility spaces · changing state spaces · endogenous admissibility · enabling constraints · scale-separated freedom and capability · Mark Charles McLaughlin · first public formulation 15 August 2026 · commit `8e4fe4160ba57874c5cf6a7213d44ba3d0c97287`
 
 ## Principal public terms
 
@@ -43,6 +47,24 @@ MKUFT · McLaughlin–Kairos Unified Field Theory · Mark Charles McLaughlin · 
 - strongest fair null
 - load-bearing invariants
 - controlled deformation
+- recursive constraint closure
+- reachable-state geometry
+- addressed adaptive systems
+- changing possibility spaces
+- endogenous admissibility
+- enabling constraints across scale
+- recurrent architecture from recurrent constraint classes
+
+## Recursive Constraint Closure chronology anchor
+
+The source-module formulation now consolidated into the standalone public preprint first entered the public MKUFT repository in commit:
+
+```text
+8e4fe4160ba57874c5cf6a7213d44ba3d0c97287
+15 August 2026, 01:20:48 BST
+```
+
+The standalone preprint records the contribution and priority boundary without claiming that closure, constraints, enablement, or changing possibility spaces are individually original. The exact conjunction and public chronology claim remain subject to any earlier equivalent prior art subsequently identified.
 
 ## Supporting public archive
 
