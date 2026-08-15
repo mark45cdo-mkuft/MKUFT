@@ -33,6 +33,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 33 — SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) — closes the architectural `Update_SIPO` placeholder as a typed chain from complete addressed state to admissibility descriptor, physical law object `(domain, transition rule, weighting)`, P propagation, P→(P,O) measurement/registration, and recursive readdressing.
 - [Module 33S1 — Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) — refines the closed capstone with a controlled gate for promoting a load-bearing interface from bundled context to an explicit recursively updated state variable, with scale-role transition and P-only/energy-accounting guards.
 - [Module 33S2 — Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) — separates lineage, functional identity, closure, and property-specific whole-level law sufficiency; classifies strong, ensemble, history-augmented, and multiscale descent; and requires upward/downward readdressing when sufficiency changes.
+- [Module 33S3 — Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) — separates local performance from enclosing-scale closure, defines recovery as conditional target-relative reachability, rejects inevitable-collapse inference from local gain, and requires state-augmentation tests before irreducible history dependence is claimed.
 
 ## Experiments, evidence, and falsification
 
@@ -65,6 +66,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 33 — SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 - [Module 33S1 — Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 - [Module 33S2 — Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
+- [Module 33S3 — Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
 
 ## Observer, boundary, and physical support
 
@@ -77,6 +79,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 - [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 - [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
+- [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
 
 ## Procedural and applied work
 
