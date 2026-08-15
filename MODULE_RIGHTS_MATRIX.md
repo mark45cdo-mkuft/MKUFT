@@ -76,6 +76,7 @@ Unless an exact file version expressly states a different licence, the current G
 | [25 — Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) | **All rights reserved**; source module for ATLD v1.0 |
 | [25A — Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
 | [31 — Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
+| [32 — Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
 
 The current GitHub source and companion modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by the ATLD manuscript's CC BY-NC-SA 4.0 licence merely because the manuscript was developed from related material.
 
