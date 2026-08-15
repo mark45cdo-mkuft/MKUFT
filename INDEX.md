@@ -28,6 +28,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 32 Supplement — Load-Bearing Relation Sets and Scale-Transition Tests](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) — formalises minimal load-bearing sets, ablation weight, relation-versus-carrier substitution, cost/freedom/capability separation, and effective-object scale transitions.
 - [Module 32S1 — Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) — distinguishes physical persistence from independent relational access and defines scale transition through addressability, individuality-address parity, and higher-scale capability.
 - [Module 32S2 — Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) — extends same-self parity from point states to recent relational trajectories and defines the shortest load-bearing history horizon by truncation, shuffle, and held-out continuity tests.
+- [Module 32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) — formalises local-to-global compatibility, completion sets for relationally specified absence, temporal mismatch exposure, scale readout/promotion, and I→P admissibility tests without assuming a message-like hidden carrier.
 
 ## Experiments, evidence, and falsification
 
@@ -55,6 +56,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 32 Supplement — Load-Bearing Relation Sets and Scale-Transition Tests](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md)
 - [Module 32S1 — Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md)
 - [Module 32S2 — Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
+- [Module 32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 
 ## Observer, boundary, and physical support
 
