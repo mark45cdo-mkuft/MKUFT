@@ -10,7 +10,7 @@
 **Novelty boundary:** [32A — Module 32 Novelty Audit and Contribution Boundary](32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md)  
 **Public formulation date:** 15 August 2026  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
-**Status:** canonical formal refinement of the Module 32 family. It supplies a typed relation-scope compatibility scaffold, completion geometry for relationally constrained absence, a fiber/quotient scale-handoff representation, temporal mismatch measures, and an operational I→P admissibility test. It does not establish an independent information layer, holographic biology, consciousness, a new force, nonlocal signalling, or a universal law of emergence.
+**Status:** canonical formal refinement of the Module 32 family. It supplies a typed relation-scope compatibility scaffold, completion geometry for relationally constrained absence, fiber/quotient scale handoff, macrostate realisation classes, temporal mismatch measures, and an operational I→P admissibility test. It does not establish an independent information layer, holographic biology, consciousness, a new force, nonlocal signalling, or a universal law of emergence.
 
 ## 1. Purpose
 
@@ -54,7 +54,7 @@ $$
 N_t=N(\mathcal U_t)
 $$
 
-be the nerve of the cover. A simplex `sigma` records a declared non-empty overlap among its indexed regions. The nerve is useful for genuinely local geometric relations, but it is not the whole bracket.
+be the nerve of the cover. The nerve is useful for genuinely local geometric relations, but it is not the whole bracket.
 
 Define a broader typed relation-scope family
 
@@ -68,7 +68,7 @@ $$
 S(r)\subseteq\{1,\ldots,n\},
 $$
 
-identifying the coordinates on which that relation depends, together with a declared relation type, scale, and measurement rule.
+plus a declared relation type, scale, role structure where direction/asymmetry matters, and measurement rule.
 
 A relation scope may represent geometric overlap, regulatory coupling, system–environment coupling, temporal linkage, contextual compatibility, semantic/functional relation, or another operationally defined relation class. A non-geometric scope does **not** by itself imply a nonlocal physical mechanism or a new layer.
 
@@ -89,9 +89,7 @@ $$
 
 extract or translate the state information relevant to that relation. For a genuine geometric overlap, `eta` may reduce to an ordinary restriction map onto the shared domain. For other relation types it must be separately defined and justified.
 
-This separation is deliberate:
-
-> **spatial overlap is one way for relations to be load-bearing; it is not assumed to be the only way.**
+> **Spatial overlap is one way for relations to be load-bearing; it is not assumed to be the only way.**
 
 ## 3. Relational bracket and compatible assignment region
 
@@ -117,7 +115,7 @@ $$
 
 where `Psi_r` is defined so that `e_r=0` means exact compatibility under that relation and larger values mean larger disagreement in the declared residual geometry.
 
-Let `epsilon_r` be a preregistered tolerance in the same units as `e_r`. Define the componentwise compatibility indicator
+Let `epsilon_r` be a preregistered tolerance in the same units as `e_r`. Define
 
 $$
 \chi_B(a_t)
@@ -145,7 +143,7 @@ a\in\mathcal L_t:
 }
 $$
 
-For reporting, retain the typed residual vector
+For reporting, retain
 
 $$
 \mathbf e_B(a_t)
@@ -178,7 +176,7 @@ $$
 
 If no lawful normalisation exists, do not manufacture `E_B`; retain the typed residual vector.
 
-Define the relational bracket scaffold
+Define
 
 $$
 \boxed{
@@ -198,7 +196,7 @@ $$
 
 where `Theta_t` contains declared tolerances, normalisations, comparison rules, and representation assumptions.
 
-The bracket is not a container surrounding an object. It is the addressed architecture specifying **which coordinates participate in which relations and what joint assignments those relations permit**.
+The bracket is not a container surrounding an object. It specifies **which coordinates participate in which relations and what joint assignments those relations permit**.
 
 ## 4. Completion geometry — a missing address as a conditional fiber
 
@@ -247,12 +245,10 @@ $$
 \left[
 e_r(a_{-k})\leq\varepsilon_r
 \quad\forall r\in\mathfrak E_{-k,t}
-\right],
+\right]
 $$
 
-for residuals well-defined without coordinate `k`.
-
-Define the local completion test
+for residuals well-defined without coordinate `k`, and the local completion test
 
 $$
 \chi_{B,k}(a_{-k}\oplus_k x)
@@ -264,13 +260,13 @@ e_r(a_{-k}\oplus_k x)\leq\varepsilon_r
 \right].
 $$
 
-When the retained background is compatible,
+When
 
 $$
 \chi_{B,-k}(a_{-k})=1,
 $$
 
-the compatible completion set is
+define
 
 $$
 \boxed{
@@ -283,15 +279,13 @@ x\in\mathcal F_t(U_k):
 }
 $$
 
-If the retained background is already inconsistent, a missing-address inference is confounded: unrelated relation failures cannot be attributed to the missing coordinate.
-
-If
+If the retained background is inconsistent, a missing-address inference is confounded. If
 
 $$
 \mathfrak E_{k,t}=\varnothing,
 $$
 
-the current bracket supplies no relation constraining that coordinate. The address is unconstrained by this bracket rather than positively specified.
+the bracket supplies no relation constraining that coordinate; it is unconstrained by this model rather than positively specified.
 
 ### 4.1 Fiber form
 
@@ -318,10 +312,10 @@ $$
 =
 \mathfrak C_{B,t}
 \cap
-\pi_{-k}^{-1}(a_{-k}).
+\pi_{-k}^{-1}(a_{-k}),
 $$
 
-The completion set is its missing-coordinate image:
+and
 
 $$
 \boxed{
@@ -337,18 +331,18 @@ This is standard fiber/projection mathematics. Its role here is operational: **h
 
 ### 4.2 Four distinct absence cases
 
-1. **Narrow completion:** `Omega_k^comp` is non-empty and small under a lawful uncertainty/diameter measure. The remaining relations strongly constrain what belongs there.
-2. **Broad completion:** `Omega_k^comp` is large. The address is retained but substantially ambiguous.
-3. **Local incompatibility:** the retained background is compatible but `Omega_k^comp` is empty. No tested value satisfies all relations touching the missing address.
+1. **Narrow completion:** the completion set is non-empty and small under a lawful uncertainty/diameter measure.
+2. **Broad completion:** the completion set is large; the address remains structured but substantially ambiguous.
+3. **Local incompatibility:** the retained background is compatible but no tested value satisfies every relation touching the missing address.
 4. **Background inconsistency:** relations not involving the missing address are already failing, so local completion cannot be interpreted cleanly.
 
 Thus:
 
 > **physically absent does not imply relationally unspecified; relationally specified does not imply physically occupied.**
 
-## 5. Ambiguity and temporal mismatch exposure
+## 5. Ambiguity, persistence, and temporal mismatch exposure
 
-Where a lawful measure `mu_k` exists on a completion space, a completion-ambiguity index may reuse Module 21's discipline:
+Where a lawful measure `mu_k` exists,
 
 $$
 A_{k,t}^{\mathrm{comp}}
@@ -360,40 +354,40 @@ A_{k,t}^{\mathrm{comp}}
 }{
 \mu_{0,k}
 }
-\right).
+\right)
 $$
 
-This measures unresolved completion volume under the declared encoding; it is not automatically information, energy, or cost.
+is a completion-ambiguity index. It is not automatically information, energy, or cost.
 
-One compatible instant is not enough to establish stable closure. For a time interval over which the bracket observables remain lawfully comparable, define
+For a time interval over which the bracket observables remain lawfully comparable,
 
 $$
 P_B(t;\tau)
 =
 \frac{1}{\tau}
 \int_t^{t+\tau}
-\chi_B(a_s)\,ds.
+\chi_B(a_s)\,ds
 $$
 
-A persistence criterion may require
+may be used as a persistence fraction, with a preregistered requirement such as
 
 $$
 P_B(t;\tau)\ge1-\delta_B.
 $$
 
-If the relation family, local state spaces, encodings, tolerances, or comparison rules change materially, use Module 31 transport/comparison discipline, partition the interval, or do not report one persistence scalar.
+If relation scopes, state spaces, encodings, tolerances, or comparison rules change materially, use Module 31 transport/comparison discipline, partition the interval, or do not report one persistence scalar.
 
-Where a lawful dimensionless aggregate `E_B(t)` exists, define mismatch exposure
+Where a lawful dimensionless aggregate `E_B(t)` exists,
 
 $$
 D_B(t;T)
 =
-\int_{t-T}^{t}E_B(s)\,ds.
+\int_{t-T}^{t}E_B(s)\,ds
 $$
 
-`D_B` has units of time if `E_B` is dimensionless. It is not automatically energy, entropy, damage, disease burden, or maintenance cost.
+defines mismatch exposure. It has units of time when `E_B` is dimensionless and is not automatically energy, entropy, damage, disease burden, or maintenance cost.
 
-A mismatch exposure earns a **cost** interpretation only if it predicts or causally changes a separately measured typed cost object
+Mismatch earns a **cost** interpretation only if it predicts or causally changes a separately measured typed cost object
 
 $$
 \mathbf c_t
@@ -404,8 +398,6 @@ $$
 under held-out or interventional testing.
 
 ## 6. Addressed constraint-to-admissibility operator
-
-The preceding objects can be compressed into a typed constraint-to-admissibility operator without forcing a fixed state space.
 
 At declared layer/address `lambda`, let
 
@@ -418,11 +410,21 @@ $$
 
 be the addressed state family.
 
+Let
+
+$$
+\mathbf r_{\lambda,t}
+\in
+\mathcal Z_{\lambda,t}^{R}
+$$
+
+denote the realised typed relation-state object generated by the declared relation scopes and current organisation. `\mathcal Z^R` is implementation-specific; it is not assumed to be one universal relation space.
+
 For current construction address `alpha_t`, define schematically
 
 $$
 \mathcal Q_{\lambda,t}:
-\mathfrak E_{\lambda,t}
+\mathcal Z_{\lambda,t}^{R}
 \times
 \mathcal X_{\lambda,\alpha_t}
 \times
@@ -434,23 +436,16 @@ $$
 with
 
 $$
-\mathcal Q_{\lambda,t}(\mathfrak E,x,h)
+\mathcal Q_{\lambda,t}(\mathbf r,x,h)
 =
 \Omega_{\lambda,t}^{\mathrm{adm}}.
 $$
 
 The output is an **addressed admissible region** and may include transitions into a different construction/state-space address where the implementation permits that change.
 
-This operator is a scaffold, not a universal physical law. It covers as typed specialisations:
+This operator is a scaffold, not a universal physical law. It covers as typed specialisations compatible completion, ordinary reachable-state restriction, scale-conditioned loss of lower-level independent addressability, and candidate I→P changes in later physical transition support or weighting.
 
-- compatible completion of a missing address;
-- ordinary reachable-state restriction;
-- scale-conditioned loss of lower-level independent addressability;
-- candidate I→P changes in later physical transition support or weighting.
-
-The parent structural statement is:
-
-> **bracket and reach are two views of constraint-shaped admissibility.**
+> **Bracket and reach are two views of constraint-shaped admissibility.**
 
 ## 7. I→P as an admissibility question, not a message-pipe assumption
 
@@ -468,7 +463,7 @@ $$
 
 a candidate information/relation variable.
 
-Represent the empirical question by a conditional physical transition kernel
+Represent the empirical question by
 
 $$
 K_P
@@ -509,10 +504,8 @@ D_P
 K_P(\cdot\mid p,H,i),
 K_P(\cdot\mid p,H,\widetilde i)
 \right)
-\right],
+\right].
 $$
-
-where the sampling distribution and distance/divergence `D_P` are declared by the implementation.
 
 A support-level test may instead use
 
@@ -537,13 +530,13 @@ I_t
 \mid P_t,H_t^P.
 $$
 
-If the candidate relation is fully reducible to adequate measured physical organisation/history—for example
+If
 
 $$
-i_t=f(P_t,H_t^P),
+i_t=f(P_t,H_t^P)
 $$
 
-then the I-layer variable may remain a useful relational abstraction or compression, but independent I→P dynamics have not been established.
+under an adequate physical description, the I-layer variable may remain a useful relational abstraction or compression, but independent I→P dynamics have not been established.
 
 A stronger independent I→P candidate requires representation robustness, a strongest adequate P baseline, held-out predictive or interventional gain, relation-specific deformation that does not merely introduce an uncontrolled P change, ordinary-limit recovery, and an explicit falsifier.
 
@@ -555,17 +548,15 @@ A declared relation earns **operational semantic load-bearingness** only when pr
 
 This is adjacent to established intervention-based semantic-information work. MKUFT does not claim invention of causal semantics.
 
-The public rule is:
-
 > **If changing the relation does not change the tested future physical or functional possibilities, do not call that relation load-bearing for that claim.**
 
-## 9. Fiber–quotient scale handoff
+## 9. Fiber–quotient scale handoff and realisation classes
 
-The compatibility region supports two complementary questions.
+The compatibility region supports complementary zoom-in and zoom-out questions.
 
-### 9.1 Zoom in — fiber
+### 9.1 Zoom in — completion fiber
 
-Fix retained coordinates and ask which states remain admissible at a missing coordinate. Section 4 gives this as the fiber/projection object
+Fix retained coordinates and ask which states remain admissible at a missing coordinate:
 
 $$
 \mathfrak F_{k,t}(a_{-k})
@@ -604,9 +595,7 @@ R_{\ell\rightarrow L}(a)
 R_{\ell\rightarrow L}(a'),
 $$
 
-or a tolerance-based analogue.
-
-The quotient
+or a tolerance-based analogue. Then
 
 $$
 \mathfrak C_{B,\ell}/\!\sim_R
@@ -614,11 +603,55 @@ $$
 
 groups compatible lower-scale assignments that are indistinguishable under the declared higher-scale readout.
 
-This quotient is not automatically a physically autonomous object. Observer-side compression alone is insufficient.
+The quotient is standard mathematics and is not automatically a physically autonomous object.
 
-A higher-scale effective object is promoted only after the Module 32S tests pass: persistence, interventional load-bearingness, new viable capability, predictive compression, and boundary/closure specificity.
+### 9.3 Macrostate realisation fiber
 
-When they pass, schematically
+For
+
+$$
+y\in\operatorname{Im}(R_{\ell\rightarrow L}),
+$$
+
+define the compatible realisation class
+
+$$
+\boxed{
+\mathcal M_y
+=
+\mathfrak C_{B,\ell}
+\cap
+R_{\ell\rightarrow L}^{-1}(y).
+}
+$$
+
+For any compatible `a` with `R(a)=y`,
+
+$$
+\mathcal M_y=[a]_{\sim_R}.
+$$
+
+Thus one higher-scale readout state can correspond to many lower-scale compatible realisations.
+
+A lower-scale trajectory may therefore change while the higher-scale readout remains fixed:
+
+$$
+a_t\neq a_{t'}
+\quad\text{but}\quad
+R(a_t)=R(a_{t'})=y,
+$$
+
+provided both states remain in `\mathcal M_y`.
+
+This gives a precise systems meaning to **lower-level turnover with higher-level persistence**. It does not by itself prove metaphysical identity, personal identity, or an autonomous macro cause. The macrostate must still pass the Module 32S promotion tests, and any same-self claim remains governed by Modules 32S1 and 32S2.
+
+When a trajectory leaves `\mathcal M_y`, the declared macrostate changes under this readout. Whether the individuality persists through that macrostate change is a separate identity-continuity question.
+
+### 9.4 Promotion and recursive handoff
+
+A higher-scale effective object is promoted only after persistence, interventional load-bearingness, new viable capability, predictive compression, and boundary/closure specificity are demonstrated.
+
+Then schematically
 
 $$
 \boxed{
@@ -632,7 +665,7 @@ O_L.
 }
 $$
 
-To use the promoted whole at the next scale, declare a lawful typing map
+To use the promoted whole at the next scale, declare
 
 $$
 \iota_{L\rightarrow L^+}:
@@ -641,7 +674,7 @@ $$
 \mathcal X_{L^+}^{\mathrm{const}},
 $$
 
-so that
+with
 
 $$
 \iota_{L\rightarrow L^+}(O_L)
@@ -651,7 +684,7 @@ $$
 
 That typed constituent may then participate in the next bracket's relation scopes.
 
-Thus the recursive scale grammar is
+The recursive grammar is
 
 ```text
 local state product
@@ -672,9 +705,26 @@ relation-compatible subset
 
 Fiber and quotient are two mathematical views of the same compatibility geometry, not two physical mechanisms.
 
-The recursion is asserted only across scales where promotion tests pass. It is not assumed to continue without bound. Identity continuity remains governed separately by Modules 32S1 and 32S2.
+## 10. Relation to the S–I–P–O architecture
 
-## 10. Holography as a deformation-tested physical comparator
+The bracket formalism can implement a **restricted operational mirror** of the S–I–P–O architecture without identifying the mathematical scaffold with the ontology.
+
+At a declared implementation:
+
+- **S-like role:** an addressed ambient possibility family supplies candidate states;
+- **I-like role:** typed relations constrain which assignments/transitions are admissible;
+- **P role:** a physical system realises one actual state or trajectory inside the physically admissible region;
+- **O role:** an observer-positioned measurement/registration map returns bounded records or observables.
+
+A higher-scale readout `R_(ell→L)` used to define an endogenous macro variable is **not automatically the O-layer**. It may be a P-level effective description. It belongs to O only where the map represents observer-positioned registration under the definitions of the master spine.
+
+This distinction matters because otherwise coarse-graining by an analyst could be mistaken for a real scale transition in the system.
+
+The formalism therefore sharpens, but does not prove, the candidate I→P edge:
+
+> **I-like relational organisation can be represented as changing the admissible physical state/transition region; independent I→P physics is claimed only if the relation contributes content beyond an adequate P-state/history account.**
+
+## 11. Holography as a deformation-tested physical comparator
 
 Optical holography is useful because a spatial reconstruction can depend on distributed phase relations and a declared propagation/readout transform.
 
@@ -708,53 +758,57 @@ The MKUFT use is methodological:
 
 Visual similarity, sacred geometry, or the phrase `the whole is in every part` is insufficient.
 
-## 11. Empirical P-layer comparators
+## 12. Empirical P-layer comparators
 
 These examples remain P-layer comparators, not evidence for an independent I layer.
 
-### 11.1 Boundary geometry and interior address
+### 12.1 Boundary geometry and interior address
 
-Guruciaga et al. (2026) report that boundary geometry controls polar-defect configuration in a model of the mouse epiblast and that predicted defect positions correspond to lumen nucleation sites. The narrow relevance here is that **relations at a boundary can constrain the location of an interior physical event**.
+Guruciaga et al. (2026) report that boundary geometry controls polar-defect configuration in a model of the mouse epiblast and that predicted defect positions correspond to lumen nucleation sites. The narrow relevance is that **relations at a boundary can constrain the location of an interior physical event**.
 
-### 11.2 Physical removal with persistent higher-order representation
+### 12.2 Physical removal with persistent higher-order representation
 
 Schone et al. (2025) report stable cortical hand/finger representations after arm amputation. The permitted structural statement is that **removal of a physical endpoint need not immediately erase every higher-order physical representation associated with that endpoint**. The surviving nervous system remains a physical implementation.
 
-## 12. Discriminating tests
+## 13. Discriminating tests
 
-### 12.1 Relation-family and representation robustness
+### 13.1 Relation-family and representation robustness
 
 Change the lawful cover, coordinate chart, encoding, or higher-order relation representation while preserving the declared underlying object. Compare geometric-nerve, hypergraph/relation-scope, or other justified representations where appropriate. If the effect appears only under one arbitrary representation, reduce the claim.
 
-### 12.2 Completion prediction
+### 13.2 Completion prediction
 
-Remove, hide, or ablate a local occupant while preserving surrounding relations as far as possible. First verify retained-background compatibility. Predict the completion fiber using only relations whose support includes the missing coordinate. On restoration or repopulation, test whether realised completions fall inside the preregistered predicted set at the stated rate.
+Remove, hide, or ablate a local occupant while preserving surrounding relations as far as possible. Verify retained-background compatibility, predict the completion fiber from relations whose support includes the missing coordinate, then test restored/repopulated outcomes against the preregistered set.
 
-### 12.3 Surrounding-relation deformation
+### 13.3 Surrounding-relation deformation
 
 Preserve the candidate occupant state while changing selected surrounding or contextual relations. The completion fiber or later realised state should deform in the predicted direction if those relations are load-bearing.
 
-### 12.4 Higher-order relation test
+### 13.4 Higher-order relation test
 
-Compare pairwise-only models with preregistered higher-order relation scopes. If higher-order compatibility is claimed to matter, it must add held-out predictive/interventional value rather than merely redescribe pairwise structure.
+Compare pairwise-only models with preregistered higher-order relation scopes. Claimed higher-order compatibility must add held-out predictive/interventional value.
 
-### 12.5 Temporal mismatch test
+### 13.5 Realisation-class persistence test
+
+For a proposed macrostate `y`, perturb lower-scale variables inside the predicted realisation class `M_y`. The macrostate should remain stable under within-class perturbations and change in the predicted way when the trajectory crosses the class boundary. Compare against alternative readouts and arbitrary coarse-grainings.
+
+### 13.6 Temporal mismatch test
 
 Compare instantaneous residuals against lawful cumulative mismatch exposure for held-out prediction of later closure failure or independently measured cost. If accumulated exposure adds no value, keep the simpler instantaneous model.
 
-### 12.6 I→P relation-scramble test
+### 13.7 I→P relation-scramble test
 
 Preserve as much carrier-specific and lower-order physical structure as practical while disrupting the proposed relation. Test the later transition kernel/support against the adequate P-only model. If causal isolation cannot be achieved, do not call the result causal I→P evidence.
 
-### 12.7 Holographic deformation comparator
+### 13.8 Holographic deformation comparator
 
 Predeclare the analogue of encoding, phase/amplitude deformation, mask, propagation/readout, and predicted reconstruction degradation. Compare with simpler distributed-network alternatives.
 
-### 12.8 Scale-promotion test
+### 13.9 Scale-promotion test
 
 Compare the proposed quotient/readout with alternative coarse-grainings. Promote a higher-scale object only if the full Module 32S effective-unit test passes.
 
-## 13. Failure and reduction conditions
+## 14. Failure and reduction conditions
 
 Reduce this refinement if:
 
@@ -763,6 +817,7 @@ Reduce this refinement if:
 - unrelated background inconsistency is mistaken for failure of a missing-address completion;
 - the result depends on an arbitrary cover, relation representation, coordinate system, or encoding and fails representation-preserving translation;
 - higher-order scopes add no value beyond pairwise relations;
+- proposed macro realisation classes fail perturbational stability or an alternative coarse-graining predicts equally well with less structure;
 - temporal mismatch is accumulated across non-comparable addresses without lawful transport or adds no value beyond instantaneous state/history;
 - relation scrambling produces no predicted consequence;
 - a claimed causal I→P result cannot separate relation change from uncontrolled P-layer change;
@@ -773,13 +828,13 @@ Reduce this refinement if:
 
 If these failures occur, use the simpler local, physical, pairwise, network, coarse-grained, or ordinary dynamical description.
 
-## 14. Prior-art and novelty boundary
+## 15. Prior-art and novelty boundary
 
 The broad ingredients used here are established and are not claimed as MKUFT inventions.
 
 Relevant neighbours include:
 
-- nerve constructions, sheaves, restriction/gluing, fibers, projections, quotients, and coarse-graining;
+- nerve constructions, sheaves, restriction/gluing, fibers, projections, quotients, equivalence classes, coarse-graining, and multiple realisability;
 - hypergraphs and higher-order networks for arbitrary non-pairwise relation scopes;
 - sheaf-theoretic local-to-global analysis over contextual measurement covers, including non-locality/contextuality work;
 - intervention-based semantic information;
@@ -789,13 +844,14 @@ Relevant neighbours include:
 
 The candidate MKUFT contribution is narrower:
 
-> integrate addressed changing-state-space discipline, typed relation scopes, completion fibers, quotient-based scale readout with separate promotion tests, persistent mismatch exposure, and the I→P physical-null boundary into one operational audit in which relationally specified absence and changed physical admissibility are tested by the same constraint-to-admissibility grammar.
+> integrate addressed changing-state-space discipline, typed relation scopes, completion fibers, macrostate realisation classes, quotient-based scale readout with separate promotion tests, persistent mismatch exposure, and the I→P physical-null boundary into one operational audit in which relationally specified absence, lower-level turnover with higher-level persistence, and changed physical admissibility are tested inside one constraint-to-admissibility grammar.
 
 Historical priority for that exact integration is not asserted without broader literature review. Module 32A owns the evolving novelty audit.
 
-## 15. References
+## 16. References
 
 - Abramsky, S. and Brandenburger, A. (2011). *The Sheaf-Theoretic Structure of Non-Locality and Contextuality*. arXiv:1102.0264; New Journal of Physics 13, 113036.
+- Hoel, E. P., Albantakis, L. and Tononi, G. (2013). *Quantifying causal emergence shows that macro can beat micro*. Proceedings of the National Academy of Sciences 110, 19790–19795. DOI `10.1073/pnas.1314922110`.
 - Robinson, M. (2018). *Assignments to sheaves of pseudometric spaces*. arXiv:1805.08927.
 - Kolchinsky, A. and Wolpert, D. H. (2018). *Semantic information, autonomous agency and non-equilibrium statistical physics*. Interface Focus 8:20180041. DOI `10.1098/rsfs.2018.0041`.
 - Varley, T. F. and Hoel, E. (2022). *Emergence as the conversion of information: a unifying theory*. Philosophical Transactions of the Royal Society A 380:20210150. DOI `10.1098/rsta.2021.0150`.
@@ -804,7 +860,7 @@ Historical priority for that exact integration is not asserted without broader l
 - Guruciaga, P. C. et al. (2026). *Boundary geometry controls a topological defect transition that determines lumen nucleation in embryonic development*. Nature Materials 25, 1278–1287. DOI `10.1038/s41563-026-02594-7`.
 - Schone, H. R. et al. (2025). *Stable cortical body maps before and after arm amputation*. Nature Neuroscience 28, 2015–2021. DOI `10.1038/s41593-025-02037-7`.
 
-## 16. Compressed rules
+## 17. Compressed rules
 
 > **Geometric overlap is one typed relation class, not the whole relation architecture.**
 
@@ -814,9 +870,9 @@ Historical priority for that exact integration is not asserted without broader l
 
 > **A missing-address question is a fiber of the compatible region; a higher-scale readout is a quotient of it.**
 
-> **Physically absent does not imply relationally unspecified; relationally specified does not imply physically occupied.**
+> **A macrostate is realised by the compatible preimage of its readout value; lower-level states can change inside that realisation class while the macrostate remains fixed.**
 
-> **Negative space can be narrow, ambiguous, locally incompatible, or confounded by background inconsistency.**
+> **Physically absent does not imply relationally unspecified; relationally specified does not imply physically occupied.**
 
 > **Persistent mismatch is not automatically cost. Measure mismatch and cost separately, then test their coupling.**
 
