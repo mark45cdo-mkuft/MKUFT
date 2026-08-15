@@ -26,7 +26,7 @@ where $S$ denotes substrate, $I$ informational structure and relation, $P$ physi
 
 On this view, quantum and gravitational behaviour may be effective physical outputs of different relational conditions within one deeper lawful architecture, rather than two original objects that must be directly welded together. The proposal introduces a typed layered-address description of objects and uses entanglement as an initial worked case. Physically separated systems may retain a specific non-separable informational relation while preserving distinct physical addresses.
 
-This document does not derive quantum mechanics, the Born rule, Bell correlations, general relativity, or a quantum theory of gravity. Its contribution is architectural: it identifies a candidate category error, states the proposed alternative clearly, and defines the mathematical and experimental work required to test it. Module 33 now closes the formerly unnamed SIPO update at the architectural level by separating admissible-domain construction, P-layer propagation, physical measurement/registration, and recursive readdressing.
+This document does not derive quantum mechanics, the Born rule, Bell correlations, general relativity, or a quantum theory of gravity. Its contribution is architectural: it identifies a candidate category error, states the proposed alternative clearly, and defines the mathematical and experimental work required to test it. Module 33 now closes the formerly unnamed SIPO update at the architectural level by mapping the complete addressed state/context to a typed admissibility descriptor, assembling the active P-law object `(domain, transition rule, weighting)`, propagating physically, passing the result through a P→(P,O) measurement/registration instrument, and recursively readdressing the next effective possibility object.
 
 ## 1. Purpose
 
@@ -36,7 +36,7 @@ The purpose of this proposal is narrower:
 
 > identify whether the problem has been categorised at the correct layer before specialists invest further work inside that category.
 
-The division of labour is explicit. MKUFT supplies a candidate systems architecture, layer discipline, relational decomposition, failure conditions, and now a typed capstone factorisation of the update. Physicists are still required to instantiate the relevant physical domains and generators, derive known limits, calculate measurable results, and reject the framework where it fails.
+The division of labour is explicit. MKUFT supplies a candidate systems architecture, layer discipline, relational decomposition, failure conditions, and now a typed capstone factorisation of the update. Physicists are still required to instantiate the active physical law object for concrete regimes, derive known limits, calculate measurable results, and reject the framework where it fails.
 
 ## 2. The candidate category error
 
@@ -100,9 +100,10 @@ The arrows therefore remain typed dependencies, not distances in one hidden geog
 
 ## 4. State transition — the capstone factorisation
 
-Let the effective addressed state be
+Let the complete effective addressed state be
 
 $$
+\boxed{
 \mathcal U_t
 =
 \left(
@@ -113,9 +114,10 @@ O_t,
 b_t,
 H_t
 \right),
+}
 $$
 
-where $b_t$ is extrinsic/contextual address and $H_t$ is the retained load-bearing history object.
+where $b_t$ is extrinsic/contextual address and $H_t$ is the retained load-bearing history object. Let $E_t$ contain the measured/controlled environment required by the physical claim.
 
 The earlier version of this proposal introduced
 
@@ -127,9 +129,22 @@ $$
 
 as an intentionally undefined task. The later Module 32 family supplied the necessary dependencies, and Module 33 now factorises that update architecturally.
 
-First define the P-layer law object
+First define a typed admissibility descriptor
 
 $$
+\boxed{
+\Xi_t
+=
+\mathcal Q_t(\mathcal U_t,E_t),
+}
+$$
+
+which may contain typed support restrictions, boundary/context data, relation scopes, path/history constraints, or other compatibility objects. It is not required to be one scalar.
+
+The active P-layer law object is
+
+$$
+\boxed{
 \mathfrak L_{P,t}
 =
 \left(
@@ -137,27 +152,48 @@ $$
 \mathcal T_{P,t},
 \mathcal W_{P,t}
 \right),
+}
 $$
 
-where $\mathcal D_{P,t}$ is the admissible physical state/path/operator domain, $\mathcal T_{P,t}$ the appropriate physical transition rule or generator, and $\mathcal W_{P,t}$ any domain-appropriate weighting object required by the physical model.
+where $\mathcal D_{P,t}$ is the admissible physical state/path/operator domain, $\mathcal T_{P,t}$ the appropriate physical transition rule or generator, and $\mathcal W_{P,t}$ any domain-appropriate weighting/selection object required by the physical model.
 
-The admissible P-domain is selected from current possibility, relation, context and history:
+A typed physical-law assembler then gives
 
 $$
 \boxed{
-\mathcal D_{P,t}
+\mathfrak C_P:
+(\Xi_t,P_t,E_t)
+\longmapsto
+\mathfrak L_{P,t}.
+}
+$$
+
+The minimal clean Layer-Before-Law specialisation is domain-only conditioning,
+
+$$
+\mathcal D_{P,t}=\mathfrak D_P(\Xi_t),
+$$
+
+with the standard $\mathcal T_{P,t}$ and $\mathcal W_{P,t}$ realised on that domain. The general capstone does not force every possible relational effect into the domain: if independently demonstrated, a relation may alter $\mathcal D$, $\mathcal T$, $\mathcal W$, or a typed combination.
+
+The complete architectural update is
+
+$$
+\boxed{
+\operatorname{Update}_{\mathrm{SIPO},\Delta}(\mathcal U_t)
 =
-\mathfrak D_P
+\operatorname{Readdress}_{t+\Delta}
 \left[
-\mathcal Q_t
+\mathcal U_t,
+\operatorname{Instrument}_{P\rightarrow(P,O)}
 \left(
-S_t^{\mathrm{eff}},I_t,b_t,H_t
+\operatorname{Propagate}_{P,\Delta}^{\,\mathfrak C_P(\mathcal Q_t(\mathcal U_t,E_t),P_t,E_t)}(P_t)
 \right)
 \right].
 }
 $$
 
-The complete architectural update is then
+The readable operator form is
 
 $$
 \boxed{
@@ -167,11 +203,12 @@ $$
 \circ
 \operatorname{Instrument}_{P\rightarrow(P,O)}
 \circ
-\operatorname{Propagate}_{P}^{\,\mathfrak D_P\circ\mathcal Q_I}.
+\operatorname{Propagate}_{P}^{\,\mathfrak L_P},
+\qquad
+\mathfrak L_P=\mathfrak C_P\circ\mathcal Q
+\ \text{with typed state/context arguments}.
 }
 $$
-
-The superscript indicates that the P-propagator is parameterised by the admissible-domain construction; it is not ordinary untyped composition at that position.
 
 The instrument is typed as
 
@@ -187,15 +224,16 @@ so physical measurement back-action remains in P while O contains the resulting 
 In plain language:
 
 ```text
-structured possibility
-→ relational/address constraints define admissible P-domain
-→ the appropriate physical law propagates on that domain
+complete addressed state + context/history
+→ typed admissibility descriptor
+→ assemble active P-law object (domain, transition, weighting)
+→ propagate physically
 → physical measurement/registration produces the realised P/O outcome
 → realised path, record and context readdress the next effective possibility object
 → repeat
 ```
 
-This is **domain before generator** and **support before weighting** as a logical factorisation. It is not a claim that nature literally waits between discrete stages.
+`Domain before generator` and `support before weighting` remain especially clean logical specialisations. They are not a claim that nature literally waits between discrete stages or that all candidate I→P effects must operate only through support restriction.
 
 Module 33 owns the full definitions, physical-only null, specialisations and falsifiers. The branch-specific quantum and gravitational dynamics remain to be instantiated and derived.
 
@@ -369,7 +407,7 @@ Module 33 now gives the common **architectural form** of that loop. What remains
 The proposed distinction is:
 
 - quantum and gravitational behaviour may not couple solely through a direct P-layer interaction;
-- relational/address conditions may be load-bearing first by selecting or deforming the domain/support on which P-dynamics act;
+- relational/address conditions may be load-bearing by selecting or deforming the active physical law object—minimally its domain/support, and only where independently demonstrated its transition rule or weighting;
 - both effective regimes must still be recovered quantitatively in P and O.
 
 Let $\Pi_{P,O}$ extract the relevant physical/registered result. For relational conditions $\mathcal R_Q$ and $\mathcal R_G$, the recovery targets remain
@@ -405,7 +443,7 @@ It supplies:
 3. a concrete location for entanglement as a retained pair-level I-layer relation between distinct P-layer systems;
 4. a reason that nonlocal statistical relation need not imply direct mechanical copying through physical space;
 5. a no-signalling target that the model must preserve;
-6. a typed architectural factorisation of $\operatorname{Update}_{\mathrm{SIPO}}$ through admissibility-domain selection, domain-conditioned P propagation, a P→(P,O) measurement/registration instrument, and recursive readdressing;
+6. a typed architectural factorisation of $\operatorname{Update}_{\mathrm{SIPO}}$ through complete addressed-state admissibility, physical-law-object assembly `(D,T,W)`, P propagation, a P→(P,O) measurement/registration instrument, and recursive readdressing;
 7. an explicit separation of ambient substrate possibility from the effective possibility object recalculated after a realised transition;
 8. typed-state and dimensional controls that prevent an abstract address space from being mistaken for extra physical geography.
 
@@ -416,14 +454,14 @@ The framework has therefore moved beyond an unnamed update arrow. It still has t
 The systems-level task is now to:
 
 - preserve the typed architecture and comparison guards;
-- identify the minimum domain variables required by a concrete physical branch;
+- identify the minimum variables required to construct the active law object in a concrete physical branch;
 - specify which relations are claimed to alter domain, transition rule, weighting, or only representation;
 - keep the strongest P-only null active;
 - propagate corrections through the complete dependency stack.
 
 The specialist mathematical-physics task is to:
 
-- instantiate $\mathcal D_{P,t}$, $\mathcal T_{P,t}$ and $\mathcal W_{P,t}$ for a target regime;
+- instantiate $\mathfrak C_P$ and therefore $\mathcal D_{P,t}$, $\mathcal T_{P,t}$ and $\mathcal W_{P,t}$ for a target regime;
 - prove the relevant mathematical well-posedness;
 - derive amplitudes/probabilities where appropriate;
 - recover Bell correlations and no-signalling;
@@ -448,7 +486,7 @@ Every central claim must remain connected to its canonical definition, parent la
 
 **Replace one SIPO architecture with unrelated effective rules.** If the models perform equally well, deeper unification has not been earned.
 
-**Replace the admissibility-to-domain map with an adequate P-only domain model.** If predictive and interventional performance is unchanged, no independent I→P role has been established.
+**Replace $\mathcal Q_t$ and $\mathfrak C_P$ with an adequate P-only law-object construction.** If predictive and interventional performance is unchanged, no independent I→P role has been established.
 
 **Flatten typed spaces into one geometry.** If nothing changes, the layer distinction may be decorative. If flattening creates false comparisons or shortcuts, typed structure is load-bearing.
 
@@ -468,7 +506,7 @@ The proposal is weakened or rejected if:
 10. no test can distinguish the relevant MKUFT branch from stronger existing models;
 11. state-space dimension, layer address and physical dimension are collapsed;
 12. recovery comparisons lack a norm/statistic, tolerance and regime;
-13. the admissible P-domain cannot be operationally separated from an adequate P-only domain/boundary/history model where independent I→P dynamics are claimed;
+13. the active P-law object cannot be operationally separated from an adequate P-only state/history/boundary/environment model where independent I→P dynamics are claimed;
 14. O is used to manufacture P-dynamics without a physical or independently tested coupling.
 
 ## 15. Immediate research programme after architectural closure
@@ -478,7 +516,7 @@ The capstone changes the next question. The task is no longer to invent a generi
 ### Quantum branch
 
 1. Choose the smallest physical system in which domain/boundary selection is mathematically exact and experimentally controllable.
-2. Define the standard P-only domain and generator.
+2. Define the standard P-only law object.
 3. Specify the candidate relational variable and whether it predicts a change in domain, transition rule or weighting.
 4. Demonstrate the standard quantum limit first, including positivity/unitarity or complete positivity and no-signalling where applicable.
 5. Test whether the candidate I-variable supplies held-out/interventional content beyond the adequate P-state/history/boundary model.
@@ -487,7 +525,7 @@ The capstone changes the next question. The task is no longer to invent a generi
 ### Gravitational branch
 
 1. Identify the addressed constraint/domain object corresponding to admissible gravitational initial/boundary data.
-2. Specify how the deeper relational architecture is proposed to generate or restrict that domain.
+2. Specify how the deeper relational architecture is proposed to construct or restrict the gravitational law object.
 3. Recover Einstein/ADM dynamics or an experimentally equivalent limit.
 4. State a prospective deviation or scaling relation that distinguishes the branch from GR/EFT and other strong alternatives.
 
@@ -501,9 +539,9 @@ It proposes that the attempt to unify them may begin one layer too late.
 
 The central architectural claim is now sharper than in the original proposal:
 
-> **Before asking what law governs an object, determine the addressed domain in which that object and its admissible transitions are defined. Relation and context may be load-bearing by selecting that domain; the physical law then acts on it; measurement/registration produces a P/O outcome; and the realised path readdresses the next effective possibility object.**
+> **Before asking what law governs an object, establish the complete addressed state and the admissibility structure that makes a particular physical law object applicable. Relation and context may be load-bearing by selecting the domain and, only where independently demonstrated, by changing the transition or weighting structure; physical dynamics then run under that law object; measurement produces a physical P-state change plus O-record where applicable; and the realised path readdresses what can happen next.**
 
-The SIPO drivetrain is therefore no longer an unnamed arrow in the live canon. What remains is the harder physical programme: instantiate the domain-selection map and P-law in concrete regimes, derive established quantum and gravitational limits, and determine whether any independently specified I-variable adds real predictive content beyond the strongest physical account.
+The SIPO drivetrain is therefore no longer an unnamed arrow in the live canon. What remains is the harder physical programme: instantiate the law assembler in concrete regimes, derive established quantum and gravitational limits, and determine whether any independently specified I-variable adds real predictive content beyond the strongest physical account.
 
 ## References and internal dependencies
 
