@@ -276,7 +276,55 @@ Provenance, evidence, licence, causation, authority, responsibility, units, and 
 
 Canonical owners: Modules 22 and 22A.
 
-## 9. LUCY
+## 9. Recursive constraint closure and reachable-state geometry
+
+For adaptive systems whose relevant variables, admissible operations, decoder, or update rule may change, Module 32 uses addressed state-space families rather than assuming that every update occurs inside one fixed coordinate system.
+
+Let
+
+$$
+\mathfrak X
+=
+\bigsqcup_{\alpha\in A}
+\{\alpha\}\times\mathcal X_\alpha.
+$$
+
+A schematic adaptive update is
+
+$$
+\mathfrak F_t(\mathfrak A_t,u_t)
+=
+(\alpha_{t+1},x_{t+1})
+\in\mathfrak X.
+$$
+
+When $\alpha_{t+1}\neq\alpha_t$, direct subtraction or state equivalence requires a lawful translation, embedding, quotient, or common observable. Construction-address change is not silently treated as motion inside one fixed space.
+
+The recursive candidate is:
+
+```text
+previous organisation
+→ consolidated typed constraints
+→ changed admissibility
+→ changed reachable states / capabilities
+→ updated organisation
+```
+
+A scale-separated enabling-constraint pattern can occur when lower-scale feasible-state volume decreases while higher-scale viable capability increases:
+
+$$
+\Delta\mu_\ell<0,
+\qquad
+\Delta\nu_L>0,
+$$
+
+provided each before/after difference is defined in a common declared comparison space. This is not a universal monotonic law. Overconstraint can reduce both quantities, and constraint count is not a proxy for coherence, agency, or freedom.
+
+Recurrent architecture across domains supports a stronger comparison only when the recurrent **constraint relation and function** survive typed equivalence tests. Shape alone is insufficient.
+
+Canonical owner: [`docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md`](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md).
+
+## 10. LUCY
 
 LUCY means **Local Unified Coherence Yield**.
 
@@ -313,9 +361,9 @@ LUCY-2 = sustained local region, when present
 
 These are conditional downstream morphologies, not automatic consequences of every LUCY crossing.
 
-Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 30.
+Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 30. Module 32 supplies a structural adaptive-constraint comparison but does not establish the I→P crossing or a physical LUCY mechanism.
 
-## 10. Observer and procedural support modules
+## 11. Observer and procedural support modules
 
 ### OCQS
 
@@ -333,7 +381,7 @@ ESRT/ESF test whether an artefact or representation contains reproducible **addr
 
 The Voynich branch is an applied procedural hypothesis. It must compete with linguistic, cipher, scribal, decorative, mnemonic, diagrammatic, and null models under blinded, quantitative, held-out tests. It is not evidence for foundational MKUFT physics.
 
-## 11. Foundational physics — Layer Before Law
+## 12. Foundational physics — Layer Before Law
 
 The foundational proposal asks whether quantum and gravitational effective behaviour may arise from a deeper typed update architecture rather than being fundamental objects at the same descriptive layer.
 
@@ -358,7 +406,7 @@ A developed mechanism must recover:
 
 If those burdens are not met, the branch remains an architectural reframing or interpretation rather than completed unification.
 
-## 12. Experimental and promotion discipline
+## 13. Experimental and promotion discipline
 
 A broad interesting effect is not automatically an MKUFT result.
 
@@ -379,19 +427,19 @@ A branch is reduced or removed when its variables cannot be operationalised, sim
 
 Canonical owners: Modules 04, 05, 27, 28, and 29.
 
-## 13. Metaphysical boundary
+## 14. Metaphysical boundary
 
 MKUFT contains a wider metaphysical interpretation in which God and Love may have explicit philosophical roles. Those roles are not inserted into physical equations as unmeasured variables and cannot rescue a failed empirical claim.
 
 Scientific claims remain answerable to the variables, measurements, alternatives, and falsifiers of the domain in which they are made.
 
-## 14. Public integrity boundary
+## 15. Public integrity boundary
 
 The public canon must not contain non-public personal data, private correspondence, credentials, internal-only operating instructions, or uncleared personal case material.
 
 Development-stage context should be translated into a public invariant or retired rather than published merely because it helped discovery.
 
-## 15. One-page compression
+## 16. One-page compression
 
 ```text
 S–I–P–O:
@@ -421,6 +469,13 @@ M_t = A_t,vol R_t X_t
 Layer address:
 K_L = A_L(K;θ_L)
 
+Adaptive addressed space:
+𝔛 = ⨆_α ({α} × 𝒳_α)
+𝔉_t(𝔄_t,u_t) = (α_(t+1),x_(t+1)) ∈ 𝔛
+
+Enabling-constraint pair, when comparable:
+Δμ_ℓ < 0 while Δν_L > 0
+
 LUCY:
 Y_L = χ_L ||∇τ_L||²/(N_L+ε_L)
 Y_L ≥ Y_*
@@ -429,7 +484,7 @@ Integrity:
 Define once. Type the address. Test the coupling. Recover the baseline. Keep the falsifier.
 ```
 
-## 16. Final statement
+## 17. Final statement
 
 MKUFT should not read as a pile of similarities.
 
