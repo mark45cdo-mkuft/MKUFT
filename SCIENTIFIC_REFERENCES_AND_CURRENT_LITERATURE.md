@@ -86,8 +86,10 @@ These are scientific neighbours for threshold, criticality, and coherence langua
 - Levin, M. (2012). “Molecular bioelectricity in developmental biology.” *Development* 139, 313–326.
 - Levin, M. (2021). “Bioelectric signaling: Reprogrammable circuits underlying embryogenesis, regeneration, and cancer.” *Cell* 184, 1971–1989.
 - Friston, K. (2010). “The free-energy principle: a unified brain theory?” *Nature Reviews Neuroscience* 11, 127–138.
+- Guruciaga, P. C. et al. (2026). “Boundary geometry controls a topological defect transition that determines lumen nucleation in embryonic development.” *Nature Materials* 25, 1278–1287. DOI 10.1038/s41563-026-02594-7.
+- Schone, H. R. et al. (2025). “Stable cortical body maps before and after arm amputation.” *Nature Neuroscience* 28, 2015–2021. DOI 10.1038/s41593-025-02037-7.
 
-These fields provide domain-specific examples of constraint, feedback, distributed control, state transitions, and multiscale organisation. They are structural neighbours and comparison sources, not evidence that biology and foundational physics share one mechanism.
+These fields provide domain-specific examples of constraint, feedback, distributed control, state transitions, multiscale organisation, boundary-conditioned interior address, and persistence of higher-order physical representation after removal of a physical endpoint. They are structural neighbours and comparison sources, not evidence that biology and foundational physics share one mechanism.
 
 ## 9. Constraint closure, semantic closure, and changing possibility spaces
 
@@ -103,7 +105,18 @@ This literature is close prior and adjacent work for Module 32. It establishes n
 
 The narrower MKUFT question is whether its typed address discipline, changing-space comparison guard, endogenous-admissibility scaffold, scale-separated feasible-state/capability test, strongest-fair-null methodology, and independent-content I→P boundary form a useful discriminating conjunction. That conjunction must still outperform simpler fixed-space, standard control, learning, developmental, or evolutionary descriptions before stronger novelty is claimed.
 
-## 10. Evidence and claim standard
+## 10. Local-to-global consistency, semantic intervention, information conversion, and holographic comparators
+
+- Robinson, M. (2018). “Assignments to sheaves of pseudometric spaces.” arXiv:1805.08927. Introduces a consistency radius for local assignments and studies robust consistency filtrations.
+- Kolchinsky, A., and Wolpert, D. H. (2018). “Semantic information, autonomous agency and non-equilibrium statistical physics.” *Interface Focus* 8:20180041. DOI 10.1098/rsfs.2018.0041.
+- Varley, T. F., and Hoel, E. (2022). “Emergence as the conversion of information: a unifying theory.” *Philosophical Transactions of the Royal Society A* 380:20210150. DOI 10.1098/rsta.2021.0150.
+- Huang, L., Chen, X., Mühlenbernd, H. et al. (2013). “Three-dimensional optical holography using a plasmonic metasurface.” *Nature Communications* 4:2808. DOI 10.1038/ncomms3808.
+
+These sources remove broad novelty claims for local-to-global compatibility, sheaf-style consistency, causal semantic scrambling, macro-scale information conversion/synergy, and distributed optical phase reconstruction.
+
+For Module 32S3, their value is primarily **constraint and comparator**. The live MKUFT question is narrower: whether a typed completion set for a missing/unobserved address, persistent mismatch exposure, scale promotion, and an I→P transition-kernel/support assay form a useful operational extension of the existing addressed reachable-state framework. A successful structural fit remains P-layer or mathematical evidence unless an independent I variable survives the adequate physical-state/history null.
+
+## 11. Evidence and claim standard
 
 For each cited neighbour, ask:
 
@@ -115,22 +128,24 @@ For each cited neighbour, ask:
 
 A changing literature can change the scientific context of an MKUFT branch. The public claim must change with it rather than preserving an outdated comparison.
 
-## 11. Closely related MKUFT documents
+## 12. Closely related MKUFT documents
 
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 - [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
 - [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 - [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 - [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
+- [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
+- [Module 32 Novelty Audit and Contribution Boundary](docs/32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md)
 - [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 - [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-## 12. MKUFT publications
+## 13. MKUFT publications
 
 - McLaughlin, M. C. *Unified Field Theory. McLaughlin–Kairos. MKUFT*. DOI 10.5281/zenodo.17780566.
 - McLaughlin, M. C. (2026). *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*. Version DOI 10.5281/zenodo.21341521; concept DOI 10.5281/zenodo.21341520.
 
-## 13. Boundary statement
+## 14. Boundary statement
 
 Neighbouring work makes the MKUFT research direction scientifically addressable; it does not validate the framework.
 
