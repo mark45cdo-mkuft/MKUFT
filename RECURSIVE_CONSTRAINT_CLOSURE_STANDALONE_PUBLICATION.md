@@ -22,6 +22,7 @@ The following same-day modules are **later live-canon refinements** and are not 
 - [32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 - [32S4 — Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 - [33 — SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
+- [33S1 — Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 
 They may be incorporated into a later frozen manuscript only by creating and identifying that later version explicitly. Citation of preprint v0.1 does not by itself imply that these later equations, tests, or claims were present in the v0.1 object.
 
@@ -49,7 +50,7 @@ The dated formulation claim is narrower:
 
 > By 15 August 2026, Mark Charles McLaughlin had publicly formulated the specific addressed recursive-constraint/reachable-state synthesis stated in the standalone preprint and Module 32, including its comparison guards, scale-separated observables, endogenous admissibility scaffold, relation-typed recurrence test, controlled-deformation programme, and physical-null / I→P boundary, subject to any earlier equivalent prior art later identified.
 
-Later Module 32 supplements and Module 33 retain their own later Git chronology and contribution boundaries. Their existence strengthens the evolving live canon but does not alter the content or timestamp of the first preprint object.
+Later Module 32 supplements, Module 33, and Module 33S1 retain their own later Git chronology and contribution boundaries. Their existence strengthens the evolving live canon but does not alter the content or timestamp of the first preprint object.
 
 This is a provenance and scientific-priority statement. It is not a patent grant, and it does not claim ownership of abstract scientific principles or mathematical relationships as such.
 
