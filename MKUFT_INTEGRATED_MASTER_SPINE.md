@@ -322,7 +322,44 @@ provided each before/after difference is defined in a common declared comparison
 
 Recurrent architecture across domains supports a stronger comparison only when the recurrent **constraint relation and function** survive typed equivalence tests. Shape alone is insufficient.
 
-Canonical owner: [`docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md`](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md).
+### 9.1 Relational brackets and compatible completion
+
+Module 32S3 gives the local-to-global part of the same architecture an explicit compatibility object. A relational bracket records overlapping addressed domains, their local state spaces, restriction/translation maps, and typed compatibility tests.
+
+For a missing or unobserved address `U_k`, the compatible completion set is schematically
+
+$$
+\Omega_{k,t}^{\mathrm{comp}}(a_{-k})
+=
+\left\{
+x\in\mathcal F_t(U_k):
+\chi_B(a_{-k}\cup\{x\})=1
+\right\}.
+$$
+
+This separates three cases that must not be flattened: a narrowly constrained missing address, a broad ambiguous completion space, and an incompatible/disordered absence for which no tested completion satisfies the bracket.
+
+The same supplement introduces a typed constraint-to-admissibility grammar
+
+$$
+\mathcal Q_{\lambda,t}(r,x,h)
+=
+\Omega_{\lambda,t}^{\mathrm{adm}},
+$$
+
+which can represent compatible completion, ordinary reachable-state restriction, and a candidate I→P admissibility test without asserting that all domains share one physical mechanism.
+
+At the I→P boundary, the empirical question can be posed through a physical transition kernel
+
+$$
+K_P(dp_{t+\Delta}\mid p_t,H_t^P,i_t)
+$$
+
+and a preregistered relation deformation. A non-zero relational effect can remain fully P-realised. Independent I→P dynamics still require predictive or interventional content beyond the strongest adequate P-state/history model.
+
+Stable local compatibility is not itself a scale transition. Promotion to an effective higher-scale object still requires the Module 32S persistence, intervention, new-capability, predictive-compression, and boundary-specificity tests.
+
+Canonical owners: [`docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md`](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [`docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md`](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md), [`docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md`](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md), [`docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md`](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md), and [`docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md`](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md).
 
 ## 10. LUCY
 
@@ -361,7 +398,7 @@ LUCY-2 = sustained local region, when present
 
 These are conditional downstream morphologies, not automatic consequences of every LUCY crossing.
 
-Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 30. Module 32 supplies a structural adaptive-constraint comparison but does not establish the I→P crossing or a physical LUCY mechanism.
+Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 30. Module 32 supplies a structural adaptive-constraint comparison, and Module 32S3 supplies a typed completion/admissibility test at the I→P boundary; neither establishes the I→P crossing or a physical LUCY mechanism.
 
 ## 11. Observer and procedural support modules
 
@@ -472,6 +509,12 @@ K_L = A_L(K;θ_L)
 Adaptive addressed space:
 𝔛 = ⨆_α ({α} × 𝒳_α)
 𝔉_t(𝔄_t,u_t) = (α_(t+1),x_(t+1)) ∈ 𝔛
+
+Relational completion:
+Ω_k,comp(a_-k) = {x ∈ 𝓕(U_k) : χ_B(a_-k ∪ {x}) = 1}
+
+Constraint-to-admissibility:
+𝒬_(λ,t)(r,x,h) = Ω_(λ,t)^adm
 
 Enabling-constraint pair, when comparable:
 Δμ_ℓ < 0 while Δν_L > 0
