@@ -30,9 +30,9 @@ The corrected distinction is:
 
 > The self-address can also change. Do not assume the same self merely because the substrate persists.
 
-## 2. Operational individuality address and self-state space
+## 2. Operational individuality address and joint self-state space
 
-Let a lower-scale physical state be
+Let the system state be
 
 $$
 x_t\in\mathcal X_{\alpha_t},
@@ -47,6 +47,18 @@ g_t^{SE}\in\mathcal G_t^{SE}
 $$
 
 denote the realised typed coupling state between candidate system $S$ and relevant environment $E$. It may contain exchange, sensing, action, adhesion, boundary, regulatory, or other domain-appropriate relations. It is not a new physical layer.
+
+Define the joint realised state
+
+$$
+z_t=(x_t,g_t^{SE})
+\in
+\mathcal Z_t,
+\qquad
+\mathcal Z_t
+=
+\mathcal X_{\alpha_t}\times\mathcal G_t^{SE}.
+$$
 
 Let
 
@@ -78,18 +90,13 @@ The corresponding operational self-state space is
 $$
 \mathcal S_t
 =
-\left(
-\mathcal X_{\alpha_t}\times\mathcal G_t^{SE}
-\right)
-/\!\sim_t^{\mathrm{state}},
+\mathcal Z_t/\!\sim_t^{\mathrm{state}},
 $$
 
 and the realised operational self-state is
 
 $$
-s_t
-=
-[(x_t,g_t^{SE})]_{\sim_t^{\mathrm{state}}}
+s_t=[z_t]_{\sim_t^{\mathrm{state}}}
 \in\mathcal S_t.
 $$
 
@@ -176,30 +183,40 @@ If no lawful continuation map or identity-bearing invariant can be supplied, the
 
 > Same substrate is not same self. Same name is not same self. Same components are not same self. Prove the continuation relation at the address where identity is claimed.
 
-## 4. Identity-relative reachable set
+## 4. Joint reachable set and identity-relative reach
+
+Module 32 defines reach on the addressed adaptive system. When a claim makes system–environment coupling constitutive, the reachable object must include the coupling state rather than silently projecting it away.
 
 Let
 
 $$
-\mathcal V_{\sigma_t}\subseteq\mathcal X_{\alpha_t}
+\widehat{\mathcal R}_t(z_t)
+\subseteq\mathcal Z_t
 $$
 
-be the lower-realisation set compatible with persistence of the individuality class specified by $\sigma_t$.
+be the declared reachable set of joint system–environment realisations under the coupled dynamics used by the implementation.
 
-Define
+Let
 
 $$
-\mathcal R^{\mathrm{id}}_{\sigma_t}(x_t)
+\mathcal V_{\sigma_t}\subseteq\mathcal Z_t
+$$
+
+be the joint realisation set compatible with persistence of the individuality class specified by $\sigma_t$. Define
+
+$$
+\mathcal R^{\mathrm{id}}_{\sigma_t}(z_t)
 =
-\left\{
- x'\in\mathcal R_t(x_t):
- x'\in\mathcal V_{\sigma_t}
-\right\}.
+\widehat{\mathcal R}_t(z_t)
+\cap
+\mathcal V_{\sigma_t}.
 $$
 
-This contains states reachable without leaving the declared individuality class under the active boundary, coupling, maintenance and viability conditions.
+This contains joint states reachable without leaving the declared individuality class under the active boundary, coupling, maintenance and viability conditions.
 
-A lower-scale variable may therefore remain physically present while becoming impossible to vary independently inside this identity-relative set.
+A lower-scale internal variable or a system–environment relation may therefore remain physically present while becoming impossible to vary independently inside this identity-relative set.
+
+If the implementation has no justified coupled dynamics for $g^{SE}$, it may fall back to Module 32's system-only reachable set, but it must then **not** make quantitative claims about independent addressability of environment-coupling relations.
 
 If the before/after addresses fail address-class parity, the old and new reachable sets must not be compared as though one fixed individuality class had silently persisted.
 
@@ -208,24 +225,30 @@ If the before/after addresses fail address-class parity, the old and new reachab
 Let
 
 $$
+I_i:\mathcal Z_t\rightarrow\mathcal Y_i
+$$
+
+be a declared internal, boundary, or system–environment relation-coordinate, and let
+
+$$
 \mathcal A_\ell(t)=\{I_1,I_2,\ldots,I_n\}
 $$
 
-be the declared lower-scale relations or variables that were independently addressable before consolidation.
+be the family independently addressable before consolidation.
 
 For tolerance pair $(\varepsilon_i,\delta_{\sigma})$, call $I_i$ **independently addressable under individuality address $\sigma_t$** when there exist
 
 $$
-x',x''\in\mathcal R^{\mathrm{id}}_{\sigma_t}(x_t)
+z',z''\in\mathcal R^{\mathrm{id}}_{\sigma_t}(z_t)
 $$
 
 such that
 
 $$
-\left\lVert I_i(x')-I_i(x'')\right\rVert>\varepsilon_i,
+\left\lVert I_i(z')-I_i(z'')\right\rVert>\varepsilon_i,
 $$
 
-while the other declared identity-bearing variables required to remain fixed for the test vary by no more than $\delta_{\sigma}$.
+while the other declared identity-bearing observables required to remain fixed for the test vary by no more than $\delta_{\sigma}$.
 
 Define
 
@@ -286,25 +309,25 @@ This is the **same-self parity extension** of Module 32's no-false-subtraction r
 Suppose a lower-scale action or movement set before consolidation is
 
 $$
-\mathcal U_{\ell}^{\mathrm{self}}(x).
+\mathcal U_{\ell}^{\mathrm{self}}(z).
 $$
 
 Under a higher-scale organisation with individuality address $\sigma_L$, the identity-compatible subset may be
 
 $$
-\mathcal U_{\ell\mid\sigma_L}^{\mathrm{self}}(x)
+\mathcal U_{\ell\mid\sigma_L}^{\mathrm{self}}(z)
 =
-\mathcal U_{\ell}^{\mathrm{self}}(x)
+\mathcal U_{\ell}^{\mathrm{self}}(z)
 \cap
-\mathcal U_{\sigma_L}^{\mathrm{adm}}(x),
+\mathcal U_{\sigma_L}^{\mathrm{adm}}(z),
 $$
 
 with
 
 $$
-\mathcal U_{\ell\mid\sigma_L}^{\mathrm{self}}(x)
+\mathcal U_{\ell\mid\sigma_L}^{\mathrm{self}}(z)
 \subsetneq
-\mathcal U_{\ell}^{\mathrm{self}}(x).
+\mathcal U_{\ell}^{\mathrm{self}}(z).
 $$
 
 The excluded routes are not necessarily physically impossible in isolation. They are inaccessible **while remaining within the organised identity class being tested**.
