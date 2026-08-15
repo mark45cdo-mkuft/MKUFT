@@ -10,7 +10,7 @@
 **Novelty boundary:** [32A — Module 32 Novelty Audit and Contribution Boundary](32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md)  
 **Public formulation date:** 15 August 2026  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
-**Status:** canonical formal refinement of the Module 32 family. It supplies a local-to-global compatibility scaffold, a completion-set definition for relationally constrained absence, a temporal mismatch measure, and a sharper operational form of the I→P admissibility question. It does not establish an independent information layer, holographic biology, consciousness, a new force, or a universal law of emergence.
+**Status:** canonical formal refinement of the Module 32 family. It supplies a local-to-global compatibility scaffold, a completion-set definition for relationally constrained absence, a fiber/quotient scale-handoff representation, a temporal mismatch measure, and a sharper operational form of the I→P admissibility question. It does not establish an independent information layer, holographic biology, consciousness, a new force, or a universal law of emergence.
 
 ## 1. Purpose
 
@@ -80,12 +80,18 @@ $$
 
 This notation is deliberately **sheaf-compatible**, but the object must not be called a sheaf merely because restriction maps are written. Exact sheaf language is licensed only when the required locality and gluing axioms are actually satisfied by the implementation.
 
+Define the full local-assignment space
+
+$$
+\mathcal L_t
+=
+\prod_{i=1}^{n}\mathcal F_t(U_i).
+$$
+
 A local assignment is
 
 $$
-a_t=(a_1,\ldots,a_n),
-\qquad
-a_i\in\mathcal F_t(U_i).
+a_t=(a_1,\ldots,a_n)\in\mathcal L_t.
 $$
 
 For each tested overlap `U_sigma`, define a compatibility residual
@@ -123,6 +129,23 @@ e_\sigma(a_t)\leq\varepsilon_\sigma
 $$
 
 This componentwise object is primary. Different residuals must not be summed merely because they are numbers.
+
+The bracket therefore selects a **compatible assignment region**
+
+$$
+\boxed{
+\mathfrak C_{B,t}
+=
+\left\{
+a\in\mathcal L_t:
+\chi_B(a)=1
+\right\}
+\subseteq
+\mathcal L_t.
+}
+$$
+
+Here `\mathfrak C_(B,t)` denotes the compatibility region selected by the bracket; it is not Module 32's typed constraint family `\mathcal C_t`.
 
 For reporting, retain the typed residual vector
 
@@ -175,7 +198,7 @@ $$
 
 where `Theta_t` contains declared tolerances, normalisations, and comparison rules.
 
-The bracket is therefore not a container drawn around an object. It is the addressed architecture that states **which local descriptions overlap, how they are translated onto shared domains, and what counts as compatible there**.
+The bracket is therefore not a container drawn around an object. It is the addressed architecture that states **which local descriptions overlap, how they are translated onto shared domains, and what counts as compatible there**. Its immediate geometric output is the compatible region `\mathfrak C_(B,t)` inside the product of local state spaces.
 
 ## 3. Completion geometry — formalising a relationally specified absence
 
@@ -260,13 +283,55 @@ x\in\mathcal F_t(U_k):
 }
 $$
 
+### 3.1 Fiber form of the completion set
+
+Let
+
+$$
+\pi_{-k}:\mathcal L_t
+\rightarrow
+\prod_{i\neq k}\mathcal F_t(U_i)
+$$
+
+be the projection that forgets coordinate `k`, and let
+
+$$
+\pi_k:\mathcal L_t\rightarrow\mathcal F_t(U_k)
+$$
+
+be the coordinate-`k` projection.
+
+When the retained background is compatible, the full bracket gives the completion **fiber**
+
+$$
+\mathfrak F_{k,t}(a_{-k})
+=
+\mathfrak C_{B,t}
+\cap
+\pi_{-k}^{-1}(a_{-k}).
+$$
+
+The compatible completion set is then the missing-coordinate image of that fiber:
+
+$$
+\boxed{
+\Omega_{k,t}^{\mathrm{comp}}(a_{-k})
+=
+\pi_k\!\left(
+\mathfrak F_{k,t}(a_{-k})
+\right).
+}
+$$
+
+This is a standard fiber/projection construction, not new mathematics. Its value here is that `negative space` becomes a precise conditional geometry: **hold the retained relational address fixed and ask what values remain admissible in the missing coordinate.**
+
 If the retained background is already incompatible,
 
 $$
 \chi_{B,-k}(a_{-k})=0,
 $$
 
-a local missing-address inference is confounded: an empty or distorted completion set cannot be attributed cleanly to the missing coordinate because unrelated bracket relations are already failing.
+a local missing-address inference is confounded: an empty or distorted full fiber cannot be attributed cleanly to the missing coordinate because unrelated bracket relations are already failing.
 
 If
 
@@ -276,13 +341,9 @@ $$
 
 the current cover supplies no overlap constraint on `U_k`; the address is locally unconstrained by this bracket rather than positively specified.
 
-The completion object asks a precise negative-space question:
-
-> Given a compatible retained background, what could occupy this address without violating the declared relations that actually touch that address?
-
 Several cases must remain distinct.
 
-### 3.1 Narrow compatible absence
+### 3.2 Narrow compatible absence
 
 If
 
@@ -294,7 +355,7 @@ and its declared diameter or uncertainty is small, the surrounding organisation 
 
 This supports the statement **relational address persists under occupant removal** only at the tested scale and tolerance. It does not establish a non-physical object occupying the missing region.
 
-### 3.2 Broad compatible absence
+### 3.3 Broad compatible absence
 
 If the completion set is large, the surrounding relations preserve an address but leave substantial unresolved freedom about what can fill it.
 
@@ -315,7 +376,7 @@ $$
 
 A large value is not `more information`; it is greater unresolved completion volume under the declared measure.
 
-### 3.3 Incompatible or disordered absence
+### 3.4 Incompatible or disordered absence
 
 If the retained background is compatible but
 
@@ -602,9 +663,17 @@ A useful promotion test is therefore whether mismatch exposure adds held-out pre
 
 This keeps the exploratory idea of accumulated unresolved mismatch without declaring a universal `constraint debt` law.
 
-## 9. Readout and scale promotion
+## 9. Fiber–quotient scale handoff: zoom in and zoom out on the same compatibility geometry
 
 A local-to-global relational structure can be mathematically compressible without being a new endogenous physical object. Readout and promotion must therefore remain separate.
+
+Section 3 used a **fiber** to ask a zoom-in question:
+
+> Holding the retained coordinates fixed, what values remain admissible at the missing coordinate?
+
+A scale readout asks the complementary zoom-out question:
+
+> Which lower-scale compatible assignments are equivalent for the declared higher-scale observable?
 
 Let a declared readout or coarse-graining map be
 
@@ -612,12 +681,12 @@ $$
 R_{\ell\rightarrow L}:
 \operatorname{Dom}(R_{\ell\rightarrow L})
 \subseteq
-\prod_i\mathcal F_\ell(U_i)
+\mathfrak C_{B,\ell}
 \longrightarrow
 \mathcal Y_L.
 $$
 
-For admissible assignment `a_ell`, a candidate higher-scale state is
+For compatible assignment `a_ell`, a candidate higher-scale state is
 
 $$
 y_L
@@ -637,7 +706,17 @@ $$
 
 or a tolerance-based analogue where exact equality is inappropriate.
 
-This alone may describe only the observer's compression. A higher-scale **effective object** is promoted only when the Module 32S tests also pass: persistence, interventional load-bearingness, new viable capability, predictive compression, and boundary/closure specificity.
+The corresponding quotient
+
+$$
+\mathfrak C_{B,\ell}/\!\sim_R
+$$
+
+collects lower-scale compatible assignments that are indistinguishable under that declared higher-scale readout.
+
+This is standard quotient mathematics, not a claim that the quotient is automatically a physically autonomous object. Observer-side compression alone is insufficient.
+
+A higher-scale **effective object** is promoted only when the Module 32S tests also pass: persistence, interventional load-bearingness, new viable capability, predictive compression, and boundary/closure specificity.
 
 When those tests pass, let
 
@@ -649,10 +728,12 @@ denote the promoted effective object. The recursive handoff may be written schem
 
 $$
 \boxed{
-\left(\mathfrak B_\ell,a_\ell\right)
-\xrightarrow[
-\text{stable closure + promotion tests}
-]{R_{\ell\rightarrow L}}
+\mathcal L_\ell
+\supseteq
+\mathfrak C_{B,\ell}
+\longrightarrow
+\mathfrak C_{B,\ell}/\!\sim_R
+\xrightarrow{\text{promotion tests}}
 O_L.
 }
 $$
@@ -674,15 +755,32 @@ $$
 \mathcal X_{L^+}^{\mathrm{const}}.
 $$
 
-The embedded whole can then participate in the state or relation family from which the next bracket `\mathfrak B_{L^+}` is constructed. It is not literally an element of the bracket tuple by notation alone.
+The embedded whole can then participate in the state or relation family from which the next bracket `\mathfrak B_{L^+}` is constructed.
 
-This is the formal version of the recursive statement:
+The recursive scale grammar is therefore:
 
 ```text
-lower-scale relations close
-→ a higher-scale effective object becomes addressable
-→ that whole becomes one typed participant in the next relational architecture
+local state product
+→ compatible relational subset
+→ quotient under a declared higher-scale readout
+→ effective-object promotion when earned
+→ typed constituent in the next relational bracket
 ```
+
+while the complementary zoom-in query is:
+
+```text
+compatible relational subset
+→ fix retained coordinates
+→ take a projection fiber
+→ recover the admissible completion set of the missing coordinate
+```
+
+The **fiber and quotient are not two mechanisms**. They are two mathematical views of the same compatibility geometry: one conditions on retained coordinates; the other identifies lower-scale distinctions that do not matter to a declared higher-scale readout.
+
+This gives a precise version of the recursive scale intuition:
+
+> **what is a whole under one readout can become one typed participant in the next-scale relational architecture without its lower-scale structure ceasing to exist.**
 
 The recursion is asserted only across scales for which the promotion tests pass. It is not assumed to continue without bound.
 
@@ -766,7 +864,7 @@ Restore or allow the region to repopulate. The realised completion should fall i
 
 ### 12.3 Surrounding-relation deformation
 
-Preserve the candidate occupant state while changing selected surrounding relations. If the completion/address claim is correct, the admissible completion set or later realised state should deform in the predicted direction.
+Preserve the candidate occupant state while changing selected surrounding relations. If the completion/address claim is correct, the admissible completion fiber or later realised state should deform in the predicted direction.
 
 ### 12.4 Higher-order overlap test
 
@@ -784,16 +882,16 @@ Construct `i` and `i_tilde` so that as much carrier-specific and lower-order phy
 
 Where a system is explicitly claimed to have holographic/distributed reconstruction structure, predeclare its analogue of local masking, phase deformation, and reconstruction readout. Compare the measured degradation pattern with the predicted transform response and with simpler distributed-network alternatives.
 
-### 12.8 Scale-promotion test
+### 12.8 Scale-promotion and quotient test
 
-Do not promote a low-residual bracket to a higher-scale object unless the complete Module 32S effective-unit test passes. Observer-side compression alone is insufficient.
+Do not promote a useful quotient/readout to a higher-scale object unless the complete Module 32S effective-unit test passes. Compare the proposed quotient against alternative coarse-grainings: an endogenous higher-scale object should earn predictive/interventional status beyond an arbitrary observer-side compression.
 
 ## 13. Failure and reduction conditions
 
 Reduce this refinement if:
 
 - local variables predict the tested outcome as well as the overlap/compatibility architecture;
-- completion sets fail to predict lawful occupancy, regeneration, recovery, or held-out state resolution;
+- completion fibers fail to predict lawful occupancy, regeneration, recovery, or held-out state resolution;
 - unrelated background inconsistency is mistaken for failure of the missing-address completion;
 - the result depends on an arbitrary cover, coordinate system, or encoding and fails representation-preserving translation;
 - pairwise relations explain the phenomenon and the proposed higher-order overlap adds no predictive value;
@@ -801,7 +899,7 @@ Reduce this refinement if:
 - relation scrambling produces no predicted physical or functional change;
 - a claimed causal I→P result cannot separate the relation change from uncontrolled P-layer changes;
 - the I variable is fully reducible to an adequate P-state/history description where independent I→P dynamics were claimed;
-- a proposed readout is only observer coarse-graining and adds no endogenous interventional or predictive value;
+- a proposed quotient/readout is only observer coarse-graining and adds no endogenous interventional or predictive value;
 - a holographic claim fails the preregistered transform/deformation response or is explained equally well by a simpler distributed system;
 - scale recurrence survives only as visual resemblance or naming rather than typed relation and deformation equivalence.
 
@@ -815,14 +913,15 @@ Relevant neighbouring work includes:
 
 - nerve constructions and local-to-global topology, which relate cover intersections to global topological information under explicit hypotheses;
 - sheaf theory and approximate consistency of local assignments, including Michael Robinson's consistency-radius framework for noisy assignments;
+- standard fiber, projection, quotient, coarse-graining, and equivalence-class constructions;
 - intervention-based semantic information, including Kolchinsky and Wolpert's causal-scrambling approach;
 - causal emergence and information conversion across scales, including Varley and Hoel's treatment of macro-scale synergy;
 - optical holography and phase encoding/reconstruction;
-- established coarse-graining, quotient, constraint-closure, morphogenetic, and systems-biology methods.
+- established constraint-closure, morphogenetic, and systems-biology methods.
 
 The candidate MKUFT contribution is narrower:
 
-> integrate addressed changing-state-space discipline, load-bearing relation tests, local-to-global completion geometry, persistent mismatch exposure, scale promotion, and the I→P physical-null boundary into one operational audit in which `relationally specified absence` and `changed physical admissibility` are tested by the same typed constraint-to-admissibility grammar.
+> integrate addressed changing-state-space discipline, load-bearing relation tests, local-to-global completion fibers, quotient-based scale readout with separate promotion tests, persistent mismatch exposure, and the I→P physical-null boundary into one operational audit in which `relationally specified absence` and `changed physical admissibility` are tested by the same typed constraint-to-admissibility grammar.
 
 Historical priority for that exact integration is not asserted without broader literature review. Module 32A owns the evolving novelty audit.
 
@@ -838,6 +937,8 @@ Historical priority for that exact integration is not asserted without broader l
 ## 16. Compressed rules
 
 > **The bracket is not the missing object. It is the addressed compatibility architecture that constrains what could occupy or follow from the current relations.**
+
+> **The compatible assignments form a subset of the product of local state spaces. A missing-address question is a fiber; a scale-readout question is a quotient.**
 
 > **Physically absent does not imply relationally unspecified; relationally specified does not imply physically occupied.**
 
@@ -855,4 +956,4 @@ Historical priority for that exact integration is not asserted without broader l
 
 > **Holography is a deformation-tested physical comparator, not a licence to call every distributed relation holographic.**
 
-> **At every justified scale: relations constrain addressed admissibility; stable closure can become an effective object; that object may then participate in the next bracket.**
+> **At every justified scale: local states enter a compatibility geometry; stable compatible structure can be quotiented into an effective object; when promotion is earned, that object can become one typed constituent of the next bracket.**
