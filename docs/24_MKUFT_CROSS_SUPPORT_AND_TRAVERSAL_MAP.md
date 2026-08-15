@@ -23,11 +23,11 @@ The map is navigation and dependency structure. It does not create evidence, est
 
 ### LUCY and effective geometry
 
-[LUCY Boundary Threshold Framework](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md) → [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
+[LUCY Boundary Threshold Framework](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md) → [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Relational Brackets and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
 
 ### General architecture
 
-[Start Here](../START_HERE_PUBLIC_OVERVIEW.md) → [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) → [Canon Map](../CANON_MAP.md) → [Cross-Support Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) → [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure and Reachable-State Geometry](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
+[Start Here](../START_HERE_PUBLIC_OVERVIEW.md) → [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) → [Canon Map](../CANON_MAP.md) → [Cross-Support Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) → [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure and Reachable-State Geometry](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Load-Bearing Relation Sets](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) → [Relational Addressability](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) → [Temporal Continuity](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) → [Relational Brackets and Completion Geometry](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
 
 ### AI and typed knowledge architectures
 
@@ -94,9 +94,10 @@ Primary documents:
 - [MKUFT–Dollard Field Geometry Notes](17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md)
 - [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
 - [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
+- [Relational Brackets, Completion Geometry, and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 
-These carry threshold, boundary, selected effective-geometry hypotheses, common-boundary discrimination, typed layer addressing, support-conditioned comparison, units, ordinary physical baselines, and reduction requirements.
+These carry threshold, boundary, selected effective-geometry hypotheses, common-boundary discrimination, typed layer addressing, support-conditioned comparison, completion/admissibility geometry, units, ordinary physical baselines, and reduction requirements.
 
 ### Procedural and Voynich applications
 
@@ -118,9 +119,13 @@ Primary documents:
 - [Fundamental Traversal Coherence Nodes](25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
 - [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
 - [Recursive Constraint Closure and Reachable-State Geometry](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
+- [Load-Bearing Relation Sets and Scale-Transition Tests](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md)
+- [Invariant Persistence, Relational Addressability, and Scale Transition](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md)
+- [Temporal Continuity Kernels and Minimum Identity Horizon](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
+- [Relational Brackets, Completion Geometry, and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 - [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
-These carry matched architecture controls, full-history replay, relationship specificity, relation-level and node-level deformation, same-class deformation checks, adaptive addressed-state comparison, local-feasibility versus higher-scale-capability tests, structural versus empirical load, and the distinction between local performance and wider whole-system integrity.
+These carry matched architecture controls, full-history replay, relationship specificity, relation-level and node-level deformation, same-class deformation checks, adaptive addressed-state comparison, local-feasibility versus higher-scale-capability tests, identity/addressability guards, temporal continuity tests, local-to-global completion geometry, structural versus empirical load, and the distinction between local performance and wider whole-system integrity.
 
 ## Structural nodes and canonical handles
 
@@ -327,6 +332,33 @@ where the first observable measures lower-scale feasible-state volume and the se
 
 The module does not equate constraint count with coherence or freedom, does not infer dynamics from recurrent morphology, and does not establish independent I→P physics unless an additional information-layer relation survives the adequate P-state/history baseline.
 
+### 32S — Load-Bearing Relation Sets and Scale Transition
+
+[Load-Bearing Relation Sets and Scale-Transition Tests](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) makes `load-bearing` an intervention result, distinguishes relation from carrier, keeps lower-scale freedom, higher-scale capability, and cost separate, and gives a promotion test for an organised lower-scale whole to earn effective-unit status at the next scale.
+
+### 32S1 — Relational Addressability and Identity Parity
+
+[Invariant Persistence, Relational Addressability, and Scale Transition](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) distinguishes physical persistence from independent relational addressability and separates within-address state equivalence, address-class parity, and cross-address continuity.
+
+### 32S2 — Temporal Continuity
+
+[Temporal Continuity Kernels and Minimum Identity Horizon](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) extends same-self comparison to recent relational trajectories where history is load-bearing and requires the minimum identity horizon to be established by truncation, shuffle, and held-out tests.
+
+### 32S3 — Relational Brackets and Completion Geometry
+
+[Relational Brackets, Completion Geometry, and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) defines local-to-global compatibility and the compatible completion set
+
+$$
+\Omega_{k,t}^{\mathrm{comp}}(a_{-k})
+=
+\left\{
+x\in\mathcal F_t(U_k):
+\chi_B(a_{-k}\cup\{x\})=1
+\right\}.
+$$
+
+It separates narrow relational specification, broad ambiguity, and incompatible/disordered absence; keeps persistent mismatch separate from measured cost; distinguishes readout/coarse-graining from endogenous scale promotion; and tests a candidate I→P relation through changes in a physical transition distribution or support while retaining the adequate P-state/history null.
+
 ## Complete public registry
 
 | Module | Public role | Primary support | Principal limit |
@@ -366,6 +398,11 @@ The module does not equate constraint count with coherence or freedom, does not 
 | [30 — LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) | Downstream effective-geometry LUCY hypothesis | 08, 26, 27, boundary physics | Conventional closure, accepted-limit recovery, common-boundary discrimination, replication |
 | [31 — Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) | Admissible comparison and observability discipline | 21, 22, 22A, 27 | Context cannot immunise claims; same form is not same dynamics |
 | [32 — Recursive Constraint Closure](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) | Adaptive constraint and reachable-state geometry | 24A, 24B, 27, 31 | Fixed-space/null alternatives; no constraint-count, silhouette, or I→P overclaim |
+| [32A — Module 32 Novelty Audit](32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md) | Prior-art and residual-contribution boundary | Module 32 family, scientific literature | Novelty is versioned and reduced when earlier equivalents are found |
+| [32S — Load-Bearing Relation Sets](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) | Relation-level load and scale promotion | 25, 27, 32 | Ablation/substitution and higher-scale capability must succeed |
+| [32S1 — Relational Addressability](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) | Persistence/addressability/identity-parity discipline | 31, 32, 32S | Same substrate or name does not prove same-self continuity |
+| [32S2 — Temporal Continuity](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) | History-dependent continuity test | 32S1, history ablation | Longer history must earn load-bearing status |
+| [32S3 — Relational Brackets and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) | Local-to-global completion and admissibility scaffold | 21, 27, 31, 32, 32S | Sheaf/topology/semantic/holography ingredients are prior; independent I→P must beat P-only null |
 
 ## Public boundary
 
@@ -373,4 +410,4 @@ The public repository contains scientific proposals, mathematical and methodolog
 
 ## Compressed rule
 
-> Define the claim at its proper layer, preserve the comparison class and construction address, route it to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, local restriction, or local performance silently become empirical truth or higher-scale capability.
+> Define the claim at its proper layer, preserve the comparison class and construction address, route it to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, local restriction, relational completion, or local performance silently become empirical truth or higher-scale capability.
