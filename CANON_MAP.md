@@ -19,8 +19,9 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 6. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 7. [Load-Bearing Relation Sets and Scale-Transition Tests](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md)
 8. [Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md)
-9. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-10. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+9. [Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
+10. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+11. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 ### Physics and quantum gravity
 
@@ -90,7 +91,8 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **31 — Context-Conditioned State Comparison:** admissible same-class deformation, measurement-relative state equivalence, target-relative ambiguity closure, support-preserving cross-implementation comparison, addressed abstraction, construction-address robustness, and representation-dependence testing.
 - **32 — Recursive Constraint Closure and Reachable-State Geometry:** adaptive addressed-state families, endogenous admissibility, constraint consolidation, scale-separated local feasibility versus higher-scale capability, recurrent constraint-selected architecture, and changing-state-space comparison discipline.
 - **32S — Load-Bearing Relation Sets and Scale-Transition Tests:** minimal load-bearing sets, ablation weights, relation-versus-carrier substitution, cost/freedom/capability separation, and the criteria by which a lower-scale organised whole can earn treatment as an effective higher-scale object.
-- **32S1 — Invariant Persistence, Relational Addressability, and Scale Transition:** separates physical persistence from independent relational addressability; a lower-scale invariant may remain physically instantiated while higher-scale closure removes its independent deployment. Scale-transition onset is tied to sustained loss of lower-scale addressability, with completion requiring stable new higher-scale addressability or capability.
+- **32S1 — Invariant Persistence, Relational Addressability, and Scale Transition:** separates physical persistence from independent relational addressability; a lower-scale invariant may remain physically instantiated while higher-scale closure removes its independent deployment. It also separates within-address state equivalence, address-class parity, and cross-address continuity of individuality.
+- **32S2 — Temporal Continuity Kernels and Minimum Identity Horizon:** extends individuality continuity from endpoint or point-state comparison to recent relational trajectories. It treats the immediate predecessor→present relation as the minimum temporal candidate and requires longer history to earn load-bearing status by truncation, temporal-shuffle, replay, and held-out tests.
 
 ### Observer, boundary, and physical support
 
