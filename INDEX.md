@@ -26,6 +26,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 - [Module 32 Novelty Audit and Contribution Boundary](docs/32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md) — component-level prior-art boundary, residual contribution, and novelty-confidence map.
 - [Module 32 Supplement — Load-Bearing Relation Sets and Scale-Transition Tests](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) — formalises minimal load-bearing sets, ablation weight, relation-versus-carrier substitution, cost/freedom/capability separation, and effective-object scale transitions.
+- [Module 32S1 — Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) — distinguishes physical persistence from independent relational access and defines the onset/completion of a scale transition through loss of lower-scale addressability and gain of higher-scale capability.
 
 ## Experiments, evidence, and falsification
 
@@ -51,6 +52,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
 - [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 - [Module 32 Supplement — Load-Bearing Relation Sets and Scale-Transition Tests](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md)
+- [Module 32S1 — Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md)
 
 ## Observer, boundary, and physical support
 
