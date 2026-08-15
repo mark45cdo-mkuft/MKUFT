@@ -519,7 +519,35 @@ complete addressed state + context/history
 
 The capstone makes `domain before generator` and `support before weighting` explicit as clean logical specialisations without forcing all future I→P mechanisms into those forms. If the same law object is fully determined by an adequate P-state/history/boundary/environment model, the relation remains P-realised.
 
-Canonical owners: Modules 32, 32S, 32S1, 32S2, 32S3, 32S4, and 33.
+### 9.4 Dynamic interface promotion and recursive boundary closure
+
+Module 33S1 refines the readdressing stage without changing the parent capstone. Let
+
+$$
+\mathcal J_{AB,t}
+$$
+
+be a typed interface/junction state between addressed systems $A_t$ and $B_t$. An interface remains bundled context unless it is operationally definable/trackable, controlled deformation changes a preregistered load-bearing downstream object, and the realised transition changes the interface in a way that alters the next cycle.
+
+The recursive signature is
+
+$$
+\boxed{
+\mathcal J_{AB,t}
+\rightarrow
+(A_{t+\Delta},B_{t+\Delta})
+\rightarrow
+\mathcal J_{AB,t+\Delta}
+\rightarrow
+\Xi_{t+\Delta}.
+}
+$$
+
+Passing this gate promotes the relation into explicit state representation; it does **not** establish independent ontology or an independent I layer. A fully P-recoverable interface may still be a useful macrostate or sufficient state variable.
+
+If the coupled system later passes the existing Module 32S scale-promotion tests, the same lower-scale boundary/junction may become an internal relation of a promoted higher-scale whole. Physical work required to create, move, modulate or maintain an interface remains inside the energy ledger.
+
+Canonical owners: Modules 22A, 32, 32S, 32S1, 32S2, 32S3, 32S4, 33, and 33S1.
 
 ## 10. LUCY
 
@@ -558,7 +586,7 @@ LUCY-2 = sustained local region, when present
 
 These are conditional downstream morphologies, not automatic consequences of every LUCY crossing.
 
-Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 30. Modules 32S3/32S4/33 now supply increasingly general admissibility, transport and update machinery around a candidate crossing; none of them by itself establishes independent I→P dynamics or a physical LUCY mechanism.
+Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 30. Modules 32S3/32S4/33/33S1 now supply increasingly general admissibility, transport, update and interface-promotion machinery around a candidate crossing; none of them by itself establishes independent I→P dynamics or a physical LUCY mechanism.
 
 ## 11. Observer and procedural support modules
 
@@ -582,7 +610,7 @@ The Voynich branch is an applied procedural hypothesis. It must compete with lin
 
 The foundational proposal asks whether quantum and gravitational effective behaviour may arise from a deeper typed update architecture rather than being fundamental objects at the same descriptive layer.
 
-The live-canon update is no longer only a placeholder arrow. Module 33 now supplies the architectural factorisation above. The remaining burden is the **physical instantiation** of that architecture:
+The live-canon update is no longer only a placeholder arrow. Module 33 now supplies the architectural factorisation above; Module 33S1 specifies when a load-bearing interface must be represented explicitly in the recursively readdressed state. The remaining burden is the **physical instantiation** of that architecture:
 
 - instantiate $\Xi_t$ and $\mathfrak C_P$ for each target regime;
 - define the resulting $\mathcal D_{P,t}$, $\mathcal T_{P,t}$ and $\mathcal W_{P,t}$;
@@ -613,7 +641,7 @@ calibration
 
 A branch is reduced or removed when its variables cannot be operationalised, simpler models predict equally or better, the effect disappears under controls, results do not replicate, definitions move after failure, or evidence from another layer is used to rescue it.
 
-Canonical owners: Modules 04, 05, 27, 28, 29, and branch-specific controls in the 32/33 family.
+Canonical owners: Modules 04, 05, 27, 28, 29, and branch-specific controls in the 32/33/33S1 family.
 
 ## 14. Metaphysical boundary
 
@@ -693,6 +721,10 @@ Domain-only specialisation:
 SIPO capstone:
 Update_SIPO = Readdress ∘ Instrument_(P→(P,O)) ∘ Propagate_P^(𝔏_P)
 
+Dynamic interface promotion:
+𝒥_AB,t → (A_(t+Δ),B_(t+Δ)) → 𝒥_AB,t+Δ → Ξ_t+Δ
+State promotion ≠ ontology promotion
+
 Enabling-constraint pair, when comparable:
 Δμ_ℓ < 0 while Δν_L > 0
 
@@ -701,13 +733,13 @@ Y_L = χ_L ||∇τ_L||²/(N_L+ε_L)
 Y_L ≥ Y_*
 
 Integrity:
-Define once. Type the address. Build admissibility. Assemble the law object. Test the coupling. Recover the baseline. Keep the falsifier.
+Define once. Type the address. Build admissibility. Assemble the law object. Promote a relation into explicit state only when it carries prospective recursive load. Test the coupling. Recover the baseline. Keep the falsifier.
 ```
 
 ## 17. Final statement
 
 MKUFT should not read as a pile of similarities.
 
-Its current live spine is a recursive research architecture in which **possibility, relation, admissibility, physical law, measurement/registration, history and scale transition are explicitly separated but composable**.
+Its current live spine is a recursive research architecture in which **possibility, relation, admissibility, physical law, measurement/registration, history, interface state and scale transition are explicitly separated but composable**.
 
-The architectural drivetrain is now closed. The remaining foundational burden is not another missing arrow; it is to instantiate that drivetrain in concrete physics, recover the established quantum and gravitational regimes, and determine whether the deeper relational architecture earns independent predictive content.
+The architectural drivetrain remains closed by Module 33. Module 33S1 tightens the readdressing/state representation rule; it does not reopen the parent architecture. The remaining foundational burden is not another missing arrow; it is to instantiate that drivetrain in concrete physics, recover the established quantum and gravitational regimes, and determine whether the deeper relational architecture earns independent predictive content.
