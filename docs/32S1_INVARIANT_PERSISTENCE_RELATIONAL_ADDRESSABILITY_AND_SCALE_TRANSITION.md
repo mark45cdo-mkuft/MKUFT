@@ -29,7 +29,7 @@ The corrected distinction is:
 
 > The self-address can also change. Do not assume the same self merely because the substrate persists.
 
-## 2. Operational individuality address
+## 2. Operational individuality address and self-state space
 
 Let a lower-scale physical state be
 
@@ -47,6 +47,14 @@ $$
 
 denote the realised typed coupling state between candidate system $S$ and relevant environment $E$. It may contain exchange, sensing, action, adhesion, boundary, regulatory, or other domain-appropriate relations. It is not a new physical layer.
 
+Let
+
+$$
+\sim_t^{\mathrm{state}}
+$$
+
+be the declared **within-address state-equivalence rule** for the individuality claim at time $t$.
+
 Define the **operational individuality address**
 
 $$
@@ -58,18 +66,30 @@ $$
 \mathcal G_t^{SE},
 \mathcal M_t,
 H_t,
-\sim_{\sigma_t}^{\mathrm{state}}
+\sim_t^{\mathrm{state}}
 \right),
 $$
 
-where $\mathcal B_t$ is the active boundary, $\mathcal M_t$ the relevant maintenance/closure relations, $H_t$ the retained lineage/history, and $\sim_{\sigma_t}^{\mathrm{state}}$ the declared **within-address state-equivalence rule**.
+where $\mathcal B_t$ is the active boundary, $\mathcal M_t$ the relevant maintenance/closure relations, and $H_t$ the retained lineage/history.
 
-An operational self-state at this address can be represented as
+The corresponding operational self-state space is
+
+$$
+\mathcal S_t
+=
+\left(
+\mathcal X_{\alpha_t}\times\mathcal G_t^{SE}
+\right)
+/\!\sim_t^{\mathrm{state}},
+$$
+
+and the realised operational self-state is
 
 $$
 s_t
 =
-[(x_t,g_t^{SE})]_{\sim_{\sigma_t}^{\mathrm{state}}}.
+[(x_t,g_t^{SE})]_{\sim_t^{\mathrm{state}}}
+\in\mathcal S_t.
 $$
 
 This is an operational systems object, not a metaphysical definition of personhood. The equivalence rule must be declared at the layer and scale of the actual claim.
@@ -98,10 +118,8 @@ $$
 T_{t\rightarrow t+1}^{\mathrm{id}}:
 \mathcal S_t\supseteq\mathcal D_t
 \rightarrow
-\mathcal S_{t+1},
+\mathcal S_{t+1}.
 $$
-
-where $\mathcal S_t$ and $\mathcal S_{t+1}$ are the relevant identity-state spaces or quotients.
 
 Let
 
@@ -127,7 +145,7 @@ $$
 \sigma_a\approx_{\mathrm{id}}\sigma_b
 $$
 
-only when the declared continuation map and identity-bearing tests between those addresses pass. This relation is **not** the same object as $\sim_{\sigma}^{\mathrm{state}}$, which groups states within one declared individuality address.
+only when the declared continuation map and identity-bearing tests between those addresses pass. This relation is **not** the same object as $\sim_t^{\mathrm{state}}$, which groups states within one declared individuality address.
 
 If no lawful continuation map or identity-bearing invariant can be supplied, the correct description is not automatically `the same self changed`. The event may instead be a reconstituted individuality, incorporation into another individuality, replacement of the comparison class, or an unresolved identity transition.
 
