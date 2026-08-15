@@ -477,7 +477,58 @@ $$
 
 Positive values support the corresponding functional comparison only; they do not by themselves establish consciousness or literal identity continuity.
 
-## 21. Deformation-vector sign convention
+## 21. Adaptive state-space and cross-scale freedom discipline
+
+Where learning, development, or evolution changes the variables, decoder, admissible action set, equivalence relation, or update rule, do not force successive states into one fixed coordinate system merely to preserve subtraction or distance notation.
+
+Module 32 uses the addressed family
+
+$$
+\mathfrak X
+=
+\bigsqcup_{\alpha\in A}
+\{\alpha\}\times\mathcal X_\alpha.
+$$
+
+A schematic update is
+
+$$
+\mathfrak F_t(\mathfrak A_t,u_t)
+=
+(\alpha_{t+1},x_{t+1})
+\in\mathfrak X.
+$$
+
+When $\alpha_{t+1}\neq\alpha_t$, expressions such as
+
+$$
+x_{t+1}-x_t,
+\qquad
+\lVert x_{t+1}-x_t\rVert,
+$$
+
+or `same state` require a declared translation, embedding, quotient, common observable, or other lawful comparison map. This is the adaptive counterpart of Module 31's construction-address discipline.
+
+Likewise, do not compress lower-scale feasible-state freedom and higher-scale functional capability into one untyped scalar. If $\mu_\ell$ measures a lower-scale feasible set and $\nu_L$ measures a higher-scale capability set, then a candidate enabling-constraint pattern may be
+
+$$
+\Delta\mu_\ell<0,
+\qquad
+\Delta\nu_L>0,
+$$
+
+but only when each before/after difference is itself defined in a common comparison space. The signs describe two different observables at two scales. They do not imply that `freedom` is conserved, transferred, or measured by $\mu_\ell+\nu_L$.
+
+Hard rules:
+
+1. constraint count is not a coherence, agency, freedom, or quality metric;
+2. a new constraint can enable at one scale and disable at another;
+3. overconstraint may reduce both local feasible-state volume and higher-scale capability;
+4. recurrent morphology does not establish recurrent dynamics or mechanism;
+5. a changing update rule must compete with a fixed-rule model with parameter adaptation before `new rule` is claimed;
+6. an addressed adaptive-space model earns value only if it improves prospective description, prediction, or intervention beyond a simpler fixed-space model.
+
+## 22. Deformation-vector sign convention
 
 For a beneficial performance coordinate $X$, relation load is defined as
 
@@ -491,7 +542,7 @@ Then $\Delta X_r>0$ means the deformation damaged performance, $\Delta X_r=0$ me
 
 Cost coordinates require a compatible sign transformation or separate labelling before inclusion in a common vector.
 
-## 22. Metaphysical load and scientific equations
+## 23. Metaphysical load and scientific equations
 
 Within MKUFT's metaphysical programme, God is treated as ultimate Source beyond the formal substrate, and Love as a primary unity-principle that preserves truthful relation without erasing legitimate distinction. Truth, Love, Boundary, Coherence, and Grace constrain the wider metaphysical and ethical interpretation.
 
@@ -499,7 +550,7 @@ These are not automatically physical coordinates, scalar tuning parameters, hidd
 
 At human, social, institutional, or AI-governance addresses, operational proxies such as agency preservation, truthful communication, repair, coercive maintenance, and transferred cost may be measured. A proxy is not identical to God or Love.
 
-## 23. Scientific wording discipline
+## 24. Scientific wording discipline
 
 Where dynamics are not derived, **candidate mechanism** is more accurate than an unqualified mechanism claim. Without units, **effective boundary functional** is more accurate than energy density. **State-space adjacency** should not be described as physical closeness, and **typed cross-layer coupling** should not be described as physical movement between dimensions without a physical model.
 
@@ -507,7 +558,7 @@ Likewise, cognitive or operational maintenance cost should not be labelled physi
 
 A named update operator, tuple, projection, or layer address does not supply the missing law merely by being written mathematically.
 
-## 24. Failure conditions
+## 25. Failure conditions
 
 This module fails as a scientific hygiene layer if:
 
@@ -517,9 +568,11 @@ This module fails as a scientific hygiene layer if:
 - equations remain unnormalised or dimensionally incoherent after the fault is known;
 - status labels become permanent shields against derivation;
 - metaphysical principles are flattened into physical variables or used to rescue a failed empirical branch;
+- changing-space notation is used where a simpler fixed space is adequate;
+- cross-scale quantities are added, subtracted, or compared without a declared map or commensurable observable;
 - the notation fragments the theory instead of making the same architecture recoverable.
 
-## 25. Related public documents
+## 26. Related public documents
 
 - [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md)
 - [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md)
@@ -530,9 +583,11 @@ This module fails as a scientific hygiene layer if:
 - [Active Traversal and Functional Emergence](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
 - [Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
 - [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
+- [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
+- [Recursive Constraint Closure and Reachable-State Geometry](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 - [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 - [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
 
-## 26. Compressed rule
+## 27. Compressed rule
 
-> Treat traversal as typed movement through declared state spaces and couplings. Keep physical distance, information adjacency, observer registration, and metaphysical source distinct but relationally connected. Every equation must pay for its notation with domains, units or normalisation, status, recovery conditions, and a falsifier.
+> Treat traversal as typed movement through declared state spaces and couplings. Keep physical distance, information adjacency, observer registration, adaptive construction address, and metaphysical source distinct but relationally connected. Every equation must pay for its notation with domains, units or normalisation, status, recovery conditions, and a falsifier.
