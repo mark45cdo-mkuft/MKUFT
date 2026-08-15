@@ -16,8 +16,9 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 3. [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 4. [Recursive Address Closure and Property Transmission](docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
 5. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
-6. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-7. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+6. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
+7. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+8. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 ### Physics and quantum gravity
 
@@ -38,11 +39,12 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 2. [Cross-Layer Invariants and Layer Addressing](docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
 3. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 4. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
-5. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
-6. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-7. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+5. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
+6. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
+7. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+8. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them.
+The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process, but it does not by itself establish an I→P crossing or physical LUCY mechanism.
 
 ### AI and typed knowledge architectures
 
@@ -52,8 +54,9 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
 5. [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
 6. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
-7. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-8. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+7. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
+8. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+9. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
 ## Canon groups
 
@@ -83,6 +86,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **25 — Load-Bearing Deformation:** controlled relation-level deformation and whole-system audit.
 - **25A — Fundamental Traversal Coherence Nodes:** provisional node-level organising-load hypothesis.
 - **31 — Context-Conditioned State Comparison:** admissible same-class deformation, measurement-relative state equivalence, target-relative ambiguity closure, support-preserving cross-implementation comparison, addressed abstraction, construction-address robustness, and representation-dependence testing.
+- **32 — Recursive Constraint Closure and Reachable-State Geometry:** adaptive addressed-state families, endogenous admissibility, constraint consolidation, scale-separated local feasibility versus higher-scale capability, recurrent constraint-selected architecture, and changing-state-space comparison discipline.
 
 ### Observer, boundary, and physical support
 
