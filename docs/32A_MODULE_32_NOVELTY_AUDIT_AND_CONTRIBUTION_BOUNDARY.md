@@ -6,13 +6,13 @@
 **Public audit date:** 15 August 2026  
 **Audit revision date:** 15 August 2026  
 **Canonical parent:** [32 — Recursive Constraint Closure and Reachable-State Geometry](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)  
-**Later same-day formal supplements:** [32S](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md); [32S1](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md); [32S2](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md); [32S3](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md); [32S4](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md); [33](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)  
+**Later same-day formal supplements:** [32S](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md); [32S1](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md); [32S2](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md); [32S3](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md); [32S4](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md); [33](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md); [33S1](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)  
 **First public Module 32 formulation:** Git commit `8e4fe4160ba57874c5cf6a7213d44ba3d0c97287`, 15 August 2026, 01:20:48 BST  
 **Status:** public novelty and contribution audit. This file narrows attribution; it is not a claim of exhaustive historical priority. Later supplements retain their own chronology and are not backdated into the first Module 32 formulation.
 
 ## 1. Purpose
 
-Module 32 began from an independently reached chain about recursive learning, self-maintained constraint, changing future reach, and scale-dependent freedom/capability. Same-day refinement then added load-bearing-set tests, relation-versus-carrier substitution, relational addressability, same-self parity, temporal-continuity kernels, typed relation scopes, completion fibers, quotient-based scale readout, macrostate realisation classes, temporal mismatch exposure, an I→P transition-support assay, an intrinsic/extrinsic address split with path transport, loop-history tests, context-indexed P-realisation fibers and boundary-conditioned physical comparators, and finally a capstone factorisation in which the complete addressed state/context produces a typed admissibility descriptor, a physical-law assembler constructs the active P-law object `(domain, transition rule, weighting)`, a P-propagator acts under that law, a typed P→(P,O) instrument handles measurement/registration, and the realised path readdresses the next effective possibility object.
+Module 32 began from an independently reached chain about recursive learning, self-maintained constraint, changing future reach, and scale-dependent freedom/capability. Same-day refinement then added load-bearing-set tests, relation-versus-carrier substitution, relational addressability, same-self parity, temporal-continuity kernels, typed relation scopes, completion fibers, quotient-based scale readout, macrostate realisation classes, temporal mismatch exposure, an I→P transition-support assay, an intrinsic/extrinsic address split with path transport, loop-history tests, context-indexed P-realisation fibers and boundary-conditioned physical comparators, a capstone factorisation in which the complete addressed state/context produces a typed admissibility descriptor and active physical law object, and finally a dynamic-interface promotion gate specifying when a load-bearing relation must be represented explicitly in the recursively updated state.
 
 A literature audit found substantial prior and adjacent work. The scientific task is therefore not to defend every ingredient as new. It is to identify what prior work already supplies, what the current MKUFT integration adds operationally, and what remains only a candidate contribution pending broader review and empirical use.
 
@@ -112,6 +112,14 @@ Constrained dynamical systems and viability theory already study evolution restr
 
 **Boundary:** Module 33 does not claim invention of `domain before generator`, constrained dynamics, self-adjoint extensions, conditional/path measures, quantum instruments, ADM constraints or Hamiltonian boundary conditions. Nor does it claim that arbitrary relation states are known to assemble new physical laws. Its candidate contribution is the exact typed integration of those established mathematical roles with the already canonical MKUFT address/admissibility, completion, scale, transport and P-only-null machinery.
 
+### 2.14 Junctions, dynamic interfaces, and bridge geometries are prior work
+
+Physics and mathematics already treat boundaries, junctions, interfaces and hypersurfaces as state-bearing or dynamical objects when the governing model requires it. Israel's thin-shell formalism treats the histories of relativistic boundary surfaces geometrically, while Einstein and Rosen's 1935 construction represents two sheets joined by a bridge.
+
+**Boundary:** Module 33S1 does not claim invention of dynamic interfaces, junction conditions, thin-shell dynamics, stateful boundaries, recursive coupled systems, or Einstein–Rosen bridge geometry. The Einstein–Rosen construction is used only as a bounded geometric comparator for the idea that a connecting structure can belong to the complete larger object; it is not evidence that $\mathcal J_{AB,t}$ is a wormhole, a traversable shortcut, or an independent I-layer structure.
+
+The residual question is operational rather than geometric: when must an already permitted relation be promoted from bundled context into explicit recursively updated state?
+
 ## 3. Component-level novelty matrix
 
 | Module 32 family component | Prior-art status | Residual MKUFT role | Current novelty confidence |
@@ -142,22 +150,23 @@ Constrained dynamical systems and viability theory already study evolution restr
 | Holographic deformation comparator | Established optics | Requires explicit encoding/readout/deformation response before calling another system physically holographic | Low novelty; useful comparator |
 | Cross-domain recurrence discipline | Structural analogy/convergence established | Requires typed relation translation and deformation rather than visual resemblance | Moderate methodological role |
 | SIPO capstone / addressed law assembly | Constrained domains, kernels, operator domains, instruments and GR constraints established | Composes `Update_SIPO` as addressed state/context → admissibility descriptor → P-law object `(D,T,W)` → P propagation → typed P→(P,O) instrument → readdressing, while retaining changing-address/scale/history guards and the P-only null | Moderate candidate synthesis |
+| Dynamic-interface promotion / recursive boundary closure | Stateful interfaces, boundary dynamics, junctions and coupled-system variables established | Promotes an interface from bundled context to explicit recursive state only when it is trackable, prospectively load-bearing, recursively updated and—at higher scale—passes existing object-promotion tests; explicitly separates state promotion from ontology promotion | Low ingredients; moderate candidate operational synthesis |
 
 The confidence labels concern novelty relative to the literature searched in this audit, not truth, importance, patentability, empirical validation, or global historical priority.
 
 ## 4. Strongest candidate contribution after the expanded audit
 
-The audit does **not** support saying that Module 32, its supplements or Module 33 invented constraint closure, changing possibility spaces, local-to-global consistency, hypergraphs, sheaves, fibers, quotients, multiple realisation, coarse-graining, macro causal emergence, causal semantics, information synergy, holography, parallel transport, holonomy, geometric phase, Casimir physics, constrained dynamics, self-adjoint quantum domains, quantum instruments, ADM constraints, or vacuum amplification.
+The audit does **not** support saying that Module 32, its supplements, Module 33 or Module 33S1 invented constraint closure, changing possibility spaces, local-to-global consistency, hypergraphs, sheaves, fibers, quotients, multiple realisation, coarse-graining, macro causal emergence, causal semantics, information synergy, holography, parallel transport, holonomy, geometric phase, Casimir physics, constrained dynamics, self-adjoint quantum domains, quantum instruments, ADM constraints, dynamic interfaces, junction conditions, Einstein–Rosen bridges, or vacuum amplification.
 
 The narrower candidate is the following operational conjunction:
 
-> **an addressed adaptive formalism in which construction/state-space change triggers explicit comparison guards; current organisation changes admissibility and reachable-state geometry; lower-scale feasible/addressable states are kept separate from higher-scale capability; proposed load-bearing relations are tested by ablation and carrier substitution; identity change triggers separate parity and temporal-continuity tests; typed relation scopes select a compatible assignment region; a missing address is tested as a conditional completion fiber; a higher-scale readout defines macro realisation classes and a quotient but earns endogenous object status only through separate promotion tests; intrinsic relation class is separated from extrinsic contextual address; transport/path dependence is tested explicitly when endpoint equality may hide history; compatible P-realisation is kept distinct from relational specification and actual occupancy; candidate I→P support is allowed to be P-address-changing without false comparison; boundary/holographic physical comparators are deformation-tested; persistent mismatch remains distinct from cost; vacuum/boundary effects remain subject to complete energy accounting; and the resulting dependencies are composed into a typed recursive update in which the complete addressed state/context produces an admissibility descriptor, a law assembler constructs the active P-law object `(domain, transition rule, weighting)`, physical propagation occurs under that law, a P→(P,O) instrument produces physical measurement back-action and record, and the realised path readdresses the next effective possibility object.**
+> **an addressed adaptive formalism in which construction/state-space change triggers explicit comparison guards; current organisation changes admissibility and reachable-state geometry; lower-scale feasible/addressable states are kept separate from higher-scale capability; proposed load-bearing relations are tested by ablation and carrier substitution; identity change triggers separate parity and temporal-continuity tests; typed relation scopes select a compatible assignment region; a missing address is tested as a conditional completion fiber; a higher-scale readout defines macro realisation classes and a quotient but earns endogenous object status only through separate promotion tests; intrinsic relation class is separated from extrinsic contextual address; transport/path dependence is tested explicitly when endpoint equality may hide history; compatible P-realisation is kept distinct from relational specification and actual occupancy; candidate I→P support is allowed to be P-address-changing without false comparison; boundary/holographic physical comparators are deformation-tested; persistent mismatch remains distinct from cost; vacuum/boundary effects remain subject to complete energy accounting; the resulting dependencies are composed into a typed recursive update in which complete addressed state/context produces an admissibility descriptor and active P-law object `(D,T,W)` before physical propagation and typed P→(P,O) registration; and a relation/interface is promoted from bundled context to explicit recursive state only when it is operationally trackable, prospectively changes a load-bearing downstream object, is itself changed by realised dynamics, and then changes the next-cycle admissibility, with higher-scale internalisation allowed only after the existing scale-promotion tests pass.**
 
 No single pre-existing source located in this audit supplies that full operational conjunction in the same form.
 
 It is recorded as a **candidate original formal synthesis and operationalisation by Mark Charles McLaughlin**, with each refinement timestamped by its actual public commit on 15 August 2026 and subject to reduction if earlier equivalent work is located.
 
-This wording is deliberately narrower than `new law`, `new mathematics`, `new theory of life`, `first theory of relational self`, `proof of an information layer`, `proof of holographic reality`, `quantum-gravity derivation`, or `vacuum-energy mechanism`.
+This wording is deliberately narrower than `new law`, `new mathematics`, `new theory of life`, `first theory of relational self`, `proof of an information layer`, `proof of holographic reality`, `wormhole mechanism`, `quantum-gravity derivation`, or `vacuum-energy mechanism`.
 
 ## 5. Why the scale-separated assay matters
 
@@ -183,9 +192,9 @@ is an overconstraint control.
 
 Restriction is not itself progress. Higher-scale capability has to be demonstrated separately.
 
-## 6. Why the address, identity, completion, realisation, transport, and law-object guards matter
+## 6. Why the address, identity, completion, realisation, transport, law-object, and interface-state guards matter
 
-The current family carries six distinct anti-flattening rules.
+The current family carries seven distinct anti-flattening rules.
 
 1. **Changing construction address:** if the active state space changes, direct subtraction/equality is not licensed without a translation, embedding, quotient, or common observable.
 2. **Changing individuality address:** if constitutive boundary, environment coupling, maintenance or identity-equivalence rules change, `the same self lost freedom` is not licensed without a continuity map/test.
@@ -193,8 +202,9 @@ The current family carries six distinct anti-flattening rules.
 4. **Missing or coarse-grained structure:** absence is not zero structure and a quotient is not automatically a new physical object. Completion must be computed from the relations touching the missing address, while macro readout persistence is represented by a realisation class and still requires separate effective-object promotion.
 5. **Intrinsic versus extrinsic address:** preserved internal relation does not imply unchanged contextual embedding, and changed context does not automatically destroy the internal relation class. When the path through context can be load-bearing, same endpoint is insufficient; compare transport/loop history. Compatible P-realisation remains distinct from actual occupancy.
 6. **Admissibility versus law versus registration:** the admissibility descriptor, active P-law components `(D,T,W)`, physical propagation, and P→(P,O) measurement/registration instrument are separate typed objects. Domain-only conditioning is a clean special case rather than a universal mechanism; a changed domain is not automatically a new force, and an observer record cannot stand in for missing P-dynamics.
+7. **Interface state versus ontology:** a boundary/relation may deserve explicit recursively updated state representation because it is trackable and prospectively load-bearing even when it is fully recoverable from ordinary P-state variables. State promotion therefore does not imply a new layer, new microscopic degree of freedom, or independent I→P dynamics. Conversely, a visually salient interface remains bundled context when explicit promotion adds no prospective discrimination.
 
-These rules do not assert that environment, history, relation scopes, completion fibers, transport connections, boundary modes or I-layer variables are always constitutive. Each must earn load-bearing status in the claim being tested.
+These rules do not assert that environment, history, relation scopes, completion fibers, transport connections, boundary modes, interface states or I-layer variables are always constitutive. Each must earn load-bearing status in the claim being tested.
 
 ## 7. Chronology boundary
 
@@ -205,7 +215,7 @@ The first public Module 32 formulation remains:
 15 August 2026, 01:20:48 BST
 ```
 
-Later same-day work produced Module 32A, 32S, 32S1, 32S2, 32S3, 32S4 and Module 33. Their later equations and tests are not backdated into the first Module 32 formulation or standalone preprint v0.1.
+Later same-day work produced Module 32A, 32S, 32S1, 32S2, 32S3, 32S4, Module 33 and Module 33S1. Their later equations and tests are not backdated into the first Module 32 formulation or standalone preprint v0.1.
 
 Priority statements must therefore remain versioned and resolution-specific.
 
@@ -221,11 +231,13 @@ The current audit supports:
 It does not support:
 
 - first person to describe constraints, changing possibility spaces, emergence or relational identity;
-- first use of equivalence classes, fibers, quotients, hypergraphs, sheaves, coarse-graining, ablation, temporal history, causal semantics, transition kernels, fiber bundles, connections, parallel transport, holonomy, holographic transforms, constrained dynamical domains, self-adjoint boundary conditions, quantum instruments, or gravitational constraint surfaces;
+- first use of equivalence classes, fibers, quotients, hypergraphs, sheaves, coarse-graining, ablation, temporal history, causal semantics, transition kernels, fiber bundles, connections, parallel transport, holonomy, holographic transforms, constrained dynamical domains, self-adjoint boundary conditions, quantum instruments, gravitational constraint surfaces, dynamic interfaces, junction conditions, or Einstein–Rosen bridges;
 - first discovery that boundaries affect field spectra or Casimir forces;
 - proof that a relationally specified missing address is physically occupied;
 - proof that a macro equivalence class is automatically an autonomous physical entity;
 - proof that a context-indexed realisation set is a physically existing hidden object;
+- proof that an explicit interface macrostate is an independent ontology or I-layer object;
+- proof of literal wormholes or traversable shortcuts from a geometric comparator;
 - proof of extractable zero-point energy or self-power;
 - proof that the full conjunction is globally unprecedented;
 - proof that the formalism is empirically superior;
@@ -233,7 +245,7 @@ It does not support:
 
 ## 9. What would upgrade or downgrade the novelty claim
 
-Upgrade only if broader systematic review across theoretical biology, artificial life, control theory, dynamical systems, multiscale modelling, causal emergence, higher-order networks, differential geometry/gauge transport, category/sheaf methods, inverse problems, diachronic identity, path-dependent systems, quantum measurement theory, constrained/operator-domain dynamics, general-relativistic Hamiltonian constraints, morphogenesis, quantum thermodynamics, Casimir/boundary QFT, holography and philosophy of science fails to locate an equivalent conjunction **and** the formalism demonstrates discriminating empirical value.
+Upgrade only if broader systematic review across theoretical biology, artificial life, control theory, dynamical systems, multiscale modelling, causal emergence, higher-order networks, differential geometry/gauge transport, category/sheaf methods, inverse problems, diachronic identity, path-dependent systems, interface/junction dynamics, quantum measurement theory, constrained/operator-domain dynamics, general-relativistic Hamiltonian constraints, morphogenesis, quantum thermodynamics, Casimir/boundary QFT, holography and philosophy of science fails to locate an equivalent conjunction **and** the formalism demonstrates discriminating empirical value.
 
 Downgrade immediately if earlier work is found containing the same functional conjunction, even under different terminology.
 
@@ -241,7 +253,9 @@ A partial predecessor does not erase the residual contribution; it changes its b
 
 ## 10. Primary literature used in this audit
 
+- Einstein, A., and Rosen, N. (1935). *The Particle Problem in the General Theory of Relativity*. Physical Review 48, 73–77. DOI `10.1103/PhysRev.48.73`.
 - Varela, F. G., Maturana, H. R., and Uribe, R. (1974). *Autopoiesis: The organization of living systems, its characterization and a model*. BioSystems 5, 187–196. DOI `10.1016/0303-2647(74)90031-8`.
+- Israel, W. (1966). *Singular hypersurfaces and thin shells in general relativity*. Il Nuovo Cimento B 44, 1–14. DOI `10.1007/BF02710419`.
 - Simon, B. (1983). *Holonomy, the Quantum Adiabatic Theorem, and Berry's Phase*. Physical Review Letters 51, 2167. DOI `10.1103/PhysRevLett.51.2167`.
 - Berry, M. V. (1984). *Quantal phase factors accompanying adiabatic changes*. Proceedings of the Royal Society A 392, 45–57. DOI `10.1098/rspa.1984.0023`.
 - Pattee, H. H. (2001). *The physics of symbols: bridging the epistemic cut*. BioSystems 60, 5–21. DOI `10.1016/S0303-2647(01)00104-6`.
@@ -274,8 +288,8 @@ A partial predecessor does not erase the residual contribution; it changes its b
 
 ## 11. Current verdict
 
-The expanded audit narrows the Module 32/33 family but does not reduce it to rediscovery. The mathematics of fibers, quotients, hypergraphs, sheaves, coarse-graining, multiple realisation, transport, holonomy, constrained domains, process kernels and measurement instruments is prior art; boundary-conditioned field physics, GR constraint surfaces and holography are prior physical/mathematical comparators.
+The expanded audit narrows the Module 32/33/33S1 family but does not reduce it to rediscovery. The mathematics of fibers, quotients, hypergraphs, sheaves, coarse-graining, multiple realisation, transport, holonomy, constrained domains, process kernels and measurement instruments is prior art; boundary-conditioned field physics, GR constraint surfaces, junction dynamics, Einstein–Rosen bridge geometry and holography are prior physical/mathematical comparators.
 
-The strongest defensible residual is the **integration**: an addressed, scale-separated, deformation-tested framework in which typed relations define admissibility; absence is represented by a conditional completion fiber; lower-level turnover can be tested inside a macrostate realisation class; scale promotion is separated from observer coarse-graining; intrinsic relation is separated from extrinsic contextual address; path transport is tested when endpoint equality can hide history; compatible P-realisation is separated from actual occupancy; identity continuity is separately guarded; mismatch is separated from cost; an I→P claim must survive an adequate addressed physical-state/history null and causal-identification discipline; boundary/vacuum analogies cannot bypass ordinary field theory or energy accounting; and the SIPO loop is closed architecturally by mapping complete addressed state/context to an admissibility descriptor, assembling an active P-law object `(D,T,W)`, propagating physically, passing the result through a correctly typed P→(P,O) instrument, and recursively readdressing the realised path.
+The strongest defensible residual is the **integration**: an addressed, scale-separated, deformation-tested framework in which typed relations define admissibility; absence is represented by a conditional completion fiber; lower-level turnover can be tested inside a macrostate realisation class; scale promotion is separated from observer coarse-graining; intrinsic relation is separated from extrinsic contextual address; path transport is tested when endpoint equality can hide history; compatible P-realisation is separated from actual occupancy; identity continuity is separately guarded; mismatch is separated from cost; an I→P claim must survive an adequate addressed physical-state/history null and causal-identification discipline; boundary/vacuum analogies cannot bypass ordinary field theory or energy accounting; the SIPO loop is closed architecturally by mapping complete addressed state/context to an admissibility descriptor, assembling an active P-law object `(D,T,W)`, propagating physically, passing the result through a correctly typed P→(P,O) instrument, and recursively readdressing the realised path; and a load-bearing interface is made explicit in that recursive state only when it passes the trackability, prospective-effect and recursive-back-action gate, with higher-scale internalisation kept behind the existing promotion tests.
 
 That residual is significant enough to preserve canonically and investigate empirically, while remaining open to correction by earlier literature, stronger comparison models, failed derivations, or failed experiments.
