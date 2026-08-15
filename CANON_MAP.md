@@ -25,8 +25,9 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 12. [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 13. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 14. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
-15. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-16. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+15. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
+16. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+17. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 ### Physics and quantum gravity
 
@@ -39,13 +40,14 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 7. [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 8. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 9. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
-10. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
-11. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
-12. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
-13. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
-14. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-15. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
-16. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+10. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
+11. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
+12. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
+13. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
+14. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
+15. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+16. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+17. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 
 ### LUCY and effective geometry
 
@@ -59,11 +61,12 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 8. [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 9. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 10. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
-11. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
-12. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-13. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+11. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
+12. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
+13. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+14. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process; Module 32S3 supplies a completion/admissibility scaffold; Module 32S4 separates preserved intrinsic relation from changed contextual address and supplies boundary/transport comparators; Module 33 supplies the general addressed-state → admissibility descriptor → physical law object `(domain, transition, weighting)` → P propagation → P/O instrument → readdressing architecture; Module 33S1 states when a load-bearing boundary/interface must be promoted from bundled context into the explicitly updated state; Module 33S2 tests whether a promoted relational address is dynamically sufficient for a declared property or must remain coupled to lower-scale variables. None of those modules by itself establishes an independent I→P crossing or physical LUCY mechanism.
+The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process; Module 32S3 supplies a completion/admissibility scaffold; Module 32S4 separates preserved intrinsic relation from changed contextual address and supplies boundary/transport comparators; Module 33 supplies the general addressed-state → admissibility descriptor → physical law object `(domain, transition, weighting)` → P propagation → P/O instrument → readdressing architecture; Module 33S1 states when a load-bearing boundary/interface must be promoted from bundled context into the explicitly updated state; Module 33S2 tests whether a promoted relational address is dynamically sufficient for a declared property or must remain coupled to lower-scale variables; Module 33S3 separates local performance from enclosing-scale closure and makes recovery a conditional reachability question rather than a presumed reversal. None of those modules by itself establishes an independent I→P crossing or physical LUCY mechanism.
 
 ### AI and typed knowledge architectures
 
@@ -79,8 +82,9 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 10. [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 11. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 12. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
-13. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-14. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+13. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
+14. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+15. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
 ## Canon groups
 
@@ -99,6 +103,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33 — SIPO Capstone:** closes `Update_SIPO` at architectural level by mapping the complete addressed state/context to a typed admissibility descriptor, assembling the active P-law object `(domain, transition rule, weighting)`, propagating physically, passing the result through a typed P→(P,O) instrument, and recursively readdressing. `Domain before generator` remains the minimal clean specialisation rather than a universal restriction on all possible I→P effects.
 - **33S1 — Dynamic Interface Promotion:** specifies when a trackable interface that changes the next admissibility/law object and is itself changed by realised dynamics must re-enter the addressed state; it adds a scale-role transition from lower-scale boundary to higher-scale internal relation only after existing promotion tests pass.
 - **33S2 — Relational Closure and Law Descent:** separates historical lineage, functional organisation, closure, and property-specific dynamical sufficiency; names strong, approximate, ensemble, history-augmented, and coupled-multiscale descent classes; and requires bidirectional readdressing when higher-address sufficiency changes.
+- **33S3 — Cross-Scale Performance and Recoverability:** separates lower-address performance from enclosing-scale closure/law-descent margins, rejects inevitable-collapse inference from local gain, defines recovery as target-relative reachability under declared controls, and requires apparent hysteresis to survive state-augmentation tests.
 
 ### Structural and traversal
 
@@ -122,6 +127,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33 — SIPO Capstone:** composes the 32-family dependencies into one typed recursive update architecture: complete addressed state/context → admissibility descriptor → active P-law object `(D,T,W)` → P propagation → P→(P,O) instrument → recursive readdressing. A demonstrated relation may affect domain, transition rule, weighting, or a typed combination; the P-only null remains controlling.
 - **33S1 — Dynamic Interface Promotion and Recursive Boundary Closure:** makes a load-bearing interface re-entry test explicit, keeps P-recoverable interface variables distinct from independent I claims, and types the boundary→stateful relation→higher-scale internal-relation role change without assuming that every boundary closes into a new object.
 - **33S2 — Relational Closure, Law Descent, and Bidirectional Readdressing:** tests whether a candidate relational address carries enough state for a declared property and regime, distinguishes predictive from interventional sufficiency, and moves the working address upward, downward, or multiscale when the demonstrated descent class changes.
+- **33S3 — Cross-Scale Performance, Recoverability, and Hysteretic Readdressing:** audits whether lower-address performance aligns with or opposes enclosing-scale closure/law sufficiency, separates degradation from loss of recoverability, and allows asymmetric recovery paths only under a declared target, route class, environment, horizon, and history/state test.
 
 ### Observer, boundary, and physical support
 
@@ -134,6 +140,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33 — SIPO Capstone:** general law-object and update factorisation used when a branch supplies enough structure to instantiate the admissibility descriptor and active P-law object; it is architecture, not a substitute for branch-specific quantum/gravitational derivation.
 - **33S1 — Dynamic Interface Promotion:** promotes a trackable boundary/junction into explicit recursive state only when controlled deformation changes a load-bearing downstream object and realised dynamics update the interface for the next cycle; physical boundary work remains inside the energy ledger.
 - **33S2 — Law Descent:** prevents a promoted whole from being treated as dynamically autonomous by default; law ownership remains property-, regime-, preparation-, intervention-, timescale-, and tolerance-specific, with lower physical constraints retained.
+- **33S3 — Recoverability:** prevents a local performance increase or temporary higher-level degradation from being converted into a universal stability or collapse claim; recovery remains target-, state-, control-, environment-, horizon-, and path-dependent.
 
 ### Procedural and applied support
 
