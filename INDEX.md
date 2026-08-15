@@ -26,7 +26,8 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 - [Module 32 Novelty Audit and Contribution Boundary](docs/32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md) — component-level prior-art boundary, residual contribution, and novelty-confidence map.
 - [Module 32 Supplement — Load-Bearing Relation Sets and Scale-Transition Tests](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) — formalises minimal load-bearing sets, ablation weight, relation-versus-carrier substitution, cost/freedom/capability separation, and effective-object scale transitions.
-- [Module 32S1 — Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) — distinguishes physical persistence from independent relational access and defines the onset/completion of a scale transition through loss of lower-scale addressability and gain of higher-scale capability.
+- [Module 32S1 — Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) — distinguishes physical persistence from independent relational access and defines scale transition through addressability, individuality-address parity, and higher-scale capability.
+- [Module 32S2 — Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) — extends same-self parity from point states to recent relational trajectories and defines the shortest load-bearing history horizon by truncation, shuffle, and held-out continuity tests.
 
 ## Experiments, evidence, and falsification
 
@@ -53,6 +54,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 - [Module 32 Supplement — Load-Bearing Relation Sets and Scale-Transition Tests](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md)
 - [Module 32S1 — Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md)
+- [Module 32S2 — Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
 
 ## Observer, boundary, and physical support
 
