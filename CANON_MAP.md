@@ -21,21 +21,25 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 8. [Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md)
 9. [Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
 10. [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
-11. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-12. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+11. [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
+12. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+13. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 ### Physics and quantum gravity
 
 1. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 2. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 3. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
-4. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
-5. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
-6. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
-7. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
-8. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-9. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
-10. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+4. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
+5. [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
+6. [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
+7. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
+8. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
+9. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
+10. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
+11. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+12. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+13. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 
 ### LUCY and effective geometry
 
@@ -45,11 +49,12 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 4. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
 5. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 6. [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
-7. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
-8. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-9. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+7. [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
+8. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
+9. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+10. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process, and Module 32S3 supplies a completion/admissibility scaffold for testing relational constraint at the I→P boundary, but neither establishes an I→P crossing or physical LUCY mechanism.
+The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process; Module 32S3 supplies a completion/admissibility scaffold; and Module 32S4 separates preserved intrinsic relation from changed contextual address and supplies boundary/transport comparators. None of those modules establishes an I→P crossing or physical LUCY mechanism.
 
 ### AI and typed knowledge architectures
 
@@ -60,8 +65,10 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 5. [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
 6. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
 7. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
-8. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-9. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+8. [Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
+9. [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
+10. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+11. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
 ## Canon groups
 
@@ -95,7 +102,8 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **32S — Load-Bearing Relation Sets and Scale-Transition Tests:** minimal load-bearing sets, ablation weights, relation-versus-carrier substitution, cost/freedom/capability separation, and the criteria by which a lower-scale organised whole can earn treatment as an effective higher-scale object.
 - **32S1 — Invariant Persistence, Relational Addressability, and Scale Transition:** separates physical persistence from independent relational addressability; a lower-scale invariant may remain physically instantiated while higher-scale closure removes its independent deployment. It also separates within-address state equivalence, address-class parity, and cross-address continuity of individuality.
 - **32S2 — Temporal Continuity Kernels and Minimum Identity Horizon:** extends individuality continuity from endpoint or point-state comparison to recent relational trajectories. It treats the immediate predecessor→present relation as the minimum temporal candidate and requires longer history to earn load-bearing status by truncation, temporal-shuffle, replay, and held-out tests.
-- **32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility:** defines typed overlap compatibility, compatible completion sets for missing/unobserved addresses, temporal mismatch exposure, readout-versus-endogenous promotion, a deformation-tested holography comparator, and an I→P transition-kernel/support test that retains the adequate P-only null.
+- **32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility:** defines typed relation-scope compatibility, compatible completion fibers for missing/unobserved addresses, temporal mismatch exposure, readout-versus-endogenous promotion, a deformation-tested holography comparator, and an I→P transition-support test that retains the adequate P-only null.
+- **32S4 — Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation:** separates intrinsic relation class from extrinsic embedding/address; defines context-indexed P-realisation sets and lawful path transport; adds same-endpoint/different-path and loop-transport tests; uses boundary-conditioned field modes, Casimir geometry, dynamical boundaries and metasurface holography as controlled P-layer comparators; and requires complete energy accounting before any vacuum-energy claim.
 
 ### Observer, boundary, and physical support
 
@@ -104,6 +112,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **30 — LUCY Threshold Geometry and Relational Closure:** downstream physical specialisation testing whether a LUCY crossing yields a common boundary or effective-geometry signature. Boundary, membrane, pocket, and gravitational interpretations remain conditional and must survive ordinary physical alternatives.
 - **16 — Gradient Mechanics:** controlled boundary-physics hypotheses with ordinary-mechanics and systematics requirements.
 - **17 — Dollard Notes:** comparative vocabulary bridge; translation is not equivalence.
+- **32S4 — Boundary-Conditioned Realisation:** transport and boundary comparator joining intrinsic/extrinsic address discipline to field-mode and energy-accounting tests without promoting those P-layer effects into independent I→P evidence.
 
 ### Procedural and applied support
 
