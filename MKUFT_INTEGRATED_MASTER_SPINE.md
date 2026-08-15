@@ -64,6 +64,8 @@ $$
 
 This is a formal representation of a possibility/source domain. It is not evidence that a hidden material medium, lattice, or additional physical space has been detected.
 
+For recursive live-state work, Module 33 distinguishes this ambient possibility scaffold from an effective possibility object $S_t^{\mathrm{eff}}$ that contains the currently reachable/addressable support. A realised update may change $S_t^{\mathrm{eff}}$ without implying that observation rewrites an ambient universal substrate.
+
 ### I — Information
 
 To avoid symbol collision, use
@@ -85,7 +87,7 @@ The P-layer contains measurable physical states, fields, bodies, instruments, en
 
 The O-layer contains observer-positioned registration, measurement context, record, attention, interpretation, and any bounded state variable that is operationally defined.
 
-Observer language cannot replace a missing physical mechanism.
+Observer language cannot replace a missing physical mechanism. Where measurement changes the physical system, that back-action remains P-layer physics; Module 33 represents the general measurement step as a typed $P\rightarrow(P,O)$ instrument.
 
 ## 3. Realisation scaffold
 
@@ -122,6 +124,8 @@ P_{\mathrm{phys}}(E)
 $$
 
 when additional terms are absent, constant, negligible, or empirically unnecessary within a declared regime and tolerance.
+
+Module 33 does not silently replace this event-weighting scaffold. It supplies the more general typed update architecture within which a branch-specific weighting, if required, must live.
 
 ## 4. Constrained traversal
 
@@ -384,7 +388,7 @@ R_{\ell\rightarrow L}^{-1}(y).
 }
 $$
 
-Thus lower-scale state can change while the declared macrostate remains fixed whenever the trajectory remains inside `\mathcal M_y`. This is an operational model of lower-level turnover with higher-level persistence; it is not by itself a claim of personal identity or autonomous macro causation.
+Thus lower-scale state can change while the declared macrostate remains fixed whenever the trajectory remains inside $\mathcal M_y$. This is an operational model of lower-level turnover with higher-level persistence; it is not by itself a claim of personal identity or autonomous macro causation.
 
 The quotient
 
@@ -394,7 +398,7 @@ $$
 
 is only a readout/coarse-graining until the Module 32S effective-object tests establish persistence, interventional load-bearingness, new viable capability, predictive compression, and boundary/closure specificity.
 
-The scale handoff is therefore schematically
+The scale handoff is schematically
 
 ```text
 ambient local possibilities
@@ -406,27 +410,106 @@ ambient local possibilities
 
 with completion as the complementary zoom-in fiber operation.
 
-Module 32S3 also defines an addressed constraint-to-admissibility scaffold
+Module 32S3 also defines the constraint-to-admissibility scaffold
 
 $$
 \mathcal Q_{\lambda,t}(\mathbf r,x,h)
 =
-\Omega_{\lambda,t}^{\mathrm{adm}},
+\Omega_{\lambda,t}^{\mathrm{adm}}.
 $$
 
-where the output lies in an addressed family of possible state spaces rather than one silently fixed space.
+At the I→P boundary, a non-zero relational effect can remain fully P-realised. Independent I→P dynamics still require content beyond the strongest adequate P-state/history/boundary model.
 
-At the I→P boundary, the empirical question can be posed through
+### 9.2 Intrinsic/extrinsic address and transport
+
+Module 32S4 separates intrinsic relational organisation from extrinsic/contextual address.
+
+For intrinsic class $\kappa$, extrinsic address $b$ and relevant history $h$,
 
 $$
-K_P(dp_{t+\Delta}\mid p_t,H_t^P,i_t)
+\mathcal F_P(\kappa;b,h)
+=
+\{p\in\mathfrak P:\chi_P(p;\kappa,b,h)=1\}
 $$
 
-and a preregistered relation deformation. A non-zero relational effect can remain fully P-realised and a conditional difference is not automatically causal. Independent I→P dynamics still require content beyond the strongest adequate P-state/history model.
+is a context-indexed set of compatible P-realisations. Relational specification, compatible physical realisation and actual occupancy remain distinct.
 
-This provides a restricted operational mirror of the S–I–P architecture—possibility, relational admissibility, physical realisation—without declaring the scaffold itself to be the ontology. Observer-positioned registration remains separately typed as O; a macro coarse-graining is not automatically an O-layer operation.
+For a contextual path $\gamma:b_0\to b_1$, a lawful transport $T_\gamma$ may be path-dependent. Same endpoints therefore do not imply identical transported state where a genuine connection/history dependence exists. Holonomy language is used only where its mathematical requirements are actually met.
 
-Canonical owners: [`docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md`](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [`docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md`](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md), [`docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md`](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md), [`docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md`](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md), and [`docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md`](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md).
+Established boundary-conditioned field physics and metasurface holography are retained as P-layer comparators: context/boundary can alter physical mode structure or reconstructed gestalt, but this does not establish an independent I layer or free-energy source.
+
+### 9.3 SIPO capstone — domain before generator
+
+Module 33 composes the preceding dependencies into the live SIPO update.
+
+Define an effective P-law object
+
+$$
+\boxed{
+\mathfrak L_{P,t}
+=
+\left(
+\mathcal D_{P,t},
+\mathcal T_{P,t},
+\mathcal W_{P,t}
+\right),
+}
+$$
+
+where $\mathcal D$ is the addressed admissible physical state/path/operator domain, $\mathcal T$ the domain-appropriate physical transition law, and $\mathcal W$ an optional domain-appropriate weighting object.
+
+The P-domain is selected through the current addressed admissibility geometry:
+
+$$
+\boxed{
+\mathcal D_{P,t}
+=
+\mathfrak D_P
+\left[
+\mathcal Q_t
+\left(
+S_t^{\mathrm{eff}},I_t,b_t,H_t
+\right)
+\right].
+}
+$$
+
+The SIPO update is then
+
+$$
+\boxed{
+\operatorname{Update}_{\mathrm{SIPO}}
+=
+\operatorname{Readdress}
+\circ
+\operatorname{Instrument}_{P\rightarrow(P,O)}
+\circ
+\operatorname{Propagate}_{P}^{\,\mathfrak D_P\circ\mathcal Q_I}.
+}
+$$
+
+This means:
+
+```text
+structured possibility
+→ relational/address constraints define admissible P-domain
+→ the physical law propagates on that domain
+→ a P→(P,O) instrument handles physical measurement back-action + record
+→ realised path/history/context readdress the next effective possibility object
+→ repeat
+```
+
+The capstone makes two logical separations explicit:
+
+> **domain before generator**
+
+and
+
+> **support before weighting**.
+
+A proposed I contribution must therefore say whether it changes the domain/support, the transition rule, the weighting among already admissible alternatives, or some typed combination. If the same effect is fully determined by an adequate P-state/history/boundary description, the relation remains P-realised.
+
+Canonical owners: Modules 32, 32S, 32S1, 32S2, 32S3, 32S4, and 33.
 
 ## 10. LUCY
 
@@ -465,7 +548,7 @@ LUCY-2 = sustained local region, when present
 
 These are conditional downstream morphologies, not automatic consequences of every LUCY crossing.
 
-Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 30. Module 32 supplies a structural adaptive-constraint comparison, and Module 32S3 supplies typed relation/completion/admissibility tests at the I→P boundary; neither establishes the I→P crossing or a physical LUCY mechanism.
+Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 30. Modules 32S3/32S4/33 now supply increasingly general admissibility, transport and update machinery around a candidate crossing; none of them by itself establishes independent I→P dynamics or a physical LUCY mechanism.
 
 ## 11. Observer and procedural support modules
 
@@ -489,26 +572,16 @@ The Voynich branch is an applied procedural hypothesis. It must compete with lin
 
 The foundational proposal asks whether quantum and gravitational effective behaviour may arise from a deeper typed update architecture rather than being fundamental objects at the same descriptive layer.
 
-The proposed update remains a placeholder task:
+The live-canon update is no longer only a placeholder arrow. Module 33 now supplies the architectural factorisation above. The remaining burden is the **physical instantiation** of that architecture:
 
-$$
-U_n
-\xrightarrow{\operatorname{Update}_{\mathrm{SIPO}}}
-U_{n+1}.
-$$
+- define the relevant $\mathcal D_{P,t}$, $\mathcal T_{P,t}$ and $\mathcal W_{P,t}$ for each target regime;
+- derive Bell-compatible quantum correlations and no-signalling;
+- recover the Born rule and relevant quantum/QFT limits rather than replacing them by assertion;
+- recover general-relativistic or experimentally equivalent gravitational behaviour;
+- preserve dimensional and conservation requirements;
+- produce at least one operational difference from strong alternatives if the deeper architecture is to earn independent physical content.
 
-Writing the operator does not supply the missing dynamics.
-
-A developed mechanism must recover:
-
-- Bell-compatible quantum correlations;
-- no-signalling;
-- the Born-rule and relevant quantum/QFT limits;
-- general-relativistic or experimentally equivalent gravitational behaviour;
-- dimensional and conservation requirements;
-- at least one operational difference from strong alternatives.
-
-If those burdens are not met, the branch remains an architectural reframing or interpretation rather than completed unification.
+If those burdens are not met, the capstone remains a coherent architectural factorisation rather than completed fundamental unification.
 
 ## 13. Experimental and promotion discipline
 
@@ -529,7 +602,7 @@ calibration
 
 A branch is reduced or removed when its variables cannot be operationalised, simpler models predict equally or better, the effect disappears under controls, results do not replicate, definitions move after failure, or evidence from another layer is used to rescue it.
 
-Canonical owners: Modules 04, 05, 27, 28, and 29.
+Canonical owners: Modules 04, 05, 27, 28, 29, and branch-specific controls in the 32/33 family.
 
 ## 14. Metaphysical boundary
 
@@ -547,7 +620,7 @@ Development-stage context should be translated into a public invariant or retire
 
 ```text
 S–I–P–O:
-Substrate → Information → Physical → Observer
+Substrate → Information → Physical → Observer → next effective possibility
 
 Information notation:
 I = layer
@@ -588,8 +661,20 @@ Missing-address completion:
 Macro realisation class:
 𝓜_y = 𝔠_B,ℓ ∩ R_(ℓ→L)^(-1)(y)
 
+Context-indexed P realisation:
+𝓕_P(κ;b,h) = {p ∈ 𝔓 : χ_P(p;κ,b,h)=1}
+
 Constraint-to-admissibility:
 𝒬_(λ,t)(r⃗,x,h) = Ω_(λ,t)^adm
+
+P-law object:
+𝔏_P,t = (𝒟_P,t, 𝒯_P,t, 𝒲_P,t)
+
+Domain selection:
+𝒟_P,t = 𝔇_P[𝒬_t(S_t^eff,I_t,b_t,H_t)]
+
+SIPO capstone:
+Update_SIPO = Readdress ∘ Instrument_(P→(P,O)) ∘ Propagate_P^(𝔇_P∘𝒬_I)
 
 Enabling-constraint pair, when comparable:
 Δμ_ℓ < 0 while Δν_L > 0
@@ -599,11 +684,13 @@ Y_L = χ_L ||∇τ_L||²/(N_L+ε_L)
 Y_L ≥ Y_*
 
 Integrity:
-Define once. Type the address. Test the coupling. Recover the baseline. Keep the falsifier.
+Define once. Type the address. Select the domain. Test the coupling. Recover the baseline. Keep the falsifier.
 ```
 
 ## 17. Final statement
 
 MKUFT should not read as a pile of similarities.
 
-It should read as one research architecture in which bold proposals remain bold **because their evidential status, ordinary limits, alternatives, and failure conditions remain visible**.
+Its current live spine is a recursive research architecture in which **possibility, relation, admissible domain, physical law, measurement/registration, history and scale transition are explicitly separated but composable**.
+
+The architectural drivetrain is now closed. The remaining foundational burden is not another missing arrow; it is to instantiate that drivetrain in concrete physics, recover the established quantum and gravitational regimes, and determine whether the deeper relational architecture earns independent predictive content.
