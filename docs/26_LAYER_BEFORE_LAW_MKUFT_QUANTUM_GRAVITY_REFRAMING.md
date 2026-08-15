@@ -10,7 +10,7 @@
 <!-- MKUFT-PROVENANCE-HEADER:END -->
 
 **Document type:** Public working proposal and foundational clarification  
-**Status:** Open research direction within the MKUFT public working canon; not a completed derivation or standalone publication
+**Status:** Open research direction within the MKUFT public working canon. The SIPO update is now architecturally factorised by [Module 33](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md); branch-specific quantum/gravitational derivations and empirical discrimination remain open.
 
 ## Abstract
 
@@ -26,7 +26,7 @@ where $S$ denotes substrate, $I$ informational structure and relation, $P$ physi
 
 On this view, quantum and gravitational behaviour may be effective physical outputs of different relational conditions within one deeper lawful architecture, rather than two original objects that must be directly welded together. The proposal introduces a typed layered-address description of objects and uses entanglement as an initial worked case. Physically separated systems may retain a specific non-separable informational relation while preserving distinct physical addresses.
 
-This document does not derive quantum mechanics, the Born rule, Bell correlations, general relativity, or a quantum theory of gravity. Its contribution is architectural: it identifies a candidate category error, states the proposed alternative clearly, and defines the mathematical and experimental work required to test it.
+This document does not derive quantum mechanics, the Born rule, Bell correlations, general relativity, or a quantum theory of gravity. Its contribution is architectural: it identifies a candidate category error, states the proposed alternative clearly, and defines the mathematical and experimental work required to test it. Module 33 now closes the formerly unnamed SIPO update at the architectural level by separating admissible-domain construction, P-layer propagation, physical measurement/registration, and recursive readdressing.
 
 ## 1. Purpose
 
@@ -36,9 +36,7 @@ The purpose of this proposal is narrower:
 
 > identify whether the problem has been categorised at the correct layer before specialists invest further work inside that category.
 
-The division of labour is explicit. MKUFT supplies a candidate systems architecture, layer discipline, relational decomposition, and failure conditions. Physicists would still be required to formalise the proposed relations, derive known limits, calculate measurable results, and reject the framework where it fails.
-
-The proposal is therefore a marker of research direction, not a claim that the work is finished.
+The division of labour is explicit. MKUFT supplies a candidate systems architecture, layer discipline, relational decomposition, failure conditions, and now a typed capstone factorisation of the update. Physicists are still required to instantiate the relevant physical domains and generators, derive known limits, calculate measurable results, and reject the framework where it fails.
 
 ## 2. The candidate category error
 
@@ -90,57 +88,116 @@ MKUFT uses four active layer addresses:
 
 These layers are typed addresses. They are not four ordinary spatial dimensions.
 
-The current public canon commonly displays the forward traversal as $S \rightarrow I \rightarrow P \rightarrow O$. This proposal makes the recursive return leg explicit:
+The recursive traversal is:
 
 $$
 S \rightarrow I \rightarrow P \rightarrow O \rightarrow S.
 $$
 
-The added $O \rightarrow S$ notation is a proposed clarification of the update logic, not a claim that the existing core text already formalises that coupling. It states that a physically expressed and registered outcome may change the conditions from which later states become admissible. MKUFT is therefore not treated here as a one-way production chain.
+Module 33 sharpens the conservative operational meaning of the return leg. It does not require an observation to rewrite an ambient universal substrate. A realised P/O outcome changes state, history, context and relations from which the next **effective possibility object** is computed.
 
-Each arrow represents a proposed typed coupling that must eventually be defined. The layer names and arrows are not themselves a mechanism, metric, or physical shortcut.
+The arrows therefore remain typed dependencies, not distances in one hidden geography.
 
-## 4. State transition
+## 4. State transition — the capstone factorisation
 
-Let the complete layered state at update $n$ be:
-
-$$
-\mathcal U_n=(S_n,I_n,P_n,O_n).
-$$
-
-Where formal spaces are introduced, the components should be typed:
+Let the effective addressed state be
 
 $$
-S_n\in\mathcal X_S,
-\quad
-I_n\in\mathcal X_I,
-\quad
-P_n\in\mathcal X_P,
-\quad
-O_n\in\mathcal X_O.
+\mathcal U_t
+=
+\left(
+S_t^{\mathrm{eff}},
+I_t,
+P_t,
+O_t,
+b_t,
+H_t
+\right),
 $$
 
-The tuple is a bookkeeping structure. It does not assert that all four components inhabit one homogeneous Euclidean vector space.
+where $b_t$ is extrinsic/contextual address and $H_t$ is the retained load-bearing history object.
 
-Represent the still-unknown lawful transition process directly as:
+The earlier version of this proposal introduced
 
 $$
-\mathcal U_n
+\mathcal U_t
 \xrightarrow{\operatorname{Update}_{\mathrm{SIPO}}}
-\mathcal U_{n+1}.
+\mathcal U_{t+\Delta}
 $$
 
-### Symbol meaning
+as an intentionally undefined task. The later Module 32 family supplied the necessary dependencies, and Module 33 now factorises that update architecturally.
 
-- $\mathcal U_n$: the complete state addressed across S, I, P, and O at update $n$;
-- $\mathcal U_{n+1}$: the next complete addressed state;
-- $\operatorname{Update}_{\mathrm{SIPO}}$: the still-unknown process by which one complete addressed state becomes the next.
+First define the P-layer law object
 
-This arrow notation does not assume that the update is deterministic. It may ultimately be deterministic, probabilistic, constraint-selective, stochastic, relational, or require a different mathematical category.
+$$
+\mathfrak L_{P,t}
+=
+\left(
+\mathcal D_{P,t},
+\mathcal T_{P,t},
+\mathcal W_{P,t}
+\right),
+$$
 
-The existing MKUFT mathematical appendix uses $\Phi$ for a candidate group-coherence function. This proposal therefore does not reuse that symbol. $\operatorname{Update}_{\mathrm{SIPO}}$ is written in plain form to avoid a notation collision and to make its meaning immediately readable. It is not a synonym for God, the substrate, gravity, or a known physical field.
+where $\mathcal D_{P,t}$ is the admissible physical state/path/operator domain, $\mathcal T_{P,t}$ the appropriate physical transition rule or generator, and $\mathcal W_{P,t}$ any domain-appropriate weighting object required by the physical model.
 
-The operator also does not replace the MKUFT effective event-weighting scaffold $\widetilde W(E)$. If developed, the deeper update rule must explain, recover, or lawfully revise that scaffold rather than silently bypassing it.
+The admissible P-domain is selected from current possibility, relation, context and history:
+
+$$
+\boxed{
+\mathcal D_{P,t}
+=
+\mathfrak D_P
+\left[
+\mathcal Q_t
+\left(
+S_t^{\mathrm{eff}},I_t,b_t,H_t
+\right)
+\right].
+}
+$$
+
+The complete architectural update is then
+
+$$
+\boxed{
+\operatorname{Update}_{\mathrm{SIPO}}
+=
+\operatorname{Readdress}
+\circ
+\operatorname{Instrument}_{P\rightarrow(P,O)}
+\circ
+\operatorname{Propagate}_{P}^{\,\mathfrak D_P\circ\mathcal Q_I}.
+}
+$$
+
+The superscript indicates that the P-propagator is parameterised by the admissible-domain construction; it is not ordinary untyped composition at that position.
+
+The instrument is typed as
+
+$$
+\operatorname{Instrument}_{P\rightarrow(P,O)}:
+P^-_{t+\Delta}
+\longmapsto
+\left(P_{t+\Delta},O_{t+\Delta}\right),
+$$
+
+so physical measurement back-action remains in P while O contains the resulting registration/record.
+
+In plain language:
+
+```text
+structured possibility
+→ relational/address constraints define admissible P-domain
+→ the appropriate physical law propagates on that domain
+→ physical measurement/registration produces the realised P/O outcome
+→ realised path, record and context readdress the next effective possibility object
+→ repeat
+```
+
+This is **domain before generator** and **support before weighting** as a logical factorisation. It is not a claim that nature literally waits between discrete stages.
+
+Module 33 owns the full definitions, physical-only null, specialisations and falsifiers. The branch-specific quantum and gravitational dynamics remain to be instantiated and derived.
 
 ## 5. Layered address of an object
 
@@ -216,8 +273,6 @@ R_{XY}
 \right).
 $$
 
-### Symbol meaning
-
 - $\widetilde I_X$: informational structure specific to $X$;
 - $\widetilde I_Y$: informational structure specific to $Y$;
 - $R_{XY}$: a relation belonging to the pair rather than to either endpoint alone.
@@ -240,15 +295,9 @@ This does not place the two systems next to each other in physical space. Their 
 
 Informational adjacency is not physical proximity. A proposed I-layer relation can affect physical statistics only through a defined coupling and does not constitute a physical tunnel or controllable shortcut.
 
-The address metaphor is hierarchical. All objects share the proposed deepest substrate root. An entangled pair may additionally share a more specific relation or routing component while retaining different complete addresses.
-
 ## 8. Statistical relation rather than mechanical mirroring
 
-Let:
-
-- $x$ and $y$ denote local measurement settings;
-- $a$ and $b$ denote the corresponding outcomes;
-- $R_{XY}$ denote the pair-level informational relation.
+Let $x,y$ denote local measurement settings, $a,b$ the corresponding outcomes, and $R_{XY}$ the pair-level informational relation.
 
 The joint outcome structure is represented by:
 
@@ -256,7 +305,7 @@ $$
 p(a,b\mid x,y,R_{XY}).
 $$
 
-Define the marginals from the joint distribution:
+Define marginals:
 
 $$
 p_X(a\mid x,y,R_{XY})
@@ -270,37 +319,32 @@ p_Y(b\mid x,y,R_{XY})
 \sum_a p(a,b\mid x,y,R_{XY}).
 $$
 
-The outcomes are not generally independent when:
+The outcomes are not generally independent when
 
 $$
 p(a,b\mid x,y,R_{XY})
 \neq
-p_X(a\mid x,y,R_{XY})
-\,p_Y(b\mid x,y,R_{XY}).
+p_X(a\mid x,y,R_{XY})p_Y(b\mid x,y,R_{XY}).
 $$
 
-This equation alone does not distinguish quantum entanglement from every classical correlation. It only states that the pair-level relation matters to the joint result.
+This equation alone does not distinguish quantum entanglement from every classical correlation.
 
-To match Bell-test results, the developed model must not reduce to a locally separable hidden-variable form:
+To match Bell-test results, a developed model must not reduce to a locally separable hidden-variable form
 
 $$
 p(a,b\mid x,y)
 =
 \int d\lambda\,
-\rho(\lambda)
-\,p(a\mid x,\lambda)
-\,p(b\mid y,\lambda).
+\rho(\lambda)p(a\mid x,\lambda)p(b\mid y,\lambda).
 $$
 
-Here $\lambda$ denotes a candidate local hidden variable and $\rho(\lambda)$ its probability distribution. If $R_{XY}$ reduces to an ordinary local instruction $\lambda$ carried independently by each endpoint, this proposal fails as an account of Bell-nonlocal correlations.
+If $R_{XY}$ reduces to an ordinary local instruction $\lambda$ carried independently by each endpoint, this proposal fails as an account of Bell-nonlocal correlations.
 
-The proposed interpretation is not that a chosen physical movement at $X$ is copied at $Y$. The shared relation constrains the joint resolution of the pair. It does not automatically provide one endpoint with direct write-access to the other endpoint's complete P-layer state.
+The proposed interpretation is not that a chosen physical movement at $X$ is copied at $Y$. The shared relation constrains the joint resolution of the pair. It does not automatically provide one endpoint with direct write-access to the other's complete P-layer state.
 
 ## 9. No-signalling requirement
 
 The model must preserve the observed inability to use entanglement alone as a controllable faster-than-light communication channel.
-
-The local outcome distribution at $Y$ must remain independent of the distant choice $x$:
 
 $$
 p_Y(b\mid x,y,R_{XY})
@@ -308,55 +352,27 @@ p_Y(b\mid x,y,R_{XY})
 p_Y(b\mid y,R_{XY}),
 $$
 
-with the right-hand side unchanged when $x$ changes.
-
-Likewise:
-
 $$
 p_X(a\mid x,y,R_{XY})
 =
-p_X(a\mid x,R_{XY}),
+p_X(a\mid x,R_{XY}).
 $$
 
-independent of $y$.
-
-Equivalently, the relevant marginal sums must be independent of the distant setting.
-
-Within the present MKUFT proposal, the conceptual reason is that $R_{XY}$ belongs to the pair-level relation. Neither local endpoint independently possesses or controls the whole of it.
-
-That is not yet a derivation. A valid formal model must prove the no-signalling result rather than relying on this verbal explanation.
+The conceptual pair-level account is not itself a proof. A valid physical instantiation must derive the relevant no-signalling result.
 
 ## 10. Implication for quantum gravity
 
-MKUFT does not propose that quantum mechanics and gravity merely share an origin, ancestry, or analogy.
+MKUFT does not propose that quantum mechanics and gravity merely share an origin, ancestry, or analogy. It proposes that both may arise through one lawful cross-layer update architecture operating through the complete SIPO loop.
 
-It proposes that both may arise through one lawful cross-layer update architecture operating through the complete SIPO loop.
-
-The intended relationship is mechanistic only in the future formal sense: a defined state-changing rule must produce physical consequences. It is not assumed to be a classical mechanism confined to physical contact or signal propagation inside already-formed spacetime.
+Module 33 now gives the common **architectural form** of that loop. What remains branch-specific is the actual physical content of $\mathcal D_{P,t}$, $\mathcal T_{P,t}$ and $\mathcal W_{P,t}$ in the quantum and gravitational regimes, and the derivation of those effective regimes from the deeper addressed architecture.
 
 The proposed distinction is:
 
 - quantum and gravitational behaviour may not couple solely through a direct P-layer interaction;
-- both may be generated and coupled through deeper typed S–I–P–O relations;
-- their consequences remain physical and measurable where they appear at P and O.
+- relational/address conditions may be load-bearing first by selecting or deforming the domain/support on which P-dynamics act;
+- both effective regimes must still be recovered quantitatively in P and O.
 
-Within the present hypothesis, quantum behaviour may arise where informational relations remain non-separable, multiply admissible, or unresolved before physical registration.
-
-Gravitational behaviour may arise where persistent informational and physical structure changes the admissible transitions available to later physical states, appearing at the P-layer as stable geometry or an equivalent gravitational constraint.
-
-These are candidate research directions, not derivations.
-
-The proposal can be stated as two required recovery limits.
-
-Let $\mathcal X_U$ be the declared complete addressed-state space and let:
-
-$$
-\Pi_{P,O}:\mathcal X_U\rightarrow\mathcal X_P\times\mathcal X_O
-$$
-
-be the proposed projection or readout of physical expression and observational registration.
-
-For relational conditions $\mathcal R_Q$ that generate the quantum regime:
+Let $\Pi_{P,O}$ extract the relevant physical/registered result. For relational conditions $\mathcal R_Q$ and $\mathcal R_G$, the recovery targets remain
 
 $$
 \Pi_{P,O}
@@ -364,10 +380,8 @@ $$
 \operatorname{Update}_{\mathrm{SIPO}}(\mathcal U;\mathcal R_Q)
 \right]
 \approx
-\mathcal Q_{\mathrm{eff}}.
+\mathcal Q_{\mathrm{eff}},
 $$
-
-For relational conditions $\mathcal R_G$ that generate the gravitational regime:
 
 $$
 \Pi_{P,O}
@@ -378,31 +392,11 @@ $$
 \mathcal G_{\mathrm{eff}}.
 $$
 
-### Symbol meaning
-
-- $\mathcal R_Q$: conditions under which quantum theory is the correct effective description;
-- $\mathcal R_G$: conditions under which general relativity is the correct effective description;
-- $\Pi_{P,O}$: extraction of the physically expressed and observationally registered result;
-- $\mathcal Q_{\mathrm{eff}}$: the established quantum limit;
-- $\mathcal G_{\mathrm{eff}}$: the established gravitational limit;
-- $\approx$: recovery under a future declared comparison rule.
-
-The approximation symbol is not sufficient by itself. A developed model must specify:
-
-- the compared objects and state spaces;
-- the norm, divergence, likelihood, observable set, or other comparison statistic;
-- the tolerance;
-- the energy, length, time, and experimental regime;
-- the treatment of uncertainty;
-- the conditions under which the approximation fails.
-
-These equations are research requirements, not completed calculations.
-
-The MKUFT task is not merely to place quantum and gravitational equations beside each other. It is to define one cross-layer mechanism capable of producing both limits under different relational conditions.
+The approximation requires a declared comparison space/statistic, tolerance, physical regime and uncertainty treatment. These remain research requirements, not completed calculations.
 
 ## 11. What this proposal contributes now
 
-The present contribution is architectural rather than computational.
+The present contribution is architectural rather than a completed fundamental-physics derivation.
 
 It supplies:
 
@@ -411,134 +405,93 @@ It supplies:
 3. a concrete location for entanglement as a retained pair-level I-layer relation between distinct P-layer systems;
 4. a reason that nonlocal statistical relation need not imply direct mechanical copying through physical space;
 5. a no-signalling target that the model must preserve;
-6. a clear readable placeholder, $\operatorname{Update}_{\mathrm{SIPO}}$, for the deeper state-transition mechanism;
-7. a division of labour between systems-level reframing and specialist mathematical proof;
+6. a typed architectural factorisation of $\operatorname{Update}_{\mathrm{SIPO}}$ through admissibility-domain selection, domain-conditioned P propagation, a P→(P,O) measurement/registration instrument, and recursive readdressing;
+7. an explicit separation of ambient substrate possibility from the effective possibility object recalculated after a realised transition;
 8. typed-state and dimensional controls that prevent an abstract address space from being mistaken for extra physical geography.
 
-This gives researchers a different place to look. It does not yet prove that the place is correct.
+The framework has therefore moved beyond an unnamed update arrow. It still has to earn the physical content of that architecture in each target regime.
 
-## 12. Division of labour
+## 12. Division of labour after the capstone
 
-The systems-level task is to:
+The systems-level task is now to:
 
-- identify the layers and category boundaries;
-- state what is shared and what remains distinct;
-- prevent physical, informational, and observational descriptions from being silently flattened;
-- identify the minimum mechanism that could generate the observed regimes;
-- attach ordinary limits, rival explanations, and failure conditions.
+- preserve the typed architecture and comparison guards;
+- identify the minimum domain variables required by a concrete physical branch;
+- specify which relations are claimed to alter domain, transition rule, weighting, or only representation;
+- keep the strongest P-only null active;
+- propagate corrections through the complete dependency stack.
 
-The specialist physics task is to:
+The specialist mathematical-physics task is to:
 
-- choose appropriate mathematical state spaces;
-- define typed couplings between layers;
-- derive amplitudes and probabilities;
+- instantiate $\mathcal D_{P,t}$, $\mathcal T_{P,t}$ and $\mathcal W_{P,t}$ for a target regime;
+- prove the relevant mathematical well-posedness;
+- derive amplitudes/probabilities where appropriate;
 - recover Bell correlations and no-signalling;
-- recover observed locality, dimensional structure, energy, and momentum behaviour;
-- recover effective spacetime geometry and gravitational dynamics;
-- calculate deviations, if any, from established theory;
+- recover locality, dimensional structure, conservation behaviour and quantum/QFT limits;
+- derive effective gravitational geometry/dynamics and recover GR or an experimentally equivalent limit;
+- calculate any discriminating deviations;
 - design decisive experiments.
-
-The proposal invites that work. It does not claim to have completed it.
 
 ## 13. ATLD active-traversal and load-bearing audit
 
-This proposal must be tested by the same discipline applied elsewhere in MKUFT.
-
 A densely connected idea is not established merely because the rest of the framework depends upon it. Structural importance is not evidence of physical truth.
 
-### 13.1 Active traversal requirements
+Every central claim must remain connected to its canonical definition, parent layer, cross-layer coupling, ordinary-physics limit, strongest rival, falsifier and downstream consequences.
 
-Every central claim must remain connected to:
+### Controlled deformation tests
 
-- its canonical definition;
-- its parent layer;
-- its cross-layer coupling;
-- the ordinary-physics limit;
-- its strongest rival interpretation;
-- its falsifier;
-- its downstream consequences elsewhere in MKUFT.
+**Remove the S-layer claim.** If all predictions remain unchanged, universal substrate continuity is not yet empirically load-bearing.
 
-A correction at one node must propagate through the whole affected branch. A proposal that survives only because contradictory modules are not revisited fails the traversal test.
+**Replace $R_{XY}$ with the standard joint quantum state.** If nothing explanatory, mathematical or predictive changes, the layered address is an interpretation/translation rather than a new physical mechanism.
 
-### 13.2 Load-bearing questions
+**Remove the O-layer.** If registration context does no distinct work, it should not be retained for symmetry alone. Where measurement back-action exists, it remains a P-layer physical interaction represented by the P→(P,O) instrument.
 
-For each candidate relation, ask four separate questions.
+**Replace one SIPO architecture with unrelated effective rules.** If the models perform equally well, deeper unification has not been earned.
 
-**Structural load:** Does the relation help reconstruct the model consistently?
+**Replace the admissibility-to-domain map with an adequate P-only domain model.** If predictive and interventional performance is unchanged, no independent I→P role has been established.
 
-**Reality load:** Does it improve contact with measurement, prediction, or intervention beyond existing descriptions?
-
-**Generative load:** Does it produce new lawful structure without ad hoc rescue?
-
-**Whole-system integrity load:** Does it preserve standard limits, calibration, falsifier access, and consistency across the complete model rather than exporting an unexplained contradiction into another layer?
-
-### 13.3 Controlled deformation tests
-
-The following deformations should be applied.
-
-**Remove the S-layer claim.** If the entanglement account and all predictions remain unchanged, universal substrate continuity is not yet empirically load-bearing in this module.
-
-**Replace $R_{XY}$ with the standard joint quantum state.** If nothing explanatory, mathematical, or predictive changes, the layered address is currently an interpretation or translation rather than a new physical mechanism.
-
-**Remove the O-layer from this module.** If registration context does no distinct work, it should not be retained here merely for symmetry with the wider framework.
-
-**Replace one SIPO update mechanism with two unrelated effective rules.** If the model performs equally well, the deeper unification claim has not yet been earned.
-
-**Reverse or scramble layer couplings.** If the model remains equally coherent after the claimed direction of dependence is altered, the direction is decorative rather than load-bearing.
-
-**Flatten typed spaces into one undifferentiated geometry.** If nothing changes, the layer distinction may be decorative. If the flattening creates false shortcuts or incompatible variables, typed structure is load-bearing as a hygiene constraint.
-
-These tests protect the proposal from becoming a self-supporting vocabulary that cannot be distinguished from alternatives.
-
-### 13.4 Strongest fair null and relational specificity
-
-The proposal must be compared with the strongest existing alternatives, not with a simplified classical picture that contemporary physics has already rejected.
-
-The strongest fair null includes at least:
-
-- standard quantum theory's non-separable joint-state formalism;
-- existing no-signalling results;
-- established decoherence accounts;
-- quantum-foundations interpretations that already distinguish local observations from global state structure;
-- effective-field-theory treatments of gravity;
-- emergent-spacetime and quantum-gravity programmes that already question the fundamentality of spacetime.
-
-MKUFT earns support only where the layered architecture adds a clearer mechanism, a stronger derivation, a discriminating prediction, or a more successful research route than these alternatives under matched evidential standards.
-
-Relational specificity must also be tested. If a generic systems vocabulary or any loosely layered model performs equally well, the specific SIPO architecture has not been shown to carry the load.
+**Flatten typed spaces into one geometry.** If nothing changes, the layer distinction may be decorative. If flattening creates false comparisons or shortcuts, typed structure is load-bearing.
 
 ## 14. Failure conditions
 
 The proposal is weakened or rejected if:
 
-1. the S, I, P, and O distinctions cannot be operationally defined;
-2. the proposed I-layer relation is only a relabelling of the standard joint quantum state and adds no explanatory, mathematical, or predictive value;
-3. $R_{XY}$ reduces to a local hidden-variable instruction incompatible with Bell-test results;
-4. the model permits controllable superluminal signalling contrary to observation;
-5. the cross-layer mechanism cannot recover standard quantum theory in its demonstrated domain;
-6. the mechanism cannot recover general relativity or an experimentally equivalent gravitational limit;
-7. the meaning of a term changes silently between layers;
-8. equations are introduced without a clear referent, typed domain, coupling, observable consequence, or failure condition;
-9. the model relies on metaphysical interpretation to rescue a failed physical claim;
-10. no test can distinguish the framework from existing interpretations or formalisms;
-11. state-space dimension, layer address, and physical spatial dimension are silently collapsed;
-12. the recovery approximation cannot be assigned a norm, tolerance, and regime.
+1. S, I, P and O cannot be operationally separated where the claim requires them;
+2. a proposed I relation is only a relabelling of an adequate P/joint-state description and adds no explanatory, mathematical, predictive or interventional value;
+3. $R_{XY}$ reduces to a local hidden-variable instruction incompatible with Bell tests;
+4. the model permits controllable superluminal signalling;
+5. the instantiated update cannot recover standard quantum theory in its demonstrated domain;
+6. it cannot recover general relativity or an experimentally equivalent gravitational limit;
+7. the meaning/type of a term changes silently between layers;
+8. equations lack a clear domain, coupling, observable consequence or failure condition;
+9. metaphysical interpretation is used to rescue a failed physical claim;
+10. no test can distinguish the relevant MKUFT branch from stronger existing models;
+11. state-space dimension, layer address and physical dimension are collapsed;
+12. recovery comparisons lack a norm/statistic, tolerance and regime;
+13. the admissible P-domain cannot be operationally separated from an adequate P-only domain/boundary/history model where independent I→P dynamics are claimed;
+14. O is used to manufacture P-dynamics without a physical or independently tested coupling.
 
-## 15. Immediate research programme
+## 15. Immediate research programme after architectural closure
 
-The first technical target should remain narrow.
+The capstone changes the next question. The task is no longer to invent a generic `Update_SIPO` arrow. It is to **instantiate it**.
 
-1. Define a precise mathematical object capable of representing $R_{XY}$.
-2. Show how that relation constrains joint P-layer outcomes.
-3. Derive or reproduce Bell-compatible correlations.
-4. Prove that the local marginals preserve no-signalling.
-5. Determine whether the representation differs operationally from the standard joint quantum state.
-6. State one observation that would support or weaken the layered-address account.
-7. Define the typed spaces and coupling maps needed for the pair-level model.
+### Quantum branch
 
-Only after that relation is clean should the same architecture be extended toward the gravitational branch.
+1. Choose the smallest physical system in which domain/boundary selection is mathematically exact and experimentally controllable.
+2. Define the standard P-only domain and generator.
+3. Specify the candidate relational variable and whether it predicts a change in domain, transition rule or weighting.
+4. Demonstrate the standard quantum limit first, including positivity/unitarity or complete positivity and no-signalling where applicable.
+5. Test whether the candidate I-variable supplies held-out/interventional content beyond the adequate P-state/history/boundary model.
+6. Only then extend the result toward entanglement/Bell structure.
 
-The first gravitational target would be to specify how persistent I- and P-layer structure changes the admissible transitions of later states, and then test whether the resulting effective description approaches known gravitational geometry under a declared comparison rule.
+### Gravitational branch
+
+1. Identify the addressed constraint/domain object corresponding to admissible gravitational initial/boundary data.
+2. Specify how the deeper relational architecture is proposed to generate or restrict that domain.
+3. Recover Einstein/ADM dynamics or an experimentally equivalent limit.
+4. State a prospective deviation or scaling relation that distinguishes the branch from GR/EFT and other strong alternatives.
+
+This is a branch-specific derivation programme, not a missing architectural component.
 
 ## 16. Conclusion
 
@@ -546,15 +499,11 @@ MKUFT does not claim that quantum mechanics and general relativity are wrong wit
 
 It proposes that the attempt to unify them may begin one layer too late.
 
-Quantum and gravitational behaviour may be different effective expressions of a deeper cross-layer mechanism. The layered-address model makes the proposal concrete by separating universal substrate continuity, pair-level informational relation, distinct physical embodiment, and observer-positioned registration.
+The central architectural claim is now sharper than in the original proposal:
 
-Entanglement provides the first worked case. Two systems may remain physically distant and individually embodied while retaining a relation that belongs to the pair at the informational layer. That relation may constrain joint outcomes without requiring one-to-one P-layer mechanical copying between their physical addresses.
+> **Before asking what law governs an object, determine the addressed domain in which that object and its admissible transitions are defined. Relation and context may be load-bearing by selecting that domain; the physical law then acts on it; measurement/registration produces a P/O outcome; and the realised path readdresses the next effective possibility object.**
 
-The proposal does not provide the finished mathematics. It identifies the architecture to be tested and the work required to test it.
-
-The public claim is therefore limited and direct:
-
-> Before forcing quantum theory and gravity together as fundamental objects, test whether both are generated by a deeper layered mechanism and whether their apparent conflict results from assigning effective laws to the wrong foundational category.
+The SIPO drivetrain is therefore no longer an unnamed arrow in the live canon. What remains is the harder physical programme: instantiate the domain-selection map and P-law in concrete regimes, derive established quantum and gravitational limits, and determine whether any independently specified I-variable adds real predictive content beyond the strongest physical account.
 
 ## References and internal dependencies
 
@@ -579,3 +528,7 @@ Internal MKUFT dependencies:
 - `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
 - `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
 - `docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md`
+- `docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md`
+- `docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md`
+- `docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md`
+- `docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md`
