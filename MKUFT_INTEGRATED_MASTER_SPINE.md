@@ -438,11 +438,25 @@ For a contextual path $\gamma:b_0\to b_1$, a lawful transport $T_\gamma$ may be 
 
 Established boundary-conditioned field physics and metasurface holography are retained as P-layer comparators: context/boundary can alter physical mode structure or reconstructed gestalt, but this does not establish an independent I layer or free-energy source.
 
-### 9.3 SIPO capstone — domain before generator
+### 9.3 SIPO capstone — addressed law assembly
 
 Module 33 composes the preceding dependencies into the live SIPO update.
 
-Define an effective P-law object
+Let the complete addressed state be
+
+$$
+\mathcal U_t=(S_t^{\mathrm{eff}},I_t,P_t,O_t,b_t,H_t)
+$$
+
+with measured/controlled context $E_t$ where required. The typed admissibility descriptor is
+
+$$
+\boxed{
+\Xi_t=\mathcal Q_t(\mathcal U_t,E_t).
+}
+$$
+
+The active physical law object is
 
 $$
 \boxed{
@@ -456,25 +470,25 @@ $$
 }
 $$
 
-where $\mathcal D$ is the addressed admissible physical state/path/operator domain, $\mathcal T$ the domain-appropriate physical transition law, and $\mathcal W$ an optional domain-appropriate weighting object.
+where $\mathcal D$ is the addressed physical state/path/operator domain, $\mathcal T$ the physical transition rule/generator, and $\mathcal W$ any domain-appropriate weighting/selection object.
 
-The P-domain is selected through the current addressed admissibility geometry:
+A typed law assembler maps
 
 $$
 \boxed{
-\mathcal D_{P,t}
-=
-\mathfrak D_P
-\left[
-\mathcal Q_t
-\left(
-S_t^{\mathrm{eff}},I_t,b_t,H_t
-\right)
-\right].
+\mathfrak C_P:(\Xi_t,P_t,E_t)\longmapsto\mathfrak L_{P,t}.
 }
 $$
 
-The SIPO update is then
+The minimal clean Layer-Before-Law branch is
+
+$$
+\mathcal D_{P,t}=\mathfrak D_P(\Xi_t)
+$$
+
+with standard $\mathcal T$ and $\mathcal W$ on that domain. The general capstone allows an independently demonstrated relation to affect $\mathcal D$, $\mathcal T$, $\mathcal W$, or a typed combination; domain-only conditioning is therefore a specialisation, not a universal restriction.
+
+The SIPO update is
 
 $$
 \boxed{
@@ -484,30 +498,26 @@ $$
 \circ
 \operatorname{Instrument}_{P\rightarrow(P,O)}
 \circ
-\operatorname{Propagate}_{P}^{\,\mathfrak D_P\circ\mathcal Q_I}.
+\operatorname{Propagate}_{P}^{\,\mathfrak L_P},
+\qquad
+\mathfrak L_P=\mathfrak C_P\circ\mathcal Q
+\ \text{with typed state/context arguments}.
 }
 $$
 
 This means:
 
 ```text
-structured possibility
-→ relational/address constraints define admissible P-domain
-→ the physical law propagates on that domain
-→ a P→(P,O) instrument handles physical measurement back-action + record
+complete addressed state + context/history
+→ typed admissibility descriptor Ξ
+→ assemble active P-law object (domain, transition, weighting)
+→ propagate physically
+→ P→(P,O) instrument handles physical measurement back-action + record
 → realised path/history/context readdress the next effective possibility object
 → repeat
 ```
 
-The capstone makes two logical separations explicit:
-
-> **domain before generator**
-
-and
-
-> **support before weighting**.
-
-A proposed I contribution must therefore say whether it changes the domain/support, the transition rule, the weighting among already admissible alternatives, or some typed combination. If the same effect is fully determined by an adequate P-state/history/boundary description, the relation remains P-realised.
+The capstone makes `domain before generator` and `support before weighting` explicit as clean logical specialisations without forcing all future I→P mechanisms into those forms. If the same law object is fully determined by an adequate P-state/history/boundary/environment model, the relation remains P-realised.
 
 Canonical owners: Modules 32, 32S, 32S1, 32S2, 32S3, 32S4, and 33.
 
@@ -574,7 +584,8 @@ The foundational proposal asks whether quantum and gravitational effective behav
 
 The live-canon update is no longer only a placeholder arrow. Module 33 now supplies the architectural factorisation above. The remaining burden is the **physical instantiation** of that architecture:
 
-- define the relevant $\mathcal D_{P,t}$, $\mathcal T_{P,t}$ and $\mathcal W_{P,t}$ for each target regime;
+- instantiate $\Xi_t$ and $\mathfrak C_P$ for each target regime;
+- define the resulting $\mathcal D_{P,t}$, $\mathcal T_{P,t}$ and $\mathcal W_{P,t}$;
 - derive Bell-compatible quantum correlations and no-signalling;
 - recover the Born rule and relevant quantum/QFT limits rather than replacing them by assertion;
 - recover general-relativistic or experimentally equivalent gravitational behaviour;
@@ -664,17 +675,23 @@ Macro realisation class:
 Context-indexed P realisation:
 𝓕_P(κ;b,h) = {p ∈ 𝔓 : χ_P(p;κ,b,h)=1}
 
-Constraint-to-admissibility:
-𝒬_(λ,t)(r⃗,x,h) = Ω_(λ,t)^adm
+Complete addressed state:
+𝒰_t = (S_t^eff,I_t,P_t,O_t,b_t,H_t)
+
+Admissibility descriptor:
+Ξ_t = 𝒬_t(𝒰_t,E_t)
 
 P-law object:
 𝔏_P,t = (𝒟_P,t, 𝒯_P,t, 𝒲_P,t)
 
-Domain selection:
-𝒟_P,t = 𝔇_P[𝒬_t(S_t^eff,I_t,b_t,H_t)]
+Law assembly:
+𝔏_P,t = 𝔠_P(Ξ_t,P_t,E_t)
+
+Domain-only specialisation:
+𝒟_P,t = 𝔇_P(Ξ_t)
 
 SIPO capstone:
-Update_SIPO = Readdress ∘ Instrument_(P→(P,O)) ∘ Propagate_P^(𝔇_P∘𝒬_I)
+Update_SIPO = Readdress ∘ Instrument_(P→(P,O)) ∘ Propagate_P^(𝔏_P)
 
 Enabling-constraint pair, when comparable:
 Δμ_ℓ < 0 while Δν_L > 0
@@ -684,13 +701,13 @@ Y_L = χ_L ||∇τ_L||²/(N_L+ε_L)
 Y_L ≥ Y_*
 
 Integrity:
-Define once. Type the address. Select the domain. Test the coupling. Recover the baseline. Keep the falsifier.
+Define once. Type the address. Build admissibility. Assemble the law object. Test the coupling. Recover the baseline. Keep the falsifier.
 ```
 
 ## 17. Final statement
 
 MKUFT should not read as a pile of similarities.
 
-Its current live spine is a recursive research architecture in which **possibility, relation, admissible domain, physical law, measurement/registration, history and scale transition are explicitly separated but composable**.
+Its current live spine is a recursive research architecture in which **possibility, relation, admissibility, physical law, measurement/registration, history and scale transition are explicitly separated but composable**.
 
 The architectural drivetrain is now closed. The remaining foundational burden is not another missing arrow; it is to instantiate that drivetrain in concrete physics, recover the established quantum and gravitational regimes, and determine whether the deeper relational architecture earns independent predictive content.
