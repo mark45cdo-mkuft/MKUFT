@@ -160,24 +160,37 @@ It is related to MKUFT, but not identical to MKUFT.
 
 Its role is to apply MKUFT, ESRT, and ESF reasoning to the Voynich Manuscript as a procedural or executable system.
 
+Published/archived citation identity:
+
+```text
+Voynich Manuscript – Systems/Engine Framework
+Author: Mark Charles McLaughlin
+Concept DOI: 10.5281/zenodo.18178637
+```
+
 Current repository position:
 
 ```text
 Voynich = applied procedural-engine node linked to MKUFT
 ```
 
-The Voynich paper should cite the MKUFT DOI as its backbone or provenance anchor:
+The Voynich paper should cite both its own concept DOI and the MKUFT DOI as its backbone or provenance anchor:
 
 ```text
+Voynich Manuscript – Systems/Engine Framework
+Concept DOI: 10.5281/zenodo.18178637
+Author: Mark Charles McLaughlin
+
+Supporting backbone:
 Unified Field Theory. McLaughlin–Kairos. MKUFT
 DOI: 10.5281/zenodo.17780566
 Author: Mark Charles McLaughlin
 Status of exact deposited MKUFT version: Public, CC BY 4.0
 ```
 
-This does not collapse Voynich into MKUFT or import the MKUFT deposit's licence into a later Voynich file. It records that the Voynich node stands on the MKUFT backbone and should point readers to that prior published framework.
+This does not collapse Voynich into MKUFT or import the MKUFT deposit's licence into the Voynich publication or later Voynich files. It records that the Voynich node has its own citation identity while standing on the MKUFT backbone.
 
-Where a separate Voynich Zenodo DOI is active, it should be added here as the Voynich node's own citation and rights identity.
+The Voynich DOI is a provenance and citation anchor. Its exact licence and version-specific rights remain those stated on the corresponding Zenodo record and deposited source material; they should not be inferred from the MKUFT backbone licence.
 
 ## ESRT / ESF Placement
 
@@ -227,7 +240,7 @@ When citing the exact ATLD v1.0 paper, attribution should include:
 McLaughlin, Mark Charles. (2026). Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems. Zenodo. DOI: 10.5281/zenodo.21341521.
 ```
 
-For Voynich work, cite the Voynich title or node and include the MKUFT DOI as the supporting backbone reference unless a separate Voynich DOI is provided.
+For Voynich work, cite the Voynich node with concept DOI `10.5281/zenodo.18178637` and include the MKUFT DOI as the supporting backbone reference.
 
 For any other separately published node, cite its own DOI where available and preserve the relationship to its originating framework.
 
