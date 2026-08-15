@@ -198,7 +198,37 @@ Historical, religious, symbolic, and metaphysical comparisons remain explicitly 
 
 They may motivate questions about boundary, relation, unity, differentiation, or repair, but they cannot supply missing units, couplings, derivations, controls, or experimental results.
 
-## 13. Novelty discipline
+## 13. Recursive constraint closure and reachable-state geometry
+
+**Established and neighbouring work:** theoretical biology already contains organisational/constraint closure; physical biosemiotics and semantic closure address symbol–matter and control–measurement relations; evolutionary theory and artificial-life work contain enablement, changing possibility spaces, internally maintained constraints, and emergence of new local rules. Recent 2026 work also develops organisational routes from closure and viability toward endogenous anticipation and reconstruction of future possibility spaces.
+
+**Role for MKUFT:** close prior work, scientific constraint, and formal comparison neighbourhood.
+
+**MKUFT distinction under test:** Module 32 combines the neighbouring concepts with the existing MKUFT machinery of typed construction addresses, no-false-state-parity comparison, relation-realisation tests, endogenous admissibility, strongest-fair-null/deformation controls, and an explicit separation between lower-scale feasible-state volume and higher-scale viable capability.
+
+The central candidate relation is:
+
+```text
+previous organisation
+→ consolidated typed constraints
+→ changed admissibility / update geometry
+→ changed reachable states or capabilities
+→ new organisation
+```
+
+A state-space address may itself change. When it does, before/after states are not subtracted or equated without a declared translation, embedding, quotient, or common observable.
+
+**Enabling-constraint signature:** under declared comparable measures, lower-scale feasible-state volume may decrease while higher-scale viable capability increases. This is not a universal monotonic law and constraint count is not a proxy for coherence, agency, or freedom.
+
+**Recurrent-architecture rule:** repeated form is scientifically interesting when a recurrent **constraint class and functional relation** survives typed comparison. Shape alone does not establish shared dynamics, ancestry-independent convergence, or one universal mechanism.
+
+**I→P boundary:** if the complete organisation is adequately realised by P-layer variables and history, the structural description does not establish independent I→P dynamics. Any stronger I→P claim must add prospective predictive or interventional content beyond the adequate physical baseline.
+
+**Failure conditions:** fixed-space or standard learning/control/evolutionary models predict equally well; random count-matched constraints reproduce the effect; claimed closure cannot be deformed as predicted; a rule change reduces to parameter retuning; or cross-domain recurrence disappears when common history, environment, material physics, and representation are controlled.
+
+**Novelty status:** the isolated ingredients are not claimed as new. The exact conjunction and its operational usefulness remain a live comparison question, not a historical-priority assertion.
+
+## 14. Novelty discipline
 
 The potentially distinctive MKUFT contributions are not the isolated words *information*, *coherence*, *boundary*, *observer*, or *cost*. Those concepts already have extensive scientific histories.
 
@@ -209,24 +239,25 @@ Novelty must be earned by combinations that do concrete work, including:
 3. constrained traversal and dimensionally valid path weighting;
 4. strongest-fair-null and controlled-deformation methodology;
 5. the independent-content test separating useful higher-level description from claimed new physical dynamics;
-6. an eventual lawful update or residual that recovers established limits and predicts something competitors do not.
+6. recursive constraint/reachable-state geometry only where it improves discrimination beyond fixed-space and ordinary adaptive models;
+7. an eventual lawful update or residual that recovers established limits and predicts something competitors do not.
 
-## 14. Current scientific ranking
+## 15. Current scientific ranking
 
 The public scientific position is best represented by maturity rather than a “support” leaderboard:
 
 - **Established external science:** quantum theory, relativity in tested regimes, critical phenomena, active matter, biological regulation, standard cognitive and systems science.
-- **Well-defined MKUFT methods or scaffolds:** typed traversal, equation hygiene, strongest-fair-null design, deformation tests, ambiguity and agency audit variables where operationalised.
+- **Well-defined MKUFT methods or scaffolds:** typed traversal, equation hygiene, strongest-fair-null design, deformation tests, ambiguity and agency audit variables where operationalised, context-conditioned state comparison, and the new recursive-constraint/reachable-state scaffold.
 - **Candidate experimental bridges:** LUCY physical specialisations, precision boundary residuals, selected observer-linked assays.
 - **Foundational research programme:** Layer Before Law and a future complete SIPO update/recovery model.
 - **Interpretive/application branches:** metaphysical comparison, symbolic comparison, Voynich procedural hypothesis.
 
 No category is promoted merely because another category is interesting or structurally similar.
 
-## 15. Working conclusion
+## 16. Working conclusion
 
 MKUFT is scientifically strongest when it uses neighbouring science to **increase its burden**, not to decorate itself with apparent confirmation.
 
 > Established science defines the baseline. Structural recurrence suggests a question. MKUFT must then name the extra variable or relation, predict the difference, survive the strongest alternative, and accept reduction if the difference does not appear.
 
-See [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md), [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md), [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), and [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
+See [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md), [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md), [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), and [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
