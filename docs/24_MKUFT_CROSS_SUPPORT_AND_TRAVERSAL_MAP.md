@@ -45,7 +45,7 @@ Primary documents:
 - [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md)
 - [SIPO Capstone](33_SIPO_CAPSTONE_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 
-These carry the S–I–P–O architecture, possibility and information structure, physical realisation, bounded observer terms, typed state graphs, trajectories, path-cost scaffolds, and the current admissibility-domain → P-law → P/O-instrument → readdressing factorisation.
+These carry the S–I–P–O architecture, possibility and information structure, physical realisation, bounded observer terms, typed state graphs, trajectories, path-cost scaffolds, and the current addressed-state → admissibility descriptor → physical-law object `(D,T,W)` → P propagation → P/O instrument → readdressing factorisation.
 
 ### Foundational physics
 
@@ -63,7 +63,7 @@ Primary documents:
 
 This branch carries category reframing, typed object/address discipline, admissible comparison, transport/history, Bell/no-signalling requirements, quantum and gravitational recovery burdens, and the current SIPO update architecture.
 
-The **architectural update object is now closed** by Module 33. The branch remains incomplete as fundamental physics until the P-domain, generator/transition law and any weighting are instantiated in concrete quantum/gravitational regimes, accepted limits are derived, and independent predictive content is demonstrated where claimed.
+The **architectural update object is now closed** by Module 33. The branch remains incomplete as fundamental physics until the admissibility descriptor and physical-law assembler are instantiated for concrete quantum/gravitational regimes, the resulting `(D,T,W)` object is mathematically well-defined, accepted limits are derived, and independent predictive content is demonstrated where claimed.
 
 ### Empirical discipline
 
@@ -104,7 +104,7 @@ Primary documents:
 - [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 
-These carry threshold, boundary, effective-geometry hypotheses, support-conditioned comparison, completion/admissibility geometry, transport/context, domain selection, ordinary physical baselines and reduction requirements.
+These carry threshold, boundary, effective-geometry hypotheses, support-conditioned comparison, completion/admissibility geometry, transport/context, law-object assembly, ordinary physical baselines and reduction requirements.
 
 ### Procedural and Voynich applications
 
@@ -327,20 +327,20 @@ and adds lawful path/loop transport tests plus boundary-conditioned physical com
 
 [SIPO Capstone: Constraint-Conditioned Addressed Update Law](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) closes the architectural update object.
 
-The P-law object is
+The complete addressed state/context first produces
 
 $$
+\Xi_t=\mathcal Q_t(\mathcal U_t,E_t).
+$$
+
+The active P-law object is then assembled as
+
+$$
+\boxed{
 \mathfrak L_{P,t}
-=
-(\mathcal D_{P,t},\mathcal T_{P,t},\mathcal W_{P,t}),
-$$
-
-with domain
-
-$$
-\mathcal D_{P,t}
-=
-\mathfrak D_P[\mathcal Q_t(S_t^{\mathrm{eff}},I_t,b_t,H_t)].
+=\mathfrak C_P(\Xi_t,P_t,E_t)
+=(\mathcal D_{P,t},\mathcal T_{P,t},\mathcal W_{P,t}).
+}
 $$
 
 The compressed update is
@@ -353,11 +353,11 @@ $$
 \circ
 \operatorname{Instrument}_{P\to(P,O)}
 \circ
-\operatorname{Propagate}_{P}^{\,\mathfrak D_P\circ\mathcal Q_I}.
+\operatorname{Propagate}_{P}^{\,\mathfrak L_P}.
 }
 $$
 
-This makes **domain before generator** and **support before weighting** explicit while retaining the physical-only null. It closes architecture, not the branch-specific quantum/gravitational derivation.
+`Domain before generator` and `support before weighting` are retained as clean specialisations, while the general capstone permits a demonstrated relation to change domain, transition rule, weighting, or a typed combination. The P-only null remains controlling. This closes architecture, not the branch-specific quantum/gravitational derivation.
 
 ## Complete public registry
 
@@ -404,7 +404,7 @@ This makes **domain before generator** and **support before weighting** explicit
 | [32S2 — Temporal Continuity](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) | History-dependent continuity | History must earn load-bearing status |
 | [32S3 — Relational Brackets / I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) | Completion, macro realisation, admissibility | Independent I→P must beat P-only null |
 | [32S4 — Intrinsic/Extrinsic Transport](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) | Context-indexed realisation / path transport | Prior transport/boundary physics; energy accounting |
-| [33 — SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) | Architectural update law factorisation | Concrete P-domain/generator derivations and accepted-limit recovery |
+| [33 — SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) | Addressed admissibility and physical-law-object update factorisation | Concrete law-assembler instantiation, accepted-limit recovery and discrimination |
 
 ## Public boundary
 
@@ -412,4 +412,4 @@ The public repository contains scientific proposals, mathematical and methodolog
 
 ## Compressed rule
 
-> Define the claim at its proper layer, preserve the comparison class and construction address, identify the admissible domain before applying the generator, route it to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, local restriction, relational completion, macro persistence, or local performance silently become empirical truth.
+> Define the claim at its proper layer, preserve the comparison class and construction address, build the typed admissibility descriptor, assemble the active physical law object, route it to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, local restriction, relational completion, macro persistence, or local performance silently become empirical truth.
