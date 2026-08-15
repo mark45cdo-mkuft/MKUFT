@@ -168,7 +168,7 @@ Author: Mark Charles McLaughlin
 Concept DOI: 10.5281/zenodo.18178637
 ```
 
-The concept DOI is independently present in dated project correspondence from 3 February 2026, where the Voynich Systems/Engine Framework is described as a separate archived body of work alongside the MKUFT Zenodo publication. This establishes the DOI's presence in the historical provenance trail without importing any unstated licence or version metadata into the current repository.
+The concept DOI is independently present in dated project correspondence from 3 February 2026, where the Voynich Systems/Engine Framework is described as a separate archived body of work alongside the MKUFT Zenodo publication. This establishes the DOI's presence in the historical provenance trail without importing any unstated licence, publication-state, or version metadata into the current repository.
 
 Current repository position:
 
@@ -190,9 +190,9 @@ Author: Mark Charles McLaughlin
 Status of exact deposited MKUFT version: Public, CC BY 4.0
 ```
 
-This does not collapse Voynich into MKUFT or import the MKUFT deposit's licence into the Voynich publication or later Voynich files. It records that the Voynich node has its own citation identity while standing on the MKUFT backbone.
+This does not collapse Voynich into MKUFT or import the MKUFT deposit's licence into later Voynich files. It records that the Voynich node has its own citation identity in the historical provenance trail while standing on the MKUFT backbone.
 
-The Voynich DOI is a provenance and citation anchor. Its exact publication status, licence, and version-specific rights should be read from the corresponding Zenodo record or deposited source material and should not be inferred from the MKUFT backbone licence.
+The Voynich concept DOI is a provenance and citation anchor. Its exact current publication status, licence, and version-specific rights should be read from the corresponding Zenodo record or deposited source material and should not be inferred from the MKUFT backbone licence.
 
 ## ESRT / ESF Placement
 
