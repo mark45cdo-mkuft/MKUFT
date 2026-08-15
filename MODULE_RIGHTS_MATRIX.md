@@ -86,6 +86,7 @@ Unless an exact file version expressly states a different licence, the current G
 | [33 — SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) | **All rights reserved** unless an exact version or later standalone publication states otherwise |
 | [33S1 — Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) | **All rights reserved** unless an exact version or later standalone publication states otherwise |
 | [33S2 — Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) | **All rights reserved** unless an exact version or later standalone publication states otherwise |
+| [33S3 — Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) | **All rights reserved** unless an exact version or later standalone publication states otherwise |
 
 The current GitHub source and companion modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by the ATLD manuscript's CC BY-NC-SA 4.0 licence merely because the manuscript was developed from related material.
 
