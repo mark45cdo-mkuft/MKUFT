@@ -136,13 +136,13 @@ $$
 
 ## 7. Morphogenesis and distributed biological control
 
-**Established result:** development, regeneration, tissue-level signalling, bioelectric states, feedback, and multiscale regulation contribute to biological form.
+**Established result:** development, regeneration, tissue-level signalling, bioelectric states, feedback, and multiscale regulation contribute to biological form. Boundary geometry can also constrain topological defect configuration and later lumen nucleation in embryonic tissue, while stable cortical body representations can persist after removal of a physical limb endpoint.
 
-**Role for MKUFT:** scientific neighbour and structural analogue for boundary, state, feedback, and higher-level constraint.
+**Role for MKUFT:** scientific neighbour and structural analogue for boundary, state, feedback, relational address, and higher-level constraint.
 
-**Boundary:** biological evidence does not establish foundational substrate physics. Genes, signalling, biomechanics, metabolism, and known regulatory mechanisms remain the scientific baseline.
+**Boundary:** biological evidence does not establish foundational substrate physics. Genes, signalling, biomechanics, metabolism, nervous-system dynamics, and known regulatory mechanisms remain the scientific baseline.
 
-**Next test:** ask whether an MKUFT representation produces a quantitative prediction or intervention advantage beyond existing developmental and control models.
+**Next test:** ask whether an MKUFT representation produces a quantitative completion, intervention, or transition prediction beyond existing developmental, neural, and control models.
 
 ## 8. Learning, flow, attention, and observer models
 
@@ -174,13 +174,13 @@ No cross-domain physical equivalence follows from this grammar alone.
 
 ## 10. Geometry-dependent physical systems
 
-**Established result:** geometry affects fields, stresses, resonances, transport, waveguiding, cavities, interfaces, and material response.
+**Established result:** geometry affects fields, stresses, resonances, transport, waveguiding, cavities, interfaces, and material response. Optical holography supplies a controlled example in which distributed phase structure and a propagation/readout transform reconstruct a spatial field.
 
-**Role for MKUFT:** ordinary-physics baseline and candidate residual-test platform.
+**Role for MKUFT:** ordinary-physics baseline, deformation comparator, and candidate residual-test platform.
 
 A result becomes MKUFT-relevant only when a prospectively specified residual survives complete electromagnetic, thermal, mechanical, material, acoustic, timing, and sensor models and follows an MKUFT-specific response law.
 
-A broad difference between two shapes is ordinary geometry, not evidence for MKUFT.
+A broad difference between two shapes is ordinary geometry, not evidence for MKUFT. A holographic analogy becomes physically meaningful only when encoding variables, transform/readout, and response to local masking or phase deformation are specified and tested.
 
 ## 11. Procedural systems and Voynich
 
@@ -196,15 +196,15 @@ A procedural classification is not a translation, historical attribution, or phy
 
 Historical, religious, symbolic, and metaphysical comparisons remain explicitly outside the evidential chain for physical claims.
 
-They may motivate questions about boundary, relation, unity, differentiation, or repair, but they cannot supply missing units, couplings, derivations, controls, or experimental results.
+They may motivate questions about boundary, relation, unity, differentiation, repair, or local-to-global structure, but they cannot supply missing units, couplings, derivations, controls, or experimental results.
 
-## 13. Recursive constraint closure and reachable-state geometry
+## 13. Recursive constraint closure, completion geometry, and reachable-state structure
 
-**Established and neighbouring work:** theoretical biology already contains organisational/constraint closure; physical biosemiotics and semantic closure address symbol–matter and control–measurement relations; evolutionary theory and artificial-life work contain enablement, changing possibility spaces, internally maintained constraints, and emergence of new local rules. Recent 2026 work also develops organisational routes from closure and viability toward endogenous anticipation and reconstruction of future possibility spaces.
+**Established and neighbouring work:** theoretical biology already contains organisational/constraint closure; physical biosemiotics and semantic closure address symbol–matter and control–measurement relations; evolutionary theory and artificial-life work contain enablement, changing possibility spaces, internally maintained constraints, and emergence of new local rules. Nerve constructions, sheaf theory, approximate local-to-global consistency, causal semantic-information interventions, information conversion across scales, and optical holographic reconstruction are also established mathematical or physical neighbours.
 
-**Role for MKUFT:** close prior work, scientific constraint, and formal comparison neighbourhood.
+**Role for MKUFT:** close prior work, scientific constraint, formal comparison neighbourhood, and source of stronger null models.
 
-**MKUFT distinction under test:** Module 32 combines the neighbouring concepts with the existing MKUFT machinery of typed construction addresses, no-false-state-parity comparison, relation-realisation tests, endogenous admissibility, strongest-fair-null/deformation controls, and an explicit separation between lower-scale feasible-state volume and higher-scale viable capability.
+**MKUFT distinction under test:** the Module 32 family combines those neighbours with typed construction addresses, no-false-state-parity comparison, relation-realisation tests, endogenous admissibility, strongest-fair-null/deformation controls, explicit separation between lower-scale feasible-state volume and higher-scale viable capability, identity and temporal-continuity guards, and a completion geometry for missing/unobserved addresses.
 
 The central candidate relation is:
 
@@ -220,17 +220,23 @@ A state-space address may itself change. When it does, before/after states are n
 
 **Enabling-constraint signature:** under declared comparable measures, lower-scale feasible-state volume may decrease while higher-scale viable capability increases. This is not a universal monotonic law and constraint count is not a proxy for coherence, agency, or freedom.
 
+**Relational completion:** Module 32S3 defines the missing-address object as a compatible completion set constrained by the remaining local-to-global relations. Narrow completion, broad ambiguity, and incompatible absence are distinct cases. The missing occupant is not assumed to remain physically present merely because its address remains relationally constrained.
+
+**Temporal mismatch:** persistent incompatibility may be integrated as a typed mismatch-exposure measure, but it is not called energy, damage, entropy, disease, or cost unless a separate measured cost variable earns that coupling.
+
 **Recurrent-architecture rule:** repeated form is scientifically interesting when a recurrent **constraint class and functional relation** survives typed comparison. Shape alone does not establish shared dynamics, ancestry-independent convergence, or one universal mechanism.
 
-**I→P boundary:** if the complete organisation is adequately realised by P-layer variables and history, the structural description does not establish independent I→P dynamics. Any stronger I→P claim must add prospective predictive or interventional content beyond the adequate physical baseline.
+**I→P boundary:** the candidate relation can be tested through its effect on a physical transition distribution or support. A non-zero relational effect may still be entirely P-realised. Independent I→P dynamics require held-out predictive or interventional content beyond an adequate P-state/history baseline and must survive relation-preserving re-encoding and deformation controls.
 
-**Failure conditions:** fixed-space or standard learning/control/evolutionary models predict equally well; random count-matched constraints reproduce the effect; claimed closure cannot be deformed as predicted; a rule change reduces to parameter retuning; or cross-domain recurrence disappears when common history, environment, material physics, and representation are controlled.
+**Scale promotion:** a useful readout or coarse-graining does not by itself make a new endogenous object. Promotion still requires persistence, interventional load-bearingness, new viable capability, predictive compression, and reproducible boundary/closure specificity.
 
-**Novelty status:** the isolated ingredients are not claimed as new. The exact conjunction and its operational usefulness remain a live comparison question, not a historical-priority assertion.
+**Failure conditions:** fixed-space or standard learning/control/evolutionary models predict equally well; random count-matched constraints reproduce the effect; claimed closure cannot be deformed as predicted; a rule change reduces to parameter retuning; completion sets fail held-out occupancy/recovery predictions; local variables outperform the overlap architecture; mismatch exposure adds no value beyond instantaneous state/history; or an I variable is reducible to the adequate physical baseline where independent I→P dynamics were claimed.
+
+**Novelty status:** the isolated ingredients are not claimed as new. The exact conjunction and its operational usefulness remain a live comparison question, bounded by Module 32A rather than asserted as historical priority.
 
 ## 14. Novelty discipline
 
-The potentially distinctive MKUFT contributions are not the isolated words *information*, *coherence*, *boundary*, *observer*, or *cost*. Those concepts already have extensive scientific histories.
+The potentially distinctive MKUFT contributions are not the isolated words *information*, *coherence*, *boundary*, *observer*, *cost*, *holography*, *sheaf*, or *emergence*. Those concepts already have extensive scientific histories.
 
 Novelty must be earned by combinations that do concrete work, including:
 
@@ -240,15 +246,16 @@ Novelty must be earned by combinations that do concrete work, including:
 4. strongest-fair-null and controlled-deformation methodology;
 5. the independent-content test separating useful higher-level description from claimed new physical dynamics;
 6. recursive constraint/reachable-state geometry only where it improves discrimination beyond fixed-space and ordinary adaptive models;
-7. an eventual lawful update or residual that recovers established limits and predicts something competitors do not.
+7. local-to-global completion geometry only where it predicts admissible completion, failure, or recovery beyond simpler local models;
+8. an eventual lawful update or residual that recovers established limits and predicts something competitors do not.
 
 ## 15. Current scientific ranking
 
 The public scientific position is best represented by maturity rather than a “support” leaderboard:
 
-- **Established external science:** quantum theory, relativity in tested regimes, critical phenomena, active matter, biological regulation, standard cognitive and systems science.
-- **Well-defined MKUFT methods or scaffolds:** typed traversal, equation hygiene, strongest-fair-null design, deformation tests, ambiguity and agency audit variables where operationalised, context-conditioned state comparison, and the new recursive-constraint/reachable-state scaffold.
-- **Candidate experimental bridges:** LUCY physical specialisations, precision boundary residuals, selected observer-linked assays.
+- **Established external science:** quantum theory, relativity in tested regimes, critical phenomena, active matter, biological regulation, local-to-global topology/sheaf methods, holographic optics, standard cognitive and systems science.
+- **Well-defined MKUFT methods or scaffolds:** typed traversal, equation hygiene, strongest-fair-null design, deformation tests, ambiguity and agency audit variables where operationalised, context-conditioned state comparison, recursive-constraint/reachable-state geometry, relational completion sets, and the I→P transition-kernel/support assay as a promotion test.
+- **Candidate experimental bridges:** LUCY physical specialisations, precision boundary residuals, selected observer-linked assays, and completion/deformation experiments in systems with measurable local-to-global organisation.
 - **Foundational research programme:** Layer Before Law and a future complete SIPO update/recovery model.
 - **Interpretive/application branches:** metaphysical comparison, symbolic comparison, Voynich procedural hypothesis.
 
@@ -260,4 +267,4 @@ MKUFT is scientifically strongest when it uses neighbouring science to **increas
 
 > Established science defines the baseline. Structural recurrence suggests a question. MKUFT must then name the extra variable or relation, predict the difference, survive the strongest alternative, and accept reduction if the difference does not appear.
 
-See [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md), [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md), [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), and [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
+See [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md), [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md), [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md), [Module 32 Novelty Audit and Contribution Boundary](docs/32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md), [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), and [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
