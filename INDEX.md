@@ -29,6 +29,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 32S1 — Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) — distinguishes physical persistence from independent relational access and defines scale transition through addressability, individuality-address parity, and higher-scale capability.
 - [Module 32S2 — Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) — extends same-self parity from point states to recent relational trajectories and defines the shortest load-bearing history horizon by truncation, shuffle, and held-out continuity tests.
 - [Module 32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) — formalises local-to-global compatibility, completion sets for relationally specified absence, temporal mismatch exposure, scale readout/promotion, and I→P admissibility tests without assuming a message-like hidden carrier.
+- [Module 32S4 — Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) — separates intrinsic relational organisation from extrinsic contextual address, adds path/loop transport tests, context-indexed P-realisation fibers, boundary-conditioned field comparators, and explicit energy-accounting guards.
 
 ## Experiments, evidence, and falsification
 
@@ -57,6 +58,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 32S1 — Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md)
 - [Module 32S2 — Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
 - [Module 32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
+- [Module 32S4 — Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 
 ## Observer, boundary, and physical support
 
@@ -65,6 +67,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
 - [Gradient Mechanics and Boundary-Shear Geometry](docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md)
 - [MKUFT–Dollard Field Geometry Notes](docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md)
+- [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 
 ## Procedural and applied work
 
