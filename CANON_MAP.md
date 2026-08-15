@@ -57,7 +57,7 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 10. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 11. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process; Module 32S3 supplies a completion/admissibility scaffold; Module 32S4 separates preserved intrinsic relation from changed contextual address and supplies boundary/transport comparators; Module 33 supplies the general admissibility-domain → P-propagation → P/O-instrument → readdressing architecture. None of those modules by itself establishes an independent I→P crossing or physical LUCY mechanism.
+The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process; Module 32S3 supplies a completion/admissibility scaffold; Module 32S4 separates preserved intrinsic relation from changed contextual address and supplies boundary/transport comparators; Module 33 supplies the general addressed-state → admissibility descriptor → physical law object `(domain, transition, weighting)` → P propagation → P/O instrument → readdressing architecture. None of those modules by itself establishes an independent I→P crossing or physical LUCY mechanism.
 
 ### AI and typed knowledge architectures
 
@@ -88,7 +88,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **27 — Typed Traversal and Equation Hygiene:** typed spaces, dimensional consistency, equation status, and anti-flattening discipline.
 - **28 — Discriminating Experiments and Promotion Gates:** evidence tiers and promotion rules.
 - **29 — Scientific Tightening and Claim Discipline:** separates architecture, scaffold, evidence, mechanism, novelty, and claim status.
-- **33 — SIPO Capstone:** closes `Update_SIPO` at architectural level through an admissibility-to-domain map, a domain-conditioned P law object, a correctly typed P→(P,O) instrument, and recursive readdressing. It makes `domain before generator` and `support before weighting` explicit while retaining the strongest P-only null.
+- **33 — SIPO Capstone:** closes `Update_SIPO` at architectural level by mapping the complete addressed state/context to a typed admissibility descriptor, assembling the active P-law object `(domain, transition rule, weighting)`, propagating physically, passing the result through a typed P→(P,O) instrument, and recursively readdressing. `Domain before generator` remains the minimal clean specialisation rather than a universal restriction on all possible I→P effects.
 
 ### Structural and traversal
 
@@ -109,7 +109,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **32S2 — Temporal Continuity Kernels and Minimum Identity Horizon:** extends individuality continuity from endpoint or point-state comparison to recent relational trajectories. It treats the immediate predecessor→present relation as the minimum temporal candidate and requires longer history to earn load-bearing status by truncation, temporal-shuffle, replay, and held-out tests.
 - **32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility:** defines typed relation-scope compatibility, compatible completion fibers for missing/unobserved addresses, temporal mismatch exposure, readout-versus-endogenous promotion, a deformation-tested holography comparator, and an I→P transition-support test that retains the adequate P-only null.
 - **32S4 — Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation:** separates intrinsic relation class from extrinsic embedding/address; defines context-indexed P-realisation sets and lawful path transport; adds same-endpoint/different-path and loop-transport tests; uses boundary-conditioned field modes, Casimir geometry, dynamical boundaries and metasurface holography as controlled P-layer comparators; and requires complete energy accounting before any vacuum-energy claim.
-- **33 — SIPO Capstone:** composes the 32-family dependencies into a single typed recursive update architecture. Relational/address structure selects a P-domain; the appropriate P law propagates there; a P→(P,O) instrument handles registration and measurement back-action; realised history and context readdress the next effective possibility object.
+- **33 — SIPO Capstone:** composes the 32-family dependencies into one typed recursive update architecture: complete addressed state/context → admissibility descriptor → active P-law object `(D,T,W)` → P propagation → P→(P,O) instrument → recursive readdressing. A demonstrated relation may affect domain, transition rule, weighting, or a typed combination; the P-only null remains controlling.
 
 ### Observer, boundary, and physical support
 
@@ -119,7 +119,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **16 — Gradient Mechanics:** controlled boundary-physics hypotheses with ordinary-mechanics and systematics requirements.
 - **17 — Dollard Notes:** comparative vocabulary bridge; translation is not equivalence.
 - **32S4 — Boundary-Conditioned Realisation:** transport and boundary comparator joining intrinsic/extrinsic address discipline to field-mode and energy-accounting tests without promoting those P-layer effects into independent I→P evidence.
-- **33 — SIPO Capstone:** general law-object and update factorisation used when a concrete branch supplies an admissible P-domain and physical transition rule; it is architecture, not a substitute for the branch-specific physical derivation.
+- **33 — SIPO Capstone:** general law-object and update factorisation used when a branch supplies enough structure to instantiate the admissibility descriptor and active P-law object; it is architecture, not a substitute for branch-specific quantum/gravitational derivation.
 
 ### Procedural and applied support
 
