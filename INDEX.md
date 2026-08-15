@@ -32,6 +32,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 32S4 — Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) — separates intrinsic relational organisation from extrinsic contextual address, adds path/loop transport tests, context-indexed P-realisation fibers, boundary-conditioned field comparators, and explicit energy-accounting guards.
 - [Module 33 — SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) — closes the architectural `Update_SIPO` placeholder as a typed chain from complete addressed state to admissibility descriptor, physical law object `(domain, transition rule, weighting)`, P propagation, P→(P,O) measurement/registration, and recursive readdressing.
 - [Module 33S1 — Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) — refines the closed capstone with a controlled gate for promoting a load-bearing interface from bundled context to an explicit recursively updated state variable, with scale-role transition and P-only/energy-accounting guards.
+- [Module 33S2 — Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) — separates lineage, functional identity, closure, and property-specific whole-level law sufficiency; classifies strong, ensemble, history-augmented, and multiscale descent; and requires upward/downward readdressing when sufficiency changes.
 
 ## Experiments, evidence, and falsification
 
@@ -63,6 +64,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 32S4 — Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 - [Module 33 — SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 - [Module 33S1 — Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
+- [Module 33S2 — Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
 
 ## Observer, boundary, and physical support
 
@@ -74,6 +76,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 - [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 - [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
+- [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
 
 ## Procedural and applied work
 
