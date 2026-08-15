@@ -75,6 +75,8 @@ This index provides direct links to the principal public MKUFT documents. The ev
 
 - [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md) — publication record and preferred entry point for ATLD v1.0.
 - [Frozen ATLD v1.0 archive](publications/ATLD_Evaluation_Protocol_v1.0/) — preservation mirror; the deposited Zenodo object controls exact frozen publication identity.
+- [Recursive Constraint Closure Standalone Publication Record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md) — chronology, contribution boundary, rights route, and preferred citation for the 15 August 2026 public preprint.
+- [Recursive Constraint Closure and Reachable-State Geometry — public preprint v0.1](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md) — standalone consolidation of Module 32 with the first public formulation commit preserved explicitly.
 
 ## Metadata and discovery
 
