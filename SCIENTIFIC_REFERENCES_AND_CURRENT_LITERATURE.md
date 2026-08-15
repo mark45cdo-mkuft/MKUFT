@@ -116,7 +116,21 @@ These sources remove broad novelty claims for local-to-global compatibility, she
 
 For Module 32S3, their value is primarily **constraint and comparator**. The live MKUFT question is narrower: whether a typed completion set for a missing/unobserved address, persistent mismatch exposure, scale promotion, and an I→P transition-kernel/support assay form a useful operational extension of the existing addressed reachable-state framework. A successful structural fit remains P-layer or mathematical evidence unless an independent I variable survives the adequate physical-state/history null.
 
-## 11. Evidence and claim standard
+## 11. Transport geometry, path memory, and boundary-conditioned field structure
+
+- Simon, B. (1983). “Holonomy, the Quantum Adiabatic Theorem, and Berry's Phase.” *Physical Review Letters* 51, 2167. DOI 10.1103/PhysRevLett.51.2167.
+- Berry, M. V. (1984). “Quantal phase factors accompanying adiabatic changes.” *Proceedings of the Royal Society A* 392, 45–57. DOI 10.1098/rspa.1984.0023.
+- Chan, H. B. et al. (2008). “Measurement of the Casimir Force between a Gold Sphere and a Silicon Surface with Nanoscale Trench Arrays.” *Physical Review Letters* 101, 030401. DOI 10.1103/PhysRevLett.101.030401.
+- Bao, Y. et al. (2010). “Casimir Force on a Surface with Shallow Nanoscale Corrugations: Geometry and Finite Conductivity Effects.” *Physical Review Letters* 105, 250402. DOI 10.1103/PhysRevLett.105.250402.
+- Wilson, C. M. et al. (2011). “Observation of the dynamical Casimir effect in a superconducting circuit.” *Nature* 479, 376–379. DOI 10.1038/nature10561.
+- Frey, M., Funo, K., and Hotta, M. (2014). “Strong local passivity in finite quantum systems.” *Physical Review E* 90, 012127. DOI 10.1103/PhysRevE.90.012127.
+- Jaffe, R. L. (2005). “Casimir effect and the quantum vacuum.” *Physical Review D* 72, 021301(R). DOI 10.1103/PhysRevD.72.021301.
+
+This literature supplies two hard constraints/comparators for Module 32S4. First, geometric phase and holonomy show in specific physical systems that equal endpoints in parameter space do not erase a lawful path-dependent state relation. That does not license importing Berry phase into arbitrary translation problems; an actual connection/transport law must exist. Second, quantum boundary conditions and geometry can change measurable mode/force structure, and driven boundary modulation can generate real photons. Those are P-layer facts. They do not establish an independent I layer or an unaccounted energy source.
+
+Jaffe's formulation and passivity results are retained as explicit guards against turning a useful zero-point-mode picture into a claim that the vacuum is a free cyclic work reservoir. Any MKUFT boundary/vacuum proposal must therefore close ordinary energy accounting before a residual is interpreted.
+
+## 12. Evidence and claim standard
 
 For each cited neighbour, ask:
 
@@ -128,7 +142,7 @@ For each cited neighbour, ask:
 
 A changing literature can change the scientific context of an MKUFT branch. The public claim must change with it rather than preserving an outdated comparison.
 
-## 12. Closely related MKUFT documents
+## 13. Closely related MKUFT documents
 
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 - [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
@@ -136,16 +150,17 @@ A changing literature can change the scientific context of an MKUFT branch. The 
 - [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 - [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 - [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
+- [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 - [Module 32 Novelty Audit and Contribution Boundary](docs/32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md)
 - [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 - [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-## 13. MKUFT publications
+## 14. MKUFT publications
 
 - McLaughlin, M. C. *Unified Field Theory. McLaughlin–Kairos. MKUFT*. DOI 10.5281/zenodo.17780566.
 - McLaughlin, M. C. (2026). *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*. Version DOI 10.5281/zenodo.21341521; concept DOI 10.5281/zenodo.21341520.
 
-## 14. Boundary statement
+## 15. Boundary statement
 
 Neighbouring work makes the MKUFT research direction scientifically addressable; it does not validate the framework.
 
