@@ -27,11 +27,11 @@ The map is navigation and dependency structure. It does not create evidence, est
 
 ### General architecture
 
-[Start Here](../START_HERE_PUBLIC_OVERVIEW.md) → [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) → [Canon Map](../CANON_MAP.md) → [Cross-Support Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) → [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
+[Start Here](../START_HERE_PUBLIC_OVERVIEW.md) → [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) → [Canon Map](../CANON_MAP.md) → [Cross-Support Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) → [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure and Reachable-State Geometry](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)
 
 ### AI and typed knowledge architectures
 
-[ATLD Publication](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+[ATLD Publication](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure and Reachable-State Geometry](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
 ## Core dependency groups
 
@@ -117,9 +117,10 @@ Primary documents:
 - [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
 - [Fundamental Traversal Coherence Nodes](25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
 - [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
+- [Recursive Constraint Closure and Reachable-State Geometry](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 - [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
-These carry matched architecture controls, full-history replay, relationship specificity, relation-level and node-level deformation, same-class deformation checks, structural versus empirical load, and the distinction between local performance and wider whole-system integrity.
+These carry matched architecture controls, full-history replay, relationship specificity, relation-level and node-level deformation, same-class deformation checks, adaptive addressed-state comparison, local-feasibility versus higher-scale-capability tests, structural versus empirical load, and the distinction between local performance and wider whole-system integrity.
 
 ## Structural nodes and canonical handles
 
@@ -254,7 +255,7 @@ P_n\in\mathcal X_P,
 O_n\in\mathcal X_O.
 $$
 
-It prevents physical geometry, state-space geometry, information adjacency, observer registration, and metaphysical language from being silently flattened into one mathematical object.
+It prevents physical geometry, state-space geometry, information adjacency, observer registration, adaptive construction address, and metaphysical language from being silently flattened into one mathematical object.
 
 ### 30 — LUCY Threshold Geometry and Relational Closure
 
@@ -291,6 +292,40 @@ d_Y(F_Y(z),F_Y(z')).
 $$
 
 The module does not create a new layer or substrate claim. It prevents a counterfactual from changing the object class while pretending everything else remained fixed, and prevents layer-specific closure from being confused with complete measurement resolution.
+
+### 32 — Recursive Constraint Closure and Reachable-State Geometry
+
+[Recursive Constraint Closure and Reachable-State Geometry](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) extends the comparison discipline to adaptive systems where the variables, decoder, admissible action set, constraint structure, or update rule may itself change.
+
+The addressed family is
+
+$$
+\mathfrak X
+=
+\bigsqcup_{\alpha\in A}
+\{\alpha\}\times\mathcal X_\alpha,
+$$
+
+with schematic adaptive update
+
+$$
+\mathfrak F_t(\mathfrak A_t,u_t)
+=
+(\alpha_{t+1},x_{t+1})
+\in\mathfrak X.
+$$
+
+When the construction address changes, before/after state subtraction or equivalence requires a lawful comparison map. A possible scale-separated enabling-constraint signature is
+
+$$
+\Delta\mu_\ell<0,
+\qquad
+\Delta\nu_L>0,
+$$
+
+where the first observable measures lower-scale feasible-state volume and the second higher-scale viable capability, and each difference is valid only inside a declared common comparison space.
+
+The module does not equate constraint count with coherence or freedom, does not infer dynamics from recurrent morphology, and does not establish independent I→P physics unless an additional information-layer relation survives the adequate P-state/history baseline.
 
 ## Complete public registry
 
@@ -330,6 +365,7 @@ The module does not create a new layer or substrate claim. It prevents a counter
 | [29 — Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md) | Claim-status discipline | Whole scientific stack | Architecture, mathematics, evidence, and mechanism remain distinct |
 | [30 — LUCY Threshold Geometry and Relational Closure](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) | Downstream effective-geometry LUCY hypothesis | 08, 26, 27, boundary physics | Conventional closure, accepted-limit recovery, common-boundary discrimination, replication |
 | [31 — Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) | Admissible comparison and observability discipline | 21, 22, 22A, 27 | Context cannot immunise claims; same form is not same dynamics |
+| [32 — Recursive Constraint Closure](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) | Adaptive constraint and reachable-state geometry | 24A, 24B, 27, 31 | Fixed-space/null alternatives; no constraint-count, silhouette, or I→P overclaim |
 
 ## Public boundary
 
@@ -337,4 +373,4 @@ The public repository contains scientific proposals, mathematical and methodolog
 
 ## Compressed rule
 
-> Define the claim at its proper layer, preserve the comparison class, route it to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, or local performance silently become empirical truth.
+> Define the claim at its proper layer, preserve the comparison class and construction address, route it to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, local restriction, or local performance silently become empirical truth or higher-scale capability.
