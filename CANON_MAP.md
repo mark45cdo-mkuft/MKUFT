@@ -23,8 +23,9 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 10. [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 11. [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 12. [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
-13. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-14. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+13. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
+14. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+15. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 ### Physics and quantum gravity
 
@@ -35,13 +36,14 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 5. [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 6. [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 7. [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
-8. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
-9. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
-10. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
-11. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
-12. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-13. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
-14. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+8. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
+9. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
+10. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
+11. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
+12. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
+13. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+14. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+15. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 
 ### LUCY and effective geometry
 
@@ -53,11 +55,12 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 6. [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 7. [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 8. [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
-9. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
-10. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-11. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+9. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
+10. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
+11. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+12. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process; Module 32S3 supplies a completion/admissibility scaffold; Module 32S4 separates preserved intrinsic relation from changed contextual address and supplies boundary/transport comparators; Module 33 supplies the general addressed-state → admissibility descriptor → physical law object `(domain, transition, weighting)` → P propagation → P/O instrument → readdressing architecture. None of those modules by itself establishes an independent I→P crossing or physical LUCY mechanism.
+The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process; Module 32S3 supplies a completion/admissibility scaffold; Module 32S4 separates preserved intrinsic relation from changed contextual address and supplies boundary/transport comparators; Module 33 supplies the general addressed-state → admissibility descriptor → physical law object `(domain, transition, weighting)` → P propagation → P/O instrument → readdressing architecture; Module 33S1 states when a load-bearing boundary/interface must be promoted from bundled context into the explicitly updated state. None of those modules by itself establishes an independent I→P crossing or physical LUCY mechanism.
 
 ### AI and typed knowledge architectures
 
@@ -71,8 +74,9 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 8. [Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
 9. [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 10. [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
-11. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-12. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+11. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
+12. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+13. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
 ## Canon groups
 
@@ -89,6 +93,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **28 — Discriminating Experiments and Promotion Gates:** evidence tiers and promotion rules.
 - **29 — Scientific Tightening and Claim Discipline:** separates architecture, scaffold, evidence, mechanism, novelty, and claim status.
 - **33 — SIPO Capstone:** closes `Update_SIPO` at architectural level by mapping the complete addressed state/context to a typed admissibility descriptor, assembling the active P-law object `(domain, transition rule, weighting)`, propagating physically, passing the result through a typed P→(P,O) instrument, and recursively readdressing. `Domain before generator` remains the minimal clean specialisation rather than a universal restriction on all possible I→P effects.
+- **33S1 — Dynamic Interface Promotion:** specifies when a trackable interface that changes the next admissibility/law object and is itself changed by realised dynamics must re-enter the addressed state; it adds a scale-role transition from lower-scale boundary to higher-scale internal relation only after existing promotion tests pass.
 
 ### Structural and traversal
 
@@ -110,6 +115,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility:** defines typed relation-scope compatibility, compatible completion fibers for missing/unobserved addresses, temporal mismatch exposure, readout-versus-endogenous promotion, a deformation-tested holography comparator, and an I→P transition-support test that retains the adequate P-only null.
 - **32S4 — Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation:** separates intrinsic relation class from extrinsic embedding/address; defines context-indexed P-realisation sets and lawful path transport; adds same-endpoint/different-path and loop-transport tests; uses boundary-conditioned field modes, Casimir geometry, dynamical boundaries and metasurface holography as controlled P-layer comparators; and requires complete energy accounting before any vacuum-energy claim.
 - **33 — SIPO Capstone:** composes the 32-family dependencies into one typed recursive update architecture: complete addressed state/context → admissibility descriptor → active P-law object `(D,T,W)` → P propagation → P→(P,O) instrument → recursive readdressing. A demonstrated relation may affect domain, transition rule, weighting, or a typed combination; the P-only null remains controlling.
+- **33S1 — Dynamic Interface Promotion and Recursive Boundary Closure:** makes a load-bearing interface re-entry test explicit, keeps P-recoverable interface variables distinct from independent I claims, and types the boundary→stateful relation→higher-scale internal-relation role change without assuming that every boundary closes into a new object.
 
 ### Observer, boundary, and physical support
 
@@ -120,6 +126,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **17 — Dollard Notes:** comparative vocabulary bridge; translation is not equivalence.
 - **32S4 — Boundary-Conditioned Realisation:** transport and boundary comparator joining intrinsic/extrinsic address discipline to field-mode and energy-accounting tests without promoting those P-layer effects into independent I→P evidence.
 - **33 — SIPO Capstone:** general law-object and update factorisation used when a branch supplies enough structure to instantiate the admissibility descriptor and active P-law object; it is architecture, not a substitute for branch-specific quantum/gravitational derivation.
+- **33S1 — Dynamic Interface Promotion:** promotes a trackable boundary/junction into explicit recursive state only when controlled deformation changes a load-bearing downstream object and realised dynamics update the interface for the next cycle; physical boundary work remains inside the energy ledger.
 
 ### Procedural and applied support
 
