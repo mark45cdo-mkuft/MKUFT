@@ -85,13 +85,13 @@ $$
 \{\alpha\}\times\mathcal X_\alpha.
 $$
 
-An adaptive transition is then represented schematically as
+An adaptive transition is represented schematically by evaluation of an update map on the current addressed system state and an admissible input or action:
 
 $$
-\mathfrak F_t:
-\mathfrak A_t\times\mathcal U_t
-\longrightarrow
-(\alpha_{t+1},x_{t+1}),
+\mathfrak F_t(\mathfrak A_t,u_t)
+=
+(\alpha_{t+1},x_{t+1})
+\in\mathfrak X,
 $$
 
 with
@@ -111,6 +111,8 @@ is not automatically meaningful. A comparison requires a lawful translation, emb
 > Changing the space of possibilities is not the same operation as moving to another point inside a fixed space.
 
 This is the adaptive-state-space extension of Module 31's context-conditioned comparison rule.
+
+The addressed-family construction does not claim that every real adaptive system literally generates a new mathematical space at each step. Use it only where the variables, equivalence relation, admissible operations, decoder, or rule set change enough that a fixed-space description would hide a load-bearing difference.
 
 ## 4. Endogenous discrimination without a homunculus
 
@@ -272,7 +274,7 @@ In particular, sensory contrasts such as hot/cold, viability contrasts such as b
 
 Let $\mathcal F_{\ell,t}$ be a feasible lower-scale state set with declared measure $\mu_\ell$, and let $\mathcal K_{L,t}(B)$ be the set of higher-scale functions, tasks, or outcomes reachable within resource/viability budget $B$, with declared measure or count $\nu_L$.
 
-After an organisational constraint update, it is possible to observe
+When each before/after observable is defined in a common declared comparison space, an organisational constraint update may produce
 
 $$
 \Delta\mu_\ell
@@ -303,6 +305,8 @@ $$
 \qquad
 \Delta\nu_L<0.
 $$
+
+If the before/after feasible or capability objects live in different addressed spaces, the corresponding difference is not defined until Module 31's translation/equivalence requirement is satisfied.
 
 Therefore:
 
