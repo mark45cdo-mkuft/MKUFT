@@ -30,6 +30,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 32S2 — Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) — extends same-self parity from point states to recent relational trajectories and defines the shortest load-bearing history horizon by truncation, shuffle, and held-out continuity tests.
 - [Module 32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) — formalises local-to-global compatibility, completion sets for relationally specified absence, temporal mismatch exposure, scale readout/promotion, and I→P admissibility tests without assuming a message-like hidden carrier.
 - [Module 32S4 — Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) — separates intrinsic relational organisation from extrinsic contextual address, adds path/loop transport tests, context-indexed P-realisation fibers, boundary-conditioned field comparators, and explicit energy-accounting guards.
+- [Module 33 — SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) — closes the architectural `Update_SIPO` placeholder by factorising admissibility-to-domain, domain-conditioned P propagation, a typed P→(P,O) measurement/registration instrument, and recursive readdressing.
 
 ## Experiments, evidence, and falsification
 
@@ -59,6 +60,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 32S2 — Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
 - [Module 32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 - [Module 32S4 — Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
+- [Module 33 — SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 
 ## Observer, boundary, and physical support
 
@@ -68,6 +70,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Gradient Mechanics and Boundary-Shear Geometry](docs/16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md)
 - [MKUFT–Dollard Field Geometry Notes](docs/17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md)
 - [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
+- [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 
 ## Procedural and applied work
 
