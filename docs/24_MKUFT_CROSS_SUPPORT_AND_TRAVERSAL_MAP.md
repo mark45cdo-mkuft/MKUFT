@@ -125,7 +125,7 @@ Primary documents:
 - [Relational Brackets, Completion Geometry, and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
 - [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
-These carry matched architecture controls, full-history replay, relationship specificity, relation-level and node-level deformation, same-class deformation checks, adaptive addressed-state comparison, local-feasibility versus higher-scale-capability tests, identity/addressability guards, temporal continuity tests, local-to-global completion geometry, structural versus empirical load, and the distinction between local performance and wider whole-system integrity.
+These carry matched architecture controls, full-history replay, relationship specificity, relation-level and node-level deformation, same-class deformation checks, adaptive addressed-state comparison, local-feasibility versus higher-scale-capability tests, identity/addressability guards, temporal continuity tests, typed relation-scope completion geometry, macro realisation classes, structural versus empirical load, and the distinction between local performance and wider whole-system integrity.
 
 ## Structural nodes and canonical handles
 
@@ -344,20 +344,39 @@ The module does not equate constraint count with coherence or freedom, does not 
 
 [Temporal Continuity Kernels and Minimum Identity Horizon](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) extends same-self comparison to recent relational trajectories where history is load-bearing and requires the minimum identity horizon to be established by truncation, shuffle, and held-out tests.
 
-### 32S3 — Relational Brackets and Completion Geometry
+### 32S3 — Relational Brackets, Completion, and Realisation Classes
 
-[Relational Brackets, Completion Geometry, and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) defines local-to-global compatibility and the compatible completion set
+[Relational Brackets, Completion Geometry, and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) generalises the bracket beyond literal spatial overlap by using typed relation scopes. It defines a compatible region
 
 $$
-\Omega_{k,t}^{\mathrm{comp}}(a_{-k})
+\mathfrak C_{B,t}
 =
-\left\{
-x\in\mathcal F_t(U_k):
-\chi_B(a_{-k}\cup\{x\})=1
-\right\}.
+\{a\in\mathcal L_t:\chi_B(a)=1\},
 $$
 
-It separates narrow relational specification, broad ambiguity, and incompatible/disordered absence; keeps persistent mismatch separate from measured cost; distinguishes readout/coarse-graining from endogenous scale promotion; and tests a candidate I→P relation through changes in a physical transition distribution or support while retaining the adequate P-state/history null.
+a missing-address completion fiber
+
+$$
+\mathfrak F_{k,t}(a_{-k})
+=
+\mathfrak C_{B,t}\cap\pi_{-k}^{-1}(a_{-k}),
+\qquad
+\Omega_{k,t}^{\mathrm{comp}}
+=
+\pi_k(\mathfrak F_{k,t}),
+$$
+
+and, for a higher-scale readout `R`, a compatible macrostate realisation class
+
+$$
+\mathcal M_y
+=
+\mathfrak C_{B,\ell}
+\cap
+R_{\ell\rightarrow L}^{-1}(y).
+$$
+
+This makes lower-level turnover with higher-level readout persistence an explicit testable object while keeping identity continuity, observer registration, and autonomous macro causation separate questions. The module also keeps persistent mismatch separate from measured cost, distinguishes readout/coarse-graining from endogenous scale promotion, and tests candidate I→P relations through physical transition distributions/support while retaining the adequate P-state/history null and causal-identification discipline.
 
 ## Complete public registry
 
@@ -402,7 +421,7 @@ It separates narrow relational specification, broad ambiguity, and incompatible/
 | [32S — Load-Bearing Relation Sets](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) | Relation-level load and scale promotion | 25, 27, 32 | Ablation/substitution and higher-scale capability must succeed |
 | [32S1 — Relational Addressability](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) | Persistence/addressability/identity-parity discipline | 31, 32, 32S | Same substrate or name does not prove same-self continuity |
 | [32S2 — Temporal Continuity](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) | History-dependent continuity test | 32S1, history ablation | Longer history must earn load-bearing status |
-| [32S3 — Relational Brackets and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) | Local-to-global completion and admissibility scaffold | 21, 27, 31, 32, 32S | Sheaf/topology/semantic/holography ingredients are prior; independent I→P must beat P-only null |
+| [32S3 — Relational Brackets and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) | Typed relation-scope completion, macro realisation, and admissibility scaffold | 21, 27, 31, 32, 32S | Hypergraph/sheaf/fiber/quotient/semantic/holography ingredients are prior; independent I→P must beat P-only null |
 
 ## Public boundary
 
@@ -410,4 +429,4 @@ The public repository contains scientific proposals, mathematical and methodolog
 
 ## Compressed rule
 
-> Define the claim at its proper layer, preserve the comparison class and construction address, route it to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, local restriction, relational completion, or local performance silently become empirical truth or higher-scale capability.
+> Define the claim at its proper layer, preserve the comparison class and construction address, route it to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, local restriction, relational completion, macro persistence, or local performance silently become empirical truth or higher-scale capability.
