@@ -26,7 +26,7 @@ The central refinement is that three apparently different questions can be repre
 2. completion geometry — which states could lawfully occupy a missing or unobserved address given the remaining relations;
 3. I→P admissibility — whether a declared information/relation variable changes the support or weighting of later physical transitions after the strongest adequate physical baseline is controlled.
 
-The shared object is not a universal mechanism. It is a reusable **constraint-to-admissibility map** whose physical realisation remains domain-specific.
+The shared object is not a universal mechanism. It is a reusable **constraint-to-admissibility grammar** whose physical realisation remains domain-specific.
 
 ## 2. Relational bracket as a local-to-global compatibility object
 
@@ -57,6 +57,14 @@ $$
 
 is non-empty in the model.
 
+Define the tested non-trivial overlap family
+
+$$
+N_t^+
+=
+\{\sigma\in N_t:|\sigma|\ge2\}.
+$$
+
 Associate to each region `U` a typed local state space
 
 $$
@@ -80,7 +88,7 @@ a_t=(a_1,\ldots,a_n),
 a_i\in\mathcal F_t(U_i).
 $$
 
-For each tested non-empty overlap `U_sigma`, define a compatibility residual
+For each tested overlap `U_sigma`, define a compatibility residual
 
 $$
 e_\sigma(a_t)
@@ -102,7 +110,21 @@ $$
 
 means exact compatibility under the tested relation and larger values mean larger disagreement in the declared residual geometry.
 
-Different residuals must not be summed merely because they are numbers. If they have different units or meanings, retain the typed residual vector
+Let each overlap carry a preregistered tolerance `epsilon_sigma` in the same units as `e_sigma`. Define the componentwise bracket-consistency indicator
+
+$$
+\chi_B(a_t)
+=
+\mathbf 1
+\left[
+e_\sigma(a_t)\leq\varepsilon_\sigma
+\quad\forall\sigma\in N_t^+
+\right].
+$$
+
+This componentwise object is primary. Different residuals must not be summed merely because they are numbers.
+
+For reporting, retain the typed residual vector
 
 $$
 \mathbf e_B(a_t)
@@ -165,24 +187,22 @@ $$
 
 is retained.
 
-For tolerance `epsilon_B`, define the **compatible completion set**
+Define the **compatible completion set** by the componentwise bracket criterion:
 
 $$
 \boxed{
-\Omega_{k,t}^{\mathrm{comp}}
-\left(a_{-k};\varepsilon_B\right)
+\Omega_{k,t}^{\mathrm{comp}}(a_{-k})
 =
 \left\{
 x\in\mathcal F_t(U_k):
-E_B\!\left(a_{-k}\cup\{x\}\right)
-\leq\varepsilon_B
+\chi_B\!\left(a_{-k}\cup\{x\}\right)=1
 \right\}.
 }
 $$
 
 This object asks a precise negative-space question:
 
-> Given everything that remains, what could occupy this address without violating the declared local-to-global relations beyond tolerance?
+> Given everything that remains, what could occupy this address without violating the declared local-to-global relations beyond their own typed tolerances?
 
 Several cases must remain distinct.
 
@@ -224,30 +244,36 @@ A large value is not `more information`; it is greater unresolved completion vol
 If
 
 $$
-\Omega_{k,t}^{\mathrm{comp}}=\varnothing
+\Omega_{k,t}^{\mathrm{comp}}=\varnothing,
 $$
 
-or the residual structure remains above tolerance for every tested completion, the missing region is not a neat latent slot under the current bracket. The surrounding relations themselves may be mutually incompatible, corrupted, or insufficiently specified.
+then no tested completion satisfies the current bracket. The surrounding relations may be mutually incompatible, corrupted, overconstrained, or incompletely modelled.
 
 This prevents the phrase **negative space** from being silently equated with an ordered template. Absence, ambiguity, and inconsistency are different objects.
 
 ## 4. Stable closure must survive time and perturbation
 
-One low-residual instant is not enough to promote a higher-scale object.
+One compatible instant is not enough to promote a higher-scale object.
 
-For a declared temporal window `tau`, let the bracket satisfy a persistence criterion only when
+For a declared continuous-time window `tau>0`, define the bracket-persistence fraction
 
 $$
-\Pr_{s\sim[t,t+\tau]}
-\left[
-E_B(a_s)\leq\varepsilon_B
-\right]
-\geq1-\delta_B,
+P_B(t;\tau)
+=
+\frac{1}{\tau}
+\int_t^{t+\tau}
+\chi_B(a_s)\,ds.
 $$
 
-where the temporal sampling rule, tolerance `epsilon_B`, and failure fraction `delta_B` are specified in advance.
+A persistence criterion may require
 
-In deterministic implementations the probability notation may be replaced by a direct proportion of sampled times or by an appropriate continuous-time measure.
+$$
+P_B(t;\tau)\geq1-\delta_B,
+$$
+
+where `tau`, the tolerance family inside `chi_B`, and the allowed failure fraction `delta_B` are specified in advance.
+
+For discrete or irregular sampling, use the corresponding preregistered sample fraction rather than forcing this continuous-time form.
 
 A closure claim should also survive preregistered perturbations inside a declared robustness neighbourhood. A bracket that closes only at one finely tuned point is a different object from a stable basin.
 
@@ -255,26 +281,25 @@ This is the temporal and perturbational extension of the Module 32S promotion re
 
 ## 5. One typed operation behind bracket, completion, and reachable-state geometry
 
-The preceding constructions can be compressed into a domain-typed **constraint-to-admissibility operator**.
+The preceding constructions can be compressed into a domain-typed **constraint-to-admissibility operator** without reusing Module 32's symbol for the addressed adaptive system.
 
 At a declared layer/address `lambda`, let
 
 $$
-\mathfrak A_{\lambda,t}:
-\left(
-R_{\lambda,t},
-X_{\lambda,t},
-H_{\lambda,t}
-\right)
+\mathcal Q_{\lambda,t}:
+\mathcal R_{\lambda,t}
+\times
+\mathcal X_{\lambda,t}
+\times
+\mathcal H_{\lambda,t}
 \longrightarrow
 2^{\mathcal X_{\lambda,t}}
 $$
 
-map the active relation/context structure `R`, current state information `X`, and retained history `H` to an admissible subset of the relevant state space:
+map the active relation/context structure, current state, and retained history to an admissible subset of the relevant state space:
 
 $$
-\mathfrak A_{\lambda,t}
-\left(R,X,H\right)
+\mathcal Q_{\lambda,t}(r,x,h)
 =
 \Omega_{\lambda,t}^{\mathrm{adm}}.
 $$
@@ -385,13 +410,13 @@ I_t
 \mid P_t,H_t^P.
 $$
 
-If
+If the candidate I variable is fully reducible to an adequate physical state/history description—for example,
 
 $$
-i_t=f(P_t,H_t^P)
+i_t=f(P_t,H_t^P),
 $$
 
-under an adequate physical description, then the I-layer variable may be a useful relational abstraction, compression, or semantic description, but this test has not established independent I→P dynamics.
+in the declared model—then it may remain a useful relational abstraction, compression, or semantic description, but this test has not established independent I→P dynamics.
 
 A stronger independent I→P candidate requires all of the following:
 
@@ -418,9 +443,9 @@ The public rule is:
 
 ## 8. Temporal mismatch exposure — absence is not automatically cost
 
-Persistent incompatibility may matter even when no single residual is catastrophic. To keep this idea typed, first use a dimensionless bracket residual `E_B(t)` as defined above.
+Persistent incompatibility may matter even when no single residual is catastrophic.
 
-For a declared horizon `T`, define cumulative **mismatch exposure**
+Where the lawful dimensionless aggregate `E_B(t)` from Section 2 exists, define cumulative **mismatch exposure** over a declared horizon `T`:
 
 $$
 D_B(t;T)
@@ -451,6 +476,19 @@ $$
 
 The kernel must be justified rather than tuned after seeing the outcome.
 
+If no lawful scalar `E_B` exists, keep mismatch exposure typed instead:
+
+$$
+D_\sigma(t;T)
+=
+\int_{t-T}^{t}
+\widetilde e_\sigma(s)\,ds,
+\qquad
+\sigma\in N_t^+,
+$$
+
+for residuals that individually admit lawful dimensionless normalisation.
+
 Mismatch exposure earns a **cost** interpretation only if it predicts or causally changes a separately measured typed cost object
 
 $$
@@ -463,13 +501,7 @@ $$
 
 such as maintenance demand, energy use, repair load, error rate, viability loss, or another domain-specific quantity.
 
-A useful promotion test is therefore whether
-
-$$
-D_B(t;T)
-$$
-
-adds held-out predictive or interventional value for later `c_(t+Delta)` or closure loss beyond instantaneous residual, measured P-state, and relevant history.
+A useful promotion test is therefore whether mismatch exposure adds held-out predictive or interventional value for later `c_(t+Delta)` or closure loss beyond instantaneous residual, measured P-state, and relevant history.
 
 This keeps the exploratory idea of accumulated unresolved mismatch without declaring a universal `constraint debt` law.
 
@@ -481,7 +513,7 @@ Let
 
 $$
 R_{\ell\rightarrow L}:
-\mathcal A_\ell
+\mathcal A_\ell^{\mathrm{adm}}
 \rightarrow
 \mathcal Y_L
 $$
@@ -518,27 +550,35 @@ $$
 \xrightarrow[
 \text{stable closure}
 ]{R_{\ell\rightarrow L}}
-O_L,
-\qquad
-O_L\in X_L.
+O_L.
 }
 $$
 
-The promoted object may then participate as one constituent or load-bearing relation in the next-scale bracket:
+To use that whole as one constituent at a later scale `L^+`, declare a lawful embedding or typing map
 
 $$
-O_L
-\in
-\mathfrak B_L
-\quad\text{in the typed role declared by the implementation}.
+\iota_{L\rightarrow L^+}:
+\mathcal O_L
+\rightarrow
+\mathcal X_{L^+}^{\mathrm{const}}
 $$
+
+and require
+
+$$
+\iota_{L\rightarrow L^+}(O_L)
+\in
+\mathcal X_{L^+}^{\mathrm{const}}.
+$$
+
+The embedded whole can then participate in the state or relation family from which the next bracket `\mathfrak B_{L^+}` is constructed. It is not literally an element of the bracket tuple by notation alone.
 
 This is the formal version of the recursive statement:
 
 ```text
 lower-scale relations close
 → a higher-scale effective object becomes addressable
-→ that whole becomes one participant in the next relational architecture
+→ that whole becomes one typed participant in the next relational architecture
 ```
 
 The recursion is asserted only across scales for which the promotion tests pass. It is not assumed to continue without bound.
@@ -573,9 +613,9 @@ M(x,y)A(x,y)e^{i\phi(x,y)}
 \right].
 $$
 
-Phase-only holography provides a literal example in which local geometrical orientation can encode phase and the physically reconstructed object appears only after the relevant optical transform. Masking studies also show that partial loss can degrade the quality of the reconstructed image rather than implement a simple one-region-of-mask to one-region-of-image deletion.
+Metasurface holography provides a literal example in which local element orientation can encode optical phase and the reconstructed spatial object appears only after the relevant propagation transform. Local masking or phase deformation can therefore be used as a controlled comparator for distributed encoding claims.
 
-The scientific use in MKUFT is therefore a **deformation template**:
+The scientific use in MKUFT is a **deformation template**:
 
 > If another system is claimed to possess holographic or distributed reconstruction geometry, specify the encoding variables, transform/readout, and predicted response to local masking or phase deformation before calling the analogy physical.
 
@@ -631,7 +671,7 @@ Test pairwise, triple, and higher-order overlap relations separately. If the cla
 
 ### 12.5 Temporal mismatch test
 
-Compare instantaneous residual `E_B(t)` against `D_B(t;T)` or its justified kernel form for held-out prediction of later closure failure or independently measured cost. If accumulated exposure adds no information, retain the simpler instantaneous model.
+Compare instantaneous residuals against the permitted scalar or typed mismatch-exposure object for held-out prediction of later closure failure or independently measured cost. If accumulated exposure adds no information, retain the simpler instantaneous model.
 
 ### 12.6 I→P relation-scramble test
 
@@ -686,7 +726,7 @@ Historical priority for that exact integration is not asserted without broader l
 - Robinson, M. (2018). *Assignments to sheaves of pseudometric spaces*. arXiv:1805.08927.
 - Kolchinsky, A. and Wolpert, D. H. (2018). *Semantic information, autonomous agency and non-equilibrium statistical physics*. Interface Focus 8:20180041. DOI `10.1098/rsfs.2018.0041`.
 - Varley, T. F. and Hoel, E. (2022). *Emergence as the conversion of information: a unifying theory*. Philosophical Transactions of the Royal Society A 380:20210150. DOI `10.1098/rsta.2021.0150`.
-- Ni, X. et al. (2013). *Three-dimensional optical holography using a plasmonic metasurface*. Nature Communications 4:2807. DOI `10.1038/ncomms3808`.
+- Huang, L., Chen, X., Mühlenbernd, H. et al. (2013). *Three-dimensional optical holography using a plasmonic metasurface*. Nature Communications 4:2808. DOI `10.1038/ncomms3808`.
 - Guruciaga, P. C. et al. (2026). *Boundary geometry controls a topological defect transition that determines lumen nucleation in embryonic development*. Nature Materials 25, 1278–1287. DOI `10.1038/s41563-026-02594-7`.
 - Schone, H. R. et al. (2025). *Stable cortical body maps before and after arm amputation*. Nature Neuroscience 28, 2015–2021. DOI `10.1038/s41593-025-02037-7`.
 
