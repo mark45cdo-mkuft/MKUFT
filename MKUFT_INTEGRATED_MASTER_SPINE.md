@@ -547,7 +547,93 @@ Passing this gate promotes the relation into explicit state representation; it d
 
 If the coupled system later passes the existing Module 32S scale-promotion tests, the same lower-scale boundary/junction may become an internal relation of a promoted higher-scale whole. Physical work required to create, move, modulate or maintain an interface remains inside the energy ledger.
 
-Canonical owners: Modules 22A, 32, 32S, 32S1, 32S2, 32S3, 32S4, 33, and 33S1.
+### 9.5 Relational closure and property-specific law descent
+
+Module 33S2 separates existence of a higher-order functional object from dynamical sufficiency at that higher address.
+
+Let
+
+$$
+\pi_R:X\rightarrow Y
+$$
+
+map lower-address states into candidate higher relational states under a declared load-bearing relation $R$. Functional equivalence at $Y$ does not erase historical lineage, and promotion into $Y$ does not automatically produce an autonomous law.
+
+For matched deterministic lower dynamics $F_X$, strong whole-state descent requires
+
+$$
+\boxed{
+\pi_R(x)=\pi_R(x')
+\Rightarrow
+\pi_R(F_X(x))=\pi_R(F_X(x'))
+}
+$$
+
+within the declared environment, intervention class, timescale and tolerance. Where only a target property $q$ is claimed, descent is tested for $q$ rather than silently certifying all of $Y$.
+
+The supported class must be named as strong/exact, strong/approximate, ensemble/conditional, history-augmented, or coupled multiscale. Predictive sufficiency does not automatically grant interventional sufficiency.
+
+Closure and law descent remain separate margins:
+
+$$
+M_C
+$$
+
+for loss of the constitutive closure relation, and
+
+$$
+M_D(q)
+$$
+
+for loss of higher-address sufficiency for property $q$. A regime with $M_D(q)<M_C$ is allowed: the organised whole can persist after a simpler higher-address law for $q$ has failed.
+
+Readdressing is therefore bidirectional:
+
+```text
+lower address
+↔ higher / effective address
+↔ coupled multiscale address
+```
+
+with the active address earned by the current target property and evidence rather than inherited permanently from an earlier promotion.
+
+### 9.6 Cross-scale performance and recoverability
+
+Module 33S3 adds a further guard where a lower-address process changes performance while the enclosing organisation is also changing.
+
+Let $J_\ell$ be a declared lower-address performance variable. Track it separately from closure and law descent:
+
+$$
+\boxed{
+\Delta_{\ell\rightarrow h}
+=
+(\Delta J_\ell,\Delta M_C,\Delta M_D(q)).
+}
+$$
+
+The tuple is retained rather than collapsed into one scalar because its entries may have different units and meanings. Cross-scale change may be aligned, antagonistic, neutral/decoupled, or mixed/property-relative. In particular,
+
+$$
+\Delta J_\ell>0,
+\qquad
+\Delta M_C<0
+$$
+
+is a possible antagonistic pattern, not a universal law. Local improvement does not imply whole-level improvement, and it does not imply inevitable later collapse.
+
+Recovery is defined conditionally. Let $\mathcal C_R\subseteq Y$ be a declared target closure class, with intervention/control class $U$, environment class $E$, admissible route constraints and horizon $H$. A state is recoverable only where an admissible route can reach $\mathcal C_R$ under those declared conditions. The notation
+
+$$
+\operatorname{Rec}_H(x_t;\mathcal C_R,U,E)=1
+$$
+
+is a reachability scaffold, not a universal recovery law.
+
+Loss of a property-specific higher law, loss of closure, and loss of recoverability are therefore different events. A recovery route need not be the time reverse of the degradation route, and functional recovery may occur through a different lower-level realisation of the same target relational class.
+
+Apparent hysteresis or path dependence must first be tested against bounded state augmentation. If adding a measurable omitted state or physical memory variable closes the process, that variable belongs in the address; history is not retained merely because it makes the account fit.
+
+Canonical owners: Modules 22A, 32, 32S, 32S1, 32S2, 32S3, 32S4, 33, 33S1, 33S2, and 33S3.
 
 ## 10. LUCY
 
@@ -586,7 +672,7 @@ LUCY-2 = sustained local region, when present
 
 These are conditional downstream morphologies, not automatic consequences of every LUCY crossing.
 
-Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 30. Modules 32S3/32S4/33/33S1 now supply increasingly general admissibility, transport, update and interface-promotion machinery around a candidate crossing; none of them by itself establishes independent I→P dynamics or a physical LUCY mechanism.
+Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 30. Modules 32S3/32S4/33/33S1/33S2/33S3 now supply increasingly general admissibility, transport, update, interface-promotion, law-descent and recoverability machinery around a candidate crossing; none of them by itself establishes independent I→P dynamics or a physical LUCY mechanism.
 
 ## 11. Observer and procedural support modules
 
@@ -610,7 +696,7 @@ The Voynich branch is an applied procedural hypothesis. It must compete with lin
 
 The foundational proposal asks whether quantum and gravitational effective behaviour may arise from a deeper typed update architecture rather than being fundamental objects at the same descriptive layer.
 
-The live-canon update is no longer only a placeholder arrow. Module 33 now supplies the architectural factorisation above; Module 33S1 specifies when a load-bearing interface must be represented explicitly in the recursively readdressed state. The remaining burden is the **physical instantiation** of that architecture:
+The live-canon update is no longer only a placeholder arrow. Module 33 supplies the architectural factorisation above; Module 33S1 specifies when a load-bearing interface must be represented explicitly in the recursively readdressed state; Module 33S2 requires a promoted higher address to earn property-specific law sufficiency; and Module 33S3 prevents local performance or temporary degradation from being converted into unsupported whole-level stability, collapse, or recovery claims. The remaining burden is the **physical instantiation** of that architecture:
 
 - instantiate $\Xi_t$ and $\mathfrak C_P$ for each target regime;
 - define the resulting $\mathcal D_{P,t}$, $\mathcal T_{P,t}$ and $\mathcal W_{P,t}$;
@@ -641,7 +727,7 @@ calibration
 
 A branch is reduced or removed when its variables cannot be operationalised, simpler models predict equally or better, the effect disappears under controls, results do not replicate, definitions move after failure, or evidence from another layer is used to rescue it.
 
-Canonical owners: Modules 04, 05, 27, 28, 29, and branch-specific controls in the 32/33/33S1 family.
+Canonical owners: Modules 04, 05, 27, 28, 29, and branch-specific controls in the 32/33 family.
 
 ## 14. Metaphysical boundary
 
@@ -725,6 +811,19 @@ Dynamic interface promotion:
 𝒥_AB,t → (A_(t+Δ),B_(t+Δ)) → 𝒥_AB,t+Δ → Ξ_t+Δ
 State promotion ≠ ontology promotion
 
+Relational law descent under matched conditions:
+π_R(x)=π_R(x') ⇒ π_R(F_X(x))=π_R(F_X(x'))
+Whole-state descent ≠ property-specific descent for q
+M_C ≠ M_D(q)
+
+Cross-scale performance:
+Δ_(ℓ→h) = (ΔJ_ℓ, ΔM_C, ΔM_D(q))
+Local gain does not inherit upward
+
+Conditional recovery:
+Rec_H(x_t;𝒞_R,U,E) = target-relative reachability under declared constraints
+Recovery path need not invert degradation path
+
 Enabling-constraint pair, when comparable:
 Δμ_ℓ < 0 while Δν_L > 0
 
@@ -733,13 +832,13 @@ Y_L = χ_L ||∇τ_L||²/(N_L+ε_L)
 Y_L ≥ Y_*
 
 Integrity:
-Define once. Type the address. Build admissibility. Assemble the law object. Promote a relation into explicit state only when it carries prospective recursive load. Test the coupling. Recover the baseline. Keep the falsifier.
+Define once. Type the address. Build admissibility. Assemble the law object. Promote a relation into explicit state only when it carries prospective recursive load. Earn higher-address law ownership per property. Do not inherit local performance across scale. Treat recovery as conditional reachability. Test the coupling. Recover the baseline. Keep the falsifier.
 ```
 
 ## 17. Final statement
 
 MKUFT should not read as a pile of similarities.
 
-Its current live spine is a recursive research architecture in which **possibility, relation, admissibility, physical law, measurement/registration, history, interface state and scale transition are explicitly separated but composable**.
+Its current live spine is a recursive research architecture in which **possibility, relation, admissibility, physical law, measurement/registration, history, interface state, scale transition, law descent and conditional recoverability are explicitly separated but composable**.
 
-The architectural drivetrain remains closed by Module 33. Module 33S1 tightens the readdressing/state representation rule; it does not reopen the parent architecture. The remaining foundational burden is not another missing arrow; it is to instantiate that drivetrain in concrete physics, recover the established quantum and gravitational regimes, and determine whether the deeper relational architecture earns independent predictive content.
+The architectural drivetrain remains closed by Module 33. Module 33S1 tightens recursive interface/state representation; Module 33S2 limits higher-address law ownership to the property and regime that actually earn it; Module 33S3 separates local performance from enclosing-scale viability and recovery from inevitable reversal. None reopens the parent capstone. The remaining foundational burden is not another missing arrow; it is to instantiate that drivetrain in concrete physics, recover the established quantum and gravitational regimes, and determine whether the deeper relational architecture earns independent predictive content.
