@@ -20,8 +20,9 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 7. [Load-Bearing Relation Sets and Scale-Transition Tests](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md)
 8. [Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md)
 9. [Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
-10. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-11. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+10. [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
+11. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+12. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 ### Physics and quantum gravity
 
@@ -43,11 +44,12 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 3. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 4. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
 5. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
-6. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
-7. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-8. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+6. [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
+7. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
+8. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+9. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process, but it does not by itself establish an I→P crossing or physical LUCY mechanism.
+The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process, and Module 32S3 supplies a completion/admissibility scaffold for testing relational constraint at the I→P boundary, but neither establishes an I→P crossing or physical LUCY mechanism.
 
 ### AI and typed knowledge architectures
 
@@ -85,7 +87,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **23 — Agency Accessibility:** distinguishes retained capacity from practical access under an explicitly bounded systems model.
 - **24 — Cross-Support Map:** dependency and limiting relationships among public modules.
 - **24A — Active Traversal:** matched-control hypothesis for functional gain from typed active traversal.
-- **24B — Strongest Fair Null:** full-history replay, strong alternatives, and relational-specificity controls.
+- **24B — Strongest Fair Null:** full-history replay, strong alternatives, and relationship-specificity controls.
 - **25 — Load-Bearing Deformation:** controlled relation-level deformation and whole-system audit.
 - **25A — Fundamental Traversal Coherence Nodes:** provisional node-level organising-load hypothesis.
 - **31 — Context-Conditioned State Comparison:** admissible same-class deformation, measurement-relative state equivalence, target-relative ambiguity closure, support-preserving cross-implementation comparison, addressed abstraction, construction-address robustness, and representation-dependence testing.
@@ -93,6 +95,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **32S — Load-Bearing Relation Sets and Scale-Transition Tests:** minimal load-bearing sets, ablation weights, relation-versus-carrier substitution, cost/freedom/capability separation, and the criteria by which a lower-scale organised whole can earn treatment as an effective higher-scale object.
 - **32S1 — Invariant Persistence, Relational Addressability, and Scale Transition:** separates physical persistence from independent relational addressability; a lower-scale invariant may remain physically instantiated while higher-scale closure removes its independent deployment. It also separates within-address state equivalence, address-class parity, and cross-address continuity of individuality.
 - **32S2 — Temporal Continuity Kernels and Minimum Identity Horizon:** extends individuality continuity from endpoint or point-state comparison to recent relational trajectories. It treats the immediate predecessor→present relation as the minimum temporal candidate and requires longer history to earn load-bearing status by truncation, temporal-shuffle, replay, and held-out tests.
+- **32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility:** defines typed overlap compatibility, compatible completion sets for missing/unobserved addresses, temporal mismatch exposure, readout-versus-endogenous promotion, a deformation-tested holography comparator, and an I→P transition-kernel/support test that retains the adequate P-only null.
 
 ### Observer, boundary, and physical support
 
