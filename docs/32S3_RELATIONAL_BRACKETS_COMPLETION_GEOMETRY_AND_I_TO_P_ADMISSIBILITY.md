@@ -179,7 +179,7 @@ The bracket is therefore not a container drawn around an object. It is the addre
 
 ## 3. Completion geometry — formalising a relationally specified absence
 
-Suppose one addressed region `U_k` has no current occupant, is unobserved, or is intentionally ablated while the remaining assignment
+Suppose one addressed region `U_k` has no current occupant, is unobserved, or is intentionally ablated while the remaining partial assignment
 
 $$
 a_{-k}
@@ -187,7 +187,67 @@ $$
 
 is retained.
 
-Define the **compatible completion set** by the componentwise bracket criterion:
+For a candidate completion
+
+$$
+x\in\mathcal F_t(U_k),
+$$
+
+define the insertion operation
+
+$$
+a_{-k}\oplus_k x
+=
+(a_1,\ldots,a_{k-1},x,a_{k+1},\ldots,a_n).
+$$
+
+Separate overlaps that involve the missing address from those that do not:
+
+$$
+N_{k,t}^+
+=
+\{\sigma\in N_t^+:k\in\sigma\},
+$$
+
+$$
+N_{-k,t}^+
+=
+\{\sigma\in N_t^+:k\notin\sigma\}.
+$$
+
+Define the background-consistency test
+
+$$
+\chi_{B,-k}(a_{-k})
+=
+\mathbf 1
+\left[
+e_\sigma(a_{-k})\leq\varepsilon_\sigma
+\quad\forall\sigma\in N_{-k,t}^+
+\right]
+$$
+
+for residuals that are well-defined without the missing coordinate.
+
+Define the local completion test
+
+$$
+\chi_{B,k}(a_{-k}\oplus_k x)
+=
+\mathbf 1
+\left[
+e_\sigma(a_{-k}\oplus_k x)\leq\varepsilon_\sigma
+\quad\forall\sigma\in N_{k,t}^+
+\right].
+$$
+
+When the retained background is compatible,
+
+$$
+\chi_{B,-k}(a_{-k})=1,
+$$
+
+define the **compatible completion set**
 
 $$
 \boxed{
@@ -195,14 +255,30 @@ $$
 =
 \left\{
 x\in\mathcal F_t(U_k):
-\chi_B\!\left(a_{-k}\cup\{x\}\right)=1
+\chi_{B,k}(a_{-k}\oplus_k x)=1
 \right\}.
 }
 $$
 
-This object asks a precise negative-space question:
+If the retained background is already incompatible,
 
-> Given everything that remains, what could occupy this address without violating the declared local-to-global relations beyond their own typed tolerances?
+$$
+\chi_{B,-k}(a_{-k})=0,
+$$
+
+a local missing-address inference is confounded: an empty or distorted completion set cannot be attributed cleanly to the missing coordinate because unrelated bracket relations are already failing.
+
+If
+
+$$
+N_{k,t}^+=\varnothing,
+$$
+
+the current cover supplies no overlap constraint on `U_k`; the address is locally unconstrained by this bracket rather than positively specified.
+
+The completion object asks a precise negative-space question:
+
+> Given a compatible retained background, what could occupy this address without violating the declared relations that actually touch that address?
 
 Several cases must remain distinct.
 
@@ -241,17 +317,17 @@ A large value is not `more information`; it is greater unresolved completion vol
 
 ### 3.3 Incompatible or disordered absence
 
-If
+If the retained background is compatible but
 
 $$
 \Omega_{k,t}^{\mathrm{comp}}=\varnothing,
 $$
 
-then no tested completion satisfies the current bracket. The surrounding relations may be mutually incompatible, corrupted, overconstrained, or incompletely modelled.
+then no tested value at the missing address satisfies all relations that touch it. The local bracket may be corrupted, overconstrained, incorrectly typed, or incompletely modelled.
 
-This prevents the phrase **negative space** from being silently equated with an ordered template. Absence, ambiguity, and inconsistency are different objects.
+This prevents the phrase **negative space** from being silently equated with an ordered template. Absence, ambiguity, local incompatibility, and background inconsistency are different objects.
 
-## 4. Stable closure must survive time and perturbation
+## 4. Stable closure must survive time, perturbation, and comparison validity
 
 One compatible instant is not enough to promote a higher-scale object.
 
@@ -273,30 +349,47 @@ $$
 
 where `tau`, the tolerance family inside `chi_B`, and the allowed failure fraction `delta_B` are specified in advance.
 
+This integral is lawful only while the bracket observables are defined in one declared comparison class. If the cover, nerve, local state spaces, residual definitions, tolerances, or normalisations change materially over the window, Module 31's comparison rule applies: use a lawful translation/transport into a common observable space, partition the interval into comparable regimes, or do not report one persistence scalar.
+
 For discrete or irregular sampling, use the corresponding preregistered sample fraction rather than forcing this continuous-time form.
 
 A closure claim should also survive preregistered perturbations inside a declared robustness neighbourhood. A bracket that closes only at one finely tuned point is a different object from a stable basin.
 
-This is the temporal and perturbational extension of the Module 32S promotion requirement.
+This is the temporal, perturbational, and comparison-validity extension of the Module 32S promotion requirement.
 
 ## 5. One typed operation behind bracket, completion, and reachable-state geometry
 
-The preceding constructions can be compressed into a domain-typed **constraint-to-admissibility operator** without reusing Module 32's symbol for the addressed adaptive system.
+The preceding constructions can be compressed into a domain-typed **constraint-to-admissibility operator** without reusing Module 32's symbol for the addressed adaptive system or silently forcing a fixed state space.
 
-At a declared layer/address `lambda`, let
+At declared layer/address `lambda`, let the possible construction/state-space addresses be
+
+$$
+A_\lambda,
+$$
+
+with addressed state family
+
+$$
+\mathfrak X_\lambda
+=
+\bigsqcup_{\alpha\in A_\lambda}
+\{\alpha\}\times\mathcal X_{\lambda,\alpha}.
+$$
+
+For current address `alpha_t`, define schematically
 
 $$
 \mathcal Q_{\lambda,t}:
 \mathcal R_{\lambda,t}
 \times
-\mathcal X_{\lambda,t}
+\mathcal X_{\lambda,\alpha_t}
 \times
 \mathcal H_{\lambda,t}
 \longrightarrow
-2^{\mathcal X_{\lambda,t}}
+2^{\mathfrak X_\lambda},
 $$
 
-map the active relation/context structure, current state, and retained history to an admissible subset of the relevant state space:
+with
 
 $$
 \mathcal Q_{\lambda,t}(r,x,h)
@@ -304,12 +397,14 @@ $$
 \Omega_{\lambda,t}^{\mathrm{adm}}.
 $$
 
+The output is an **addressed admissible region** and can therefore include transitions into a different construction/state-space address where the implementation permits that change.
+
 This is a mathematical scaffold, not a claim that every domain implements one literal universal operator.
 
 It contains several Module 32-family objects as specialisations:
 
-- **completion geometry:** the remaining relations map to `Omega_k^comp` for a missing address;
-- **ordinary reachable-state geometry:** current organisation maps to the subset of later states reachable under admissible transitions;
+- **completion geometry:** the remaining relations constrain the candidate states of a missing address;
+- **ordinary reachable-state geometry:** current organisation maps to the subset of later addressed states reachable under admissible transitions;
 - **scale-conditioned action:** higher organisation removes some lower-scale states from the identity-compatible reachable set without destroying the underlying carrier;
 - **candidate I→P admissibility:** a declared I-layer relation is tested for whether it changes the support or weighting of later P-layer transitions beyond an adequate physical baseline.
 
@@ -358,7 +453,7 @@ p_t,H_t^P,i_t
 \right).
 $$
 
-A candidate I-relation is **P-admissibility load-bearing** only if a preregistered deformation or relation-scramble
+A candidate I-relation is **P-admissibility load-bearing** only if a preregistered lawful deformation or relation-scramble
 
 $$
 i_t\rightarrow\widetilde i_t
@@ -366,7 +461,7 @@ $$
 
 changes a declared property of the later physical transition distribution or support under matched conditions.
 
-For a declared statistical distance or divergence `D_P`, a generic effect score is
+For a declared statistical distance or divergence `D_P`, a generic distributional effect score is
 
 $$
 \Lambda_{I\rightarrow P}
@@ -396,6 +491,8 @@ $$
 
 where `d_Omega` is a lawful distance between the declared support objects.
 
+A non-zero conditional divergence is not automatically causal. If `i` cannot be changed independently of relevant physical variables, the result is predictive/associational unless a valid causal identification strategy is supplied. A strong intervention should preserve as much lower-order physical state and carrier detail as practical while breaking the proposed relation; otherwise an apparent I effect may simply be an uncontrolled P change.
+
 ### 6.1 P-realised semantic relation versus independent I→P dynamics
 
 A non-zero `Lambda_(I→P)` does **not** by itself establish an independent information layer. A relation encoded entirely in measured physical organisation can be causally load-bearing while remaining P-realised.
@@ -424,7 +521,7 @@ A stronger independent I→P candidate requires all of the following:
 2. representation-robust specification under relation-preserving re-encoding;
 3. a strongest adequate P-state/history baseline;
 4. held-out predictive or interventional gain beyond that baseline;
-5. a deformation result that tracks the relation rather than one accidental carrier;
+5. a lawful deformation result that tracks the relation rather than one accidental carrier or uncontrolled P change;
 6. an explicit falsifier and ordinary-physics recovery regime.
 
 This sharpens the I→P edge without converting a semantic description into a new physical ontology by definition.
@@ -445,7 +542,9 @@ The public rule is:
 
 Persistent incompatibility may matter even when no single residual is catastrophic.
 
-Where the lawful dimensionless aggregate `E_B(t)` from Section 2 exists, define cumulative **mismatch exposure** over a declared horizon `T`:
+Mismatch accumulation is defined only across a time interval on which the residual being accumulated is lawfully comparable. If the bracket address changes materially—cover, nerve, local spaces, residual definition, tolerance, or normalisation—use a declared transport/comparison map, partition the interval, or keep the exposures separate.
+
+Where a lawful dimensionless aggregate `E_B(t)` exists in one comparison class, define cumulative **mismatch exposure** over a declared horizon `T`:
 
 $$
 D_B(t;T)
@@ -483,11 +582,9 @@ D_\sigma(t;T)
 =
 \int_{t-T}^{t}
 \widetilde e_\sigma(s)\,ds,
-\qquad
-\sigma\in N_t^+,
 $$
 
-for residuals that individually admit lawful dimensionless normalisation.
+only for residual coordinates whose meaning and normalisation remain comparable over the interval or have been lawfully transported into a common comparison space.
 
 Mismatch exposure earns a **cost** interpretation only if it predicts or causally changes a separately measured typed cost object
 
@@ -509,18 +606,18 @@ This keeps the exploratory idea of accumulated unresolved mismatch without decla
 
 A local-to-global relational structure can be mathematically compressible without being a new endogenous physical object. Readout and promotion must therefore remain separate.
 
-Let
+Let a declared readout or coarse-graining map be
 
 $$
 R_{\ell\rightarrow L}:
-\mathcal A_\ell^{\mathrm{adm}}
-\rightarrow
-\mathcal Y_L
+\operatorname{Dom}(R_{\ell\rightarrow L})
+\subseteq
+\prod_i\mathcal F_\ell(U_i)
+\longrightarrow
+\mathcal Y_L.
 $$
 
-be a declared readout or coarse-graining map on admissible lower-scale assignments.
-
-A candidate higher-scale state is
+For admissible assignment `a_ell`, a candidate higher-scale state is
 
 $$
 y_L
@@ -542,13 +639,19 @@ or a tolerance-based analogue where exact equality is inappropriate.
 
 This alone may describe only the observer's compression. A higher-scale **effective object** is promoted only when the Module 32S tests also pass: persistence, interventional load-bearingness, new viable capability, predictive compression, and boundary/closure specificity.
 
-When those tests pass, the recursive handoff may be written
+When those tests pass, let
+
+$$
+O_L\in\mathcal O_L
+$$
+
+denote the promoted effective object. The recursive handoff may be written schematically as
 
 $$
 \boxed{
 \left(\mathfrak B_\ell,a_\ell\right)
 \xrightarrow[
-\text{stable closure}
+\text{stable closure + promotion tests}
 ]{R_{\ell\rightarrow L}}
 O_L.
 }
@@ -653,13 +756,13 @@ Change the lawful cover, coordinate chart, encoding, or local representation whi
 
 ### 12.2 Completion prediction
 
-Remove, hide, or ablate a local occupant while preserving surrounding relations as far as possible. Use the remaining bracket to predict
+Remove, hide, or ablate a local occupant while preserving surrounding relations as far as possible. First verify that the retained background satisfies its own compatibility test. Then use only the relations touching the missing address to predict
 
 $$
 \Omega_k^{\mathrm{comp}}.
 $$
 
-Then restore or allow the region to repopulate. The realised completion should fall inside the preregistered predicted set at the stated rate. A bracket that cannot predict admissible completion is descriptive rather than load-bearing for this claim.
+Restore or allow the region to repopulate. The realised completion should fall inside the preregistered predicted set at the stated rate. A bracket that cannot predict admissible completion is descriptive rather than load-bearing for this claim.
 
 ### 12.3 Surrounding-relation deformation
 
@@ -671,11 +774,11 @@ Test pairwise, triple, and higher-order overlap relations separately. If the cla
 
 ### 12.5 Temporal mismatch test
 
-Compare instantaneous residuals against the permitted scalar or typed mismatch-exposure object for held-out prediction of later closure failure or independently measured cost. If accumulated exposure adds no information, retain the simpler instantaneous model.
+Compare instantaneous residuals against the permitted scalar or typed mismatch-exposure object for held-out prediction of later closure failure or independently measured cost. Require a lawful temporal comparison class or transport if the bracket address changes. If accumulated exposure adds no information, retain the simpler instantaneous model.
 
 ### 12.6 I→P relation-scramble test
 
-Construct `i` and `i_tilde` so that as much carrier-specific and lower-order statistical structure as possible is preserved while the proposed load-bearing relation is broken. Test the declared transition-kernel or support difference against the adequate P-only model.
+Construct `i` and `i_tilde` so that as much carrier-specific and lower-order physical structure as possible is preserved while the proposed load-bearing relation is broken. Test the declared transition-kernel or support difference against the adequate P-only model. If the relation cannot be manipulated or causally identified independently of relevant P changes, report predictive association rather than causal I→P evidence.
 
 ### 12.7 Holographic deformation comparator
 
@@ -691,10 +794,12 @@ Reduce this refinement if:
 
 - local variables predict the tested outcome as well as the overlap/compatibility architecture;
 - completion sets fail to predict lawful occupancy, regeneration, recovery, or held-out state resolution;
+- unrelated background inconsistency is mistaken for failure of the missing-address completion;
 - the result depends on an arbitrary cover, coordinate system, or encoding and fails representation-preserving translation;
 - pairwise relations explain the phenomenon and the proposed higher-order overlap adds no predictive value;
-- temporal mismatch exposure adds no held-out value beyond instantaneous state/history;
+- temporal mismatch exposure is accumulated across non-comparable bracket addresses without a lawful transport or adds no held-out value beyond instantaneous state/history;
 - relation scrambling produces no predicted physical or functional change;
+- a claimed causal I→P result cannot separate the relation change from uncontrolled P-layer changes;
 - the I variable is fully reducible to an adequate P-state/history description where independent I→P dynamics were claimed;
 - a proposed readout is only observer coarse-graining and adds no endogenous interventional or predictive value;
 - a holographic claim fails the preregistered transform/deformation response or is explained equally well by a simpler distributed system;
@@ -717,7 +822,7 @@ Relevant neighbouring work includes:
 
 The candidate MKUFT contribution is narrower:
 
-> integrate addressed state-space discipline, load-bearing relation tests, local-to-global completion geometry, persistent mismatch exposure, scale promotion, and the I→P physical-null boundary into one operational audit in which `relationally specified absence` and `changed physical admissibility` are tested by the same typed constraint-to-admissibility grammar.
+> integrate addressed changing-state-space discipline, load-bearing relation tests, local-to-global completion geometry, persistent mismatch exposure, scale promotion, and the I→P physical-null boundary into one operational audit in which `relationally specified absence` and `changed physical admissibility` are tested by the same typed constraint-to-admissibility grammar.
 
 Historical priority for that exact integration is not asserted without broader literature review. Module 32A owns the evolving novelty audit.
 
@@ -736,16 +841,18 @@ Historical priority for that exact integration is not asserted without broader l
 
 > **Physically absent does not imply relationally unspecified; relationally specified does not imply physically occupied.**
 
-> **Negative space can be narrow, ambiguous, or inconsistent. Do not call all three one thing.**
+> **A local completion claim is valid only after unrelated background incompatibility is separated from relations that actually touch the missing address.**
+
+> **Negative space can be narrow, ambiguous, locally incompatible, or embedded in a globally inconsistent background. Do not call all four one thing.**
 
 > **A persistent mismatch is not automatically a cost. Measure mismatch first; measure cost separately; then test the coupling.**
 
 > **The I→P question can be posed as a change in physical transition support or weighting without assuming that information is a hidden force or message carrier.**
 
-> **A non-zero relational effect may still be fully P-realised. Independent I→P dynamics must beat the adequate P-state/history null.**
+> **A non-zero relational effect may still be fully P-realised, and a non-zero conditional difference is not automatically causal. Independent I→P dynamics must beat the adequate P-state/history null and survive causal-identification discipline.**
 
 > **Readout does not create an endogenous scale transition. Promotion requires persistence, intervention, new capability, predictive compression, and boundary specificity.**
 
 > **Holography is a deformation-tested physical comparator, not a licence to call every distributed relation holographic.**
 
-> **At every justified scale: relations constrain admissibility; stable closure can become an effective object; that object may then participate in the next bracket.**
+> **At every justified scale: relations constrain addressed admissibility; stable closure can become an effective object; that object may then participate in the next bracket.**
