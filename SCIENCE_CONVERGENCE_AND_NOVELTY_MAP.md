@@ -172,6 +172,8 @@ what distinction is maintained
 
 No cross-domain physical equivalence follows from this grammar alone.
 
+Module 33S1 sharpens one additional question without changing this boundary: **when does an interface stop being adequately represented as background context and need to become an explicit recursively updated state variable?** The answer is operational rather than visual: the interface must be trackable, controlled deformation must alter a load-bearing downstream object, and realised dynamics must update the interface in a way that changes the next cycle. A fully P-recoverable interface can pass this state-representation gate; that is not an independent-ontology claim.
+
 ## 10. Geometry-dependent physical systems
 
 **Established result:** geometry affects fields, stresses, resonances, transport, waveguiding, cavities, interfaces, and material response. Optical holography supplies a controlled example in which distributed phase structure and a propagation/readout transform reconstruct a spatial field.
@@ -180,7 +182,7 @@ No cross-domain physical equivalence follows from this grammar alone.
 
 A result becomes MKUFT-relevant only when a prospectively specified residual survives complete electromagnetic, thermal, mechanical, material, acoustic, timing, and sensor models and follows an MKUFT-specific response law.
 
-A broad difference between two shapes is ordinary geometry, not evidence for MKUFT. A holographic analogy becomes physically meaningful only when encoding variables, transform/readout, and response to local masking or phase deformation are specified and tested.
+A broad difference between two shapes is ordinary geometry, not evidence for MKUFT. A holographic analogy becomes physically meaningful only when encoding variables, transform/readout, and response to local masking or phase deformation are specified and tested. Einstein–Rosen bridge geometry is likewise retained only as a bounded comparator for a connecting structure belonging to a larger object; it is not evidence for literal MKUFT wormholes or shortcuts.
 
 ## 11. Procedural systems and Voynich
 
@@ -200,11 +202,11 @@ They may motivate questions about boundary, relation, unity, differentiation, re
 
 ## 13. Recursive constraint closure, completion geometry, and reachable-state structure
 
-**Established and neighbouring work:** theoretical biology already contains organisational/constraint closure; physical biosemiotics and semantic closure address symbol–matter and control–measurement relations; evolutionary theory and artificial-life work contain enablement, changing possibility spaces, internally maintained constraints, and emergence of new local rules. Nerve constructions, sheaf theory, approximate local-to-global consistency, causal semantic-information interventions, information conversion across scales, and optical holographic reconstruction are also established mathematical or physical neighbours.
+**Established and neighbouring work:** theoretical biology already contains organisational/constraint closure; physical biosemiotics and semantic closure address symbol–matter and control–measurement relations; evolutionary theory and artificial-life work contain enablement, changing possibility spaces, internally maintained constraints, and emergence of new local rules. Nerve constructions, sheaf theory, approximate local-to-global consistency, causal semantic-information interventions, information conversion across scales, optical holographic reconstruction, dynamic junctions and boundary-state physics are also established mathematical or physical neighbours.
 
 **Role for MKUFT:** close prior work, scientific constraint, formal comparison neighbourhood, and source of stronger null models.
 
-**MKUFT distinction under test:** the Module 32 family combines those neighbours with typed construction addresses, no-false-state-parity comparison, relation-realisation tests, endogenous admissibility, strongest-fair-null/deformation controls, explicit separation between lower-scale feasible-state volume and higher-scale viable capability, identity and temporal-continuity guards, and a completion geometry for missing/unobserved addresses.
+**MKUFT distinction under test:** the Module 32 family combines those neighbours with typed construction addresses, no-false-state-parity comparison, relation-realisation tests, endogenous admissibility, strongest-fair-null/deformation controls, explicit separation between lower-scale feasible-state volume and higher-scale viable capability, identity and temporal-continuity guards, a completion geometry for missing/unobserved addresses, and a guarded rule for promoting a load-bearing interface into explicit recursive state representation.
 
 The central candidate relation is:
 
@@ -228,15 +230,52 @@ A state-space address may itself change. When it does, before/after states are n
 
 **I→P boundary:** the candidate relation can be tested through its effect on a physical transition distribution or support. A non-zero relational effect may still be entirely P-realised. Independent I→P dynamics require held-out predictive or interventional content beyond an adequate P-state/history baseline and must survive relation-preserving re-encoding and deformation controls.
 
-**Scale promotion:** a useful readout or coarse-graining does not by itself make a new endogenous object. Promotion still requires persistence, interventional load-bearingness, new viable capability, predictive compression, and reproducible boundary/closure specificity.
+**Scale promotion:** a useful readout or coarse-graining does not by itself make a new endogenous object. Promotion still requires persistence, interventional load-bearingness, new viable capability, predictive compression, and reproducible boundary/closure specificity. Likewise, explicit promotion of an interface into the working state does not by itself make that interface a new ontology.
 
-**Failure conditions:** fixed-space or standard learning/control/evolutionary models predict equally well; random count-matched constraints reproduce the effect; claimed closure cannot be deformed as predicted; a rule change reduces to parameter retuning; completion sets fail held-out occupancy/recovery predictions; local variables outperform the overlap architecture; mismatch exposure adds no value beyond instantaneous state/history; or an I variable is reducible to the adequate physical baseline where independent I→P dynamics were claimed.
+**Failure conditions:** fixed-space or standard learning/control/evolutionary models predict equally well; random count-matched constraints reproduce the effect; claimed closure cannot be deformed as predicted; a rule change reduces to parameter retuning; completion sets fail held-out occupancy/recovery predictions; local variables outperform the overlap architecture; mismatch exposure adds no value beyond instantaneous state/history; an interface variable adds no prospective discrimination beyond the already adequate state; or an I variable is reducible to the adequate physical baseline where independent I→P dynamics were claimed.
 
 **Novelty status:** the isolated ingredients are not claimed as new. The exact conjunction and its operational usefulness remain a live comparison question, bounded by Module 32A rather than asserted as historical priority.
 
-## 14. Novelty discipline
+## 14. SIPO capstone and dynamic-interface refinement
 
-The potentially distinctive MKUFT contributions are not the isolated words *information*, *coherence*, *boundary*, *observer*, *cost*, *holography*, *sheaf*, or *emergence*. Those concepts already have extensive scientific histories.
+Module 33 now closes the previously open **architectural** SIPO update object:
+
+```text
+complete addressed state + context/history
+→ typed admissibility descriptor Ξ
+→ active P-law object (domain, transition, weighting)
+→ physical propagation
+→ P→(P,O) measurement/registration
+→ recursive readdressing
+```
+
+The active P-law object is typed as
+
+$$
+\mathfrak L_{P,t}=(\mathcal D_{P,t},\mathcal T_{P,t},\mathcal W_{P,t}).
+$$
+
+This is an architectural closure, not a derivation of quantum mechanics or general relativity.
+
+Module 33S1 is a post-capstone refinement of state representation and readdressing. For a typed interface $\mathcal J_{AB,t}$, the operative recursive pattern is
+
+$$
+\mathcal J_{AB,t}
+\rightarrow
+(A_{t+\Delta},B_{t+\Delta})
+\rightarrow
+\mathcal J_{AB,t+\Delta}
+\rightarrow
+\Xi_{t+\Delta}.
+$$
+
+The interface is promoted explicitly only when it is trackable, prospectively load-bearing and recursively updated. If the coupled system later passes the existing scale-promotion tests, a lower-scale boundary can become an internal relation of a promoted whole. **State promotion is not ontology promotion.**
+
+The foundational burden is therefore no longer to invent a missing architectural arrow. It is to instantiate $\Xi$ and the law assembler in concrete physical regimes, recover accepted limits, and demonstrate discriminating predictive content where a stronger physical claim is made.
+
+## 15. Novelty discipline
+
+The potentially distinctive MKUFT contributions are not the isolated words *information*, *coherence*, *boundary*, *observer*, *cost*, *holography*, *sheaf*, *interface*, or *emergence*. Those concepts already have extensive scientific histories.
 
 Novelty must be earned by combinations that do concrete work, including:
 
@@ -247,24 +286,26 @@ Novelty must be earned by combinations that do concrete work, including:
 5. the independent-content test separating useful higher-level description from claimed new physical dynamics;
 6. recursive constraint/reachable-state geometry only where it improves discrimination beyond fixed-space and ordinary adaptive models;
 7. local-to-global completion geometry only where it predicts admissible completion, failure, or recovery beyond simpler local models;
-8. an eventual lawful update or residual that recovers established limits and predicts something competitors do not.
+8. the typed SIPO law-object factorisation only where it can be instantiated without flattening domain, transition, weighting and registration into one object;
+9. dynamic-interface promotion only where explicit state representation adds prospective recursive discrimination rather than vocabulary;
+10. an eventual concrete physical instantiation that recovers established limits and predicts something competitors do not.
 
-## 15. Current scientific ranking
+## 16. Current scientific ranking
 
 The public scientific position is best represented by maturity rather than a “support” leaderboard:
 
-- **Established external science:** quantum theory, relativity in tested regimes, critical phenomena, active matter, biological regulation, local-to-global topology/sheaf methods, holographic optics, standard cognitive and systems science.
-- **Well-defined MKUFT methods or scaffolds:** typed traversal, equation hygiene, strongest-fair-null design, deformation tests, ambiguity and agency audit variables where operationalised, context-conditioned state comparison, recursive-constraint/reachable-state geometry, relational completion sets, and the I→P transition-kernel/support assay as a promotion test.
-- **Candidate experimental bridges:** LUCY physical specialisations, precision boundary residuals, selected observer-linked assays, and completion/deformation experiments in systems with measurable local-to-global organisation.
-- **Foundational research programme:** Layer Before Law and a future complete SIPO update/recovery model.
+- **Established external science:** quantum theory, relativity in tested regimes, critical phenomena, active matter, biological regulation, local-to-global topology/sheaf methods, holographic optics, boundary/junction dynamics, and standard cognitive and systems science.
+- **Well-defined MKUFT methods or scaffolds:** typed traversal, equation hygiene, strongest-fair-null design, deformation tests, ambiguity and agency audit variables where operationalised, context-conditioned state comparison, recursive-constraint/reachable-state geometry, relational completion sets, I→P transition-kernel/support assay, the Module 33 architectural SIPO update factorisation, and the 33S1 dynamic-interface promotion gate.
+- **Candidate experimental bridges:** LUCY physical specialisations, precision boundary residuals, selected observer-linked assays, and completion/deformation/interface experiments in systems with measurable local-to-global organisation.
+- **Foundational research programme:** Layer Before Law plus concrete physical instantiation/recovery of the closed architectural drivetrain.
 - **Interpretive/application branches:** metaphysical comparison, symbolic comparison, Voynich procedural hypothesis.
 
 No category is promoted merely because another category is interesting or structurally similar.
 
-## 16. Working conclusion
+## 17. Working conclusion
 
 MKUFT is scientifically strongest when it uses neighbouring science to **increase its burden**, not to decorate itself with apparent confirmation.
 
 > Established science defines the baseline. Structural recurrence suggests a question. MKUFT must then name the extra variable or relation, predict the difference, survive the strongest alternative, and accept reduction if the difference does not appear.
 
-See [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md), [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md), [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md), [Module 32 Novelty Audit and Contribution Boundary](docs/32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md), [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), and [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
+See [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md), [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md), [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md), [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md), [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md), [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md), [Module 32 Novelty Audit and Contribution Boundary](docs/32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md), [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), and [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
