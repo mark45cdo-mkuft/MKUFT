@@ -168,6 +168,8 @@ Author: Mark Charles McLaughlin
 Concept DOI: 10.5281/zenodo.18178637
 ```
 
+The concept DOI is independently present in dated project correspondence from 3 February 2026, where the Voynich Systems/Engine Framework is described as a separate archived body of work alongside the MKUFT Zenodo publication. This establishes the DOI's presence in the historical provenance trail without importing any unstated licence or version metadata into the current repository.
+
 Current repository position:
 
 ```text
