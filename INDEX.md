@@ -23,6 +23,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 - [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 - [Scientific Tightening and Claim Discipline](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)
+- [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 
 ## Experiments, evidence, and falsification
 
@@ -46,6 +47,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
 - [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
 - [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
+- [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 
 ## Observer, boundary, and physical support
 
