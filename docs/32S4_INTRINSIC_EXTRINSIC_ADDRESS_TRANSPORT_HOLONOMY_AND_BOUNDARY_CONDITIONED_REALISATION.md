@@ -318,7 +318,7 @@ Ground-state/passivity results provide the controlling thermodynamic guard again
 
 ## 8. Holography as a transport/readout comparator
 
-Metasurface holography supplies another exact P-layer mirror.
+Metasurface holography supplies an exact P-layer mirror.
 
 A local phase/amplitude encoding
 
@@ -343,6 +343,41 @@ The useful MKUFT analogy is therefore narrower and stronger than `the whole is i
 > **a distributed relational encoding can remain physically present while the target gestalt is absent from direct local inspection and appears only under the correct transform/readout conditions.**
 
 The same encoded structure can produce a different readout when illumination, polarization, propagation distance, phase relation, aperture, or observation geometry changes.
+
+### 8.1 Matched relational phase as a literal P-layer comparator
+
+Qu et al. (2020) provide an especially useful controlled example because the phase specification required for one holographic image is explicitly separated into two physical matrices: one carried by the incident beam and one encoded in the metasurface.
+
+Their interaction can be written schematically as
+
+$$
+U_{\mathrm{out}}(x,y,z)
+=
+\mathcal H_z
+\left[
+U_{\mathrm{inc}}(x_0,y_0)
+U_{\mathrm{meta}}(x_0,y_0)
+\right],
+$$
+
+with the paper giving the corresponding diffraction integral through the system impulse response.
+
+The important comparator is not the encryption application. It is the relation:
+
+```text
+fixed encoded surface
++ matched external phase structure
++ propagation/readout
+→ intended holographic gestalt
+```
+
+Experimentally, the same metasurface illuminated with an incorrect uniform beam produced misleading rather than intended information, while the designed incident phase recovered the intended image. The same static metasurface could also produce different holographic images when the incident phase distribution was changed.
+
+For MKUFT this is a strong **P-layer example of joint relational realisation**: one encoded component does not uniquely determine the realised gestalt independently of the external phase/address condition. Neither physical matrix alone should be relabelled as an I layer, and the optical result does not establish a general holographic ontology.
+
+It does, however, motivate a discriminating question for any claimed context-indexed realisation:
+
+> **Can the same intrinsic encoding be held fixed while a separately controlled contextual relation switches the predicted higher-order realisation on, off, or into a different admissible class?**
 
 This supports a deformation programme; it does not establish that biological or cosmological systems are holograms.
 
@@ -421,9 +456,9 @@ Preserve the intrinsic relation class while changing one external relation at a 
 
 For a physical field system, preregister a boundary deformation and predict the corresponding mode, resonance, force or other observable shift using the accepted domain physics before testing any residual MKUFT term.
 
-### 10.6 Holographic transform test
+### 10.6 Holographic transform and matched-context test
 
-Where a holographic analogy is claimed physically, specify the encoding, illumination, propagation operator and readout plane. Deform each separately and compare the resulting reconstruction with a preregistered model. Visual resemblance alone does not pass.
+Where a holographic analogy is claimed physically, specify the encoding, illumination, propagation operator and readout plane. Hold the encoding fixed while deforming incident phase/context, then hold the incident context fixed while deforming encoding. Compare the resulting reconstruction with a preregistered model and with the matched-joint condition. Visual resemblance alone does not pass.
 
 ### 10.7 Energy-accounting gate
 
@@ -439,12 +474,12 @@ The broad ingredients are established prior art and are not claimed as MKUFT inv
 - boundary-value problems and boundary-conditioned spectra;
 - Casimir and fluctuation-induced forces;
 - dynamical Casimir photon generation under driven boundary modulation;
-- optical and metasurface holography;
+- optical and metasurface holography, including jointly encoded incident/surface phase schemes;
 - coarse-graining, multiple realisation and context-dependent physical response.
 
 The candidate MKUFT contribution is narrower:
 
-> **integrate intrinsic/extrinsic relational address separation, path-dependent transport, completion/realisation fibers, nested bracket compatibility, addressed I→P transition support, and boundary/holographic deformation controls into the Module 32 scale-and-identity audit without allowing latent relational specification to become physical occupancy or boundary-conditioned quantum effects to become an unaccounted energy source.**
+> **integrate intrinsic/extrinsic relational address separation, path-dependent transport, completion/realisation fibers, nested bracket compatibility, addressed I→P transition support, matched-context holographic deformation, and boundary/energy-accounting controls into the Module 32 scale-and-identity audit without allowing latent relational specification to become physical occupancy or boundary-conditioned quantum effects to become an unaccounted energy source.**
 
 Historical priority for this exact conjunction is not asserted without broader review. Module 32A owns the evolving novelty boundary.
 
@@ -452,12 +487,13 @@ Historical priority for this exact conjunction is not asserted without broader r
 
 - Simon, B. (1983). *Holonomy, the Quantum Adiabatic Theorem, and Berry's Phase*. Physical Review Letters 51, 2167. DOI `10.1103/PhysRevLett.51.2167`.
 - Berry, M. V. (1984). *Quantal phase factors accompanying adiabatic changes*. Proceedings of the Royal Society A 392, 45–57. DOI `10.1098/rspa.1984.0023`.
-- Huang, L., Chen, X., Mühlenbernd, H. et al. (2013). *Three-dimensional optical holography using a plasmonic metasurface*. Nature Communications 4, 2808. DOI `10.1038/ncomms3808`.
+- Jaffe, R. L. (2005). *Casimir effect and the quantum vacuum*. Physical Review D 72, 021301(R). DOI `10.1103/PhysRevD.72.021301`.
 - Chan, H. B. et al. (2008). *Measurement of the Casimir Force between a Gold Sphere and a Silicon Surface with Nanoscale Trench Arrays*. Physical Review Letters 101, 030401. DOI `10.1103/PhysRevLett.101.030401`.
 - Bao, Y. et al. (2010). *Casimir Force on a Surface with Shallow Nanoscale Corrugations: Geometry and Finite Conductivity Effects*. Physical Review Letters 105, 250402. DOI `10.1103/PhysRevLett.105.250402`.
 - Wilson, C. M. et al. (2011). *Observation of the dynamical Casimir effect in a superconducting circuit*. Nature 479, 376–379. DOI `10.1038/nature10561`.
-- Jaffe, R. L. (2005). *Casimir effect and the quantum vacuum*. Physical Review D 72, 021301(R). DOI `10.1103/PhysRevD.72.021301`.
+- Huang, L., Chen, X., Mühlenbernd, H. et al. (2013). *Three-dimensional optical holography using a plasmonic metasurface*. Nature Communications 4, 2808. DOI `10.1038/ncomms3808`.
 - Frey, M., Funo, K., and Hotta, M. (2014). *Strong local passivity in finite quantum systems*. Physical Review E 90, 012127. DOI `10.1103/PhysRevE.90.012127`.
+- Qu, G., Yang, W., Song, Q. et al. (2020). *Reprogrammable meta-hologram for optical encryption*. Nature Communications 11, 5484. DOI `10.1038/s41467-020-19312-9`.
 
 ## 13. Compressed rules
 
@@ -472,6 +508,8 @@ Historical priority for this exact conjunction is not asserted without broader r
 > **Boundary conditions can literally change physical mode structure; that is a P-layer fact, not automatic evidence for an independent I layer.**
 
 > **A holographic encoding and its reconstructed gestalt are different addressed objects connected by a physical transform.**
+
+> **A fixed encoding can require a matched external relation for a specific gestalt to realise; test the joint condition rather than either component alone.**
 
 > **Vacuum/boundary effects do not waive energy accounting.**
 
