@@ -1,0 +1,146 @@
+name: Temporary MKUFT Markdown rendering repair
+
+on:
+  push:
+    paths:
+      - '.github/workflows/_temp_repo_render_fix.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Normalize every Markdown file to GitHub-safe math
+        shell: python
+        run: |
+          from pathlib import Path
+          import re, unicodedata
+
+          paths = sorted(p for p in Path('.').rglob('*.md') if '.git' not in p.parts and '.github' not in p.parts)
+          changed=[]
+
+          for p in paths:
+              original=p.read_text(encoding='utf-8')
+              lines=original.splitlines()
+              out=[]
+              in_code=False
+              code_kind=None
+              legacy_display=False
+
+              for line in lines:
+                  stripped=line.strip()
+
+                  # Existing fenced blocks: preserve them. Math-fence bodies still get macro compatibility repair.
+                  if stripped.startswith('```'):
+                      if not in_code:
+                          in_code=True
+                          code_kind=stripped[3:].strip().lower()
+                      else:
+                          in_code=False
+                          code_kind=None
+                      out.append(line)
+                      continue
+
+                  if in_code:
+                      if code_kind == 'math':
+                          line=re.sub(r'\\operatorname\{([^{}]+)\}', r'\\mathrm{\1}', line)
+                      out.append(line)
+                      continue
+
+                  # Replace unsupported macro everywhere outside ordinary code fences.
+                  line=re.sub(r'\\operatorname\{([^{}]+)\}', r'\\mathrm{\1}', line)
+                  stripped=line.strip()
+
+                  # GitHub-safe display math. Both old $$ and LaTeX \[...\] forms become fenced math.
+                  if stripped in ('$$', r'\['):
+                      if legacy_display:
+                          raise RuntimeError(f'nested display opener in {p}: {stripped}')
+                      out.append('```math')
+                      legacy_display=True
+                      continue
+                  if stripped == r'\]':
+                      if not legacy_display:
+                          raise RuntimeError(f'orphan \\] in {p}')
+                      out.append('```')
+                      legacy_display=False
+                      continue
+                  if stripped == '$$' and legacy_display:
+                      # unreachable because opener branch above; retained for clarity
+                      pass
+
+                  # Close a $$ block using the same delimiter when currently open.
+                  if legacy_display and stripped == '$$':
+                      out.append('```')
+                      legacy_display=False
+                      continue
+
+                  # Same-line legacy display delimiters, if any.
+                  if stripped.startswith(r'\[') and stripped.endswith(r'\]') and len(stripped) >= 4:
+                      body=stripped[2:-2].strip()
+                      out.extend(['```math', body, '```'])
+                      continue
+                  if stripped.startswith('$$') and stripped.endswith('$$') and len(stripped) > 4:
+                      body=stripped[2:-2].strip()
+                      out.extend(['```math', body, '```'])
+                      continue
+
+                  # Inline LaTeX delimiters are not GitHub Markdown math delimiters.
+                  if not legacy_display:
+                      line=line.replace(r'\(', '$').replace(r'\)', '$')
+
+                  out.append(line)
+
+              if legacy_display:
+                  raise RuntimeError(f'unclosed display math block in {p}')
+
+              revised='\n'.join(out)+'\n'
+              if revised != original:
+                  p.write_text(revised, encoding='utf-8')
+                  changed.append(str(p))
+
+          print('CHANGED_FILES', len(changed))
+          for p in changed: print(p)
+
+          # Whole-repo post-repair validation.
+          problems=[]
+          for p in paths:
+              text=p.read_text(encoding='utf-8')
+              if '\ufffd' in text: problems.append(f'{p}: replacement character')
+              if any(unicodedata.category(c)=='Cc' and c not in '\n\r\t' for c in text): problems.append(f'{p}: hidden control')
+              if r'\operatorname' in text: problems.append(f'{p}: operatorname remains')
+
+              in_fence=False; kind=None
+              for n,line in enumerate(text.splitlines(),1):
+                  s=line.strip()
+                  if s.startswith('```'):
+                      if not in_fence:
+                          in_fence=True; kind=s[3:].strip().lower()
+                      else:
+                          in_fence=False; kind=None
+                      continue
+                  if in_fence: continue
+                  if s in ('$$', r'\[', r'\]'):
+                      problems.append(f'{p}:{n}: legacy display delimiter remains')
+                  if r'\(' in s or r'\)' in s:
+                      problems.append(f'{p}:{n}: legacy inline delimiter remains')
+
+          if problems:
+              print('\n'.join(problems))
+              raise RuntimeError(f'post-repair audit found {len(problems)} problems')
+      - name: Commit repo-wide rendering repair
+        run: |
+          if git diff --quiet; then
+            echo 'No changes required.'
+            exit 0
+          fi
+          git config user.name 'mark45cdo-mkuft'
+          git config user.email 'mark45cdo@gmail.com'
+          git add '*.md' docs papers publications || true
+          git add -u
+          git commit -m 'Repair GitHub math rendering across MKUFT canon'
+          git push origin HEAD:main
