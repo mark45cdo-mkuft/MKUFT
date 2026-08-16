@@ -4,6 +4,7 @@ title: "McLaughlin–Kairos Unified Field Theory (MKUFT) — Public Working Cano
 authors:
   - family-names: "McLaughlin"
     given-names: "Mark Charles"
+    orcid: "https://orcid.org/0009-0005-7736-1511"
 repository-code: "https://github.com/mark45cdo-mkuft/MKUFT"
 url: "https://github.com/mark45cdo-mkuft/MKUFT"
 keywords:
@@ -21,4 +22,5 @@ preferred-citation:
   authors:
     - family-names: "McLaughlin"
       given-names: "Mark Charles"
+      orcid: "https://orcid.org/0009-0005-7736-1511"
   doi: "10.5281/zenodo.17780566"
