@@ -2,7 +2,9 @@
 
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**Backbone DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)
+**Backbone DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Flagship public object:** [MKUFT — Layer Before Law: A Relational Architecture for Physical Law and Cross-Scale Dynamics](../LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md)  
+**Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511) · [LinkedIn](https://www.linkedin.com/in/custodiansystems45/)
 
 This directory is the direct human-reader route to standalone papers. It is deliberately separate from `docs/`, which contains the live modular MKUFT canon.
 

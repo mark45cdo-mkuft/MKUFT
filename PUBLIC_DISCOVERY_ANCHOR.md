@@ -4,7 +4,10 @@
 **Author:** Mark Charles McLaughlin  
 **Canonical frozen title:** *Unified Field Theory. McLaughlin–Kairos. MKUFT*  
 **Repository:** `mark45cdo-mkuft/MKUFT`  
-**Backbone DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)
+**Backbone DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Flagship public object:** [MKUFT — Layer Before Law: A Relational Architecture for Physical Law and Cross-Scale Dynamics](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md)  
+**Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511) · [LinkedIn](https://www.linkedin.com/in/custodiansystems45/) · [GitHub](https://github.com/mark45cdo-mkuft)  
+**Professional practice:** [Custodian Systems Ltd](https://mark45cdo-mkuft.github.io/Custodian-Systems/)
 
 This page provides a compact identity record for public search, citation, and discovery systems. Standalone papers keep their own DOI and publication identities; they are not collapsed into the MKUFT backbone record.
 
