@@ -21,16 +21,21 @@ jobs:
           from pathlib import Path
           import unicodedata
 
-          def replace_operatorname(text, path):
-              marker = r'\operatorname{'
+          def replace_operatornames(text, path):
+              markers = (r'\operatorname*{', r'\operatorname{')
               out=[]
               i=0
               replaced=0
-              while True:
-                  j=text.find(marker, i)
-                  if j < 0:
+              while i < len(text):
+                  found=[]
+                  for marker in markers:
+                      j=text.find(marker, i)
+                      if j >= 0:
+                          found.append((j, marker))
+                  if not found:
                       out.append(text[i:])
                       break
+                  j, marker=min(found, key=lambda x:x[0])
                   out.append(text[i:j])
                   start=j+len(marker)
                   k=start
@@ -55,7 +60,7 @@ jobs:
 
           for p in paths:
               original=p.read_text(encoding='utf-8')
-              source, count = replace_operatorname(original, p)
+              source, count = replace_operatornames(original, p)
               operator_replacements += count
               lines=source.splitlines()
               out=[]
