@@ -181,15 +181,15 @@ The complete architectural update is
 ```math
 \boxed{
 \begin{aligned}
-\operatorname{Update}_{\mathrm{SIPO},\Delta}(\mathcal U_t)
+\mathrm{Update}_{\mathrm{SIPO},\Delta}(\mathcal U_t)
 &=
-\operatorname{Readdress}_{t+\Delta}
+\mathrm{Readdress}_{t+\Delta}
 \Bigl[
 \mathcal U_t,\\[2pt]
 &\quad
-\operatorname{Instrument}_{P\rightarrow(P,O)}
+\mathrm{Instrument}_{P\rightarrow(P,O)}
 \Bigl(
-\operatorname{Propagate}_{P,\Delta}^{\,\mathfrak L_{P,t}}(P_t)
+\mathrm{Propagate}_{P,\Delta}^{\,\mathfrak L_{P,t}}(P_t)
 \Bigr)
 \Bigr],\\[2pt]
 \mathfrak L_{P,t}
@@ -205,13 +205,13 @@ with the readable composition
 
 ```math
 \boxed{
-\operatorname{Update}_{\mathrm{SIPO}}
+\mathrm{Update}_{\mathrm{SIPO}}
 =
-\operatorname{Readdress}
+\mathrm{Readdress}
 \circ
-\operatorname{Instrument}_{P\rightarrow(P,O)}
+\mathrm{Instrument}_{P\rightarrow(P,O)}
 \circ
-\operatorname{Propagate}_{P}^{\,\mathfrak L_P},
+\mathrm{Propagate}_{P}^{\,\mathfrak L_P},
 \qquad
 \mathfrak L_P=\mathfrak C_P\circ\mathcal Q
 }
@@ -223,7 +223,7 @@ The measurement/registration instrument is typed as
 
 ```math
 \boxed{
-\operatorname{Instrument}_{P\rightarrow(P,O)}:
+\mathrm{Instrument}_{P\rightarrow(P,O)}:
 P^-_{t+\Delta}
 \longmapsto
 \left(P_{t+\Delta},O_{t+\Delta}\right)
@@ -364,7 +364,7 @@ meaning that the simple higher-address law for $q$ has failed while the organise
 For a target closure set $\mathcal C_R$, allowed intervention class $U$, environment class $E$, admissible domain $\mathcal D$ and horizon $H$, write
 
 ```math
-\operatorname{Rec}_H(x_t;\mathcal C_R,U,E)=1
+\mathrm{Rec}_H(x_t;\mathcal C_R,U,E)=1
 ```
 
 only when an admissible route exists that reaches the declared target class within the stated horizon. Recovery is therefore a reachability claim, not an assumption that degradation must reverse or that the return path is the time-reverse of the outward path.
@@ -502,7 +502,7 @@ Let $\Pi_{P,O}$ extract the relevant physical and registered output. For quantum
 \boxed{
 \Pi_{P,O}
 \!\left[
-\operatorname{Update}_{\mathrm{SIPO}}(\mathcal U;\mathcal R_Q)
+\mathrm{Update}_{\mathrm{SIPO}}(\mathcal U;\mathcal R_Q)
 \right]
 \approx
 \mathcal Q_{\mathrm{eff}}
@@ -515,7 +515,7 @@ and
 \boxed{
 \Pi_{P,O}
 \!\left[
-\operatorname{Update}_{\mathrm{SIPO}}(\mathcal U;\mathcal R_G)
+\mathrm{Update}_{\mathrm{SIPO}}(\mathcal U;\mathcal R_G)
 \right]
 \approx
 \mathcal G_{\mathrm{eff}}
@@ -653,7 +653,7 @@ The architecture is now sufficiently explicit that the next work should be branc
 2. Name the target property $q$ and the intervention class for which higher-address sufficiency is claimed.
 3. Test representative consistency or its stochastic/approximate analogue at a preregistered tolerance.
 4. Track loss of law sufficiency $M_D(q)$ separately from constitutive closure $M_C$.
-5. Define a target recovery set and test $\operatorname{Rec}_H$ rather than inferring reversibility from appearance.
+5. Define a target recovery set and test $\mathrm{Rec}_H$ rather than inferring reversibility from appearance.
 6. Test bounded state/history augmentation before declaring irreducible hysteresis.
 7. Readdress downward, upward or multiscale when the demonstrated sufficiency changes.
 
