@@ -1,4 +1,4 @@
-name: Markdown rendering integrity
+name: Publication and Markdown integrity
 
 on:
   push:
@@ -6,20 +6,24 @@ on:
     paths:
       - '**/*.md'
       - 'tools/check_markdown_rendering.py'
+      - 'tools/check_publication_routes.py'
       - '.github/workflows/markdown-rendering-integrity.yml'
   pull_request:
     paths:
       - '**/*.md'
       - 'tools/check_markdown_rendering.py'
+      - 'tools/check_publication_routes.py'
       - '.github/workflows/markdown-rendering-integrity.yml'
 
 permissions:
   contents: read
 
 jobs:
-  render-contract:
+  integrity-contract:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Check user-facing Markdown rendering contract
         run: python tools/check_markdown_rendering.py
+      - name: Check publication discovery and DOI custody
+        run: python tools/check_publication_routes.py
