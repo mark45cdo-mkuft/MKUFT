@@ -26,35 +26,24 @@ jobs:
 
           for p in paths:
               original=p.read_text(encoding='utf-8')
-              lines=original.splitlines()
+              # Compatibility repair applies to every Markdown context, including examples.
+              source=re.sub(r'\\operatorname\{([^{}]+)\}', r'\\mathrm{\1}', original)
+              lines=source.splitlines()
               out=[]
               in_code=False
-              code_kind=None
               display_delim=None
 
               for line in lines:
                   stripped=line.strip()
 
-                  # Existing fenced blocks: preserve them. Math-fence bodies still get macro compatibility repair.
+                  # Preserve existing fenced blocks verbatim apart from the global macro repair above.
                   if stripped.startswith('```') and display_delim is None:
-                      if not in_code:
-                          in_code=True
-                          code_kind=stripped[3:].strip().lower()
-                      else:
-                          in_code=False
-                          code_kind=None
+                      in_code=not in_code
                       out.append(line)
                       continue
-
                   if in_code:
-                      if code_kind == 'math':
-                          line=re.sub(r'\\operatorname\{([^{}]+)\}', r'\\mathrm{\1}', line)
                       out.append(line)
                       continue
-
-                  # Replace unsupported macro everywhere outside ordinary code fences.
-                  line=re.sub(r'\\operatorname\{([^{}]+)\}', r'\\mathrm{\1}', line)
-                  stripped=line.strip()
 
                   # If inside a legacy display block, close only with its matching delimiter.
                   if display_delim is not None:
