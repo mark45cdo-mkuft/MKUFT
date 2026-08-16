@@ -25,11 +25,11 @@ The paper develops this architecture, adds a property-relative law-ownership gat
 
 A common schematic target for quantum gravity is
 
-$$
+```math
 \text{quantum theory}+\text{general relativity}
 \longrightarrow
 \text{deeper unified theory}.
-$$
+```
 
 That target is natural if the quantum and gravitational descriptions being combined are already expressed at the correct foundational level. *Layer Before Law* asks a prior question:
 
@@ -77,9 +77,9 @@ MKUFT uses four active layer addresses:
 
 These are **typed addresses**, not four ordinary spatial dimensions. Their recursive traversal is written
 
-$$
+```math
 S \longrightarrow I \longrightarrow P \longrightarrow O \longrightarrow S.
-$$
+```
 
 The final return does not require that an observation rewrites an ambient universal substrate. Operationally, a realised physical/registered outcome changes the state, history, context and relations from which the next **effective possibility object** is computed.
 
@@ -89,7 +89,7 @@ The arrows are dependencies, not distances in a hidden geometry.
 
 Let the effective addressed state at time $t$ be
 
-$$
+```math
 \boxed{
 \mathcal U_t
 =
@@ -102,7 +102,7 @@ b_t,
 H_t
 \right)
 }
-$$
+```
 
 where
 
@@ -121,19 +121,19 @@ This is not a claim that all components live in one Euclidean vector space. It i
 
 The first formal step is a typed compatibility or admissibility map
 
-$$
+```math
 \boxed{
 \Xi_t
 =
 \mathcal Q_t\!\left(\mathcal U_t,E_t\right)
 }
-$$
+```
 
 where $\Xi_t$ may contain support restrictions, boundary data, relation scopes, path/history constraints, symmetry requirements, compatibility classes, or other typed admissibility information. It need not be a scalar.
 
 The active physical-law object is then
 
-$$
+```math
 \boxed{
 \mathfrak L_{P,t}
 =
@@ -143,7 +143,7 @@ $$
 \mathcal W_{P,t}
 \right)
 }
-$$
+```
 
 with
 
@@ -153,22 +153,22 @@ with
 
 A typed law assembler gives
 
-$$
+```math
 \boxed{
 \mathfrak C_P:
 \left(\Xi_t,P_t,E_t\right)
 \longmapsto
 \mathfrak L_{P,t}
 }
-$$
+```
 
 and the minimal *Layer Before Law* specialisation is domain conditioning,
 
-$$
+```math
 \boxed{
 \mathcal D_{P,t}=\mathfrak D_P\!\left(\Xi_t\right)
 }
-$$
+```
 
 with the standard transition and weighting structure realised on that domain.
 
@@ -178,7 +178,7 @@ This minimal form is deliberately conservative. The general architecture permits
 
 The complete architectural update is
 
-$$
+```math
 \boxed{
 \begin{aligned}
 \operatorname{Update}_{\mathrm{SIPO},\Delta}(\mathcal U_t)
@@ -199,11 +199,11 @@ $$
 \right).
 \end{aligned}
 }
-$$
+```
 
 with the readable composition
 
-$$
+```math
 \boxed{
 \operatorname{Update}_{\mathrm{SIPO}}
 =
@@ -215,20 +215,20 @@ $$
 \qquad
 \mathfrak L_P=\mathfrak C_P\circ\mathcal Q
 }
-$$
+```
 
 subject to the typed state/context arguments shown above.
 
 The measurement/registration instrument is typed as
 
-$$
+```math
 \boxed{
 \operatorname{Instrument}_{P\rightarrow(P,O)}:
 P^-_{t+\Delta}
 \longmapsto
 \left(P_{t+\Delta},O_{t+\Delta}\right)
 }
-$$
+```
 
 so physical measurement back-action remains in $P$, while $O$ carries the resulting record or registration where that distinction is useful.
 
@@ -256,7 +256,7 @@ The staging is logical, not a claim that nature literally waits between discrete
 
 For an object $X$ in observational context $C$, define
 
-$$
+```math
 \boxed{
 \mathcal A_X^{(C)}
 =
@@ -267,25 +267,25 @@ I_X,
 O_C[X]
 \right)
 }
-$$
+```
 
 where $\mathcal P_X$ denotes the complete physical address rather than a single spatial coordinate.
 
 Two systems remain physically distinguishable when
 
-$$
+```math
 \mathcal P_X\neq\mathcal P_Y.
-$$
+```
 
 The central layered-address principle is
 
-$$
+```math
 \boxed{
 \mathcal P_X\neq\mathcal P_Y
 \quad\not\Rightarrow\quad
 I_X\ \text{and}\ I_Y\ \text{are completely separable}
 }
-$$
+```
 
 or, in plain language:
 
@@ -293,9 +293,9 @@ or, in plain language:
 
 Within the broader MKUFT metaphysical hypothesis, a proposed substrate root may be written
 
-$$
+```math
 r_S(S_X)=S_0,
-$$
+```
 
 but this is not used as a derived physical equation and does no empirical work in the entanglement argument unless a measurable consequence is independently specified.
 
@@ -305,13 +305,13 @@ The later MKUFT law-descent work sharpens the phrase *Layer Before Law* into a s
 
 Let
 
-$$
+```math
 \pi_R:X\rightarrow Y
-$$
+```
 
 map lower-address states into a candidate higher relational address, and let $q:Y\rightarrow Q$ be the declared property of interest. For lower dynamics $F_X(x,u,e)$, property-relative law descent requires, to a declared tolerance,
 
-$$
+```math
 \boxed{
 \pi_R(x)=\pi_R(x')
 \;\Longrightarrow\;
@@ -319,13 +319,13 @@ q\!\left(\pi_R(F_X(x,u,e))\right)
 \approx
 q\!\left(\pi_R(F_X(x',u,e))\right)
 }
-$$
+```
 
 for the declared preparation, intervention class, environment, timescale and resolution. If the condition fails materially, the higher address may still describe a genuine organised whole, but it has not earned autonomous law ownership for $q$. The model must then retain the lower variables or move to a coupled multiscale address.
 
 The lawful address motion is therefore bidirectional:
 
-$$
+```math
 \boxed{
 \text{lower address}
 \rightleftarrows
@@ -333,7 +333,7 @@ $$
 \rightleftarrows
 \text{coupled multiscale address}
 }
-$$
+```
 
 Lower-level physical laws are never erased by promotion. Promotion changes the address at which a declared downstream property is sufficiently represented; it does not delete the physical substrate that realises it.
 
@@ -351,35 +351,35 @@ The current canon also separates three boundaries that the earlier Layer-Before-
 
 Let $M_D(q)$ denote a margin to loss of higher-address law sufficiency and $M_C$ a margin to loss of constitutive closure. No universal ordering is assumed. A regime can therefore satisfy
 
-$$
+```math
 \boxed{
 M_D(q)<0,
 \qquad
 M_C>0
 }
-$$
+```
 
 meaning that the simple higher-address law for $q$ has failed while the organised whole remains intact.
 
 For a target closure set $\mathcal C_R$, allowed intervention class $U$, environment class $E$, admissible domain $\mathcal D$ and horizon $H$, write
 
-$$
+```math
 \operatorname{Rec}_H(x_t;\mathcal C_R,U,E)=1
-$$
+```
 
 only when an admissible route exists that reaches the declared target class within the stated horizon. Recovery is therefore a reachability claim, not an assumption that degradation must reverse or that the return path is the time-reverse of the outward path.
 
 Where transition and return thresholds differ,
 
-$$
+```math
 \lambda_{\uparrow}\neq\lambda_{\downarrow},
-$$
+```
 
 there is a candidate hysteresis signature. But apparent history dependence must first survive a missing-state test. If a bounded augmented state
 
-$$
+```math
 Y_t^{+}=\left(Y_t,H_t^{(k)}\right)
-$$
+```
 
 restores predictive closure, that history variable belongs in the address rather than being promoted as irreducible memory.
 
@@ -391,7 +391,7 @@ The historical EPR problem [1] and Bell's theorem [2] make entanglement an unusu
 
 For physically distinguishable systems $X$ and $Y$, write the candidate pair-level relational structure as
 
-$$
+```math
 I_{XY}
 =
 \left(
@@ -399,27 +399,27 @@ I_{XY}
 \widetilde I_Y,
 R_{XY}
 \right)
-$$
+```
 
 while maintaining
 
-$$
+```math
 \mathcal P_X\neq\mathcal P_Y.
-$$
+```
 
 The proposal is therefore not physical co-location. It is the possibility of a pair-level relation $R_{XY}$ that is not reducible to either endpoint alone.
 
 Let $x,y$ be local measurement settings and $a,b$ the corresponding outcomes. Then
 
-$$
+```math
 p(a,b\mid x,y,R_{XY})
-$$
+```
 
 denotes the joint outcome distribution.
 
 A locally separable hidden-variable representation has the form [2,3]
 
-$$
+```math
 \boxed{
  p(a,b\mid x,y)
 =
@@ -428,7 +428,7 @@ $$
  p(a\mid x,\lambda)
  p(b\mid y,\lambda)
 }
-$$
+```
 
 and a viable Layer-Before-Law instantiation must **not** reduce $R_{XY}$ to such an ordinary local instruction if it is intended to account for Bell-nonlocal correlations.
 
@@ -436,27 +436,27 @@ and a viable Layer-Before-Law instantiation must **not** reduce $R_{XY}$ to such
 
 For binary outcomes $a,b\in\{-1,+1\}$, define
 
-$$
+```math
 E(x,y)
 =
 \sum_{a,b}ab\,p(a,b\mid x,y)
-$$
+```
 
 and the CHSH combination [3]
 
-$$
+```math
 \boxed{
 \mathcal S
 =
 E(0,0)+E(0,1)+E(1,0)-E(1,1)
 }
-$$
+```
 
 with local-hidden-variable bound
 
-$$
+```math
 |\mathcal S|\le 2.
-$$
+```
 
 Loophole-free experiments have observed violations of the local-realist bound [4]. Therefore an MKUFT branch that merely reconstructs a locally separable instruction set is excluded.
 
@@ -464,23 +464,23 @@ Loophole-free experiments have observed violations of the local-realist bound [4
 
 Bell nonlocality is not a licence for controllable superluminal communication. A valid physical instantiation must preserve no-signalling [5]. The local marginal at $Y$ must be independent of the distant setting $x$:
 
-$$
+```math
 \boxed{
 \sum_a p(a,b\mid x,y,R_{XY})
 =
 p_Y(b\mid y,R_{XY})
 }
-$$
+```
 
 and similarly
 
-$$
+```math
 \boxed{
 \sum_b p(a,b\mid x,y,R_{XY})
 =
 p_X(a\mid x,R_{XY})
 }
-$$
+```
 
 for all admissible distant settings.
 
@@ -498,7 +498,7 @@ The architecture earns physical standing only by recovering established effectiv
 
 Let $\Pi_{P,O}$ extract the relevant physical and registered output. For quantum-regime conditions $\mathcal R_Q$ and gravitational-regime conditions $\mathcal R_G$,
 
-$$
+```math
 \boxed{
 \Pi_{P,O}
 \!\left[
@@ -507,11 +507,11 @@ $$
 \approx
 \mathcal Q_{\mathrm{eff}}
 }
-$$
+```
 
 and
 
-$$
+```math
 \boxed{
 \Pi_{P,O}
 \!\left[
@@ -520,7 +520,7 @@ $$
 \approx
 \mathcal G_{\mathrm{eff}}
 }
-$$
+```
 
 where every approximation requires a declared comparison object, statistic or norm, tolerance, uncertainty model and physical regime.
 
@@ -536,14 +536,14 @@ A gravitational instantiation must identify the admissible initial/boundary-data
 
 In an appropriate low-energy classical regime, the target includes recovery of Einstein dynamics,
 
-$$
+```math
 \boxed{
 G_{\mu\nu}[g]
 +\Lambda g_{\mu\nu}
 =
 8\pi G\,T_{\mu\nu}
 }
-$$
+```
 
 or an experimentally equivalent formulation, together with the associated consistency and conservation structure.
 
@@ -663,7 +663,7 @@ Quantum theory and general relativity do not need to be diminished for their fou
 
 The resulting research architecture is
 
-$$
+```math
 \boxed{
 \text{address}
 \longrightarrow
@@ -677,7 +677,7 @@ $$
 \longrightarrow
 \text{readdressing}
 }
-$$
+```
 
 The architecture is now more than the unnamed update arrow of the earliest Layer-Before-Law draft. It has a typed state, a compatibility descriptor, an explicit physical-law object, a propagation/instrument chain, physical-only nulls, concrete recovery obligations, and an evidence-triggered rule for **which address may own the active law for a declared property**. It also keeps loss of law sufficiency, loss of constitutive closure and loss of recoverability as distinct boundaries rather than collapsing them into one vague notion of failure.
 
