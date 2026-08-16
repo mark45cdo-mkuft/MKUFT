@@ -1,0 +1,25 @@
+name: Markdown rendering integrity
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.md'
+      - 'tools/check_markdown_rendering.py'
+      - '.github/workflows/markdown-rendering-integrity.yml'
+  pull_request:
+    paths:
+      - '**/*.md'
+      - 'tools/check_markdown_rendering.py'
+      - '.github/workflows/markdown-rendering-integrity.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  render-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check user-facing Markdown rendering contract
+        run: python tools/check_markdown_rendering.py
