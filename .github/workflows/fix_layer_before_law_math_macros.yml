@@ -1,0 +1,56 @@
+name: Fix Layer Before Law math macros
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix_layer_before_law_math_macros.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix-math-macros:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Replace unsupported operatorname macros and audit math source
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          targets = [
+              Path('papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md'),
+              Path('docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md'),
+          ]
+
+          for path in targets:
+              text = path.read_text(encoding='utf-8')
+              before = text
+              text, count = re.subn(r'\\operatorname\{([^{}]+)\}', r'\\mathrm{\1}', text)
+              if '\\operatorname' in text:
+                  raise RuntimeError(f'Unsupported operatorname remains in {path}')
+              if count == 0:
+                  raise RuntimeError(f'No operatorname macros found in {path}; expected current canonical source to contain them')
+
+              # Keep GitHub-safe fenced block math already established.
+              if '\n$$\n' in text:
+                  raise RuntimeError(f'Legacy standalone $$ delimiter remains in {path}')
+
+              path.write_text(text, encoding='utf-8')
+              print(f'{path}: replaced {count} operatorname macros')
+
+      - name: Commit compatibility correction
+        run: |
+          if git diff --quiet; then
+            echo 'No changes required.'
+            exit 0
+          fi
+          git config user.name 'mark45cdo-mkuft'
+          git config user.email 'mark45cdo@gmail.com'
+          git add papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md
+          git commit -m 'Fix Layer Before Law unsupported GitHub math macros'
+          git push origin HEAD:main
