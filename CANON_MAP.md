@@ -5,7 +5,7 @@
 **MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-This map gives the current public hierarchy of MKUFT. It is navigation, not evidence. Dedicated modules own their full definitions, equations, experimental burdens, and falsifiers.
+This map gives the current public hierarchy of MKUFT. It is navigation, not evidence. Dedicated modules own their full definitions, equations, experimental burdens, references, and falsifiers.
 
 ## Reader routes
 
@@ -26,8 +26,9 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 13. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 14. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
 15. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
-16. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-17. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+16. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
+17. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+18. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 ### Physics and quantum gravity
 
@@ -41,13 +42,14 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 8. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 9. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
 10. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
-11. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
-12. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
-13. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
-14. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
-15. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-16. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
-17. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+11. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
+12. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
+13. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
+14. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
+15. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
+16. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+17. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+18. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 
 ### LUCY and effective geometry
 
@@ -104,6 +106,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S1 — Dynamic Interface Promotion:** specifies when a trackable interface that changes the next admissibility/law object and is itself changed by realised dynamics must re-enter the addressed state; it adds a scale-role transition from lower-scale boundary to higher-scale internal relation only after existing promotion tests pass.
 - **33S2 — Relational Closure and Law Descent:** separates historical lineage, functional organisation, closure, and property-specific dynamical sufficiency; names strong, approximate, ensemble, history-augmented, and coupled-multiscale descent classes; and requires bidirectional readdressing when higher-address sufficiency changes.
 - **33S3 — Cross-Scale Performance and Recoverability:** separates lower-address performance from enclosing-scale closure/law-descent margins, rejects inevitable-collapse inference from local gain, defines recovery as target-relative reachability under declared controls, and requires apparent hysteresis to survive state-augmentation tests.
+- **33A — Law Descent and Recoverability Novelty Audit:** hostile targeted prior-art audit for 33S2/33S3. It records inherited ingredients, residual synthesis, confidence bounds, and the prospective burden required for stronger novelty or law claims. It is a positioning/audit document, not an empirical promotion.
 
 ### Structural and traversal
 
@@ -163,6 +166,7 @@ This prevents explanatory copies from developing competing equations, notation, 
 - [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+- [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 - [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md)
 - [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md)
