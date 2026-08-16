@@ -34,6 +34,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 33S1 — Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) — refines the closed capstone with a controlled gate for promoting a load-bearing interface from bundled context to an explicit recursively updated state variable, with scale-role transition and P-only/energy-accounting guards.
 - [Module 33S2 — Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) — separates lineage, functional identity, closure, and property-specific whole-level law sufficiency; classifies strong, ensemble, history-augmented, and multiscale descent; and requires upward/downward readdressing when sufficiency changes.
 - [Module 33S3 — Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) — separates local performance from enclosing-scale closure, defines recovery as conditional target-relative reachability, rejects inevitable-collapse inference from local gain, and requires state-augmentation tests before irreducible history dependence is claimed.
+- [Module 33A — Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) — hostile prior-art subtraction for 33S2/33S3; records the residual contribution, novelty confidence, and promotion burden without asserting global priority or an established new law of nature.
 
 ## Experiments, evidence, and falsification
 
@@ -43,6 +44,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Worked Examples: RNG and Environment](docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+- [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
 
 ## Structural and traversal work
 
