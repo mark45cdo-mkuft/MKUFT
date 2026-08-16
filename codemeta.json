@@ -7,17 +7,23 @@
     "McLaughlin-Kairos Unified Field Theory",
     "McLaughlin–Kairos Unified Field Theory"
   ],
-  "description": "The evolving public working canon of the McLaughlin–Kairos Unified Field Theory by Mark Charles McLaughlin. Frozen publications retain separate DOI, version, citation and licence identities as recorded in the repository provenance and rights documents. The current canon includes addressed law assembly, property-specific law descent, recoverability, and hostile novelty-audit modules whose exact revisions are identified by Git history.",
+  "description": "The evolving public working canon of the McLaughlin–Kairos Unified Field Theory by Mark Charles McLaughlin. Frozen publications retain separate DOI, version, citation and licence identities as recorded in the repository provenance and rights documents. The current canon includes addressed law assembly, property-specific law descent, recoverability, and hostile novelty-audit modules. Standalone research outputs are indexed separately from live modules so publication identity is not transferred by convenience or repository location.",
   "identifier": "https://github.com/mark45cdo-mkuft/MKUFT",
   "url": "https://github.com/mark45cdo-mkuft/MKUFT",
   "citation": [
     "https://doi.org/10.5281/zenodo.17780566",
+    "https://doi.org/10.5281/zenodo.18178638",
     "https://doi.org/10.5281/zenodo.21341521"
+  ],
+  "subjectOf": [
+    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/README.md",
+    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/PUBLIC_DISCOVERY_ANCHOR.md"
   ],
   "author": {
     "@type": "Person",
     "givenName": "Mark Charles",
-    "familyName": "McLaughlin"
+    "familyName": "McLaughlin",
+    "identifier": "https://orcid.org/0009-0005-7736-1511"
   },
   "copyrightHolder": {
     "@type": "Person",
@@ -33,8 +39,11 @@
     "address before law ownership",
     "property-specific law descent",
     "recoverability",
+    "recursive constraint closure",
+    "reachable-state geometry",
     "LUCY",
     "ATLD",
+    "Voynich Manuscript – Systems/Engine Framework",
     "Voynich procedural engine"
   ]
 }
