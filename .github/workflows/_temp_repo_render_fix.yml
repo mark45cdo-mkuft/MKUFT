@@ -30,13 +30,13 @@ jobs:
               out=[]
               in_code=False
               code_kind=None
-              legacy_display=False
+              display_delim=None
 
               for line in lines:
                   stripped=line.strip()
 
                   # Existing fenced blocks: preserve them. Math-fence bodies still get macro compatibility repair.
-                  if stripped.startswith('```'):
+                  if stripped.startswith('```') and display_delim is None:
                       if not in_code:
                           in_code=True
                           code_kind=stripped[3:].strip().lower()
@@ -56,31 +56,18 @@ jobs:
                   line=re.sub(r'\\operatorname\{([^{}]+)\}', r'\\mathrm{\1}', line)
                   stripped=line.strip()
 
-                  # GitHub-safe display math. Both old $$ and LaTeX \[...\] forms become fenced math.
-                  if stripped in ('$$', r'\['):
-                      if legacy_display:
-                          raise RuntimeError(f'nested display opener in {p}: {stripped}')
-                      out.append('```math')
-                      legacy_display=True
-                      continue
-                  if stripped == r'\]':
-                      if not legacy_display:
-                          raise RuntimeError(f'orphan \\] in {p}')
-                      out.append('```')
-                      legacy_display=False
-                      continue
-                  if stripped == '$$' and legacy_display:
-                      # unreachable because opener branch above; retained for clarity
-                      pass
-
-                  # Close a $$ block using the same delimiter when currently open.
-                  if legacy_display and stripped == '$$':
-                      out.append('```')
-                      legacy_display=False
+                  # If inside a legacy display block, close only with its matching delimiter.
+                  if display_delim is not None:
+                      closing = (display_delim == '$$' and stripped == '$$') or (display_delim == r'\[' and stripped == r'\]')
+                      if closing:
+                          out.append('```')
+                          display_delim=None
+                      else:
+                          out.append(line)
                       continue
 
-                  # Same-line legacy display delimiters, if any.
-                  if stripped.startswith(r'\[') and stripped.endswith(r'\]') and len(stripped) >= 4:
+                  # Same-line legacy display delimiters.
+                  if stripped.startswith(r'\[') and stripped.endswith(r'\]') and len(stripped) > 4:
                       body=stripped[2:-2].strip()
                       out.extend(['```math', body, '```'])
                       continue
@@ -89,14 +76,24 @@ jobs:
                       out.extend(['```math', body, '```'])
                       continue
 
-                  # Inline LaTeX delimiters are not GitHub Markdown math delimiters.
-                  if not legacy_display:
-                      line=line.replace(r'\(', '$').replace(r'\)', '$')
+                  # Open legacy display blocks.
+                  if stripped == '$$':
+                      out.append('```math')
+                      display_delim='$$'
+                      continue
+                  if stripped == r'\[':
+                      out.append('```math')
+                      display_delim=r'\['
+                      continue
+                  if stripped == r'\]':
+                      raise RuntimeError(f'orphan \\] in {p}')
 
+                  # Inline LaTeX delimiters are not GitHub Markdown math delimiters.
+                  line=line.replace(r'\(', '$').replace(r'\)', '$')
                   out.append(line)
 
-              if legacy_display:
-                  raise RuntimeError(f'unclosed display math block in {p}')
+              if display_delim is not None:
+                  raise RuntimeError(f'unclosed display math block {display_delim} in {p}')
 
               revised='\n'.join(out)+'\n'
               if revised != original:
@@ -114,14 +111,11 @@ jobs:
               if any(unicodedata.category(c)=='Cc' and c not in '\n\r\t' for c in text): problems.append(f'{p}: hidden control')
               if r'\operatorname' in text: problems.append(f'{p}: operatorname remains')
 
-              in_fence=False; kind=None
+              in_fence=False
               for n,line in enumerate(text.splitlines(),1):
                   s=line.strip()
                   if s.startswith('```'):
-                      if not in_fence:
-                          in_fence=True; kind=s[3:].strip().lower()
-                      else:
-                          in_fence=False; kind=None
+                      in_fence=not in_fence
                       continue
                   if in_fence: continue
                   if s in ('$$', r'\[', r'\]'):
