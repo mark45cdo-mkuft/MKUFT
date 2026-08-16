@@ -3,7 +3,11 @@
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
 **MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
-**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)  
+**Flagship public object:** [MKUFT — Layer Before Law: A Relational Architecture for Physical Law and Cross-Scale Dynamics](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md)  
+**Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511) · [LinkedIn](https://www.linkedin.com/in/custodiansystems45/) · [GitHub](https://github.com/mark45cdo-mkuft)
+
+The flagship name is a public discovery label for the programme. The canonical v1.0 preprint retains its exact bibliographic title and version identity.
 
 MKUFT is a speculative, structured research framework. It is not presented as an accepted completed theory.
 
