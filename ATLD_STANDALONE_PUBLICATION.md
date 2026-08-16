@@ -8,11 +8,13 @@
 
 ## Read the published paper
 
-**[Open ATLD v1.0 on Zenodo](https://doi.org/10.5281/zenodo.21341521)**
+**[Open the exact ATLD v1.0 publication on Zenodo](https://doi.org/10.5281/zenodo.21341521)**
+
+**[Open the GitHub human-readable paper route](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md)**
 
 *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*
 
-The Zenodo v1.0 PDF is the controlling human-reading copy for exact pagination and visual layout.
+The Zenodo v1.0 PDF is the controlling frozen publication object for exact pagination and visual layout. The GitHub paper page is a discovery and reading route; it does not silently revise the deposited manuscript.
 
 ## DOI and citation
 
@@ -43,9 +45,11 @@ The standalone DOI supplements the MKUFT backbone DOI. It does not replace or ob
 
 For preservation, traversal, recovery, and machine-readable access, GitHub also holds the complete frozen manuscript text as eight mechanically split parts. This archive does not revise the paper and is not the primary public reading route.
 
+- [GitHub human-readable paper route](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md)
 - [Frozen manuscript text mirror](publications/ATLD_Evaluation_Protocol_v1.0/)
 - [Integrity manifest](publications/ATLD_Evaluation_Protocol_v1.0/SHA256SUMS.txt)
 - [Publication archive boundary](publications/README.md)
+- [Papers and Publications index](papers/README.md)
 
 Deposited PDF SHA-256: `da2f6b3e10a92720acf470a0ebfa885ece7bcb620039fcf984fffa976ced6a4b`
 
