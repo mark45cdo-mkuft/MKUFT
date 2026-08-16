@@ -24,6 +24,8 @@ This matrix identifies the rights status of current public repository objects wi
 | MKUFT version-1 deposited work | [DOI 10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566) | **CC BY 4.0** for the exact deposited material identified by that record |
 | ATLD standalone manuscript v1.0 | [Version DOI 10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521); [concept DOI 10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520) | **CC BY-NC-SA 4.0** for the exact manuscript; commercial exercise of the licensed copyright rights requires separate written permission |
 
+The Voynich concept DOI recorded in `PROVENANCE_DOI_AND_ATTRIBUTION.md` is retained as a provenance/citation anchor. Its exact publication state, version-specific licence and rights must be taken from the corresponding deposited record or source material rather than inferred from the MKUFT licence.
+
 ## Current numbered-module versions on GitHub
 
 Unless an exact file version expressly states a different licence, the current GitHub versions below are **all rights reserved**, subject to the continuing licence on exact historical material previously released under a stated Creative Commons licence.
@@ -87,6 +89,7 @@ Unless an exact file version expressly states a different licence, the current G
 | [33S1 — Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) | **All rights reserved** unless an exact version or later standalone publication states otherwise |
 | [33S2 — Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) | **All rights reserved** unless an exact version or later standalone publication states otherwise |
 | [33S3 — Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) | **All rights reserved** unless an exact version or later standalone publication states otherwise |
+| [33A — Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) | **All rights reserved** unless an exact version states otherwise |
 
 The current GitHub source and companion modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by the ATLD manuscript's CC BY-NC-SA 4.0 licence merely because the manuscript was developed from related material.
 
