@@ -1,0 +1,61 @@
+name: Temporary MKUFT Markdown rendering audit
+
+on:
+  push:
+    paths:
+      - '.github/workflows/_temp_repo_render_audit.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit every Markdown file
+        shell: python
+        run: |
+          from pathlib import Path
+          import re, unicodedata
+
+          def outside_fences(text):
+              in_fence = False
+              for i, line in enumerate(text.splitlines(), 1):
+                  if line.lstrip().startswith('```'):
+                      in_fence = not in_fence
+                      continue
+                  if not in_fence:
+                      yield i, line
+
+          totals = {k:0 for k in ['files','legacy_display','legacy_inline','same_line_dollars','standalone_dollars','operatorname','replacement','controls','raw_tex_lines']}
+          bad = []
+          paths = sorted(p for p in Path('.').rglob('*.md') if '.git' not in p.parts and '.github' not in p.parts)
+          totals['files'] = len(paths)
+          tex_cmd = re.compile(r'\\(?:mathcal|mathfrak|mathbf|mathrm|text|alpha|beta|gamma|delta|Delta|lambda|Lambda|Psi|Xi|Pi|rho|mu|nu|sum|int|boxed|left|right|rightarrow|longrightarrow|rightleftarrows|approx|neq|in|le|ge|circ|mid|widetilde|bigsqcup)\b')
+          for p in paths:
+              text = p.read_text(encoding='utf-8')
+              stats = {k:0 for k in totals if k != 'files'}
+              stats['replacement'] = text.count('\ufffd')
+              stats['controls'] = sum(1 for c in text if unicodedata.category(c) == 'Cc' and c not in '\n\r\t')
+              for _, line in outside_fences(text):
+                  s=line.strip()
+                  stats['legacy_display'] += s.count(r'\[') + s.count(r'\]')
+                  stats['legacy_inline'] += s.count(r'\(') + s.count(r'\)')
+                  stats['operatorname'] += s.count(r'\operatorname')
+                  if s == '$$': stats['standalone_dollars'] += 1
+                  elif '$$' in s: stats['same_line_dollars'] += s.count('$$')
+                  # TeX-looking command on a line with no supported math delimiter.
+                  if tex_cmd.search(s) and not any(tok in s for tok in ('$', r'\(', r'\)', r'\[', r'\]')):
+                      stats['raw_tex_lines'] += 1
+              if any(stats.values()):
+                  bad.append((str(p), stats))
+                  for k,v in stats.items(): totals[k]+=v
+
+          print('TOTAL_MARKDOWN_FILES', totals['files'])
+          for k,v in totals.items():
+              if k!='files': print(k.upper(), v)
+          print('AFFECTED_FILES', len(bad))
+          for path, stats in bad:
+              nz = ', '.join(f'{k}={v}' for k,v in stats.items() if v)
+              print(f'{path}: {nz}')
