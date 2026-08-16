@@ -19,15 +19,44 @@ jobs:
         shell: python
         run: |
           from pathlib import Path
-          import re, unicodedata
+          import unicodedata
+
+          def replace_operatorname(text, path):
+              marker = r'\operatorname{'
+              out=[]
+              i=0
+              replaced=0
+              while True:
+                  j=text.find(marker, i)
+                  if j < 0:
+                      out.append(text[i:])
+                      break
+                  out.append(text[i:j])
+                  start=j+len(marker)
+                  k=start
+                  depth=1
+                  while k < len(text) and depth:
+                      if text[k] == '{':
+                          depth += 1
+                      elif text[k] == '}':
+                          depth -= 1
+                      k += 1
+                  if depth:
+                      raise RuntimeError(f'unbalanced operatorname braces in {path} at offset {j}')
+                  inner=text[start:k-1]
+                  out.append(r'\mathrm{' + inner + '}')
+                  i=k
+                  replaced += 1
+              return ''.join(out), replaced
 
           paths = sorted(p for p in Path('.').rglob('*.md') if '.git' not in p.parts and '.github' not in p.parts)
           changed=[]
+          operator_replacements=0
 
           for p in paths:
               original=p.read_text(encoding='utf-8')
-              # Compatibility repair applies to every Markdown context, including examples.
-              source=re.sub(r'\\operatorname\{([^{}]+)\}', r'\\mathrm{\1}', original)
+              source, count = replace_operatorname(original, p)
+              operator_replacements += count
               lines=source.splitlines()
               out=[]
               in_code=False
@@ -83,6 +112,8 @@ jobs:
 
               if display_delim is not None:
                   raise RuntimeError(f'unclosed display math block {display_delim} in {p}')
+              if in_code:
+                  raise RuntimeError(f'unclosed fenced code block in {p}')
 
               revised='\n'.join(out)+'\n'
               if revised != original:
@@ -90,6 +121,7 @@ jobs:
                   changed.append(str(p))
 
           print('CHANGED_FILES', len(changed))
+          print('OPERATORNAME_REPLACEMENTS', operator_replacements)
           for p in changed: print(p)
 
           # Whole-repo post-repair validation.
@@ -111,6 +143,8 @@ jobs:
                       problems.append(f'{p}:{n}: legacy display delimiter remains')
                   if r'\(' in s or r'\)' in s:
                       problems.append(f'{p}:{n}: legacy inline delimiter remains')
+              if in_fence:
+                  problems.append(f'{p}: unbalanced fenced code block')
 
           if problems:
               print('\n'.join(problems))
@@ -123,7 +157,6 @@ jobs:
           fi
           git config user.name 'mark45cdo-mkuft'
           git config user.email 'mark45cdo@gmail.com'
-          git add '*.md' docs papers publications || true
-          git add -u
+          git add -A -- '*.md'
           git commit -m 'Repair GitHub math rendering across MKUFT canon'
           git push origin HEAD:main
