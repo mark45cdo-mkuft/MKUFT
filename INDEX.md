@@ -14,6 +14,8 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Canon Map](CANON_MAP.md) — hierarchy and navigation.
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md) — publication/version identity.
 - [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md) — exact-object rights rules.
+- [Papers and Publications](papers/README.md) — direct human-reader index for standalone papers and preprints.
+- [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md) — standing carrier, DOI-freeze, and object-custody rules.
 
 ## Foundational and mathematical work
 
@@ -99,10 +101,13 @@ This index provides direct links to the principal public MKUFT documents. The ev
 
 ## Publications
 
-- [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md) — publication record and preferred entry point for ATLD v1.0.
-- [Frozen ATLD v1.0 archive](publications/ATLD_Evaluation_Protocol_v1.0/) — preservation mirror; the deposited Zenodo object controls exact frozen publication identity.
-- [Recursive Constraint Closure Standalone Publication Record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md) — chronology, contribution boundary, rights route, and preferred citation for the 15 August 2026 public preprint.
-- [Recursive Constraint Closure and Reachable-State Geometry — public preprint v0.1](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md) — standalone consolidation of Module 32 with the first public formulation commit preserved explicitly.
+- [Papers and Publications — reader index](papers/README.md) — authoritative direct route to standalone research outputs.
+- [Voynich Manuscript – Systems/Engine Framework](papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md) — human-readable DOI-paper edition; version DOI `10.5281/zenodo.18178638`; [publication record](VOYNICH_STANDALONE_PUBLICATION.md).
+- [ATLD v1.0](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md) — published matched-control evaluation protocol; version DOI `10.5281/zenodo.21341521`; [publication record](ATLD_STANDALONE_PUBLICATION.md); [frozen text mirror](publications/ATLD_Evaluation_Protocol_v1.0/).
+- [Recursive Constraint Closure and Reachable-State Geometry — public preprint v0.1](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md) — standalone preprint; DOI pending; [publication record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md).
+- [Layer Before Law — canonical public preprint v1.0](papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md) — standalone preprint; DOI pending exact frozen deposit; [publication record](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md).
+
+Live `docs/` modules remain distinct from standalone paper objects. The [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md) standard owns that boundary.
 
 ## Metadata and discovery
 
