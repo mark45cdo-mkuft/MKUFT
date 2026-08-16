@@ -56,9 +56,9 @@ Later scientific changes remain later GitHub revisions unless a later Zenodo ver
 
 ## Current pre-DOI checksums
 
-These identify the approved canonical preprint immediately before standalone DOI insertion:
+These identify the approved canonical preprint immediately before standalone DOI insertion. The Markdown checksum below includes the GitHub rendering-compatibility repair (`math` fences and supported roman operator labels); the scientific body is unchanged by that presentation repair.
 
-- Markdown SHA-256: `e02ca42bf8e7e06e6493ef7070c65cc2b6ae480bd92ff74ccf79dc6d0fe682c4`
+- Markdown SHA-256: `2484427c8be86a237d9b5b20a6ee18a02694c938ae795df889d2edeb69ea9860`
 - PDF SHA-256: `4a97b4b6403c233f73276985b9a1581ea2200813f1593a9e4d2f17d28374a7e9`
 
 These checksums will change when the reserved DOI is inserted into the frozen objects; the final DOI-bearing checksums will then supersede them for exact deposited identity.
