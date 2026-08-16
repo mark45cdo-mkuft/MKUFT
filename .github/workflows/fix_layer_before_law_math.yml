@@ -1,0 +1,65 @@
+name: Fix Layer Before Law math rendering
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix_layer_before_law_math.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix-math-rendering:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Convert display math to GitHub math fences
+        shell: python
+        run: |
+          from pathlib import Path
+
+          targets = [
+              Path('papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md'),
+              Path('docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md'),
+          ]
+
+          for path in targets:
+              text = path.read_text(encoding='utf-8')
+              lines = text.splitlines()
+              out = []
+              in_math = False
+              replaced = 0
+
+              for line in lines:
+                  if line.strip() == '$$':
+                      out.append('```math' if not in_math else '```')
+                      in_math = not in_math
+                      replaced += 1
+                  else:
+                      out.append(line)
+
+              if in_math:
+                  raise RuntimeError(f'Unbalanced display-math delimiters in {path}')
+              if replaced == 0:
+                  raise RuntimeError(f'No display-math delimiters found in {path}')
+
+              rendered = '\n'.join(out) + '\n'
+              if '\n$$\n' in rendered:
+                  raise RuntimeError(f'Unconverted display-math delimiter remains in {path}')
+              path.write_text(rendered, encoding='utf-8')
+              print(f'{path}: converted {replaced // 2} display equations')
+
+      - name: Commit rendering-only correction
+        run: |
+          if git diff --quiet; then
+            echo 'No changes required.'
+            exit 0
+          fi
+          git config user.name 'mark45cdo-mkuft'
+          git config user.email 'mark45cdo@gmail.com'
+          git add papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md
+          git commit -m 'Fix Layer Before Law GitHub math rendering'
+          git push origin HEAD:main
