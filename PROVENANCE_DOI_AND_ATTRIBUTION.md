@@ -1,262 +1,159 @@
 # Provenance, DOI, and Attribution
 
-Author: Mark Charles McLaughlin
+**Author:** Mark Charles McLaughlin  
+**ORCID:** `0009-0005-7736-1511`  
+**Repository:** `mark45cdo-mkuft/MKUFT`
 
 ## Purpose
 
-This file records the publication, attribution, and rights-routing structure for the MKUFT repository.
+This file owns the publication and attribution relationships among the MKUFT backbone, separately published research outputs, live GitHub modules, public preprints, frozen deposits, and convenience mirrors.
 
-The repository contains multiple related research nodes. These nodes are connected, but they should not be collapsed into one undifferentiated object.
+The objects are related, but they are **not interchangeable**.
 
-## Core Rule
+## Core rules
 
-Each published node keeps its own citation identity, DOI, authorship, copyright, and licence status.
+1. Each published node keeps its own title, author, DOI, version, citation identity, and licence/rights status.
+2. A DOI is an identifier and provenance route, not a licence.
+3. A live GitHub module is not silently the same object as a frozen DOI deposit.
+4. A Drive reading edition or repository mirror does not acquire publication custody merely because it is convenient to read.
+5. The exact object being cited or reused controls its version and rights identity.
+6. Where no licence is verified for the exact object, the repository must not invent one.
+7. Current paper discovery is owned by [`papers/README.md`](papers/README.md).
+8. Carrier and publication-object integrity are governed by [`RENDERING_AND_PUBLICATION_INTEGRITY.md`](RENDERING_AND_PUBLICATION_INTEGRITY.md).
 
-Terms including **public**, **public-facing**, **public canon**, and **public working copy** describe visibility, audience, or research status. They do not by themselves state or grant a copyright licence.
+## MKUFT backbone
 
-A DOI is a provenance and citation identifier. It is not itself a licence, and citing one DOI inside another file does not import the DOI-linked work's licence into that later or separate file.
+**Frozen title:** *Unified Field Theory. McLaughlin–Kairos. MKUFT*  
+**Author:** Mark Charles McLaughlin  
+**DOI:** `10.5281/zenodo.17780566`  
+**Deposited:** 1 December 2025, version 1  
+**Licence stated for the exact deposited material:** CC BY 4.0
 
-MKUFT is the backbone framework.
+The CC BY 4.0 licence applies to the exact deposited MKUFT material identified by that record. It does not automatically license later GitHub modules, later revisions, or separate publications merely because they cite the MKUFT DOI.
 
-LUCY is treated as part of the MKUFT backbone unless separately published or separately versioned later.
+MKUFT is the backbone framework for the related research nodes below.
 
-Voynich is a separate applied node linked to MKUFT through ESRT/ESF and procedural-system analysis. The uploaded Voynich paper explicitly anchors itself to the MKUFT Zenodo record as prior or backbone work.
+## Voynich Manuscript – Systems/Engine Framework
 
-ATLD is a separately published methods paper derived from the active-traversal and load-bearing-dependency modules of the public MKUFT working canon.
+**Author:** Mark Charles McLaughlin  
+**Version DOI:** `10.5281/zenodo.18178638`  
+**Concept DOI:** `10.5281/zenodo.18178637`  
+**Related MKUFT DOI:** `10.5281/zenodo.17780566`
 
-The current file-by-file rights classification is maintained in `MODULE_RIGHTS_MATRIX.md`. The controlling general notice is `RIGHTS_AND_LICENSE_NOTICE.md`.
+Public routes:
 
-## MKUFT Backbone
+- [GitHub human-readable DOI-paper edition](papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md)
+- [Standalone publication record](VOYNICH_STANDALONE_PUBLICATION.md)
+- [Live repository support module](docs/09_VOYNICH_PROCEDURAL_ENGINE.md)
 
-Title:
+The Voynich paper is a separate applied research object. The **version DOI** identifies the frozen publication version; the **concept DOI** identifies the continuing Zenodo record family.
 
-```text
-Unified Field Theory. McLaughlin–Kairos. MKUFT
-```
+The current `docs/09...` module is a later live support object. It may evolve with MKUFT and must not silently replace the frozen Voynich publication.
 
-Author:
+The exact Voynich licence and version-specific reuse rights must be taken from the corresponding deposited record or source material. This repository does **not** infer the MKUFT CC BY 4.0 licence onto the Voynich paper.
 
-```text
-Mark Charles McLaughlin
-```
+## ATLD standalone paper
 
-DOI:
+**Title:** *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*  
+**Author:** Mark Charles McLaughlin  
+**Version:** 1.0  
+**Publication date:** 13 July 2026  
+**Version DOI:** `10.5281/zenodo.21341521`  
+**Concept DOI:** `10.5281/zenodo.21341520`  
+**Originating MKUFT DOI:** `10.5281/zenodo.17780566`
 
-```text
-10.5281/zenodo.17780566
-```
+Public routes:
 
-Status:
+- [GitHub human-readable paper route](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md)
+- [Standalone publication record](ATLD_STANDALONE_PUBLICATION.md)
+- [Frozen repository text mirror and integrity manifest](publications/ATLD_Evaluation_Protocol_v1.0/)
 
-```text
-Published on Zenodo, December 1, 2025, version 1
-```
+The exact ATLD v1.0 manuscript identified by version DOI `10.5281/zenodo.21341521` is recorded as **CC BY-NC-SA 4.0** in the publication record/manuscript. The licence applies to that exact manuscript. It does not automatically license later source modules, companion modules, code, datasets, or later GitHub revisions.
 
-Licence stated in source material:
-
-```text
-CC BY 4.0
-```
-
-The CC BY 4.0 licence applies to the exact material deposited under that record. It remains effective for that material. It does not automatically license later GitHub revisions, later modules, or separate publications merely because they display the MKUFT DOI.
-
-## ATLD Standalone Paper
-
-Title:
-
-```text
-Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures:
-A Matched-Control Evaluation Protocol for AI Systems
-```
-
-Author:
-
-```text
-Mark Charles McLaughlin
-```
-
-Version and publication date:
-
-```text
-Version 1.0, 13 July 2026
-```
-
-Version DOI:
-
-```text
-10.5281/zenodo.21341521
-```
-
-Concept DOI for all versions:
-
-```text
-10.5281/zenodo.21341520
-```
-
-Originating framework DOI:
-
-```text
-10.5281/zenodo.17780566
-```
-
-Copyright and public licence:
-
-```text
-Copyright © 2026 Mark Charles McLaughlin
-CC BY-NC-SA 4.0
-Commercial exercise of the licensed copyright rights requires separate written permission
-No software licence is granted by the manuscript
-```
-
-The exact ATLD v1.0 paper develops the Active Traversal and Functional Emergence hypothesis and the Load-Bearing Invariants and Whole-System Deformation assay from:
+ATLD v1.0 develops material originating in:
 
 - `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`
 - `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`
 
-`docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` is a later public companion refinement. It is not silently part of the frozen ATLD v1.0 manuscript unless it is expressly included in a later deposited version.
+`docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md` is a later companion refinement and is not silently inserted into the frozen v1.0 paper.
 
-The exact v1.0 release should be cited with DOI `10.5281/zenodo.21341521`. The concept DOI `10.5281/zenodo.21341520` should be used when referring to the continuing publication across versions.
+## Layer Before Law
 
-See `ATLD_STANDALONE_PUBLICATION.md` for the compact publication, rights, and citation route.
+**Current object:** canonical public preprint v1.0  
+**Author:** Mark Charles McLaughlin  
+**Standalone DOI:** pending exact frozen deposit  
+**MKUFT backbone DOI:** `10.5281/zenodo.17780566`
 
-## Current ATLD-Origin Source-Module Rights
+Public routes:
 
-The current GitHub versions of modules 24A, 24B, and 25 are separate repository files. Their provenance relationship to MKUFT and ATLD does not make their licence status identical to either frozen publication.
+- [Canonical public preprint v1.0](papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md)
+- [Live canonical source module](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
+- [Standalone publication record / DOI preparation route](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md)
 
-Unless an exact file version expressly states another licence, their current status is:
+The GitHub preprint remains live until the exact standalone DOI-bearing publication object is frozen. A future DOI will identify the exact deposited version; it must not be back-applied to earlier or later revisions that were not part of that deposit.
 
-```text
-Copyright © 2026 Mark Charles McLaughlin
-All rights reserved
-```
+## Recursive Constraint Closure and Reachable-State Geometry
 
-The ATLD manuscript's CC BY-NC-SA 4.0 licence applies to the exact licensed manuscript. It does not automatically license the source-module files. The older MKUFT CC BY 4.0 record does not automatically license these later current module versions merely because they display the MKUFT DOI.
+**Current object:** public standalone preprint  
+**Author:** Mark Charles McLaughlin  
+**Standalone DOI:** pending  
+**MKUFT backbone DOI:** `10.5281/zenodo.17780566`
 
-## LUCY Placement
+Public routes:
 
-LUCY is currently treated as part of the MKUFT backbone.
+- [Public preprint](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md)
+- [Live source module](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
+- [Standalone publication record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md)
 
-It is not a separate external theory in this repository.
+No standalone DOI is asserted until an actual frozen deposit exists.
 
-Its canonical invariant is a **thresholded addressed crossing**: a defined relation or state reaches a declared coherence/closure threshold and becomes consequential at the next addressed layer.
+## LUCY placement
 
-Where a particular physical implementation produces boundary morphology, the downstream specialisation may be described as:
+LUCY is currently part of the MKUFT backbone rather than a separately published external theory.
 
-```text
-LUCY crossing = thresholded consequential change
-LUCY-1        = membrane-like boundary condition, when present
-LUCY-2        = sustained local region, when present
-```
+Its canonical live owner is `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md`; the physical boundary-forming specialisation is developed in `docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md`.
 
-The membrane and sustained region are conditional downstream morphologies, not automatic consequences of every LUCY crossing. The canonical owner is `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md`; the boundary-forming effective-geometry specialisation is developed in `docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md`.
+If LUCY is later published as a separate research object, it should receive its own publication record and DOI identity rather than inheriting one by resemblance.
 
-If LUCY is later published as its own node, that node should receive its own DOI and citation identity.
+## ESRT / ESF placement
 
-## Voynich Node
+ESRT and ESF are method layers supporting executable-system recognition and procedural analysis. They support MKUFT/Voynich work but do not replace either publication object or the MKUFT physical framework.
 
-The Voynich work is a separate applied node.
+## Current GitHub source-module rights
 
-It is related to MKUFT, but not identical to MKUFT.
+Current live GitHub modules are later repository objects. Unless an exact file or version expressly states another licence, their current-version default is **all rights reserved**, subject to any continuing rights already granted on exact historical material.
 
-Its role is to apply MKUFT, ESRT, and ESF reasoning to the Voynich Manuscript as a procedural or executable system.
+The detailed current file-by-file classification is maintained in [`MODULE_RIGHTS_MATRIX.md`](MODULE_RIGHTS_MATRIX.md). The controlling general notice is [`RIGHTS_AND_LICENSE_NOTICE.md`](RIGHTS_AND_LICENSE_NOTICE.md).
 
-Archived citation identity recorded in the project provenance trail:
+A citation to MKUFT, Voynich, or ATLD does not import that cited object's licence into the citing file.
 
-```text
-Voynich Manuscript – Systems/Engine Framework
-Author: Mark Charles McLaughlin
-Concept DOI: 10.5281/zenodo.18178637
-```
+## Attribution statements
 
-The concept DOI is present in dated project correspondence from 3 February 2026, where the Voynich Systems/Engine Framework is described as a separate archived body of work alongside the MKUFT Zenodo publication. This records the DOI in the historical provenance trail without importing any unstated licence, publication-state, or version metadata into the current repository.
+For the exact MKUFT backbone deposit:
 
-Current repository position:
+> Mark Charles McLaughlin. *Unified Field Theory. McLaughlin–Kairos. MKUFT*. DOI: 10.5281/zenodo.17780566.
 
-```text
-Voynich = applied procedural-engine node linked to MKUFT
-```
+For the exact Voynich version:
 
-The Voynich work should preserve both its own concept DOI and the MKUFT DOI as its backbone or provenance anchor:
+> Mark Charles McLaughlin. *Voynich Manuscript – Systems/Engine Framework*. Version DOI: 10.5281/zenodo.18178638. Concept DOI: 10.5281/zenodo.18178637. Use the exact deposited record for formal bibliographic fields and licence.
 
-```text
-Voynich Manuscript – Systems/Engine Framework
-Concept DOI: 10.5281/zenodo.18178637
-Author: Mark Charles McLaughlin
+For the exact ATLD v1.0 paper:
 
-Supporting backbone:
-Unified Field Theory. McLaughlin–Kairos. MKUFT
-DOI: 10.5281/zenodo.17780566
-Author: Mark Charles McLaughlin
-Status of exact deposited MKUFT version: Public, CC BY 4.0
-```
+> McLaughlin, Mark Charles. (2026). *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*. Zenodo. DOI: 10.5281/zenodo.21341521.
 
-This does not collapse Voynich into MKUFT or import the MKUFT deposit's licence into later Voynich files. It records that the Voynich node has its own citation identity in the historical provenance trail while standing on the MKUFT backbone.
+For Layer Before Law and Recursive Constraint Closure, use their current preprint publication records until a standalone DOI has actually been frozen.
 
-The Voynich concept DOI is a provenance and citation anchor. Its exact current publication status, licence, and version-specific rights should be read from the corresponding Zenodo record or deposited source material and should not be inferred from the MKUFT backbone licence. Until those exact record details are independently retrieved, repository metadata should not silently invent them.
+## Repository and mirror status
 
-## ESRT / ESF Placement
+This GitHub repository is the live public working and publication-discovery layer. It does not erase or supersede frozen Zenodo records unless a new deposited version explicitly does so.
 
-ESRT and ESF are method layers.
+Google Drive may hold synchronized reading editions and paper copies. A Drive copy is a carrier, not automatic scientific or publication custody. The dedicated Drive `00_PAPERS_AND_PUBLICATIONS` shelf exists to separate actual paper objects from synchronized module-reading editions.
 
-They support MKUFT by clarifying how executable systems are recognised, modelled, and tested.
+Repository metadata files such as `CITATION.cff`, `codemeta.json`, `PUBLIC_DISCOVERY_ANCHOR.md`, and `DISCOVERY_KEYWORDS.md` describe identity and discovery. They do not override the exact publication's DOI/version/rights record.
 
-They do not replace the MKUFT physical theory.
+## Standard module provenance header
 
-## Copyright and Licence Notice
-
-Copyright © Mark Charles McLaughlin.
-
-Published Zenodo works retain the licence stated on their exact Zenodo records and inside the relevant deposited source files.
-
-The MKUFT backbone and ATLD standalone paper have separate licence records:
-
-- exact MKUFT backbone deposit: CC BY 4.0 as stated in its source publication;
-- exact ATLD standalone manuscript: CC BY-NC-SA 4.0 as stated in the manuscript and publication record.
-
-The current GitHub working files are later repository objects. Unless an exact file, version, or publication record expressly states another licence, the current version is all rights reserved, subject to any continuing rights already granted for exact historical material.
-
-The ATLD licence does not retrospectively replace the earlier MKUFT licence. The earlier MKUFT licence does not erase the ATLD paper's separate copyright, citation identity, noncommercial condition, ShareAlike condition, or commercial-permission requirement.
-
-Where no licence is stated for the exact material being used, all rights are reserved by Mark Charles McLaughlin.
-
-No repository-level open-source software licence is granted by default.
-
-These notices govern copyright-protected expression and other rights actually held. They do not claim copyright ownership of facts, abstract ideas, scientific principles, mathematical relationships, methods, functionality, or independently written code as such, and they do not create patent rights.
-
-See:
-
-- `RIGHTS_AND_LICENSE_NOTICE.md`
-- `MODULE_RIGHTS_MATRIX.md`
-
-## Attribution Statements
-
-When citing or using the exact MKUFT backbone deposit, attribution should include:
-
-```text
-Mark Charles McLaughlin, Unified Field Theory. McLaughlin–Kairos. MKUFT, DOI: 10.5281/zenodo.17780566.
-```
-
-When citing the exact ATLD v1.0 paper, attribution should include:
-
-```text
-McLaughlin, Mark Charles. (2026). Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems. Zenodo. DOI: 10.5281/zenodo.21341521.
-```
-
-For Voynich work, preserve the Voynich concept DOI `10.5281/zenodo.18178637` and include the MKUFT DOI as the supporting backbone reference. Use the exact Zenodo/deposited-record metadata when a formal bibliographic citation is required; do not infer missing version or licence fields from the MKUFT record.
-
-For any other separately published node, cite its own DOI where available and preserve the relationship to its originating framework.
-
-## Repository Status
-
-This GitHub repository is a public cleaned working presentation layer. It organises, explains, and develops the active research stack. It does not erase or supersede Zenodo DOI records unless Mark explicitly designates a new release or version.
-
-Public visibility does not waive copyright, attribution requirements, document-specific licences, or commercial-use restrictions.
-
-Repository metadata files such as `CITATION.cff` and `codemeta.json` describe identity and discovery. They do not override the version-specific rights rules in the exact publication, `RIGHTS_AND_LICENSE_NOTICE.md`, or `MODULE_RIGHTS_MATRIX.md`.
-
-## Standard Module Provenance Header
-
-Important canonical modules should carry the same short provenance strip:
+Important live modules should use a short provenance strip of this form:
 
 ```text
 Author: Mark Charles McLaughlin
@@ -267,18 +164,17 @@ Citation: See PROVENANCE_DOI_AND_ATTRIBUTION.md.
 Rights: “Public” describes visibility, not a licence. See RIGHTS_AND_LICENSE_NOTICE.md and MODULE_RIGHTS_MATRIX.md for the exact current-version status.
 ```
 
-The words **public MKUFT canon** in a module header describe repository visibility and canonical placement. They do not place that current file under CC BY 4.0 or any other licence.
+The backbone DOI anchors the module to MKUFT. It does not claim that every later module sentence was present in the 2025 deposit, and it does not import the deposit's licence into later material.
 
-The MKUFT DOI should remain displayed directly on ordinary modules and unpublished standalone-paper candidates alike.
+## Publication tracking
 
-A header should not announce that a module is awaiting its own DOI or imply a gap in provenance. Publication status should be stated only where a concrete publication object exists.
+Current standalone research-output tracking is intentionally concentrated in:
 
-The DOI anchors the module visibly to the MKUFT framework and Mark Charles McLaughlin's author identity. Git history records the exact working-copy text and revision date of later material until it is included in a subsequent frozen release.
+- [`papers/README.md`](papers/README.md) — human-reader paper index;
+- [`publications/README.md`](publications/README.md) — frozen-mirror/archive boundary;
+- `VOYNICH_STANDALONE_PUBLICATION.md`;
+- `ATLD_STANDALONE_PUBLICATION.md`;
+- `LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md`;
+- `RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md`.
 
-This is an attribution and routing rule. It does not silently convert the version-1 MKUFT deposit into a verbatim archive of every later sentence or import its licence into later material.
-
-## Publication Tracking
-
-The ATLD standalone publication is recorded in `ATLD_STANDALONE_PUBLICATION.md`. Current public hierarchy and module status are recorded in `INDEX.md`, `CANON_MAP.md`, and the individual module headers.
-
-No additional publication-tracking file should be assumed to exist unless it is present in the repository.
+Do not infer an additional paper, DOI, licence, or publication state merely because a related live module exists.
