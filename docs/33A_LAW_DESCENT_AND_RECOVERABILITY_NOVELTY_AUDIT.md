@@ -335,8 +335,8 @@ That is significant enough to preserve canonically and test prospectively. It re
 - Michaelides, M., Milios, D., Hillston, J. & Sanguinetti, G. (2016). *Property-driven State-Space Coarsening for Continuous Time Markov Chains*. arXiv:1606.01111.
 - Bui-Thanh, T., Willcox, K., Ghattas, O. & van Bloemen Waanders, B. (2007). *Goal-oriented, model-constrained optimization for reduction of large-scale systems*. Journal of Computational Physics 224, 880–896. DOI `10.1016/j.jcp.2006.10.026`.
 - Legoll, F. & Lelièvre, T. (2010). *Effective dynamics using conditional expectations*. Nonlinearity 23, 2131–2163. arXiv:0906.4865.
-- Li, Z., Lee, H. S., Darve, E. & Karniadakis, G. E. (2015). *Incorporation of memory effects in coarse-grained modeling via the Mori–Zwanzig formalism*. Journal of Chemical Physics 143, 243128. DOI `10.1063/1.4935490`.
-- Gouasmi, A., Parish, E. J. & Duraisamy, K. (2017). *A priori estimation of memory effects in reduced-order models of nonlinear systems using the Mori–Zwanzig formalism*. Proceedings of the Royal Society A 473:20170385; arXiv:1611.06277.
+- Li, Z., Bian, X., Li, X. & Karniadakis, G. E. (2015). *Incorporation of memory effects in coarse-grained modeling via the Mori–Zwanzig formalism*. Journal of Chemical Physics 143, 243128. DOI `10.1063/1.4935490`.
+- Gouasmi, A., Parish, E. J. & Duraisamy, K. (2017). *A priori estimation of memory effects in reduced-order models of nonlinear systems using the Mori–Zwanzig formalism*. Proceedings of the Royal Society A 473, 20170385. DOI `10.1098/rspa.2017.0385`; arXiv:1611.06277.
 - Goreac, D. (2010). *Viability, Invariance and Reachability for Controlled Piecewise Deterministic Markov Processes Associated to Gene Networks*. arXiv:1002.2242.
 - Hellmann, F., Schultz, P., Grabow, C., Heitzig, J. & Kurths, J. (2016). *Survivability of Deterministic Dynamical Systems*. Scientific Reports 6, 29654; arXiv:1506.01257.
 - Hammerschmidt, K., Rose, C. J., Kerr, B. & Rainey, P. B. (2014). *Life cycles, fitness decoupling and the evolution of multicellularity*. Nature 515, 75–79. DOI `10.1038/nature13884`.
