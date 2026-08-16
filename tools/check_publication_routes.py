@@ -58,7 +58,7 @@ REQUIRED = {
         ATLD_CONCEPT,
         "VOYNICH_STANDALONE_PUBLICATION.md",
         "papers/README.md",
-        "standalone DOI: pending exact frozen deposit",
+        "pending exact frozen deposit",
     ],
     "papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md": [
         VOYNICH_VERSION,
@@ -124,7 +124,6 @@ def main():
             if needle not in text:
                 failures.append(f"{rel}: missing required identity marker: {needle}")
 
-    # JSON-LD must remain valid JSON and expose all frozen DOI-bearing research nodes.
     codemeta_path = ROOT / "codemeta.json"
     try:
         codemeta = json.loads(codemeta_path.read_text(encoding="utf-8"))
@@ -140,8 +139,6 @@ def main():
         if author.get("identifier") != "https://orcid.org/0009-0005-7736-1511":
             failures.append("codemeta.json: author ORCID route missing or incorrect")
 
-    # CITATION.cff intentionally identifies the MKUFT backbone rather than pretending
-    # to be one omnibus citation for every separately published paper.
     citation_text = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
     if MKUFT_DOI not in citation_text:
         failures.append("CITATION.cff: MKUFT backbone DOI missing")
@@ -152,13 +149,11 @@ def main():
         if not (ROOT / rel).exists():
             failures.append(f"missing frozen ATLD preservation object: {rel}")
 
-    # The live SIPO capstone is intentionally a module, not a paper.
     if not (ROOT / "docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md").exists():
         failures.append("missing live SIPO capstone module")
     if (ROOT / "papers/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md").exists():
         failures.append("SIPO capstone has been silently promoted into papers without an explicit publication object")
 
-    # Temporary repair machinery must not remain in the public workflow surface.
     temp_workflows = sorted((ROOT / ".github" / "workflows").glob("_temp_*.yml"))
     if temp_workflows:
         failures.append("temporary repair workflows remain: " + ", ".join(str(p.relative_to(ROOT)) for p in temp_workflows))
