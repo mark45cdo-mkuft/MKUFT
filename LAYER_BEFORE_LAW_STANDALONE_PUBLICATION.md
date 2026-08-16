@@ -2,104 +2,74 @@
 
 **Author:** Mark Charles McLaughlin  
 **Paper:** *Layer Before Law: An Addressed Architecture for Relational Admissibility, Effective Law Selection, and Quantum-Gravitational Recovery*  
-**Status:** Public preprint candidate — live public canon, not DOI-frozen  
-**Candidate version:** 0.9  
+**Status:** Canonical public preprint — live GitHub canon, standalone DOI pending  
+**Preprint version:** 1.0  
 **Canonical Layer Before Law public date:** 17 July 2026  
-**Current standalone-paper candidate revision:** 16 August 2026  
+**Canonical preprint revision:** 16 August 2026  
 **ORCID:** `0009-0005-7736-1511`  
 **MKUFT backbone DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
 **Standalone DOI:** pending frozen deposit
 
 ## Public paper
 
-- [Layer Before Law standalone preprint candidate v0.9](papers/2026-08-16_LAYER_BEFORE_LAW_PREPRINT_CANDIDATE.md)
-- [Canonical live source module](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
+- [Canonical Layer Before Law preprint v1.0](papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md)
+- [Canonical source module](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
+
+## Canonical promotion
+
+The audited v1.0 preprint is now the canonical GitHub expression of Layer Before Law. The earlier v0.9 candidate and the older flattened PDF are historical development objects only; they are not the current publication source.
+
+The canonical paper integrates the later MKUFT architecture through the current law-descent and recoverability family, including Modules 32, 32S3, 32S4, 33, 33S1, 33S2, 33S3 and the 33A novelty audit.
+
+The current paper therefore includes, in the main body rather than merely as dependencies:
+
+- addressed effective state with context and retained load-bearing history;
+- typed admissibility descriptor and active physical-law object `(domain, transition, weighting)`;
+- propagation / measurement-instrument / readdressing factorisation of the SIPO update;
+- property-relative higher-address law ownership;
+- bidirectional lower / effective-higher / coupled-multiscale readdressing;
+- separation of loss of law sufficiency, constitutive closure and recoverability;
+- recoverability as target-relative constrained reachability;
+- a state/history augmentation guard before irreducible hysteresis is claimed;
+- Bell/local-hidden-variable and no-signalling constraints;
+- explicit quantum and gravitational recovery burdens;
+- strongest-fair physical nulls, controlled deformations and failure conditions;
+- novelty boundaries that do not claim prior art already owned by causal abstraction, coarse-graining, reachability, hysteresis, emergent-spacetime or related fields.
 
 ## Version and freeze boundary
 
-The GitHub object is intentionally live before DOI deposit.
-
 **Git history records revision. A DOI identifies a frozen publication object.**
 
-Until the standalone paper is deposited, the public GitHub candidate may be audited, corrected, strengthened, typeset, cited more completely, or otherwise refined without pretending that an earlier frozen object already contained those changes.
+The canonical GitHub preprint remains live until the standalone DOI is reserved and inserted into the exact deposited manuscript. The scientific body is approved for DOI preparation; the remaining pre-deposit change is bibliographic/provenance completion of the standalone DOI field and any exact freeze metadata.
 
-When a DOI is created, that DOI will identify the exact deposited version. Later GitHub changes will remain later changes unless a new deposited version is created.
+When the DOI is reserved:
 
-This separation protects both scientific revision and provenance:
+1. insert the reserved version DOI into the canonical markdown and PDF;
+2. regenerate and visually verify the exact PDF;
+3. record final SHA-256 checksums;
+4. commit the DOI-bearing frozen source and publication PDF to GitHub;
+5. upload that exact PDF to Zenodo and publish the record;
+6. record the resulting concept DOI and version DOI here and in the private identifier register;
+7. add the exact version DOI to ORCID.
 
-```text
-live public canon
-→ audit / refine / correct
-→ freeze exact manuscript
-→ deposit exact object
-→ assign version DOI
-→ preserve later revisions as later revisions
-```
+Later scientific changes remain later GitHub revisions unless a later Zenodo version explicitly includes them.
 
-## Relationship to the original Layer Before Law module
+## Current pre-DOI checksums
 
-The Layer Before Law research direction entered the public MKUFT canon on 17 July 2026. The original module posed a prior-category question for quantum gravity and used an intentionally incomplete `Update_SIPO` placeholder.
+These identify the approved canonical preprint immediately before standalone DOI insertion:
 
-The live canon has since changed materially. Modules 32, 32S3, 32S4 and 33 supplied addressed-state, admissibility, boundary/context, history, law-object and update-factorisation structure. The standalone candidate therefore does **not** freeze the older flattened PDF or silently represent it as the current object.
+- Markdown SHA-256: `e02ca42bf8e7e06e6493ef7070c65cc2b6ae480bd92ff74ccf79dc6d0fe682c4`
+- PDF SHA-256: `4a97b4b6403c233f73276985b9a1581ea2200813f1593a9e4d2f17d28374a7e9`
 
-The current candidate consolidates the live architecture around the chain:
-
-```text
-address
-→ admissibility
-→ active physical-law object
-→ physical propagation
-→ measurement / registration
-→ recursive readdressing
-```
-
-with explicit strongest-fair physical nulls, Bell/local-hidden-variable constraints, no-signalling requirements, quantum/gravitational recovery obligations, controlled-deformation tests and failure conditions.
-
-## Presentation boundary
-
-The earlier PDF rendering is not the intended publication-quality mathematical object. The standalone candidate is to be frozen only after the equations are rendered with proper mathematical typography and the complete paper has passed a visual, citation, mathematical and provenance audit.
-
-The final deposited manuscript should preserve, at minimum:
-
-- proper Greek, calligraphic and fraktur symbols;
-- correct subscripts, superscripts, operators, conditionals, integrals and summations;
-- display equations that do not flatten into underscore notation;
-- readable multi-line factorisations for the full SIPO update;
-- stable section and equation hierarchy;
-- a complete reference list with verified identifiers where available;
-- explicit claim/non-claim and falsification boundaries;
-- exact version/date/DOI metadata on the frozen object.
-
-## Scientific and novelty boundary
-
-The paper does not claim originality for emergent spacetime, quantum non-separability, effective field theory, constraints, contextuality, or changing state-space descriptions by themselves.
-
-Its candidate contribution is narrower: the explicit addressed factorisation of object/context into admissibility and an active physical-law object, followed by physical propagation, measurement/registration and recursive readdressing, combined with typed-layer discipline and strongest-fair-null tests.
-
-The standalone paper remains a research architecture, not a completed derivation of quantum mechanics, the Born rule, Bell correlations, quantum field theory, Einstein dynamics, or quantum gravity.
-
-## DOI route
-
-No standalone DOI is claimed until a frozen deposit actually exists.
-
-When the candidate is approved for deposit:
-
-1. freeze the exact manuscript text and typeset PDF;
-2. record checksums for the frozen publication objects;
-3. create the standalone Zenodo record;
-4. record both concept DOI and version DOI where Zenodo supplies them;
-5. add the version DOI to the frozen paper and this publication record;
-6. add the exact DOI-identified work to ORCID;
-7. retain the MKUFT backbone DOI as originating-framework provenance rather than treating it as the standalone-paper DOI;
-8. leave later GitHub changes outside the frozen version unless a later deposited version explicitly includes them.
+These checksums will change when the reserved DOI is inserted into the frozen objects; the final DOI-bearing checksums will then supersede them for exact deposited identity.
 
 ## Preferred citation before standalone DOI
 
-> McLaughlin, Mark Charles. (2026). *Layer Before Law: An Addressed Architecture for Relational Admissibility, Effective Law Selection, and Quantum-Gravitational Recovery*. MKUFT public preprint candidate, version 0.9. Live public canon; standalone DOI pending frozen deposit. Originating framework DOI: 10.5281/zenodo.17780566.
+> McLaughlin, Mark Charles. (2026). *Layer Before Law: An Addressed Architecture for Relational Admissibility, Effective Law Selection, and Quantum-Gravitational Recovery*. MKUFT canonical public preprint, version 1.0, 16 August 2026. Standalone DOI pending frozen deposit. Originating framework DOI: 10.5281/zenodo.17780566.
 
 ## Rights
 
-Until an exact frozen publication states another licence, the current standalone candidate and current live source-module expression retain the rights status declared by the repository's controlling rights documents.
+Until the exact frozen publication states another licence, the current canonical preprint and current live source-module expression retain the rights status declared by the repository's controlling rights documents.
 
 See:
 
