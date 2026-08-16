@@ -37,6 +37,8 @@ The framework distinguishes:
 
 ## Read MKUFT
 
+**Standalone research outputs:** [Papers and Publications](papers/README.md) — DOI papers and current public preprints in one reader-facing route.
+
 ### Physics and quantum gravity
 
 1. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) — foundational category proposal, entanglement worked case, Bell/no-signalling burden, recovery requirements, and failure conditions.
@@ -69,7 +71,7 @@ The framework distinguishes:
 
 ### AI and typed knowledge architectures
 
-1. [ATLD v1.0 — published paper](https://doi.org/10.5281/zenodo.21341521) — standalone matched-control evaluation protocol; [publication record and archive](ATLD_STANDALONE_PUBLICATION.md).
+1. [ATLD v1.0 — published paper](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md) — standalone matched-control evaluation protocol; exact version DOI `10.5281/zenodo.21341521`; [publication record and archive](ATLD_STANDALONE_PUBLICATION.md).
 2. [Active Traversal and Functional Emergence](docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) — matched-control active-traversal hypothesis.
 3. [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) — replay, alternative-pairing, and relationship-specificity controls.
 4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) — controlled deformation and load classification.
@@ -79,16 +81,21 @@ The framework distinguishes:
 8. [Cross-Scale Performance and Recoverability](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) — parent/local performance separation and recovery test.
 9. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) — evidence tiers and promotion criteria.
 
-## Current standalone publication
+## Standalone papers and preprints
 
-**Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems**
+The repository keeps paper identity separate from the live modular canon. Use [Papers and Publications](papers/README.md) as the reader-facing index.
 
-- Version: 1.0, 13 July 2026
-- Version DOI: [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521)
-- Concept DOI: [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520)
-- Public licence: CC BY-NC-SA 4.0 for the exact deposited manuscript
+### Published DOI papers
 
-The [ATLD publication page](ATLD_STANDALONE_PUBLICATION.md) keeps the citation, rights, and quiet archival route. The Zenodo PDF is the primary human-reading object; the split text under `publications/ATLD_Evaluation_Protocol_v1.0/` remains available for preservation, traversal, and recovery.
+- **Voynich Manuscript – Systems/Engine Framework** — version DOI [10.5281/zenodo.18178638](https://doi.org/10.5281/zenodo.18178638); [GitHub reading edition](papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md); [publication record](VOYNICH_STANDALONE_PUBLICATION.md).
+- **Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems** — version 1.0, 13 July 2026; version DOI [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521); concept DOI [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520); [GitHub paper route](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md); [publication record](ATLD_STANDALONE_PUBLICATION.md).
+
+### Public preprints awaiting standalone DOI
+
+- **Recursive Constraint Closure and Reachable-State Geometry: An Addressed Formalism for Adaptive Systems with Changing Possibility Spaces** — [public preprint](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md); [publication record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md).
+- **Layer Before Law: An Addressed Architecture for Relational Admissibility, Effective Law Selection, and Quantum-Gravitational Recovery** — [canonical public preprint v1.0](papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md); standalone DOI pending frozen deposit; [publication record](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md).
+
+The exact DOI-bearing Zenodo object controls a frozen published version. Live GitHub modules and Drive reading editions do not silently replace it. See [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md).
 
 ## Evidence and claim discipline
 
@@ -103,5 +110,6 @@ The 33A novelty audit applies the same discipline to Modules 33S2/33S3: establis
 - [Rights and licence notice](RIGHTS_AND_LICENSE_NOTICE.md)
 - [Module rights matrix](MODULE_RIGHTS_MATRIX.md)
 - [Public index](INDEX.md)
+- [Rendering and publication integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md)
 
 Historical deposits and current GitHub files may have different version and licence identities. The exact object being cited or reused controls.
