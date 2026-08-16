@@ -30,9 +30,9 @@ A shared grammar does not establish one shared metric, unit system, or physical 
 
 Represent a modelled state structure as
 
-$$
+```math
 \mathcal G=(N,E_{\mathcal G}),
-$$
+```
 
 where $N$ is a set of stable or operationally distinguishable states and $E_{\mathcal G}$ a set of admissible transitions.
 
@@ -42,25 +42,25 @@ Whether $N$ is finite, countable, or continuous depends on the domain and discre
 
 A discrete trajectory is an ordered path,
 
-$$
+```math
 \gamma=(n_0\rightarrow n_1\rightarrow\cdots\rightarrow n_k).
-$$
+```
 
 For a continuous within-layer state space $\mathcal X_L$,
 
-$$
+```math
 \gamma_L:[0,1]\rightarrow\mathcal X_L.
-$$
+```
 
 A typed cross-layer route is instead a composable sequence,
 
-$$
+```math
 x_S
 \xrightarrow{C_{SI}}x_I
 \xrightarrow{C_{IP}}x_P
 \xrightarrow{C_{PO}}x_O
 \xrightarrow{C_{OS}}x'_S.
-$$
+```
 
 An information-graph edge is not automatically a physical path, and informational adjacency is not physical proximity.
 
@@ -70,11 +70,11 @@ Agency, interaction, and evolution may be analysed as movement through available
 
 For a trajectory within one declared state space, a candidate cost functional is
 
-$$
+```math
 C[\gamma]
 =
 \int_{\gamma}\lambda(x)\,ds,
-$$
+```
 
 where $\lambda(x)$ is a domain-specific local cost, friction, instability, contradiction, or gradient term and $ds$ is a path element belonging to the declared state space.
 
@@ -88,33 +88,33 @@ A Gibbs-like path weight requires a dimensionless exponent.
 
 Using dimensionless normalised cost $\widetilde C[\gamma]$,
 
-$$
+```math
 P(B\mid A)
 =
 \frac{1}{Z_A}
 \sum_{\gamma\in\Gamma(A\to B)}
 \exp\!\left[-\widetilde C[\gamma]\right].
-$$
+```
 
 If $C[\gamma]$ carries units, introduce an inverse cost scale $\beta$:
 
-$$
+```math
 P(B\mid A)
 =
 \frac{1}{Z_A}
 \sum_{\gamma\in\Gamma(A\to B)}
 \exp\!\left[-\beta C[\gamma]\right],
-$$
+```
 
 with
 
-$$
+```math
 Z_A
 =
 \sum_{B'}
 \sum_{\gamma\in\Gamma(A\to B')}
 \exp\!\left[-\beta C[\gamma]\right].
-$$
+```
 
 Here $\Gamma(A\to B)$ is the modelled admissible path set and $\beta C[\gamma]$ is dimensionless.
 
@@ -124,11 +124,11 @@ This is a candidate model rather than a claim that fundamental probability is no
 
 Learning need not make every local segment cheaper pointwise. For a declared task or trajectory distribution $\mathcal T$, a cleaner hypothesis is
 
-$$
+```math
 \mathbb E\!\left[C_{t+1}[\gamma]\mid\gamma\sim\mathcal T\right]
 <
 \mathbb E\!\left[C_t[\gamma]\mid\gamma\sim\mathcal T\right]
-$$
+```
 
 on the relevant performance-cost profile.
 
@@ -140,17 +140,17 @@ The narrower claim is that many learning curves can be modelled as changes in ac
 
 A working phenomenological hypothesis is that reported duration may covary with a dimensionless traversal-burden index $B_t$:
 
-$$
+```math
 \frac{T_{\mathrm{subj}}}{T_{\mathrm{clock}}}
 =f(B_t)+\varepsilon_t,
-$$
+```
 
 or, for a declared local approximation,
 
-$$
+```math
 \frac{T_{\mathrm{subj}}}{T_{\mathrm{clock}}}
 \approx1+\alpha B_t.
-$$
+```
 
 $T_{\mathrm{subj}}$ is reported or behaviourally inferred duration, $T_{\mathrm{clock}}$ measured clock duration, and $\alpha$ a fitted or preregistered coefficient.
 
@@ -190,36 +190,36 @@ The resolved-state graph can be extended by the unresolved region still compatib
 
 For declared domain $d$,
 
-$$
+```math
 \Omega_t^{(d)}
 =
 \left\{z\in\mathcal X_d:
  z\text{ remains compatible with evidence and active constraints}\right\}.
-$$
+```
 
 Define
 
-$$
+```math
 A_{t,\mathrm{vol}}^{(d)}
 =
 \log\!\left(1+\frac{\mu_d(\Omega_t^{(d)})}{\mu_{0,d}}\right),
-$$
+```
 
 where $\mu_d$ is a domain-specific measure and $\mu_{0,d}$ a reference scale.
 
 Let
 
-$$
+```math
 R_t\in[0,1],
 \qquad
 X_t\in[0,1]
-$$
+```
 
 represent normalised low-cost connectivity and preserved access. The heuristic manoeuvrability index is
 
-$$
+```math
 M_t=A_{t,\mathrm{vol}}^{(d)}R_tX_t.
-$$
+```
 
 The product is a joint-dependence hypothesis and should be compared with additive, interaction, and nonlinear alternatives.
 
@@ -229,17 +229,17 @@ See [Ambiguity Dynamics and Manoeuvre Space](21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE
 
 Let $K$ be a candidate invariant, $L\in\{S,I,P,O\}$ the active layer, and $\theta_L$ the layer-specific constraints and observables.
 
-$$
+```math
 K_L=A_L(K;\theta_L).
-$$
+```
 
 A valid address identifies the invariant relation, active layer, changed variables and units, evidence required at that layer, any cross-layer coupling, and an independent falsifier.
 
 Repeated algebraic form does not prove an identical mechanism across layers. Cross-layer claims therefore use typed maps such as
 
-$$
+```math
 C_{LM}:\mathcal X_L\rightarrow\mathcal X_M
-$$
+```
 
 rather than treating the layers as ordinary spatial dimensions.
 
@@ -249,29 +249,29 @@ See [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_
 
 Let
 
-$$
+```math
 G_t(u;T_t,H_t)\in[0,1],
 \qquad
 \theta_{\mathrm{access}}\in[0,1].
-$$
+```
 
 For actual action set $U_t$, the practically accessible subset is
 
-$$
+```math
 U_t^{\mathrm{access}}
 =
 \left\{u\in U_t:G_t(u;T_t,H_t)>\theta_{\mathrm{access}}\right\}.
-$$
+```
 
 A retained capacity may remain while access is degraded:
 
-$$
+```math
 \mathrm{Agency}_{\mathrm{effective}}(t)
 =
 \mathrm{Agency}_{\mathrm{capacity}}\,a_t,
 \qquad
 a_t\in[0,1].
-$$
+```
 
 This is an operational distinction rather than a complete moral, legal, or clinical equation.
 

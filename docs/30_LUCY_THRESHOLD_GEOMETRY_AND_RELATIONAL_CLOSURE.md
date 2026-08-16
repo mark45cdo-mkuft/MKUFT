@@ -40,9 +40,9 @@ This becomes physical science only if it yields quantitative residuals beyond th
 
 MKUFT uses typed layer addresses,
 
-$$
+```math
 S\rightarrow I\rightarrow P\rightarrow O\rightarrow S,
-$$
+```
 
 where $S$ denotes substrate or source-potential, $I$ information/relation/constraint/address, $P$ physical expression, and $O$ observer-positioned registration and record.
 
@@ -84,7 +84,7 @@ This conjunction is a research programme rather than a demonstrated mechanism.
 
 Let $\psi$ be a candidate order parameter, $g$ an effective metric, and $\lambda$ declared control parameters. A conventional scalar–tensor style scaffold is
 
-$$
+```math
 S_{\mathrm{eff}}[g,\psi;\lambda]
 =
 \int d^4x\sqrt{-g}
@@ -99,13 +99,13 @@ V(\psi;\lambda)
 +
 \mathcal L_{\mathrm{matter}}(g,\Phi)
 \right].
-$$
+```
 
 This is not claimed as an original or final MKUFT action. Related forms are standard in scalar-tensor theory, cosmology, and phase-transition modelling.
 
 A toy potential is
 
-$$
+```math
 V(\psi;\lambda)
 =
 \frac{1}{2}a(\lambda)\psi^2
@@ -114,24 +114,24 @@ V(\psi;\lambda)
 +
 \frac{1}{6}c\psi^6,
 \qquad c>0.
-$$
+```
 
 The LUCY critical surface may be defined by equality of relevant effective minima,
 
-$$
+```math
 \Delta F(\lambda)
 =
 F[\psi_1,g_1;\lambda]
 -
 F[\psi_0,g_0;\lambda]
 =0.
-$$
+```
 
 Below the surface the baseline state is preferred. Across it, a distinct physical state may become preferred. In this morphology-specific branch, LUCY-1 corresponds to a stable interface solution and LUCY-2 requires a finite domain whose bulk gain exceeds interface and dissipation costs.
 
 For a schematic spherical pocket,
 
-$$
+```math
 \Delta E(R)
 =
 4\pi R^2\sigma
@@ -139,13 +139,13 @@ $$
 \frac{4\pi}{3}R^3\Delta\varepsilon
 +
 E_{\mathrm{coupling}}(R).
-$$
+```
 
 In the simplest uncoupled case,
 
-$$
+```math
 R_c=\frac{2\sigma}{\Delta\varepsilon}.
-$$
+```
 
 The spherical form is only a toy morphology for a bounded-domain branch. It is not the canonical shape of LUCY. Any geometry-coupling term must be dimensionally defined rather than inserted to force stability. The scaffold supplies threshold, boundary, pocket, hysteresis, and critical-radius concepts for this special case; it does not establish modified gravitation.
 
@@ -161,9 +161,9 @@ The proposed relation is not a microscopic gravitational wave amplified into mac
 
 A scale bridge requires an explicit coarse-graining map,
 
-$$
+```math
 C_{\ell\to L}:\mathcal X_\ell\rightarrow\mathcal X_L,
-$$
+```
 
 that preserves energy, causality, and tested equivalence-principle limits. Until derived, the two regimes remain only a candidate relation.
 
@@ -181,11 +181,11 @@ It is not established that such a nucleus controls gravitation. In LUCY, a nucle
 
 A nucleosynthesis exposure may be represented as
 
-$$
+```math
 \Theta_r
 =
 \tau_{\mathrm{env}}\,n_n\,\langle\sigma v\rangle.
-$$
+```
 
 This describes neutron-capture exposure and is not itself a LUCY or gravitational coupling.
 
@@ -195,9 +195,9 @@ Let $q(x)$ be a dimensionless relational-closure order parameter, with $q=0$ the
 
 The base hypothesis in this paper is that there exists a critical surface $\Sigma_L$ in control-parameter space such that
 
-$$
+```math
 q=0\longrightarrow q=q_*
-$$
+```
 
 marks a consequential physical crossing and, in the branch under test, produces a stable boundary with a correlated change in more than one independent class of physical observable.
 

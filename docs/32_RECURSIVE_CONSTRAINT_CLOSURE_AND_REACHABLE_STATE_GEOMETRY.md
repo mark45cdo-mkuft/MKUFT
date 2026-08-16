@@ -34,7 +34,7 @@ This module therefore separates:
 
 Let an adaptive system at step $t$ be represented by
 
-$$
+```math
 \mathfrak A_t
 =
 \left(
@@ -45,7 +45,7 @@ $$
  \mathbf v_t,
  H_t
 \right),
-$$
+```
 
 where:
 
@@ -64,47 +64,47 @@ Module 31 governs the construction-address and representation-invariance require
 
 A fixed-state-space model commonly uses
 
-$$
+```math
 x_{t+1}=F(x_t,u_t).
-$$
+```
 
 That form is appropriate when the relevant variables, admissible operations, and state-space definition remain fixed.
 
 For systems in which learning, development, or evolution may alter the available variables, constraints, action repertoire, decoder, or update rule, use a family of addressed spaces
 
-$$
+```math
 \{\mathcal X_\alpha\}_{\alpha\in A}
-$$
+```
 
 and the disjoint addressed union
 
-$$
+```math
 \mathfrak X
 =
 \bigsqcup_{\alpha\in A}
 \{\alpha\}\times\mathcal X_\alpha.
-$$
+```
 
 An adaptive transition is represented schematically by evaluation of an update map on the current addressed system state and an admissible input or action:
 
-$$
+```math
 \mathfrak F_t(\mathfrak A_t,u_t)
 =
 (\alpha_{t+1},x_{t+1})
 \in\mathfrak X,
-$$
+```
 
 with
 
-$$
+```math
 x_{t+1}\in\mathcal X_{\alpha_{t+1}}.
-$$
+```
 
 If $\alpha_{t+1}\neq\alpha_t$, the expression
 
-$$
+```math
 x_{t+1}-x_t
-$$
+```
 
 is not automatically meaningful. A comparison requires a lawful translation, embedding, common observable, quotient, or other declared map between the two addressed spaces.
 
@@ -118,32 +118,32 @@ The addressed-family construction does not claim that every real adaptive system
 
 Let the current realised organisation be denoted
 
-$$
+```math
 \mathcal O_t^{\mathrm{org}}
 =
 (\mathcal C_t,\mathcal M_t,H_t,\alpha_t).
-$$
+```
 
 A system-level admissibility or discrimination function may be written
 
-$$
+```math
 a_t(x,u)
 =
 \mathcal D\!\left(x,u;\mathcal O_t^{\mathrm{org}}\right),
 \qquad
 0\le a_t\le1,
-$$
+```
 
 with admissible action/transition set
 
-$$
+```math
 \mathcal U_t^{\mathrm{adm}}(x)
 =
 \left\{
  u\in\mathcal U_t:
  a_t(x,u)\ge\theta_t
 \right\}.
-$$
+```
 
 This formalises a simple possibility: the discriminator need not be an external judge. The system's current organisation can parameterise which transitions are accessible, stable, selected, inhibited, or costly.
 
@@ -153,7 +153,7 @@ This does **not** imply consciousness, intention, morality, or an invisible cont
 
 Define the one-step addressed reachable set
 
-$$
+```math
 \mathcal R_t(\mathfrak A_t)
 =
 \left\{
@@ -162,39 +162,39 @@ $$
 \text{ such that }
 (\alpha',x')=\mathfrak F_t(\mathfrak A_t,u)
 \right\}.
-$$
+```
 
 A recursive update may alter both current state and the geometry of later reach:
 
-$$
+```math
 \mathfrak A_t
 \rightarrow
 \mathfrak A_{t+1}
 \rightarrow
 \mathcal R_{t+1}(\mathfrak A_{t+1}).
-$$
+```
 
 A learning or developmental rule may be written schematically as
 
-$$
+```math
 \mathcal C_{t+1}
 =
 \mathcal L_C
 \left(
 \mathcal C_t,H_t,\mathbf v_t,e_t
 \right),
-$$
+```
 
 where $e_t$ is the relevant new event, outcome, error, or environmental interaction. Where the update rule itself changes,
 
-$$
+```math
 \mathfrak F_{t+1}
 =
 \mathcal L_F
 \left(
 \mathfrak F_t,\mathcal C_{t+1},H_{t+1}
 \right)
-$$
+```
 
 may be used as a higher-order scaffold.
 
@@ -202,7 +202,7 @@ Writing $\mathcal L_C$ or $\mathcal L_F$ does not supply a biological or physica
 
 The important candidate relation is:
 
-$$
+```math
 \boxed{
 \text{previous organisation}
 \rightarrow
@@ -212,7 +212,7 @@ $$
 \rightarrow
 \text{changed future reach}
 }
-$$
+```
 
 The previous state is therefore not merely stored content when its realised organisation changes what the system can become next.
 
@@ -224,17 +224,17 @@ Consolidation is not automatically beneficial and is not synonymous with irrever
 
 For a discrete operational model, define a directed maintenance graph
 
-$$
+```math
 G_t^{C}
 =
 (\mathcal C_t,E_t^{M}),
-$$
+```
 
 where
 
-$$
+```math
 c_i\rightarrow c_j
-$$
+```
 
 means that a process or operation organised under constraint $c_i$ contributes to maintaining, regenerating, or enabling constraint $c_j$ at the declared time scale.
 
@@ -248,13 +248,13 @@ A recursive learner may use positive/negative, benefit/cost, error/reward, viabi
 
 Write
 
-$$
+```math
 \mathbf v_t
 =
 \left(
  v_t^{(1)},v_t^{(2)},\ldots,v_t^{(k)}
 \right),
-$$
+```
 
 where each component has a declared meaning, scale, and measurement rule.
 
@@ -262,9 +262,9 @@ Possible domains include physical/sensory polarity, organism-level viability, ta
 
 No sum
 
-$$
+```math
 \sum_j v_t^{(j)}
-$$
+```
 
 is scientifically meaningful unless the components are commensurable or an explicit preregistered scalarisation is supplied.
 
@@ -276,35 +276,35 @@ Let $\mathcal F_{\ell,t}$ be a feasible lower-scale state set with declared meas
 
 When each before/after observable is defined in a common declared comparison space, an organisational constraint update may produce
 
-$$
+```math
 \Delta\mu_\ell
 =
 \mu_\ell(\mathcal F_{\ell,t+1})
 -
 \mu_\ell(\mathcal F_{\ell,t})
 <0,
-$$
+```
 
 while simultaneously
 
-$$
+```math
 \Delta\nu_L
 =
 \nu_L(\mathcal K_{L,t+1})
 -
 \nu_L(\mathcal K_{L,t})
 >0.
-$$
+```
 
 This is an **enabling-constraint pattern**: local degrees of freedom decrease while higher-scale viable capability expands.
 
 The opposite is also possible. An overconstrained or badly organised system may show
 
-$$
+```math
 \Delta\mu_\ell<0,
 \qquad
 \Delta\nu_L<0.
-$$
+```
 
 If the before/after feasible or capability objects live in different addressed spaces, the corresponding difference is not defined until Module 31's translation/equivalence requirement is satisfied.
 
@@ -320,21 +320,21 @@ A recurring shape or architecture across systems can arise because similar const
 
 Let
 
-$$
+```math
 K_C^{(A)}:\mathcal C_A\rightarrow\mathcal K_C,
 \qquad
 K_C^{(B)}:\mathcal C_B\rightarrow\mathcal K_C
-$$
+```
 
 map domain-specific constraints into a declared comparison space. A cross-system recurrence claim first requires
 
-$$
+```math
 d_C\!\left(
 K_C^{(A)}(\mathcal C_A),
 K_C^{(B)}(\mathcal C_B)
 \right)
 \le\varepsilon_C,
-$$
+```
 
 plus compatible functional/dynamical tests appropriate to the claimed relation.
 
@@ -350,9 +350,9 @@ This is a comparison rule, not a universal morphology law.
 
 In three-dimensional Euclidean space, the sphere minimises surface area for a fixed enclosed volume. For a domain with isotropic positive surface tension $\sigma$ and no competing anisotropic load, a schematic surface contribution is
 
-$$
+```math
 E_{\mathrm{surface}}=\sigma A.
-$$
+```
 
 Under those brackets, minimising $A$ at fixed volume favours a sphere.
 
@@ -389,13 +389,13 @@ If the full relevant organisation is adequately realised by measured P-layer var
 
 The physical-only null remains schematically
 
-$$
+```math
 H_0:
 Y_{t+\Delta}
 \perp\!\!\!\perp
 I_t
 \mid P_t,H_t.
-$$
+```
 
 A stronger I→P claim requires a declared I variable or relation, a lawful coupling or interface into P, representation-robust specification, and held-out predictive or interventional gain beyond the adequate P-state/history baseline.
 
@@ -430,9 +430,9 @@ Break a predicted maintenance edge in $G_t^C$ while preserving as much local com
 
 Measure lower-scale feasible-state volume and higher-scale capability separately. Test the proposed pair
 
-$$
+```math
 (\Delta\mu_\ell,\Delta\nu_L)
-$$
+```
 
 rather than calling the result `more freedom` without scale.
 

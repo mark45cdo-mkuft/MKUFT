@@ -21,9 +21,9 @@ The central falsifiable hypothesis is:
 
 The typed architecture is
 
-$$
+```math
 S\rightarrow I\rightarrow P\rightarrow O.
-$$
+```
 
 The substrate layer is not treated as a visible physical medium with ordinary internal geography. The geometry examined here is **post-boundary geometry**: measurable physical structure arising in an actual P-layer system under a proposed and explicitly defined coupling.
 
@@ -57,26 +57,26 @@ Let a candidate physical boundary state be represented by a scalar variable $\ta
 
 Define
 
-$$
+```math
 \mathbf G_\tau(x,t)=-\nabla\tau(x,t).
-$$
+```
 
 For rotational or circulating structure, introduce a vector variable $\mathbf A_\tau(x,t)$ with
 
-$$
+```math
 \mathbf H_\tau(x,t)=\nabla\times\mathbf A_\tau(x,t).
-$$
+```
 
 A candidate boundary functional density is
 
-$$
+```math
 \mathcal F_{\mathrm{boundary}}
 =
 \frac{1}{2}\alpha\lVert\nabla\tau\rVert^2
 +
 \frac{1}{2}\beta\lVert\nabla\times\mathbf A_\tau\rVert^2
 +V(\tau,\mathbf A_\tau).
-$$
+```
 
 $\alpha$, $\beta$, and $V$ are effective coefficients or interaction terms. Every term must share compatible dimensions before quantitative use.
 
@@ -86,13 +86,13 @@ Until $\tau$, $\mathbf A_\tau$, $\alpha$, $\beta$, and $V$ are physically derive
 
 Let $Y_L$ be a local yield or threshold index:
 
-$$
+```math
 Y_L(x,t)\ge Y_{\mathrm{crit}}.
-$$
+```
 
 A generic response model may be written
 
-$$
+```math
 Y_L
 =
 F\!\left(
@@ -102,7 +102,7 @@ F\!\left(
 Q_{\mathrm{env}},
 R_{\mathrm{geom}}
 \right).
-$$
+```
 
 The function $F$ and threshold remain placeholders until a specific physical system supplies variables, units or normalisation, and a measurement protocol.
 
@@ -112,11 +112,11 @@ In physical tests, ordinary environmental, material, and geometry variables rema
 
 A geometry term may depend on shape, curvature, aspect ratio, symmetry, orientation, material, and field distribution:
 
-$$
+```math
 R_{\mathrm{geom}}
 =
 R(	ext{shape},\text{curvature},\text{aspect ratio},\text{symmetry},\theta,\text{material},\text{field distribution}).
-$$
+```
 
 Geometry already affects resonance, stress, field concentration, waveguiding, breakdown, and threshold behaviour. MKUFT's additional question is whether a common boundary-cost description improves held-out prediction after these ordinary effects are modelled.
 
@@ -126,23 +126,23 @@ No geometry is assigned a preferred angle or motion class without an independent
 
 Let $\hat{\mathbf n}_P$ be a normalised physical reference axis of the apparatus and $\hat{\mathbf n}_G$ the measured direction of the applied gradient. Define
 
-$$
+```math
 \theta
 =
 \arccos\!\left(\hat{\mathbf n}_P\cdot\hat{\mathbf n}_G\right).
-$$
+```
 
 This measures apparatus orientation relative to the gradient. It does not imply unusual propulsion or a privileged numerical angle.
 
 A generic scalar comparison score may use normalised components:
 
-$$
+```math
 J(\theta)
 =
 w_S\widetilde S_{\mathrm{boundary}}(\theta)
 -w_E\widetilde E_{\mathrm{cost}}(\theta)
 +w_R\widetilde R_{\mathrm{geom}}(\theta),
-$$
+```
 
 where the weights are fixed in advance. If unnormalised physical quantities are combined, the weights must carry the units required to make the expression meaningful.
 
@@ -158,32 +158,32 @@ The null is that geometry or orientation adds no predictive value once establish
 
 Let $\Gamma$ be an admissible physical trajectory set and $C[\gamma]$ a declared physical-state-space cost. A measured boundary condition may modify either:
 
-$$
+```math
 \Gamma\longrightarrow\Gamma_{\mathrm{boundary}},
-$$
+```
 
-$$
+```math
 C[\gamma]\longrightarrow C_{\mathrm{boundary}}[\gamma].
-$$
+```
 
 The testable question is whether
 
-$$
+```math
 C_{\mathrm{boundary}}[\gamma]
 \neq
 C_{\mathrm{standard}}[\gamma]
-$$
+```
 
 in a way predicted before measurement and unexplained by the ordinary baseline.
 
 A Gibbs-like path weight, where appropriate, requires a dimensionless exponent:
 
-$$
+```math
 P(B\mid A)
 \propto
 \sum_{\gamma\in\Gamma(A\to B)}
 \exp[-\beta C[\gamma]].
-$$
+```
 
 A physical apparatus trajectory belongs to a physical state space. It is not automatically an I-layer graph route or S-layer relation.
 

@@ -22,17 +22,17 @@ Unity is preserved through lawful relation and recoverable mapping, not by treat
 
 Let $K$ be a candidate invariant relation, let
 
-$$
+```math
 L\in\{S,I,P,O\}
-$$
+```
 
 be the active layer, and let $\theta_L$ collect the constraints, observables, units, noise sources, and admissible transitions specific to that layer.
 
 Define
 
-$$
+```math
 K_L=A_L(K;\theta_L),
-$$
+```
 
 where $A_L$ is an address map rather than a new ontology.
 
@@ -40,9 +40,9 @@ A valid cross-layer claim requires a stable core relation, explicit layer-specif
 
 Where a cross-layer coupling is formalised, a typed map may be written
 
-$$
+```math
 C_{LM}:\mathcal X_L\rightarrow\mathcal X_M,
-$$
+```
 
 or as a more general typed relation when a single-valued map is inappropriate.
 
@@ -93,19 +93,19 @@ Useful addresses include LUCY(I) for informational or routing coherence, LUCY(O)
 
 To avoid collision with $C$ as path cost and general coherence, new formal work uses $Y_L$ for the yield index. A general threshold template is
 
-$$
+```math
 Y_L(x,t)
 =
 \chi_L
 \frac{\lVert\nabla\tau_L(x,t)\rVert^2}
 {N_L(x,t)+\varepsilon_L},
-$$
+```
 
 with threshold
 
-$$
+```math
 Y_L(x,t)\ge Y_*.
-$$
+```
 
 Here $\tau_L$ is a layer-specific potential, tension, or state variable; $\chi_L$ is layer-specific sensitivity; $N_L$ is layer-specific noise or disorder; and $\varepsilon_L$ is a declared stabiliser preventing invalid singularity.
 
@@ -141,28 +141,28 @@ A group event is a coupled system across existing addresses: individual O-layer 
 
 A candidate group form is
 
-$$
+```math
 \kappa_{\mathrm{group}}
 =
 \Phi(\kappa_1,\ldots,\kappa_N,C_{\mathrm{corr}}),
-$$
+```
 
 with one simple approximation
 
-$$
+```math
 \kappa_{\mathrm{group}}
 =
 A_{\mathrm{align}}
 \frac{1}{N}\sum_{i=1}^{N}\kappa_i,
-$$
+```
 
 and environmental modulation
 
-$$
+```math
 \kappa_{\mathrm{eff,group}}
 =
 \kappa_{\mathrm{group}}\,\eta(F_{\mathrm{env}}).
-$$
+```
 
 The ranges and interpretations of $\Phi$, $C_{\mathrm{corr}}$, and $\eta$ must be declared before quantitative use. These are working models rather than proof of a direct group-to-substrate mechanism.
 
@@ -184,17 +184,17 @@ Let $F_A$ and $F_B$ denote separate task values. Let $F_{\mathrm{add}}(A,B)$ be 
 
 Define
 
-$$
+```math
 G_{\mathrm{syn}}
 =
 F_{\mathrm{coupled}}-F_{\mathrm{add}}(A,B).
-$$
+```
 
 A positive reproducible $G_{\mathrm{syn}}$ is evidence of superadditive coupling relative to the declared baseline.
 
 For example, if
 
-$$
+```math
 F_A=2,
 \qquad
 F_B=2,
@@ -202,13 +202,13 @@ F_B=2,
 F_{\mathrm{add}}=4,
 \qquad
 F_{\mathrm{coupled}}=6,
-$$
+```
 
 then
 
-$$
+```math
 G_{\mathrm{syn}}=2.
-$$
+```
 
 “More than the sum of its parts” refers to the positive excess $2$, not merely to the fact that the score $6$ belongs to the coupled system.
 

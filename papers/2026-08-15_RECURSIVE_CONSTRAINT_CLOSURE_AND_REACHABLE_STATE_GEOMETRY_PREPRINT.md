@@ -20,7 +20,7 @@ Adaptive systems are often represented as trajectories through a fixed state spa
 
 The central proposal is that prior organisation can become part of the active constraint structure which conditions later admissibility. In schematic form,
 
-\[
+```math
 \text{previous organisation}
 \rightarrow
 \text{consolidated typed constraints}
@@ -30,7 +30,7 @@ The central proposal is that prior organisation can become part of the active co
 \text{changed future reach}
 \rightarrow
 \text{updated organisation}.
-\]
+```
 
 The framework introduces an explicit construction/state-space address, a no-false-subtraction rule for comparisons across changed addresses, an endogenous admissibility scaffold that requires no internal homunculus, and a two-scale distinction under which a decrease in lower-scale feasible-state volume may coexist with an increase in higher-scale viable capability. It also supplies an overconstraint control, relation-typed recurrence test, ablation programme, fixed-space null, and a strict boundary between useful higher-level informational description and any stronger claim of independent information-to-physical dynamics.
 
@@ -42,9 +42,9 @@ The paper does **not** claim that constraints, closure, enablement, changing pos
 
 A conventional adaptive model often takes the form
 
-\[
+```math
 x_{t+1}=F(x_t,u_t),
-\]
+```
 
 with a fixed state space, fixed interpretation of the variables, and a transition rule whose domain remains stable. This is an excellent representation when the system changes **inside** one already-defined space.
 
@@ -68,9 +68,9 @@ A theory that fails to separate these operations can accidentally compare mathem
 
 ## 2. Addressed adaptive system
 
-Let the adaptive system at step \(t\) be represented by
+Let the adaptive system at step $t$ be represented by
 
-\[
+```math
 \mathfrak A_t
 =
 \left(
@@ -81,50 +81,50 @@ Let the adaptive system at step \(t\) be represented by
  \mathbf v_t,
  H_t
 \right),
-\]
+```
 
 where:
 
-- \(\alpha_t\) is the active construction/state-space address;
-- \(x_t\in\mathcal X_{\alpha_t}\) is the realised state at that address;
-- \(\mathcal C_t\) is the active typed constraint family;
-- \(\mathcal M_t\) is the maintenance/dependence relation among relevant constraints and processes;
-- \(\mathbf v_t\) is a typed evaluation or valence object where the domain supplies one;
-- \(H_t\) is retained history or lineage relevant to the next transition.
+- $\alpha_t$ is the active construction/state-space address;
+- $x_t\in\mathcal X_{\alpha_t}$ is the realised state at that address;
+- $\mathcal C_t$ is the active typed constraint family;
+- $\mathcal M_t$ is the maintenance/dependence relation among relevant constraints and processes;
+- $\mathbf v_t$ is a typed evaluation or valence object where the domain supplies one;
+- $H_t$ is retained history or lineage relevant to the next transition.
 
 This tuple is an audit scaffold rather than a claim that all adaptive systems possess identical mechanisms.
 
 Define the family of addressed spaces
 
-\[
+```math
 \{\mathcal X_\alpha\}_{\alpha\in A}
-\]
+```
 
 and their disjoint addressed union
 
-\[
+```math
 \mathfrak X
 =
 \bigsqcup_{\alpha\in A}
 \{\alpha\}\times\mathcal X_\alpha.
-\]
+```
 
 An adaptive transition is then evaluated on the current addressed system state and an admissible input or action:
 
-\[
+```math
 \mathfrak F_t(\mathfrak A_t,u_t)
 =
 (\alpha_{t+1},x_{t+1})
 \in\mathfrak X,
-\]
+```
 
 with
 
-\[
+```math
 x_{t+1}\in\mathcal X_{\alpha_{t+1}}.
-\]
+```
 
-The explicit address prevents a quiet category error: if \(\alpha_{t+1}\neq\alpha_t\), the two state objects need not inhabit one common vector space merely because both are denoted by \(x\).
+The explicit address prevents a quiet category error: if $\alpha_{t+1}\neq\alpha_t$, the two state objects need not inhabit one common vector space merely because both are denoted by $x$.
 
 ---
 
@@ -132,9 +132,9 @@ The explicit address prevents a quiet category error: if \(\alpha_{t+1}\neq\alph
 
 If the address changes, an expression such as
 
-\[
+```math
 x_{t+1}-x_t
-\]
+```
 
 is **not automatically defined**.
 
@@ -166,36 +166,36 @@ The rule is methodological rather than metaphysical. It does not assert that nat
 
 Let the realised organisation be
 
-\[
+```math
 \mathcal O_t^{\mathrm{org}}
 =
 (\mathcal C_t,\mathcal M_t,H_t,\alpha_t).
-\]
+```
 
 Define an admissibility or discrimination function
 
-\[
+```math
 a_t(x,u)
 =
 \mathcal D\!\left(x,u;\mathcal O_t^{\mathrm{org}}\right),
 \qquad
 0\le a_t\le1,
-\]
+```
 
 and the admissible transition set
 
-\[
+```math
 \mathcal U_t^{\mathrm{adm}}(x)
 =
 \left\{
  u\in\mathcal U_t:
  a_t(x,u)\ge\theta_t
 \right\}.
-\]
+```
 
 The point is structural: the discriminator need not be represented as a second executive agent observing the system from inside. The **current realised organisation** can parameterise which transitions are accessible, stable, selected, inhibited, costly, or destructive.
 
-This does not imply consciousness, intention, morality, or a hidden controller. In any concrete application, \(\mathcal D\) must be realised by domain-appropriate processes and should be testable by intervention or deformation.
+This does not imply consciousness, intention, morality, or a hidden controller. In any concrete application, $\mathcal D$ must be realised by domain-appropriate processes and should be testable by intervention or deformation.
 
 ---
 
@@ -203,7 +203,7 @@ This does not imply consciousness, intention, morality, or a hidden controller. 
 
 Define the one-step reachable set
 
-\[
+```math
 \mathcal R_t(\mathfrak A_t)
 =
 \left\{
@@ -212,47 +212,47 @@ Define the one-step reachable set
 \text{ such that }
 (\alpha',x')=\mathfrak F_t(\mathfrak A_t,u)
 \right\}.
-\]
+```
 
 An adaptive update may therefore alter not only the realised state but the geometry of later reach:
 
-\[
+```math
 \mathfrak A_t
 \rightarrow
 \mathfrak A_{t+1}
 \rightarrow
 \mathcal R_{t+1}(\mathfrak A_{t+1}).
-\]
+```
 
 A constraint-learning rule may be represented schematically as
 
-\[
+```math
 \mathcal C_{t+1}
 =
 \mathcal L_C
 \left(
 \mathcal C_t,H_t,\mathbf v_t,e_t
 \right),
-\]
+```
 
-where \(e_t\) denotes an event, error, outcome, or environmental interaction.
+where $e_t$ denotes an event, error, outcome, or environmental interaction.
 
 Where the update rule itself changes,
 
-\[
+```math
 \mathfrak F_{t+1}
 =
 \mathcal L_F
 \left(
 \mathfrak F_t,\mathcal C_{t+1},H_{t+1}
 \right)
-\]
+```
 
 can be used as a higher-order scaffold.
 
 The candidate invariant is therefore:
 
-\[
+```math
 \boxed{
 \text{organisation}
 \rightarrow
@@ -262,7 +262,7 @@ The candidate invariant is therefore:
 \rightarrow
 \text{reachable-set update}
 }
-\]
+```
 
 When this relation is realised, earlier organisation is not merely stored historical content. It participates in the conditions under which later states can be reached.
 
@@ -276,17 +276,17 @@ Consolidation is not synonymous with beneficial progress and need not be irrever
 
 For a discrete operational model, define a directed maintenance graph
 
-\[
+```math
 G_t^C=(\mathcal C_t,E_t^M),
-\]
+```
 
 where
 
-\[
+```math
 c_i\rightarrow c_j
-\]
+```
 
-means that a process organised under constraint \(c_i\) contributes to maintaining, regenerating, or enabling \(c_j\) at the stated time scale.
+means that a process organised under constraint $c_i$ contributes to maintaining, regenerating, or enabling $c_j$ at the stated time scale.
 
 A strongly connected component of this graph can serve as an operational proxy for a mutually supporting closure loop. It is not asserted to be identical to every biological formulation of closure of constraints.
 
@@ -302,19 +302,19 @@ These must not be collapsed into one universal scalar merely because each can in
 
 Write
 
-\[
+```math
 \mathbf v_t
 =
 \left(v_t^{(1)},v_t^{(2)},\ldots,v_t^{(k)}\right),
-\]
+```
 
 where each component has a declared scale, meaning, measurement rule, and relation class.
 
 A scalarisation such as
 
-\[
+```math
 \sum_jv_t^{(j)}
-\]
+```
 
 is scientifically meaningful only if the components are commensurable or an explicit transformation is justified in advance.
 
@@ -324,39 +324,39 @@ Physical/sensory contrast, organism-level viability, organisational cohesion, li
 
 ## 8. Local feasible freedom and higher-scale capability
 
-Let \(\mathcal F_{\ell,t}\) denote a feasible lower-scale state set with measure \(\mu_\ell\), and let \(\mathcal K_{L,t}(B)\) denote the higher-scale functions, outcomes, or tasks reachable within budget \(B\), with measure or count \(\nu_L\).
+Let $\mathcal F_{\ell,t}$ denote a feasible lower-scale state set with measure $\mu_\ell$, and let $\mathcal K_{L,t}(B)$ denote the higher-scale functions, outcomes, or tasks reachable within budget $B$, with measure or count $\nu_L$.
 
 When each before/after observable has a lawful common comparison space, an organisational update may produce
 
-\[
+```math
 \Delta\mu_\ell
 =
 \mu_\ell(\mathcal F_{\ell,t+1})
 -
 \mu_\ell(\mathcal F_{\ell,t})
 <0,
-\]
+```
 
 while
 
-\[
+```math
 \Delta\nu_L
 =
 \nu_L(\mathcal K_{L,t+1})
 -
 \nu_L(\mathcal K_{L,t})
 >0.
-\]
+```
 
 This is an **enabling-constraint pattern**: lower-scale degrees of freedom decrease while higher-scale viable capability expands.
 
 An overconstrained system may instead exhibit
 
-\[
+```math
 \Delta\mu_\ell<0,
 \qquad
 \Delta\nu_L<0.
-\]
+```
 
 Therefore constraint count is not itself a measure of freedom, agency, quality, intelligence, or coherence.
 
@@ -368,25 +368,25 @@ This result resolves an apparent paradox without flattening scale. The lower-sca
 
 Similar architectures may recur because comparable constraint classes repeatedly make a family of solutions reachable, stable, or low-cost.
 
-For systems \(A\) and \(B\), let
+For systems $A$ and $B$, let
 
-\[
+```math
 K_C^{(A)}:\mathcal C_A\rightarrow\mathcal K_C,
 \qquad
 K_C^{(B)}:\mathcal C_B\rightarrow\mathcal K_C
-\]
+```
 
 map domain-specific constraints into a declared comparison space.
 
 A recurrence claim should require
 
-\[
+```math
 d_C\!\left(
 K_C^{(A)}(\mathcal C_A),
 K_C^{(B)}(\mathcal C_B)
 \right)
 \le\varepsilon_C,
-\]
+```
 
 plus functional or dynamical compatibility appropriate to the claimed relation.
 
@@ -447,7 +447,7 @@ No priority is claimed here for the following ideas in isolation:
 
 The candidate contribution advanced in this paper is the **specific conjunction and operationalisation** of:
 
-1. an explicit construction/state-space address \(\alpha_t\);
+1. an explicit construction/state-space address $\alpha_t$;
 2. a family of addressed spaces rather than forced fixed-space comparison;
 3. the no-false-subtraction / no-unearned-state-parity rule across changed addresses;
 4. endogenous admissibility parameterised by current realised organisation without introducing a homunculus;
@@ -470,11 +470,11 @@ That statement is intended as a precise provenance and scientific-priority claim
 
 ### 12.1 Fixed-space versus adaptive-address prediction
 
-Predeclare whether the system is expected merely to tune a policy inside a fixed \(\mathcal X\), or whether learning is expected to alter \(\alpha\), \(\mathcal C\), admissible actions, variables, decoder, or update rule. Compare held-out predictive performance of the two model classes.
+Predeclare whether the system is expected merely to tune a policy inside a fixed $\mathcal X$, or whether learning is expected to alter $\alpha$, $\mathcal C$, admissible actions, variables, decoder, or update rule. Compare held-out predictive performance of the two model classes.
 
 ### 12.2 Load-bearing constraint ablation
 
-Identify a proposed consolidated constraint \(c_i\), perturb or remove it while preserving as much unrelated structure as possible, and measure the predicted change in higher-scale capability.
+Identify a proposed consolidated constraint $c_i$, perturb or remove it while preserving as much unrelated structure as possible, and measure the predicted change in higher-scale capability.
 
 A claimed enabling constraint should cause selective deformation of the capability it is proposed to support rather than arbitrary global damage.
 
@@ -484,11 +484,11 @@ Introduce a comparable number or complexity of constraints that do not preserve 
 
 ### 12.4 Closure-edge disruption
 
-Break a predicted maintenance edge in \(G_t^C\) while preserving component inventory. Test whether the closure-dependent organisation degrades in the predicted direction and whether repair restores it where reversible.
+Break a predicted maintenance edge in $G_t^C$ while preserving component inventory. Test whether the closure-dependent organisation degrades in the predicted direction and whether repair restores it where reversible.
 
 ### 12.5 Scale-separated freedom/capability measurement
 
-Measure \(\Delta\mu_\ell\) and \(\Delta\nu_L\) independently. Do not infer one from the other.
+Measure $\Delta\mu_\ell$ and $\Delta\nu_L$ independently. Do not infer one from the other.
 
 ### 12.6 Rule-change discriminator
 
@@ -528,13 +528,13 @@ Within MKUFT, the framework can be represented at an information-layer address, 
 
 The physical-only null can be written schematically as
 
-\[
+```math
 H_0:
 Y_{t+\Delta}
 \perp\!\!\!\perp
 I_t
 \mid P_t,H_t.
-\]
+```
 
 A stronger information-to-physical claim requires a defined informational variable or relation, a lawful interface into the physical layer, representation-robust specification, and prospective or interventional gain beyond the strongest adequate physical state/history baseline.
 

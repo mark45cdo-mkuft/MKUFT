@@ -48,28 +48,28 @@ MKUFT may use **stored tension** as an intuitive bridge for a scalar candidate v
 
 A gradient may be written
 
-$$
+```math
 \mathbf G_\tau=-\nabla\tau.
-$$
+```
 
 If rotational structure is required, it must arise from an appropriate vector field $\mathbf A_\tau$:
 
-$$
+```math
 \mathbf H_\tau=\nabla\times\mathbf A_\tau.
-$$
+```
 
 A scalar field does not acquire a curl by terminology.
 
 A schematic effective functional may contain terms such as
 
-$$
+```math
 \mathcal F
 =
 \frac{1}{2}\alpha\lVert\nabla\tau\rVert^2
 +
 \frac{1}{2}\beta\lVert\nabla\times\mathbf A_\tau\rVert^2
 +V(\tau,\mathbf A_\tau),
-$$
+```
 
 but this is not automatically an electromagnetic energy density. Units, couplings, and empirical interpretation must be supplied.
 
@@ -79,12 +79,12 @@ Transmission lines, waveguides, cavities, dielectric interfaces, conductors, gro
 
 A generic candidate field variable may obey a wave-like equation,
 
-$$
+```math
 \frac{\partial^2\tau}{\partial t^2}
 =
 v_\tau^2\nabla^2\tau
 -\mathcal L(\tau,\nabla\tau,\text{boundary},\text{material}),
-$$
+```
 
 where $v_\tau$ and $\mathcal L$ require physical definition before comparison with electromagnetic propagation.
 
@@ -98,12 +98,12 @@ MKUFT's useful comparative question is whether resonance can be represented as r
 
 A candidate path weight may be written
 
-$$
+```math
 P(B\mid A)
 \propto
 \sum_{\gamma\in\Gamma(A\to B)}
 \exp[-\beta C[\gamma]],
-$$
+```
 
 where $C[\gamma]$ and $\beta$ are defined for the chosen model. This is a modelling bridge, not an alternative derivation of Maxwell's equations.
 
@@ -125,17 +125,17 @@ MKUFT may compare the solar environment with a larger constraint or coherence sy
 
 Newtonian gravitation is written
 
-$$
+```math
 F=G\frac{m_1m_2}{r^2},
-$$
+```
 
 while general relativity relates spacetime geometry to stress–energy through
 
-$$
+```math
 G_{\mu\nu}+\Lambda g_{\mu\nu}
 =
 \frac{8\pi G}{c^4}T_{\mu\nu}.
-$$
+```
 
 MKUFT's physics-facing question is whether a deeper relational architecture can eventually recover this geometric regime rather than merely redescribe it.
 
@@ -149,11 +149,11 @@ Dark matter and dark energy are constrained by a broad cosmological evidence bas
 
 A useful placeholder decomposition is
 
-$$
+```math
 G_{\mathrm{obs}}
 =
 G_{\mathrm{visible}}+G_{\mathrm{unexplained}},
-$$
+```
 
 where the unexplained term may ultimately correspond to unseen matter, modified dynamics, effective geometry, systematic error, or another physical model. MKUFT does not currently derive the required cosmological term.
 

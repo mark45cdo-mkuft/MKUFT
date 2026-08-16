@@ -28,45 +28,45 @@ The shared object is a typed **constraint-to-admissibility grammar**, not a clai
 
 Let a declared system at time `t` have addressed components or regions
 
-$$
+```math
 \mathcal U_t=\{U_1,\ldots,U_n\},
-$$
+```
 
 with local state spaces
 
-$$
+```math
 \mathcal F_t(U_i).
-$$
+```
 
 The ambient assignment space is
 
-$$
+```math
 \mathcal L_t
 =
 \prod_{i=1}^{n}\mathcal F_t(U_i).
-$$
+```
 
 This product is bookkeeping for simultaneous coordinate assignments. It does **not** assert statistical independence, causal independence, separability, or physical isolation of the factors.
 
 Where physical/geometric overlap is meaningful, let
 
-$$
+```math
 N_t=N(\mathcal U_t)
-$$
+```
 
 be the nerve of the cover. The nerve is useful for genuinely local geometric relations, but it is not the whole bracket.
 
 Define a broader typed relation-scope family
 
-$$
+```math
 \mathfrak E_t=\{r_1,\ldots,r_m\}.
-$$
+```
 
 Each relation `r` has a non-empty support
 
-$$
+```math
 S(r)\subseteq\{1,\ldots,n\},
-$$
+```
 
 plus a declared relation type, scale, role structure where direction/asymmetry matters, and measurement rule.
 
@@ -74,18 +74,18 @@ A relation scope may represent geometric overlap, regulatory coupling, system–
 
 Geometric overlap relations form at most a typed subfamily
 
-$$
+```math
 \mathfrak E_t^{\mathrm{geom}}\subseteq\mathfrak E_t.
-$$
+```
 
 For a relation `r` and coordinate `i\in S(r)`, let
 
-$$
+```math
 \eta_{i\rightarrow r}:
 \mathcal F_t(U_i)
 \rightarrow
 \mathcal Y_{r,i}
-$$
+```
 
 extract or translate the state information relevant to that relation. For a genuine geometric overlap, `eta` may reduce to an ordinary restriction map onto the shared domain. For other relation types it must be separately defined and justified.
 
@@ -95,13 +95,13 @@ extract or translate the state information relevant to that relation. For a genu
 
 For assignment
 
-$$
+```math
 a_t=(a_1,\ldots,a_n)\in\mathcal L_t,
-$$
+```
 
 define a typed residual for each declared relation
 
-$$
+```math
 e_r(a_t)
 =
 \Psi_r
@@ -111,13 +111,13 @@ e_r(a_t)
 \right\}_{i\in S(r)}
 \right)
 \geq0,
-$$
+```
 
 where `Psi_r` is defined so that `e_r=0` means exact compatibility under that relation and larger values mean larger disagreement in the declared residual geometry.
 
 Let `epsilon_r` be a preregistered tolerance in the same units as `e_r`. Define
 
-$$
+```math
 \chi_B(a_t)
 =
 \mathbf 1
@@ -125,13 +125,13 @@ $$
 e_r(a_t)\leq\varepsilon_r
 \quad\forall r\in\mathfrak E_t
 \right].
-$$
+```
 
 The componentwise test is primary. Different residual types must not be summed merely because they are numerical.
 
 The bracket selects the compatible assignment region
 
-$$
+```math
 \boxed{
 \mathfrak C_{B,t}
 =
@@ -141,25 +141,25 @@ a\in\mathcal L_t:
 \right\}
 \subseteq\mathcal L_t.
 }
-$$
+```
 
 For reporting, retain
 
-$$
+```math
 \mathbf e_B(a_t)
 =
 \left(e_r(a_t)\right)_{r\in\mathfrak E_t}.
-$$
+```
 
 Only after each residual has a lawful scale `s_r>0` may a dimensionless aggregate be formed:
 
-$$
+```math
 \widetilde e_r
 =
 \frac{e_r}{s_r},
-$$
+```
 
-$$
+```math
 E_B(a_t)
 =
 \left[
@@ -172,13 +172,13 @@ E_B(a_t)
 \qquad
 w_r\ge0,
 \quad p\ge1.
-$$
+```
 
 If no lawful normalisation exists, do not manufacture `E_B`; retain the typed residual vector.
 
 Define
 
-$$
+```math
 \boxed{
 \mathfrak B_t
 =
@@ -192,7 +192,7 @@ N_t,
 \Theta_t
 \right),
 }
-$$
+```
 
 where `Theta_t` contains declared tolerances, normalisations, comparison rules, and representation assumptions.
 
@@ -202,43 +202,43 @@ The bracket is not a container surrounding an object. It specifies **which coord
 
 Suppose coordinate `k` is missing, unobserved, or intentionally ablated while the remaining partial assignment
 
-$$
+```math
 a_{-k}
-$$
+```
 
 is retained.
 
 For candidate completion
 
-$$
+```math
 x\in\mathcal F_t(U_k),
-$$
+```
 
 define
 
-$$
+```math
 a_{-k}\oplus_k x
 =
 (a_1,\ldots,a_{k-1},x,a_{k+1},\ldots,a_n).
-$$
+```
 
 Separate relations that touch the missing address from those that do not:
 
-$$
+```math
 \mathfrak E_{k,t}
 =
 \{r\in\mathfrak E_t:k\in S(r)\},
-$$
+```
 
-$$
+```math
 \mathfrak E_{-k,t}
 =
 \{r\in\mathfrak E_t:k\notin S(r)\}.
-$$
+```
 
 Define the retained-background test
 
-$$
+```math
 \chi_{B,-k}(a_{-k})
 =
 \mathbf 1
@@ -246,11 +246,11 @@ $$
 e_r(a_{-k})\leq\varepsilon_r
 \quad\forall r\in\mathfrak E_{-k,t}
 \right]
-$$
+```
 
 for residuals well-defined without coordinate `k`, and the local completion test
 
-$$
+```math
 \chi_{B,k}(a_{-k}\oplus_k x)
 =
 \mathbf 1
@@ -258,17 +258,17 @@ $$
 e_r(a_{-k}\oplus_k x)\leq\varepsilon_r
 \quad\forall r\in\mathfrak E_{k,t}
 \right].
-$$
+```
 
 When
 
-$$
+```math
 \chi_{B,-k}(a_{-k})=1,
-$$
+```
 
 define
 
-$$
+```math
 \boxed{
 \Omega_{k,t}^{\mathrm{comp}}(a_{-k})
 =
@@ -277,13 +277,13 @@ x\in\mathcal F_t(U_k):
 \chi_{B,k}(a_{-k}\oplus_k x)=1
 \right\}.
 }
-$$
+```
 
 If the retained background is inconsistent, a missing-address inference is confounded. If
 
-$$
+```math
 \mathfrak E_{k,t}=\varnothing,
-$$
+```
 
 the bracket supplies no relation constraining that coordinate; it is unconstrained by this model rather than positively specified.
 
@@ -291,33 +291,33 @@ the bracket supplies no relation constraining that coordinate; it is unconstrain
 
 Let
 
-$$
+```math
 \pi_{-k}:\mathcal L_t
 \rightarrow
 \prod_{i\neq k}\mathcal F_t(U_i)
-$$
+```
 
 forget coordinate `k`, and let
 
-$$
+```math
 \pi_k:\mathcal L_t\rightarrow\mathcal F_t(U_k)
-$$
+```
 
 select it.
 
 The compatibility fiber over the retained assignment is
 
-$$
+```math
 \mathfrak F_{k,t}(a_{-k})
 =
 \mathfrak C_{B,t}
 \cap
 \pi_{-k}^{-1}(a_{-k}),
-$$
+```
 
 and
 
-$$
+```math
 \boxed{
 \Omega_{k,t}^{\mathrm{comp}}(a_{-k})
 =
@@ -325,7 +325,7 @@ $$
 \mathfrak F_{k,t}(a_{-k})
 \right).
 }
-$$
+```
 
 This is standard fiber/projection mathematics. Its role here is operational: **hold the retained relational address fixed and ask what values remain admissible at the missing coordinate.**
 
@@ -344,7 +344,7 @@ Thus:
 
 Where a lawful measure `mu_k` exists,
 
-$$
+```math
 A_{k,t}^{\mathrm{comp}}
 =
 \log\!\left(
@@ -355,45 +355,45 @@ A_{k,t}^{\mathrm{comp}}
 \mu_{0,k}
 }
 \right)
-$$
+```
 
 is a completion-ambiguity index. It is not automatically information, energy, or cost.
 
 For a time interval over which the bracket observables remain lawfully comparable,
 
-$$
+```math
 P_B(t;\tau)
 =
 \frac{1}{\tau}
 \int_t^{t+\tau}
 \chi_B(a_s)\,ds
-$$
+```
 
 may be used as a persistence fraction, with a preregistered requirement such as
 
-$$
+```math
 P_B(t;\tau)\ge1-\delta_B.
-$$
+```
 
 If relation scopes, state spaces, encodings, tolerances, or comparison rules change materially, use Module 31 transport/comparison discipline, partition the interval, or do not report one persistence scalar.
 
 Where a lawful dimensionless aggregate `E_B(t)` exists,
 
-$$
+```math
 D_B(t;T)
 =
 \int_{t-T}^{t}E_B(s)\,ds
-$$
+```
 
 defines mismatch exposure. It has units of time when `E_B` is dimensionless and is not automatically energy, entropy, damage, disease burden, or maintenance cost.
 
 Mismatch earns a **cost** interpretation only if it predicts or causally changes a separately measured typed cost object
 
-$$
+```math
 \mathbf c_t
 =
 \left(c_t^{(1)},\ldots,c_t^{(m)}\right)
-$$
+```
 
 under held-out or interventional testing.
 
@@ -401,28 +401,28 @@ under held-out or interventional testing.
 
 At declared layer/address `lambda`, let
 
-$$
+```math
 \mathfrak X_\lambda
 =
 \bigsqcup_{\alpha\in A_\lambda}
 \{\alpha\}\times\mathcal X_{\lambda,\alpha}
-$$
+```
 
 be the addressed state family.
 
 Let
 
-$$
+```math
 \mathbf r_{\lambda,t}
 \in
 \mathcal Z_{\lambda,t}^{R}
-$$
+```
 
 denote the realised typed relation-state object generated by the declared relation scopes and current organisation. `\mathcal Z^R` is implementation-specific; it is not assumed to be one universal relation space.
 
 For current construction address `alpha_t`, define schematically
 
-$$
+```math
 \mathcal Q_{\lambda,t}:
 \mathcal Z_{\lambda,t}^{R}
 \times
@@ -431,15 +431,15 @@ $$
 \mathcal H_{\lambda,t}
 \longrightarrow
 2^{\mathfrak X_\lambda},
-$$
+```
 
 with
 
-$$
+```math
 \mathcal Q_{\lambda,t}(\mathbf r,x,h)
 =
 \Omega_{\lambda,t}^{\mathrm{adm}}.
-$$
+```
 
 The output is an **addressed admissible region** and may include transitions into a different construction/state-space address where the implementation permits that change.
 
@@ -451,50 +451,50 @@ This operator is a scaffold, not a universal physical law. It covers as typed sp
 
 Let
 
-$$
+```math
 p_t\in\mathcal P_t
-$$
+```
 
 be measured physical state, `H_t^P` the relevant measured physical history, and
 
-$$
+```math
 i_t\in\mathcal I_t
-$$
+```
 
 a candidate information/relation variable.
 
 Represent the empirical question by
 
-$$
+```math
 K_P
 \left(
 dp_{t+\Delta}
 \mid
 p_t,H_t^P,i_t
 \right).
-$$
+```
 
 The corresponding support is
 
-$$
+```math
 \Omega_{P,t}^{\mathrm{adm}}(i_t)
 =
-\operatorname{supp}
+\mathrm{supp}
 K_P
 \left(
 \cdot\mid p_t,H_t^P,i_t
 \right).
-$$
+```
 
 For a preregistered lawful relation deformation
 
-$$
+```math
 i_t\rightarrow\widetilde i_t,
-$$
+```
 
 a generic distributional effect score is
 
-$$
+```math
 \Lambda_{I\rightarrow P}
 =
 \mathbb E
@@ -505,36 +505,36 @@ K_P(\cdot\mid p,H,i),
 K_P(\cdot\mid p,H,\widetilde i)
 \right)
 \right].
-$$
+```
 
 A support-level test may instead use
 
-$$
+```math
 d_\Omega
 \left(
 \Omega_P^{\mathrm{adm}}(i),
 \Omega_P^{\mathrm{adm}}(\widetilde i)
 \right)
 >\eta_\Omega.
-$$
+```
 
 A non-zero conditional difference is not automatically causal. If `i` cannot be changed or causally identified independently of relevant P variables, report predictive association rather than causal I→P evidence.
 
 The existing physical-only null remains controlling:
 
-$$
+```math
 H_0:
 Y_{t+\Delta}
 \perp\!\!\!\perp
 I_t
 \mid P_t,H_t^P.
-$$
+```
 
 If
 
-$$
+```math
 i_t=f(P_t,H_t^P)
-$$
+```
 
 under an adequate physical description, the I-layer variable may remain a useful relational abstraction or compression, but independent I→P dynamics have not been established.
 
@@ -558,48 +558,48 @@ The compatibility region supports complementary zoom-in and zoom-out questions.
 
 Fix retained coordinates and ask which states remain admissible at a missing coordinate:
 
-$$
+```math
 \mathfrak F_{k,t}(a_{-k})
 =
 \mathfrak C_{B,t}
 \cap
 \pi_{-k}^{-1}(a_{-k}),
-$$
+```
 
-$$
+```math
 \Omega_{k,t}^{\mathrm{comp}}
 =
 \pi_k(\mathfrak F_{k,t}).
-$$
+```
 
 ### 9.2 Zoom out — quotient
 
 Let a declared higher-scale readout be
 
-$$
+```math
 R_{\ell\rightarrow L}:
-\operatorname{Dom}(R_{\ell\rightarrow L})
+\mathrm{Dom}(R_{\ell\rightarrow L})
 \subseteq
 \mathfrak C_{B,\ell}
 \longrightarrow
 \mathcal Y_L.
-$$
+```
 
 Define
 
-$$
+```math
 a\sim_R a'
 \quad\Longleftrightarrow\quad
 R_{\ell\rightarrow L}(a)
 =
 R_{\ell\rightarrow L}(a'),
-$$
+```
 
 or a tolerance-based analogue. Then
 
-$$
+```math
 \mathfrak C_{B,\ell}/\!\sim_R
-$$
+```
 
 groups compatible lower-scale assignments that are indistinguishable under the declared higher-scale readout.
 
@@ -609,13 +609,13 @@ The quotient is standard mathematics and is not automatically a physically auton
 
 For
 
-$$
-y\in\operatorname{Im}(R_{\ell\rightarrow L}),
-$$
+```math
+y\in\mathrm{Im}(R_{\ell\rightarrow L}),
+```
 
 define the compatible realisation class
 
-$$
+```math
 \boxed{
 \mathcal M_y
 =
@@ -623,23 +623,23 @@ $$
 \cap
 R_{\ell\rightarrow L}^{-1}(y).
 }
-$$
+```
 
 For any compatible `a` with `R(a)=y`,
 
-$$
+```math
 \mathcal M_y=[a]_{\sim_R}.
-$$
+```
 
 Thus one higher-scale readout state can correspond to many lower-scale compatible realisations.
 
 A lower-scale trajectory may therefore change while the higher-scale readout remains fixed:
 
-$$
+```math
 a_t\neq a_{t'}
 \quad\text{but}\quad
 R(a_t)=R(a_{t'})=y,
-$$
+```
 
 provided both states remain in `\mathcal M_y`.
 
@@ -653,7 +653,7 @@ A higher-scale effective object is promoted only after persistence, intervention
 
 Then schematically
 
-$$
+```math
 \boxed{
 \mathcal L_\ell
 \supseteq
@@ -663,24 +663,24 @@ $$
 \xrightarrow{\text{promotion tests}}
 O_L.
 }
-$$
+```
 
 To use the promoted whole at the next scale, declare
 
-$$
+```math
 \iota_{L\rightarrow L^+}:
 \mathcal O_L
 \rightarrow
 \mathcal X_{L^+}^{\mathrm{const}},
-$$
+```
 
 with
 
-$$
+```math
 \iota_{L\rightarrow L^+}(O_L)
 \in
 \mathcal X_{L^+}^{\mathrm{const}}.
-$$
+```
 
 That typed constituent may then participate in the next bracket's relation scopes.
 
@@ -730,25 +730,25 @@ Optical holography is useful because a spatial reconstruction can depend on dist
 
 A simple scalar scaffold is
 
-$$
+```math
 U_z
 =
 \mathcal H_z
 \left[
 A(x,y)e^{i\phi(x,y)}
 \right].
-$$
+```
 
 Under local mask `M(x,y)`,
 
-$$
+```math
 U_z^{(M)}
 =
 \mathcal H_z
 \left[
 M(x,y)A(x,y)e^{i\phi(x,y)}
 \right].
-$$
+```
 
 Metasurface holography provides a literal example in which local element orientation encodes phase and the reconstructed spatial object appears only after the relevant optical transform.
 

@@ -21,23 +21,23 @@ This module adds no new S–I–P–O layer, force, field, ontology, or physical
 
 Let
 
-$$
+```math
 \mathcal A_X(t)
 =
 \left(
 S_X(t),I_X(t),P_X(t),O_X(t);\mathcal C_X(t)
 \right),
-$$
+```
 
 with context descriptor
 
-$$
+```math
 \mathcal C_X(t)
 =
 \left(
 \mathcal E_t,\mathcal B_t,\mathcal H_t,\ell_t,\Xi_t
 \right).
-$$
+```
 
 Here $\mathcal E_t$ is the relevant environment, $\mathcal B_t$ the active boundary, $\mathcal H_t$ the relevant history or lineage, $\ell_t$ the active scale or resolution, and $\Xi_t$ the declared support or carrier conditions.
 
@@ -49,17 +49,17 @@ Let $\mathcal M_X$ be the declared class within which two states may still be co
 
 A deformation $D$ is admissible for a same-class comparison only when
 
-$$
+```math
 D[\mathcal A_X]\in\mathcal M_X.
-$$
+```
 
 Define
 
-$$
+```math
 \mathfrak D_X^{\mathrm{adm}}
 =
 \left\{D:D[\mathcal A_X]\in\mathcal M_X\right\}.
-$$
+```
 
 If changing a relation, boundary, carrier, history term, or environmental condition moves the result outside $\mathcal M_X$, the operation has changed the comparison class rather than isolated one variable inside the same object.
 
@@ -71,9 +71,9 @@ Context is not automatically constitutive. A variable may be incidental for one 
 
 Where $\mathcal M_X$ has a usable local geometric structure, an infinitesimal same-class perturbation $v$ should lie in the tangent cone
 
-$$
+```math
 v\in T_{\mathcal M_X}(\mathcal A_X).
-$$
+```
 
 If $\mathcal M_X$ is smooth at the active address, this reduces to the ordinary tangent space condition.
 
@@ -89,43 +89,43 @@ Let $x\in\mathcal X$ be a system state and let $\mathcal Q_O^{\mathrm{adm}}$ be 
 
 For each probe $q$, define
 
-$$
+```math
 \mathcal R_{O,q}:\mathcal X\rightarrow\mathcal Y_q.
-$$
+```
 
 States are indistinguishable relative to that readout family when
 
-$$
+```math
 x\sim_O x'
 \quad\Longleftrightarrow\quad
 \mathcal R_{O,q}(x)=\mathcal R_{O,q}(x')
 \quad
 \forall q\in\mathcal Q_O^{\mathrm{adm}}.
-$$
+```
 
 For stochastic or noisy readouts, exact equality should be replaced by equality or preregistered statistical indistinguishability of the corresponding output distributions under the declared measurement model.
 
 The equivalence class is
 
-$$
+```math
 [x]_O
 =
 \{x'\in\mathcal X:x'\sim_O x\},
-$$
+```
 
 and the resolved description belongs to the quotient
 
-$$
+```math
 \mathcal X/\!\sim_O.
-$$
+```
 
 Define the quotient projection
 
-$$
+```math
 \pi_O:\mathcal X\rightarrow\mathcal X/\!\sim_O,
 \qquad
 \pi_O(x)=[x]_O.
-$$
+```
 
 If $x\neq x'$ while $x\sim_O x'$, the distinction is unobservable relative to the declared model, boundary, and measurement family. This does not imply that every conceivable measurement system would share the same limitation.
 
@@ -135,23 +135,23 @@ Let $\mathsf C_L(x)=1$ denote satisfaction of a declared layer-specific closure 
 
 It is consistent to have
 
-$$
+```math
 \mathsf C_L(x)=1
-$$
+```
 
 while some $x'\neq x$ still satisfies
 
-$$
+```math
 x'\sim_O x.
-$$
+```
 
 Therefore
 
-$$
+```math
 \text{layer-specific closure}
 \not\Rightarrow
 \text{complete measurement resolution}.
-$$
+```
 
 The reverse implication also does not hold. A registration system may resolve a state without thereby establishing a stronger physical or relational closure claim.
 
@@ -163,39 +163,39 @@ Module 21 defines an unresolved feasible region $\Omega_t^{(d)}$ and ambiguity-v
 
 Let
 
-$$
+```math
 F_Y:\Omega_t^{(d)}\rightarrow\mathcal Y
-$$
+```
 
 map each admissible state to the predicted target quantity or outcome. Let $d_Y$ be a declared metric or non-negative symmetric discrepancy on $\mathcal Y$; a non-symmetric divergence should be symmetrised or otherwise explicitly handled before the quantity below is called a diameter.
 
 Define the **consequence diameter**
 
-$$
+```math
 \Delta_Y(\Omega_t^{(d)})
 =
 \sup_{z,z'\in\Omega_t^{(d)}}
 d_Y(F_Y(z),F_Y(z')).
-$$
+```
 
 A useful ambiguity report is therefore the pair
 
-$$
+```math
 \mathfrak S_t^{(Y)}
 =
 \left(
 A_{t,\mathrm{vol}}^{(d)},
 \Delta_Y(\Omega_t^{(d)})
 \right),
-$$
+```
 
 rather than a single universal scalar.
 
 For preregistered tolerance $\delta_Y$, target-relative closure is
 
-$$
+```math
 \Delta_Y(\Omega_t^{(d)})\leq\delta_Y.
-$$
+```
 
 This permits a prediction, decision, or experimental question to close even when several underlying states remain unresolved.
 
@@ -205,60 +205,60 @@ This permits a prediction, decision, or experimental question to close even when
 
 Let
 
-$$
+```math
 \Omega=\Omega_t^{(d)}\subseteq\mathcal X
-$$
+```
 
 be the feasible region on which $F_Y$ is defined, and restrict the quotient projection to
 
-$$
+```math
 \pi_O^{\Omega}
 =
 \pi_O\!\mid_{\Omega}:
 \Omega\rightarrow\pi_O(\Omega).
-$$
+```
 
 The target is exactly recoverable from the $O$-resolved state on $\Omega$ when there exists a map
 
-$$
+```math
 \overline F_Y:\pi_O(\Omega)\rightarrow\mathcal Y
-$$
+```
 
 such that
 
-$$
+```math
 F_Y
 =
 \overline F_Y\circ\pi_O^{\Omega}.
-$$
+```
 
 Equivalently, for states inside the feasible region,
 
-$$
+```math
 x,x'\in\Omega,
 \quad
 x\sim_O x'
 \quad\Longrightarrow\quad
 F_Y(x)=F_Y(x').
-$$
+```
 
 If this condition holds, distinctions hidden inside one measurement-equivalence class are irrelevant to that target on the tested region.
 
 For approximate recovery, define the within-class target diameter
 
-$$
+```math
 \Delta_Y([x]_O\cap\Omega)
 =
 \sup_{z,z'\in[x]_O\cap\Omega}
 d_Y(F_Y(z),F_Y(z')).
-$$
+```
 
 Then $O$ resolves target $Y$ to tolerance $\delta_Y$ on the tested region when
 
-$$
+```math
 \Delta_Y([x]_O\cap\Omega)
 \leq\delta_Y
-$$
+```
 
 for every measurement-equivalence class intersecting $\Omega$.
 
@@ -272,15 +272,15 @@ The canonical LUCY definition remains the addressed threshold at which a relatio
 
 Where context is load-bearing, a yield index may be written schematically as
 
-$$
+```math
 Y_L(x,t;\mathcal C_X)
-$$
+```
 
 with threshold
 
-$$
+```math
 Y_L(x,t;\mathcal C_X)\geq Y_*.
-$$
+```
 
 The context argument records that a relational pattern need not have the same consequence under a different boundary, scale, support regime, history, or physical implementation.
 
@@ -292,15 +292,15 @@ A P-layer coordinate may participate in an I-layer relation without the two laye
 
 For physical separation $d$ and wavelength $\lambda$,
 
-$$
+```math
 \rho=\frac{d}{\lambda}
-$$
+```
 
 is a dimensionless relational coordinate. A phase relation may use
 
-$$
+```math
 \varphi=\mathbf k\cdot\mathbf r.
-$$
+```
 
 The physical distance, wavelength, field, material, and geometry remain P-layer quantities. The ratio or phase relation may be used as an I-layer descriptor.
 
@@ -310,34 +310,34 @@ Preserving the ratio or phase under scaling does not establish transfer of the f
 
 Let systems $A$ and $B$ have state spaces $\mathcal X_A$ and $\mathcal X_B$, dynamics $F_A$ and $F_B$, and invariant maps into a common comparison space $\mathcal K$:
 
-$$
+```math
 K_A:\mathcal X_A\rightarrow\mathcal K,
 \qquad
 K_B:\mathcal X_B\rightarrow\mathcal K.
-$$
+```
 
 For proposed mapping
 
-$$
+```math
 \Phi:\mathcal X_A\rightarrow\mathcal X_B,
-$$
+```
 
 relational preservation requires
 
-$$
+```math
 d_K\!\left(K_B(\Phi x),K_A(x)\right)
 \leq\varepsilon_K.
-$$
+```
 
 A stronger functional comparison also requires approximate dynamical compatibility:
 
-$$
+```math
 d_B\!\left(
 F_B(\Phi x),
 \Phi(F_A(x))
 \right)
 \leq\varepsilon_F.
-$$
+```
 
 For stochastic systems, transition kernels or predictive distributions replace deterministic update maps.
 
@@ -349,22 +349,22 @@ Therefore same graph form, ratio, symmetry, or verbal pattern is insufficient by
 
 Let
 
-$$
+```math
 \Pi:\mathcal X\rightarrow\mathcal Z,
 \qquad
 Z_t=\Pi(X_t)
-$$
+```
 
 define a candidate macrostate from lower-level state $X_t$.
 
 One candidate criterion for approximate predictive closure is
 
-$$
+```math
 I\!\left(
 Z_{t+1};X_{\leq t}\mid Z_t
 \right)
 \leq\varepsilon,
-$$
+```
 
 where the conditional mutual information is used only when the relevant distributions can be specified or estimated.
 
@@ -382,7 +382,7 @@ This is a methodological claim about access, not a proof that observer-independe
 
 Let $\alpha$ denote a **construction address** containing the choices that are load-bearing for the active model, schematically
 
-$$
+```math
 \alpha
 =
 \left(
@@ -392,7 +392,7 @@ $$
 \mathcal T_\alpha,
 \mathcal Q_\alpha
 \right),
-$$
+```
 
 where $\mathcal V_\alpha$ denotes the selected primitives or variables, $\sim_\alpha$ the declared equivalence rule, $\mathcal B_\alpha$ the model boundary or scope, $\mathcal T_\alpha$ the admissible transformations, and $\mathcal Q_\alpha$ the available questions, observables, or formal operations.
 
@@ -404,38 +404,38 @@ These entries are retained only where changing them can alter a conclusion. A ps
 
 Let
 
-$$
+```math
 \{\mathcal X_\alpha\}_{\alpha\in A}
-$$
+```
 
 be a declared family of representations intended to encode the same comparison object or structural target under different construction addresses.
 
 For an admissible pair of addresses, let
 
-$$
+```math
 T_{\alpha\beta}:\mathcal D_{\alpha\beta}\subseteq\mathcal X_\alpha
 \rightarrow\mathcal X_\beta
-$$
+```
 
 be a translation, re-encoding, coordinate change, or other lawful representation map on the domain where the comparison is defined.
 
 A candidate abstract invariant is represented at each address by
 
-$$
+```math
 K_\alpha:\mathcal X_\alpha\rightarrow\mathcal K,
-$$
+```
 
 where $\mathcal K$ is a declared comparison space.
 
 Representation stability requires
 
-$$
+```math
 d_K\!\left(
 K_\beta(T_{\alpha\beta}x),
 K_\alpha(x)
 \right)
 \leq\varepsilon_K
-$$
+```
 
 for the preregistered admissible translations and states under test.
 
@@ -449,7 +449,7 @@ This gives the operational rule:
 
 Let $\mathcal P_{\mathrm{adm}}$ be the declared set of admissible triples $(\alpha,\beta,x)$ for which the translation and comparison are defined. A representation-dependence diameter may be written
 
-$$
+```math
 D_K^{\mathrm{rep}}
 =
 \sup_{(\alpha,\beta,x)\in\mathcal P_{\mathrm{adm}}}
@@ -457,7 +457,7 @@ D_K^{\mathrm{rep}}
 K_\beta(T_{\alpha\beta}x),
 K_\alpha(x)
 \right).
-$$
+```
 
 $D_K^{\mathrm{rep}}$ is not a universal truth score. It measures sensitivity of the declared invariant to the tested representation family.
 
@@ -471,13 +471,13 @@ Let $G_\alpha(x)$ be a prediction, theorem-level consequence, classification, or
 
 A cross-address robustness test has the same form:
 
-$$
+```math
 d_G\!\left(
 G_\beta(T_{\alpha\beta}x),
 G_\alpha(x)
 \right)
 \leq\varepsilon_G.
-$$
+```
 
 Where this fails under a lawful translation, the analysis should identify which load-bearing construction choice carries the difference before attributing the disagreement to reality, observer effects, or a new mechanism.
 

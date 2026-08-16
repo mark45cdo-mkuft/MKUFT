@@ -146,15 +146,15 @@ These carry matched architecture controls, full-history replay, relationship spe
 
 [Ambiguity Dynamics and Manoeuvre Space](21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md) separates unresolved state volume, route connectivity, and preserved access:
 
-$$
+```math
 A_{t,\mathrm{vol}}^{(d)}
 =
 \log\!\left(1+\frac{\mu_d(\Omega_t^{(d)})}{\mu_{0,d}}\right),
-$$
+```
 
-$$
+```math
 M_t=A_{t,\mathrm{vol}}^{(d)}R_tX_t.
-$$
+```
 
 $M_t$ is a heuristic audit index, not a validated universal law.
 
@@ -162,15 +162,15 @@ $M_t$ is a heuristic audit index, not a validated universal law.
 
 [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md) represents a candidate invariant at layer $L$ as
 
-$$
+```math
 K_L=A_L(K;\theta_L),
-$$
+```
 
 with typed coupling
 
-$$
+```math
 C_{LM}:\mathcal X_L\rightarrow\mathcal X_M.
-$$
+```
 
 Repeated algebraic form does not establish a shared physical mechanism.
 
@@ -182,17 +182,17 @@ Repeated algebraic form does not establish a shared physical mechanism.
 
 [Agency Accessibility and Capture Geometry](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md) uses
 
-$$
+```math
 G_t(u;T_t,H_t)\in[0,1]
-$$
+```
 
 and
 
-$$
+```math
 U_t^{\mathrm{access}}
 =
 \left\{u\in U_t:G_t(u;T_t,H_t)>\theta_{\mathrm{access}}\right\}
-$$
+```
 
 to distinguish retained capacity from practical access under a declared model.
 
@@ -200,29 +200,29 @@ to distinguish retained capacity from practical access under a declared model.
 
 [Active Traversal and Functional Emergence](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) tests whether structured active traversal improves a predeclared functional score relative to matched controls:
 
-$$
+```math
 \Delta F(q)=F[\Psi_{\mathrm{struct}}(q)]-F[\Psi_{\mathrm{control}}(q)].
-$$
+```
 
 ### 24B — Strongest Fair Null
 
 [Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) defines the strongest fair scalar null as
 
-$$
+```math
 F_{\mathrm{null}}^{*}
 =
 \max\!\left\{
 F_A^{*},F_B^{*},F_{\mathrm{ind}}^{*},F_{A\to B}^{*},F_{B\to A}^{*},F_{\mathrm{replay}}^{*}
 \right\},
-$$
+```
 
 with
 
-$$
+```math
 G_{\mathrm{syn}}^{*}=F_{AB}-F_{\mathrm{null}}^{*},
 \qquad
 G_{\mathrm{path}}=F_{AB}-F_{\mathrm{replay}}^{*}.
-$$
+```
 
 ### 25 — Load-Bearing Deformation
 
@@ -232,15 +232,15 @@ $$
 
 [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) uses the typed cycle
 
-$$
+```math
 S\rightarrow I\rightarrow P\rightarrow O\rightarrow S.
-$$
+```
 
 The earlier placeholder
 
-$$
+```math
 U_n\xrightarrow{\mathrm{Update}_{\mathrm{SIPO}}}U_{n+1}
-$$
+```
 
 is now closed architecturally by Module 33 rather than remaining an unnamed task. The branch must still derive Bell/no-signalling and the accepted quantum/gravitational limits in concrete physical instantiations.
 
@@ -260,20 +260,20 @@ is now closed architecturally by Module 33 rather than remaining an unnamed task
 
 [Recursive Constraint Closure and Reachable-State Geometry](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) extends comparison discipline to adaptive systems whose active variables, state spaces, admissible actions or update rules may change.
 
-$$
+```math
 \mathfrak X
 =
 \bigsqcup_{\alpha\in A}
 \{\alpha\}\times\mathcal X_\alpha.
-$$
+```
 
 A possible enabling-constraint signature is
 
-$$
+```math
 \Delta\mu_\ell<0,
 \qquad
 \Delta\nu_L>0,
-$$
+```
 
 where lower feasible-state volume and higher-scale capability are separately measured in lawful comparison spaces.
 
@@ -293,37 +293,37 @@ where lower feasible-state volume and higher-scale capability are separately mea
 
 [Relational Brackets, Completion Geometry, and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) defines typed relation scopes, a compatible region
 
-$$
+```math
 \mathfrak C_{B,t}
 =
 \{a\in\mathcal L_t:\chi_B(a)=1\},
-$$
+```
 
 a missing-address completion fiber
 
-$$
+```math
 \mathfrak F_{k,t}(a_{-k})
 =
 \mathfrak C_{B,t}\cap\pi_{-k}^{-1}(a_{-k}),
-$$
+```
 
 and macrostate realisation class
 
-$$
+```math
 \mathcal M_y
 =
 \mathfrak C_{B,\ell}\cap R_{\ell\to L}^{-1}(y).
-$$
+```
 
 ### 32S4 — Intrinsic/Extrinsic Address and Transport
 
 [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) separates intrinsic relation class from contextual embedding, defines context-indexed P-realisations
 
-$$
+```math
 \mathcal F_P(\kappa;b,h)
 =
 \{p\in\mathfrak P:\chi_P(p;\kappa,b,h)=1\},
-$$
+```
 
 and adds lawful path/loop transport tests plus boundary-conditioned physical comparators. Same endpoint is insufficient where an actual history-dependent transport law exists.
 
@@ -333,33 +333,33 @@ and adds lawful path/loop transport tests plus boundary-conditioned physical com
 
 The complete addressed state/context first produces
 
-$$
+```math
 \Xi_t=\mathcal Q_t(\mathcal U_t,E_t).
-$$
+```
 
 The active P-law object is then assembled as
 
-$$
+```math
 \boxed{
 \mathfrak L_{P,t}
 =\mathfrak C_P(\Xi_t,P_t,E_t)
 =(\mathcal D_{P,t},\mathcal T_{P,t},\mathcal W_{P,t}).
 }
-$$
+```
 
 The compressed update is
 
-$$
+```math
 \boxed{
-\operatorname{Update}_{\mathrm{SIPO}}
+\mathrm{Update}_{\mathrm{SIPO}}
 =
-\operatorname{Readdress}
+\mathrm{Readdress}
 \circ
-\operatorname{Instrument}_{P\to(P,O)}
+\mathrm{Instrument}_{P\to(P,O)}
 \circ
-\operatorname{Propagate}_{P}^{\,\mathfrak L_P}.
+\mathrm{Propagate}_{P}^{\,\mathfrak L_P}.
 }
-$$
+```
 
 `Domain before generator` and `support before weighting` are retained as clean specialisations, while the general capstone permits a demonstrated relation to change domain, transition rule, weighting, or a typed combination. The P-only null remains controlling. This closes architecture, not the branch-specific quantum/gravitational derivation.
 
@@ -369,13 +369,13 @@ $$
 
 Let
 
-$$
+```math
 \mathcal J_{AB,t}
-$$
+```
 
 be a typed interface/junction state between addressed systems $A_t$ and $B_t$. Promotion requires: operational definition/trackability; a controlled prospective effect on $\Xi$, the active law object `(D,T,W)`, or another preregistered load-bearing outcome; and recursive back-action such that
 
-$$
+```math
 \mathcal J_{AB,t}
 \rightarrow
 (A_{t+\Delta},B_{t+\Delta})
@@ -383,7 +383,7 @@ $$
 \mathcal J_{AB,t+\Delta}
 \rightarrow
 \Xi_{t+\Delta}.
-$$
+```
 
 A fully P-recoverable interface can pass this state-representation gate; that does not establish independent I→P dynamics. If the coupled lower-scale object later passes the existing Module 32S promotion tests, the former boundary can become an internal relation of the promoted whole. Physical boundary work remains inside the energy ledger, and the Einstein–Rosen bridge is used only as a bounded geometric comparator rather than evidence for literal wormholes.
 

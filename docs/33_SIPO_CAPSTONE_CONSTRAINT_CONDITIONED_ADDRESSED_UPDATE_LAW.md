@@ -16,11 +16,11 @@
 
 Layer Before Law introduced
 
-$$
+```math
 \mathcal U_t
-\xrightarrow{\operatorname{Update}_{\mathrm{SIPO}}}
+\xrightarrow{\mathrm{Update}_{\mathrm{SIPO}}}
 \mathcal U_{t+\Delta}
-$$
+```
 
 as a deliberately undefined placeholder. The later canon supplied the missing dependencies: addressed state-space families, load-bearing relation sets, completion fibers, macro realisation classes, intrinsic/extrinsic address, temporal transport, context-indexed P-realisation, and an explicit P-only null for candidate I→P effects.
 
@@ -36,15 +36,15 @@ This is the operational content of **Layer Before Law**.
 
 Retain the substrate scaffold
 
-$$
+```math
 S^\star=(\Omega^\star,\Sigma^\star,\mu^\star)
-$$
+```
 
 as the ambient structured-possibility hypothesis.
 
 Do not silently interpret every recursive update as changing the whole ambient substrate. At time `t`, use an effective possibility object
 
-$$
+```math
 S_t^{\mathrm{eff}}
 =
 \left(
@@ -54,7 +54,7 @@ S_t^{\mathrm{eff}}
 \right),
 \qquad
 \Omega_t^{\mathrm{eff}}\subseteq\Omega^\star,
-$$
+```
 
 where the active support, sigma-algebra and measure are declared by the implementation.
 
@@ -70,7 +70,7 @@ When domain or boundary conditions are load-bearing, a differential expression, 
 
 Define a typed physical law object
 
-$$
+```math
 \boxed{
 \mathfrak L_{P,t}
 =
@@ -80,7 +80,7 @@ $$
 \mathcal W_{P,t}
 \right).
 }
-$$
+```
 
 - $\mathcal D_{P,t}$ — addressed physical state/path/operator domain on which the law is valid;
 - $\mathcal T_{P,t}$ — lawful transition relation, generator, propagator, flow, field equation or solution relation;
@@ -94,7 +94,7 @@ The law object therefore carries both the rule **and the conditions under which 
 
 Let the current complete addressed state be
 
-$$
+```math
 \boxed{
 \mathcal U_t
 =
@@ -107,13 +107,13 @@ b_t,
 H_t
 \right),
 }
-$$
+```
 
 with measured/controlled environment $E_t$ supplied where required by the claim.
 
 Let
 
-$$
+```math
 \boxed{
 \Xi_t
 =
@@ -122,7 +122,7 @@ $$
 \mathcal U_t,E_t
 \right)
 }
-$$
+```
 
 be the **typed admissibility descriptor** produced by the relation/address/compatibility architecture inherited from Module 32S3 and refined by 32S4. $\Xi_t$ is not required to be one scalar. It may contain typed constraints, support restrictions, boundary/context data, relation scopes, path/history restrictions, or other objects required to construct the active P-law.
 
@@ -132,7 +132,7 @@ Including the current P-state explicitly prevents the admissibility construction
 
 Define a **physical-law assembler**
 
-$$
+```math
 \boxed{
 \mathfrak C_P:
 \left(
@@ -147,19 +147,19 @@ $$
 \mathcal W_{P,t}
 \right).
 }
-$$
+```
 
 This is an architectural typing map, not a claim that one universal closed-form function already generates every physical law.
 
 The most conservative and best-controlled branch is **domain-only conditioning**:
 
-$$
+```math
 \boxed{
 \mathcal D_{P,t}
 =
 \mathfrak D_P(\Xi_t),
 }
-$$
+```
 
 while $\mathcal T_{P,t}$ and $\mathcal W_{P,t}$ are the standard P-law objects restricted or realised on that domain.
 
@@ -176,40 +176,40 @@ Thus **domain before generator** remains the minimal clean Layer-Before-Law bran
 
 Let
 
-$$
+```math
 P_t=(\beta_t,p_t)
 \in
 \mathfrak P
 =
 \bigsqcup_{\beta\in A_P}
 \{\beta\}\times\mathcal P_\beta.
-$$
+```
 
 Construct
 
-$$
+```math
 \Xi_t=\mathcal Q_t(\mathcal U_t,E_t),
-$$
+```
 
-$$
+```math
 \mathfrak L_{P,t}=\mathfrak C_P(\Xi_t,P_t,E_t).
-$$
+```
 
 Let
 
-$$
+```math
 P^-_{t+\Delta}
 \in
-\operatorname{Propagate}_{P,\Delta}^{\mathfrak L_{P,t}}(P_t)
-$$
+\mathrm{Propagate}_{P,\Delta}^{\mathfrak L_{P,t}}(P_t)
+```
 
 represent the pre-registration physical result. The propagation object may return a singleton, probability law, evolved quantum state/channel, or solution family according to the declared P-model.
 
 Measurement/registration is typed separately:
 
-$$
+```math
 \boxed{
-\operatorname{Instrument}_{P\rightarrow(P,O)}:
+\mathrm{Instrument}_{P\rightarrow(P,O)}:
 P^-_{t+\Delta}
 \longmapsto
 \left(
@@ -217,48 +217,48 @@ P_{t+\Delta},
 O_{t+\Delta}
 \right).
 }
-$$
+```
 
 An actual measurement interaction can alter P while creating an O-record. Passive observation is the special case in which the instrument leaves the relevant P-state unchanged.
 
-Finally, let $\operatorname{Readdress}_{t+\Delta}$ update typed address, retained history, relation/bracket structure, effective possibility and any promoted higher-scale variables.
+Finally, let $\mathrm{Readdress}_{t+\Delta}$ update typed address, retained history, relation/bracket structure, effective possibility and any promoted higher-scale variables.
 
 The capstone is
 
-$$
+```math
 \boxed{
-\operatorname{Update}_{\mathrm{SIPO},\Delta}(\mathcal U_t)
+\mathrm{Update}_{\mathrm{SIPO},\Delta}(\mathcal U_t)
 =
-\operatorname{Readdress}_{t+\Delta}
+\mathrm{Readdress}_{t+\Delta}
 \left[
 \mathcal U_t,
-\operatorname{Instrument}_{P\rightarrow(P,O)}
+\mathrm{Instrument}_{P\rightarrow(P,O)}
 \left(
-\operatorname{Propagate}_{P,\Delta}^{\,\mathfrak C_P(\mathcal Q_t(\mathcal U_t,E_t),P_t,E_t)}
+\mathrm{Propagate}_{P,\Delta}^{\,\mathfrak C_P(\mathcal Q_t(\mathcal U_t,E_t),P_t,E_t)}
 (P_t)
 \right)
 \right].
 }
-$$
+```
 
 The strongest readable operator form is
 
-$$
+```math
 \boxed{
-\operatorname{Update}_{\mathrm{SIPO}}
+\mathrm{Update}_{\mathrm{SIPO}}
 =
-\operatorname{Readdress}
+\mathrm{Readdress}
 \circ
-\operatorname{Instrument}_{P\rightarrow(P,O)}
+\mathrm{Instrument}_{P\rightarrow(P,O)}
 \circ
-\operatorname{Propagate}_{P}^{\,\mathfrak L_P},
+\mathrm{Propagate}_{P}^{\,\mathfrak L_P},
 \qquad
 \mathfrak L_P
 =
 \mathfrak C_P\circ\mathcal Q
 \ \text{(with typed state/context arguments).}
 }
-$$
+```
 
 The final composition shorthand suppresses the explicit $P,E$ arguments for readability; the expanded equation above controls.
 
@@ -278,18 +278,18 @@ current addressed S/I/P/O state + context/history
 
 Where a path/history descriptor is defined, let
 
-$$
+```math
 \gamma_t:
 P_t
 \rightsquigarrow
 P_{t+\Delta}
-$$
+```
 
 represent the realised transition, including the physical measurement interaction where load-bearing.
 
 Update history by
 
-$$
+```math
 \boxed{
 H_{t+\Delta}
 =
@@ -300,24 +300,24 @@ H_t
 O_{t+\Delta}
 \right),
 }
-$$
+```
 
 where $\oplus$ is typed append/update, not numerical addition.
 
 Extract the new extrinsic/contextual address via
 
-$$
+```math
 b_{t+\Delta}
 =
 \mathsf B
 \left(
 P_{t+\Delta},E_{t+\Delta}
 \right).
-$$
+```
 
 Recompute the relation state/bracket through
 
-$$
+```math
 I_{t+\Delta}
 =
 \mathsf R_I
@@ -327,26 +327,26 @@ P_{t+\Delta},
 O_{t+\Delta},b_{t+\Delta},
 H_{t+\Delta}
 \right).
-$$
+```
 
 In the physical-only null, $\mathsf R_I$ may reduce entirely to a function of adequate P-state/history and registered record.
 
 The next effective possibility object is
 
-$$
+```math
 S_{t+\Delta}^{\mathrm{eff}}
 =
 \mathsf R_S
 \left(
 S_t^{\mathrm{eff}},I_{t+\Delta},P_{t+\Delta},O_{t+\Delta},b_{t+\Delta},H_{t+\Delta}
 \right).
-$$
+```
 
 The minimum interpretation is recomputation of the next reachable/admissible support and associated measure. A stronger claim that ambient $S^\star$ changes is not inherited from the recursion.
 
 Thus
 
-$$
+```math
 \boxed{
 \mathcal U_{t+\Delta}
 =
@@ -354,7 +354,7 @@ $$
 S_{t+\Delta}^{\mathrm{eff}},I_{t+\Delta},P_{t+\Delta},O_{t+\Delta},b_{t+\Delta},H_{t+\Delta}
 \right).
 }
-$$
+```
 
 ## 8. Support before weighting
 
@@ -366,7 +366,7 @@ The capstone separates:
 
 Thus the dependency order is
 
-$$
+```math
 \boxed{
 \text{addressed admissibility}
 \rightarrow
@@ -376,7 +376,7 @@ $$
 \rightarrow
 \text{domain-appropriate weighting/selection}.
 }
-$$
+```
 
 This is a logical typing order, not a universal temporal sequence. In some physical formalisms transition and weighting structure are inseparable components of one law object; the tuple notation preserves that possibility rather than forcing an artificial decomposition.
 
@@ -384,7 +384,7 @@ This is a logical typing order, not a universal temporal sequence. In some physi
 
 When endpoint state is insufficient, use an admissible path family
 
-$$
+```math
 \Gamma_{t,\Delta}^{\mathrm{adm}}(P_t)
 =
 \left\{
@@ -393,25 +393,25 @@ $$
 \ \gamma(s)\in\mathcal D_{P,s},
 \ \text{declared relation/transport constraints pass}
 \right\}.
-$$
+```
 
 A path-dependent propagator may depend on this family rather than endpoint alone. If path history adds no preregistered value beyond ordinary hysteresis, drift or memory, reduce to endpoint-only modelling.
 
 At scale, let
 
-$$
+```math
 y_L=R_{\ell\rightarrow L}(a_\ell),
-$$
+```
 
 with lower realisation class
 
-$$
+```math
 \mathcal M_{y_L}
 =
 \mathfrak C_{B,\ell}
 \cap
 R_{\ell\rightarrow L}^{-1}(y_L).
-$$
+```
 
 Only after Module 32S promotion tests pass may the effective whole be inserted as a typed constituent of the next-scale bracket. It then participates in the next $\mathcal Q$ calculation and can change the next law object $\mathfrak L_{P,L}$.
 
@@ -429,13 +429,13 @@ lower relations constrain admissibility
 
 For set-valued dynamics
 
-$$
+```math
 \dot p_t\in F_P(p_t,t)
-$$
+```
 
 and admissible set $\mathcal D_{P,t}$, a viability-style specialisation is
 
-$$
+```math
 \boxed{
 \dot p_t
 \in
@@ -443,7 +443,7 @@ F_P(p_t,t)
 \cap
 T_{\mathcal D_{P,t}}(p_t),
 }
-$$
+```
 
 where $T_{\mathcal D}(p)$ is an appropriate contingent/tangent cone when its mathematical hypotheses hold.
 
@@ -453,41 +453,41 @@ If the intersection is empty, do not invent a transition. The state may leave th
 
 For a reference kernel
 
-$$
+```math
 K_P^0(dp'\mid p)
-$$
+```
 
 and admissibility function
 
-$$
+```math
 a_t(p,p')\in[0,1],
-$$
+```
 
 one **conditioning** specialisation is
 
-$$
+```math
 Z_t(p)=\int a_t(p,q)K_P^0(dq\mid p),
-$$
+```
 
-$$
+```math
 \boxed{
 K_{P,t}^{\mathrm{adm}}(dp'\mid p)
 =
 \frac{a_t(p,p')K_P^0(dp'\mid p)}{Z_t(p)},
 \qquad Z_t(p)>0.
 }
-$$
+```
 
 This is not universal: reflecting, absorbing, driven, controlled, non-Markovian and other constrained processes require their correct physical generators rather than post-hoc renormalisation.
 
 For path-weight formulations, one prior-art specialisation is
 
-$$
+```math
 d\mathbb P_{\mathrm{adm}}[\gamma]
 =
 \frac{\mathbf 1_{\Gamma^{\mathrm{adm}}}[\gamma]e^{-\Phi(\gamma)}}{Z}
 \,d\mathbb P_P^0[\gamma],
-$$
+```
 
 where $\Phi$ is dimensionless and independently justified. $\Phi=0$ gives pure support conditioning.
 
@@ -497,15 +497,15 @@ Quantum mechanics gives an exact precedent for domain-before-dynamics: boundary 
 
 For
 
-$$
+```math
 H_t:\mathcal D(H_t)\subseteq\mathcal H_t\rightarrow\mathcal H_t,
-$$
+```
 
 a domain-only MKUFT candidate would require
 
-$$
+```math
 \mathcal D(H_t)=\mathfrak D_P(\Xi_t)
-$$
+```
 
 with the resulting domain genuinely defining an appropriate Hamiltonian realisation.
 
@@ -513,25 +513,25 @@ More generally, if an independently supported relational variable is claimed to 
 
 For a self-adjoint Hamiltonian,
 
-$$
+```math
 U_t(\Delta)=\exp\!\left[-\frac{i}{\hbar}H_t\Delta\right],
-$$
+```
 
-$$
+```math
 \rho^-_{t+\Delta}=U_t(\Delta)\rho_tU_t(\Delta)^\dagger.
-$$
+```
 
 A quantum instrument $\{\mathcal I_o\}$ then supplies outcome probability and post-measurement physical state:
 
-$$
-P(o)=\operatorname{Tr}\mathcal I_o(\rho^-_{t+\Delta}),
-$$
+```math
+P(o)=\mathrm{Tr}\mathcal I_o(\rho^-_{t+\Delta}),
+```
 
-$$
+```math
 \rho^+_{t+\Delta,o}
 =
 \frac{\mathcal I_o(\rho^-_{t+\Delta})}{P(o)}
-$$
+```
 
 when $P(o)>0$. O stores/registers outcome $o$; the physical state change remains P.
 
@@ -543,7 +543,7 @@ Classical general relativity supplies another structural comparator: admissible 
 
 Represent schematically
 
-$$
+```math
 \mathfrak L_{G,t}
 =
 \left(
@@ -551,7 +551,7 @@ $$
 \mathcal T_{G,t}^{\mathrm{Einstein/ADM}},
 \mathcal W_{G,t}
 \right),
-$$
+```
 
 where $\mathcal W_{G,t}$ need not be present in a deterministic classical treatment.
 
@@ -569,13 +569,13 @@ The capstone gives a hierarchy:
 
 **Level 3 — independent I candidate:** after the strongest adequate P-state/history/boundary/measurement-context model is controlled, a separately specified $I_t$ adds held-out or interventional prediction of
 
-$$
+```math
 \mathcal D_{P,t},
 \qquad
 \mathcal T_{P,t},
 \qquad\text{or}\qquad
 \mathcal W_{P,t}.
-$$
+```
 
 Only Level 3 begins to support independent I→P dynamics, and it must still preserve conservation laws, no-signalling and ordinary physical limits.
 
@@ -583,21 +583,21 @@ Only Level 3 begins to support independent I→P dynamics, and it must still pre
 
 The ordinary limit is mandatory. If relational/admissibility structure adds no independently measurable content beyond the adequate P-model, then
 
-$$
+```math
 \mathfrak L_{P,t}^{\mathrm{MK}}
 =
 \mathfrak L_{P,t}^{\mathrm{standard}}
-$$
+```
 
 within the declared regime/tolerance, and therefore
 
-$$
+```math
 \boxed{
-\operatorname{Propagate}_{P}^{\mathrm{MK}}
+\mathrm{Propagate}_{P}^{\mathrm{MK}}
 =
-\operatorname{Propagate}_{P}^{\mathrm{standard}}.
+\mathrm{Propagate}_{P}^{\mathrm{standard}}.
 }
-$$
+```
 
 Reduce or reject the relevant branch if:
 
@@ -640,31 +640,31 @@ The live-canon `Update_SIPO` is no longer only an unnamed arrow.
 
 The architectural chain is
 
-$$
+```math
 \boxed{
 \mathcal U_t+E_t
 \xrightarrow{\mathcal Q_t}
 \Xi_t
 \xrightarrow{\mathfrak C_P}
 \mathfrak L_{P,t}
-\xrightarrow{\operatorname{Propagate}_P}
+\xrightarrow{\mathrm{Propagate}_P}
 P^-_{t+\Delta}
-\xrightarrow{\operatorname{Instrument}_{P\to(P,O)}}
+\xrightarrow{\mathrm{Instrument}_{P\to(P,O)}}
 (P_{t+\Delta},O_{t+\Delta})
-\xrightarrow{\operatorname{Readdress}}
+\xrightarrow{\mathrm{Readdress}}
 \mathcal U_{t+\Delta}.
 }
-$$
+```
 
 with
 
-$$
+```math
 \boxed{
 \mathfrak L_{P,t}
 =
 (\mathcal D_{P,t},\mathcal T_{P,t},\mathcal W_{P,t}).
 }
-$$
+```
 
 Core rule:
 

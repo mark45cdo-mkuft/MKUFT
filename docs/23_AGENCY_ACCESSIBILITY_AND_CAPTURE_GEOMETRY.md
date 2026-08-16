@@ -31,19 +31,19 @@ At time $t$, let:
 
 Require
 
-$$
+```math
 G_t(u;T_t,H_t)\in[0,1],
 \qquad
 \theta_{\mathrm{access}}\in[0,1].
-$$
+```
 
 The practically accessible set is
 
-$$
+```math
 U_t^{\mathrm{access}}
 =
 \left\{u\in U_t:G_t(u;T_t,H_t)>\theta_{\mathrm{access}}\right\}.
-$$
+```
 
 A viable exit can remain in $U_t$ while disappearing from $U_t^{\mathrm{access}}$.
 
@@ -55,17 +55,17 @@ Capture deepens when exits are not perceived, labelled impossible, assigned cata
 
 Let
 
-$$
+```math
 a_t\in[0,1]
-$$
+```
 
 represent practical access to retained agency. A simple operational distinction is
 
-$$
+```math
 \mathrm{Agency}_{\mathrm{effective}}(t)
 =
 \mathrm{Agency}_{\mathrm{capacity}}\,a_t.
-$$
+```
 
 This is not a complete moral, legal, or clinical equation. Both terms require domain-specific operational definitions before quantitative use.
 
@@ -89,17 +89,17 @@ Capture is defined structurally rather than by one assumed root ontology. It des
 
 For audit purposes, let
 
-$$
+```math
 B_t,D_t,F_t,S_t\in[0,1]
-$$
+```
 
 where $B_t$ denotes basin depth or reinforcement strength, $D_t$ distortion between actual and perceived action sets, $F_t$ threat-gating applied to viable exits, and $S_t$ self-identification with the attractor.
 
 A heuristic capture index is
 
-$$
+```math
 K_{\mathrm{capture}}(t)=B_tD_tF_tS_t.
-$$
+```
 
 This is a decomposition tool rather than a validated diagnostic score. The multiplicative form encodes a conjunction assumption: when one factor approaches zero, the product falls sharply. Additive, interaction, threshold, and probabilistic alternatives remain valid competitors where data permit.
 

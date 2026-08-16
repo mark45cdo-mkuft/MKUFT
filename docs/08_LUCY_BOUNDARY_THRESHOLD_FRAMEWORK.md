@@ -106,9 +106,9 @@ Within the recursive MKUFT architecture, $O$ is the address at which a realised 
 
 The source-level cycle is
 
-$$
+```math
 S\rightarrow I\rightarrow P\rightarrow O\rightarrow S.
-$$
+```
 
 Applied locally to a physics-facing LUCY crossing, the proposed sequence is **constraint compatibility at I → consequential physical realisation at P → registration and closure at O → updated admissibility for later states**.
 
@@ -122,9 +122,9 @@ This is an architectural hypothesis, not a claim that human observation creates 
 
 MKUFT uses the recursive typed architecture
 
-$$
+```math
 S\rightarrow I\rightarrow P\rightarrow O\rightarrow S.
-$$
+```
 
 The layers are addresses rather than ordinary physical dimensions.
 
@@ -160,19 +160,19 @@ The proposed MKUFT contribution is the specific conjunction of typed layer separ
 
 A domain-specific LUCY model may define a yield index
 
-$$
+```math
 Y_L(x,t)
 =
 \chi_L
 \frac{\lVert\nabla\tau_L(x,t)\rVert^2}
 {N_L(x,t)+\varepsilon_L},
-$$
+```
 
 with prespecified threshold
 
-$$
+```math
 Y_L(x,t)\ge Y_*.
-$$
+```
 
 Here $\tau_L$ is a declared scalar gradient variable, $\chi_L$ a coupling or scale factor, $N_L$ a noise/disorder/competing-load measure, $\varepsilon_L>0$ a regulariser, and $Y_*$ the preregistered threshold.
 
@@ -186,7 +186,7 @@ Where curl-like behaviour is required, a vector potential must be introduced. A 
 
 Let $q(x,t)$ be an order parameter and $\lambda$ a set of declared control parameters. A conventional effective functional is
 
-$$
+```math
 \mathcal F[q;\lambda]
 =
 \int_V
@@ -198,11 +198,11 @@ $$
 \mathcal F_{\mathrm{boundary}}
 +
 \mathcal F_{\mathrm{environment}}.
-$$
+```
 
 A toy potential may be
 
-$$
+```math
 V(q;\lambda)
 =
 \frac{a(\lambda)}{2}q^2
@@ -211,24 +211,24 @@ V(q;\lambda)
 +
 \frac{c}{6}q^6,
 \qquad c>0.
-$$
+```
 
 The selected state is
 
-$$
+```math
 q_*
 =
-\operatorname*{arg\,min}_q\mathcal F[q;\lambda].
-$$
+\mathrm{arg\,min}_q\mathcal F[q;\lambda].
+```
 
 A LUCY critical surface $\Sigma_L$ may occur where competing preferred solutions exchange stability:
 
-$$
+```math
 \Delta\mathcal F(\lambda)
 =
 \mathcal F[q_1;\lambda]-\mathcal F[q_0;\lambda]
 =0.
-$$
+```
 
 This captures threshold and competing stable states. Hysteresis, interface formation, membrane formation, and sustained domains are additional regime-specific consequences when the chosen physical model supports them. It does not establish a new physical coupling.
 
@@ -238,7 +238,7 @@ This section applies only to LUCY branches that actually predict a bounded physi
 
 For a roughly spherical physical pocket of radius $R$, a schematic nucleation cost is
 
-$$
+```math
 \Delta E(R)
 =
 4\pi R^2\sigma
@@ -248,15 +248,15 @@ $$
 E_{\mathrm{load}}(R)
 +
 E_{\mathrm{diss}}(R),
-$$
+```
 
 where $\sigma$ is interface energy per unit area, $\Delta\varepsilon$ the bulk energy-density difference, and the final terms represent declared load and dissipation costs.
 
 In the simplest uncoupled case,
 
-$$
+```math
 R_c=\frac{2\sigma}{\Delta\varepsilon}
-$$
+```
 
 is the critical radius above which volume gain can exceed surface cost.
 
@@ -276,9 +276,9 @@ It is not a claim that a small gravitational wave is amplified into a large grav
 
 A possible scale relation between a local high-gradient regime and an extended effective-geometry regime would require an explicit typed map,
 
-$$
+```math
 C_{\ell\to L}:\mathcal X_{\ell}\rightarrow\mathcal X_L,
-$$
+```
 
 showing how microscopic configuration becomes a macroscopic order parameter while preserving causality, energy accounting, and tested equivalence-principle limits. Until then the coupling may be zero.
 
@@ -292,11 +292,11 @@ That does not imply altered gravitation. No accepted nuclear model supplies such
 
 A nucleosynthesis exposure parameter may be written
 
-$$
+```math
 \Theta_r
 =
 \tau_{\mathrm{env}}\,n_n\,\langle\sigma v\rangle.
-$$
+```
 
 This describes neutron-capture exposure. It is not a geometry-changing parameter by analogy.
 
@@ -398,9 +398,9 @@ No foundational or ontology claim is promoted before these gates are met.
 
 A developed LUCY model must recover ordinary behaviour when
 
-$$
+```math
 Y_L<Y_*,
-$$
+```
 
 when the order parameter remains in the baseline minimum, the proposed cross-layer coupling is zero or reducible to the adequate physical state, the target-layer residual falls below declared sensitivity, or the additional model adds no held-out predictive value.
 

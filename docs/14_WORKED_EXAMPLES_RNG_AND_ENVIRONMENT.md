@@ -17,15 +17,15 @@ A scientifically useful model must state what is measured, how uncertainty is ca
 
 For event $E$,
 
-$$
+```math
 P_{\mathrm{realized}}(E)
 =
 \frac{\widetilde W(E)}{\displaystyle\sum_{E'}\widetilde W(E')},
-$$
+```
 
 with unnormalised weight
 
-$$
+```math
 \widetilde W(E)
 =
 \int
@@ -33,7 +33,7 @@ D_{\mathrm{phys}}(E\mid i)
 W_{SI}(i\mid S,E)
 C_O(O\mid i,E)
 \,d\nu(i).
-$$
+```
 
 $D_{\mathrm{phys}}$ represents accepted physical dynamics, $W_{SI}$ a candidate substrate-to-information weighting, $C_O$ a bounded observer-condition term, and $\nu$ a measure over compatible information structures.
 
@@ -43,28 +43,28 @@ The scaffold acquires empirical content only when each term is operationally def
 
 A bounded observer term may be written
 
-$$
+```math
 C_O(O\mid i,E)
 =
 C_0\left[1+\varepsilon\kappa(O)h(i,E)\right],
-$$
+```
 
 where $\kappa(O)\in[0,1]$ is a measured coherence proxy, $\varepsilon$ a small coupling parameter, and $h(i,E)$ a prespecified event-structure interaction.
 
 Define
 
-$$
+```math
 W_{\mathrm{phys}}(E)
 =
 \int
 D_{\mathrm{phys}}(E\mid i)
 W_{SI}(i\mid S,E)
 \,d\nu(i),
-$$
+```
 
 and
 
-$$
+```math
 \Delta W_O(E)
 =
 \int
@@ -72,23 +72,23 @@ D_{\mathrm{phys}}(E\mid i)
 W_{SI}(i\mid S,E)
 h(i,E)
 \,d\nu(i).
-$$
+```
 
 Then
 
-$$
+```math
 \widetilde W(E)
 =
 C_0\left[W_{\mathrm{phys}}(E)+\varepsilon\kappa(O)\Delta W_O(E)\right].
-$$
+```
 
 For sufficiently small $\varepsilon$, a testable first-order form is
 
-$$
+```math
 P_{\mathrm{realized}}(E)
 \approx
 P_{\mathrm{phys}}(E)+\varepsilon\Delta_O(E),
-$$
+```
 
 provided the normalisation is expanded consistently and higher-order terms remain bounded.
 
@@ -96,23 +96,23 @@ provided the normalisation is expanded consistently and higher-order terms remai
 
 Let a binary random number generator produce outcomes $E_1$ and $E_0$. For a fair generator,
 
-$$
+```math
 P_{\mathrm{phys}}(E_1)
 =
 P_{\mathrm{phys}}(E_0)
 =0.5.
-$$
+```
 
 A preregistered MKUFT test could compare two independent blocks: a baseline/control block and a coherence/intention block.
 
 The null hypothesis is
 
-$$
+```math
 p_{\mathrm{control}}
 =
 p_{\mathrm{condition}}
 =0.5.
-$$
+```
 
 The alternative is a small condition-linked difference whose direction and analysis are specified before data collection.
 
@@ -120,29 +120,29 @@ The alternative is a small condition-linked difference whose direction and analy
 
 Assume two independent blocks with
 
-$$
+```math
 N_{\mathrm{control}}
 =N_{\mathrm{condition}}
 =10{,}000{,}000.
-$$
+```
 
 Take illustrative proportions
 
-$$
+```math
 p_{\mathrm{control}}=0.5000,
 \qquad
 p_{\mathrm{condition}}=0.5007,
-$$
+```
 
 so
 
-$$
+```math
 \Delta p=0.0007.
-$$
+```
 
 For two independent proportions, the approximate standard error of the difference is
 
-$$
+```math
 SE_{\mathrm{diff}}
 =
 \sqrt{
@@ -150,11 +150,11 @@ SE_{\mathrm{diff}}
 +
 \frac{p_{\mathrm{condition}}(1-p_{\mathrm{condition}})}{N_{\mathrm{condition}}}
 }.
-$$
+```
 
 Using the illustrative values,
 
-$$
+```math
 SE_{\mathrm{diff}}
 \approx
 \sqrt{
@@ -163,18 +163,18 @@ SE_{\mathrm{diff}}
 \frac{0.25}{10{,}000{,}000}
 }
 \approx0.0002236.
-$$
+```
 
 Therefore
 
-$$
+```math
 z
 =
 \frac{\Delta p}{SE_{\mathrm{diff}}}
 \approx
 \frac{0.0007}{0.0002236}
 \approx3.13.
-$$
+```
 
 A result near $z=3.13$ would be interesting but not decisive by itself. Interpretation would still depend on preregistration, device integrity, independence of trials, correction for repeated analyses, concealed condition order, replication, and effect-size stability.
 
@@ -184,9 +184,9 @@ This calculation uses the uncertainty of the difference between two independent 
 
 Under the linear model,
 
-$$
+```math
 \Delta p\approx\varepsilon\Delta_O(E_1).
-$$
+```
 
 The worked example does not determine the real values of $\varepsilon$ or $\Delta_O$. It illustrates the precision required to resolve a small shift.
 
@@ -196,31 +196,31 @@ A developed theory should predict sign, scale, and condition dependence before t
 
 Let $F$ represent measured environmental variables and
 
-$$
+```math
 \kappa_{\mathrm{eff}}
 =
 \kappa\,\eta(F),
 \qquad
 \eta(F)\in[0,1].
-$$
+```
 
 The binary model becomes
 
-$$
+```math
 P_{\mathrm{realized}}(E_1;F)
 \approx
 P_{\mathrm{phys}}(E_1)
 +
 \varepsilon\eta(F)\Delta_O(E_1),
-$$
+```
 
 so
 
-$$
+```math
 \Delta p(F)
 =
 \varepsilon\eta(F)\Delta_O(E_1).
-$$
+```
 
 $\eta(F)$ must be specified or estimated from measured conditions rather than assigned after the result to rescue a failed prediction.
 
@@ -228,26 +228,26 @@ $\eta(F)$ must be specified or estimated from measured conditions rather than as
 
 Suppose a protocol preregisters
 
-$$
+```math
 \eta(F_{\mathrm{quiet}})=1.0,
 \qquad
 \eta(F_{\mathrm{noisy}})=0.3.
-$$
+```
 
 If all other terms remain constant, the model predicts
 
-$$
+```math
 \frac{\Delta p(F_{\mathrm{noisy}})}
 {\Delta p(F_{\mathrm{quiet}})}
 =0.3.
-$$
+```
 
 When sample sizes and variances are matched, the condition-linked $z$ scores should show approximately the same ratio:
 
-$$
+```math
 \frac{z_{\mathrm{noisy}}}{z_{\mathrm{quiet}}}
 \approx0.3.
-$$
+```
 
 This is a conditional model prediction, not an observed fact.
 

@@ -16,25 +16,25 @@ The release concentrated on ambiguity dynamics, cross-layer addressing, agency a
 
 The update separated unresolved state volume, low-cost route connectivity, and preserved access. A representative form is
 
-$$
+```math
 A_{t,\mathrm{vol}}^{(d)}
 =
 \log\!\left(1+\frac{\mu_d(\Omega_t^{(d)})}{\mu_{0,d}}\right),
-$$
+```
 
 with
 
-$$
+```math
 R_t\in[0,1],
 \qquad
 X_t\in[0,1],
-$$
+```
 
 and the provisional manoeuvrability index
 
-$$
+```math
 M_t=A_{t,\mathrm{vol}}^{(d)}R_tX_t.
-$$
+```
 
 $M_t$ is a heuristic audit index, not a validated universal law.
 
@@ -44,9 +44,9 @@ See [Ambiguity Dynamics and Manoeuvre Space](docs/21_AMBIGUITY_DYNAMICS_AND_MANO
 
 The update introduced an explicit layer-address form,
 
-$$
+```math
 K_L=A_L(K;\theta_L),
-$$
+```
 
 so that a candidate invariant may retain its relational identity while variables, spaces, units, evidence, couplings, and falsifiers change honestly with the active layer.
 
@@ -56,19 +56,19 @@ See [Cross-Layer Invariants and Layer Addressing](docs/22_CROSS_LAYER_INVARIANTS
 
 The agency branch separated retained action capacity from practical accessibility:
 
-$$
+```math
 U_t^{\mathrm{access}}
 =
 \left\{u\in U_t:G_t(u;T_t,H_t)>\theta_{\mathrm{access}}\right\},
-$$
+```
 
 with a schematic capacity/access distinction
 
-$$
+```math
 \mathrm{Agency}_{\mathrm{effective}}(t)
 =
 \mathrm{Agency}_{\mathrm{capacity}}\,a_t.
-$$
+```
 
 The model is operational rather than a clinical, legal, or moral diagnostic score.
 

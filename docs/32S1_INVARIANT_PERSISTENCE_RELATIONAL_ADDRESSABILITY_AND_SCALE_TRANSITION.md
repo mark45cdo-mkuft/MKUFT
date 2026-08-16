@@ -34,23 +34,23 @@ The corrected distinction is:
 
 Let the system state be
 
-$$
+```math
 x_t\in\mathcal X_{\alpha_t},
-$$
+```
 
 where $\alpha_t$ is the active construction/state-space address inherited from Modules 31 and 32.
 
 Let
 
-$$
+```math
 g_t^{SE}\in\mathcal G_t^{SE}
-$$
+```
 
 denote the realised typed coupling state between candidate system $S$ and relevant environment $E$. It may contain exchange, sensing, action, adhesion, boundary, regulatory, or other domain-appropriate relations. It is not a new physical layer.
 
 Define the joint realised state
 
-$$
+```math
 z_t=(x_t,g_t^{SE})
 \in
 \mathcal Z_t,
@@ -58,19 +58,19 @@ z_t=(x_t,g_t^{SE})
 \mathcal Z_t
 =
 \mathcal X_{\alpha_t}\times\mathcal G_t^{SE}.
-$$
+```
 
 Let
 
-$$
+```math
 \sim_t^{\mathrm{state}}
-$$
+```
 
 be the declared **within-address state-equivalence rule** for the individuality claim at time $t$.
 
 Define the **operational individuality address**
 
-$$
+```math
 \sigma_t
 =
 \left(
@@ -81,24 +81,24 @@ $$
 H_t,
 \sim_t^{\mathrm{state}}
 \right),
-$$
+```
 
 where $\mathcal B_t$ is the active boundary, $\mathcal M_t$ the relevant maintenance/closure relations, and $H_t$ the retained lineage/history descriptor.
 
 The corresponding operational self-state space is
 
-$$
+```math
 \mathcal S_t
 =
 \mathcal Z_t/\!\sim_t^{\mathrm{state}},
-$$
+```
 
 and the realised operational self-state is
 
-$$
+```math
 s_t=[z_t]_{\sim_t^{\mathrm{state}}}
 \in\mathcal S_t.
-$$
+```
 
 This is an operational systems object, not a metaphysical definition of personhood. The equivalence rule must be declared at the layer and scale of the actual claim.
 
@@ -108,9 +108,9 @@ Exact tuple equality is generally too strong for evolving systems because realis
 
 Define
 
-$$
+```math
 \sigma_a\equiv_{\mathrm{addr}}\sigma_b
-$$
+```
 
 when the two addresses belong to the same declared individuality-address class: differences between them are admissible under the same construction class, boundary class, coupling class, maintenance organisation, lineage rule, and within-address state-equivalence criterion.
 
@@ -118,13 +118,13 @@ This relation does **not** mean that the realised states are identical. It means
 
 Thus three objects remain separate:
 
-$$
+```math
 \text{state equivalence }(\sim_t^{\mathrm{state}}),
 \qquad
 \text{address-class parity }(\equiv_{\mathrm{addr}}),
 \qquad
 \text{cross-address continuity }(\approx_{\mathrm{id}}).
-$$
+```
 
 ## 3. Same-self parity guard
 
@@ -132,9 +132,9 @@ A scale transition can change not only state but the criterion under which state
 
 If
 
-$$
+```math
 \sigma_t\not\equiv_{\mathrm{addr}}\sigma_{t+1},
-$$
+```
 
 because a constitutive boundary, environment-coupling class, maintenance relation, construction class, lineage criterion, or state-equivalence rule changed, then the statement
 
@@ -146,36 +146,36 @@ is not automatically licensed.
 
 A lawful cross-address continuation requires a declared map
 
-$$
+```math
 T_{t\rightarrow t+1}^{\mathrm{id}}:
 \mathcal S_t\supseteq\mathcal D_t
 \rightarrow
 \mathcal S_{t+1}.
-$$
+```
 
 Let
 
-$$
+```math
 J_t:\mathcal S_t\rightarrow\mathcal J
-$$
+```
 
 be a declared identity-bearing invariant or invariant family. Cross-address continuity to tolerance $\varepsilon_J$ requires
 
-$$
+```math
 d_J\!\left(
 J_{t+1}(T_{t\rightarrow t+1}^{\mathrm{id}}s_t),
 J_t(s_t)
 \right)
 \leq\varepsilon_J,
-$$
+```
 
 plus any domain-specific lineage, viability, boundary, or maintenance conditions required by the identity claim.
 
 Define
 
-$$
+```math
 \sigma_a\approx_{\mathrm{id}}\sigma_b
-$$
+```
 
 only when those cross-address continuation tests pass. This relation is not the same object as either $\sim_t^{\mathrm{state}}$ or $\equiv_{\mathrm{addr}}$.
 
@@ -189,28 +189,28 @@ Module 32 defines reach on the addressed adaptive system. When a claim makes sys
 
 Let
 
-$$
+```math
 \widehat{\mathcal R}_t(z_t)
 \subseteq\mathcal Z_t
-$$
+```
 
 be the declared reachable set of joint system–environment realisations under the coupled dynamics used by the implementation.
 
 Let
 
-$$
+```math
 \mathcal V_{\sigma_t}\subseteq\mathcal Z_t
-$$
+```
 
 be the joint realisation set compatible with persistence of the individuality class specified by $\sigma_t$. Define
 
-$$
+```math
 \mathcal R^{\mathrm{id}}_{\sigma_t}(z_t)
 =
 \widehat{\mathcal R}_t(z_t)
 \cap
 \mathcal V_{\sigma_t}.
-$$
+```
 
 This contains joint states reachable without leaving the declared individuality class under the active boundary, coupling, maintenance and viability conditions.
 
@@ -224,42 +224,42 @@ If the before/after addresses fail address-class parity, the old and new reachab
 
 Let
 
-$$
+```math
 I_i:\mathcal Z_t\rightarrow\mathcal Y_i
-$$
+```
 
 be a declared internal, boundary, or system–environment relation-coordinate, and let
 
-$$
+```math
 \mathcal A_\ell(t)=\{I_1,I_2,\ldots,I_n\}
-$$
+```
 
 be the family independently addressable before consolidation.
 
 For tolerance pair $(\varepsilon_i,\delta_{\sigma})$, call $I_i$ **independently addressable under individuality address $\sigma_t$** when there exist
 
-$$
+```math
 z',z''\in\mathcal R^{\mathrm{id}}_{\sigma_t}(z_t)
-$$
+```
 
 such that
 
-$$
+```math
 \left\lVert I_i(z')-I_i(z'')\right\rVert>\varepsilon_i,
-$$
+```
 
 while the other declared identity-bearing observables required to remain fixed for the test vary by no more than $\delta_{\sigma}$.
 
 Define
 
-$$
+```math
 \mathcal A_{\ell\mid\sigma_t}
 =
 \left\{
 I_i\in\mathcal A_\ell(t):
 I_i\text{ passes the identity-relative addressability test}
 \right\}.
-$$
+```
 
 This concerns **which relations remain independently deployable while remaining within the declared individuality class**. It does not say that the underlying molecules, forces, variables, or physical possibilities vanished.
 
@@ -267,38 +267,38 @@ This concerns **which relations remain independently deployable while remaining 
 
 If
 
-$$
+```math
 \sigma_{t_1}\equiv_{\mathrm{addr}}\sigma_{t_2},
-$$
+```
 
 ordinary before/after comparison may be available under a declared common observable or measure $\mu_A$.
 
 If address-class parity fails but cross-address continuity is established,
 
-$$
+```math
 \sigma_{t_1}\not\equiv_{\mathrm{addr}}\sigma_{t_2},
 \qquad
 \sigma_{t_1}\approx_{\mathrm{id}}\sigma_{t_2},
-$$
+```
 
 then an additional map is required for the particular addressability relation being compared. Let
 
-$$
+```math
 T_A:
 \mathcal A_{\ell\mid\sigma_{t_1}}
 \rightarrow
 \widetilde{\mathcal A}_{\ell\mid\sigma_{t_2}}
-$$
+```
 
 be that lawful comparison map. Define
 
-$$
+```math
 \Delta_{T_A} A_\ell
 =
 \mu_A\!\left(\mathcal A_{\ell\mid\sigma_{t_2}}\right)
 -
 \mu_A\!\left(T_A(\mathcal A_{\ell\mid\sigma_{t_1}})\right).
-$$
+```
 
 If no justified comparison map exists, report the two addressability structures separately rather than manufacturing a scalar difference.
 
@@ -308,27 +308,27 @@ This is the **same-self parity extension** of Module 32's no-false-subtraction r
 
 Suppose a lower-scale action or movement set before consolidation is
 
-$$
+```math
 \mathcal U_{\ell}^{\mathrm{self}}(z).
-$$
+```
 
 Under a higher-scale organisation with individuality address $\sigma_L$, the identity-compatible subset may be
 
-$$
+```math
 \mathcal U_{\ell\mid\sigma_L}^{\mathrm{self}}(z)
 =
 \mathcal U_{\ell}^{\mathrm{self}}(z)
 \cap
 \mathcal U_{\sigma_L}^{\mathrm{adm}}(z),
-$$
+```
 
 with
 
-$$
+```math
 \mathcal U_{\ell\mid\sigma_L}^{\mathrm{self}}(z)
 \subsetneq
 \mathcal U_{\ell}^{\mathrm{self}}(z).
-$$
+```
 
 The excluded routes are not necessarily physically impossible in isolation. They are inaccessible **while remaining within the organised identity class being tested**.
 
@@ -340,11 +340,11 @@ If address-class parity fails across the transition, the same-self parity guard 
 
 The individuality address evolves within the same declared address class and lower-scale independent addressability decreases:
 
-$$
+```math
 \sigma_{t_1}\equiv_{\mathrm{addr}}\sigma_{t_2},
 \qquad
 \Delta A_\ell<0.
-$$
+```
 
 Here it is meaningful to say that the same operational individuality class became more constrained, subject to the declared tolerance and comparison observable.
 
@@ -352,11 +352,11 @@ Here it is meaningful to say that the same operational individuality class becam
 
 The individuality address changes class but passes the separate continuity test:
 
-$$
+```math
 \sigma_{t_1}\not\equiv_{\mathrm{addr}}\sigma_{t_2},
 \qquad
 \sigma_{t_1}\approx_{\mathrm{id}}\sigma_{t_2}.
-$$
+```
 
 Here the individuality may be said to persist through reorganisation, but comparisons of freedom, capability, state, or self require the relevant cross-address maps.
 
@@ -364,12 +364,12 @@ Here the individuality may be said to persist through reorganisation, but compar
 
 The individuality address changes class and cross-address continuity has not been established:
 
-$$
+```math
 \sigma_{t_1}\not\equiv_{\mathrm{addr}}\sigma_{t_2},
 \qquad
 \sigma_{t_1}\not\approx_{\mathrm{id}}\sigma_{t_2}
 \quad\text{or continuity is unresolved}.
-$$
+```
 
 The formalism therefore does **not** call the pre- and post-transition objects the same self by default. A lower-scale individuality may have been incorporated into a higher-scale whole, replaced as the relevant comparison object, or left unresolved with respect to identity continuity.
 
@@ -381,7 +381,7 @@ A scale transition should not be defined only by the later appearance of a new c
 
 Where address-class parity or readdressed continuity has been established, a provisional onset may be associated with sustained reduction in lower-scale independent addressability under an emerging load-bearing closure:
 
-$$
+```math
 t_{\mathrm{access}}
 =
 \inf\left\{
@@ -390,19 +390,19 @@ t:
 \text{ and }
 \Gamma_L(t)\ge\tau_\Gamma
 \right\},
-$$
+```
 
 where $\Gamma_L$ is a declared measure of higher-scale closure or organisational persistence. Within one address class, $T_A$ may reduce to the declared common-coordinate comparison.
 
 A fuller transition requires separately measured higher-scale gain. Schematically,
 
-$$
+```math
 \Delta_{T_A}A_\ell<0,
 \qquad
 \Delta_{T_L}A_L>0,
 \qquad
 \Delta_{T_K}K_L>0,
-$$
+```
 
 where each $T$ is the lawful comparison map for its own observable; no universal transport map is assumed.
 
@@ -424,11 +424,11 @@ For an individuality claim, test the system–environment coupling directly. Let
 
 If
 
-$$
+```math
 D_E[\sigma_t]
 \notin
 \mathcal M_{\mathrm{id}},
-$$
+```
 
 where $\mathcal M_{\mathrm{id}}$ is the declared same-individuality comparison class, then the changed coupling is constitutive for that identity claim rather than merely background context.
 
@@ -450,15 +450,15 @@ A serious test should establish that the machinery for the old trajectory class 
 
 A strong incorporation pattern is therefore not merely
 
-$$
+```math
 \Delta A_\ell<0,
 \qquad
 \Delta K_L>0,
-$$
+```
 
 but the stronger conjunction
 
-$$
+```math
 \text{lower machinery persists}
 \;\land\;
 \text{identity relation is declared}
@@ -466,7 +466,7 @@ $$
 \Delta_{T_A}A_\ell<0
 \;\land\;
 \Delta_{T_K}K_L>0.
-$$
+```
 
 This supports **constraint incorporation under an explicit individuality address**, rather than literal destruction of the lower variables.
 

@@ -46,15 +46,15 @@ A layer is not automatically a spatial dimension or numerical coordinate.
 
 The compact addressed state is
 
-$$
+```math
 U_n=(S_n,I_n,P_n,O_n).
-$$
+```
 
 This tuple is bookkeeping across typed components; it does not assert that all four entries belong to one homogeneous Euclidean vector space.
 
 When formal spaces are introduced,
 
-$$
+```math
 S_n\in\mathcal X_S,
 \qquad
 I_n\in\mathcal X_I,
@@ -62,14 +62,14 @@ I_n\in\mathcal X_I,
 P_n\in\mathcal X_P,
 \qquad
 O_n\in\mathcal X_O.
-$$
+```
 
 Only after the component spaces and admissible couplings are declared may the complete addressed state be written schematically as
 
-$$
+```math
 U_n\in
 \mathcal X_S\times\mathcal X_I\times\mathcal X_P\times\mathcal X_O.
-$$
+```
 
 The product notation does not erase type differences.
 
@@ -77,17 +77,17 @@ The product notation does not erase type differences.
 
 Cross-layer relations are represented as typed maps,
 
-$$
+```math
 C_{SI}:\mathcal X_S\rightarrow\mathcal X_I,
 \qquad
 C_{IP}:\mathcal X_I\rightarrow\mathcal X_P,
-$$
+```
 
-$$
+```math
 C_{PO}:\mathcal X_P\rightarrow\mathcal X_O,
 \qquad
 C_{OS}:\mathcal X_O\rightarrow\mathcal X_S.
-$$
+```
 
 These symbols name coupling tasks, not completed laws.
 
@@ -99,21 +99,21 @@ There is no default metric measuring a distance between $S$ and $P$ or between $
 
 A within-layer trajectory may be written
 
-$$
+```math
 \gamma_L:[0,1]\rightarrow\mathcal X_L,
-$$
+```
 
 where $\mathcal X_L$ is one declared layer-specific state space.
 
 A typed cross-layer traversal is instead a composable sequence,
 
-$$
+```math
 x_S
 \xrightarrow{C_{SI}}x_I
 \xrightarrow{C_{IP}}x_P
 \xrightarrow{C_{PO}}x_O
 \xrightarrow{C_{OS}}x'_S.
-$$
+```
 
 The sequence is composable only when the codomain of each map is compatible with the domain of the next. A path through an information graph is not automatically a path through physical space.
 
@@ -121,23 +121,23 @@ The sequence is composable only when the codomain of each map is compatible with
 
 A deeper model may use a projection or readout map
 
-$$
+```math
 \Pi_{PO}:\mathcal X_U\rightarrow\mathcal X_P\times\mathcal X_O,
-$$
+```
 
 where $\mathcal X_U$ is the declared complete addressed-state space.
 
 The recovery targets in [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) can then be written schematically as
 
-$$
-\Pi_{PO}\!\left[\operatorname{Update}_{\mathrm{SIPO}}(U;R_Q)\right]
+```math
+\Pi_{PO}\!\left[\mathrm{Update}_{\mathrm{SIPO}}(U;R_Q)\right]
 \approx Q_{\mathrm{eff}},
-$$
+```
 
-$$
-\Pi_{PO}\!\left[\operatorname{Update}_{\mathrm{SIPO}}(U;R_G)\right]
+```math
+\Pi_{PO}\!\left[\mathrm{Update}_{\mathrm{SIPO}}(U;R_G)\right]
 \approx G_{\mathrm{eff}}.
-$$
+```
 
 The approximation sign requires a declared domain, comparison norm or statistic, tolerance, and regime of validity. Projection language does not imply that the physical layer is unreal.
 
@@ -145,17 +145,17 @@ The approximation sign requires a declared domain, comparison norm or statistic,
 
 Informational adjacency and physical proximity are distinct relations:
 
-$$
-\operatorname{adjacent}_I(X,Y)
+```math
+\mathrm{adjacent}_I(X,Y)
 \not\Rightarrow
-\operatorname{near}_P(X,Y),
-$$
+\mathrm{near}_P(X,Y),
+```
 
-$$
-\operatorname{near}_P(X,Y)
+```math
+\mathrm{near}_P(X,Y)
 \not\Rightarrow
-\operatorname{adjacent}_I(X,Y).
-$$
+\mathrm{adjacent}_I(X,Y).
+```
 
 An I-layer relation may constrain joint physical statistics only through a defined coupling. It does not grant direct write-access to either endpoint's complete physical state.
 
@@ -163,15 +163,15 @@ An I-layer relation may constrain joint physical statistics only through a defin
 
 The substrate scaffold is canonically a measure space,
 
-$$
+```math
 S=(\Omega,\Sigma,\mu).
-$$
+```
 
 It is a probability space only when
 
-$$
+```math
 \mu(\Omega)=1.
-$$
+```
 
 Otherwise $\mu$ is a baseline measure or weighting rather than automatically a probability distribution.
 
@@ -181,21 +181,21 @@ Distinct feasible regions should use qualified notation such as $\Omega_S$, $\Om
 
 Because $I$ already names the information layer, a distinct symbol is used for a mathematical function space:
 
-$$
+```math
 \mathcal I=L^2(\Omega,\mu).
-$$
+```
 
 For an event $E$,
 
-$$
+```math
 \mathcal I_E\subseteq\mathcal I,
-$$
+```
 
 and integration uses a lower-case element $i$:
 
-$$
+```math
 \int_{i\in\mathcal I_E}\cdots\,d\nu(i).
-$$
+```
 
 This prevents the information layer, the function space, and one information structure from sharing one symbol.
 
@@ -203,7 +203,7 @@ This prevents the information layer, the function space, and one information str
 
 A canonical unnormalised event weight may be written
 
-$$
+```math
 \widetilde W(E)
 =
 \int_{i\in\mathcal I_E}
@@ -211,18 +211,18 @@ D_{\mathrm{phys}}(E\mid i)
 W_{SI}(i\mid S,E)
 C_O(O\mid i,E)
 \,d\nu(i).
-$$
+```
 
 Required conditions include a non-negative integrand where the expression is used as a probability weight, finite normalisation, a declared event space, independent operationalisation of additional terms, and recovery of the accepted physical limit.
 
 For discrete outcomes,
 
-$$
+```math
 P(E)
 =
 \frac{\widetilde W(E)}
 {\displaystyle\sum_{E'\in\mathcal E}\widetilde W(E')}.
-$$
+```
 
 For continuous outcomes, the denominator becomes an integral over the event space.
 
@@ -232,27 +232,27 @@ A constant observer factor cancels under normalisation. Standard-physics recover
 
 For a linear-response observer term,
 
-$$
+```math
 C_O(O\mid i,E)
 =
 C_0\left[1+\varepsilon g_O(i,E)\right],
-$$
+```
 
 with
 
-$$
+```math
 C_0>0,
 \qquad
 \left|\varepsilon g_O(i,E)\right|<1
-$$
+```
 
 throughout the tested domain, unless another explicitly positive bounded parameterisation is used.
 
 A first-order form,
 
-$$
+```math
 P(E)\approx P_{\mathrm{phys}}(E)+\varepsilon\,\Delta_O(E),
-$$
+```
 
 is valid only after the normalisation has been expanded consistently and the neglected higher-order terms are bounded.
 
@@ -262,33 +262,33 @@ A Gibbs-like path weight requires a dimensionless exponent.
 
 Using dimensionless normalised cost $\widetilde C[\gamma]$,
 
-$$
+```math
 P(B\mid A)
 =
 \frac{1}{Z_A}
 \sum_{\gamma\in\Gamma(A\to B)}
 \exp\!\left[-\widetilde C[\gamma]\right].
-$$
+```
 
 If $C[\gamma]$ carries units, an inverse cost scale $\beta$ is required:
 
-$$
+```math
 P(B\mid A)
 =
 \frac{1}{Z_A}
 \sum_{\gamma\in\Gamma(A\to B)}
 \exp\!\left[-\beta C[\gamma]\right],
-$$
+```
 
 with
 
-$$
+```math
 Z_A
 =
 \sum_{B'}
 \sum_{\gamma\in\Gamma(A\to B')}
 \exp\!\left[-\beta C[\gamma]\right].
-$$
+```
 
 $\beta$ must carry reciprocal units of $C$ or be defined by an explicit normalisation convention. Path multiplicity and cost remain a candidate model rather than a universal definition of probability.
 
@@ -296,11 +296,11 @@ $\beta$ must carry reciprocal units of $C$ or be defined by an explicit normalis
 
 Learning need not make every local cost decrease pointwise. A task-level hypothesis can instead be written
 
-$$
+```math
 \mathbb E\!\left[C_{t+1}[\gamma]\mid\gamma\sim\mathcal T\right]
 <
 \mathbb E\!\left[C_t[\gamma]\mid\gamma\sim\mathcal T\right],
-$$
+```
 
 for a declared task or trajectory distribution $\mathcal T$.
 
@@ -310,17 +310,17 @@ Local segments may become more costly as a model becomes more accurate, cautious
 
 Traversal burden may be compared with reported duration, but it is not identified with physical time. With a dimensionless burden index $B_t$,
 
-$$
+```math
 \frac{T_{\mathrm{subj}}}{T_{\mathrm{clock}}}
 =f(B_t)+\varepsilon_t,
-$$
+```
 
 or, for a declared local approximation,
 
-$$
+```math
 \frac{T_{\mathrm{subj}}}{T_{\mathrm{clock}}}
 \approx 1+\alpha B_t.
-$$
+```
 
 The function, coefficient, population, and conditions must be estimated or preregistered.
 
@@ -328,36 +328,36 @@ The function, coefficient, population, and conditions must be estimated or prere
 
 A quantitative ambiguity region belongs to one declared domain and encoding:
 
-$$
+```math
 \Omega_t^{(d)}
 =
 \left\{z\in\mathcal X_d:
  z\text{ remains compatible with }E_t\text{ and }C_t\right\}.
-$$
+```
 
 With domain-specific measure $\mu_d$ and reference scale $\mu_{0,d}$,
 
-$$
+```math
 A_{t,\mathrm{vol}}^{(d)}
 =
 \log\!\left(1+\frac{\mu_d(\Omega_t^{(d)})}{\mu_{0,d}}\right).
-$$
+```
 
 The manoeuvrability index
 
-$$
+```math
 M_t=A_{t,\mathrm{vol}}^{(d)}R_tX_t
-$$
+```
 
 is a heuristic multiplicative model. Additive, interaction, and nonlinear alternatives remain live competitors.
 
 For discrete inquiry steps, a finite difference is preferable:
 
-$$
+```math
 \Delta_Q A_{t,\mathrm{vol}}
 =
 A_{t+1,\mathrm{vol}}-A_{t,\mathrm{vol}}.
-$$
+```
 
 A derivative requires a continuously defined inquiry variable.
 
@@ -365,25 +365,25 @@ A derivative requires a continuously defined inquiry variable.
 
 For the gating model,
 
-$$
+```math
 G_t(u;T_t,H_t)\in[0,1],
 \qquad
 \theta_{\mathrm{access}}\in[0,1],
-$$
+```
 
 and
 
-$$
+```math
 U_t^{\mathrm{access}}
 =
 \left\{u\in U_t:G_t(u;T_t,H_t)>\theta_{\mathrm{access}}\right\}.
-$$
+```
 
 A multiplicative capture index such as
 
-$$
+```math
 K_{\mathrm{capture}}=B_tD_tF_tS_t
-$$
+```
 
 is a heuristic conjunction model. It is not a validated diagnostic scale; additive and interaction alternatives should be compared where data permit.
 
@@ -393,13 +393,13 @@ Because $C$ is already used for path cost, coherence, and other quantities, new 
 
 A physical expression such as
 
-$$
+```math
 Y_P
 =
 \chi_P
 \frac{\lVert\nabla\tau_P\rVert^2}
 {N_P+\varepsilon_P}
-$$
+```
 
 counts as a physical equation only after all variables have compatible dimensions, the denominator is protected against invalid singularity, and the threshold has a measurement protocol.
 
@@ -409,7 +409,7 @@ At I and O addresses, the same algebraic shape may be a normalised index rather 
 
 Until $\tau$, $A_\tau$, and their couplings have physical units and a derivation, the expression
 
-$$
+```math
 \mathcal F_{\mathrm{boundary}}
 =
 \frac{1}{2}\alpha\lVert\nabla\tau\rVert^2
@@ -417,7 +417,7 @@ $$
 \frac{1}{2}\beta\lVert\nabla\times A_\tau\rVert^2
 +
 V(\tau,A_\tau)
-$$
+```
 
 is an **effective boundary functional density**, not automatically an energy density.
 
@@ -427,22 +427,22 @@ It may be interpreted as an energy density only when dimensional analysis and ph
 
 The active-traversal hypothesis specifies a task distribution $\mathcal Q$:
 
-$$
+```math
 H_{\mathrm{ATFE}}:
 \mathbb E_{q\sim\mathcal Q}[\Delta F(q)]>0.
-$$
+```
 
 The strongest fair replay score is
 
-$$
+```math
 F_{\mathrm{replay}}^{*}
 =
 \sup_{p\in\mathcal P_{\mathrm{replay}}}F_p,
-$$
+```
 
 and the strongest fair scalar null is
 
-$$
+```math
 F_{\mathrm{null}}^{*}
 =
 \max\!\left\{
@@ -453,27 +453,27 @@ F_{A\to B}^{*},
 F_{B\to A}^{*},
 F_{\mathrm{replay}}^{*}
 \right\}.
-$$
+```
 
 Live-path excess relative to the strongest replay condition is
 
-$$
+```math
 G_{\mathrm{path}}
 =
 F_{AB}-F_{\mathrm{replay}}^{*}.
-$$
+```
 
 These comparisons are valid only when the entries are commensurable scalar scores with the same direction under a matched resource envelope. Vector outcomes require preregistered scalarisation or Pareto comparison.
 
 Relationship specificity is tested against a declared set of strong alternatives:
 
-$$
+```math
 G_{\mathrm{spec}}
 =
 F_{AB}
 -
 \sup_{p\in\mathcal P_{\mathrm{alt}}}F_p.
-$$
+```
 
 Positive values support the corresponding functional comparison only; they do not by themselves establish consciousness or literal identity continuity.
 
@@ -483,39 +483,39 @@ Where learning, development, or evolution changes the variables, decoder, admiss
 
 Module 32 uses the addressed family
 
-$$
+```math
 \mathfrak X
 =
 \bigsqcup_{\alpha\in A}
 \{\alpha\}\times\mathcal X_\alpha.
-$$
+```
 
 A schematic update is
 
-$$
+```math
 \mathfrak F_t(\mathfrak A_t,u_t)
 =
 (\alpha_{t+1},x_{t+1})
 \in\mathfrak X.
-$$
+```
 
 When $\alpha_{t+1}\neq\alpha_t$, expressions such as
 
-$$
+```math
 x_{t+1}-x_t,
 \qquad
 \lVert x_{t+1}-x_t\rVert,
-$$
+```
 
 or `same state` require a declared translation, embedding, quotient, common observable, or other lawful comparison map. This is the adaptive counterpart of Module 31's construction-address discipline.
 
 Likewise, do not compress lower-scale feasible-state freedom and higher-scale functional capability into one untyped scalar. If $\mu_\ell$ measures a lower-scale feasible set and $\nu_L$ measures a higher-scale capability set, then a candidate enabling-constraint pattern may be
 
-$$
+```math
 \Delta\mu_\ell<0,
 \qquad
 \Delta\nu_L>0,
-$$
+```
 
 but only when each before/after difference is itself defined in a common comparison space. The signs describe two different observables at two scales. They do not imply that `freedom` is conserved, transferred, or measured by $\mu_\ell+\nu_L$.
 
@@ -532,11 +532,11 @@ Hard rules:
 
 For a beneficial performance coordinate $X$, relation load is defined as
 
-$$
+```math
 \Delta X_r
 =
 X_{\mathrm{baseline}}-X_{\mathrm{deformed}}(r).
-$$
+```
 
 Then $\Delta X_r>0$ means the deformation damaged performance, $\Delta X_r=0$ means no detected load on that coordinate, and $\Delta X_r<0$ means the deformation improved performance and the relation may be distorting.
 

@@ -35,9 +35,9 @@ Compressed rule:
 
 Let $X$ be a lower-address state space and let
 
-$$
+```math
 \pi_R:X\rightarrow Y
-$$
+```
 
 map lower-level states into candidate higher-order relational states determined by a declared load-bearing relation $R$.
 
@@ -45,11 +45,11 @@ The map must be specified from the relevant relation, role/boundary, environment
 
 Two lower states are equivalent at the candidate relational address when
 
-$$
+```math
 x\sim_R x'
 \quad\Longleftrightarrow\quad
 \pi_R(x)=\pi_R(x').
-$$
+```
 
 $Y$ is then a candidate relational quotient address. It is not automatically an autonomous dynamical level.
 
@@ -80,19 +80,19 @@ A closure claim requires a declared persistence, admissibility, maintenance, res
 
 Let the lower-address deterministic dynamics under matched control/intervention $u$ and environment $e$ be
 
-$$
+```math
 F_X:(X,u,e)\rightarrow X.
-$$
+```
 
 A whole-state deterministic law
 
-$$
+```math
 F_Y:(Y,u,e)\rightarrow Y
-$$
+```
 
 is well defined through $\pi_R$ when representatives of the same higher state have the same projected next higher state:
 
-$$
+```math
 \boxed{
 \pi_R(x)=\pi_R(x')
 \Rightarrow
@@ -100,17 +100,17 @@ $$
 =
 \pi_R\!\left(F_X(x',u,e)\right)
 }
-$$
+```
 
 for the declared regime.
 
 Where this holds,
 
-$$
+```math
 F_Y\circ\pi_R
 =
 \pi_R\circ F_X
-$$
+```
 
 under the matched conditions.
 
@@ -122,21 +122,21 @@ Whole-level autonomy must not be granted with one global yes/no label.
 
 Let
 
-$$
+```math
 q:Y\rightarrow Q
-$$
+```
 
 be the declared target property or observable. It may represent, for example, stability, morphology, throughput, safety, liveness, position, response to intervention, or another addressed consequence.
 
 For deterministic property-specific descent it is enough, to the declared tolerance, that
 
-$$
+```math
 \pi_R(x)=\pi_R(x')
 \Rightarrow
 q\!\left(\pi_R(F_X(x,u,e))\right)
 \approx
 q\!\left(\pi_R(F_X(x',u,e))\right).
-$$
+```
 
 The same higher-order object may therefore support a sufficient law for one property while remaining irreducibly multiscale for another.
 
@@ -146,23 +146,23 @@ The same higher-order object may therefore support a sufficient law for one prop
 
 For a lower-address transition kernel over horizon $\Delta$,
 
-$$
+```math
 K_X^{\Delta}(\cdot\mid x,u,e),
-$$
+```
 
 strong stochastic descent requires equality, or declared near-equality, of the pushed-forward higher-state transition distributions for lower representatives of the same higher state:
 
-$$
+```math
 \pi_R(x)=\pi_R(x')
 \Rightarrow
 \pi_{R*}K_X^{\Delta}(\cdot\mid x,u,e)
 \approx
 \pi_{R*}K_X^{\Delta}(\cdot\mid x',u,e).
-$$
+```
 
 An approximate discrepancy can be declared as
 
-$$
+```math
 \epsilon_{\mathrm{strong}}(U,E,\Delta)
 =
 \sup_{x\sim_R x',\,u\in U,\,e\in E}
@@ -170,13 +170,13 @@ $$
  \pi_{R*}K_X^{\Delta}(\cdot\mid x,u,e),
  \pi_{R*}K_X^{\Delta}(\cdot\mid x',u,e)
  \right),
-$$
+```
 
 with a preregistered tolerance $\epsilon_*$. Strong approximate descent is supported only where
 
-$$
+```math
 \epsilon_{\mathrm{strong}}\leq\epsilon_*.
-$$
+```
 
 For a property $q$, the same test is applied after push-forward into the property space $Q$ rather than falsely certifying every feature of $Y$.
 
@@ -186,27 +186,27 @@ A legitimate effective law need not be representative-independent for every micr
 
 Let
 
-$$
+```math
 \mu_y(dx\mid u,e)
-$$
+```
 
 be an independently justified conditional preparation or maintained ensemble over lower states compatible with higher state $y$. A candidate ensemble-level higher kernel is
 
-$$
+```math
 K_Y^{\Delta}(\cdot\mid y,u,e)
 =
 \int_{\pi_R^{-1}(y)}
 \pi_{R*}K_X^{\Delta}(\cdot\mid x,u,e)
 \,\mu_y(dx\mid u,e).
-$$
+```
 
 This is an **ensemble/conditional** law, not strong representative-independent descent. If materially different admissible preparations inside the same $y$ produce different macro futures, preparation is part of the address and must be retained or the address refined.
 
 Failure of one-step Markov closure also does not automatically force a return to microscopic description. Test whether bounded higher-level history closes the process, for example
 
-$$
+```math
 Y_t^{+}=(Y_t,Y_{t-1},\ldots,Y_{t-k+1}).
-$$
+```
 
 Unlimited history must not be used to hide unresolved lower-state dependence.
 
@@ -241,7 +241,7 @@ If hidden representative dependence, preparation dependence, fracture, changed i
 
 The minimal logic is
 
-$$
+```math
 \boxed{
 \text{lower address}
 \rightleftarrows
@@ -249,7 +249,7 @@ $$
 \rightleftarrows
 \text{coupled multiscale address}
 }
-$$
+```
 
 with the direction earned by current evidence and target property.
 
@@ -265,23 +265,23 @@ The organised whole can remain intact even after a formerly sufficient higher-le
 
 Define separately:
 
-$$
+```math
 M_C
-$$
+```
 
 for the perturbation margin to loss of the constitutive closure relation, and
 
-$$
+```math
 M_D(q)
-$$
+```
 
 for the perturbation margin to loss of higher-address predictive/interventional sufficiency for property $q$.
 
 No universal ordering is assumed. A regime with
 
-$$
+```math
 M_D(q)<M_C
-$$
+```
 
 means that the whole still exists while the simpler higher-address law for $q$ has already failed.
 
@@ -291,17 +291,17 @@ This distinction prevents functional identity from being confused with dynamical
 
 Module 33 writes the active physical law object as
 
-$$
+```math
 \mathfrak L_{P,t}
 =
 (\mathcal D_{P,t},\mathcal T_{P,t},\mathcal W_{P,t}).
-$$
+```
 
 Module 33S2 adds a scale/address sufficiency condition before treating a promoted relational state as the owner of that law object for a declared property.
 
 Schematically:
 
-$$
+```math
 \mathcal U_t,E_t
 \rightarrow
 \text{resolve lineage, relation, closure, scale and target }q
@@ -315,7 +315,7 @@ $$
 P_{t+\Delta},O_{t+\Delta}
 \rightarrow
 \text{readdress}.
-$$
+```
 
 If higher-address descent is supported for $q$, $\Xi_t$ may use that higher/effective state at the demonstrated scope. If it is not supported, the complete addressed state must retain the lower or coupled-multiscale variables needed for $q$.
 

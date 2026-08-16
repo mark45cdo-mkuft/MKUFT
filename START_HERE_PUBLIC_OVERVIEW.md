@@ -21,9 +21,9 @@ A route may be impossible, costly, boundary-dependent, stable, unstable, misiden
 
 The framework organises its descriptions through four typed layers:
 
-$$
+```math
 S \rightarrow I \rightarrow P \rightarrow O
-$$
+```
 
 where:
 
@@ -63,19 +63,19 @@ A higher address may supply the active law for a declared property only when the
 
 Two margins are therefore kept distinct:
 
-$$
+```math
 M_C \neq M_D(q),
-$$
+```
 
 where $M_C$ is the margin to loss of constitutive closure and $M_D(q)$ is the margin to loss of higher-address law sufficiency for property $q$.
 
 Module 33S3 adds a second separation: local performance, whole-level closure, higher-law sufficiency and recoverability are not synonyms. It tracks
 
-$$
+```math
 \Delta_{\ell\rightarrow h}
 =
 (\Delta J_\ell,\Delta M_C,\Delta M_D(q))
-$$
+```
 
 and treats recovery as target-relative constrained reachability rather than assumed reversal.
 
@@ -106,17 +106,17 @@ MKUFT does not claim that:
 
 One candidate invariant may appear differently at different layers. MKUFT represents that idea schematically as
 
-$$
+```math
 K_L = A_L(K;\theta_L),
-$$
+```
 
 where the active layer $L$, variables, evidence, units, and falsifiers must be declared rather than inherited silently.
 
 A cross-layer relation is treated as a typed map,
 
-$$
+```math
 C_{LM}:\mathcal X_L\rightarrow\mathcal X_M,
-$$
+```
 
 not as proof that the two spaces are physically identical. This discipline is developed in [Cross-Layer Invariants and Layer Addressing](docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md) and [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md).
 

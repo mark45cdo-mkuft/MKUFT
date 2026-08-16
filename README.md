@@ -11,9 +11,9 @@ MKUFT is a speculative, structured research framework. It is not presented as an
 
 MKUFT asks whether apparently different physical and informational regimes can be studied through a typed architecture of substrate, information, physical expression, and observer-positioned registration:
 
-$$
+```math
 S \rightarrow I \rightarrow P \rightarrow O
-$$
+```
 
 The layers are related but not interchangeable. A shared mathematical form does not establish a shared physical mechanism, and evidence at one layer does not automatically transfer to another.
 

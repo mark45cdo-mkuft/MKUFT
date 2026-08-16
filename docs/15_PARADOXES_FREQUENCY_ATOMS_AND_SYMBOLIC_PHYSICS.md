@@ -21,15 +21,15 @@ A compact structural sequence is:
 
 Frequency is repeated structure in time. If $T$ is the period,
 
-$$
+```math
 f=\frac{1}{T},
-$$
+```
 
 with angular frequency
 
-$$
+```math
 \omega=2\pi f.
-$$
+```
 
 Stable frequency is not merely “vibration”; it is repeatable temporal order. Frequency appears in light, sound, atomic transitions, clocks, neural rhythms, music, breathing, and many other physical and biological systems because periodicity is one way a system can maintain and transmit structure through time.
 
@@ -41,12 +41,12 @@ Resonance occurs when a driven system responds strongly near one of its compatib
 
 MKUFT's general systems interpretation is that structural compatibility can lower the cost of a transition or coupling. In one declared state space, a candidate path model may be written
 
-$$
+```math
 P(B\mid A)
 \propto
 \sum_{\gamma\in\Gamma(A\to B)}
 \exp[-\beta C[\gamma]],
-$$
+```
 
 where $C[\gamma]$ is a domain-specific path cost and $\beta C[\gamma]$ is dimensionless.
 
@@ -78,21 +78,21 @@ The relation-first language does not license hidden faster-than-light messages. 
 
 A quantum state may be written
 
-$$
+```math
 |\psi\rangle=\sum_i c_i|i\rangle,
-$$
+```
 
 with outcome probabilities
 
-$$
+```math
 P(i)=|c_i|^2.
-$$
+```
 
 Superposition is not unlimited contradiction. It is a precise feature of quantum-state description.
 
 MKUFT's current event-weighting scaffold asks whether additional typed terms can be defined without violating standard quantum predictions:
 
-$$
+```math
 \widetilde W(E)
 =
 \int
@@ -100,11 +100,11 @@ D_{\mathrm{phys}}(E\mid i)
 W_{SI}(i\mid S,E)
 C_O(O\mid i,E)
 \,d\nu(i),
-$$
+```
 
-$$
+```math
 P_{\mathrm{realized}}(E)=\frac{\widetilde W(E)}{Z}.
-$$
+```
 
 These terms remain hypothetical until operationalised. The model must reduce to accepted quantum prediction where they add no measurable effect.
 
@@ -122,13 +122,13 @@ MKUFT's O-layer adds a typed place for observer-positioned registration and boun
 
 Wigner's-friend thought experiments compare descriptions made at different observational boundaries. MKUFT represents nested observer systems schematically as
 
-$$
+```math
 O_{\mathrm{friend}}
 \subset
 O_{\mathrm{lab}}
 \subset
 O_{\mathrm{Wigner}}.
-$$
+```
 
 This notation expresses nested informational and observational boundaries rather than a solution to the measurement problem by assertion.
 
@@ -186,12 +186,12 @@ A disciplined side question is whether some apparently missing gravitational con
 
 A schematic decomposition might be written
 
-$$
+```math
 a_{\mathrm{obs}}(r)
 =
 \frac{G M_{\mathrm{visible}}(r)}{r^2}
 +a_{\mathrm{hidden}}(r),
-$$
+```
 
 where $a_{\mathrm{hidden}}$ is not yet specified as particle mass, modified gravity, or an MKUFT term.
 

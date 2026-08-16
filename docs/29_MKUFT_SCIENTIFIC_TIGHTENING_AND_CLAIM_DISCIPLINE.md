@@ -90,27 +90,27 @@ An E1 expression is a mathematically legal candidate form that organises a hypot
 
 Representative E1 forms include an event-weighting scaffold,
 
-$$
+```math
 \widetilde W(E)
 =
 \int D_{\mathrm{phys}}(E\mid I)\,W(I\mid S,E)\,C(O\mid I,E)\,d\nu(I),
-$$
+```
 
 a provisional observer-condition perturbation,
 
-$$
+```math
 C_O=C_0\left(1+\varepsilon\kappa h\right),
-$$
+```
 
 a within-layer path cost,
 
-$$
+```math
 C[\gamma]=\int_{\gamma}\lambda(x)\,ds,
-$$
+```
 
 and a generic boundary-response scaffold,
 
-$$
+```math
 F_{\mathrm{boundary}}
 =
 F_{\mathrm{gradient}}
@@ -118,7 +118,7 @@ F_{\mathrm{gradient}}
 F_{\mathrm{rotational}}
 +
 V_{\mathrm{interaction}}.
-$$
+```
 
 These expressions may guide operationalisation. They are not established equations of nature merely because they can be written consistently.
 

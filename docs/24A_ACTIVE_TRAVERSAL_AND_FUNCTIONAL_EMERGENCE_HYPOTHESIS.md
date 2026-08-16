@@ -36,60 +36,60 @@ Traversal here means movement through a declared information or task state space
 
 Let
 
-$$
+```math
 \mathcal K=(V,E_{\mathcal K},\tau)
-$$
+```
 
 be a knowledge architecture with nodes $V$, typed links $E_{\mathcal K}$, and link-type map $\tau$. Let $T$ be an active traverser, $q$ a task, $\mathcal Q$ a preregistered task distribution, $B$ a matched resource budget, and $F$ a preregistered performance measure.
 
 The structured condition is
 
-$$
+```math
 \Psi_{\mathrm{struct}}(q)
 =
 T(\mathcal K_{\mathrm{struct}},q;B).
-$$
+```
 
 Matched controls include
 
-$$
+```math
 \Psi_{\mathrm{flat}}(q)
 =
 T(\mathcal K_{\mathrm{flat}},q;B),
-$$
+```
 
-$$
+```math
 \Psi_{\mathrm{iso}}(q)
 =
 T(\mathcal K_{\mathrm{isolated}},q;B),
-$$
+```
 
 and
 
-$$
+```math
 \Psi_{\mathrm{scram}}(q)
 =
 T(\mathcal K_{\mathrm{scrambled}},q;B).
-$$
+```
 
 The flat condition contains the same content without typed architecture; the isolated condition presents modules without cross-support routes; and the scrambled condition preserves content volume and superficial link density while disrupting meaningful dependencies.
 
 For a selected matched control,
 
-$$
+```math
 \Delta F(q)
 =
 F[\Psi_{\mathrm{struct}}(q)]
 -
 F[\Psi_{\mathrm{control}}(q)].
-$$
+```
 
 The strict active-traversal hypothesis is
 
-$$
+```math
 H_{\mathrm{ATFE}}:
 \mathbb E_{q\sim\mathcal Q}[\Delta F(q)]>0,
-$$
+```
 
 across preregistered cross-module tasks and more than one matched control condition.
 
@@ -101,42 +101,42 @@ At the observer-coupling level, “more than the sum of its parts” has a stric
 
 For bounded systems $A$ and $B$, let
 
-$$
+```math
 F_A(q)=F(A,q;B_A),
 \qquad
 F_B(q)=F(B,q;B_B).
-$$
+```
 
 Let $F_{\mathrm{add}}(A,B;q)$ denote the strongest matched additive or independent-ensemble baseline that combines separate outputs without reciprocal state exchange, correction propagation, or joint loop closure.
 
 Let the reciprocally coupled condition be
 
-$$
+```math
 F_{\mathrm{coupled}}(q)
 =
 F(A\leftrightarrow B,q;B_{\mathrm{total}}).
-$$
+```
 
 A provisional superadditive gain is
 
-$$
+```math
 G_{\mathrm{syn}}(q)
 =
 F_{\mathrm{coupled}}(q)-F_{\mathrm{add}}(A,B;q),
-$$
+```
 
 with task-distribution hypothesis
 
-$$
+```math
 H_{\mathrm{syn}}:
 \mathbb E_{q\sim\mathcal Q}[G_{\mathrm{syn}}(q)]>0.
-$$
+```
 
 Module [24B — Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) replaces the provisional additive baseline with a stronger fair-null construction for full testing.
 
 As a simple illustration, if
 
-$$
+```math
 F_A=2,
 \qquad
 F_B=2,
@@ -144,13 +144,13 @@ F_B=2,
 F_{\mathrm{add}}=4,
 \qquad
 F_{\mathrm{coupled}}=6,
-$$
+```
 
 then
 
-$$
+```math
 G_{\mathrm{syn}}=2.
-$$
+```
 
 The evidential object is the excess $2$, not merely the fact that the coupled system produced a score of $6$.
 

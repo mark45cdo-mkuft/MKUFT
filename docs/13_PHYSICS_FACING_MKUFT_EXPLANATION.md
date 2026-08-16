@@ -35,17 +35,17 @@ Its physical branch must earn scientific status through mathematical definition,
 
 The active convention is
 
-$$
+```math
 S\rightarrow I\rightarrow P\rightarrow O.
-$$
+```
 
 ### S — Substrate
 
 A useful mathematical representation is the measure space
 
-$$
+```math
 S=(\Omega,\Sigma,\mu),
-$$
+```
 
 where $\Omega$ is a configuration space, $\Sigma$ a sigma-algebra, and $\mu$ a baseline measure or weighting. This representation is not evidence that a separate physical medium exists.
 
@@ -53,9 +53,9 @@ where $\Omega$ is a configuration space, $\Sigma$ a sigma-algebra, and $\mu$ a b
 
 Information structures represent patterns, constraints, or relations over the substrate. To keep the layer symbol $I$ distinct from the mathematical function space, write
 
-$$
+```math
 \mathcal I=L^2(\Omega,\mu).
-$$
+```
 
 ### P — Physical
 
@@ -67,9 +67,9 @@ The observer layer contains observer-positioned registration, measurement contex
 
 A candidate coherence functional is
 
-$$
-\kappa:\operatorname{States}(\mathcal H_O)\rightarrow[0,1].
-$$
+```math
+\kappa:\mathrm{States}(\mathcal H_O)\rightarrow[0,1].
+```
 
 Observer language cannot replace a missing physical mechanism.
 
@@ -85,15 +85,15 @@ Quantum theory remains the effective description of amplitudes, probabilistic ou
 
 For a state
 
-$$
+```math
 |\psi\rangle=\sum_i c_i|i\rangle,
-$$
+```
 
 standard quantum theory gives
 
-$$
+```math
 P(i)=|c_i|^2.
-$$
+```
 
 MKUFT has not derived these relations from its deeper architecture. Any proposed mechanism must recover them rather than merely relabel them.
 
@@ -103,7 +103,7 @@ MKUFT has not derived these relations from its deeper architecture. Any proposed
 
 For event $E$, a working unnormalised weight is
 
-$$
+```math
 \widetilde W(E)
 =
 \int
@@ -111,13 +111,13 @@ D_{\mathrm{phys}}(E\mid i)
 W_{SI}(i\mid S,E)
 C_O(O\mid i,E)
 \,d\nu(i),
-$$
+```
 
 with realised probability
 
-$$
+```math
 P_{\mathrm{realized}}(E)=\frac{\widetilde W(E)}{Z}.
-$$
+```
 
 Here $D_{\mathrm{phys}}$ is the accepted physical contribution conditioned on the information structure, $W_{SI}$ a candidate substrate-to-information weighting, $C_O$ a bounded observer-condition term, and $Z$ the required normalisation.
 
@@ -127,17 +127,17 @@ This is an event-weighting scaffold rather than the complete update mechanism so
 
 If the observer term is event-independent,
 
-$$
+```math
 C_O(O\mid i,E)=C_0,
-$$
+```
 
 and the remaining weighting reduces to the accepted physical distribution, then
 
-$$
+```math
 P_{\mathrm{realized}}(E)
 \approx
 P_{\mathrm{phys}}(E)
-$$
+```
 
 within a declared regime, comparison statistic, and tolerance.
 
@@ -149,11 +149,11 @@ Observers are treated as bounded conditions rather than crude forces. Any observ
 
 A candidate linear-response form is
 
-$$
+```math
 C_O(O\mid i,E)
 =
 C_0\left[1+\varepsilon\kappa(\rho_O)h(i,E)\right],
-$$
+```
 
 where $\varepsilon$ is small, $\kappa$ is a measured observer-state proxy, and $h$ is specified before confirmatory testing.
 
@@ -163,13 +163,13 @@ The architecture alone does not establish that this term is nonzero in nature.
 
 A candidate environmental damping model is
 
-$$
+```math
 \kappa_{\mathrm{eff}}
 =
 \kappa\,\eta(F),
 \qquad
 \eta(F)\in[0,1],
-$$
+```
 
 where $F$ denotes measured environmental conditions.
 
@@ -202,35 +202,35 @@ Anomaly reports do not validate the substrate, observer coupling, or quantum-gra
 
 Layer Before Law represents the complete addressed state as
 
-$$
+```math
 U_n=(S_n,I_n,P_n,O_n)
-$$
+```
 
 and marks the still-unknown update process as
 
-$$
+```math
 U_n
-\xrightarrow{\operatorname{Update}_{\mathrm{SIPO}}}
+\xrightarrow{\mathrm{Update}_{\mathrm{SIPO}}}
 U_{n+1}.
-$$
+```
 
 This notation is a placeholder for a missing lawful process, not a completed law.
 
 A developed mechanism must satisfy recovery targets such as
 
-$$
+```math
 \Pi_{PO}\!\left[
-\operatorname{Update}_{\mathrm{SIPO}}(U;R_Q)
+\mathrm{Update}_{\mathrm{SIPO}}(U;R_Q)
 \right]
 \approx Q_{\mathrm{eff}},
-$$
+```
 
-$$
+```math
 \Pi_{PO}\!\left[
-\operatorname{Update}_{\mathrm{SIPO}}(U;R_G)
+\mathrm{Update}_{\mathrm{SIPO}}(U;R_G)
 \right]
 \approx G_{\mathrm{eff}},
-$$
+```
 
 with declared state spaces, dynamics, couplings, comparison norms or statistics, tolerances, and regimes of validity.
 

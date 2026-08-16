@@ -54,11 +54,11 @@ If relevant function survives a fair relation-preserving reroute, the candidate 
 
 Let $n$ be a candidate node in a declared domain. Its provisional coherent signature may be represented abstractly as
 
-$$
+```math
 \sigma_n
 =
 \sigma\!\left(n\mid d,\mathcal B,\mathcal T,\mathcal C\right),
-$$
+```
 
 where $d$ denotes domain, $\mathcal B$ the relevant boundary, $\mathcal T$ the task set, and $\mathcal C$ the declared conditions.
 
@@ -84,21 +84,21 @@ Let the intact system produce a preregistered outcome vector $\mathbf Y_{\mathrm
 
 A provisional node-deformation vector is
 
-$$
+```math
 \mathbf D_V(n)
 =
 \mathbf Y_{\mathrm{base}}-\mathbf Y_{-n}.
-$$
+```
 
 The subtraction is valid only for coordinates whose direction and comparability are declared. Scalar aggregation should be avoided unless quantities are commensurable or normalised and weights are fixed in advance.
 
 A stronger test preserves the surrounding relation set through a plausible alternative junction $n'$ and compares
 
-$$
+```math
 \mathbf Y_{\mathrm{base}}
 \quad\text{with}\quad
 \mathbf Y_{n\to n'}.
-$$
+```
 
 The exact comparison rule is domain-specific. This module does not declare a universal scalar anchor score.
 

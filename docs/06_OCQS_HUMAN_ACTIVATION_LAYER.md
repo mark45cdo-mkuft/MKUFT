@@ -33,23 +33,23 @@ Reduced noise is useful only where accuracy, calibration, and reproducibility im
 
 Let
 
-$$
+```math
 q_t\in[0,1]
-$$
+```
 
 represent the measured degree to which preregistered quiet-state criteria are present. A candidate normalised model is
 
-$$
+```math
 \kappa_{\mathrm{eff}}
 =
 q_t\,\kappa_{\mathrm{base}}\,\eta(F),
-$$
+```
 
 with
 
-$$
+```math
 \eta(F)\in[0,1].
-$$
+```
 
 This is not a physical law. Every study must define the measures, task, expected direction, null model, and ordinary causes of performance change.
 

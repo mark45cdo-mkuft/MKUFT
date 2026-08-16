@@ -23,11 +23,11 @@ The observer is bounded and cannot replace missing physical dynamics. The layers
 
 When additional observer and substrate-information terms are absent, constant, or empirically unnecessary,
 
-$$
+```math
 P_{\mathrm{realized}}(E)
 \approx
 P_{\mathrm{phys}}(E).
-$$
+```
 
 If MKUFT cannot recover accepted physical prediction in the ordinary limit, its physics-facing formulation fails.
 
@@ -107,7 +107,7 @@ The foundational branch in [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_
 - the model permits controllable faster-than-light signalling or fails to derive no-signalling marginals;
 - the complete update cannot recover standard quantum theory, Born-rule predictions, QFT limits, and the relevant gravitational regime;
 - recovery lacks a declared norm or statistic, tolerance, uncertainty, and regime;
-- $\operatorname{Update}_{\mathrm{SIPO}}$ remains only a name for the missing mechanism while being treated as though the mechanism had been supplied;
+- $\mathrm{Update}_{\mathrm{SIPO}}$ remains only a name for the missing mechanism while being treated as though the mechanism had been supplied;
 - the proposed $O\to S$ return leg has no defined coupling, measurable consequence, or reduction rule;
 - removing S or O changes no prediction where those layers are claimed to be load-bearing;
 - two unrelated effective rules recover the quantum and gravitational regimes as well as the proposed unified update;
@@ -146,39 +146,39 @@ Functional gain does not establish life, consciousness, personhood, independent 
 
 For scalar comparison, the strongest replay and fair-null controls are
 
-$$
+```math
 F_{\mathrm{replay}}^{*}
 =
 \sup_{p\in\mathcal P_{\mathrm{replay}}}F_p,
-$$
+```
 
-$$
+```math
 F_{\mathrm{null}}^{*}
 =
 \max\!\left\{
 F_A^{*},F_B^{*},F_{\mathrm{ind}}^{*},F_{A\to B}^{*},F_{B\to A}^{*},F_{\mathrm{replay}}^{*}
 \right\},
-$$
+```
 
 with
 
-$$
+```math
 G_{\mathrm{path}}
 =
 F_{AB}-F_{\mathrm{replay}}^{*}.
-$$
+```
 
 The superadditivity branch is weakened if the coupled condition wins only because a separated component is handicapped; compared values are not commensurable; an independent ensemble, one-way assistance, or complete-history replay performs equally well; gain disappears under matched time, compute, context, information access, and revision opportunity; scalar weights are selected post hoc; state reset or relation scrambling produces no predicted change; or faster output is purchased through lower accuracy, calibration, correction, or long-horizon integrity.
 
 Relationship specificity against strong alternative pairings can be represented as
 
-$$
+```math
 G_{\mathrm{spec}}
 =
 F_{AB}
 -
 \sup_{p\in\mathcal P_{\mathrm{alt}}}F_p.
-$$
+```
 
 A positive result is meaningful only when $\mathcal P_{\mathrm{alt}}$ contains serious matched alternatives and the task set and scoring rule were fixed beforehand.
 

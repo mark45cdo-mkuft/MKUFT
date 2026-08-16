@@ -31,20 +31,20 @@ For a declared domain $d$ at time $t$:
 
 The feasible region is
 
-$$
+```math
 \Omega_t^{(d)}
 =
 \left\{z\in\mathcal X_d:
  z\text{ remains compatible with }E_t\text{ and }C_t\right\}.
-$$
+```
 
 A dimensionless ambiguity-volume index is
 
-$$
+```math
 A_{t,\mathrm{vol}}^{(d)}
 =
 \log\!\left(1+\frac{\mu_d(\Omega_t^{(d)})}{\mu_{0,d}}\right).
-$$
+```
 
 $A_{t,\mathrm{vol}}^{(d)}$ is an audit variable, not a claim that every relevant dimension can already be measured directly.
 
@@ -54,19 +54,19 @@ States, paths, interpretations, identities, motives, and hypotheses cannot be co
 
 The unresolved region may be represented as a weighted transition graph,
 
-$$
+```math
 \mathcal G_t^{(d)}
 =
 \left(V_t^{(d)},E_t^{(d)},w_t\right),
-$$
+```
 
 where $V_t^{(d)}$ represents encoded unresolved states, $E_t^{(d)}$ represents available transitions, and $w_t(i,j)$ represents transition cost.
 
 Let
 
-$$
+```math
 R_t\in[0,1]
-$$
+```
 
 be a normalised score for the density and accessibility of low-cost transitions inside the unresolved region.
 
@@ -76,9 +76,9 @@ High $R_t$ means that a system can shift role, frame, attribution, meaning, pola
 
 Let
 
-$$
+```math
 X_t\in[0,1]
-$$
+```
 
 measure how well movement between unresolved states preserves access to a sustaining source.
 
@@ -90,9 +90,9 @@ A frame shift that destroys access has little manoeuvring value. A shift that av
 
 The working index is
 
-$$
+```math
 M_t=A_{t,\mathrm{vol}}^{(d)}R_tX_t.
-$$
+```
 
 This is a dimensionless heuristic index, not a universal physical law.
 
@@ -124,20 +124,20 @@ For a declared linguistic, technical, legal, or local domain $d$:
 
 Formally,
 
-$$
+```math
 \Lambda_t(U_t,d)
 =
 \left\{i\in\mathcal X_d:
  i\text{ is reasonably licensed by }U_t\text{ in domain }d\text{ at time }t\right\}.
-$$
+```
 
 Semantic licence constrains the interpretation-domain feasible region:
 
-$$
+```math
 \Omega_{t,\mathrm{sem}}^{(d)}
 =
 \Omega_t^{(d)}\cap\Lambda_t(U_t,d).
-$$
+```
 
 Context, pragmatics, prior usage, and operational constraints may rank or remove members of $\Lambda_t$. A later clarification may contract the current interpretation region without retroactively erasing the historical fact that another reading was reasonably licensed by the earlier wording.
 
@@ -159,25 +159,25 @@ No single authority is absolute. Syntax is not complete meaning; dictionary mean
 
 Let one declared inquiry step update evidence and constraints from $t$ to $t+1$. Define the finite inquiry change as
 
-$$
+```math
 \Delta_QA_{t,\mathrm{vol}}
 =
 A_{t+1,\mathrm{vol}}-A_{t,\mathrm{vol}}.
-$$
+```
 
 Generative ambiguity should normally become better specified, corresponding to
 
-$$
+```math
 \Delta_QA_{t,\mathrm{vol}}<0.
-$$
+```
 
 Honest inquiry may leave uncertainty, but it should tend to produce narrower hypotheses, clearer unknowns, or explicit boundaries.
 
 Exploitative ambiguity tends to resist contraction or replenish itself when clarification threatens access:
 
-$$
+```math
 \Delta_QA_{t,\mathrm{vol}}\ge 0.
-$$
+```
 
 A derivative such as $dA/dQ$ is appropriate only when inquiry progress or intensity has been defined as a continuous variable.
 
@@ -195,9 +195,9 @@ $\Omega_t^{(d)}$ may be related to a wider possibility model, but a domain-speci
 
 The main frame rotation often occurs here. A physical event may remain fixed while its assigned meaning, agency, explanation, or attribution changes. Schematically,
 
-$$
+```math
 P\longrightarrow\{I_1,I_2,I_3,\ldots\}\longrightarrow O.
-$$
+```
 
 ### P — Physical
 
@@ -209,9 +209,9 @@ Attention, memory, fear, loyalty, expectation, and identity affect which routes 
 
 Cross-layer constraint may propagate through typed couplings,
 
-$$
+```math
 S\leftrightarrow I\leftrightarrow P\leftrightarrow O,
-$$
+```
 
 but the arrows are not a common spatial metric. Each claimed coupling requires a source variable, receiving variable, measurable effect, ordinary baseline, and falsifier.
 

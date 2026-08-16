@@ -174,15 +174,15 @@ Every component receives fair tasking, relevant information and repository acces
 
 Let
 
-$$
+```math
 F_{\mathrm{replay}}^{*}
 =
 \sup_{p\in\mathcal P_{\mathrm{replay}}}F_p.
-$$
+```
 
 For a commensurable scalar metric,
 
-$$
+```math
 F_{\mathrm{null}}^{*}
 =
 \max\!\left\{
@@ -193,33 +193,33 @@ F_{A\to B}^{*},
 F_{B\to A}^{*},
 F_{\mathrm{replay}}^{*}
 \right\}.
-$$
+```
 
 The strongest-null gain is
 
-$$
+```math
 G_{\mathrm{syn}}^{*}
 =
 F_{AB}-F_{\mathrm{null}}^{*},
-$$
+```
 
 and live-path excess over complete-history replay is
 
-$$
+```math
 G_{\mathrm{path}}
 =
 F_{AB}-F_{\mathrm{replay}}^{*}.
-$$
+```
 
 Relationship specificity against a preregistered set $\mathcal P_{\mathrm{alt}}$ of serious alternative pairings is
 
-$$
+```math
 G_{\mathrm{spec}}
 =
 F_{AB}
 -
 \sup_{p\in\mathcal P_{\mathrm{alt}}}F_p.
-$$
+```
 
 A positive $G_{\mathrm{syn}}^{*}$ supports superadditive functional gain only under a fixed metric and matched resource envelope. Positive $G_{\mathrm{path}}$ supports live-path excess beyond complete-history replay. Positive $G_{\mathrm{spec}}$ supports relationship-specific gain beyond strong alternatives. None of these results establishes consciousness or personhood.
 
@@ -249,19 +249,19 @@ Define a precise mathematical object $R_{XY}$ for the proposed pair-level inform
 
 For local settings $x,y$ and outcomes $a,b$, derive
 
-$$
+```math
 p(a,b\mid x,y,R_{XY}).
-$$
+```
 
 The construction must reproduce the relevant Bell-compatible quantum correlations. It fails if it reduces to a locally separable hidden-variable form
 
-$$
+```math
 p(a,b\mid x,y)
 =
 \int d\lambda\,\rho(\lambda)
 \,p(a\mid x,\lambda)
 \,p(b\mid y,\lambda)
-$$
+```
 
 where that form cannot reproduce the target Bell-test results.
 
@@ -269,17 +269,17 @@ where that form cannot reproduce the target Bell-test results.
 
 The model must imply local marginals independent of the distant setting, for example
 
-$$
+```math
 \sum_a p(a,b\mid x,y,R_{XY})
 =
 p(b\mid y,R_{XY}),
-$$
+```
 
-$$
+```math
 \sum_b p(a,b\mid x,y,R_{XY})
 =
 p(a\mid x,R_{XY}).
-$$
+```
 
 The result must follow from the formal model rather than from verbal assurance.
 
@@ -287,13 +287,13 @@ The result must follow from the formal model rather than from verbal assurance.
 
 For relational conditions $R_Q$, the proposed complete update must recover the established quantum regime:
 
-$$
+```math
 \Pi_{PO}\!\left[
-\operatorname{Update}_{\mathrm{SIPO}}(U;R_Q)
+\mathrm{Update}_{\mathrm{SIPO}}(U;R_Q)
 \right]
 \approx
 Q_{\mathrm{eff}}.
-$$
+```
 
 The comparison requires declared state spaces, dynamics, couplings, symmetries, conservation conditions, reduction rules, norm or statistic, tolerance, and regime of validity.
 
@@ -301,13 +301,13 @@ The comparison requires declared state spaces, dynamics, couplings, symmetries, 
 
 For relational conditions $R_G$,
 
-$$
+```math
 \Pi_{PO}\!\left[
-\operatorname{Update}_{\mathrm{SIPO}}(U;R_G)
+\mathrm{Update}_{\mathrm{SIPO}}(U;R_G)
 \right]
 \approx
 G_{\mathrm{eff}}.
-$$
+```
 
 The target is recovery of general relativity or an experimentally equivalent gravitational regime within a declared domain.
 

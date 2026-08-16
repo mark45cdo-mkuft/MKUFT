@@ -30,33 +30,33 @@ Adjacency, ancestry, containment, similarity, shared naming, common provenance, 
 
 Let the apparent object be $O^{(0)}$. A first decomposition may expose
 
-$$
+```math
 D(O^{(0)})
 =
 \{o_i,r_{ij},b_k,v_\ell,p_m\},
-$$
+```
 
 where $o_i$ are distinct subobjects or components, $r_{ij}$ relations between them, $b_k$ boundaries or scopes, $v_\ell$ versions or time-indexed states, and $p_m$ properties being asserted, measured, inherited, or transferred.
 
 Every load-bearing element returned by $D$ receives a typed address such as
 
-$$
+```math
 T(x)
 =
 (\text{domain},\text{layer},\text{boundary},\text{version},\text{role},\text{evidence},\text{status}).
-$$
+```
 
 The tuple is an audit address rather than a claim that every domain shares one metric or mechanism.
 
 If typing $x$ reveals further distinct load-bearing objects or relations, the process recurses:
 
-$$
+```math
 O^{(0)}
 \rightarrow D(O^{(0)})
 \rightarrow T(x)
 \rightarrow D(x)
 \rightarrow\cdots
-$$
+```
 
 The recursion stops when further decomposition no longer changes a load-bearing conclusion, route, boundary, falsifier, or outcome, or when the remaining unresolved branch is explicitly bounded.
 
@@ -64,25 +64,25 @@ The recursion stops when further decomposition no longer changes a load-bearing 
 
 Let property $P$ belong to object $A$, and let relation $R$ connect $A$ to object $B$:
 
-$$
+```math
 A\xrightarrow{R}B.
-$$
+```
 
 The inference
 
-$$
+```math
 P(A)\Rightarrow P(B)
-$$
+```
 
 is permitted only where $R$ has been defined and supported as a valid carrier of property $P$.
 
 Let $\mathcal C_P$ be the permitted carrier class for property $P$. Then
 
-$$
+```math
 P(A)\Rightarrow P(B)
 \quad\text{only if}\quad
 R\in\mathcal C_P.
-$$
+```
 
 The carrier class is property-specific. A relation that carries provenance may not carry licence, evidence, authority, ownership, causation, identity, responsibility, units, or moral status.
 

@@ -100,9 +100,9 @@ This fourth load is especially relevant in living, conscious, social, institutio
 
 Let a structured corpus or model be
 
-$$
+```math
 \mathcal G=(V,E_{\mathcal G},\tau),
-$$
+```
 
 where $V$ contains concepts, states, claims, or modules; $E_{\mathcal G}$ contains relations or dependencies; and $\tau$ gives relation type.
 
@@ -112,11 +112,11 @@ For a candidate relation $r$, compare baseline performance with one or more cont
 
 For a beneficial performance coordinate $X$, define
 
-$$
+```math
 \Delta X_r
 =
 X_{\mathrm{baseline}}-X_{\mathrm{deformed}}(r).
-$$
+```
 
 Then:
 
@@ -128,11 +128,11 @@ For a cost coordinate, either transform it so higher values mean better performa
 
 A general benefit-oriented deformation vector may be written
 
-$$
+```math
 \mathbf D(r)
 =
 (\Delta R,\Delta C,\Delta P,\Delta K,\Delta A,\Delta W),
-$$
+```
 
 where the coordinates may represent loss of reconstruction quality, contradiction-detection performance, prediction or task performance, calibration and correction propagation, agency accessibility, and wider-system viability or repair capacity.
 

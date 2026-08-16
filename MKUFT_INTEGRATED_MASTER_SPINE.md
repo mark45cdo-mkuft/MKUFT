@@ -58,9 +58,9 @@ The layers are typed addresses, not four ordinary spatial dimensions.
 
 A mathematical handle is the measure space
 
-$$
+```math
 S=(\Omega,\Sigma,\mu).
-$$
+```
 
 This is a formal representation of a possibility/source domain. It is not evidence that a hidden material medium, lattice, or additional physical space has been detected.
 
@@ -70,10 +70,10 @@ For recursive live-state work, Module 33 distinguishes this ambient possibility 
 
 To avoid symbol collision, use
 
-$$
+```math
 \mathcal I=L^2(\Omega,\mu),
 \qquad i\in\mathcal I,
-$$
+```
 
 where $I$ remains the layer label, $\mathcal I$ the selected information-state/function space, and $i$ one information structure.
 
@@ -93,7 +93,7 @@ Observer language cannot replace a missing physical mechanism. Where measurement
 
 For event $E$, a working unnormalised weight is
 
-$$
+```math
 \widetilde W(E)
 =
 \int
@@ -101,15 +101,15 @@ D_{\mathrm{phys}}(E\mid i)
 W_{SI}(i\mid S,E)
 C_O(O\mid i,E)
 \,d\nu(i),
-$$
+```
 
 with
 
-$$
+```math
 P_{\mathrm{realized}}(E)
 =
 \frac{\widetilde W(E)}{Z}.
-$$
+```
 
 $D_{\mathrm{phys}}$ represents the accepted physical contribution, $W_{SI}$ a candidate substrate-to-information weighting, and $C_O$ a bounded observer-condition term.
 
@@ -117,11 +117,11 @@ These are working scaffolds. Every additional term must be operationalised and t
 
 The ordinary limit is mandatory:
 
-$$
+```math
 P_{\mathrm{realized}}(E)
 \approx
 P_{\mathrm{phys}}(E)
-$$
+```
 
 when additional terms are absent, constant, negligible, or empirically unnecessary within a declared regime and tolerance.
 
@@ -131,35 +131,35 @@ Module 33 does not silently replace this event-weighting scaffold. It supplies t
 
 Represent a state structure as
 
-$$
+```math
 \mathcal G=(N,E_{\mathcal G}),
-$$
+```
 
 with trajectory
 
-$$
+```math
 \gamma=(n_0\rightarrow n_1\rightarrow\cdots\rightarrow n_k).
-$$
+```
 
 For one declared state space, a candidate traversal cost is
 
-$$
+```math
 C[\gamma]
 =
 \int_\gamma\lambda(x)\,ds.
-$$
+```
 
 The path element, cost density, and resulting units must be defined.
 
 A Gibbs-like path model requires a dimensionless exponent. With inverse cost scale $\beta$,
 
-$$
+```math
 P(B\mid A)
 =
 \frac{1}{Z_A}
 \sum_{\gamma\in\Gamma(A\to B)}
 \exp[-\beta C[\gamma]].
-$$
+```
 
 Alternatively, use an explicitly dimensionless normalised cost $\widetilde C[\gamma]$ in $\exp[-\widetilde C[\gamma]]$.
 
@@ -169,33 +169,33 @@ This is a candidate model, not a declaration that all probability is fundamental
 
 Where admissibility changes with time, use
 
-$$
+```math
 \mathcal G(t)=(N,E_{\mathcal G}(t)).
-$$
+```
 
 A temporally addressed path may be represented as
 
-$$
+```math
 \gamma_t=((n_0,t_0)\rightarrow(n_1,t_1)\rightarrow\cdots\rightarrow(n_k,t_k)),
-$$
+```
 
 with
 
-$$
+```math
 C[\gamma_t]
 =
 \int_\gamma \lambda(x(s),t(s))\,ds.
-$$
+```
 
 A candidate conditional weighting is then
 
-$$
+```math
 P(B,t_B\mid A,t_A)
 =
 \frac{1}{Z}
 \sum_{\gamma_t\in\Gamma_{t_A\to t_B}(A\to B)}
 \exp[-\beta C[\gamma_t]].
-$$
+```
 
 The stationary model is recovered when the relevant transition structure and cost are effectively time-independent over the interval.
 
@@ -214,21 +214,21 @@ Let:
 
 The physical-only null is schematically
 
-$$
+```math
 H_0:\quad
 Y_{t+\Delta}
 \perp\!\!\!\perp
 I_t
 \mid X_t,H_t.
-$$
+```
 
 The stronger I-layer claim earns support only if $I_t$ improves held-out prediction after $X_t$ and $H_t$ are controlled, survives appropriate relation-preserving re-encoding, and cannot be reduced to an adequate physical-state function.
 
 If
 
-$$
+```math
 I_t=f(X_t,H_t),
-$$
+```
 
 then the I-layer may remain a useful effective description or compression, but this test has not established independent I→P dynamics.
 
@@ -238,17 +238,17 @@ The same reduction discipline applies to observer variables.
 
 For a declared domain $d$, let $\Omega_t^{(d)}$ be the unresolved feasible region compatible with current evidence and constraints. A dimensionless ambiguity-volume index is
 
-$$
+```math
 A_{t,\mathrm{vol}}^{(d)}
 =
 \log\!\left(1+\frac{\mu_d(\Omega_t^{(d)})}{\mu_{0,d}}\right).
-$$
+```
 
 With normalised route connectivity $R_t$ and preserved access $X_t$,
 
-$$
+```math
 M_t=A_{t,\mathrm{vol}}^{(d)}R_tX_t.
-$$
+```
 
 $M_t$ is a heuristic audit index, not a universal law. The product form must compete with additive and interaction alternatives.
 
@@ -258,17 +258,17 @@ Canonical owner: [`docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`](docs/21_A
 
 For candidate invariant $K$ at layer $L$,
 
-$$
+```math
 K_L=A_L(K;\theta_L).
-$$
+```
 
 A cross-layer coupling must identify source and receiving spaces, variables, units or normalisation, observable consequence, ordinary baseline, and falsifier.
 
 A typed coupling may be represented as
 
-$$
+```math
 C_{LM}:\mathcal X_L\rightarrow\mathcal X_M.
-$$
+```
 
 Repeated algebraic form does not prove one physical mechanism.
 
@@ -286,21 +286,21 @@ For adaptive systems whose relevant variables, admissible operations, decoder, o
 
 Let
 
-$$
+```math
 \mathfrak X
 =
 \bigsqcup_{\alpha\in A}
 \{\alpha\}\times\mathcal X_\alpha.
-$$
+```
 
 A schematic adaptive update is
 
-$$
+```math
 \mathfrak F_t(\mathfrak A_t,u_t)
 =
 (\alpha_{t+1},x_{t+1})
 \in\mathfrak X.
-$$
+```
 
 When $\alpha_{t+1}\neq\alpha_t$, direct subtraction or state equivalence requires a lawful translation, embedding, quotient, or common observable. Construction-address change is not silently treated as motion inside one fixed space.
 
@@ -316,11 +316,11 @@ previous organisation
 
 A scale-separated enabling-constraint pattern can occur when lower-scale feasible-state volume decreases while higher-scale viable capability increases:
 
-$$
+```math
 \Delta\mu_\ell<0,
 \qquad
 \Delta\nu_L>0,
-$$
+```
 
 provided each before/after difference is defined in a common declared comparison space. This is not a universal monotonic law. Overconstraint can reduce both quantities, and constraint count is not a proxy for coherence, agency, or freedom.
 
@@ -330,55 +330,55 @@ Recurrent architecture across domains supports a stronger comparison only when t
 
 Module 32S3 generalises the local-to-global object beyond literal spatial overlap. Let
 
-$$
+```math
 \mathcal L_t
 =
 \prod_i\mathcal F_t(U_i)
-$$
+```
 
 be an ambient assignment space and
 
-$$
+```math
 \mathfrak E_t=\{r_1,\ldots,r_m\}
-$$
+```
 
 a typed family of relation scopes. Geometric overlap is one possible relation class; regulatory, contextual, system–environment, temporal, semantic/functional, and other relations require their own operational definitions. The product is a coordinate scaffold, not an independence assumption.
 
 Typed compatibility tests select
 
-$$
+```math
 \mathfrak C_{B,t}
 =
 \{a\in\mathcal L_t:\chi_B(a)=1\}.
-$$
+```
 
 For a missing coordinate `k`, the compatible completion is the missing-coordinate image of the fiber over the retained assignment:
 
-$$
+```math
 \mathfrak F_{k,t}(a_{-k})
 =
 \mathfrak C_{B,t}
 \cap
 \pi_{-k}^{-1}(a_{-k}),
-$$
+```
 
-$$
+```math
 \Omega_{k,t}^{\mathrm{comp}}(a_{-k})
 =
 \pi_k\!\left(\mathfrak F_{k,t}(a_{-k})\right).
-$$
+```
 
 This separates a narrow completion, broad ambiguity, local incompatibility, and unrelated background inconsistency. Relational specification does not imply physical occupancy.
 
 A declared higher-scale readout
 
-$$
-R_{\ell\rightarrow L}:\mathfrak C_{B,\ell}\supseteq\operatorname{Dom}(R)\rightarrow\mathcal Y_L
-$$
+```math
+R_{\ell\rightarrow L}:\mathfrak C_{B,\ell}\supseteq\mathrm{Dom}(R)\rightarrow\mathcal Y_L
+```
 
 induces equivalence classes. For macrostate `y`, the compatible lower-scale realisation class is
 
-$$
+```math
 \boxed{
 \mathcal M_y
 =
@@ -386,15 +386,15 @@ $$
 \cap
 R_{\ell\rightarrow L}^{-1}(y).
 }
-$$
+```
 
 Thus lower-scale state can change while the declared macrostate remains fixed whenever the trajectory remains inside $\mathcal M_y$. This is an operational model of lower-level turnover with higher-level persistence; it is not by itself a claim of personal identity or autonomous macro causation.
 
 The quotient
 
-$$
+```math
 \mathfrak C_{B,\ell}/\!\sim_R
-$$
+```
 
 is only a readout/coarse-graining until the Module 32S effective-object tests establish persistence, interventional load-bearingness, new viable capability, predictive compression, and boundary/closure specificity.
 
@@ -412,11 +412,11 @@ with completion as the complementary zoom-in fiber operation.
 
 Module 32S3 also defines the constraint-to-admissibility scaffold
 
-$$
+```math
 \mathcal Q_{\lambda,t}(\mathbf r,x,h)
 =
 \Omega_{\lambda,t}^{\mathrm{adm}}.
-$$
+```
 
 At the I→P boundary, a non-zero relational effect can remain fully P-realised. Independent I→P dynamics still require content beyond the strongest adequate P-state/history/boundary model.
 
@@ -426,11 +426,11 @@ Module 32S4 separates intrinsic relational organisation from extrinsic/contextua
 
 For intrinsic class $\kappa$, extrinsic address $b$ and relevant history $h$,
 
-$$
+```math
 \mathcal F_P(\kappa;b,h)
 =
 \{p\in\mathfrak P:\chi_P(p;\kappa,b,h)=1\}
-$$
+```
 
 is a context-indexed set of compatible P-realisations. Relational specification, compatible physical realisation and actual occupancy remain distinct.
 
@@ -444,21 +444,21 @@ Module 33 composes the preceding dependencies into the live SIPO update.
 
 Let the complete addressed state be
 
-$$
+```math
 \mathcal U_t=(S_t^{\mathrm{eff}},I_t,P_t,O_t,b_t,H_t)
-$$
+```
 
 with measured/controlled context $E_t$ where required. The typed admissibility descriptor is
 
-$$
+```math
 \boxed{
 \Xi_t=\mathcal Q_t(\mathcal U_t,E_t).
 }
-$$
+```
 
 The active physical law object is
 
-$$
+```math
 \boxed{
 \mathfrak L_{P,t}
 =
@@ -468,42 +468,42 @@ $$
 \mathcal W_{P,t}
 \right),
 }
-$$
+```
 
 where $\mathcal D$ is the addressed physical state/path/operator domain, $\mathcal T$ the physical transition rule/generator, and $\mathcal W$ any domain-appropriate weighting/selection object.
 
 A typed law assembler maps
 
-$$
+```math
 \boxed{
 \mathfrak C_P:(\Xi_t,P_t,E_t)\longmapsto\mathfrak L_{P,t}.
 }
-$$
+```
 
 The minimal clean Layer-Before-Law branch is
 
-$$
+```math
 \mathcal D_{P,t}=\mathfrak D_P(\Xi_t)
-$$
+```
 
 with standard $\mathcal T$ and $\mathcal W$ on that domain. The general capstone allows an independently demonstrated relation to affect $\mathcal D$, $\mathcal T$, $\mathcal W$, or a typed combination; domain-only conditioning is therefore a specialisation, not a universal restriction.
 
 The SIPO update is
 
-$$
+```math
 \boxed{
-\operatorname{Update}_{\mathrm{SIPO}}
+\mathrm{Update}_{\mathrm{SIPO}}
 =
-\operatorname{Readdress}
+\mathrm{Readdress}
 \circ
-\operatorname{Instrument}_{P\rightarrow(P,O)}
+\mathrm{Instrument}_{P\rightarrow(P,O)}
 \circ
-\operatorname{Propagate}_{P}^{\,\mathfrak L_P},
+\mathrm{Propagate}_{P}^{\,\mathfrak L_P},
 \qquad
 \mathfrak L_P=\mathfrak C_P\circ\mathcal Q
 \ \text{with typed state/context arguments}.
 }
-$$
+```
 
 This means:
 
@@ -523,15 +523,15 @@ The capstone makes `domain before generator` and `support before weighting` expl
 
 Module 33S1 refines the readdressing stage without changing the parent capstone. Let
 
-$$
+```math
 \mathcal J_{AB,t}
-$$
+```
 
 be a typed interface/junction state between addressed systems $A_t$ and $B_t$. An interface remains bundled context unless it is operationally definable/trackable, controlled deformation changes a preregistered load-bearing downstream object, and the realised transition changes the interface in a way that alters the next cycle.
 
 The recursive signature is
 
-$$
+```math
 \boxed{
 \mathcal J_{AB,t}
 \rightarrow
@@ -541,7 +541,7 @@ $$
 \rightarrow
 \Xi_{t+\Delta}.
 }
-$$
+```
 
 Passing this gate promotes the relation into explicit state representation; it does **not** establish independent ontology or an independent I layer. A fully P-recoverable interface may still be a useful macrostate or sufficient state variable.
 
@@ -553,21 +553,21 @@ Module 33S2 separates existence of a higher-order functional object from dynamic
 
 Let
 
-$$
+```math
 \pi_R:X\rightarrow Y
-$$
+```
 
 map lower-address states into candidate higher relational states under a declared load-bearing relation $R$. Functional equivalence at $Y$ does not erase historical lineage, and promotion into $Y$ does not automatically produce an autonomous law.
 
 For matched deterministic lower dynamics $F_X$, strong whole-state descent requires
 
-$$
+```math
 \boxed{
 \pi_R(x)=\pi_R(x')
 \Rightarrow
 \pi_R(F_X(x))=\pi_R(F_X(x'))
 }
-$$
+```
 
 within the declared environment, intervention class, timescale and tolerance. Where only a target property $q$ is claimed, descent is tested for $q$ rather than silently certifying all of $Y$.
 
@@ -575,15 +575,15 @@ The supported class must be named as strong/exact, strong/approximate, ensemble/
 
 Closure and law descent remain separate margins:
 
-$$
+```math
 M_C
-$$
+```
 
 for loss of the constitutive closure relation, and
 
-$$
+```math
 M_D(q)
-$$
+```
 
 for loss of higher-address sufficiency for property $q$. A regime with $M_D(q)<M_C$ is allowed: the organised whole can persist after a simpler higher-address law for $q$ has failed.
 
@@ -603,29 +603,29 @@ Module 33S3 adds a further guard where a lower-address process changes performan
 
 Let $J_\ell$ be a declared lower-address performance variable. Track it separately from closure and law descent:
 
-$$
+```math
 \boxed{
 \Delta_{\ell\rightarrow h}
 =
 (\Delta J_\ell,\Delta M_C,\Delta M_D(q)).
 }
-$$
+```
 
 The tuple is retained rather than collapsed into one scalar because its entries may have different units and meanings. Cross-scale change may be aligned, antagonistic, neutral/decoupled, or mixed/property-relative. In particular,
 
-$$
+```math
 \Delta J_\ell>0,
 \qquad
 \Delta M_C<0
-$$
+```
 
 is a possible antagonistic pattern, not a universal law. Local improvement does not imply whole-level improvement, and it does not imply inevitable later collapse.
 
 Recovery is defined conditionally. Let $\mathcal C_R\subseteq Y$ be a declared target closure class, with intervention/control class $U$, environment class $E$, admissible route constraints and horizon $H$. A state is recoverable only where an admissible route can reach $\mathcal C_R$ under those declared conditions. The notation
 
-$$
-\operatorname{Rec}_H(x_t;\mathcal C_R,U,E)=1
-$$
+```math
+\mathrm{Rec}_H(x_t;\mathcal C_R,U,E)=1
+```
 
 is a reachability scaffold, not a universal recovery law.
 
@@ -649,19 +649,19 @@ addressed relational state
 
 Current formal work uses a yield index $Y_L$ rather than overloading $C$:
 
-$$
+```math
 Y_L(x,t)
 =
 \chi_L
 \frac{\lVert\nabla\tau_L(x,t)\rVert^2}
 {N_L(x,t)+\varepsilon_L},
-$$
+```
 
 with candidate threshold
 
-$$
+```math
 Y_L(x,t)\ge Y_*.
-$$
+```
 
 Where a physical implementation produces boundary morphology:
 

@@ -31,51 +31,51 @@ This refinement prevents two opposite errors:
 
 Let
 
-$$
+```math
 x_t\in\mathcal X_{\alpha_t}
-$$
+```
 
 be a realised state at construction address `alpha_t`.
 
 Let
 
-$$
+```math
 \kappa_t:\mathcal X_{\alpha_t}\rightarrow\mathcal K_t
-$$
+```
 
 extract the declared **intrinsic relational descriptor**: the relation family claimed to remain constitutive under admissible relocation or re-embedding.
 
 Let
 
-$$
+```math
 b_t\in\mathcal B_t
-$$
+```
 
 be the declared **extrinsic address**, containing only the contextual variables relevant to the claim: for example position, orientation, external boundary, system–environment coupling, field configuration, neighbouring objects, measurement frame, or another operationally specified context.
 
 The split
 
-$$
+```math
 (\kappa_t,b_t)
-$$
+```
 
 is claim-relative. It is not an assertion that nature factorises into two independent substances.
 
 For an admissible relocation or re-embedding operation `g`, intrinsic preservation means
 
-$$
+```math
 d_{\mathcal K}\!\left(
 \kappa(g\cdot x),
 \kappa(x)
 \right)
 \leq\varepsilon_{\kappa},
-$$
+```
 
 while the extrinsic address is allowed to change:
 
-$$
+```math
 b\rightarrow b'.
-$$
+```
 
 Thus:
 
@@ -87,18 +87,18 @@ Any property that depends on both must be evaluated on the joint addressed objec
 
 For physical applications, let
 
-$$
+```math
 \mathfrak P
 =
 \bigsqcup_{\beta\in A_P}
 \{\beta\}\times\mathcal P_\beta
-$$
+```
 
 be the addressed family of physical state spaces.
 
 For an intrinsic relational class `kappa`, extrinsic address `b`, and relevant history `h`, define the **compatible P-realisation set**
 
-$$
+```math
 \boxed{
 \mathcal F_P(\kappa;b,h)
 =
@@ -107,18 +107,18 @@ p\in\mathfrak P:
 \chi_{P}(p;\kappa,b,h)=1
 \right\}.
 }
-$$
+```
 
 `chi_P` is an implementation-specific compatibility test and may include several typed relations from Module 32S3. The set can be empty, broad, narrow, or split across several physical construction addresses.
 
 This creates a bundle-compatible addressed family
 
-$$
+```math
 \mathfrak R_\kappa
 =
 \bigsqcup_{b\in\mathcal B}
 \{b\}\times\mathcal F_P(\kappa;b,h_b),
-$$
+```
 
 but it must not be called a fiber bundle unless the mathematical conditions required for a bundle—such as an appropriate projection and local triviality—are actually demonstrated.
 
@@ -138,49 +138,49 @@ This is the sober version of a `latent address`: **a relational specification ma
 
 Let
 
-$$
+```math
 \gamma:[0,1]\rightarrow\mathcal B
-$$
+```
 
 be a declared path through extrinsic/context space from
 
-$$
+```math
 \gamma(0)=b_0
-$$
+```
 
 to
 
-$$
+```math
 \gamma(1)=b_1.
-$$
+```
 
 Where a lawful transport exists, define
 
-$$
+```math
 T_\gamma:
 \mathcal F_P(\kappa_0;b_0,h_0)
 \supseteq\mathcal D_\gamma
 \rightarrow
 \mathcal F_P(\kappa_1;b_1,h_1).
-$$
+```
 
 Transport preserves the intrinsic relation class to tolerance when
 
-$$
+```math
 d_{\mathcal K}\!\left(
 \kappa_1(T_\gamma p),
 \kappa_0(p)
 \right)
 \leq\varepsilon_\kappa.
-$$
+```
 
 Identity continuity still requires the separate 32S1/32S2 conditions. A transport map is not by itself a proof of same-self continuity.
 
 The important new point is that the map may be **path-dependent**:
 
-$$
+```math
 T_{\gamma_1}\neq T_{\gamma_2}
-$$
+```
 
 even when `gamma_1` and `gamma_2` have the same endpoints.
 
@@ -190,23 +190,23 @@ This gives a precise place for history to remain load-bearing after ordinary end
 
 For a closed contextual loop
 
-$$
+```math
 \gamma(0)=\gamma(1)=b,
-$$
+```
 
 define the loop transport
 
-$$
+```math
 \mathcal H_\gamma
 =
 T_\gamma.
-$$
+```
 
 If
 
-$$
+```math
 \mathcal H_\gamma(p)\neq p
-$$
+```
 
 under the declared observable/equivalence relation, the system carries a **non-trivial path memory** around that loop.
 
@@ -228,7 +228,7 @@ An object generally participates in several relation families at once: internal 
 
 Let the jointly relevant constraints be indexed by `(s,r)`, where `s` denotes scale/layer address and `r` a typed relation. For one total candidate state `z`, define
 
-$$
+```math
 \mathfrak C_{\mathrm{nested}}
 =
 \left\{
@@ -237,7 +237,7 @@ z:
 \quad
 \forall(s,r)\in\mathfrak E_{\mathrm{tested}}
 \right\}.
-$$
+```
 
 This is intentionally generic. Where the component state spaces differ, the implementation must use lawful pullbacks, fiber products, embeddings, or other typed comparison maps rather than pretending every constraint lives in one common Euclidean space.
 
@@ -260,23 +260,23 @@ Established physics supplies a literal P-layer comparator for the claim that ext
 
 For a field/operator `L_b` under boundary/context `b`, an admissible mode family may be represented schematically by
 
-$$
+```math
 \widehat L_b\phi_n^{(b)}
 =
 \lambda_n(b)\phi_n^{(b)},
-$$
+```
 
 with boundary condition
 
-$$
+```math
 \widehat B_b\phi_n^{(b)}=0.
-$$
+```
 
 Changing geometry, material response, separation, or another lawful boundary variable can change the allowed spectrum
 
-$$
+```math
 \{\lambda_n(b)\}
-$$
+```
 
 and therefore the physically accessible field configurations.
 
@@ -298,9 +298,9 @@ Do not infer an extractable hidden energy reservoir merely from a mode-counting 
 
 A time-dependent boundary/context
 
-$$
+```math
 b=b(t)
-$$
+```
 
 can change the mode structure non-adiabatically. The dynamical Casimir effect provides an experimentally demonstrated case in which rapid modulation of an effective electromagnetic boundary generates real photons.
 
@@ -322,17 +322,17 @@ Metasurface holography supplies an exact P-layer mirror.
 
 A local phase/amplitude encoding
 
-$$
+```math
 \Phi(x,y)
-$$
+```
 
 is not itself the reconstructed three-dimensional or far-field image. A propagation/readout operator produces the observed field:
 
-$$
+```math
 U_{\mathrm{out}}
 =
 \mathcal H_{b,R}\left[\Phi\right],
-$$
+```
 
 where `b` represents physical illumination/boundary/propagation conditions and `R` the declared readout plane or transform.
 
@@ -350,7 +350,7 @@ Qu et al. (2020) provide an especially useful controlled example because the pha
 
 Their interaction can be written schematically as
 
-$$
+```math
 U_{\mathrm{out}}(x,y,z)
 =
 \mathcal H_z
@@ -358,7 +358,7 @@ U_{\mathrm{out}}(x,y,z)
 U_{\mathrm{inc}}(x_0,y_0)
 U_{\mathrm{meta}}(x_0,y_0)
 \right],
-$$
+```
 
 with the paper giving the corresponding diffraction integral through the system impulse response.
 
@@ -389,16 +389,16 @@ It instead sharpens the empirical I→P question from Module 32S3.
 
 Let the physical family be addressed:
 
-$$
+```math
 \mathfrak P
 =
 \bigsqcup_{\beta\in A_P}
 \{\beta\}\times\mathcal P_\beta.
-$$
+```
 
 Then a candidate I-conditioned physical transition kernel should be written on that addressed family:
 
-$$
+```math
 K_P\!\left(
 dp_{t+\Delta}
 \mid
@@ -406,21 +406,21 @@ dp_{t+\Delta}
 \right),
 \qquad
 p_t\in\mathcal P_{\beta_t}.
-$$
+```
 
 Its support is
 
-$$
+```math
 \Omega_{P,t}^{\mathrm{adm}}(i_t)
 =
-\operatorname{supp}
+\mathrm{supp}
 K_P\!\left(
 \cdot
 \mid
 \beta_t,p_t,H_t^P,i_t
 \right)
 \subseteq\mathfrak P.
-$$
+```
 
 A candidate I relation could therefore, in principle, be tested for changing:
 

@@ -92,19 +92,19 @@ LUCY-2 = sustained local region, when present
 
 A current formal template uses
 
-$$
+```math
 Y_L(x,t)
 =
 \chi_L
 \frac{\lVert\nabla\tau_L(x,t)\rVert^2}
 {N_L(x,t)+\varepsilon_L},
-$$
+```
 
 with candidate threshold
 
-$$
+```math
 Y_L(x,t)\ge Y_*.
-$$
+```
 
 The branch fails or reduces if the variable cannot be operationalised, the threshold is fitted after the event, ordinary models predict equally well, or the same algebra silently changes physical meaning across layers.
 
@@ -187,9 +187,9 @@ complete addressed state + context/history
 
 with
 
-$$
+```math
 \mathfrak L_{P,t}=(\mathcal D_{P,t},\mathcal T_{P,t},\mathcal W_{P,t}).
-$$
+```
 
 This is architectural closure, not a derivation of quantum mechanics or general relativity.
 
@@ -197,25 +197,25 @@ Module 33S1 controls explicit interface promotion. Module 33S2 then separates hi
 
 Two margins remain distinct:
 
-$$
+```math
 M_C \neq M_D(q),
-$$
+```
 
 where $M_C$ tracks constitutive closure and $M_D(q)$ tracks higher-address law sufficiency for property $q$. A higher-order object can remain organised after a simpler macro law for one property has failed.
 
 Module 33S3 separately tracks lower-address performance:
 
-$$
+```math
 \Delta_{\ell\rightarrow h}
 =
 (\Delta J_\ell,\Delta M_C,\Delta M_D(q)),
-$$
+```
 
 and treats recovery as conditional target-relative reachability rather than assumed reversal:
 
-$$
-\operatorname{Rec}_H(x_t;\mathcal C_R,U,E).
-$$
+```math
+\mathrm{Rec}_H(x_t;\mathcal C_R,U,E).
+```
 
 Loss of law sufficiency, loss of closure and loss of recoverability are different candidate boundaries. Apparent hysteresis must first survive bounded state augmentation and ordinary memory alternatives.
 

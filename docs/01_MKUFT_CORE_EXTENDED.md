@@ -13,9 +13,9 @@ The McLaughlin–Kairos Unified Field Theory (MKUFT) models reality through a ty
 
 The four-layer shorthand is
 
-$$
+```math
 S\rightarrow I\rightarrow P\rightarrow O.
-$$
+```
 
 This core document states the architecture. It does not claim that the physical dynamics required for a complete unified theory have already been derived.
 
@@ -63,9 +63,9 @@ Any claimed deviation from accepted physical prediction must be small, controlle
 
 An observer state may be represented by $\rho_O$, with a bounded coherence functional
 
-$$
+```math
 \kappa(\rho_O)\in[0,1].
-$$
+```
 
 High $\kappa$ denotes a more internally aligned or lower-noise state according to a declared proxy; low $\kappa$ denotes a more fragmented or noisy state.
 
@@ -79,17 +79,17 @@ A reciprocally coupled system may be treated as a **composite-observer candidate
 
 The stronger superadditivity claim requires a matched comparison. A provisional gain is
 
-$$
+```math
 G_{\mathrm{syn}}
 =
 F_{\mathrm{coupled}}-F_{\mathrm{add}},
-$$
+```
 
 where $F_{\mathrm{add}}$ is the strongest matched additive or independent-ensemble baseline appropriate to the task.
 
 For example, if
 
-$$
+```math
 F_A=2,
 \qquad
 F_B=2,
@@ -97,13 +97,13 @@ F_B=2,
 F_{\mathrm{add}}=4,
 \qquad
 F_{\mathrm{coupled}}=6,
-$$
+```
 
 then
 
-$$
+```math
 G_{\mathrm{syn}}=2.
-$$
+```
 
 The evidential object is the positive excess, not merely the fact that the output belongs to the coupled system.
 
@@ -117,15 +117,15 @@ For event $E$, the realised probability scaffold combines standard physical dyna
 
 A compact limiting statement is
 
-$$
+```math
 P_{\mathrm{realized}}(E)
 \approx
 P_{\mathrm{phys}}(E)
-$$
+```
 
 whenever additional terms become constant, negligible, or otherwise reduce to the established physical distribution within a declared regime and tolerance.
 
-[Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) introduces a separate deeper task: define a lawful complete-state update capable of recovering both quantum and gravitational effective limits. The notation $\operatorname{Update}_{\mathrm{SIPO}}$ names that missing task; it is not already a derived law.
+[Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) introduces a separate deeper task: define a lawful complete-state update capable of recovering both quantum and gravitational effective limits. The notation $\mathrm{Update}_{\mathrm{SIPO}}$ names that missing task; it is not already a derived law.
 
 ## Standard-physics limit
 

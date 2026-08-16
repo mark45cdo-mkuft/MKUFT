@@ -107,21 +107,21 @@ That does not imply that every boundary produces intelligence.
 
 For a path $\gamma$ within one declared state space, a candidate path cost is
 
-$$
+```math
 C[\gamma]=\int_\gamma\lambda(x)\,ds,
-$$
+```
 
 where $\lambda(x)$, $ds$, and the resulting units must be defined for the domain.
 
 A Gibbs-like path model requires a dimensionless exponent. One form is
 
-$$
+```math
 P(B\mid A)
 =
 \frac{1}{Z_A}
 \sum_{\gamma\in\Gamma(A\to B)}
 \exp[-\beta C[\gamma]],
-$$
+```
 
 where $\beta$ has reciprocal units of $C$ or follows an explicit normalisation convention.
 

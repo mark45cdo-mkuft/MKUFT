@@ -23,13 +23,13 @@ This does not mean all past history is equally relevant. The scientific task is 
 
 Let the operational self-state from Module 32S1 be
 
-$$
+```math
 s_t\in\mathcal S_t.
-$$
+```
 
 For an integer history depth `m >= 1`, define the recent self-history
 
-$$
+```math
 h_t^{(m)}
 =
 \left(
@@ -37,13 +37,13 @@ h_t^{(m)}
 \right)
 \in
 \mathcal H_t^{(m)}.
-$$
+```
 
 The smallest genuinely temporal case is `m=1`, which retains the immediate predecessor and current state:
 
-$$
+```math
 h_t^{(1)}=(s_{t-1},s_t).
-$$
+```
 
 A single instantaneous state is recovered only as the degenerate point-state case and should not be called a temporal-continuity test.
 
@@ -53,12 +53,12 @@ For irregular or continuous time, use a declared recent interval `[t-\tau,t]` ra
 
 Let
 
-$$
+```math
 K_t^{(m)}:
 \mathcal H_t^{(m)}
 \rightarrow
 \mathcal J
-$$
+```
 
 be a declared **continuity-bearing history functional**. It extracts the relation or invariant family claimed to carry identity continuity over that history window.
 
@@ -72,25 +72,25 @@ When individuality addresses remain in the same address class, recent histories 
 
 When address-class parity fails but cross-address continuity is proposed, pointwise state transport is not automatically enough. Define a lawful history transport
 
-$$
+```math
 T_{a\rightarrow b}^{\mathrm{hist},(m)}:
 \mathcal H_a^{(m)}
 \supseteq
 \mathcal D_a^{(m)}
 \rightarrow
 \mathcal H_b^{(m)}.
-$$
+```
 
 Temporal continuity to tolerance `epsilon_J` requires
 
-$$
+```math
 d_J\!\left(
 K_b^{(m)}\!\left(T_{a\rightarrow b}^{\mathrm{hist},(m)}h_a^{(m)}\right),
 K_a^{(m)}\!\left(h_a^{(m)}\right)
 \right)
 \leq
 \varepsilon_J,
-$$
+```
 
 plus the domain-specific lineage, viability, boundary, maintenance, and address conditions required by the individuality claim.
 
@@ -104,25 +104,25 @@ The framework should not assume that more remembered history is always better or
 
 Define the **minimum identity horizon** `m*` as the smallest recent history depth that supports a stable, non-post-hoc continuity discrimination under the declared tests:
 
-$$
+```math
 m^*
 =
 \min\left\{
  m\geq1:
  \mathcal C_{\mathrm{id}}(m)=1
 \right\},
-$$
+```
 
 where `C_id(m)=1` means that the continuity criterion at depth `m` survives the preregistered perturbation, replay, and held-out checks.
 
 A stronger operational requirement is that shorter histories fail or materially degrade the discrimination:
 
-$$
+```math
 \mathcal C_{\mathrm{id}}(m^*)=1,
 \qquad
 \mathcal C_{\mathrm{id}}(m)<1
 \text{ or degrades materially for }m<m^*.
-$$
+```
 
 If the immediate-past pair is sufficient, then `m*=1`. If a longer recent trajectory is required, `m*>1`. If no tested finite history closes the individuality claim, report the history requirement as unresolved rather than forcing a finite kernel.
 

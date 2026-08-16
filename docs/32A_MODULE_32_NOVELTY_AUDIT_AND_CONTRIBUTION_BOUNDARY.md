@@ -174,19 +174,19 @@ The intuition that restriction of components can enable a larger whole is not ne
 
 Where before/after comparison is lawful:
 
-$$
+```math
 \Delta\mu_\ell<0,
 \qquad
 \Delta\nu_L>0
-$$
+```
 
 is an enabling-constraint pattern, while
 
-$$
+```math
 \Delta\mu_\ell<0,
 \qquad
 \Delta\nu_L<0
-$$
+```
 
 is an overconstraint control.
 

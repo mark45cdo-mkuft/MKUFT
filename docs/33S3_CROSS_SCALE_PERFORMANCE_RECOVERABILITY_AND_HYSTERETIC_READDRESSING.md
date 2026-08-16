@@ -40,37 +40,37 @@ Compressed rule:
 
 Let
 
-$$
+```math
 \pi_R:X\rightarrow Y
-$$
+```
 
 be the relational address map of Module 33S2, with lower state $x\in X$ and higher relational state $y=\pi_R(x)$.
 
 Let
 
-$$
+```math
 J_\ell:X\rightarrow\mathbb R
-$$
+```
 
 be a declared lower-address performance variable. Depending on the system, $J_\ell$ may represent growth rate, replication rate, throughput, local competitive success, immediate reward, resource capture, or another operational quantity. The notation does **not** imply conscious optimisation.
 
 Retain separately:
 
-$$
+```math
 M_C:Y\rightarrow\mathbb R
-$$
+```
 
 as a declared margin to loss of the constitutive closure relation, and
 
-$$
+```math
 M_D(q):Y\rightarrow\mathbb R
-$$
+```
 
 as the margin to loss of higher-address sufficiency for target property $q$.
 
 For a matched comparison interval, record the change tuple
 
-$$
+```math
 \boxed{
 \Delta_{\ell\rightarrow h}
 =
@@ -80,7 +80,7 @@ $$
 \Delta M_D(q)
 \bigr).
 }
-$$
+```
 
 The tuple is preferable to a single scalar because the three quantities may have different units and meanings.
 
@@ -95,23 +95,23 @@ For a declared interval and environment:
 
 The important antagonistic pattern is therefore
 
-$$
+```math
 \boxed{
 \Delta J_\ell>0,
 \qquad
 \Delta M_C<0
 }
-$$
+```
 
 or, for a property-specific effect,
 
-$$
+```math
 \boxed{
 \Delta J_\ell>0,
 \qquad
 \Delta M_D(q)<0.
 }
-$$
+```
 
 These are possible cross-scale relations, not universal laws.
 
@@ -121,11 +121,11 @@ These are possible cross-scale relations, not universal laws.
 
 The following stronger rule is rejected:
 
-$$
+```math
 \Delta J_\ell>0
 \Longrightarrow
 \text{eventual higher-scale collapse}.
-$$
+```
 
 It fails for several reasons:
 
@@ -149,23 +149,23 @@ Let $U$ be an allowed intervention/control class, $E$ the allowed environment cl
 
 A lower-address state $x_t$ is **recoverable to $\mathcal C_R$ over horizon $H$** when there exists an admissible control/intervention sequence whose resulting trajectory remains inside the declared admissible domain and reaches the target closure set:
 
-$$
+```math
 \boxed{
-\operatorname{Rec}_H(x_t;\mathcal C_R,U,E)=1
+\mathrm{Rec}_H(x_t;\mathcal C_R,U,E)=1
 }
-$$
+```
 
 if and only if there exists an admissible route such that
 
-$$
+```math
 \pi_R(x_{t+H})\in\mathcal C_R.
-$$
+```
 
 Otherwise
 
-$$
-\operatorname{Rec}_H=0
-$$
+```math
+\mathrm{Rec}_H=0
+```
 
 for that target, horizon, intervention class, and environment.
 
@@ -196,21 +196,21 @@ No universal ordering is assumed.
 
 For example, a system may satisfy
 
-$$
+```math
 M_D(q)<0,
 \qquad
 M_C>0,
 \qquad
-\operatorname{Rec}_H=1,
-$$
+\mathrm{Rec}_H=1,
+```
 
 meaning that a simple higher-level law for $q$ has failed, the organised whole remains intact, and a declared recovery route remains available.
 
 A different system may retain some recognizable organisation while already having
 
-$$
-\operatorname{Rec}_H=0
-$$
+```math
+\mathrm{Rec}_H=0
+```
 
 for the chosen target and admissible controls.
 
@@ -222,9 +222,9 @@ A restoration route need not be the time-reverse of the degradation route.
 
 Let $\lambda$ be a controlled parameter. If transition into one addressed regime occurs at threshold $\lambda_{\uparrow}$ while return occurs at a distinct threshold $\lambda_{\downarrow}$ under matched protocol, then
 
-$$
+```math
 \lambda_{\uparrow}\neq\lambda_{\downarrow}
-$$
+```
 
 is a candidate hysteresis signature.
 
@@ -232,9 +232,9 @@ However, apparent hysteresis may reflect omitted state.
 
 Before treating history dependence as irreducible, test whether augmenting the address with a bounded internal/history state
 
-$$
+```math
 Y_t^{+}=(Y_t,H_t^{(k)})
-$$
+```
 
 restores predictive closure. If a measurable hidden state explains the apparent path dependence, that state belongs in the address.
 
@@ -254,9 +254,9 @@ state A
 
 with no requirement that
 
-$$
+```math
 \gamma_{\mathrm{back}}=\gamma_{\mathrm{out}}^{-1}.
-$$
+```
 
 Nor is exact equality $A'=A$ required unless exact state restoration is the declared target.
 
@@ -376,11 +376,11 @@ This module must be reduced or treated as non-contributory where:
 
 Module 33 constructs the addressed physical law object
 
-$$
+```math
 \mathfrak L_{P,t}
 =
 (\mathcal D_{P,t},\mathcal T_{P,t},\mathcal W_{P,t}).
-$$
+```
 
 Module 33S2 decides whether a higher relational address has earned law sufficiency for property $q$.
 

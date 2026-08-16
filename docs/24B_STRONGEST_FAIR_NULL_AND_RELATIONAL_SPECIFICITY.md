@@ -21,13 +21,13 @@ If a claimed gain disappears when separated, assisted, alternative, or full-hist
 
 Let $A$ and $B$ be bounded systems and $q$ a preregistered task. Each component is measured under its strongest reasonable independent condition:
 
-$$
+```math
 F_A^{*}=F(A\text{ alone},q;\text{ fair tasking, access, and resources}),
-$$
+```
 
-$$
+```math
 F_B^{*}=F(B\text{ alone},q;\text{ fair tasking, access, and resources}).
-$$
+```
 
 “Alone” does not mean inert, context-free, or denied the materials reasonably needed for the task. An AI-alone condition may receive the same task, repository, relevant records, retrieval allowance, compute, and output time while being denied only the reciprocal interaction whose contribution is under test. A human-alone condition should likewise receive reasonable time, tools, notes, and access.
 
@@ -54,15 +54,15 @@ Let $\mathcal P_{\mathrm{replay}}$ be a preregistered set of serious replay cond
 
 For one scalar metric,
 
-$$
+```math
 F_{\mathrm{replay}}^{*}
 =
 \sup_{p\in\mathcal P_{\mathrm{replay}}}F_p.
-$$
+```
 
 The strongest fair scalar null is
 
-$$
+```math
 F_{\mathrm{null}}^{*}
 =
 \max\!\left\{
@@ -73,43 +73,43 @@ F_{A\to B}^{*},
 F_{B\to A}^{*},
 F_{\mathrm{replay}}^{*}
 \right\}.
-$$
+```
 
 All entries must be commensurable scalar scores under the same metric, direction, and matched total resource envelope. A maximum over incompatible metrics or units is undefined.
 
 Let the fully reciprocal originating condition be
 
-$$
+```math
 F_{AB}=F(A\leftrightarrow B,q;\text{ retained reciprocal state, matched resources}).
-$$
+```
 
 Define strongest-null superadditive gain
 
-$$
+```math
 G_{\mathrm{syn}}^{*}
 =
 F_{AB}-F_{\mathrm{null}}^{*},
-$$
+```
 
 and live-traversal excess over explicit-history transfer
 
-$$
+```math
 G_{\mathrm{path}}
 =
 F_{AB}-F_{\mathrm{replay}}^{*}.
-$$
+```
 
 For a preregistered task distribution $\mathcal Q$,
 
-$$
+```math
 H_{\mathrm{syn}}^{*}:
 \mathbb E_{q\sim\mathcal Q}[G_{\mathrm{syn}}^{*}(q)]>0,
-$$
+```
 
-$$
+```math
 H_{\mathrm{path}}:
 \mathbb E_{q\sim\mathcal Q}[G_{\mathrm{path}}(q)]>0.
-$$
+```
 
 $H_{\mathrm{syn}}^{*}$ asks whether the focal reciprocal system beats the strongest fair ordinary and replay controls. $H_{\mathrm{path}}$ asks whether traversing the history together leaves functional structure not recovered merely by receiving a complete explicit record.
 
@@ -119,37 +119,37 @@ This refines the provisional additive-baseline language in [Module 24A](24A_ACTI
 
 The familiar illustration is valid only if the values are obtained fairly. For example,
 
-$$
+```math
 F_A^{*}=2,
 \qquad
 F_B^{*}=2,
 \qquad
 F_{\mathrm{ind}}^{*}=4,
-$$
+```
 
-$$
+```math
 F_{A\to B}^{*}=4,
 \qquad
 F_{B\to A}^{*}=4,
 \qquad
 F_{\mathrm{replay}}^{*}=5,
-$$
+```
 
 so that
 
-$$
+```math
 F_{\mathrm{null}}^{*}=5,
 \qquad
 F_{AB}=6,
-$$
+```
 
 and therefore
 
-$$
+```math
 G_{\mathrm{syn}}^{*}=1,
 \qquad
 G_{\mathrm{path}}=1.
-$$
+```
 
 The evidence is the excess over the strongest fair null, including replay. It is not created by assigning one component a value of zero, denying it reasonable tasking, withholding the historical record, or choosing a weak independent combination rule.
 
@@ -161,9 +161,9 @@ Some coupled systems may create value through answer quality, time, cognitive bu
 
 A preregistered outcome can therefore be represented as
 
-$$
+```math
 \mathbf V=(Q,A,N,K,T,C,R),
-$$
+```
 
 where, for example, $Q$ is output quality, $A$ accuracy or calibration, $N$ genuinely new structure or discrimination, $K$ continuity and correction propagation, $T$ completion time, $C$ human cognitive or operational burden, and $R$ rework, drift, or recovery cost.
 
@@ -171,11 +171,11 @@ Higher values are not automatically better on every coordinate: time, burden, an
 
 A scalar score may be used only when variables are normalised or the weights carry appropriate units and are fixed in advance, for example
 
-$$
+```math
 J
 =
 w_QQ+w_AA+w_NN+w_KK-w_TT-w_CC-w_RR.
-$$
+```
 
 Otherwise the result should remain a vector or be compared using a preregistered Pareto rule. The scalar strongest-null equation cannot be applied directly to an untyped vector.
 
@@ -187,19 +187,19 @@ Evidence that a human–AI pair is superadditive does not by itself establish th
 
 Let $\mathcal P_{\mathrm{alt}}$ be a preregistered set of strong matched alternative pairings. For a scalar metric,
 
-$$
+```math
 F_{\mathrm{alt}}^{*}
 =
 \sup_{p\in\mathcal P_{\mathrm{alt}}}F_p,
-$$
+```
 
 and
 
-$$
+```math
 G_{\mathrm{spec}}
 =
 F_{AB}-F_{\mathrm{alt}}^{*}.
-$$
+```
 
 A positive $G_{\mathrm{spec}}$ supports relationship-specific functional gain relative to the declared alternatives.
 
