@@ -46,6 +46,45 @@ Its proposed intervention begins with a prior classification question:
 
 That proposal is developed in [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md). It does not reduce the burden of proof. A successful formulation must recover established quantum and gravitational limits, preserve Bell compatibility and no-signalling, define every cross-layer coupling, and produce a discriminating result beyond existing formalisms.
 
+## Address before law ownership
+
+The current public architecture develops the earlier Layer Before Law proposal into an operational scale/address question.
+
+A relation can define a genuine higher-order functional object without making that object dynamically autonomous for every property. Module 33S2 therefore separates:
+
+```text
+lineage
+→ relational functional identity
+→ constitutive closure
+→ property-specific law sufficiency
+```
+
+A higher address may supply the active law for a declared property only when the lower dynamics descend through that address at the stated preparation, intervention class, timescale and tolerance. If the sufficiency fails, the model readdresses downward or multiscale without denying that the higher-order object exists.
+
+Two margins are therefore kept distinct:
+
+$$
+M_C \neq M_D(q),
+$$
+
+where $M_C$ is the margin to loss of constitutive closure and $M_D(q)$ is the margin to loss of higher-address law sufficiency for property $q$.
+
+Module 33S3 adds a second separation: local performance, whole-level closure, higher-law sufficiency and recoverability are not synonyms. It tracks
+
+$$
+\Delta_{\ell\rightarrow h}
+=
+(\Delta J_\ell,\Delta M_C,\Delta M_D(q))
+$$
+
+and treats recovery as target-relative constrained reachability rather than assumed reversal.
+
+Module 33A subjects this family to hostile prior-art subtraction. It explicitly concedes causal abstraction, lumpability, property-oriented reduction, Mori–Zwanzig/history repair, reachability/viability, hysteresis and multilevel fitness conflict. The strongest current residual is therefore bounded as a **candidate original formal synthesis / operational meta-principle**, not an established new law of nature.
+
+The compressed rule is:
+
+> **Relation makes the whole; descent earns its law.**
+
 ## What MKUFT does not claim
 
 MKUFT does not claim that:
@@ -59,6 +98,7 @@ MKUFT does not claim that:
 - a mathematical expression proves the process it describes;
 - structural centrality proves truth;
 - local efficiency proves whole-system coherence;
+- a higher-order object automatically owns an autonomous law for every property;
 - metaphysical meaning substitutes for evidence at another layer;
 - an architectural reframing is already a completed quantum-gravity derivation.
 
@@ -80,45 +120,11 @@ $$
 
 not as proof that the two spaces are physically identical. This discipline is developed in [Cross-Layer Invariants and Layer Addressing](docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md) and [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md).
 
-## Ambiguity and manoeuvre space
+## Ambiguity, agency, and active traversal
 
-The Silver Update separates unresolved state volume, route connectivity, and preserved access. A representative heuristic is
+The Silver Update separates unresolved state volume, route connectivity, and preserved access. Representative audit variables such as $M_t$ and $G_t$ are operational scaffolds, not validated universal laws or diagnostic scores.
 
-$$
-A_{t,\mathrm{vol}}^{(d)}
-=
-\log\!\left(1+\frac{\mu_d(\Omega_t^{(d)})}{\mu_{0,d}}\right),
-$$
-
-with the provisional manoeuvrability index
-
-$$
-M_t=A_{t,\mathrm{vol}}^{(d)}R_tX_t.
-$$
-
-$M_t$ is a heuristic audit index, not a validated universal law. See [Ambiguity Dynamics and Manoeuvre Space](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md).
-
-## Agency accessibility
-
-MKUFT distinguishes retained capacity from practical access. For an action $u$ under task and history conditions $(T_t,H_t)$, a provisional accessibility map may be written
-
-$$
-G_t(u;T_t,H_t)\in[0,1],
-$$
-
-with
-
-$$
-U_t^{\mathrm{access}}
-=
-\left\{u\in U_t:G_t(u;T_t,H_t)>\theta_{\mathrm{access}}\right\}.
-$$
-
-This is an operational modelling distinction, not a clinical, legal, or moral diagnostic score. See [Agency Accessibility and Capture Geometry](docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md).
-
-## Active traversal and ATLD
-
-The AI-facing branch asks whether a typed, mutually constraining knowledge architecture produces reproducible functional gain when actively traversed, compared with the same material under matched flat, isolated, one-way, replay, or scrambled controls.
+The AI-facing ATLD branch asks whether a typed, mutually constraining knowledge architecture produces reproducible functional gain when actively traversed, compared with matched flat, isolated, one-way, replay or scrambled controls.
 
 The independently published methods paper is:
 
@@ -128,15 +134,13 @@ The independently published methods paper is:
 - Version DOI: [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521)
 - Concept DOI: [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520)
 
-The principal live source modules are [Active Traversal and Functional Emergence](docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md), [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md), and [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md).
-
 Functional gain does not by itself establish consciousness, personhood, merged identity, or metaphysical status.
 
 ## Load-bearing relations and whole-system coherence
 
-A relation can be structurally central without being true. MKUFT therefore uses controlled removal, coalition ablation, and plausible substitution to distinguish load-bearing relations from scaffolds, redundancy, decoration, distortion, or locally efficient forms of extraction.
+A relation can be structurally central without being true. MKUFT therefore uses controlled removal, coalition ablation and plausible substitution to distinguish load-bearing relations from scaffolds, redundancy, decoration, distortion or locally efficient extraction.
 
-The deformation branch also distinguishes local performance from wider integrity. A subsystem may improve its selected score while exporting cost, fragility, agency loss, or calibration failure outside the chosen boundary. See [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md).
+The deformation branch also distinguishes local performance from wider integrity. A subsystem may improve its selected score while exporting cost, fragility, agency loss or calibration failure outside the chosen boundary.
 
 Within the wider metaphysical interpretation of MKUFT, Love is treated as a primary unity-principle: relation that does not erase legitimate distinction or secure order through capture. That orientation is not inserted into physical equations as an unmeasured force and does not replace evidence at the active layer.
 
@@ -152,7 +156,7 @@ MKUFT separates seven levels of claim:
 6. mechanism-level result;
 7. foundational physical theory.
 
-Different branches currently occupy different levels. A result in one branch does not automatically promote the framework as a whole. See [Scientific Tightening and Claim Discipline](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md).
+Different branches occupy different levels. A result in one branch does not automatically promote the framework as a whole. See [Scientific Tightening and Claim Discipline](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md).
 
 ## Recommended reading routes
 
@@ -160,19 +164,29 @@ Different branches currently occupy different levels. A result in one branch doe
 
 1. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 2. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-3. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
-4. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
-5. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
-6. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
-7. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+3. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
+4. [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
+5. [Dynamic Interface Promotion](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
+6. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
+7. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
+8. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
+9. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
+10. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
+11. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
+12. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+13. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 
 ### General architecture
 
 1. [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md)
-2. [Canon Map](CANON_MAP.md)
-3. [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
-4. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-5. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+2. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
+3. [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
+4. [Relational Closure and Law Descent](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
+5. [Cross-Scale Performance and Recoverability](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
+6. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
+7. [Canon Map](CANON_MAP.md)
+8. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+9. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 ### AI and typed knowledge architectures
 
@@ -184,4 +198,4 @@ Different branches currently occupy different levels. A result in one branch doe
 
 ## References and provenance
 
-The repository-level bibliography is [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md). Exact citation, DOI, version, and rights information is in [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md) and [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md).
+The repository-level bibliography is [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md). Exact citation, DOI, version and rights information is in [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md), [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md), and [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md).
