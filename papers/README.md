@@ -2,11 +2,23 @@
 
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**Backbone DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
-**Flagship public object:** [MKUFT — Layer Before Law: A Relational Architecture for Physical Law and Cross-Scale Dynamics](../LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md)  
+**Current principal MKUFT publication:** [MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics](https://doi.org/10.5281/zenodo.21973064)  
+**MKUFT concept DOI:** [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565)  
+**Historical MKUFT v1 DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
 **Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511) · [LinkedIn](https://www.linkedin.com/in/custodiansystems45/)
 
-This directory is the direct human-reader route to standalone papers. It is deliberately separate from `docs/`, which contains the live modular MKUFT canon.
+This directory is the direct human-reader route to standalone papers. It is deliberately separate from `docs/`, which contains the live modular MKUFT canon. Frozen DOI-bearing publications and live modules remain distinct objects.
+
+## Current principal MKUFT publication
+
+### MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics
+
+**Version:** v2 — 17 August 2026  
+**Version DOI:** [10.5281/zenodo.21973064](https://doi.org/10.5281/zenodo.21973064)  
+**Concept DOI:** [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565)  
+**Historical v1 DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)
+
+The v2 publication is the current principal MKUFT publication in the historical Zenodo concept lineage. The historical v1 deposit remains a frozen earlier version and is not erased or rewritten by v2.
 
 ## Published DOI papers
 
@@ -30,23 +42,25 @@ This directory is the direct human-reader route to standalone papers. It is deli
 - [Publication record](../ATLD_STANDALONE_PUBLICATION.md)
 - [Frozen text mirror and integrity manifest](../publications/ATLD_Evaluation_Protocol_v1.0/)
 
-## Canonical public preprints awaiting standalone DOI
-
 ### Recursive Constraint Closure and Reachable-State Geometry
 
 *An Addressed Formalism for Adaptive Systems with Changing Possibility Spaces*
 
-- [Public preprint](2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md)
+**Version:** 0.1 — 15 August 2026  
+**Version DOI:** [10.5281/zenodo.21971425](https://doi.org/10.5281/zenodo.21971425)
+
+- [Public GitHub preprint route](2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md)
 - [Publication record](../RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md)
-- Standalone DOI: pending.
 
 ### Layer Before Law
 
 *An Addressed Architecture for Relational Admissibility, Effective Law Selection, and Quantum-Gravitational Recovery*
 
+**Version:** 1.0 — 17 July 2026  
+**Version DOI:** [10.5281/zenodo.21971270](https://doi.org/10.5281/zenodo.21971270)
+
 - [Canonical public preprint v1.0](2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md)
 - [Publication record](../LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md)
-- Standalone DOI: pending frozen deposit.
 
 ## What is not a standalone paper
 
@@ -61,9 +75,9 @@ In particular, [Module 33 — SIPO Capstone](../docs/33_SIPO_CAPSTONE_CONSTRAINT
 A paper is not identified by formatting alone. The repository distinguishes:
 
 1. **live module** — evolving owner inside `docs/`;
-2. **public preprint** — reader-facing paper inside `papers/`;
+2. **public preprint / repository paper route** — reader-facing source inside `papers/`;
 3. **publication record** — DOI/version/citation/custody route at repository root;
-4. **frozen deposit** — exact DOI-bearing object, normally controlled by the Zenodo PDF;
+4. **frozen deposit** — exact DOI-bearing object controlled by the deposited publication;
 5. **Drive mirror/reading edition** — convenience carrier, not a silent replacement for any of the above.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier and publication rules.
