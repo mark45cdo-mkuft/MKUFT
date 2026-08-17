@@ -2,13 +2,14 @@
 
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Current principal publication:** [MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics](https://doi.org/10.5281/zenodo.21973064)  
+**MKUFT concept DOI:** [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565)  
+**Historical v1 DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)  
-**Flagship public object:** [MKUFT — Layer Before Law: A Relational Architecture for Physical Law and Cross-Scale Dynamics](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md)  
 **Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511) · [LinkedIn](https://www.linkedin.com/in/custodiansystems45/) · [GitHub](https://github.com/mark45cdo-mkuft)  
 **Professional practice:** [Custodian Systems Ltd](https://mark45cdo-mkuft.github.io/Custodian-Systems/)
 
-The flagship name is the public programme and discovery label. It does not rename the versioned preprint, whose bibliographic title, version, dates and future standalone DOI identity remain unchanged.
+The current principal DOI-bearing MKUFT publication is *MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics*, version v2, published 17 August 2026. The historical v1 deposit remains a frozen earlier version in the same publication lineage and is not erased or silently rewritten by v2.
 
 MKUFT is a speculative, structured research framework. It is not presented as an accepted completed theory, and it does not claim a completed derivation of quantum mechanics, quantum field theory, general relativity, or quantum gravity.
 
@@ -54,7 +55,7 @@ The framework distinguishes:
 
 ## Read MKUFT
 
-**Standalone research outputs:** [Papers and Publications](papers/README.md) — DOI papers and current public preprints in one reader-facing route.
+**Standalone research outputs:** [Papers and Publications](papers/README.md) — DOI papers and current public paper routes in one reader-facing index.
 
 **Research-module PDFs:** [Professionally rendered module reading editions](publications/module-reading-editions/README.md) — visually audited PDF carriers for the serious public module stack, labelled explicitly as research modules rather than standalone DOI papers.
 
@@ -100,19 +101,20 @@ The framework distinguishes:
 8. [Cross-Scale Performance and Recoverability](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) — parent/local performance separation and recovery test.
 9. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) — evidence tiers and promotion criteria.
 
-## Standalone papers and preprints
+## Standalone papers and publications
 
 The repository keeps paper identity separate from the live modular canon. Use [Papers and Publications](papers/README.md) as the reader-facing index.
 
-### Published DOI papers
+### Current principal MKUFT publication
 
+- **MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics** — version v2, 17 August 2026; version DOI [10.5281/zenodo.21973064](https://doi.org/10.5281/zenodo.21973064); concept DOI [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565); historical v1 DOI [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566).
+
+### Other published DOI papers
+
+- **Layer Before Law: An Addressed Architecture for Relational Admissibility, Effective Law Selection, and Quantum-Gravitational Recovery** — version 1.0; DOI [10.5281/zenodo.21971270](https://doi.org/10.5281/zenodo.21971270); [publication record](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md).
+- **Recursive Constraint Closure and Reachable-State Geometry: An Addressed Formalism for Adaptive Systems with Changing Possibility Spaces** — version 0.1; DOI [10.5281/zenodo.21971425](https://doi.org/10.5281/zenodo.21971425); [publication record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md).
 - **Voynich Manuscript – Systems/Engine Framework** — version DOI [10.5281/zenodo.18178638](https://doi.org/10.5281/zenodo.18178638); [GitHub reading edition](papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md); [publication record](VOYNICH_STANDALONE_PUBLICATION.md).
 - **Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems** — version 1.0, 13 July 2026; version DOI [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521); concept DOI [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520); [GitHub paper route](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md); [publication record](ATLD_STANDALONE_PUBLICATION.md).
-
-### Public preprints awaiting standalone DOI
-
-- **Recursive Constraint Closure and Reachable-State Geometry: An Addressed Formalism for Adaptive Systems with Changing Possibility Spaces** — [public preprint](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md); [publication record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md).
-- **Layer Before Law: An Addressed Architecture for Relational Admissibility, Effective Law Selection, and Quantum-Gravitational Recovery** — [canonical public preprint v1.0](papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md); standalone DOI pending frozen deposit; [publication record](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md).
 
 The exact DOI-bearing Zenodo object controls a frozen published version. Live GitHub modules and Drive reading editions do not silently replace it. See [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md).
 
