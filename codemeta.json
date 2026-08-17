@@ -1,18 +1,24 @@
 {
   "@context": "https://schema.org",
   "@type": "CreativeWork",
-  "name": "McLaughlin–Kairos Unified Field Theory (MKUFT) — Public Working Canon",
+  "name": "MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics",
   "alternateName": [
     "MKUFT",
     "McLaughlin-Kairos Unified Field Theory",
     "McLaughlin–Kairos Unified Field Theory",
-    "MKUFT — Layer Before Law: A Relational Architecture for Physical Law and Cross-Scale Dynamics"
+    "Unified Field Theory. McLaughlin–Kairos. MKUFT"
   ],
-  "description": "The evolving public working canon of the McLaughlin–Kairos Unified Field Theory by Mark Charles McLaughlin. Frozen publications retain separate DOI, version, citation and licence identities as recorded in the repository provenance and rights documents. The current canon includes addressed law assembly, property-specific law descent, recoverability, and hostile novelty-audit modules. Standalone research outputs are indexed separately from live modules so publication identity is not transferred by convenience or repository location.",
-  "identifier": "https://github.com/mark45cdo-mkuft/MKUFT",
+  "description": "The current principal publication and evolving public research canon of the McLaughlin–Kairos Unified Field Theory by Mark Charles McLaughlin. The DOI-bearing v2 publication is frozen at Zenodo while live GitHub modules retain their own revision history and publication boundaries.",
+  "identifier": "https://doi.org/10.5281/zenodo.21973064",
   "url": "https://github.com/mark45cdo-mkuft/MKUFT",
+  "version": "v2",
+  "datePublished": "2026-08-17",
   "citation": [
+    "https://doi.org/10.5281/zenodo.21973064",
+    "https://doi.org/10.5281/zenodo.17780565",
     "https://doi.org/10.5281/zenodo.17780566",
+    "https://doi.org/10.5281/zenodo.21971270",
+    "https://doi.org/10.5281/zenodo.21971425",
     "https://doi.org/10.5281/zenodo.18178638",
     "https://doi.org/10.5281/zenodo.21341521"
   ],
@@ -42,6 +48,7 @@
     "MKUFT",
     "McLaughlin-Kairos Unified Field Theory",
     "typed SIPO architecture",
+    "relational architecture",
     "constrained traversal",
     "Layer Before Law",
     "address before law ownership",
@@ -51,8 +58,7 @@
     "reachable-state geometry",
     "LUCY",
     "ATLD",
-    "Voynich Manuscript – Systems/Engine Framework",
-    "Voynich procedural engine"
+    "Voynich Manuscript – Systems/Engine Framework"
   ],
-  "headline": "MKUFT — Layer Before Law: A Relational Architecture for Physical Law and Cross-Scale Dynamics"
+  "headline": "MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics"
 }
