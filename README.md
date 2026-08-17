@@ -12,6 +12,18 @@ The flagship name is the public programme and discovery label. It does not renam
 
 MKUFT is a speculative, structured research framework. It is not presented as an accepted completed theory, and it does not claim a completed derivation of quantum mechanics, quantum field theory, general relativity, or quantum gravity.
 
+## Development status
+
+MKUFT is an active research programme and this repository is under continuing development. The scientific framework and its supporting documentation are being iteratively refined, tested, and audited.
+
+The project also develops an AI-assisted research architecture for preserving typed relationships, dependency structure, provenance, and cross-document consistency across a growing research stack. That architecture is itself under active development and versioned alongside the research it supports.
+
+During substantial revisions, some derived or public-facing artefacts may temporarily lag the current source or contain presentation defects—for example incomplete equation rendering, stale cross-references, or formatting introduced during document conversion and synchronisation. These are treated as defects to be identified and repaired, not as intended scientific notation or silent changes of claim.
+
+Stable publication objects and DOI-bearing versions remain explicitly identified and versioned. Where a repository document is provisional, superseded, or awaiting regeneration, its status should be read from its own version and provenance information.
+
+The repository remains publicly inspectable while this work develops so that corrections, provenance, and publication boundaries remain visible rather than being obscured by later revisions.
+
 ## Central proposal
 
 MKUFT asks whether apparently different physical and informational regimes can be studied through a typed architecture of substrate, information, physical expression, and observer-positioned registration:
