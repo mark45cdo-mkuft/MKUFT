@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "For the frozen MKUFT publication, use the preferred citation below."
+message: "For the current principal MKUFT publication, use the preferred citation below."
 title: "McLaughlin–Kairos Unified Field Theory (MKUFT) — Public Working Canon"
 authors:
   - family-names: "McLaughlin"
@@ -14,13 +14,16 @@ keywords:
   - typed SIPO architecture
   - constrained traversal
   - Layer Before Law
+  - recursive constraint closure
   - LUCY
   - ATLD
 preferred-citation:
   type: generic
-  title: "Unified Field Theory. McLaughlin–Kairos. MKUFT"
+  title: "MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics"
   authors:
     - family-names: "McLaughlin"
       given-names: "Mark Charles"
       orcid: "https://orcid.org/0009-0005-7736-1511"
-  doi: "10.5281/zenodo.17780566"
+  version: "v2"
+  date-released: "2026-08-17"
+  doi: "10.5281/zenodo.21973064"
