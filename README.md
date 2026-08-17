@@ -44,6 +44,8 @@ The framework distinguishes:
 
 **Standalone research outputs:** [Papers and Publications](papers/README.md) — DOI papers and current public preprints in one reader-facing route.
 
+**Research-module PDFs:** [Professionally rendered module reading editions](publications/module-reading-editions/README.md) — visually audited PDF carriers for the serious public module stack, labelled explicitly as research modules rather than standalone DOI papers.
+
 ### Physics and quantum gravity
 
 1. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) — foundational category proposal, entanglement worked case, Bell/no-signalling burden, recovery requirements, and failure conditions.

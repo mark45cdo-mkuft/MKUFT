@@ -52,7 +52,9 @@ This directory is the direct human-reader route to standalone papers. It is deli
 
 The `docs/` directory contains live research modules, appendices, architecture owners, experimental programmes, and support notes. A module may contribute directly to a paper without itself being a paper.
 
-In particular, [Module 33 — SIPO Capstone](../docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) is a **canonical architectural module**, not a standalone publication. Its Drive copy is a synchronized reading edition of that module and should not be presented as though it were a journal-style paper.
+The [research-module PDF reading editions](../publications/module-reading-editions/README.md) provide professional, visually audited reading carriers for coherent public modules and the Integrated Master Spine. Their labels, source snapshot, checksums, and status boundary are explicit; they do not create extra publications or DOIs.
+
+In particular, [Module 33 — SIPO Capstone](../docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) is a **canonical architectural module**, not a standalone publication. Its PDF and Drive copies are synchronized reading editions of that module and should not be presented as though they were journal-style papers.
 
 ## Integrity rule
 

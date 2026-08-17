@@ -15,6 +15,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md) — publication/version identity.
 - [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md) — exact-object rights rules.
 - [Papers and Publications](papers/README.md) — direct human-reader index for standalone papers and preprints.
+- [Research-module PDF reading editions](publications/module-reading-editions/README.md) — visually audited PDF carriers for the coherent public module stack; not separate DOI publications.
 - [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md) — standing carrier, DOI-freeze, and object-custody rules.
 
 ## Foundational and mathematical work
@@ -102,6 +103,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 ## Publications
 
 - [Papers and Publications — reader index](papers/README.md) — authoritative direct route to standalone research outputs.
+- [Research-module PDF reading editions](publications/module-reading-editions/README.md) — 42 professional PDF carriers with exact source snapshot and SHA-256 manifest; explicitly not standalone publications.
 - [Voynich Manuscript – Systems/Engine Framework](papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md) — human-readable DOI-paper edition; version DOI `10.5281/zenodo.18178638`; [publication record](VOYNICH_STANDALONE_PUBLICATION.md).
 - [ATLD v1.0](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md) — published matched-control evaluation protocol; version DOI `10.5281/zenodo.21341521`; [publication record](ATLD_STANDALONE_PUBLICATION.md); [frozen text mirror](publications/ATLD_Evaluation_Protocol_v1.0/).
 - [Recursive Constraint Closure and Reachable-State Geometry — public preprint v0.1](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md) — standalone preprint; DOI pending; [publication record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md).
