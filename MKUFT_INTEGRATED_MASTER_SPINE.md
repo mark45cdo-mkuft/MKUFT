@@ -708,6 +708,26 @@ The live-canon update is no longer only a placeholder arrow. Module 33 supplies 
 
 If those burdens are not met, the capstone remains a coherent architectural factorisation rather than completed fundamental unification.
 
+### 12.1 Current frontier — unresolved dynamical ownership
+
+The current canon now names most of the architecture surrounding a physical transition: the complete addressed state, admissibility descriptor, active P-law object, physical propagation interface, measurement/registration instrument, retained history and recursive readdressing. What it does **not** yet identify is an independently demonstrated fundamental owner or generator of the transition itself.
+
+This is a frontier marker, not a new mechanism claim. In particular, the fact that $O_t$ participates in the addressed state and in the $P\rightarrow(P,O)$ / readdressing cycle does not by itself make the observer the dynamical engine. The unresolved question is where any independently measurable observer-positioned or relational contribution would enter, if it exists at all:
+
+```text
+O / addressed context
+→ admissibility 𝒬 ?
+→ law assembly 𝔠_P ?
+→ physical transition 𝒯_P ?
+→ Instrument / Readdress only ?
+```
+
+These alternatives are not equivalent and must not be collapsed. The current scientific default remains the strongest adequate P-state/history/boundary/environment account. An observer/context term earns independent physical standing only if an operationally defined variable changes a preregistered outcome beyond that null while ordinary physical channels, information leakage, selection effects and state misdescription are controlled.
+
+A useful smallest-next-test therefore does not begin by asserting that consciousness or observation changes fundamental physics. It asks whether a tightly controlled addressed/observer variable carries independent prospective load in $\mathcal Q$, $\mathfrak C_P$, $\mathcal T_P$, or only in Instrument/Readdress. A null result is informative because it localises the O-layer to registration/context for that regime; a reproducible non-null result would identify the exact boundary requiring deeper physical work.
+
+> **Current frontier: the drivetrain is architecturally specified; dynamical ownership is not yet physically identified.**
+
 ## 13. Experimental and promotion discipline
 
 A broad interesting effect is not automatically an MKUFT result.
@@ -807,6 +827,9 @@ Domain-only specialisation:
 SIPO capstone:
 Update_SIPO = Readdress ∘ Instrument_(P→(P,O)) ∘ Propagate_P^(𝔏_P)
 
+Current foundational frontier:
+The architectural drivetrain and law-object slots are specified; the fundamental physical owner/generator of transition is not yet identified. Test whether an operational O/context variable carries independent load in 𝒬, 𝔠_P, 𝒯_P, or only Instrument/Readdress against the strongest adequate P-only null.
+
 Dynamic interface promotion:
 𝒥_AB,t → (A_(t+Δ),B_(t+Δ)) → 𝒥_AB,t+Δ → Ξ_t+Δ
 State promotion ≠ ontology promotion
@@ -841,4 +864,4 @@ MKUFT should not read as a pile of similarities.
 
 Its current live spine is a recursive research architecture in which **possibility, relation, admissibility, physical law, measurement/registration, history, interface state, scale transition, law descent and conditional recoverability are explicitly separated but composable**.
 
-The architectural drivetrain remains closed by Module 33. Module 33S1 tightens recursive interface/state representation; Module 33S2 limits higher-address law ownership to the property and regime that actually earn it; Module 33S3 separates local performance from enclosing-scale viability and recovery from inevitable reversal. None reopens the parent capstone. The remaining foundational burden is not another missing arrow; it is to instantiate that drivetrain in concrete physics, recover the established quantum and gravitational regimes, and determine whether the deeper relational architecture earns independent predictive content.
+The architectural drivetrain remains closed by Module 33. Module 33S1 tightens recursive interface/state representation; Module 33S2 limits higher-address law ownership to the property and regime that actually earn it; Module 33S3 separates local performance from enclosing-scale viability and recovery from inevitable reversal. None reopens the parent capstone. The remaining foundational burden is not to draw another generic arrow: the architectural transition slots already exist. It is to identify and instantiate the physical dynamical ownership of those slots in concrete regimes, determine whether observer-positioned/contextual structure carries independent load anywhere beyond the strongest adequate P-only account, recover the established quantum and gravitational regimes, and establish whether the deeper relational architecture earns independent predictive content.

@@ -90,6 +90,14 @@ The compressed rule is:
 
 > **Relation makes the whole; descent earns its law.**
 
+## Current foundational frontier
+
+The live architecture now specifies the addressed state, admissibility descriptor, active physical-law object, propagation interface, measurement/registration step and recursive readdressing. The remaining open problem is sharper than a generic missing arrow: **the fundamental physical owner/generator of transition has not yet been identified.**
+
+The observer layer is therefore a live discriminator, not a conclusion. The current canon does not assume that $O$ causes physical dynamics. It asks whether an operational observer/context variable carries independent prospective load in admissibility $\mathcal Q$, law assembly $\mathfrak C_P$, the transition rule $\mathcal T_P$, or only in measurement/registration and readdressing. Any stronger claim must beat the strongest adequate physical-only state/history/boundary/environment account under controlled testing.
+
+See the [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) for the current frontier and test boundary.
+
 ## Published research objects
 
 - **MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics**, v2 — DOI `10.5281/zenodo.21973064`; concept DOI `10.5281/zenodo.17780565`; historical v1 DOI `10.5281/zenodo.17780566`.
