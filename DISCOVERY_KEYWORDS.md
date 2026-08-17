@@ -2,47 +2,50 @@
 
 This file gives public search systems, citation tools, GitHub search, and AI retrieval systems a clean identity chain for the MKUFT repository and its standalone research outputs.
 
-## Canonical title
+## Current principal title
 
-**Unified Field Theory. McLaughlin–Kairos. MKUFT**
+**MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics**
 
 ## Short name
 
 **MKUFT**
 
-## Full name variants
+## Full name and historical variants
 
 - McLaughlin–Kairos Unified Field Theory
 - McLaughlin-Kairos Unified Field Theory
-- Unified Field Theory. McLaughlin–Kairos. MKUFT
-- Unified Field Theory. McLaughlin-Kairos. MKUFT
+- MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics
+- Unified Field Theory. McLaughlin–Kairos. MKUFT — historical v1 title
+
+## DOI / provenance identity
+
+- MKUFT current v2 version DOI: `10.5281/zenodo.21973064`
+- MKUFT concept DOI: `10.5281/zenodo.17780565`
+- MKUFT historical v1 version DOI: `10.5281/zenodo.17780566`
+- Layer Before Law version DOI: `10.5281/zenodo.21971270`
+- Recursive Constraint Closure version DOI: `10.5281/zenodo.21971425`
+- Voynich Manuscript – Systems/Engine Framework version DOI: `10.5281/zenodo.18178638`
+- Voynich concept DOI: `10.5281/zenodo.18178637`
+- ATLD v1.0 version DOI: `10.5281/zenodo.21341521`
+- ATLD concept DOI: `10.5281/zenodo.21341520`
+- GitHub repository: `mark45cdo-mkuft/MKUFT`
 
 ## Citation identity
 
 Formal author/citation identity is maintained in:
 
-- `CITATION.cff` for the MKUFT repository/backbone citation;
+- `CITATION.cff` for the current principal MKUFT citation;
 - `papers/README.md` for standalone-paper discovery;
 - `PROVENANCE_DOI_AND_ATTRIBUTION.md` for object relationships;
 - the individual standalone publication records;
 - the exact Zenodo publication records.
-
-## DOI / provenance identity
-
-- MKUFT backbone DOI: `10.5281/zenodo.17780566`
-- Voynich Manuscript – Systems/Engine Framework version DOI: `10.5281/zenodo.18178638`
-- Voynich concept DOI: `10.5281/zenodo.18178637`
-- ATLD v1.0 version DOI: `10.5281/zenodo.21341521`
-- ATLD concept DOI: `10.5281/zenodo.21341520`
-- Layer Before Law standalone DOI: pending frozen deposit
-- Recursive Constraint Closure standalone DOI: pending
-- GitHub repository: `mark45cdo-mkuft/MKUFT`
 
 ## Principal research terms
 
 - unified field theory
 - S–I–P–O typed architecture
 - substrate information physical observer model
+- relational architecture for physical law
 - constrained traversal
 - typed state spaces
 - cross-layer invariants
@@ -55,8 +58,6 @@ Formal author/citation identity is maintained in:
 - no-signalling
 - standard-physics recovery
 - boundary physics
-- gradient mechanics
-- threshold geometry
 - strongest fair null
 - controlled deformation
 - load-bearing invariants
@@ -84,9 +85,7 @@ Formal author/citation identity is maintained in:
 - Active Traversal and Load-Bearing Dependency
 - matched-control evaluation protocol
 - Voynich Manuscript – Systems/Engine Framework
-- Voynich procedural-structure hypothesis
 - procedural systems analysis
-- symbolic execution engine
 
 ## Direct research-output routes
 
@@ -99,19 +98,19 @@ Formal author/citation identity is maintained in:
 - `papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md`
 - `LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md`
 
-## Legacy terminology
-
-Older source material may contain terms such as **data-field universe**, **data field theory**, or **coherence field**. These are retained only as historical discovery aliases where encountered. They are not preferred current technical labels and should not be used to infer a distinct physical field without the equations, variables, and evidence required by the current canon.
-
 ## Exact search fingerprints
 
 ```text
-MKUFT McLaughlin-Kairos Unified Field Theory Zenodo 10.5281/zenodo.17780566 GitHub mark45cdo-mkuft/MKUFT
+MKUFT A Relational Architecture for Physical Law and Cross-Scale Dynamics Mark Charles McLaughlin Zenodo 10.5281/zenodo.21973064 concept 10.5281/zenodo.17780565 GitHub mark45cdo-mkuft/MKUFT
+Layer Before Law Mark Charles McLaughlin Zenodo 10.5281/zenodo.21971270
+Recursive Constraint Closure Reachable-State Geometry Mark Charles McLaughlin Zenodo 10.5281/zenodo.21971425
 Voynich Manuscript Systems Engine Framework Mark Charles McLaughlin Zenodo 10.5281/zenodo.18178638
 ATLD Active Traversal Load-Bearing Dependency Mark Charles McLaughlin Zenodo 10.5281/zenodo.21341521
-Layer Before Law Mark Charles McLaughlin MKUFT public preprint
-Recursive Constraint Closure Reachable-State Geometry Mark Charles McLaughlin MKUFT public preprint
 ```
+
+## Legacy terminology
+
+Older source material may contain terms such as **data-field universe**, **data field theory**, or **coherence field**. These are retained only as historical discovery aliases where encountered. They are not preferred current technical labels and should not be used to infer a distinct physical field without the equations, variables, and evidence required by the current canon.
 
 ## Public discovery note
 
