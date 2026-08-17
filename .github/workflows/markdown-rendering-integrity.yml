@@ -27,14 +27,3 @@ jobs:
         run: python tools/check_markdown_rendering.py
       - name: Check publication discovery and DOI custody
         run: python tools/check_publication_routes.py
-      - name: Export exact checked-in MKUFT reading editions
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: mkuft-reading-editions-export
-          path: |
-            publications/module-reading-editions/*.pdf
-            publications/module-reading-editions/SHA256SUMS.txt
-            publications/module-reading-editions/README.md
-          if-no-files-found: error
-          retention-days: 1
