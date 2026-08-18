@@ -187,7 +187,7 @@ A_{\Theta}(x)=z
 Its address-conditioned diameter is
 
 ```math
-\operatorname{Diam}_{q,\Delta}(z,u,e;\Theta)
+\mathrm{Diam}_{q,\Delta}(z,u,e;\Theta)
 =
 \sup_{P,P'\in\mathscr P_{q,\Delta}(z,u,e;\Theta)}
 d_Q(P,P').
@@ -199,7 +199,7 @@ Then
 \mathcal R_q(\Theta;U,E,\Delta)
 =
 \sup_{\substack{z\in\mathcal Z_{\Theta}\\u\in U,\,e\in E}}
-\operatorname{Diam}_{q,\Delta}(z,u,e;\Theta)
+\mathrm{Diam}_{q,\Delta}(z,u,e;\Theta)
 ```
 
 on the tested region.
