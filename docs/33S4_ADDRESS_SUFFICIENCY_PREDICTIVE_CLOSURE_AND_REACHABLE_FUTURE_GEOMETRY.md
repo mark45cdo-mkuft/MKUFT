@@ -173,25 +173,23 @@ Therefore:
 
 ## 5. Reachable-future geometry at an address
 
-For an address value `z`, define the target-future family
+For an address value `z` under fixed matched intervention `u` and environment `e`, define the target-future family
 
 ```math
-\mathscr P_{q,\Delta}(z;\Theta)
+\mathscr P_{q,\Delta}(z,u,e;\Theta)
 =
 \left\{
 q_*K^{\Delta}(\cdot\mid x,u,e):
-A_{\Theta}(x)=z,
-\ u\in U,
-\ e\in E
+A_{\Theta}(x)=z
 \right\}.
 ```
 
 Its address-conditioned diameter is
 
 ```math
-\operatorname{Diam}_{q,\Delta}(z;\Theta)
+\operatorname{Diam}_{q,\Delta}(z,u,e;\Theta)
 =
-\sup_{P,P'\in\mathscr P_{q,\Delta}(z;\Theta)}
+\sup_{P,P'\in\mathscr P_{q,\Delta}(z,u,e;\Theta)}
 d_Q(P,P').
 ```
 
@@ -200,15 +198,17 @@ Then
 ```math
 \mathcal R_q(\Theta;U,E,\Delta)
 =
-\sup_{z\in\mathcal Z_{\Theta}}
-\operatorname{Diam}_{q,\Delta}(z;\Theta)
+\sup_{\substack{z\in\mathcal Z_{\Theta}\\u\in U,\,e\in E}}
+\operatorname{Diam}_{q,\Delta}(z,u,e;\Theta)
 ```
 
 on the tested region.
 
+The conditioning on the same `u` and `e` is essential: differences caused by changing the intervention or environment are not same-address representative divergence unless those quantities were themselves omitted from the declared matching conditions.
+
 This gives a direct geometric interpretation:
 
-- a coarse or incomplete address leaves a wide family of target futures associated with one address value;
+- a coarse or incomplete address leaves a wide family of target futures associated with one address value under matched conditions;
 - a load-bearing address refinement separates representatives that should not have been grouped together;
 - predictive closure is reached when the remaining same-address future family is sufficiently narrow in the declared target metric.
 
