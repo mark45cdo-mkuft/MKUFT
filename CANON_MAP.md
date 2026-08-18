@@ -26,9 +26,10 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 13. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 14. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
 15. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
-16. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
-17. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-18. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+16. [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
+17. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
+18. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+19. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 ### Physics and quantum gravity
 
@@ -42,14 +43,15 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 8. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 9. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
 10. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
-11. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
-12. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
-13. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
-14. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
-15. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
-16. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-17. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
-18. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+11. [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
+12. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
+13. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
+14. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
+15. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
+16. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
+17. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+18. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+19. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 
 ### LUCY and effective geometry
 
@@ -64,9 +66,10 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 9. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 10. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
 11. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
-12. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
-13. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-14. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+12. [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
+13. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md)
+14. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+15. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process; Module 32S3 supplies a completion/admissibility scaffold; Module 32S4 separates preserved intrinsic relation from changed contextual address and supplies boundary/transport comparators; Module 33 supplies the general addressed-state → admissibility descriptor → physical law object `(domain, transition, weighting)` → P propagation → P/O instrument → readdressing architecture; Module 33S1 states when a load-bearing boundary/interface must be promoted from bundled context into the explicitly updated state; Module 33S2 tests whether a promoted relational address is dynamically sufficient for a declared property or must remain coupled to lower-scale variables; Module 33S3 separates local performance from enclosing-scale closure and makes recovery a conditional reachability question rather than a presumed reversal. None of those modules by itself establishes an independent I→P crossing or physical LUCY mechanism.
 
@@ -85,8 +88,9 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 11. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 12. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
 13. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
-14. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-15. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+14. [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
+15. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+16. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
 ## Canon groups
 
@@ -106,6 +110,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S1 — Dynamic Interface Promotion:** specifies when a trackable interface that changes the next admissibility/law object and is itself changed by realised dynamics must re-enter the addressed state; it adds a scale-role transition from lower-scale boundary to higher-scale internal relation only after existing promotion tests pass.
 - **33S2 — Relational Closure and Law Descent:** separates historical lineage, functional organisation, closure, and property-specific dynamical sufficiency; names strong, approximate, ensemble, history-augmented, and coupled-multiscale descent classes; and requires bidirectional readdressing when higher-address sufficiency changes.
 - **33S3 — Cross-Scale Performance and Recoverability:** separates lower-address performance from enclosing-scale closure/law-descent margins, rejects inevitable-collapse inference from local gain, defines recovery as target-relative reachability under declared controls, and requires apparent hysteresis to survive state-augmentation tests.
+- **33S4 — Address Sufficiency and Predictive Closure:** defines a target-relative address residual over same-address future distributions, separates deterministic from stochastic closure, tests candidate address coordinates by held-out discrimination and ablation/restoration, and routes persistent predictive divergence into readdressing before stronger law claims.
 - **33A — Law Descent and Recoverability Novelty Audit:** hostile targeted prior-art audit for 33S2/33S3. It records inherited ingredients, residual synthesis, confidence bounds, and the prospective burden required for stronger novelty or law claims. It is a positioning/audit document, not an empirical promotion.
 
 ### Structural and traversal
@@ -131,6 +136,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S1 — Dynamic Interface Promotion and Recursive Boundary Closure:** makes a load-bearing interface re-entry test explicit, keeps P-recoverable interface variables distinct from independent I claims, and types the boundary→stateful relation→higher-scale internal-relation role change without assuming that every boundary closes into a new object.
 - **33S2 — Relational Closure, Law Descent, and Bidirectional Readdressing:** tests whether a candidate relational address carries enough state for a declared property and regime, distinguishes predictive from interventional sufficiency, and moves the working address upward, downward, or multiscale when the demonstrated descent class changes.
 - **33S3 — Cross-Scale Performance, Recoverability, and Hysteretic Readdressing:** audits whether lower-address performance aligns with or opposes enclosing-scale closure/law sufficiency, separates degradation from loss of recoverability, and allows asymmetric recovery paths only under a declared target, route class, environment, horizon, and history/state test.
+- **33S4 — Address Sufficiency, Predictive Closure, and Reachable-Future Geometry:** tests whether representatives grouped at one operational address retain materially different target-relevant future distributions, uses residual divergence to localise candidate missing coordinates or model defects, and requires the smallest retained address augmentation to earn held-out predictive or interventional load.
 
 ### Observer, boundary, and physical support
 
