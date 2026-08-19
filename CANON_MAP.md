@@ -142,6 +142,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S2 — Relational Closure, Law Descent, and Bidirectional Readdressing:** tests whether a candidate relational address carries enough state for a declared property and regime, distinguishes predictive from interventional sufficiency, and moves the working address upward, downward, or multiscale when the demonstrated descent class changes.
 - **33S3 — Cross-Scale Performance, Recoverability, and Hysteretic Readdressing:** audits whether lower-address performance aligns with or opposes enclosing-scale closure/law sufficiency, separates degradation from loss of recoverability, and allows asymmetric recovery paths only under a declared target, route class, environment, horizon, and history/state test.
 - **33S4 — Address Sufficiency, Predictive Closure, and Reachable-Future Geometry:** tests whether representatives grouped at one operational address retain materially different target-relevant future distributions, uses residual divergence to localise candidate missing coordinates or model defects, and requires the smallest retained address augmentation to earn held-out predictive or interventional load.
+- **33S5 — Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation:** separates geometric-path equivalence from time-parameterised traversal equivalence, tests rate/dwell/schedule as target-relative address coordinates, and demotes schedule when fuller ordinary state closes the residual.
 
 ### Observer, boundary, and physical support
 
