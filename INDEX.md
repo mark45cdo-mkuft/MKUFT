@@ -48,6 +48,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 33S2 — Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
 - [Module 33S3 — Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
 - [Module 33S4 — Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
+- [Module 33S5 — Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)
 - [Module 33A — Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
 
 ## Experiments, evidence, and falsification
