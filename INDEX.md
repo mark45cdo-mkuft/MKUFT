@@ -28,6 +28,11 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - **Voynich Manuscript – Systems/Engine Framework** — version DOI `10.5281/zenodo.18178638`; concept DOI `10.5281/zenodo.18178637`; [publication record](VOYNICH_STANDALONE_PUBLICATION.md).
 - **ATLD v1.0** — version DOI `10.5281/zenodo.21341521`; concept DOI `10.5281/zenodo.21341520`; [publication record](ATLD_STANDALONE_PUBLICATION.md).
 
+## Current public research preprints
+
+- [Typed Viability Traversal v0.1](papers/2026-08-20_TYPED_VIABILITY_TRAVERSAL_v0.1.md) — public research preprint; standalone DOI pending.
+- [Addressed Admissible Futures v0.1](papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md) — public research preprint and standalone publication candidate; canonical science fold at [Module 33S6](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md).
+
 ## Foundational and mathematical work
 
 - [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
@@ -49,6 +54,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 33S3 — Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
 - [Module 33S4 — Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
 - [Module 33S5 — Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)
+- [Module 33S6 — Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
 - [Module 33A — Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
 
 ## Experiments, evidence, and falsification
