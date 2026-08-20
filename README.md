@@ -39,7 +39,7 @@ For foundational physics, the principal question is whether quantum and gravitat
 
 ## Current scientific position
 
-MKUFT is presently best described as an original layered research architecture using established mathematical tools, explicit failure conditions, typed cross-layer discipline, and several operational research programmes. The current public canon now includes an addressed recursive law-selection architecture: Module 33 assembles a typed physical law object, 33S1 controls dynamic-interface promotion, 33S2 tests property-specific law descent and bidirectional readdressing, and 33S3 separates local performance, closure, law sufficiency, and recoverability. Module 33A is the hostile prior-art audit for that family.
+MKUFT is presently best described as an original layered research architecture using established mathematical tools, explicit failure conditions, typed cross-layer discipline, and several operational research programmes. The current public canon includes an addressed recursive law-selection architecture: Module 33 assembles a typed physical law object; 33S1 controls dynamic-interface promotion; 33S2 tests property-specific law descent and bidirectional readdressing; 33S3 separates local performance, closure, law sufficiency, and recoverability; 33S4 makes Address target-relative through predictive closure; 33S5 tests when rate, phase, dwell, schedule, or bounded history become address-load-bearing; and 33S6 folds those results onto the Addressed Admissible Future, restorative reachability, restorative-future reserve, and counterfactual load-bearing relation structure. Module 33A is the hostile prior-art audit for the law-descent/recoverability family.
 
 The strongest current novelty claim is therefore deliberately narrower than “new law of nature”: 33A records a **candidate original formal synthesis / operational meta-principle** after subtracting strong neighbouring prior art. A stronger law claim requires prospective quantitative success and independent empirical testing.
 
@@ -51,13 +51,14 @@ The framework distinguishes:
 - structural importance from truth;
 - local performance gain from whole-system coherence;
 - existence of a higher-order object from property-specific higher-law sufficiency;
-- law-sufficiency loss from closure loss and loss of recoverability.
+- law-sufficiency loss from closure loss and loss of recoverability;
+- present viability from the structure and robustness of the restorative future.
 
 ## Read MKUFT
 
 **Standalone research outputs:** [Papers and Publications](papers/README.md) — DOI papers and current public paper routes in one reader-facing index.
 
-**Research-module PDFs:** [Professionally rendered module reading editions](publications/module-reading-editions/README.md) — visually audited PDF carriers for the serious public module stack, labelled explicitly as research modules rather than standalone DOI papers.
+**Research-module PDFs:** [Professionally rendered module reading editions](publications/module-reading-editions/README.md) — visually audited PDF carriers for the serious public module stack, labelled explicitly as research modules rather than standalone DOI papers. Newly added live modules may temporarily remain source-only where a professional reading carrier has not yet been generated; the public module index records those gaps explicitly rather than substituting an unrelated paper PDF.
 
 ### Physics and quantum gravity
 
@@ -68,26 +69,32 @@ The framework distinguishes:
 5. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) — when a load-bearing interface must re-enter explicit recursive state.
 6. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) — lineage/function/closure/law-sufficiency separation, property-specific descent, and evidence-driven readdressing.
 7. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) — local-versus-whole performance, target-relative recovery, and state-augmentation burden for apparent hysteresis.
-8. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) — hostile prior-art subtraction and bounded residual novelty claim.
-9. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) — downstream LUCY effective-geometry hypothesis with threshold, common-boundary, recovery, promotion, and falsification requirements.
-10. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md) — primary S–I–P–O theory spine.
-11. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md) — mathematical scaffolds and operational caveats.
-12. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md) — proposed tests, controls, nulls, and replication requirements.
-13. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md) — branch-level and framework-level failure conditions.
-14. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md) — primary literature, neighbouring programmes, disputes, and strongest alternatives.
+8. [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) — target-relative address residuals, future splitting, predictive closure, and readdressing triggers.
+9. [Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md) — when rate, phase, timing, dwell, or schedule must enter the effective Address.
+10. [Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) — future-sufficient Address, restorative subfuture, reserve, counterfactual relation load, and recursive readdressing.
+11. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) — hostile prior-art subtraction and bounded residual novelty claim.
+12. [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md) — downstream LUCY effective-geometry hypothesis with threshold, common-boundary, recovery, promotion, and falsification requirements.
+13. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md) — primary S–I–P–O theory spine.
+14. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md) — mathematical scaffolds and operational caveats.
+15. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md) — proposed tests, controls, nulls, and replication requirements.
+16. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md) — branch-level and framework-level failure conditions.
+17. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md) — primary literature, neighbouring programmes, disputes, and strongest alternatives.
 
 ### General architecture
 
 1. [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md) — plain-language orientation.
-2. [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) — full architectural synthesis through Module 33S3.
+2. [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) — integrated architectural synthesis; read alongside later live modules where the spine's snapshot predates them.
 3. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) — current scale/address foundation.
 4. [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) — live addressed-law assembly.
 5. [Relational Closure and Law Descent](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) — property-specific law ownership and readdressing.
 6. [Cross-Scale Performance and Recoverability](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) — distinct performance/closure/recovery boundaries.
-7. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) — current hostile novelty boundary.
-8. [Canon Map](CANON_MAP.md) — public hierarchy and navigation.
-9. [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) — dependency relationships among the public modules.
-10. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md) — relationship to existing scientific programmes and novelty boundaries.
+7. [Address Sufficiency and Predictive Closure](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) — future-sufficient Address and predictive-closure tests.
+8. [Rate-Conditioned Addressing](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md) — timing/rate/history as conditional Address coordinates.
+9. [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) — admissible future, restorative reserve, load-bearing relations, and readdressing.
+10. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) — current hostile novelty boundary.
+11. [Canon Map](CANON_MAP.md) — public hierarchy and navigation.
+12. [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) — dependency relationships among the public modules.
+13. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md) — relationship to existing scientific programmes and novelty boundaries.
 
 ### AI and typed knowledge architectures
 
@@ -99,7 +106,10 @@ The framework distinguishes:
 6. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) — addressed adaptive-state family and constraint/reachable-state formalism.
 7. [Relational Closure and Law Descent](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) — scale/address sufficiency burden.
 8. [Cross-Scale Performance and Recoverability](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) — parent/local performance separation and recovery test.
-9. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) — evidence tiers and promotion criteria.
+9. [Address Sufficiency and Predictive Closure](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) — future-equivalence and address-completeness testing.
+10. [Rate-Conditioned Addressing](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md) — timing/rate/history membership tests.
+11. [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) — future structure, restorative reserve, relation load, and recursive readdressing.
+12. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) — evidence tiers and promotion criteria.
 
 ## Standalone papers and publications
 
@@ -111,6 +121,7 @@ The repository keeps paper identity separate from the live modular canon. Use [P
 
 ### Other published DOI papers
 
+- **Addressed Admissible Futures: Future-Sufficient State, Load-Bearing Relations, and Restorative Reachability** — version 0.1, 20 August 2026; version DOI [10.5281/zenodo.22031333](https://doi.org/10.5281/zenodo.22031333); concept DOI [10.5281/zenodo.22031332](https://doi.org/10.5281/zenodo.22031332); [GitHub paper route](papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md); [publication record](AAF_STANDALONE_PUBLICATION.md); [canonical Module 33S6](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md).
 - **Layer Before Law: An Addressed Architecture for Relational Admissibility, Effective Law Selection, and Quantum-Gravitational Recovery** — version 1.0; DOI [10.5281/zenodo.21971270](https://doi.org/10.5281/zenodo.21971270); [publication record](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md).
 - **Recursive Constraint Closure and Reachable-State Geometry: An Addressed Formalism for Adaptive Systems with Changing Possibility Spaces** — version 0.1; DOI [10.5281/zenodo.21971425](https://doi.org/10.5281/zenodo.21971425); [publication record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md).
 - **Voynich Manuscript – Systems/Engine Framework** — version DOI [10.5281/zenodo.18178638](https://doi.org/10.5281/zenodo.18178638); [GitHub reading edition](papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md); [publication record](VOYNICH_STANDALONE_PUBLICATION.md).
