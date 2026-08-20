@@ -45,7 +45,7 @@ MKUFT's present foundational intervention begins one step earlier than a convent
 
 > **Before asking which law governs an object, first establish what the relevant object is, at what address and scale it is being described, which relations and boundary conditions are load-bearing, and which future transitions are admissible.**
 
-The name *McLaughlin–Kairos Unified Field Theory* identifies the problem-space and long-range ambition of the programme. It is not a claim that a final unified physical dynamics has already been derived. The present contribution is the proposed architecture that a serious unification would have to get right before effective descriptions are welded together.
+The name *McLaughlin–Kairos Unified Field Theory* identifies the problem-space and long-range ambition of the programme. It is not a claim that a final unified physical dynamics has already been derived. The present contribution is the proposed architecture for testing whether those prerequisites have been established before effective descriptions are combined.
 
 This is developed in [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), published separately as version 1.0 at DOI [10.5281/zenodo.21971270](https://doi.org/10.5281/zenodo.21971270).
 
