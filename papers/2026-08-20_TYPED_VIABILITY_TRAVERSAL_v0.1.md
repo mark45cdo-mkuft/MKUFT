@@ -59,7 +59,7 @@ Let $x_t$ be the current system state. Let its contextual address be
 \boxed{
 a_t
 =
-\operatorname{Address}(x_t,\text{context}_t)
+\mathrm{Address}\!\left(x_t,\mathrm{context}_t\right)
 }
 ```
 
@@ -202,12 +202,9 @@ For two feasible sufficient routes $\sigma$ and $\tau$, define
 when
 
 ```math
-\boxed{
-d_i(\sigma)\le d_i(\tau)
-\quad\forall i,
+d_i(\sigma)\le d_i(\tau)\quad\forall i,
 \qquad
-\exists k:\;d_k(\sigma)<d_k(\tau).
-}
+\text{and for some }k,\quad d_k(\sigma)<d_k(\tau).
 ```
 
 Then $\tau$ is gratuitously destructive relative to $\sigma$: it solves no required problem better on the declared sufficiency criterion, harms no declared coordinate less, and imposes greater irreversible loss somewhere.
@@ -218,7 +215,7 @@ The non-dominated relational set is
 \boxed{
 \mathcal L(x,a)
 =
-\operatorname{ParetoMin}_{\tau\in\mathcal F_{\kappa}(x,a)}
+\mathrm{ParetoMin}_{\tau\in\mathcal F_{\kappa}(x,a)}
 \mathbf D_a(\tau).
 }
 ```
@@ -239,7 +236,7 @@ Only after $\mathcal L(x,a)$ has been formed does ordinary preference choose amo
 \boxed{
 \tau^{*}
 \in
-\underset{\tau\in\mathcal L(x,a)}{\operatorname{arg\,max}}
+\underset{\tau\in\mathcal L(x,a)}{\mathrm{argmax}}
 \;U_{\mathrm{soft}}(\tau\mid x,a).
 }
 ```
@@ -271,7 +268,6 @@ RE-SENSE AND RE-ADDRESS
 with the compact mathematical form
 
 ```math
-\boxed{
 \begin{aligned}
 \mathcal F_{\kappa}(x,a)
 &=
@@ -284,14 +280,13 @@ T_a\ge0,
 \right\},\\[4pt]
 \mathcal L(x,a)
 &=
-\operatorname{ParetoMin}_{\tau\in\mathcal F_{\kappa}(x,a)}
+\mathrm{ParetoMin}_{\tau\in\mathcal F_{\kappa}(x,a)}
 \mathbf D_a(\tau),\\[4pt]
 \tau^{*}
 &\in
-\underset{\tau\in\mathcal L(x,a)}{\operatorname{arg\,max}}
+\underset{\tau\in\mathcal L(x,a)}{\mathrm{argmax}}
 \;U_{\mathrm{soft}}(\tau\mid x,a).
 \end{aligned}
-}
 ```
 
 The proposal is therefore a **precedence architecture**, not a scalar moral equation.
