@@ -6,12 +6,14 @@ on:
     paths:
       - '**/*.md'
       - 'tools/check_markdown_rendering.py'
+      - 'tools/test_markdown_rendering_checker.py'
       - 'tools/check_publication_routes.py'
       - '.github/workflows/markdown-rendering-integrity.yml'
   pull_request:
     paths:
       - '**/*.md'
       - 'tools/check_markdown_rendering.py'
+      - 'tools/test_markdown_rendering_checker.py'
       - 'tools/check_publication_routes.py'
       - '.github/workflows/markdown-rendering-integrity.yml'
 
@@ -23,6 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Self-test the Markdown rendering guard
+        run: python tools/test_markdown_rendering_checker.py
       - name: Check user-facing Markdown rendering contract
         run: python tools/check_markdown_rendering.py
       - name: Check publication discovery and DOI custody
