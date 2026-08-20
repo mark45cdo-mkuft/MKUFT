@@ -11,7 +11,7 @@
 
 The current principal DOI-bearing MKUFT publication is *MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics*, version v2, published 17 August 2026. The historical v1 deposit remains a frozen earlier version in the same publication lineage and is not erased or silently rewritten by v2.
 
-MKUFT is a speculative, structured research framework. It is not presented as an accepted completed theory, and it does not claim a completed derivation of quantum mechanics, quantum field theory, general relativity, or quantum gravity.
+MKUFT is a speculative, structured research framework. It is not presented as an accepted completed theory. Its present scientific claim is architectural rather than a claim that a finished unified physical dynamics has already been derived.
 
 ## Development status
 
@@ -25,7 +25,7 @@ Stable publication objects and DOI-bearing versions remain explicitly identified
 
 The repository remains publicly inspectable while this work develops so that corrections, provenance, and publication boundaries remain visible rather than being obscured by later revisions.
 
-## Central proposal
+## Central proposal — Layer Before Law
 
 MKUFT asks whether apparently different physical and informational regimes can be studied through a typed architecture of substrate, information, physical expression, and observer-positioned registration:
 
@@ -35,11 +35,21 @@ S \rightarrow I \rightarrow P \rightarrow O
 
 The layers are related but not interchangeable. A shared mathematical form does not establish a shared physical mechanism, and evidence at one layer does not automatically transfer to another.
 
-For foundational physics, the principal question is whether quantum and gravitational descriptions are themselves the correct fundamental objects to unify, or whether both may be effective outputs of a deeper lawful relational process. That proposal remains incomplete until it recovers established quantum and gravitational limits, preserves Bell compatibility and no-signalling, defines its couplings, and produces a discriminating result beyond existing formalisms.
+The present foundational intervention is **Layer Before Law**:
+
+> **Before asking which law governs an object, establish what the relevant object is, at what address and scale it is being described, which relations and boundary conditions are load-bearing, and which future transitions are admissible.**
+
+The name *McLaughlin–Kairos Unified Field Theory* identifies the scope of the problem and the long-range ambition of the programme. It is not used as a claim that a final unified dynamics has already been completed. The present contribution is the addressed architecture proposed as a prerequisite to serious unification rather than an attempt to declare existing quantum and gravitational formalisms solved by assertion.
+
+For foundational physics, MKUFT therefore asks whether quantum and gravitational descriptions are themselves the correct fundamental objects to weld together, or whether both may be effective outputs whose lawful use depends on a deeper addressed admissibility structure.
+
+A complete derivation of quantum mechanics, quantum field theory, general relativity, or quantum gravity is **not the completion criterion for this present architectural claim**. Those become mandatory promotion burdens if MKUFT is advanced into a claimed fundamental physical theory. At that level the framework must recover established quantum and gravitational limits, preserve Bell compatibility and no-signalling, define its physical couplings, and produce a discriminating result beyond existing formalisms.
 
 ## Current scientific position
 
 MKUFT is presently best described as an original layered research architecture using established mathematical tools, explicit failure conditions, typed cross-layer discipline, and several operational research programmes. The current public canon includes an addressed recursive law-selection architecture: Module 33 assembles a typed physical law object; 33S1 controls dynamic-interface promotion; 33S2 tests property-specific law descent and bidirectional readdressing; 33S3 separates local performance, closure, law sufficiency, and recoverability; 33S4 makes Address target-relative through predictive closure; 33S5 tests when rate, phase, dwell, schedule, or bounded history become address-load-bearing; and 33S6 folds those results onto the Addressed Admissible Future, restorative reachability, restorative-future reserve, and counterfactual load-bearing relation structure. Module 33A is the hostile prior-art audit for the law-descent/recoverability family.
+
+The present architecture earns support where those distinctions produce prospective predictive, interventional, explanatory, or model-selection value beyond the strongest adequate ordinary description. A result at that level is scientifically meaningful without automatically promoting the whole framework to a completed fundamental physical theory.
 
 The strongest current novelty claim is therefore deliberately narrower than “new law of nature”: 33A records a **candidate original formal synthesis / operational meta-principle** after subtracting strong neighbouring prior art. A stronger law claim requires prospective quantitative success and independent empirical testing.
 
