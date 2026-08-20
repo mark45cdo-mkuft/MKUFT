@@ -4,14 +4,14 @@
 **Author:** Mark Charles McLaughlin  
 **ORCID:** 0009-0005-7736-1511  
 **Framework:** McLaughlin-Kairos Unified Field Theory (MKUFT)  
-**Status:** Canonical public preprint - live GitHub canon, standalone DOI pending  
+**Status:** Canonical public preprint - live GitHub canon; standalone Zenodo paper published  
 **Preprint version:** 1.0  
 **Canonical public date for the Layer Before Law module:** 17 July 2026  
 **Canonical preprint revision:** 16 August 2026  
 **MKUFT backbone DOI:** `10.5281/zenodo.17780566`  
-**Standalone DOI:** pending frozen deposit
+**Standalone DOI:** [10.5281/zenodo.21971270](https://doi.org/10.5281/zenodo.21971270)
 
-> **Version boundary.** This is the canonical GitHub preprint before standalone DOI deposit. Git history records revisions. The forthcoming DOI will identify the exact frozen publication object; later changes will remain later revisions rather than being silently backdated into that deposit.
+> **Version boundary.** This is the canonical GitHub preprint/live source route associated with the published standalone DOI object. The Zenodo object at DOI `10.5281/zenodo.21971270` is the frozen publication object; later GitHub changes remain later revisions and are not silently backdated into that deposit.
 
 ## Abstract
 
