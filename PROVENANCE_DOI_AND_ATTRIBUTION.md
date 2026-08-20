@@ -109,6 +109,25 @@ Public routes:
 
 The DOI-bearing Zenodo object freezes version 0.1. Later live-canon refinements retain their own Git chronology and are not silently backdated into that publication.
 
+## Addressed Admissible Futures
+
+**Title:** *Addressed Admissible Futures: Future-Sufficient State, Load-Bearing Relations, and Restorative Reachability*  
+**Author:** Mark Charles McLaughlin  
+**Version:** 0.1  
+**Publication date:** 20 August 2026  
+**Version DOI:** `10.5281/zenodo.22031333`  
+**Concept DOI:** `10.5281/zenodo.22031332`  
+**Rights for the exact deposited object:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved.
+
+Public routes:
+
+- [Standalone publication record](AAF_STANDALONE_PUBLICATION.md)
+- [Public GitHub paper route](papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md)
+- [Live canonical MKUFT fold — Module 33S6](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22031333)
+
+AAF is a future-object specialisation of the recursive S-I-P-O addressed-update family rather than a separate law stack. The DOI-bearing Zenodo object freezes v0.1. Later paper-route changes, Module 33S6 revisions, TVT refinements, or later empirical results are not silently backdated into the deposited object.
+
 ## LUCY placement
 
 LUCY is currently part of the MKUFT backbone rather than a separately published external theory. Its canonical live owner is `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md`; the physical boundary-forming specialisation is developed in `docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md`.
@@ -125,7 +144,7 @@ Current live GitHub modules are later repository objects. Unless an exact file o
 
 The detailed current file-by-file classification is maintained in [`MODULE_RIGHTS_MATRIX.md`](MODULE_RIGHTS_MATRIX.md). The controlling general notice is [`RIGHTS_AND_LICENSE_NOTICE.md`](RIGHTS_AND_LICENSE_NOTICE.md).
 
-A citation to MKUFT, Voynich, ATLD, Layer Before Law, or Recursive Constraint Closure does not import that cited object's licence into the citing file.
+A citation to MKUFT, Voynich, ATLD, Layer Before Law, Recursive Constraint Closure, or Addressed Admissible Futures does not import that cited object's licence into the citing file.
 
 ## Attribution statements
 
@@ -136,6 +155,10 @@ For the current MKUFT v2 publication:
 For the historical MKUFT v1 deposit:
 
 > Mark Charles McLaughlin. *Unified Field Theory. McLaughlin–Kairos. MKUFT*. DOI: 10.5281/zenodo.17780566.
+
+For Addressed Admissible Futures:
+
+> McLaughlin, Mark Charles. (2026). *Addressed Admissible Futures: Future-Sufficient State, Load-Bearing Relations, and Restorative Reachability*. Version 0.1. Zenodo. DOI: 10.5281/zenodo.22031333.
 
 For Layer Before Law:
 
@@ -184,6 +207,7 @@ Current standalone research-output tracking is concentrated in:
 
 - [`papers/README.md`](papers/README.md) — human-reader paper index;
 - [`publications/README.md`](publications/README.md) — frozen-mirror/archive boundary;
+- `AAF_STANDALONE_PUBLICATION.md`;
 - `VOYNICH_STANDALONE_PUBLICATION.md`;
 - `ATLD_STANDALONE_PUBLICATION.md`;
 - `LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md`;
