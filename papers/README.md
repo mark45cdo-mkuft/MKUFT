@@ -62,6 +62,19 @@ The v2 publication is the current principal MKUFT publication in the historical 
 - [Canonical public preprint v1.0](2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md)
 - [Publication record](../LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md)
 
+## Public research preprints — active testing
+
+### Typed Viability Traversal
+
+*A Cross-Domain Architecture for Truthful Relational Safety*
+
+**Version:** 0.1 — 20 August 2026  
+**Status:** Public research preprint; standalone DOI pending
+
+- [Typed Viability Traversal v0.1](2026-08-20_TYPED_VIABILITY_TRAVERSAL_v0.1.md)
+
+TVT proposes a typed precedence architecture linking epistemic non-corruption, address-dependent inheritance, nested viability, repair before irreversible escalation, non-gratuitous irreversible-loss filtering, downstream soft choice, and re-sensing. Its strong cross-domain claim remains under prospective test.
+
 ## What is not a standalone paper
 
 The `docs/` directory contains live research modules, appendices, architecture owners, experimental programmes, and support notes. A module may contribute directly to a paper without itself being a paper.
