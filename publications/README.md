@@ -29,9 +29,13 @@ The Voynich DOI paper previously remained discoverable through the research arch
 
 - [Layer Before Law v1.0](../papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md) — canonical public preprint; standalone DOI pending frozen deposit.
 - [Recursive Constraint Closure and Reachable-State Geometry v0.1](../papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md) — public preprint; standalone DOI pending.
+- [Typed Viability Traversal v0.1](../papers/2026-08-20_TYPED_VIABILITY_TRAVERSAL_v0.1.md) — public research preprint under active prospective testing; standalone DOI pending.
+- [Addressed Admissible Futures v0.1](../papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md) — public research preprint and standalone publication candidate; the canonical science fold is [Module 33S6](../docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md). Standalone DOI remains pending publication.
 
 ## Object boundary
 
 A frozen publication mirror is not a live module. A live module is not automatically a standalone paper. A Drive reading edition is not a substitute for the controlling publication object.
+
+For AAF specifically, the `docs/33S6...` object is the evolving MKUFT module fold, the `papers/2026-08-20...` object is the public reader/source route, and the professionally typeset PDF is the standalone publication carrier intended for the frozen deposit. These objects remain related but distinct.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier, discovery, and DOI-freeze rules.
