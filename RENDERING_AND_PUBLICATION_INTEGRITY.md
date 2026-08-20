@@ -24,9 +24,61 @@ For public GitHub Markdown:
 The standing checker is:
 
 - [`tools/check_markdown_rendering.py`](tools/check_markdown_rendering.py)
+- [`tools/test_markdown_rendering_checker.py`](tools/test_markdown_rendering_checker.py)
 - [`.github/workflows/markdown-rendering-integrity.yml`](.github/workflows/markdown-rendering-integrity.yml)
 
 The workflow is a gate, not a substitute for human visual inspection of important publication routes.
+
+## Forced recursive closure gate
+
+The existence of a checker, SOP, workflow, publication template, or prior successful example is **not** evidence that the current object passed it.
+
+Before any public Markdown paper/module, DOI route, or publication-facing carrier may be called **closed**, all applicable gates must be positively met on the exact current object:
+
+1. **specimen gate** — identify the current house-standard reference object before formatting or equation conversion;
+2. **source gate** — run the rendering checker on the current repository state and obtain an actual pass result;
+3. **checker-self-test gate** — the rendering checker must first pass its own known-good/known-bad fixture tests;
+4. **reader-side gate** — open the exact public GitHub Preview or final PDF as a reader and visually inspect representative mathematics, headings, rights/status text, and navigation;
+5. **object-identity gate** — verify that live module, public paper, publication record, frozen DOI object, and Drive carrier have not been collapsed or mislabeled;
+6. **closure-evidence gate** — closure language is prohibited unless the actual pass evidence has been observed. If a gate did not run, cannot be observed, or remains ambiguous, the status is **written/provisioned but not closed**.
+
+For major publication work, sample at least:
+
+- the opening equation-bearing section;
+- one middle section with the densest or most unusual mathematics;
+- the compact/final law or summary equation;
+- the publication metadata/rights boundary;
+- and at least one surrounding linked module or paper.
+
+For a larger body update, add a small random sample outside the immediately edited neighbourhood so a local clean-up does not create false confidence about the wider carrier.
+
+> **Never infer “the checker must have caught it.” Either the gate produced evidence or it did not happen for closure purposes.**
+
+## Recursive lesson — TVT public-rendering miss, 20 August 2026
+
+A public TVT preprint reached GitHub Preview with visible renderer failures including unsupported `\operatorname` use and a malformed display that GitHub reported as a missing close brace. The scientific equations were intelligible in source, but the reader-facing carrier was visibly broken.
+
+The failure was not primarily that the repository lacked a standard. The standard already said to use supported GitHub math carriers and already said that visual inspection remained mandatory. The failure was **procedural non-enforcement**:
+
+- the expected format existed but was treated as background knowledge rather than a forced precondition;
+- the checker existed but its actual execution/pass was not demonstrated before closure was claimed;
+- the public reader-side Preview was not positively inspected at the decisive moment;
+- the checker itself had no recursive fixture test proving that its known failure classes still fired;
+- closure language was therefore allowed to outrun evidence.
+
+The corrective rule is:
+
+> **A standard becomes operational only when the task is forced through it. A checker becomes evidence only when its pass is observed. A publication becomes closed only when the reader-facing carrier has been traversed successfully.**
+
+The corrective changes are:
+
+- TVT renderer-safe syntax repair without scientific revision;
+- expanded `check_markdown_rendering.py` checks for banned macros, TeX brace balance, aligned-environment balance, nested/legacy delimiters, broken fences, hidden control characters, and raw TeX outside a carrier;
+- `test_markdown_rendering_checker.py`, which intentionally feeds the checker known-bad and known-good fixtures before repository audit;
+- workflow ordering changed to **self-test checker → audit public Markdown → audit publication routes**;
+- closure procedure updated to require positive gate evidence rather than trust-by-existence.
+
+This incident is retained as a recursive systems lesson, not merely a one-file formatting patch.
 
 ## Publication-object contract
 
@@ -52,11 +104,12 @@ Before a new standalone DOI is published:
 5. visually inspect the final PDF from the reader side;
 6. inspect the public GitHub paper route from the reader side;
 7. verify citations, title, author, ORCID, version, date, rights, and DOI relationship;
-8. compute final checksums;
-9. commit the exact DOI-bearing source/publication object;
-10. upload the exact checked object to the DOI repository;
-11. verify the DOI landing route after publication;
-12. only then mark the version frozen.
+8. run the checker self-test and repository rendering/publication checks and observe their pass evidence;
+9. compute final checksums;
+10. commit the exact DOI-bearing source/publication object;
+11. upload the exact checked object to the DOI repository;
+12. verify the DOI landing route after publication;
+13. only then mark the version frozen.
 
 A standing SOP is not evidence that these steps were performed. Closure requires evidence of the actual traversal.
 
