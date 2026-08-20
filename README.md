@@ -39,7 +39,7 @@ The present foundational intervention is **Layer Before Law**:
 
 > **Before asking which law governs an object, establish what the relevant object is, at what address and scale it is being described, which relations and boundary conditions are load-bearing, and which future transitions are admissible.**
 
-The name *McLaughlin–Kairos Unified Field Theory* identifies the scope of the problem and the long-range ambition of the programme. It is not used as a claim that a final unified dynamics has already been completed. The present contribution is the addressed architecture proposed as a prerequisite to serious unification rather than an attempt to declare existing quantum and gravitational formalisms solved by assertion.
+The name *McLaughlin–Kairos Unified Field Theory* identifies the scope of the problem and the long-range ambition of the programme. It is not used as a claim that a final unified dynamics has already been completed. The present contribution is the addressed architecture proposed as a prerequisite to serious unification rather than a claim that existing quantum and gravitational formalisms have already been unified.
 
 For foundational physics, MKUFT therefore asks whether quantum and gravitational descriptions are themselves the correct fundamental objects to weld together, or whether both may be effective outputs whose lawful use depends on a deeper addressed admissibility structure.
 
