@@ -75,6 +75,18 @@ The v2 publication is the current principal MKUFT publication in the historical 
 
 TVT proposes a typed precedence architecture linking epistemic non-corruption, address-dependent inheritance, nested viability, repair before irreversible escalation, non-gratuitous irreversible-loss filtering, downstream soft choice, and re-sensing. Its strong cross-domain claim remains under prospective test.
 
+### Addressed Admissible Futures
+
+*Future-Sufficient State, Load-Bearing Relations, and Restorative Reachability*
+
+**Version:** 0.1 — 20 August 2026  
+**Status:** Public research preprint; standalone publication candidate
+
+- [Addressed Admissible Futures v0.1](2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md)
+- [Canonical MKUFT fold — Module 33S6](../docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
+
+AAF defines Address through target-relative future sufficiency, separates present viability from restorative reachability, defines restorative-future reserve and counterfactual load-bearing relations, and closes realised traversal back through recursive readdressing. It is a future-object specialisation of the existing S-I-P-O addressed-update architecture rather than a separate MKUFT law stack. The paper includes a preregistered first test on public p53/p21 single-cell data; no empirical result is claimed in v0.1.
+
 ## What is not a standalone paper
 
 The `docs/` directory contains live research modules, appendices, architecture owners, experimental programmes, and support notes. A module may contribute directly to a paper without itself being a paper.
