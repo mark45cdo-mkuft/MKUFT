@@ -5,13 +5,14 @@
 **ORCID:** 0009-0005-7736-1511  
 **Affiliation:** Independent Researcher  
 **Framework lineage:** McLaughlin–Kairos Unified Field Theory (MKUFT) / Typed Viability Traversal (TVT)  
-**Status:** Public research preprint — standalone publication candidate  
+**Status:** Published standalone Zenodo preprint — active empirical testing  
 **Version:** 0.1  
-**Public preprint date:** 20 August 2026  
-**Standalone DOI:** pending publication  
+**Publication date:** 20 August 2026  
+**Version DOI:** [10.5281/zenodo.22031333](https://doi.org/10.5281/zenodo.22031333)  
+**Concept DOI:** [10.5281/zenodo.22031332](https://doi.org/10.5281/zenodo.22031332)  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved.
 
-> **Version boundary.** This GitHub file is the public reader route for AAF v0.1. Git history records later changes. A future DOI-bearing deposit will identify its own exact frozen publication object; later repository revisions will not be silently backdated into that deposit.
+> **Version boundary.** The Zenodo object at DOI `10.5281/zenodo.22031333` is the frozen publication object for AAF v0.1. This GitHub file remains the public reader/source route. Later repository revisions are later research states and are not silently backdated into the deposited v0.1 PDF.
 
 ## Abstract
 
@@ -38,7 +39,11 @@ complete addressed S-I-P-O state
 
 AAF asks what future object is induced once the Address is sufficient for the declared target, and then measures restorative reachability and relation load inside that future.
 
-The canonical MKUFT fold is [Module 33S6 — Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](../docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md).
+Public routes:
+
+- [Published Zenodo record](https://doi.org/10.5281/zenodo.22031333)
+- [Canonical MKUFT fold — Module 33S6](../docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
+- [Standalone publication record](../AAF_STANDALONE_PUBLICATION.md)
 
 ## 2. Future-sufficient Address
 
