@@ -25,7 +25,8 @@ FSSR_MODULE = "33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPE
 
 FROZEN_PDF_MIRRORS = [
     "publications/MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf",
-    "publications/HISTORICAL_V1_MKUFT_DOI_10.5281_zenodo.17780566.pdf",
+    "publications/HISTORICAL_V1_MKUFT_FALSIFICATIONS_DOI_10.5281_zenodo.17780566.pdf",
+    "publications/HISTORICAL_V1_MKUFT_MATH_APPENDIX_DOI_10.5281_zenodo.17780566.pdf",
     "publications/FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf",
     "publications/ADDRESSED_ADMISSIBLE_FUTURES_v0.1_DOI_10.5281_zenodo.22031333.pdf",
     "publications/LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf",
@@ -76,7 +77,8 @@ REQUIRED = {
         "2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md",
         "not a standalone paper",
         "MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf",
-        "HISTORICAL_V1_MKUFT_DOI_10.5281_zenodo.17780566.pdf",
+        "HISTORICAL_V1_MKUFT_FALSIFICATIONS_DOI_10.5281_zenodo.17780566.pdf",
+        "HISTORICAL_V1_MKUFT_MATH_APPENDIX_DOI_10.5281_zenodo.17780566.pdf",
         "FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf",
         "ADDRESSED_ADMISSIBLE_FUTURES_v0.1_DOI_10.5281_zenodo.22031333.pdf",
         "LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf",
@@ -130,7 +132,8 @@ REQUIRED = {
         "VOYNICH_STANDALONE_PUBLICATION.md",
         "papers/README.md",
         "publications/MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf",
-        "publications/HISTORICAL_V1_MKUFT_DOI_10.5281_zenodo.17780566.pdf",
+        "publications/HISTORICAL_V1_MKUFT_FALSIFICATIONS_DOI_10.5281_zenodo.17780566.pdf",
+        "publications/HISTORICAL_V1_MKUFT_MATH_APPENDIX_DOI_10.5281_zenodo.17780566.pdf",
         "publications/FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf",
         "publications/ADDRESSED_ADMISSIBLE_FUTURES_v0.1_DOI_10.5281_zenodo.22031333.pdf",
         "publications/LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf",
@@ -203,7 +206,8 @@ REQUIRED = {
         "Layer Before Law",
         "Recursive Constraint Closure",
         "MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf",
-        "HISTORICAL_V1_MKUFT_DOI_10.5281_zenodo.17780566.pdf",
+        "HISTORICAL_V1_MKUFT_FALSIFICATIONS_DOI_10.5281_zenodo.17780566.pdf",
+        "HISTORICAL_V1_MKUFT_MATH_APPENDIX_DOI_10.5281_zenodo.17780566.pdf",
         "FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf",
         "ADDRESSED_ADMISSIBLE_FUTURES_v0.1_DOI_10.5281_zenodo.22031333.pdf",
         "LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf",
@@ -326,7 +330,7 @@ def main():
             print(f"FAIL: {failure}")
         return 1
 
-    print("PASS: publication routes, DOI custody, seven frozen DOI PDF mirrors, discovery metadata, rights routing, and module/paper boundaries are intact.")
+    print("PASS: publication routes, DOI custody, eight deposited PDF mirrors across seven DOI-bearing publication records, discovery metadata, rights routing, and module/paper boundaries are intact.")
     return 0
 
 
