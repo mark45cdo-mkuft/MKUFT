@@ -17,17 +17,65 @@ on:
       - 'tools/check_publication_routes.py'
       - '.github/workflows/markdown-rendering-integrity.yml'
 
+concurrency:
+  group: publication-markdown-integrity-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
+  issues: write
 
 jobs:
   integrity-contract:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Self-test the Markdown rendering guard
         run: python tools/test_markdown_rendering_checker.py
       - name: Check user-facing Markdown rendering contract
         run: python tools/check_markdown_rendering.py
       - name: Check publication discovery and DOI custody
         run: python tools/check_publication_routes.py
+
+  persist-integrity-signal:
+    name: Persist integrity status
+    if: always() && github.event_name == 'push'
+    needs: integrity-contract
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open, refresh, or close the persistent integrity issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESULT: ${{ needs.integrity-contract.result }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          ISSUE_TITLE: Automated publication integrity gate failure
+        run: |
+          set -euo pipefail
+          issue_number="$(
+            gh issue list \
+              --repo "$GITHUB_REPOSITORY" \
+              --state open \
+              --search "\"$ISSUE_TITLE\" in:title" \
+              --json number \
+              --jq '.[0].number // empty'
+          )"
+
+          if [ "$RESULT" = "success" ]; then
+            if [ -n "$issue_number" ]; then
+              gh issue close "$issue_number" \
+                --repo "$GITHUB_REPOSITORY" \
+                --comment "Integrity gate recovered on the current main-branch run: $RUN_URL"
+            fi
+            exit 0
+          fi
+
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" \
+              --repo "$GITHUB_REPOSITORY" \
+              --body "Integrity gate is still not green. Current run: $RUN_URL"
+          else
+            gh issue create \
+              --repo "$GITHUB_REPOSITORY" \
+              --title "$ISSUE_TITLE" \
+              --body "The Publication and Markdown integrity workflow is not green on main. Do not call publication-facing work closed until the failing run is repaired and a later run passes. Current run: $RUN_URL"
+          fi
