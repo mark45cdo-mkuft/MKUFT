@@ -32,9 +32,10 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 17. [Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)
 18. [Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
 19. [Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
-20. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
-21. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-22. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+20. [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
+21. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
+22. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+23. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 ### Physics and quantum gravity
 
@@ -126,6 +127,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S5 — Rate-Conditioned Addressing:** separates geometric path from time-parameterised traversal; treats rate, dwell time, phase, and schedule as candidate address coordinates only when they improve target-relative predictive/interventional closure; and demotes them when fuller ordinary state variables close the same residual.
 - **33S6 — Addressed Admissible Futures:** defines the target-relative future-equivalence object induced by a sufficient Address, separates present viability from restorative reachability, defines restorative-future reserve and counterfactual load-bearing relation structure, and closes realised traversal through recursive readdressing. Its standalone v0.1 paper is frozen separately at DOI `10.5281/zenodo.22031333`.
 - **33S7 — Future-Splitting State Recruitment:** operationalises the 33S4–33S6 sufficiency family by selecting lawful challenges that test whether a declared state has collapsed future-distinguishable histories; requires independent continuation, minimal physically typed repair, remove/restore deformation and strong ordinary nulls; and makes positive recruitment lead relative to a preregistered transition marker a prospective, falsifiable prediction. Its standalone v1.0 paper is frozen separately at DOI `10.5281/zenodo.22058303`.
+- **33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence:** gives stable canonical names to the already-public future-sufficiency criterion and its diagnostic precedence consequence; it adds nomenclature/provenance, not a new mechanism, theorem, universal law claim, or empirical promotion.
 - **33A — Law Descent and Recoverability Novelty Audit:** hostile targeted prior-art audit for 33S2/33S3. It records inherited ingredients, residual synthesis, confidence bounds, and the prospective burden required for stronger novelty or law claims. It is a positioning/audit document, not an empirical promotion.
 
 ### Structural and traversal
@@ -155,6 +157,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S5 — Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation:** separates geometric-path equivalence from time-parameterised traversal equivalence, tests rate/dwell/schedule as target-relative address coordinates, and demotes schedule when fuller ordinary state closes the residual.
 - **33S6 — Addressed Admissible Futures:** makes the admissible future itself explicit, defines the restorative subset and reserve, measures relation load by future deformation rather than present salience, and re-enters the result through recursive Address update.
 - **33S7 — Future-Splitting State Recruitment:** attacks the current state claim with admissible futures, distinguishes state-adequacy testing from parameter-identification design, and requires independent physical confirmation plus typed repair before a newly necessary distinction is promoted into the effective Address.
+- **33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence:** names the cross-domain future-sufficiency role and the state-before-law diagnostic ordering already carried by the 33S4–33S7 chain, while preserving the frozen publication boundaries and existing evidential burden.
 
 ### Observer, boundary, and physical support
 
@@ -190,6 +193,7 @@ This prevents explanatory copies from developing competing equations, notation, 
 
 - [Future-Splitting State Recruitment Standalone Publication](FSSR_STANDALONE_PUBLICATION.md)
 - [Addressed Admissible Futures Standalone Publication](AAF_STANDALONE_PUBLICATION.md)
+- [Future-Sufficient Address Invariant canonical naming route](FSAI_CANONICAL_NAMING_NOTE.md)
 - [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
