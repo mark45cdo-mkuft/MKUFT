@@ -18,12 +18,18 @@ AAF_VERSION = "10.5281/zenodo.22031333"
 AAF_CONCEPT = "10.5281/zenodo.22031332"
 FSSR_VERSION = "10.5281/zenodo.22058303"
 FSSR_CONCEPT = "10.5281/zenodo.22058302"
+FSSR_PAPER = "2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md"
+FSSR_MODULE = "33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md"
 
 REQUIRED = {
     "README.md": [
         "papers/README.md",
         VOYNICH_VERSION,
         ATLD_VERSION,
+        FSSR_VERSION,
+        "Future-Splitting State Recruitment",
+        FSSR_PAPER,
+        FSSR_MODULE,
         "Recursive Constraint Closure",
         "Layer Before Law",
     ],
@@ -31,8 +37,18 @@ REQUIRED = {
         "papers/README.md",
         VOYNICH_VERSION,
         ATLD_VERSION,
+        FSSR_VERSION,
+        "FSSR_STANDALONE_PUBLICATION.md",
+        FSSR_PAPER,
+        FSSR_MODULE,
         "VOYNICH_STANDALONE_PUBLICATION.md",
         "LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md",
+    ],
+    "CANON_MAP.md": [
+        FSSR_VERSION,
+        FSSR_MODULE,
+        "Future-Splitting State Recruitment",
+        "33S4–33S7",
     ],
     "papers/README.md": [
         VOYNICH_VERSION,
@@ -42,8 +58,8 @@ REQUIRED = {
         AAF_VERSION,
         FSSR_VERSION,
         "FSSR_STANDALONE_PUBLICATION.md",
-        "2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md",
-        "33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md",
+        FSSR_PAPER,
+        FSSR_MODULE,
         "2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md",
         "2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md",
         "not a standalone paper",
@@ -73,6 +89,7 @@ REQUIRED = {
         FSSR_CONCEPT,
         "Future-Splitting State Recruitment",
         "FSSR",
+        FSSR_MODULE,
     ],
     "PROVENANCE_DOI_AND_ATTRIBUTION.md": [
         MKUFT_DOI,
@@ -87,9 +104,25 @@ REQUIRED = {
         FSSR_VERSION,
         FSSR_CONCEPT,
         "FSSR_STANDALONE_PUBLICATION.md",
-        "docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md",
+        f"docs/{FSSR_MODULE}",
         "VOYNICH_STANDALONE_PUBLICATION.md",
         "papers/README.md",
+    ],
+    "MODULE_RIGHTS_MATRIX.md": [
+        FSSR_VERSION,
+        FSSR_CONCEPT,
+        AAF_VERSION,
+        AAF_CONCEPT,
+        FSSR_MODULE,
+        "All rights reserved",
+    ],
+    "RIGHTS_AND_LICENSE_NOTICE.md": [
+        FSSR_VERSION,
+        FSSR_CONCEPT,
+        AAF_VERSION,
+        AAF_CONCEPT,
+        "Future-Splitting State Recruitment standalone paper",
+        "All rights reserved",
     ],
     "papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md": [
         VOYNICH_VERSION,
@@ -113,17 +146,17 @@ REQUIRED = {
     "FSSR_STANDALONE_PUBLICATION.md": [
         FSSR_VERSION,
         FSSR_CONCEPT,
-        "papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md",
-        "docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md",
+        f"papers/{FSSR_PAPER}",
+        f"docs/{FSSR_MODULE}",
         "All rights reserved",
     ],
-    "papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md": [
+    f"papers/{FSSR_PAPER}": [
         FSSR_VERSION,
         FSSR_CONCEPT,
         "Future-Splitting State Recruitment",
         "Canonical MKUFT fold",
     ],
-    "docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md": [
+    f"docs/{FSSR_MODULE}": [
         FSSR_VERSION,
         FSSR_CONCEPT,
         "future-splitting",
@@ -133,6 +166,10 @@ REQUIRED = {
     "publications/README.md": [
         VOYNICH_VERSION,
         ATLD_VERSION,
+        FSSR_VERSION,
+        FSSR_CONCEPT,
+        FSSR_PAPER,
+        FSSR_MODULE,
         "Layer Before Law",
         "Recursive Constraint Closure",
     ],
@@ -210,7 +247,7 @@ def main():
 
     if not (ROOT / "docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md").exists():
         failures.append("missing live SIPO capstone module")
-    if not (ROOT / "docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md").exists():
+    if not (ROOT / f"docs/{FSSR_MODULE}").exists():
         failures.append("missing live FSSR Module 33S7")
     if (ROOT / "papers/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md").exists():
         failures.append("SIPO capstone has been silently promoted into papers without an explicit publication object")
@@ -224,7 +261,7 @@ def main():
             print(f"FAIL: {failure}")
         return 1
 
-    print("PASS: publication routes, DOI custody, discovery metadata, and module/paper boundaries are intact.")
+    print("PASS: publication routes, DOI custody, discovery metadata, rights routing, and module/paper boundaries are intact.")
     return 0
 
 
