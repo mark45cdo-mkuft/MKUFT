@@ -18,6 +18,9 @@ This directory is the direct human-reader route to standalone papers. It is deli
 **Concept DOI:** [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565)  
 **Historical v1 DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)
 
+- [Frozen v2 DOI PDF mirror](../publications/MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf)
+- [Historical v1 DOI PDF mirror](../publications/HISTORICAL_V1_MKUFT_DOI_10.5281_zenodo.17780566.pdf)
+
 The v2 publication is the current principal MKUFT publication in the historical Zenodo concept lineage. The historical v1 deposit remains a frozen earlier version and is not erased or rewritten by v2.
 
 ## Published DOI papers
@@ -30,6 +33,7 @@ The v2 publication is the current principal MKUFT publication in the historical 
 **Version DOI:** [10.5281/zenodo.22058303](https://doi.org/10.5281/zenodo.22058303)  
 **Concept DOI:** [10.5281/zenodo.22058302](https://doi.org/10.5281/zenodo.22058302)
 
+- [Frozen DOI PDF mirror](../publications/FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf)
 - [Public GitHub paper route](2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md)
 - [Publication record](../FSSR_STANDALONE_PUBLICATION.md)
 - [Canonical MKUFT fold — Module 33S7](../docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
@@ -45,6 +49,7 @@ FSSR turns the AAF future-equivalence criterion into a direct state-adequacy ass
 **Version DOI:** [10.5281/zenodo.22031333](https://doi.org/10.5281/zenodo.22031333)  
 **Concept DOI:** [10.5281/zenodo.22031332](https://doi.org/10.5281/zenodo.22031332)
 
+- [Frozen DOI PDF mirror](../publications/ADDRESSED_ADMISSIBLE_FUTURES_v0.1_DOI_10.5281_zenodo.22031333.pdf)
 - [Public GitHub paper route](2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md)
 - [Publication record](../AAF_STANDALONE_PUBLICATION.md)
 - [Canonical MKUFT fold — Module 33S6](../docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
@@ -61,6 +66,8 @@ AAF defines Address through target-relative future sufficiency, separates presen
 - [Human-readable GitHub edition](2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md)
 - [Publication record](../VOYNICH_STANDALONE_PUBLICATION.md)
 
+The deposited/public Voynich publication carrier is DOCX, so this PDF-mirror set deliberately does not synthesize a replacement PDF.
+
 ### Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures
 
 **Subtitle:** *A Matched-Control Evaluation Protocol for AI Systems*  
@@ -68,6 +75,7 @@ AAF defines Address through target-relative future sufficiency, separates presen
 **Version DOI:** [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521)  
 **Concept DOI:** [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520)
 
+- [Frozen DOI PDF mirror](../publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf)
 - [Human-readable GitHub landing page](2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md)
 - [Publication record](../ATLD_STANDALONE_PUBLICATION.md)
 - [Frozen text mirror and integrity manifest](../publications/ATLD_Evaluation_Protocol_v1.0/)
@@ -79,6 +87,7 @@ AAF defines Address through target-relative future sufficiency, separates presen
 **Version:** 0.1 — 15 August 2026  
 **Version DOI:** [10.5281/zenodo.21971425](https://doi.org/10.5281/zenodo.21971425)
 
+- [Frozen DOI PDF mirror](../publications/RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf)
 - [Public GitHub preprint route](2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md)
 - [Publication record](../RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md)
 
@@ -89,6 +98,7 @@ AAF defines Address through target-relative future sufficiency, separates presen
 **Version:** 1.0 — 17 July 2026  
 **Version DOI:** [10.5281/zenodo.21971270](https://doi.org/10.5281/zenodo.21971270)
 
+- [Frozen DOI PDF mirror](../publications/LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf)
 - [Canonical public preprint v1.0](2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md)
 - [Publication record](../LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md)
 
@@ -122,5 +132,7 @@ A paper is not identified by formatting alone. The repository distinguishes:
 3. **publication record** — DOI/version/citation/custody route at repository root;
 4. **frozen deposit** — exact DOI-bearing object controlled by the deposited publication;
 5. **Drive mirror/reading edition** — convenience carrier, not a silent replacement for any of the above.
+
+The top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of the corresponding frozen DOI-bearing PDF objects. They are convenience and preservation carriers; the version DOI remains publication custody.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier and publication rules.
