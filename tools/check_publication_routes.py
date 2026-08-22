@@ -11,7 +11,9 @@ VOYNICH_VERSION = "10.5281/zenodo.18178638"
 VOYNICH_CONCEPT = "10.5281/zenodo.18178637"
 ATLD_VERSION = "10.5281/zenodo.21341521"
 ATLD_CONCEPT = "10.5281/zenodo.21341520"
-MKUFT_DOI = "10.5281/zenodo.17780566"
+MKUFT_VERSION = "10.5281/zenodo.21973064"
+MKUFT_CONCEPT = "10.5281/zenodo.17780565"
+MKUFT_HISTORICAL = "10.5281/zenodo.17780566"
 LAYER_BEFORE_LAW_VERSION = "10.5281/zenodo.21971270"
 RCC_VERSION = "10.5281/zenodo.21971425"
 AAF_VERSION = "10.5281/zenodo.22031333"
@@ -92,7 +94,9 @@ REQUIRED = {
         FSSR_MODULE,
     ],
     "PROVENANCE_DOI_AND_ATTRIBUTION.md": [
-        MKUFT_DOI,
+        MKUFT_VERSION,
+        MKUFT_CONCEPT,
+        MKUFT_HISTORICAL,
         VOYNICH_VERSION,
         VOYNICH_CONCEPT,
         ATLD_VERSION,
@@ -227,7 +231,17 @@ def main():
         failures.append(f"codemeta.json is not valid JSON: {exc}")
     else:
         citations = set(codemeta.get("citation", []))
-        for doi in (MKUFT_DOI, VOYNICH_VERSION, ATLD_VERSION):
+        for doi in (
+            MKUFT_VERSION,
+            MKUFT_CONCEPT,
+            MKUFT_HISTORICAL,
+            FSSR_VERSION,
+            AAF_VERSION,
+            LAYER_BEFORE_LAW_VERSION,
+            RCC_VERSION,
+            VOYNICH_VERSION,
+            ATLD_VERSION,
+        ):
             url = f"https://doi.org/{doi}"
             if url not in citations:
                 failures.append(f"codemeta.json: missing citation {url}")
@@ -236,8 +250,8 @@ def main():
             failures.append("codemeta.json: author ORCID route missing or incorrect")
 
     citation_text = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
-    if MKUFT_DOI not in citation_text:
-        failures.append("CITATION.cff: MKUFT backbone DOI missing")
+    if MKUFT_VERSION not in citation_text:
+        failures.append("CITATION.cff: current principal MKUFT DOI missing")
     if "preferred-citation" not in citation_text:
         failures.append("CITATION.cff: preferred-citation missing")
 
