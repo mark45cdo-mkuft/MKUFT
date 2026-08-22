@@ -28,7 +28,7 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: read
+  contents: write
   issues: write
 
 jobs:
@@ -42,6 +42,112 @@ jobs:
         run: python tools/check_markdown_rendering.py
       - name: Check publication discovery and DOI custody
         run: python tools/check_publication_routes.py
+
+  populate-publication-pdf-mirrors:
+    name: One-shot exact DOI PDF mirror closure
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Fetch and verify exact Zenodo PDF files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p publications
+
+          fetch_key() {
+            record="$1"
+            expected_doi="$2"
+            source_key="$3"
+            output="$4"
+            json="$(mktemp)"
+            curl -fsSL "https://zenodo.org/api/records/${record}" -o "$json"
+
+            actual_doi="$(jq -r '.doi // empty' "$json")"
+            if [ "$actual_doi" != "$expected_doi" ]; then
+              echo "ERROR: Zenodo record ${record} reports DOI '${actual_doi}', expected '${expected_doi}'." >&2
+              exit 1
+            fi
+
+            count="$(jq -r --arg key "$source_key" '[.files[] | select(.key == $key)] | length' "$json")"
+            if [ "$count" != "1" ]; then
+              echo "ERROR: expected exactly one Zenodo file named '${source_key}' in record ${record}; found ${count}." >&2
+              jq -r '.files[].key' "$json" >&2
+              exit 1
+            fi
+
+            url="$(jq -r --arg key "$source_key" '.files[] | select(.key == $key) | (.links.content // .links.self)' "$json")"
+            expected_checksum="$(jq -r --arg key "$source_key" '.files[] | select(.key == $key) | (.checksum // empty)' "$json")"
+
+            echo "Record ${record}: ${source_key} -> ${output}"
+            curl -fsSL "$url" -o "$output"
+            test "$(head -c 5 "$output")" = '%PDF-'
+            test -s "$output"
+
+            if [ -n "$expected_checksum" ]; then
+              algorithm="${expected_checksum%%:*}"
+              expected_hash="${expected_checksum#*:}"
+              case "$algorithm" in
+                md5) actual_hash="$(md5sum "$output" | awk '{print $1}')" ;;
+                sha256) actual_hash="$(sha256sum "$output" | awk '{print $1}')" ;;
+                *) echo "ERROR: unsupported Zenodo checksum algorithm '${algorithm}' for ${record}." >&2; exit 1 ;;
+              esac
+              if [ "$actual_hash" != "$expected_hash" ]; then
+                echo "ERROR: checksum mismatch for Zenodo record ${record}, file '${source_key}'." >&2
+                exit 1
+              fi
+              echo "Zenodo checksum verified: ${expected_checksum}"
+            fi
+
+            sha256sum "$output"
+            rm -f "$json"
+          }
+
+          fetch_single_pdf() {
+            record="$1"
+            expected_doi="$2"
+            output="$3"
+            json="$(mktemp)"
+            curl -fsSL "https://zenodo.org/api/records/${record}" -o "$json"
+            actual_doi="$(jq -r '.doi // empty' "$json")"
+            if [ "$actual_doi" != "$expected_doi" ]; then
+              echo "ERROR: Zenodo record ${record} reports DOI '${actual_doi}', expected '${expected_doi}'." >&2
+              exit 1
+            fi
+            mapfile -t keys < <(jq -r '.files[] | select(.key | ascii_downcase | endswith(".pdf")) | .key' "$json")
+            if [ "${#keys[@]}" -ne 1 ]; then
+              echo "ERROR: Zenodo record ${record} exposes ${#keys[@]} PDF files; expected exactly one for this record." >&2
+              printf 'PDF keys: %s\n' "${keys[*]:-NONE}" >&2
+              exit 1
+            fi
+            source_key="${keys[0]}"
+            rm -f "$json"
+            fetch_key "$record" "$expected_doi" "$source_key" "$output"
+          }
+
+          fetch_single_pdf 21973064 '10.5281/zenodo.21973064' 'publications/MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf'
+          fetch_key 17780566 '10.5281/zenodo.17780566' 'MKUFT falsifications.pdf' 'publications/HISTORICAL_V1_MKUFT_FALSIFICATIONS_DOI_10.5281_zenodo.17780566.pdf'
+          fetch_key 17780566 '10.5281/zenodo.17780566' 'MKUFT_Math_Appendix.pdf' 'publications/HISTORICAL_V1_MKUFT_MATH_APPENDIX_DOI_10.5281_zenodo.17780566.pdf'
+          fetch_single_pdf 22058303 '10.5281/zenodo.22058303' 'publications/FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf'
+          fetch_single_pdf 22031333 '10.5281/zenodo.22031333' 'publications/ADDRESSED_ADMISSIBLE_FUTURES_v0.1_DOI_10.5281_zenodo.22031333.pdf'
+          fetch_single_pdf 21971270 '10.5281/zenodo.21971270' 'publications/LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf'
+          fetch_single_pdf 21971425 '10.5281/zenodo.21971425' 'publications/RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf'
+          fetch_single_pdf 21341521 '10.5281/zenodo.21341521' 'publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf'
+
+      - name: Commit mirrors, remove carrier, and restore integrity workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          git show "${GITHUB_SHA}^:.github/workflows/markdown-rendering-integrity.yml" > .github/workflows/markdown-rendering-integrity.yml
+          git add publications/*.pdf .github/workflows/markdown-rendering-integrity.yml
+          git rm .github/workflows/populate_publication_pdf_mirrors.yml
+
+          git commit -m 'Close frozen DOI PDF mirror population'
+          git push
 
   persist-integrity-signal:
     name: Persist integrity status
