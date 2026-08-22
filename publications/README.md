@@ -4,6 +4,18 @@ This directory is the preservation area for repository-held publication mirrors.
 
 ## Published DOI papers
 
+### Future-Splitting State Recruitment v1.0
+
+- [Human-readable paper route](../papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md)
+- [Standalone publication record](../FSSR_STANDALONE_PUBLICATION.md)
+- [Canonical live MKUFT fold — Module 33S7](../docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22058303)
+
+Version DOI: `10.5281/zenodo.22058303`  
+Concept DOI: `10.5281/zenodo.22058302`
+
+The version-DOI PDF on Zenodo is the controlling frozen visual object for FSSR v1.0. The GitHub paper route and live Module 33S7 remain related evolving research objects and do not silently rewrite the deposit.
+
 ### Addressed Admissible Futures v0.1
 
 - [Human-readable paper route](../papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md)
@@ -57,6 +69,8 @@ The Voynich DOI paper previously remained discoverable through the research arch
 
 A frozen publication mirror is not a live module. A live module is not automatically a standalone paper. A Drive reading edition is not a substitute for the controlling publication object.
 
-For AAF specifically, the `docs/33S6...` object is the evolving MKUFT module fold, the `papers/2026-08-20...` object is the public reader/source route, the root publication record owns DOI/version/citation custody, and the professionally typeset Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
+For FSSR, the `docs/33S7...` object is the evolving MKUFT module fold, the `papers/2026-08-22...` object is the public reader/source route, the root publication record owns DOI/version/citation custody, and the professionally typeset Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
+
+For AAF, the `docs/33S6...` object is the evolving MKUFT module fold, the `papers/2026-08-20...` object is the public reader/source route, the root publication record owns DOI/version/citation custody, and the professionally typeset Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier, discovery, and DOI-freeze rules.
