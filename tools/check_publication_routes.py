@@ -163,7 +163,7 @@ REQUIRED = {
     f"docs/{FSSR_MODULE}": [
         FSSR_VERSION,
         FSSR_CONCEPT,
-        "future-splitting",
+        "Future-Splitting State Recruitment",
         "state-recruitment event",
         "33S6",
     ],
@@ -180,6 +180,8 @@ REQUIRED = {
     "papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md": [
         RCC_VERSION,
         "Recursive Constraint Closure",
+        "Published standalone Zenodo paper",
+        "RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md",
     ],
     "RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md": [
         RCC_VERSION,
