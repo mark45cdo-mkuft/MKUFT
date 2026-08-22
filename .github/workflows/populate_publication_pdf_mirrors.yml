@@ -1,3 +1,4 @@
+# one-shot trigger: second push after workflow registration
 name: Populate frozen publication PDF mirrors
 
 on:
