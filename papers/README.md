@@ -19,9 +19,10 @@ This directory is the direct human-reader route to standalone papers. It is deli
 **Historical v1 DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)
 
 - [Frozen v2 DOI PDF mirror](../publications/MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf)
-- [Historical v1 DOI PDF mirror](../publications/HISTORICAL_V1_MKUFT_DOI_10.5281_zenodo.17780566.pdf)
+- [Historical v1 falsifications PDF mirror](../publications/HISTORICAL_V1_MKUFT_FALSIFICATIONS_DOI_10.5281_zenodo.17780566.pdf)
+- [Historical v1 mathematics appendix PDF mirror](../publications/HISTORICAL_V1_MKUFT_MATH_APPENDIX_DOI_10.5281_zenodo.17780566.pdf)
 
-The v2 publication is the current principal MKUFT publication in the historical Zenodo concept lineage. The historical v1 deposit remains a frozen earlier version and is not erased or rewritten by v2.
+The v2 publication is the current principal MKUFT publication in the historical Zenodo concept lineage. The historical v1 deposit remains a frozen earlier version and is not erased or rewritten by v2. Its Zenodo record contains two deposited PDF files rather than one synthetic all-in-one PDF; the repository mirrors those two exact PDF carriers separately.
 
 ## Published DOI papers
 
@@ -133,6 +134,6 @@ A paper is not identified by formatting alone. The repository distinguishes:
 4. **frozen deposit** — exact DOI-bearing object controlled by the deposited publication;
 5. **Drive mirror/reading edition** — convenience carrier, not a silent replacement for any of the above.
 
-The top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of the corresponding frozen DOI-bearing PDF objects. They are convenience and preservation carriers; the version DOI remains publication custody.
+The top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of the corresponding frozen DOI-record PDF files. They are convenience and preservation carriers; the version DOI remains publication custody. Seven DOI-bearing publication records are represented by eight PDF files because historical MKUFT v1 contains two deposited PDFs.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier and publication rules.
