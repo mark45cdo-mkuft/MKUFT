@@ -88,9 +88,11 @@ After a write sequence, compare the intended base and current head where practic
 
 Objective integrity failure must not depend on the repository owner remembering to open the Actions page.
 
-For main-branch pushes, the integrity workflow keeps a persistent repository issue while the gate is not green and closes that issue only after a later successful run.
+For main-branch pushes, the integrity workflow keeps a persistent repository issue as a machine ledger. Each run records its result there; a red result reopens the issue and a green result closes it.
 
-The persistent issue is an escalation signal, not a replacement for the underlying logs. A red signal means publication-facing work is not closed.
+The workflow trigger surface must include every repository object that its checks consume or whose mutation can invalidate their conclusion. A checker that would catch a defect if run is not protection when the changed file does not wake the checker.
+
+The persistent issue is an escalation and audit signal, not a replacement for the underlying logs. A red signal means publication-facing work is not closed.
 
 ## Recursive lesson — TVT public-rendering miss, 20 August 2026
 
@@ -131,7 +133,8 @@ The resulting rules are:
 - every repaired false positive receives a fixture proving both the allowed literal case and the blocked mathematical case;
 - workflow failure must create a persistent repository signal on main;
 - a green result after repair must be observed before closure;
-- visual inspection must include semantic-key readability, not only the display equation.
+- visual inspection must include semantic-key readability, not only the display equation;
+- workflow triggers must cover the non-Markdown metadata and preservation objects consumed by publication checks.
 
 ## Publication-object contract
 
