@@ -22,6 +22,21 @@ The v2 publication is the current principal MKUFT publication in the historical 
 
 ## Published DOI papers
 
+### Future-Splitting State Recruitment
+
+*A Cross-Domain Assay for State Adequacy and Prospective Mechanism Activation*
+
+**Version:** 1.0 — 22 August 2026  
+**Version DOI:** [10.5281/zenodo.22058303](https://doi.org/10.5281/zenodo.22058303)  
+**Concept DOI:** [10.5281/zenodo.22058302](https://doi.org/10.5281/zenodo.22058302)
+
+- [Public GitHub paper route](2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md)
+- [Publication record](../FSSR_STANDALONE_PUBLICATION.md)
+- [Canonical MKUFT fold — Module 33S7](../docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22058303)
+
+FSSR turns the AAF future-equivalence criterion into a direct state-adequacy assay. A lawful challenge attempts to split histories the current state representation calls identical; a positive recruitment event requires independent confirmation, the smallest preregistered physically typed repair, and remove/restore deformation. The principal prospective prediction is that recruitment can precede a conventional transition marker where an emerging mechanism becomes future-discriminating first. The paper is theory-and-experiment work and reports no completed new materials or biological result.
+
 ### Addressed Admissible Futures
 
 *Future-Sufficient State, Load-Bearing Relations, and Restorative Reachability*
