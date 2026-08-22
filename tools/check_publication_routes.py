@@ -12,6 +12,8 @@ VOYNICH_CONCEPT = "10.5281/zenodo.18178637"
 ATLD_VERSION = "10.5281/zenodo.21341521"
 ATLD_CONCEPT = "10.5281/zenodo.21341520"
 MKUFT_DOI = "10.5281/zenodo.17780566"
+FSSR_VERSION = "10.5281/zenodo.22058303"
+FSSR_CONCEPT = "10.5281/zenodo.22058302"
 
 REQUIRED = {
     "README.md": [
@@ -31,6 +33,10 @@ REQUIRED = {
     "papers/README.md": [
         VOYNICH_VERSION,
         ATLD_VERSION,
+        FSSR_VERSION,
+        "FSSR_STANDALONE_PUBLICATION.md",
+        "2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md",
+        "33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md",
         "2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md",
         "2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md",
         "not a standalone paper",
@@ -56,9 +62,12 @@ REQUIRED = {
         VOYNICH_CONCEPT,
         ATLD_VERSION,
         ATLD_CONCEPT,
+        FSSR_VERSION,
+        FSSR_CONCEPT,
+        "FSSR_STANDALONE_PUBLICATION.md",
+        "docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md",
         "VOYNICH_STANDALONE_PUBLICATION.md",
         "papers/README.md",
-        "pending exact frozen deposit",
     ],
     "papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md": [
         VOYNICH_VERSION,
@@ -78,6 +87,26 @@ REQUIRED = {
         ATLD_VERSION,
         ATLD_CONCEPT,
         "papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md",
+    ],
+    "FSSR_STANDALONE_PUBLICATION.md": [
+        FSSR_VERSION,
+        FSSR_CONCEPT,
+        "papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md",
+        "docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md",
+        "All rights reserved",
+    ],
+    "papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md": [
+        FSSR_VERSION,
+        FSSR_CONCEPT,
+        "Future-Splitting State Recruitment",
+        "Canonical MKUFT fold",
+    ],
+    "docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md": [
+        FSSR_VERSION,
+        FSSR_CONCEPT,
+        "future-splitting",
+        "state-recruitment event",
+        "33S6",
     ],
     "publications/README.md": [
         VOYNICH_VERSION,
@@ -151,6 +180,8 @@ def main():
 
     if not (ROOT / "docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md").exists():
         failures.append("missing live SIPO capstone module")
+    if not (ROOT / "docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md").exists():
+        failures.append("missing live FSSR Module 33S7")
     if (ROOT / "papers/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md").exists():
         failures.append("SIPO capstone has been silently promoted into papers without an explicit publication object")
 
