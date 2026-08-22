@@ -14,6 +14,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md) — substantive introduction.
 - [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) — current public synthesis and canonical compression.
 - [Canon Map](CANON_MAP.md) — hierarchy and navigation.
+- [Future-Sufficient Address Invariant — canonical public route](FSAI_CANONICAL_NAMING_NOTE.md) — stable naming/provenance route for FSAI and the Layer-Before-Law Precedence Principle; not a standalone paper.
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md) — publication/version identity.
 - [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md) — exact-object rights rules.
 - [Papers and Publications](papers/README.md) — direct human-reader index for standalone papers and publications.
@@ -57,6 +58,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 33S5 — Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)
 - [Module 33S6 — Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
 - [Module 33S7 — Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
+- [Module 33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md) — canonical naming note for FSAI/LBLP; scientific content remains owned by the parent AAF/FSSR chain.
 - [Module 33A — Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
 
 ## Experiments, evidence, and falsification
