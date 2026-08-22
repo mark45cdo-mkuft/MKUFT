@@ -39,7 +39,7 @@ jobs:
       - name: Self-test the Markdown rendering guard
         run: python tools/test_markdown_rendering_checker.py
       - name: Check user-facing Markdown rendering contract
-        run: python tools/check_markdown_rendering.py
+        run: python tools/check_publication_routes.py
       - name: Check publication discovery and DOI custody
         run: python tools/check_publication_routes.py
 
@@ -50,7 +50,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Fetch and verify exact Zenodo PDF files
         shell: bash
@@ -144,7 +144,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
-          git show "${GITHUB_SHA}^:.github/workflows/markdown-rendering-integrity.yml" > .github/workflows/markdown-rendering-integrity.yml
+          git show '1031affe532e8611325dc0282be3b09669edfe10:.github/workflows/markdown-rendering-integrity.yml' > .github/workflows/markdown-rendering-integrity.yml
           git add publications/*.pdf .github/workflows/markdown-rendering-integrity.yml
           git rm .github/workflows/populate_publication_pdf_mirrors.yml
 
@@ -175,7 +175,7 @@ jobs:
               --json number,state
           )"
           issue_number="$(jq -r '.[0].number // empty' <<<"$issue_json")"
-          issue_state="$(jq -r '.[0].state // empty')"
+          issue_state="$(jq -r '.[0].state // empty' <<<"$issue_json")"
 
           if [ "$RESULT" = "success" ]; then
             if [ -z "$issue_number" ]; then
