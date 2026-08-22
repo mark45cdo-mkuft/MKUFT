@@ -12,6 +12,10 @@ VOYNICH_CONCEPT = "10.5281/zenodo.18178637"
 ATLD_VERSION = "10.5281/zenodo.21341521"
 ATLD_CONCEPT = "10.5281/zenodo.21341520"
 MKUFT_DOI = "10.5281/zenodo.17780566"
+LAYER_BEFORE_LAW_VERSION = "10.5281/zenodo.21971270"
+RCC_VERSION = "10.5281/zenodo.21971425"
+AAF_VERSION = "10.5281/zenodo.22031333"
+AAF_CONCEPT = "10.5281/zenodo.22031332"
 FSSR_VERSION = "10.5281/zenodo.22058303"
 FSSR_CONCEPT = "10.5281/zenodo.22058302"
 
@@ -33,6 +37,9 @@ REQUIRED = {
     "papers/README.md": [
         VOYNICH_VERSION,
         ATLD_VERSION,
+        LAYER_BEFORE_LAW_VERSION,
+        RCC_VERSION,
+        AAF_VERSION,
         FSSR_VERSION,
         "FSSR_STANDALONE_PUBLICATION.md",
         "2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md",
@@ -46,15 +53,26 @@ REQUIRED = {
         VOYNICH_CONCEPT,
         ATLD_VERSION,
         ATLD_CONCEPT,
+        AAF_VERSION,
+        AAF_CONCEPT,
+        FSSR_VERSION,
+        FSSR_CONCEPT,
         "papers/README.md",
+        "Future-Splitting State Recruitment",
         "Layer Before Law",
         "Recursive Constraint Closure",
     ],
     "DISCOVERY_KEYWORDS.md": [
         VOYNICH_VERSION,
         ATLD_VERSION,
-        "Layer Before Law standalone DOI: pending",
-        "Recursive Constraint Closure standalone DOI: pending",
+        LAYER_BEFORE_LAW_VERSION,
+        RCC_VERSION,
+        AAF_VERSION,
+        AAF_CONCEPT,
+        FSSR_VERSION,
+        FSSR_CONCEPT,
+        "Future-Splitting State Recruitment",
+        "FSSR",
     ],
     "PROVENANCE_DOI_AND_ATTRIBUTION.md": [
         MKUFT_DOI,
@@ -62,6 +80,10 @@ REQUIRED = {
         VOYNICH_CONCEPT,
         ATLD_VERSION,
         ATLD_CONCEPT,
+        LAYER_BEFORE_LAW_VERSION,
+        RCC_VERSION,
+        AAF_VERSION,
+        AAF_CONCEPT,
         FSSR_VERSION,
         FSSR_CONCEPT,
         "FSSR_STANDALONE_PUBLICATION.md",
@@ -115,18 +137,26 @@ REQUIRED = {
         "Recursive Constraint Closure",
     ],
     "papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md": [
+        RCC_VERSION,
         "Recursive Constraint Closure",
     ],
     "RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md": [
+        RCC_VERSION,
         "Recursive Constraint Closure",
     ],
     "papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md": [
+        LAYER_BEFORE_LAW_VERSION,
         "Layer Before Law",
         "Standalone DOI",
     ],
     "LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md": [
+        LAYER_BEFORE_LAW_VERSION,
         "Layer Before Law",
-        "pending",
+    ],
+    "AAF_STANDALONE_PUBLICATION.md": [
+        AAF_VERSION,
+        AAF_CONCEPT,
+        "33S6_ADDRESSED_ADMISSIBLE_FUTURES",
     ],
     "RENDERING_AND_PUBLICATION_INTEGRITY.md": [
         "Source correctness does not prove publication correctness",
