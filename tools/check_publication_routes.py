@@ -23,6 +23,16 @@ FSSR_CONCEPT = "10.5281/zenodo.22058302"
 FSSR_PAPER = "2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md"
 FSSR_MODULE = "33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md"
 
+FROZEN_PDF_MIRRORS = [
+    "publications/MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf",
+    "publications/HISTORICAL_V1_MKUFT_DOI_10.5281_zenodo.17780566.pdf",
+    "publications/FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf",
+    "publications/ADDRESSED_ADMISSIBLE_FUTURES_v0.1_DOI_10.5281_zenodo.22031333.pdf",
+    "publications/LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf",
+    "publications/RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf",
+    "publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf",
+]
+
 REQUIRED = {
     "README.md": [
         "papers/README.md",
@@ -65,6 +75,14 @@ REQUIRED = {
         "2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md",
         "2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md",
         "not a standalone paper",
+        "MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf",
+        "HISTORICAL_V1_MKUFT_DOI_10.5281_zenodo.17780566.pdf",
+        "FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf",
+        "ADDRESSED_ADMISSIBLE_FUTURES_v0.1_DOI_10.5281_zenodo.22031333.pdf",
+        "LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf",
+        "RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf",
+        "ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf",
+        "deposited/public Voynich publication carrier is DOCX",
     ],
     "PUBLIC_DISCOVERY_ANCHOR.md": [
         VOYNICH_VERSION,
@@ -111,6 +129,14 @@ REQUIRED = {
         f"docs/{FSSR_MODULE}",
         "VOYNICH_STANDALONE_PUBLICATION.md",
         "papers/README.md",
+        "publications/MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf",
+        "publications/HISTORICAL_V1_MKUFT_DOI_10.5281_zenodo.17780566.pdf",
+        "publications/FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf",
+        "publications/ADDRESSED_ADMISSIBLE_FUTURES_v0.1_DOI_10.5281_zenodo.22031333.pdf",
+        "publications/LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf",
+        "publications/RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf",
+        "publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf",
+        "deposited/public carrier is DOCX",
     ],
     "MODULE_RIGHTS_MATRIX.md": [
         FSSR_VERSION,
@@ -176,6 +202,14 @@ REQUIRED = {
         FSSR_MODULE,
         "Layer Before Law",
         "Recursive Constraint Closure",
+        "MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf",
+        "HISTORICAL_V1_MKUFT_DOI_10.5281_zenodo.17780566.pdf",
+        "FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf",
+        "ADDRESSED_ADMISSIBLE_FUTURES_v0.1_DOI_10.5281_zenodo.22031333.pdf",
+        "LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf",
+        "RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf",
+        "ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf",
+        "deposited/public Voynich publication object is DOCX",
     ],
     "papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md": [
         RCC_VERSION,
@@ -261,6 +295,17 @@ def main():
         if not (ROOT / rel).exists():
             failures.append(f"missing frozen ATLD preservation object: {rel}")
 
+    for rel in FROZEN_PDF_MIRRORS:
+        path = ROOT / rel
+        if not path.exists():
+            failures.append(f"missing frozen DOI PDF mirror: {rel}")
+            continue
+        if path.stat().st_size <= 5:
+            failures.append(f"empty or truncated frozen DOI PDF mirror: {rel}")
+            continue
+        if path.read_bytes()[:5] != b"%PDF-":
+            failures.append(f"frozen DOI mirror is not a PDF carrier: {rel}")
+
     if not (ROOT / "docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md").exists():
         failures.append("missing live SIPO capstone module")
     if not (ROOT / f"docs/{FSSR_MODULE}").exists():
@@ -272,12 +317,16 @@ def main():
     if temp_workflows:
         failures.append("temporary repair workflows remain: " + ", ".join(str(p.relative_to(ROOT)) for p in temp_workflows))
 
+    one_shot = ROOT / ".github" / "workflows" / "populate_publication_pdf_mirrors.yml"
+    if one_shot.exists():
+        failures.append("one-shot PDF mirror carrier remains after closure")
+
     if failures:
         for failure in failures:
             print(f"FAIL: {failure}")
         return 1
 
-    print("PASS: publication routes, DOI custody, discovery metadata, rights routing, and module/paper boundaries are intact.")
+    print("PASS: publication routes, DOI custody, seven frozen DOI PDF mirrors, discovery metadata, rights routing, and module/paper boundaries are intact.")
     return 0
 
 
