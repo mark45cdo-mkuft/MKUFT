@@ -49,6 +49,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
 
       - name: Fetch and verify exact Zenodo PDF files
         shell: bash
@@ -173,7 +175,7 @@ jobs:
               --json number,state
           )"
           issue_number="$(jq -r '.[0].number // empty' <<<"$issue_json")"
-          issue_state="$(jq -r '.[0].state // empty' <<<"$issue_json")"
+          issue_state="$(jq -r '.[0].state // empty')"
 
           if [ "$RESULT" = "success" ]; then
             if [ -z "$issue_number" ]; then
