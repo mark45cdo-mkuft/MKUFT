@@ -51,6 +51,38 @@ The ATLD standalone paper is derived from the public MKUFT working canon, partic
 
 See `ATLD_STANDALONE_PUBLICATION.md` for the exact citation and publication route.
 
+### Addressed Admissible Futures standalone paper
+
+```text
+Addressed Admissible Futures:
+Future-Sufficient State, Load-Bearing Relations, and Restorative Reachability
+Version DOI: 10.5281/zenodo.22031333
+Concept DOI: 10.5281/zenodo.22031332
+Author: Mark Charles McLaughlin
+Copyright: © 2026 Mark Charles McLaughlin
+Licence recorded for the exact deposit: All rights reserved
+```
+
+The AAF DOI object is the frozen standalone publication. The GitHub paper route and live Module 33S6 are related later repository objects and do not silently acquire or rewrite the frozen deposit's version identity.
+
+See `AAF_STANDALONE_PUBLICATION.md` for exact citation and custody.
+
+### Future-Splitting State Recruitment standalone paper
+
+```text
+Future-Splitting State Recruitment:
+A Cross-Domain Assay for State Adequacy and Prospective Mechanism Activation
+Version DOI: 10.5281/zenodo.22058303
+Concept DOI: 10.5281/zenodo.22058302
+Author: Mark Charles McLaughlin
+Copyright: © 2026 Mark Charles McLaughlin
+Licence recorded for the exact deposit: All rights reserved
+```
+
+The FSSR DOI object is the frozen standalone publication. The GitHub paper route and live Module 33S7 are related later repository objects and do not silently rewrite the frozen v1.0 publication. Their current repository rights remain governed by their exact file notices and the Module Rights Matrix.
+
+See `FSSR_STANDALONE_PUBLICATION.md` for exact citation and custody.
+
 LUCY is treated as part of the MKUFT backbone unless separately published or versioned.
 
 Voynich is a separate applied node linked to MKUFT through ESRT/ESF and procedural-system analysis. Where a separate Voynich DOI exists, it should be cited separately.
@@ -105,13 +137,14 @@ They do **not** claim copyright ownership of facts, abstract ideas, scientific p
 
 The documents in this repository retain the licence, copyright, and authorship notices stated inside each exact source document, file version, or publication record.
 
-The MKUFT backbone licence, the ATLD standalone-paper licence, and the current repository-version status are distinct:
+The MKUFT backbone licence, the ATLD standalone-paper licence, separately published all-rights-reserved papers, and the current repository-version status are distinct:
 
 - material released under the exact MKUFT backbone record retains its stated CC BY 4.0 status;
 - the exact ATLD standalone manuscript retains its stated CC BY-NC-SA 4.0 status;
+- the exact AAF v0.1 and FSSR v1.0 deposits retain the all-rights-reserved status recorded for those deposits;
 - the current repository versions of modules 24A, 24B, and 25 are all rights reserved unless an exact file version expressly states otherwise;
 - other current repository files are all rights reserved unless an exact file version or publication record expressly states otherwise;
-- the ATLD standalone-paper licence does not retrospectively license the source modules;
+- a standalone-paper licence or reservation does not retrospectively relicense its source modules;
 - the earlier MKUFT licence does not automatically license later GitHub revisions or separate works merely because they cite the MKUFT DOI.
 
 Where no specific licence is stated for the exact material being used, all rights are reserved by Mark Charles McLaughlin.
