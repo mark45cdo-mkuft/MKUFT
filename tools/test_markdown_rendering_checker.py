@@ -37,9 +37,43 @@ def require_pass(name: str, text: str):
 
 def main():
     require_failure(
-        "unsupported operatorname",
+        "unsupported operatorname in display math",
         """# Bad\n\n```math\n\\operatorname{Address}(x)\n```\n""",
         "unsupported GitHub math macro",
+    )
+
+    require_failure(
+        "unsupported operatorname in inline math",
+        r"""# Bad
+
+The object is $\operatorname{Address}(x)$.
+""",
+        "unsupported GitHub math macro",
+    )
+
+    require_failure(
+        "unsupported operatorname naked in prose",
+        r"""# Bad
+
+The object is \operatorname{Address}(x) and should have been rendered.
+""",
+        "unsupported GitHub math macro",
+    )
+
+    require_pass(
+        "literal banned macro documentation",
+        r"""# Good
+
+The historical failure used the literal command `\operatorname` inside a math carrier.
+""",
+    )
+
+    require_pass(
+        "literal TeX notation with an English key",
+        r"""# Good
+
+The literal label `D_{\mathrm{irr}}(\gamma)` denotes the irreversible-loss vector.
+""",
     )
 
     require_failure(
