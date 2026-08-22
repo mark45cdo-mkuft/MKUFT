@@ -23,6 +23,8 @@ This index provides direct links to the principal public MKUFT documents. The ev
 ## Current DOI-bearing publication objects
 
 - **MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics**, v2 — DOI `10.5281/zenodo.21973064`; concept DOI `10.5281/zenodo.17780565`; historical v1 DOI `10.5281/zenodo.17780566`.
+- **Future-Splitting State Recruitment: A Cross-Domain Assay for State Adequacy and Prospective Mechanism Activation**, v1.0 — DOI `10.5281/zenodo.22058303`; concept DOI `10.5281/zenodo.22058302`; [publication record](FSSR_STANDALONE_PUBLICATION.md); [paper route](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md); [canonical fold, Module 33S7](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md).
+- **Addressed Admissible Futures: Future-Sufficient State, Load-Bearing Relations, and Restorative Reachability**, v0.1 — DOI `10.5281/zenodo.22031333`; concept DOI `10.5281/zenodo.22031332`; [publication record](AAF_STANDALONE_PUBLICATION.md); [canonical fold, Module 33S6](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md).
 - **Layer Before Law: An Addressed Architecture for Relational Admissibility, Effective Law Selection, and Quantum-Gravitational Recovery**, v1.0 — DOI `10.5281/zenodo.21971270`; [publication record](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md).
 - **Recursive Constraint Closure and Reachable-State Geometry: An Addressed Formalism for Adaptive Systems with Changing Possibility Spaces**, v0.1 — DOI `10.5281/zenodo.21971425`; [publication record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md).
 - **Voynich Manuscript – Systems/Engine Framework** — version DOI `10.5281/zenodo.18178638`; concept DOI `10.5281/zenodo.18178637`; [publication record](VOYNICH_STANDALONE_PUBLICATION.md).
@@ -31,7 +33,6 @@ This index provides direct links to the principal public MKUFT documents. The ev
 ## Current public research preprints
 
 - [Typed Viability Traversal v0.1](papers/2026-08-20_TYPED_VIABILITY_TRAVERSAL_v0.1.md) — public research preprint; standalone DOI pending.
-- [Addressed Admissible Futures v0.1](papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md) — public research preprint and standalone publication candidate; canonical science fold at [Module 33S6](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md).
 
 ## Foundational and mathematical work
 
@@ -55,12 +56,14 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 33S4 — Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
 - [Module 33S5 — Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)
 - [Module 33S6 — Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
+- [Module 33S7 — Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
 - [Module 33A — Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
 
 ## Experiments, evidence, and falsification
 
 - [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
 - [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+- [Future-Splitting State Recruitment — Module 33S7](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
 - [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 - [Worked Examples: RNG and Environment](docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
