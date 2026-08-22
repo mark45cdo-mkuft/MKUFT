@@ -39,7 +39,7 @@ jobs:
       - name: Self-test the Markdown rendering guard
         run: python tools/test_markdown_rendering_checker.py
       - name: Check user-facing Markdown rendering contract
-        run: python tools/check_publication_routes.py
+        run: python tools/check_markdown_rendering.py
       - name: Check publication discovery and DOI custody
         run: python tools/check_publication_routes.py
 
@@ -49,8 +49,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
 
       - name: Fetch and verify exact Zenodo PDF files
         shell: bash
@@ -137,18 +135,14 @@ jobs:
           fetch_single_pdf 21971425 '10.5281/zenodo.21971425' 'publications/RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf'
           fetch_single_pdf 21341521 '10.5281/zenodo.21341521' 'publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf'
 
-      - name: Commit mirrors, remove carrier, and restore integrity workflow
+      - name: Commit verified PDF mirrors only
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-
-          git show '1031affe532e8611325dc0282be3b09669edfe10:.github/workflows/markdown-rendering-integrity.yml' > .github/workflows/markdown-rendering-integrity.yml
-          git add publications/*.pdf .github/workflows/markdown-rendering-integrity.yml
-          git rm .github/workflows/populate_publication_pdf_mirrors.yml
-
-          git commit -m 'Close frozen DOI PDF mirror population'
+          git add publications/*.pdf
+          git commit -m 'Land verified frozen DOI PDF mirrors'
           git push
 
   persist-integrity-signal:
