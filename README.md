@@ -47,11 +47,11 @@ A complete derivation of quantum mechanics, quantum field theory, general relati
 
 ## Current scientific position
 
-MKUFT is presently best described as an original layered research architecture using established mathematical tools, explicit failure conditions, typed cross-layer discipline, and several operational research programmes. The current public canon includes an addressed recursive law-selection architecture: Module 33 assembles a typed physical law object; 33S1 controls dynamic-interface promotion; 33S2 tests property-specific law descent and bidirectional readdressing; 33S3 separates local performance, closure, law sufficiency, and recoverability; 33S4 makes Address target-relative through predictive closure; 33S5 tests when rate, phase, dwell, schedule, or bounded history become address-load-bearing; and 33S6 folds those results onto the Addressed Admissible Future, restorative reachability, restorative-future reserve, and counterfactual load-bearing relation structure. Module 33A is the hostile prior-art audit for the law-descent/recoverability family.
+MKUFT is presently best described as an original layered research architecture using established mathematical tools, explicit failure conditions, typed cross-layer discipline, and several operational research programmes. The current public canon includes an addressed recursive law-selection architecture: Module 33 assembles a typed physical law object; 33S1 controls dynamic-interface promotion; 33S2 tests property-specific law descent and bidirectional readdressing; 33S3 separates local performance, closure, law sufficiency, and recoverability; 33S4 makes Address target-relative through predictive closure; 33S5 tests when rate, phase, dwell, schedule, or bounded history become address-load-bearing; 33S6 folds those results onto the Addressed Admissible Future, restorative reachability, restorative-future reserve, and counterfactual load-bearing relation structure; and 33S7 operationalises that future-sufficiency family as Future-Splitting State Recruitment, a direct state-adequacy assay requiring independent continuation, physically typed repair, and remove/restore deformation before prospective mechanism-localisation language is earned. Module 33A is the hostile prior-art audit for the law-descent/recoverability family.
 
 The present architecture earns support where those distinctions produce prospective predictive, interventional, explanatory, or model-selection value beyond the strongest adequate ordinary description. A result at that level is scientifically meaningful without automatically promoting the whole framework to a completed fundamental physical theory.
 
-The strongest current novelty claim is therefore deliberately narrower than “new law of nature”: 33A records a **candidate original formal synthesis / operational meta-principle** after subtracting strong neighbouring prior art. A stronger law claim requires prospective quantitative success and independent empirical testing.
+The strongest current novelty claim is therefore deliberately narrower than “new law of nature”: 33A records a **candidate original formal synthesis / operational meta-principle** after subtracting strong neighbouring prior art. A stronger law claim requires prospective quantitative success and independent empirical testing. FSSR adds a separate prospective empirical burden rather than weakening that boundary: where a mechanism becomes future-discriminating before its conventional marker is overt, state recruitment is predicted to be detectable first in suitable regimes.
 
 The framework distinguishes:
 
@@ -62,7 +62,8 @@ The framework distinguishes:
 - local performance gain from whole-system coherence;
 - existence of a higher-order object from property-specific higher-law sufficiency;
 - law-sufficiency loss from closure loss and loss of recoverability;
-- present viability from the structure and robustness of the restorative future.
+- present viability from the structure and robustness of the restorative future;
+- parameter identifiability from empirical adequacy of the state representation itself.
 
 ## Read MKUFT
 
@@ -101,10 +102,11 @@ The framework distinguishes:
 7. [Address Sufficiency and Predictive Closure](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) — future-sufficient Address and predictive-closure tests.
 8. [Rate-Conditioned Addressing](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md) — timing/rate/history as conditional Address coordinates.
 9. [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) — admissible future, restorative reserve, load-bearing relations, and readdressing.
-10. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) — current hostile novelty boundary.
-11. [Canon Map](CANON_MAP.md) — public hierarchy and navigation.
-12. [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) — dependency relationships among the public modules.
-13. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md) — relationship to existing scientific programmes and novelty boundaries.
+10. [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) — future-splitting state-adequacy assay, minimal typed repair, and prospective mechanism-localisation burden.
+11. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) — current hostile novelty boundary.
+12. [Canon Map](CANON_MAP.md) — public hierarchy and navigation.
+13. [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) — dependency relationships among the public modules.
+14. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md) — relationship to existing scientific programmes and novelty boundaries.
 
 ### AI and typed knowledge architectures
 
@@ -119,7 +121,8 @@ The framework distinguishes:
 9. [Address Sufficiency and Predictive Closure](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) — future-equivalence and address-completeness testing.
 10. [Rate-Conditioned Addressing](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md) — timing/rate/history membership tests.
 11. [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) — future structure, restorative reserve, relation load, and recursive readdressing.
-12. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) — evidence tiers and promotion criteria.
+12. [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) — controlled challenge design for state adequacy, typed recruitment, and algorithmic calibration against predictive-state methods.
+13. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) — evidence tiers and promotion criteria.
 
 ## Standalone papers and publications
 
@@ -131,6 +134,7 @@ The repository keeps paper identity separate from the live modular canon. Use [P
 
 ### Other published DOI papers
 
+- **Future-Splitting State Recruitment: A Cross-Domain Assay for State Adequacy and Prospective Mechanism Activation** — version 1.0, 22 August 2026; version DOI [10.5281/zenodo.22058303](https://doi.org/10.5281/zenodo.22058303); concept DOI [10.5281/zenodo.22058302](https://doi.org/10.5281/zenodo.22058302); [GitHub paper route](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md); [publication record](FSSR_STANDALONE_PUBLICATION.md); [canonical Module 33S7](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md).
 - **Addressed Admissible Futures: Future-Sufficient State, Load-Bearing Relations, and Restorative Reachability** — version 0.1, 20 August 2026; version DOI [10.5281/zenodo.22031333](https://doi.org/10.5281/zenodo.22031333); concept DOI [10.5281/zenodo.22031332](https://doi.org/10.5281/zenodo.22031332); [GitHub paper route](papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md); [publication record](AAF_STANDALONE_PUBLICATION.md); [canonical Module 33S6](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md).
 - **Layer Before Law: An Addressed Architecture for Relational Admissibility, Effective Law Selection, and Quantum-Gravitational Recovery** — version 1.0; DOI [10.5281/zenodo.21971270](https://doi.org/10.5281/zenodo.21971270); [publication record](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md).
 - **Recursive Constraint Closure and Reachable-State Geometry: An Addressed Formalism for Adaptive Systems with Changing Possibility Spaces** — version 0.1; DOI [10.5281/zenodo.21971425](https://doi.org/10.5281/zenodo.21971425); [publication record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md).
