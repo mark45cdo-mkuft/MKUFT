@@ -31,9 +31,10 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 16. [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
 17. [Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)
 18. [Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
-19. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
-20. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-21. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+19. [Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
+20. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
+21. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+22. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
 ### Physics and quantum gravity
 
@@ -79,7 +80,7 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 16. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 17. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 
-The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process; Module 32S3 supplies a completion/admissibility scaffold; Module 32S4 separates preserved intrinsic relation from changed contextual address and supplies boundary/transport comparators; Module 33 supplies the general addressed-state → admissibility descriptor → physical law object `(domain, transition, weighting)` → P propagation → P/O instrument → readdressing architecture; Module 33S1 states when a load-bearing boundary/interface must be promoted from bundled context into the explicitly updated state; Module 33S2 tests whether a promoted relational address is dynamically sufficient for a declared property or must remain coupled to lower-scale variables; Module 33S3 separates local performance from enclosing-scale closure and makes recovery a conditional reachability question rather than a presumed reversal; Modules 33S4–33S6 refine future sufficiency, temporal Address, restorative reachability, and load-bearing future geometry without by themselves establishing an independent I→P crossing or physical LUCY mechanism.
+The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 membrane-like and LUCY-2 sustained-region descriptions are conditional downstream morphologies only where a physical implementation actually produces them. Module 32 can model recursive constraint/admissibility changes around a candidate closure process; Module 32S3 supplies a completion/admissibility scaffold; Module 32S4 separates preserved intrinsic relation from changed contextual address and supplies boundary/transport comparators; Module 33 supplies the general addressed-state → admissibility descriptor → physical law object `(domain, transition, weighting)` → P propagation → P/O instrument → readdressing architecture; Module 33S1 states when a load-bearing boundary/interface must be promoted from bundled context into the explicitly updated state; Module 33S2 tests whether a promoted relational address is dynamically sufficient for a declared property or must remain coupled to lower-scale variables; Module 33S3 separates local performance from enclosing-scale closure and makes recovery a conditional reachability question rather than a presumed reversal; Modules 33S4–33S6 refine future sufficiency, temporal Address, restorative reachability, and load-bearing future geometry. Module 33S7 turns that sufficiency family into a future-splitting state-adequacy assay and requires physical typed repair before mechanism-localisation language. None of these modules by itself establishes an independent I→P crossing or physical LUCY mechanism.
 
 ### AI and typed knowledge architectures
 
@@ -99,8 +100,9 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 14. [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
 15. [Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)
 16. [Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
-17. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-18. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+17. [Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
+18. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+19. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
 ## Canon groups
 
@@ -123,6 +125,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S4 — Address Sufficiency and Predictive Closure:** defines a target-relative address residual over same-address future distributions, separates deterministic from stochastic closure, tests candidate address coordinates by held-out discrimination and ablation/restoration, and routes persistent predictive divergence into readdressing before stronger law claims.
 - **33S5 — Rate-Conditioned Addressing:** separates geometric path from time-parameterised traversal; treats rate, dwell time, phase, and schedule as candidate address coordinates only when they improve target-relative predictive/interventional closure; and demotes them when fuller ordinary state variables close the same residual.
 - **33S6 — Addressed Admissible Futures:** defines the target-relative future-equivalence object induced by a sufficient Address, separates present viability from restorative reachability, defines restorative-future reserve and counterfactual load-bearing relation structure, and closes realised traversal through recursive readdressing. Its standalone v0.1 paper is frozen separately at DOI `10.5281/zenodo.22031333`.
+- **33S7 — Future-Splitting State Recruitment:** operationalises the 33S4–33S6 sufficiency family by selecting lawful challenges that test whether a declared state has collapsed future-distinguishable histories; requires independent continuation, minimal physically typed repair, remove/restore deformation and strong ordinary nulls; and makes positive recruitment lead relative to a preregistered transition marker a prospective, falsifiable prediction. Its standalone v1.0 paper is frozen separately at DOI `10.5281/zenodo.22058303`.
 - **33A — Law Descent and Recoverability Novelty Audit:** hostile targeted prior-art audit for 33S2/33S3. It records inherited ingredients, residual synthesis, confidence bounds, and the prospective burden required for stronger novelty or law claims. It is a positioning/audit document, not an empirical promotion.
 
 ### Structural and traversal
@@ -151,6 +154,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S4 — Address Sufficiency, Predictive Closure, and Reachable-Future Geometry:** tests whether representatives grouped at one operational address retain materially different target-relevant future distributions, uses residual divergence to localise candidate missing coordinates or model defects, and requires the smallest retained address augmentation to earn held-out predictive or interventional load.
 - **33S5 — Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation:** separates geometric-path equivalence from time-parameterised traversal equivalence, tests rate/dwell/schedule as target-relative address coordinates, and demotes schedule when fuller ordinary state closes the residual.
 - **33S6 — Addressed Admissible Futures:** makes the admissible future itself explicit, defines the restorative subset and reserve, measures relation load by future deformation rather than present salience, and re-enters the result through recursive Address update.
+- **33S7 — Future-Splitting State Recruitment:** attacks the current state claim with admissible futures, distinguishes state-adequacy testing from parameter-identification design, and requires independent physical confirmation plus typed repair before a newly necessary distinction is promoted into the effective Address.
 
 ### Observer, boundary, and physical support
 
@@ -164,7 +168,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S1 — Dynamic Interface Promotion:** promotes a trackable boundary/junction into explicit recursive state only when controlled deformation changes a load-bearing downstream object and realised dynamics update the interface for the next cycle; physical boundary work remains inside the energy ledger.
 - **33S2 — Law Descent:** prevents a promoted whole from being treated as dynamically autonomous by default; law ownership remains property-, regime-, preparation-, intervention-, timescale-, and tolerance-specific, with lower physical constraints retained.
 - **33S3 — Recoverability:** prevents a local performance increase or temporary higher-level degradation from being converted into a universal stability or collapse claim; recovery remains target-, state-, control-, environment-, horizon-, and path-dependent.
-- **33S4–33S6 — Future sufficiency and restorative geometry:** track when current Address is insufficient, when temporal/history variables become load-bearing, and how the remaining admissible/restorative future changes; these modules do not by themselves promote an informational description into an independent physical cause.
+- **33S4–33S7 — Future sufficiency, future splitting, and restorative geometry:** track when current Address is insufficient, when temporal/history variables become load-bearing, how the remaining admissible/restorative future changes, and whether a lawful future can expose a state-equivalence failure that requires typed physical repair. These modules do not by themselves promote an informational description into an independent physical cause.
 
 ### Procedural and applied support
 
@@ -184,6 +188,7 @@ This prevents explanatory copies from developing competing equations, notation, 
 
 ## Publications, references, and provenance
 
+- [Future-Splitting State Recruitment Standalone Publication](FSSR_STANDALONE_PUBLICATION.md)
 - [Addressed Admissible Futures Standalone Publication](AAF_STANDALONE_PUBLICATION.md)
 - [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
