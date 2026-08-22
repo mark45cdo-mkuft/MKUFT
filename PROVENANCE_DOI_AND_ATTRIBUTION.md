@@ -47,11 +47,12 @@ The exact v2 deposited object states Creative Commons Attribution 4.0 Internatio
 **Deposited:** 1 December 2025, version 1  
 **Licence stated for the exact deposited material:** CC BY 4.0
 
-Repository preservation route:
+Repository preservation routes:
 
-- [Historical frozen DOI PDF mirror](publications/HISTORICAL_V1_MKUFT_DOI_10.5281_zenodo.17780566.pdf)
+- [Historical v1 falsifications PDF mirror](publications/HISTORICAL_V1_MKUFT_FALSIFICATIONS_DOI_10.5281_zenodo.17780566.pdf)
+- [Historical v1 mathematics appendix PDF mirror](publications/HISTORICAL_V1_MKUFT_MATH_APPENDIX_DOI_10.5281_zenodo.17780566.pdf)
 
-The historical version remains citable as its own frozen object. Current discovery should route to v2 for the principal MKUFT publication while retaining v1 as historical lineage.
+The historical Zenodo record contains two deposited PDF files — `MKUFT falsifications.pdf` and `MKUFT_Math_Appendix.pdf` — rather than one all-in-one publication PDF. The repository mirrors those two exact carriers separately and does not manufacture a combined historical-v1 PDF. The historical version remains citable as its own frozen object. Current discovery should route to v2 for the principal MKUFT publication while retaining v1 as historical lineage.
 
 ## Voynich Manuscript – Systems/Engine Framework
 
@@ -216,7 +217,7 @@ For the exact ATLD v1.0 paper:
 
 This GitHub repository is the live public working and publication-discovery layer. It does not erase frozen Zenodo records or silently insert later live changes into them.
 
-The seven top-level PDFs in [`publications/`](publications/) are byte-preserving repository mirrors of the corresponding DOI-bearing PDF carriers: current MKUFT v2, historical MKUFT v1, ATLD, Layer Before Law, Recursive Constraint Closure, Addressed Admissible Futures, and Future-Splitting State Recruitment. The version DOI remains publication custody in every case. Voynich is excluded from that PDF set because its deposited/public carrier is DOCX.
+Eight top-level PDFs in [`publications/`](publications/) mirror the deposited PDF files across seven DOI-bearing publication records: current MKUFT v2, the two deposited historical MKUFT v1 PDF files, ATLD, Layer Before Law, Recursive Constraint Closure, Addressed Admissible Futures, and Future-Splitting State Recruitment. The version DOI remains publication custody in every case. Voynich is excluded from that PDF set because its deposited/public carrier is DOCX.
 
 Google Drive may hold synchronized reading editions and paper copies. A Drive copy is a carrier, not automatic scientific or publication custody. The dedicated Drive `00_PAPERS_AND_PUBLICATIONS` shelf separates actual paper objects from synchronized module-reading editions.
 
