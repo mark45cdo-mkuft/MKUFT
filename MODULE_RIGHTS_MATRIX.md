@@ -95,6 +95,7 @@ Unless an exact file version expressly states a different licence, the current G
 | [33S5 — Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md) | **All rights reserved** unless an exact version or later standalone publication states otherwise |
 | [33S6 — Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) | **All rights reserved** for the current live module unless an exact later version states otherwise; the frozen AAF v0.1 publication has its own exact rights identity |
 | [33S7 — Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) | **All rights reserved** for the current live module unless an exact later version states otherwise; the frozen FSSR v1.0 publication has its own exact rights identity |
+| [33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md) | **All rights reserved** for the current live naming/provenance module unless an exact later version states otherwise; no frozen publication is altered by this naming note |
 | [33A — Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) | **All rights reserved** unless an exact version states otherwise |
 
 The current GitHub source and companion modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by the ATLD manuscript's CC BY-NC-SA 4.0 licence merely because the manuscript was developed from related material.
@@ -108,6 +109,7 @@ Unless an exact file states another licence, the current versions of the followi
 - [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md)
 - [Canon Map](CANON_MAP.md)
 - [Public Index](INDEX.md)
+- [Future-Sufficient Address Invariant canonical naming route](FSAI_CANONICAL_NAMING_NOTE.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
