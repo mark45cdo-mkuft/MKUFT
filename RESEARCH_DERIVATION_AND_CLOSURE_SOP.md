@@ -184,7 +184,19 @@ symptom patch
 → full rerun.
 ```
 
-## 14. Semantic-key rule
+## 14. Red-gate classification
+
+A full-stack check can expose a failure older than the edit that triggered the run. Do not assume the newest change caused every red result.
+
+Classify each failure before repairing it:
+
+1. **current regression** — the present write broke a previously valid object;
+2. **brittle or mistyped gate** — the object is valid but the checker asks for the wrong carrier, case, token, or address;
+3. **pre-existing real mismatch** — an adjacent object was already stale, incomplete, or contradictory and the stronger gate has finally exposed it.
+
+Repair at the address where the defect actually lives. Do not alter a valid scientific object merely to satisfy a brittle marker, and do not weaken a valid gate merely to hide a real stale route.
+
+## 15. Semantic-key rule
 
 Rendered algebra and scientific meaning are separate obligations.
 
@@ -194,7 +206,7 @@ Fail the reader-side gate when understanding the scientific definition requires 
 
 Do not perform cosmetic rewrites on scientifically complete notation merely because another carrier would look prettier.
 
-## 15. Observer-independent machine gates
+## 16. Observer-independent machine gates
 
 Objective checks should not rely on the owner remembering to inspect an Actions page.
 
@@ -208,7 +220,7 @@ The repository workflow must:
 
 Reader-side semantic inspection remains a separate required gate, but it belongs to the operator or agent performing the publication task; it must not be silently delegated to the owner after closure is claimed.
 
-## 16. Closure language
+## 17. Closure language
 
 Use **closed** only when the applicable evidence has actually been observed.
 
