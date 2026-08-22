@@ -4,13 +4,17 @@
 
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**Status:** Public preprint / standalone paper candidate  
+**Status:** Published standalone Zenodo paper — GitHub reader/source route  
 **Version:** 0.1  
-**Public preprint date:** 15 August 2026  
-**MKUFT backbone DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Publication date:** 15 August 2026  
+**Version DOI:** [10.5281/zenodo.21971425](https://doi.org/10.5281/zenodo.21971425)  
+**Originating MKUFT historical DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Publication record:** [`RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md`](../RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md)  
 **First public formulation anchor:** Git commit [`8e4fe4160ba57874c5cf6a7213d44ba3d0c97287`](https://github.com/mark45cdo-mkuft/MKUFT/commit/8e4fe4160ba57874c5cf6a7213d44ba3d0c97287), 15 August 2026, 01:20:48 BST  
 **Canonical source module:** [`docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md`](../docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)  
-**Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless a later frozen publication expressly states another licence. See [`RIGHTS_AND_LICENSE_NOTICE.md`](../RIGHTS_AND_LICENSE_NOTICE.md) and [`MODULE_RIGHTS_MATRIX.md`](../MODULE_RIGHTS_MATRIX.md).
+**Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless the exact frozen publication states another licence. See [`RIGHTS_AND_LICENSE_NOTICE.md`](../RIGHTS_AND_LICENSE_NOTICE.md) and [`MODULE_RIGHTS_MATRIX.md`](../MODULE_RIGHTS_MATRIX.md).
+
+> **Version boundary.** The Zenodo object at DOI `10.5281/zenodo.21971425` is the frozen publication object for version 0.1. This GitHub file is its public reader/source route; later metadata or rendering corrections here are later repository states and do not silently rewrite the deposited publication.
 
 ---
 
@@ -575,7 +579,7 @@ The scientific-priority claim is deliberately narrow and falsifiable by document
 
 The paper's expression, organisation, prose, diagrams if later added, and other copyright-protected authorship remain subject to the exact rights notice attached to this version. Publication does not itself create patent rights.
 
-A later frozen Zenodo publication should receive its own version DOI and should cite both the first public Git commit and the MKUFT backbone DOI.
+The frozen Zenodo version 0.1 publication is identified by DOI `10.5281/zenodo.21971425`. Its exact deposited object retains its own version and rights identity; this GitHub reader/source route does not silently revise that frozen object.
 
 ---
 
@@ -593,8 +597,8 @@ A later frozen Zenodo publication should receive its own version DOI and should 
 
 ## 18. Citation
 
-Until a standalone DOI exists, cite this public preprint as:
+For the exact frozen version 0.1 release, cite:
 
-> McLaughlin, Mark Charles. (2026). *Recursive Constraint Closure and Reachable-State Geometry: An Addressed Formalism for Adaptive Systems with Changing Possibility Spaces*. MKUFT public preprint, version 0.1, 15 August 2026. `mark45cdo-mkuft/MKUFT`. First public formulation commit: `8e4fe4160ba57874c5cf6a7213d44ba3d0c97287`. MKUFT backbone DOI: 10.5281/zenodo.17780566.
+> McLaughlin, Mark Charles. (2026). *Recursive Constraint Closure and Reachable-State Geometry: An Addressed Formalism for Adaptive Systems with Changing Possibility Spaces*. Version 0.1. Zenodo. DOI: 10.5281/zenodo.21971425.
 
-For the exact frozen version after later Zenodo deposit, use the version-specific DOI assigned to that deposit.
+The first public formulation commit remains `8e4fe4160ba57874c5cf6a7213d44ba3d0c97287`; the originating MKUFT historical DOI is `10.5281/zenodo.17780566`.
