@@ -23,6 +23,7 @@ This page provides a compact identity record for public search, citation, and di
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 - [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+- [Future-Splitting State Recruitment Standalone Publication](FSSR_STANDALONE_PUBLICATION.md)
 - [Addressed Admissible Futures Standalone Publication](AAF_STANDALONE_PUBLICATION.md)
 - [Voynich Standalone Publication](VOYNICH_STANDALONE_PUBLICATION.md)
 - [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md)
@@ -36,6 +37,7 @@ This page provides a compact identity record for public search, citation, and di
 - **MKUFT current principal publication, v2:** `10.5281/zenodo.21973064`
 - **MKUFT concept DOI:** `10.5281/zenodo.17780565`
 - **MKUFT historical v1:** `10.5281/zenodo.17780566`
+- **Future-Splitting State Recruitment v1.0:** version DOI `10.5281/zenodo.22058303`; concept DOI `10.5281/zenodo.22058302`
 - **Addressed Admissible Futures v0.1:** version DOI `10.5281/zenodo.22031333`; concept DOI `10.5281/zenodo.22031332`
 - **Layer Before Law v1.0:** `10.5281/zenodo.21971270`
 - **Recursive Constraint Closure v0.1:** `10.5281/zenodo.21971425`
@@ -45,6 +47,8 @@ This page provides a compact identity record for public search, citation, and di
 ## Public search fingerprints
 
 MKUFT · A Relational Architecture for Physical Law and Cross-Scale Dynamics · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.21973064 · concept DOI 10.5281/zenodo.17780565 · GitHub `mark45cdo-mkuft/MKUFT`
+
+Future-Splitting State Recruitment · FSSR · state adequacy · future splitting · state recruitment · predictive closure · prospective mechanism activation · mechanism localisation · history-dependent constitutive mechanics · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22058303 · concept DOI 10.5281/zenodo.22058302
 
 Addressed Admissible Futures · future-sufficient state · predictive sufficiency · restorative reachability · restorative-future reserve · load-bearing relations · recursive readdressing · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22031333 · concept DOI 10.5281/zenodo.22031332
 
@@ -61,6 +65,13 @@ ATLD · Active Traversal and Load-Bearing Dependency · version DOI 10.5281/zeno
 - unified field theory
 - S–I–P–O typed architecture
 - relational architecture
+- Future-Splitting State Recruitment
+- FSSR
+- state adequacy
+- future splitting
+- state recruitment
+- prospective mechanism activation
+- mechanism localisation
 - Addressed Admissible Futures
 - future-sufficient Address
 - predictive closure
