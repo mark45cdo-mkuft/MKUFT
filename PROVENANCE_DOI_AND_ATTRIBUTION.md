@@ -31,6 +31,10 @@ The objects are related, but they are **not interchangeable**.
 **Concept DOI:** `10.5281/zenodo.17780565`  
 **Historical v1 DOI:** `10.5281/zenodo.17780566`
 
+Repository preservation route:
+
+- [Frozen v2 DOI PDF mirror](publications/MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf)
+
 The v2 record is the current principal MKUFT publication in the historical Zenodo concept lineage. The historical v1 deposit remains a frozen earlier version. Publication of v2 does not rewrite or erase the exact v1 object.
 
 The exact v2 deposited object states Creative Commons Attribution 4.0 International (CC BY 4.0). That licence applies to the exact v2 publication object; it does not silently relicense later GitHub revisions, modules, or separate research outputs.
@@ -42,6 +46,10 @@ The exact v2 deposited object states Creative Commons Attribution 4.0 Internatio
 **Version DOI:** `10.5281/zenodo.17780566`  
 **Deposited:** 1 December 2025, version 1  
 **Licence stated for the exact deposited material:** CC BY 4.0
+
+Repository preservation route:
+
+- [Historical frozen DOI PDF mirror](publications/HISTORICAL_V1_MKUFT_DOI_10.5281_zenodo.17780566.pdf)
 
 The historical version remains citable as its own frozen object. Current discovery should route to v2 for the principal MKUFT publication while retaining v1 as historical lineage.
 
@@ -58,7 +66,7 @@ Public routes:
 - [Standalone publication record](VOYNICH_STANDALONE_PUBLICATION.md)
 - [Live repository support module](docs/09_VOYNICH_PROCEDURAL_ENGINE.md)
 
-The Voynich paper is a separate applied research object. The version DOI identifies the frozen publication version; the concept DOI identifies the continuing Zenodo record family. Its exact licence and version-specific reuse rights must be taken from the corresponding deposited record/source.
+The Voynich paper is a separate applied research object. Its deposited/public carrier is DOCX, so the DOI-PDF mirror pass does not manufacture a replacement PDF. The version DOI identifies the frozen publication version; the concept DOI identifies the continuing Zenodo record family. Its exact licence and version-specific reuse rights must be taken from the corresponding deposited record/source.
 
 ## ATLD standalone paper
 
@@ -71,6 +79,7 @@ The Voynich paper is a separate applied research object. The version DOI identif
 
 Public routes:
 
+- [Frozen DOI PDF mirror](publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf)
 - [GitHub human-readable paper route](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md)
 - [Standalone publication record](ATLD_STANDALONE_PUBLICATION.md)
 - [Frozen repository text mirror and integrity manifest](publications/ATLD_Evaluation_Protocol_v1.0/)
@@ -87,6 +96,7 @@ The exact ATLD v1.0 manuscript identified by version DOI `10.5281/zenodo.2134152
 
 Public routes:
 
+- [Frozen DOI PDF mirror](publications/LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf)
 - [Standalone publication record](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md)
 - [Canonical public preprint v1.0](papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md)
 - [Live canonical source module](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
@@ -103,6 +113,7 @@ The DOI-bearing Zenodo object is the frozen standalone publication. Later GitHub
 
 Public routes:
 
+- [Frozen DOI PDF mirror](publications/RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf)
 - [Standalone publication record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md)
 - [Public GitHub preprint route](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md)
 - [Live source module](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
@@ -121,6 +132,7 @@ The DOI-bearing Zenodo object freezes version 0.1. Later live-canon refinements 
 
 Public routes:
 
+- [Frozen DOI PDF mirror](publications/ADDRESSED_ADMISSIBLE_FUTURES_v0.1_DOI_10.5281_zenodo.22031333.pdf)
 - [Standalone publication record](AAF_STANDALONE_PUBLICATION.md)
 - [Public GitHub paper route](papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md)
 - [Live canonical MKUFT fold — Module 33S6](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
@@ -140,6 +152,7 @@ AAF is a future-object specialisation of the recursive S-I-P-O addressed-update 
 
 Public routes:
 
+- [Frozen DOI PDF mirror](publications/FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf)
 - [Standalone publication record](FSSR_STANDALONE_PUBLICATION.md)
 - [Public GitHub paper route](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md)
 - [Live canonical MKUFT fold — Module 33S7](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
@@ -202,6 +215,8 @@ For the exact ATLD v1.0 paper:
 ## Repository and mirror status
 
 This GitHub repository is the live public working and publication-discovery layer. It does not erase frozen Zenodo records or silently insert later live changes into them.
+
+The seven top-level PDFs in [`publications/`](publications/) are byte-preserving repository mirrors of the corresponding DOI-bearing PDF carriers: current MKUFT v2, historical MKUFT v1, ATLD, Layer Before Law, Recursive Constraint Closure, Addressed Admissible Futures, and Future-Splitting State Recruitment. The version DOI remains publication custody in every case. Voynich is excluded from that PDF set because its deposited/public carrier is DOCX.
 
 Google Drive may hold synchronized reading editions and paper copies. A Drive copy is a carrier, not automatic scientific or publication custody. The dedicated Drive `00_PAPERS_AND_PUBLICATIONS` shelf separates actual paper objects from synchronized module-reading editions.
 
