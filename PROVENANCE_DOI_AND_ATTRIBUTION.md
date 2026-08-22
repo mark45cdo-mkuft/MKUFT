@@ -128,6 +128,25 @@ Public routes:
 
 AAF is a future-object specialisation of the recursive S-I-P-O addressed-update family rather than a separate law stack. The DOI-bearing Zenodo object freezes v0.1. Later paper-route changes, Module 33S6 revisions, TVT refinements, or later empirical results are not silently backdated into the deposited object.
 
+## Future-Splitting State Recruitment
+
+**Title:** *Future-Splitting State Recruitment: A Cross-Domain Assay for State Adequacy and Prospective Mechanism Activation*  
+**Author:** Mark Charles McLaughlin  
+**Version:** 1.0  
+**Publication date:** 22 August 2026  
+**Version DOI:** `10.5281/zenodo.22058303`  
+**Concept DOI:** `10.5281/zenodo.22058302`  
+**Rights for the exact deposited object:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved.
+
+Public routes:
+
+- [Standalone publication record](FSSR_STANDALONE_PUBLICATION.md)
+- [Public GitHub paper route](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md)
+- [Live canonical MKUFT fold — Module 33S7](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22058303)
+
+FSSR is an experimental specialisation of AAF and the 33S4–33S6 future-sufficiency family. It tests whether histories collapsed by a declared state can be separated by an admissible lawful future, then requires the smallest preregistered physically typed augmentation that restores held-out closure. The DOI-bearing Zenodo object freezes v1.0. Later Module 33S7 changes, later empirical results, new domain implementations, or revised challenge designs are not silently backdated into the deposit.
+
 ## LUCY placement
 
 LUCY is currently part of the MKUFT backbone rather than a separately published external theory. Its canonical live owner is `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md`; the physical boundary-forming specialisation is developed in `docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md`.
@@ -144,7 +163,7 @@ Current live GitHub modules are later repository objects. Unless an exact file o
 
 The detailed current file-by-file classification is maintained in [`MODULE_RIGHTS_MATRIX.md`](MODULE_RIGHTS_MATRIX.md). The controlling general notice is [`RIGHTS_AND_LICENSE_NOTICE.md`](RIGHTS_AND_LICENSE_NOTICE.md).
 
-A citation to MKUFT, Voynich, ATLD, Layer Before Law, Recursive Constraint Closure, or Addressed Admissible Futures does not import that cited object's licence into the citing file.
+A citation to MKUFT, Voynich, ATLD, Layer Before Law, Recursive Constraint Closure, Addressed Admissible Futures, or Future-Splitting State Recruitment does not import that cited object's licence into the citing file.
 
 ## Attribution statements
 
@@ -155,6 +174,10 @@ For the current MKUFT v2 publication:
 For the historical MKUFT v1 deposit:
 
 > Mark Charles McLaughlin. *Unified Field Theory. McLaughlin–Kairos. MKUFT*. DOI: 10.5281/zenodo.17780566.
+
+For Future-Splitting State Recruitment:
+
+> McLaughlin, Mark Charles. (2026). *Future-Splitting State Recruitment: A Cross-Domain Assay for State Adequacy and Prospective Mechanism Activation*. Version 1.0. Zenodo. DOI: 10.5281/zenodo.22058303.
 
 For Addressed Admissible Futures:
 
@@ -207,6 +230,7 @@ Current standalone research-output tracking is concentrated in:
 
 - [`papers/README.md`](papers/README.md) — human-reader paper index;
 - [`publications/README.md`](publications/README.md) — frozen-mirror/archive boundary;
+- `FSSR_STANDALONE_PUBLICATION.md`;
 - `AAF_STANDALONE_PUBLICATION.md`;
 - `VOYNICH_STANDALONE_PUBLICATION.md`;
 - `ATLD_STANDALONE_PUBLICATION.md`;
