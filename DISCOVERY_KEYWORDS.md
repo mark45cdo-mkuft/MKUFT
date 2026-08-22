@@ -22,6 +22,10 @@ This file gives public search systems, citation tools, GitHub search, and AI ret
 - MKUFT current v2 version DOI: `10.5281/zenodo.21973064`
 - MKUFT concept DOI: `10.5281/zenodo.17780565`
 - MKUFT historical v1 version DOI: `10.5281/zenodo.17780566`
+- Future-Splitting State Recruitment v1.0 version DOI: `10.5281/zenodo.22058303`
+- Future-Splitting State Recruitment concept DOI: `10.5281/zenodo.22058302`
+- Addressed Admissible Futures v0.1 version DOI: `10.5281/zenodo.22031333`
+- Addressed Admissible Futures concept DOI: `10.5281/zenodo.22031332`
 - Layer Before Law version DOI: `10.5281/zenodo.21971270`
 - Recursive Constraint Closure version DOI: `10.5281/zenodo.21971425`
 - Voynich Manuscript – Systems/Engine Framework version DOI: `10.5281/zenodo.18178638`
@@ -49,6 +53,22 @@ Formal author/citation identity is maintained in:
 - constrained traversal
 - typed state spaces
 - cross-layer invariants
+- Future-Splitting State Recruitment
+- FSSR
+- state adequacy
+- future splitting
+- state recruitment
+- predictive closure
+- future-equivalence partition
+- prospective mechanism activation
+- mechanism localisation
+- active probing
+- challenge design
+- history-dependent constitutive mechanics
+- internal variables
+- Addressed Admissible Futures
+- future-sufficient Address
+- restorative reachability
 - Layer Before Law
 - relational admissibility
 - effective law selection
@@ -89,6 +109,11 @@ Formal author/citation identity is maintained in:
 
 ## Direct research-output routes
 
+- `papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md`
+- `FSSR_STANDALONE_PUBLICATION.md`
+- `docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md`
+- `papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md`
+- `AAF_STANDALONE_PUBLICATION.md`
 - `papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md`
 - `VOYNICH_STANDALONE_PUBLICATION.md`
 - `papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md`
@@ -102,6 +127,8 @@ Formal author/citation identity is maintained in:
 
 ```text
 MKUFT A Relational Architecture for Physical Law and Cross-Scale Dynamics Mark Charles McLaughlin Zenodo 10.5281/zenodo.21973064 concept 10.5281/zenodo.17780565 GitHub mark45cdo-mkuft/MKUFT
+Future-Splitting State Recruitment FSSR State Adequacy Prospective Mechanism Activation Mark Charles McLaughlin Zenodo 10.5281/zenodo.22058303 concept 10.5281/zenodo.22058302
+Addressed Admissible Futures Future-Sufficient State Load-Bearing Relations Restorative Reachability Mark Charles McLaughlin Zenodo 10.5281/zenodo.22031333 concept 10.5281/zenodo.22031332
 Layer Before Law Mark Charles McLaughlin Zenodo 10.5281/zenodo.21971270
 Recursive Constraint Closure Reachable-State Geometry Mark Charles McLaughlin Zenodo 10.5281/zenodo.21971425
 Voynich Manuscript Systems Engine Framework Mark Charles McLaughlin Zenodo 10.5281/zenodo.18178638
