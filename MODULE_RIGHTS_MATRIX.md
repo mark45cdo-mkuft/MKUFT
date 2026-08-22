@@ -23,6 +23,8 @@ This matrix identifies the rights status of current public repository objects wi
 |---|---|---|
 | MKUFT version-1 deposited work | [DOI 10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566) | **CC BY 4.0** for the exact deposited material identified by that record |
 | ATLD standalone manuscript v1.0 | [Version DOI 10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521); [concept DOI 10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520) | **CC BY-NC-SA 4.0** for the exact manuscript; commercial exercise of the licensed copyright rights requires separate written permission |
+| Addressed Admissible Futures v0.1 | [Version DOI 10.5281/zenodo.22031333](https://doi.org/10.5281/zenodo.22031333); [concept DOI 10.5281/zenodo.22031332](https://doi.org/10.5281/zenodo.22031332) | **All rights reserved** for the exact deposited object, as stated in its publication record and Zenodo metadata |
+| Future-Splitting State Recruitment v1.0 | [Version DOI 10.5281/zenodo.22058303](https://doi.org/10.5281/zenodo.22058303); [concept DOI 10.5281/zenodo.22058302](https://doi.org/10.5281/zenodo.22058302) | **All rights reserved** for the exact deposited object, as stated in its publication record and Zenodo metadata |
 
 The Voynich concept DOI recorded in `PROVENANCE_DOI_AND_ATTRIBUTION.md` is retained as a provenance/citation anchor. Its exact publication state, version-specific licence and rights must be taken from the corresponding deposited record or source material rather than inferred from the MKUFT licence.
 
@@ -91,6 +93,8 @@ Unless an exact file version expressly states a different licence, the current G
 | [33S3 — Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) | **All rights reserved** unless an exact version or later standalone publication states otherwise |
 | [33S4 — Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) | **All rights reserved** unless an exact version or later standalone publication states otherwise |
 | [33S5 — Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md) | **All rights reserved** unless an exact version or later standalone publication states otherwise |
+| [33S6 — Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) | **All rights reserved** for the current live module unless an exact later version states otherwise; the frozen AAF v0.1 publication has its own exact rights identity |
+| [33S7 — Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) | **All rights reserved** for the current live module unless an exact later version states otherwise; the frozen FSSR v1.0 publication has its own exact rights identity |
 | [33A — Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) | **All rights reserved** unless an exact version states otherwise |
 
 The current GitHub source and companion modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by the ATLD manuscript's CC BY-NC-SA 4.0 licence merely because the manuscript was developed from related material.
@@ -108,6 +112,8 @@ Unless an exact file states another licence, the current versions of the followi
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 - [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md)
+- [FSSR Standalone Publication](FSSR_STANDALONE_PUBLICATION.md) as the repository publication record for the all-rights-reserved FSSR v1.0 deposit
+- [AAF Standalone Publication](AAF_STANDALONE_PUBLICATION.md) as the repository publication record for the all-rights-reserved AAF v0.1 deposit
 - [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md) as a repository publication record; the exact manuscript identified by its DOI retains the CC BY-NC-SA 4.0 licence stated on that manuscript and record
 - this Module Rights Matrix
 
