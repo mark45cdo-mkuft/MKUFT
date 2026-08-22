@@ -36,7 +36,7 @@ def markdown_paths():
 
 
 def unescaped_brace_balance(text: str):
-    """Return (ok, first_negative_offset, final_depth) for TeX grouping braces.
+    r"""Return (ok, first_negative_offset, final_depth) for TeX grouping braces.
 
     Display braces written as \{ or \} are ignored. This is a source-integrity check,
     not a full TeX parser.
@@ -109,10 +109,6 @@ def audit(path: Path):
             problems.append(f"contains hidden control character U+{ord(c):04X}")
             break
 
-    for macro, replacement in BANNED_MATH_MACROS.items():
-        if macro in text:
-            problems.append(f"contains unsupported GitHub math macro {macro}; {replacement}")
-
     in_fence = False
     fence_kind = ""
     fence_start = None
@@ -146,9 +142,18 @@ def audit(path: Path):
         if r"\(" in line or r"\)" in line:
             problems.append(f"line {lineno}: legacy inline-math delimiter; use $...$")
 
-        # Strip inline-code literals before looking for naked TeX. A line carrying '$'
-        # is allowed because it is explicitly using GitHub inline math.
+        # Inline code is a literal carrier, not a math carrier. Strip it before enforcing
+        # math-rendering rules so documentation and deliberate literal notation do not
+        # trip the same guard that protects actual mathematics.
         visible = INLINE_CODE.sub("", line)
+
+        for macro, replacement in BANNED_MATH_MACROS.items():
+            if macro in visible:
+                problems.append(
+                    f"line {lineno}: unsupported GitHub math macro {macro}; {replacement}"
+                )
+
+        # A line carrying '$' is allowed because it is explicitly using GitHub inline math.
         if MATH_COMMAND.search(visible) and "$" not in visible:
             problems.append(f"line {lineno}: TeX-like command is outside an explicit GitHub math carrier")
 
