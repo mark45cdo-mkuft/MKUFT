@@ -12,7 +12,7 @@
 **Predecessor v1.0 DOI:** [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521)  
 **Originating MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)
 
-> **Publication boundary.** This page is the GitHub human-reading and discovery route for the frozen ATLD 2 v2.0 publication. The exact 22-page Zenodo PDF identified by version DOI `10.5281/zenodo.22068803` controls the frozen publication identity, pagination, visual layout, equations, and tables. The repository text mirror is a preservation/recovery carrier and does not silently revise the deposited paper.
+> **Publication boundary.** This page is the GitHub human-reading and discovery route for the frozen ATLD 2 v2.0 publication. The exact 22-page Zenodo PDF identified by version DOI `10.5281/zenodo.22068803` controls the frozen publication identity, pagination, visual layout, equations, and tables. The repository identity/checksum record is a preservation and verification route and does not silently revise the deposited paper.
 
 ## Read the published paper
 
@@ -22,7 +22,7 @@ Repository routes:
 
 - [ATLD publication-family record](../ATLD_STANDALONE_PUBLICATION.md)
 - [Canonical MKUFT measurement fold — Module 25B](../docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
-- [Frozen repository text mirror and checksum record](../publications/ATLD2_Evaluation_Protocol_v2.0/)
+- [Frozen publication identity and checksum record](../publications/ATLD2_Evaluation_Protocol_v2.0/)
 - [Papers and Publications index](README.md)
 
 ## Abstract
