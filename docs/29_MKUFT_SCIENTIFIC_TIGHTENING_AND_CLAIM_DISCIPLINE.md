@@ -172,6 +172,39 @@ Public claims can be located on the following ladder:
 
 Different MKUFT branches currently occupy different levels. A result in one branch does not promote the framework as a whole to a higher level.
 
+## 8A. Confidence, charge, closure, and temporal claim type
+
+Claim level and human significance are not one variable. For each load-bearing scientific statement keep at least four fields separate:
+
+- **confidence** — how strongly the declared evidence and model concentrate support on the statement relative to live alternatives;
+- **charge** — how consequential, salient, or decision-relevant the statement would be if true;
+- **closure** — whether the declared target remains stable under the strongest applicable alternatives, nulls, and lawful deformations within tolerance;
+- **temporal/access type** — whether the statement is a present registration, a reconstruction of the past from retained evidence, a future prediction, or a conditional derivation from declared premises.
+
+These quantities do not inherit one another. High charge does not raise confidence. Incomplete confidence does not make a high-consequence result unimportant. Strong operational closure for one target does not establish complete state resolution, ontology, or foundational truth.
+
+The word **certain** is therefore not an evidential tier in this module. If used in ordinary scientific prose, it should be read as shorthand for a sufficiently robust operational closure at the stated address, regime, target, evidence state, and tolerance. It must not erase the remaining uncertainty model or reopening condition.
+
+A compact discipline is:
+
+```text
+high charge + moderate confidence + open closure = important live hypothesis;
+high confidence + low charge + strong closure = settled but low-consequence result;
+strong decision closure ≠ complete truth closure.
+```
+
+Time typing prevents a second category error:
+
+```text
+present registration ≠ past reconstruction ≠ future prediction ≠ conditional derivation.
+```
+
+A present measurement is still instrument- and model-relative; a past reconstruction can be strong when provenance is strong; a future forecast can be highly calibrated without being present actuality; and a valid derivation remains conditional on its premises and maps.
+
+If a later lawful future, stronger null, or newly measured distinction reopens a previously closed target, readdress and retest. A correctly scoped earlier decision is not retroactively converted into misconduct merely because a later challenge family was stronger; an earlier claim was overclosed only if the separating alternative was already inside its declared scope and was not properly carried.
+
+> Scientific humility constrains confidence and scope. It does not require flattening consequence or pretending that every live branch is equally important.
+
 ## 9. Experimental priorities
 
 ### Priority A — near-term operational flagship
@@ -245,6 +278,8 @@ For a scientific claim, the clearest order is:
 9. what success would and would not establish;
 10. wider philosophical interpretation after the evidence-bearing object is clear.
 
+For a load-bearing conclusion, also state confidence, charge, closure scope, temporal/access type, and the condition that would reopen the conclusion. These are calibration fields, not substitutes for the evidence ladder.
+
 Breadth is best presented after the narrow claim and its evidence requirements are understood.
 
 ## 15. Current scientific position
@@ -260,6 +295,9 @@ The route forward is discriminating derivation and experiment rather than strong
 - [MKUFT Core Extended](01_MKUFT_CORE_EXTENDED.md)
 - [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md)
 - [Standalone Formal Addendum](03_STANDALONE_FORMAL_ADDENDUM.md)
+- [Ambiguity Dynamics and Manoeuvre Space](21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md)
+- [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
+- [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
 - [Experimental Test Programme](04_EXPERIMENTAL_TEST_PROGRAM.md)
 - [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 - [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
