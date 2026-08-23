@@ -1,4 +1,4 @@
-# ATLD 2 v2.0 — frozen repository text mirror
+# ATLD 2 v2.0 — frozen publication identity record
 
 **Published title:** *Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems*  
 **Author:** Mark Charles McLaughlin  
@@ -8,9 +8,9 @@
 **Concept DOI:** [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520)  
 **Predecessor DOI:** [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521)
 
-This folder is a mechanically split plain-text recovery mirror extracted from the exact published 22-page PDF. It exists for repository traversal, search, preservation, and recovery. It is **not** a substitute publication and does not control layout, equation rendering, tables, pagination, or frozen publication identity.
+This folder is a repository-side frozen-object identity and checksum record for ATLD 2 v2.0. It does not manufacture a second publication object and does not claim to be the DOI-bearing PDF.
 
-The exact Zenodo PDF identified by DOI `10.5281/zenodo.22068803` remains the controlling publication object.
+The exact Zenodo PDF identified by DOI `10.5281/zenodo.22068803` remains the controlling publication object for equations, tables, layout, pagination, and version identity.
 
 ## Exact frozen PDF identity
 
@@ -21,14 +21,7 @@ The exact Zenodo PDF identified by DOI `10.5281/zenodo.22068803` remains the con
 
 See [`SHA256SUMS.txt`](SHA256SUMS.txt) for the recorded integrity identifiers.
 
-## Text parts
-
-The `part-01.txt` through `part-04.txt` files are mechanical contiguous slices of `pdftotext` output from the exact checksum-matched PDF. They are not editorial rewrites.
-
-- [part-01.txt](part-01.txt)
-- [part-02.txt](part-02.txt)
-- [part-03.txt](part-03.txt)
-- [part-04.txt](part-04.txt)
+A local extraction or reading copy is only a convenience carrier. It does not replace the frozen DOI object unless its exact identity is separately verified.
 
 ## Public routes
 
@@ -39,4 +32,4 @@ The `part-01.txt` through `part-04.txt` files are mechanical contiguous slices o
 
 ## Object boundary
 
-Later GitHub changes belong to the live repository canon. They are not silently inserted into the frozen ATLD 2 v2.0 deposit. Likewise, a later benchmark run or successor ATLD version does not alter this mirror's claim boundary.
+Later GitHub changes belong to the live repository canon. They are not silently inserted into the frozen ATLD 2 v2.0 deposit. Likewise, a later benchmark run or successor ATLD version does not alter this record's claim boundary.
