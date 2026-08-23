@@ -136,6 +136,28 @@ The resulting rules are:
 - visual inspection must include semantic-key readability, not only the display equation;
 - workflow triggers must cover the non-Markdown metadata and preservation objects consumed by publication checks.
 
+## Recursive lesson — ATLD 2 stale-carrier substitution, 23 August 2026
+
+During ATLD 2 publication preparation, an earlier 18-page carrier and the final 22-page benchmark-integrated carrier shared the same broad title, author, DOI target, and surrounding Zenodo metadata. A metadata-only inspection could therefore appear completely correct while the actual attached publication file was stale.
+
+The decisive correction did **not** come from changing the scientific metadata. It came from checking the receiver-side object itself: page count, benchmark sections, file size/checksum, and final rendered content.
+
+The resulting rule is:
+
+> **Right title + right DOI + right metadata do not prove right frozen bytes.**
+
+For any replacement, late-stage regeneration, or same-title publication upload:
+
+1. identify the intended frozen carrier before upload;
+2. record at least one strong byte-level identity such as SHA-256, and useful secondary witnesses such as size/page count;
+3. after upload/replacement, inspect the receiver-side file rather than trusting the filename or upload success message;
+4. verify that the expected late-added sections/content are actually present;
+5. compare the receiver-side carrier against the intended checksum when the service permits exact download/readback;
+6. if byte readback is unavailable, use the strongest available combination of page count, size, rendered content, and service-side checksum/identifier;
+7. only then bind the DOI/publication record to that carrier.
+
+This is an object-custody lesson, not merely an ATLD-specific upload anecdote. It applies to every frozen research object whose metadata can remain stable while the underlying bytes change.
+
 ## Publication-object contract
 
 Do not collapse these object types:
@@ -144,7 +166,7 @@ Do not collapse these object types:
 2. **Public preprint** — coherent reader-facing paper, normally in `papers/`.
 3. **Publication record** — DOI, citation, version, rights, provenance, and relationship metadata.
 4. **Frozen deposit** — exact DOI-bearing object; once published, its identity is fixed for that version.
-5. **Frozen repository mirror** — preservation copy of a deposited object; do not edit it as though it were a live module.
+5. **Frozen repository mirror or identity record** — preservation object tied to the deposited object by exact bytes/checksum; do not edit it as though it were a live module.
 6. **Drive reading edition or mirror** — convenience carrier; it does not silently become the paper or canonical source.
 
 A module can support a paper without becoming a paper. A paper can originate from modules without erasing their history. A Drive mirror can be useful without owning the scientific object.
@@ -162,9 +184,9 @@ Before a new standalone DOI is published:
 7. verify citations, title, author, ORCID, version, date, rights, and DOI relationship;
 8. run the checker self-test and repository rendering/publication checks and observe their pass evidence;
 9. compute final checksums;
-10. commit the exact DOI-bearing source/publication object;
+10. commit the exact DOI-bearing source/publication object or an honest checksum/identity record when a byte-preserving repository mirror is not available;
 11. upload the exact checked object to the DOI repository;
-12. verify the DOI landing route after publication;
+12. verify the DOI landing route **and the actual attached carrier** after publication;
 13. only then mark the version frozen.
 
 A standing SOP is not evidence that these steps were performed. Closure requires evidence of the actual traversal.
@@ -193,6 +215,7 @@ Google Drive mirrors are not allowed to blur object identity.
 - A standalone paper should preferably be represented by its actual publication PDF or a clearly identified paper copy.
 - Plain-text/Unicode equation approximations in a Drive reading edition must not be treated as publication-grade mathematical typography.
 - The DOI-bearing PDF remains the controlling visual object where the publication record says so.
+- If a Drive paper copy is updated after publication, the replacement should be verified against the frozen DOI carrier by checksum where practical rather than by filename alone.
 
 ## Change discipline
 
@@ -206,4 +229,4 @@ The smallest repair should be identified first. Before applying it, ask whether 
 
 ## Standing invariant
 
-> **Meaning → carrier → transformation → invariant → reader expression must close as one chain. Carrier validity is not delivery validity; test the door from the side the reader actually approaches it.**
+> **Meaning → carrier → transformation → invariant → reader expression must close as one chain. Carrier validity is not delivery validity; test the door from the side the reader actually approaches it, and verify the bytes when metadata can lie by omission.**
