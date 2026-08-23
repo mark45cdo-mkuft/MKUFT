@@ -220,7 +220,31 @@ The repository workflow must:
 
 Reader-side semantic inspection remains a separate required gate, but it belongs to the operator or agent performing the publication task; it must not be silently delegated to the owner after closure is claimed.
 
-## 17. Closure language
+## 17. Residual novelty / no-new-anatomy gate
+
+A newly visible residual, failure mode, performance difference, or useful distinction does **not** by itself justify a new coordinate, module, controller, law-like object, or permanent architecture branch.
+
+Before adding anatomy:
+
+1. map the residual against existing owners, readouts, derived diagnostics, and already-typed relations;
+2. distinguish the primary deformation from propagated deformation, independent co-failure, and unresolved coupling;
+3. test whether one existing owner or a preregistered coalition of existing owners can recover the failure with non-inferior diagnostic value and lower or equal complexity;
+4. where a candidate new coordinate or state field is proposed, remove it and test whether the retained body still recovers the hidden distinction;
+5. forbid evaluator **smuggling** — a removed distinction cannot be reintroduced through a renamed oracle, rubric, metadata field, prompt, or checker written only to restore it;
+6. where lawful, use remove/restore or ablation/reconstitution to establish load-bearing effect rather than relying on narrative plausibility;
+7. test on held-out tasks, neutral domains, or independent systems before calling the residual a general addition;
+8. merge, demote, or kill the proposed addition when the existing body already owns the distinction.
+
+Use the asymmetry:
+
+```text
+current-object correction = cheap
+new permanent anatomy = expensive
+```
+
+This gate is recursive learning, not anti-learning. It prevents every useful correction from turning into another permanent object while leaving a clear promotion path when a residual repeatedly survives the existing body.
+
+## 18. Closure language
 
 Use **closed** only when the applicable evidence has actually been observed.
 
@@ -237,4 +261,4 @@ Otherwise use a narrower state such as:
 
 ## Standing invariant
 
-> **Smallest sufficient object → hostile subtraction → independent test → typed repair/deformation → exact publication identity → observed recursive closure.**
+> **Smallest sufficient object → hostile subtraction → independent test → typed repair/deformation → residual novelty gate → exact publication identity → observed recursive closure.**
