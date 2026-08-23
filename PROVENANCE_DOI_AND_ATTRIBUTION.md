@@ -69,23 +69,35 @@ Public routes:
 
 The Voynich paper is a separate applied research object. Its deposited/public carrier is DOCX, so the DOI-PDF mirror pass does not manufacture a replacement PDF. The version DOI identifies the frozen publication version; the concept DOI identifies the continuing Zenodo record family. Its exact licence and version-specific reuse rights must be taken from the corresponding deposited record/source.
 
-## ATLD standalone paper
+## ATLD publication family
 
-**Title:** *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*  
+**Current title:** *Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems*  
 **Author:** Mark Charles McLaughlin  
-**Version:** 1.0  
-**Publication date:** 13 July 2026  
-**Version DOI:** `10.5281/zenodo.21341521`  
-**Concept DOI:** `10.5281/zenodo.21341520`
+**Current version:** 2.0  
+**Publication date:** 23 August 2026  
+**Current version DOI:** `10.5281/zenodo.22068803`  
+**Concept DOI:** `10.5281/zenodo.21341520`  
+**Predecessor v1.0 DOI:** `10.5281/zenodo.21341521`  
+**Rights for the exact v2.0 manuscript:** CC BY-NC-SA 4.0
 
-Public routes:
+Current public routes:
 
-- [Frozen DOI PDF mirror](publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf)
-- [GitHub human-readable paper route](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md)
-- [Standalone publication record](ATLD_STANDALONE_PUBLICATION.md)
-- [Frozen repository text mirror and integrity manifest](publications/ATLD_Evaluation_Protocol_v1.0/)
+- [Zenodo v2.0 publication](https://doi.org/10.5281/zenodo.22068803)
+- [GitHub v2.0 paper route](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)
+- [ATLD publication-family record](ATLD_STANDALONE_PUBLICATION.md)
+- [Live canonical measurement fold — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
+- [Frozen v2.0 identity/checksum record](publications/ATLD2_Evaluation_Protocol_v2.0/)
 
-The exact ATLD v1.0 manuscript identified by version DOI `10.5281/zenodo.21341521` is recorded as **CC BY-NC-SA 4.0** in the publication record/manuscript. The licence applies to that exact manuscript and does not automatically license later source modules or later GitHub revisions.
+ATLD 2 preserves the causal grammar of the frozen v1.0 protocol while testing whether five candidate residual measurement coordinates — O, U, R, V, and F — add unique diagnostic value. The paper is a methods/evaluation object with an exploratory worked pilot; it does not claim confirmatory validation, system superiority, or a universal twelve-dimensional ontology. Module 25B is the later live MKUFT fold and must not be treated as the frozen DOI paper.
+
+Predecessor v1.0 remains independently frozen:
+
+- [Zenodo v1.0 publication](https://doi.org/10.5281/zenodo.21341521)
+- [GitHub v1.0 paper route](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md)
+- [Frozen v1.0 DOI PDF mirror](publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf)
+- [Frozen v1.0 manuscript text mirror and integrity manifest](publications/ATLD_Evaluation_Protocol_v1.0/)
+
+The exact v1.0 and v2.0 manuscripts each retain their own version identity under the common concept DOI. Publication of v2.0 does not rewrite v1.0, and later GitHub changes do not silently rewrite v2.0.
 
 ## Layer Before Law
 
@@ -209,15 +221,19 @@ For the exact Voynich version:
 
 > Mark Charles McLaughlin. *Voynich Manuscript – Systems/Engine Framework*. Version DOI: 10.5281/zenodo.18178638. Concept DOI: 10.5281/zenodo.18178637.
 
-For the exact ATLD v1.0 paper:
+For the exact ATLD 2 v2.0 paper:
 
-> McLaughlin, Mark Charles. (2026). *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*. Zenodo. DOI: 10.5281/zenodo.21341521.
+> McLaughlin, Mark Charles. (2026). *Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems*. Version 2.0. Zenodo. DOI: 10.5281/zenodo.22068803.
+
+For the exact ATLD v1.0 predecessor:
+
+> McLaughlin, Mark Charles. (2026). *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*. Version 1.0. Zenodo. DOI: 10.5281/zenodo.21341521.
 
 ## Repository and mirror status
 
 This GitHub repository is the live public working and publication-discovery layer. It does not erase frozen Zenodo records or silently insert later live changes into them.
 
-Eight top-level PDFs in [`publications/`](publications/) mirror the deposited PDF files across seven DOI-bearing publication records: current MKUFT v2, the two deposited historical MKUFT v1 PDF files, ATLD, Layer Before Law, Recursive Constraint Closure, Addressed Admissible Futures, and Future-Splitting State Recruitment. The version DOI remains publication custody in every case. Voynich is excluded from that PDF set because its deposited/public carrier is DOCX.
+Eight existing top-level PDFs in [`publications/`](publications/) mirror deposited PDF files across the earlier DOI-bearing publication set, including the frozen ATLD v1.0 carrier. ATLD 2 v2.0 is additionally represented by [`publications/ATLD2_Evaluation_Protocol_v2.0/`](publications/ATLD2_Evaluation_Protocol_v2.0/), which records the exact Zenodo carrier checksum, page count, size, and DOI identity without pretending that a byte-identical GitHub binary mirror exists. Zenodo remains publication custody for every frozen DOI object. Voynich remains excluded from the PDF mirror set because its deposited/public carrier is DOCX.
 
 Google Drive may hold synchronized reading editions and paper copies. A Drive copy is a carrier, not automatic scientific or publication custody. The dedicated Drive `00_PAPERS_AND_PUBLICATIONS` shelf separates actual paper objects from synchronized module-reading editions.
 
