@@ -33,7 +33,7 @@ REQUIRED = {
         ATLD2_SHA256,
         "Google Gemini",
         "Deep Think",
-        "no thirteenth coordinate",
+        "thirteenth coordinate",
         "CC BY-NC-SA 4.0",
     ],
     MODULE: [
@@ -59,7 +59,7 @@ REQUIRED = {
         ATLD2_SHA256,
         PAPER,
         MODULE,
-        "Current version: 2.0",
+        "**Current version:** 2.0",
         "Predecessor — ATLD v1.0",
         "CC BY-NC-SA 4.0",
     ],
@@ -81,14 +81,20 @@ REQUIRED = {
         "Pages: 22",
         "Size: 1221092 bytes",
         "ATLD v2 2.pdf",
+        "No byte-identical GitHub PDF mirror or split-text archive is asserted here",
     ],
     "papers/README.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, PAPER.split("/", 1)[1], MODULE],
-    "publications/README.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, IDENTITY.split("/", 1)[1], MODULE],
+    "publications/README.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, "ATLD2_Evaluation_Protocol_v2.0/", MODULE],
     "INDEX.md": [ATLD2_VERSION, PAPER, MODULE],
     "00-START-HERE-MKUFT-PUBLIC.md": [ATLD2_VERSION, PAPER, MODULE],
     "PUBLIC_DISCOVERY_ANCHOR.md": [ATLD2_VERSION, ATLD_CONCEPT, PAPER, MODULE, "ATLD 2"],
     "DISCOVERY_KEYWORDS.md": [ATLD2_VERSION, ATLD_CONCEPT, PAPER, MODULE, "residual coordinate identification"],
     "RIGHTS_AND_LICENSE_NOTICE.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, MODULE, "CC BY-NC-SA 4.0"],
+    "MODULE_RIGHTS_MATRIX.md": [ATLD2_VERSION, ATLD_CONCEPT, MODULE, "ATLD 2", "CC BY-NC-SA 4.0"],
+    "PROVENANCE_DOI_AND_ATTRIBUTION.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, PAPER, MODULE, "ATLD 2"],
+    "CANON_MAP.md": [ATLD2_VERSION, MODULE, "ATLD 2"],
+    "docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md": [MODULE.split("/", 1)[1], "ATLD 2 Residual Measurement Audit"],
+    "README.md": [ATLD2_VERSION, PAPER, MODULE],
     "RESEARCH_DERIVATION_AND_CLOSURE_SOP.md": ["Residual novelty / no-new-anatomy gate", "smuggling"],
     "RENDERING_AND_PUBLICATION_INTEGRITY.md": ["ATLD 2 stale-carrier substitution", "Right title + right DOI + right metadata do not prove right frozen bytes"],
 }
@@ -156,6 +162,7 @@ def main():
     print(f"- concept DOI: {ATLD_CONCEPT}")
     print(f"- predecessor DOI: {ATLD1_VERSION}")
     print(f"- exact frozen PDF SHA-256 recorded: {ATLD2_SHA256}")
+    print("- canon, provenance, rights, discovery, and public paper routes are all positively gated")
     print("- GitHub binary mirror intentionally not required; Zenodo remains frozen-carrier custody")
     return 0
 
