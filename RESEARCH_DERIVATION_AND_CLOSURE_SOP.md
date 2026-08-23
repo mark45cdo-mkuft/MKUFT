@@ -3,7 +3,7 @@
 **Status:** standing cross-stack research and publication SOP  
 **Owner:** Mark Charles McLaughlin  
 **Scope:** derivation, red-team review, empirical promotion, standalone-paper creation, canon folding, and post-write closure  
-**Companion controls:** [`docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md`](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), [`docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md`](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md), and [`RENDERING_AND_PUBLICATION_INTEGRITY.md`](RENDERING_AND_PUBLICATION_INTEGRITY.md)
+**Companion controls:** [`docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md`](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), [`docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md`](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md), [`docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md), and [`RENDERING_AND_PUBLICATION_INTEGRITY.md`](RENDERING_AND_PUBLICATION_INTEGRITY.md)
 
 ## 1. Governing rule
 
@@ -259,6 +259,44 @@ Otherwise use a narrower state such as:
 - awaiting reader-side inspection;
 - published but not yet canon-folded.
 
+## 18A. Operational certainty, charge, and reopening discipline
+
+Do not use **certainty** as a stronger synonym for `closed` or as a substitute for an evidence tier.
+
+For every load-bearing scientific or operational conclusion, keep these fields separate where they matter:
+
+1. **confidence** — support concentration under the declared evidence/model;
+2. **charge** — consequence or salience if the branch is true;
+3. **closure** — robustness of the declared target under the applicable strongest fair alternatives and lawful deformations;
+4. **temporal/access type** — present registration, past reconstruction from retained evidence, future prediction, or conditional derivation;
+5. **reopening condition** — the observation, stronger challenge family, null, or failed recovery that would return the target to an open state.
+
+The standing calibration rules are:
+
+```text
+high charge does not promote confidence;
+uncertainty does not flatten charge;
+decision closure does not imply complete state resolution;
+operational closure does not imply metaphysical certainty.
+```
+
+A conclusion may be stable enough for action while lower-level ambiguity remains. Conversely, a high-consequence hypothesis may deserve explicit attention while confidence and closure remain moderate.
+
+If a later lawful future split, stronger null, improved measurement, or expanded challenge family opens a target that was previously closed, apply:
+
+```text
+closed at declared address
+→ separating evidence/challenge
+→ reopen
+→ preserve provenance of the earlier scope
+→ readdress
+→ rerun the applicable closure gates.
+```
+
+Do not rewrite the earlier state as if the new evidence had always been available. Do not defend an earlier close if the separating alternative was already inside its declared burden and was simply omitted.
+
+When ordinary prose uses “certain”, bind it to the exact operational scope that earned closure. Never allow the word to erase uncertainty, provenance, or falsifiability.
+
 ## Standing invariant
 
-> **Smallest sufficient object → hostile subtraction → independent test → typed repair/deformation → residual novelty gate → exact publication identity → observed recursive closure.**
+> **Smallest sufficient object → hostile subtraction → independent test → typed repair/deformation → residual novelty gate → exact publication identity → calibrated operational closure with an explicit reopening condition.**
