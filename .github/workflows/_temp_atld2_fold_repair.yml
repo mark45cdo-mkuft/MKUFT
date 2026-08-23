@@ -1,0 +1,148 @@
+name: Temporary ATLD2 fold repair
+
+on:
+  push:
+    branches: [atld2-v2-publication-fold-20260823]
+    paths:
+      - '.github/workflows/_temp_atld2_fold_repair.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: atld2-v2-publication-fold-20260823
+          fetch-depth: 0
+      - name: Apply exact ATLD2 fold repairs
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          def read(path):
+              return Path(path).read_text(encoding='utf-8')
+
+          def write(path, text):
+              Path(path).write_text(text, encoding='utf-8')
+
+          def replace_once(text, old, new, label):
+              n = text.count(old)
+              if n != 1:
+                  raise SystemExit(f'{label}: expected exactly one match, found {n}')
+              return text.replace(old, new, 1)
+
+          # 1) Repair the ATLD2 gate itself: use source-true markers and expand it
+          # to cover the actual canon/provenance/rights owners.
+          p = 'tools/check_atld2_publication_routes.py'
+          t = read(p)
+          t = replace_once(t, '        "no thirteenth coordinate",', '        "thirteenth coordinate",', 'paper thirteenth marker')
+          t = replace_once(t, '        "Current version: 2.0",', '        "**Current version:** 2.0",', 'family current-version marker')
+          t = replace_once(t, '    "publications/README.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, IDENTITY.split("/", 1)[1], MODULE],', '    "publications/README.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, "ATLD2_Evaluation_Protocol_v2.0/", MODULE],', 'publication identity route marker')
+          anchor = '    "RIGHTS_AND_LICENSE_NOTICE.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, MODULE, "CC BY-NC-SA 4.0"],\n'
+          addition = anchor + '    "MODULE_RIGHTS_MATRIX.md": [ATLD2_VERSION, ATLD_CONCEPT, MODULE, "ATLD 2 v2.0", "CC BY-NC-SA 4.0"],\n    "PROVENANCE_DOI_AND_ATTRIBUTION.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, PAPER, MODULE, "ATLD 2 v2.0"],\n    "CANON_MAP.md": [ATLD2_VERSION, MODULE, "ATLD 2"],\n    "docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md": [MODULE.split("/", 1)[1], "ATLD 2 Residual Measurement Audit"],\n    "README.md": [ATLD2_VERSION, PAPER, MODULE],\n'
+          t = replace_once(t, anchor, addition, 'expanded ATLD2 owner gate')
+          write(p, t)
+
+          # 2) Remove stale claim about non-existent split-text files.
+          p = 'publications/ATLD2_Evaluation_Protocol_v2.0/SHA256SUMS.txt'
+          t = read(p)
+          old = '# The plain-text part files in this repository are recovery/search carriers extracted\n# from that exact PDF; they do not replace the DOI-bearing publication object.\n'
+          new = '# This repository records identity/checksum metadata for the exact Zenodo PDF.\n# No byte-identical GitHub PDF mirror or split-text archive is asserted here.\n'
+          t = replace_once(t, old, new, 'stale split-text note')
+          write(p, t)
+
+          # 3) Rights matrix: frozen ATLD2 publication + live 25B are separate typed objects.
+          p = 'MODULE_RIGHTS_MATRIX.md'
+          t = read(p)
+          old = '| ATLD standalone manuscript v1.0 | [Version DOI 10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521); [concept DOI 10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520) | **CC BY-NC-SA 4.0** for the exact manuscript; commercial exercise of the licensed copyright rights requires separate written permission |\n'
+          new = old + '| ATLD 2 standalone manuscript v2.0 | [Version DOI 10.5281/zenodo.22068803](https://doi.org/10.5281/zenodo.22068803); [concept DOI 10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520); predecessor DOI `10.5281/zenodo.21341521` | **CC BY-NC-SA 4.0** for the exact v2.0 manuscript; the live Module 25B fold retains separate current-repository rights |\n'
+          t = replace_once(t, old, new, 'ATLD2 frozen rights row')
+          old = '| [25 — Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) | **All rights reserved**; source module for ATLD v1.0 |\n'
+          new = old + '| [25B — ATLD 2 Residual Coordinate Measurement and Self-Audit](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) | **All rights reserved** for the current live module unless an exact later version states otherwise; the frozen ATLD 2 v2.0 paper has its own CC BY-NC-SA 4.0 identity |\n'
+          t = replace_once(t, old, new, 'Module 25B rights row')
+          old = "The current GitHub source and companion modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by the ATLD manuscript's CC BY-NC-SA 4.0 licence merely because the manuscript was developed from related material."
+          new = "The current GitHub source, companion, and successor-fold modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by the ATLD publication-family manuscripts' CC BY-NC-SA 4.0 licence merely because the manuscripts were developed from or folded into related material."
+          t = replace_once(t, old, new, 'rights-family paragraph')
+          old = '- [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md) as a repository publication record; the exact manuscript identified by its DOI retains the CC BY-NC-SA 4.0 licence stated on that manuscript and record'
+          new = '- [ATLD Standalone Publication Family](ATLD_STANDALONE_PUBLICATION.md) as the repository publication-family record; the exact v1.0 and v2.0 manuscripts retain the CC BY-NC-SA 4.0 licence attached to their exact versioned objects, while live Module 25B remains a separate repository object'
+          t = replace_once(t, old, new, 'ATLD family rights index line')
+          write(p, t)
+
+          # 4) Provenance owner: promote ATLD from a v1-only record to an explicit
+          # version family while retaining frozen predecessor identity.
+          p = 'PROVENANCE_DOI_AND_ATTRIBUTION.md'
+          t = read(p)
+          start = t.index('## ATLD standalone paper\n')
+          end = t.index('## Layer Before Law\n', start)
+          family = '''## ATLD publication family\n\n**Current title:** *Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems*  \n**Author:** Mark Charles McLaughlin  \n**Current version:** 2.0  \n**Publication date:** 23 August 2026  \n**Current version DOI:** `10.5281/zenodo.22068803`  \n**Concept DOI:** `10.5281/zenodo.21341520`  \n**Predecessor v1.0 DOI:** `10.5281/zenodo.21341521`  \n**Rights for the exact v2.0 manuscript:** CC BY-NC-SA 4.0\n\nCurrent public routes:\n\n- [Zenodo v2.0 publication](https://doi.org/10.5281/zenodo.22068803)\n- [GitHub v2.0 paper route](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)\n- [ATLD publication-family record](ATLD_STANDALONE_PUBLICATION.md)\n- [Live canonical measurement fold — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)\n- [Frozen v2.0 identity/checksum record](publications/ATLD2_Evaluation_Protocol_v2.0/)\n\nATLD 2 preserves the causal grammar of the frozen v1.0 protocol while testing whether five candidate residual measurement coordinates — O, U, R, V, and F — add unique diagnostic value. The paper is a methods/evaluation object with an exploratory worked pilot; it does not claim confirmatory validation, system superiority, or a universal twelve-dimensional ontology. Module 25B is the later live MKUFT fold and must not be treated as the frozen DOI paper.\n\nPredecessor v1.0 remains independently frozen:\n\n- [Zenodo v1.0 publication](https://doi.org/10.5281/zenodo.21341521)\n- [GitHub v1.0 paper route](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md)\n- [Frozen v1.0 DOI PDF mirror](publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf)\n- [Frozen v1.0 manuscript text mirror and integrity manifest](publications/ATLD_Evaluation_Protocol_v1.0/)\n\nThe exact v1.0 and v2.0 manuscripts each retain their own version identity under the common concept DOI. Publication of v2.0 does not rewrite v1.0, and later GitHub changes do not silently rewrite v2.0.\n\n'''
+          t = t[:start] + family + t[end:]
+          old = 'For the exact ATLD v1.0 paper:\n\n> McLaughlin, Mark Charles. (2026). *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*. Zenodo. DOI: 10.5281/zenodo.21341521.\n'
+          new = 'For the exact ATLD 2 v2.0 paper:\n\n> McLaughlin, Mark Charles. (2026). *Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems*. Version 2.0. Zenodo. DOI: 10.5281/zenodo.22068803.\n\nFor the exact ATLD v1.0 predecessor:\n\n> McLaughlin, Mark Charles. (2026). *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*. Version 1.0. Zenodo. DOI: 10.5281/zenodo.21341521.\n'
+          t = replace_once(t, old, new, 'ATLD attribution block')
+          old = 'Eight top-level PDFs in [`publications/`](publications/) mirror the deposited PDF files across seven DOI-bearing publication records: current MKUFT v2, the two deposited historical MKUFT v1 PDF files, ATLD, Layer Before Law, Recursive Constraint Closure, Addressed Admissible Futures, and Future-Splitting State Recruitment. The version DOI remains publication custody in every case. Voynich is excluded from that PDF set because its deposited/public carrier is DOCX.'
+          new = 'Eight existing top-level PDFs in [`publications/`](publications/) mirror deposited PDF files across the earlier DOI-bearing publication set, including the frozen ATLD v1.0 carrier. ATLD 2 v2.0 is additionally represented by [`publications/ATLD2_Evaluation_Protocol_v2.0/`](publications/ATLD2_Evaluation_Protocol_v2.0/), which records the exact Zenodo carrier checksum, page count, size, and DOI identity without pretending that a byte-identical GitHub binary mirror exists. Zenodo remains publication custody for every frozen DOI object. Voynich remains excluded from the PDF mirror set because its deposited/public carrier is DOCX.'
+          t = replace_once(t, old, new, 'repository mirror status')
+          write(p, t)
+
+          # 5) Canon map: make 25B visible at the canonical AI route and in the
+          # active-traversal dependency group without disturbing unrelated numbering.
+          p = 'CANON_MAP.md'
+          t = read(p)
+          old = '4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n5. [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)'
+          new = '4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n   - [ATLD 2 Residual Coordinate Measurement and Self-Audit — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) — live successor measurement fold for residual-coordinate retention/collapse, no-smuggling, and causal-shadow control; ATLD 2 version DOI `10.5281/zenodo.22068803`.\n5. [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)'
+          t = replace_once(t, old, new, 'canon AI 25B route')
+          old = '- [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n- [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)'
+          new = '- [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n- [ATLD 2 Residual Coordinate Measurement and Self-Audit](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)\n- [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)'
+          t = replace_once(t, old, new, 'canon active traversal list')
+          write(p, t)
+
+          # 6) Cross-support map: explicit dependency edge 25 -> 25B and group ownership.
+          p = 'docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md'
+          t = read(p)
+          old = '[ATLD Publication](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)'
+          new = '[ATLD Publication Family](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [ATLD 2 Residual Measurement Audit](25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)'
+          t = replace_once(t, old, new, 'cross-support AI route')
+          old = '- [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n- [Fundamental Traversal Coherence Nodes](25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)'
+          new = '- [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n- [ATLD 2 Residual Measurement Audit](25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)\n- [Fundamental Traversal Coherence Nodes](25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)'
+          t = replace_once(t, old, new, 'cross-support active traversal owners')
+          old = 'These carry matched architecture controls, full-history replay, relationship specificity, relation-level/node-level deformation, adaptive addressed-state comparison, local-feasibility versus higher-scale-capability tests, identity/addressability guards, temporal continuity, completion fibers, macro realisation classes, transport, recursive readdressing, explicit interface-state promotion, and structural versus empirical load.'
+          new = 'These carry matched architecture controls, full-history replay, relationship specificity, relation-level/node-level deformation, ATLD 2 residual-coordinate removal/no-smuggling/causal-shadow audit and candidate retention/collapse, adaptive addressed-state comparison, local-feasibility versus higher-scale-capability tests, identity/addressability guards, temporal continuity, completion fibers, macro realisation classes, transport, recursive readdressing, explicit interface-state promotion, and structural versus empirical load.'
+          t = replace_once(t, old, new, 'cross-support group description')
+          write(p, t)
+
+          # 7) Repository front page: current ATLD2 route without erasing v1 lineage,
+          # plus live 25B underneath its deformation parent.
+          p = 'README.md'
+          t = read(p)
+          old = '1. [ATLD v1.0 — published paper](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md) — standalone matched-control evaluation protocol; exact version DOI `10.5281/zenodo.21341521`; [publication record and archive](ATLD_STANDALONE_PUBLICATION.md).'
+          new = '1. [ATLD 2 v2.0 — published successor](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md) — residual-coordinate and self-auditing matched-control evaluation for long-horizon AI systems; exact version DOI `10.5281/zenodo.22068803`, ATLD concept DOI `10.5281/zenodo.21341520`; [publication-family record](ATLD_STANDALONE_PUBLICATION.md).\n   - [ATLD v1.0 — frozen predecessor](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md) — original matched-control protocol, exact version DOI `10.5281/zenodo.21341521`.'
+          t = replace_once(t, old, new, 'README ATLD current route')
+          old = '4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) — controlled deformation and load classification.'
+          new = old + '\n   - [ATLD 2 Residual Coordinate Measurement and Self-Audit — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) — live canonical successor fold for O/U/R/V/F retention, coordinate removal, no-smuggling, causal-shadow control, and collapse conditions.'
+          t = replace_once(t, old, new, 'README Module 25B route')
+          marker = '### Other published DOI papers\n\n'
+          insert = marker + '- **Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems** — version 2.0, 23 August 2026; version DOI [10.5281/zenodo.22068803](https://doi.org/10.5281/zenodo.22068803); ATLD concept DOI [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520); predecessor v1.0 DOI [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521).\n'
+          t = replace_once(t, marker, insert, 'README published ATLD2 bullet')
+          write(p, t)
+
+          print('ATLD2 structural fold repairs applied successfully.')
+          PY
+
+          git config user.name 'Mark Charles McLaughlin'
+          git config user.email 'mark45cdo@gmail.com'
+          git rm .github/workflows/_temp_atld2_fold_repair.yml
+          git add tools/check_atld2_publication_routes.py \
+                  publications/ATLD2_Evaluation_Protocol_v2.0/SHA256SUMS.txt \
+                  MODULE_RIGHTS_MATRIX.md \
+                  PROVENANCE_DOI_AND_ATTRIBUTION.md \
+                  CANON_MAP.md \
+                  docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md \
+                  README.md
+          git diff --cached --check
+          git commit -m 'Close ATLD2 canon, provenance, rights, and gate gaps'
+          git push origin HEAD:atld2-v2-publication-fold-20260823
