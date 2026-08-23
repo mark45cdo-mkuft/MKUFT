@@ -84,7 +84,6 @@ REQUIRED = {
         "LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf",
         "RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf",
         "ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf",
-        "deposited/public Voynich publication carrier is DOCX",
     ],
     "PUBLIC_DISCOVERY_ANCHOR.md": [
         VOYNICH_VERSION,
@@ -139,7 +138,6 @@ REQUIRED = {
         "publications/LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf",
         "publications/RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf",
         "publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf",
-        "deposited/public carrier is DOCX",
     ],
     "MODULE_RIGHTS_MATRIX.md": [
         FSSR_VERSION,
