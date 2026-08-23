@@ -94,14 +94,29 @@ Originating MKUFT DOI: `10.5281/zenodo.17780566`
 
 The repository text mirror is split mechanically into eight ordered parts for reliable cloning, recovery, and checksum verification. Those frozen parts are preservation objects and are not edited to track later live MKUFT changes. The top-level DOI PDF mirror preserves the frozen visual carrier while the Zenodo version remains controlling publication custody.
 
-### Voynich Manuscript – Systems/Engine Framework
+### Voynich v2.0 — consolidated successor
 
-- [Human-readable GitHub edition](../papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md)
-- [Standalone publication record](../VOYNICH_STANDALONE_PUBLICATION.md)
-- Version DOI: `10.5281/zenodo.18178638`
+- [Current human-readable GitHub edition](../papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md)
+- [Voynich publication-family record](../VOYNICH_STANDALONE_PUBLICATION.md)
+- [ESRT / ESF / Voynich support layer](../docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md)
+- [Voynich live hypothesis module](../docs/09_VOYNICH_PROCEDURAL_ENGINE.md)
+- [ESRT / ESF method appendix](../docs/10_ESRT_ESF_METHOD_APPENDIX.md)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22071229)
+
+Version DOI: `10.5281/zenodo.22071229`  
+Concept DOI: `10.5281/zenodo.18178637`  
+Historical predecessor DOI: `10.5281/zenodo.18178638`
+
+The current 16-page PDF is the recommended scientific reading object in the continuing Voynich concept lineage. Repository routes record its DOI, page count, size, MD5 and SHA-256 without claiming a byte-identical GitHub PDF mirror unless one is independently established. The historical predecessor remains citable and is not overwritten.
+
+### Voynich Manuscript – Systems/Engine Framework — historical predecessor
+
+- [Historical human-readable GitHub edition](../papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md)
+- [Publication-family record](../VOYNICH_STANDALONE_PUBLICATION.md)
+- Historical version DOI: `10.5281/zenodo.18178638`
 - Concept DOI: `10.5281/zenodo.18178637`
 
-The deposited/public Voynich publication object is DOCX. It is deliberately excluded from this DOI-PDF mirror pass; this repository does not manufacture a synthetic PDF and mislabel it as the deposited publication carrier.
+The deposited/public Voynich publication object is DOCX for this historical predecessor. It remains deliberately excluded from the DOI-PDF mirror set; this repository does not manufacture a synthetic historical PDF and mislabel it as the deposited carrier.
 
 ## Public preprints awaiting standalone DOI
 
@@ -113,10 +128,12 @@ A frozen publication mirror or identity record is not a live module. A live modu
 
 For ATLD 2, the `docs/25B...` object is the evolving MKUFT measurement fold, the `papers/2026-08-23...` object is the public reader/source route, the root ATLD publication-family record owns DOI/version/citation relationships, the repository identity record owns the recorded checksum/page-count witness, and the Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
 
+For Voynich v2.0, Modules 07/09/10 remain the live support/method owners, the `papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md` object is the current reader/source route, `VOYNICH_STANDALONE_PUBLICATION.md` owns version/concept/predecessor custody and carrier identity, and the Zenodo PDF is the frozen publication object. The old DOI/version remains historical provenance.
+
 For FSSR, the `docs/33S7...` object is the evolving MKUFT module fold, the `papers/2026-08-22...` object is the public reader/source route, the root publication record owns DOI/version/citation custody, and the professionally typeset Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
 
 For AAF, the `docs/33S6...` object is the evolving MKUFT module fold, the `papers/2026-08-20...` object is the public reader/source route, the root publication record owns DOI/version/citation custody, and the professionally typeset Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
 
-The eight existing top-level PDF files are repository mirrors only, covering seven DOI-bearing publication records because historical MKUFT v1 contributes two deposited PDFs. ATLD 2 v2.0 is additionally represented by a frozen identity/checksum record linked to the exact Zenodo carrier. No paper body, equation, DOI identity, licence boundary, or live-module ownership is altered by either preservation route.
+The eight existing top-level PDF files are repository mirrors only, covering seven DOI-bearing publication records because historical MKUFT v1 contributes two deposited PDFs. ATLD 2 v2.0 and Voynich v2.0 are additionally represented by explicit frozen identity/checksum records and current public routes where no byte-identical GitHub binary mirror has been independently established. No paper body, equation, DOI identity, licence boundary, or live-module ownership is altered by either preservation route.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier, discovery, and DOI-freeze rules.
