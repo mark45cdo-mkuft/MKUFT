@@ -32,10 +32,78 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: read
+  contents: write
   issues: write
 
 jobs:
+  repair-atld2-canon-fold:
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'atld2-v2-publication-fold-20260823'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: atld2-v2-publication-fold-20260823
+          fetch-depth: 2
+      - name: Patch remaining ATLD2 canon traversal owners
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          def patch(path, replacements):
+              p = Path(path)
+              text = p.read_text(encoding='utf-8')
+              for label, old, new in replacements:
+                  n = text.count(old)
+                  if n != 1:
+                      raise SystemExit(f'{path} / {label}: expected 1 match, found {n}')
+                  text = text.replace(old, new, 1)
+              p.write_text(text, encoding='utf-8')
+
+          patch('CANON_MAP.md', [
+              ('AI route',
+               '4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n5. [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)',
+               '4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n   - [ATLD 2 Residual Coordinate Measurement and Self-Audit — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) — live successor measurement fold for residual-coordinate retention/collapse, no-smuggling, and causal-shadow control; ATLD 2 version DOI `10.5281/zenodo.22068803`.\n5. [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)'),
+              ('active traversal owners',
+               '- [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n- [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)',
+               '- [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n- [ATLD 2 Residual Coordinate Measurement and Self-Audit](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)\n- [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)'),
+          ])
+
+          patch('docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md', [
+              ('AI chain',
+               '[ATLD Publication](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)',
+               '[ATLD Publication Family](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [ATLD 2 Residual Measurement Audit](25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)'),
+              ('owner list',
+               '- [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n- [Fundamental Traversal Coherence Nodes](25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)',
+               '- [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n- [ATLD 2 Residual Measurement Audit](25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)\n- [Fundamental Traversal Coherence Nodes](25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)'),
+              ('group description',
+               'These carry matched architecture controls, full-history replay, relationship specificity, relation-level/node-level deformation, adaptive addressed-state comparison, local-feasibility versus higher-scale-capability tests, identity/addressability guards, temporal continuity, completion fibers, macro realisation classes, transport, recursive readdressing, explicit interface-state promotion, and structural versus empirical load.',
+               'These carry matched architecture controls, full-history replay, relationship specificity, relation-level/node-level deformation, ATLD 2 residual-coordinate removal/no-smuggling/causal-shadow audit and candidate retention/collapse, adaptive addressed-state comparison, local-feasibility versus higher-scale-capability tests, identity/addressability guards, temporal continuity, completion fibers, macro realisation classes, transport, recursive readdressing, explicit interface-state promotion, and structural versus empirical load.'),
+          ])
+
+          patch('README.md', [
+              ('current ATLD route',
+               '1. [ATLD v1.0 — published paper](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md) — standalone matched-control evaluation protocol; exact version DOI `10.5281/zenodo.21341521`; [publication record and archive](ATLD_STANDALONE_PUBLICATION.md).',
+               '1. [ATLD 2 v2.0 — published successor](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md) — residual-coordinate and self-auditing matched-control evaluation for long-horizon AI systems; exact version DOI `10.5281/zenodo.22068803`, ATLD concept DOI `10.5281/zenodo.21341520`; [publication-family record](ATLD_STANDALONE_PUBLICATION.md).\n   - [ATLD v1.0 — frozen predecessor](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md) — original matched-control protocol, exact version DOI `10.5281/zenodo.21341521`.'),
+              ('25B route',
+               '4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) — controlled deformation and load classification.',
+               '4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) — controlled deformation and load classification.\n   - [ATLD 2 Residual Coordinate Measurement and Self-Audit — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) — live canonical successor fold for O/U/R/V/F retention, coordinate removal, no-smuggling, causal-shadow control, and collapse conditions.'),
+              ('published DOI bullet',
+               '### Other published DOI papers\n\n',
+               '### Other published DOI papers\n\n- **Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems** — version 2.0, 23 August 2026; version DOI [10.5281/zenodo.22068803](https://doi.org/10.5281/zenodo.22068803); ATLD concept DOI [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520); predecessor v1.0 DOI [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521).\n'),
+          ])
+          PY
+
+          # Restore the clean, non-mutating workflow from this commit's parent.
+          git show HEAD^:.github/workflows/markdown-rendering-integrity.yml > .github/workflows/markdown-rendering-integrity.yml
+
+          git config user.name 'Mark Charles McLaughlin'
+          git config user.email 'mark45cdo@gmail.com'
+          git add CANON_MAP.md docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md README.md .github/workflows/markdown-rendering-integrity.yml
+          git diff --cached --check
+          git commit -m 'Close ATLD2 canon traversal and public entry routes'
+          git push origin HEAD:atld2-v2-publication-fold-20260823
+
   integrity-contract:
     runs-on: ubuntu-latest
     steps:
