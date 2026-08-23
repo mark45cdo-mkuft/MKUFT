@@ -26,6 +26,23 @@ The v2 publication is the current principal MKUFT publication in the historical 
 
 ## Published DOI papers
 
+### Active Traversal and Load-Bearing Dependency II (ATLD 2)
+
+*Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems*
+
+**Version:** 2.0 — 23 August 2026  
+**Version DOI:** [10.5281/zenodo.22068803](https://doi.org/10.5281/zenodo.22068803)  
+**ATLD concept DOI:** [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520)  
+**Predecessor v1.0 DOI:** [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521)
+
+- [Public GitHub paper route](2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)
+- [ATLD publication-family record](../ATLD_STANDALONE_PUBLICATION.md)
+- [Canonical MKUFT measurement fold — Module 25B](../docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
+- [Frozen v2.0 identity/checksum record](../publications/ATLD2_Evaluation_Protocol_v2.0/)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22068803)
+
+ATLD 2 preserves the v1.0 causal grammar while turning measurement incompleteness into the object of study. It proposes five candidate residual readouts — exact object/address custody (O), permission/action-state integrity (U), future-sufficient continuity/re-entry fidelity (R), receiver-side closure (V), and parent fixed-point closure (F) — and subjects them to direct/mirror deformation, coordinate removal, no-smuggling, causal-shadow, coalition, held-out, and cross-model retention tests. A fixed 15-case Release Relay pilot demonstrates shaped scoring without claiming confirmatory validation or system superiority. The pilot's RR-14 residual was already owned by L + route support/first break, with movement in G; no thirteenth coordinate was justified.
+
 ### Future-Splitting State Recruitment
 
 *A Cross-Domain Assay for State Adequacy and Prospective Mechanism Activation*
@@ -69,7 +86,7 @@ AAF defines Address through target-relative future sufficiency, separates presen
 
 The deposited/public Voynich publication carrier is DOCX, so this PDF-mirror set deliberately does not synthesize a replacement PDF.
 
-### Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures
+### Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures — predecessor v1.0
 
 **Subtitle:** *A Matched-Control Evaluation Protocol for AI Systems*  
 **Version:** 1.0 — 13 July 2026  
@@ -78,8 +95,10 @@ The deposited/public Voynich publication carrier is DOCX, so this PDF-mirror set
 
 - [Frozen DOI PDF mirror](../publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf)
 - [Human-readable GitHub landing page](2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md)
-- [Publication record](../ATLD_STANDALONE_PUBLICATION.md)
+- [Publication-family record](../ATLD_STANDALONE_PUBLICATION.md)
 - [Frozen text mirror and integrity manifest](../publications/ATLD_Evaluation_Protocol_v1.0/)
+
+ATLD v1.0 remains the frozen causal predecessor and is not silently rewritten by ATLD 2.
 
 ### Recursive Constraint Closure and Reachable-State Geometry
 
@@ -124,6 +143,8 @@ The [research-module PDF reading editions](../publications/module-reading-editio
 
 In particular, [Module 33 — SIPO Capstone](../docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) is a **canonical architectural module**, not a standalone publication. Its PDF and Drive copies are synchronized reading editions of that module and should not be presented as though they were journal-style papers.
 
+[Module 25B — ATLD 2 Residual Coordinate Measurement and Self-Audit](../docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) is likewise a **live canonical measurement fold**, not a second DOI paper. The exact ATLD 2 v2.0 Zenodo PDF remains the frozen publication object.
+
 ## Integrity rule
 
 A paper is not identified by formatting alone. The repository distinguishes:
@@ -132,8 +153,9 @@ A paper is not identified by formatting alone. The repository distinguishes:
 2. **public preprint / repository paper route** — reader-facing source inside `papers/`;
 3. **publication record** — DOI/version/citation/custody route at repository root;
 4. **frozen deposit** — exact DOI-bearing object controlled by the deposited publication;
-5. **Drive mirror/reading edition** — convenience carrier, not a silent replacement for any of the above.
+5. **repository identity/checksum record or exact binary mirror** — preservation route that must identify, not impersonate, the deposit;
+6. **Drive mirror/reading edition** — convenience carrier, not a silent replacement for any of the above.
 
-The top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of the corresponding frozen DOI-record PDF files. They are convenience and preservation carriers; the version DOI remains publication custody. Seven DOI-bearing publication records are represented by eight PDF files because historical MKUFT v1 contains two deposited PDFs.
+The existing top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of their corresponding frozen DOI-record PDF files. ATLD 2 v2.0 is presently represented in-repository by an exact checksum/page-count identity record linked to the controlling Zenodo PDF rather than by claiming a binary mirror that has not been independently established at that GitHub address.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier and publication rules.
