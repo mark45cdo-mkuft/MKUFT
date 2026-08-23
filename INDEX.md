@@ -29,7 +29,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - **Addressed Admissible Futures: Future-Sufficient State, Load-Bearing Relations, and Restorative Reachability**, v0.1 — DOI `10.5281/zenodo.22031333`; concept DOI `10.5281/zenodo.22031332`; [publication record](AAF_STANDALONE_PUBLICATION.md); [canonical fold, Module 33S6](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md).
 - **Layer Before Law: An Addressed Architecture for Relational Admissibility, Effective Law Selection, and Quantum-Gravitational Recovery**, v1.0 — DOI `10.5281/zenodo.21971270`; [publication record](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md).
 - **Recursive Constraint Closure and Reachable-State Geometry: An Addressed Formalism for Adaptive Systems with Changing Possibility Spaces**, v0.1 — DOI `10.5281/zenodo.21971425`; [publication record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md).
-- **Voynich Manuscript – Systems/Engine Framework** — version DOI `10.5281/zenodo.18178638`; concept DOI `10.5281/zenodo.18178637`; [publication record](VOYNICH_STANDALONE_PUBLICATION.md).
+- **The Voynich Manuscript as a Candidate Procedural-Executable Information System**, v2.0 — DOI `10.5281/zenodo.22071229`; concept DOI `10.5281/zenodo.18178637`; historical predecessor DOI `10.5281/zenodo.18178638`; [publication-family record](VOYNICH_STANDALONE_PUBLICATION.md); [current paper route](papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md); live support remains in Modules [07](docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md), [09](docs/09_VOYNICH_PROCEDURAL_ENGINE.md), and [10](docs/10_ESRT_ESF_METHOD_APPENDIX.md).
 - **ATLD v1.0 predecessor** — version DOI `10.5281/zenodo.21341521`; concept DOI `10.5281/zenodo.21341520`; [publication-family record](ATLD_STANDALONE_PUBLICATION.md).
 
 ## Current public research preprints
@@ -102,6 +102,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [ESRT / ESF and Voynich Support](docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md)
 - [ESRT / ESF Method Appendix](docs/10_ESRT_ESF_METHOD_APPENDIX.md)
 - [Voynich Procedural-Structure Hypothesis](docs/09_VOYNICH_PROCEDURAL_ENGINE.md)
+- [Voynich v2.0 consolidated publication route](papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md)
 - [Individuality, Boundary Cost, and Cohesion](docs/12_INDIVIDUAL_REALITY_COST_AND_COHESION.md)
 - [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
 - [Frequency, Quantum Paradoxes, and Symbolic Bridges](docs/15_PARADOXES_FREQUENCY_ATOMS_AND_SYMBOLIC_PHYSICS.md)

@@ -28,7 +28,8 @@ This page provides a compact identity record for public search, citation, and di
 - [ATLD 2 canonical measurement fold — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
 - [Future-Splitting State Recruitment Standalone Publication](FSSR_STANDALONE_PUBLICATION.md)
 - [Addressed Admissible Futures Standalone Publication](AAF_STANDALONE_PUBLICATION.md)
-- [Voynich Standalone Publication](VOYNICH_STANDALONE_PUBLICATION.md)
+- [Voynich Publication Family](VOYNICH_STANDALONE_PUBLICATION.md)
+- [Voynich v2.0 consolidated paper route](papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md)
 - [Recursive Constraint Closure Standalone Publication](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md)
 - [Layer Before Law Standalone Publication](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md)
 - [Citation metadata](CITATION.cff)
@@ -44,7 +45,7 @@ This page provides a compact identity record for public search, citation, and di
 - **Addressed Admissible Futures v0.1:** version DOI `10.5281/zenodo.22031333`; concept DOI `10.5281/zenodo.22031332`
 - **Layer Before Law v1.0:** `10.5281/zenodo.21971270`
 - **Recursive Constraint Closure v0.1:** `10.5281/zenodo.21971425`
-- **Voynich Manuscript – Systems/Engine Framework:** version DOI `10.5281/zenodo.18178638`; concept DOI `10.5281/zenodo.18178637`
+- **Voynich v2.0 — The Voynich Manuscript as a Candidate Procedural-Executable Information System:** version DOI `10.5281/zenodo.22071229`; concept DOI `10.5281/zenodo.18178637`; historical predecessor DOI `10.5281/zenodo.18178638`
 - **ATLD v1.0 predecessor:** version DOI `10.5281/zenodo.21341521`; concept DOI `10.5281/zenodo.21341520`
 
 ## Public search fingerprints
@@ -61,7 +62,7 @@ Layer Before Law · relational admissibility · effective law selection · quant
 
 Recursive Constraint Closure and Reachable-State Geometry · addressed adaptive systems · changing possibility spaces · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.21971425
 
-Voynich Manuscript – Systems/Engine Framework · version DOI 10.5281/zenodo.18178638 · Mark Charles McLaughlin
+The Voynich Manuscript as a Candidate Procedural-Executable Information System · ESRT · ESF · NLT · Addressing · State · Flow · procedural information · manuscript structure · falsifiable validation programme · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22071229 · concept DOI 10.5281/zenodo.18178637 · historical predecessor DOI 10.5281/zenodo.18178638
 
 ATLD v1.0 · Active Traversal and Load-Bearing Dependency · predecessor version DOI 10.5281/zenodo.21341521 · Mark Charles McLaughlin
 
@@ -110,6 +111,10 @@ ATLD v1.0 · Active Traversal and Load-Bearing Dependency · predecessor version
 - LUCY
 - OCQS
 - ESRT / ESF
+- Voynich Manuscript
+- procedural-executable information system
+- Addressing State Flow
+- NLT structural grammar
 - ATLD
 - strongest fair null
 - controlled deformation
@@ -117,5 +122,3 @@ ATLD v1.0 · Active Traversal and Load-Bearing Dependency · predecessor version
 ## Supporting public archive
 
 [MKUFT supporting archive on Google Drive](https://drive.google.com/drive/folders/1DvWkzpSYmkHD-QY4sZ-WTfU2S2xrJCWq?usp=drive_link)
-
-The scientific, version, and rights status of a document is determined by the exact object being used, not merely by its presence in a repository or supporting archive. Drive reading editions do not silently replace DOI-bearing papers or live GitHub owners.

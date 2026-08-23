@@ -54,20 +54,32 @@ Repository preservation routes:
 
 The historical Zenodo record contains two deposited PDF files — `MKUFT falsifications.pdf` and `MKUFT_Math_Appendix.pdf` — rather than one all-in-one publication PDF. The repository mirrors those two exact carriers separately and does not manufacture a combined historical-v1 PDF. The historical version remains citable as its own frozen object. Current discovery should route to v2 for the principal MKUFT publication while retaining v1 as historical lineage.
 
-## Voynich Manuscript – Systems/Engine Framework
+## Voynich publication family
 
+**Current title:** *The Voynich Manuscript as a Candidate Procedural-Executable Information System*  
 **Author:** Mark Charles McLaughlin  
-**Version DOI:** `10.5281/zenodo.18178638`  
+**Current version:** 2.0  
+**Publication date:** 23 August 2026  
+**Current version DOI:** `10.5281/zenodo.22071229`  
 **Concept DOI:** `10.5281/zenodo.18178637`  
+**Historical predecessor DOI:** `10.5281/zenodo.18178638`  
 **Related MKUFT lineage:** current v2 DOI `10.5281/zenodo.21973064`; historical v1 DOI `10.5281/zenodo.17780566`
 
 Public routes:
 
-- [GitHub human-readable DOI-paper edition](papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md)
-- [Standalone publication record](VOYNICH_STANDALONE_PUBLICATION.md)
-- [Live repository support module](docs/09_VOYNICH_PROCEDURAL_ENGINE.md)
+- [Current v2.0 GitHub paper route](papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md)
+- [Voynich publication-family record](VOYNICH_STANDALONE_PUBLICATION.md)
+- [Historical predecessor reading edition](papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md)
+- [ESRT / ESF / Voynich support layer](docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md)
+- [Live Voynich support module](docs/09_VOYNICH_PROCEDURAL_ENGINE.md)
+- [ESRT / ESF method appendix](docs/10_ESRT_ESF_METHOD_APPENDIX.md)
+- [Zenodo v2.0 publication](https://doi.org/10.5281/zenodo.22071229)
 
-The Voynich paper is a separate applied research object. Its deposited/public carrier is DOCX, so the DOI-PDF mirror pass does not manufacture a replacement PDF. The version DOI identifies the frozen publication version; the concept DOI identifies the continuing Zenodo record family. Its exact licence and version-specific reuse rights must be taken from the corresponding deposited record/source.
+The Voynich paper is a separate applied-research publication family. The historical DOI `10.5281/zenodo.18178638` remains a frozen earlier version and priority record; it is not erased or rewritten by v2.0. The v2.0 consolidation is the recommended scientific reading object because it preserves the earlier hypotheses while distinguishing archived exploratory findings, current evidence status, strongest ordinary alternatives, falsifiers, and the prospective validation required for promotion.
+
+The current paper does not claim a translation, proven original historical use, demonstrated operator semantics, or a metaphysical mechanism. It proposes a comparative programme testing whether Addressing, State and Flow carry perturbation-sensitive predictive structure beyond linguistic, cipher, scribal, mnemonic, diagrammatic, decorative and frequency baselines. Voynich cannot bootstrap MKUFT physical claims, and MKUFT membership cannot bootstrap the Voynich evidence.
+
+The exact v2.0 PDF carrier recorded at publication fold is 16 pages and 430,789 bytes, MD5 `dd0d6a7176da51ce69b9466408df4c39`, SHA-256 `367f961ef33961ade02e19ac3e440844606dc6fc250b269d59951d366540fcff`. The exact licence and version-specific reuse rights must be taken from the corresponding deposited record/source; this repository does not infer a licence not independently verified for the exact object.
 
 ## ATLD publication family
 
@@ -181,7 +193,7 @@ If LUCY is later published as a separate research object, it should receive its 
 
 ## ESRT / ESF placement
 
-ESRT and ESF are method layers supporting executable-system recognition and procedural analysis. They support MKUFT/Voynich work but do not replace either publication object or the MKUFT physical framework.
+ESRT and ESF are method layers supporting executable-system recognition and procedural analysis. They support MKUFT/Voynich work but do not replace either publication object or the MKUFT physical framework. Current Voynich publication discovery routes through `VOYNICH_STANDALONE_PUBLICATION.md` and `papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md`, while live method ownership remains in Modules 07, 09 and 10.
 
 ## Current GitHub source-module rights
 
@@ -217,9 +229,13 @@ For Recursive Constraint Closure:
 
 > McLaughlin, Mark Charles. (2026). *Recursive Constraint Closure and Reachable-State Geometry: An Addressed Formalism for Adaptive Systems with Changing Possibility Spaces*. Version 0.1. Zenodo. DOI: 10.5281/zenodo.21971425.
 
-For the exact Voynich version:
+For the current Voynich v2.0 publication:
 
-> Mark Charles McLaughlin. *Voynich Manuscript – Systems/Engine Framework*. Version DOI: 10.5281/zenodo.18178638. Concept DOI: 10.5281/zenodo.18178637.
+> McLaughlin, Mark Charles. (2026). *The Voynich Manuscript as a Candidate Procedural-Executable Information System*. Version 2.0. Zenodo. DOI: 10.5281/zenodo.22071229. Concept DOI: 10.5281/zenodo.18178637.
+
+For the historical Voynich predecessor:
+
+> Mark Charles McLaughlin. *Voynich Manuscript – Systems/Engine Framework*. Historical version DOI: 10.5281/zenodo.18178638. Concept DOI: 10.5281/zenodo.18178637.
 
 For the exact ATLD 2 v2.0 paper:
 
@@ -233,7 +249,7 @@ For the exact ATLD v1.0 predecessor:
 
 This GitHub repository is the live public working and publication-discovery layer. It does not erase frozen Zenodo records or silently insert later live changes into them.
 
-Eight existing top-level PDFs in [`publications/`](publications/) mirror deposited PDF files across the earlier DOI-bearing publication set, including the frozen ATLD v1.0 carrier. ATLD 2 v2.0 is additionally represented by [`publications/ATLD2_Evaluation_Protocol_v2.0/`](publications/ATLD2_Evaluation_Protocol_v2.0/), which records the exact Zenodo carrier checksum, page count, size, and DOI identity without pretending that a byte-identical GitHub binary mirror exists. Zenodo remains publication custody for every frozen DOI object. Voynich remains excluded from the PDF mirror set because its deposited/public carrier is DOCX.
+Eight existing top-level PDFs in [`publications/`](publications/) mirror deposited PDF files across the earlier DOI-bearing publication set, including the frozen ATLD v1.0 carrier. ATLD 2 v2.0 is additionally represented by [`publications/ATLD2_Evaluation_Protocol_v2.0/`](publications/ATLD2_Evaluation_Protocol_v2.0/), which records the exact Zenodo carrier checksum, page count, size, and DOI identity without pretending that a byte-identical GitHub binary mirror exists. Voynich v2.0 is likewise routed through its DOI, current paper page and publication-family checksum identity; no byte-identical GitHub PDF mirror is claimed unless independently established. The historical Voynich predecessor remains a DOCX-carrier version. Zenodo remains publication custody for every frozen DOI object.
 
 Google Drive may hold synchronized reading editions and paper copies. A Drive copy is a carrier, not automatic scientific or publication custody. The dedicated Drive `00_PAPERS_AND_PUBLICATIONS` shelf separates actual paper objects from synchronized module-reading editions.
 

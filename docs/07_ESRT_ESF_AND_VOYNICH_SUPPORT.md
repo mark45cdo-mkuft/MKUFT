@@ -2,10 +2,15 @@
 
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
-**MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Current MKUFT DOI:** [10.5281/zenodo.21973064](https://doi.org/10.5281/zenodo.21973064)  
+**Historical MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
+**Current Voynich v2.0 DOI:** [10.5281/zenodo.22071229](https://doi.org/10.5281/zenodo.22071229)  
+**Voynich concept DOI:** [10.5281/zenodo.18178637](https://doi.org/10.5281/zenodo.18178637)  
+**Historical Voynich predecessor DOI:** [10.5281/zenodo.18178638](https://doi.org/10.5281/zenodo.18178638)  
+**Current publication route:** [Voynich ESRT / ESF consolidated v2.0](../papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md)  
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-**Status:** public support and applied-case module.
+**Status:** public support and applied-case module. The v2.0 DOI paper is the frozen consolidated publication; this live module remains the support/integration owner and may evolve independently.
 
 ## Purpose
 
@@ -57,6 +62,8 @@ The Voynich work is an application of MKUFT/ESRT/ESF reasoning. It does not esta
 
 A structural pattern is not evidence of original historical intent merely because it fits the ESRT/ESF grammar. The application requires blinded comparison, perturbation tests, held-out prediction, and explicit ordinary alternatives.
 
+The current v2.0 consolidation does not erase the earlier Voynich version DOI `10.5281/zenodo.18178638`; that object remains historical provenance. The consolidated DOI `10.5281/zenodo.22071229` is the current recommended scientific reading object in the same concept lineage.
+
 ## Public role
 
 The primary MKUFT scientific spine remains the [Core](01_MKUFT_CORE_EXTENDED.md), [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md), [Formal Addendum](03_STANDALONE_FORMAL_ADDENDUM.md), [Experimental Test Programme](04_EXPERIMENTAL_TEST_PROGRAM.md), and [Falsification Summary](05_FALSIFICATION_SUMMARY.md).
@@ -65,6 +72,8 @@ ESRT/ESF and Voynich are public support and application branches.
 
 ## Related public documents
 
+- [Current Voynich v2.0 consolidated publication](../papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md)
+- [Voynich publication-family record](../VOYNICH_STANDALONE_PUBLICATION.md)
 - [ESRT / ESF Method Appendix](10_ESRT_ESF_METHOD_APPENDIX.md)
 - [Voynich Procedural-Engine Analysis](09_VOYNICH_PROCEDURAL_ENGINE.md)
 - [Falsification Summary](05_FALSIFICATION_SUMMARY.md)

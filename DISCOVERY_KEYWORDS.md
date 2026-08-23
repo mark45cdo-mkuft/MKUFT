@@ -31,8 +31,9 @@ This file gives public search systems, citation tools, GitHub search, and AI ret
 - Addressed Admissible Futures concept DOI: `10.5281/zenodo.22031332`
 - Layer Before Law version DOI: `10.5281/zenodo.21971270`
 - Recursive Constraint Closure version DOI: `10.5281/zenodo.21971425`
-- Voynich Manuscript – Systems/Engine Framework version DOI: `10.5281/zenodo.18178638`
+- Voynich current v2.0 version DOI: `10.5281/zenodo.22071229`
 - Voynich concept DOI: `10.5281/zenodo.18178637`
+- Voynich historical predecessor version DOI: `10.5281/zenodo.18178638`
 - GitHub repository: `mark45cdo-mkuft/MKUFT`
 
 ## Citation identity
@@ -125,11 +126,24 @@ Formal author/citation identity is maintained in:
 - Executable System Framework
 - ESRT
 - Executable System Recognition Test
+- NLT structural grammar
+- Node Line Token
+- Voynich Manuscript
+- procedural-executable information system
+- Addressing State Flow
+- procedural information
+- manuscript structure
+- positional addressing
+- state representation
+- flow
+- perturbation-sensitive structure
+- rotation shift shuffle ablation
+- held-out folios
+- matched manuscripts
+- competing linguistic cipher scribal mnemonic diagrammatic decorative models
 - ATLD
 - Active Traversal and Load-Bearing Dependency
 - matched-control evaluation protocol
-- Voynich Manuscript – Systems/Engine Framework
-- procedural systems analysis
 
 ## Direct research-output routes
 
@@ -142,8 +156,12 @@ Formal author/citation identity is maintained in:
 - `docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md`
 - `papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md`
 - `AAF_STANDALONE_PUBLICATION.md`
+- `papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md`
 - `papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md`
 - `VOYNICH_STANDALONE_PUBLICATION.md`
+- `docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md`
+- `docs/09_VOYNICH_PROCEDURAL_ENGINE.md`
+- `docs/10_ESRT_ESF_METHOD_APPENDIX.md`
 - `papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md`
 - `papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md`
 - `RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md`
@@ -159,7 +177,7 @@ Future-Splitting State Recruitment FSSR State Adequacy Prospective Mechanism Act
 Addressed Admissible Futures Future-Sufficient State Load-Bearing Relations Restorative Reachability Mark Charles McLaughlin Zenodo 10.5281/zenodo.22031333 concept 10.5281/zenodo.22031332
 Layer Before Law Mark Charles McLaughlin Zenodo 10.5281/zenodo.21971270
 Recursive Constraint Closure Reachable-State Geometry Mark Charles McLaughlin Zenodo 10.5281/zenodo.21971425
-Voynich Manuscript Systems Engine Framework Mark Charles McLaughlin Zenodo 10.5281/zenodo.18178638
+Voynich Manuscript Candidate Procedural-Executable Information System ESRT ESF NLT Addressing State Flow Mark Charles McLaughlin Zenodo 10.5281/zenodo.22071229 concept 10.5281/zenodo.18178637 historical predecessor 10.5281/zenodo.18178638
 ATLD v1 Active Traversal Load-Bearing Dependency Mark Charles McLaughlin Zenodo 10.5281/zenodo.21341521
 ```
 

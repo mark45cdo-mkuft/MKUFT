@@ -7,8 +7,10 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 
-VOYNICH_VERSION = "10.5281/zenodo.18178638"
+VOYNICH_CURRENT = "10.5281/zenodo.22071229"
+VOYNICH_VERSION = "10.5281/zenodo.18178638"  # historical predecessor
 VOYNICH_CONCEPT = "10.5281/zenodo.18178637"
+VOYNICH_CURRENT_PAPER = "2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md"
 ATLD_VERSION = "10.5281/zenodo.21341521"
 ATLD_CONCEPT = "10.5281/zenodo.21341520"
 MKUFT_VERSION = "10.5281/zenodo.21973064"
@@ -48,7 +50,10 @@ REQUIRED = {
     ],
     "INDEX.md": [
         "papers/README.md",
+        VOYNICH_CURRENT,
         VOYNICH_VERSION,
+        VOYNICH_CONCEPT,
+        VOYNICH_CURRENT_PAPER,
         ATLD_VERSION,
         FSSR_VERSION,
         "FSSR_STANDALONE_PUBLICATION.md",
@@ -64,7 +69,10 @@ REQUIRED = {
         "33S4–33S7",
     ],
     "papers/README.md": [
+        VOYNICH_CURRENT,
         VOYNICH_VERSION,
+        VOYNICH_CONCEPT,
+        VOYNICH_CURRENT_PAPER,
         ATLD_VERSION,
         LAYER_BEFORE_LAW_VERSION,
         RCC_VERSION,
@@ -84,11 +92,12 @@ REQUIRED = {
         "LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf",
         "RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf",
         "ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf",
-        "deposited/public Voynich publication carrier is DOCX",
     ],
     "PUBLIC_DISCOVERY_ANCHOR.md": [
+        VOYNICH_CURRENT,
         VOYNICH_VERSION,
         VOYNICH_CONCEPT,
+        VOYNICH_CURRENT_PAPER,
         ATLD_VERSION,
         ATLD_CONCEPT,
         AAF_VERSION,
@@ -101,7 +110,10 @@ REQUIRED = {
         "Recursive Constraint Closure",
     ],
     "DISCOVERY_KEYWORDS.md": [
+        VOYNICH_CURRENT,
         VOYNICH_VERSION,
+        VOYNICH_CONCEPT,
+        VOYNICH_CURRENT_PAPER,
         ATLD_VERSION,
         LAYER_BEFORE_LAW_VERSION,
         RCC_VERSION,
@@ -112,13 +124,16 @@ REQUIRED = {
         "Future-Splitting State Recruitment",
         "FSSR",
         FSSR_MODULE,
+        "Addressing State Flow",
     ],
     "PROVENANCE_DOI_AND_ATTRIBUTION.md": [
         MKUFT_VERSION,
         MKUFT_CONCEPT,
         MKUFT_HISTORICAL,
+        VOYNICH_CURRENT,
         VOYNICH_VERSION,
         VOYNICH_CONCEPT,
+        VOYNICH_CURRENT_PAPER,
         ATLD_VERSION,
         ATLD_CONCEPT,
         LAYER_BEFORE_LAW_VERSION,
@@ -139,7 +154,6 @@ REQUIRED = {
         "publications/LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf",
         "publications/RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf",
         "publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf",
-        "deposited/public carrier is DOCX",
     ],
     "MODULE_RIGHTS_MATRIX.md": [
         FSSR_VERSION,
@@ -162,9 +176,35 @@ REQUIRED = {
         VOYNICH_CONCEPT,
         "docs/09_VOYNICH_PROCEDURAL_ENGINE.md",
     ],
-    "VOYNICH_STANDALONE_PUBLICATION.md": [
+    f"papers/{VOYNICH_CURRENT_PAPER}": [
+        VOYNICH_CURRENT,
         VOYNICH_VERSION,
         VOYNICH_CONCEPT,
+        "Candidate Procedural-Executable Information System",
+        "Addressing",
+        "State",
+        "Flow",
+        "VOYNICH_STANDALONE_PUBLICATION.md",
+        "docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md",
+        "docs/09_VOYNICH_PROCEDURAL_ENGINE.md",
+        "docs/10_ESRT_ESF_METHOD_APPENDIX.md",
+        "dd0d6a7176da51ce69b9466408df4c39",
+        "367f961ef33961ade02e19ac3e440844606dc6fc250b269d59951d366540fcff",
+    ],
+    "VOYNICH_STANDALONE_PUBLICATION.md": [
+        VOYNICH_CURRENT,
+        VOYNICH_VERSION,
+        VOYNICH_CONCEPT,
+        VOYNICH_CURRENT_PAPER,
+        "430,789",
+        "dd0d6a7176da51ce69b9466408df4c39",
+        "367f961ef33961ade02e19ac3e440844606dc6fc250b269d59951d366540fcff",
+    ],
+    "docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md": [
+        VOYNICH_CURRENT,
+        VOYNICH_VERSION,
+        VOYNICH_CONCEPT,
+        VOYNICH_CURRENT_PAPER,
     ],
     "papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md": [
         ATLD_VERSION,
@@ -279,12 +319,18 @@ def main():
             AAF_VERSION,
             LAYER_BEFORE_LAW_VERSION,
             RCC_VERSION,
+            VOYNICH_CURRENT,
+            VOYNICH_CONCEPT,
             VOYNICH_VERSION,
             ATLD_VERSION,
         ):
             url = f"https://doi.org/{doi}"
             if url not in citations:
                 failures.append(f"codemeta.json: missing citation {url}")
+        subjects = set(codemeta.get("subjectOf", []))
+        current_voynich_url = f"https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/{VOYNICH_CURRENT_PAPER}"
+        if current_voynich_url not in subjects:
+            failures.append("codemeta.json: current Voynich v2 paper route missing")
         author = codemeta.get("author", {})
         if author.get("identifier") != "https://orcid.org/0009-0005-7736-1511":
             failures.append("codemeta.json: author ORCID route missing or incorrect")
@@ -310,6 +356,10 @@ def main():
         if path.read_bytes()[:5] != b"%PDF-":
             failures.append(f"frozen DOI mirror is not a PDF carrier: {rel}")
 
+    historical_voynich = (ROOT / "papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md").read_text(encoding="utf-8")
+    if VOYNICH_CURRENT in historical_voynich:
+        failures.append("historical Voynich reading edition was silently rewritten with current v2 DOI")
+
     if not (ROOT / "docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md").exists():
         failures.append("missing live SIPO capstone module")
     if not (ROOT / f"docs/{FSSR_MODULE}").exists():
@@ -330,7 +380,7 @@ def main():
             print(f"FAIL: {failure}")
         return 1
 
-    print("PASS: publication routes, DOI custody, eight deposited PDF mirrors across seven DOI-bearing publication records, discovery metadata, rights routing, and module/paper boundaries are intact.")
+    print("PASS: publication routes, DOI custody, historical/current Voynich version lineage, deposited PDF mirrors, discovery metadata, rights routing, and module/paper boundaries are intact.")
     return 0
 
 
