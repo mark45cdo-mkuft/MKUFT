@@ -139,7 +139,7 @@ No universal scalar combination is implied. A high-charge claim may have moderat
 Using the consequence-weighted ambiguity object formalised in Module 31, an operational closure claim is target-relative. Schematically,
 
 ```math
-\operatorname{Close}_t(q)=1
+\mathrm{Close}_t(q)=1
 ```
 
 only where the remaining admissible alternatives no longer change the declared target beyond tolerance and the conclusion survives the applicable fair challenge set. This can justify a stable decision while unresolved lower-level state distinctions remain.
