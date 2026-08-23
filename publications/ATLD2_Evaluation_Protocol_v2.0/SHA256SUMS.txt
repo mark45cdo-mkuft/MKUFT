@@ -6,5 +6,5 @@
 # MD5 (Zenodo/UI cross-check): f2b7c13fa8f5a6a315330c65d5c23bdd
 216876a81d75a9a0887f7111955f2c978530302781aee88f0577c467c8cc29f3  ATLD v2 2.pdf
 
-# The plain-text part files in this repository are recovery/search carriers extracted
-# from that exact PDF; they do not replace the DOI-bearing publication object.
+# This repository records identity/checksum metadata for the exact Zenodo PDF.
+# No byte-identical GitHub PDF mirror or split-text archive is asserted here.
