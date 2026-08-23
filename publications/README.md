@@ -1,6 +1,6 @@
 # MKUFT Publications and Frozen Mirrors
 
-This directory is the preservation area for repository-held publication mirrors. The direct human-reader index for standalone papers is [`papers/README.md`](../papers/README.md).
+This directory is the preservation area for repository-held publication mirrors and frozen-object identity records. The direct human-reader index for standalone papers is [`papers/README.md`](../papers/README.md).
 
 ## Published DOI papers
 
@@ -26,6 +26,20 @@ The repository PDF is a byte-preserving mirror of the frozen v2 DOI carrier. Zen
 Version DOI: `10.5281/zenodo.17780566`
 
 The `HISTORICAL_V1_` filenames are deliberate. Zenodo record `17780566` contains two deposited PDF files — `MKUFT falsifications.pdf` and `MKUFT_Math_Appendix.pdf` — rather than one all-in-one publication PDF. The repository therefore mirrors those two exact PDF carriers separately and does not manufacture a synthetic historical-v1 PDF.
+
+### ATLD 2 v2.0
+
+- [Human-readable paper route](../papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)
+- [ATLD publication-family record](../ATLD_STANDALONE_PUBLICATION.md)
+- [Canonical live MKUFT fold — Module 25B](../docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
+- [Frozen publication identity/checksum record](ATLD2_Evaluation_Protocol_v2.0/)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22068803)
+
+Version DOI: `10.5281/zenodo.22068803`  
+ATLD concept DOI: `10.5281/zenodo.21341520`  
+Predecessor DOI: `10.5281/zenodo.21341521`
+
+The exact 22-page Zenodo PDF remains the controlling frozen visual object for ATLD 2 v2.0. The repository records its exact page count, size, MD5 and SHA-256 and routes the public paper and live Module 25B fold without claiming that a differently sourced file is the same binary carrier. Later Module 25B changes, later benchmark runs, or later ATLD versions do not silently rewrite the v2.0 deposit.
 
 ### Future-Splitting State Recruitment v1.0
 
@@ -67,11 +81,11 @@ The version-DOI PDF on Zenodo is the controlling frozen visual object for AAF v0
 - [Standalone publication record](../RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md)
 - Version DOI: `10.5281/zenodo.21971425`
 
-### ATLD v1.0
+### ATLD v1.0 — predecessor
 
 - [Frozen DOI PDF mirror](ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf)
 - [Human-readable paper route](../papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md)
-- [Standalone publication record](../ATLD_STANDALONE_PUBLICATION.md)
+- [Publication-family record](../ATLD_STANDALONE_PUBLICATION.md)
 - [`ATLD_Evaluation_Protocol_v1.0/`](ATLD_Evaluation_Protocol_v1.0/) — complete repository text mirror of the DOI-bearing v1.0 manuscript, including all sections, declarations, licence text, and references.
 
 Version DOI: `10.5281/zenodo.21341521`  
@@ -95,12 +109,14 @@ The deposited/public Voynich publication object is DOCX. It is deliberately excl
 
 ## Object boundary
 
-A frozen publication mirror is not a live module. A live module is not automatically a standalone paper. A Drive reading edition is not a substitute for the controlling publication object.
+A frozen publication mirror or identity record is not a live module. A live module is not automatically a standalone paper. A Drive reading edition is not a substitute for the controlling publication object.
+
+For ATLD 2, the `docs/25B...` object is the evolving MKUFT measurement fold, the `papers/2026-08-23...` object is the public reader/source route, the root ATLD publication-family record owns DOI/version/citation relationships, the repository identity record owns the recorded checksum/page-count witness, and the Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
 
 For FSSR, the `docs/33S7...` object is the evolving MKUFT module fold, the `papers/2026-08-22...` object is the public reader/source route, the root publication record owns DOI/version/citation custody, and the professionally typeset Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
 
 For AAF, the `docs/33S6...` object is the evolving MKUFT module fold, the `papers/2026-08-20...` object is the public reader/source route, the root publication record owns DOI/version/citation custody, and the professionally typeset Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
 
-The eight top-level PDF files listed above are repository mirrors only, covering seven DOI-bearing publication records because historical MKUFT v1 contributes two deposited PDFs. Their filenames preserve DOI/version identity and the historical MKUFT files are explicitly labelled historical. No paper body, equation, DOI identity, licence boundary, or live-module ownership is altered by the mirror operation.
+The eight existing top-level PDF files are repository mirrors only, covering seven DOI-bearing publication records because historical MKUFT v1 contributes two deposited PDFs. ATLD 2 v2.0 is additionally represented by a frozen identity/checksum record linked to the exact Zenodo carrier. No paper body, equation, DOI identity, licence boundary, or live-module ownership is altered by either preservation route.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier, discovery, and DOI-freeze rules.

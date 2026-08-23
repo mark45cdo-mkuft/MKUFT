@@ -22,6 +22,9 @@ This file gives public search systems, citation tools, GitHub search, and AI ret
 - MKUFT current v2 version DOI: `10.5281/zenodo.21973064`
 - MKUFT concept DOI: `10.5281/zenodo.17780565`
 - MKUFT historical v1 version DOI: `10.5281/zenodo.17780566`
+- ATLD 2 v2.0 version DOI: `10.5281/zenodo.22068803`
+- ATLD concept DOI: `10.5281/zenodo.21341520`
+- ATLD v1.0 predecessor version DOI: `10.5281/zenodo.21341521`
 - Future-Splitting State Recruitment v1.0 version DOI: `10.5281/zenodo.22058303`
 - Future-Splitting State Recruitment concept DOI: `10.5281/zenodo.22058302`
 - Addressed Admissible Futures v0.1 version DOI: `10.5281/zenodo.22031333`
@@ -30,8 +33,6 @@ This file gives public search systems, citation tools, GitHub search, and AI ret
 - Recursive Constraint Closure version DOI: `10.5281/zenodo.21971425`
 - Voynich Manuscript – Systems/Engine Framework version DOI: `10.5281/zenodo.18178638`
 - Voynich concept DOI: `10.5281/zenodo.18178637`
-- ATLD v1.0 version DOI: `10.5281/zenodo.21341521`
-- ATLD concept DOI: `10.5281/zenodo.21341520`
 - GitHub repository: `mark45cdo-mkuft/MKUFT`
 
 ## Citation identity
@@ -53,6 +54,29 @@ Formal author/citation identity is maintained in:
 - constrained traversal
 - typed state spaces
 - cross-layer invariants
+- ATLD 2
+- Active Traversal and Load-Bearing Dependency II
+- residual coordinate identification
+- self-auditing matched-control evaluation
+- long-horizon AI systems
+- AI evaluation
+- typed knowledge architecture
+- matched controls
+- dependency ablation
+- object custody
+- exact object/address custody
+- action authority
+- permission/action-state integrity
+- future-sufficient continuity
+- re-entry fidelity
+- receiver-side closure
+- parent fixed-point closure
+- causal-shadow accounting
+- coordinate removal
+- no-smuggling rule
+- route support
+- benchmark robustness
+- construct validity
 - Future-Splitting State Recruitment
 - FSSR
 - state adequacy
@@ -109,6 +133,10 @@ Formal author/citation identity is maintained in:
 
 ## Direct research-output routes
 
+- `papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md`
+- `ATLD_STANDALONE_PUBLICATION.md`
+- `docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md`
+- `publications/ATLD2_Evaluation_Protocol_v2.0/README.md`
 - `papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md`
 - `FSSR_STANDALONE_PUBLICATION.md`
 - `docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md`
@@ -117,7 +145,6 @@ Formal author/citation identity is maintained in:
 - `papers/2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md`
 - `VOYNICH_STANDALONE_PUBLICATION.md`
 - `papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md`
-- `ATLD_STANDALONE_PUBLICATION.md`
 - `papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md`
 - `RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md`
 - `papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md`
@@ -127,12 +154,13 @@ Formal author/citation identity is maintained in:
 
 ```text
 MKUFT A Relational Architecture for Physical Law and Cross-Scale Dynamics Mark Charles McLaughlin Zenodo 10.5281/zenodo.21973064 concept 10.5281/zenodo.17780565 GitHub mark45cdo-mkuft/MKUFT
+ATLD 2 Active Traversal and Load-Bearing Dependency II Residual Coordinate Identification Self-Auditing Matched-Control Evaluation Long-Horizon AI Systems Mark Charles McLaughlin Zenodo 10.5281/zenodo.22068803 concept 10.5281/zenodo.21341520
 Future-Splitting State Recruitment FSSR State Adequacy Prospective Mechanism Activation Mark Charles McLaughlin Zenodo 10.5281/zenodo.22058303 concept 10.5281/zenodo.22058302
 Addressed Admissible Futures Future-Sufficient State Load-Bearing Relations Restorative Reachability Mark Charles McLaughlin Zenodo 10.5281/zenodo.22031333 concept 10.5281/zenodo.22031332
 Layer Before Law Mark Charles McLaughlin Zenodo 10.5281/zenodo.21971270
 Recursive Constraint Closure Reachable-State Geometry Mark Charles McLaughlin Zenodo 10.5281/zenodo.21971425
 Voynich Manuscript Systems Engine Framework Mark Charles McLaughlin Zenodo 10.5281/zenodo.18178638
-ATLD Active Traversal Load-Bearing Dependency Mark Charles McLaughlin Zenodo 10.5281/zenodo.21341521
+ATLD v1 Active Traversal Load-Bearing Dependency Mark Charles McLaughlin Zenodo 10.5281/zenodo.21341521
 ```
 
 ## Legacy terminology

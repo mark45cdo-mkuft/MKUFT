@@ -33,11 +33,30 @@ Licence stated in source material: CC BY 4.0
 
 The CC BY 4.0 licence applies to the exact material released under that MKUFT record. It remains effective for that material and is not revoked or narrowed by later repository notices.
 
-### ATLD standalone paper
+### ATLD publication family
+
+Current release:
+
+```text
+Active Traversal and Load-Bearing Dependency II (ATLD 2):
+Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems
+Version: 2.0
+Version DOI: 10.5281/zenodo.22068803
+Concept DOI: 10.5281/zenodo.21341520
+Predecessor v1.0 DOI: 10.5281/zenodo.21341521
+Author: Mark Charles McLaughlin
+Copyright: © 2026 Mark Charles McLaughlin
+Public licence: CC BY-NC-SA 4.0
+Commercial exercise of the licensed copyright rights: separate written permission required
+Software licence: none granted by the manuscript
+```
+
+Predecessor release:
 
 ```text
 Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures:
 A Matched-Control Evaluation Protocol for AI Systems
+Version: 1.0
 Version DOI: 10.5281/zenodo.21341521
 Concept DOI: 10.5281/zenodo.21341520
 Author: Mark Charles McLaughlin
@@ -47,9 +66,11 @@ Commercial exercise of the licensed copyright rights: separate written permissio
 Software licence: none granted by the manuscript
 ```
 
-The ATLD standalone paper is derived from the public MKUFT working canon, particularly modules 24A and 25. Its standalone DOI supplements the MKUFT backbone DOI; it does not replace it.
+Both ATLD releases belong to the same Zenodo concept family while retaining their exact version identities. The current v2.0 release does not erase or rewrite the frozen v1.0 predecessor.
 
-See `ATLD_STANDALONE_PUBLICATION.md` for the exact citation and publication route.
+The ATLD publication family is derived from the public MKUFT working canon, particularly modules 24A, 24B, and 25. The current live measurement fold for the v2.0 methodological consequences is `docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md`. That live module is a separate later repository object and does not inherit the paper's CC BY-NC-SA licence merely because it explains or routes the published method.
+
+See `ATLD_STANDALONE_PUBLICATION.md` for exact version/citation/publication routes.
 
 ### Addressed Admissible Futures standalone paper
 
@@ -102,17 +123,18 @@ Where a current file contains both historically licensed material and later revi
 
 The file-by-file classification is recorded in `MODULE_RIGHTS_MATRIX.md`.
 
-## ATLD-Origin Source and Companion Modules
+## ATLD-Origin Source, Companion, and Successor-Fold Modules
 
-The current repository versions of the following files are ATLD-origin source or companion materials:
+The current repository versions of the following files are ATLD-origin source, companion, or live successor-fold materials:
 
 - `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`;
 - `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md`;
-- `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`.
+- `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`;
+- `docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md`.
 
-Their presence inside the MKUFT repository, their derivation from MKUFT, and their use of the MKUFT backbone DOI for provenance do **not** place those current repository versions under the earlier MKUFT backbone CC BY 4.0 licence.
+Their presence inside the MKUFT repository, their derivation from MKUFT, and their use of MKUFT/ATLD DOI provenance do **not** place those current repository versions under the earlier MKUFT backbone CC BY 4.0 licence or the publication-family CC BY-NC-SA 4.0 licence.
 
-The CC BY-NC-SA 4.0 licence on the exact ATLD standalone manuscript does **not** automatically license the separate source-module files from which the manuscript was developed.
+The CC BY-NC-SA 4.0 licence on the exact ATLD v1.0 and ATLD 2 v2.0 manuscripts does **not** automatically license the separate source-module or live-fold files from which the manuscripts were developed or into which their later consequences are integrated.
 
 Unless an exact historical copy or version was expressly released under a different licence, the current repository versions identified above are:
 
@@ -137,14 +159,15 @@ They do **not** claim copyright ownership of facts, abstract ideas, scientific p
 
 The documents in this repository retain the licence, copyright, and authorship notices stated inside each exact source document, file version, or publication record.
 
-The MKUFT backbone licence, the ATLD standalone-paper licence, separately published all-rights-reserved papers, and the current repository-version status are distinct:
+The MKUFT backbone licence, the ATLD publication-family licence, separately published all-rights-reserved papers, and the current repository-version status are distinct:
 
 - material released under the exact MKUFT backbone record retains its stated CC BY 4.0 status;
-- the exact ATLD standalone manuscript retains its stated CC BY-NC-SA 4.0 status;
+- the exact ATLD v1.0 manuscript retains its stated CC BY-NC-SA 4.0 status;
+- the exact ATLD 2 v2.0 manuscript retains its stated CC BY-NC-SA 4.0 status;
 - the exact AAF v0.1 and FSSR v1.0 deposits retain the all-rights-reserved status recorded for those deposits;
-- the current repository versions of modules 24A, 24B, and 25 are all rights reserved unless an exact file version expressly states otherwise;
+- the current repository versions of modules 24A, 24B, 25, and 25B are all rights reserved unless an exact file version expressly states otherwise;
 - other current repository files are all rights reserved unless an exact file version or publication record expressly states otherwise;
-- a standalone-paper licence or reservation does not retrospectively relicense its source modules;
+- a standalone-paper licence or reservation does not retrospectively relicense its source modules or prospectively relicense a live canonical fold;
 - the earlier MKUFT licence does not automatically license later GitHub revisions or separate works merely because they cite the MKUFT DOI.
 
 Where no specific licence is stated for the exact material being used, all rights are reserved by Mark Charles McLaughlin.

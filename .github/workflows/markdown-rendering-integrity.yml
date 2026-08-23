@@ -8,9 +8,11 @@ on:
       - 'codemeta.json'
       - 'CITATION.cff'
       - 'publications/ATLD_Evaluation_Protocol_v1.0/**'
+      - 'publications/ATLD2_Evaluation_Protocol_v2.0/**'
       - 'tools/check_markdown_rendering.py'
       - 'tools/test_markdown_rendering_checker.py'
       - 'tools/check_publication_routes.py'
+      - 'tools/check_atld2_publication_routes.py'
       - '.github/workflows/markdown-rendering-integrity.yml'
   pull_request:
     paths:
@@ -18,9 +20,11 @@ on:
       - 'codemeta.json'
       - 'CITATION.cff'
       - 'publications/ATLD_Evaluation_Protocol_v1.0/**'
+      - 'publications/ATLD2_Evaluation_Protocol_v2.0/**'
       - 'tools/check_markdown_rendering.py'
       - 'tools/test_markdown_rendering_checker.py'
       - 'tools/check_publication_routes.py'
+      - 'tools/check_atld2_publication_routes.py'
       - '.github/workflows/markdown-rendering-integrity.yml'
 
 concurrency:
@@ -42,6 +46,8 @@ jobs:
         run: python tools/check_markdown_rendering.py
       - name: Check publication discovery and DOI custody
         run: python tools/check_publication_routes.py
+      - name: Check ATLD 2 publication and canon-fold routes
+        run: python tools/check_atld2_publication_routes.py
 
   persist-integrity-signal:
     name: Persist integrity status

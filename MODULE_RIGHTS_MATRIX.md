@@ -23,6 +23,7 @@ This matrix identifies the rights status of current public repository objects wi
 |---|---|---|
 | MKUFT version-1 deposited work | [DOI 10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566) | **CC BY 4.0** for the exact deposited material identified by that record |
 | ATLD standalone manuscript v1.0 | [Version DOI 10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521); [concept DOI 10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520) | **CC BY-NC-SA 4.0** for the exact manuscript; commercial exercise of the licensed copyright rights requires separate written permission |
+| ATLD 2 standalone manuscript v2.0 | [Version DOI 10.5281/zenodo.22068803](https://doi.org/10.5281/zenodo.22068803); [concept DOI 10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520); predecessor DOI `10.5281/zenodo.21341521` | **CC BY-NC-SA 4.0** for the exact v2.0 manuscript; the live Module 25B fold retains separate current-repository rights |
 | Addressed Admissible Futures v0.1 | [Version DOI 10.5281/zenodo.22031333](https://doi.org/10.5281/zenodo.22031333); [concept DOI 10.5281/zenodo.22031332](https://doi.org/10.5281/zenodo.22031332) | **All rights reserved** for the exact deposited object, as stated in its publication record and Zenodo metadata |
 | Future-Splitting State Recruitment v1.0 | [Version DOI 10.5281/zenodo.22058303](https://doi.org/10.5281/zenodo.22058303); [concept DOI 10.5281/zenodo.22058302](https://doi.org/10.5281/zenodo.22058302) | **All rights reserved** for the exact deposited object, as stated in its publication record and Zenodo metadata |
 
@@ -78,6 +79,7 @@ Unless an exact file version expressly states a different licence, the current G
 | [24A — Active Traversal and Functional Emergence](docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) | **All rights reserved**; source module for ATLD v1.0 |
 | [24B — Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) | **All rights reserved**; later public companion refinement, not part of frozen ATLD v1.0 unless expressly included in a later deposit |
 | [25 — Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) | **All rights reserved**; source module for ATLD v1.0 |
+| [25B — ATLD 2 Residual Coordinate Measurement and Self-Audit](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) | **All rights reserved** for the current live module unless an exact later version states otherwise; the frozen ATLD 2 v2.0 paper has its own CC BY-NC-SA 4.0 identity |
 | [25A — Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
 | [31 — Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
 | [32 — Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
@@ -98,7 +100,7 @@ Unless an exact file version expressly states a different licence, the current G
 | [33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md) | **All rights reserved** for the current live naming/provenance module unless an exact later version states otherwise; no frozen publication is altered by this naming note |
 | [33A — Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) | **All rights reserved** unless an exact version states otherwise |
 
-The current GitHub source and companion modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by the ATLD manuscript's CC BY-NC-SA 4.0 licence merely because the manuscript was developed from related material.
+The current GitHub source, companion, and successor-fold modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by the ATLD publication-family manuscripts' CC BY-NC-SA 4.0 licence merely because the manuscripts were developed from or folded into related material.
 
 ## Current top-level public documents
 
@@ -116,7 +118,7 @@ Unless an exact file states another licence, the current versions of the followi
 - [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md)
 - [FSSR Standalone Publication](FSSR_STANDALONE_PUBLICATION.md) as the repository publication record for the all-rights-reserved FSSR v1.0 deposit
 - [AAF Standalone Publication](AAF_STANDALONE_PUBLICATION.md) as the repository publication record for the all-rights-reserved AAF v0.1 deposit
-- [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md) as a repository publication record; the exact manuscript identified by its DOI retains the CC BY-NC-SA 4.0 licence stated on that manuscript and record
+- [ATLD Standalone Publication Family](ATLD_STANDALONE_PUBLICATION.md) as the repository publication-family record; the exact v1.0 and v2.0 manuscripts retain the CC BY-NC-SA 4.0 licence attached to their exact versioned objects, while live Module 25B remains a separate repository object
 - this Module Rights Matrix
 
 ## Practical reading rule

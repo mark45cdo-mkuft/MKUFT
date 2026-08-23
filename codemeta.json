@@ -8,7 +8,7 @@
     "McLaughlin–Kairos Unified Field Theory",
     "Unified Field Theory. McLaughlin–Kairos. MKUFT"
   ],
-  "description": "The current principal publication and evolving public research canon of the McLaughlin–Kairos Unified Field Theory by Mark Charles McLaughlin. The DOI-bearing v2 publication is frozen at Zenodo while live GitHub modules retain their own revision history and publication boundaries.",
+  "description": "The current principal publication and evolving public research canon of the McLaughlin–Kairos Unified Field Theory by Mark Charles McLaughlin. The DOI-bearing v2 publication is frozen at Zenodo while live GitHub modules retain their own revision history and publication boundaries. The public research stack also includes the ATLD 2 v2.0 matched-control AI-evaluation successor, DOI 10.5281/zenodo.22068803.",
   "identifier": "https://doi.org/10.5281/zenodo.21973064",
   "url": "https://github.com/mark45cdo-mkuft/MKUFT",
   "version": "v2",
@@ -17,16 +17,19 @@
     "https://doi.org/10.5281/zenodo.21973064",
     "https://doi.org/10.5281/zenodo.17780565",
     "https://doi.org/10.5281/zenodo.17780566",
+    "https://doi.org/10.5281/zenodo.22068803",
+    "https://doi.org/10.5281/zenodo.21341520",
+    "https://doi.org/10.5281/zenodo.21341521",
     "https://doi.org/10.5281/zenodo.22058303",
     "https://doi.org/10.5281/zenodo.22031333",
     "https://doi.org/10.5281/zenodo.21971270",
     "https://doi.org/10.5281/zenodo.21971425",
-    "https://doi.org/10.5281/zenodo.18178638",
-    "https://doi.org/10.5281/zenodo.21341521"
+    "https://doi.org/10.5281/zenodo.18178638"
   ],
   "subjectOf": [
     "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/README.md",
-    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/PUBLIC_DISCOVERY_ANCHOR.md"
+    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/PUBLIC_DISCOVERY_ANCHOR.md",
+    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md"
   ],
   "author": {
     "@type": "Person",
@@ -52,6 +55,18 @@
     "typed SIPO architecture",
     "relational architecture",
     "constrained traversal",
+    "ATLD 2",
+    "Active Traversal and Load-Bearing Dependency II",
+    "residual coordinate identification",
+    "self-auditing matched-control evaluation",
+    "long-horizon AI systems",
+    "object custody",
+    "action authority",
+    "future-sufficient continuity",
+    "receiver-side closure",
+    "parent fixed-point closure",
+    "causal-shadow accounting",
+    "no-smuggling rule",
     "Layer Before Law",
     "address before law ownership",
     "Addressed Admissible Futures",

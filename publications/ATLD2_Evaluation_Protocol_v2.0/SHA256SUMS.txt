@@ -1,0 +1,10 @@
+# ATLD 2 v2.0 frozen publication integrity record
+# Version DOI: 10.5281/zenodo.22068803
+# Exact published PDF: ATLD v2 2.pdf
+# Pages: 22
+# Size: 1221092 bytes
+# MD5 (Zenodo/UI cross-check): f2b7c13fa8f5a6a315330c65d5c23bdd
+216876a81d75a9a0887f7111955f2c978530302781aee88f0577c467c8cc29f3  ATLD v2 2.pdf
+
+# This repository records identity/checksum metadata for the exact Zenodo PDF.
+# No byte-identical GitHub PDF mirror or split-text archive is asserted here.

@@ -23,10 +23,12 @@ This page provides a compact identity record for public search, citation, and di
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 - [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+- [ATLD Publication Family](ATLD_STANDALONE_PUBLICATION.md)
+- [ATLD 2 v2.0 GitHub paper route](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)
+- [ATLD 2 canonical measurement fold — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
 - [Future-Splitting State Recruitment Standalone Publication](FSSR_STANDALONE_PUBLICATION.md)
 - [Addressed Admissible Futures Standalone Publication](AAF_STANDALONE_PUBLICATION.md)
 - [Voynich Standalone Publication](VOYNICH_STANDALONE_PUBLICATION.md)
-- [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md)
 - [Recursive Constraint Closure Standalone Publication](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md)
 - [Layer Before Law Standalone Publication](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md)
 - [Citation metadata](CITATION.cff)
@@ -37,16 +39,19 @@ This page provides a compact identity record for public search, citation, and di
 - **MKUFT current principal publication, v2:** `10.5281/zenodo.21973064`
 - **MKUFT concept DOI:** `10.5281/zenodo.17780565`
 - **MKUFT historical v1:** `10.5281/zenodo.17780566`
+- **ATLD 2 v2.0:** version DOI `10.5281/zenodo.22068803`; ATLD concept DOI `10.5281/zenodo.21341520`; predecessor v1.0 DOI `10.5281/zenodo.21341521`
 - **Future-Splitting State Recruitment v1.0:** version DOI `10.5281/zenodo.22058303`; concept DOI `10.5281/zenodo.22058302`
 - **Addressed Admissible Futures v0.1:** version DOI `10.5281/zenodo.22031333`; concept DOI `10.5281/zenodo.22031332`
 - **Layer Before Law v1.0:** `10.5281/zenodo.21971270`
 - **Recursive Constraint Closure v0.1:** `10.5281/zenodo.21971425`
 - **Voynich Manuscript – Systems/Engine Framework:** version DOI `10.5281/zenodo.18178638`; concept DOI `10.5281/zenodo.18178637`
-- **ATLD v1.0:** version DOI `10.5281/zenodo.21341521`; concept DOI `10.5281/zenodo.21341520`
+- **ATLD v1.0 predecessor:** version DOI `10.5281/zenodo.21341521`; concept DOI `10.5281/zenodo.21341520`
 
 ## Public search fingerprints
 
 MKUFT · A Relational Architecture for Physical Law and Cross-Scale Dynamics · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.21973064 · concept DOI 10.5281/zenodo.17780565 · GitHub `mark45cdo-mkuft/MKUFT`
+
+Active Traversal and Load-Bearing Dependency II · ATLD 2 · residual coordinate identification · self-auditing matched-control evaluation · long-horizon AI systems · object custody · action authority · future-sufficient continuity · receiver closure · fixed-point closure · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22068803 · concept DOI 10.5281/zenodo.21341520
 
 Future-Splitting State Recruitment · FSSR · state adequacy · future splitting · state recruitment · predictive closure · prospective mechanism activation · mechanism localisation · history-dependent constitutive mechanics · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22058303 · concept DOI 10.5281/zenodo.22058302
 
@@ -58,13 +63,26 @@ Recursive Constraint Closure and Reachable-State Geometry · addressed adaptive 
 
 Voynich Manuscript – Systems/Engine Framework · version DOI 10.5281/zenodo.18178638 · Mark Charles McLaughlin
 
-ATLD · Active Traversal and Load-Bearing Dependency · version DOI 10.5281/zenodo.21341521 · Mark Charles McLaughlin
+ATLD v1.0 · Active Traversal and Load-Bearing Dependency · predecessor version DOI 10.5281/zenodo.21341521 · Mark Charles McLaughlin
 
 ## Principal public terms
 
 - unified field theory
 - S–I–P–O typed architecture
 - relational architecture
+- ATLD 2
+- Active Traversal and Load-Bearing Dependency II
+- residual coordinate identification
+- self-auditing matched-control evaluation
+- long-horizon AI evaluation
+- object custody
+- action authority
+- future-sufficient continuity
+- receiver-side closure
+- parent fixed-point closure
+- causal-shadow accounting
+- no-smuggling rule
+- route support
 - Future-Splitting State Recruitment
 - FSSR
 - state adequacy
