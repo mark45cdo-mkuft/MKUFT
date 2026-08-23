@@ -6,6 +6,7 @@
 **Address parent:** [33S4 — Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)  
 **Future-equivalence parent:** [33S6 — Addressed Admissible Futures](33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)  
 **Experimental owner:** [33S7 — Future-Splitting State Recruitment](33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)  
+**Ambiguity/calibration support:** [21 — Ambiguity Dynamics and Manoeuvre Space](21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md), [29 — Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)  
 **Layer-Before-Law parent:** [26 — Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)  
 **AAF publication:** DOI `10.5281/zenodo.22031333`  
 **FSSR publication:** DOI `10.5281/zenodo.22058303`  
@@ -132,6 +133,40 @@ same declared state
 
 FSAI states the state-sufficiency commitment. LBLP states the order of scientific diagnosis. FSSR supplies the adversarial experimental procedure and prospective timing test.
 
+## 5A. Closure, reopening, and operational certainty
+
+Future sufficiency is a scoped closure statement, not a declaration of metaphysical certainty.
+
+Suppose a state is closed for target `q` under a declared challenge family `\mathcal U_1`:
+
+```math
+R_q(\Theta;\lambda,\Delta,\mathcal U_1)\leq\varepsilon_q.
+```
+
+If a later or broader lawful challenge family `\mathcal U_2` contains continuations that expose a material split,
+
+```math
+\mathcal U_1\subseteq\mathcal U_2,
+\qquad
+R_q(\Theta;\lambda,\Delta,\mathcal U_2)>\varepsilon_q,
+```
+
+then the correct operation is **reopening and readdressing** for the stronger declaration. The earlier closure need not have been irrational or false as a scoped operational statement if `\mathcal U_2` was genuinely outside its declared burden. If the separating continuation already belonged to `\mathcal U_1`, then the earlier closure was overclaimed.
+
+This gives the future-sufficiency version of operational certainty:
+
+> **A conclusion may be action-stable and scientifically closed for a declared target while residual ambiguity remains elsewhere in the state space.**
+
+Accordingly, the stack separates:
+
+- **confidence** — support concentration under the evidence/model;
+- **charge** — consequence or salience if the branch is true;
+- **closure** — robustness of the declared target under the applicable alternatives and challenges.
+
+High charge does not promote confidence. Residual uncertainty does not erase charge. Strong closure for one target does not imply complete state resolution or foundational truth.
+
+The time-address of the claim also remains explicit: present registration, past reconstruction from retained evidence, future prediction, and conditional derivation are not interchangeable evidential objects. This is an access and claim-discipline rule, not an ontology of time.
+
 ## 6. Claim and novelty boundary
 
 This naming note does not claim that predictive equivalence, observability, hidden/internal state, active probing, state augmentation, model discrimination, or experimental design are individually new. Those neighbouring ingredients are established and are treated as such in the parent papers.
@@ -150,10 +185,11 @@ Any stronger law-of-nature claim requires prospective quantitative success, appr
 The relevant scientific ancestry is not created by this note:
 
 ```text
-33S4 — target-relative Address sufficiency and predictive closure
+21 / 31 — ambiguity, consequence-weighted closure, and observability discipline
+→ 33S4 — target-relative Address sufficiency and predictive closure
 → 33S6 / AAF — future-equivalence, minimum-sufficient Address and recursive readdressing
 → 33S7 / FSSR — adversarial future splitting, minimal typed recruitment and prospective mechanism timing
-→ 33S7A — canonical naming of FSAI and LBLP.
+→ 33S7A — canonical naming of FSAI and LBLP plus scoped closure/reopening discipline.
 ```
 
 The AAF and FSSR DOI-bearing publication objects remain frozen exactly as published. This note is a later live-canon naming state dated 22 August 2026 and must not be silently backdated into those deposited files.
@@ -167,6 +203,7 @@ The named objects contract rather than expand if their burden is not met.
 - If a proposed typed repair does not survive held-out removal/restoration, it is not credited as load-bearing recruitment.
 - If adequate readdressing cannot close the residual, LBLP does not forbid law/model revision.
 - Cross-domain use fails if “state failure”, “Address”, “admissible future”, “repair”, or “recruitment” are redefined after seeing each domain’s outcome.
+- Closure language fails if charge, confidence, target closure, complete state resolution, and metaphysical certainty are collapsed into one undifferentiated status.
 
 ## 9. Canonical compression
 
@@ -179,6 +216,9 @@ When that closure fails, test and minimally repair the Address before treating t
 
 FSSR:
 Choose the future that attacks the state claim, verify the split independently, identify and deform the minimum typed repair, and test when recruitment begins.
+
+Closure discipline:
+Treat certainty as scoped operational closure only. Keep confidence, charge, and closure separate; when a lawful stronger future reopens the target, readdress and retest.
 ```
 
 These names improve recognition and citation. They do not change the scientific content or evidential status of the parent work.
