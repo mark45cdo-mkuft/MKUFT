@@ -75,16 +75,24 @@ FSSR turns the AAF future-equivalence criterion into a direct state-adequacy ass
 
 AAF defines Address through target-relative future sufficiency, separates present viability from restorative reachability, defines restorative-future reserve and counterfactual load-bearing relations, and closes realised traversal through recursive readdressing. The v0.1 paper includes a preregistered first p53/p21 single-cell test route; it reports no new empirical result.
 
-### Voynich Manuscript – Systems/Engine Framework
+### The Voynich Manuscript as a Candidate Procedural-Executable Information System
 
-**Subtitle:** *A Procedural Systems Analysis of Constraint, Execution, and Structural Coherence*  
-**Version DOI:** [10.5281/zenodo.18178638](https://doi.org/10.5281/zenodo.18178638)  
-**Concept DOI:** [10.5281/zenodo.18178637](https://doi.org/10.5281/zenodo.18178637)
+*ESRT / ESF, NLT structural grammar, recovered exploratory findings, competing models, and a falsifiable validation programme*
 
-- [Human-readable GitHub edition](2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md)
-- [Publication record](../VOYNICH_STANDALONE_PUBLICATION.md)
+**Version:** 2.0 — 23 August 2026  
+**Version DOI:** [10.5281/zenodo.22071229](https://doi.org/10.5281/zenodo.22071229)  
+**Concept DOI:** [10.5281/zenodo.18178637](https://doi.org/10.5281/zenodo.18178637)  
+**Historical predecessor DOI:** [10.5281/zenodo.18178638](https://doi.org/10.5281/zenodo.18178638)
 
-The deposited/public Voynich publication carrier is DOCX, so this PDF-mirror set deliberately does not synthesize a replacement PDF.
+- [Current GitHub v2.0 paper route](2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md)
+- [Publication-family record](../VOYNICH_STANDALONE_PUBLICATION.md)
+- [Historical v1 reading edition](2026-05-20_VOYNICH_MANUSCRIPT_SYSTEMS_ENGINE_FRAMEWORK.md)
+- [Voynich live support module](../docs/09_VOYNICH_PROCEDURAL_ENGINE.md)
+- [ESRT / ESF support layer](../docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md)
+- [ESRT / ESF method appendix](../docs/10_ESRT_ESF_METHOD_APPENDIX.md)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22071229)
+
+The v2.0 consolidation is now the recommended scientific reading object in the existing Voynich concept lineage. It preserves the historical predecessor as a dated priority/version record while tightening the public claim to a prospective comparative test of whether Addressing, State and Flow carry predictive load beyond language, cipher, scribal, mnemonic, diagrammatic, decorative and frequency baselines. It explicitly records missing raw-table limitations and does not claim the manuscript solved.
 
 ### Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures — predecessor v1.0
 
@@ -156,6 +164,6 @@ A paper is not identified by formatting alone. The repository distinguishes:
 5. **repository identity/checksum record or exact binary mirror** — preservation route that must identify, not impersonate, the deposit;
 6. **Drive mirror/reading edition** — convenience carrier, not a silent replacement for any of the above.
 
-The existing top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of their corresponding frozen DOI-record PDF files. ATLD 2 v2.0 is presently represented in-repository by an exact checksum/page-count identity record linked to the controlling Zenodo PDF rather than by claiming a binary mirror that has not been independently established at that GitHub address.
+The existing top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of their corresponding frozen DOI-record PDF files. ATLD 2 v2.0 and Voynich v2.0 are represented in-repository by explicit DOI/version and frozen-carrier identity metadata where an exact GitHub binary mirror has not been independently established; the controlling Zenodo records remain authoritative.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier and publication rules.
