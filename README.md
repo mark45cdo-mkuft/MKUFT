@@ -110,10 +110,12 @@ The framework distinguishes:
 
 ### AI and typed knowledge architectures
 
-1. [ATLD v1.0 — published paper](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md) — standalone matched-control evaluation protocol; exact version DOI `10.5281/zenodo.21341521`; [publication record and archive](ATLD_STANDALONE_PUBLICATION.md).
+1. [ATLD 2 v2.0 — published successor](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md) — residual-coordinate and self-auditing matched-control evaluation for long-horizon AI systems; exact version DOI `10.5281/zenodo.22068803`, ATLD concept DOI `10.5281/zenodo.21341520`; [publication-family record](ATLD_STANDALONE_PUBLICATION.md).
+   - [ATLD v1.0 — frozen predecessor](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md) — original matched-control protocol, exact version DOI `10.5281/zenodo.21341521`.
 2. [Active Traversal and Functional Emergence](docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) — matched-control active-traversal hypothesis.
 3. [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) — replay, alternative-pairing, and relationship-specificity controls.
 4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) — controlled deformation and load classification.
+   - [ATLD 2 Residual Coordinate Measurement and Self-Audit — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) — live canonical successor fold for O/U/R/V/F retention, coordinate removal, no-smuggling, causal-shadow control, and collapse conditions.
 5. [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md) — provisional node-level extension.
 6. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) — addressed adaptive-state family and constraint/reachable-state formalism.
 7. [Relational Closure and Law Descent](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) — scale/address sufficiency burden.
@@ -133,6 +135,8 @@ The repository keeps paper identity separate from the live modular canon. Use [P
 - **MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics** — version v2, 17 August 2026; version DOI [10.5281/zenodo.21973064](https://doi.org/10.5281/zenodo.21973064); concept DOI [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565); historical v1 DOI [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566).
 
 ### Other published DOI papers
+
+- **Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems** — version 2.0, 23 August 2026; version DOI [10.5281/zenodo.22068803](https://doi.org/10.5281/zenodo.22068803); ATLD concept DOI [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520); predecessor v1.0 DOI [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521).
 
 - **Future-Splitting State Recruitment: A Cross-Domain Assay for State Adequacy and Prospective Mechanism Activation** — version 1.0, 22 August 2026; version DOI [10.5281/zenodo.22058303](https://doi.org/10.5281/zenodo.22058303); concept DOI [10.5281/zenodo.22058302](https://doi.org/10.5281/zenodo.22058302); [GitHub paper route](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md); [publication record](FSSR_STANDALONE_PUBLICATION.md); [canonical Module 33S7](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md).
 - **Addressed Admissible Futures: Future-Sufficient State, Load-Bearing Relations, and Restorative Reachability** — version 0.1, 20 August 2026; version DOI [10.5281/zenodo.22031333](https://doi.org/10.5281/zenodo.22031333); concept DOI [10.5281/zenodo.22031332](https://doi.org/10.5281/zenodo.22031332); [GitHub paper route](papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md); [publication record](AAF_STANDALONE_PUBLICATION.md); [canonical Module 33S6](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md).

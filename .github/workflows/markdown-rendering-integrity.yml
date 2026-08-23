@@ -32,73 +32,10 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: write
+  contents: read
   issues: write
 
 jobs:
-  repair-atld2-canon-fold:
-    if: github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'atld2-v2-publication-fold-20260823'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v5
-        with:
-          ref: atld2-v2-publication-fold-20260823
-          fetch-depth: 3
-      - name: Patch remaining ATLD2 canon traversal owners
-        run: |
-          set -euo pipefail
-          python - <<'PY'
-          from pathlib import Path
-
-          def replace_once(path, old, new, label):
-              p = Path(path)
-              text = p.read_text(encoding='utf-8')
-              n = text.count(old)
-              if n != 1:
-                  raise SystemExit(f'{path} / {label}: expected 1 match, found {n}')
-              p.write_text(text.replace(old, new, 1), encoding='utf-8')
-
-          replace_once(
-              'CANON_MAP.md',
-              '4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n5. [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)',
-              '4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)\n   - [ATLD 2 Residual Coordinate Measurement and Self-Audit — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) — live successor measurement fold for residual-coordinate retention/collapse, no-smuggling, and causal-shadow control; ATLD 2 version DOI `10.5281/zenodo.22068803`.\n5. [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)',
-              'AI route')
-
-          replace_once(
-              'docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md',
-              '[ATLD Publication](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)',
-              '[ATLD Publication Family](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [ATLD 2 Residual Measurement Audit](25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)',
-              'AI chain')
-
-          replace_once(
-              'README.md',
-              '1. [ATLD v1.0 — published paper](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md) — standalone matched-control evaluation protocol; exact version DOI `10.5281/zenodo.21341521`; [publication record and archive](ATLD_STANDALONE_PUBLICATION.md).',
-              '1. [ATLD 2 v2.0 — published successor](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md) — residual-coordinate and self-auditing matched-control evaluation for long-horizon AI systems; exact version DOI `10.5281/zenodo.22068803`, ATLD concept DOI `10.5281/zenodo.21341520`; [publication-family record](ATLD_STANDALONE_PUBLICATION.md).\n   - [ATLD v1.0 — frozen predecessor](papers/2026-07-13_ATLD_EVALUATION_PROTOCOL_v1.0.md) — original matched-control protocol, exact version DOI `10.5281/zenodo.21341521`.',
-              'current ATLD route')
-
-          replace_once(
-              'README.md',
-              '4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) — controlled deformation and load classification.',
-              '4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) — controlled deformation and load classification.\n   - [ATLD 2 Residual Coordinate Measurement and Self-Audit — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) — live canonical successor fold for O/U/R/V/F retention, coordinate removal, no-smuggling, causal-shadow control, and collapse conditions.',
-              'Module 25B route')
-
-          replace_once(
-              'README.md',
-              '### Other published DOI papers\n\n',
-              '### Other published DOI papers\n\n- **Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems** — version 2.0, 23 August 2026; version DOI [10.5281/zenodo.22068803](https://doi.org/10.5281/zenodo.22068803); ATLD concept DOI [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520); predecessor v1.0 DOI [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521).\n\n',
-              'published DOI bullet')
-          PY
-
-          # The grandparent carries the clean permanent workflow; the parent was
-          # the first temporary repair attempt.
-          git show HEAD^^:.github/workflows/markdown-rendering-integrity.yml > .github/workflows/markdown-rendering-integrity.yml
-          git config user.name 'Mark Charles McLaughlin'
-          git config user.email 'mark45cdo@gmail.com'
-          git add CANON_MAP.md docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md README.md .github/workflows/markdown-rendering-integrity.yml
-          git diff --cached --check
-          git commit -m 'Close ATLD2 canon traversal and public entry routes'
-          git push origin HEAD:atld2-v2-publication-fold-20260823
-
   integrity-contract:
     runs-on: ubuntu-latest
     steps:
@@ -126,25 +63,53 @@ jobs:
           ISSUE_TITLE: Automated publication integrity gate failure
         run: |
           set -euo pipefail
-          issue_json="$(gh issue list --repo "$GITHUB_REPOSITORY" --state all --search "\"$ISSUE_TITLE\" in:title" --limit 1 --json number,state)"
+
+          issue_json="$(
+            gh issue list \
+              --repo "$GITHUB_REPOSITORY" \
+              --state all \
+              --search "\"$ISSUE_TITLE\" in:title" \
+              --limit 1 \
+              --json number,state
+          )"
           issue_number="$(jq -r '.[0].number // empty' <<<"$issue_json")"
           issue_state="$(jq -r '.[0].state // empty' <<<"$issue_json")"
+
           if [ "$RESULT" = "success" ]; then
             if [ -z "$issue_number" ]; then
-              issue_url="$(gh issue create --repo "$GITHUB_REPOSITORY" --title "$ISSUE_TITLE" --body "Persistent machine ledger for the Publication and Markdown integrity workflow. A closed issue means the most recently recorded main-branch run is green; a reopened issue means the gate is red. Initial green run: $RUN_URL")"
+              issue_url="$(
+                gh issue create \
+                  --repo "$GITHUB_REPOSITORY" \
+                  --title "$ISSUE_TITLE" \
+                  --body "Persistent machine ledger for the Publication and Markdown integrity workflow. A closed issue means the most recently recorded main-branch run is green; a reopened issue means the gate is red. Initial green run: $RUN_URL"
+              )"
               issue_number="${issue_url##*/}"
-              gh issue close "$issue_number" --repo "$GITHUB_REPOSITORY" --comment "GREEN — integrity contract passed on main: $RUN_URL"
+              gh issue close "$issue_number" \
+                --repo "$GITHUB_REPOSITORY" \
+                --comment "GREEN — integrity contract passed on main: $RUN_URL"
             elif [ "$issue_state" = "OPEN" ]; then
-              gh issue close "$issue_number" --repo "$GITHUB_REPOSITORY" --comment "GREEN — integrity contract recovered on main: $RUN_URL"
+              gh issue close "$issue_number" \
+                --repo "$GITHUB_REPOSITORY" \
+                --comment "GREEN — integrity contract recovered on main: $RUN_URL"
             else
-              gh issue comment "$issue_number" --repo "$GITHUB_REPOSITORY" --body "GREEN — integrity contract passed on main: $RUN_URL"
+              gh issue comment "$issue_number" \
+                --repo "$GITHUB_REPOSITORY" \
+                --body "GREEN — integrity contract passed on main: $RUN_URL"
             fi
             exit 0
           fi
+
           if [ -z "$issue_number" ]; then
-            gh issue create --repo "$GITHUB_REPOSITORY" --title "$ISSUE_TITLE" --body "RED — the Publication and Markdown integrity workflow is not green on main. Do not call publication-facing work closed until a later run passes. Current run: $RUN_URL"
+            gh issue create \
+              --repo "$GITHUB_REPOSITORY" \
+              --title "$ISSUE_TITLE" \
+              --body "RED — the Publication and Markdown integrity workflow is not green on main. Do not call publication-facing work closed until a later run passes. Current run: $RUN_URL"
           elif [ "$issue_state" = "CLOSED" ]; then
-            gh issue reopen "$issue_number" --repo "$GITHUB_REPOSITORY" --comment "RED — integrity contract failed again on main: $RUN_URL"
+            gh issue reopen "$issue_number" \
+              --repo "$GITHUB_REPOSITORY" \
+              --comment "RED — integrity contract failed again on main: $RUN_URL"
           else
-            gh issue comment "$issue_number" --repo "$GITHUB_REPOSITORY" --body "RED — integrity contract is still not green on main: $RUN_URL"
+            gh issue comment "$issue_number" \
+              --repo "$GITHUB_REPOSITORY" \
+              --body "RED — integrity contract is still not green on main: $RUN_URL"
           fi
