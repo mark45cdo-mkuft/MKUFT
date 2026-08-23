@@ -112,6 +112,75 @@ One qualitative contraction sequence is:
 
 Truth, memory, precise language, fixed definitions, preregistered prediction, firm boundaries, and cross-layer consistency therefore tend to reduce exploitative manoeuvre space without implying that lawful creativity must disappear.
 
+## 6A. Operational certainty, charge, and closure
+
+Scientific and human use of the word **certainty** often compresses several different variables that should remain separate.
+
+For a declared target $q$ at an address and time, retain at least three typed quantities:
+
+```math
+\mathfrak E_t^{(q)}
+=
+\left(
+\kappa_t^{(q)},
+\chi_t^{(q)},
+\zeta_t^{(q)}
+\right),
+```
+
+where:
+
+- $\kappa_t^{(q)}$ is **confidence** or epistemic concentration under the declared evidence/model;
+- $\chi_t^{(q)}$ is **charge** — the declared consequence, salience, or decision importance of the branch if it is true;
+- $\zeta_t^{(q)}$ is **closure robustness** — how stable the target conclusion or action remains under the serious admissible alternatives, nulls, and deformations still in play.
+
+No universal scalar combination is implied. A high-charge claim may have moderate confidence and incomplete closure. A low-charge claim may be extremely well supported. Charge is not evidence, and residual ambiguity does not erase consequence.
+
+Using the consequence-weighted ambiguity object formalised in Module 31, an operational closure claim is target-relative. Schematically,
+
+```math
+\operatorname{Close}_t(q)=1
+```
+
+only where the remaining admissible alternatives no longer change the declared target beyond tolerance and the conclusion survives the applicable fair challenge set. This can justify a stable decision while unresolved lower-level state distinctions remain.
+
+Therefore:
+
+```text
+decision closure ≠ complete state resolution ≠ metaphysical possession of truth.
+```
+
+When ordinary language uses “certain”, MKUFT treats it only as shorthand for sufficiently robust **operational closure at a declared address**, not as a special truth substance. The framework makes no claim that absolute metaphysical certainty has been obtained.
+
+### Temporal typing of claims
+
+A claim should also retain how it is available to the current address:
+
+```text
+REG-now   = present registration / current observation;
+REC-past  = reconstruction from retained traces, records, memory, or provenance;
+PRED-future = admissible future prediction or forecast;
+DER-cond  = consequence derived conditionally from declared premises or maps.
+```
+
+Present registration is still measurement-relative and does not become infallible merely because it is current. Past reconstruction and future prediction can be strong, but they are mediated by records or models. Conditional derivation inherits the status of its premises and maps. This is an epistemic/access distinction, not a metaphysical claim that the past or future is unreal.
+
+### Reopening rule
+
+Closure is address-, target-, regime-, and challenge-relative. A later lawful future split, stronger null, or newly resolved distinction may reopen a previously closed target:
+
+```text
+operational closure
+→ lawful separating evidence/future
+→ reopened ambiguity
+→ readdress
+→ retest closure.
+```
+
+If the earlier claim was correctly scoped to the evidence and challenge family then available, later reopening does not make the earlier decision irrational. If the separating alternative already lay inside the declared challenge family and was ignored, the earlier closure was overclaimed.
+
+> **Do not let charge promote confidence. Do not let uncertainty flatten charge. Do not let decision closure masquerade as complete truth closure.**
+
 ## 7. Semantic constraint and meaning provenance
 
 Interpretive ambiguity is not flat. Candidate meanings are constrained by the communicative object that actually exists.
@@ -258,6 +327,8 @@ The formalism is useful only when it makes uncertainty cleaner.
 - [Standalone Formal Addendum](03_STANDALONE_FORMAL_ADDENDUM.md)
 - [Agency Accessibility and Capture Geometry](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+- [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
+- [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
 - [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
 - [Cross-Support and Traversal Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 
@@ -265,4 +336,4 @@ The formalism is useful only when it makes uncertainty cleaner.
 
 > Manoeuvrability combines unresolved state volume, low-cost frame-switching, and preserved access. Generative ambiguity tends to yield clearer structure under honest examination; exploitative ambiguity is predicted to preserve or regenerate unresolved routes when clarification threatens access.
 
-> Ambiguity preserves possibilities. Semantics constrains their admissibility. Truth contracts the space without falsifying the route by which it was crossed.
+> Ambiguity preserves possibilities. Semantics constrains their admissibility. Operational closure can stabilise a target or decision without erasing residual state ambiguity. Charge, confidence, and closure remain separate. Evidence and lawful constraint contract the space without falsifying the route by which it was crossed.
