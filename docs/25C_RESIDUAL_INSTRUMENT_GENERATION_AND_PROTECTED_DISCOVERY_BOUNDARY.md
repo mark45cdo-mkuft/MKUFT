@@ -38,7 +38,7 @@ Under the equation-status discipline of [Module 29](29_MKUFT_SCIENTIFIC_TIGHTENI
 
 A formal measurement coordinate is therefore not promoted into a physical, cognitive, or ontological dimension merely because it admits mathematical notation.
 
-## 3. Retained measurement body
+## 3. Retained measurement body and typed value space
 
 Let the retained measurement body be
 
@@ -48,17 +48,37 @@ Let the retained measurement body be
 \{y_1,y_2,\ldots,y_n\},
 ```
 
-where each $y_i$ is a declared measurement readout with its own operational definition, scale, direction, uncertainty model, and scoring rule.
+where each $y_i$ is a declared measurement readout with its own operational definition, value space $\mathcal X_i$, scale, direction, uncertainty model, and scoring rule.
+
+The corresponding measurement-value space is
+
+```math
+\mathcal X_{\mathcal Y_n}
+=
+\mathcal X_1\times\mathcal X_2\times\cdots\times\mathcal X_n.
+```
+
+For a task world or evaluation instance $w\in\mathcal W$, the realised measurement vector is
+
+```math
+\mathbf y_n(w)
+=
+\bigl(y_1(w),y_2(w),\ldots,y_n(w)\bigr)
+\in
+\mathcal X_{\mathcal Y_n}.
+```
+
+This distinction is required by Module 27: the measurement-body definition, its value space, and one realised measurement vector are different mathematical objects.
 
 For ATLD 2, the live candidate body is inherited from Module 25B. This module does not redefine those coordinates and does not add a thirteenth coordinate.
 
-Let $w\in\mathcal W$ denote a task world or evaluation instance drawn from a declared experimental domain $\mathcal W$. Let $r$ denote a material failure class whose diagnostic ownership is under test.
+Let $r(w)\in\mathcal R$ denote the realised class or state of a material failure whose diagnostic ownership is under test, where $\mathcal R$ is the declared residual-label or residual-state space.
 
-The measurement problem is not whether $r$ can be recognised with unrestricted hindsight. It is whether $r$ can be recovered under the same admissible information and evaluator constraints available to the retained measurement body.
+The measurement problem is not whether $r(w)$ can be recognised with unrestricted hindsight. It is whether it can be recovered under the same admissible information and evaluator constraints available to the retained measurement body.
 
 ## 4. Admissible recovery family and no-smuggling constraint
 
-Let $Z(w)$ denote generic run information available in every compared condition. Let $\mathcal C(g)$ be a declared evaluator-complexity or resource measure for a recovery rule $g$, and let $C_{\max}$ be the preregistered recovery budget.
+Let $Z(w)\in\mathcal Z$ denote generic run information available in every compared condition. Let $\mathcal C(g)$ be a declared evaluator-complexity or resource measure for a recovery rule $g$, and let $C_{\max}$ be the preregistered recovery budget.
 
 Define the admissible recovery family
 
@@ -67,19 +87,22 @@ Define the admissible recovery family
 =
 \left\{
  g:
- g\text{ uses only }\mathcal Y_n\text{ and }Z,
- \quad
- \mathcal C(g)\le C_{\max}
-\right\}.
+ \mathcal X_{\mathcal Y_n}\times\mathcal Z\rightarrow\widehat{\mathcal R}
+ \;\middle|\;
+ \mathcal C(g)\le C_{\max},
+ \;g\text{ receives no candidate-specific privileged input}
+\right\},
 ```
 
-The phrase “uses only $\mathcal Y_n$ and $Z$” is load-bearing. If the candidate distinction $x$ is being removed, $Z$ must not contain an $x$-specific oracle, renamed rubric, privileged annotation, or equivalent field that reconstructs $x$ by another name.
+where $\widehat{\mathcal R}$ is the declared diagnostic-output space.
+
+The final condition is load-bearing. If the candidate distinction $x$ is being removed, $Z$ must not contain an $x$-specific oracle, renamed rubric, privileged annotation, or equivalent field that reconstructs $x$ by another name.
 
 This is the formal no-smuggling boundary. A removal test in which the removed coordinate is reintroduced through evaluator privilege is not a removal test.
 
 ## 5. Residual diagnostic risk
 
-Let $\ell_r$ be a preregistered loss function for diagnosing failure class $r$. The best admissible recovery risk of the retained body is
+Let $\ell_r:\widehat{\mathcal R}\times\mathcal R\rightarrow\mathbb R_{\ge0}$ be a preregistered diagnostic loss for failure class $r$. The best admissible recovery risk of the retained body is
 
 ```math
 \mathcal L_n(r)
@@ -87,7 +110,7 @@ Let $\ell_r$ be a preregistered loss function for diagnosing failure class $r$. 
 \inf_{g\in\mathfrak R_n(C_{\max})}
 \mathbb E_{w\sim\mathcal W_{\mathrm{hold}}}
 \!\left[
-\ell_r\!\left(g(\mathcal Y_n,Z(w)),r(w)\right)
+\ell_r\!\left(g(\mathbf y_n(w),Z(w)),r(w)\right)
 \right],
 ```
 
@@ -105,12 +128,43 @@ This inequality is a gate, not a discovery certificate. It establishes only that
 
 ## 6. Candidate augmentation and marginal diagnostic gain
 
-Let $x$ be a candidate diagnostic distinction generated in response to an unresolved residual. The augmented candidate body is
+Let $x$ be a candidate diagnostic distinction generated in response to an unresolved residual, with declared value space $\mathcal X_x$. The augmented candidate body is
 
 ```math
 \mathcal Y_n^{(+x)}
 =
-\mathcal Y_n\cup\{x\}.
+\mathcal Y_n\cup\{x\},
+```
+
+with value space
+
+```math
+\mathcal X_{\mathcal Y_n^{(+x)}}
+=
+\mathcal X_{\mathcal Y_n}\times\mathcal X_x,
+```
+
+and realised measurement vector
+
+```math
+\mathbf y_n^{(+x)}(w)
+=
+\bigl(\mathbf y_n(w),x(w)\bigr).
+```
+
+Define the augmented admissible recovery family
+
+```math
+\mathfrak R_{n,+x}(C_{\max})
+=
+\left\{
+ g:
+ \mathcal X_{\mathcal Y_n^{(+x)}}\times\mathcal Z
+ \rightarrow\widehat{\mathcal R}
+ \;\middle|\;
+ \mathcal C(g)\le C_{\max},
+ \;g\text{ receives no additional privileged input}
+\right\}.
 ```
 
 Using the same held-out distribution, resource envelope, and loss definition, define
@@ -121,7 +175,7 @@ Using the same held-out distribution, resource envelope, and loss definition, de
 \inf_{g\in\mathfrak R_{n,+x}(C_{\max})}
 \mathbb E_{w\sim\mathcal W_{\mathrm{hold}}}
 \!\left[
-\ell_r\!\left(g(\mathcal Y_n^{(+x)},Z(w)),r(w)\right)
+\ell_r\!\left(g(\mathbf y_n^{(+x)}(w),Z(w)),r(w)\right)
 \right].
 ```
 
@@ -153,17 +207,20 @@ Determine whether an existing $y_i\in\mathcal Y_n$ already measures the failure 
 
 Determine whether a preregistered derived readout from the retained body recovers $r$ without introducing candidate-specific privileged information.
 
-A lawful derived owner has the form
+A lawful derived owner has the typed form
 
 ```math
-h:\mathcal Y_n\times Z\rightarrow\widehat r,
+h:
+\mathcal X_{\mathcal Y_n}\times\mathcal Z
+\rightarrow
+\widehat{\mathcal R},
 ```
 
 with $h$ fixed or selected under the same admissible recovery rules used for all conditions.
 
 ### 7.3 Coalition ownership
 
-Determine whether a coalition $S\subseteq\mathcal Y_n$ recovers the failure even though no single retained coordinate does.
+For a coalition $S\subseteq\mathcal Y_n$, let $\mathbf y_S(w)$ denote the corresponding subvector of retained measurements. Determine whether an admissible recovery rule using $\mathbf y_S(w)$ and $Z(w)$ recovers the failure even though no single retained coordinate does.
 
 The existence of coalition recovery means the failure may expose interaction structure inside the retained body rather than require a new coordinate.
 
@@ -178,7 +235,9 @@ Where the candidate claim concerns relational structure, the preferred control p
 The governing comparison is therefore not
 
 ```math
-\text{more information}\quad\text{versus}\quad\text{less information},
+\text{more information}
+\quad\text{versus}\quad
+\text{less information},
 ```
 
 but, where experimentally possible,
@@ -240,7 +299,7 @@ For each candidate $x$, preregister the expected primary target and any plausibl
 - propagated causal shadow;
 - independent co-failure;
 - unresolved coupling;
-- or evidence that the proposed coordinate boundary is incorrectly drawn.
+- evidence that the proposed coordinate boundary is incorrectly drawn.
 
 Where a targeted repair of the primary failure restores a downstream readout without directly repairing that downstream readout, the downstream movement is evidence for propagated dependence rather than automatic coordinate independence.
 
@@ -321,7 +380,7 @@ Self-application may legitimately provide:
 - a proposed deformation;
 - a proposed control;
 - a sharper falsification burden;
-- or convergent design evidence.
+- convergent design evidence.
 
 It cannot by itself provide independent empirical validation of the candidate.
 
@@ -411,7 +470,7 @@ This methodological extension is weakened, reduced, or rejected if any of the fo
 - the result is confined to the originating task world where broader transfer is claimed;
 - independent evaluators cannot execute the public test from the disclosed surface;
 - the measurement body grows mainly by terminology rather than by unique held-out diagnostic value;
-- or ordinary residual analysis, ablation, causal testing, fault localisation, or benchmark refinement provides equal discrimination at equal or lower complexity.
+- ordinary residual analysis, ablation, causal testing, fault localisation, or benchmark refinement provides equal discrimination at equal or lower complexity.
 
 Reduction rule:
 
