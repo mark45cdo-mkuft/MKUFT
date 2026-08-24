@@ -1,3 +1,4 @@
+# Live MKUFT publication gate: route failure must remain red, never downgrade the object.
 name: Render 25C house-style reading edition
 
 on:
