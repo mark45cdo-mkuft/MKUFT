@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
+      - main
       - fix-25c-house-style
     paths:
       - '.github/workflows/render-25c-house-style.yml'
@@ -19,10 +20,10 @@ jobs:
     env:
       SOURCE_COMMIT: 35f877995298414cfdbc4c4cc59ab62f7f245490
     steps:
-      - name: Check out repair branch
+      - name: Check out triggering branch
         uses: actions/checkout@v4
         with:
-          ref: fix-25c-house-style
+          ref: ${{ github.ref_name }}
           fetch-depth: 0
 
       - name: Install professional render dependencies
@@ -57,5 +58,5 @@ jobs:
             echo "No gated changes to commit."
           else
             git commit -m "Close Module 25C professional reading edition and write gate"
-            git push origin HEAD:fix-25c-house-style
+            git push origin HEAD:${GITHUB_REF_NAME}
           fi
