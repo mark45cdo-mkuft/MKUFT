@@ -9,6 +9,7 @@
 **Parent traversal owner:** [24A — Active Traversal and Functional Emergence](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)  
 **Null/control owner:** [24B — Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)  
 **Deformation owner:** [25 — Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)  
+**Successor methodological extension:** [25C — Residual Instrument Generation and Protected Discovery Boundary](25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)  
 **Public paper route:** [ATLD 2 v2.0](../papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)  
 **Status:** canonical public measurement fold for ATLD 2. This module preserves the live research consequences of the published successor paper without turning the paper into a new reasoning controller or silently changing the frozen DOI object.  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved for this live repository module unless an exact file version expressly states otherwise.
@@ -30,6 +31,7 @@ The live chain is:
 → 24B strongest fair null and relationship specificity
 → 25 controlled deformation / load-bearing relation test
 → 25B residual measurement audit / candidate retention or collapse
+→ 25C residual instrument generation / protected discovery boundary
 ```
 
 ## 2. Frozen predecessor body
@@ -123,6 +125,8 @@ new residual observed
 ```
 
 This rule is the live answer to **measurement-body self-expansion**. Novelty is not earned because a new label can be written.
+
+Module 25C states the higher-order methodological consequence of this rule and the associated disclosure boundary without adding a new coordinate or altering the frozen ATLD 2 publication.
 
 ## 6. No-smuggling rule
 
@@ -265,17 +269,18 @@ These lessons are also routed into the standing research/publication SOPs.
 
 ## 14. Frozen/public/live separation
 
-Keep four objects distinct:
+Keep five objects distinct:
 
 ```text
 ATLD v1.0 frozen predecessor
 ATLD 2 v2.0 frozen DOI paper
 Module 25B live canonical measurement fold
+Module 25C live methodological/disclosure-boundary extension
 future empirical benchmark/results objects
 ```
 
-The live module may sharpen later. It must not silently backdate those changes into DOI `10.5281/zenodo.22068803`.
+The live modules may sharpen later. They must not silently backdate those changes into DOI `10.5281/zenodo.22068803`.
 
 ## 15. Compact kernel
 
-> **Keep the ATLD v1 causal instrument fixed. Treat measurement incompleteness as a testable object. Propose residual coordinates only when the retained body cannot fairly recover the failure. Deform directly and through the mirror, remove the candidate, forbid evaluator smuggling, separate causal shadows from co-failures, and test held-out foreign systems. Endpoint correctness cannot erase a broken route; a new residual cannot earn a new dimension by novelty alone. Preserve O/U/R/V/F only if they survive the kill conditions. Self-audit may sharpen the instrument; it may not certify itself.**
+> **Keep the ATLD v1 causal instrument fixed. Treat measurement incompleteness as a testable object. Propose residual coordinates only when the retained body cannot fairly recover the failure. Deform directly and through the mirror, remove the candidate, forbid evaluator smuggling, separate causal shadows from co-failures, and test held-out foreign systems. Endpoint correctness cannot erase a broken route; a new residual cannot earn a new dimension by novelty alone. Preserve O/U/R/V/F only if they survive the kill conditions. Self-audit may sharpen the instrument; it may not certify itself. Route higher-order residual-instrument and disclosure-boundary consequences through Module 25C without disclosing private implementation details not required to reproduce the scientific test.**
