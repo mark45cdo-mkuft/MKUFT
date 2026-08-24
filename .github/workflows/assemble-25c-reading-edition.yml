@@ -1,0 +1,39 @@
+name: Assemble temporary 25C reading edition
+
+on:
+  push:
+    branches:
+      - tmp-25c-reading-edition-build
+    paths:
+      - '.tmp25c/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: tmp-25c-reading-edition-build
+      - name: Assemble and verify PDF
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p publications/module-reading-editions
+          cat .tmp25c/part_* | base64 --decode > publications/module-reading-editions/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.pdf
+          actual="$(sha256sum publications/module-reading-editions/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.pdf | awk '{print toupper($1)}')"
+          expected="CA42A78F93C7E4F9D1A9EDDF431D8D67977E6AE248FD5D5E4D9D4D011728F5F7"
+          test "$actual" = "$expected"
+      - name: Commit assembled carrier and remove temporary build material
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publications/module-reading-editions/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.pdf
+          git rm -r .tmp25c
+          git rm .github/workflows/assemble-25c-reading-edition.yml
+          git commit -m "Assemble professional Module 25C reading edition [skip ci]"
+          git push origin HEAD:tmp-25c-reading-edition-build
