@@ -1,4 +1,3 @@
-# Closure revalidation trigger for the Module 25C carrier registration.
 name: Publication and Markdown integrity
 
 on:
