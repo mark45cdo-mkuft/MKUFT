@@ -17,7 +17,7 @@
 
 *Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems*
 
-The Zenodo v2.0 PDF is the controlling frozen publication object for exact pagination, equations, tables, and visual layout. The GitHub paper route, canonical Module 25B fold, and repository checksum record are related discovery/live objects; they do not silently revise the deposited manuscript.
+The Zenodo v2.0 PDF is the controlling frozen publication object for exact pagination, equations, tables, and visual layout. The GitHub paper route, canonical Module 25B fold, later live methodological extensions such as Module 25C, and repository checksum record are related discovery/live objects; they do not silently revise the deposited manuscript.
 
 ### v2.0 identity
 
@@ -73,14 +73,16 @@ The current public canon routes the ATLD family through:
 - [24B — Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
 - [25 — Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
 - [25B — ATLD 2 Residual Coordinate Measurement and Self-Audit](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
+- [25C — Residual Instrument Generation and Protected Discovery Boundary](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)
 
-Module 25B is the live canonical measurement fold for the successor result. It imports the public methodological consequences without silently rewriting either frozen ATLD version and without treating an AI-evaluation coordinate as a physical coordinate of nature.
+Module 25B is the live canonical measurement fold for the successor result. Module 25C records the higher-order residual-instrument and disclosure-boundary consequence of that live method. Neither silently rewrites either frozen ATLD version, and neither treats an AI-evaluation coordinate as a physical coordinate of nature.
 
 ## Current v2.0 archive and verification
 
 - [GitHub v2.0 paper route](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)
 - [Frozen v2.0 identity/checksum record](publications/ATLD2_Evaluation_Protocol_v2.0/)
 - [Live canonical Module 25B fold](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
+- [Live Module 25C methodological extension](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)
 - [Publication archive boundary](publications/README.md)
 - [Papers and Publications index](papers/README.md)
 
