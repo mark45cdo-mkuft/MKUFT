@@ -1,0 +1,62 @@
+name: Render 25C house-style reading edition
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - fix-25c-house-style
+    paths:
+      - '.github/workflows/render-25c-house-style.yml'
+      - 'tools/render_25c_house_style.py'
+      - 'docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md'
+
+permissions:
+  contents: write
+
+jobs:
+  render-and-close:
+    runs-on: ubuntu-latest
+    env:
+      SOURCE_COMMIT: 35f877995298414cfdbc4c4cc59ab62f7f245490
+    steps:
+      - name: Check out triggering branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Install professional render dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            pandoc texlive-xetex texlive-fonts-extra texlive-latex-extra \
+            fonts-dejavu-core poppler-utils qpdf
+
+      - name: Render from canonical source and enforce house-style gates
+        run: python3 tools/render_25c_house_style.py
+
+      - name: Show closure evidence
+        run: |
+          cat publications/module-reading-editions/25C_READING_EDITION_CLOSURE.txt
+          git status --short
+
+      - name: Commit only if the gated object changed
+        run: |
+          git config user.name "MKUFT Publication Gate"
+          git config user.email "actions@users.noreply.github.com"
+          git add \
+            publications/module-reading-editions/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.pdf \
+            publications/module-reading-editions/25C_READING_EDITION_CLOSURE.txt \
+            publications/module-reading-editions/00_READING_EDITION_WRITE_GATE.md \
+            publications/module-reading-editions/README.md \
+            publications/module-reading-editions/SHA256SUMS.txt \
+            RENDERING_AND_PUBLICATION_INTEGRITY.md \
+            RESEARCH_DERIVATION_AND_CLOSURE_SOP.md \
+            .tmp25c_house || true
+          if git diff --cached --quiet; then
+            echo "No gated changes to commit."
+          else
+            git commit -m "Close Module 25C professional reading edition and write gate"
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi
