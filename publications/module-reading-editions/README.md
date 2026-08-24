@@ -5,10 +5,12 @@ These PDFs are professional reader-facing renderings of the evolving public MKUF
 **Author:** Mark Charles McLaughlin  
 **Scientific affiliation:** Independent Researcher  
 **ORCID:** [0009-0005-7736-1511](https://orcid.org/0009-0005-7736-1511)  
-**Public source snapshot:** `26e06b6fea52e6b052dbdd540e80d1d926b96b07`  
+**Baseline batch source snapshot:** `26e06b6fea52e6b052dbdd540e80d1d926b96b07` — later additions carry their controlling source commit on the edition cover and source route.  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All Rights Reserved. Historical licences remain controlling only for their exact frozen objects.
 
-Every PDF was rendered and visually audited from the reader side. The 41 module editions comprise 242 pages; the Integrated Master Spine edition adds 12 pages. The final common-template pass checked cover metadata, equations, tables, headings, typography, clipping, page composition, and extracted-text corruption markers.
+Every PDF was rendered and visually audited from the reader side. The 42 module editions comprise 251 pages; the Integrated Master Spine edition adds 12 pages. The final common-template pass checked cover metadata, equations, tables, headings, typography, clipping, page composition, and extracted-text corruption markers.
+
+**Write gate for this directory:** before any reading edition is created or replaced, lock an existing approved equation-bearing edition as the specimen and preserve its carrier class, typography, equation quality, status, and provenance. If a tool or transport route cannot preserve those invariants, change route or leave the object unclosed; do not downgrade the carrier to fit the tool.
 
 The cited Git commit fixes the source identity of each edition. The Markdown source remains the evolving public owner; the PDF is a convenience reading carrier and does not silently replace a DOI-bearing publication.
 
@@ -40,6 +42,7 @@ The cited Git commit fixes the source identity of each edition. The Markdown sou
 | [24B — Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.pdf) | [Markdown source](../../docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) | 5 |
 | [25 — Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.pdf) | [Markdown source](../../docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) | 7 |
 | [25A — Fundamental Traversal Coherence Nodes](25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.pdf) | [Markdown source](../../docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md) | 5 |
+| [25C — Residual Instrument Generation and Protected Discovery Boundary](25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.pdf) | [Markdown source](../../docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md) | 9 |
 | [27 — Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.pdf) | [Markdown source](../../docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) | 7 |
 | [28 — MKUFT Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.pdf) | [Markdown source](../../docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) | 10 |
 | [29 — MKUFT Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.pdf) | [Markdown source](../../docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md) | 5 |
