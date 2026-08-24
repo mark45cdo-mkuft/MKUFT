@@ -1,4 +1,4 @@
-name: One-shot 25C professional reading-edition bridge
+name: One-shot 25C reading-edition shelf close
 
 on:
   push:
@@ -10,33 +10,60 @@ permissions:
   contents: write
 
 jobs:
-  bridge-audited-carrier:
+  close-shelf:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out current main
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Fetch exact reader-audited 25C carrier
+      - name: Update normal reading-edition inventory and checksum record
         run: |
-          set -euo pipefail
-          mkdir -p publications/module-reading-editions
-          curl -L --fail --retry 3 \
-            'https://drive.usercontent.google.com/download?id=1TdWqWlN5sBg2RFO2CvK81qda9wqKyKHe&export=download&confirm=t' \
-            -o publications/module-reading-editions/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.pdf
-          test "$(stat -c '%s' publications/module-reading-editions/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.pdf)" = '86673'
-          echo '18c3816fa252eab365f3cb566c457c1729d88388e7894b847c46459b7f2fd2ff  publications/module-reading-editions/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.pdf' | sha256sum -c -
+          python3 - <<'PY'
+          from pathlib import Path
 
-      - name: Commit only the verified carrier
+          readme = Path('publications/module-reading-editions/README.md')
+          s = readme.read_text(encoding='utf-8')
+          s = s.replace(
+              '**Public source snapshot:** `26e06b6fea52e6b052dbdd540e80d1d926b96b07`',
+              '**Baseline batch source snapshot:** `26e06b6fea52e6b052dbdd540e80d1d926b96b07` — later additions carry their controlling source commit on the edition cover and source route.'
+          )
+          s = s.replace(
+              'Every PDF was rendered and visually audited from the reader side. The 41 module editions comprise 242 pages; the Integrated Master Spine edition adds 12 pages. The final common-template pass checked cover metadata, equations, tables, headings, typography, clipping, page composition, and extracted-text corruption markers.',
+              'Every PDF was rendered and visually audited from the reader side. The 42 module editions comprise 251 pages; the Integrated Master Spine edition adds 12 pages. The final common-template pass checked cover metadata, equations, tables, headings, typography, clipping, page composition, and extracted-text corruption markers.\n\n**Write gate for this directory:** before any reading edition is created or replaced, lock an existing approved equation-bearing edition as the specimen and preserve its carrier class, typography, equation quality, status, and provenance. If a tool or transport route cannot preserve those invariants, change route or leave the object unclosed; do not downgrade the carrier to fit the tool.'
+          )
+          row25a = '| [25A — Fundamental Traversal Coherence Nodes](25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.pdf) | [Markdown source](../../docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md) | 5 |'
+          row25c = '| [25C — Residual Instrument Generation and Protected Discovery Boundary](25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.pdf) | [Markdown source](../../docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md) | 9 |'
+          if row25c not in s:
+              if row25a not in s:
+                  raise SystemExit('25A inventory anchor not found')
+              s = s.replace(row25a, row25a + '\n' + row25c)
+          readme.write_text(s, encoding='utf-8')
+
+          sums = Path('publications/module-reading-editions/SHA256SUMS.txt')
+          t = sums.read_text(encoding='utf-8')
+          line = '18C3816FA252EAB365F3CB566C457C1729D88388E7894B847C46459B7F2FD2FF  25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.pdf'
+          if line not in t:
+              anchor = '91FFEAE5018C0264ADC0E7C171139B8523497627907E80A357910AB1FC77B966  25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.pdf'
+              if anchor not in t:
+                  raise SystemExit('25A checksum anchor not found')
+              t = t.replace(anchor, anchor + '\n' + line)
+          sums.write_text(t, encoding='utf-8')
+          PY
+
+          grep -F '42 module editions comprise 251 pages' publications/module-reading-editions/README.md
+          grep -F '25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.pdf' publications/module-reading-editions/README.md
+          grep -F '18C3816FA252EAB365F3CB566C457C1729D88388E7894B847C46459B7F2FD2FF' publications/module-reading-editions/SHA256SUMS.txt
+
+      - name: Commit bookkeeping
         run: |
           set -euo pipefail
           git config user.name 'MKUFT Publication Bridge'
           git config user.email 'actions@users.noreply.github.com'
-          git add publications/module-reading-editions/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.pdf
+          git add publications/module-reading-editions/README.md publications/module-reading-editions/SHA256SUMS.txt
           if git diff --cached --quiet; then
-            echo 'Verified carrier already present.'
+            echo 'Shelf bookkeeping already current.'
           else
-            git commit -m 'Add audited Module 25C professional reading edition'
+            git commit -m 'Register Module 25C professional reading edition'
             git push origin HEAD:main
           fi
