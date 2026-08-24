@@ -2,288 +2,445 @@
 
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
+**ATLD 2 version DOI:** [10.5281/zenodo.22068803](https://doi.org/10.5281/zenodo.22068803)  
+**ATLD concept DOI:** [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520)  
+**Originating MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
 **Parent measurement owner:** [25B — ATLD 2 Residual Coordinate Measurement and Self-Auditing Evaluation](25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)  
 **Deformation owner:** [25 — Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)  
 **Null/control owner:** [24B — Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)  
-**Published ATLD 2 object:** [ATLD 2 v2.0](../papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md), DOI `10.5281/zenodo.22068803`  
-**Status:** live methodological extension. This module does not alter the frozen ATLD 2 publication and does not disclose the private implementation that motivated candidate discovery.  
-**Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later version expressly states otherwise.
+**Equation and notation owner:** [27 — Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)  
+**Claim-discipline owner:** [29 — MKUFT Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)  
+**Status:** canonical public methodological extension to Module 25B. It does not alter the frozen ATLD 2 DOI object, does not establish a new ontology, and does not disclose private implementation-specific discovery machinery not required to reproduce the declared scientific test.  
+**Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved for this live repository module unless an exact file version expressly states otherwise.
 
-## 1. Purpose
+## 1. Purpose and scope
 
-ATLD 2 treats measurement refinement as an object of study: a retained measurement body may expose a reproducible material failure that it does not yet isolate cleanly, and that residual can then be tested as a candidate addition to the instrument.
+ATLD 2 treats measurement incompleteness as an empirical question. A retained measurement body may perform well on its declared coordinates while leaving a reproducible, materially important failure insufficiently isolated. The scientifically relevant question is then not whether a new label can be written, but whether the unresolved failure supplies diagnostic information that the retained body cannot recover fairly under matched conditions.
 
-This module makes that higher-order consequence explicit while preserving the distinction between a **publicly testable measurement method** and any **private implementation-specific process** that helped make a candidate visible.
+This module formalises that higher-order procedure. It addresses three distinct objects:
 
-The term **residual instrument generation** is used here descriptively for that methodological pattern. No claim of priority, coinage, or independent novelty is made by the terminology itself.
+1. **residual detection** — whether a material failure remains insufficiently owned by the retained measurement body;
+2. **instrument refinement** — whether a candidate distinction adds reproducible diagnostic information after removal, substitution, coalition, causal-shadow, and mirror testing;
+3. **disclosure control** — which information must be public for independent reproduction and falsification of the scientific claim, and which implementation-specific material is not required by that burden.
 
-## 2. Core distinction
+The expression **residual instrument generation** is used here as a descriptive label for this methodological pattern. No claim of priority, coinage, or independent novelty is attached to the phrase itself.
 
-A fixed evaluator asks:
+## 2. Scientific status and equation class
 
-> How does the tested system perform on the measurements already defined?
+The formal objects in this module are methodological and statistical, not physical.
 
-A residual-generating evaluator also asks:
+Under the equation-status discipline of [Module 29](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md):
 
-> Does a reproducible material failure remain that the retained measurement body cannot recover fairly without importing a new distinction?
+- set definitions, ownership maps, and promotion logic are **E0 bookkeeping or formal specification**;
+- loss, recovery, and marginal-diagnostic-gain expressions are **E1 operational scaffolds** until the task distribution, variables, loss function, complexity envelope, thresholds, and scoring rules are frozen;
+- they become **E2 operational statistical models** only when those quantities are prospectively specified and applied to a defined dataset or benchmark;
+- no expression in this module is an E4 physical mechanism or law of nature.
 
-The second question concerns adequacy of the instrument, not only performance of the tested system.
+A formal measurement coordinate is therefore not promoted into a physical, cognitive, or ontological dimension merely because it admits mathematical notation.
+
+## 3. Retained measurement body
 
 Let the retained measurement body be
 
 ```math
-Y_n = [y_1, y_2, \ldots, y_n].
+\mathcal Y_n
+=
+\{y_1,y_2,\ldots,y_n\},
 ```
 
-Suppose a reproducible residual failure `r` remains after the existing body, its lawful derived readouts, and the strongest fair existing recovery have been applied.
+where each $y_i$ is a declared measurement readout with its own operational definition, scale, direction, uncertainty model, and scoring rule.
 
-The lawful next step is not automatic expansion. It is candidate testing:
+For ATLD 2, the live candidate body is inherited from Module 25B. This module does not redefine those coordinates and does not add a thirteenth coordinate.
 
-```text
-retained body Y_n
-→ material residual r
-→ existing-owner / derived-owner / coalition recovery test
-→ candidate distinction x only if r remains unresolved
-→ direct + mirror selective deformation
-→ coordinate-removal / diagnostic-loss test
-→ no-smuggling audit
-→ held-out and cross-system testing
-→ RETAIN / MERGE / DEMOTE / REDEFINE / KILL / UNRESOLVED
+Let $w\in\mathcal W$ denote a task world or evaluation instance drawn from a declared experimental domain $\mathcal W$. Let $r$ denote a material failure class whose diagnostic ownership is under test.
+
+The measurement problem is not whether $r$ can be recognised with unrestricted hindsight. It is whether $r$ can be recovered under the same admissible information and evaluator constraints available to the retained measurement body.
+
+## 4. Admissible recovery family and no-smuggling constraint
+
+Let $Z(w)$ denote generic run information available in every compared condition. Let $\mathcal C(g)$ be a declared evaluator-complexity or resource measure for a recovery rule $g$, and let $C_{\max}$ be the preregistered recovery budget.
+
+Define the admissible recovery family
+
+```math
+\mathfrak R_n(C_{\max})
+=
+\left\{
+ g:
+ g\text{ uses only }\mathcal Y_n\text{ and }Z,
+ \quad
+ \mathcal C(g)\le C_{\max}
+\right\}.
 ```
 
-Only a surviving candidate can justify movement from `Y_n` toward `Y_(n+1)`.
+The phrase “uses only $\mathcal Y_n$ and $Z$” is load-bearing. If the candidate distinction $x$ is being removed, $Z$ must not contain an $x$-specific oracle, renamed rubric, privileged annotation, or equivalent field that reconstructs $x$ by another name.
 
-## 3. Relation to ATLD 2
+This is the formal no-smuggling boundary. A removal test in which the removed coordinate is reintroduced through evaluator privilege is not a removal test.
 
-ATLD 2 supplies a worked methodological example of this pattern. Its predecessor measurement body contained seven readouts. A later structured self-application identified five candidate residual readouts concerning:
+## 5. Residual diagnostic risk
 
-- exact object/address custody (`O`);
-- permission/action-state integrity (`U`);
-- future-sufficient continuity/re-entry fidelity (`R`);
-- receiver-side closure (`V`);
-- parent fixed-point closure (`F`).
+Let $\ell_r$ be a preregistered loss function for diagnosing failure class $r$. The best admissible recovery risk of the retained body is
 
-The candidates were not certified by being named. Module 25B requires selective deformation, mirror tests, removal tests, strongest-existing-coordinate substitution, coalition testing, causal-shadow accounting, no-smuggling controls, neutral-domain transfer, and cross-model replication.
-
-This module adds no new coordinate. It identifies the methodological property already implied by that retention/collapse procedure: **measurement failure can itself become a testable object from which a candidate refinement is generated.**
-
-## 4. Same-content relational controls
-
-The ATLD family already distinguishes meaningful typed dependency architecture from controls that preserve informational content while flattening, isolating, scrambling, or disabling the relevant relational/traversal structure.
-
-That distinction matters here because candidate generation must not be driven by trivial content differences.
-
-Where practical, the strongest fair comparison should preserve the available informational ingredients and vary only the relation, address, transition, dependency, or other declared structural property under test.
-
-A candidate that disappears once content and resource differences are properly matched has not established residual diagnostic value.
-
-## 5. Residual promotion gate
-
-A residual `r` may justify a candidate distinction `x` only when all of the following remain live after audit:
-
-1. `r` is material to the declared task or safety/evaluation objective;
-2. `r` is reproducible under matched conditions;
-3. the existing coordinates do not already own it directly;
-4. a derived readout does not already own it adequately;
-5. a coalition of retained coordinates does not recover it with non-inferior diagnostic risk and lower or equal complexity;
-6. the apparent residual is not only a causal shadow of an upstream failure already represented;
-7. the distinction survives removal without being reintroduced through a renamed oracle, rubric, or evaluator privilege;
-8. direct and mirror deformations produce discriminating behaviour in the expected direction;
-9. the result survives held-out or neutral-domain testing appropriate to the claim;
-10. cross-model, cross-system, or independent replication is pursued before strong generalisation.
-
-Failure at any stage may require merge, demotion, redefinition, unresolved status, or removal.
-
-## 6. Anti-expansion rule
-
-A self-auditing measurement body must be able to become smaller as well as larger.
-
-Therefore:
-
-```text
-candidate generation ≠ coordinate accumulation
+```math
+\mathcal L_n(r)
+=
+\inf_{g\in\mathfrak R_n(C_{\max})}
+\mathbb E_{w\sim\mathcal W_{\mathrm{hold}}}
+\!\left[
+\ell_r\!\left(g(\mathcal Y_n,Z(w)),r(w)\right)
+\right],
 ```
 
-A new label is cheap. A retained measurement distinction is expensive.
+where $\mathcal W_{\mathrm{hold}}$ is a held-out or otherwise prospectively protected evaluation distribution appropriate to the claim.
 
-The instrument is not strengthened by preserving every vocabulary item that once appeared useful. It is strengthened when redundant, non-discriminating, or confounded distinctions can be removed without loss of legitimate diagnostic power.
+Let $\varepsilon_r$ be the largest diagnostic risk accepted as adequate recovery for $r$. A residual is eligible for candidate refinement only when
 
-A process that can only add coordinates is not self-auditing; it is an expansion ratchet.
+```math
+\mathcal L_n(r)>\varepsilon_r
+```
 
-## 7. Instrument-level claim, not ontology claim
+under the declared information, resource, and scoring envelope.
 
-A retained diagnostic distinction does not automatically establish:
+This inequality is a gate, not a discovery certificate. It establishes only that the current measurement body has not recovered the declared failure within tolerance under the specified test.
 
-- a fundamental dimension of cognition;
-- a universal component of intelligent systems;
-- a distinct physical variable;
-- an independent mathematical dimension;
-- a hidden architectural component in every system;
-- or a new law of nature.
+## 6. Candidate augmentation and marginal diagnostic gain
 
-The lawful claim is narrower:
+Let $x$ be a candidate diagnostic distinction generated in response to an unresolved residual. The augmented candidate body is
 
-> Under the declared task world and controls, the retained distinction adds reproducible diagnostic information that the existing measurement body does not fairly recover at equal or lower complexity.
+```math
+\mathcal Y_n^{(+x)}
+=
+\mathcal Y_n\cup\{x\}.
+```
 
-Any stronger interpretation requires its own evidence.
+Using the same held-out distribution, resource envelope, and loss definition, define
 
-## 8. Self-application without self-certification
+```math
+\mathcal L_{n,+x}(r)
+=
+\inf_{g\in\mathfrak R_{n,+x}(C_{\max})}
+\mathbb E_{w\sim\mathcal W_{\mathrm{hold}}}
+\!\left[
+\ell_r\!\left(g(\mathcal Y_n^{(+x)},Z(w)),r(w)\right)
+\right].
+```
 
-The process that generates a candidate cannot certify that candidate merely because the candidate improves the apparent completeness of the same framework.
+The candidate's marginal diagnostic gain is
 
-Self-application may provide:
+```math
+\Delta_x(r)
+=
+\mathcal L_n(r)-\mathcal L_{n,+x}(r).
+```
 
-- candidate generation;
-- convergent design evidence;
-- failure localisation;
-- test construction;
-- or a sharper empirical burden.
+For a preregistered minimum material gain $\delta_x>0$, a necessary condition for retention is
 
-It cannot by itself provide independent validation.
+```math
+\Delta_x(r)>\delta_x.
+```
 
-Where candidate discovery is design-adjacent or known in advance, that dependence must remain explicit. Prospective, held-out, independently scored, and cross-system tests carry the stronger burden.
+A positive $\Delta_x$ does not by itself establish an independent coordinate. The gain may still be explained by redundancy, causal shadow, evaluator leakage, overfitting, an unmatched resource advantage, or a one-sided metric. The remaining sections specify those burdens.
 
-## 9. Protected discovery boundary
+## 7. Existing-owner, derived-owner, and coalition recovery
 
-Scientific reproducibility of a measurement claim does not require disclosure of every implementation-specific mechanism used during hypothesis generation.
+Before $x$ is treated as a distinct coordinate candidate, the residual must be tested against three progressively stronger recovery classes.
 
-The public scientific surface should contain enough information to test the declared claim independently, including where applicable:
+### 7.1 Direct ownership
 
-- the observable or candidate distinction;
-- the matched task world;
-- admissible controls;
+Determine whether an existing $y_i\in\mathcal Y_n$ already measures the failure under its declared definition. If so, the appropriate action is to improve operationalisation or scoring rather than multiply coordinates.
+
+### 7.2 Derived ownership
+
+Determine whether a preregistered derived readout from the retained body recovers $r$ without introducing candidate-specific privileged information.
+
+A lawful derived owner has the form
+
+```math
+h:\mathcal Y_n\times Z\rightarrow\widehat r,
+```
+
+with $h$ fixed or selected under the same admissible recovery rules used for all conditions.
+
+### 7.3 Coalition ownership
+
+Determine whether a coalition $S\subseteq\mathcal Y_n$ recovers the failure even though no single retained coordinate does.
+
+The existence of coalition recovery means the failure may expose interaction structure inside the retained body rather than require a new coordinate.
+
+A candidate survives this stage only if direct, derived, and coalition recovery remain inadequate under the strongest fair admissible test.
+
+## 8. Same-content relational controls
+
+ATLD and Modules 24A, 24B, and 25 already distinguish informational content from the relations that organise, address, route, or constrain it.
+
+Where the candidate claim concerns relational structure, the preferred control preserves the available informational ingredients while selectively altering the declared relation or transition under test. Examples include matched flattening, isolation, relation scrambling, address substitution, or traversal restriction where those operations are lawful for the active task.
+
+The governing comparison is therefore not
+
+```math
+\text{more information}\quad\text{versus}\quad\text{less information},
+```
+
+but, where experimentally possible,
+
+```math
+\text{matched information with relation }R
+\quad\text{versus}\quad
+\text{matched information with controlled deformation of }R.
+```
+
+If the candidate effect disappears after content, compute, access, timing, and evaluator resources are properly matched, the residual has not established relation-specific diagnostic value.
+
+## 9. Direct and mirror deformation
+
+A retained coordinate must respond to both its direct failure and the corresponding pathological overcorrection.
+
+Let $S_x$ be a benefit-oriented candidate score, with larger values indicating better preservation of the declared property. Let $\mathcal D_x^{\mathrm{dir}}$ be a controlled direct deformation and $\mathcal D_x^{\mathrm{mir}}$ the matched mirror deformation.
+
+Define
+
+```math
+\Delta_x^{\mathrm{dir}}
+=
+\mathbb E[S_x\mid\mathrm{baseline}]
+-
+\mathbb E[S_x\mid\mathcal D_x^{\mathrm{dir}}],
+```
+
+and
+
+```math
+\Delta_x^{\mathrm{mir}}
+=
+\mathbb E[S_x\mid\mathrm{baseline}]
+-
+\mathbb E[S_x\mid\mathcal D_x^{\mathrm{mir}}].
+```
+
+A necessary two-sided burden is
+
+```math
+\Delta_x^{\mathrm{dir}}>0,
+\qquad
+\Delta_x^{\mathrm{mir}}>0,
+```
+
+with effect-size, uncertainty, and replication requirements fixed for the active experiment.
+
+For ATLD 2, examples of mirror structure already owned by Module 25B include object drift versus stale-object lock, unauthorised action versus false prohibition, continuity loss versus stale-state capture, receiver failure versus receiver-pleasing substitution, and premature closure versus post-fixed-point audit theatre.
+
+A candidate that improves only by collapsing onto the opposite pathological extreme is not a closed diagnostic measure.
+
+## 10. Selectivity and causal-shadow control
+
+One upstream deformation can move several downstream measurements. Counting every moved readout as an independent discovery would multiply one failure into several apparent dimensions.
+
+For each candidate $x$, preregister the expected primary target and any plausible downstream readouts. A selective deformation should produce its strongest and most reproducible effect at the declared target, while non-target movement is classified as one of:
+
+- propagated causal shadow;
+- independent co-failure;
+- unresolved coupling;
+- or evidence that the proposed coordinate boundary is incorrectly drawn.
+
+Where a targeted repair of the primary failure restores a downstream readout without directly repairing that downstream readout, the downstream movement is evidence for propagated dependence rather than automatic coordinate independence.
+
+Two candidates should be tested for merger when they lose the same diagnostic information under the same deformations, recover under the same repairs, and provide no reproducible independent marginal gain after conditional testing.
+
+## 11. Promotion rule
+
+Define the following preregistered predicates for candidate $x$:
+
+- $R_x$ — residual diagnostic gain survives the retained-body recovery test;
+- $D_x$ — direct selective deformation survives;
+- $M_x$ — mirror deformation survives;
+- $N_x$ — no-smuggling and matched-resource conditions survive;
+- $C_x$ — direct, derived, coalition, and causal-shadow alternatives remain insufficient;
+- $H_x$ — held-out or neutral-domain support survives at the declared claim level;
+- $X_x$ — cross-model, cross-system, or independent replication burden appropriate to the claim survives.
+
+Candidate promotion is permitted only if
+
+```math
+x\in\mathcal Y_{n+1}
+\quad\Longleftrightarrow\quad
+R_x\land D_x\land M_x\land N_x\land C_x\land H_x\land X_x.
+```
+
+Before all applicable terms are satisfied, the candidate remains provisional.
+
+The lawful disposition set is
+
+```math
+\mathfrak D
+=
+\{\mathrm{RETAIN},\mathrm{MERGE},\mathrm{DEMOTE},\mathrm{REDEFINE},\mathrm{KILL},\mathrm{UNRESOLVED}\}.
+```
+
+`KILL` is a successful scientific outcome when the proposed distinction adds no independent diagnostic value. A measurement body that can only grow is not self-auditing.
+
+## 12. Residual instrument generation as an audit operator
+
+For a declared experimental scope $\mathcal W$ and frozen protocol $\Pi$, let
+
+```math
+\Phi_{\Pi,\mathcal W}(\mathcal Y_n)
+```
+
+denote one complete public audit cycle consisting of residual identification, strongest admissible recovery, candidate testing where warranted, promotion or reduction, and update of the measurement body.
+
+The notation does not encode or disclose any private implementation used to generate hypotheses. It names only the public scientific transformation whose inputs, controls, and outputs are independently inspectable.
+
+A refinement step occurs when
+
+```math
+\Phi_{\Pi,\mathcal W}(\mathcal Y_n)
+\ne
+\mathcal Y_n.
+```
+
+Provisional fixed-point closure for the declared scope occurs when
+
+```math
+\Phi_{\Pi,\mathcal W}(\mathcal Y_n)
+=
+\mathcal Y_n
+```
+
+and no material unowned residual remains except one explicitly classified as unresolved because a declared empirical, data, or instrumentation blocker prevents adjudication.
+
+This is local closure under $\Pi$ and $\mathcal W$. It is not a claim that the measurement body is universally complete.
+
+## 13. Self-application without self-certification
+
+The same architecture may participate in generating and testing a candidate, but generation and validation are different evidential roles.
+
+Self-application may legitimately provide:
+
+- a candidate distinction;
+- a failure-localisation hypothesis;
+- a proposed deformation;
+- a proposed control;
+- a sharper falsification burden;
+- or convergent design evidence.
+
+It cannot by itself provide independent empirical validation of the candidate.
+
+Where a candidate was known before reconstruction, scoring, or retrospective re-analysis, that dependence must remain explicit. Prospective held-out tests, independently scored comparisons, foreign systems, neutral domains, and independent replication carry the stronger evidential burden.
+
+## 14. Protected discovery boundary
+
+Scientific reproducibility applies to the declared scientific claim. It does not require publication of every implementation-specific mechanism that contributed to hypothesis generation when those mechanisms are unnecessary to reproduce or falsify the claim.
+
+For a public candidate-coordinate test, the reproducibility surface should contain, where applicable:
+
+- the exact observable and candidate definition;
+- the parent measurement body and version;
+- the task world and sampling rule;
+- admissible information and metadata;
+- matched resource envelope;
 - direct and mirror deformations;
-- scoring and uncertainty rules;
-- candidate-removal conditions;
+- removal and substitution conditions;
+- loss, scoring, uncertainty, and threshold rules;
 - no-smuggling constraints;
-- causal-shadow handling;
-- retention and collapse criteria;
-- held-out and replication requirements.
+- coalition and causal-shadow treatment;
+- held-out design;
+- retention, merger, demotion, redefinition, kill, and unresolved criteria;
+- replication requirements appropriate to the claim.
 
-The public surface does **not** require disclosure of implementation details that are unnecessary to reproduce the scientific test, including private reasoning architecture, internal traversal topology, implementation-specific recovery choreography, private state-transition procedures, operator-specific search heuristics, or other protected discovery machinery.
+Implementation-specific material may remain outside the public scientific object when it is not required to execute those tests. This can include private reasoning architecture, private traversal topology, implementation-specific recovery choreography, internal state-transition procedures, operator-specific search heuristics, and other protected discovery machinery.
 
-The governing rule is:
+The boundary is therefore
 
-```text
-publish what is required to test the claim
-≠
-publish every mechanism that helped generate the hypothesis
+```math
+\mathcal I_{\mathrm{public}}
+\supseteq
+\mathcal I_{\mathrm{required\;for\;test}},
 ```
 
-This is a disclosure boundary, not an exemption from falsifiability. If withholding an implementation detail makes the scientific claim impossible to test, that detail cannot be withheld while still claiming independent reproducibility of that test.
+while it need not satisfy
 
-## 10. Minimum-disclosure test
-
-Before implementation-specific material is added to a public methodological object, ask:
-
-> Does an independent evaluator require this information to reproduce or falsify the declared scientific claim?
-
-If **yes**, the information belongs in the reproducibility surface or the claim must be narrowed accordingly.
-
-If **no**, the information may remain outside the public method without weakening the narrower testable claim.
-
-This keeps provenance, reproducibility, and implementation disclosure as distinct obligations rather than collapsing them into one.
-
-## 11. Anti-Goodhart and mirror burden
-
-Any generated candidate must survive the same two-sided burden imposed by ATLD 2.
-
-A metric must not reward one pathological extreme as the apparent cure for the opposite failure.
-
-Examples already present in the ATLD 2 body include:
-
-```text
-object drift ↔ stale-object lock
-unauthorised action ↔ false prohibition
-continuity loss ↔ stale-state capture
-receiver failure ↔ receiver-pleasing substitution
-premature closure ↔ audit theatre
+```math
+\mathcal I_{\mathrm{public}}
+=
+\mathcal I_{\mathrm{all\;implementation}}.
 ```
 
-A candidate without a plausible mirror test should be treated cautiously because one-direction optimisation may convert the proposed metric into a target rather than a diagnostic instrument.
+This boundary is not an exemption from falsifiability. If a withheld implementation detail is required to reproduce the claimed effect, then either that detail must enter the reproducibility surface or the public claim must be narrowed until it is independently testable from the disclosed method.
 
-## 12. Causal-shadow and duplicate-coordinate control
+## 15. Provenance and record SOP
 
-One upstream defect may produce multiple downstream symptoms.
-
-Before proposing a new coordinate, distinguish:
-
-```text
-PRIMARY FAILURE
-PROPAGATED CAUSAL SHADOW
-INDEPENDENT CO-FAILURE
-UNRESOLVED COUPLING
-```
-
-If repairing an already represented upstream failure removes the apparent residual, the downstream symptom does not automatically deserve an independent coordinate.
-
-Likewise, two differently named candidates that lose the same information under the same deformations and recover under the same repairs should be tested for merger rather than preserved for descriptive convenience.
-
-## 13. Closure condition
-
-Residual instrument generation is local to a declared experimental scope. It does not imply that a measurement body can become universally complete.
-
-For the active scope, refinement reaches provisional closure when:
-
-- no reproducible material residual survives the retained body plus lawful derived readouts and coalition recovery;
-- proposed new distinctions fail to add unique diagnostic value;
-- remaining uncertainty is explicitly classified rather than converted into new anatomy;
-- and additional audit passes no longer change the declared measurement body or its test obligations.
-
-This is a fixed point for the present scope, not a claim of universal completeness.
-
-## 14. Record and provenance SOP
-
-For every candidate generated through this process, preserve at minimum:
+For every candidate entering this procedure, preserve at minimum:
 
 1. the parent measurement body and exact version;
-2. the residual failure that motivated the candidate;
-3. the strongest existing owner or recovery attempted;
-4. whether the candidate was known before the test;
-5. the direct deformation;
-6. the mirror deformation;
-7. the coordinate-removal result;
-8. the no-smuggling decision;
-9. causal-shadow / coalition findings;
-10. held-out and cross-system status;
-11. final disposition: `RETAIN`, `MERGE`, `DEMOTE`, `REDEFINE`, `KILL`, or `UNRESOLVED`;
-12. the exact public/private boundary of the recorded object.
+2. the residual failure and its materiality criterion;
+3. the task world and held-out split or prospective protection rule;
+4. the admissible recovery family and complexity/resource envelope;
+5. the loss function, uncertainty treatment, and thresholds;
+6. whether the candidate was known before the relevant test;
+7. direct and mirror deformation definitions;
+8. coordinate-removal and strongest-existing-owner results;
+9. derived and coalition recovery results;
+10. no-smuggling decision;
+11. causal-shadow and co-failure classification;
+12. held-out, neutral-domain, cross-system, and independent-replication status;
+13. final disposition in $\mathfrak D$;
+14. exact public/private disclosure boundary of the recorded object;
+15. checksum, version, or immutable carrier identity where a frozen publication or benchmark object is created.
 
-A later module may sharpen this live procedure. It must not silently rewrite the frozen ATLD 2 DOI object or retroactively convert design-adjacent candidate generation into blinded discovery.
+A later live module may sharpen the procedure. It must not silently rewrite a frozen DOI object or retroactively convert design-adjacent generation into blinded discovery.
 
-## 15. Failure and reduction conditions
+## 16. Relationship to established methodological families
 
-This methodological extension should be reduced or abandoned if any of the following becomes the best explanation:
+Nothing in this module depends on claiming that residual analysis, ablation, fault localisation, model comparison, causal testing, benchmark refinement, held-out validation, or measurement revision are new scientific activities.
 
-- apparent residuals are routinely recoverable by the existing measurement body once fair controls are applied;
-- candidate generation mainly reflects renamed evaluator knowledge;
-- new coordinates fail selective or mirror deformation;
+The narrower ATLD/MKUFT proposal is the disciplined composition of these burdens around typed measurement ownership, strongest-fair recovery, mirror failure, no-smuggling removal, causal-shadow control, and explicit instrument shrinkage as well as expansion.
+
+The contribution should therefore be reduced to ordinary residual analysis or benchmark refinement wherever those established methods recover the same diagnostic information with equal or lower complexity and no loss of discriminating power.
+
+## 17. Failure and reduction conditions
+
+This methodological extension is weakened, reduced, or rejected if any of the following becomes the best explanation:
+
+- apparent residuals are adequately recovered by the retained body under a stronger fair recovery model;
+- candidate gain is produced by evaluator privilege, renamed target information, unmatched compute, or post hoc scoring;
+- direct or mirror deformation fails to produce the predicted response;
 - candidate removal causes no reproducible diagnostic loss;
-- causal shadows are repeatedly misclassified as independent dimensions;
-- the method expands vocabulary without improving held-out diagnosis;
-- results do not transfer beyond the originating task world where transfer is claimed;
-- independent evaluators cannot reproduce the public test from the disclosed surface;
-- or the proposed process adds no practical discrimination beyond ordinary residual analysis, ablation, causal testing, fault localisation, or benchmark refinement.
+- coalition recovery makes the additional coordinate redundant;
+- propagated causal shadows are repeatedly misclassified as independent failures;
+- held-out performance collapses after exploratory tuning;
+- the result is confined to the originating task world where broader transfer is claimed;
+- independent evaluators cannot execute the public test from the disclosed surface;
+- the measurement body grows mainly by terminology rather than by unique held-out diagnostic value;
+- or ordinary residual analysis, ablation, causal testing, fault localisation, or benchmark refinement provides equal discrimination at equal or lower complexity.
 
-In that case, the appropriate status is a useful audit vocabulary or local design procedure rather than a distinct general measurement method.
+Reduction rule:
 
-## 16. Frozen/public/live separation
+> If the public procedure adds no reproducible diagnostic discrimination beyond the strongest adequate ordinary method, treat residual instrument generation as a useful local audit description rather than a distinct general measurement method.
+
+## 18. Frozen, live, and private object separation
 
 Keep the following objects distinct:
 
-```text
-ATLD v1.0 frozen predecessor
-ATLD 2 v2.0 frozen DOI publication
-Module 25B live residual-coordinate measurement fold
-Module 25C live residual-instrument / disclosure-boundary extension
-private implementation and discovery machinery
-future empirical benchmark and replication objects
-```
+- ATLD v1.0 frozen predecessor;
+- ATLD 2 v2.0 frozen DOI publication;
+- Module 25B live residual-coordinate measurement fold;
+- Module 25C live residual-instrument and disclosure-boundary formalisation;
+- private implementation and hypothesis-generation machinery;
+- future benchmark, validation, and replication objects.
 
-Public visibility of 25C does not place the private implementation into the public canon.
+Public visibility of Module 25C does not place private implementation into the public canon. Conversely, possession of a private implementation does not strengthen the empirical standing of a public claim unless the declared effect survives the public controls.
 
-Likewise, the existence of a private implementation does not strengthen the empirical standing of a public claim unless the relevant effect survives the declared public controls.
+## 19. Related public documents
 
-## 17. Compact kernel
+- [Active Traversal and Functional Emergence](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
+- [Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
+- [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
+- [ATLD 2 Residual Coordinate Measurement and Self-Auditing Evaluation](25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
+- [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+- [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+- [Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)
+- [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
 
-> **Treat a reproducible failure not owned by the retained measurement body as a candidate instrument-residual, not as an automatic new dimension. First exhaust existing coordinates, derived readouts, coalition recovery, and causal-shadow explanations. If a candidate distinction remains, deform it directly and through its mirror, remove it, forbid evaluator smuggling, and require held-out or cross-system support before retention. Allow the measurement body to shrink as well as grow. Publish the information required to reproduce and falsify the scientific claim; do not conflate that obligation with disclosure of implementation-specific discovery machinery that the test itself does not require.**
+## 20. Compressed rule
+
+> Treat a reproducible failure not adequately owned by the retained measurement body as an instrument residual, not as an automatic new dimension. Exhaust direct, derived, coalition, and strongest-fair recovery before adding anatomy. If a candidate remains, require measurable held-out diagnostic gain, direct and mirror deformation, coordinate removal, no-smuggling, causal-shadow control, and appropriate cross-system or independent replication. Permit the measurement body to merge, demote, redefine, or kill candidates as readily as it retains them. Publish everything required to reproduce and falsify the scientific claim; do not confuse that burden with disclosure of implementation-specific hypothesis-generation machinery that the test itself does not require.
