@@ -338,6 +338,23 @@ operational closure does not imply metaphysical certainty.
 
 A conclusion may be stable enough for action while lower-level ambiguity remains. Conversely, a high-consequence hypothesis may deserve explicit attention while confidence and closure remain moderate.
 
+### Fair-null stopping rule
+
+`Strongest fair alternatives` does not mean every logically conceivable story that can be invented after the observation. A challenge remains closure-relevant only when it is sufficiently specified to enter the declared comparison and can still do real work against the target.
+
+A serious challenge should satisfy the applicable parts of the following test:
+
+1. it has a declared relation to the current target/address, or an explicit typed readdressing if the challenge requires a different state description;
+2. it remains compatible with the registered observations and constraints it claims to explain, rather than surviving only by ignoring them;
+3. if true, it could change the declared conclusion, action, classification, prediction, or closure state beyond the stated tolerance;
+4. it is operationally specifiable, testable, estimable, or otherwise discriminable enough that surviving or failing the challenge has evidential meaning.
+
+Pure logical possibility, an unconstrained story that can absorb any outcome, or a challenge that cannot change the declared target does not keep that target open merely by existing.
+
+Operational closure is therefore finite even when the wider possibility space is not. Once the strongest applicable fair challenge family has been attacked and the remaining alternatives either fail the discriminating evidence or no longer change the declared target beyond tolerance, close the target at that address. Preserve the falsifier/reopening aperture rather than keeping every conceivable alternative permanently in foreground.
+
+> **Close the declared object when the fair challenge family is exhausted at that address; preserve the condition that would lawfully reopen it.**
+
 If a later lawful future split, stronger null, improved measurement, or expanded challenge family opens a target that was previously closed, apply:
 
 ```text
