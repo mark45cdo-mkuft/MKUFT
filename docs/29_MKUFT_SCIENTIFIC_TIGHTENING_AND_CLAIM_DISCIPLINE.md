@@ -142,12 +142,14 @@ The use of familiar mathematics in new notation does not by itself constitute ne
 
 Established ingredients used within MKUFT include measure and probability spaces, $L^2$ function spaces, graph and trajectory representations, Gibbs-like weighting, linear-response perturbations, anisotropic quadratic forms, threshold and bifurcation language, ablation, model comparison, and preregistration.
 
+MKUFT does not claim lexical or generic methodological priority for the phrase **strongest fair null**, for null-hypothesis or adversarial-model comparison in general, or for negative-space / absence-based reasoning. Any candidate novelty attaches only to a specifically defined MKUFT integration, ordering, operationalisation, or discriminator that remains after relevant prior-art subtraction.
+
 The strongest current novelty claim is architectural and methodological. Candidate contributions include:
 
 - typed S–I–P–O layer-address discipline;
 - explicit prevention of cross-layer evidence transfer;
 - promotion gates from broad assay to discriminating signature;
-- strongest-fair-null and complete-history replay controls;
+- the specific MKUFT/ATLD integration of strongest-fair-null comparison with complete-history replay and typed reciprocal-traversal controls, where that combination survives prior-art subtraction;
 - controlled deformation of supposedly load-bearing relations;
 - integration of path cost, observer condition, recovery limits, and ontology boundaries within one research architecture;
 - ATLD reciprocal-traversal testing as a functional systems hypothesis.
@@ -174,7 +176,7 @@ Different MKUFT branches currently occupy different levels. A result in one bran
 
 ## 8A. Confidence, charge, closure, and temporal claim type
 
-Claim level and human significance are not one variable. For each load-bearing scientific statement keep at least four fields separate:
+Claim level and human significance are not one variable. For each load-bearing scientific statement keep at least four fields separate where they matter:
 
 - **confidence** — how strongly the declared evidence and model concentrate support on the statement relative to live alternatives;
 - **charge** — how consequential, salient, or decision-relevant the statement would be if true;
