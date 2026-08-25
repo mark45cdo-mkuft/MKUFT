@@ -10,9 +10,9 @@
 
 ## 1. Core rule
 
-A single invariant may appear differently at different layers without becoming several unrelated mechanisms.
+A candidate invariant may be represented at different typed layers only when the same defining relation and lawful address maps survive the relevant tests. Repeated naming, algebraic resemblance, or semantic similarity alone does not establish a shared mechanism.
 
-> One invariant. Many layer addresses. No fragmentation.
+> Preserve a candidate invariant across layer addresses only where typed mappings earn that identification.
 
 Unified models can fail by flattening distinct layers or by renaming one repeated relation as several disconnected theories. Layer addressing is intended to prevent both errors.
 
@@ -279,6 +279,6 @@ Reduction rule:
 
 ## 15. Compressed rule
 
-> Preserve one invariant through typed layer addresses. Do not convert analogy into mechanism, a graph into physical geography, or a coupled observer-role into a new ontology.
+> Preserve a candidate invariant through typed layer addresses only where the defining relation and lawful maps survive the relevant tests. Do not convert analogy into mechanism, a graph into physical geography, or a coupled observer-role into a new ontology.
 
 > A composite-observer candidate is a coupled O-address across existing layers, not automatically a new layer. “More than the sum” requires reproducible gain beyond a matched additive baseline, not merely ownership of a joint output.
