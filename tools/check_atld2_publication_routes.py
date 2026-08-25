@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify ATLD 2 v2.0 publication, discovery, rights, and canon-fold routes."""
+"""Verify ATLD 2 v2.0 publication, discovery, rights, canon-fold, and live successor routes."""
 
 from pathlib import Path
 import json
@@ -18,6 +18,8 @@ ATLD2_PAGES = "22"
 
 PAPER = "papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md"
 MODULE = "docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md"
+RESIDUAL_MODULE = "docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md"
+CHAIN_MODULE = "docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md"
 FAMILY = "ATLD_STANDALONE_PUBLICATION.md"
 IDENTITY = "publications/ATLD2_Evaluation_Protocol_v2.0/README.md"
 CHECKSUMS = "publications/ATLD2_Evaluation_Protocol_v2.0/SHA256SUMS.txt"
@@ -52,6 +54,32 @@ REQUIRED = {
         "Residual novelty gate",
         "All rights reserved",
     ],
+    RESIDUAL_MODULE: [
+        ATLD2_VERSION,
+        ATLD_CONCEPT,
+        "Residual Instrument Generation",
+        "no-smuggling",
+        "self-certification",
+        "All rights reserved",
+    ],
+    CHAIN_MODULE: [
+        ATLD2_VERSION,
+        ATLD_CONCEPT,
+        ATLD1_VERSION,
+        "Chain-Address Invariants",
+        "canonical public methodological continuation",
+        "25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md",
+        "25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md",
+        "verified B",
+        "cold-start",
+        "hidden history",
+        "no-smuggling",
+        "Bidirectional validation without false invertibility",
+        "Strongest fair nulls",
+        "33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md",
+        "33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md",
+        "All rights reserved",
+    ],
     FAMILY: [
         ATLD2_VERSION,
         ATLD_CONCEPT,
@@ -59,6 +87,8 @@ REQUIRED = {
         ATLD2_SHA256,
         PAPER,
         MODULE,
+        RESIDUAL_MODULE,
+        CHAIN_MODULE,
         "**Current version:** 2.0",
         "Predecessor — ATLD v1.0",
         "CC BY-NC-SA 4.0",
@@ -85,12 +115,12 @@ REQUIRED = {
     ],
     "papers/README.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, PAPER.split("/", 1)[1], MODULE],
     "publications/README.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, "ATLD2_Evaluation_Protocol_v2.0/", MODULE],
-    "INDEX.md": [ATLD2_VERSION, PAPER, MODULE],
-    "00-START-HERE-MKUFT-PUBLIC.md": [ATLD2_VERSION, PAPER, MODULE],
+    "INDEX.md": [ATLD2_VERSION, PAPER, MODULE, RESIDUAL_MODULE, CHAIN_MODULE],
+    "00-START-HERE-MKUFT-PUBLIC.md": [ATLD2_VERSION, PAPER, MODULE, RESIDUAL_MODULE, CHAIN_MODULE],
     "PUBLIC_DISCOVERY_ANCHOR.md": [ATLD2_VERSION, ATLD_CONCEPT, PAPER, MODULE, "ATLD 2"],
     "DISCOVERY_KEYWORDS.md": [ATLD2_VERSION, ATLD_CONCEPT, PAPER, MODULE, "residual coordinate identification"],
     "RIGHTS_AND_LICENSE_NOTICE.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, MODULE, "CC BY-NC-SA 4.0"],
-    "MODULE_RIGHTS_MATRIX.md": [ATLD2_VERSION, ATLD_CONCEPT, MODULE, "ATLD 2", "CC BY-NC-SA 4.0"],
+    "MODULE_RIGHTS_MATRIX.md": [ATLD2_VERSION, ATLD_CONCEPT, MODULE, RESIDUAL_MODULE, CHAIN_MODULE, "ATLD 2", "CC BY-NC-SA 4.0"],
     "PROVENANCE_DOI_AND_ATTRIBUTION.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, PAPER, MODULE, "ATLD 2"],
     "CANON_MAP.md": [ATLD2_VERSION, MODULE, "ATLD 2"],
     "docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md": [MODULE.split("/", 1)[1], "ATLD 2 Residual Measurement Audit"],
@@ -162,7 +192,8 @@ def main():
     print(f"- concept DOI: {ATLD_CONCEPT}")
     print(f"- predecessor DOI: {ATLD1_VERSION}")
     print(f"- exact frozen PDF SHA-256 recorded: {ATLD2_SHA256}")
-    print("- canon, provenance, rights, discovery, and public paper routes are all positively gated")
+    print("- canon, provenance, rights, discovery, and live successor routes are all positively gated")
+    print("- Module 25D is required to preserve ATLD lineage while remaining distinct from the frozen v1.0/v2.0 manuscripts")
     print("- GitHub binary mirror intentionally not required; Zenodo remains frozen-carrier custody")
     return 0
 
