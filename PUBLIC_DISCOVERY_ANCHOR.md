@@ -26,6 +26,9 @@ This page provides a compact identity record for public search, citation, and di
 - [ATLD Publication Family](ATLD_STANDALONE_PUBLICATION.md)
 - [ATLD 2 v2.0 GitHub paper route](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)
 - [ATLD 2 canonical measurement fold — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
+- [Chain-Address Invariants standalone publication record](CHAIN_ADDRESS_STANDALONE_PUBLICATION.md)
+- [Chain-Address Invariants v1.0 GitHub paper route](papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md)
+- [Chain-Address Invariants live canonical fold — Module 25D](docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md)
 - [Future-Splitting State Recruitment Standalone Publication](FSSR_STANDALONE_PUBLICATION.md)
 - [Addressed Admissible Futures Standalone Publication](AAF_STANDALONE_PUBLICATION.md)
 - [Voynich Publication Family](VOYNICH_STANDALONE_PUBLICATION.md)
@@ -41,6 +44,7 @@ This page provides a compact identity record for public search, citation, and di
 - **MKUFT concept DOI:** `10.5281/zenodo.17780565`
 - **MKUFT historical v1:** `10.5281/zenodo.17780566`
 - **ATLD 2 v2.0:** version DOI `10.5281/zenodo.22068803`; ATLD concept DOI `10.5281/zenodo.21341520`; predecessor v1.0 DOI `10.5281/zenodo.21341521`
+- **Chain-Address Invariants for Long-Horizon AI Systems v1.0:** version DOI `10.5281/zenodo.22102379`; ATLD 2 companion publication with live Module 25D fold
 - **Future-Splitting State Recruitment v1.0:** version DOI `10.5281/zenodo.22058303`; concept DOI `10.5281/zenodo.22058302`
 - **Addressed Admissible Futures v0.1:** version DOI `10.5281/zenodo.22031333`; concept DOI `10.5281/zenodo.22031332`
 - **Layer Before Law v1.0:** `10.5281/zenodo.21971270`
@@ -53,6 +57,8 @@ This page provides a compact identity record for public search, citation, and di
 MKUFT · A Relational Architecture for Physical Law and Cross-Scale Dynamics · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.21973064 · concept DOI 10.5281/zenodo.17780565 · GitHub `mark45cdo-mkuft/MKUFT`
 
 Active Traversal and Load-Bearing Dependency II · ATLD 2 · residual coordinate identification · self-auditing matched-control evaluation · long-horizon AI systems · object custody · action authority · future-sufficient continuity · receiver closure · fixed-point closure · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22068803 · concept DOI 10.5281/zenodo.21341520
+
+Chain-Address Invariants for Long-Horizon AI Systems · long-form cohesion · post-arrival compression · bidirectional reconstruction · chain address · load-bearing invariant · cold-start reconstruction · typed handoffs · provenance preservation · state compression · drift detection · ATLD 2 companion method · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22102379
 
 Future-Splitting State Recruitment · FSSR · state adequacy · future splitting · state recruitment · predictive closure · prospective mechanism activation · mechanism localisation · history-dependent constitutive mechanics · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22058303 · concept DOI 10.5281/zenodo.22058302
 
@@ -83,7 +89,16 @@ ATLD v1.0 · Active Traversal and Load-Bearing Dependency · predecessor version
 - parent fixed-point closure
 - causal-shadow accounting
 - no-smuggling rule
-- route support
+- Chain-Address Invariants
+- chain address
+- long-form cohesion
+- post-arrival compression
+- bidirectional reconstruction
+- cold-start reconstruction
+- typed handoffs
+- provenance preservation
+- state compression
+- drift detection
 - Future-Splitting State Recruitment
 - FSSR
 - state adequacy
