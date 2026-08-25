@@ -231,12 +231,14 @@ Current status: **candidate original formal synthesis / operational meta-princip
 
 The potentially distinctive MKUFT contributions are not the isolated words *information*, *coherence*, *boundary*, *observer*, *cost*, *holography*, *sheaf*, *interface*, *emergence*, *coarse-graining*, *hysteresis* or *recoverability*. Those concepts have extensive histories.
 
+MKUFT likewise does not claim lexical or generic methodological priority for the phrase **strongest fair null**, for null-hypothesis or adversarial-model comparison in general, or for negative-space / absence-based reasoning. Those are treated as established or neighbouring methodological families. Any candidate contribution must attach to a specifically defined MKUFT integration, ordering, operationalisation, or discriminator that remains after relevant prior-art subtraction.
+
 Novelty must be earned by combinations that do concrete work, including:
 
 1. typed S–I–P–O separation with explicit anti-flattening rules;
 2. cross-layer addressing with no untyped inheritance;
 3. constrained traversal and dimensionally valid path weighting;
-4. strongest-fair-null and controlled-deformation methodology;
+4. the specific integration of strongest-fair-null comparison, controlled deformation, replay or transfer controls, and typed addressing where the combined implementation survives prior-art subtraction;
 5. independent-content tests separating useful higher-level description from claimed new dynamics;
 6. recursive constraint/reachable-state geometry only where it improves discrimination beyond ordinary adaptive models;
 7. local-to-global completion geometry only where it predicts completion, failure or recovery beyond simpler local models;
