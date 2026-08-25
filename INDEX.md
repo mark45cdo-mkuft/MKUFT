@@ -24,7 +24,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 ## Current DOI-bearing publication objects
 
 - **MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics**, v2 — DOI `10.5281/zenodo.21973064`; concept DOI `10.5281/zenodo.17780565`; historical v1 DOI `10.5281/zenodo.17780566`.
-- **Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems**, v2.0 — DOI `10.5281/zenodo.22068803`; ATLD concept DOI `10.5281/zenodo.21341520`; predecessor v1.0 DOI `10.5281/zenodo.21341521`; [publication-family record](ATLD_STANDALONE_PUBLICATION.md); [paper route](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md); [canonical measurement fold, Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md); [live methodological extension, Module 25C](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md).
+- **Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems**, v2.0 — DOI `10.5281/zenodo.22068803`; ATLD concept DOI `10.5281/zenodo.21341520`; predecessor v1.0 DOI `10.5281/zenodo.21341521`; [publication-family record](ATLD_STANDALONE_PUBLICATION.md); [paper route](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md); [canonical measurement fold, Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md); [live residual-instrument extension, Module 25C](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md); [live chain-address continuity/transport extension, Module 25D](docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md).
 - **Future-Splitting State Recruitment: A Cross-Domain Assay for State Adequacy and Prospective Mechanism Activation**, v1.0 — DOI `10.5281/zenodo.22058303`; concept DOI `10.5281/zenodo.22058302`; [publication record](FSSR_STANDALONE_PUBLICATION.md); [paper route](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md); [canonical fold, Module 33S7](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md).
 - **Addressed Admissible Futures: Future-Sufficient State, Load-Bearing Relations, and Restorative Reachability**, v0.1 — DOI `10.5281/zenodo.22031333`; concept DOI `10.5281/zenodo.22031332`; [publication record](AAF_STANDALONE_PUBLICATION.md); [canonical fold, Module 33S6](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md).
 - **Layer Before Law: An Addressed Architecture for Relational Admissibility, Effective Law Selection, and Quantum-Gravitational Recovery**, v1.0 — DOI `10.5281/zenodo.21971270`; [publication record](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md).
@@ -68,6 +68,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 - [ATLD 2 Residual Coordinate Measurement and Self-Audit — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
 - [Residual Instrument Generation and Protected Discovery Boundary — Module 25C](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)
+- [Chain-Address Invariants, Long-Form Cohesion, and Bidirectional Packet Transport — Module 25D](docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md)
 - [Future-Splitting State Recruitment — Module 33S7](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
 - [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 - [Worked Examples: RNG and Environment](docs/14_WORKED_EXAMPLES_RNG_AND_ENVIRONMENT.md)
@@ -89,6 +90,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
 - [ATLD 2 Residual Coordinate Measurement and Self-Audit](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
 - [Residual Instrument Generation and Protected Discovery Boundary](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)
+- [Chain-Address Invariants, Long-Form Cohesion, and Bidirectional Packet Transport](docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md)
 - [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
 
 ## Observer, boundary, and physical support
