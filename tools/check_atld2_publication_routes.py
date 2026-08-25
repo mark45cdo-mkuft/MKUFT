@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify ATLD 2 v2.0 publication, discovery, rights, canon-fold, and live successor routes."""
+"""Verify ATLD 2 v2.0 publication, companion, discovery, rights, canon-fold, and live successor routes."""
 
 from pathlib import Path
 import json
@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ATLD2_VERSION = "10.5281/zenodo.22068803"
 ATLD_CONCEPT = "10.5281/zenodo.21341520"
 ATLD1_VERSION = "10.5281/zenodo.21341521"
+CHAIN_VERSION = "10.5281/zenodo.22102379"
 MKUFT_ORIGIN = "10.5281/zenodo.17780566"
 ATLD2_SHA256 = "216876a81d75a9a0887f7111955f2c978530302781aee88f0577c467c8cc29f3"
 ATLD2_MD5 = "f2b7c13fa8f5a6a315330c65d5c23bdd"
@@ -17,6 +18,8 @@ ATLD2_SIZE = "1221092"
 ATLD2_PAGES = "22"
 
 PAPER = "papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md"
+CHAIN_PAPER = "papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md"
+CHAIN_PUBLICATION = "CHAIN_ADDRESS_STANDALONE_PUBLICATION.md"
 MODULE = "docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md"
 RESIDUAL_MODULE = "docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md"
 CHAIN_MODULE = "docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md"
@@ -37,6 +40,33 @@ REQUIRED = {
         "Deep Think",
         "thirteenth coordinate",
         "CC BY-NC-SA 4.0",
+    ],
+    CHAIN_PAPER: [
+        "Chain-Address Invariants for Long-Horizon AI Systems",
+        CHAIN_VERSION,
+        ATLD2_VERSION,
+        ATLD_CONCEPT,
+        ATLD1_VERSION,
+        CHAIN_MODULE.split("/", 1)[1],
+        "verified arrival",
+        "cold-start",
+        "hidden history",
+        "minimum sufficient",
+        "Bidirectional validation without false invertibility",
+        "Strongest fair nulls",
+        "Information Bottleneck",
+        "Recommended citation",
+    ],
+    CHAIN_PUBLICATION: [
+        "Chain-Address Invariants — Standalone Publication Record",
+        CHAIN_VERSION,
+        ATLD2_VERSION,
+        ATLD_CONCEPT,
+        ATLD1_VERSION,
+        CHAIN_PAPER,
+        CHAIN_MODULE,
+        "standalone ATLD 2 companion publication",
+        "All rights reserved",
     ],
     MODULE: [
         ATLD2_VERSION,
@@ -84,12 +114,16 @@ REQUIRED = {
         ATLD2_VERSION,
         ATLD_CONCEPT,
         ATLD1_VERSION,
+        CHAIN_VERSION,
         ATLD2_SHA256,
         PAPER,
+        CHAIN_PAPER,
+        CHAIN_PUBLICATION,
         MODULE,
         RESIDUAL_MODULE,
         CHAIN_MODULE,
-        "**Current version:** 2.0",
+        "**Current ATLD version:** 2.0",
+        "Companion publication — Chain-Address Invariants v1.0",
         "Predecessor — ATLD v1.0",
         "CC BY-NC-SA 4.0",
     ],
@@ -113,10 +147,29 @@ REQUIRED = {
         "ATLD v2 2.pdf",
         "No byte-identical GitHub PDF mirror or split-text archive is asserted here",
     ],
-    "papers/README.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, PAPER.split("/", 1)[1], MODULE],
+    "papers/README.md": [
+        ATLD2_VERSION,
+        ATLD_CONCEPT,
+        ATLD1_VERSION,
+        CHAIN_VERSION,
+        PAPER.split("/", 1)[1],
+        CHAIN_PAPER.split("/", 1)[1],
+        CHAIN_PUBLICATION,
+        MODULE,
+        CHAIN_MODULE,
+    ],
     "publications/README.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, "ATLD2_Evaluation_Protocol_v2.0/", MODULE],
     "INDEX.md": [ATLD2_VERSION, PAPER, MODULE, RESIDUAL_MODULE, CHAIN_MODULE],
-    "00-START-HERE-MKUFT-PUBLIC.md": [ATLD2_VERSION, PAPER, MODULE, RESIDUAL_MODULE, CHAIN_MODULE],
+    "00-START-HERE-MKUFT-PUBLIC.md": [
+        ATLD2_VERSION,
+        CHAIN_VERSION,
+        PAPER,
+        CHAIN_PAPER,
+        CHAIN_PUBLICATION,
+        MODULE,
+        RESIDUAL_MODULE,
+        CHAIN_MODULE,
+    ],
     "PUBLIC_DISCOVERY_ANCHOR.md": [ATLD2_VERSION, ATLD_CONCEPT, PAPER, MODULE, "ATLD 2"],
     "DISCOVERY_KEYWORDS.md": [ATLD2_VERSION, ATLD_CONCEPT, PAPER, MODULE, "residual coordinate identification"],
     "RIGHTS_AND_LICENSE_NOTICE.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, MODULE, "CC BY-NC-SA 4.0"],
@@ -176,10 +229,8 @@ def main():
         fail(failures, "ATLD2 SHA-256 must occur exactly once in SHA256SUMS.txt")
 
     family_text = (ROOT / FAMILY).read_text(encoding="utf-8") if (ROOT / FAMILY).exists() else ""
-    if family_text.find(ATLD2_VERSION) > family_text.find(ATLD1_VERSION) and family_text.find(ATLD1_VERSION) != -1:
-        # This is not a semantic requirement; it simply guards accidental
-        # demotion of the current release below predecessor-only content.
-        pass
+    if "Companion publication — Chain-Address Invariants v1.0" not in family_text:
+        fail(failures, "ATLD family record does not expose the chain-address companion publication")
 
     if failures:
         print("ATLD2 PUBLICATION ROUTE GATE: FAIL")
@@ -188,13 +239,14 @@ def main():
         return 1
 
     print("ATLD2 PUBLICATION ROUTE GATE: PASS")
-    print(f"- current version DOI: {ATLD2_VERSION}")
-    print(f"- concept DOI: {ATLD_CONCEPT}")
+    print(f"- current ATLD version DOI: {ATLD2_VERSION}")
+    print(f"- chain-address companion DOI: {CHAIN_VERSION}")
+    print(f"- ATLD concept DOI: {ATLD_CONCEPT}")
     print(f"- predecessor DOI: {ATLD1_VERSION}")
-    print(f"- exact frozen PDF SHA-256 recorded: {ATLD2_SHA256}")
-    print("- canon, provenance, rights, discovery, and live successor routes are all positively gated")
-    print("- Module 25D is required to preserve ATLD lineage while remaining distinct from the frozen v1.0/v2.0 manuscripts")
-    print("- GitHub binary mirror intentionally not required; Zenodo remains frozen-carrier custody")
+    print(f"- exact frozen ATLD2 PDF SHA-256 recorded: {ATLD2_SHA256}")
+    print("- ATLD 2, chain-address companion, canon, provenance, rights, and discovery routes are positively gated")
+    print("- Module 25D remains the live owner while the companion DOI paper remains a distinct publication object")
+    print("- GitHub binary mirror intentionally not required until exact deposited bytes are independently established")
     return 0
 
 
