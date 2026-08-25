@@ -85,7 +85,7 @@ Relevant states include temperature below threshold, within threshold, above thr
 
 Reproduce the loop independently, move the sensor and predict the resulting distortion, inject measurement noise, and break the feedback path as a negative control.
 
-This is an established executable example used to validate the grammar.
+This is an established feedback-control example used to check that the addressing/state/flow grammar can represent a known executable system without adding a new mechanism.
 
 ## Worked example 2 — Diagram-only assembly
 
@@ -95,7 +95,7 @@ This demonstrates that executable structure need not rely on ordinary prose.
 
 ## Application to MKUFT
 
-ESRT/ESF support the information and transmission layers of MKUFT. They make addressing, state, and flow explicit; support perturbation and negative-control tests; distinguish reproducible structure from narrative resemblance; and test whether a model survives compression and context loss.
+ESRT/ESF provide operational methods for the information and transmission branches of MKUFT. They make addressing, state, and flow explicit; support perturbation and negative-control tests; distinguish reproducible structure from narrative resemblance; and test whether a model survives compression and context loss.
 
 They do not replace MKUFT physical models, prove that a visual pattern is executable, establish origin/authorship/intent/spirituality, or convert analogy into evidence.
 
