@@ -25,6 +25,8 @@ For the substantive public introduction, read [Start Here — Public Overview](S
 - [Layer Before Law — quantum-gravity reframing](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 - [ATLD publication family](ATLD_STANDALONE_PUBLICATION.md)
 - [ATLD 2 canonical measurement fold — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
+- [ATLD residual-instrument and protected-discovery extension — Module 25C](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)
+- [ATLD chain-address continuity and packet-transport extension — Module 25D](docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md)
 - [Experimental test programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
 - [Falsification summary](docs/05_FALSIFICATION_SUMMARY.md)
 - [Scientific references and current literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
