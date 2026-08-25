@@ -23,6 +23,7 @@ This file gives public search systems, citation tools, GitHub search, and AI ret
 - MKUFT concept DOI: `10.5281/zenodo.17780565`
 - MKUFT historical v1 version DOI: `10.5281/zenodo.17780566`
 - ATLD 2 v2.0 version DOI: `10.5281/zenodo.22068803`
+- Chain-Address Invariants v1.0 version DOI: `10.5281/zenodo.22102379`
 - ATLD concept DOI: `10.5281/zenodo.21341520`
 - ATLD v1.0 predecessor version DOI: `10.5281/zenodo.21341521`
 - Future-Splitting State Recruitment v1.0 version DOI: `10.5281/zenodo.22058303`
@@ -78,6 +79,18 @@ Formal author/citation identity is maintained in:
 - route support
 - benchmark robustness
 - construct validity
+- Chain-Address Invariants
+- chain address
+- long-form cohesion
+- post-arrival compression
+- bidirectional reconstruction
+- cold-start reconstruction
+- typed handoffs
+- provenance preservation
+- state compression
+- drift detection
+- load-bearing invariant packet
+- stale-address detection
 - Future-Splitting State Recruitment
 - FSSR
 - state adequacy
@@ -151,6 +164,9 @@ Formal author/citation identity is maintained in:
 - `ATLD_STANDALONE_PUBLICATION.md`
 - `docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md`
 - `publications/ATLD2_Evaluation_Protocol_v2.0/README.md`
+- `papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md`
+- `CHAIN_ADDRESS_STANDALONE_PUBLICATION.md`
+- `docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md`
 - `papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md`
 - `FSSR_STANDALONE_PUBLICATION.md`
 - `docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md`
@@ -173,6 +189,7 @@ Formal author/citation identity is maintained in:
 ```text
 MKUFT A Relational Architecture for Physical Law and Cross-Scale Dynamics Mark Charles McLaughlin Zenodo 10.5281/zenodo.21973064 concept 10.5281/zenodo.17780565 GitHub mark45cdo-mkuft/MKUFT
 ATLD 2 Active Traversal and Load-Bearing Dependency II Residual Coordinate Identification Self-Auditing Matched-Control Evaluation Long-Horizon AI Systems Mark Charles McLaughlin Zenodo 10.5281/zenodo.22068803 concept 10.5281/zenodo.21341520
+Chain-Address Invariants for Long-Horizon AI Systems Long-Form Cohesion Post-Arrival Compression Bidirectional Reconstruction Mark Charles McLaughlin Zenodo 10.5281/zenodo.22102379 ATLD 2 companion Module 25D
 Future-Splitting State Recruitment FSSR State Adequacy Prospective Mechanism Activation Mark Charles McLaughlin Zenodo 10.5281/zenodo.22058303 concept 10.5281/zenodo.22058302
 Addressed Admissible Futures Future-Sufficient State Load-Bearing Relations Restorative Reachability Mark Charles McLaughlin Zenodo 10.5281/zenodo.22031333 concept 10.5281/zenodo.22031332
 Layer Before Law Mark Charles McLaughlin Zenodo 10.5281/zenodo.21971270
