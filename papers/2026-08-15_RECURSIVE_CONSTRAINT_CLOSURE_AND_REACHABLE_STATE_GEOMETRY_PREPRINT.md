@@ -402,7 +402,7 @@ The stronger question is therefore:
 
 The sphere provides a simple bracketed example. In Euclidean three-space, under fixed volume and isotropic positive surface tension with no dominant competing deformation, minimising surface area favours a sphere. Add gravity, rotation, substrate interaction, anisotropic stress, electromagnetic forcing, heterogeneous surface energy, confinement, flow, or active stresses and the stable form may change.
 
-Recurrent geometry therefore supports a recurrent-constraint hypothesis only inside explicit brackets.
+The sphere example provides a bracketed illustration of how a specified constraint class can recurrently favour the same geometry; it does not by itself support a cross-domain recurrence claim.
 
 ---
 
