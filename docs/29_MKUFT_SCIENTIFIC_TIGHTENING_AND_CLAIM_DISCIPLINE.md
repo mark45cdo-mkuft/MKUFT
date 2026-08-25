@@ -176,7 +176,7 @@ Different MKUFT branches currently occupy different levels. A result in one bran
 
 ## 8A. Confidence, charge, closure, and temporal claim type
 
-Claim level and human significance are not one variable. For each load-bearing scientific statement keep at least four fields separate where they matter:
+Claim level and human significance are not one variable. For each load-bearing scientific statement keep at least four fields separate:
 
 - **confidence** — how strongly the declared evidence and model concentrate support on the statement relative to live alternatives;
 - **charge** — how consequential, salient, or decision-relevant the statement would be if true;
