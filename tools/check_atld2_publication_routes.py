@@ -159,7 +159,7 @@ REQUIRED = {
         CHAIN_MODULE,
     ],
     "publications/README.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, "ATLD2_Evaluation_Protocol_v2.0/", MODULE],
-    "INDEX.md": [ATLD2_VERSION, PAPER, MODULE, RESIDUAL_MODULE, CHAIN_MODULE],
+    "INDEX.md": [ATLD2_VERSION, CHAIN_VERSION, PAPER, CHAIN_PAPER, CHAIN_PUBLICATION, MODULE, RESIDUAL_MODULE, CHAIN_MODULE],
     "00-START-HERE-MKUFT-PUBLIC.md": [
         ATLD2_VERSION,
         CHAIN_VERSION,
@@ -170,8 +170,31 @@ REQUIRED = {
         RESIDUAL_MODULE,
         CHAIN_MODULE,
     ],
-    "PUBLIC_DISCOVERY_ANCHOR.md": [ATLD2_VERSION, ATLD_CONCEPT, PAPER, MODULE, "ATLD 2"],
-    "DISCOVERY_KEYWORDS.md": [ATLD2_VERSION, ATLD_CONCEPT, PAPER, MODULE, "residual coordinate identification"],
+    "PUBLIC_DISCOVERY_ANCHOR.md": [
+        ATLD2_VERSION,
+        ATLD_CONCEPT,
+        CHAIN_VERSION,
+        PAPER,
+        CHAIN_PAPER,
+        CHAIN_PUBLICATION,
+        MODULE,
+        CHAIN_MODULE,
+        "ATLD 2",
+        "Chain-Address Invariants",
+    ],
+    "DISCOVERY_KEYWORDS.md": [
+        ATLD2_VERSION,
+        ATLD_CONCEPT,
+        CHAIN_VERSION,
+        PAPER,
+        CHAIN_PAPER,
+        CHAIN_PUBLICATION,
+        MODULE,
+        CHAIN_MODULE,
+        "residual coordinate identification",
+        "long-form cohesion",
+        "cold-start reconstruction",
+    ],
     "RIGHTS_AND_LICENSE_NOTICE.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, MODULE, "CC BY-NC-SA 4.0"],
     "MODULE_RIGHTS_MATRIX.md": [ATLD2_VERSION, ATLD_CONCEPT, MODULE, RESIDUAL_MODULE, CHAIN_MODULE, "ATLD 2", "CC BY-NC-SA 4.0"],
     "PROVENANCE_DOI_AND_ATTRIBUTION.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, PAPER, MODULE, "ATLD 2"],
@@ -215,14 +238,15 @@ def main():
         fail(failures, f"codemeta.json is not valid JSON: {exc}")
     else:
         citations = set(codemeta.get("citation", []))
-        for doi in (ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION):
+        for doi in (ATLD2_VERSION, CHAIN_VERSION, ATLD_CONCEPT, ATLD1_VERSION):
             url = f"https://doi.org/{doi}"
             if url not in citations:
-                fail(failures, f"codemeta.json: missing ATLD2 family citation {url}")
+                fail(failures, f"codemeta.json: missing ATLD2/companion family citation {url}")
         subject_of = set(codemeta.get("subjectOf", []))
-        expected_paper = f"https://github.com/mark45cdo-mkuft/MKUFT/blob/main/{PAPER}"
-        if expected_paper not in subject_of:
-            fail(failures, f"codemeta.json: missing ATLD2 paper subjectOf route {expected_paper}")
+        for rel in (PAPER, CHAIN_PAPER):
+            expected = f"https://github.com/mark45cdo-mkuft/MKUFT/blob/main/{rel}"
+            if expected not in subject_of:
+                fail(failures, f"codemeta.json: missing ATLD2/companion paper subjectOf route {expected}")
 
     checksum_text = (ROOT / CHECKSUMS).read_text(encoding="utf-8") if (ROOT / CHECKSUMS).exists() else ""
     if checksum_text.count(ATLD2_SHA256) != 1:
