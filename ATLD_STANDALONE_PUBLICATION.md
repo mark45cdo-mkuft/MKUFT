@@ -17,7 +17,7 @@
 
 *Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems*
 
-The Zenodo v2.0 PDF is the controlling frozen publication object for exact pagination, equations, tables, and visual layout. The GitHub paper route, canonical Module 25B fold, later live methodological extensions such as Module 25C, and repository checksum record are related discovery/live objects; they do not silently revise the deposited manuscript.
+The Zenodo v2.0 PDF is the controlling frozen publication object for exact pagination, equations, tables, and visual layout. The GitHub paper route, canonical Module 25B fold, later live methodological extensions such as Modules 25C and 25D, and repository checksum record are related discovery/live objects; they do not silently revise the deposited manuscript.
 
 ### v2.0 identity
 
@@ -74,8 +74,9 @@ The current public canon routes the ATLD family through:
 - [25 — Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
 - [25B — ATLD 2 Residual Coordinate Measurement and Self-Audit](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
 - [25C — Residual Instrument Generation and Protected Discovery Boundary](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)
+- [25D — Chain-Address Invariants, Long-Form Cohesion, and Bidirectional Packet Transport](docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md)
 
-Module 25B is the live canonical measurement fold for the successor result. Module 25C records the higher-order residual-instrument and disclosure-boundary consequence of that live method. Neither silently rewrites either frozen ATLD version, and neither treats an AI-evaluation coordinate as a physical coordinate of nature.
+Module 25B is the live canonical measurement fold for the successor result. Module 25C records the higher-order residual-instrument and disclosure-boundary consequence of that live method. Module 25D inherits the ATLD v1.0 active-traversal/load-bearing causal grammar and the ATLD 2 continuity/receiver-side measurement burden, then formalises a separate live question: whether a verified long discovery chain can be reduced to a minimum sufficient, provenance-bearing chain address and invariant packet that survives cold reconstruction, deformation/restoration, counter-route testing, and a typed non-inverse return test. None of Modules 25B–25D silently rewrites either frozen ATLD version, and none treats an AI-evaluation or transport object as a physical coordinate or law of nature.
 
 ## Current v2.0 archive and verification
 
@@ -83,6 +84,7 @@ Module 25B is the live canonical measurement fold for the successor result. Modu
 - [Frozen v2.0 identity/checksum record](publications/ATLD2_Evaluation_Protocol_v2.0/)
 - [Live canonical Module 25B fold](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
 - [Live Module 25C methodological extension](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)
+- [Live Module 25D chain-address continuity/transport extension](docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md)
 - [Publication archive boundary](publications/README.md)
 - [Papers and Publications index](papers/README.md)
 
@@ -94,7 +96,7 @@ Module 25B is the live canonical measurement fold for the successor result. Modu
 
 *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*
 
-The v1.0 paper fixes the predecessor matched-control causal instrument. It does not report completed empirical results and remains a distinct frozen version rather than being rewritten by ATLD 2.
+The v1.0 paper fixes the predecessor matched-control causal instrument. It does not report completed empirical results and remains a distinct frozen version rather than being rewritten by ATLD 2 or by later live Modules 25B–25D. Module 25D's relationship to v1.0 is inheritance of the active-traversal and load-bearing-deformation test grammar, not retrospective inclusion in the frozen v1.0 manuscript.
 
 Predecessor preservation routes:
 
