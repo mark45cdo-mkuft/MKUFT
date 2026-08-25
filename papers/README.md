@@ -43,6 +43,23 @@ The v2 publication is the current principal MKUFT publication in the historical 
 
 ATLD 2 preserves the v1.0 causal grammar while turning measurement incompleteness into the object of study. It proposes five candidate residual readouts — exact object/address custody (O), permission/action-state integrity (U), future-sufficient continuity/re-entry fidelity (R), receiver-side closure (V), and parent fixed-point closure (F) — and subjects them to direct/mirror deformation, coordinate removal, no-smuggling, causal-shadow, coalition, held-out, and cross-model retention tests. A fixed 15-case Release Relay pilot demonstrates shaped scoring without claiming confirmatory validation or system superiority. The pilot's RR-14 residual was already owned by L + route support/first break, with movement in G; no thirteenth coordinate was justified.
 
+#### ATLD 2 companion — Chain-Address Invariants for Long-Horizon AI Systems
+
+*Long-Form Cohesion, Post-Arrival Compression, and Bidirectional Reconstruction*
+
+**Version:** 1.0 — 25 August 2026  
+**Version DOI:** [10.5281/zenodo.22102379](https://doi.org/10.5281/zenodo.22102379)  
+**Parent ATLD 2 DOI:** [10.5281/zenodo.22068803](https://doi.org/10.5281/zenodo.22068803)  
+**ATLD concept DOI:** [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520)
+
+- [Public GitHub paper route](2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md)
+- [Standalone publication record](../CHAIN_ADDRESS_STANDALONE_PUBLICATION.md)
+- [ATLD publication-family record](../ATLD_STANDALONE_PUBLICATION.md)
+- [Live canonical fold — Module 25D](../docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22102379)
+
+The chain-address companion takes a specific continuity burden exposed by ATLD 2 and makes it a standalone falsifiable method. It preserves the full performed chain while the destination is unresolved, prohibits compression until independent arrival verification, separates chain address from load-bearing invariant and payload, applies minimum-sufficiency pressure, remove/restore deformation, cold-start reconstruction, payload/carrier/counter-route tests, stale-address detection, and a separately typed non-inverse return route. It does not add a thirteenth ATLD coordinate and reduces to a local integration pattern if a simpler established continuity method closes the same burden at equal or lower complexity.
+
 ### Future-Splitting State Recruitment
 
 *A Cross-Domain Assay for State Adequacy and Prospective Mechanism Activation*
@@ -106,7 +123,7 @@ The v2.0 consolidation is now the recommended scientific reading object in the e
 - [Publication-family record](../ATLD_STANDALONE_PUBLICATION.md)
 - [Frozen text mirror and integrity manifest](../publications/ATLD_Evaluation_Protocol_v1.0/)
 
-ATLD v1.0 remains the frozen causal predecessor and is not silently rewritten by ATLD 2.
+ATLD v1.0 remains the frozen causal predecessor and is not silently rewritten by ATLD 2 or the chain-address companion.
 
 ### Recursive Constraint Closure and Reachable-State Geometry
 
@@ -151,7 +168,7 @@ The [research-module PDF reading editions](../publications/module-reading-editio
 
 In particular, [Module 33 — SIPO Capstone](../docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) is a **canonical architectural module**, not a standalone publication. Its PDF and Drive copies are synchronized reading editions of that module and should not be presented as though they were journal-style papers.
 
-[Module 25B — ATLD 2 Residual Coordinate Measurement and Self-Audit](../docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) is likewise a **live canonical measurement fold**, not a second DOI paper. The exact ATLD 2 v2.0 Zenodo PDF remains the frozen publication object.
+[Module 25B — ATLD 2 Residual Coordinate Measurement and Self-Audit](../docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) is likewise a **live canonical measurement fold**, not a second DOI paper. The exact ATLD 2 v2.0 Zenodo PDF remains the frozen publication object. [Module 25D — Chain-Address Invariants](../docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md) is the live canonical fold for the separate chain-address v1.0 companion publication; later 25D edits do not silently revise DOI `10.5281/zenodo.22102379`.
 
 ## Integrity rule
 
@@ -164,6 +181,6 @@ A paper is not identified by formatting alone. The repository distinguishes:
 5. **repository identity/checksum record or exact binary mirror** — preservation route that must identify, not impersonate, the deposit;
 6. **Drive mirror/reading edition** — convenience carrier, not a silent replacement for any of the above.
 
-The existing top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of their corresponding frozen DOI-record PDF files. ATLD 2 v2.0 and Voynich v2.0 are represented in-repository by explicit DOI/version and frozen-carrier identity metadata where an exact GitHub binary mirror has not been independently established; the controlling Zenodo records remain authoritative.
+The existing top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of their corresponding frozen DOI-record PDF files. ATLD 2 v2.0 and Voynich v2.0 are represented in-repository by explicit DOI/version and frozen-carrier identity metadata where an exact GitHub binary mirror has not been independently established; the controlling Zenodo records remain authoritative. The chain-address v1.0 paper likewise uses its DOI/publication record and GitHub source route until an exact repository binary mirror/checksum carrier is independently established.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier and publication rules.
