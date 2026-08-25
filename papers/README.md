@@ -26,6 +26,23 @@ The v2 publication is the current principal MKUFT publication in the historical 
 
 ## Published DOI papers
 
+### Bell Constraints as Typed Boundaries
+
+*Relation, Access, Completion, and Scale*
+
+**Version:** 1.0 — 25 August 2026  
+**Version DOI:** [10.5281/zenodo.22100926](https://doi.org/10.5281/zenodo.22100926)  
+**Concept DOI:** [10.5281/zenodo.22100925](https://doi.org/10.5281/zenodo.22100925)  
+**Licence of exact deposit:** CC BY 4.0
+
+- [Public GitHub paper route](2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md)
+- [Standalone publication record](../BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md)
+- [Frozen identity/checksum record](../publications/BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0/)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22100926)
+- Related live owners: [Module 24B](../docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md), [Module 27](../docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md), [Module 29](../docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md), and [Module 32S3](../docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md).
+
+Bell Constraints separates Bell-local factorisation, observed no-signalling, stronger conditioned process closure, local admissibility ownership, completion geometry, and scenario/resource scale. Under the comparator family examined in v1.0, the independent Bell-local new-physics delta is null; the non-null contribution is the typed correspondence, custody, scale-discipline, and falsification architecture. The paper is therefore indexed as a standalone correspondence/falsification publication, not promoted into a new Bell-law module.
+
 ### Active Traversal and Load-Bearing Dependency II (ATLD 2)
 
 *Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems*
@@ -181,6 +198,6 @@ A paper is not identified by formatting alone. The repository distinguishes:
 5. **repository identity/checksum record or exact binary mirror** — preservation route that must identify, not impersonate, the deposit;
 6. **Drive mirror/reading edition** — convenience carrier, not a silent replacement for any of the above.
 
-The existing top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of their corresponding frozen DOI-record PDF files. ATLD 2 v2.0 and Voynich v2.0 are represented in-repository by explicit DOI/version and frozen-carrier identity metadata where an exact GitHub binary mirror has not been independently established; the controlling Zenodo records remain authoritative. The chain-address v1.0 paper likewise uses its DOI/publication record and GitHub source route until an exact repository binary mirror/checksum carrier is independently established.
+The existing top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of their corresponding frozen DOI-record PDF files. ATLD 2 v2.0 and Voynich v2.0 are represented in-repository by explicit DOI/version and frozen-carrier identity metadata where an exact GitHub binary mirror has not been independently established; the controlling Zenodo records remain authoritative. The chain-address v1.0 paper likewise uses its DOI/publication record and GitHub source route until an exact repository binary mirror/checksum carrier is independently established. Bell Constraints v1.0 likewise uses its DOI, paper route, publication record, and frozen-carrier identity record without asserting a byte-identical GitHub binary mirror before receiver-side deposit bytes are independently verified.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier and publication rules.
