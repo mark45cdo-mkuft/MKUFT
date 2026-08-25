@@ -358,9 +358,9 @@ Under those brackets, minimising $A$ at fixed volume favours a sphere.
 
 The conclusion is conditional. Gravity, rotation, substrate contact, anisotropic stress, electromagnetic forcing, heterogeneous surface energy, confinement, flow, active stresses, or other boundary conditions can change the stable shape.
 
-The sphere is therefore a clean example of the stronger rule:
+The sphere is a bracketed example of a narrower rule:
 
-> Recurrent constraint geometry can produce recurrent architecture; the architecture does not prove one universal underlying mechanism.
+> Repeated instances of the same specified constraint class can favour recurrent architecture without implying one universal underlying mechanism.
 
 This also preserves Module 30's rule that a spherical LUCY pocket is a morphology-specific toy model rather than the canonical shape of LUCY.
 
