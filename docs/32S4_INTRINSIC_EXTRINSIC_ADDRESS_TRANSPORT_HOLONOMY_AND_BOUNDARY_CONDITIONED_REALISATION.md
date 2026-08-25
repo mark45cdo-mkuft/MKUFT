@@ -256,7 +256,7 @@ If the final condition fails, the correct conclusion is **loss or change of admi
 
 ## 7. Boundary-conditioned P-state geometry
 
-Established physics supplies a literal P-layer comparator for the claim that external boundaries can change available state structure.
+Established physics supplies direct P-layer examples in which external boundary conditions change available physical mode structure.
 
 For a field/operator `L_b` under boundary/context `b`, an admissible mode family may be represented schematically by
 
@@ -280,7 +280,7 @@ Changing geometry, material response, separation, or another lawful boundary var
 
 and therefore the physically accessible field configurations.
 
-Casimir experiments with nanostructured surfaces provide direct examples in which geometry and material boundary conditions change measured fluctuation-induced forces. This is a strong P-layer precedent for **boundary-conditioned admissibility**.
+Casimir experiments with nanostructured surfaces provide direct examples in which geometry and material boundary conditions change measured fluctuation-induced forces. This is a direct P-layer example of **boundary-conditioned mode structure and measurable response**.
 
 The scale language must remain accurate: `mesoscopic` means an intermediate finite scale, not an infinitesimal edge. Casimir and related boundary effects can become experimentally important at micro- and nanometre separations depending on the system.
 
@@ -318,33 +318,47 @@ Ground-state/passivity results provide the controlling thermodynamic guard again
 
 ## 8. Holography as a transport/readout comparator
 
-Metasurface holography supplies an exact P-layer mirror.
+Metasurface holography supplies a controlled physical comparator.
 
-A local phase/amplitude encoding
+Let the incident optical field be
 
 ```math
-\Phi(x,y)
+U_{\mathrm{inc}}(x,y),
 ```
 
-is not itself the reconstructed three-dimensional or far-field image. A propagation/readout operator produces the observed field:
+and let
+
+```math
+t_{\mathrm{meta}}(x,y)
+```
+
+denote the metasurface transfer/encoding function. Schematically, the field immediately after the surface is
+
+```math
+U_0(x,y)
+=
+U_{\mathrm{inc}}(x,y)t_{\mathrm{meta}}(x,y),
+```
+
+and propagation/readout produces
 
 ```math
 U_{\mathrm{out}}
 =
-\mathcal H_{b,R}\left[\Phi\right],
+\mathcal H_{b,R}\left[U_0\right],
 ```
 
-where `b` represents physical illumination/boundary/propagation conditions and `R` the declared readout plane or transform.
+where `b` contains the remaining physical boundary/propagation conditions and `R` the declared readout plane or transform.
 
-Geometric-phase metasurfaces provide literal examples in which the orientation of subwavelength elements determines local phase and the collective phase distribution reconstructs a holographic field only after propagation.
+Geometric-phase metasurfaces provide direct optical examples in which the orientation of subwavelength elements determines local phase and the collective phase distribution reconstructs a holographic field only after propagation.
 
-The useful MKUFT analogy is therefore narrower and stronger than `the whole is in every part`:
+A deliberately bounded MKUFT comparator is narrower than `the whole is in every part`:
 
 > **a distributed relational encoding can remain physically present while the target gestalt is absent from direct local inspection and appears only under the correct transform/readout conditions.**
 
 The same encoded structure can produce a different readout when illumination, polarization, propagation distance, phase relation, aperture, or observation geometry changes.
 
-### 8.1 Matched relational phase as a literal P-layer comparator
+### 8.1 Matched incident/surface phase as a controlled physical comparator
 
 Qu et al. (2020) provide an especially useful controlled example because the phase specification required for one holographic image is explicitly separated into two physical matrices: one carried by the incident beam and one encoded in the metasurface.
 
@@ -373,13 +387,13 @@ fixed encoded surface
 
 Experimentally, the same metasurface illuminated with an incorrect uniform beam produced misleading rather than intended information, while the designed incident phase recovered the intended image. The same static metasurface could also produce different holographic images when the incident phase distribution was changed.
 
-For MKUFT this is a strong **P-layer example of joint relational realisation**: one encoded component does not uniquely determine the realised gestalt independently of the external phase/address condition. Neither physical matrix alone should be relabelled as an I layer, and the optical result does not establish a general holographic ontology.
+In native optical terms, this is a controlled P-layer example in which the reconstructed field depends jointly on the incident field, metasurface response, and propagation/readout. As an MKUFT comparator, it motivates asking whether a separately controlled contextual variable changes a claimed higher-order realisation while intrinsic encoding is held fixed. Neither physical matrix alone should be relabelled as an I layer, and the optical result does not establish a general holographic ontology.
 
 It does, however, motivate a discriminating question for any claimed context-indexed realisation:
 
 > **Can the same intrinsic encoding be held fixed while a separately controlled contextual relation switches the predicted higher-order realisation on, off, or into a different admissible class?**
 
-This supports a deformation programme; it does not establish that biological or cosmological systems are holograms.
+This motivates a deformation-test programme; it does not establish that biological or cosmological systems are holograms.
 
 ## 9. Relation to I→P
 
@@ -489,7 +503,7 @@ Historical priority for this exact conjunction is not asserted without broader r
 - Berry, M. V. (1984). *Quantal phase factors accompanying adiabatic changes*. Proceedings of the Royal Society A 392, 45–57. DOI `10.1098/rspa.1984.0023`.
 - Jaffe, R. L. (2005). *Casimir effect and the quantum vacuum*. Physical Review D 72, 021301(R). DOI `10.1103/PhysRevD.72.021301`.
 - Chan, H. B. et al. (2008). *Measurement of the Casimir Force between a Gold Sphere and a Silicon Surface with Nanoscale Trench Arrays*. Physical Review Letters 101, 030401. DOI `10.1103/PhysRevLett.101.030401`.
-- Bao, Y. et al. (2010). *Casimir Force on a Surface with Shallow Nanoscale Corrugations: Geometry and Finite Conductivity Effects*. Physical Review Letters 105, 250402. DOI `10.1103/PhysRevLett.105.250402`.
+- Bao, Y. et al. (2010). *Casimir Force on a Surface with Shallow Nanoscale Corrugations: Geometry and Finite Conductivity Effects*. Physical Review Letters 105, 250402. DOI `10.1103/PhysRevLett.105,250402`.
 - Wilson, C. M. et al. (2011). *Observation of the dynamical Casimir effect in a superconducting circuit*. Nature 479, 376–379. DOI `10.1038/nature10561`.
 - Huang, L., Chen, X., Mühlenbernd, H. et al. (2013). *Three-dimensional optical holography using a plasmonic metasurface*. Nature Communications 4, 2808. DOI `10.1038/ncomms3808`.
 - Frey, M., Funo, K., and Hotta, M. (2014). *Strong local passivity in finite quantum systems*. Physical Review E 90, 012127. DOI `10.1103/PhysRevE.90.012127`.
@@ -505,7 +519,7 @@ Historical priority for this exact conjunction is not asserted without broader r
 
 > **A relational specification can remain addressable without being physically occupied.**
 
-> **Boundary conditions can literally change physical mode structure; that is a P-layer fact, not automatic evidence for an independent I layer.**
+> **Boundary conditions can change physical mode structure; that is a P-layer fact, not automatic evidence for an independent I layer.**
 
 > **A holographic encoding and its reconstructed gestalt are different addressed objects connected by a physical transform.**
 
