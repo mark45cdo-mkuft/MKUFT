@@ -6,60 +6,54 @@
 **ATLD concept DOI:** [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520)  
 **Predecessor ATLD v1.0 DOI:** [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521)  
 **Originating MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
-**Traversal parent:** [24A — Active Traversal and Functional Emergence](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)  
-**Null/control owner:** [24B — Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)  
-**Deformation owner:** [25 — Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)  
-**ATLD 2 measurement owner:** [25B — Residual Coordinate Measurement and Self-Auditing Evaluation](25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)  
-**Immediate methodological parent:** [25C — Residual Instrument Generation and Protected Discovery Boundary](25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)  
-**Equation and notation owner:** [27 — Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)  
-**Promotion owner:** [28 — Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)  
-**Claim-discipline owner:** [29 — MKUFT Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)  
-**Adjacent address theory:** [33S2 — Relational Closure, Law Descent, and Bidirectional Readdressing](33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md); [33S4 — Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)  
+**Traversal parent:** [24A](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)  
+**Null/control owner:** [24B](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)  
+**Deformation owner:** [25](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)  
+**ATLD 2 measurement owner:** [25B](25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)  
+**Immediate methodological parent:** [25C](25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)  
+**Equation and notation owner:** [27](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)  
+**Promotion owner:** [28](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)  
+**Claim-discipline owner:** [29](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)  
+**Adjacent address theory:** [33S2](33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md); [33S4](33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)  
 **Public formulation date:** 25 August 2026  
-**Status:** canonical public methodological continuation of the ATLD v1.0 → ATLD 2 → Module 25C lineage. This module owns the live chain-address continuity and packet-transport formalisation. Its general scientific utility remains provisional pending the declared prospective tests. It does not revise the frozen ATLD v1.0 or ATLD 2 DOI objects and does not assert a new physical law, ontology, or fundamental information primitive.  
+**Status:** canonical public methodological continuation of the ATLD v1.0 → ATLD 2 → Module 25C lineage. This module owns the live chain-address continuity and packet-transport formalisation. Its scientific generality remains provisional pending the declared prospective tests. It does not revise the frozen ATLD v1.0 or ATLD 2 DOI objects and does not assert a new physical law, ontology, or fundamental information primitive.  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved for this live repository module unless an exact file version expressly states otherwise.
 
-## 1. Purpose and placement
+## 1. Purpose and owner boundary
 
-ATLD v1.0 supplies the causal instrument: hold information and resources fairly matched, actively traverse a typed dependency architecture, deform candidate relations, and ask whether the relation itself carries reproducible load.
+ATLD v1.0 supplies the causal grammar: matched information/resources, active typed traversal, and controlled deformation of candidate load-bearing relations. ATLD 2 adds long-horizon residual measurement, especially `R` — future-sufficient continuity/re-entry fidelity — and `V` — receiver-side closure. Module 25C then provides residual ownership, no-smuggling, shrinkage, held-out testing, and protected-discovery discipline.
 
-ATLD 2 adds a long-horizon measurement problem. In particular, its `R` and `V` coordinates distinguish future-sufficient re-entry from textual memory and receiver-side reconstruction from source-side correctness. Module 25C then makes unresolved residual structure auditable without granting every newly visible failure a permanent coordinate.
+Module 25D asks the next operational question:
 
-A further operational question follows:
+> **After a destination has been reached through a long, locally witnessed chain, can the performed route be used to identify a smaller reusable address-and-invariant packet that preserves the intended object without hidden discovery history?**
 
-> **When a destination can be reached only through a long sequence of locally witnessed handshakes, can the successful performed route be used after verified arrival to identify a smaller reusable address-and-invariant packet that preserves the intended object without retaining hidden discovery history?**
-
-This module formalises that question.
-
-The live methodological chain is:
+The live method chain is:
 
 ```text
 24A active traversal
-→ 24B strongest fair null / relation specificity
+→ 24B strongest fair null
 → 25 load-bearing deformation
-→ 25B ATLD 2 long-horizon residual measurement
-→ 25C residual instrument generation / no-smuggling
-→ 25D verified-chain compression / cold reconstruction / return validation
+→ 25B ATLD 2 residual measurement
+→ 25C residual instrument / no-smuggling
+→ 25D verified-chain compression / cold reconstruction / typed return
 ```
 
-Module 25D does not add a thirteenth ATLD 2 measurement coordinate. It is a continuity and transport architecture that recruits existing ATLD owners.
+Module 25D is not a thirteenth ATLD coordinate. It is a continuity/transport architecture built from existing owners.
 
-## 2. Scientific status and equation class
+## 2. Scientific and equation status
 
-The objects below are informational, operational, and methodological.
-
-Under Module 29's equation-status discipline:
+The objects below are informational and methodological. Under Module 29:
 
 - typed sets, maps, packets, equivalence relations, provenance fields, and promotion predicates are **E0 formal specification**;
-- reconstruction loss, compression, deformation, restoration, and return expressions are **E1 operational scaffolds** until task worlds, variables, budgets, thresholds, evaluators, and scoring rules are frozen;
-- they become **E2 operational statistical models** only in defined prospective or held-out experiments;
-- no expression in this module is an E4 physical mechanism or law of nature.
+- loss, compression, deformation, restoration, and return expressions are **E1 operational scaffolds** until task worlds, variables, budgets, thresholds, evaluators, and scoring rules are frozen;
+- they become **E2 operational statistical models** only in defined prospective or held-out tests;
+- none is an E4 physical mechanism or law.
 
-The phrase **chain address** names a reusable typed route/context object. The phrase **invariant packet** means invariant only with respect to a declared task-relevant equivalence and tested perturbation family. Neither phrase implies a fundamental spacetime, field, substrate, or universal semantic object.
+A **chain address** is a reusable typed route/context object. A **load-bearing invariant** is invariant only relative to a declared task-relevant equivalence and tested perturbation family.
 
-## 3. Active objects and typed discovery chain
+## 3. Typed discovery chain
 
-Let $A$ denote a source address and $B$ a destination address. Let the performed discovery chain pass through addressed spaces
+Let source and destination spaces be
 
 ```math
 \mathcal X_0=\mathcal X_A,
@@ -67,7 +61,7 @@ Let $A$ denote a source address and $B$ a destination address. Let the performed
 \mathcal X_n=\mathcal X_B.
 ```
 
-For $i=1,\ldots,n$, let the $i$th handshake be a typed map
+For $i=1,\ldots,n$, define a typed handshake
 
 ```math
 h_i:
@@ -76,9 +70,7 @@ h_i:
 \mathcal X_i,
 ```
 
-where $\mathcal C_i$ contains the local context, boundary, admissibility, provenance, or control state required for that transition.
-
-For the declared realised chain, the performed forward composition is
+with local context/control state $\mathcal C_i$. For the declared realised route,
 
 ```math
 H_{A\rightarrow B}
@@ -86,25 +78,17 @@ H_{A\rightarrow B}
 h_n\circ h_{n-1}\circ\cdots\circ h_1.
 ```
 
-This notation does not imply that any $h_i$ is invertible, lossless, deterministic, or globally defined.
+This does not imply invertibility, losslessness, determinism, or global definition.
 
-Let the source packet be
+Freeze the source packet
 
 ```math
-P_A
-=
-(x_A,m,q,b_A,\pi_A),
+P_A=(x_A,m,q,b_A,\pi_A),
 ```
 
-where $x_A$ is the source state, $m$ the governing mission or reason-for-being, $q$ the target property whose preservation matters at $B$, $b_A$ the relevant boundary/admissibility state, and $\pi_A$ the provenance/version state.
+where $m$ is the governing mission/reason-for-being, $q$ the destination property, $b_A$ the boundary/admissibility state, and $\pi_A$ provenance/version.
 
-The destination question is not merely whether some plausible output appears. It is whether the performed route reaches a state at $B$ that satisfies the declared target without silently replacing the mission, property, boundary, or provenance with an easier sibling object.
-
-## 4. Long-form cohesion as discovery mode
-
-Before $B$ has been reached and verified, the system does not yet know which parts of the route are dispensable. The safe discovery object therefore preserves a performed-route witness for each load-bearing transition.
-
-Define the discovery history
+Preserve the performed history
 
 ```math
 \mathcal H_{A\rightarrow B}
@@ -116,29 +100,11 @@ Define the discovery history
 \bigr),
 ```
 
-where $w_i$ is the smallest operation-appropriate witness that the transition was actually performed and read back.
+where each $w_i$ is the smallest operation-appropriate witness that the transition was actually performed and read back.
 
-A witness may be an exact object readback, current revision identity, receiver-side reconstruction, matched-route output, explicit tool state, or another typed observation appropriate to the operation.
+Long-form cohesion preserves enough source identity, mission, address, owner, boundary, provenance, unresolved branch state, and rollback state that local plausibility cannot impersonate continuity.
 
-Long-form cohesion means that enough parent identity and transition provenance survive that local plausibility cannot impersonate continuity. A familiar topic is not a performed route. A plausible summary is not a performed route. A child state that sounds correct is not proof that the parent mission survived.
-
-The discovery chain should preserve, where material:
-
-- source identity and version;
-- mission/reason-for-being;
-- current address;
-- local transition owner;
-- boundary and admissibility state;
-- performed-route witness;
-- unresolved branch state;
-- destination condition;
-- last stable rollback point.
-
-This long-form object is intentionally more expensive than the hoped-for reusable packet.
-
-## 5. Verified arrival must precede compression
-
-Compression is not admissible until the destination has been independently recognised as reached under a frozen destination condition.
+## 4. Verified arrival before compression
 
 Let
 
@@ -149,57 +115,35 @@ V_B:
 \{0,1\}
 ```
 
-be a destination verifier. A candidate arrival is accepted only when
+be a frozen destination verifier. Accept arrival only if
 
 ```math
 V_B(x_B,m,q,b_B)=1.
 ```
 
-A graded verifier may instead return a typed score or diagnostic object, but its acceptance rule must be fixed independently of the compression step.
-
-The load-bearing order is:
+Required order:
 
 ```text
-A
-→ performed handshake chain
-→ verified B
-→ candidate compression
+A → performed handshake chain → verified B → candidate compression
 ```
 
-The circular order is:
+Invalid circular order:
 
 ```text
-A
-→ guess compact summary
-→ use summary to define B
-→ declare compression successful
+A → guess compact summary → use summary to define B → declare success
 ```
 
-The second route leaks the desired result into the object that is supposed to test it.
+Compression before verified B leaks the target into the object intended to test it.
 
-## 6. Chain address, invariant packet, and transport jacket
+## 5. Chain address, invariant packet, and jacket
 
-After verified arrival, the full performed history becomes an empirical candidate-generation surface.
+After verified arrival, treat the full history as a candidate-generation surface.
 
-Define the **chain address** $\alpha_{A\rightarrow B}$ as a compact typed object identifying the destination relation, required entry conditions, and reconstruction contract for the declared task family.
+Define $\alpha_{A\rightarrow B}$ as the **chain address**: a compact typed object identifying destination relation, required entry conditions, and reconstruction contract.
 
-Define the **load-bearing invariant** $\kappa_{A\rightarrow B}$ as the smallest tested relation/context object required to preserve the mission-relevant destination property under the admitted perturbation family.
+Define $\kappa_{A\rightarrow B}$ as the **load-bearing invariant**: the smallest tested relation/context object required to preserve the mission-relevant destination property under the admitted perturbation family.
 
-Their roles are distinct:
-
-```math
-\alpha_{A\rightarrow B}
-=
-\text{entry and reconstruction address},
-```
-
-```math
-\kappa_{A\rightarrow B}
-=
-\text{tested relation/context that must survive}.
-```
-
-For payload $p$, define the reusable transport jacket
+For payload $p$,
 
 ```math
 J_{A\rightarrow B}(p)
@@ -213,15 +157,13 @@ b,
 \right\rangle.
 ```
 
-The payload is not the address. The address is not the invariant. The invariant is not the discovery history. Boundary and provenance are not decorative metadata. Each field has a separate typed role.
+Payload, address, invariant, boundary/provenance, and discovery history are separate typed objects.
 
-## 7. Minimum sufficient load-bearing invariant
+## 6. Minimum sufficient invariant
 
-The target is not the shortest wording. It is the smallest tested object that preserves the declared destination burden.
+Let $\mathfrak K_{A\rightarrow B}$ be the admissible invariant family, $\mathfrak A_{A\rightarrow B}$ the address family, $\mathcal V$ the version/provenance space, and $c(\kappa)$ a declared transport/complexity cost.
 
-Let $\mathfrak K_{A\rightarrow B}$ be an admissible family of candidate invariant packets derivable from the performed history without privileged target information. Let $\mathfrak A_{A\rightarrow B}$ be an admissible chain-address family, $\mathcal V$ the version/provenance space, and $c(\kappa)$ a declared complexity or transport-cost measure.
-
-Let destination reconstruction be
+Let
 
 ```math
 D_B:
@@ -235,10 +177,10 @@ D_B:
 \times
 \mathcal V
 \rightarrow
-\mathcal X_B.
+\mathcal X_B
 ```
 
-For a verified destination reference $x_B^*$, define task-relevant reconstruction loss
+be destination reconstruction. For verified reference $x_B^*$,
 
 ```math
 L_q(\kappa)
@@ -253,12 +195,12 @@ x_B^*
 \right].
 ```
 
-For preregistered tolerance $\varepsilon_q$, a minimum sufficient candidate satisfies
+A minimum sufficient candidate satisfies
 
 ```math
 \kappa^*_{A\rightarrow B}
 \in
-\underset{\kappa\in\mathfrak K_{A\rightarrow B}}{\operatorname{arg\,min}}
+\underset{\kappa\in\mathfrak K_{A\rightarrow B}}{\mathrm{arg\,min}}
 \;c(\kappa)
 ```
 
@@ -268,19 +210,15 @@ subject to
 L_q(\kappa)\leq\varepsilon_q,
 ```
 
-together with boundary fidelity, provenance fidelity, and no-smuggling passes.
+plus boundary fidelity, provenance fidelity, and no-smuggling passes.
 
-The minimum is conditional on the task, destination, boundary, version, receiver class, and tested perturbation family. It is not a universal minimal representation.
+The minimum is task-, destination-, receiver-, boundary-, version-, and perturbation-relative. If no compact $\kappa$ works, the long-form chain remains load-bearing.
 
-If no compact $\kappa$ closes the burden, the lawful result is that the long-form route remains load-bearing. Compression failure is not an architecture failure.
+## 7. Removal, deformation, and restoration
 
-## 8. Deformation, removal, and restoration
+For candidate component $r\subseteq\kappa$, let $\mathcal D_r$ deform $r$ while matching the other jacket fields and resource envelope as closely as practicable.
 
-A packet that works once has not established load-bearing structure.
-
-For candidate component $r\subseteq\kappa$, let $\mathcal D_r$ be a controlled deformation that changes $r$ while holding payload, destination, version, resource envelope, and other jacket fields as constant as practicable.
-
-For benefit-oriented destination score $S_q$, define
+For benefit-oriented score $S_q$,
 
 ```math
 \Delta_r^{\mathrm{loss}}
@@ -290,7 +228,7 @@ For benefit-oriented destination score $S_q$, define
 \mathbb E[S_q(\mathcal D_r(J))].
 ```
 
-Let $\operatorname{Restore}_r$ reconstitute the declared relation without privileged destination information. Define
+Let $\mathrm{Restore}_r$ restore the declared relation without privileged target information:
 
 ```math
 \Delta_r^{\mathrm{restore}}
@@ -299,7 +237,7 @@ Let $\operatorname{Restore}_r$ reconstitute the declared relation without privil
 \left[
 S_q
 \left(
-\operatorname{Restore}_r(\mathcal D_r(J))
+\mathrm{Restore}_r(\mathcal D_r(J))
 \right)
 \right]
 -
@@ -309,67 +247,38 @@ S_q
 A stronger load-bearing result requires preregistered material loss and recovery:
 
 ```math
-\Delta_r^{\mathrm{loss}}
->
-\delta_{\mathrm{loss}},
+\Delta_r^{\mathrm{loss}}>\delta_{\mathrm{loss}},
 \qquad
-\Delta_r^{\mathrm{restore}}
->
-\delta_{\mathrm{restore}}.
+\Delta_r^{\mathrm{restore}}>\delta_{\mathrm{restore}}.
 ```
 
-If removing $r$ does not materially damage reconstruction, remove it from the promoted invariant. If lawful restoration does not recover the predicted function, the proposed relation boundary is wrong, incomplete, or confounded.
+No material loss means the field is a passenger at the tested address. No lawful recovery means the proposed relation boundary is wrong, incomplete, or confounded.
 
-## 9. Cold-start and hidden-history control
+## 8. Cold-start and hidden-history control
 
-The strongest immediate failure mode is hidden history: a receiver appears to reconstruct the packet because it already participated in the discovery route.
-
-At least one validation arm should therefore use a receiver that has no access to the original hidden history except information deliberately included in $J$.
-
-Let
-
-```math
-C_B^{\mathrm{cold}}
-```
-
-denote cold-start reconstruction and
-
-```math
-C_B^{\mathrm{warm}}
-```
-
-reconstruction by a receiver retaining the original discovery history.
+Compare a receiver without discovery history, $C_B^{\mathrm{cold}}$, against a warm receiver retaining that history, $C_B^{\mathrm{warm}}$.
 
 If
 
 ```math
-C_B^{\mathrm{warm}}=\mathrm{PASS}
-```
-
-but
-
-```math
+C_B^{\mathrm{warm}}=\mathrm{PASS},
+\qquad
 C_B^{\mathrm{cold}}=\mathrm{FAIL},
 ```
 
-then the compressed packet omitted load-bearing state. The lawful repair is to enlarge $\kappa$, refine $\alpha$, or retain the full route.
+the jacket omitted load-bearing state. Enlarge $\kappa$, refine $\alpha$, or retain the full route.
 
-This is the direct operational bridge to ATLD 2's future-sufficient continuity/re-entry fidelity and receiver-side closure readouts. The packet must carry enough state to reconstruct the intended continuation rather than merely point into latent shared context.
+This is the direct operational bridge to ATLD 2 `R` and `V`: the packet must carry future-sufficient state and permit receiver-side reconstruction, not merely point into latent shared context.
 
-## 10. Bidirectional validation without false invertibility
+## 9. Bidirectional validation without false invertibility
 
-A return route supplies a strong validation surface, but it must not be written as $h_i^{-1}$ unless invertibility has actually been established.
-
-Let the return route use separately typed reconstruction or handoff maps
+Do not write a return map as $h_i^{-1}$ unless invertibility has actually been established. Define separately typed return/handoff maps
 
 ```math
-r_i:
-\mathcal Y_i
-\rightarrow
-\mathcal Y_{i-1}.
+r_i:\mathcal Y_i\rightarrow\mathcal Y_{i-1}
 ```
 
-The performed return composition is
+and
 
 ```math
 R_{B\rightarrow A}
@@ -377,7 +286,7 @@ R_{B\rightarrow A}
 r_1\circ r_2\circ\cdots\circ r_n.
 ```
 
-A round-trip test asks whether
+The round-trip test is
 
 ```math
 R_{B\rightarrow A}
@@ -388,13 +297,11 @@ D_B(J_{A\rightarrow B}(p))
 x_A,
 ```
 
-where $\sim_q$ is a declared task-relevant equivalence relation.
+where $\sim_q$ is declared task-relevant equivalence.
 
-A successful return supports only the tested claim that the packet preserves enough structure for bidirectional reconstruction across the declared route family. It does not establish lossless encoding, global reversibility, or universal semantic identity.
+Success supports tested bidirectional reconstruction only. It does not establish global reversibility, lossless encoding, or universal semantic identity.
 
-## 11. Payload, carrier, and counter-route generalisation
-
-A one-case successful compression can merely memorise its originating payload.
+## 10. Generalisation and counter-routes
 
 For payload family $\mathcal P^*$, hold $\alpha$ and $\kappa$ fixed and require
 
@@ -404,55 +311,51 @@ For payload family $\mathcal P^*$, hold $\alpha$ and $\kappa$ fixed and require
 V_B
 \left(
 D_B(J_{A\rightarrow B}(p)),
-m_p,
-q_p,
-b
+m_p,q_p,b
 \right)
 =1
 \right]
-\geq
-\tau,
+\geq\tau.
 ```
 
-for a prospectively fixed threshold $\tau$ appropriate to the task.
+If only the originating payload works, the object is a one-case compression, not a reusable address.
 
-If only the original payload succeeds, the object is a one-case compression rather than a reusable chain address.
+Also test:
 
-A stronger carrier test changes wording, encoding, modality, model family, or representation bracket while preserving the declared typed relation.
+- carrier substitution — change wording, encoding, modality, model family, or representation while preserving the declared relation;
+- counter-route reconstruction — use a materially different lawful route where possible;
+- cross-instance/independent receiver replication.
 
-A counter-route test reaches the same destination through a materially different lawful route where possible. Agreement across routes is evidence of transport robustness, not independent external truth.
+Route agreement is evidence of transport robustness, not external truth.
 
-## 12. Versioned addresses and stale-state failure
-
-A chain address is versioned. It must fail cleanly when the repository, policy, receiver, tool surface, environment, or destination contract changes.
+## 11. Versioned addresses and stale-state failure
 
 Write
 
 ```math
 \alpha_{A\rightarrow B}(e),
 \qquad
-\kappa_{A\rightarrow B}(e),
+\kappa_{A\rightarrow B}(e)
 ```
 
-for active environment/version state $e$.
-
-Define a compatibility gate
+for environment/version state $e$. Require a compatibility gate
 
 ```math
 G_{\mathrm{env}}(J,e_{\mathrm{current}})
 \in
-\{\mathrm{PASS},\mathrm{REBASE},\mathrm{FALLBACK},\mathrm{FAIL}\}.
+\{
+\mathrm{PASS},
+\mathrm{REBASE},
+\mathrm{FALLBACK},
+\mathrm{FAIL}
+\}.
 ```
 
-`PASS` means the tested packet remains valid. `REBASE` means a bounded translation is available and must be witnessed. `FALLBACK` means the compact packet no longer closes and the full history or owning instructions must be recruited. `FAIL` means the route is not presently admissible.
+`PASS` retains the packet; `REBASE` requires a witnessed bounded translation; `FALLBACK` recruits the full history/owner; `FAIL` rejects the route. Semantic familiarity must not conceal a stale address.
 
-Semantic familiarity must not conceal a stale address.
+## 12. Composition drift
 
-## 13. Composition drift and parent-mission custody
-
-Local transitions can each appear reasonable while their composition loses the original mission.
-
-Let $\lambda_i$ denote an edge-local invariant and $\mu$ the parent mission invariant. Schematically:
+Let $\lambda_i$ be an edge-local invariant and $\mu$ the parent mission invariant:
 
 ```math
 h_i:
@@ -461,36 +364,34 @@ h_i:
 (x_i,\lambda_{i+1},\mu).
 ```
 
-Any lawful transformation of representation must be declared.
+Composition drift is the failure class in which local transitions remain plausible while $\mu$ is weakened, reinterpreted, or replaced. The post-arrival packet is intended to reduce repeated rediscovery exposure by carrying the smallest tested parent invariant directly.
 
-Composition drift occurs when local plausibility is preserved while $\mu$ is silently weakened, reinterpreted, or replaced. The post-arrival packet is intended to reduce repeated exposure to this failure by carrying the smallest tested parent invariant directly rather than requiring each future execution to rediscover it through the exploratory route.
+This is an operational continuity model, not a scalar universal theory of semantic error.
 
-This is an operational continuity claim, not a scalar theory of semantic error.
+## 13. Promotion gate
 
-## 14. Promotion gate
+Define:
 
-For candidate pair $(\alpha,\kappa)$ define:
+- $A$ — verified arrival preceded compression;
+- $S$ — sufficient reconstruction within tolerance;
+- $M$ — minimum/no removable passengers;
+- $D$ — targeted deformation produces predicted loss;
+- $R$ — lawful restoration produces predicted recovery;
+- $B$ — boundary/admissibility preserved without bypass;
+- $P$ — provenance/version rejects stale or sibling objects;
+- $C$ — cold-start reconstruction succeeds;
+- $T$ — typed return preserves mission-equivalent reconstruction;
+- $X$ — appropriate counter-route, cross-instance, or independent replication succeeds.
 
-- $A$ — verified destination arrival preceded compression;
-- $S$ — $\kappa$ is sufficient for the frozen destination property within tolerance;
-- $M$ — $\kappa$ survives minimum-complexity pressure without removable passengers;
-- $D$ — targeted deformation produces the predicted loss;
-- $R$ — lawful restoration produces the predicted recovery;
-- $B$ — boundary/admissibility state is preserved without bypass;
-- $P$ — provenance/version state rejects stale or sibling objects;
-- $C$ — cold-start reconstruction succeeds without hidden history;
-- $T$ — typed return reconstruction preserves the declared mission equivalence;
-- $X$ — the appropriate counter-route, cross-instance, or independent replication burden succeeds.
-
-Promotion requires
+Then
 
 ```math
-\operatorname{PROMOTE}(\alpha,\kappa)
+\mathrm{PROMOTE}(\alpha,\kappa)
 \Longleftrightarrow
 A\land S\land M\land D\land R\land B\land P\land C\land T\land X.
 ```
 
-The lawful disposition set is
+Lawful dispositions are
 
 ```math
 \mathfrak D_{\mathrm{chain}}
@@ -507,78 +408,45 @@ The lawful disposition set is
 \}.
 ```
 
-A candidate may therefore shrink or disappear. A continuity architecture that can only accumulate fields is not self-auditing.
+A serious self-audit must allow the packet to shrink or disappear.
 
-## 15. Prospective test programme
+## 14. Prospective test programme
 
-### 15.1 Ablation ladder
+1. **Ablation ladder:** remove candidate relations/fields one at a time and localise first reproducible loss.
+2. **Restoration:** restore only the removed relation without target leakage and test recovery.
+3. **Cold-start receiver:** compare fresh and warm reconstruction.
+4. **Counter-route:** reach the same destination through a materially different lawful route where possible.
+5. **Payload substitution:** vary payload while holding $\alpha,\kappa$ fixed.
+6. **Carrier substitution:** change representation while preserving the declared typed relation.
+7. **One-field corruption:** corrupt version, boundary, destination, or invariant fields and require typed rejection/rebase.
+8. **Time/state separation:** reuse after context turnover or declared delay.
+9. **Return-chain:** use separately typed return maps with a cold source-side evaluator.
+10. **Blinded comparator:** blind scoring to full-history versus compressed-packet condition where feasible.
 
-Starting from a verified successful discovery history, progressively remove candidate relations, context fields, and provenance fields. Identify the smallest removal that produces reproducible destination loss.
+## 15. Strongest fair nulls
 
-### 15.2 Restoration test
+The module must reduce, merge, or fail where a simpler serious comparator closes the same burden:
 
-Restore only the removed candidate relation. Recovery should track the restoration rather than extra information or evaluator privilege.
-
-### 15.3 Cold-start receiver
-
-Give the jacket to a fresh receiver without hidden discovery history and compare with a warm receiver.
-
-### 15.4 Counter-route test
-
-Reach the same declared destination through a materially different lawful route where possible and test whether the promoted invariant survives.
-
-### 15.5 Payload substitution
-
-Hold $\alpha$ and $\kappa$ fixed while changing payloads within the declared family.
-
-### 15.6 Carrier substitution
-
-Re-express the same typed relation through a different carrier or representation and test whether function follows relation rather than surface form.
-
-### 15.7 One-field corruption
-
-Corrupt one version, boundary, destination, or invariant field at a time. Require typed failure or rebase rather than confident sibling reconstruction.
-
-### 15.8 Time/state separation
-
-Reuse the packet after context turnover or a declared delay to test whether it is self-contained rather than parasitic on transient working memory.
-
-### 15.9 Return-chain test
-
-Use separately typed return maps and a cold source-side evaluator. Require mission-equivalent reconstruction, not exact surface wording.
-
-### 15.10 Blinded comparator
-
-Where scoring permits, blind the evaluator to whether reconstruction used the full history or the compressed packet.
-
-## 16. Strongest fair nulls
-
-The module should be reduced, merged, or killed where a simpler serious comparator closes the same burden.
-
-Principal null families are:
-
-1. **ordinary summarisation** — a conventional concise summary performs equally well without typed address, deformation, return, or fallback machinery;
-2. **minimal sufficient representation** — the proposed invariant is simply a task-specific sufficient representation and the additional chain architecture adds no diagnostic value;
-3. **information bottleneck** — performance is explained by ordinary retention of task-relevant information while irrelevant information is discarded;
-4. **routing/cache/path compression** — the chain address is only an ordinary cached route and the invariant jacket adds no protection;
-5. **hidden history** — apparent success depends on latent context held by the originating receiver;
-6. **answer smuggling** — the packet contains target-specific content or privileged labels rather than a reusable relation;
-7. **destination overfit** — only the originating payload, receiver, or exact route succeeds;
-8. **evaluator accommodation** — a cooperative evaluator reconstructs ambiguous shorthand in the candidate's favour;
-9. **resource asymmetry** — the compressed condition receives more compute, context, retrieval, or evaluator privilege;
-10. **stale-state explanation** — apparent route failure is actually untracked environment/version change;
-11. **local-owner sufficiency** — an ordinary README, schema, handoff, manifest, protocol, state representation, or typed interface already provides the same continuity at lower complexity;
+1. **ordinary summarisation**;
+2. **minimal sufficient representation**;
+3. **information bottleneck**;
+4. **routing/cache/path compression**;
+5. **hidden history**;
+6. **answer smuggling**;
+7. **destination overfit**;
+8. **evaluator accommodation**;
+9. **resource asymmetry**;
+10. **stale-state explanation**;
+11. **local-owner sufficiency** — README, schema, handoff, manifest, protocol, state representation, or typed interface already closes the burden;
 12. **self-consistency** — one model agreeing with its own compression is mistaken for independent validation.
 
-The relevant strongest fair null is not that compression exists elsewhere. It is whether the full 25D composition adds measurable continuity, drift detection, reconstruction, or recovery value beyond the strongest simpler method under matched conditions.
+The relevant strongest fair null is not “compression already exists.” It is whether the full 25D composition adds measurable continuity, drift detection, reconstruction, or recovery value beyond the strongest simpler method under matched conditions.
 
-## 17. Relation to established representation methods
+## 16. Established-method boundary
 
-Minimal sufficient representations, predictive state representations, state abstraction, routing, caching, memoisation, graph/path compression, and typed interface design are established neighbouring ideas.
+Minimal sufficient representations, predictive state representations, state abstraction, routing, caching, memoisation, graph/path compression, and typed interface design are established neighbours.
 
-The Information Bottleneck explicitly studies compressed representations that retain task-relevant information. Predictive State Representations use action-conditional predictions as state. Those families constrain any novelty claim made for chain-address compression.
-
-The candidate residual composition owned here is narrower:
+The residual composition owned here is:
 
 ```text
 performed discovery provenance
@@ -592,67 +460,63 @@ performed discovery provenance
 → fallback to full history
 ```
 
-If an established method reproduces the same protection and recovery at equal or lower complexity, Module 25D should be treated as a local integration pattern rather than a distinct general method.
+If an established method provides the same protection and recovery at equal or lower complexity, 25D reduces to a local integration pattern.
 
-Related calibration references:
+Calibration references:
 
 - N. Tishby, F. C. Pereira, and W. Bialek, [“The Information Bottleneck Method”](https://arxiv.org/abs/physics/0004057), 2000.
-- M. L. Littman, R. S. Sutton, and S. Singh, [“Predictive Representations of State”](https://proceedings.neurips.cc/paper/2001/hash/1e4d36177d71bbb3558e43af9577d70e-Abstract.html), *Advances in Neural Information Processing Systems 14*, 2001.
-- K. Kawaguchi, Z. Deng, X. Ji, and J. Huang, [“How Does Information Bottleneck Help Deep Learning?”](https://proceedings.mlr.press/v202/kawaguchi23a.html), *Proceedings of Machine Learning Research* 202:16049–16096, 2023.
+- M. L. Littman, R. S. Sutton, and S. Singh, [“Predictive Representations of State”](https://proceedings.neurips.cc/paper/2001/hash/1e4d36177d71bbb3558e43af9577d70e-Abstract.html), *NeurIPS 14*, 2001.
+- K. Kawaguchi, Z. Deng, X. Ji, and J. Huang, [“How Does Information Bottleneck Help Deep Learning?”](https://proceedings.mlr.press/v202/kawaguchi23a.html), *PMLR* 202:16049–16096, 2023.
 
-These references establish neighbouring representation/compression families; they do not validate the present composition.
+These establish neighbouring method families; they do not validate 25D.
 
-## 18. Boundary with Modules 33S2 and 33S4
+## 17. Boundary with 33S2 and 33S4
 
-Module 25D's **chain address** is an operational transport/reconstruction object. It answers what compact tested package can preserve a declared mission and reconstruct a verified destination across a specified route family.
+25D's **chain address** is an operational transport/reconstruction object: what compact tested package preserves a mission and reconstructs a verified destination across a specified route family.
 
-Module 33S4's **operational address** is a state-description object used to test target-relative predictive or interventional sufficiency. It asks whether states assigned the same address retain materially equivalent target futures.
+33S4's **operational Address** is a state-description object used to test target-relative predictive/interventional sufficiency. It asks whether states assigned the same Address retain materially equivalent target futures.
 
-These objects may inform one another, but they are not interchangeable.
+Likewise:
 
-Likewise, the return test in Module 25D and **bidirectional readdressing** in Module 33S2 are different operations:
+- 25D's return test uses separately typed return maps to test reconstruction continuity;
+- 33S2's bidirectional readdressing permits evidence-driven movement among lower, higher/effective, and coupled multiscale addresses when property-specific law sufficiency changes.
 
-- 25D uses separately typed return maps to test transport/reconstruction continuity;
-- 33S2 permits evidence-driven movement between lower, higher/effective, and coupled multiscale addresses when property-specific law sufficiency changes.
+A successful 25D packet does not establish higher-level physical-law autonomy. A successful 33S4 Address does not establish that its discovery history is compressible into a 25D jacket.
 
-A successful 25D packet does not establish higher-level physical-law autonomy. A successful 33S4 predictive address does not by itself establish that the discovery route can be compressed into a reusable transport jacket.
+## 18. Failure, reduction, and reopening
 
-## 19. Failure, reduction, and reopening conditions
+Weaken, reduce, or reject the tested 25D claim when:
 
-The 25D claim is weakened, reduced, or rejected at the tested address when:
-
-- verified arrival cannot be separated from the compressor's own target definition;
-- no compact packet survives cold-start reconstruction;
-- ablation identifies no selective load-bearing relation;
-- restoration does not recover the predicted function;
-- the supposed invariant changes materially with each payload while reusable transport is claimed;
-- route changes alter the required packet as much as ordinary same-route variation;
-- return success depends on hidden history;
-- boundary or version corruption is not detected;
-- a simpler summary, local handoff, state representation, or established compression method performs equally well at equal or lower cost;
+- arrival cannot be separated from the compressor's target definition;
+- no compact packet survives cold reconstruction;
+- ablation finds no selective load-bearing relation;
+- lawful restoration fails;
+- the supposed invariant changes with each payload while reuse is claimed;
+- route effects are indistinguishable from same-route variation;
+- return success requires hidden history;
+- version/boundary corruption is not detected;
+- a simpler summary, local handoff, state representation, or established method performs equally well at equal/lower cost;
 - complexity grows faster than reconstruction burden falls;
-- the jacket becomes a ritual wrapper rather than a discriminator;
-- internal convergence is used to inflate external evidence authority.
+- the jacket becomes ritual rather than discrimination;
+- internal agreement is inflated into external evidence.
 
-Reopening is warranted when a frozen failed packet gains an independently testable repair, a changed destination/environment requires a new versioned address, or a previously controlling simpler null is defeated prospectively.
+Reopen only with an independently testable repair, changed version/environment requiring a new address, or prospective defeat of the previously controlling simpler null.
 
-Failure of a particular $(\alpha,\kappa)$ narrows that chain-address claim. It does not falsify the general existence of useful task-specific compressed representations.
+## 19. Frozen/live/private custody
 
-## 20. Public/private and frozen/live custody
+Keep distinct:
 
-Keep these objects distinct:
-
-- ATLD v1.0 frozen predecessor publication;
-- ATLD 2 v2.0 frozen DOI publication;
-- Module 25B live measurement fold;
-- Module 25C live residual-instrument/disclosure-boundary extension;
-- Module 25D live chain-address continuity/transport module;
-- any convenience Drive carrier or development paper;
-- private implementation-specific discovery machinery not required to reproduce the public test;
+- frozen ATLD v1.0;
+- frozen ATLD 2 v2.0;
+- live Module 25B;
+- live Module 25C;
+- live Module 25D;
+- convenience Drive carriers/development papers;
+- private implementation-specific discovery machinery not required for public replication;
 - future benchmark, replication, or standalone publication objects.
 
-Module 25D makes the public scientific burden explicit. It does not require disclosure of private implementation details that are unnecessary to execute, falsify, or replicate the declared tests. If a withheld detail proves necessary to reproduce the claimed effect, that detail must enter the public test surface or the public claim must be narrowed.
+If a withheld implementation detail proves necessary to reproduce the claimed effect, it must enter the public test surface or the public claim must narrow.
 
-## 21. Compact canonical rule
+## 20. Compact canonical rule
 
-> **Discover long; compress only after verified arrival. Preserve the performed handshake chain while the destination is not yet known to be reached. Once the destination is independently verified, treat the successful history as evidence about what carried load. Separate chain address, load-bearing invariant, payload, boundary, provenance, and history. Minimise only under destination fidelity, no-smuggling, cold-start reconstruction, deformation/restoration, and matched-resource controls. Test return with separately typed maps rather than assumed inverses. Version the packet and make stale-address failure explicit. Reuse the compact jacket only while receiver-side readback remains valid. When it fails, fall back to the full history or owning instructions rather than silently patching meaning. If a simpler established method closes the same burden at equal or lower complexity, reduce the chain-address claim accordingly.**
+> **Discover long; compress only after verified arrival. Preserve the performed chain while the destination is unresolved. After independent arrival verification, use the successful history to identify what carried load. Separate address, invariant, payload, boundary, provenance, and history. Minimise only under destination fidelity, no-smuggling, cold-start reconstruction, deformation/restoration, and matched-resource controls. Test return with separately typed maps rather than assumed inverses. Version the packet and make stale-address failure explicit. Reuse the compact jacket only while receiver-side readback remains valid; otherwise fall back to full history or the owning instructions. If a simpler established method closes the same burden at equal or lower complexity, reduce the 25D claim accordingly.**
