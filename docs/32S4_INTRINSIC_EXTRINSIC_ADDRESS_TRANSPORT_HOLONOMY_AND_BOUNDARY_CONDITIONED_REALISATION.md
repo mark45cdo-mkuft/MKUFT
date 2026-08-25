@@ -503,7 +503,7 @@ Historical priority for this exact conjunction is not asserted without broader r
 - Berry, M. V. (1984). *Quantal phase factors accompanying adiabatic changes*. Proceedings of the Royal Society A 392, 45–57. DOI `10.1098/rspa.1984.0023`.
 - Jaffe, R. L. (2005). *Casimir effect and the quantum vacuum*. Physical Review D 72, 021301(R). DOI `10.1103/PhysRevD.72.021301`.
 - Chan, H. B. et al. (2008). *Measurement of the Casimir Force between a Gold Sphere and a Silicon Surface with Nanoscale Trench Arrays*. Physical Review Letters 101, 030401. DOI `10.1103/PhysRevLett.101.030401`.
-- Bao, Y. et al. (2010). *Casimir Force on a Surface with Shallow Nanoscale Corrugations: Geometry and Finite Conductivity Effects*. Physical Review Letters 105, 250402. DOI `10.1103/PhysRevLett.105,250402`.
+- Bao, Y. et al. (2010). *Casimir Force on a Surface with Shallow Nanoscale Corrugations: Geometry and Finite Conductivity Effects*. Physical Review Letters 105, 250402. DOI `10.1103/PhysRevLett.105.250402`.
 - Wilson, C. M. et al. (2011). *Observation of the dynamical Casimir effect in a superconducting circuit*. Nature 479, 376–379. DOI `10.1038/nature10561`.
 - Huang, L., Chen, X., Mühlenbernd, H. et al. (2013). *Three-dimensional optical holography using a plasmonic metasurface*. Nature Communications 4, 2808. DOI `10.1038/ncomms3808`.
 - Frey, M., Funo, K., and Hotta, M. (2014). *Strong local passivity in finite quantum systems*. Physical Review E 90, 012127. DOI `10.1103/PhysRevE.90.012127`.
