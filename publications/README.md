@@ -41,6 +41,21 @@ Predecessor DOI: `10.5281/zenodo.21341521`
 
 The exact 22-page Zenodo PDF remains the controlling frozen visual object for ATLD 2 v2.0. The repository records its exact page count, size, MD5 and SHA-256 and routes the public paper and live Module 25B fold without claiming that a differently sourced file is the same binary carrier. Later Module 25B changes, later benchmark runs, or later ATLD versions do not silently rewrite the v2.0 deposit.
 
+### Chain-Address Invariants for Long-Horizon AI Systems v1.0 — ATLD 2 companion
+
+- [Human-readable paper route](../papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md)
+- [Standalone publication record](../CHAIN_ADDRESS_STANDALONE_PUBLICATION.md)
+- [ATLD publication-family record](../ATLD_STANDALONE_PUBLICATION.md)
+- [Canonical live MKUFT fold — Module 25D](../docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22102379)
+
+Version DOI: `10.5281/zenodo.22102379`  
+Parent ATLD 2 DOI: `10.5281/zenodo.22068803`  
+ATLD concept DOI: `10.5281/zenodo.21341520`  
+Predecessor ATLD v1.0 DOI: `10.5281/zenodo.21341521`
+
+The DOI-bearing Zenodo PDF is the controlling frozen publication carrier for Chain-Address Invariants v1.0. The GitHub paper route and live Module 25D remain related but distinct research objects and do not silently rewrite that deposit. The companion develops a continuity/transport burden exposed by ATLD 2; it is not ATLD 2 v2.1 and does not add a thirteenth ATLD coordinate. Exact carrier fingerprints are recorded only from the independently observed deposited object, not inferred from a Drive export or a same-title local PDF.
+
 ### Future-Splitting State Recruitment v1.0
 
 - [Frozen DOI PDF mirror](FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf)
@@ -128,12 +143,14 @@ A frozen publication mirror or identity record is not a live module. A live modu
 
 For ATLD 2, the `docs/25B...` object is the evolving MKUFT measurement fold, the `papers/2026-08-23...` object is the public reader/source route, the root ATLD publication-family record owns DOI/version/citation relationships, the repository identity record owns the recorded checksum/page-count witness, and the Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
 
+For Chain-Address Invariants v1.0, the `docs/25D...` object is the evolving live continuity/transport fold, the `papers/2026-08-25...` object is the public reader/source route, `CHAIN_ADDRESS_STANDALONE_PUBLICATION.md` owns the standalone DOI boundary, `ATLD_STANDALONE_PUBLICATION.md` owns the parent/companion family relationship, and the Zenodo PDF is the frozen standalone publication carrier. The ATLD 2 parent, the companion publication, and Module 25D remain explicitly distinct objects.
+
 For Voynich v2.0, Modules 07/09/10 remain the live support/method owners, the `papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md` object is the current reader/source route, `VOYNICH_STANDALONE_PUBLICATION.md` owns version/concept/predecessor custody and carrier identity, and the Zenodo PDF is the frozen publication object. The old DOI/version remains historical provenance.
 
 For FSSR, the `docs/33S7...` object is the evolving MKUFT module fold, the `papers/2026-08-22...` object is the public reader/source route, the root publication record owns DOI/version/citation custody, and the professionally typeset Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
 
 For AAF, the `docs/33S6...` object is the evolving MKUFT module fold, the `papers/2026-08-20...` object is the public reader/source route, the root publication record owns DOI/version/citation custody, and the professionally typeset Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
 
-The eight existing top-level PDF files are repository mirrors only, covering seven DOI-bearing publication records because historical MKUFT v1 contributes two deposited PDFs. ATLD 2 v2.0 and Voynich v2.0 are additionally represented by explicit frozen identity/checksum records and current public routes where no byte-identical GitHub binary mirror has been independently established. No paper body, equation, DOI identity, licence boundary, or live-module ownership is altered by either preservation route.
+The existing top-level PDF files are repository mirrors only. ATLD 2 v2.0 and Voynich v2.0 are additionally represented by explicit frozen identity/checksum records and current public routes where no byte-identical GitHub binary mirror has been independently established. No paper body, equation, DOI identity, licence boundary, or live-module ownership is altered by either preservation route.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier, discovery, and DOI-freeze rules.
