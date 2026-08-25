@@ -115,6 +115,23 @@ $H_{\mathrm{syn}}^{*}$ asks whether the focal reciprocal system beats the strong
 
 This refines the provisional additive-baseline language in [Module 24A](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md).
 
+### 3A. Fair-null admissibility and stopping
+
+`Strongest` does not mean an unlimited search over every logically imaginable comparator. A candidate strengthens the fair-null family only when it is a serious admissible competitor to the claim actually being tested.
+
+For this module, a comparator should be sufficiently specified to satisfy the applicable parts of the following:
+
+- it can be run or estimated under the declared task, metric, information and resource envelope, or an explicitly justified matched extension;
+- it preserves the observations and resources it claims to explain rather than winning by withholding or ignoring them;
+- if it matched the focal condition, it would materially reduce or remove the claimed superadditive, path-dependent, or relationship-specific excess;
+- its success and failure have operational meaning rather than being protected by an unconstrained post hoc story that can absorb any result.
+
+A merely conceivable condition with no lawful implementation, no commensurable outcome, or no capacity to change the declared inference is not made a stronger null by being imaginable.
+
+Once the preregistered serious comparator family has been run fairly and the focal result is stable against its strongest member under the declared uncertainty/tolerance, the null comparison closes at that address. Closure does not imply that no stronger competitor can ever be developed. A later serious comparator that becomes operationally admissible reopens the relevant claim and is tested on its merits.
+
+> **Make the null as strong as the serious comparison permits, not as infinite as imagination permits. Preserve the route by which a genuinely stronger comparator would reopen the result.**
+
 ## 4. The $2+2\rightarrow6$ illustration
 
 The familiar illustration is valid only if the values are obtained fairly. For example,
