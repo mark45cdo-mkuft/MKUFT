@@ -323,7 +323,7 @@ This paper does not claim that TVT explains all cancer, identifies a treatment, 
 
 ## 12. Engineered control and AI reasoning
 
-Control-barrier functions formalise safety through forward invariance of a specified safe set [1,2]. This strongly supports the **hard-before-soft** part of TVT: nominal actions are filtered through an admissible safety region before execution.
+Control-barrier functions formalise safety through forward invariance of a specified safe set [1,2]. They provide an established engineered-control comparator for hard-before-soft admissibility filtering: nominal actions are filtered through a declared safety region before execution.
 
 TVT asks additional questions that the barrier machinery does not answer by itself: which safe set is legitimate at the current address, which evidence may define it, how nested viable regions inherit authority, and how equally sufficient safe routes should be ordered by irreversible loss.
 
