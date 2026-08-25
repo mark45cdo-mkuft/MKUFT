@@ -493,7 +493,7 @@ where $\Phi$ is dimensionless and independently justified. $\Phi=0$ gives pure s
 
 ## 12. Quantum specialisation
 
-Quantum mechanics gives an exact precedent for domain-before-dynamics: boundary conditions can select self-adjoint extensions and therefore physically admissible unitary evolution.
+Quantum mechanics provides a standard mathematical example of domain-before-dynamics: boundary/domain conditions can select a self-adjoint Hamiltonian realisation, and a self-adjoint Hamiltonian generates the corresponding unitary evolution.
 
 For
 
