@@ -117,6 +117,62 @@ A result is ready for a standalone paper when the paper has one coherent object 
 
 Do not publish merely because enough notes exist. Do not withhold a coherent object merely because the parent framework is larger.
 
+## 9A. Scale and development-context custody
+
+A bounded scientific object must not be made artificially larger for appearance, but its scientific scale and lineage must remain recoverable from the object itself.
+
+Where a paper or module is one part of a larger MKUFT research programme, preserve only the context needed to locate the present object correctly:
+
+- the exact local claim or function;
+- its parent architecture and lineage;
+- the adjacent or later owners of formalisation, scaling, controls, falsifiers, extensions, or empirical burdens that are genuinely outside the present scope;
+- the open burden that remains at the present address.
+
+This is not a licence for padding. Do not add equations, sections, repetition, cautionary prose, or generic background merely to make a document look substantial. If load-bearing scientific content is absent, add or repair the missing content or narrow the stated object. A sparse but complete object may remain sparse.
+
+Do not back-project later maturity into an earlier historical object. Later controls, formalisation, or scaling may be linked through honest lineage or concise development context; they must not be written as though they were already present in the earlier state.
+
+The internal surface test is:
+
+```text
+exact local object
++ recoverable programme position
++ recoverable scientific burden
++ honest historical lineage
+− decorative bulk
+− hidden dependence on repository archaeology
+```
+
+## 9B. Silent authoring hygiene
+
+Conversation, drafting direction, and editorial correction are control inputs to the writing process. They are not manuscript source text.
+
+Use:
+
+```text
+editorial instruction
+→ adjust claim / tone / scope / evidence handling internally
+→ ordinary sober scientific prose
+```
+
+Do not use:
+
+```text
+editorial instruction
+→ paraphrase the concern into the manuscript
+→ visible compliance sentence
+```
+
+A spoken instruction such as `do not say we proved it`, `keep this humble`, `do not oversell novelty`, or `make the limitation clear` normally constrains the resulting wording. It does not by itself authorise or require prose such as `this does not constitute proof`, `we have not proved`, `we make no claim`, `it is important to note`, or any other sentence whose main function is to show that the instruction was heard.
+
+The scientific object decides whether an explicit limitation sentence is needed. Existing claim, evidence, null, scope, falsifier, provenance, and publication SOPs carry the hygiene silently wherever they can. State a limitation explicitly only when the limitation itself is load-bearing scientific information at that point in the object.
+
+Do not write to an imagined audience in order to pre-empt concern, reassure scepticism, display humility, or tick a review checklist. Address valid concerns by correcting the object, its evidence status, its structure, its scope, its lineage, or its wording.
+
+Where OCQS is recruited as an operating discipline for authoring, use it to reduce self-conscious commentary and preserve clean contact with the exact object: low unnecessary self-monitoring, no conversational residue, no performative caveat, no rhetorical appeasement, and no loss of scientifically necessary uncertainty.
+
+> **The prose should show the discipline by being correct, not by narrating the discipline.**
+
 ## 10. Frozen/public/live separation
 
 Maintain separate identities for:
@@ -299,4 +355,4 @@ When ordinary prose uses “certain”, bind it to the exact operational scope t
 
 ## Standing invariant
 
-> **Smallest sufficient object → hostile subtraction → independent test → typed repair/deformation → residual novelty gate → exact publication identity → calibrated operational closure with an explicit reopening condition.**
+> **Smallest sufficient object → hostile subtraction → independent test → typed repair/deformation → residual novelty gate → scale/lineage custody → silent authoring hygiene → exact publication identity → calibrated operational closure with an explicit reopening condition.**
