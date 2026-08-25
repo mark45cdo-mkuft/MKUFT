@@ -16,7 +16,7 @@
 
 *Bell Constraints as Typed Boundaries: Relation, Access, Completion, and Scale*
 
-The Zenodo v1.0 PDF is the controlling frozen publication object for exact pagination, visual layout, and deposited equations. The GitHub paper route, repository PDF mirror, frozen checksum record, and related live MKUFT modules are discovery, preservation, and live-research objects; none silently revise the deposited paper.
+The Zenodo v1.0 PDF is the controlling frozen publication object for exact pagination, visual layout, and deposited equations. The GitHub paper route, frozen identity/checksum record, and related live MKUFT modules are discovery, verification, and live-research objects; none silently revise the deposited paper. No byte-identical GitHub PDF mirror is asserted in this fold unless the deposited bytes are independently retrieved and verified against the recorded carrier identity.
 
 ## Frozen v1.0 identity
 
@@ -24,10 +24,12 @@ The Zenodo v1.0 PDF is the controlling frozen publication object for exact pagin
 - **Concept DOI:** [10.5281/zenodo.22100925](https://doi.org/10.5281/zenodo.22100925)
 - **Publication date:** 25 August 2026
 - **Version:** 1.0
-- **Pages:** 12
-- **Size:** 251,625 bytes
-- **MD5:** `efa1c01cbb40a621880f5aa5e2cb21d6`
-- **SHA-256:** `bc8f99f71adc4f1cbc36436fb29fe49f2f9682c36b6ca43f3e42a5382756e0fa`
+- **Audited release carrier pages:** 12
+- **Audited release carrier size:** 251,625 bytes
+- **Audited release carrier MD5:** `efa1c01cbb40a621880f5aa5e2cb21d6`
+- **Audited release carrier SHA-256:** `bc8f99f71adc4f1cbc36436fb29fe49f2f9682c36b6ca43f3e42a5382756e0fa`
+
+Zenodo remains publication custody. The recorded hashes identify the audited release carrier used for the publication handoff; a repository mirror is not called byte-identical until receiver-side deposited bytes are independently verified.
 
 Recommended exact-version citation:
 
@@ -78,7 +80,6 @@ This relationship is typed correspondence and methodological support, not retros
 ## Current archive and verification
 
 - [GitHub v1.0 paper route](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md)
-- [Frozen DOI PDF mirror](publications/BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0_DOI_10.5281_zenodo.22100926.pdf)
 - [Frozen identity/checksum record](publications/BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0/)
 - [Papers and Publications index](papers/README.md)
 - [Publication archive boundary](publications/README.md)
