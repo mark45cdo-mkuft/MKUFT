@@ -100,7 +100,9 @@ A physicist is still entitled to ask where quantum theory, gravitation, entangle
 
 Those obligations are real, but they are a **later promotion burden**, not the completion criterion for MKUFT's present architectural contribution.
 
-MKUFT has not derived the Born rule, Bell correlations, quantum field theory, general relativity, or a finished quantum theory of gravity. If the framework is promoted from an addressed research architecture into a claimed fundamental physical theory, it must recover the established quantum and gravitational regimes, preserve Bell compatibility and no-signalling, define every cross-layer coupling used by the physical claim, and produce a discriminating result beyond existing formalisms.
+MKUFT has not independently derived the Born rule, a new Bell inequality, the quantum Bell boundary from a new physical principle, quantum field theory, general relativity, or a finished quantum theory of gravity. Its Bell-facing work is narrower but now substantive: the published preprint [*Bell Constraints as Typed Boundaries: Relation, Access, Completion, and Scale*](https://doi.org/10.5281/zenodo.22100926) develops a typed correspondence and falsification architecture that keeps Bell-local factorisation, operational no-signalling, remote access/write-power, process-level conditional closure, local admissibility-law ownership, parent-level completion, and scale/resource custody at distinct addresses. It does not claim to solve Bell's theorem or to replace the established Bell and quantum-information results that own those boundaries. Under the paper's declared comparator family, the independent Bell-local new-physics delta is null; the typed correspondence and falsification architecture is the non-null contribution.
+
+If the framework is promoted from an addressed research architecture into a claimed fundamental physical theory, it must recover the established quantum and gravitational regimes, remain compatible with Bell constraints and operational no-signalling, define every cross-layer coupling used by the physical claim, and produce a discriminating result beyond existing formalisms.
 
 The Layer Before Law question is prior to that burden:
 
@@ -119,6 +121,7 @@ See the [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) for the curr
 ## Published research objects
 
 - **MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics**, v2 — DOI `10.5281/zenodo.21973064`; concept DOI `10.5281/zenodo.17780565`; historical v1 DOI `10.5281/zenodo.17780566`.
+- **Bell Constraints as Typed Boundaries: Relation, Access, Completion, and Scale**, v1.0 — DOI `10.5281/zenodo.22100926`; typed Bell/CHSH correspondence and falsification paper; established Bell and quantum-information mathematics retain native ownership.
 - **Layer Before Law**, v1.0 — DOI `10.5281/zenodo.21971270`.
 - **Recursive Constraint Closure and Reachable-State Geometry**, v0.1 — DOI `10.5281/zenodo.21971425`.
 - **Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures**, v1.0 — DOI `10.5281/zenodo.21341521`.
