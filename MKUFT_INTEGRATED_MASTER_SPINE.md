@@ -635,6 +635,58 @@ Apparent hysteresis or path dependence must first be tested against bounded stat
 
 Canonical owners: Modules 22A, 32, 32S, 32S1, 32S2, 32S3, 32S4, 33, 33S1, 33S2, and 33S3.
 
+### 9.7 Future-sufficient Address and transition-carried continuation
+
+Modules 33S4–33S7A extend the same addressed-update family from law ownership and recoverability to a direct question about what must remain in state for the declared future to stay well defined.
+
+Let $\Theta$ map retained histories into a candidate effective state. For target $q$, regime $\lambda$, horizon $\Delta$, challenge family $\mathcal U$ and tolerance $\varepsilon_q$, the future-sufficiency burden is
+
+```math
+\boxed{
+R_q(\Theta;\lambda,\Delta,\mathcal U)
+\leq
+\varepsilon_q.
+}
+```
+
+Equivalently, histories treated as the same effective state must not retain materially different target futures under the declared admissible challenge family. A distinction enters the effective Address only when omitting it merges futures that split beyond tolerance.
+
+AAF makes the recursion explicit:
+
+```math
+\boxed{
+A_t
+\rightarrow
+\mathcal F_t^+
+\rightarrow
+\tau_t
+\rightarrow
+A_{t+1}
+\rightarrow
+\mathcal F_{t+1}^+.
+}
+```
+
+A realised transition may therefore change not only the realised state but the Address that governs subsequent admissibility. If a continuation was projected at $A_t$, its unexecuted suffix remains valid only where
+
+```math
+\boxed{
+\gamma_{t,\mathrm{rem}}^{\mathrm{proj}}
+\in
+\mathcal F^+(A_{t+1}).
+}
+```
+
+Otherwise continuation is selected from the future geometry of the readdressed state actually realised. This does not discard target, law, boundary, environment or intervention constraints that remain valid; it prevents an earlier projected sequence from being treated as authority after the state that justified it has changed.
+
+The corresponding state-carriage rule is minimal rather than archival: preserve through transition only the address, relation, boundary, phase, velocity, bounded history or other distinction whose removal would merge states with materially different declared futures. If the transition leaves the target-relevant Address and future geometry unchanged, the rule is null and the projected continuation remains admissible.
+
+FSSR supplies the experimental attack on this claim: choose an admissible future that attempts to split histories currently treated as the same state, confirm any split independently, identify the smallest physically typed repair, and require remove/restore closure before crediting state recruitment. FSAI names the cross-domain future-sufficiency criterion, while LBLP states that address adequacy is tested before a residual is promoted into law revision.
+
+This is an explicit synthesis of the already canonical 32/33 family, not a new standalone law of nature or a new physical mechanism.
+
+Canonical owners: Modules 33S4, 33S5, 33S6, 33S7 and 33S7A; temporal and identity support: Modules 32S1 and 32S2.
+
 ## 10. LUCY
 
 LUCY means **Local Unified Coherence Yield**.
@@ -672,7 +724,7 @@ LUCY-2 = sustained local region, when present
 
 These are conditional downstream morphologies, not automatic consequences of every LUCY crossing.
 
-Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 30. Modules 32S3/32S4/33/33S1/33S2/33S3 now supply increasingly general admissibility, transport, update, interface-promotion, law-descent and recoverability machinery around a candidate crossing; none of them by itself establishes independent I→P dynamics or a physical LUCY mechanism.
+Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 30. Modules 32S3/32S4/33/33S1–33S7A now supply increasingly general admissibility, transport, update, interface-promotion, law-descent, recoverability, future-sufficiency, recursive readdressing and state-recruitment machinery around a candidate crossing; none of them by itself establishes independent I→P dynamics or a physical LUCY mechanism.
 
 ## 11. Observer and procedural support modules
 
@@ -696,7 +748,7 @@ The Voynich branch is an applied procedural hypothesis. It must compete with lin
 
 The foundational proposal asks whether quantum and gravitational effective behaviour may arise from a deeper typed update architecture rather than being fundamental objects at the same descriptive layer.
 
-The live-canon update is no longer only a placeholder arrow. Module 33 supplies the architectural factorisation above; Module 33S1 specifies when a load-bearing interface must be represented explicitly in the recursively readdressed state; Module 33S2 requires a promoted higher address to earn property-specific law sufficiency; and Module 33S3 prevents local performance or temporary degradation from being converted into unsupported whole-level stability, collapse, or recovery claims. The remaining burden is the **physical instantiation** of that architecture:
+The live-canon update is no longer only a placeholder arrow. Module 33 supplies the architectural factorisation above; Module 33S1 specifies when a load-bearing interface must be represented explicitly in the recursively readdressed state; Module 33S2 requires a promoted higher address to earn property-specific law sufficiency; Module 33S3 separates local performance, closure and recoverability; Module 33S4 tests whether the current Address is predictively sufficient for the declared target; Module 33S5 asks when rate, dwell, schedule, phase or bounded history must enter that Address; Module 33S6/AAF binds the Address to its admissible and restorative future and makes recursive readdressing explicit; Module 33S7/FSSR attacks state adequacy prospectively; and Module 33S7A names the FSAI/LBLP criterion and diagnostic precedence. The remaining burden is the **physical instantiation** of that architecture:
 
 - instantiate $\Xi_t$ and $\mathfrak C_P$ for each target regime;
 - define the resulting $\mathcal D_{P,t}$, $\mathcal T_{P,t}$ and $\mathcal W_{P,t}$;
@@ -847,6 +899,19 @@ Conditional recovery:
 Rec_H(x_t;𝒞_R,U,E) = target-relative reachability under declared constraints
 Recovery path need not invert degradation path
 
+Future-sufficient Address:
+R_q(Θ;λ,Δ,𝒰) ≤ ε_q
+A distinction belongs in Address only when omitting it merges materially different declared futures
+
+Transition-carried future:
+A_t → 𝓕_t^+ → τ_t → A_(t+1) → 𝓕_(t+1)^+
+γ_(t,rem)^proj ∈ 𝓕^+(A_(t+1)) for an earlier projected suffix to remain admissible
+Preserve only the distinctions needed to keep materially different futures separate
+
+FSSR / FSAI / LBLP:
+attack same-state equivalence with a lawful future → confirm split independently → recruit the minimum typed repair → remove/restore → readdress
+state/address adequacy before law revision
+
 Enabling-constraint pair, when comparable:
 Δμ_ℓ < 0 while Δν_L > 0
 
@@ -855,13 +920,15 @@ Y_L = χ_L ||∇τ_L||²/(N_L+ε_L)
 Y_L ≥ Y_*
 
 Integrity:
-Define once. Type the address. Build admissibility. Assemble the law object. Promote a relation into explicit state only when it carries prospective recursive load. Earn higher-address law ownership per property. Do not inherit local performance across scale. Treat recovery as conditional reachability. Test the coupling. Recover the baseline. Keep the falsifier.
+Define once. Type the address. Build admissibility. Assemble the law object. Promote a relation into explicit state only when it carries prospective recursive load. Earn higher-address law ownership per property. Do not inherit local performance across scale. Treat recovery as conditional reachability. After a realised transition, readdress before inheriting an earlier continuation. Test the coupling. Recover the baseline. Keep the falsifier.
 ```
 
 ## 17. Final statement
 
 MKUFT should not read as a pile of similarities.
 
-Its current live spine is a recursive research architecture in which **possibility, relation, admissibility, physical law, measurement/registration, history, interface state, scale transition, law descent and conditional recoverability are explicitly separated but composable**.
+Its current live spine is a recursive research architecture in which **possibility, relation, admissibility, physical law, measurement/registration, history, interface state, scale transition, law descent, recoverability, future sufficiency and transition-carried readdressing are explicitly separated but composable**.
 
-The architectural drivetrain remains closed by Module 33. Module 33S1 tightens recursive interface/state representation; Module 33S2 limits higher-address law ownership to the property and regime that actually earn it; Module 33S3 separates local performance from enclosing-scale viability and recovery from inevitable reversal. None reopens the parent capstone. The remaining foundational burden is not to draw another generic arrow: the architectural transition slots already exist. It is to identify and instantiate the physical dynamical ownership of those slots in concrete regimes, determine whether observer-positioned/contextual structure carries independent load anywhere beyond the strongest adequate P-only account, recover the established quantum and gravitational regimes, and establish whether the deeper relational architecture earns independent predictive content.
+The architectural drivetrain remains closed by Module 33. Module 33S1 tightens recursive interface/state representation; Module 33S2 limits higher-address law ownership to the property and regime that actually earn it; Module 33S3 separates local performance from enclosing-scale viability and recovery from inevitable reversal; Modules 33S4–33S7A make state/address sufficiency, timing/history load, admissible future, state recruitment and diagnostic precedence explicit. The transition-carriage rule above is a synthesis of those existing owners: it does not create a new law stack, but it makes explicit that the state produced by a realised transition governs the next admissible continuation and that only future-load-bearing distinctions need be carried forward.
+
+The remaining foundational burden is not to draw another generic arrow: the architectural transition slots already exist. It is to identify and instantiate the physical dynamical ownership of those slots in concrete regimes, determine whether observer-positioned/contextual structure carries independent load anywhere beyond the strongest adequate P-only account, recover the established quantum and gravitational regimes, and establish whether the deeper relational architecture earns independent predictive content.
