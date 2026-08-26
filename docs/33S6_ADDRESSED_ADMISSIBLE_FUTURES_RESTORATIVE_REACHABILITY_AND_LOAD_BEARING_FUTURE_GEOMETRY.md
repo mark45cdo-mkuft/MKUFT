@@ -318,6 +318,47 @@ addressed state/context
 
 Traversal therefore need not occur on one fixed possibility map. The transition itself can alter the Address that determines the next admissible future.
 
+### 9.1 Transition-carried distinction and continuation from the realised Address
+
+Let a candidate projected continuation from the current Address be
+
+```math
+\gamma_t^{\mathrm{proj}}
+\in
+\mathcal F^+(A_t).
+```
+
+After the next realised transition $\tau_t$, the system is readdressed at $A_{t+1}$. The unexecuted suffix of the earlier projection retains standing only if it remains inside the admissible future of the state actually produced:
+
+```math
+\boxed{
+\gamma_{t,\mathrm{rem}}^{\mathrm{proj}}
+\in
+\mathcal F^+(A_{t+1}).
+}
+```
+
+If this condition fails, continuation is selected again from $\mathcal F^+(A_{t+1})$ rather than inherited from the earlier projection merely because it was previously admissible. Governing target, physical constraints, boundary conditions and intervention authority remain part of the new Address where they are still valid; the rule changes the continuation only where the realised transition changes what is admissible.
+
+The corresponding state-carriage burden is already contained in the future-sufficiency criterion. For a candidate carried representation $\Theta$, post-transition histories may be grouped only while the declared target future remains equivalent within tolerance:
+
+```math
+\Theta(h)=\Theta(h')
+\Longrightarrow
+ d\!\left(
+ \mathcal L(q^+\mid h),
+ \mathcal L(q^+\mid h')
+ \right)
+\leq
+\varepsilon_q.
+```
+
+Thus a boundary, relation, phase, velocity, bounded history term or other distinction is retained through transition only when erasing it would merge states with materially different declared futures. Conversely, history that does no target-relative future work need not be carried merely for completeness.
+
+This is an explicit corollary of the existing future-sufficiency and recursive-readdressing construction. It is not a new force, a universal anti-planning rule, or a claim that every transition changes the effective Address. In the null case where the transition leaves the relevant Address and future geometry unchanged, the projected continuation remains admissible and no re-selection is required.
+
+> **Preserve the minimum distinction required to keep materially different futures separate; after transition, continue from the Address actually realised.**
+
 ## 10. Moving frontier and early structural warning
 
 The minimum-sufficient frontier `\mathcal M_q` can move as the system changes.
@@ -420,6 +461,8 @@ future-sufficient typed Address
 → recursive readdressing.
 ```
 
+The transition-carriage statement in Section 9.1 is a direct corollary of that existing composition: a projected continuation remains valid only while it survives readdressing into the state actually realised. It is made explicit for traversal and state-custody clarity, not claimed as an additional standalone scientific discovery.
+
 The composition earns scientific weight only through prospective discrimination, ablation/restoration, strong baselines and failure conditions. Internal architectural coherence is not evidence by itself.
 
 ## 14. Failure and reduction conditions
@@ -478,5 +521,7 @@ It supplies a narrower scientific object:
 > **A relation is load-bearing when its controlled removal deforms the declared future, not when it merely looks central.**
 
 > **Traversal can rewrite the Address that governs the next admissible future.**
+
+> **A projected continuation survives a realised transition only if it remains admissible from the readdressed state; preserve the minimum distinction needed to keep materially different futures separate.**
 
 > **AAF is a future-object specialisation of the existing S-I-P-O addressed-update architecture, not a separate law stack.**
