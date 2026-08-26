@@ -25,6 +25,24 @@ Stable publication objects and DOI-bearing versions remain explicitly identified
 
 The repository remains publicly inspectable while this work develops so that corrections, provenance, and publication boundaries remain visible rather than being obscured by later revisions.
 
+## A note for the human reader
+
+MKUFT is presented as a scientific and structural body of work, but not everything carried by that structure is written out as an explicit lesson in ordinary language.
+
+The framework contains recurring ideas about orientation, boundaries, truthful relation, capture, recovery, uncertainty, responsibility, cohesion, repair, Grace, and the preservation of a way forward after failure. Many of these emerged from lived experience and long-form reasoning before they were given technical names.
+
+Readers do not need specialist training to explore that layer.
+
+One useful approach is to give the MKUFT material to an AI system and ask ordinary human questions of it: about decisions, relationships, recovery, conflict, responsibility, losing orientation, finding a way back, or any other situation in which the framework may offer a useful perspective.
+
+For this use, we recommend a simple constraint: **ask the AI to interpret from the supplied MKUFT material alone, without importing outside theories, doctrines, sources, or invented additions.** This keeps the exercise tied to the object actually being read.
+
+The resulting answers should be understood as interpretations and extrapolations from the framework, not as additional scientific findings, clinical advice, or statements of fact merely because an AI produced them.
+
+The purpose is not to translate the work for a supposedly less capable reader. It is to make another part of the work accessible: the practical and human lessons that may be carried implicitly in its relations, even where they were never separately written down as lessons.
+
+Some of this work came from equations. Some of it came from life. The two are not the same thing, but they sometimes illuminate one another.
+
 ## Central proposal — Layer Before Law
 
 MKUFT asks whether apparently different physical and informational regimes can be studied through a typed architecture of substrate, information, physical expression, and observer-positioned registration:
