@@ -62,7 +62,7 @@ Not every release requires every optional external identifier. The minimum repro
 For an artifact `a \in A_v`, byte identity requires
 
 ```math
-H_v(a)=\left(\operatorname{SHA256}(a),\operatorname{bytes}(a)\right).
+H_v(a)=\left(\mathrm{SHA256}(a),\mathrm{bytes}(a)\right).
 ```
 
 If either component differs, the artifact is not the same frozen byte object even when its title and filename are unchanged.
