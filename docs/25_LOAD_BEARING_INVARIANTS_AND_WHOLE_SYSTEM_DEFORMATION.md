@@ -138,7 +138,9 @@ where the coordinates may represent loss of reconstruction quality, contradictio
 
 The vector is not a validated universal metric. Every coordinate must be defined for the active domain. Scalar aggregation is appropriate only when coordinates are commensurable or normalised and weights are justified in advance.
 
-## 7. Three deformation passes
+When the hypothesised effect of $r$ is maintenance of a state that can persist after $r$ is deformed, the single-time form above is insufficient by itself. Section 7.4 gives the corresponding time-indexed assay.
+
+## 7. Four deformation passes
 
 ### 7.1 Single-relation ablation
 
@@ -154,11 +156,65 @@ Replace the candidate relation with a plausible rival rather than merely deletin
 
 Examples include replacing a causal dependency with correlation, replacing agency-preserving coordination with command-and-control, replacing a canonical definition with a near-synonym, replacing a falsifier link with a supportive explanatory link, or reversing dependency direction.
 
+### 7.4 Temporal maintenance-path deformation
+
+Some relations carry load by producing, correcting, replenishing, calibrating, or otherwise maintaining a downstream state whose current value can persist for a time after the relation is weakened or removed. Stored competence, retained calibration, redundancy, reserves, cached structure, compensatory adaptation, or another persistence mechanism can therefore make an immediate post-deformation measurement look unchanged even when a genuine maintenance path has been interrupted.
+
+The relevant distinction is:
+
+```text
+current downstream state
+≠
+current health of the process that maintains future downstream state
+```
+
+An immediate null is therefore not sufficient to classify a relation as decorative when the preregistered hypothesis concerns maintenance over time. The reciprocal boundary is equally important: degradation of a candidate maintenance path does not retroactively falsify a downstream result that remains independently valid at its own measurement address.
+
+For a beneficial performance coordinate $X$ observed over a preregistered horizon $t\in[0,T]$, define
+
+```math
+\Delta X_r(t)
+=
+X_{\mathrm{baseline}}(t)
+-
+X_{\mathrm{deformed}}(r,t).
+```
+
+For a preregistered material-deformation threshold $\delta_X>0$, a useful timing statistic is
+
+```math
+\tau_r(\delta_X;T)
+=
+\inf\left\{
+t\in[0,T]:\Delta X_r(t)\ge\delta_X
+\right\},
+```
+
+with $\tau_r=+\infty$ within the declared test when the set is empty. Failure to cross the threshold inside the preregistered horizon is reported as **no detected maintenance deformation under that test**. The horizon must not be extended after inspection merely to rescue the candidate relation.
+
+Where the domain permits controlled restoration, a stronger assay is
+
+```text
+baseline
+→ selective deformation of r
+→ preregistered temporal observation
+→ restoration of r
+→ preregistered recovery observation.
+```
+
+Predicted delayed degradation followed by predicted recovery can increase causal specificity. It does not prove uniqueness: the strongest fair comparison must still include plausible redundancy or substitution, generic temporal drift, intervention burden, resource mismatch, measurement effects, and compensatory adaptation. If a matched substitute preserves the function, the result supports a redundant maintenance network or alternative carrier rather than unique load for $r$.
+
+Restoration is not required to reverse the exact degradation trajectory. Some systems are path-dependent, damaged irreversibly, or recover by a different route. Any recovery claim must therefore specify what return is predicted, on what coordinate, within what horizon, and under what constraints before the restoration arm is interpreted.
+
+This pass does **not** create a fifth kind of load. It is a temporal expression of the structural, reality, generative, or whole-system integrity load already defined in Section 5. The notation is an E1 operational scaffold under Module 29 until the variable, intervention, horizon, sampling schedule, threshold, uncertainty model, and analysis rule are prospectively fixed for a defined experiment.
+
+> A downstream state can outlive the relation that helped maintain it. Test the trajectory before calling the relation decorative, and let a preregistered null remain null when the predicted trajectory does not appear.
+
 ## 8. Provisional classification after deformation
 
 ### Genuine load-bearing relation
 
-High structural load, external empirical support where applicable, useful generative load, and no concealed whole-system degradation under the relevant address.
+High structural load, external empirical support where applicable, useful generative load, and no concealed whole-system degradation under the relevant address. Where the declared function is maintenance, the relevant deformation may be immediate or delayed, but its horizon and expected signature must be specified before inspection.
 
 ### Central scaffold or unsupported axiom
 
@@ -166,11 +222,11 @@ High structural load but weak or absent external support. The model depends upon
 
 ### Redundant support network
 
-Low single-relation load but high coalition load. Several routes jointly carry the function.
+Low single-relation load but high coalition load. Several routes jointly carry the function. In temporal maintenance tests, persistence after removal of one relation may also indicate lawful substitution or redundancy rather than decoration or unique dependence.
 
 ### Decorative relation
 
-Removal produces no material change in reconstruction, prediction, calibration, falsifier access, or wider-system integrity.
+Removal produces no material change in reconstruction, prediction, calibration, falsifier access, or wider-system integrity under the applicable matched test. Where maintenance is the declared function, this includes no predicted delayed deformation within the preregistered horizon after fair redundancy and substitution controls.
 
 ### Distorting relation
 
@@ -180,13 +236,15 @@ Removal or replacement improves performance, calibration, truth contact, or whol
 
 The relation improves narrow task performance or local stability while increasing hidden cost, agency loss, deception, fragility, or long-horizon damage elsewhere.
 
-## 9. Safeguard against false improvement
+## 9. Safeguard against false improvement and false short-horizon reassurance
 
 Removing limits can make a system appear better. An AI may answer faster after uncertainty language or falsifiers are removed. An institution may coordinate faster after dissent is suppressed. A theory may become simpler after contradictory evidence is excluded.
 
 The assay therefore cannot score performance by immediate completion alone. Where relevant, evaluation should include accuracy, calibration, contradiction detection, correct uncertainty, correction propagation, falsifier recovery, honest branch failure, agency preservation, transferred cost, delayed fragility, and repair capacity.
 
-A gain achieved by removing the system's corrective structure is not automatically a gain in whole-system function.
+The same caution applies to an immediate null. A downstream capability may remain temporarily strong because stored state, redundancy, reserves, or accumulated competence masks a damaged maintenance path. Where such lag is part of the declared hypothesis, the temporal burden in Section 7.4 must be tested rather than inferred after the fact.
+
+A gain achieved by removing the system's corrective structure is not automatically a gain in whole-system function. Immediate survival after removing a proposed maintenance relation is not automatically evidence that the relation was decorative.
 
 ## 10. S–I–P–O placement
 
@@ -202,7 +260,7 @@ Dependency, address, relation, constraint, routing, permission, and executable s
 
 ### P — Physical
 
-Physical deformation tests require domain-specific equations, units, controls, measurements, and ordinary-physics baselines. Metaphysical language cannot rescue a failed physical prediction.
+Physical deformation tests require domain-specific equations, units, controls, measurements, and ordinary-physics baselines. Metaphysical language cannot rescue a failed physical prediction. A temporal maintenance-path result at another address does not transfer into physical mechanism without a separately typed physical intervention, observable, and model.
 
 ### O — Observer
 
@@ -230,7 +288,7 @@ This module asks the complementary question:
 
 A complete programme therefore tests both architecture-level functional gain and relation-level deformation under controlled ablation.
 
-Useful tasks include removing one canonical dependency and testing multi-entry reconstruction, scrambling a falsifier link and measuring confident error, replacing an agency-preserving relation with a command relation in a simulation, removing apparently redundant routes and testing coalition failure, comparing immediate performance with delayed correction and repair, and applying the same assay to a neutral external corpus.
+Useful tasks include removing one canonical dependency and testing multi-entry reconstruction, scrambling a falsifier link and measuring confident error, replacing an agency-preserving relation with a command relation in a simulation, removing apparently redundant routes and testing coalition failure, selectively interrupting a correction or maintenance relation and measuring immediate versus delayed deformation, restoring the relation where lawful and measuring recovery, and applying the same assay to a neutral external corpus.
 
 Traversal through a knowledge architecture is a state-space operation, not evidence of physical travel through an additional dimension.
 
@@ -239,24 +297,28 @@ Traversal through a knowledge architecture is a state-space operation, not evide
 If the method captures genuine structure:
 
 1. genuine dependencies will produce repeatable, task-specific deformation when removed or plausibly replaced;
-2. decorative links will show little effect under matched conditions;
-3. redundant relations will show weak single-edge effects but stronger coalition effects;
+2. decorative links will show little effect under matched conditions, including across the preregistered horizon when a maintenance effect is claimed;
+3. redundant relations will show weak single-edge effects but stronger coalition effects, or preserved function under a valid matched substitute;
 4. falsifier removal may improve fluency while worsening calibration and correction;
 5. locally coherent extractive systems will show short-horizon gains and wider long-horizon losses;
 6. whole-system evaluation will classify some apparently efficient relations differently from narrow performance evaluation;
-7. the same dependency classes will be identifiable in at least one neutral corpus;
-8. different legitimate entry routes will converge more reliably when genuine load-bearing relations remain intact;
-9. the declared sign convention will classify the same deformation consistently across independent analyses.
+7. some genuine maintenance relations will show weak immediate deformation but reproducible delayed divergence on preregistered coordinates and horizons;
+8. where reversible restoration is a valid part of the domain model, restoring a genuine maintenance relation will produce the preregistered recovery signature more reliably than matched sham or rival restorations;
+9. the same dependency classes will be identifiable in at least one neutral corpus;
+10. different legitimate entry routes will converge more reliably when genuine load-bearing relations remain intact;
+11. the declared sign convention will classify the same deformation consistently across independent analyses.
 
 ## 14. Minimal test programme
 
-A fair pilot uses one MKUFT corpus and at least one neutral technical corpus; fixed model and retrieval conditions; preregistered tasks and scoring; declared coordinate directions; single-relation, coalition, and substitution conditions; blinded evaluation where practical; immediate and delayed outcomes; explicit calibration and falsifier metrics; and whole-system measures only where the domain permits honest operationalisation.
+A fair pilot uses one MKUFT corpus and at least one neutral technical corpus; fixed model and retrieval conditions; preregistered tasks and scoring; declared coordinate directions; single-relation, coalition, substitution, and temporal maintenance-path conditions where applicable; blinded evaluation where practical; immediate and delayed outcomes; explicit calibration and falsifier metrics; and whole-system measures only where the domain permits honest operationalisation.
+
+For a temporal maintenance-path test, preregister the intervention on $r$, observation horizon $T$, sampling schedule, material threshold $\delta_X$, uncertainty treatment, expected lag where one is claimed, strongest fair redundancy/substitution controls, and restoration/recovery signature where restoration is lawful and interpretable. Do not choose the horizon, threshold, or recovery window after viewing the trajectory.
 
 Candidate neutral corpora include an engineering fault-investigation system, a software architecture with known dependencies, a medical guideline set with contraindications and update chains, or a regulatory corpus with definitions, exceptions, and appeal routes.
 
 The narrow pilot question is:
 
-> Can controlled deformation distinguish canonical dependencies from decorative or distorting links under matched resources?
+> Can controlled deformation, including delayed maintenance-path deformation where the declared function requires it, distinguish canonical dependencies from decorative, redundant, substitutable, or distorting links under matched resources?
 
 ## 15. Self-application to MKUFT
 
@@ -286,28 +348,35 @@ This self-application does not turn internal dependence into evidence. It identi
 
 ## 16. Falsifiers and limits
 
-The deformation method is weakened if matched removal of candidate relations produces no reproducible change; coalition effects cannot be distinguished from simple content removal; whole-system language is used where agency, cost, boundary, or time horizon cannot be operationalised; metaphysical principles are used to rescue failed empirical claims; narrow and whole-system scores are merged without declaring the boundary and weighting; or the assay identifies no useful difference among canonical, decorative, redundant, and distorting relations.
+The deformation method is weakened if matched removal of candidate relations produces no reproducible change under the applicable preregistered immediate or temporal test; coalition effects cannot be distinguished from simple content removal; claimed maintenance load appears only after horizons or thresholds are extended post hoc; delayed divergence is equally or better explained by generic temporal drift, intervention burden, resource mismatch, measurement effects, or compensatory adaptation; a matched substitute preserves the claimed function where unique dependence was asserted; a preregistered reversible restoration fails to produce the predicted recovery signature without an independently supported boundary condition; whole-system language is used where agency, cost, boundary, or time horizon cannot be operationalised; metaphysical principles are used to rescue failed empirical claims; narrow and whole-system scores are merged without declaring the boundary and weighting; or the assay identifies no useful difference among canonical, decorative, redundant, substitutable, and distorting relations.
+
+A maintenance-path claim is also weakened when a presently successful downstream state is treated as proof that its upstream maintenance process is healthy, or when failure of a maintenance process is used to retroactively invalidate downstream observations that remain independently supported at their own address.
 
 The method also weakens if it works only on MKUFT and fails on neutral corpora.
 
 Reduction rule:
 
-> If controlled deformation adds no reliable discrimination beyond ordinary ablation, causal analysis, graph centrality, or matched evaluation, the module should be treated as an interpretive audit vocabulary rather than a distinct functional method.
+> If controlled deformation adds no reliable discrimination beyond ordinary ablation, causal analysis, graph centrality, matched evaluation, or standard time-series/intervention analysis for the active domain, the module should be treated as an interpretive audit vocabulary rather than a distinct functional method.
 
 ## 17. Related public documents
 
 - [Cross-Support and Traversal Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 - [Active Traversal and Functional Emergence](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
 - [Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
+- [ATLD 2 Residual Coordinate Measurement and Self-Audit](25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
+- [Residual Instrument Generation and Protected Discovery Boundary](25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)
 - [GRACE Traversal Rule](20_GRACE_TRAVERSAL_RULE.md)
 - [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
 - [Agency Accessibility and Capture Geometry](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)
 - [Individual Reality Cost and Cohesion](12_INDIVIDUAL_REALITY_COST_AND_COHESION.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+- [Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)
 - [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
 
 ## 18. Compressed rule
 
 > A true primary is not merely difficult to remove. It repeatedly corresponds to reality, generates further lawful structure, survives legitimate changes of address, and supports coherence without gaining stability through deception, capture, or destruction of the wider whole.
+
+> Where a relation is claimed to maintain rather than instantaneously produce a state, test the preregistered deformation trajectory, strongest fair substitutes, and restoration signature before classifying the relation. Immediate persistence is not proof of maintenance health; delayed failure is not permission to move the horizon after the result.
 
 > Love preserves relation. Boundary preserves distinction. Truth preserves reality. Coherence preserves integrity. Grace preserves the lawful possibility of return.
