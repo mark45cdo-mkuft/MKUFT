@@ -16,11 +16,11 @@ For the substantive public introduction, read [Start Here — Public Overview](S
 
 Readers are invited to test whether MKUFT or ATLD produces useful domain-specific questions, distinctions, controls, falsifiers, or experimental directions when translated into their own field, problem, or system. This is not restricted to AI use: the work may be applied by a person, research group, software or engineering system, AI-assisted workflow, or another suitable process.
 
-A bounded anonymous public transfer-report project is available here: [MKUFT / ATLD Open Transfer Reports](https://github.com/mark45cdo-mkuft/ATLD-HTML-form). It is intended for readers who want to report what they tried, what the architecture gave them, and what happened when they checked the result against their own domain. Useful, negative, redundant, and unresolved outcomes are all relevant. A submitted report is not treated as validation, consensus, or scientific evidence for MKUFT or ATLD merely because it was received.
+A bounded anonymous public transfer-report form is being prepared for readers who want to report what they tried, what the architecture gave them, and what happened when they checked the result against their own domain. Useful, negative, redundant, and unresolved outcomes are all relevant. A submitted report is not treated as validation, consensus, or scientific evidence for MKUFT or ATLD merely because it was received.
 
 The intake is deliberately one-way. It does not ask for a name, email address, account, or institution; submitted prose is held as quarantined text and is not automatically interpreted by an AI, published, or written back into this repository.
 
-The source and deployment status are public at the link above. The actual submission endpoint will be identified there and linked directly from this page only after the separate intake service has been deployed and live-verified.
+The public submission link will be placed here only after the separate intake website has been deployed and live-verified. Readers using the form will not need GitHub access or repository permissions.
 
 ## Main routes
 
