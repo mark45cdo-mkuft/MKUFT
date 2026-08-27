@@ -20,6 +20,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Papers and Publications](papers/README.md) — direct human-reader index for standalone papers and publications.
 - [Research-module PDF reading editions](publications/module-reading-editions/README.md) — visually audited PDF carriers for the coherent public module stack; not separate DOI publications.
 - [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md) — standing carrier, DOI-freeze, and object-custody rules.
+- [Research Object Identity, Release Integrity, and Reproducibility — Module 34](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md) — exact release identity, artifact verification, citation consistency, and archival reconstruction.
 
 ## Current DOI-bearing publication objects
 
@@ -61,6 +62,13 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module 33S7 — Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
 - [Module 33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md) — canonical naming note for FSAI/LBLP; scientific content remains owned by the parent AAF/FSSR chain.
 - [Module 33A — Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
+
+## Research-object and publication integrity
+
+- [Module 34 — Research Object Identity, Release Integrity, and Reproducibility](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
+- [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md)
+- [Research Derivation and Closure SOP](RESEARCH_DERIVATION_AND_CLOSURE_SOP.md)
+- [Release manifest contract](release-manifests/README.md)
 
 ## Experiments, evidence, and falsification
 
@@ -121,6 +129,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md)
 - [Citation metadata](CITATION.cff)
 - [JSON-LD discovery metadata (legacy `codemeta.json` filename)](codemeta.json)
+- [Release manifests](release-manifests/README.md)
 - [Discovery keywords](DISCOVERY_KEYWORDS.md)
 - [Public discovery anchor](PUBLIC_DISCOVERY_ANCHOR.md)
 
