@@ -101,6 +101,7 @@ Unless an exact file version expressly states a different licence, the current G
 | [33S7 — Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) | **All rights reserved** for the current live module unless an exact later version states otherwise; the frozen FSSR v1.0 publication has its own exact rights identity |
 | [33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md) | **All rights reserved** for the current live naming/provenance module unless an exact later version states otherwise; no frozen publication is altered by this naming note |
 | [33A — Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) | **All rights reserved** unless an exact version states otherwise |
+| [34 — Research Object Identity, Release Integrity, and Reproducibility](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md) | **All rights reserved** unless an exact version states otherwise |
 
 The current GitHub source, companion, and successor-fold modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by the ATLD publication-family manuscripts' CC BY-NC-SA 4.0 licence merely because the manuscripts were developed from or folded into related material.
 
