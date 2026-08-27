@@ -36,6 +36,7 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 21. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
 22. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 23. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+24. [Research Object Identity, Release Integrity, and Reproducibility](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
 
 ### Physics and quantum gravity
 
@@ -131,6 +132,13 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence:** gives stable canonical names to the already-public future-sufficiency criterion and its diagnostic precedence consequence; it adds nomenclature/provenance, not a new mechanism, theorem, universal law claim, or empirical promotion.
 - **33A — Law Descent and Recoverability Novelty Audit:** hostile targeted prior-art audit for 33S2/33S3. It records inherited ingredients, residual synthesis, confidence bounds, and the prospective burden required for stronger novelty or law claims. It is a positioning/audit document, not an empirical promotion.
 
+### Research, publication, and object integrity
+
+- **34 — Research Object Identity, Release Integrity, and Reproducibility:** types live source, commits, release tags, declared artifacts, manifests, citation metadata, reader-facing carriers, and external archives; requires exact artifact hashes/byte counts for declared releases; and makes release identity a reproducible object without changing scientific claim status.
+- **Rendering and Publication Integrity:** governs reader-facing carrier correctness, DOI freeze, receiver-side inspection, and byte-level publication custody.
+- **Research Derivation and Closure SOP:** governs derivation, promotion, publication threshold, interruption recovery, and post-write recursive closure.
+- **Release manifests:** machine-readable release identity records governed by Module 34.
+
 ### Structural and traversal
 
 - **20 — GRACE:** Geometry, Relation, Admissibility, Coherence, Emergence as a route check.
@@ -199,6 +207,8 @@ This prevents explanatory copies from developing competing equations, notation, 
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 - [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
+- [Research Object Identity, Release Integrity, and Reproducibility — Module 34](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
+- [Release manifests](release-manifests/README.md)
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 - [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md)
 - [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md)
