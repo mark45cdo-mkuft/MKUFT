@@ -35,6 +35,7 @@ The public submission link will be placed here only after the separate intake we
 - [Repository front page](README.md)
 - [Public overview](START_HERE_PUBLIC_OVERVIEW.md)
 - [Canon map](CANON_MAP.md)
+- [Research Object Identity, Release Integrity, and Reproducibility — Module 34](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
 - [Layer Before Law — quantum-gravity reframing](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 - [ATLD publication family](ATLD_STANDALONE_PUBLICATION.md)
 - [ATLD 2 canonical measurement fold — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
