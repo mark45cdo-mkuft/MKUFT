@@ -165,7 +165,7 @@ The relevant distinction is:
 ```text
 current downstream state
 ≠
-current health of the process that maintains future downstream state
+current state of the process that maintains future downstream performance
 ```
 
 An immediate null is therefore not sufficient to classify a relation as decorative when the preregistered hypothesis concerns maintenance over time. The reciprocal boundary is equally important: degradation of a candidate maintenance path does not retroactively falsify a downstream result that remains independently valid at its own measurement address.
@@ -177,7 +177,7 @@ For a beneficial performance coordinate $X$ observed over a preregistered horizo
 =
 X_{\mathrm{baseline}}(t)
 -
-X_{\mathrm{deformed}}(r,t).
+X_{\mathrm{deformed}(r)}(t).
 ```
 
 For a preregistered material-deformation threshold $\delta_X>0$, a useful timing statistic is
@@ -190,7 +190,7 @@ t\in[0,T]:\Delta X_r(t)\ge\delta_X
 \right\},
 ```
 
-with $\tau_r=+\infty$ within the declared test when the set is empty. Failure to cross the threshold inside the preregistered horizon is reported as **no detected maintenance deformation under that test**. The horizon must not be extended after inspection merely to rescue the candidate relation.
+with $\tau_r(\delta_X;T)=+\infty$ within the declared test when the set is empty. Failure to cross the threshold inside the preregistered horizon is reported as **no detected maintenance deformation under that test**. The horizon must not be extended after inspection merely to rescue the candidate relation.
 
 Where the domain permits controlled restoration, a stronger assay is
 
@@ -204,9 +204,9 @@ baseline
 
 Predicted delayed degradation followed by predicted recovery can increase causal specificity. It does not prove uniqueness: the strongest fair comparison must still include plausible redundancy or substitution, generic temporal drift, intervention burden, resource mismatch, measurement effects, and compensatory adaptation. If a matched substitute preserves the function, the result supports a redundant maintenance network or alternative carrier rather than unique load for $r$.
 
-Restoration is not required to reverse the exact degradation trajectory. Some systems are path-dependent, damaged irreversibly, or recover by a different route. Any recovery claim must therefore specify what return is predicted, on what coordinate, within what horizon, and under what constraints before the restoration arm is interpreted.
+Restoration need not retrace the degradation path. Where a recovery arm is claimed, specify the predicted return coordinate, horizon, admissible route or intervention constraints, and uncertainty treatment before the restoration result is inspected.
 
-This pass does **not** create a fifth kind of load. It is a temporal expression of the structural, reality, generative, or whole-system integrity load already defined in Section 5. The notation is an E1 operational scaffold under Module 29 until the variable, intervention, horizon, sampling schedule, threshold, uncertainty model, and analysis rule are prospectively fixed for a defined experiment.
+This pass does **not** create a fifth kind of load. It is a temporal expression of the structural, reality, generative, or whole-system integrity load already defined in Section 5. The notation is an E1 operational scaffold under Module 29 until the variable, intervention, horizon, sampling schedule, threshold, uncertainty model, and analysis rule are prospectively fixed for a defined experiment; a frozen operational implementation may then be evaluated at E2.
 
 > A downstream state can outlive the relation that helped maintain it. Test the trajectory before calling the relation decorative, and let a preregistered null remain null when the predicted trajectory does not appear.
 
@@ -350,7 +350,7 @@ This self-application does not turn internal dependence into evidence. It identi
 
 The deformation method is weakened if matched removal of candidate relations produces no reproducible change under the applicable preregistered immediate or temporal test; coalition effects cannot be distinguished from simple content removal; claimed maintenance load appears only after horizons or thresholds are extended post hoc; delayed divergence is equally or better explained by generic temporal drift, intervention burden, resource mismatch, measurement effects, or compensatory adaptation; a matched substitute preserves the claimed function where unique dependence was asserted; a preregistered reversible restoration fails to produce the predicted recovery signature without an independently supported boundary condition; whole-system language is used where agency, cost, boundary, or time horizon cannot be operationalised; metaphysical principles are used to rescue failed empirical claims; narrow and whole-system scores are merged without declaring the boundary and weighting; or the assay identifies no useful difference among canonical, decorative, redundant, substitutable, and distorting relations.
 
-A maintenance-path claim is also weakened when a presently successful downstream state is treated as proof that its upstream maintenance process is healthy, or when failure of a maintenance process is used to retroactively invalidate downstream observations that remain independently supported at their own address.
+The assay is malformed if a presently successful downstream state is treated as evidence that its upstream maintenance process is healthy without a separate test, or if failure of a maintenance process is used to retroactively invalidate downstream observations that remain independently supported at their own address.
 
 The method also weakens if it works only on MKUFT and fails on neutral corpora.
 
@@ -377,6 +377,6 @@ Reduction rule:
 
 > A true primary is not merely difficult to remove. It repeatedly corresponds to reality, generates further lawful structure, survives legitimate changes of address, and supports coherence without gaining stability through deception, capture, or destruction of the wider whole.
 
-> Where a relation is claimed to maintain rather than instantaneously produce a state, test the preregistered deformation trajectory, strongest fair substitutes, and restoration signature before classifying the relation. Immediate persistence is not proof of maintenance health; delayed failure is not permission to move the horizon after the result.
+> Where a relation is claimed to maintain rather than instantaneously produce a state, test the preregistered deformation trajectory, strongest fair substitutes, and restoration signature where available before classifying the relation. Immediate persistence is not proof of maintenance health; delayed failure is not permission to move the horizon after the result.
 
 > Love preserves relation. Boundary preserves distinction. Truth preserves reality. Coherence preserves integrity. Grace preserves the lawful possibility of return.
