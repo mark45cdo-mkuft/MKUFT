@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "release_id": "<stable-release-identifier>",
+  "tag": "<release-tag>",
+  "commit": "<40-character-git-commit-sha>",
+  "citation": {
+    "version": "<declared-version>",
+    "date": "YYYY-MM-DD",
+    "doi": ""
+  },
+  "external_identifiers": [],
+  "artifacts": [
+    {
+      "path": "<repository-relative-artifact-path>",
+      "sha256": "<64-character-sha256>",
+      "bytes": 0
+    }
+  ]
+}
