@@ -12,6 +12,16 @@ This page is a stable short-form entry point for existing links to the MKUFT rep
 
 For the substantive public introduction, read [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md).
 
+## Try the architecture in another domain
+
+Readers are invited to test whether MKUFT or ATLD produces useful domain-specific questions, distinctions, controls, falsifiers, or experimental directions when translated into their own field, problem, or system. This is not restricted to AI use: the work may be applied by a person, research group, software or engineering system, AI-assisted workflow, or another suitable process.
+
+A bounded anonymous public transfer-report form is being prepared for readers who want to report what they tried, what the architecture gave them, and what happened when they checked the result against their own domain. Useful, negative, redundant, and unresolved outcomes are all relevant. A submitted report is not treated as validation, consensus, or scientific evidence for MKUFT or ATLD merely because it was received.
+
+The intake is deliberately one-way. It does not ask for a name, email address, account, or institution; submitted prose is held as quarantined text and is not automatically interpreted by an AI, published, or written back into this repository.
+
+The public submission link will be placed here only after the separate intake service has been deployed and live-verified.
+
 ## Main routes
 
 - [Current principal MKUFT publication — v2](https://doi.org/10.5281/zenodo.21973064)
