@@ -2,8 +2,9 @@
 
 **Status:** standing public-canon integrity rule  
 **Owner:** Mark Charles McLaughlin  
-**Scope:** MKUFT repository papers, modules, publication records, frozen mirrors, and synchronized reading carriers  
-**Companion research SOP:** [`RESEARCH_DERIVATION_AND_CLOSURE_SOP.md`](RESEARCH_DERIVATION_AND_CLOSURE_SOP.md)
+**Scope:** MKUFT repository papers, modules, publication records, frozen mirrors, synchronized reading carriers, and declared research releases  
+**Companion research SOP:** [`RESEARCH_DERIVATION_AND_CLOSURE_SOP.md`](RESEARCH_DERIVATION_AND_CLOSURE_SOP.md)  
+**Research-object identity control:** [`docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md`](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
 
 ## Core rule
 
@@ -33,13 +34,15 @@ Where prose defines or interprets a load-bearing symbol, the nearby English must
 
 Fail the reader-side gate when a reader has to guess what a symbol means or decode raw source with no clear English binding. Do not perform cosmetic rewrites merely because another carrier would look prettier when the definition is already complete and readable.
 
-The standing checker is:
+The standing checkers are:
 
 - [`tools/check_markdown_rendering.py`](tools/check_markdown_rendering.py)
 - [`tools/test_markdown_rendering_checker.py`](tools/test_markdown_rendering_checker.py)
+- [`tools/check_research_object_identity.py`](tools/check_research_object_identity.py)
+- [`tools/test_research_object_identity_checker.py`](tools/test_research_object_identity_checker.py)
 - [`.github/workflows/markdown-rendering-integrity.yml`](.github/workflows/markdown-rendering-integrity.yml)
 
-The workflow is a gate, not a substitute for human or agent visual inspection of important publication routes.
+The workflow is a gate, not a substitute for human or agent visual inspection of important publication routes or for explicit external release verification.
 
 ## Forced recursive closure gate
 
@@ -49,10 +52,11 @@ Before any public Markdown paper/module, DOI route, or publication-facing carrie
 
 1. **specimen gate** — identify the current house-standard reference object before formatting or equation conversion;
 2. **source gate** — run the rendering checker on the current repository state and obtain an actual pass result;
-3. **checker-self-test gate** — the rendering checker must first pass its own known-good/known-bad fixture tests;
+3. **checker-self-test gate** — the relevant checkers must first pass their own known-good/known-bad fixture tests;
 4. **reader-side gate** — open the exact public GitHub Preview or final PDF as a reader and visually inspect representative mathematics, headings, semantic keys, rights/status text, and navigation;
-5. **object-identity gate** — verify that live module, public paper, publication record, frozen DOI object, and Drive carrier have not been collapsed or mislabeled;
-6. **closure-evidence gate** — closure language is prohibited unless the actual pass evidence has been observed. If a gate did not run, cannot be observed, or remains ambiguous, the status is **written/provisioned but not closed**.
+5. **object-identity gate** — verify that live module, public paper, publication record, frozen DOI object, release record, and Drive carrier have not been collapsed or mislabeled;
+6. **release-identity gate where applicable** — for a declared stable or externally frozen release, verify the exact source state, tag, declared artifact set, release manifest, and external carrier relationship required by Module 34;
+7. **closure-evidence gate** — closure language is prohibited unless the actual pass evidence has been observed. If a gate did not run, cannot be observed, or remains ambiguous, the status is **written/provisioned but not closed**.
 
 For major publication work, sample at least:
 
@@ -167,9 +171,29 @@ Do not collapse these object types:
 3. **Publication record** — DOI, citation, version, rights, provenance, and relationship metadata.
 4. **Frozen deposit** — exact DOI-bearing object; once published, its identity is fixed for that version.
 5. **Frozen repository mirror or identity record** — preservation object tied to the deposited object by exact bytes/checksum; do not edit it as though it were a live module.
-6. **Drive reading edition or mirror** — convenience carrier; it does not silently become the paper or canonical source.
+6. **Declared repository release** — exact source commit/tag plus the artifact identity record governed by Module 34.
+7. **Drive reading edition or mirror** — convenience carrier; it does not silently become the paper or canonical source.
 
-A module can support a paper without becoming a paper. A paper can originate from modules without erasing their history. A Drive mirror can be useful without owning the scientific object.
+A module can support a paper without becoming a paper. A paper can originate from modules without erasing their history. A repository release can preserve an exact source/artifact boundary without becoming a scientific publication. A Drive mirror can be useful without owning the scientific object.
+
+## Research-object identity gate
+
+For a declared stable repository release or an externally frozen research object, apply Module 34 in addition to the ordinary rendering/publication gates.
+
+Before release closure:
+
+1. select the exact source commit;
+2. freeze the declared artifact set from that source state;
+3. compute and record SHA-256 and byte counts in a concrete `release-manifests/` record;
+4. verify citation/version/date relationships against the applicable metadata carriers;
+5. create an annotated cryptographically signed tag where the release procedure supports it, keeping signing credentials outside source control;
+6. verify that the tag resolves to the selected commit and that the observed signature state is the expected one;
+7. create the repository release or external deposit from the already-verified artifacts;
+8. inspect the receiver-side object rather than inferring success from upload metadata;
+9. record the external identifier relationship where one exists;
+10. rerun the research-object identity checker and its fixture tests.
+
+A manifest is not required for ordinary working commits. The release-identity apparatus is recruited when an object is being declared stable or externally frozen.
 
 ## DOI freeze rule
 
@@ -182,12 +206,15 @@ Before a new standalone DOI is published:
 5. visually inspect the final PDF from the reader side;
 6. inspect the public GitHub paper route from the reader side;
 7. verify citations, title, author, ORCID, version, date, rights, and DOI relationship;
-8. run the checker self-test and repository rendering/publication checks and observe their pass evidence;
-9. compute final checksums;
-10. commit the exact DOI-bearing source/publication object or an honest checksum/identity record when a byte-preserving repository mirror is not available;
-11. upload the exact checked object to the DOI repository;
-12. verify the DOI landing route **and the actual attached carrier** after publication;
-13. only then mark the version frozen.
+8. run the checker self-tests and repository rendering/publication/research-object checks and observe their pass evidence;
+9. select the exact source commit and declared release artifact set;
+10. compute final SHA-256/byte identities and create the applicable release manifest;
+11. create and verify the release tag/signature state where the release procedure uses a signed tag;
+12. commit the exact DOI-bearing source/publication object or an honest checksum/identity record when a byte-preserving repository mirror is not available;
+13. upload the exact checked object to the DOI repository;
+14. verify the DOI landing route **and the actual attached carrier** after publication;
+15. record the external identifier relationship in the applicable publication/release record;
+16. only then mark the version frozen.
 
 A standing SOP is not evidence that these steps were performed. Closure requires evidence of the actual traversal.
 
@@ -223,10 +250,10 @@ Rendering-only repairs must not be described as scientific revisions.
 
 Scientific revisions must not be smuggled through as rendering repairs.
 
-If a rendering repair changes bytes used by a recorded checksum, the checksum must be recalculated and its provenance updated.
+If a rendering repair changes bytes used by a recorded checksum, the checksum must be recalculated and its provenance updated. If the changed bytes belong to a declared release, the change requires a new lawful release identity rather than silent mutation of the earlier manifest.
 
 The smallest repair should be identified first. Before applying it, ask whether the same failure would recur because the underlying gate is mistyped or incomplete. If so, prefer the smallest structural repair that removes recurrence while preserving the protection, and add a fixture for the discovered failure class.
 
 ## Standing invariant
 
-> **Meaning → carrier → transformation → invariant → reader expression must close as one chain. Carrier validity is not delivery validity; test the door from the side the reader actually approaches it, and verify the bytes when metadata can lie by omission.**
+> **Meaning → carrier → exact source state → release identity → transformation → invariant → receiver expression must close as one chain. Carrier validity is not delivery validity; test the door from the side the reader actually approaches it, and verify the bytes when metadata can lie by omission.**
