@@ -7,24 +7,30 @@ on:
       - '**/*.md'
       - 'codemeta.json'
       - 'CITATION.cff'
+      - 'release-manifests/**'
       - 'publications/ATLD_Evaluation_Protocol_v1.0/**'
       - 'publications/ATLD2_Evaluation_Protocol_v2.0/**'
       - 'tools/check_markdown_rendering.py'
       - 'tools/test_markdown_rendering_checker.py'
       - 'tools/check_publication_routes.py'
       - 'tools/check_atld2_publication_routes.py'
+      - 'tools/check_research_object_identity.py'
+      - 'tools/test_research_object_identity_checker.py'
       - '.github/workflows/markdown-rendering-integrity.yml'
   pull_request:
     paths:
       - '**/*.md'
       - 'codemeta.json'
       - 'CITATION.cff'
+      - 'release-manifests/**'
       - 'publications/ATLD_Evaluation_Protocol_v1.0/**'
       - 'publications/ATLD2_Evaluation_Protocol_v2.0/**'
       - 'tools/check_markdown_rendering.py'
       - 'tools/test_markdown_rendering_checker.py'
       - 'tools/check_publication_routes.py'
       - 'tools/check_atld2_publication_routes.py'
+      - 'tools/check_research_object_identity.py'
+      - 'tools/test_research_object_identity_checker.py'
       - '.github/workflows/markdown-rendering-integrity.yml'
 
 concurrency:
@@ -48,6 +54,10 @@ jobs:
         run: python tools/check_publication_routes.py
       - name: Check ATLD 2 publication and canon-fold routes
         run: python tools/check_atld2_publication_routes.py
+      - name: Self-test the research-object identity guard
+        run: python tools/test_research_object_identity_checker.py
+      - name: Check research-object identity and release manifests
+        run: python tools/check_research_object_identity.py
 
   persist-integrity-signal:
     name: Persist integrity status
