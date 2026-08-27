@@ -2,8 +2,8 @@
 
 **Status:** standing cross-stack research and publication SOP  
 **Owner:** Mark Charles McLaughlin  
-**Scope:** derivation, red-team review, empirical promotion, standalone-paper creation, canon folding, and post-write closure  
-**Companion controls:** [`docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md`](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), [`docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md`](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md), [`docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md), and [`RENDERING_AND_PUBLICATION_INTEGRITY.md`](RENDERING_AND_PUBLICATION_INTEGRITY.md)
+**Scope:** derivation, red-team review, empirical promotion, standalone-paper creation, canon folding, release identity, and post-write closure  
+**Companion controls:** [`docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md`](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), [`docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md`](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md), [`docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md), [`RENDERING_AND_PUBLICATION_INTEGRITY.md`](RENDERING_AND_PUBLICATION_INTEGRITY.md), and [`docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md`](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
 
 ## 1. Governing rule
 
@@ -181,10 +181,28 @@ Maintain separate identities for:
 - live canonical module;
 - public reader/source paper route;
 - standalone publication record;
+- declared repository release;
 - frozen DOI-bearing deposit;
 - convenience Drive carrier.
 
-Later live improvements do not silently rewrite a frozen publication.
+Later live improvements do not silently rewrite a frozen publication or an earlier declared release.
+
+## 10A. Stable-release identity
+
+A stable repository release or externally frozen research object recruits the release-identity contract in Module 34.
+
+Before release closure:
+
+1. identify the exact source commit;
+2. identify the declared artifact set;
+3. record SHA-256 and byte counts in the applicable release manifest;
+4. verify version/date/citation relationships;
+5. create and verify the intended release tag, using a cryptographically signed annotated tag where the release procedure supports it;
+6. keep signing credentials outside source control;
+7. verify any external deposit from the receiver side;
+8. rerun the research-object identity checker and its self-tests.
+
+Ordinary working commits do not require this machinery merely because they exist. The gate activates when a research object is deliberately declared stable or externally frozen.
 
 ## 11. Interruption and write-boundary recovery
 
@@ -211,13 +229,14 @@ write
 → compare intended files
 → run automated gates
 → inspect reader-side carrier
+→ verify release/external identity where applicable
 → repair
 → rerun
 → re-inspect
 → close.
 ```
 
-A successful write call is not closure. A green source checker is not reader-side proof. A clean preview is not DOI/provenance proof. Each address keeps its own gate.
+A successful write call is not closure. A green source checker is not reader-side proof. A clean preview is not DOI/provenance proof. A valid local manifest is not proof of an unobserved external release state. Each address keeps its own gate.
 
 ## 13. Minimum fix versus structural fix
 
@@ -268,13 +287,14 @@ Objective checks should not rely on the owner remembering to inspect an Actions 
 
 The repository workflow must:
 
-1. self-test the checker;
+1. self-test the applicable checkers;
 2. audit the current Markdown carriers;
 3. audit publication/discovery/DOI custody;
-4. keep a persistent repository signal while the main-branch gate is red;
-5. clear that signal only after a later main-branch run passes.
+4. audit research-object identity and concrete release manifests;
+5. keep a persistent repository signal while the main-branch gate is red;
+6. clear that signal only after a later main-branch run passes.
 
-Reader-side semantic inspection remains a separate required gate, but it belongs to the operator or agent performing the publication task; it must not be silently delegated to the owner after closure is claimed.
+Reader-side semantic inspection and external release/signature inspection remain separate required gates where applicable; they belong to the operator or agent performing the publication task and must not be silently delegated to the owner after closure is claimed.
 
 ## 17. Residual novelty / no-new-anatomy gate
 
@@ -313,6 +333,7 @@ Otherwise use a narrower state such as:
 - provisioned;
 - awaiting automated gate;
 - awaiting reader-side inspection;
+- awaiting release verification;
 - published but not yet canon-folded.
 
 ## 18A. Operational certainty, charge, and reopening discipline
@@ -372,4 +393,4 @@ When ordinary prose uses “certain”, bind it to the exact operational scope t
 
 ## Standing invariant
 
-> **Smallest sufficient object → hostile subtraction → independent test → typed repair/deformation → residual novelty gate → scale/lineage custody → silent authoring hygiene → exact publication identity → calibrated operational closure with an explicit reopening condition.**
+> **Smallest sufficient object → hostile subtraction → independent test → typed repair/deformation → residual novelty gate → scale/lineage custody → silent authoring hygiene → exact publication and release identity → calibrated operational closure with an explicit reopening condition.**
