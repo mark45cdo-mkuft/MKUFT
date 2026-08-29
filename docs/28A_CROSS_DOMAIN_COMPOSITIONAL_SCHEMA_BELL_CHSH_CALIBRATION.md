@@ -7,7 +7,7 @@
 **Bell correspondence control:** [Bell Constraints as Typed Boundaries v1.0](../papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md), DOI `10.5281/zenodo.22100926`  
 **Compositional-schema source:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Typed Partial Instantiation, and Minimal Restorative Descent*, v0.2, DOI `10.5281/zenodo.22164562`  
 **Claim discipline:** [29 — MKUFT Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)  
-**Status:** public methodological calibration protocol. It reports no new Bell result, no new Bell inequality, no new derivation of Tsirelson's bound, and no new physical mechanism.
+**Status:** public methodological calibration protocol with an executed analytic Phase-0 known-answer calibration dated 29 August 2026. It reports no new Bell inequality, no new derivation of Tsirelson's bound, and no new physical mechanism.
 
 ## 1. Purpose
 
@@ -379,3 +379,241 @@ freeze Bell object + future-use family
 ```
 
 > **Use Bell to try to break the compositional contract. Do not use the compositional contract to decorate Bell.**
+
+## 13. Executed Phase-0 analytic calibration — 29 August 2026
+
+This section records an analytic known-answer execution of the protocol. It is a calibration result, not new Bell physics and not an empirical experiment.
+
+### 13.1 Correlators do not close general no-signalling questions
+
+For binary `a,b\in\{-1,+1\}`, write a general contextwise behaviour as
+
+```math
+p(a,b\mid x,y)
+=
+\frac14
+\left[
+1+aA_{xy}+bB_{xy}+abE_{xy}
+\right],
+```
+
+where the chosen parameters are restricted so all probabilities remain non-negative.
+
+Construct two behaviours.
+
+**Behaviour `P_0`:**
+
+```math
+A_{xy}=0,
+\qquad
+B_{xy}=0,
+\qquad
+E_{xy}=0
+\quad\forall x,y.
+```
+
+Then every conditional outcome probability is `1/4`, the correlators are all zero, and both local marginals are independent of the remote setting.
+
+**Behaviour `P_{sig}`:** choose `\eta=1/2` and
+
+```math
+A_{xy}=\eta(-1)^y,
+\qquad
+B_{xy}=0,
+\qquad
+E_{xy}=0.
+```
+
+All probabilities lie in `[1/8,3/8]`, so the conditional tables are valid. The four correlators remain
+
+```math
+(E_{00},E_{01},E_{10},E_{11})=(0,0,0,0),
+```
+
+exactly as in `P_0`. But Alice's marginal changes with `y`:
+
+```math
+p(a=+1\mid x,y=0)=\frac34,
+\qquad
+p(a=+1\mid x,y=1)=\frac14.
+```
+
+Therefore
+
+```math
+C_{F_E}(P_0)=C_{F_E}(P_{sig})
+```
+
+while their `F_NS` answers differ.
+
+The correlator interface is thus future-sufficient for the declared correlator object but **not** for general no-signalling certification. When the future-use family widens from `F_E` to `F_NS`, targeted reopening to the marginal-bearing probability object is required.
+
+This is a direct positive calibration of the compositional FSAI rule.
+
+### 13.2 Equal scalar CHSH score does not close correlator structure
+
+With uniform marginals, use the valid contextwise family
+
+```math
+p(a,b\mid x,y)
+=
+\frac14[1+abE_{xy}],
+\qquad
+|E_{xy}|\le1.
+```
+
+Choose
+
+```math
+E^{(1)}
+=\left(\frac12,\frac12,\frac12,-\frac12\right),
+```
+
+and
+
+```math
+E^{(2)}
+=\left(1,\frac12,\frac12,0\right).
+```
+
+Both give
+
+```math
+S=2,
+```
+
+but
+
+```math
+E^{(1)}\neq E^{(2)}.
+```
+
+Hence
+
+```math
+C_{F_S}(E^{(1)})
+=
+C_{F_S}(E^{(2)})
+```
+
+while a widened target that asks which correlator carries which relation separates the two objects.
+
+The scalar interface `Y_S=S` therefore passes `F_S` and must reopen/refine for `F_E`.
+
+### 13.3 One-correlator ablation has the predicted targeted effect
+
+Retain
+
+```math
+E_{00}=E_{01}=E_{10}=\frac1{\sqrt2}
+```
+
+and compare two lawful uniform-marginal conditional behaviours differing only at the missing fourth correlator.
+
+If
+
+```math
+E_{11}=-\frac1{\sqrt2},
+```
+
+then
+
+```math
+S=2\sqrt2\approx2.828427.
+```
+
+If instead
+
+```math
+E_{11}=0,
+```
+
+then
+
+```math
+S=\frac3{\sqrt2}\approx2.121320.
+```
+
+The first three retained coordinates therefore do not determine the CHSH score. Removing `E_{11}` opens the `F_S` target; restoring it closes the score immediately. No descent into unrelated Bell machinery is required.
+
+This is the expected minimal restorative-descent pattern.
+
+The second constructed behaviour is used only as a mathematically valid conditional/no-signalling calibration object; no claim is made that both examples occupy the same native quantum-admissibility class.
+
+### 13.4 Tetrahedral chart result
+
+The unrestricted correlator carrier
+
+```math
+Y_E=(E_{00},E_{01},E_{10},E_{11})
+```
+
+has four independent real coordinates before additional Bell/quantum constraints are imposed.
+
+A conventional point inside a tetrahedron represented by barycentric coordinates
+
+```math
+(\lambda_1,\lambda_2,\lambda_3,\lambda_4),
+\qquad
+\lambda_i\ge0,
+\qquad
+\sum_i\lambda_i=1,
+```
+
+has only three independent coordinates.
+
+Therefore a single ordinary tetrahedral barycentric point cannot be a lossless affine encoding of an unrestricted four-correlator CHSH tuple. At least one of the following must be true:
+
+1. an additional coordinate/state is carried outside the tetrahedral point;
+2. the Bell object is first restricted to a lower-dimensional submanifold/constraint family;
+3. the mapping is lossy and therefore valid only for a narrower declared future-use family;
+4. the four correlator values are attached as independent labels to four tetrahedral vertices, in which case the labels—not tetrahedral dimensionality—carry the four scalar degrees of freedom.
+
+This does **not** kill tetrahedral representation. It kills an unqualified claim that `four Bell correlators → one tetrahedral point` is automatically a lossless or physically privileged geometry.
+
+A tetrahedral chart remains scientifically admissible when:
+
+- its role assignment is independently justified;
+- its information loss is typed relative to the target;
+- any widened target triggers the correct descent;
+- or it produces a separately measured representation advantage against an ordinary carrier.
+
+The Phase-0 tetrahedral verdict is therefore:
+
+```text
+privileged general CHSH geometry: NOT EARNED
+lossless ordinary barycentric compression of unrestricted E tuple: FAILS by dimension count
+labelled-vertex / restricted-submanifold / target-specific chart: OPEN, testable
+new Bell equation or physical mechanism: NOT GENERATED
+```
+
+### 13.5 Phase-0 verdict
+
+The analytic calibration returns:
+
+```text
+PRESERVE
+for S when S is the declared target;
+
+PRESERVE
+for the four-correlator object at correlator scope;
+
+REOPEN / REFINE
+when the future-use family asks for omitted marginals, component structure, or another lower distinction;
+
+TARGETED RESTORE
+when one decision-bearing correlator is ablated;
+
+REFUSE
+fields with no constitutive Bell role;
+
+TETRAHEDRAL PRIVILEGE REJECTED
+at the unrestricted four-correlator level;
+
+TETRAHEDRAL CHART RETAINED AS AN OPEN REPRESENTATION CANDIDATE
+only under a declared lower-dimensional, labelled, or target-specific construction.
+```
+
+This is a non-trivial calibration of the **ordering** and **refusal/reopening behaviour** of the compositional schema, while the local Bell mathematics remains entirely native-owned.
+
+The next scientific burden is Phase 1: freeze the schema and score it on held-out Bell objects against a strong Bell-native baseline. Only a prospective burden/discrimination gain can move the result beyond analytic baseline parity.
