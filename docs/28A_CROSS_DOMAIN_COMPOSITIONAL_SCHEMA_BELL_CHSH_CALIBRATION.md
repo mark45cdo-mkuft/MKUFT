@@ -5,9 +5,10 @@
 **Parent experimental owner:** [28 — MKUFT Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)  
 **Future-sufficiency owner:** [33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)  
 **Bell correspondence control:** [Bell Constraints as Typed Boundaries v1.0](../papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md), DOI `10.5281/zenodo.22100926`  
-**Compositional-schema source:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Typed Partial Instantiation, and Minimal Restorative Descent*, v0.2, DOI `10.5281/zenodo.22164562`  
+**Compositional-schema publication:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*, v0.3, DOI `10.5281/zenodo.22166005`; previous v0.2 DOI `10.5281/zenodo.22164562`  
+**Publication record:** [Cross-Domain Compositional Schema v0.3](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)  
 **Claim discipline:** [29 — MKUFT Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)  
-**Status:** public methodological calibration protocol with an executed analytic Phase-0 known-answer calibration dated 29 August 2026. It reports no new Bell inequality, no new derivation of Tsirelson's bound, and no new physical mechanism.
+**Status:** public methodological calibration protocol with an executed analytic Phase-0 known-answer calibration dated 29 August 2026, now reported in the published Cross-Domain Compositional Schema v0.3. It reports no new Bell inequality, no independent derivation of Tsirelson's bound, and no new physical mechanism.
 
 ## 1. Purpose
 
@@ -508,7 +509,7 @@ Retain
 E_{00}=E_{01}=E_{10}=\frac1{\sqrt2}
 ```
 
-and compare two lawful uniform-marginal conditional behaviours differing only at the missing fourth correlator.
+and compare two uniform-marginal correlator behaviours differing only at the fourth correlator.
 
 If
 
@@ -534,11 +535,24 @@ then
 S=\frac3{\sqrt2}\approx2.121320.
 ```
 
-The first three retained coordinates therefore do not determine the CHSH score. Removing `E_{11}` opens the `F_S` target; restoring it closes the score immediately. No descent into unrelated Bell machinery is required.
+The first three retained coordinates therefore do not determine the CHSH score. Removing or neutralising the addressed `E_{11}` relation opens the `F_S` target; restoring it closes the score immediately. No descent into unrelated Bell machinery is required.
+
+At the stated unbiased-marginal correlator scope, both tuples satisfy the appropriate native binary quantum-correlator criterion. The first saturates the representative TLM cycle condition,
+
+```math
+\left|
+\arcsin E_{00}
++\arcsin E_{01}
++\arcsin E_{10}
+-\arcsin E_{11}
+\right|=\pi,
+```
+
+while the second gives `3\pi/4` for that representative sign form; the required symmetry-equivalent correlator inequalities remain satisfied. This makes the comparison a targeted **object-level ablation/restoration across valid quantum-correlator points**, not merely a generic no-signalling construction.
+
+The scope condition is load-bearing: this does **not** assert a physical intervention that independently changes one observed correlator while an underlying experimental realisation is otherwise held fixed. The ablation is a formal comparison between lawful correlator objects under the declared interface test.
 
 This is the expected minimal restorative-descent pattern.
-
-The second constructed behaviour is used only as a mathematically valid conditional/no-signalling calibration object; no claim is made that both examples occupy the same native quantum-admissibility class.
 
 ### 13.4 Tetrahedral chart result
 
@@ -615,5 +629,7 @@ only under a declared lower-dimensional, labelled, or target-specific constructi
 ```
 
 This is a non-trivial calibration of the **ordering** and **refusal/reopening behaviour** of the compositional schema, while the local Bell mathematics remains entirely native-owned.
+
+The result is now part of the frozen Cross-Domain Compositional Schema v0.3 publication. This module remains the live detailed calibration owner: later Phase-1/Phase-2 work, corrected native comparisons, or stronger held-out results must be added here or in an explicitly owned successor and must not be silently backdated into the v0.3 deposit.
 
 The next scientific burden is Phase 1: freeze the schema and score it on held-out Bell objects against a strong Bell-native baseline. Only a prospective burden/discrimination gain can move the result beyond analytic baseline parity.
