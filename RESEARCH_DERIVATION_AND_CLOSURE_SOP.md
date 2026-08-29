@@ -500,6 +500,31 @@ another lawful pass
 
 That is learning fixed-point closure. Pass count, elegance, excitement, or exhaustion is not the stop rule.
 
+
+### 17A.9 Obstruction-to-construction recursion and reparameterisation nulls
+
+A negative result can close one candidate representation while opening a narrower lawful construction. Do not flatten the distinction.
+
+The Cross-Domain v0.4 Bell continuation is the standing worked example. The v0.3 dimension count correctly killed the claim that one ordinary three-degree-of-freedom tetrahedral barycentric point can losslessly encode an unrestricted four-correlator object. The next recursive pass did **not** reverse that result. It asked what exact object the obstruction permits:
+
+```text
+strong obstruction survives
+→ freeze what it actually killed
+→ identify the missing degree / relation / address
+→ search existing native geometry for a lawful owner
+→ construct the smallest richer object that satisfies the obstruction
+→ prove reconstruction / loss conditions
+→ subtract native ownership again
+→ test apparent new invariants for algebraic collapse
+→ run reparameterisation null before any physics promotion
+```
+
+That pass found a Bell-native tetrahedral CHSH facet plus one transverse coordinate, yielding an exact four-dimensional chart. It then killed the obvious hypervolume novelty because the volume reduced to `|S-2|/3`, and killed a physics promotion because the chart is invertible and supplies no additional law.
+
+> **When a candidate fails by a clean theorem, rank, dimension, type, or custody obstruction, preserve the failure exactly and ask whether it identifies the minimum additional structure required for a lawful successor. A successor is not a rescue of the failed claim unless it silently deletes the obstruction.**
+
+Before calling a richer representation scientifically new, run the reparameterisation null: if every observable and admissibility result is carried through an invertible map from the native object, the representation can earn structural or ergonomic utility but not an independent physical residual merely from its coordinates.
+
 ## 18. Closure language
 
 Use **closed** only when the applicable evidence has actually been observed.

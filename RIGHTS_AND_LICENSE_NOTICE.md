@@ -257,3 +257,7 @@ A document's presence in this repository does not automatically make it public-d
 ## GitHub Visibility
 
 This repository is public. Public visibility does not waive copyright, authorship, attribution requirements, document-specific licence conditions, or commercial-use restrictions.
+
+## Cross-Domain Compositional Schema v0.4
+
+The exact Zenodo v0.4 deposit at DOI `10.5281/zenodo.22166468` is licensed **CC BY 4.0** as stated in that publication. This licence applies to the exact deposited v0.4 object and does not silently relicense unrelated MKUFT modules or historical publications. The prior v0.3/v0.2 objects retain their own published licence statements.

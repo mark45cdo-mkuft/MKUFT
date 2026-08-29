@@ -47,3 +47,15 @@ The public submission link will be placed here only after the separate intake we
 - [Citation and provenance](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
 MKUFT is a speculative research framework. It has not yet demonstrated an independently validated new fundamental physical mechanism or completed a derivation of quantum mechanics, quantum field theory, general relativity, or quantum gravity.
+
+## Cross-Domain Compositional Schema v0.4 — current publication update
+
+- current version DOI: `10.5281/zenodo.22166468`
+- prior v0.3 DOI: `10.5281/zenodo.22166005`
+- concept DOI: `10.5281/zenodo.22164561`
+- reader route: `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md`
+- publication record: `CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md`
+- live future-sufficiency owner: `docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md`
+- live Bell/tetrahedral owner: `docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md`
+
+Version 0.4 closes the tetrahedral Bell branch as an exact facet-plus-normal coordinate construction on native CHSH geometry. The chart is an invertible reparameterisation, the natural four-volume collapses to CHSH excess, and the physical residual remains NULL. The v0.3 and v0.2 routes remain historical frozen versions.

@@ -338,3 +338,16 @@ Current standalone research-output tracking is concentrated in:
 - `RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md`.
 
 Do not infer an additional paper, DOI, licence, or publication state merely because a related live module exists.
+
+## Cross-Domain Compositional Schema v0.4 — published 29 August 2026
+
+**Title:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*  
+**Version DOI:** `10.5281/zenodo.22166468`  
+**Prior v0.3 DOI:** `10.5281/zenodo.22166005`  
+**Concept DOI:** `10.5281/zenodo.22164561`  
+**Licence:** CC BY 4.0  
+**Frozen carrier:** 31 pages; 394,810 bytes; MD5 `d5a56561e82ca5d64a8766ca8122a956`; SHA-256 `bcb5c7618962bac98c2ae0ad097f7bba8e9758d4c86879b6546d037736c73b83`.
+
+Version 0.4 is a new immutable publication object in the same Zenodo lineage. It does not alter the v0.3 or v0.2 deposits. Live MKUFT modules integrate the published result under their own revision history and must not be cited as byte-identical to the Zenodo carrier.
+
+Reader route: `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md`

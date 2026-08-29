@@ -5,10 +5,10 @@
 **Parent experimental owner:** [28 — MKUFT Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)  
 **Future-sufficiency owner:** [33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)  
 **Bell correspondence control:** [Bell Constraints as Typed Boundaries v1.0](../papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md), DOI `10.5281/zenodo.22100926`  
-**Compositional-schema publication:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*, v0.3, DOI `10.5281/zenodo.22166005`; previous v0.2 DOI `10.5281/zenodo.22164562`  
-**Publication record:** [Cross-Domain Compositional Schema v0.3](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)  
+**Compositional-schema publication:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*, v0.4, DOI `10.5281/zenodo.22166468`; prior v0.3 DOI `10.5281/zenodo.22166005`; earlier v0.2 DOI `10.5281/zenodo.22164562`  
+**Publication record:** [Cross-Domain Compositional Schema v0.4](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)  
 **Claim discipline:** [29 — MKUFT Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)  
-**Status:** public methodological calibration protocol with an executed analytic Phase-0 known-answer calibration dated 29 August 2026, now reported in the published Cross-Domain Compositional Schema v0.3. It reports no new Bell inequality, no independent derivation of Tsirelson's bound, and no new physical mechanism.
+**Status:** public Bell/CHSH calibration and exact tetrahedral-formalisation owner. Phase 0 is retained as the v0.3 known-answer calibration; the published v0.4 continuation closes the tetrahedral branch at an exact facet-plus-normal coordinate fixed point. It reports no new Bell inequality, no independent derivation of Tsirelson's bound, no new quantum mechanism, and no surviving measurable physical residual.
 
 ## 1. Purpose
 
@@ -630,6 +630,156 @@ only under a declared lower-dimensional, labelled, or target-specific constructi
 
 This is a non-trivial calibration of the **ordering** and **refusal/reopening behaviour** of the compositional schema, while the local Bell mathematics remains entirely native-owned.
 
-The result is now part of the frozen Cross-Domain Compositional Schema v0.3 publication. This module remains the live detailed calibration owner: later Phase-1/Phase-2 work, corrected native comparisons, or stronger held-out results must be added here or in an explicitly owned successor and must not be silently backdated into the v0.3 deposit.
+The Phase-0 result remains part of the frozen v0.3 publication. The current v0.4 publication reopens that dimensional obstruction and closes the tetrahedral branch through the exact formalisation in Section 14. This module is the live detailed calibration/formalisation owner; later Phase-1/Phase-2 work must not be silently backdated into either frozen deposit.
 
-The next scientific burden is Phase 1: freeze the schema and score it on held-out Bell objects against a strong Bell-native baseline. Only a prospective burden/discrimination gain can move the result beyond analytic baseline parity.
+The next scientific burden remains Phase 1: freeze the now-complete interface/TBC mapping rules and score held-out Bell objects against a strong Bell-native baseline. Only a prospective burden/discrimination gain or a separately defined non-reparameterisation physical residual can support a stronger promotion.
+
+## 14. Published v0.4 tetrahedral formalisation and fixed point — 29 August 2026
+
+Version 0.4 reopens the v0.3 dimensional obstruction as a derivation problem. The result is split into two different tetrahedral objects so that index semantics, local deterministic mixtures, and correlator geometry are not merged merely because each construction has four visible elements.
+
+### 14.1 Context indexing simplex and attached CHSH semantics
+
+Let the four Bell contexts be
+
+```math
+\mathcal C=\{00,01,10,11\}.
+```
+
+Treating these labels as vertices of an abstract 3-simplex is an indexing device only. Its face/restriction lattice is the Boolean lattice
+
+```math
+\mathcal L_{\mathcal C}=2^{\mathcal C},
+```
+
+which records which context-labelled quantities remain exposed under a compression/restriction. It is not a physical spacetime or causal lattice.
+
+A CHSH orientation is an attached sign section
+
+```math
+\sigma:\mathcal C\rightarrow\{-1,+1\},
+```
+
+with odd parity. It induces a coefficient vector `c_sigma` and Bell functional
+
+```math
+S_\sigma(E)=c_\sigma^{\mathsf T}E.
+```
+
+The attachment of each sign to its exact measurement context is load-bearing: erasing the attachment while retaining only the sign inventory collapses distinct CHSH facet selectors. This is the Bell-native instance of the general operator-to-target semantic-address rule.
+
+### 14.2 Bell-native tetrahedron
+
+The local correlator polytope is
+
+```math
+\mathcal L_E=\mathrm{conv}\{E\in\{-1,+1\}^4:E_{00}E_{01}E_{10}E_{11}=1\}.
+```
+
+It is full-dimensional in `R^4` with eight local correlator vertices and sixteen tetrahedral facets: eight coordinate/E-type facets and eight CHSH-type facets. For the standard orientation
+
+```math
+c=(1,1,1,-1)^{\mathsf T},
+```
+
+the CHSH facet is `c^T E=2`. Choose the four saturating local vertices
+
+```math
+v_1=(-1,1,1,-1)^{\mathsf T},
+\quad
+v_2=(1,-1,1,-1)^{\mathsf T},
+```
+
+```math
+v_3=(1,1,-1,-1)^{\mathsf T},
+\quad
+v_4=(1,1,1,1)^{\mathsf T}.
+```
+
+With these columns in `V`, `det V=16`; the facet is a regular tetrahedron in its three-dimensional affine hyperplane, with Euclidean 3-volume `8/3` in the standard correlator embedding.
+
+### 14.3 Facet-adapted Tetrahedral Bell Chart
+
+Define
+
+```math
+\nu_c(E)=c^{\mathsf T}E-2,
+\qquad
+\Pi_c(E)=E-\frac{\nu_c(E)}{4}c,
+\qquad
+\lambda_c(E)=V^{-1}\Pi_c(E).
+```
+
+The exact reconstruction is
+
+```math
+\boxed{
+E=V\lambda+\frac{\nu}{4}c,
+\qquad
+\mathbf1^{\mathsf T}\lambda=1.
+}
+```
+
+The constrained codomain is four-dimensional: `lambda` contributes three independent affine coordinates and `nu` contributes the fourth. The map is an affine bijection for the four-correlator object relative to the selected CHSH orientation. On the local facet `nu=0` and non-negative `lambda` are ordinary barycentric weights; away from the facet the chart remains invertible while the projected coordinates need not remain inside the simplex.
+
+Thus the v0.3 four-versus-three objection is preserved, not reversed: **tetrahedron alone is insufficient; tetrahedral facet address plus one transverse coordinate is complete.** Symmetry-equivalent CHSH orientations carry the same construction under Bell relabelling, so no displayed orientation is physically privileged.
+
+### 14.4 Native-boundary pullback and marginal fibre
+
+Along the normal ray through the facet centroid, the chart reproduces the standard ordering
+
+```text
+local facet:       S=2,        nu=0
+Tsirelson point:   S=2sqrt(2), nu=2(sqrt(2)-1)
+PR/algebraic:      S=4,        nu=2
+```
+
+without creating a new quantum boundary. The Tsirelson-Landau-Masanes correlator criterion is only pulled back through the invertible chart.
+
+The chart is correlator-level. The projection
+
+```math
+\pi_E:P\rightarrow E
+```
+
+has a set-theoretic fibre of behaviours sharing the same correlator object. In binary form,
+
+```math
+p(a,b\mid x,y)=\frac14\left[1+aA_{xy}+bB_{xy}+ab\left(V\lambda+\frac{\nu}{4}c\right)_{xy}\right].
+```
+
+Therefore the TBC closes correlator questions but not general no-signalling/full-behaviour questions without reopening marginal-bearing coordinates. This is the Bell-native calibration of the existing completion/fibre and preserve-or-reopen owners.
+
+### 14.5 Surgical ablation and geometric null
+
+For the symmetric Tsirelson correlator `E_Q=(t,t,t,-t)^T`, `t=1/sqrt(2)`, neutralising only `E_11` changes both the transverse coordinate and the projected tetrahedral address; restoring the addressed correlator restores the original chart state. This remains an object-level comparison between lawful correlator points, not a claim that one experimental correlator can be physically intervened on in isolation.
+
+The natural four-dimensional simplex volume formed by the selected CHSH facet and an off-facet point is
+
+```math
+\boxed{
+\mathcal V_c(E)=\frac{|\nu_c(E)|}{3}=\frac{|S_c(E)-2|}{3}.
+}
+```
+
+The immediate geometric invariant candidate therefore collapses exactly to known CHSH excess. It is useful bookkeeping, not an independent Bell quantity.
+
+### 14.6 Reparameterisation null and physics gate
+
+Because the TBC is invertible, coordinate change alone cannot alter any physical prediction whose statistics are merely pulled back or pushed forward through the bijection. A physical promotion would require an additional independently typed law, constraint, or dynamics with a standard/null limit and a prospective measurable discriminator. Version 0.4 supplies no non-zero physical residual of that kind.
+
+### 14.7 v0.4 fixed-point verdict
+
+```text
+ordinary tetrahedral point for unrestricted four correlators: REJECTED
+Bell-native tetrahedral CHSH facet: ESTABLISHED NATIVE GEOMETRY
+facet + transverse coordinate reconstruction: EXACT
+sign-to-context attachment: MATHEMATICALLY LOAD-BEARING
+context lattice: BOOLEAN ADDRESS/RESTRICTION LATTICE ONLY
+full behaviour from TBC alone: NOT CLOSED; MARGINAL FIBRE REOPENS
+natural 4-volume novelty: NULL; RESCALED CHSH EXCESS
+new Bell inequality / new Tsirelson boundary / new mechanism: NULL
+```
+
+The surviving result is a facet-adapted coordinate and semantic-address construction on established Bell geometry, not evidence that tetrahedral shape is a universal ontology or new physical law. Phase 1 remains the next methodological burden: freeze the rules and test held-out Bell cases against a strong Bell-native baseline; Phase 2 should transport the same interface rules into a non-CHSH scenario where a four-context tetrahedral convenience is absent.
+

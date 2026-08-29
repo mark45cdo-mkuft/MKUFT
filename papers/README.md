@@ -219,3 +219,15 @@ A paper is not identified by formatting alone. The repository distinguishes:
 The existing top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of their corresponding frozen DOI-record PDF files. ATLD 2 v2.0 and Voynich v2.0 are represented in-repository by explicit DOI/version and frozen-carrier identity metadata where an exact GitHub binary mirror has not been independently established; the controlling Zenodo records remain authoritative. The chain-address v1.0 paper likewise uses its DOI/publication record and GitHub source route until an exact repository binary mirror/checksum carrier is independently established. Bell Constraints v1.0 and Cross-Domain Compositional Schema v0.3 likewise use their DOI, paper route, publication record, and frozen-carrier identity record without asserting that a later GitHub-generated file is the deposited binary. The v0.3 Cross-Domain carrier identity additionally records a receiver-side Zenodo MD5 match to the audited final PDF.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier and publication rules.
+
+## Cross-Domain Compositional Schema v0.4 — current publication update
+
+- current version DOI: `10.5281/zenodo.22166468`
+- prior v0.3 DOI: `10.5281/zenodo.22166005`
+- concept DOI: `10.5281/zenodo.22164561`
+- reader route: `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md`
+- publication record: `CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md`
+- live future-sufficiency owner: `docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md`
+- live Bell/tetrahedral owner: `docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md`
+
+Version 0.4 closes the tetrahedral Bell branch as an exact facet-plus-normal coordinate construction on native CHSH geometry. The chart is an invertible reparameterisation, the natural four-volume collapses to CHSH excess, and the physical residual remains NULL. The v0.3 and v0.2 routes remain historical frozen versions.

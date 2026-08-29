@@ -8,7 +8,7 @@
     "McLaughlin–Kairos Unified Field Theory",
     "Unified Field Theory. McLaughlin–Kairos. MKUFT"
   ],
-  "description": "The current principal publication and evolving public research canon of the McLaughlin–Kairos Unified Field Theory by Mark Charles McLaughlin. The DOI-bearing v2 publication is frozen at Zenodo while live GitHub modules retain their own revision history and publication boundaries. The public research stack also includes ATLD 2, Chain-Address Invariants, Future-Splitting State Recruitment, Addressed Admissible Futures, Bell Constraints as Typed Boundaries, Cross-Domain Compositional Schema v0.3, Layer Before Law, Recursive Constraint Closure, and the Voynich v2.0 consolidated applied-research publication.",
+  "description": "The current principal publication and evolving public research canon of the McLaughlin–Kairos Unified Field Theory by Mark Charles McLaughlin. The DOI-bearing v2 publication is frozen at Zenodo while live GitHub modules retain their own revision history and publication boundaries. The public research stack also includes ATLD 2, Chain-Address Invariants, Future-Splitting State Recruitment, Addressed Admissible Futures, Bell Constraints as Typed Boundaries, Cross-Domain Compositional Schema v0.4, Layer Before Law, Recursive Constraint Closure, and the Voynich v2.0 consolidated applied-research publication.",
   "identifier": "https://doi.org/10.5281/zenodo.21973064",
   "url": "https://github.com/mark45cdo-mkuft/MKUFT",
   "version": "v2",
@@ -17,6 +17,7 @@
     "https://doi.org/10.5281/zenodo.21973064",
     "https://doi.org/10.5281/zenodo.17780565",
     "https://doi.org/10.5281/zenodo.17780566",
+    "https://doi.org/10.5281/zenodo.22166468",
     "https://doi.org/10.5281/zenodo.22166005",
     "https://doi.org/10.5281/zenodo.22164562",
     "https://doi.org/10.5281/zenodo.22100926",
@@ -36,6 +37,7 @@
   "subjectOf": [
     "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/README.md",
     "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/PUBLIC_DISCOVERY_ANCHOR.md",
+    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md",
     "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md",
     "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md",
     "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md",
@@ -111,7 +113,11 @@
     "ESRT",
     "ESF",
     "NLT structural grammar",
-    "Addressing State Flow"
+    "Addressing State Flow",
+    "Facet-adapted Tetrahedral Bell Chart",
+    "semantic attachment",
+    "Bell correlation polytope",
+    "reparameterisation null"
   ],
   "headline": "MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics"
 }

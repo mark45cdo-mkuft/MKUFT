@@ -8,7 +8,7 @@
 **Scale-transition owner:** [32S — Load-Bearing Relation Sets and Scale-Transition Tests](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md)  
 **Identity guards:** [32S1 — Invariant Persistence, Relational Addressability, and Scale Transition](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md); [32S2 — Temporal Continuity Kernels and Minimum Identity Horizon](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)  
 **Novelty boundary:** [32A — Module 32 Novelty Audit and Contribution Boundary](32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md)  
-**Compositional-interface publication:** [Cross-Domain Compositional Schema v0.3](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md), DOI `10.5281/zenodo.22166005`; preserve/reopen ownership remains in [33S7A](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md).  
+**Compositional-interface publication:** [Cross-Domain Compositional Schema v0.4](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md), DOI `10.5281/zenodo.22166468`; preserve/reopen ownership remains in [33S7A](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md), with Bell/TBC calibration in [28A](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md).  
 **Public formulation date:** 15 August 2026  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
 **Status:** canonical formal refinement of the Module 32 family. It supplies a typed relation-scope compatibility scaffold, completion geometry for relationally constrained absence, fiber/quotient scale handoff, macrostate realisation classes, temporal mismatch measures, and an operational I→P admissibility test. It does not establish an independent information layer, holographic biology, consciousness, a new force, nonlocal signalling, or a universal law of emergence.
@@ -923,3 +923,33 @@ Historical priority for that exact integration is not asserted without broader l
 > **Holography is a deformation-tested physical comparator, not an ontological shortcut.**
 
 > **At every justified scale: typed relations constrain addressed admissibility; stable compatible structure can be promoted to an effective object; that object may become one typed participant in the next bracket.**
+
+## Bell/TBC fibre correspondence — v0.4 publication fold
+
+Cross-Domain Compositional Schema v0.4 supplies a clean external calibration of this module's existing fibre/completion boundary without creating new completion geometry. The Bell correlator projection
+
+```math
+\pi_E:P\longmapsto E
+```
+
+is many-to-one: behaviours with the same four correlators can retain different local-marginal structure. The v0.4 Facet-adapted Tetrahedral Bell Chart is an exact coordinate chart for the correlator object `E`,
+
+```math
+E=V\lambda+\frac{\nu}{4}c,
+\qquad
+\mathbf1^{\mathsf T}\lambda=1,
+```
+
+but the inverse image `pi_E^{-1}(E)` remains a fibre of full behaviours. Consequently:
+
+```text
+correlator/TBC target
+→ chart may be complete
+
+marginal or full-behaviour target
+→ chart alone is incomplete
+→ reopen marginal-bearing coordinates / completion owner
+```
+
+This is a local-to-global custody example, not a new Bell mechanism. Module 32S3 retains completion/fibre ownership; Module 33S7A owns the preserve/reopen consequence; Module 28A owns the Bell-native calculation. An exact chart of one projection must not be mistaken for completion of the parent object.
+

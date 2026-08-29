@@ -3,77 +3,76 @@
 **Author:** Mark Charles McLaughlin  
 **ORCID:** `0009-0005-7736-1511`  
 **Current title:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*  
-**Current version:** 0.3  
+**Current version:** 0.4  
 **Publication date:** 29 August 2026  
-**Current version DOI:** `10.5281/zenodo.22166005`  
-**Previous version DOI (v0.2):** `10.5281/zenodo.22164562`  
-**Licence of exact v0.3 deposit:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
+**Current version DOI:** `10.5281/zenodo.22166468`  
+**Prior version DOI (v0.3):** `10.5281/zenodo.22166005`  
+**Earlier version DOI (v0.2):** `10.5281/zenodo.22164562`  
+**Zenodo concept DOI:** `10.5281/zenodo.22164561`  
+**Licence of exact v0.4 deposit:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
 **Publication type:** Preprint  
 **Access:** Open
 
 ## Public routes
 
-- [Zenodo v0.3 publication](https://doi.org/10.5281/zenodo.22166005)
-- [GitHub reader/citation route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md)
-- [Frozen carrier identity record](publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3/README.md)
-- [Canonical live future-sufficiency fold — Module 33S7A](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
-- [Bell/CHSH hostile calibration — Module 28A](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md)
+- [Zenodo v0.4 publication](https://doi.org/10.5281/zenodo.22166468)
+- [GitHub reader/citation route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md)
+- [Frozen carrier identity record](publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md)
+- [Prior GitHub v0.3 reader route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md)
+- [Canonical live future-sufficiency owner — Module 33S7A](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
+- [Bell/tetrahedral formalisation owner — Module 28A](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md)
 - [Bell correspondence publication](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md)
 
 ## Version custody
 
-Version 0.3 is the substantive successor to v0.2 in the same Zenodo version lineage. The v0.2 DOI remains a frozen earlier version and is not overwritten by v0.3. This repository does not infer or invent a concept DOI that has not been independently verified for the publication family.
+Version 0.4 is the substantive successor to v0.3 in the same Zenodo version lineage. The concept DOI `10.5281/zenodo.22164561` identifies the version family and resolves to the latest version; the version-specific DOI `10.5281/zenodo.22166468` identifies the frozen v0.4 object. The v0.3 and v0.2 DOIs remain immutable historical versions.
 
-The exact Zenodo v0.3 PDF is the controlling frozen publication carrier. Live GitHub modules and later repository edits may integrate or sharpen the result, but they do not silently become part of the deposited v0.3 object.
+The exact Zenodo v0.4 PDF is the controlling frozen publication carrier. Live GitHub modules may integrate or sharpen the result but do not silently alter the deposited object.
 
-## Exact v0.3 carrier identity
+## Exact v0.4 carrier identity
 
-**Zenodo filename:** `Cross-Domain_Compositional_Schema_v0.3_2026-08-29.pdf`  
-**Pages:** 23  
-**Bytes:** 143,182  
-**MD5:** `985801aceccb3ce3effe6da1f4d1d496`  
-**SHA-256:** `fd4459711d2f1210b2c770c38611554c0e10a8e1748063fc1d78d0a4ef607c5b`
+**Zenodo filename:** `Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf`  
+**Pages:** 31  
+**Bytes:** 394,810  
+**MD5:** `d5a56561e82ca5d64a8766ca8122a956`  
+**SHA-256:** `bcb5c7618962bac98c2ae0ad097f7bba8e9758d4c86879b6546d037736c73b83`
 
-The MD5 was checked against the receiver-side Zenodo file record after publication; the SHA-256 and byte count identify the audited final publication carrier. The repository identity record preserves these witnesses without claiming that a later live Markdown/module object is byte-equivalent to the deposit.
+The MD5 and byte count identify the receiver-side publication carrier; the SHA-256 identifies the audited release carrier used for the coupled red-team fixed-point pass.
 
 ## Scientific fold boundary
 
-The v0.3 paper formalises a cross-domain interface lifecycle built around:
+Version 0.4 retains the v0.3 typed compositional interface contract and closes the previously open Bell/tetrahedral branch at an exact mathematical fixed point. It adds explicit operator/sign-to-target semantic attachment, distinguishes a four-context indexing simplex from Bell-native CHSH tetrahedral facets, and defines the exact Facet-adapted Tetrahedral Bell Chart (TBC):
 
-- typed relational objects and operation-relative closure;
-- three-part evaluation state/value/restoration signatures;
-- protocol-relative exact relation ablation with an explicit unknown state where a lawful exact ablation is unavailable or ambiguous;
-- operation-relative load-bearingness;
-- future-sufficient preserve-or-reopen reuse;
-- recursive promotion under a widened operation family;
-- parent completion as a typed wrapper around domain-native satisfiability/global-consistency machinery;
-- obstruction-localised restorative descent;
-- typed partial instantiation/refusal rather than forced field symmetry.
+```math
+E=V\lambda+\frac{\nu}{4}c,
+\qquad
+\mathbf 1^{\mathsf T}\lambda=1,
+\qquad
+\nu=c^{\mathsf T}E-2.
+```
 
-The principal live MKUFT owner for future-sufficient interface composition is Module 33S7A. Module 28A owns the Bell/CHSH hostile calibration. Existing completion geometry, deformation, null, equation-status, and scientific-claim owners retain their native responsibilities; the paper does not create a second controller for those functions.
+The tetrahedral facet carries three independent affine coordinates and `nu` supplies the fourth correlator degree of freedom. The chart is exact for the declared four-correlator object but does not close full Bell behaviour because marginal information remains in the fibre of `P -> E`.
 
-## Bell/CHSH result
+The natural four-dimensional simplex volume satisfies
 
-The published Phase-0 Bell calibration is a known-answer adversarial test of the interface contract. It establishes useful preserve/refine/reopen examples, including score-to-correlator widening, correlator-to-marginal reopening for general no-signalling questions, and targeted one-correlator ablation/restoration at the stated quantum-correlator scope.
+```math
+\mathcal V_c(E)=\frac{|S_c(E)-2|}{3},
+```
 
-The physical verdict is **NULL** at this stage:
+so the immediate geometric-invariant candidate collapses to known CHSH excess. Because TBC is an invertible reparameterisation, the chart alone cannot constitute new physics. The physical result remains **NULL** after native-owner subtraction: no new Bell inequality, no independent Tsirelson boundary, no new quantum mechanism, and no measurable physical residual are claimed.
 
-- no new Bell inequality;
-- no independent derivation of Tsirelson's bound;
-- no new physical mechanism.
+## Live ownership
 
-Established Bell/Fine, no-signalling, Tsirelson/Landau/Masanes and related native mathematics retain ownership of the physical and quantum boundaries.
-
-## Geometry boundary
-
-An unrestricted four-correlator CHSH object has four independent real coordinates before additional constraints, while an ordinary tetrahedral barycentric point has three independent coordinates. Version 0.3 therefore does not privilege a lossless ordinary tetrahedral carrier for unrestricted CHSH data.
-
-Tetrahedral/simplex or other finite charts remain admissible only as independently justified representations, restricted-submanifold carriers, labelled structures, or target-specific lossy compressions with a lawful reopening route. Any stronger representation or physical claim must earn a separate discriminator.
+- **33S7A** owns future-sufficient preserve-or-guaranteed-reopen semantics and operator-to-target address consequences.
+- **28A** owns the Bell/CHSH/tetrahedral worked formalisation and its null physical verdict.
+- **25** owns protocol-relative deformation and the reparameterisation/representation-control lesson.
+- **32S3** owns completion/fibre/local-to-global custody; the Bell marginal fibre is a calibration of that existing owner, not a new completion controller.
+- **29 / research SOP** retain promotion and claim-discipline authority.
 
 ## Citation
 
-> McLaughlin, Mark Charles. (2026). *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*. Version 0.3. Zenodo. DOI: 10.5281/zenodo.22166005.
+> McLaughlin, Mark Charles. (2026). *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*. Version 0.4. Zenodo. DOI: 10.5281/zenodo.22166468.
 
 ## Object boundary
 
-The publication record owns DOI/version/citation/licence and frozen-carrier identity. The `papers/` route owns reader discovery. Modules 33S7A and 28A are evolving live-canon integrations. Zenodo remains publication custody. None of these objects silently replaces another.
+The publication record owns DOI/version/citation/licence and frozen-carrier identity. The `papers/` route owns reader discovery. Modules 33S7A, 28A, 25 and 32S3 are evolving live-canon integrations. Zenodo remains publication custody. None of these objects silently replaces another.

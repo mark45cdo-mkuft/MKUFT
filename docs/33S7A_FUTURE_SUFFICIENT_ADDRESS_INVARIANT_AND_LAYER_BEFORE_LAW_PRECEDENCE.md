@@ -8,13 +8,13 @@
 **Experimental owner:** [33S7 — Future-Splitting State Recruitment](33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)  
 **Ambiguity/calibration support:** [21 — Ambiguity Dynamics and Manoeuvre Space](21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md), [29 — Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)  
 **Layer-Before-Law parent:** [26 — Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)  
-**Compositional-interface publication:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*, v0.3, DOI `10.5281/zenodo.22166005`; previous v0.2 DOI `10.5281/zenodo.22164562`  
-**Publication record:** [Cross-Domain Compositional Schema v0.3](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)  
+**Compositional-interface publication:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*, v0.4, DOI `10.5281/zenodo.22166468`; prior v0.3 DOI `10.5281/zenodo.22166005`; earlier v0.2 DOI `10.5281/zenodo.22164562`  
+**Publication record:** [Cross-Domain Compositional Schema v0.4](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)  
 **Bell/CHSH calibration companion:** [28A — Cross-Domain Compositional Schema Bell/CHSH Calibration](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md)  
 **AAF publication:** DOI `10.5281/zenodo.22031333`  
 **FSSR publication:** DOI `10.5281/zenodo.22058303`  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
-**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated after publication of Cross-Domain Compositional Schema v0.3. It does not retroactively alter a frozen publication, assert a new mathematical theorem, privilege a simplex/tetrahedron as physical geometry, or claim experimental confirmation of a universal law of nature.
+**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated through the published Cross-Domain Compositional Schema v0.4. It does not retroactively alter a frozen publication, treat the v0.4 Bell chart as a universal ontology, or promote an invertible representation into a physical mechanism.
 
 ## 1. Purpose
 
@@ -208,6 +208,46 @@ Direct preservation for an operation is correspondingly
 
 and the preserve-or-reopen contract remains operation-relative. These expressions sharpen the existing FSAI fold; they do not create an independent general theory of satisfiability, causation, or physical intervention.
 
+
+### Published v0.4 Bell-specific closure of the geometry branch
+
+Version 0.4 does not change the general FSAI law; it gives the preserve/reopen rule a stronger Bell-native calibration. Four Bell context labels may be organised as an abstract indexing simplex with Boolean face/restriction lattice `2^C`, but that address object is distinct from the correlator carrier. Separately, each CHSH facet of the local correlator polytope is a genuine three-dimensional tetrahedron inside `R^4`.
+
+For a selected CHSH facet orientation `c`, the published Facet-adapted Tetrahedral Bell Chart uses
+
+```math
+\nu=c^{\mathsf T}E-2,
+\qquad
+\Pi_c(E)=E-\frac{\nu}{4}c,
+\qquad
+\lambda=V^{-1}\Pi_c(E),
+```
+
+with exact reconstruction
+
+```math
+E=V\lambda+\frac{\nu}{4}c,
+\qquad
+\mathbf1^{\mathsf T}\lambda=1.
+```
+
+The three-coordinate tetrahedral facet address plus one transverse coordinate closes the four-correlator object exactly, while the same interface does **not** close full Bell behaviour: local marginals remain in the fibre of `P -> E` and must be reopened when a wider operation asks a marginal/no-signalling question.
+
+The deeper FSAI lesson is therefore not “tetrahedra are privileged”. It is:
+
+```text
+representation closes declared target exactly
+→ PRESERVE at that target
+
+wider target depends on omitted fibre coordinate
+→ REOPEN the exact lower owner
+
+invertible reparameterisation changes no native prediction
+→ do not promote coordinate structure into new law
+```
+
+The natural tetrahedral hypervolume candidate in v0.4 collapses to `|S-2|/3`, so it supplies no independent physical invariant. A geometry can be mathematically exact and operationally useful while remaining physically null after native-owner subtraction.
+
 ## 3. Load-bearing membership and minimum sufficiency
 
 Let the closure residual be the parent FSSR/AAF object
@@ -287,7 +327,7 @@ same declared state
 
 FSAI states the state-sufficiency commitment. LBLP states the order of scientific diagnosis. FSSR supplies the adversarial experimental procedure and prospective timing test.
 
-For compositional interfaces, a corresponding calibration freezes `F`, `C_F`, the native target semantics, the ablation, and the comparator before the target decision is revealed. The test asks whether the same preserve/refine/reopen/refuse logic survives without post-hoc role invention. [Module 28A](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) supplies the Bell/CHSH hostile calibration of this form. Its executed Phase-0 result is now also reported in the published Cross-Domain Compositional Schema v0.3; the live module remains the detailed calibration/reproducibility owner.
+For compositional interfaces, a corresponding calibration freezes `F`, `C_F`, the native target semantics, the ablation, and the comparator before the target decision is revealed. The test asks whether the same preserve/refine/reopen/refuse logic survives without post-hoc role invention. [Module 28A](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) supplies the Bell/CHSH hostile calibration of this form. Its executed Phase-0 result is now also reported in the published Cross-Domain Compositional Schema v0.4; Module 28A remains the detailed Bell/tetrahedral calibration and reproducibility owner.
 
 ## 5A. Closure, reopening, and operational certainty
 

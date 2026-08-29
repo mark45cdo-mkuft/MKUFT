@@ -4,7 +4,7 @@
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
 **MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
-**Compositional-interface calibration:** [Cross-Domain Compositional Schema v0.3](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md), DOI `10.5281/zenodo.22166005`; future-sufficiency ownership remains in [33S7A](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md).  
+**Compositional-interface calibration:** [Cross-Domain Compositional Schema v0.4](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md), DOI `10.5281/zenodo.22166468`; future-sufficiency ownership remains in [33S7A](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md), with the Bell/tetrahedral worked owner in [28A](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md).  
 
 **Status:** public structural audit module; scientific and metaphysical claims are kept explicitly separate.
 
@@ -180,6 +180,23 @@ Unknown is a scientific result. It must not be converted into `0` merely because
 Where a physical causal claim is intended, the intervention must additionally satisfy the native domain's causal and confounding requirements. A representation-level removal can establish architectural load without by itself establishing a new physical mechanism.
 
 Module 33S7A owns the corresponding preserve/reopen consequence for future-sufficient interfaces. Module 25 owns only the deformation semantics, remove/restore discipline, redundancy controls, and classification burden.
+
+
+### 7.3B Reparameterisation-control deformation
+
+The published Cross-Domain v0.4 Bell continuation adds a specific null control to the deformation family. A candidate geometry may survive exact ablation and reconstruction yet still be only a change of coordinates. Where a proposed representation `Phi` is bijective on the tested object, compare every claimed prediction, admissibility decision, and statistic under `Phi` and `Phi^{-1}` before assigning reality or generative load.
+
+```text
+same physical object
+→ exact invertible reparameterisation
+→ same native predictions / admissibility / statistics
+→ representation may carry structural or ergonomic load
+→ no independent reality-load or new-physics promotion from coordinate choice alone
+```
+
+The Bell TBC is the worked calibration: the facet-plus-normal chart reconstructs the four-correlator object exactly, but its natural four-volume reduces to a rescaling of CHSH excess. The chart therefore earns structural/addressing utility without earning an independent physical invariant.
+
+If a representation claim seeks promotion beyond bookkeeping, require a separately named gain under matched information and resources: lower reconstruction burden, better omission detection, smaller correct descent set, a new valid constraint not imported from the native owner, or a prospective measurable discriminator. Otherwise classify the geometry as a representation layer and keep native scientific ownership unchanged.
 
 ### 7.4 Temporal maintenance-path deformation
 

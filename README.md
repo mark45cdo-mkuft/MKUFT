@@ -188,3 +188,15 @@ The 33A novelty audit applies the same discipline to Modules 33S2/33S3: establis
 - [Rendering and publication integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md)
 
 Historical deposits and current GitHub files may have different version and licence identities. The exact object being cited or reused controls.
+
+## Cross-Domain Compositional Schema v0.4 — current publication update
+
+- current version DOI: `10.5281/zenodo.22166468`
+- prior v0.3 DOI: `10.5281/zenodo.22166005`
+- concept DOI: `10.5281/zenodo.22164561`
+- reader route: `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md`
+- publication record: `CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md`
+- live future-sufficiency owner: `docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md`
+- live Bell/tetrahedral owner: `docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md`
+
+Version 0.4 closes the tetrahedral Bell branch as an exact facet-plus-normal coordinate construction on native CHSH geometry. The chart is an invertible reparameterisation, the natural four-volume collapses to CHSH excess, and the physical residual remains NULL. The v0.3 and v0.2 routes remain historical frozen versions.

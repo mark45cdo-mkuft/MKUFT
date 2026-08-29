@@ -268,3 +268,15 @@ MKUFT is scientifically strongest when neighbouring science increases its burden
 > Established science defines the baseline. Structural recurrence suggests a question. MKUFT must then name the extra variable or relation, predict the difference, survive the strongest alternative, and accept reduction if the difference does not appear.
 
 See [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md), [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md), [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md), [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md), [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md), [Dynamic Interface Promotion](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md), [Relational Closure and Law Descent](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md), [Cross-Scale Performance and Recoverability](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md), [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md), [Module 32 Novelty Audit](docs/32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md), [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), and [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
+
+## Cross-Domain Compositional Schema v0.4 — current publication update
+
+- current version DOI: `10.5281/zenodo.22166468`
+- prior v0.3 DOI: `10.5281/zenodo.22166005`
+- concept DOI: `10.5281/zenodo.22164561`
+- reader route: `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md`
+- publication record: `CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md`
+- live future-sufficiency owner: `docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md`
+- live Bell/tetrahedral owner: `docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md`
+
+Version 0.4 closes the tetrahedral Bell branch as an exact facet-plus-normal coordinate construction on native CHSH geometry. The chart is an invertible reparameterisation, the natural four-volume collapses to CHSH excess, and the physical residual remains NULL. The v0.3 and v0.2 routes remain historical frozen versions.

@@ -170,3 +170,12 @@ For AAF, the `docs/33S6...` object is the evolving MKUFT module fold, the `paper
 The existing top-level PDF files remain repository mirrors of the earlier deposited PDF set; no additional top-level binary is invented merely because a new DOI paper exists. ATLD 2 v2.0, Voynich v2.0, Bell v1.0, and Cross-Domain v0.3 are additionally represented by explicit frozen identity/checksum records and current public routes where an exact byte-identical GitHub binary mirror is not independently established. Zenodo remains publication custody for every frozen DOI object.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier, discovery, and DOI-freeze rules.
+
+## Cross-Domain Compositional Schema v0.4
+
+- DOI: `10.5281/zenodo.22166468`
+- reader: `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md`
+- identity: `publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md`
+- MD5: `d5a56561e82ca5d64a8766ca8122a956`
+- SHA-256: `bcb5c7618962bac98c2ae0ad097f7bba8e9758d4c86879b6546d037736c73b83`
+- frozen carrier: 31 pages; 394,810 bytes
