@@ -1,0 +1,26 @@
+name: Cross-Domain v0.3 branch verification
+
+on:
+  push:
+    branches: [fold-cross-domain-v0.3-20260829]
+
+permissions:
+  contents: read
+
+jobs:
+  integrity-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Self-test the Markdown rendering guard
+        run: python tools/test_markdown_rendering_checker.py
+      - name: Check user-facing Markdown rendering contract
+        run: python tools/check_markdown_rendering.py
+      - name: Check publication discovery and DOI custody
+        run: python tools/check_publication_routes.py
+      - name: Check ATLD 2 publication and canon-fold routes
+        run: python tools/check_atld2_publication_routes.py
+      - name: Self-test the research-object identity guard
+        run: python tools/test_research_object_identity_checker.py
+      - name: Check research-object identity and release manifests
+        run: python tools/check_research_object_identity.py
