@@ -24,6 +24,16 @@ FSSR_VERSION = "10.5281/zenodo.22058303"
 FSSR_CONCEPT = "10.5281/zenodo.22058302"
 FSSR_PAPER = "2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md"
 FSSR_MODULE = "33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md"
+BELL_VERSION = "10.5281/zenodo.22100926"
+BELL_CONCEPT = "10.5281/zenodo.22100925"
+BELL_PAPER = "2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md"
+CROSS_DOMAIN_VERSION = "10.5281/zenodo.22166005"
+CROSS_DOMAIN_PREVIOUS = "10.5281/zenodo.22164562"
+CROSS_DOMAIN_PAPER = "2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md"
+CROSS_DOMAIN_MODULE = "33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md"
+CROSS_DOMAIN_BELL_MODULE = "28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md"
+CROSS_DOMAIN_MD5 = "985801aceccb3ce3effe6da1f4d1d496"
+CROSS_DOMAIN_SHA256 = "fd4459711d2f1210b2c770c38611554c0e10a8e1748063fc1d78d0a4ef607c5b"
 
 FROZEN_PDF_MIRRORS = [
     "publications/MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf",
@@ -56,6 +66,15 @@ REQUIRED = {
         VOYNICH_CURRENT_PAPER,
         ATLD_VERSION,
         FSSR_VERSION,
+        BELL_VERSION,
+        BELL_CONCEPT,
+        CROSS_DOMAIN_VERSION,
+        CROSS_DOMAIN_PREVIOUS,
+        CROSS_DOMAIN_PAPER,
+        CROSS_DOMAIN_MODULE,
+        CROSS_DOMAIN_BELL_MODULE,
+        "CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md",
+        "BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md",
         "FSSR_STANDALONE_PUBLICATION.md",
         FSSR_PAPER,
         FSSR_MODULE,
@@ -78,6 +97,13 @@ REQUIRED = {
         RCC_VERSION,
         AAF_VERSION,
         FSSR_VERSION,
+        BELL_VERSION,
+        BELL_CONCEPT,
+        CROSS_DOMAIN_VERSION,
+        CROSS_DOMAIN_PREVIOUS,
+        CROSS_DOMAIN_PAPER,
+        "CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md",
+        "BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md",
         "FSSR_STANDALONE_PUBLICATION.md",
         FSSR_PAPER,
         FSSR_MODULE,
@@ -104,10 +130,17 @@ REQUIRED = {
         AAF_CONCEPT,
         FSSR_VERSION,
         FSSR_CONCEPT,
+        BELL_VERSION,
+        BELL_CONCEPT,
+        CROSS_DOMAIN_VERSION,
+        CROSS_DOMAIN_PREVIOUS,
+        CROSS_DOMAIN_PAPER,
         "papers/README.md",
         "Future-Splitting State Recruitment",
         "Layer Before Law",
         "Recursive Constraint Closure",
+        "Cross-Domain Compositional Schema",
+        "Bell Constraints as Typed Boundaries",
     ],
     "DISCOVERY_KEYWORDS.md": [
         VOYNICH_CURRENT,
@@ -121,10 +154,20 @@ REQUIRED = {
         AAF_CONCEPT,
         FSSR_VERSION,
         FSSR_CONCEPT,
+        BELL_VERSION,
+        BELL_CONCEPT,
+        CROSS_DOMAIN_VERSION,
+        CROSS_DOMAIN_PREVIOUS,
+        CROSS_DOMAIN_PAPER,
+        CROSS_DOMAIN_MODULE,
+        CROSS_DOMAIN_BELL_MODULE,
         "Future-Splitting State Recruitment",
         "FSSR",
         FSSR_MODULE,
         "Addressing State Flow",
+        "Cross-Domain Compositional Schema",
+        "exact relation ablation",
+        "Bell Constraints as Typed Boundaries",
     ],
     "PROVENANCE_DOI_AND_ATTRIBUTION.md": [
         MKUFT_VERSION,
@@ -142,6 +185,15 @@ REQUIRED = {
         AAF_CONCEPT,
         FSSR_VERSION,
         FSSR_CONCEPT,
+        BELL_VERSION,
+        BELL_CONCEPT,
+        CROSS_DOMAIN_VERSION,
+        CROSS_DOMAIN_PREVIOUS,
+        CROSS_DOMAIN_PAPER,
+        CROSS_DOMAIN_MD5,
+        CROSS_DOMAIN_SHA256,
+        "CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md",
+        "BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md",
         "FSSR_STANDALONE_PUBLICATION.md",
         f"docs/{FSSR_MODULE}",
         "VOYNICH_STANDALONE_PUBLICATION.md",
@@ -236,6 +288,57 @@ REQUIRED = {
         "state-recruitment event",
         "33S6",
     ],
+    "BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md": [
+        BELL_VERSION,
+        BELL_CONCEPT,
+        BELL_PAPER,
+        "CC BY 4.0",
+    ],
+    f"papers/{BELL_PAPER}": [
+        BELL_VERSION,
+        BELL_CONCEPT,
+        "Bell Constraints as Typed Boundaries",
+    ],
+    "CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md": [
+        CROSS_DOMAIN_VERSION,
+        CROSS_DOMAIN_PREVIOUS,
+        CROSS_DOMAIN_PAPER,
+        CROSS_DOMAIN_MD5,
+        CROSS_DOMAIN_SHA256,
+        CROSS_DOMAIN_MODULE,
+        CROSS_DOMAIN_BELL_MODULE,
+        "CC BY 4.0",
+    ],
+    f"papers/{CROSS_DOMAIN_PAPER}": [
+        CROSS_DOMAIN_VERSION,
+        CROSS_DOMAIN_PREVIOUS,
+        "Cross-Domain Compositional Schema",
+        CROSS_DOMAIN_MODULE,
+        CROSS_DOMAIN_BELL_MODULE,
+        "no new Bell inequality",
+    ],
+    f"docs/{CROSS_DOMAIN_MODULE}": [
+        CROSS_DOMAIN_VERSION,
+        CROSS_DOMAIN_PREVIOUS,
+        "Cross-Domain Compositional Schema",
+        "\\operatorname{Eval}",
+        "\\operatorname{LB}",
+    ],
+    f"docs/{CROSS_DOMAIN_BELL_MODULE}": [
+        CROSS_DOMAIN_VERSION,
+        CROSS_DOMAIN_PREVIOUS,
+        BELL_VERSION,
+        "valid quantum-correlator points",
+        "TETRAHEDRAL PRIVILEGE REJECTED",
+    ],
+    "publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3/README.md": [
+        CROSS_DOMAIN_VERSION,
+        CROSS_DOMAIN_PREVIOUS,
+        CROSS_DOMAIN_MD5,
+        CROSS_DOMAIN_SHA256,
+        "143,182",
+        "23",
+    ],
     "publications/README.md": [
         VOYNICH_VERSION,
         ATLD_VERSION,
@@ -243,6 +346,14 @@ REQUIRED = {
         FSSR_CONCEPT,
         FSSR_PAPER,
         FSSR_MODULE,
+        BELL_VERSION,
+        BELL_CONCEPT,
+        CROSS_DOMAIN_VERSION,
+        CROSS_DOMAIN_PREVIOUS,
+        CROSS_DOMAIN_MD5,
+        CROSS_DOMAIN_PAPER,
+        "CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md",
+        "BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md",
         "Layer Before Law",
         "Recursive Constraint Closure",
         "MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf",
@@ -323,14 +434,24 @@ def main():
             VOYNICH_CONCEPT,
             VOYNICH_VERSION,
             ATLD_VERSION,
+            BELL_VERSION,
+            BELL_CONCEPT,
+            CROSS_DOMAIN_VERSION,
+            CROSS_DOMAIN_PREVIOUS,
         ):
             url = f"https://doi.org/{doi}"
             if url not in citations:
                 failures.append(f"codemeta.json: missing citation {url}")
         subjects = set(codemeta.get("subjectOf", []))
         current_voynich_url = f"https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/{VOYNICH_CURRENT_PAPER}"
+        current_cross_domain_url = f"https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/{CROSS_DOMAIN_PAPER}"
+        current_bell_url = f"https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/{BELL_PAPER}"
         if current_voynich_url not in subjects:
             failures.append("codemeta.json: current Voynich v2 paper route missing")
+        if current_cross_domain_url not in subjects:
+            failures.append("codemeta.json: current Cross-Domain v0.3 paper route missing")
+        if current_bell_url not in subjects:
+            failures.append("codemeta.json: Bell v1.0 paper route missing")
         author = codemeta.get("author", {})
         if author.get("identifier") != "https://orcid.org/0009-0005-7736-1511":
             failures.append("codemeta.json: author ORCID route missing or incorrect")
@@ -364,6 +485,10 @@ def main():
         failures.append("missing live SIPO capstone module")
     if not (ROOT / f"docs/{FSSR_MODULE}").exists():
         failures.append("missing live FSSR Module 33S7")
+    if not (ROOT / f"docs/{CROSS_DOMAIN_MODULE}").exists():
+        failures.append("missing live Cross-Domain future-sufficiency fold Module 33S7A")
+    if not (ROOT / f"docs/{CROSS_DOMAIN_BELL_MODULE}").exists():
+        failures.append("missing live Cross-Domain Bell calibration Module 28A")
     if (ROOT / "papers/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md").exists():
         failures.append("SIPO capstone has been silently promoted into papers without an explicit publication object")
 
@@ -380,7 +505,7 @@ def main():
             print(f"FAIL: {failure}")
         return 1
 
-    print("PASS: publication routes, DOI custody, historical/current Voynich version lineage, deposited PDF mirrors, discovery metadata, rights routing, and module/paper boundaries are intact.")
+    print("PASS: publication routes, DOI custody, Bell/Cross-Domain folds, historical/current version lineages, deposited PDF mirrors, discovery metadata, rights routing, and module/paper boundaries are intact.")
     return 0
 
 
