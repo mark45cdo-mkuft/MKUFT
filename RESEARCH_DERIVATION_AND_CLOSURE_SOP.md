@@ -2,8 +2,8 @@
 
 **Status:** standing cross-stack research and publication SOP  
 **Owner:** Mark Charles McLaughlin  
-**Scope:** derivation, red-team review, empirical promotion, standalone-paper creation, canon folding, release identity, and post-write closure  
-**Companion controls:** [`docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md`](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), [`docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md`](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md), [`docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md), [`RENDERING_AND_PUBLICATION_INTEGRITY.md`](RENDERING_AND_PUBLICATION_INTEGRITY.md), and [`docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md`](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
+**Scope:** derivation, red-team review, empirical promotion, standalone-paper creation, canon folding, release identity, recursive learning, and post-write closure  
+**Companion controls:** [`docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md`](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), [`docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md`](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md), [`docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md`](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md), [`docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md), [`RENDERING_AND_PUBLICATION_INTEGRITY.md`](RENDERING_AND_PUBLICATION_INTEGRITY.md), and [`docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md`](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
 
 ## 1. Governing rule
 
@@ -320,6 +320,186 @@ new permanent anatomy = expensive
 
 This gate is recursive learning, not anti-learning. It prevents every useful correction from turning into another permanent object while leaving a clear promotion path when a residual repeatedly survives the existing body.
 
+## 17A. Recursive Learning Process — wiring, propagation, and fixed-point closure
+
+The no-new-anatomy gate is necessary but not sufficient for durable learning. A lesson has not been learned merely because a good rule can be stated or because a new file exists. The candidate must be compared with the already-earned body, inserted at the correct owner, propagated through changed behaviour, and shown to alter later performance for the relation that justified it.
+
+Use this ordered loop for corrections, new papers, cross-domain transfers, repeated failures, unexpectedly successful moves, user-supplied insights, and architecture/science refinements:
+
+```text
+OBSERVATION / CORRECTION / RESULT
+→ CANDIDATE LESSON
+→ BASELINE RECONSTRUCTION THROUGH EXISTING OWNERS
+→ STRONGEST FAIR PRESSURE / PRIOR-ART SUBTRACTION
+→ RESIDUAL OR NULL
+→ RESIDUAL ABLATION / RESTORATION WHERE LAWFUL
+→ VERDICT + EXACT INSERTION ADDRESS
+→ SMALLEST DEPENDENCY-COMPLETE PROPAGATION
+→ RE-TRAVERSE EVERY NON-NULL AFFECTED DEPENDENCY
+→ CONTRADICTION / REGRESSION / FORWARD-BEHAVIOUR TEST
+→ PRESERVE PROVENANCE + REOPENING CONDITION
+→ REPEAT FROM THE CHANGED BODY
+→ CLOSE ONLY WHEN ANOTHER LAWFUL PASS PRODUCES NO LOAD-BEARING GAIN.
+```
+
+### 17A.1 Baseline reconstruction before novelty
+
+Before asking whether a candidate is new, ask whether the current body can already reconstruct the behaviour from one owner or a lawful coalition of existing owners.
+
+```text
+candidate relation
+→ existing owner / derived owner / coalition recovery
+→ same consequential behaviour?
+```
+
+If **yes**, classify the event at the address that actually failed:
+
+- retrieval/recruitment failure;
+- under-wiring or missing dependency coupling;
+- stale prose or discovery route;
+- insufficient instrumentation/visibility;
+- provenance/attribution clarification;
+- useful independent rediscovery or coverage stress.
+
+Do not create new anatomy merely because the relation arrived through a vivid, independent, geometric, human, AI, or cross-domain route.
+
+If the body can recover the relation only after a material new coupling between existing owners is made explicit, repair that coupling. Existing ingredients do not make the missing composition fictitious.
+
+### 17A.2 Residual operational ablation second
+
+Only after baseline reconstruction fails to close the candidate should the remaining residual be tested as possible new load-bearing structure.
+
+Hold the parent, evidence, task, resource envelope and relevant address fixed as far as the domain permits. Remove, blur, scramble, or substitute **only the residual distinction** under test.
+
+A residual earns structural weight when:
+
+```text
+residual present
+→ target distinction / capability / closure survives
+
+residual ablated
+→ predicted distinction collapses or deforms
+
+residual lawfully restored
+→ predicted discrimination returns
+```
+
+No material loss means the candidate is a passenger at that tested address. No lawful recovery means the proposed boundary is wrong, incomplete, or confounded. Use Module 25C no-smuggling, coalition, causal-shadow and held-out controls before promotion.
+
+This ordering is mandatory:
+
+> **First prove the existing body cannot already do the work. Then prove the surviving residual actually does work.**
+
+### 17A.3 Insertion-address rule
+
+A surviving lesson is inserted at the smallest existing owner whose declared function actually changes.
+
+Do not select the destination by keyword resemblance or where the discovery happened. Select it by ownership of the changed relation.
+
+Classify the mutation horizon before writing:
+
+- **SMALL** — one owner can absorb the lesson and every reachable neighbour remains behaviourally null. Change that owner only.
+- **INTERMEDIATE** — the owner changes states, triggers, assumptions, received objects, stopping rules, or outputs of a bounded set of dependencies. Propagate through every such non-null dependency and keep null neighbours textually untouched.
+- **ADVANCED** — an existing owner/coalition cannot carry the residual without semantic conflict, false authority, duplicated control, or lost discrimination; a new owner or formal object may be eligible only after the no-new-anatomy, prior-art, ablation/restoration, held-out and collision burdens survive.
+
+`Advanced` means a larger **validated dependency horizon**, not more prose, more files, or more abstraction.
+
+### 17A.4 Directional propagation audit
+
+For every accepted persistent change, map at least:
+
+```text
+CHANGED OWNER / RELATION
+→ upstream premises and source objects it depends on
+→ lateral owners with overlapping authority or collision risk
+→ downstream owners receiving a changed state / interpretation / route
+→ feedback, restoration, reopening and closure owners
+→ evidence / permission / lineage / publication boundaries
+→ reconstitution, retrieval, index or certification surfaces where omission would make the body falsely appear complete.
+```
+
+An edge is non-null when the new lesson can change recruitment, address, admissible action, scientific claim, evidence interpretation, dependency set, restoration route, stopping condition, publication state, or future behaviour. Matching words alone do not create a dependency; absence of matching words does not prove a null edge.
+
+Test both directions on every non-null coupling:
+
+```text
+NEW / CHANGED RELATION → EXISTING OWNER
+EXISTING OWNER → NEW / CHANGED RELATION
+```
+
+Reject authority theft, duplicate controllers, hidden sequencing conflicts, circular self-certification, evidence inflation, permission migration, chronology rewrite, suppression by a stale older owner, or recursive ceremony with no named gain.
+
+### 17A.5 Coupled human↔AI learning custody
+
+Where the research process itself is part of the learning object, keep contribution roles separately addressable when they matter to provenance or future reconstruction:
+
+```text
+parent-changing direction / recognition
+representation or temporary handle
+formalisation / calculation / search
+counterexample / deformation
+correction / reopening
+integration / propagation
+result that only emerges from the coupled loop.
+```
+
+Either participant may originate a useful next relation. Initiative does not transfer evidence authority, publication authority, scientific truth, or action permission. A state-changing correction from either side must return to the exact live parent; the updated state then constrains the next lawful transition.
+
+Do not flatten coupled gain into two independent evidence sources, and do not rewrite an uncertain source-of-movement into a tidy attribution story.
+
+### 17A.6 Forward proof — learned for the right reason
+
+A written rule is not behavioural proof.
+
+After propagation, replay the exposing object and at least one neighbouring collision/null case. Then use a prospective or held-out case where feasible.
+
+The lesson passes only when later behaviour changes **for the relation the lesson claims to encode**, rather than because the answer, test fixture, destination, or hidden privileged cue was carried forward.
+
+Where practical:
+
+```text
+pre-change body + exposing case
+versus
+post-change body + matched case
+→ named behavioural delta
+→ nearest null remains unchanged
+```
+
+If the changed body merely recites the new terminology while making the same old mistake, learning is not closed.
+
+### 17A.7 Provenance, history, and reopening
+
+Preserve enough history to answer:
+
+- what observation/correction exposed the candidate;
+- what the earned baseline already contained;
+- what residual survived subtraction;
+- which tests promoted, narrowed, merged, or killed it;
+- where it was inserted;
+- which dependencies were non-null and which were explicitly null;
+- what future evidence would reopen the decision.
+
+Do not use provenance as runtime burden where the current owner already carries the relation. Preserve it so later re-entry can distinguish an earned rule from a lucky wording coincidence or a backfilled narrative.
+
+### 17A.8 Recursive fixed point
+
+After every meaningful mutation, start the audit again from the **changed body**, not from the pristine pre-learning state.
+
+A second pass may expose a coupling or simplification that did not exist before the first repair. Continue through small, intermediate, and advanced horizons only while another reachable operation can change a load-bearing parent field.
+
+Stop when:
+
+```text
+another lawful pass
+→ no new owner conflict
+→ no new changed dependency
+→ no new discriminator/falsifier
+→ no further safe compression
+→ no remaining parent-changing unresolved branch.
+```
+
+That is learning fixed-point closure. Pass count, elegance, excitement, or exhaustion is not the stop rule.
+
 ## 18. Closure language
 
 Use **closed** only when the applicable evidence has actually been observed.
@@ -393,4 +573,4 @@ When ordinary prose uses “certain”, bind it to the exact operational scope t
 
 ## Standing invariant
 
-> **Smallest sufficient object → hostile subtraction → independent test → typed repair/deformation → residual novelty gate → scale/lineage custody → silent authoring hygiene → exact publication and release identity → calibrated operational closure with an explicit reopening condition.**
+> **Smallest sufficient object → hostile subtraction → baseline reconstruction → residual ablation/restoration → independent test → exact insertion address → dependency-complete propagation → re-traversal from the changed body → typed repair/deformation → residual novelty gate → scale/lineage custody → silent authoring hygiene → exact publication and release identity → calibrated operational closure with explicit provenance and a reopening condition.**
