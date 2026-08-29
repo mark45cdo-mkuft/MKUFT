@@ -19,6 +19,60 @@ jobs:
       - name: Apply fold
         run: python tools/_apply_cross_domain_v04_fold.py
 
+      - name: Normalize v0.4 custody routes
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          reader = "2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md"
+          doi = "10.5281/zenodo.22166468"
+          md5 = "d5a56561e82ca5d64a8766ca8122a956"
+          sha = "bcb5c7618962bac98c2ae0ad097f7bba8e9758d4c86879b6546d037736c73b83"
+
+          prov = Path("PROVENANCE_DOI_AND_ATTRIBUTION.md")
+          s = prov.read_text(encoding="utf-8")
+          if reader not in s:
+              s += "\nReader route: `papers/" + reader + "`\n"
+              prov.write_text(s, encoding="utf-8")
+
+          pubs = Path("publications/README.md")
+          s = pubs.read_text(encoding="utf-8")
+          key = "## Cross-Domain Compositional Schema v0.4"
+          if key not in s:
+              s += "\n\n" + key + "\n\n"
+              s += "- DOI: `" + doi + "`\n"
+              s += "- reader: `papers/" + reader + "`\n"
+              s += "- identity: `publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md`\n"
+              s += "- MD5: `" + md5 + "`\n"
+              s += "- SHA-256: `" + sha + "`\n"
+              s += "- frozen carrier: 31 pages; 394,810 bytes\n"
+              pubs.write_text(s, encoding="utf-8")
+
+          checker = Path("tools/check_publication_routes.py")
+          s = checker.read_text(encoding="utf-8")
+          old = '''    "publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3/README.md": [
+              CROSS_DOMAIN_VERSION,
+              CROSS_DOMAIN_PREVIOUS,
+              CROSS_DOMAIN_MD5,
+              CROSS_DOMAIN_SHA256,
+              "143,182",
+              "23",
+          ],'''
+          new = '''    "publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md": [
+              CROSS_DOMAIN_VERSION,
+              CROSS_DOMAIN_PREVIOUS,
+              CROSS_DOMAIN_CONCEPT,
+              CROSS_DOMAIN_MD5,
+              CROSS_DOMAIN_SHA256,
+              "394810",
+              "31",
+          ],'''
+          if old not in s:
+              raise SystemExit("old Cross-Domain identity checker block not found")
+          checker.write_text(s.replace(old, new, 1), encoding="utf-8")
+          PY
+
       - name: Run repository integrity gates
         run: |
           python tools/test_markdown_rendering_checker.py
