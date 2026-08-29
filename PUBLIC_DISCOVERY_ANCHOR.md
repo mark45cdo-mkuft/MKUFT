@@ -23,6 +23,10 @@ This page provides a compact identity record for public search, citation, and di
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 - [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+- [Cross-Domain Compositional Schema v0.3 Publication Record](CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)
+- [Cross-Domain Compositional Schema v0.3 Paper Route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md)
+- [Bell Constraints Publication Record](BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md)
+- [Bell Constraints Paper Route](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md)
 - [ATLD Publication Family](ATLD_STANDALONE_PUBLICATION.md)
 - [ATLD 2 v2.0 GitHub paper route](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)
 - [ATLD 2 canonical measurement fold — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
@@ -40,6 +44,8 @@ This page provides a compact identity record for public search, citation, and di
 - **MKUFT current principal publication, v2:** `10.5281/zenodo.21973064`
 - **MKUFT concept DOI:** `10.5281/zenodo.17780565`
 - **MKUFT historical v1:** `10.5281/zenodo.17780566`
+- **Cross-Domain Compositional Schema v0.3:** version DOI `10.5281/zenodo.22166005`; previous v0.2 version DOI `10.5281/zenodo.22164562`
+- **Bell Constraints as Typed Boundaries v1.0:** version DOI `10.5281/zenodo.22100926`; concept DOI `10.5281/zenodo.22100925`
 - **ATLD 2 v2.0:** version DOI `10.5281/zenodo.22068803`; ATLD concept DOI `10.5281/zenodo.21341520`; predecessor v1.0 DOI `10.5281/zenodo.21341521`
 - **Future-Splitting State Recruitment v1.0:** version DOI `10.5281/zenodo.22058303`; concept DOI `10.5281/zenodo.22058302`
 - **Addressed Admissible Futures v0.1:** version DOI `10.5281/zenodo.22031333`; concept DOI `10.5281/zenodo.22031332`
@@ -51,6 +57,10 @@ This page provides a compact identity record for public search, citation, and di
 ## Public search fingerprints
 
 MKUFT · A Relational Architecture for Physical Law and Cross-Scale Dynamics · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.21973064 · concept DOI 10.5281/zenodo.17780565 · GitHub `mark45cdo-mkuft/MKUFT`
+
+Cross-Domain Compositional Schema · Future-Sufficient Interfaces · Load-Bearing Relations · Preserve-or-Reopen Reuse · exact relation ablation · restorative descent · parent completion · recursive reuse · Bell CHSH hostile calibration · baseline parity · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22166005 · previous v0.2 DOI 10.5281/zenodo.22164562
+
+Bell Constraints as Typed Boundaries · Relation Access Completion Scale · Bell local factorisation · no-signalling · completion geometry · null independent new-Bell-physics result · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22100926 · concept DOI 10.5281/zenodo.22100925
 
 Active Traversal and Load-Bearing Dependency II · ATLD 2 · residual coordinate identification · self-auditing matched-control evaluation · long-horizon AI systems · object custody · action authority · future-sufficient continuity · receiver closure · fixed-point closure · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22068803 · concept DOI 10.5281/zenodo.21341520
 
@@ -71,6 +81,21 @@ ATLD v1.0 · Active Traversal and Load-Bearing Dependency · predecessor version
 - unified field theory
 - S–I–P–O typed architecture
 - relational architecture
+- Cross-Domain Compositional Schema
+- future-sufficient interface
+- preserve-or-reopen reuse
+- exact relation ablation
+- load-bearing relation
+- restorative descent
+- parent completion
+- typed partial instantiation
+- recursive reuse
+- Bell/CHSH hostile calibration
+- Bell Constraints as Typed Boundaries
+- Bell-local factorisation
+- no-signalling
+- tetrahedral representation boundary
+- baseline parity
 - ATLD 2
 - Active Traversal and Load-Bearing Dependency II
 - residual coordinate identification
@@ -97,7 +122,6 @@ ATLD v1.0 · Active Traversal and Load-Bearing Dependency · predecessor version
 - admissible future
 - restorative reachability
 - restorative-future reserve
-- load-bearing relation
 - recursive readdressing
 - Layer Before Law
 - quantum gravity
@@ -121,4 +145,4 @@ ATLD v1.0 · Active Traversal and Load-Bearing Dependency · predecessor version
 
 ## Supporting public archive
 
-[MKUFT supporting archive on Google Drive](https://drive.google.com/drive/folders/1DvWkzpSYmkHD-QY4sZ-WTfU2S2xrJCWq?usp=drive_link)
+[MKUFT supporting archive on Google Drive](https://drive.google.com/drive/folders/1qlMguzye9Ox5BYLr8anXo_caKvc2ERP9)
