@@ -8,12 +8,13 @@
 **Experimental owner:** [33S7 — Future-Splitting State Recruitment](33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)  
 **Ambiguity/calibration support:** [21 — Ambiguity Dynamics and Manoeuvre Space](21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md), [29 — Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)  
 **Layer-Before-Law parent:** [26 — Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)  
-**Compositional-interface publication:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Typed Partial Instantiation, and Minimal Restorative Descent*, v0.2, DOI `10.5281/zenodo.22164562`  
+**Compositional-interface publication:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*, v0.3, DOI `10.5281/zenodo.22166005`; previous v0.2 DOI `10.5281/zenodo.22164562`  
+**Publication record:** [Cross-Domain Compositional Schema v0.3](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)  
 **Bell/CHSH calibration companion:** [28A — Cross-Domain Compositional Schema Bell/CHSH Calibration](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md)  
 **AAF publication:** DOI `10.5281/zenodo.22031333`  
 **FSSR publication:** DOI `10.5281/zenodo.22058303`  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
-**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family. It does not retroactively alter a frozen publication, assert a new mathematical theorem, privilege a simplex/tetrahedron as physical geometry, or claim experimental confirmation of a universal law of nature.
+**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated after publication of Cross-Domain Compositional Schema v0.3. It does not retroactively alter a frozen publication, assert a new mathematical theorem, privilege a simplex/tetrahedron as physical geometry, or claim experimental confirmation of a universal law of nature.
 
 ## 1. Purpose
 
@@ -24,6 +25,8 @@ Modules 33S4, 33S6 and 33S7 already define the operative future-sufficiency cons
 - **Future-Splitting State Recruitment (FSSR):** the experimental assay that attacks the current state claim, identifies typed repair where required, and measures recruitment relative to a conventional transition marker.
 
 The 29 August 2026 compositional-interface fold adds a bounded consequence of the same future-sufficiency object: a locally closed object may later act as an interface/constituent in a wider composition, and its earlier closure remains valid only for the future-use family for which it was sufficient or while it carries a guaranteed targeted route back to the lower structure before an omitted relation becomes decision-bearing.
+
+The published v0.3 formalisation sharpens that fold without creating a second controller. It makes evaluation state/value/restoration burden explicit, treats exact relation ablation as protocol-relative and potentially partial, and keeps the load-bearing verdict unknown when a lawful exact ablation is unavailable or prospectively allowed ablation protocols disagree. Those refinements belong here because they determine whether an interface is actually future-sufficient; native deformation, completion, and domain-specific physics remain owned by their existing modules.
 
 The scientific content precedes the names. The names and folds make the already-existing relations unambiguous, citable and traversable.
 
@@ -156,6 +159,55 @@ If the result survives, the invariant is the typed compositional relation rather
 
 Under Module 29, the set/map/interface expressions in this section are **E0 formal specification** and the preserve/reopen tests are **E1 operational scaffolds** until a concrete task world, comparator, thresholds, and scoring rules are frozen. Nothing here is an E4 physical mechanism.
 
+### Published v0.3 evaluation and ablation refinement
+
+The published v0.3 paper makes the interface comparison explicit enough to preserve restoration burden as part of the state being compared. For a declared future operation `f_k`, use
+
+```math
+\operatorname{Eval}_k(X)
+=
+\bigl(s_k(X),v_k(X),\rho_k(X)\bigr),
+```
+
+where `s_k` is the typed evaluation/admissibility state, `v_k` is the returned value when defined, and `\rho_k` is null when no restoration is required or otherwise records the prospectively declared family/equivalence class of minimal valid restorative descents. Multiplicity is preserved; uniqueness is not assumed.
+
+For a typed relation `R_j`, exact relation ablation is a **predeclared lawful protocol**, not an automatic causal intervention. Let
+
+```math
+\operatorname{Abl}_j(X)
+```
+
+denote a lawful removal, neutralisation, or counterfactual suppression of the exact addressed relation while the declared comparison object is held fixed as far as the domain permits. Then, in determinate cases,
+
+```math
+\operatorname{LB}_F(R_j;X)=1
+\Longleftrightarrow
+\exists f_k\in F:
+\operatorname{Eval}_k(X)
+\not\simeq_k
+\operatorname{Eval}_k\!\left(\operatorname{Abl}_j(X)\right).
+```
+
+The live fold retains a three-way result:
+
+```text
+1  → exact relation is load-bearing for the declared future family
+0  → lawful exact ablation leaves every declared evaluation equivalent
+?  → exact ablation/comparator is unavailable, ambiguous, or not prospectively resolved
+```
+
+This prevents two specific errors: calling a relation non-load-bearing merely because exact ablation could not be performed, and calling a representation edit a physical intervention without the domain-specific causal bridge required to support that language.
+
+Direct preservation for an operation is correspondingly
+
+```math
+\operatorname{Preserve}_k(X,Y)=1
+\Longleftrightarrow
+\operatorname{Eval}_k(X)\simeq_k\operatorname{Eval}_k(Y),
+```
+
+and the preserve-or-reopen contract remains operation-relative. These expressions sharpen the existing FSAI fold; they do not create an independent general theory of satisfiability, causation, or physical intervention.
+
 ## 3. Load-bearing membership and minimum sufficiency
 
 Let the closure residual be the parent FSSR/AAF object
@@ -235,7 +287,7 @@ same declared state
 
 FSAI states the state-sufficiency commitment. LBLP states the order of scientific diagnosis. FSSR supplies the adversarial experimental procedure and prospective timing test.
 
-For compositional interfaces, a corresponding calibration freezes `F`, `C_F`, the native target semantics, the ablation, and the comparator before the target decision is revealed. The test asks whether the same preserve/refine/reopen/refuse logic survives without post-hoc role invention. [Module 28A](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) supplies a Bell/CHSH hostile calibration of this form.
+For compositional interfaces, a corresponding calibration freezes `F`, `C_F`, the native target semantics, the ablation, and the comparator before the target decision is revealed. The test asks whether the same preserve/refine/reopen/refuse logic survives without post-hoc role invention. [Module 28A](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) supplies the Bell/CHSH hostile calibration of this form. Its executed Phase-0 result is now also reported in the published Cross-Domain Compositional Schema v0.3; the live module remains the detailed calibration/reproducibility owner.
 
 ## 5A. Closure, reopening, and operational certainty
 
@@ -280,7 +332,7 @@ The bounded claim here is narrower:
 1. the MKUFT/AAF/FSSR public line already committed to future-sufficient Address, minimum typed readdressing and recursive future closure;
 2. **FSAI** is the canonical name assigned to that cross-domain formal criterion;
 3. **LBLP** is the canonical name assigned to its Layer-Before-Law methodological precedence consequence;
-4. the 29 August 2026 compositional-schema result makes explicit the reuse corollary `closed object → future-sufficient interface → preserve or guaranteed targeted reopen`, together with typed partial instantiation/refusal and cardinality-neutral geometry;
+4. the published 29 August 2026 Cross-Domain Compositional Schema v0.3 makes explicit the reuse corollary `closed object → future-sufficient interface → preserve or guaranteed targeted reopen`, together with typed partial instantiation/refusal, restoration-signature-aware evaluation, protocol-relative exact relation ablation, and cardinality-neutral geometry;
 5. the reported cross-domain result is presently a bounded architectural/translational result at strong local-baseline parity, not a new algebra, theorem, privileged geometry, physical mechanism, or demonstrated universal cross-domain superiority;
 6. none of these relations upgrades the construction to an experimentally confirmed universal law.
 
@@ -299,10 +351,11 @@ The relevant scientific ancestry is not created by this note:
 → 33S7 / FSSR — adversarial future splitting, minimal typed recruitment and prospective mechanism timing
 → 25D — provenance-bearing chain address, compressed invariant and typed return
 → 33S7A — canonical naming of FSAI/LBLP plus scoped closure/reopening
-→ Cross-Domain Compositional Schema v0.2 — bounded preserve-or-reopen interface composition, typed partial instantiation/refusal, and minimal restorative descent at baseline parity.
+→ Cross-Domain Compositional Schema v0.2 — bounded preserve-or-reopen interface composition, typed partial instantiation/refusal, and minimal restorative descent at baseline parity
+→ Cross-Domain Compositional Schema v0.3 — formalised evaluation/ablation/reopening contract plus executed Bell/CHSH Phase-0 hostile calibration.
 ```
 
-The AAF, FSSR, Chain-Address, Bell, and Cross-Domain Compositional Schema DOI-bearing publication objects remain frozen exactly as published. This live-canon fold is later scientific integration and must not be silently backdated into those deposited files.
+The AAF, FSSR, Chain-Address, Bell, and Cross-Domain Compositional Schema DOI-bearing publication objects remain frozen exactly as published at their respective versions. The v0.2 Cross-Domain DOI remains a prior frozen version; v0.3 DOI `10.5281/zenodo.22166005` is the current publication version. This live-canon fold is later scientific integration and must not be silently backdated into either deposited version.
 
 ## 8. Failure discipline
 
@@ -313,6 +366,7 @@ The named objects contract rather than expand if their burden is not met.
 - If a proposed typed repair does not survive held-out removal/restoration, it is not credited as load-bearing recruitment.
 - If adequate readdressing cannot close the residual, LBLP does not forbid law/model revision.
 - If a supposedly closed interface needs a lower distinction that it neither preserved nor guaranteed to restore before use, its compositional sufficiency fails.
+- If exact relation ablation is not lawfully defined, or prospectively allowed ablation protocols disagree, the load-bearing state remains unresolved rather than being forced to `0` or `1`.
 - If cross-domain success requires inventing a target analogue for a field that is genuinely absent, the partial-instantiation/refusal claim fails.
 - If the same structural decision does not survive independently justified changes of arity or ordinary representation, no cardinality-neutral invariant has been established.
 - If a triangle/tetrahedron/simplex produces no discriminator, compression gain, restoration gain, or other named result beyond a matched ordinary carrier, it remains an illustrative chart.
@@ -327,6 +381,9 @@ A declared Address is sufficient only while histories it calls the same remain e
 
 Compositional FSAI:
 A locally closed object may stand in for its lower structure in a wider composition only for the future-use family it preserves, or while it carries a guaranteed targeted route back to the smallest lower structure required before an omitted relation becomes decision-bearing.
+
+Evaluation / exact ablation:
+Compare typed status, value, and restoration signature. Exact relation ablation is protocol-relative; unresolved ablation remains `?` rather than being converted into false irrelevance or false causal certainty.
 
 Typed partial instantiation:
 Genuine absence stays absent. Decision-bearing omission must preserve, refine, reopen, reject, or withhold according to the owning domain; it may not be hidden as optionality.
