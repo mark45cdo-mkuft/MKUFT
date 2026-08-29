@@ -24,6 +24,9 @@ This matrix identifies the rights status of current public repository objects wi
 | MKUFT version-1 deposited work | [DOI 10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566) | **CC BY 4.0** for the exact deposited material identified by that record |
 | ATLD standalone manuscript v1.0 | [Version DOI 10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521); [concept DOI 10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520) | **CC BY-NC-SA 4.0** for the exact manuscript; commercial exercise of the licensed copyright rights requires separate written permission |
 | ATLD 2 standalone manuscript v2.0 | [Version DOI 10.5281/zenodo.22068803](https://doi.org/10.5281/zenodo.22068803); [concept DOI 10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520); predecessor DOI `10.5281/zenodo.21341521` | **CC BY-NC-SA 4.0** for the exact v2.0 manuscript; the live Module 25B fold and later Modules 25C–25D retain separate current-repository rights |
+| Chain-Address Invariants v1.0 | [Version DOI 10.5281/zenodo.22102379](https://doi.org/10.5281/zenodo.22102379) | Use the licence/rights status stated by the exact deposited object; the repository publication record does not invent a licence where one has not been independently verified |
+| Bell Constraints as Typed Boundaries v1.0 | [Version DOI 10.5281/zenodo.22100926](https://doi.org/10.5281/zenodo.22100926); [concept DOI 10.5281/zenodo.22100925](https://doi.org/10.5281/zenodo.22100925) | **CC BY 4.0** for the exact deposited v1.0 object |
+| Cross-Domain Compositional Schema v0.3 | [Version DOI 10.5281/zenodo.22166005](https://doi.org/10.5281/zenodo.22166005); previous v0.2 DOI `10.5281/zenodo.22164562` | **CC BY 4.0** for the exact deposited v0.3 object; live Modules 33S7A and 28A retain separate current-repository rights |
 | Addressed Admissible Futures v0.1 | [Version DOI 10.5281/zenodo.22031333](https://doi.org/10.5281/zenodo.22031333); [concept DOI 10.5281/zenodo.22031332](https://doi.org/10.5281/zenodo.22031332) | **All rights reserved** for the exact deposited object, as stated in its publication record and Zenodo metadata |
 | Future-Splitting State Recruitment v1.0 | [Version DOI 10.5281/zenodo.22058303](https://doi.org/10.5281/zenodo.22058303); [concept DOI 10.5281/zenodo.22058302](https://doi.org/10.5281/zenodo.22058302) | **All rights reserved** for the exact deposited object, as stated in its publication record and Zenodo metadata |
 
@@ -46,6 +49,7 @@ Unless an exact file version expressly states a different licence, the current G
 | [26 — Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
 | [27 — Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) | All rights reserved unless an exact version states otherwise |
 | [28 — Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md) | All rights reserved unless an exact version or later standalone publication states otherwise |
+| [28A — Cross-Domain Compositional Schema Bell/CHSH Calibration](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) | **All rights reserved** for the current live calibration module unless an exact later version states otherwise; Bell v1.0 and Cross-Domain v0.3 retain their separate frozen publication licences and identities |
 | [29 — Scientific Tightening and Claim Discipline](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md) | All rights reserved unless an exact version states otherwise |
 
 ### Support, application, and explanatory modules
@@ -99,11 +103,11 @@ Unless an exact file version expressly states a different licence, the current G
 | [33S5 — Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md) | **All rights reserved** unless an exact version or later standalone publication states otherwise |
 | [33S6 — Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) | **All rights reserved** for the current live module unless an exact later version states otherwise; the frozen AAF v0.1 publication has its own exact rights identity |
 | [33S7 — Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) | **All rights reserved** for the current live module unless an exact later version states otherwise; the frozen FSSR v1.0 publication has its own exact rights identity |
-| [33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md) | **All rights reserved** for the current live naming/provenance module unless an exact later version states otherwise; no frozen publication is altered by this naming note |
+| [33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md) | **All rights reserved** for the current live module unless an exact later version states otherwise; the frozen Cross-Domain v0.3 publication has its own CC BY 4.0 identity and is not altered by later live folds |
 | [33A — Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) | **All rights reserved** unless an exact version states otherwise |
 | [34 — Research Object Identity, Release Integrity, and Reproducibility](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md) | **All rights reserved** unless an exact version states otherwise |
 
-The current GitHub source, companion, and successor-fold modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by the ATLD publication-family manuscripts' CC BY-NC-SA 4.0 licence merely because the manuscripts were developed from or folded into related material.
+The current GitHub source, companion, and successor-fold modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by standalone publication licences merely because related papers were developed from or folded into related material.
 
 ## Current top-level public documents
 
@@ -119,6 +123,9 @@ Unless an exact file states another licence, the current versions of the followi
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 - [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md)
+- [Cross-Domain Compositional Schema Standalone Publication](CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md) as the repository publication record for the CC BY 4.0 v0.3 deposit; this later repository record is not itself a silent relicensing of live modules
+- [Bell Constraints Standalone Publication](BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md) as the repository publication record for the CC BY 4.0 Bell v1.0 deposit
+- [Chain-Address Standalone Publication](CHAIN_ADDRESS_STANDALONE_PUBLICATION.md) as the repository publication record; the exact deposited object's licence/rights status controls
 - [FSSR Standalone Publication](FSSR_STANDALONE_PUBLICATION.md) as the repository publication record for the all-rights-reserved FSSR v1.0 deposit
 - [AAF Standalone Publication](AAF_STANDALONE_PUBLICATION.md) as the repository publication record for the all-rights-reserved AAF v0.1 deposit
 - [ATLD Standalone Publication Family](ATLD_STANDALONE_PUBLICATION.md) as the repository publication-family record; the exact v1.0 and v2.0 manuscripts retain the CC BY-NC-SA 4.0 licence attached to their exact versioned objects, while live Modules 25B–25D remain separate repository objects
