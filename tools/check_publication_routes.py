@@ -57,6 +57,10 @@ REQUIRED = {
         FSSR_MODULE,
         "Recursive Constraint Closure",
         "Layer Before Law",
+        CROSS_DOMAIN_VERSION,
+        "docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md",
+        "docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md",
+        "protocol-relative exact-relation deformation",
     ],
     "INDEX.md": [
         "papers/README.md",
@@ -86,6 +90,9 @@ REQUIRED = {
         FSSR_MODULE,
         "Future-Splitting State Recruitment",
         "33S4–33S7",
+        CROSS_DOMAIN_VERSION,
+        "28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md",
+        "Cross-Domain Compositional Schema Bell/CHSH Calibration",
     ],
     "papers/README.md": [
         VOYNICH_CURRENT,
@@ -389,6 +396,18 @@ REQUIRED = {
         AAF_VERSION,
         AAF_CONCEPT,
         "33S6_ADDRESSED_ADMISSIBLE_FUTURES",
+    ],
+    "docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md": [
+        CROSS_DOMAIN_VERSION,
+        "Protocol-relative exact relation ablation",
+        "\\mathrm{LB}_F",
+        "33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md",
+    ],
+    "docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md": [
+        CROSS_DOMAIN_VERSION,
+        "Parent completion and native-owner custody",
+        "native parent constraints",
+        "33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md",
     ],
     "RENDERING_AND_PUBLICATION_INTEGRITY.md": [
         "Source correctness does not prove publication correctness",

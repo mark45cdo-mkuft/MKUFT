@@ -4,6 +4,7 @@
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
 **MKUFT DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
+**Compositional-interface calibration:** [Cross-Domain Compositional Schema v0.3](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md), DOI `10.5281/zenodo.22166005`; future-sufficiency ownership remains in [33S7A](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md).  
 
 **Status:** public structural audit module; scientific and metaphysical claims are kept explicitly separate.
 
@@ -155,6 +156,30 @@ Remove a related set of relations that may substitute for one another. This dist
 Replace the candidate relation with a plausible rival rather than merely deleting it. This tests whether the exact relation matters, not only whether some connection is better than none.
 
 Examples include replacing a causal dependency with correlation, replacing agency-preserving coordination with command-and-control, replacing a canonical definition with a near-synonym, replacing a falsifier link with a supportive explanatory link, or reversing dependency direction.
+
+### 7.3A Protocol-relative exact relation ablation
+
+The Cross-Domain Compositional Schema v0.3 sharpens a deformation rule that belongs at this module's assay layer: **exact relation ablation is a prospectively declared lawful protocol, not an automatic delete operation and not automatically a physical intervention.**
+
+Let `\mathcal A_r` be the preregistered family of lawful protocols capable of removing, neutralising, substituting, or counterfactually suppressing the exact addressed relation `r` while holding the declared comparison object fixed as far as the domain permits. For a declared future-operation family `F`, the assay returns a three-way state
+
+```math
+\mathrm{LB}_F(r;\mathcal G,\mathcal A_r)
+\in
+\{0,1,?\}.
+```
+
+Use the states as follows:
+
+- `1` — at least one prospectively admissible exact-relation protocol produces the preregistered loss of declared evaluation/closure, with restoration returning the declared function under the required control;
+- `0` — the prospectively controlling lawful protocol family leaves every declared evaluation equivalent within tolerance;
+- `?` — exact ablation is unavailable, the comparison is not lawfully isolable, or prospectively allowed protocols disagree without a preregistered resolution rule.
+
+Unknown is a scientific result. It must not be converted into `0` merely because an exact ablation could not be engineered, and it must not be converted into `1` because a coarse representation edit happened to damage performance.
+
+Where a physical causal claim is intended, the intervention must additionally satisfy the native domain's causal and confounding requirements. A representation-level removal can establish architectural load without by itself establishing a new physical mechanism.
+
+Module 33S7A owns the corresponding preserve/reopen consequence for future-sufficient interfaces. Module 25 owns only the deformation semantics, remove/restore discipline, redundancy controls, and classification burden.
 
 ### 7.4 Temporal maintenance-path deformation
 

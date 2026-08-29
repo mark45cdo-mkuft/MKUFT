@@ -61,6 +61,7 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 19. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 20. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 21. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+22. [Cross-Domain Compositional Schema Bell/CHSH Calibration](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md)
 
 ### LUCY and effective geometry
 
@@ -120,6 +121,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **26 — Layer Before Law:** foundational category proposal with Bell, no-signalling, quantum/gravitational recovery, and discrimination burdens.
 - **27 — Typed Traversal and Equation Hygiene:** typed spaces, dimensional consistency, equation status, and anti-flattening discipline.
 - **28 — Discriminating Experiments and Promotion Gates:** evidence tiers and promotion rules.
+- **28A — Cross-Domain Compositional Schema Bell/CHSH Calibration:** hostile known-answer calibration of target-relative preserve/refine/reopen/refuse behaviour for the published Cross-Domain v0.3 result, DOI `10.5281/zenodo.22166005`; physical Phase-0 delta remains null.
 - **29 — Scientific Tightening and Claim Discipline:** separates architecture, scaffold, evidence, mechanism, novelty, and claim status.
 - **33 — SIPO Capstone:** closes `Update_SIPO` at architectural level by mapping the complete addressed state/context to a typed admissibility descriptor, assembling the active P-law object `(domain, transition rule, weighting)`, propagating physically, passing the result through a typed P→(P,O) instrument, and recursively readdressing. `Domain before generator` remains the minimal clean specialisation rather than a universal restriction on all possible I→P effects.
 - **33S1 — Dynamic Interface Promotion:** specifies when a trackable interface that changes the next admissibility/law object and is itself changed by realised dynamics must re-enter the addressed state; it adds a scale-role transition from lower-scale boundary to higher-scale internal relation only after existing promotion tests pass.

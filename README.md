@@ -67,6 +67,8 @@ A complete derivation of quantum mechanics, quantum field theory, general relati
 
 MKUFT is presently best described as an original layered research architecture using established mathematical tools, explicit failure conditions, typed cross-layer discipline, and several operational research programmes. The current public canon includes an addressed recursive law-selection architecture: Module 33 assembles a typed physical law object; 33S1 controls dynamic-interface promotion; 33S2 tests property-specific law descent and bidirectional readdressing; 33S3 separates local performance, closure, law sufficiency, and recoverability; 33S4 makes Address target-relative through predictive closure; 33S5 tests when rate, phase, dwell, schedule, or bounded history become address-load-bearing; 33S6 folds those results onto the Addressed Admissible Future, restorative reachability, restorative-future reserve, and counterfactual load-bearing relation structure; and 33S7 operationalises that future-sufficiency family as Future-Splitting State Recruitment, a direct state-adequacy assay requiring independent continuation, physically typed repair, and remove/restore deformation before prospective mechanism-localisation language is earned. Module 33A is the hostile prior-art audit for the law-descent/recoverability family.
 
+The published *Cross-Domain Compositional Schema* v0.3 (DOI `10.5281/zenodo.22166005`) is folded into that architecture without creating a parallel controller: Module 25 owns protocol-relative exact-relation deformation and remove/restore discipline; 32S3 owns parent-completion/local-to-global custody; 33S7A owns future-sufficient preserve-or-reopen reuse; and 28A owns the Bell/CHSH hostile calibration. The Bell pass remains a methodological calibration with a null new-physics result, while unrestricted tetrahedral privilege is not earned.
+
 The present architecture earns support where those distinctions produce prospective predictive, interventional, explanatory, or model-selection value beyond the strongest adequate ordinary description. A result at that level is scientifically meaningful without automatically promoting the whole framework to a completed fundamental physical theory.
 
 The strongest current novelty claim is therefore deliberately narrower than “new law of nature”: 33A records a **candidate original formal synthesis / operational meta-principle** after subtracting strong neighbouring prior art. A stronger law claim requires prospective quantitative success and independent empirical testing. FSSR adds a separate prospective empirical burden rather than weakening that boundary: where a mechanism becomes future-discriminating before its conventional marker is overt, state recruitment is predicted to be detectable first in suitable regimes.
@@ -108,6 +110,11 @@ The framework distinguishes:
 15. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md) — proposed tests, controls, nulls, and replication requirements.
 16. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md) — branch-level and framework-level failure conditions.
 17. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md) — primary literature, neighbouring programmes, disputes, and strongest alternatives.
+
+Supporting current interface and calibration routes:
+
+- [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md) — live future-sufficient compositional-interface owner and published v0.3 fold.
+- [Cross-Domain Compositional Schema Bell/CHSH Calibration](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) — hostile known-answer calibration; no new Bell inequality, Tsirelson derivation, or physical mechanism is claimed.
 
 ### General architecture
 

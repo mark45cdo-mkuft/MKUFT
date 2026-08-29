@@ -8,6 +8,7 @@
 **Scale-transition owner:** [32S — Load-Bearing Relation Sets and Scale-Transition Tests](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md)  
 **Identity guards:** [32S1 — Invariant Persistence, Relational Addressability, and Scale Transition](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md); [32S2 — Temporal Continuity Kernels and Minimum Identity Horizon](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)  
 **Novelty boundary:** [32A — Module 32 Novelty Audit and Contribution Boundary](32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md)  
+**Compositional-interface publication:** [Cross-Domain Compositional Schema v0.3](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md), DOI `10.5281/zenodo.22166005`; preserve/reopen ownership remains in [33S7A](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md).  
 **Public formulation date:** 15 August 2026  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
 **Status:** canonical formal refinement of the Module 32 family. It supplies a typed relation-scope compatibility scaffold, completion geometry for relationally constrained absence, fiber/quotient scale handoff, macrostate realisation classes, temporal mismatch measures, and an operational I→P admissibility test. It does not establish an independent information layer, holographic biology, consciousness, a new force, nonlocal signalling, or a universal law of emergence.
@@ -339,6 +340,43 @@ This is standard fiber/projection mathematics. Its role here is operational: **h
 Thus:
 
 > **physically absent does not imply relationally unspecified; relationally specified does not imply physically occupied.**
+
+### 4.3 Parent completion and native-owner custody
+
+Local validity and parent completion are different questions. A set of lower objects may each be valid at its own address while their proposed joint parent has no compatible completion because a shared identity, resource, boundary condition, import, runtime, measurement context, or other relation receives mutually incompatible requirements.
+
+For lower objects `Y_1,\ldots,Y_m` proposed for one parent composition `P`, write schematically
+
+```math
+\Omega_P^{\mathrm{comp}}(Y_1,\ldots,Y_m)
+=
+\left\{
+z\in\mathcal Z_P:
+\text{the native parent constraints are jointly satisfied}
+\right\}.
+```
+
+This is an **interface wrapper**, not a replacement for the domain's established global-consistency machinery. Depending on the domain, the native owner may be a constraint solver, minimal-unsatisfiable-subset or diagnosis method, dependency graph, sheaf/local-to-global construction, proof/import checker, configuration resolver, probability model, or another justified completion formalism.
+
+The compositional verdict is bounded:
+
+```text
+all lower objects locally admissible
++ parent completion non-empty
+→ parent composition remains admissible at this gate
+
+all lower objects locally admissible
++ parent completion empty
+→ local validity does not close the parent
+→ identify the smallest native conflict/restoration set where the owning method supports it
+
+parent completion not lawfully decidable at the declared resolution
+→ WITHHOLD / REOPEN rather than inventing a completion
+```
+
+A parent-completion failure does not by itself imply a new higher law, hidden physical mechanism, or failure of every lower object. It says that the proposed composition is not jointly closed under the declared parent relations.
+
+This is the 32S3 owner-side fold of the published Cross-Domain v0.3 local-to-global result. Module 33S7A owns whether a closed lower object may be reused as a future-sufficient interface and when targeted descent is required; 32S3 owns the completion geometry and native local-to-global custody used when that descent reaches a parent-consistency question.
 
 ## 5. Ambiguity, persistence, and temporal mismatch exposure
 
