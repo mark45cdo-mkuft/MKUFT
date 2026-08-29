@@ -22,6 +22,11 @@ This file gives public search systems, citation tools, GitHub search, and AI ret
 - MKUFT current v2 version DOI: `10.5281/zenodo.21973064`
 - MKUFT concept DOI: `10.5281/zenodo.17780565`
 - MKUFT historical v1 version DOI: `10.5281/zenodo.17780566`
+- Cross-Domain Compositional Schema v0.3 version DOI: `10.5281/zenodo.22166005`
+- Cross-Domain Compositional Schema previous v0.2 DOI: `10.5281/zenodo.22164562`
+- Bell Constraints as Typed Boundaries v1.0 version DOI: `10.5281/zenodo.22100926`
+- Bell Constraints concept DOI: `10.5281/zenodo.22100925`
+- Chain-Address Invariants v1.0 DOI: `10.5281/zenodo.22102379`
 - ATLD 2 v2.0 version DOI: `10.5281/zenodo.22068803`
 - ATLD concept DOI: `10.5281/zenodo.21341520`
 - ATLD v1.0 predecessor version DOI: `10.5281/zenodo.21341521`
@@ -55,8 +60,28 @@ Formal author/citation identity is maintained in:
 - constrained traversal
 - typed state spaces
 - cross-layer invariants
+- Cross-Domain Compositional Schema
+- future-sufficient interface
+- preserve-or-reopen reuse
+- typed partial instantiation
+- interface contract
+- exact relation ablation
+- load-bearing relation
+- restorative descent
+- parent completion
+- recursive reuse
+- query determinacy
+- abstraction refinement
+- baseline parity
+- Bell Constraints as Typed Boundaries
+- Bell/CHSH hostile calibration
+- Bell-local factorisation
+- no-signalling
+- TLM correlator geometry
+- tetrahedral representation boundary
 - ATLD 2
 - Active Traversal and Load-Bearing Dependency II
+- Chain-Address Invariants
 - residual coordinate identification
 - self-auditing matched-control evaluation
 - long-horizon AI systems
@@ -100,7 +125,6 @@ Formal author/citation identity is maintained in:
 - quantum-gravitational recovery
 - quantum gravity
 - Bell correlations
-- no-signalling
 - standard-physics recovery
 - boundary physics
 - strongest fair null
@@ -147,6 +171,17 @@ Formal author/citation identity is maintained in:
 
 ## Direct research-output routes
 
+- `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md`
+- `CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md`
+- `publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3/README.md`
+- `docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md`
+- `docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md`
+- `papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md`
+- `BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md`
+- `publications/BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0/README.md`
+- `papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md`
+- `CHAIN_ADDRESS_STANDALONE_PUBLICATION.md`
+- `docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md`
 - `papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md`
 - `ATLD_STANDALONE_PUBLICATION.md`
 - `docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md`
@@ -172,6 +207,9 @@ Formal author/citation identity is maintained in:
 
 ```text
 MKUFT A Relational Architecture for Physical Law and Cross-Scale Dynamics Mark Charles McLaughlin Zenodo 10.5281/zenodo.21973064 concept 10.5281/zenodo.17780565 GitHub mark45cdo-mkuft/MKUFT
+Cross-Domain Compositional Schema Future-Sufficient Interfaces Load-Bearing Relations Preserve-or-Reopen Reuse Exact Relation Ablation Restorative Descent Parent Completion Mark Charles McLaughlin Zenodo 10.5281/zenodo.22166005 previous v0.2 10.5281/zenodo.22164562
+Bell Constraints as Typed Boundaries Relation Access Completion Scale Mark Charles McLaughlin Zenodo 10.5281/zenodo.22100926 concept 10.5281/zenodo.22100925
+Chain-Address Invariants Long-Form Cohesion Post-Arrival Compression Bidirectional Reconstruction Mark Charles McLaughlin Zenodo 10.5281/zenodo.22102379
 ATLD 2 Active Traversal and Load-Bearing Dependency II Residual Coordinate Identification Self-Auditing Matched-Control Evaluation Long-Horizon AI Systems Mark Charles McLaughlin Zenodo 10.5281/zenodo.22068803 concept 10.5281/zenodo.21341520
 Future-Splitting State Recruitment FSSR State Adequacy Prospective Mechanism Activation Mark Charles McLaughlin Zenodo 10.5281/zenodo.22058303 concept 10.5281/zenodo.22058302
 Addressed Admissible Futures Future-Sufficient State Load-Bearing Relations Restorative Reachability Mark Charles McLaughlin Zenodo 10.5281/zenodo.22031333 concept 10.5281/zenodo.22031332
