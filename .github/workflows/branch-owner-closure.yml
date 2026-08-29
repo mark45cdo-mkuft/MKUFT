@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - name: Align temporary repair script with checker constants
+        run: sed -i 's/CROSS_DOMAIN_CURRENT/CROSS_DOMAIN_VERSION/g' tools/_temp_cross_domain_owner_closure.py
       - name: Apply owner closure
         run: python tools/_temp_cross_domain_owner_closure.py
       - name: Self-test Markdown guard
