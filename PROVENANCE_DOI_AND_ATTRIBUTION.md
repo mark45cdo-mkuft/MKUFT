@@ -185,6 +185,48 @@ Public routes:
 
 FSSR is an experimental specialisation of AAF and the 33S4–33S6 future-sufficiency family. It tests whether histories collapsed by a declared state can be separated by an admissible lawful future, then requires the smallest preregistered physically typed augmentation that restores held-out closure. The DOI-bearing Zenodo object freezes v1.0. Later Module 33S7 changes, later empirical results, new domain implementations, or revised challenge designs are not silently backdated into the deposit.
 
+## Bell Constraints as Typed Boundaries
+
+**Title:** *Bell Constraints as Typed Boundaries: Relation, Access, Completion, and Scale*  
+**Author:** Mark Charles McLaughlin  
+**Version:** 1.0  
+**Publication date:** 25 August 2026  
+**Version DOI:** `10.5281/zenodo.22100926`  
+**Concept DOI:** `10.5281/zenodo.22100925`  
+**Licence of exact deposited object:** CC BY 4.0
+
+Public routes:
+
+- [Standalone publication record](BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md)
+- [Public GitHub paper route](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md)
+- [Frozen identity/checksum record](publications/BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0/)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22100926)
+
+The frozen Bell paper separates Bell-local factorisation, operational no-signalling, completion structure and scenario/resource scale. Under the tested comparator family its independent Bell-local new-physics delta is null. Later live Bell calibration in Module 28A remains a distinct research object and is not silently backdated into the Bell v1.0 deposit.
+
+## Cross-Domain Compositional Schema
+
+**Current title:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*  
+**Author:** Mark Charles McLaughlin  
+**Current version:** 0.3  
+**Publication date:** 29 August 2026  
+**Current version DOI:** `10.5281/zenodo.22166005`  
+**Previous v0.2 DOI:** `10.5281/zenodo.22164562`  
+**Licence of exact v0.3 deposited object:** CC BY 4.0
+
+Public routes:
+
+- [Standalone publication record](CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)
+- [Public GitHub paper route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md)
+- [Frozen v0.3 identity/checksum record](publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3/)
+- [Live future-sufficiency fold — Module 33S7A](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
+- [Live Bell/CHSH hostile calibration — Module 28A](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22166005)
+
+Version 0.3 is the current publication version in the Zenodo version lineage and does not erase frozen v0.2. The exact v0.3 PDF is 23 pages and 143,182 bytes; the receiver-side Zenodo MD5 `985801aceccb3ce3effe6da1f4d1d496` matches the audited final publication file, whose SHA-256 is `fd4459711d2f1210b2c770c38611554c0e10a8e1748063fc1d78d0a4ef607c5b`.
+
+The published Bell Phase-0 result is a hostile calibration of preserve/refine/reopen and targeted descent, not a new Bell law. The physical result remains null: no new Bell inequality, no independent Tsirelson derivation, and no new physical mechanism. The unrestricted four-correlator object is not compressed losslessly into an ordinary three-degree-of-freedom tetrahedral barycentric point without additional restriction or information carriage.
+
 ## LUCY placement
 
 LUCY is currently part of the MKUFT backbone rather than a separately published external theory. Its canonical live owner is `docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md`; the physical boundary-forming specialisation is developed in `docs/30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md`.
@@ -201,7 +243,7 @@ Current live GitHub modules are later repository objects. Unless an exact file o
 
 The detailed current file-by-file classification is maintained in [`MODULE_RIGHTS_MATRIX.md`](MODULE_RIGHTS_MATRIX.md). The controlling general notice is [`RIGHTS_AND_LICENSE_NOTICE.md`](RIGHTS_AND_LICENSE_NOTICE.md).
 
-A citation to MKUFT, Voynich, ATLD, Layer Before Law, Recursive Constraint Closure, Addressed Admissible Futures, or Future-Splitting State Recruitment does not import that cited object's licence into the citing file.
+A citation to MKUFT, Voynich, ATLD, Layer Before Law, Recursive Constraint Closure, Addressed Admissible Futures, Future-Splitting State Recruitment, Bell Constraints, or Cross-Domain Compositional Schema does not import that cited object's licence into the citing file.
 
 ## Attribution statements
 
@@ -229,6 +271,14 @@ For Recursive Constraint Closure:
 
 > McLaughlin, Mark Charles. (2026). *Recursive Constraint Closure and Reachable-State Geometry: An Addressed Formalism for Adaptive Systems with Changing Possibility Spaces*. Version 0.1. Zenodo. DOI: 10.5281/zenodo.21971425.
 
+For Bell Constraints as Typed Boundaries:
+
+> McLaughlin, Mark Charles. (2026). *Bell Constraints as Typed Boundaries: Relation, Access, Completion, and Scale*. Version 1.0. Zenodo. DOI: 10.5281/zenodo.22100926.
+
+For Cross-Domain Compositional Schema v0.3:
+
+> McLaughlin, Mark Charles. (2026). *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*. Version 0.3. Zenodo. DOI: 10.5281/zenodo.22166005.
+
 For the current Voynich v2.0 publication:
 
 > McLaughlin, Mark Charles. (2026). *The Voynich Manuscript as a Candidate Procedural-Executable Information System*. Version 2.0. Zenodo. DOI: 10.5281/zenodo.22071229. Concept DOI: 10.5281/zenodo.18178637.
@@ -249,9 +299,9 @@ For the exact ATLD v1.0 predecessor:
 
 This GitHub repository is the live public working and publication-discovery layer. It does not erase frozen Zenodo records or silently insert later live changes into them.
 
-Eight existing top-level PDFs in [`publications/`](publications/) mirror deposited PDF files across the earlier DOI-bearing publication set, including the frozen ATLD v1.0 carrier. ATLD 2 v2.0 is additionally represented by [`publications/ATLD2_Evaluation_Protocol_v2.0/`](publications/ATLD2_Evaluation_Protocol_v2.0/), which records the exact Zenodo carrier checksum, page count, size, and DOI identity without pretending that a byte-identical GitHub binary mirror exists. Voynich v2.0 is likewise routed through its DOI, current paper page and publication-family checksum identity; no byte-identical GitHub PDF mirror is claimed unless independently established. The historical Voynich predecessor remains a DOCX-carrier version. Zenodo remains publication custody for every frozen DOI object.
+The existing top-level PDFs in [`publications/`](publications/) remain byte-preserving mirrors for the earlier DOI-bearing publication set where exact mirrors were established. ATLD 2 v2.0 is represented by [`publications/ATLD2_Evaluation_Protocol_v2.0/`](publications/ATLD2_Evaluation_Protocol_v2.0/), which records exact Zenodo carrier witnesses without pretending that a differently sourced file is the deposited binary. Voynich v2.0 is likewise routed through its DOI, current paper page and publication-family checksum identity. Bell v1.0 and Cross-Domain v0.3 are routed through their DOI, paper/publication record, and frozen carrier identity records; Cross-Domain v0.3 additionally records a receiver-side Zenodo MD5 match to the audited final PDF. No byte-identical GitHub PDF mirror is claimed unless independently established. The historical Voynich predecessor remains a DOCX-carrier version. Zenodo remains publication custody for every frozen DOI object.
 
-Google Drive may hold synchronized reading editions and paper copies. A Drive copy is a carrier, not automatic scientific or publication custody. The dedicated Drive `00_PAPERS_AND_PUBLICATIONS` shelf separates actual paper objects from synchronized module-reading editions.
+Google Drive may hold synchronized reading editions and paper copies. A Drive copy is a carrier, not automatic scientific or publication custody. The dedicated Drive `01_FORMAL_PAPERS_AND_DOI_PUBLICATIONS` shelf separates actual paper objects from synchronized module-reading editions.
 
 Repository metadata files such as `CITATION.cff`, `codemeta.json`, `PUBLIC_DISCOVERY_ANCHOR.md`, and `DISCOVERY_KEYWORDS.md` describe identity and discovery. They do not override the exact publication's DOI/version/rights record.
 
@@ -278,6 +328,8 @@ Current standalone research-output tracking is concentrated in:
 
 - [`papers/README.md`](papers/README.md) — human-reader paper index;
 - [`publications/README.md`](publications/README.md) — frozen-mirror/archive boundary;
+- `CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md`;
+- `BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md`;
 - `FSSR_STANDALONE_PUBLICATION.md`;
 - `AAF_STANDALONE_PUBLICATION.md`;
 - `VOYNICH_STANDALONE_PUBLICATION.md`;
