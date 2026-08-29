@@ -27,6 +27,34 @@ Version DOI: `10.5281/zenodo.17780566`
 
 The `HISTORICAL_V1_` filenames are deliberate. Zenodo record `17780566` contains two deposited PDF files — `MKUFT falsifications.pdf` and `MKUFT_Math_Appendix.pdf` — rather than one all-in-one publication PDF. The repository therefore mirrors those two exact PDF carriers separately and does not manufacture a synthetic historical-v1 PDF.
 
+### Cross-Domain Compositional Schema v0.3
+
+- [Human-readable paper route](../papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md)
+- [Standalone publication record](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)
+- [Frozen publication identity/checksum record](CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3/)
+- [Canonical live future-sufficiency fold — Module 33S7A](../docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
+- [Bell/CHSH hostile calibration — Module 28A](../docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22166005)
+
+Version DOI: `10.5281/zenodo.22166005`  
+Previous v0.2 DOI: `10.5281/zenodo.22164562`  
+Licence of exact v0.3 deposit: CC BY 4.0
+
+The exact 23-page Zenodo PDF remains the controlling frozen visual object. The repository identity record preserves the receiver-verified MD5, local SHA-256 and byte count for that carrier without asserting that a later live Markdown/module object is the deposited binary. Version v0.2 remains a frozen earlier version in the Zenodo version lineage and is not silently rewritten by v0.3 or the later live folds.
+
+### Bell Constraints as Typed Boundaries v1.0
+
+- [Human-readable paper route](../papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md)
+- [Standalone publication record](../BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md)
+- [Frozen publication identity/checksum record](BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0/)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22100926)
+
+Version DOI: `10.5281/zenodo.22100926`  
+Concept DOI: `10.5281/zenodo.22100925`  
+Licence of exact deposit: CC BY 4.0
+
+The Bell v1.0 Zenodo carrier is the controlling frozen publication object. The repository routes it as a correspondence/falsification paper: under its tested comparator family the independent Bell-local new-physics delta is null. Module 28A is a later live hostile calibration of the Cross-Domain interface result and does not retroactively alter the Bell v1.0 deposit.
+
 ### ATLD 2 v2.0
 
 - [Human-readable paper route](../papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)
@@ -126,6 +154,10 @@ The deposited/public Voynich publication object is DOCX for this historical pred
 
 A frozen publication mirror or identity record is not a live module. A live module is not automatically a standalone paper. A Drive reading edition is not a substitute for the controlling publication object.
 
+For Cross-Domain Compositional Schema v0.3, Module 33S7A is the evolving future-sufficiency/interface fold, Module 28A owns the detailed Bell hostile calibration, `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md` is the public reader/citation route, the root publication record owns DOI/version/citation/licence custody, the `publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3/` record owns exact-carrier witnesses, and Zenodo owns the frozen publication PDF. Later live-module changes do not silently revise DOI `10.5281/zenodo.22166005`.
+
+For Bell v1.0, the paper route and root publication record own discovery/citation relationships, `publications/BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0/` owns the repository identity/checksum record, and Zenodo owns the frozen paper. Module 28A is a later calibration route and not a hidden Bell v1.0 revision.
+
 For ATLD 2, the `docs/25B...` object is the evolving MKUFT measurement fold, the `papers/2026-08-23...` object is the public reader/source route, the root ATLD publication-family record owns DOI/version/citation relationships, the repository identity record owns the recorded checksum/page-count witness, and the Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
 
 For Voynich v2.0, Modules 07/09/10 remain the live support/method owners, the `papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md` object is the current reader/source route, `VOYNICH_STANDALONE_PUBLICATION.md` owns version/concept/predecessor custody and carrier identity, and the Zenodo PDF is the frozen publication object. The old DOI/version remains historical provenance.
@@ -134,6 +166,6 @@ For FSSR, the `docs/33S7...` object is the evolving MKUFT module fold, the `pape
 
 For AAF, the `docs/33S6...` object is the evolving MKUFT module fold, the `papers/2026-08-20...` object is the public reader/source route, the root publication record owns DOI/version/citation custody, and the professionally typeset Zenodo PDF is the frozen standalone publication carrier. These objects remain related but distinct.
 
-The eight existing top-level PDF files are repository mirrors only, covering seven DOI-bearing publication records because historical MKUFT v1 contributes two deposited PDFs. ATLD 2 v2.0 and Voynich v2.0 are additionally represented by explicit frozen identity/checksum records and current public routes where no byte-identical GitHub binary mirror has been independently established. No paper body, equation, DOI identity, licence boundary, or live-module ownership is altered by either preservation route.
+The existing top-level PDF files remain repository mirrors of the earlier deposited PDF set; no additional top-level binary is invented merely because a new DOI paper exists. ATLD 2 v2.0, Voynich v2.0, Bell v1.0, and Cross-Domain v0.3 are additionally represented by explicit frozen identity/checksum records and current public routes where an exact byte-identical GitHub binary mirror is not independently established. Zenodo remains publication custody for every frozen DOI object.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier, discovery, and DOI-freeze rules.
