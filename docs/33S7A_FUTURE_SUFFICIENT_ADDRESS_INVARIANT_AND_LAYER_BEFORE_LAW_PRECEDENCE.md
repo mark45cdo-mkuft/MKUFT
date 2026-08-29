@@ -91,11 +91,11 @@ A compositional interface is admissible when either the relevant lower relation 
 
 ```math
 \boxed{
-\operatorname{Admissible}_F(Y)
+\mathrm{Admissible}_F(Y)
 \Longleftrightarrow
-\operatorname{Preserve}_F(X,Y)
+\mathrm{Preserve}_F(X,Y)
 \lor
-\operatorname{GuaranteedReopen}_F(Y\rightarrow X).
+\mathrm{GuaranteedReopen}_F(Y\rightarrow X).
 }
 ```
 
@@ -164,7 +164,7 @@ Under Module 29, the set/map/interface expressions in this section are **E0 form
 The published v0.3 paper makes the interface comparison explicit enough to preserve restoration burden as part of the state being compared. For a declared future operation `f_k`, use
 
 ```math
-\operatorname{Eval}_k(X)
+\mathrm{Eval}_k(X)
 =
 \bigl(s_k(X),v_k(X),\rho_k(X)\bigr),
 ```
@@ -174,18 +174,18 @@ where `s_k` is the typed evaluation/admissibility state, `v_k` is the returned v
 For a typed relation `R_j`, exact relation ablation is a **predeclared lawful protocol**, not an automatic causal intervention. Let
 
 ```math
-\operatorname{Abl}_j(X)
+\mathrm{Abl}_j(X)
 ```
 
 denote a lawful removal, neutralisation, or counterfactual suppression of the exact addressed relation while the declared comparison object is held fixed as far as the domain permits. Then, in determinate cases,
 
 ```math
-\operatorname{LB}_F(R_j;X)=1
+\mathrm{LB}_F(R_j;X)=1
 \Longleftrightarrow
 \exists f_k\in F:
-\operatorname{Eval}_k(X)
+\mathrm{Eval}_k(X)
 \not\simeq_k
-\operatorname{Eval}_k\!\left(\operatorname{Abl}_j(X)\right).
+\mathrm{Eval}_k\!\left(\mathrm{Abl}_j(X)\right).
 ```
 
 The live fold retains a three-way result:
@@ -201,9 +201,9 @@ This prevents two specific errors: calling a relation non-load-bearing merely be
 Direct preservation for an operation is correspondingly
 
 ```math
-\operatorname{Preserve}_k(X,Y)=1
+\mathrm{Preserve}_k(X,Y)=1
 \Longleftrightarrow
-\operatorname{Eval}_k(X)\simeq_k\operatorname{Eval}_k(Y),
+\mathrm{Eval}_k(X)\simeq_k\mathrm{Eval}_k(Y),
 ```
 
 and the preserve-or-reopen contract remains operation-relative. These expressions sharpen the existing FSAI fold; they do not create an independent general theory of satisfiability, causation, or physical intervention.

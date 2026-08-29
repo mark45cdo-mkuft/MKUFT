@@ -39,6 +39,7 @@ The `HISTORICAL_V1_` filenames are deliberate. Zenodo record `17780566` contains
 Version DOI: `10.5281/zenodo.22166005`  
 Previous v0.2 DOI: `10.5281/zenodo.22164562`  
 Licence of exact v0.3 deposit: CC BY 4.0
+Zenodo MD5: `985801aceccb3ce3effe6da1f4d1d496`  
 
 The exact 23-page Zenodo PDF remains the controlling frozen visual object. The repository identity record preserves the receiver-verified MD5, local SHA-256 and byte count for that carrier without asserting that a later live Markdown/module object is the deposited binary. Version v0.2 remains a frozen earlier version in the Zenodo version lineage and is not silently rewritten by v0.3 or the later live folds.
 

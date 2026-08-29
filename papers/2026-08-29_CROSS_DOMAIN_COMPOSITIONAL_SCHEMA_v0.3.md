@@ -33,7 +33,7 @@ Y=C_F(X).
 Evaluation is typed as
 
 ```math
-\operatorname{Eval}_k(X)
+\mathrm{Eval}_k(X)
 =
 \bigl(s_k(X),v_k(X),\rho_k(X)\bigr),
 ```

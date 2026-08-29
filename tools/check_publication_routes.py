@@ -321,8 +321,8 @@ REQUIRED = {
         CROSS_DOMAIN_VERSION,
         CROSS_DOMAIN_PREVIOUS,
         "Cross-Domain Compositional Schema",
-        "\\operatorname{Eval}",
-        "\\operatorname{LB}",
+        "\\mathrm{Eval}",
+        "\\mathrm{LB}",
     ],
     f"docs/{CROSS_DOMAIN_BELL_MODULE}": [
         CROSS_DOMAIN_VERSION,
