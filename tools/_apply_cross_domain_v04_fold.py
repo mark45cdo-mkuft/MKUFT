@@ -7,9 +7,27 @@ DOI_V02 = "10.5281/zenodo.22164562"
 DOI_CONCEPT = "10.5281/zenodo.22164561"
 MD5 = "d5a56561e82ca5d64a8766ca8122a956"
 SHA256 = "bcb5c7618962bac98c2ae0ad097f7bba8e9758d4c86879b6546d037736c73b83"
-PDF_BYTES = 394810
-PAGES = 31
+PDF_BYTES = "394,810"
+PAGES = "31"
 TITLE = "Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse"
+
+TOKENS = {
+    "__DOI_NEW__": DOI_NEW,
+    "__DOI_V03__": DOI_V03,
+    "__DOI_V02__": DOI_V02,
+    "__DOI_CONCEPT__": DOI_CONCEPT,
+    "__MD5__": MD5,
+    "__SHA256__": SHA256,
+    "__PDF_BYTES__": PDF_BYTES,
+    "__PAGES__": PAGES,
+    "__TITLE__": TITLE,
+}
+
+
+def tpl(s):
+    for k, v in TOKENS.items():
+        s = s.replace(k, v)
+    return s
 
 
 def read(path):
@@ -28,24 +46,27 @@ def append_once(path, key, block):
         write(path, s.rstrip() + "\n\n" + block.strip() + "\n")
 
 
-publication_record = f'''# Cross-Domain Compositional Schema — Publication Record
+# ---------------------------------------------------------------------------
+# Frozen publication custody
+# ---------------------------------------------------------------------------
+write("CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md", tpl(r'''# Cross-Domain Compositional Schema — Publication Record
 
 **Author:** Mark Charles McLaughlin  
 **ORCID:** `0009-0005-7736-1511`  
-**Current title:** *{TITLE}*  
+**Current title:** *__TITLE__*  
 **Current version:** 0.4  
 **Publication date:** 29 August 2026  
-**Current version DOI:** `{DOI_NEW}`  
-**Prior version DOI (v0.3):** `{DOI_V03}`  
-**Earlier version DOI (v0.2):** `{DOI_V02}`  
-**Zenodo concept DOI:** `{DOI_CONCEPT}`  
+**Current version DOI:** `__DOI_NEW__`  
+**Prior version DOI (v0.3):** `__DOI_V03__`  
+**Earlier version DOI (v0.2):** `__DOI_V02__`  
+**Zenodo concept DOI:** `__DOI_CONCEPT__`  
 **Licence of exact v0.4 deposit:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
 **Publication type:** Preprint  
 **Access:** Open
 
 ## Public routes
 
-- [Zenodo v0.4 publication](https://doi.org/{DOI_NEW})
+- [Zenodo v0.4 publication](https://doi.org/__DOI_NEW__)
 - [GitHub reader/citation route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md)
 - [Frozen carrier identity record](publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md)
 - [Prior GitHub v0.3 reader route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md)
@@ -55,48 +76,41 @@ publication_record = f'''# Cross-Domain Compositional Schema — Publication Rec
 
 ## Version custody
 
-Version 0.4 is the substantive successor to v0.3 in the same Zenodo version lineage. The concept DOI `{DOI_CONCEPT}` identifies the version family and resolves to the latest version; the version-specific DOI `{DOI_NEW}` identifies the frozen v0.4 object. The v0.3 and v0.2 DOIs remain immutable historical versions.
+Version 0.4 is the substantive successor to v0.3 in the same Zenodo version lineage. The concept DOI `__DOI_CONCEPT__` identifies the version family and resolves to the latest version; the version-specific DOI `__DOI_NEW__` identifies the frozen v0.4 object. The v0.3 and v0.2 DOIs remain immutable historical versions.
 
 The exact Zenodo v0.4 PDF is the controlling frozen publication carrier. Live GitHub modules may integrate or sharpen the result but do not silently alter the deposited object.
 
 ## Exact v0.4 carrier identity
 
 **Zenodo filename:** `Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf`  
-**Pages:** {PAGES}  
-**Bytes:** {PDF_BYTES:,}  
-**MD5:** `{MD5}`  
-**SHA-256:** `{SHA256}`
+**Pages:** __PAGES__  
+**Bytes:** __PDF_BYTES__  
+**MD5:** `__MD5__`  
+**SHA-256:** `__SHA256__`
 
 The MD5 and byte count identify the receiver-side publication carrier; the SHA-256 identifies the audited release carrier used for the coupled red-team fixed-point pass.
 
 ## Scientific fold boundary
 
-Version 0.4 retains the v0.3 typed compositional interface contract and closes the previously open Bell/tetrahedral branch at an exact mathematical fixed point. It adds:
-
-- explicit operator/sign-to-target semantic attachment;
-- a four-context indexing simplex and its Boolean face/restriction lattice as an address structure, not a physical lattice;
-- the Bell-native fact that CHSH facets of the four-dimensional local correlator polytope are three-dimensional tetrahedra;
-- the exact Facet-adapted Tetrahedral Bell Chart (TBC)
+Version 0.4 retains the v0.3 typed compositional interface contract and closes the previously open Bell/tetrahedral branch at an exact mathematical fixed point. It adds explicit operator/sign-to-target semantic attachment, distinguishes a four-context indexing simplex from Bell-native CHSH tetrahedral facets, and defines the exact Facet-adapted Tetrahedral Bell Chart (TBC):
 
 ```math
 E=V\lambda+\frac{\nu}{4}c,
 \qquad
 \mathbf 1^{\mathsf T}\lambda=1,
 \qquad
-\nu=c^{\mathsf T}E-2;
+\nu=c^{\mathsf T}E-2.
 ```
 
-- marginal-fibre reopening for full-behaviour/no-signalling questions;
-- local/Tsirelson/PR normal-ray calibration;
-- the exact hypervolume collapse
+The tetrahedral facet carries three independent affine coordinates and `nu` supplies the fourth correlator degree of freedom. The chart is exact for the declared four-correlator object but does not close full Bell behaviour because marginal information remains in the fibre of `P -> E`.
+
+The natural four-dimensional simplex volume satisfies
 
 ```math
-\mathcal V_c(E)=\frac{{|S_c(E)-2|}}{3};
+\mathcal V_c(E)=\frac{|S_c(E)-2|}{3},
 ```
 
-- a reparameterisation null: an invertible coordinate change with no additional law cannot by itself constitute new physics.
-
-The physical result remains **NULL** after native-owner subtraction: no new Bell inequality, no independent Tsirelson boundary, no new quantum mechanism, and no measurable physical residual are claimed.
+so the immediate geometric-invariant candidate collapses to known CHSH excess. Because TBC is an invertible reparameterisation, the chart alone cannot constitute new physics. The physical result remains **NULL** after native-owner subtraction: no new Bell inequality, no independent Tsirelson boundary, no new quantum mechanism, and no measurable physical residual are claimed.
 
 ## Live ownership
 
@@ -108,23 +122,22 @@ The physical result remains **NULL** after native-owner subtraction: no new Bell
 
 ## Citation
 
-> McLaughlin, Mark Charles. (2026). *{TITLE}*. Version 0.4. Zenodo. DOI: {DOI_NEW}.
+> McLaughlin, Mark Charles. (2026). *__TITLE__*. Version 0.4. Zenodo. DOI: __DOI_NEW__.
 
 ## Object boundary
 
 The publication record owns DOI/version/citation/licence and frozen-carrier identity. The `papers/` route owns reader discovery. Modules 33S7A, 28A, 25 and 32S3 are evolving live-canon integrations. Zenodo remains publication custody. None of these objects silently replaces another.
-'''
-write("CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md", publication_record)
+'''))
 
-paper_route = f'''# {TITLE}
+write("papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md", tpl(r'''# __TITLE__
 
 **Author:** Mark Charles McLaughlin  
 **ORCID:** 0009-0005-7736-1511  
 **Version:** 0.4 preprint  
 **Published:** 29 August 2026  
-**Version DOI:** [{DOI_NEW}](https://doi.org/{DOI_NEW})  
-**Prior version DOI (v0.3):** [{DOI_V03}](https://doi.org/{DOI_V03})  
-**Concept DOI:** [{DOI_CONCEPT}](https://doi.org/{DOI_CONCEPT})  
+**Version DOI:** [__DOI_NEW__](https://doi.org/__DOI_NEW__)  
+**Prior version DOI (v0.3):** [__DOI_V03__](https://doi.org/__DOI_V03__)  
+**Concept DOI:** [__DOI_CONCEPT__](https://doi.org/__DOI_CONCEPT__)  
 **Licence:** CC BY 4.0
 
 ## Publication boundary
@@ -133,30 +146,24 @@ This reader route describes the frozen Zenodo v0.4 publication. It is not a repl
 
 Version 0.4 carries the previously open tetrahedral/Bell branch through exact semantics and geometry. The four Bell contexts form an abstract indexing simplex whose Boolean face lattice records exposed context-labelled quantities. A CHSH sign section attaches coefficients to exact contexts and selects a Bell functional/facet orientation. Separately, Bell-native geometry supplies genuine three-dimensional tetrahedral CHSH facets inside the four-dimensional local correlator polytope.
 
-For the standard CHSH orientation `c=(1,1,1,-1)^T`, let `V` contain the four local deterministic vertices saturating `c^T E=2`. Define
+For a selected CHSH orientation `c`, let `V` contain the four local deterministic vertices saturating `c^T E=2`. Define
 
 ```math
 \nu=c^{\mathsf T}E-2,
-```
-
-```math
+\qquad
 \Pi_c(E)=E-\frac{\nu}{4}c,
-```
-
-and
-
-```math
+\qquad
 \lambda=V^{-1}\Pi_c(E).
 ```
 
 Then the exact Facet-adapted Tetrahedral Bell Chart is
 
 ```math
-\boxed{{
-E=V\lambda+\frac{{\nu}}4c,
+\boxed{
+E=V\lambda+\frac{\nu}{4}c,
 \qquad
-\mathbf1^{{\mathsf T}}\lambda=1.
-}}
+\mathbf1^{\mathsf T}\lambda=1.
+}
 ```
 
 The tetrahedral base carries three independent affine coordinates and `nu` carries the fourth. On the local CHSH facet, `nu=0` and the coordinates are ordinary non-negative barycentric weights. Off the facet, the chart remains invertible while the projected coordinates need not remain inside the simplex.
@@ -164,12 +171,12 @@ The tetrahedral base carries three independent affine coordinates and `nu` carri
 The paper then applies native Bell/Fine/no-signalling/Tsirelson-Landau-Masanes constraints. TBC coordinates do not close full Bell behaviours because local marginals remain in the fibre of `P -> E`. The natural four-dimensional simplex volume generated by the CHSH facet and an off-facet point obeys
 
 ```math
-\boxed{{
-\mathcal V_c(E)=\frac{{|S_c(E)-2|}}3.
-}}
+\boxed{
+\mathcal V_c(E)=\frac{|S_c(E)-2|}{3}.
+}
 ```
 
-That candidate therefore collapses to a rescaling of known CHSH excess rather than defining an independent physical invariant. Because TBC is an invertible reparameterisation, the chart alone cannot be new physics. The v0.4 physical residual is **NULL**: no new Bell inequality, independent Tsirelson derivation, quantum mechanism, or measurable physical delta survives the native-owner squeeze.
+That candidate collapses to a rescaling of known CHSH excess rather than defining an independent physical invariant. Because TBC is an invertible reparameterisation, the chart alone cannot be new physics. The v0.4 physical residual is **NULL**: no new Bell inequality, independent Tsirelson derivation, quantum mechanism, or measurable physical delta survives the native-owner squeeze.
 
 ## Live MKUFT owners
 
@@ -181,41 +188,41 @@ That candidate therefore collapses to a rescaling of known CHSH excess rather th
 ## Frozen carrier identity
 
 See [the v0.4 identity record](../publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md).
-'''
-write("papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md", paper_route)
+'''))
 
-identity = f'''# Cross-Domain Compositional Schema v0.4 — frozen carrier identity
+write("publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md", tpl(r'''# Cross-Domain Compositional Schema v0.4 — frozen carrier identity
 
-**Title:** {TITLE}  
+**Title:** __TITLE__  
 **Version:** 0.4  
 **Published:** 29 August 2026  
-**Version DOI:** `{DOI_NEW}`  
-**Prior version DOI:** `{DOI_V03}`  
-**Concept DOI:** `{DOI_CONCEPT}`  
+**Version DOI:** `__DOI_NEW__`  
+**Prior version DOI:** `__DOI_V03__`  
+**Concept DOI:** `__DOI_CONCEPT__`  
 **Licence:** CC BY 4.0
 
 ## Exact carrier
 
 - filename: `Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf`
-- pages: {PAGES}
-- bytes: {PDF_BYTES}
-- MD5: `{MD5}`
-- SHA-256: `{SHA256}`
+- pages: __PAGES__
+- bytes: 394810
+- MD5: `__MD5__`
+- SHA-256: `__SHA256__`
 
 The PDF itself is deposited at Zenodo under the version-specific DOI. This repository record preserves receiver-side identity witnesses and routes to live integrations without pretending that evolving Markdown modules are byte-equivalent to the frozen publication.
 
 ## Science boundary
 
 The publication closes the tetrahedral Bell branch at the level of exact coordinate semantics and established Bell geometry. Its TBC is an invertible reparameterisation, and the natural four-volume collapses to CHSH excess. No independent new Bell law or physical mechanism is claimed.
-'''
-write("publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md", identity)
-write("publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/SHA256SUMS.txt", f"{SHA256}  Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf\n")
+'''))
+write("publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/SHA256SUMS.txt", SHA256 + "  Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf\n")
 
-# 28A metadata and v0.4 exact continuation.
+# ---------------------------------------------------------------------------
+# Live science owners
+# ---------------------------------------------------------------------------
 path = "docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md"
 s = read(path)
 s = s.replace("**Compositional-schema publication:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*, v0.3, DOI `10.5281/zenodo.22166005`; previous v0.2 DOI `10.5281/zenodo.22164562`",
-              f"**Compositional-schema publication:** *{TITLE}*, v0.4, DOI `{DOI_NEW}`; prior v0.3 DOI `{DOI_V03}`; earlier v0.2 DOI `{DOI_V02}`")
+              "**Compositional-schema publication:** *" + TITLE + "*, v0.4, DOI `" + DOI_NEW + "`; prior v0.3 DOI `" + DOI_V03 + "`; earlier v0.2 DOI `" + DOI_V02 + "`")
 s = s.replace("**Publication record:** [Cross-Domain Compositional Schema v0.3](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)",
               "**Publication record:** [Cross-Domain Compositional Schema v0.4](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)")
 s = s.replace("**Status:** public methodological calibration protocol with an executed analytic Phase-0 known-answer calibration dated 29 August 2026, now reported in the published Cross-Domain Compositional Schema v0.3. It reports no new Bell inequality, no independent derivation of Tsirelson's bound, and no new physical mechanism.",
@@ -254,7 +261,7 @@ with odd parity. It induces a coefficient vector `c_sigma` and Bell functional
 S_\sigma(E)=c_\sigma^{\mathsf T}E.
 ```
 
-The attachment of each sign to its exact measurement context is load-bearing: erasing the attachment while retaining only the multiset of three `+1` and one `-1` coefficient collapses distinct CHSH facet selectors. This is the Bell-native instance of the general operator-to-target semantic-address rule.
+The attachment of each sign to its exact measurement context is load-bearing: erasing the attachment while retaining only the sign inventory collapses distinct CHSH facet selectors. This is the Bell-native instance of the general operator-to-target semantic-address rule.
 
 ### 14.2 Bell-native tetrahedron
 
@@ -292,15 +299,9 @@ Define
 
 ```math
 \nu_c(E)=c^{\mathsf T}E-2,
-```
-
-```math
-\Pi_c(E)=E-\frac{\nu_c(E)}4c,
-```
-
-and
-
-```math
+\qquad
+\Pi_c(E)=E-\frac{\nu_c(E)}{4}c,
+\qquad
 \lambda_c(E)=V^{-1}\Pi_c(E).
 ```
 
@@ -323,9 +324,9 @@ Thus the v0.3 four-versus-three objection is preserved, not reversed: **tetrahed
 Along the normal ray through the facet centroid, the chart reproduces the standard ordering
 
 ```text
-local facet:      S=2,       nu=0
-Tsirelson point:  S=2sqrt(2), nu=2(sqrt(2)-1)
-PR/algebraic:     S=4,       nu=2
+local facet:       S=2,        nu=0
+Tsirelson point:   S=2sqrt(2), nu=2(sqrt(2)-1)
+PR/algebraic:      S=4,        nu=2
 ```
 
 without creating a new quantum boundary. The Tsirelson-Landau-Masanes correlator criterion is only pulled back through the invertible chart.
@@ -356,7 +357,7 @@ The natural four-dimensional simplex volume formed by the selected CHSH facet an
 }
 ```
 
-The obvious geometric invariant candidate therefore collapses exactly to known CHSH excess. It is useful bookkeeping, not an independent Bell quantity.
+The immediate geometric invariant candidate therefore collapses exactly to known CHSH excess. It is useful bookkeeping, not an independent Bell quantity.
 
 ### 14.6 Reparameterisation null and physics gate
 
@@ -375,7 +376,7 @@ natural 4-volume novelty: NULL; RESCALED CHSH EXCESS
 new Bell inequality / new Tsirelson boundary / new mechanism: NULL
 ```
 
-The surviving result is a **facet-adapted coordinate and semantic-address construction on established Bell geometry**, not evidence that tetrahedral shape is a universal ontology or new physical law. Phase 1 remains the next methodological burden: freeze the rules and test held-out Bell cases against a strong Bell-native baseline; Phase 2 should transport the same interface rules into a non-CHSH scenario where a four-context tetrahedral convenience is absent.
+The surviving result is a facet-adapted coordinate and semantic-address construction on established Bell geometry, not evidence that tetrahedral shape is a universal ontology or new physical law. Phase 1 remains the next methodological burden: freeze the rules and test held-out Bell cases against a strong Bell-native baseline; Phase 2 should transport the same interface rules into a non-CHSH scenario where a four-context tetrahedral convenience is absent.
 '''
 if "## 14. Published v0.4 tetrahedral formalisation" not in s:
     s = s.rstrip() + v04_block + "\n"
@@ -383,11 +384,10 @@ s = s.replace("The result is now part of the frozen Cross-Domain Compositional S
               "The Phase-0 result remains part of the frozen v0.3 publication. The current v0.4 publication reopens that dimensional obstruction and closes the tetrahedral branch through the exact formalisation in Section 14. This module is the live detailed calibration/formalisation owner; later Phase-1/Phase-2 work must not be silently backdated into either frozen deposit.\n\nThe next scientific burden remains Phase 1: freeze the now-complete interface/TBC mapping rules and score held-out Bell objects against a strong Bell-native baseline. Only a prospective burden/discrimination gain or a separately defined non-reparameterisation physical residual can support a stronger promotion.")
 write(path, s)
 
-# 33S7A
 path = "docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md"
 s = read(path)
 s = s.replace("**Compositional-interface publication:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*, v0.3, DOI `10.5281/zenodo.22166005`; previous v0.2 DOI `10.5281/zenodo.22164562`",
-              f"**Compositional-interface publication:** *{TITLE}*, v0.4, DOI `{DOI_NEW}`; prior v0.3 DOI `{DOI_V03}`; earlier v0.2 DOI `{DOI_V02}`")
+              "**Compositional-interface publication:** *" + TITLE + "*, v0.4, DOI `" + DOI_NEW + "`; prior v0.3 DOI `" + DOI_V03 + "`; earlier v0.2 DOI `" + DOI_V02 + "`")
 s = s.replace("**Publication record:** [Cross-Domain Compositional Schema v0.3](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)",
               "**Publication record:** [Cross-Domain Compositional Schema v0.4](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)")
 s = s.replace("**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated after publication of Cross-Domain Compositional Schema v0.3. It does not retroactively alter a frozen publication, assert a new mathematical theorem, privilege a simplex/tetrahedron as physical geometry, or claim experimental confirmation of a universal law of nature.",
@@ -396,7 +396,7 @@ block = r'''
 
 ### Published v0.4 Bell-specific closure of the geometry branch
 
-Version 0.4 does not change the general FSAI law; it gives the preserve/reopen rule a stronger Bell-native calibration. Four Bell context labels may be organised as an abstract indexing simplex with Boolean face/restriction lattice `2^C`, but that address object is distinct from the physical/mathematical correlator carrier. Separately, each CHSH facet of the local correlator polytope is a genuine three-dimensional tetrahedron inside `R^4`.
+Version 0.4 does not change the general FSAI law; it gives the preserve/reopen rule a stronger Bell-native calibration. Four Bell context labels may be organised as an abstract indexing simplex with Boolean face/restriction lattice `2^C`, but that address object is distinct from the correlator carrier. Separately, each CHSH facet of the local correlator polytope is a genuine three-dimensional tetrahedron inside `R^4`.
 
 For a selected CHSH facet orientation `c`, the published Facet-adapted Tetrahedral Bell Chart uses
 
@@ -416,7 +416,7 @@ E=V\lambda+\frac{\nu}{4}c,
 \mathbf1^{\mathsf T}\lambda=1.
 ```
 
-This is a useful future-sufficiency example because the three-coordinate tetrahedral facet address plus one transverse coordinate closes the four-correlator object exactly, while the same interface does **not** close full Bell behaviour: local marginals remain in the fibre of `P -> E` and must be reopened when a wider operation asks a marginal/no-signalling question.
+The three-coordinate tetrahedral facet address plus one transverse coordinate closes the four-correlator object exactly, while the same interface does **not** close full Bell behaviour: local marginals remain in the fibre of `P -> E` and must be reopened when a wider operation asks a marginal/no-signalling question.
 
 The deeper FSAI lesson is therefore not “tetrahedra are privileged”. It is:
 
@@ -431,7 +431,7 @@ invertible reparameterisation changes no native prediction
 → do not promote coordinate structure into new law
 ```
 
-The natural tetrahedral hypervolume candidate in v0.4 collapses to `|S-2|/3`, so it supplies no independent physical invariant. This negative result is load-bearing claim hygiene: a geometry can be mathematically exact and operationally useful while remaining physically null after native-owner subtraction.
+The natural tetrahedral hypervolume candidate in v0.4 collapses to `|S-2|/3`, so it supplies no independent physical invariant. A geometry can be mathematically exact and operationally useful while remaining physically null after native-owner subtraction.
 '''
 if "### Published v0.4 Bell-specific closure" not in s:
     marker = "\n## 3. Load-bearing membership and minimum sufficiency"
@@ -442,11 +442,10 @@ s = s.replace("published Cross-Domain Compositional Schema v0.3; the live module
               "published Cross-Domain Compositional Schema v0.4; Module 28A remains the detailed Bell/tetrahedral calibration and reproducibility owner.")
 write(path, s)
 
-# Module 25
 path = "docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md"
 s = read(path)
 s = s.replace("**Compositional-interface calibration:** [Cross-Domain Compositional Schema v0.3](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md), DOI `10.5281/zenodo.22166005`; future-sufficiency ownership remains in [33S7A](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md).",
-              f"**Compositional-interface calibration:** [Cross-Domain Compositional Schema v0.4](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md), DOI `{DOI_NEW}`; future-sufficiency ownership remains in [33S7A](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md), with the Bell/tetrahedral worked owner in [28A](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md).")
+              "**Compositional-interface calibration:** [Cross-Domain Compositional Schema v0.4](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md), DOI `" + DOI_NEW + "`; future-sufficiency ownership remains in [33S7A](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md), with the Bell/tetrahedral worked owner in [28A](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md).")
 block = r'''
 
 ### 7.3B Reparameterisation-control deformation
@@ -472,11 +471,10 @@ if "### 7.3B Reparameterisation-control deformation" not in s:
     s = s.replace(marker, block + marker, 1)
 write(path, s)
 
-# Module 32S3
 path = "docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md"
 s = read(path)
 s = s.replace("**Compositional-interface publication:** [Cross-Domain Compositional Schema v0.3](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md), DOI `10.5281/zenodo.22166005`; preserve/reopen ownership remains in [33S7A](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md).",
-              f"**Compositional-interface publication:** [Cross-Domain Compositional Schema v0.4](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md), DOI `{DOI_NEW}`; preserve/reopen ownership remains in [33S7A](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md), with Bell/TBC calibration in [28A](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md).")
+              "**Compositional-interface publication:** [Cross-Domain Compositional Schema v0.4](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md), DOI `" + DOI_NEW + "`; preserve/reopen ownership remains in [33S7A](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md), with Bell/TBC calibration in [28A](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md).")
 block = r'''
 
 ## Bell/TBC fibre correspondence — v0.4 publication fold
@@ -506,13 +504,15 @@ marginal or full-behaviour target
 → reopen marginal-bearing coordinates / completion owner
 ```
 
-This is a local-to-global custody example, not a new Bell mechanism. Module 32S3 retains completion/fibre ownership; Module 33S7A owns the preserve/reopen consequence; Module 28A owns the Bell-native calculation. The distinction is important because an exact chart of one projection must not be mistaken for completion of the parent object.
+This is a local-to-global custody example, not a new Bell mechanism. Module 32S3 retains completion/fibre ownership; Module 33S7A owns the preserve/reopen consequence; Module 28A owns the Bell-native calculation. An exact chart of one projection must not be mistaken for completion of the parent object.
 '''
 if "## Bell/TBC fibre correspondence — v0.4 publication fold" not in s:
     s = s.rstrip() + block + "\n"
 write(path, s)
 
-# Recursive learning lesson
+# ---------------------------------------------------------------------------
+# Recursive learning
+# ---------------------------------------------------------------------------
 path = "RESEARCH_DERIVATION_AND_CLOSURE_SOP.md"
 s = read(path)
 block = r'''
@@ -537,8 +537,6 @@ strong obstruction survives
 
 That pass found a Bell-native tetrahedral CHSH facet plus one transverse coordinate, yielding an exact four-dimensional chart. It then killed the obvious hypervolume novelty because the volume reduced to `|S-2|/3`, and killed a physics promotion because the chart is invertible and supplies no additional law.
 
-General lesson:
-
 > **When a candidate fails by a clean theorem, rank, dimension, type, or custody obstruction, preserve the failure exactly and ask whether it identifies the minimum additional structure required for a lawful successor. A successor is not a rescue of the failed claim unless it silently deletes the obstruction.**
 
 Before calling a richer representation scientifically new, run the reparameterisation null: if every observable and admissibility result is carried through an invertible map from the native object, the representation can earn structural or ergonomic utility but not an independent physical residual merely from its coordinates.
@@ -550,19 +548,21 @@ if "### 17A.9 Obstruction-to-construction recursion" not in s:
     s = s.replace(marker, block + marker, 1)
 write(path, s)
 
-# Discovery/canon surfaces
-common_block = f'''## Cross-Domain Compositional Schema v0.4 — current publication update
+# ---------------------------------------------------------------------------
+# Discovery/canon/provenance surfaces
+# ---------------------------------------------------------------------------
+common_block = tpl(r'''## Cross-Domain Compositional Schema v0.4 — current publication update
 
-- current version DOI: `{DOI_NEW}`
-- prior v0.3 DOI: `{DOI_V03}`
-- concept DOI: `{DOI_CONCEPT}`
+- current version DOI: `__DOI_NEW__`
+- prior v0.3 DOI: `__DOI_V03__`
+- concept DOI: `__DOI_CONCEPT__`
 - reader route: `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md`
 - publication record: `CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md`
 - live future-sufficiency owner: `docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md`
 - live Bell/tetrahedral owner: `docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md`
 
 Version 0.4 closes the tetrahedral Bell branch as an exact facet-plus-normal coordinate construction on native CHSH geometry. The chart is an invertible reparameterisation, the natural four-volume collapses to CHSH excess, and the physical residual remains NULL. The v0.3 and v0.2 routes remain historical frozen versions.
-'''
+''')
 for path in [
     "README.md",
     "INDEX.md",
@@ -576,50 +576,56 @@ for path in [
 ]:
     append_once(path, "Cross-Domain Compositional Schema v0.4 — current publication update", common_block)
 
-append_once("PROVENANCE_DOI_AND_ATTRIBUTION.md", "Cross-Domain Compositional Schema v0.4 — published 29 August 2026", f'''## Cross-Domain Compositional Schema v0.4 — published 29 August 2026
+append_once("PROVENANCE_DOI_AND_ATTRIBUTION.md", "Cross-Domain Compositional Schema v0.4 — published 29 August 2026", tpl(r'''## Cross-Domain Compositional Schema v0.4 — published 29 August 2026
 
-**Title:** *{TITLE}*  
-**Version DOI:** `{DOI_NEW}`  
-**Prior v0.3 DOI:** `{DOI_V03}`  
-**Concept DOI:** `{DOI_CONCEPT}`  
+**Title:** *__TITLE__*  
+**Version DOI:** `__DOI_NEW__`  
+**Prior v0.3 DOI:** `__DOI_V03__`  
+**Concept DOI:** `__DOI_CONCEPT__`  
 **Licence:** CC BY 4.0  
-**Frozen carrier:** 31 pages; 394,810 bytes; MD5 `{MD5}`; SHA-256 `{SHA256}`.
+**Frozen carrier:** 31 pages; 394,810 bytes; MD5 `__MD5__`; SHA-256 `__SHA256__`.
 
-Version 0.4 is a new immutable publication object in the same Zenodo lineage. It does not alter the v0.3 or v0.2 deposits. Live MKUFT modules integrate the published result under their own revision history and must not be cited as byte-identical to the Zenodo carrier.''')
+Version 0.4 is a new immutable publication object in the same Zenodo lineage. It does not alter the v0.3 or v0.2 deposits. Live MKUFT modules integrate the published result under their own revision history and must not be cited as byte-identical to the Zenodo carrier.
+'''))
 
-append_once("RIGHTS_AND_LICENSE_NOTICE.md", "Cross-Domain Compositional Schema v0.4", f'''## Cross-Domain Compositional Schema v0.4
+append_once("RIGHTS_AND_LICENSE_NOTICE.md", "Cross-Domain Compositional Schema v0.4", tpl(r'''## Cross-Domain Compositional Schema v0.4
 
-The exact Zenodo v0.4 deposit at DOI `{DOI_NEW}` is licensed **CC BY 4.0** as stated in that publication. This licence applies to the exact deposited v0.4 object and does not silently relicense unrelated MKUFT modules or historical publications. The prior v0.3/v0.2 objects retain their own published licence statements.''')
+The exact Zenodo v0.4 deposit at DOI `__DOI_NEW__` is licensed **CC BY 4.0** as stated in that publication. This licence applies to the exact deposited v0.4 object and does not silently relicense unrelated MKUFT modules or historical publications. The prior v0.3/v0.2 objects retain their own published licence statements.
+'''))
 
-# codemeta
 path = Path("codemeta.json")
 data = json.loads(path.read_text(encoding="utf-8"))
 data["description"] = data["description"].replace("Cross-Domain Compositional Schema v0.3", "Cross-Domain Compositional Schema v0.4")
-cites = data.setdefault("citation", [])
-newurl = "https://doi.org/10.5281/zenodo.22166468"
-if newurl not in cites:
-    cites.insert(3, newurl)
-subj = data.setdefault("subjectOf", [])
+newurl = "https://doi.org/" + DOI_NEW
+if newurl not in data.setdefault("citation", []):
+    data["citation"].insert(3, newurl)
 route = "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md"
-if route not in subj:
-    subj.insert(2, route)
-kws = data.setdefault("keywords", [])
+if route not in data.setdefault("subjectOf", []):
+    data["subjectOf"].insert(2, route)
 for kw in ["Facet-adapted Tetrahedral Bell Chart", "semantic attachment", "Bell correlation polytope", "reparameterisation null"]:
-    if kw not in kws:
-        kws.append(kw)
+    if kw not in data.setdefault("keywords", []):
+        data["keywords"].append(kw)
 path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-# Publication checker
+# ---------------------------------------------------------------------------
+# Persistent regression guard
+# ---------------------------------------------------------------------------
 path = "tools/check_publication_routes.py"
 s = read(path)
-s = s.replace('CROSS_DOMAIN_VERSION = "10.5281/zenodo.22166005"\nCROSS_DOMAIN_PREVIOUS = "10.5281/zenodo.22164562"\nCROSS_DOMAIN_PAPER = "2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md"',
-              'CROSS_DOMAIN_VERSION = "10.5281/zenodo.22166468"\nCROSS_DOMAIN_PREVIOUS = "10.5281/zenodo.22166005"\nCROSS_DOMAIN_EARLIER = "10.5281/zenodo.22164562"\nCROSS_DOMAIN_CONCEPT = "10.5281/zenodo.22164561"\nCROSS_DOMAIN_PAPER = "2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md"')
-s = s.replace('CROSS_DOMAIN_MD5 = "985801aceccb3ce3effe6da1f4d1d496"\nCROSS_DOMAIN_SHA256 = "fd4459711d2f1210b2c770c38611554c0e10a8e1748063fc1d78d0a4ef607c5b"',
-              f'CROSS_DOMAIN_MD5 = "{MD5}"\nCROSS_DOMAIN_SHA256 = "{SHA256}"')
-# Add the earlier/concept constants to every immediately adjacent cross-domain required sequence.
-s = s.replace('CROSS_DOMAIN_PREVIOUS,\n        CROSS_DOMAIN_PAPER,', 'CROSS_DOMAIN_PREVIOUS,\n        CROSS_DOMAIN_EARLIER,\n        CROSS_DOMAIN_CONCEPT,\n        CROSS_DOMAIN_PAPER,')
+s = s.replace(
+    'CROSS_DOMAIN_VERSION = "10.5281/zenodo.22166005"\nCROSS_DOMAIN_PREVIOUS = "10.5281/zenodo.22164562"\nCROSS_DOMAIN_PAPER = "2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md"',
+    'CROSS_DOMAIN_VERSION = "10.5281/zenodo.22166468"\nCROSS_DOMAIN_PREVIOUS = "10.5281/zenodo.22166005"\nCROSS_DOMAIN_EARLIER = "10.5281/zenodo.22164562"\nCROSS_DOMAIN_CONCEPT = "10.5281/zenodo.22164561"\nCROSS_DOMAIN_PAPER = "2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md"',
+)
+s = s.replace(
+    'CROSS_DOMAIN_MD5 = "985801aceccb3ce3effe6da1f4d1d496"\nCROSS_DOMAIN_SHA256 = "fd4459711d2f1210b2c770c38611554c0e10a8e1748063fc1d78d0a4ef607c5b"',
+    'CROSS_DOMAIN_MD5 = "' + MD5 + '"\nCROSS_DOMAIN_SHA256 = "' + SHA256 + '"',
+)
+s = s.replace(
+    'CROSS_DOMAIN_PREVIOUS,\n        CROSS_DOMAIN_PAPER,',
+    'CROSS_DOMAIN_PREVIOUS,\n        CROSS_DOMAIN_EARLIER,\n        CROSS_DOMAIN_CONCEPT,\n        CROSS_DOMAIN_PAPER,',
+)
 write(path, s)
 
-# Remove branch-only scaffolding before the folded commit.
+# No branch-only scaffold may survive the folded commit.
 Path("tools/_apply_cross_domain_v04_fold.py").unlink(missing_ok=True)
 Path(".github/workflows/v04-cross-domain-fold.yml").unlink(missing_ok=True)
