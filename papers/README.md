@@ -26,6 +26,24 @@ The v2 publication is the current principal MKUFT publication in the historical 
 
 ## Published DOI papers
 
+### Cross-Domain Compositional Schema
+
+*Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*
+
+**Version:** 0.3 — 29 August 2026  
+**Version DOI:** [10.5281/zenodo.22166005](https://doi.org/10.5281/zenodo.22166005)  
+**Previous v0.2 DOI:** [10.5281/zenodo.22164562](https://doi.org/10.5281/zenodo.22164562)  
+**Licence of exact v0.3 deposit:** CC BY 4.0
+
+- [Public GitHub paper route](2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md)
+- [Standalone publication record](../CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)
+- [Frozen v0.3 identity/checksum record](../publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3/)
+- [Canonical future-sufficiency fold — Module 33S7A](../docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
+- [Bell/CHSH hostile calibration — Module 28A](../docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22166005)
+
+Version 0.3 turns the earlier cross-domain compositional schema into a substantially formalised interface result. It adds restoration-signature-aware evaluation, protocol-relative exact relation ablation, operation-relative load-bearingness, recursive promotion, native parent-completion custody, restorative descent, structural lemmas, and a Bell/CHSH hostile calibration. The Bell Phase-0 physical verdict is null: no new Bell inequality, no independent Tsirelson derivation, and no new physical mechanism. The tetrahedral discovery route remains non-privileged for unrestricted four-correlator CHSH data because an ordinary tetrahedral barycentric point carries only three independent coordinates; restricted or target-specific charts remain open only where they earn separate operational value.
+
 ### Bell Constraints as Typed Boundaries
 
 *Relation, Access, Completion, and Scale*
@@ -198,6 +216,6 @@ A paper is not identified by formatting alone. The repository distinguishes:
 5. **repository identity/checksum record or exact binary mirror** — preservation route that must identify, not impersonate, the deposit;
 6. **Drive mirror/reading edition** — convenience carrier, not a silent replacement for any of the above.
 
-The existing top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of their corresponding frozen DOI-record PDF files. ATLD 2 v2.0 and Voynich v2.0 are represented in-repository by explicit DOI/version and frozen-carrier identity metadata where an exact GitHub binary mirror has not been independently established; the controlling Zenodo records remain authoritative. The chain-address v1.0 paper likewise uses its DOI/publication record and GitHub source route until an exact repository binary mirror/checksum carrier is independently established. Bell Constraints v1.0 likewise uses its DOI, paper route, publication record, and frozen-carrier identity record without asserting a byte-identical GitHub binary mirror before receiver-side deposit bytes are independently verified.
+The existing top-level PDF files in [`publications/`](../publications/) are byte-preserving repository mirrors of their corresponding frozen DOI-record PDF files. ATLD 2 v2.0 and Voynich v2.0 are represented in-repository by explicit DOI/version and frozen-carrier identity metadata where an exact GitHub binary mirror has not been independently established; the controlling Zenodo records remain authoritative. The chain-address v1.0 paper likewise uses its DOI/publication record and GitHub source route until an exact repository binary mirror/checksum carrier is independently established. Bell Constraints v1.0 and Cross-Domain Compositional Schema v0.3 likewise use their DOI, paper route, publication record, and frozen-carrier identity record without asserting that a later GitHub-generated file is the deposited binary. The v0.3 Cross-Domain carrier identity additionally records a receiver-side Zenodo MD5 match to the audited final PDF.
 
 See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md) for the standing carrier and publication rules.
