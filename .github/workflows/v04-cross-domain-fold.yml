@@ -51,26 +51,19 @@ jobs:
 
           checker = Path("tools/check_publication_routes.py")
           s = checker.read_text(encoding="utf-8")
-          old = '''    "publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3/README.md": [
-              CROSS_DOMAIN_VERSION,
-              CROSS_DOMAIN_PREVIOUS,
-              CROSS_DOMAIN_MD5,
-              CROSS_DOMAIN_SHA256,
-              "143,182",
-              "23",
-          ],'''
-          new = '''    "publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md": [
-              CROSS_DOMAIN_VERSION,
-              CROSS_DOMAIN_PREVIOUS,
-              CROSS_DOMAIN_CONCEPT,
-              CROSS_DOMAIN_MD5,
-              CROSS_DOMAIN_SHA256,
-              "394810",
-              "31",
-          ],'''
-          if old not in s:
-              raise SystemExit("old Cross-Domain identity checker block not found")
-          checker.write_text(s.replace(old, new, 1), encoding="utf-8")
+          old_key = '    "publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3/README.md": ['
+          new_key = '    "publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md": ['
+          if old_key not in s:
+              raise SystemExit("v0.3 identity checker key not found")
+          s = s.replace(old_key, new_key, 1)
+          start = s.index(new_key)
+          end = s.index("    ],", start) + len("    ],")
+          block = s[start:end]
+          block = block.replace('"143,182"', '"394810"').replace('"23"', '"31"')
+          if "CROSS_DOMAIN_CONCEPT" not in block:
+              block = block.replace("        CROSS_DOMAIN_PREVIOUS,\n", "        CROSS_DOMAIN_PREVIOUS,\n        CROSS_DOMAIN_CONCEPT,\n", 1)
+          s = s[:start] + block + s[end:]
+          checker.write_text(s, encoding="utf-8")
           PY
 
       - name: Run repository integrity gates
