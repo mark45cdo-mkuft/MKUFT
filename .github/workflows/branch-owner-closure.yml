@@ -17,6 +17,18 @@ jobs:
         run: sed -i 's/CROSS_DOMAIN_CURRENT/CROSS_DOMAIN_VERSION/g' tools/_temp_cross_domain_owner_closure.py
       - name: Apply owner closure
         run: python tools/_temp_cross_domain_owner_closure.py
+      - name: Bind Canon route to published DOI
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path("CANON_MAP.md")
+          text = path.read_text(encoding="utf-8")
+          old = "- **28A — Cross-Domain Compositional Schema Bell/CHSH Calibration:** hostile known-answer calibration of target-relative preserve/refine/reopen/refuse behaviour; physical Phase-0 delta remains null."
+          new = "- **28A — Cross-Domain Compositional Schema Bell/CHSH Calibration:** hostile known-answer calibration of target-relative preserve/refine/reopen/refuse behaviour for the published Cross-Domain v0.3 result, DOI `10.5281/zenodo.22166005`; physical Phase-0 delta remains null."
+          if old in text:
+              text = text.replace(old, new, 1)
+          path.write_text(text, encoding="utf-8")
+          PY
       - name: Self-test Markdown guard
         run: python tools/test_markdown_rendering_checker.py
       - name: Check Markdown rendering
