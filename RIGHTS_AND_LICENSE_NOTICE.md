@@ -72,6 +72,58 @@ The ATLD publication family is derived from the public MKUFT working canon, part
 
 See `ATLD_STANDALONE_PUBLICATION.md` for exact version/citation/publication routes.
 
+### Chain-Address Invariants standalone companion
+
+```text
+Chain-Address Invariants for Long-Horizon AI Systems:
+Long-Form Cohesion, Post-Arrival Compression, and Bidirectional Reconstruction
+Version: 1.0
+Version DOI: 10.5281/zenodo.22102379
+Author: Mark Charles McLaughlin
+Copyright: © 2026 Mark Charles McLaughlin
+Rights: use the exact deposited version's licence if one is stated; otherwise all rights reserved
+```
+
+The chain-address paper is a standalone companion to ATLD 2, not a new ATLD 2 version. Its live Module 25D fold is a separate later repository object and does not inherit another paper's licence by provenance.
+
+See `CHAIN_ADDRESS_STANDALONE_PUBLICATION.md` for exact citation and custody.
+
+### Bell Constraints standalone paper
+
+```text
+Bell Constraints as Typed Boundaries:
+Relation, Access, Completion, and Scale
+Version: 1.0
+Version DOI: 10.5281/zenodo.22100926
+Concept DOI: 10.5281/zenodo.22100925
+Author: Mark Charles McLaughlin
+Copyright: © 2026 Mark Charles McLaughlin
+Licence recorded for the exact deposit: CC BY 4.0
+```
+
+The Bell DOI object is a frozen standalone publication. The exact CC BY 4.0 licence applies to that deposited v1.0 object. Later live calibration in Module 28A and later Cross-Domain publication work do not silently rewrite Bell v1.0 or import its licence into those live module files.
+
+See `BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md` for exact citation and custody.
+
+### Cross-Domain Compositional Schema publication family
+
+Current release:
+
+```text
+Cross-Domain Compositional Schema:
+Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse
+Version: 0.3
+Version DOI: 10.5281/zenodo.22166005
+Previous v0.2 DOI: 10.5281/zenodo.22164562
+Author: Mark Charles McLaughlin
+Copyright: © 2026 Mark Charles McLaughlin
+Licence recorded for the exact v0.3 deposit: CC BY 4.0
+```
+
+Version 0.3 is the current version in the Zenodo version lineage. The earlier v0.2 DOI remains a frozen prior version and is not overwritten. The CC BY 4.0 licence applies to the exact v0.3 publication object; it does not silently relicense the later live Module 33S7A or Module 28A repository versions.
+
+See `CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md` for exact version/citation/carrier custody.
+
 ### Addressed Admissible Futures standalone paper
 
 ```text
@@ -130,9 +182,10 @@ The current repository versions of the following files are ATLD-origin source, c
 - `docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md`;
 - `docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md`;
 - `docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md`;
-- `docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md`.
+- `docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md`;
+- `docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md`.
 
-Their presence inside the MKUFT repository, their derivation from MKUFT, and their use of MKUFT/ATLD DOI provenance do **not** place those current repository versions under the earlier MKUFT backbone CC BY 4.0 licence or the publication-family CC BY-NC-SA 4.0 licence.
+Their presence inside the MKUFT repository, their derivation from MKUFT, and their use of MKUFT/ATLD DOI provenance do **not** place those current repository versions under the earlier MKUFT backbone CC BY 4.0 licence or the ATLD publication-family CC BY-NC-SA 4.0 licence.
 
 The CC BY-NC-SA 4.0 licence on the exact ATLD v1.0 and ATLD 2 v2.0 manuscripts does **not** automatically license the separate source-module or live-fold files from which the manuscripts were developed or into which their later consequences are integrated.
 
@@ -159,13 +212,16 @@ They do **not** claim copyright ownership of facts, abstract ideas, scientific p
 
 The documents in this repository retain the licence, copyright, and authorship notices stated inside each exact source document, file version, or publication record.
 
-The MKUFT backbone licence, the ATLD publication-family licence, separately published all-rights-reserved papers, and the current repository-version status are distinct:
+The MKUFT backbone licence, the ATLD publication-family licence, separately published papers, and the current repository-version status are distinct:
 
 - material released under the exact MKUFT backbone record retains its stated CC BY 4.0 status;
 - the exact ATLD v1.0 manuscript retains its stated CC BY-NC-SA 4.0 status;
 - the exact ATLD 2 v2.0 manuscript retains its stated CC BY-NC-SA 4.0 status;
+- the exact Bell Constraints v1.0 deposit retains its CC BY 4.0 status;
+- the exact Cross-Domain Compositional Schema v0.3 deposit retains its CC BY 4.0 status;
 - the exact AAF v0.1 and FSSR v1.0 deposits retain the all-rights-reserved status recorded for those deposits;
-- the current repository versions of modules 24A, 24B, 25, and 25B are all rights reserved unless an exact file version expressly states otherwise;
+- the exact Chain-Address v1.0 paper retains the licence/rights status stated by its exact deposited object; absent a verified licence, its repository publication record does not invent one;
+- the current repository versions of modules 24A, 24B, 25, 25B, 25D, 28A, and 33S7A are all rights reserved unless an exact file version expressly states otherwise;
 - other current repository files are all rights reserved unless an exact file version or publication record expressly states otherwise;
 - a standalone-paper licence or reservation does not retrospectively relicense its source modules or prospectively relicense a live canonical fold;
 - the earlier MKUFT licence does not automatically license later GitHub revisions or separate works merely because they cite the MKUFT DOI.
