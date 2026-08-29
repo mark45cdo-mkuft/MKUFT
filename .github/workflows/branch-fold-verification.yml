@@ -5,13 +5,30 @@ on:
     branches: [fold-cross-domain-v0.3-20260829]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   integrity-contract:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+
+      - name: Apply renderer-safe mathematical carrier repair
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          paths = [
+              Path("docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md"),
+              Path("papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md"),
+          ]
+          for path in paths:
+              text = path.read_text(encoding="utf-8")
+              repaired = text.replace(r"\operatorname{", r"\mathrm{")
+              if repaired != text:
+                  path.write_text(repaired, encoding="utf-8")
+          PY
+
       - name: Self-test the Markdown rendering guard
         run: python tools/test_markdown_rendering_checker.py
       - name: Check user-facing Markdown rendering contract
@@ -24,3 +41,15 @@ jobs:
         run: python tools/test_research_object_identity_checker.py
       - name: Check research-object identity and release manifests
         run: python tools/check_research_object_identity.py
+
+      - name: Commit renderer-safe repair when required
+        run: |
+          if git diff --quiet; then
+            echo "No renderer repair required."
+            exit 0
+          fi
+          git config user.name "Mark Charles McLaughlin"
+          git config user.email "mark45cdo@gmail.com"
+          git add docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md
+          git commit -m "Repair Cross-Domain math rendering"
+          git push origin HEAD:fold-cross-domain-v0.3-20260829
