@@ -46,6 +46,7 @@ FROZEN_PDF_MIRRORS = [
     "publications/LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf",
     "publications/RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf",
     "publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf",
+    "publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf",
 ]
 
 REQUIRED = {

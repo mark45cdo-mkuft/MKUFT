@@ -57,3 +57,5 @@ That candidate collapses to a rescaling of known CHSH excess rather than definin
 ## Frozen carrier identity
 
 See [the v0.4 identity record](../publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md).
+
+**Repository PDF mirror:** [`publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf`](publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf)

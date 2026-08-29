@@ -76,3 +76,5 @@ so the immediate geometric-invariant candidate collapses to known CHSH excess. B
 ## Object boundary
 
 The publication record owns DOI/version/citation/licence and frozen-carrier identity. The `papers/` route owns reader discovery. Modules 33S7A, 28A, 25 and 32S3 are evolving live-canon integrations. Zenodo remains publication custody. None of these objects silently replaces another.
+
+**Repository PDF mirror:** [`publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf`](publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf)

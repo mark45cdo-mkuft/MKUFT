@@ -21,3 +21,5 @@ The PDF itself is deposited at Zenodo under the version-specific DOI. This repos
 ## Science boundary
 
 The publication closes the tetrahedral Bell branch at the level of exact coordinate semantics and established Bell geometry. Its TBC is an invertible reparameterisation, and the natural four-volume collapses to CHSH excess. No independent new Bell law or physical mechanism is claimed.
+
+**Repository PDF mirror:** [`publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf`](./Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf)

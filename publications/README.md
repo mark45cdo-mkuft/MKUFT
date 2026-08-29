@@ -179,3 +179,5 @@ See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY
 - MD5: `d5a56561e82ca5d64a8766ca8122a956`
 - SHA-256: `bcb5c7618962bac98c2ae0ad097f7bba8e9758d4c86879b6546d037736c73b83`
 - frozen carrier: 31 pages; 394,810 bytes
+
+**Repository PDF mirror:** [`publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf`](publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf)
