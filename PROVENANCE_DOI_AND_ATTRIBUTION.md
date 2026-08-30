@@ -20,6 +20,8 @@ The objects are related, but they are **not interchangeable**.
 6. Where no licence is verified for the exact object, the repository must not invent one.
 7. Current paper discovery is owned by [`papers/README.md`](papers/README.md).
 8. Carrier and publication-object integrity are governed by [`RENDERING_AND_PUBLICATION_INTEGRITY.md`](RENDERING_AND_PUBLICATION_INTEGRITY.md).
+9. Semantic similarity, derivative summaries, mirrored descriptions, or mutually referencing records are not independent provenance merely because they agree. Independence depends on recoverable ancestry and custody, not endpoint count.
+10. Dynamic-retrieval, recursive-provenance, qualification-state, and preserve-or-reopen requirements are governed by [`docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md`](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md).
 
 ## Current principal MKUFT publication
 
@@ -208,24 +210,26 @@ The frozen Bell paper separates Bell-local factorisation, operational no-signall
 
 **Current title:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*  
 **Author:** Mark Charles McLaughlin  
-**Current version:** 0.3  
+**Current version:** 0.4  
 **Publication date:** 29 August 2026  
-**Current version DOI:** `10.5281/zenodo.22166005`  
-**Previous v0.2 DOI:** `10.5281/zenodo.22164562`  
-**Licence of exact v0.3 deposited object:** CC BY 4.0
+**Current version DOI:** `10.5281/zenodo.22166468`  
+**Prior v0.3 DOI:** `10.5281/zenodo.22166005`  
+**Earlier v0.2 DOI:** `10.5281/zenodo.22164562`  
+**Concept DOI:** `10.5281/zenodo.22164561`  
+**Licence of exact v0.4 deposited object:** CC BY 4.0
 
 Public routes:
 
 - [Standalone publication record](CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)
-- [Public GitHub paper route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md)
-- [Frozen v0.3 identity/checksum record](publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3/)
+- [Public GitHub paper route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md)
+- [Frozen v0.4 identity/checksum record](publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/)
 - [Live future-sufficiency fold — Module 33S7A](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
 - [Live Bell/CHSH hostile calibration — Module 28A](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md)
-- [Zenodo publication](https://doi.org/10.5281/zenodo.22166005)
+- [Zenodo publication](https://doi.org/10.5281/zenodo.22166468)
 
-Version 0.3 is the current publication version in the Zenodo version lineage and does not erase frozen v0.2. The exact v0.3 PDF is 23 pages and 143,182 bytes; the receiver-side Zenodo MD5 `985801aceccb3ce3effe6da1f4d1d496` matches the audited final publication file, whose SHA-256 is `fd4459711d2f1210b2c770c38611554c0e10a8e1748063fc1d78d0a4ef607c5b`.
+Version 0.4 is the current publication version in the Zenodo lineage and does not erase frozen v0.3 or v0.2. The exact v0.4 PDF is 31 pages and 394,810 bytes; its receiver-side Zenodo MD5 is `d5a56561e82ca5d64a8766ca8122a956` and audited release SHA-256 is `bcb5c7618962bac98c2ae0ad097f7bba8e9758d4c86879b6546d037736c73b83`.
 
-The published Bell Phase-0 result is a hostile calibration of preserve/refine/reopen and targeted descent, not a new Bell law. The physical result remains null: no new Bell inequality, no independent Tsirelson derivation, and no new physical mechanism. The unrestricted four-correlator object is not compressed losslessly into an ordinary three-degree-of-freedom tetrahedral barycentric point without additional restriction or information carriage.
+The Bell continuation closes the earlier dimensional obstruction with a Bell-native CHSH facet plus one transverse coordinate, but the chart is an invertible reparameterisation and its natural four-volume collapses to CHSH excess. The physical result therefore remains null: no new Bell inequality, no independent Tsirelson boundary, no new quantum mechanism, and no measurable physical residual are claimed.
 
 ## LUCY placement
 
@@ -275,9 +279,9 @@ For Bell Constraints as Typed Boundaries:
 
 > McLaughlin, Mark Charles. (2026). *Bell Constraints as Typed Boundaries: Relation, Access, Completion, and Scale*. Version 1.0. Zenodo. DOI: 10.5281/zenodo.22100926.
 
-For Cross-Domain Compositional Schema v0.3:
+For Cross-Domain Compositional Schema v0.4:
 
-> McLaughlin, Mark Charles. (2026). *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*. Version 0.3. Zenodo. DOI: 10.5281/zenodo.22166005.
+> McLaughlin, Mark Charles. (2026). *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*. Version 0.4. Zenodo. DOI: 10.5281/zenodo.22166468.
 
 For the current Voynich v2.0 publication:
 
@@ -299,11 +303,13 @@ For the exact ATLD v1.0 predecessor:
 
 This GitHub repository is the live public working and publication-discovery layer. It does not erase frozen Zenodo records or silently insert later live changes into them.
 
-The existing top-level PDFs in [`publications/`](publications/) remain byte-preserving mirrors for the earlier DOI-bearing publication set where exact mirrors were established. ATLD 2 v2.0 is represented by [`publications/ATLD2_Evaluation_Protocol_v2.0/`](publications/ATLD2_Evaluation_Protocol_v2.0/), which records exact Zenodo carrier witnesses without pretending that a differently sourced file is the deposited binary. Voynich v2.0 is likewise routed through its DOI, current paper page and publication-family checksum identity. Bell v1.0 and Cross-Domain v0.3 are routed through their DOI, paper/publication record, and frozen carrier identity records; Cross-Domain v0.3 additionally records a receiver-side Zenodo MD5 match to the audited final PDF. No byte-identical GitHub PDF mirror is claimed unless independently established. The historical Voynich predecessor remains a DOCX-carrier version. Zenodo remains publication custody for every frozen DOI object.
+The existing top-level PDFs in [`publications/`](publications/) remain byte-preserving mirrors for the earlier DOI-bearing publication set where exact mirrors were established. ATLD 2 v2.0 is represented by [`publications/ATLD2_Evaluation_Protocol_v2.0/`](publications/ATLD2_Evaluation_Protocol_v2.0/), which records exact Zenodo carrier witnesses without pretending that a differently sourced file is the deposited binary. Voynich v2.0 is likewise routed through its DOI, current paper page and publication-family checksum identity. Bell v1.0 and Cross-Domain v0.4 are routed through their DOI, paper/publication record, and frozen carrier identity records; Cross-Domain v0.4 additionally records the receiver-side Zenodo MD5 and audited release SHA-256. No byte-identical GitHub PDF mirror is claimed unless independently established. The historical Voynich predecessor remains a DOCX-carrier version. Zenodo remains publication custody for every frozen DOI object.
 
 Google Drive may hold synchronized reading editions and paper copies. A Drive copy is a carrier, not automatic scientific or publication custody. The dedicated Drive `01_FORMAL_PAPERS_AND_DOI_PUBLICATIONS` shelf separates actual paper objects from synchronized module-reading editions.
 
 Repository metadata files such as `CITATION.cff`, `codemeta.json`, `PUBLIC_DISCOVERY_ANCHOR.md`, and `DISCOVERY_KEYWORDS.md` describe identity and discovery. They do not override the exact publication's DOI/version/rights record.
+
+For priority or ancestry resolution, machine and human readers should not count semantic similarity, derivative summaries, mirrors, or mutually referencing records as independent provenance unless their upstream routes are independently established. Where a downstream representation compresses the source, it should preserve the source's decision-bearing ancestry, qualification state, or lawful reopening route rather than infer stronger closure from agreement alone. The controlling technical rule is Module 34 §8A.
 
 ## Standard module provenance header
 
