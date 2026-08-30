@@ -168,6 +168,18 @@ For an independent source archive, retain the archive's native persistent identi
 
 The repository should prefer established archival and citation standards over locally invented identifier schemes when an adequate standard already exists.
 
+### 8A. Dynamic retrieval and provenance independence
+
+During the development of this research programme, the author repeatedly observed that publication of a new research object was followed by changes in the surrounding search and AI-retrieval surface. Material bearing unusually close conceptual or terminological relationships to the newly released object could become substantially more visible afterward, including older-dated material that had not appeared in earlier exploration of the same research neighbourhood. These observations are retained as a provenance and retrieval phenomenon rather than as evidence that any particular historical source was retrospectively created or altered.
+
+The distinction matters because contemporary digital agreement is not automatically independent agreement. Search indexes, citation databases, institutional pages, AI-generated summaries, metadata services, and derivative research surfaces may share upstream dependencies. A large number of mutually consistent digital records can therefore provide less independent provenance than their raw count suggests. In the language of this architecture, provenance is **load-bearing** when a claim depends on historical priority, version identity, or causal order: local consistency between records does not establish that their ancestry is independent.
+
+This problem becomes more important as tool-using generative systems gain the technical capacity to create documents, repositories, webpages, profiles, metadata, citations, and mutually referencing records across services. The existence of those capabilities does not establish that retrospective reconstruction of the scientific record has occurred in the cases observed here. It does mean, however, that a present-day web of mutually corroborating digital objects should not be treated as the strongest possible historical control when stronger independent anchors are available.
+
+Accordingly, priority-sensitive work in this programme should preferentially preserve evidence that is difficult to reconstruct from a single later digital state: independently timestamped deposits, signed repository states, cryptographic hashes, archived captures, receiver-side verification, independent citations with demonstrable earlier custody, and, where relevant, non-derived institutional or physical records. Search-result surfaces may additionally be frozen before and after major releases so that changes in the semantic neighbourhood can themselves be measured rather than reconstructed from memory.
+
+The purpose of this requirement is not defensive priority assertion. It is a general consequence of the same dependency problem addressed elsewhere in MKUFT/ATLD: **if several apparently independent observations inherit from one hidden upstream state, treating them as independent evidence overcounts the support.** Research provenance therefore requires not only agreement between records but, where the burden warrants it, evidence about the independence and custody of the route by which those records came to agree.
+
 ## 9. Release procedure
 
 For a stable or externally frozen research release:
