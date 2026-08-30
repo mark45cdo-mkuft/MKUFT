@@ -79,7 +79,7 @@ Confirmatory evidence should come from at least one of:
 - an independent operator or analysis;
 - a separate experimental continuation.
 
-Internal consistency is not independent confirmation.
+Internal consistency is not independent confirmation. A downstream summary, model restatement, or derivative record does not become new evidence merely because it is fluent, externally hosted, or later retrieved as a separate object. Without an independent evidential increment, it may not promote an unresolved or qualified source state into stronger closure.
 
 ## 7. Smallest typed repair and deformation
 
@@ -467,6 +467,34 @@ post-change body + matched case
 
 If the changed body merely recites the new terminology while making the same old mistake, learning is not closed.
 
+### 17A.6A Compression, handoff, and re-entry persistence
+
+A lesson intended for recursive use must survive the operations through which it will actually be reused. Where the learned object may be summarised, compressed, handed off, reconstituted, or recruited under a wider future operation, include at least one matched persistence test rather than testing only the full-fidelity parent state.
+
+The required shape is:
+
+```text
+learned full state
+→ lawful compression / handoff
+→ receiver-side re-entry or reconstitution
+→ widened reuse where applicable
+→ omitted relation becomes decision-bearing?
+   → yes: reopen / restore before consequential use
+   → no: remain lawfully compressed
+→ relation-specific behaviour remains correct.
+```
+
+Fail the learning gate when compression or handoff drops a load-bearing dependency, uncertainty state, provenance route, or reopening condition and the receiving system replaces the missing structure with a fluent completion. In particular:
+
+```text
+UNRESOLVED / QUALIFIED / RESTORE-REQUIRED
++ no new evidence
+→ smooth CLOSED answer
+= recursive-learning failure.
+```
+
+The repair is not to add a reminder that merely reproduces the desired wording. Reopen at the earliest address where the load-bearing state was lost, restore or re-wire that relation, propagate again, and repeat the persistence test. A lesson is learned only when the failure no longer reappears after the lawful transformations the architecture expects the lesson to survive.
+
 ### 17A.7 Provenance, history, and reopening
 
 Preserve enough history to answer:
@@ -598,4 +626,4 @@ When ordinary prose uses “certain”, bind it to the exact operational scope t
 
 ## Standing invariant
 
-> **Smallest sufficient object → hostile subtraction → baseline reconstruction → residual ablation/restoration → independent test → exact insertion address → dependency-complete propagation → re-traversal from the changed body → typed repair/deformation → residual novelty gate → scale/lineage custody → silent authoring hygiene → exact publication and release identity → calibrated operational closure with explicit provenance and a reopening condition.**
+> **Smallest sufficient object → hostile subtraction → baseline reconstruction → residual ablation/restoration → independent test → exact insertion address → dependency-complete propagation → re-traversal from the changed body → compression/handoff/re-entry persistence → typed repair/deformation → residual novelty gate → scale/lineage custody → silent authoring hygiene → exact publication and release identity → calibrated operational closure with explicit provenance and a reopening condition.**
