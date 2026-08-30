@@ -70,7 +70,7 @@ law revision.
 
 # 3. Typed state and the no-inheritance rule
 
-**S -> I -> P -> O**
+**S -\> I -\> P -\> O**
 
 These are typed roles, not four spatial dimensions and not four
 automatically commensurable coordinates.
@@ -104,9 +104,9 @@ cannot replace a missing coupling.
 
 ## 3.1 Complete addressed state
 
-$$
+```math
 U_t=(S_t^{\mathrm{eff}},I_t,P_t,O_t,b_t,H_t)
-$$
+```
 
 Here b_t is the contextual or construction address and H_t is retained
 load-bearing history. The tuple is bookkeeping until its components,
@@ -116,9 +116,9 @@ motion inside one unchanged state space.
 
 ## 3.2 No untyped inheritance
 
-$$
+```math
 C_{LM}:\mathcal{X}_L\rightarrow\mathcal{X}_M
-$$
+```
 
 A lawful cross-address claim must identify the typed source and target
 spaces, the relation claimed to survive the transfer, the translation or
@@ -148,17 +148,17 @@ the downstream claim.</p></th>
 The central construction separates admissibility from the physical law
 that acts after admissibility has been established.
 
-$$
+```math
 \Xi_t=Q_t(U_t,E_t),
-$$
+```
 
-$$
+```math
 \mathcal{L}_{P,t}=(D_{P,t},T_{P,t},W_{P,t}),
-$$
+```
 
-$$
+```math
 C_P:(\Xi_t,P_t,E_t)\mapsto \mathcal{L}_{P,t}
-$$
+```
 
 Xi_t is an admissibility descriptor. The active physical-law object
 L_P,t carries three things that are easily flattened in ordinary
@@ -168,7 +168,7 @@ The decomposition prevents a familiar generator being applied outside
 its domain and prevents a fitted weighting from silently assigning
 probability to states that were never lawfully admissible.
 
-| **Addressed state -> Admissibility -> Active law object -> Propagation -> Measurement -> Readdressing** |
+| **Addressed state -\> Admissibility -\> Active law object -\> Propagation -\> Measurement -\> Readdressing** |
 |--------------------------------------------------------------------------------------------------------------|
 
 Figure 1. Logical order of the MKUFT law-selection drivetrain. The
@@ -176,19 +176,19 @@ arrows indicate dependency, not necessarily temporal sequence.
 
 ## 4.1 Compact operator form
 
-$$
+```math
 \mathrm{Update}_{\mathrm{SIPO}}=\mathrm{Readdress}\circ\mathrm{Instrument}_{P\to(P,O)}\circ\mathrm{Propagate}_{\mathcal{L}_P},
-$$
+```
 
-$$
+```math
 \mathcal{L}_P=C_P\circ Q
-$$
+```
 
 This is the strongest compression of the architecture. It is
 deliberately not presented as a finished physical law. Q and C_P must be
 instantiated in a concrete regime. If they cannot be defined
 prospectively without retrospective fitting, the foundational claim
-fails. A physical measurement is typed P -> (P,O) because the
+fails. A physical measurement is typed P -\> (P,O) because the
 instrument may alter the physical state while also creating an
 observer-positioned record. Readdressing then recomputes the next
 effective possibility object, contextual address, relation state,
@@ -246,11 +246,11 @@ automatically future sufficiency.
 
 ## 6.1 Exact future-sufficiency criterion
 
-$$
+```math
 \Theta(h)=\Theta(h')\Longrightarrow
 \mathcal{L}_{\lambda}(q^+_{\Delta}\mid h,u,E)=\mathcal{L}_{\lambda}(q^+_{\Delta}\mid h',u,E)
 \quad \forall u\in\mathcal{U}
-$$
+```
 
 Theta maps retained histories into a candidate effective state. For a
 target q, horizon Delta, admissible challenge family U, environment E,
@@ -262,10 +262,10 @@ the state description was not sufficient for that use.
 
 ## 6.2 Preserve-or-reopen contract
 
-$$
+```math
 \mathrm{Admissible}_{F}(Y)\Longleftrightarrow
 \mathrm{Preserve}_{F}(X,Y)\;\lor\;\mathrm{GuaranteedReopen}_{F}(Y\to X)
-$$
+```
 
 Let X be a lower relational object and Y = C_F(X) a domain-specific
 compression used as an interface for a future-operation family F. The
@@ -273,11 +273,19 @@ interface can be deliberately incomplete and still lawful, but only if
 every omitted relation is either irrelevant to the declared use or can
 be restored before a downstream operation is allowed to depend on it.
 
-1. Preserve a recoverable provenance/descent address into the lower object.
-2. Declare the trigger for reopening before outcome inspection.
-3. Restore before consequential reuse, not after an error has already propagated.
-4. Recover the smallest dependency-complete lower cone required for the widened operation rather than replaying the entire history by default.
-5. Re-evaluate the upper closure after restoration.
+1.  Preserve a recoverable provenance/descent address into the lower
+    object.
+
+2.  Declare the trigger for reopening before outcome inspection.
+
+3.  Restore before consequential reuse, not after an error has already
+    propagated.
+
+4.  Recover the smallest dependency-complete lower cone required for the
+    widened operation rather than replaying the entire history by
+    default.
+
+5.  Re-evaluate the upper closure after restoration.
 
 <table>
 <colgroup>
