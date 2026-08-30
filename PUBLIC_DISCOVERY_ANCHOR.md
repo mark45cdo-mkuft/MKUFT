@@ -23,8 +23,8 @@ This page provides a compact identity record for public search, citation, and di
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 - [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
-- [Cross-Domain Compositional Schema v0.3 Publication Record](CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)
-- [Cross-Domain Compositional Schema v0.3 Paper Route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md)
+- [Cross-Domain Compositional Schema v0.4 Publication Record](CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)
+- [Cross-Domain Compositional Schema v0.4 Paper Route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md)
 - [Bell Constraints Publication Record](BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md)
 - [Bell Constraints Paper Route](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md)
 - [ATLD Publication Family](ATLD_STANDALONE_PUBLICATION.md)
@@ -44,7 +44,7 @@ This page provides a compact identity record for public search, citation, and di
 - **MKUFT current principal publication, v2:** `10.5281/zenodo.21973064`
 - **MKUFT concept DOI:** `10.5281/zenodo.17780565`
 - **MKUFT historical v1:** `10.5281/zenodo.17780566`
-- **Cross-Domain Compositional Schema v0.3:** version DOI `10.5281/zenodo.22166005`; previous v0.2 version DOI `10.5281/zenodo.22164562`
+- **Cross-Domain Compositional Schema v0.4:** version DOI `10.5281/zenodo.22166468`; concept DOI `10.5281/zenodo.22164561`; prior v0.3 version DOI `10.5281/zenodo.22166005`; earlier v0.2 version DOI `10.5281/zenodo.22164562`
 - **Bell Constraints as Typed Boundaries v1.0:** version DOI `10.5281/zenodo.22100926`; concept DOI `10.5281/zenodo.22100925`
 - **ATLD 2 v2.0:** version DOI `10.5281/zenodo.22068803`; ATLD concept DOI `10.5281/zenodo.21341520`; predecessor v1.0 DOI `10.5281/zenodo.21341521`
 - **Future-Splitting State Recruitment v1.0:** version DOI `10.5281/zenodo.22058303`; concept DOI `10.5281/zenodo.22058302`
@@ -58,7 +58,7 @@ This page provides a compact identity record for public search, citation, and di
 
 MKUFT · A Relational Architecture for Physical Law and Cross-Scale Dynamics · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.21973064 · concept DOI 10.5281/zenodo.17780565 · GitHub `mark45cdo-mkuft/MKUFT`
 
-Cross-Domain Compositional Schema · Future-Sufficient Interfaces · Load-Bearing Relations · Preserve-or-Reopen Reuse · exact relation ablation · restorative descent · parent completion · recursive reuse · Bell CHSH hostile calibration · baseline parity · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22166005 · previous v0.2 DOI 10.5281/zenodo.22164562
+Cross-Domain Compositional Schema · Future-Sufficient Interfaces · Load-Bearing Relations · Preserve-or-Reopen Reuse · exact relation ablation · restorative descent · parent completion · recursive reuse · Bell CHSH hostile calibration · baseline parity · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22166468 · concept DOI 10.5281/zenodo.22164561 · prior v0.3 DOI 10.5281/zenodo.22166005
 
 Bell Constraints as Typed Boundaries · Relation Access Completion Scale · Bell local factorisation · no-signalling · completion geometry · null independent new-Bell-physics result · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22100926 · concept DOI 10.5281/zenodo.22100925
 
@@ -147,14 +147,10 @@ ATLD v1.0 · Active Traversal and Load-Bearing Dependency · predecessor version
 
 [MKUFT supporting archive on Google Drive](https://drive.google.com/drive/folders/1qlMguzye9Ox5BYLr8anXo_caKvc2ERP9)
 
-## Cross-Domain Compositional Schema v0.4 — current publication update
+## Cross-Domain Compositional Schema version custody
 
-- current version DOI: `10.5281/zenodo.22166468`
-- prior v0.3 DOI: `10.5281/zenodo.22166005`
-- concept DOI: `10.5281/zenodo.22164561`
-- reader route: `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md`
-- publication record: `CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md`
-- live future-sufficiency owner: `docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md`
-- live Bell/tetrahedral owner: `docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md`
+Current publication: v0.4, DOI `10.5281/zenodo.22166468`, reader route `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md`.
 
-Version 0.4 closes the tetrahedral Bell branch as an exact facet-plus-normal coordinate construction on native CHSH geometry. The chart is an invertible reparameterisation, the natural four-volume collapses to CHSH excess, and the physical residual remains NULL. The v0.3 and v0.2 routes remain historical frozen versions.
+Historical frozen versions remain separately citable: v0.3 DOI `10.5281/zenodo.22166005` and v0.2 DOI `10.5281/zenodo.22164562`. The concept DOI is `10.5281/zenodo.22164561`.
+
+Version 0.4 closes the tetrahedral Bell branch as an exact facet-plus-normal coordinate construction on native CHSH geometry. The chart is an invertible reparameterisation, the natural four-volume collapses to CHSH excess, and the physical residual remains NULL. Historical routes are retained as lineage, not presented as the current publication.
