@@ -12,6 +12,7 @@
 **Citation metadata:** [`CITATION.cff`](../CITATION.cff)  
 **Machine-readable relationship metadata:** [`codemeta.json`](../codemeta.json)  
 **Operational manifest route:** [`release-manifests/`](../release-manifests/)  
+**Reproducibility packages:** [`reproducibility/`](../reproducibility/)  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
 **Status:** canonical research-object identity and reproducibility module. This module governs version identity, release boundaries, artifact verification, citation consistency, and external preservation; it does not change the scientific claims or evidential status of the objects it describes.
 
@@ -36,11 +37,12 @@ For a declared release version `v`, distinguish at least the following objects w
 - **artifact manifest** — machine-readable file paths, byte counts, and cryptographic digests for that artifact set;
 - **citation metadata** — author, title, version, date, identifiers, and recommended citation route;
 - **reader-facing carrier** — the Markdown, PDF, data, code, or other object a reader actually receives;
+- **computational verification package** — a declared executable or deterministic package that re-runs a named calculation or transformation;
 - **external deposit or archive** — an independently hosted preservation or publication object, where applicable.
 
 These objects may refer to one another, but they are not interchangeable.
 
-A Git tag does not become a DOI. A DOI does not prove that two files have identical bytes. A checksum does not establish scientific validity. Citation metadata does not prove that the intended carrier was uploaded. Each object answers a different reproducibility question.
+A Git tag does not become a DOI. A DOI does not prove that two files have identical bytes. A checksum does not establish scientific validity. Citation metadata does not prove that the intended carrier was uploaded. A deterministic verification package does not become independent empirical confirmation merely because it reproduces the declared result. Each object answers a different reproducibility question.
 
 ## 3. Release identity tuple
 
@@ -149,6 +151,7 @@ The current metadata roles remain typed rather than duplicated.
 - [`codemeta.json`](../codemeta.json) carries broader machine-readable research-object relationships and discovery metadata.
 - standalone publication records carry version-specific DOI, rights, and live-versus-frozen relationships for their exact objects.
 - release manifests carry byte-level artifact identity for declared release sets.
+- [`reproducibility/`](../reproducibility/) carries executable or deterministic verification packages and their typed evidence boundaries.
 
 A new metadata file must not silently take over a role already carried by one of these files. If an external service requires a different authoritative metadata carrier, that transition must be explicit, documented, and checked in the same repository change that introduces it.
 
@@ -221,6 +224,44 @@ The purpose of this requirement is not defensive priority assertion. It is a gen
 
 > **A provenance system that recursively consumes its own outputs must preserve ancestry, qualification state, and lawful reopening routes, not merely consensus.**
 
+### 8B. Computational verification objects and evidential independence
+
+A deterministic calculation package can be a first-class research object when it makes a named derivation or transformation independently re-executable. Typical carriers include a script, machine-readable derived values, captured output, and integrity hashes. Its role must remain typed.
+
+For a source derivation `D`, verifier `V`, and derived output `O`, the ordinary ancestry is:
+
+```text
+D
+→ V(D)
+→ O.
+```
+
+A successful replay can establish that the declared implementation reproduces the declared output under the frozen inputs and conventions. It can expose arithmetic, transcription, implementation, tolerance, or carrier drift. It can materially improve reproducibility.
+
+It does **not** create a new independent evidential source merely because `O` is stored as a CSV, JSON object, repository record, later execution, or externally hosted file. Where the verifier is deterministically generated from the same equations and assumptions, the support remains genealogically dependent on `D`.
+
+Use the standing distinction:
+
+```text
+reproducibility verification
+≠ independent empirical confirmation
+≠ mechanism evidence
+≠ novelty evidence.
+```
+
+If a verifier consumes an independently obtained measurement, held-out dataset, independently specified test, or other genuinely separate evidential source, any additional scientific weight comes from that source and its native controls. The package does not acquire that weight merely by containing it.
+
+Accordingly, a computational verification package should state at minimum:
+
+1. the exact source object/equations it reproduces;
+2. declared inputs, conventions, tolerances, and runtime requirements where material;
+3. the deterministic reproduction procedure;
+4. expected outputs and failure conditions;
+5. whether its machine-readable outputs are derived verification data, empirical data, or another typed evidence class;
+6. the scientific boundary that remains unchanged by successful replay.
+
+The standing public route for these objects is [`reproducibility/`](../reproducibility/). A package should be retained only when it leaves the scientific object more recoverable, checkable, or falsifiable than the source alone; it should not be manufactured solely to satisfy an external metadata form.
+
 ## 9. Release procedure
 
 For a stable or externally frozen research release:
@@ -291,6 +332,7 @@ The release-integrity claim fails or contracts when any applicable condition bel
 - a new metadata carrier silently replaces an existing metadata role without an explicit transition;
 - records counted as independent support are shown to descend from a common upstream source that was not carried in the provenance model;
 - a downstream representation silently converts an unresolved, qualified, or restoration-required source state into stronger closure without new evidence or a preserved lawful reopening route;
+- a deterministic verification package generated from the same derivation is counted as independent empirical confirmation merely because it is machine-readable, externally hosted, or reproduces the same result;
 - a claimed retrieval-coupling pattern fails prospective replication under its declared query/session/system conditions or is adequately explained by an ordinary indexing, ranking, metadata, or shared-source mechanism.
 
 Where ordinary Git history, a stable tag, and a single exact artifact are already sufficient for the declared reproducibility burden, no larger packaging system is required. Additional metadata anatomy is justified only when it resolves a real identity or reconstruction burden.
@@ -305,6 +347,7 @@ This module governs research-object identity and reproducibility. It does not:
 - create a new scientific result merely by preserving one carefully;
 - require every working commit to become a release;
 - require an additional metadata standard when the current typed carriers already close the declared object;
+- convert derived computational verification output into independent empirical evidence without an independently sourced evidential relation;
 - infer authorship, motive, fabrication, or retrospective alteration from a retrieval-surface change without independent route evidence.
 
 The scientific object and the release object therefore remain distinct:
@@ -314,11 +357,12 @@ scientific validity
 ≠ release identity
 ≠ byte identity
 ≠ citation identity
-≠ archival identity.
+≠ archival identity
+≠ reproducibility replay.
 ```
 
-A strong release chain makes the evaluated object recoverable. Scientific promotion still depends on the evidence, controls, nulls, falsifiers, and independent tests owned elsewhere in the canon.
+A strong release chain makes the evaluated object recoverable. A strong verification package makes a declared calculation re-executable. Scientific promotion still depends on the evidence, controls, nulls, falsifiers, and independent tests owned elsewhere in the canon.
 
 ## 14. Canonical compression
 
-> **Freeze the smallest sufficient research object, identify its exact source state, bind its declared artifacts to reproducible byte identities, keep citation and archive roles typed, preserve ancestry, qualification state, and reopening routes where apparent consensus or closure may be recursively derived, verify the receiver-side object, and let later versions succeed rather than rewrite earlier ones.**
+> **Freeze the smallest sufficient research object, identify its exact source state, bind its declared artifacts to reproducible byte identities, keep citation, archive, verification, and confirmation roles typed, preserve ancestry, qualification state, and reopening routes where apparent consensus or closure may be recursively derived, verify the receiver-side object, and let later versions succeed rather than rewrite earlier ones.**
