@@ -181,6 +181,23 @@ This problem becomes more important as tool-using generative systems gain the te
 
 Accordingly, priority-sensitive work in this programme should preferentially preserve evidence that is difficult to reconstruct from a single later digital state: independently timestamped deposits, signed repository states, cryptographic hashes, archived captures, receiver-side verification, independent citations with demonstrable earlier custody, and, where relevant, non-derived institutional or physical records. Search-result surfaces may additionally be frozen before and after major releases so that changes in the semantic neighbourhood can themselves be measured rather than reconstructed from memory.
 
+#### Epistemic compression and false closure
+
+A second provenance hazard appears when a downstream representation is more epistemically closed than the source state from which it was produced. A partially grounded, dependency-rich, qualified, or unresolved object can be compressed into fluent prose that reads as settled even though no new evidence has entered the chain. The representation may be easier to consume while carrying less of the uncertainty, dependency, source, or reopening structure that made the original object scientifically interpretable.
+
+For provenance-sensitive reuse, the relevant state transition is therefore not determined by fluency. A downstream representation may simplify expression, but it must not silently promote evidential state:
+
+```text
+UNRESOLVED / QUALIFIED / RESTORE-REQUIRED
++ no new evidence
+→ fluent CLOSED representation
+= invalid epistemic transition.
+```
+
+Where an omitted distinction can later become decision-bearing, lawful compression must either preserve the necessary ancestry and qualification state or preserve a reliable route back to the exact lower object before consequential reuse. If neither condition is met, the downstream state remains unresolved, incomplete, or restoration-required rather than being completed by narrative smoothness. This is the provenance-address form of the preserve-or-reopen rule owned by Module 33S7A.
+
+If such a falsely closed representation is subsequently indexed, cited, summarised, or used as retrieval context, the local compression error can become a recursive provenance error. Later systems may inherit the confident surface while losing the source conditions that would have forced reopening. A system that repeatedly converts unresolved state into stronger closure without additional evidence should therefore be treated as exhibiting a state-transition and provenance failure, not merely a stylistic defect.
+
 #### Recursive retrieval coupling
 
 A further burden appears when the retrieval surface is itself allowed to become an input to later retrieval. A newly released object can alter which neighbouring objects are selected, summarised, cited, generated, or made salient; those derivative objects can then be indexed and returned in subsequent passes. The resulting topology is recursive:
@@ -202,7 +219,7 @@ The recursive claim is testable at the retrieval address. For a priority-sensiti
 
 The purpose of this requirement is not defensive priority assertion. It is a general consequence of the same dependency problem addressed elsewhere in MKUFT/ATLD: **if several apparently independent observations inherit from one hidden upstream state, treating them as independent evidence overcounts the support.** Research provenance therefore requires not only agreement between records but, where the burden warrants it, evidence about the independence and custody of the route by which those records came to agree.
 
-> **A provenance system that recursively consumes its own outputs must preserve ancestry, not merely consensus.**
+> **A provenance system that recursively consumes its own outputs must preserve ancestry, qualification state, and lawful reopening routes, not merely consensus.**
 
 ## 9. Release procedure
 
@@ -273,6 +290,7 @@ The release-integrity claim fails or contracts when any applicable condition bel
 - a mutable live module is presented as though it were the exact frozen deposited object;
 - a new metadata carrier silently replaces an existing metadata role without an explicit transition;
 - records counted as independent support are shown to descend from a common upstream source that was not carried in the provenance model;
+- a downstream representation silently converts an unresolved, qualified, or restoration-required source state into stronger closure without new evidence or a preserved lawful reopening route;
 - a claimed retrieval-coupling pattern fails prospective replication under its declared query/session/system conditions or is adequately explained by an ordinary indexing, ranking, metadata, or shared-source mechanism.
 
 Where ordinary Git history, a stable tag, and a single exact artifact are already sufficient for the declared reproducibility burden, no larger packaging system is required. Additional metadata anatomy is justified only when it resolves a real identity or reconstruction burden.
@@ -303,4 +321,4 @@ A strong release chain makes the evaluated object recoverable. Scientific promot
 
 ## 14. Canonical compression
 
-> **Freeze the smallest sufficient research object, identify its exact source state, bind its declared artifacts to reproducible byte identities, keep citation and archive roles typed, preserve ancestry where apparent consensus may be recursively derived, verify the receiver-side object, and let later versions succeed rather than rewrite earlier ones.**
+> **Freeze the smallest sufficient research object, identify its exact source state, bind its declared artifacts to reproducible byte identities, keep citation and archive roles typed, preserve ancestry, qualification state, and reopening routes where apparent consensus or closure may be recursively derived, verify the receiver-side object, and let later versions succeed rather than rewrite earlier ones.**
