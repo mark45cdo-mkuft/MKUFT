@@ -81,6 +81,35 @@ Confirmatory evidence should come from at least one of:
 
 Internal consistency is not independent confirmation. A downstream summary, model restatement, or derivative record does not become new evidence merely because it is fluent, externally hosted, or later retrieved as a separate object. Without an independent evidential increment, it may not promote an unresolved or qualified source state into stronger closure.
 
+## 6A. Computational verification is not independent confirmation
+
+A deterministic verifier, script, derived table, or machine-readable replay can close a **reproducibility** burden without closing an **independent confirmation** burden.
+
+Use the typed chain:
+
+```text
+source derivation / declared inputs
+→ deterministic verifier
+→ reproduced output
+```
+
+A successful replay can show that the declared arithmetic, transformation, implementation, tolerances, or reconstruction are reproducible. It can catch transcription errors, implementation drift, and carrier mismatches. That is scientifically useful.
+
+It does not create a second independent evidence source when the verifier and its outputs inherit the same equations, assumptions, and source object. In particular:
+
+```text
+derivation
+→ derivative computational output
+→ same conclusion
+≠ independent confirmation.
+```
+
+Where such outputs are packaged as `data`, type them explicitly as **computational verification data** unless they are genuinely independent empirical measurements. Successful replay must not silently promote a representation result, null result, mechanism claim, or physical hypothesis beyond its pre-existing evidential tier.
+
+If a verifier consumes an independently obtained dataset, held-out measurement, independently specified challenge, or separate natural-system source, any added confirmation comes from that independent source under its native controls. The packaging or execution layer does not manufacture independence.
+
+Keep a reproducibility package only when it leaves the scientific object more checkable, recoverable, or falsifiable. Do not create one merely to satisfy an external submission form.
+
 ## 7. Smallest typed repair and deformation
 
 Where a result claims that a state, address, model, or mechanism is missing something:
@@ -528,7 +557,6 @@ another lawful pass
 
 That is learning fixed-point closure. Pass count, elegance, excitement, or exhaustion is not the stop rule.
 
-
 ### 17A.9 Obstruction-to-construction recursion and reparameterisation nulls
 
 A negative result can close one candidate representation while opening a narrower lawful construction. Do not flatten the distinction.
@@ -626,4 +654,4 @@ When ordinary prose uses “certain”, bind it to the exact operational scope t
 
 ## Standing invariant
 
-> **Smallest sufficient object → hostile subtraction → baseline reconstruction → residual ablation/restoration → independent test → exact insertion address → dependency-complete propagation → re-traversal from the changed body → compression/handoff/re-entry persistence → typed repair/deformation → residual novelty gate → scale/lineage custody → silent authoring hygiene → exact publication and release identity → calibrated operational closure with explicit provenance and a reopening condition.**
+> **Smallest sufficient object → hostile subtraction → baseline reconstruction → residual ablation/restoration → independent test → exact insertion address → dependency-complete propagation → re-traversal from the changed body → compression/handoff/re-entry persistence → typed repair/deformation → residual novelty gate → scale/lineage custody → silent authoring hygiene → typed computational-verification/independent-confirmation boundary → exact publication and release identity → calibrated operational closure with explicit provenance and a reopening condition.**
