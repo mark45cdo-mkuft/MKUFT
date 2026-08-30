@@ -114,6 +114,7 @@ The tested independent Bell-local new-physics delta is null. The retained contri
 **Version DOI:** [10.5281/zenodo.22058303](https://doi.org/10.5281/zenodo.22058303)  
 **Concept DOI:** [10.5281/zenodo.22058302](https://doi.org/10.5281/zenodo.22058302)
 
+- [Frozen DOI PDF mirror](../publications/FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf)
 - [Paper route](2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md)
 - [Publication record](../FSSR_STANDALONE_PUBLICATION.md)
 - [Canonical fold — Module 33S7](../docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
@@ -127,6 +128,7 @@ The tested independent Bell-local new-physics delta is null. The retained contri
 **Version DOI:** [10.5281/zenodo.22031333](https://doi.org/10.5281/zenodo.22031333)  
 **Concept DOI:** [10.5281/zenodo.22031332](https://doi.org/10.5281/zenodo.22031332)
 
+- [Frozen DOI PDF mirror](../publications/ADDRESSED_ADMISSIBLE_FUTURES_v0.1_DOI_10.5281_zenodo.22031333.pdf)
 - [Paper route](2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md)
 - [Publication record](../AAF_STANDALONE_PUBLICATION.md)
 - [Canonical fold — Module 33S6](../docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
