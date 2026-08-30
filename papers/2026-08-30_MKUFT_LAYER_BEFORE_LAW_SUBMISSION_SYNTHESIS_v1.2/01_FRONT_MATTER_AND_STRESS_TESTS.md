@@ -140,26 +140,26 @@ controls when content and resource budgets are held fixed?</p></th>
 Choose the CHSH orientation c = (1,1,1,-1) and the symmetric quantum
 correlator E_Q = c/sqrt(2). This is not a fitted MKUFT datum: it is a
 standard Bell/CHSH object. In the facet-adapted tetrahedral chart of
-Cross-Domain Compositional Schema v0.4 [20], the calculation is
+Cross-Domain Compositional Schema v0.4 \[20\], the calculation is
 immediate.
 
-$$
+```math
 c=(1,1,1,-1),\qquad E_Q=\frac{1}{\sqrt2}(1,1,1,-1),\qquad S=c^{\mathsf T}E_Q=2\sqrt2
-$$
+```
 
-$$
+```math
 \nu=2\sqrt2-2,\qquad
 \Pi_c(E_Q)=E_Q-\frac{\nu}{4}c=\frac12 c
-$$
+```
 
 The projection lands exactly at c/2, the barycentre of the four local
 deterministic correlator vertices saturating that CHSH facet. The
 barycentric weights are therefore equal.
 
-$$
+```math
 \lambda=\left(\frac14,\frac14,\frac14,\frac14\right),\qquad
 \mathcal{V}_c(E_Q)=\frac{2\sqrt2-2}{3}
-$$
+```
 
 <table>
 <colgroup>
@@ -195,11 +195,11 @@ the same state y. If one admissible future challenge u makes their
 declared target distributions split, then y was not sufficient for that
 target, horizon, environment, and challenge family.
 
-$$
+```math
 \Theta(h_1)=\Theta(h_2)=y,\qquad
 \mathcal{L}(q^+_{\Delta}\mid h_1,u,E)\neq \mathcal{L}(q^+_{\Delta}\mid h_2,u,E)
 \Longrightarrow y\text{ is not future-sufficient}
-$$
+```
 
 The implication is deliberately small and strong. It does not say that
 every omitted detail matters. It says that a distinction belongs in the
@@ -232,7 +232,7 @@ distinction.</p></th>
 ## C. Executable ATLD test: does the relation architecture itself carry load?
 
 The near-term experimental route does not require a new physical field.
-ATLD v1.0 [16] is a matched-control protocol for asking whether
+ATLD v1.0 \[16\] is a matched-control protocol for asking whether
 meaningful typed dependency and active recursive traversal add function
 beyond the same content, the mere presence of a graph, extra access, or
 replay.
@@ -245,10 +245,10 @@ replay.
 | No revisit                       | Content, relations, budget         | Forbid recursive return to earlier nodes                      | If matched, active recursive traversal is not carrying the claimed load.       |
 | Complete-history replay          | Recorded history, content, budget  | Replace live reciprocal traversal with explicit replay        | If matched, live path-specific gain is not earned.                             |
 
-$$
+```math
 G_{\mathrm{arch}}^*=F_{\mathrm{typed+traversal}}-
 \max\{F_{\mathrm{flat}},F_{\mathrm{isolated}},F_{\mathrm{scrambled}},F_{\mathrm{no\ revisit}},F_{\mathrm{replay}}\}
-$$
+```
 
 A positive architecture-level result would still not finish the job. The
 next step is relation-level deformation: remove, neutralise, scramble,
