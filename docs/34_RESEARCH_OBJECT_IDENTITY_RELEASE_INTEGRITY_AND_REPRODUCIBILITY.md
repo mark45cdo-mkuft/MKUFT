@@ -5,6 +5,9 @@
 **Canonical module date:** 27 August 2026  
 **Publication-integrity parent:** [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md)  
 **Research-process parent:** [Research Derivation and Closure SOP](../RESEARCH_DERIVATION_AND_CLOSURE_SOP.md)  
+**Dependency/deformation parent:** [25 — Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)  
+**Recursive-interface parent:** [33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)  
+**Claim-discipline parent:** [29 — Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)  
 **Provenance control:** [Provenance, DOI, and Attribution](../PROVENANCE_DOI_AND_ATTRIBUTION.md)  
 **Citation metadata:** [`CITATION.cff`](../CITATION.cff)  
 **Machine-readable relationship metadata:** [`codemeta.json`](../codemeta.json)  
@@ -178,7 +181,28 @@ This problem becomes more important as tool-using generative systems gain the te
 
 Accordingly, priority-sensitive work in this programme should preferentially preserve evidence that is difficult to reconstruct from a single later digital state: independently timestamped deposits, signed repository states, cryptographic hashes, archived captures, receiver-side verification, independent citations with demonstrable earlier custody, and, where relevant, non-derived institutional or physical records. Search-result surfaces may additionally be frozen before and after major releases so that changes in the semantic neighbourhood can themselves be measured rather than reconstructed from memory.
 
+#### Recursive retrieval coupling
+
+A further burden appears when the retrieval surface is itself allowed to become an input to later retrieval. A newly released object can alter which neighbouring objects are selected, summarised, cited, generated, or made salient; those derivative objects can then be indexed and returned in subsequent passes. The resulting topology is recursive:
+
+```text
+release
+→ retrieval association
+→ derivative representation / citation / summary
+→ re-indexing
+→ strengthened or altered retrieval association
+→ later retrieval from the changed surface.
+```
+
+Under such a loop, the number of apparently corroborating records can increase without a corresponding increase in independent evidential ancestry. Later systems may encounter the accumulated derivative surface as prior context and reproduce it again. Local agreement can therefore become progressively stronger while the independence of the underlying support becomes progressively weaker.
+
+This is an instance of the same load-bearing dependency problem formalised in Module 25 and the same preserve-or-reopen burden formalised for recursive reuse in Module 33S7A. When a provenance-bearing object is promoted into a later evidential interface, the later use must preserve enough ancestry to distinguish genuinely independent support from repeated descent through a common upstream state. A count of agreeing endpoints is not a substitute for a typed dependency route.
+
+The recursive claim is testable at the retrieval address. For a priority-sensitive release, a fixed set of queries, result positions, dates, accounts or sessions, and retrieval systems can be frozen before publication and repeated afterward. Reproducible post-release appearance or strengthening of unusually close semantic neighbours across prospective replications supports a claim of **retrieval coupling** at the measured surface. Failure to reproduce the effect, instability under independent accounts or systems, or recovery of an ordinary ranking/indexing explanation contracts that claim. Retrieval coupling by itself does not assign authorship, intent, fabrication, or a unique mechanism.
+
 The purpose of this requirement is not defensive priority assertion. It is a general consequence of the same dependency problem addressed elsewhere in MKUFT/ATLD: **if several apparently independent observations inherit from one hidden upstream state, treating them as independent evidence overcounts the support.** Research provenance therefore requires not only agreement between records but, where the burden warrants it, evidence about the independence and custody of the route by which those records came to agree.
+
+> **A provenance system that recursively consumes its own outputs must preserve ancestry, not merely consensus.**
 
 ## 9. Release procedure
 
@@ -202,6 +226,8 @@ scientific object closed at its declared scope
 ```
 
 Do not create a release tag first and then continue editing the artifact intended to belong to that tag. If the artifact changes, select a new lawful source state and regenerate the manifest.
+
+Where priority, discovery order, or retrieval coupling is itself part of the declared research burden, the release procedure may additionally freeze a small prospective retrieval-surface record before publication. That record should state the exact queries, date/time, retrieval system, account/session condition where relevant, and the captured result surface. It is an auxiliary measurement object, not a substitute for the release identity tuple or prior-art review.
 
 ## 10. Version succession
 
@@ -245,7 +271,9 @@ The release-integrity claim fails or contracts when any applicable condition bel
 - a same-title object is treated as identical without byte-level or version-level evidence where exact identity matters;
 - a signature state is asserted without observing the relevant verification result;
 - a mutable live module is presented as though it were the exact frozen deposited object;
-- a new metadata carrier silently replaces an existing metadata role without an explicit transition.
+- a new metadata carrier silently replaces an existing metadata role without an explicit transition;
+- records counted as independent support are shown to descend from a common upstream source that was not carried in the provenance model;
+- a claimed retrieval-coupling pattern fails prospective replication under its declared query/session/system conditions or is adequately explained by an ordinary indexing, ranking, metadata, or shared-source mechanism.
 
 Where ordinary Git history, a stable tag, and a single exact artifact are already sufficient for the declared reproducibility burden, no larger packaging system is required. Additional metadata anatomy is justified only when it resolves a real identity or reconstruction burden.
 
@@ -258,7 +286,8 @@ This module governs research-object identity and reproducibility. It does not:
 - replace prior-art review;
 - create a new scientific result merely by preserving one carefully;
 - require every working commit to become a release;
-- require an additional metadata standard when the current typed carriers already close the declared object.
+- require an additional metadata standard when the current typed carriers already close the declared object;
+- infer authorship, motive, fabrication, or retrospective alteration from a retrieval-surface change without independent route evidence.
 
 The scientific object and the release object therefore remain distinct:
 
@@ -274,4 +303,4 @@ A strong release chain makes the evaluated object recoverable. Scientific promot
 
 ## 14. Canonical compression
 
-> **Freeze the smallest sufficient research object, identify its exact source state, bind its declared artifacts to reproducible byte identities, keep citation and archive roles typed, verify the receiver-side object, and let later versions succeed rather than rewrite earlier ones.**
+> **Freeze the smallest sufficient research object, identify its exact source state, bind its declared artifacts to reproducible byte identities, keep citation and archive roles typed, preserve ancestry where apparent consensus may be recursively derived, verify the receiver-side object, and let later versions succeed rather than rewrite earlier ones.**
