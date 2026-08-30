@@ -7,150 +7,90 @@
 **Current version DOI:** [10.5281/zenodo.21973064](https://doi.org/10.5281/zenodo.21973064)  
 **MKUFT concept DOI:** [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565)  
 **Historical v1 DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
-**Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511) · [LinkedIn](https://www.linkedin.com/in/custodiansystems45/) · [GitHub](https://github.com/mark45cdo-mkuft)  
-**Professional practice:** [Custodian Systems Ltd](https://mark45cdo-mkuft.github.io/Custodian-Systems/)
+**Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511) · [GitHub](https://github.com/mark45cdo-mkuft)
 
-This page provides a compact identity record for public search, citation, and discovery systems. Frozen publications retain their own DOI and version identities and are not collapsed into the live modular canon.
+This page is a compact discovery and identity surface. Frozen DOI-bearing publications, non-DOI repository syntheses, live modules, computational verification packages, and convenience mirrors retain separate status.
 
 ## Main public routes
 
 - [README](README.md)
 - [Papers and Publications](papers/README.md)
-- [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md)
+- [Start Here — Public Overview](00-START-HERE-MKUFT-PUBLIC.md)
 - [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md)
 - [Canon Map](CANON_MAP.md)
 - [Public Index](INDEX.md)
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 - [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md)
-- [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
-- [Cross-Domain Compositional Schema v0.4 Publication Record](CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)
-- [Cross-Domain Compositional Schema v0.4 Paper Route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md)
-- [Bell Constraints Publication Record](BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md)
-- [Bell Constraints Paper Route](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md)
-- [ATLD Publication Family](ATLD_STANDALONE_PUBLICATION.md)
-- [ATLD 2 v2.0 GitHub paper route](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)
-- [ATLD 2 canonical measurement fold — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
-- [Future-Splitting State Recruitment Standalone Publication](FSSR_STANDALONE_PUBLICATION.md)
-- [Addressed Admissible Futures Standalone Publication](AAF_STANDALONE_PUBLICATION.md)
-- [Voynich Publication Family](VOYNICH_STANDALONE_PUBLICATION.md)
-- [Voynich v2.0 consolidated paper route](papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md)
-- [Recursive Constraint Closure Standalone Publication](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md)
-- [Layer Before Law Standalone Publication](LAYER_BEFORE_LAW_STANDALONE_PUBLICATION.md)
+- [Research Derivation and Closure SOP](RESEARCH_DERIVATION_AND_CLOSURE_SOP.md)
+- [Module 34 — Research Object Identity, Release Integrity, and Reproducibility](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
+- [Reproducibility index](reproducibility/README.md)
 - [Citation metadata](CITATION.cff)
 - [JSON-LD discovery metadata](codemeta.json)
 
+## Current non-DOI research synthesis
+
+### MKUFT — Layer Before Law: A Typed Relational Architecture for Physical-Law Selection, Future-Sufficient Interfaces, and Cross-Scale Dynamics
+
+**Version:** v1.2 — 30 August 2026  
+**Status:** public repository synthesis; not yet DOI-bearing; not peer reviewed; does not supersede the principal MKUFT v2 publication or any frozen source paper
+
+- [Human-reader route](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md)
+- [Complete GitHub text mirror](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2/00_README.md)
+- [Bell/CHSH computational verification package](reproducibility/MKUFT_PREPRINTS_v1.2_BELL_CHSH_CALIBRATION/)
+
+The synthesis provides one compact route through the typed S–I–P–O / active-law-object architecture, future-sufficiency and preserve-or-reopen machinery, relation-level deformation, strongest-fair-null control, foundational recovery burdens, and Bell/CHSH calibration. The verification package makes a declared Bell calculation re-executable; its outputs remain derived computational verification data and do not constitute independent empirical confirmation.
+
 ## Published DOI research objects
 
-- **MKUFT current principal publication, v2:** `10.5281/zenodo.21973064`
+- **MKUFT current principal publication v2:** `10.5281/zenodo.21973064`
 - **MKUFT concept DOI:** `10.5281/zenodo.17780565`
 - **MKUFT historical v1:** `10.5281/zenodo.17780566`
-- **Cross-Domain Compositional Schema v0.4:** version DOI `10.5281/zenodo.22166468`; concept DOI `10.5281/zenodo.22164561`; prior v0.3 version DOI `10.5281/zenodo.22166005`; earlier v0.2 version DOI `10.5281/zenodo.22164562`
+- **Cross-Domain Compositional Schema v0.4:** version DOI `10.5281/zenodo.22166468`; concept DOI `10.5281/zenodo.22164561`; prior v0.3 DOI `10.5281/zenodo.22166005`; earlier v0.2 DOI `10.5281/zenodo.22164562`
 - **Bell Constraints as Typed Boundaries v1.0:** version DOI `10.5281/zenodo.22100926`; concept DOI `10.5281/zenodo.22100925`
+- **Chain-Address Invariants v1.0:** `10.5281/zenodo.22102379`
 - **ATLD 2 v2.0:** version DOI `10.5281/zenodo.22068803`; ATLD concept DOI `10.5281/zenodo.21341520`; predecessor v1.0 DOI `10.5281/zenodo.21341521`
 - **Future-Splitting State Recruitment v1.0:** version DOI `10.5281/zenodo.22058303`; concept DOI `10.5281/zenodo.22058302`
 - **Addressed Admissible Futures v0.1:** version DOI `10.5281/zenodo.22031333`; concept DOI `10.5281/zenodo.22031332`
 - **Layer Before Law v1.0:** `10.5281/zenodo.21971270`
 - **Recursive Constraint Closure v0.1:** `10.5281/zenodo.21971425`
-- **Voynich v2.0 — The Voynich Manuscript as a Candidate Procedural-Executable Information System:** version DOI `10.5281/zenodo.22071229`; concept DOI `10.5281/zenodo.18178637`; historical predecessor DOI `10.5281/zenodo.18178638`
-- **ATLD v1.0 predecessor:** version DOI `10.5281/zenodo.21341521`; concept DOI `10.5281/zenodo.21341520`
+- **Voynich v2.0:** version DOI `10.5281/zenodo.22071229`; concept DOI `10.5281/zenodo.18178637`; historical predecessor DOI `10.5281/zenodo.18178638`
+
+## Direct current research routes
+
+- [Cross-Domain Compositional Schema v0.4 paper](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md)
+- [Cross-Domain publication record](CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md)
+- [Bell/CHSH live calibration — Module 28A](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md)
+- [Bell Constraints paper](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md)
+- [Chain-Address paper](papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md)
+- [ATLD 2 paper](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)
+- [Future-Splitting State Recruitment paper](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md)
+- [Addressed Admissible Futures paper](papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md)
+- [Layer Before Law paper](papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md)
+- [Recursive Constraint Closure paper](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md)
+- [Voynich v2.0 paper](papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md)
 
 ## Public search fingerprints
 
 MKUFT · A Relational Architecture for Physical Law and Cross-Scale Dynamics · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.21973064 · concept DOI 10.5281/zenodo.17780565 · GitHub `mark45cdo-mkuft/MKUFT`
 
-Cross-Domain Compositional Schema · Future-Sufficient Interfaces · Load-Bearing Relations · Preserve-or-Reopen Reuse · exact relation ablation · restorative descent · parent completion · recursive reuse · Bell CHSH hostile calibration · baseline parity · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22166468 · concept DOI 10.5281/zenodo.22164561 · prior v0.3 DOI 10.5281/zenodo.22166005
+MKUFT Layer Before Law · Typed Relational Architecture · Physical-Law Selection · Future-Sufficient Interfaces · Preserve-or-Reopen · Bell/CHSH computational verification · public repository synthesis v1.2 · Mark Charles McLaughlin · not yet DOI-bearing
 
-Bell Constraints as Typed Boundaries · Relation Access Completion Scale · Bell local factorisation · no-signalling · completion geometry · null independent new-Bell-physics result · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22100926 · concept DOI 10.5281/zenodo.22100925
+Cross-Domain Compositional Schema · Future-Sufficient Interfaces · Load-Bearing Relations · Preserve-or-Reopen Reuse · exact relation ablation · restorative descent · parent completion · Bell/CHSH hostile calibration · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22166468 · concept DOI 10.5281/zenodo.22164561
 
-Active Traversal and Load-Bearing Dependency II · ATLD 2 · residual coordinate identification · self-auditing matched-control evaluation · long-horizon AI systems · object custody · action authority · future-sufficient continuity · receiver closure · fixed-point closure · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22068803 · concept DOI 10.5281/zenodo.21341520
-
-Future-Splitting State Recruitment · FSSR · state adequacy · future splitting · state recruitment · predictive closure · prospective mechanism activation · mechanism localisation · history-dependent constitutive mechanics · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22058303 · concept DOI 10.5281/zenodo.22058302
-
-Addressed Admissible Futures · future-sufficient state · predictive sufficiency · restorative reachability · restorative-future reserve · load-bearing relations · recursive readdressing · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22031333 · concept DOI 10.5281/zenodo.22031332
-
-Layer Before Law · relational admissibility · effective law selection · quantum-gravitational recovery · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.21971270
-
-Recursive Constraint Closure and Reachable-State Geometry · addressed adaptive systems · changing possibility spaces · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.21971425
-
-The Voynich Manuscript as a Candidate Procedural-Executable Information System · ESRT · ESF · NLT · Addressing · State · Flow · procedural information · manuscript structure · falsifiable validation programme · Mark Charles McLaughlin · Zenodo 10.5281/zenodo.22071229 · concept DOI 10.5281/zenodo.18178637 · historical predecessor DOI 10.5281/zenodo.18178638
-
-ATLD v1.0 · Active Traversal and Load-Bearing Dependency · predecessor version DOI 10.5281/zenodo.21341521 · Mark Charles McLaughlin
+Research Object Identity · provenance independence · recursive retrieval coupling · epistemic compression · false closure · ancestry preservation · computational verification data · reproducibility package · verification-confirmation boundary · MKUFT
 
 ## Principal public terms
 
-- unified field theory
-- S–I–P–O typed architecture
-- relational architecture
-- Cross-Domain Compositional Schema
-- future-sufficient interface
-- preserve-or-reopen reuse
-- exact relation ablation
-- load-bearing relation
-- restorative descent
-- parent completion
-- typed partial instantiation
-- recursive reuse
-- Bell/CHSH hostile calibration
-- Bell Constraints as Typed Boundaries
-- Bell-local factorisation
-- no-signalling
-- tetrahedral representation boundary
-- baseline parity
-- ATLD 2
-- Active Traversal and Load-Bearing Dependency II
-- residual coordinate identification
-- self-auditing matched-control evaluation
-- long-horizon AI evaluation
-- object custody
-- action authority
-- future-sufficient continuity
-- receiver-side closure
-- parent fixed-point closure
-- causal-shadow accounting
-- no-smuggling rule
-- route support
-- Future-Splitting State Recruitment
-- FSSR
-- state adequacy
-- future splitting
-- state recruitment
-- prospective mechanism activation
-- mechanism localisation
-- Addressed Admissible Futures
-- future-sufficient Address
-- predictive closure
-- admissible future
-- restorative reachability
-- restorative-future reserve
-- recursive readdressing
-- Layer Before Law
-- quantum gravity
-- constrained traversal
-- cross-layer invariants
-- recursive constraint closure
-- reachable-state geometry
-- addressed adaptive systems
-- law descent
-- recoverability
-- LUCY
-- OCQS
-- ESRT / ESF
-- Voynich Manuscript
-- procedural-executable information system
-- Addressing State Flow
-- NLT structural grammar
-- ATLD
-- strongest fair null
-- controlled deformation
+MKUFT · unified field theory · S–I–P–O typed architecture · relational architecture · Layer Before Law · physical-law selection · future-sufficient interface · preserve-or-reopen reuse · exact relation ablation · load-bearing relation · restorative descent · parent completion · strongest fair null · controlled deformation · Bell/CHSH hostile calibration · Facet-adapted Tetrahedral Bell Chart · reparameterisation null · computational verification data · reproducibility package · independent confirmation · research object identity · provenance independence · recursive retrieval coupling · epistemic compression · false closure · ancestry preservation · ATLD 2 · Chain-Address Invariants · Future-Splitting State Recruitment · Addressed Admissible Futures · recursive constraint closure · Voynich Manuscript · ESRT · ESF · NLT structural grammar.
 
-## Supporting public archive
-
-[MKUFT supporting archive on Google Drive](https://drive.google.com/drive/folders/1qlMguzye9Ox5BYLr8anXo_caKvc2ERP9)
-
-## Cross-Domain Compositional Schema version custody
+## Cross-Domain version custody
 
 Current publication: v0.4, DOI `10.5281/zenodo.22166468`, reader route `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md`.
 
 Historical frozen versions remain separately citable: v0.3 DOI `10.5281/zenodo.22166005` and v0.2 DOI `10.5281/zenodo.22164562`. The concept DOI is `10.5281/zenodo.22164561`.
 
-Version 0.4 closes the tetrahedral Bell branch as an exact facet-plus-normal coordinate construction on native CHSH geometry. The chart is an invertible reparameterisation, the natural four-volume collapses to CHSH excess, and the physical residual remains NULL. Historical routes are retained as lineage, not presented as the current publication.
+Version 0.4 closes the tetrahedral Bell branch as an exact facet-plus-transverse coordinate construction on native CHSH geometry. The chart is an invertible reparameterisation, the natural four-volume collapses to CHSH excess, and the physical residual remains **NULL**.
+
+## Supporting public archive
+
+[MKUFT supporting archive on Google Drive](https://drive.google.com/drive/folders/1qlMguzye9Ox5BYLr8anXo_caKvc2ERP9)
