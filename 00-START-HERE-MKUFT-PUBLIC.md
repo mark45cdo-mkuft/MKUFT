@@ -14,6 +14,10 @@ That is the shortest route into the project.
 
 MKUFT is a speculative research framework. It is not presented as an accepted completed unified physical theory.
 
+A second rule follows in plain English: **extra complexity has to earn itself.** If states the model calls equivalent split under a properly matched challenge beyond the noise and uncertainty already allowed, first rule out mismatch in the state, challenge, environment or measurement; only then add the smallest missing distinction and test it on fresh cases. If a strong separating challenge produces no material split, keep the simpler description provisionally for that target rather than adding complexity by default.
+
+The measurement/readout is part of that test because it has to be able to resolve the claimed difference. MKUFT's `O` address is used conservatively for that observer/registration position; it is not, by itself, a claim that an observer creates the physical outcome.
+
 ## Choose your route
 
 **New reader / non-academic reader:** [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md). It explains the questions and why they matter in ordinary English. You are not expected to verify specialist equations outside your field in order to follow the argument.
