@@ -301,7 +301,41 @@ This control fails if it is used to:
 - treat internal recursion, elegance, or self-audit as independent evidence of generator superiority;
 - make portfolio accounting so broad that no bounded branch can ever earn local closure.
 
-## 13. Scientific compression
+## 13. Framework-level failure and AI-assisted research risk
+
+There is a larger failure condition than any individual MKUFT prediction being wrong:
+
+> **MKUFT itself may turn out not to be a useful scientific architecture.**
+
+That possibility remains open.
+
+Because this programme has been developed through unusually heavy human–AI recursive reasoning, framework-level failure has an additional use if it is preserved honestly. Apparent structure may turn out to have been produced or amplified by ordinary prior art, flexible interpretation, repeated search, AI-assisted pattern completion, confirmation loops, recursive amplification, persuasive technical coherence, or inadequate independent discrimination.
+
+In plain English:
+
+> **If a human and an AI can build something that looks this coherent while being wrong, we should want to know exactly how that happened.**
+
+This possibility does not make failure a success. It changes the object of study after the scientific failure has been recorded.
+
+If MKUFT fails prospectively as a scientific architecture, do not rewrite that failure into validation of MKUFT. Preserve the failed scientific record first. A separate methodological analysis may then ask where false confidence entered, which controls caught it or failed to catch it, how recursive human–AI interaction amplified useful and misleading structure, whether technical language concealed weak joins, and which independent tests finally separated genuine predictive structure from persuasive pattern-making.
+
+The ordering matters:
+
+```text
+MKUFT scientific claim fails
+→ record FAIL / NULL / contraction at the tested address
+→ do not reinterpret the failure as scientific success
+→ preserve the development and evaluation history
+→ separately study the human–AI research process if warranted
+```
+
+Any such methodological case study requires its own evidence and comparators. The mere fact that AI was used does not establish that AI caused a scientific error, and a successful local MKUFT result does not establish that human–AI recursion is generally reliable.
+
+The highest-level rule is therefore:
+
+> **MKUFT does not have to be right for its history to remain scientifically useful. But if it is wrong, it must be allowed to be wrong cleanly.**
+
+## 14. Scientific compression
 
 The standing rule is:
 
