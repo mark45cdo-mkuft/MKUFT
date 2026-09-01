@@ -49,9 +49,9 @@ MKUFT calls this **Layer Before Law**. The claim is not that all of those system
 identify the object
 → identify its role and boundary
 → identify the active layer and scale
-→ identify what states are admissible
-→ identify what transitions are lawful
-→ only then ask which law or effective rule owns the prediction
+→ identify which states are possible under the setup
+→ identify which changes the model or physics actually allows
+→ only then ask which law or effective rule is justified for the prediction
 ```
 
 If those extra steps add no predictive, explanatory, experimental, or model-selection value, they have not earned their keep.
@@ -80,7 +80,7 @@ A higher-order organisation can be a legitimate object of study without being au
 
 MKUFT asks: which relation makes the whole the same functional kind of whole; which component freedoms stop being independent once that relation is load-bearing; which whole-level variables become sufficient for a target prediction; and when does failure force lower-level detail back into the state?
 
-A direct biological test is possible without learning the whole vocabulary first. Take two systems with matched measured present activity but deliberately different recent histories. Fit the strongest ordinary present-state model. Then add the smallest biologically defensible history/state variable that distinguishes the futures. If an apparent causal edge, connectivity relation, or unexplained divergence disappears and held-out prediction improves, the original state description was incomplete. If the added history does nothing, the MKUFT-style readdressing claim has earned nothing in that system.
+A direct biological test is possible without learning the whole vocabulary first. Take two systems whose measured present activity is matched as closely as the normal methods of the field allow, while their recent histories differ in a controlled way. Match the challenge, environment and measurement closely enough for the target question, and state how much ordinary noise or variation the baseline model already permits. If the futures then split beyond that tolerance, first test whether imperfect matching, the challenge, the environment, the measurement or an ordinary stochastic model explains the difference. Only if a residual split survives those controls should the smallest biologically defensible history/state variable be added and tested on fresh cases. If that variable removes an apparent causal edge or unexplained divergence and improves held-out prediction, the original state description was incomplete for that target. If a strong separating challenge produces no material split, preserve the simpler state description provisionally rather than adding complexity by default.
 
 See [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md), and the [Reader Contact and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md) for the same test stated as a cold-reader attack surface.
 
@@ -116,7 +116,7 @@ Then comes a harder state question: two states can look identical now and still 
 
 From there, **Addressed Admissible Futures** makes the future itself part of the test: which future states are reachable, which routes restore function, and how much restorative reserve exists before failure becomes irreversible.
 
-**Future-Splitting State Recruitment** turns that into an assay. If two apparently equivalent states separate under a controlled challenge, the model asks what missing state variable or relation had to be recruited to predict the split.
+**Future-Splitting State Recruitment** turns that into an assay. It tests states the model currently treats as equivalent under a controlled separating challenge. A repeatable split beyond the declared tolerance can force the model to reopen only after mismatched state, challenge, boundary, measurement and ordinary stochastic explanations have been tested. A strong no-split result can instead support keeping the simpler representation for that target and regime.
 
 The **Cross-Domain Compositional Schema v0.4** tests whether this machinery can transfer without smuggling a result across domains. Its Bell/CHSH calibration is deliberately important because it returned a **NULL new-physics residual**: the geometric construction reduced to known CHSH structure. The useful result was the exact formal map and the lesson about preserving or reopening a representation, not a new Bell law.
 
@@ -132,7 +132,8 @@ address the object
 → test whether its law is sufficient for the property
 → test whether it can recover
 → test whether its present state is sufficient for its future
-→ recruit missing state only when a future split proves it is needed
+→ use a controlled future split to test whether missing state is needed
+→ preserve the simpler state when a strong no-split result survives the declared test
 → test the architecture against strong ordinary baselines
 → publish nulls as well as wins
 ```
