@@ -239,6 +239,17 @@ replay.
 
 ATLD is not a convolutional neural network (CNN), nor is it proposed as a replacement neural-network architecture. It is a reasoning/evaluation protocol applied to a host AI system. Where the protocol is instantiated on a particular model, the host model family, version and relevant experimental settings should be reported separately as properties of the test platform rather than treated as the scientific contribution of ATLD itself.
 
+For this AI branch, four objects should therefore remain separate:
+
+| **Object** | **Role in the experiment** | **Not equivalent to** |
+|---|---|---|
+| Host AI model | The underlying model on which the experiment is instantiated; its family, version and relevant settings are properties of the test platform. | The relational architecture or ATLD itself. |
+| Structured relational architecture | The organised dependency, traversal, retained-history, addressing and return structure whose functional contribution is being tested. | A new neural-network model merely because it is implemented around a host AI. |
+| ATLD protocol | The matched-control and deformation method used to test whether specified architectural relations carry functional load. | The whole architecture or a claim that the architecture has already succeeded. |
+| Observed output / performance | The behaviour measured under a declared experimental condition. | Evidence for architectural value unless the matched controls and deformation tests earn that interpretation. |
+
+No lexical-novelty claim is made for the implementation category represented by the structured relational architecture. Terms such as agent architecture, cognitive architecture, scaffolding, orchestration, external-memory system, reasoning framework, or related descriptions may overlap with parts of the implementation. Whether one established term fully captures the present composition is a prior-art and terminology question; absence of a single agreed label would not itself establish novelty.
+
 | **Condition**                    | **Preserve**                       | **Change**                                                    | **Interpretation if it matches live typed traversal**                          |
 |----------------------------------|------------------------------------|---------------------------------------------------------------|--------------------------------------------------------------------------------|
 | Live typed traversal             | Content, resource envelope         | Nothing - focal condition                                     | Reference condition, not evidence by itself.                                   |
