@@ -165,6 +165,55 @@ The challenge design is frozen before confirmatory evaluation.
 
 This differs from parameter-identification design. Parameter information gain asks which experiment best identifies a model parameter. FSSR asks which experiment best exposes a false state equivalence. The two objectives may coincide in some systems; their reproducible dissociation is one of the paper's discriminating predictions.
 
+## 4A. The challenge and boundary are addressed objects too
+
+A future split cannot be assigned to hidden state merely because two samples were labelled as receiving the same perturbation. The state, the challenge, the boundary/environment and the declared stochastic model are separate objects and must be made equivalent at the resolution required by the target.
+
+For a pair `h,h'`, the positive FSSR burden is therefore not only
+
+```text
+Theta(h) = Theta(h')
+→ different futures
+```
+
+but, as far as the native experiment permits,
+
+```text
+matched declared state
++ matched challenge/intervention at load-bearing coordinates
++ matched boundary/environment class
++ declared measurement and stochastic uncertainty
+→ future divergence beyond tolerance
+```
+
+A nominally identical cold shock, drug pulse, load path, optical propagation, control input or other intervention is not automatically an identical experimental object. Dose, timing, duration, spatial delivery, phase, instrument burden, environment, forcing history and other target-relevant coordinates may belong to the challenge or boundary rather than to the system state.
+
+Accordingly, an observed split first opens a typed audit over at least these candidate locations:
+
+```text
+state mismatch / omitted state
+challenge mismatch / intervention geometry
+boundary or environment mismatch
+measurement / registration error
+already-licensed stochastic spread
+probe induction
+```
+
+This is where negative space becomes experimental information. Every adequately controlled alternative that fails to explain the split removes explanatory territory. If tighter challenge matching removes the effect, the split was not evidence for hidden system state. If environment control removes it, the environment carried the distinction. If the split remains fully inside the model's declared stochastic distribution, state closure has not failed. If those explanations are progressively excluded and a structured residual remains, the burden on the candidate state representation increases.
+
+The low state is equally load-bearing. A strong separating challenge that produces **no material split beyond the declared uncertainty and tolerance** supports provisional preservation of the simpler representation for that target, regime and challenge family:
+
+```text
+strong lawful separating challenge
++ no material future split
+→ no recruitment burden from that test
+→ preserve current compression provisionally
+```
+
+This does not prove the representation is universally complete. It says the current attack did not expose a target-relevant distinction. FSSR is therefore bidirectional: it can earn reopening when equivalence fails and earn preservation when equivalence survives.
+
+> **Do not ask only whether the systems split. Ask whether the state, the poke, the boundary and the allowed uncertainty were equivalent enough that the split has somewhere legitimate to land. Then use both the surviving residual and the eliminated alternatives as data.**
+
 ## 5. Independent-continuation gate
 
 The model whose state is being tested may not certify its own state adequacy.
@@ -392,4 +441,4 @@ This makes FSSR a downstream experimental specialisation of 33S4–33S6, not a c
 
 ## 14. Standing invariant
 
-> **Do not ask only whether a model predicts well. Ask whether histories it calls the same can be made to behave differently under a lawful future. If they can, the state has failed. Repair the failure with the smallest physically typed information, prove the repair by deformation, and test whether nature demanded that information before the transition announced itself.**
+> **Do not ask only whether a model predicts well. Ask whether histories it calls the same can be made to behave differently under a lawful future. If they can, the state has failed. Before locating that failure in the state, address the challenge, boundary and uncertainty closely enough to rule out cheaper explanations. Use both the surviving split and the alternatives eliminated by controls as data. Repair the residual with the smallest physically typed information, prove the repair by deformation, and test whether nature demanded that information before the transition announced itself. If a strong separating challenge produces no material split, preserve the simpler state provisionally at that declared scope.**
