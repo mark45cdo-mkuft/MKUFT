@@ -337,9 +337,30 @@ Addressed Admissible Futures has defined when two histories are allowed to count
 
 FSSR turns that definition into an experiment.
 
-Take two histories the current model represents as the same state. Apply a controlled lawful challenge chosen to expose any hidden difference. If their futures split beyond tolerance, the state description was insufficient.
+Take two histories the current model represents as the same state. Apply a controlled lawful challenge chosen to expose any hidden difference. But the challenge is itself an addressed object: a split cannot be assigned to hidden state until the **state matching, challenge/intervention, boundary/environment, measurement burden and declared stochastic uncertainty** are equivalent enough for the target question.
 
-Then add the **smallest physically or domain-defensible missing variable** that predicts the split, test it on new cases, and remove/restore it to see whether the predicted deformation follows.
+Before looking at the result, state what the current model predicts, including its allowed distribution and tolerance.
+
+If the futures split **systematically beyond that tolerance**, the current equivalence claim has failed somewhere. First localise the failure. Did the states differ more than the matching rule admitted? Was the nominally identical challenge actually different in dose, timing, duration, phase, path or delivery? Did the environment or measurement process carry the distinction? Is the observed split already licensed by the ordinary stochastic model? Did the probe create the mechanism it was supposed to reveal?
+
+Those controls are not side bureaucracy. Each explanation that is adequately tested and fails removes part of the candidate explanatory space. That eliminated territory is negative-space information: it sharpens where the residual can legitimately live.
+
+Only after a residual split survives those cheaper explanations do you add the **smallest physically or domain-defensible missing variable** that predicts it, test the repair on fresh cases, and remove/restore it to see whether the predicted deformation follows.
+
+The reciprocal outcome matters just as much. If a strong separating challenge produces **no material split beyond the declared uncertainty and tolerance**, the current representation survives that attack. That does not prove universal completeness, but it removes the recruitment burden from that test and supports provisional preservation of the simpler state for the declared target, regime and challenge family.
+
+So the assay is bidirectional:
+
+```text
+split beyond tolerance after control audit
+→ reopen candidate state
+→ recruit smallest typed missing distinction
+→ predict prospectively
+→ retest
+
+no material split under a strong separating challenge
+→ preserve current compression provisionally
+```
 
 The equations formalise the future difference between histories and the tolerance required before the split counts as a real state-adequacy failure.
 
@@ -348,17 +369,22 @@ The equations formalise the future difference between histories and the toleranc
 A clean version is:
 
 - match current measured activity as closely as the native field allows;
-- deliberately create different recent state histories;
-- fit the strongest ordinary present-state model;
-- test whether the histories produce different future behaviour;
-- add the smallest biologically justified history/state variable;
-- ask whether a previously inferred causal edge, connectivity relation or unexplained divergence disappears and held-out prediction improves.
+- deliberately create different recent state histories where history is the candidate hidden distinction;
+- define and match the challenge itself at the load-bearing coordinates;
+- hold the relevant boundary/environment and measurement conditions fixed as far as the experiment permits;
+- fit the strongest ordinary present-state and stochastic model;
+- state the expected future distribution before looking;
+- test whether the histories produce different future behaviour beyond tolerance;
+- use matching, challenge, environment, uncertainty and probe-induction controls to shrink the explanation space;
+- if a structured residual remains, add the smallest biologically justified history/state variable;
+- ask whether a previously inferred causal edge, connectivity relation or unexplained divergence disappears and held-out prediction improves;
+- if no material split survives, preserve the simpler state rather than adding complexity by taste.
 
 If the variable adds nothing, the state-recruitment claim earns nothing in that system.
 
 ### Kill point
 
-If the split disappears under better ordinary measurement, stronger baseline modelling, noise control or conventional hidden-state estimation, the stronger mechanism-localisation language is not earned.
+If the split disappears under better ordinary measurement, tighter state or challenge matching, stronger baseline modelling, noise/stochastic control, environment control, probe-induction control or conventional hidden-state estimation, the stronger mechanism-localisation language is not earned.
 
 ### Why the next step follows
 
@@ -415,7 +441,7 @@ You should be able to state the chain in ordinary language:
 6. if same-looking states have different futures, the state description is incomplete;
 7. add timing or history only when it improves prospective prediction;
 8. treat recovery as an actual reachable route, not an assumption;
-9. deliberately challenge supposedly equivalent states to expose missing state;
+9. deliberately challenge supposedly equivalent states, address the challenge and boundary as carefully as the state, and use both divergence and non-divergence plus eliminated alternatives to decide whether to reopen or preserve;
 10. compare every claimed gain against strong ordinary baselines, prior art and explicit failure conditions.
 
 If the reader can carry that much, the technical modules have a coherent spine even when individual derivations require domain expertise.
