@@ -43,7 +43,7 @@ That failure condition matters. MKUFT is designed to be reduced when its added s
 
 The physics-facing question is not “can we decorate quantum mechanics and gravity with new words?” It is whether the objects being unified have first been addressed correctly. MKUFT therefore puts hard burdens on itself: recover established quantum and gravitational limits before claiming fundamental unification; preserve Bell compatibility and operational no-signalling; define any physical coupling it uses; and beat the strongest adequate ordinary physical account before calling an extra layer physically necessary.
 
-Start with [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), then use the [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md) to see where the physics-facing claims are allowed to fail.
+If foundational physics is already your field, start with [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), then use the [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md) to see where the physics-facing claims are allowed to fail. If physics is not your native field, use the [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) first; it explains what each technical step inherits, what the equations are doing in broad terms, and what can be left to domain specialists without losing the argument.
 
 ### Mathematics
 
@@ -68,6 +68,8 @@ See [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIV
 The ATLD branch asks a testable engineering question: can a structured network of typed relationships improve long-horizon reasoning beyond matched flat, replayed, scrambled, isolated, or one-way alternatives?
 
 The important point is not that an AI can produce impressive prose. The test is whether the relational architecture itself carries measurable load under fair controls, and whether removing or scrambling it produces the predicted deformation.
+
+ATLD 2 also reports a bounded 15-case exploratory execution pilot. That pilot demonstrates use of the scoring and diagnostic surface; it does **not** establish confirmatory superiority of the structured condition or validate the five candidate residual coordinates.
 
 See [ATLD 2 v2.0](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md) and the [ATLD publication-family record](ATLD_STANDALONE_PUBLICATION.md).
 
@@ -96,6 +98,8 @@ From there, **Addressed Admissible Futures** makes the future itself part of the
 **Future-Splitting State Recruitment** turns that into an assay. If two apparently equivalent states separate under a controlled challenge, the model asks what missing state variable or relation had to be recruited to predict the split.
 
 The **Cross-Domain Compositional Schema v0.4** tests whether this machinery can transfer without smuggling a result across domains. Its Bell/CHSH calibration is deliberately important because it returned a **NULL new-physics residual**: the geometric construction reduced to known CHSH structure. The useful result was the exact formal map and the lesson about preserving or reopening a representation, not a new Bell law.
+
+The separate **Bell Constraints as Typed Boundaries** paper keeps Bell-local factorisation, operational no-signalling, conditioned process closure, local admissibility ownership, completion, and scale/resource custody at distinct addresses. Its independent Bell-local new-physics delta is also **NULL**; the retained result is the typed correspondence and falsification architecture, not a claim to have solved Bell's theorem.
 
 The **ATLD** branch takes related architecture into AI evaluation. It asks whether typed relational structure itself produces measurable long-horizon gain under matched controls.
 
@@ -166,6 +170,10 @@ The current research-facing synthesis is **MKUFT — Layer Before Law: A Typed R
 
 The published **Cross-Domain Compositional Schema v0.4** has version DOI `10.5281/zenodo.22166468` and concept DOI `10.5281/zenodo.22164561`. Its Bell/tetrahedral calibration retains a NULL independent physical residual.
 
+The published **Bell Constraints as Typed Boundaries v1.0** has version DOI `10.5281/zenodo.22100926`. Its tested independent Bell-local new-physics delta is NULL; the retained result is the typed relation/access/completion/scale and falsification architecture.
+
+The published **ATLD 2 v2.0** has version DOI `10.5281/zenodo.22068803`. It is a methods/evaluation paper with an exploratory 15-case execution pilot; no confirmatory system superiority or completed validation of the candidate residual coordinates is claimed.
+
 For the complete publication list, version identities, frozen carriers, and DOI routes, use [Papers and Publications](papers/README.md).
 
 ## Where to start
@@ -174,8 +182,11 @@ If you want the shortest human route, read:
 
 1. [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md)
 2. [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md)
-3. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
-4. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+3. [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md)
+4. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
+5. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+
+The scientific traversal guide is the handoff between plain-language understanding and the hard modules. It explains what the equations are trying to establish and what a non-specialist can leave to domain experts without losing the scientific chain.
 
 If you already know the field and want the technical chain, use the [Canon Map](CANON_MAP.md).
 
