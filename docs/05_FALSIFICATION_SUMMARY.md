@@ -13,6 +13,8 @@ This document states what would weaken, reduce, or falsify specific MKUFT claims
 
 A broad framework cannot protect failed branches through breadth. Each module must be allowed to fail independently, and failure of enough load-bearing claims must constrain the wider theory.
 
+Branch locality also does not license amnesia. A failed or null branch may be pruned from the live theory without automatically falsifying unrelated branches, but it remains part of any later claim about MKUFT's reliability, productivity, or efficiency as a scientific generator. The full lineage rule is owned by [29A — Branch Lineage, Generator Accountability, and Anti-Hydra Discipline](29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md).
+
 ## Core scientific shape
 
 MKUFT uses typed layer addresses: $S$ — Substrate, $I$ — Information, $P$ — Physical, and $O$ — Observer-positioned registration and bounded participation.
@@ -95,6 +97,33 @@ High ambiguity alone is not evidence of deception or hostile agency.
 A proposed invariant is weakened if it cannot be stated independently of examples, changes meaning silently between addresses, lacks a lawful typed coupling where causal influence is claimed, borrows evidence from another layer to rescue failure, repeatedly misses predicted couplings, or provides no useful prediction or compression.
 
 Shared algebra is not evidence of one physical mechanism.
+
+## Branch lineage and generator-level failure
+
+Local branch failure and parent-generator failure are related but not identical objects.
+
+A local result updates wider scientific claims only through its declared dependency relation. A biology null, for example, does not automatically erase an independently earned ATLD result; an ATLD success does not validate foundational physics.
+
+But a broad adaptive framework can still self-seal if it repeatedly grows replacement branches after failures and presents only the survivors. The parent-level methodological/generator claim is therefore weakened when any of the following occur:
+
+- failed or null serious branches are omitted from later claims about the framework's generative success;
+- a branch is reclassified as merely exploratory only after it fails;
+- a repaired descendant is treated as though the original failed prediction had succeeded;
+- the same data are used both to invent a repair and to confirm it;
+- new scale, history, boundary, receiver, relation, address, or hidden-state coordinates are repeatedly added after misses without fresh prospective evidence;
+- correlated descendants from one failed branch or discovery event are counted as independent confirmations;
+- the framework's best surviving examples are selected after the fact while the full serious attempt history is hidden;
+- the parent is credited for successful descendants but does not carry the nulls, failures, prior-art collapses, or search cost that produced them;
+- a broad generator claim cannot be tested over a bounded prospective problem family against strong ordinary alternatives under a fair information/search budget;
+- the parent repeatedly fails such portfolio-level tests yet preserves the same broad superiority/productivity claim by changing which branches count.
+
+A failure can legitimately generate a better hypothesis. The repair then requires fresh evidence. The original miss remains a miss.
+
+> **A failure may generate the next hypothesis. It may not validate it.**
+
+When the parent claims credit as a hypothesis-generating, discriminating, or cross-domain search architecture, evaluate the whole prospective portfolio rather than only surviving limbs. If the parent does not outperform strong ordinary alternatives enough to justify its flexibility and complexity, the broad methodological/generator claim contracts even if isolated local results remain valid.
+
+> **Locality governs what a result proves. Lineage governs what the attempt costs.**
 
 ## Layer Before Law and quantum-gravity reframing
 
@@ -218,17 +247,23 @@ A claim is scientifically reviewable only when the reader can identify:
 14. whether foundational physics claims recover established quantum and gravitational limits;
 15. whether Bell compatibility and no-signalling are derived where entanglement is invoked;
 16. whether physical dimension, state-space dimension, and layer address remain distinct;
-17. whether each equation is notation, heuristic scaffold, operational model, replicated empirical model, or derived physical mechanism.
+17. whether each equation is notation, heuristic scaffold, operational model, replicated empirical model, or derived physical mechanism;
+18. whether the branch's declared relation to the parent was fixed before the result where that relation controls evidential propagation;
+19. whether failed/null branches and descendant repairs remain visible in any generator-level performance claim;
+20. whether a post-failure repair was tested on fresh evidence rather than confirmed on the data that generated it.
 
 Independent reader routes should reconstruct compatible definitions, equations, layer placements, and falsifiers. A whole-system coherence claim also fails if it depends on excluding the costs of maintaining the relation from the chosen analytical boundary.
 
 ## What would strengthen MKUFT
 
-Evidence that would materially strengthen the framework includes stable replicated observer-linked effects; environmental modulation predicted before measurement; geometry-dependent effects beyond conventional models; path-cost models outperforming simpler baselines with valid dimensional structure; reliable ambiguity discrimination in declared state spaces; cross-layer predictions supported independently at each typed address; improved agency accessibility after predicted interventions; procedural models predicting held-out artefact structure; consistent reconstruction from multiple public entry routes; a pair-level entanglement relation reproducing Bell-compatible correlations while proving no-signalling; a lawful complete-state update recovering quantum and gravitational limits; an operational distinction from standard joint-state or emergent-spacetime formalisms; active traversal outperforming matched controls; reciprocal coupling outperforming the strongest fair null; relationship-specific gain surviving serious alternative pairings; and controlled deformation distinguishing load-bearing relations from scaffolds, redundancy, decoration, distortion, and extraction on both MKUFT and neutral corpora.
+Evidence that would materially strengthen the framework includes stable replicated observer-linked effects; environmental modulation predicted before measurement; geometry-dependent effects beyond conventional models; path-cost models outperforming simpler baselines with valid dimensional structure; reliable ambiguity discrimination in declared state spaces; cross-layer predictions supported independently at each typed address; improved agency accessibility after predicted interventions; procedural models predicting held-out artefact structure; consistent reconstruction from multiple public entry routes; a pair-level entanglement relation reproducing Bell-compatible correlations while proving no-signalling; a lawful complete-state update recovering quantum and gravitational limits; an operational distinction from standard joint-state or emergent-spacetime formalisms; active traversal outperforming matched controls; reciprocal coupling outperforming the strongest fair null; relationship-specific gain surviving serious alternative pairings; controlled deformation distinguishing load-bearing relations from scaffolds, redundancy, decoration, distortion, and extraction on both MKUFT and neutral corpora; and a prospectively fixed generator-level portfolio showing useful discrimination or hypothesis-generation gain over strong ordinary alternatives while retaining nulls and failures in the denominator.
 
 ## Integrity principles
 
 - A failed test is not dismissed as unspecified poor conditions.
+- A failed or null branch remains on the generator-level lineage ledger when the parent later claims generative merit.
+- A failure may generate a repair hypothesis, but that repair requires fresh evidence and does not rewrite the original miss.
+- Local branch merit is preserved; generator-level accounting does not create guilt by association.
 - A mathematical expression is not evidence by itself.
 - Metaphysical openness is not immunity from specification.
 - God is not reduced to a model variable.
@@ -245,5 +280,6 @@ Evidence that would materially strengthen the framework includes stable replicat
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 - [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 - [Experimental Test Programme](04_EXPERIMENTAL_TEST_PROGRAM.md)
+- [Branch Lineage, Generator Accountability, and Anti-Hydra Discipline](29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md)
 - [Cross-Support and Traversal Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 - [Canon Map](../CANON_MAP.md)
