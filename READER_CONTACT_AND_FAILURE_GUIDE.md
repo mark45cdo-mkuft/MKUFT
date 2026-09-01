@@ -263,6 +263,8 @@ A good kill is useful. It removes dead weight.
 
 **Fastest conceptual route:** [Public Overview](START_HERE_PUBLIC_OVERVIEW.md) → [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
 
+**Scientific traversal route:** [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) → the linked technical owners. Use this when the public questions are clear but the hard chain would otherwise require you to reconstruct the missing intermediate relations yourself.
+
 **Current research synthesis:** [MKUFT Layer Before Law v1.2](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
 
 **Full technical dependency route:** [Canon Map](CANON_MAP.md).
