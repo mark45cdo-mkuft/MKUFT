@@ -68,9 +68,11 @@ All three can be true and still answer different questions.
 
 A heart is made of cells, but “list every cell” is not the most useful state description for predicting a heartbeat. At the same time, a high-level heartbeat variable is not automatically sufficient for every biochemical question about the heart.
 
+A biological experiment can make the same point without accepting any MKUFT terminology. Take two systems whose measured present activity is matched but whose recent histories differ. If they later behave differently, ask whether the current state description has thrown away a history variable that matters. Add the smallest biologically defensible history/state coordinate and test whether it improves held-out prediction or removes an apparent causal relation. If it does not, the extra addressing has earned nothing.
+
 MKUFT separates two claims that are often fused:
 
-> **This organised whole is real.**
+> **This organised whole is a legitimate object for the question being asked.**
 
 and
 
@@ -257,7 +259,7 @@ MKUFT keeps several claim levels separate:
 
 Different branches occupy different levels. A result in one branch does not promote the whole framework.
 
-A structural relation can be important without being true. A mathematical mapping can be exact without being a new physical mechanism. A higher-order object can be real without owning a sufficient higher-order law. A null result can be scientifically useful.
+A structural relation can be important without being true. A mathematical mapping can be exact without being a new physical mechanism. A higher-order description can be a legitimate predictive object without owning a sufficient higher-order law. A null result can be scientifically useful.
 
 Those distinctions are not protective wording. They are part of the test architecture.
 
