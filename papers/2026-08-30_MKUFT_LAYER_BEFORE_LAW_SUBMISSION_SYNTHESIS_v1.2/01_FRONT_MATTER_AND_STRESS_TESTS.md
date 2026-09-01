@@ -237,6 +237,8 @@ meaningful typed dependency and active recursive traversal add function
 beyond the same content, the mere presence of a graph, extra access, or
 replay.
 
+ATLD is not a convolutional neural network (CNN), nor is it proposed as a replacement neural-network architecture. It is a reasoning/evaluation protocol applied to a host AI system. Where the protocol is instantiated on a particular model, the host model family, version and relevant experimental settings should be reported separately as properties of the test platform rather than treated as the scientific contribution of ATLD itself.
+
 | **Condition**                    | **Preserve**                       | **Change**                                                    | **Interpretation if it matches live typed traversal**                          |
 |----------------------------------|------------------------------------|---------------------------------------------------------------|--------------------------------------------------------------------------------|
 | Live typed traversal             | Content, resource envelope         | Nothing - focal condition                                     | Reference condition, not evidence by itself.                                   |
