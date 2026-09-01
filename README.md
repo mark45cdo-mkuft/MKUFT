@@ -12,6 +12,24 @@ MKUFT is a speculative research framework. It is not presented as an accepted co
 
 That sounds simple. It is also where a large number of modelling errors begin.
 
+## Choose your route
+
+This `README.md` is the **repository front door**. It is not a third competing overview.
+
+- **Want the idea in ordinary English first?** Start with [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md).
+- **Want the scientific chain explained without flattening the equations?** Use the [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). It is the bridge from readable explanation into the hard scientific modules.
+- **Already know the architecture and want the technical dependency map?** Go directly to the [Canon Map](CANON_MAP.md).
+
+You do **not** need to read this README, the Public Overview, and the Scientific Reader Traversal Guide as three versions of the same document. Their jobs are different:
+
+```text
+README = orientation and routing
+Public Overview = ordinary-English explanation
+Scientific Reader Traversal Guide = scientific handoff into the technical body
+```
+
+If you are unsure where to begin, take the **Public Overview** route.
+
 ## The idea in one minute
 
 Suppose a scientist asks, “What law governs this thing?”
