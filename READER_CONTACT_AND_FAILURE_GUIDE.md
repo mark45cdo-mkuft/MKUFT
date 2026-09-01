@@ -20,6 +20,8 @@ A metaphor opens the door. It does not become evidence.
 
 Do not change or dilute the mathematics to make it readable. Add a short translation around the mathematics so a non-specialist can tell what question the equation answers, what its pieces are doing, and what would make the move fail.
 
+If an unfamiliar MKUFT term looks like a renamed standard concept, use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). The key does not assign one-to-one scientific equivalents. It asks what established science already owns, what exact residual operation MKUFT is claiming after that ownership is subtracted, and what result would make the separate handle unnecessary. It is an optional cross-check, not another reading stage.
+
 ## What a reader should be able to tell in five minutes
 
 A reader should be able to answer five questions.
