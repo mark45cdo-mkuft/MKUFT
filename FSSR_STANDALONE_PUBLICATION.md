@@ -17,10 +17,13 @@
 - [Zenodo publication](https://doi.org/10.5281/zenodo.22058303)
 - [Public GitHub paper route](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md)
 - [Canonical MKUFT fold — Module 33S7](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
+- [Professional Domain Instantiation Guide](PROFESSIONAL_DOMAIN_INSTANTIATION_GUIDE.md) — the biology/neuroscience section pins `state`, `history`, `target`, `dependency`, `scale`, `remove`, `restore`, and the null to explicit native variables, maps, ablations and readouts before the shared vocabulary is allowed to carry the experiment
 - [AAF parent publication](https://doi.org/10.5281/zenodo.22031333)
 - [Papers and Publications index](papers/README.md)
 
 The Zenodo PDF is the controlling frozen visual object for version 1.0. The GitHub paper route is the public reader/source route and Module 33S7 is the live canonical MKUFT owner. Later module or repository refinements are later research states and are not silently backdated into the deposited v1.0 object.
+
+The professional instantiation guide is a live reader bridge only. It does not modify the frozen FSSR experiment, equations or evidential status. Its role is to make the domain handoff explicit enough that a biologist or neuroscientist does not have to infer what a generic word such as `state`, `dependency`, `scale`, or `reopen` refers to in the actual experiment.
 
 ## Scientific placement
 
