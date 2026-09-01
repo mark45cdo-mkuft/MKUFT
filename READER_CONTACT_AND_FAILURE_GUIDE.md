@@ -183,7 +183,20 @@ The formal owner for this rule is [Branch Lineage, Generator Accountability, and
 
 **Failure prevented:** treating candidate generation, admissibility, transition, and weighting as the same operation.
 
-**Plain version:** before calculating what happens next, be clear about where the rule applies, what changes are allowed, and how alternatives are weighted.
+**Plain version:** before calculating what happens next, be clear about where the rule applies, what changes are allowed, and how alternatives are weighted. Then do not throw the result away: the realised physical path and the measurement record become part of the next address before the next law is chosen.
+
+A compact picture is:
+
+```text
+address
+→ law
+→ physical future
+→ measurement / record
+→ readdress
+→ next law
+```
+
+The `O` in SIPO is used conservatively here as the observer/registration position: what the declared measurement or readout actually makes available to the analysis. It is not, by itself, a claim that consciousness creates the physical result.
 
 [Read the SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md).
 
@@ -239,11 +252,30 @@ The formal owner for this rule is [Branch Lineage, Generator Accountability, and
 
 ### Future-Splitting State Recruitment
 
-**Question:** when two apparently equivalent states later split, what missing state variable or relation predicts the split?
+**Question:** if two states are being treated as equivalent, can a lawful challenge expose a target-relevant difference that the current description has erased?
 
-**Failure prevented:** adding variables by taste instead of because a controlled future difference proves they are needed.
+**Failure prevented:** adding variables by taste, blaming hidden state for an unmatched perturbation, or treating every observed difference as evidence that the representation must become more complicated.
 
-**Plain version:** do not guess what the model forgot. Put two supposedly equivalent states under the same lawful pressure and try to make the missing difference show itself.
+**Plain version:** first make sure the two systems, the challenge, the boundary and the measurement are matched well enough for the question. State how much ordinary noise or stochastic spread the model already allows. Then put the supposedly equivalent states under the same lawful pressure.
+
+If they split beyond that tolerance, do not jump straight to “hidden variable.” Check whether the state matching, challenge, environment, measurement or ordinary noise explains the difference. Every explanation that is properly tested and fails removes part of the explanation space. That negative space is useful information.
+
+If a structured residual remains, add the smallest physically defensible missing distinction and test it on fresh cases. If a strong separating challenge produces no material split, do not add complexity merely because you can: preserve the simpler representation provisionally for that target and regime.
+
+The measurement/registration surface matters as well. The experiment only establishes a target-relevant split if the declared readout can actually resolve it. The registered result is then folded back into the next addressed state before the next law object is assembled.
+
+In one line:
+
+```text
+address state + challenge + boundary + readout
+→ physical future
+→ split or no split
+→ control / negative-space audit
+→ preserve or minimally readdress
+→ next law
+```
+
+That is the FSSR assay inside the wider SIPO loop. It does not make the observer a new force.
 
 [Read Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md).
 
@@ -285,11 +317,15 @@ A clean result may be “this is known mathematics assembled into a useful opera
 
 Here is a concrete way to attack the idea rather than reading the whole framework first.
 
-Take two systems whose measured present state looks the same under the model you normally use, but whose recent histories differ in a controlled way. Ask whether those two histories lead to different future behaviour. If they do, fit the strongest ordinary model using the present variables alone, then add the smallest physically defensible history or state variable that distinguishes the futures. If the extra variable removes an apparent interaction, false edge, or unexplained divergence and then predicts held-out cases, the original state description was incomplete. If it adds nothing, the MKUFT-style readdressing claim has earned nothing in that system.
+Take two systems whose measured present state looks the same under the model you normally use, but whose recent histories differ in a controlled way. Match the challenge, boundary/environment and measurement conditions as closely as the target requires. State the future distribution and tolerance the strongest ordinary model already predicts, then apply a lawful challenge chosen to expose any hidden difference.
 
-In a neural or cellular setting, that can be made concrete with matched present activity and deliberately different prior state histories: test whether a causal or connectivity model infers a relation that disappears once the missing history/state coordinate is restored. The exact biological variable must come from the biology, not from MKUFT vocabulary.
+If the futures split beyond tolerance, first ask whether better state matching, challenge matching, environment control, measurement control or the ordinary stochastic model removes the effect. Those failed explanations are negative-space information: they narrow where any remaining distinction can legitimately sit. If a structured residual survives, add the smallest physically defensible history or state variable and test it prospectively on fresh cases. If it adds nothing, the MKUFT-style readdressing claim has earned nothing in that system.
 
-That is the practical content behind the separation between functional identity, closure, property-specific law sufficiency, recoverability, and future-state adequacy.
+If there is no material split under a strong separating challenge, preserve the simpler representation provisionally instead of adding state by taste. In a neural or cellular setting, a useful result may be that a causal or connectivity relation disappears once a missing history/state coordinate is restored; but the exact biological variable must come from the biology, not from MKUFT vocabulary.
+
+The readout matters too: the experiment cannot claim a resolved target difference that its measurement family cannot actually distinguish. Whatever is registered then returns into the next state description before the next prediction.
+
+That is the practical content behind the separation between functional identity, closure, property-specific law sufficiency, recoverability, future-state adequacy and SIPO readdressing.
 
 ### If you work in AI
 
