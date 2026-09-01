@@ -12,6 +12,8 @@ MKUFT is a speculative research framework. It is not presented as an accepted co
 
 That sounds simple. It is also where a large number of modelling errors begin.
 
+**A note on the name:** The author is not particularly fond of the title *McLaughlin–Kairos Unified Field Theory*. The name dates from the beginning of the project, when this was a private, somewhat tongue-in-cheek collection of ideas with no expectation that it would become a public research programme. The work subsequently became more serious, structured, and testable, while the original name persisted as its historical identifier. It should not be read as a claim that a completed unified field theory has been achieved.
+
 ## Choose your route
 
 This `README.md` is the **repository front door**. It is not a third competing overview.
