@@ -47,7 +47,7 @@ Start with [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REF
 
 ### Mathematics
 
-The mathematical interest is mainly structural. When can a higher-level description genuinely carry the law for a property, and when does hidden lower-level information still matter? MKUFT separates the existence of a higher-order object from the stronger claim that a closed higher-order law has descended to it.
+The mathematical interest is mainly structural. When can a higher-level description genuinely carry the law for a property, and when does hidden lower-level information still matter? MKUFT separates the existence of a useful higher-order object from the stronger claim that a closed higher-order law has descended to it.
 
 That question connects to familiar mathematics around quotienting, coarse-graining, lumpability, dynamical systems, closure, reachability, and state sufficiency. MKUFT does **not** claim ownership of those established tools. Its claimed contribution is the way they are assembled, typed, stress-tested, and used to decide when an address is sufficient and when the model must reopen.
 
@@ -55,11 +55,13 @@ See [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_
 
 ### Complex systems and biology
 
-A higher-order organisation can be real without being autonomous for every property. That distinction matters in cells, organisms, collectives, ecological systems, and other multi-scale systems.
+A higher-order organisation can be a legitimate object of study without being autonomous for every property. That distinction matters in cells, organisms, collectives, ecological systems, and other multi-scale systems.
 
 MKUFT asks: which relation makes the whole the same functional kind of whole; which component freedoms stop being independent once that relation is load-bearing; which whole-level variables become sufficient for a target prediction; and when does failure force lower-level detail back into the state?
 
-See [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) and [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md).
+A direct biological test is possible without learning the whole vocabulary first. Take two systems with matched measured present activity but deliberately different recent histories. Fit the strongest ordinary present-state model. Then add the smallest biologically defensible history/state variable that distinguishes the futures. If an apparent causal edge, connectivity relation, or unexplained divergence disappears and held-out prediction improves, the original state description was incomplete. If the added history does nothing, the MKUFT-style readdressing claim has earned nothing in that system.
+
+See [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md), and the [Reader Contact and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md) for the same test stated as a cold-reader attack surface.
 
 ### AI and long-horizon reasoning
 
@@ -83,7 +85,7 @@ The repository grew by solving one problem and then finding the next one. The li
 
 That leads to the **SIPO Capstone**, which asks what the complete addressed state would have to contain before an active law object can be assembled and used.
 
-Once a higher-order object appears, **Relational Closure and Law Descent** asks whether it merely exists as an organised whole or whether it is actually sufficient to predict a declared property. If it is not sufficient, the model must reopen downward or remain explicitly multiscale.
+Once a higher-order object appears, **Relational Closure and Law Descent** asks whether it is a legitimate predictive object for the declared property and whether its state is actually sufficient to carry the law at that scope. If it is not sufficient, the model must reopen downward or remain explicitly multiscale.
 
 That immediately raises a recovery question. **Cross-Scale Performance and Recoverability** separates local performance, whole-level closure, law sufficiency, and the ability to return after perturbation. They are not the same thing.
 
@@ -101,7 +103,7 @@ That is the spine in plain English:
 
 ```text
 address the object
-→ test whether the higher-level object is real
+→ test whether the higher-level description is a legitimate predictive object
 → test whether its law is sufficient for the property
 → test whether it can recover
 → test whether its present state is sufficient for its future
