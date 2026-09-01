@@ -14,10 +14,13 @@
 - [Zenodo publication](https://doi.org/10.5281/zenodo.21971270)
 - [Canonical Layer Before Law GitHub preprint v1.0](papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md)
 - [Canonical source module](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
+- [Professional Domain Instantiation Guide](PROFESSIONAL_DOMAIN_INSTANTIATION_GUIDE.md) — use the physics section when translating shared role names such as `state`, `relation`, `scale`, `reopen`, and `target` into exact physical objects, maps, observables, ablations, baselines and nulls
 
 ## Publication boundary
 
 The DOI-bearing Zenodo object is the frozen standalone publication. The GitHub preprint and live source module remain related research objects but do not silently replace the deposited publication. Later GitHub changes are later revisions unless a later Zenodo version explicitly includes them.
+
+The professional instantiation guide is a live reader bridge only. It does not modify the frozen paper, its equations, or its evidential status.
 
 The earlier v0.9 candidate and older flattened PDF remain historical development objects only.
 
