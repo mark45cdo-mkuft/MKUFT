@@ -138,7 +138,11 @@ There are scientific failure modes too. MKUFT fails or contracts where:
 - a physics-facing branch fails Bell compatibility, no-signalling, dimensional consistency, or standard-physics recovery;
 - a claimed novelty disappears when compared with the strongest fair prior art or ordinary baseline;
 - a result can be reproduced by a flat, replayed, scrambled, or otherwise simpler control;
-- a failed branch is rescued by changing its meaning after the result.
+- a failed branch is rescued by changing its meaning after the result;
+- failed or null branches are pruned from the live theory and then omitted when the parent framework is credited as a successful scientific generator;
+- a post-failure repair is treated as confirmed by the same evidence that generated the repair rather than tested prospectively.
+
+Locality controls what a branch result proves; it does not erase the branch from the parent generator's performance history. A framework may learn from a failure, but a replacement branch requires fresh evidence and the original miss remains on the record. The full rule is in [Branch Lineage, Generator Accountability, and Anti-Hydra Discipline](docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md).
 
 The full technical list is in the [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
 
