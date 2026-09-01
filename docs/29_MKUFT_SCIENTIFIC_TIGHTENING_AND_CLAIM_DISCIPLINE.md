@@ -207,6 +207,44 @@ If a later lawful future, stronger null, or newly measured distinction reopens a
 
 > Scientific humility constrains confidence and scope. It does not require flattening consequence or pretending that every live branch is equally important.
 
+## 8B. Branch locality, lineage, and generator accountability
+
+Branch locality protects claim scope, but locality must not become immunity for the parent architecture.
+
+Two propagation channels must therefore remain separate:
+
+```text
+PROPOSITION / DEPENDENCY PROPAGATION
+= what this local result logically supports or falsifies elsewhere
+
+PERFORMANCE / LINEAGE PROPAGATION
+= what this attempt contributes to evaluation of the parent as a generator
+```
+
+A biology null does not automatically erase an independently earned ATLD result. An ATLD success does not validate foundational MKUFT physics. A Bell null does not become evidence for a neighbouring branch. Those are proposition-level scope rules.
+
+But when MKUFT, ATLD-derived machinery, Layer Before Law, or another parent object is credited as a scientific hypothesis-generating, discriminating, or cross-domain search architecture, failed and null branches do not disappear merely because they were pruned from the live theory. They remain part of the generator's performance lineage.
+
+Before result inspection, a serious branch should be typed where material as an exploratory candidate, predicted consequence, necessary consequence, or independent neighbouring branch. That relation may not be weakened or strengthened after the result simply to protect the parent or promote a success.
+
+A failure may legitimately expose a better hypothesis, missing variable, changed boundary, improved state description, or stronger null. Scientific learning from failure is allowed. The repair does not inherit confirmation from the data that generated it:
+
+> **A failure may generate the next hypothesis. It may not validate it.**
+
+A repaired descendant therefore requires fresh evidence: held-out data, a preregistered follow-up, a new experiment, an independent corpus/model/evaluator, or another prospectively fixed discriminator appropriate to the domain. The original miss remains in the lineage.
+
+When a broad generator-level merit claim is made, preserve the serious denominator: surviving branches, nulls, failures, prior-art collapses, withdrawn defects, descendant repairs, material search cost, and dependency/common-cause structure. Correlated descendants are not automatically independent confirmations.
+
+A flexible framework also pays for added freedom. New scale, history, boundary, receiver, relation, address, or hidden-state coordinates earn retention through prospective discrimination, not merely because they can explain yesterday's failure.
+
+Where practicable, the parent generator should face a finite prospective comparison with a fixed problem family, matched information/search budget, strong alternative methods, predeclared scoring and stopping rules, and the whole portfolio counted rather than only its best survivors.
+
+If the parent does not outperform strong ordinary alternatives enough to justify its complexity, the broad methodological/generator claim contracts even while any independently valid local result remains valid.
+
+The full standing rule is owned by [29A — Branch Lineage, Generator Accountability, and Anti-Hydra Discipline](29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md).
+
+> **Locality governs what a result proves. Lineage governs what the attempt costs. A framework may learn from its failures; it may not use the ability to grow another branch as evidence that it survived the test.**
+
 ## 9. Experimental priorities
 
 ### Priority A — near-term operational flagship
@@ -263,7 +301,7 @@ A physics-facing MKUFT branch is weakened or rejected where:
 - repeated adequately powered independent tests converge to the null;
 - speculative examples are required to make the model appear predictive.
 
-Failure of one branch does not become evidence for another branch and is not hidden inside the breadth of the framework.
+Failure of one branch does not become evidence for another branch and is not hidden inside the breadth of the framework. Pruning a failed branch also does not erase it from any later claim about the productivity or reliability of the parent scientific generator.
 
 ## 14. Reader-facing scientific order
 
@@ -302,6 +340,7 @@ The route forward is discriminating derivation and experiment rather than strong
 - [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
 - [Experimental Test Programme](04_EXPERIMENTAL_TEST_PROGRAM.md)
 - [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+- [Branch Lineage, Generator Accountability, and Anti-Hydra Discipline](29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md)
 - [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
 - [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 - [Scientific References and Current Literature](../SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
