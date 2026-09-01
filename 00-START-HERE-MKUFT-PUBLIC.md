@@ -16,13 +16,15 @@ MKUFT is a speculative research framework. It is not presented as an accepted co
 
 ## Choose your route
 
-**New reader:** [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md). It explains the architecture in ordinary English before introducing the formal terms.
+**New reader / non-academic reader:** [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md). It explains the questions and why they matter in ordinary English. You are not expected to verify specialist equations outside your field in order to follow the argument.
 
-**Reader deciding whether the work is worth further time:** [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md). It gives the immediate relevance by field, the known reader-interface failures, the scientific failure conditions, and the fastest ways to challenge the work.
+**Reader deciding whether the work is worth further time:** [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md). It gives immediate relevance by field, known reader-interface failures, scientific failure conditions, and quick ways to challenge the work.
+
+**Scientific reader following the technical chain:** [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). This is the intermediate bridge between the readable entry and the hard modules. It carries forward what the previous step established, explains what the next equations are trying to say, states what can be skipped by a non-specialist, and exposes an early kill point before linking onward.
 
 **Researcher looking for papers:** [Papers and Publications](papers/README.md). This separates frozen DOI-bearing publications from live modules and repository synthesis documents.
 
-**Researcher looking for the full technical dependency structure:** [Canon Map](CANON_MAP.md).
+**Researcher looking for the full technical dependency structure:** [Canon Map](CANON_MAP.md). Use this after the scientific traversal guide if you want the complete owner/dependency graph rather than the main human reading path.
 
 ## Current research-facing synthesis
 
