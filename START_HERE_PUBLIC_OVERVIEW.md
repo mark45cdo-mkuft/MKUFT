@@ -56,6 +56,12 @@ The important rule is not the letters. The important rule is: **do not move evid
 
 If a physical claim is made, it eventually has to become physical enough to measure.
 
+## How to read equations outside your field
+
+You are not expected to derive specialist equations outside your training in order to follow the architecture. You should still be able to tell what the variables stand for, what relation is being asserted, why that relation matters, and what result would make the claim fail.
+
+The [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) carries that handoff into the technical modules. It explains the purpose and broad meaning of the equations without replacing the specialist mathematics or pretending that a non-specialist has verified a derivation they have not checked.
+
 ## A simple example of why address matters
 
 Imagine three descriptions of the same organised system:
@@ -159,7 +165,9 @@ The point is not to add complexity. The point is to add state only when the futu
 
 ## What the Bell/CHSH result teaches
 
-The [Cross-Domain Compositional Schema v0.4](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md) was pushed against Bell/CHSH geometry.
+The published [Bell Constraints as Typed Boundaries](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md) analysis keeps Bell-local factorisation, operational no-signalling, conditioned process closure, local admissibility ownership, completion, and scale/resource questions separate. Its tested independent Bell-local new-physics delta is **NULL**. The retained result is methodological: a typed correspondence and falsification architecture that prevents one Bell-related statement from silently substituting for another.
+
+The [Cross-Domain Compositional Schema v0.4](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md) was then pushed against Bell/CHSH geometry.
 
 The geometric construction closed cleanly, but its natural four-volume reduced to known CHSH excess. The independent physical residual was therefore **NULL**.
 
@@ -171,7 +179,7 @@ First, it shows the method can return “this is a reparameterisation of known s
 
 Second, it produced a reusable rule: preserve a representation when it is sufficient; reopen it when controlled deformation shows that it has hidden a load-bearing distinction.
 
-The Bell result is therefore a calibration of method, not a claim to have discovered a new Bell law.
+The Bell results are therefore calibrations and correspondence work, not claims to have discovered a new Bell law or solved Bell's theorem.
 
 ## What ATLD is testing
 
@@ -183,7 +191,7 @@ The architecture should beat fair alternatives when content, information access,
 
 If replay or a simpler structure performs just as well, the stronger claim contracts.
 
-The current successor paper is [ATLD 2 v2.0](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md).
+[ATLD 2 v2.0](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md) also reports a bounded 15-case exploratory execution pilot. The pilot shows that the scoring surface can be applied and return a shaped diagnostic profile; it does not establish confirmatory superiority of the structured condition or validate the five candidate residual coordinates.
 
 ## What physics still owes
 
@@ -234,6 +242,8 @@ The repository-level control is [Reader Contact, Translation, and Failure Guide]
 ## Which route should you take?
 
 If you are new to the work, read this page and then [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md).
+
+If the public questions are clear but the technical chain is outside your field, use the [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). It explains what each technical step is trying to establish, what the equations mean in broad terms, what can be left to domain specialists, and where each claim is easiest to kill.
 
 If you are a physicist, continue to [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), then [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md), then the [current v1.2 synthesis](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
 
