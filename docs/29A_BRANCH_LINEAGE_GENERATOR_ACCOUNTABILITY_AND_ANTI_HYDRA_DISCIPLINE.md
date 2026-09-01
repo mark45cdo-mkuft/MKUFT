@@ -167,7 +167,14 @@ Prediction 2 may earn full local credit if it succeeds prospectively. Its succes
 
 A repair, new coordinate, narrowed boundary, changed scale, new history variable, or readdressed mechanism introduced because of a failed result requires evidence not already consumed in generating that repair.
 
-Preferred routes include held-out data, a preregistered follow-up, a new experiment, an independent corpus, a new model family or evaluator, or another domain where the mapping was fixed before the result was known.
+Preferred routes include:
+
+- held-out data;
+- a preregistered follow-up;
+- a new experiment;
+- an independent corpus;
+- a new model family or evaluator;
+- another domain where the mapping was fixed before the result was known.
 
 If no fresh discriminator is available, the repair remains a post-hoc explanatory candidate.
 
@@ -181,7 +188,16 @@ That flexibility is not free scientific credit.
 
 A newly recruited distinction earns retention when it improves prospective discrimination enough to justify the additional freedom it introduces.
 
-Depending on the domain, legitimate controls may include held-out predictive performance, preregistered ablation/restoration, model-complexity penalties, Bayesian model comparison, minimum-description-length style comparison, corrected multiple testing, matched search budgets, or explicit accounting of additional human/model search effort.
+Depending on the domain, legitimate controls may include:
+
+- held-out predictive performance;
+- preregistered ablation/restoration;
+- model-complexity penalties;
+- Bayesian model comparison;
+- minimum-description-length style comparison;
+- corrected multiple testing;
+- matched search budgets;
+- explicit accounting of additional human/model search effort.
 
 No one penalty is universal. The invariant is:
 
@@ -191,11 +207,24 @@ No one penalty is universal. The invariant is:
 
 If MKUFT, Layer Before Law, ATLD-derived machinery, or another parent object is claimed to be a broadly useful scientific generator rather than merely a collection of individually testable ideas, the generator itself requires a finite external discriminator.
 
-Where practicable, freeze before outcome inspection: task/problem family, admissible information, branch/hypothesis or search budget, time and compute, human assistance and revision opportunity, strong comparators, scoring and novelty rules, prior-art subtraction, success/null/failure criteria, and stopping condition.
+Where practicable, freeze before outcome inspection:
+
+- task or problem family;
+- admissible information;
+- branch/hypothesis or search budget;
+- time and compute;
+- human assistance and revision opportunity;
+- strong comparator methods;
+- scoring and novelty rules;
+- prior-art subtraction procedure;
+- success, null, and failure criteria;
+- stopping condition.
 
 Then evaluate the whole prospective portfolio rather than selecting its best survivors.
 
-A broad methodological claim is strengthened if the architecture produces better prospective hypotheses, discriminators, corrections, hidden-state discoveries, or model choices than strong alternatives under a fair search envelope. It contracts if it does not.
+A broad methodological claim is strengthened if the architecture produces better prospective hypotheses, discriminators, corrections, hidden-state discoveries, or model choices than strong alternatives under a fair search envelope.
+
+It contracts if it does not.
 
 A local scientific result that independently survives remains locally valid even if the parent generator fails this broader performance test.
 
@@ -220,11 +249,24 @@ Likewise, a parent may not declare after the result that the tested branch was n
 
 ## 10. Cross-domain credit and damage
 
-Cross-domain transfer creates two symmetrical risks: **halo**, where one successful application validates the whole architecture; and **amputation immunity**, where each failed application is cut away so the parent never accumulates evidential cost.
+Cross-domain transfer creates two symmetrical risks:
+
+- **halo:** one successful application is used to validate the whole architecture;
+- **amputation immunity:** each failed application is cut away so the parent never accumulates evidential cost.
 
 The control is not automatic global propagation in either direction.
 
-Use proposition dependency to determine what the local result logically supports or falsifies, and lineage accounting to determine what the attempt contributes to the generator-level record.
+Use both channels:
+
+```text
+proposition dependency
+→ determines what the local result logically supports or falsifies
+
+lineage accounting
+→ determines what the attempt contributes to the generator-level record
+```
+
+This allows a biology null to remain a biology null while still counting honestly in any later claim that the architecture systematically generates high-value cross-domain tests.
 
 ## 11. Independence and correlated descendants
 
@@ -232,13 +274,36 @@ Several related branches generated from the same observation, prompt, failed exp
 
 When generator-level evidence is scored, identify common-cause blocks and descendant relations.
 
-Do not count five repaired descendants as five independent confirmations when all five inherited the same discovery event or information source.
+Do not use:
+
+```text
+five repaired descendants survive
+→ five independent confirmations
+```
+
+when all five inherited the same discovery event or information source.
+
+Count the joint lineage at the scale justified by the dependency structure.
 
 ## 12. Failure conditions of this discipline
 
-This control fails if it is used to erase valid local results because the parent performs poorly elsewhere; make every exploratory miss falsify foundational physics; classify a branch as exploratory only after failure; hide dead branches from generator-level success claims; let repaired descendants reset attempt count; use the same data to invent and confirm a repair; grow unlimited coordinates without prospective complexity cost; choose favourable tasks after results; compare against deliberately weak alternatives; treat recursion/elegance/self-audit as independent evidence; or make portfolio accounting so broad that no bounded branch can earn local closure.
+This control fails if it is used to:
+
+- erase a valid local result merely because the parent generator performs poorly elsewhere;
+- make every exploratory miss count as falsification of foundational physics;
+- classify a branch as exploratory only after it fails;
+- hide dead branches from a generator-level success claim;
+- allow repaired descendants to reset the attempt count;
+- use the same data both to invent and confirm a repair;
+- grow unlimited coordinates without prospective complexity cost;
+- choose a favourable subset of tasks after results are known;
+- compare the architecture with deliberately weak alternative generators;
+- treat internal recursion, elegance, or self-audit as independent evidence of generator superiority;
+- make portfolio accounting so broad that no bounded branch can ever earn local closure.
 
 ## 13. Scientific compression
+
+The standing rule is:
 
 > **Locality governs what a result proves. Lineage governs what the attempt costs. Preserve local merit and local failure at their tested addresses. A failed branch may be pruned from the live theory, but it remains in the parent generator's performance history. A repair may be learned from failure, but it requires fresh evidence and does not rewrite the original miss. When the parent claims credit as a scientific generator, judge it on the complete prospective portfolio under a fair search budget and strong alternatives, not only on surviving limbs.**
 
