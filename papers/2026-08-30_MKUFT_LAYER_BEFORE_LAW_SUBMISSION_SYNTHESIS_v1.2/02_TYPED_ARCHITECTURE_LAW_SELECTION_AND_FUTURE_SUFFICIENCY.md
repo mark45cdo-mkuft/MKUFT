@@ -56,9 +56,7 @@ informational or relational structure has independent physical content -
 must survive the strongest adequate physical description rather than
 inherit causal status from useful description alone.
 
-This is the meaning of Layer Before Law: object and relation
-admissibility are tested before a residual is promoted into evidence for
-law revision.
+This is the meaning of Layer Before Law. The title is admittedly ambitious; the immediate proposal is less theatrical: before attempting to unify laws, it may be prudent to check that they have been assigned to the right objects, and not to promote a residual into law revision until ordinary explanations have been properly challenged.
 
 | **1** | What is the current effective possibility object?                                    |
 |-------|--------------------------------------------------------------------------------------|
@@ -258,7 +256,7 @@ and physical regime lambda, two histories may be compressed to the same
 state only if every declared admissible challenge leaves their future
 target distributions equivalent. If the wider operation can split those
 supposedly identical states into materially different declared futures,
-the state description was not sufficient for that use.
+the state description was not sufficient for that use. Additional state variables are therefore recruited by evidence rather than by enthusiasm.
 
 ## 6.2 Preserve-or-reopen contract
 
