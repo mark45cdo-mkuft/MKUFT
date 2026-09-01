@@ -4,193 +4,248 @@
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
 **Current principal publication:** [MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics](https://doi.org/10.5281/zenodo.21973064)  
 **MKUFT concept DOI:** [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565)  
-**Historical v1 DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
-**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)  
-**Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511) · [LinkedIn](https://www.linkedin.com/in/custodiansystems45/) · [GitHub](https://github.com/mark45cdo-mkuft)
+**Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-The current principal DOI-bearing MKUFT publication is version v2, published 17 August 2026. The historical v1 deposit remains a frozen earlier version. The live GitHub canon continues to evolve beyond any frozen publication object.
+This page explains MKUFT in ordinary English first. The formal documents are linked after the idea they are meant to carry.
 
-MKUFT is a speculative, structured research framework. It is not presented as an accepted completed theory.
+MKUFT is speculative research. It is not presented as an accepted completed theory of physics.
 
-Its central question is:
+## Start with the problem, not the vocabulary
 
-> Can several domains be analysed through a common grammar of possibility, boundary, admissible transition, cost, coherence, observation, and falsifiable resolution without pretending that those domains are physically identical?
+A large scientific model can go wrong before an equation is even chosen.
 
-The framework contains physics-facing hypotheses, mathematical scaffolds, information architecture, cognition and complex-systems models, procedural-structure methods, and explicitly speculative applications. These branches do not carry equal evidence.
+It can choose the wrong object.
 
-## The simple version
+It can mix a component with the whole system.
 
-MKUFT treats reality not only as a collection of things, but also as possible states and constrained routes between them.
+It can treat a useful description as though it were the mechanism itself.
 
-A route may be impossible, costly, boundary-dependent, stable, unstable, misidentified, or rejected by evidence. The terrain metaphor is useful: walking does not create the mountain, but the terrain, the available routes, and the condition of the traveller affect what can be reached.
+It can borrow a rule from one scale and quietly apply it at another.
 
-The framework organises its descriptions through four typed layers:
+It can treat two states as equivalent because they look the same now even though they lead to different futures.
+
+It can measure a local improvement while missing damage exported elsewhere.
+
+MKUFT is built around those failure modes.
+
+Its central proposal is **Layer Before Law**:
+
+> **Before asking which law governs something, establish what the thing is, where its boundary is, what role it has, what scale is active, what evidence is actually available, and which changes are possible from that state.**
+
+Only after that should the law or effective rule be selected.
+
+## The four-layer shorthand
+
+MKUFT often writes:
 
 ```math
 S \rightarrow I \rightarrow P \rightarrow O
 ```
 
-where:
+These letters are addresses, not four ordinary spatial dimensions.
 
-- $S$ — **Substrate:** a proposed possibility or source domain;
-- $I$ — **Information:** relation, constraint, address, rule, state, and routing;
-- $P$ — **Physical:** matter, energy, fields, bodies, instruments, records, timing, and measurable events;
-- $O$ — **Observer:** observer-positioned registration, attention, interpretation, measurement context, and bounded state-dependent participation.
+**S — Substrate** is the proposed deeper possibility/source domain of the model.
 
-The layers are not ordinary spatial axes and are not assumed to share one metric. A relationship at one layer does not automatically become evidence at another.
+**I — Information** is where relations, constraints, roles, addresses, rules, and routing are described.
 
-## First scientific position: Layer Before Law
+**P — Physical** is where matter, energy, fields, bodies, instruments, timings, records, and measurable events live.
 
-MKUFT's present foundational intervention begins one step earlier than a conventional attempt to combine existing physical laws.
+**O — Observer** is the observer or registration position: what is measured, available, attended to, or conditioned by the measurement context.
 
-> **Before asking which law governs an object, first establish what the relevant object is, at what address and scale it is being described, which relations and boundary conditions are load-bearing, and which future transitions are admissible.**
+The important rule is not the letters. The important rule is: **do not move evidence, laws, or meaning from one address to another without showing the bridge.**
 
-The name *McLaughlin–Kairos Unified Field Theory* identifies the problem-space and long-range ambition of the programme. It is not a claim that a final unified physical dynamics has already been derived. The present contribution is the proposed architecture for testing whether those prerequisites have been established before effective descriptions are combined.
+If a physical claim is made, it eventually has to become physical enough to measure.
 
-This is developed in [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), published separately as version 1.0 at DOI [10.5281/zenodo.21971270](https://doi.org/10.5281/zenodo.21971270).
+## A simple example of why address matters
 
-The present architectural claim can therefore be tested before a complete quantum-gravity theory exists. It earns support only where addressed state, admissibility, law ownership, readdressing, reachable-future structure, or related typed distinctions produce prospective predictive, interventional, explanatory, or model-selection value beyond the strongest adequate ordinary description. If they do not, the architecture is reduced accordingly.
+Imagine three descriptions of the same organised system:
 
-Compressed:
+- a list of its parts;
+- a map of how the parts are connected;
+- a description of the whole system's behaviour.
 
-> **Layer before law; address before law ownership.**
+All three can be true and still answer different questions.
 
-## Address before law ownership
+A heart is made of cells, but “list every cell” is not the most useful state description for predicting a heartbeat. At the same time, a high-level heartbeat variable is not automatically sufficient for every biochemical question about the heart.
 
-The current public architecture develops the Layer Before Law proposal into an operational scale/address question.
+MKUFT separates two claims that are often fused:
 
-A relation can define a genuine higher-order functional object without making that object dynamically autonomous for every property. Module 33S2 therefore separates:
+> **This organised whole is real.**
+
+and
+
+> **This organised whole has a sufficient closed law for the property we care about.**
+
+The first does not guarantee the second.
+
+That distinction is the centre of the law-descent work.
+
+## From object to law
+
+The current public architecture can be read as one continuing question.
+
+### 1. What is the object?
+
+[Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) says the object, scale, boundary, and admissible state must be established before law ownership is assumed.
+
+### 2. What information must the state contain?
+
+The [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) assembles the addressed state into a local law object. In plain English, it asks: what do we have to know before we are entitled to say which transitions are possible and how they should be weighted?
+
+A useful shorthand is:
 
 ```text
-lineage
-→ relational functional identity
-→ constitutive closure
-→ property-specific law sufficiency
+D = what states are admissible here
+T = what transitions are lawful here
+W = how the lawful surviving routes are weighted or costed
 ```
 
-A higher address may supply the active law for a declared property only when the lower dynamics descend through that address at the stated preparation, intervention class, timescale and tolerance. If the sufficiency fails, the model readdresses downward or multiscale without denying that the higher-order object exists.
+The order matters. A route should not become “possible” merely because it is attractive or highly weighted.
 
-Two margins are therefore kept distinct:
+### 3. Does a higher-order whole actually own the law?
 
-```math
-M_C \neq M_D(q),
+[Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) separates four things:
+
+```text
+which historical object is this?
+→ what relation makes it this kind of whole?
+→ does that relation persist?
+→ is the whole-level state sufficient for the property we want to predict?
 ```
 
-where $M_C$ is the margin to loss of constitutive closure and $M_D(q)$ is the margin to loss of higher-address law sufficiency for property $q$.
+If the higher level is sufficient, it can carry an effective law for that property and scope.
 
-Module 33S3 adds a second separation: local performance, whole-level closure, higher-law sufficiency and recoverability are not synonyms. It tracks
+If not, the model has to reopen lower-level detail or stay multiscale.
 
-```math
-\Delta_{\ell\rightarrow h}
-=
-(\Delta J_\ell,\Delta M_C,\Delta M_D(q))
-```
+### 4. Does good local performance mean the whole is healthy?
 
-and treats recovery as target-relative constrained reachability rather than assumed reversal.
+No.
 
-Module 33A subjects this family to hostile prior-art subtraction. It explicitly concedes causal abstraction, lumpability, property-oriented reduction, Mori–Zwanzig/history repair, reachability/viability, hysteresis and multilevel fitness conflict. The strongest current residual is therefore bounded as a **candidate original formal synthesis / operational meta-principle**, not an established new law of nature.
+[Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) separates local performance from whole-system closure, law sufficiency, and recoverability.
 
-The compressed rule is:
+A part can improve its own score while the wider system becomes harder to restore.
 
-> **Relation makes the whole; descent earns its law.**
+That matters in biology, engineering, institutions, AI, and control systems.
 
-## Long-horizon unified-field burden
+### 5. Can two states look the same now but have different futures?
 
-A physicist is still entitled to ask where quantum theory, gravitation, entanglement, Bell constraints, no-signalling, and the derivations expected of a completed unified physical theory are addressed.
+Yes. If so, the state description is missing something important.
 
-Those obligations are real, but they are a **later promotion burden**, not the completion criterion for MKUFT's present architectural contribution.
+[Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) asks whether the present Address is rich enough to predict the future distinctions the task actually cares about.
 
-MKUFT has not independently derived the Born rule, a new Bell inequality, the quantum Bell boundary from a new physical principle, quantum field theory, general relativity, or a finished quantum theory of gravity. Its Bell-facing work is narrower but now substantive: the published preprint [*Bell Constraints as Typed Boundaries: Relation, Access, Completion, and Scale*](https://doi.org/10.5281/zenodo.22100926) develops a typed correspondence and falsification architecture that keeps Bell-local factorisation, operational no-signalling, remote access/write-power, process-level conditional closure, local admissibility-law ownership, parent-level completion, and scale/resource custody at distinct addresses. It does not claim to solve Bell's theorem or to replace the established Bell and quantum-information results that own those boundaries. Under the paper's declared comparator family, the independent Bell-local new-physics delta is null; the typed correspondence and falsification architecture is the non-null contribution.
+[Rate-Conditioned Addressing](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md) then asks whether timing, rate, phase, dwell, schedule, or bounded history has to enter that Address.
 
-If the framework is promoted from an addressed research architecture into a claimed fundamental physical theory, it must recover the established quantum and gravitational regimes, remain compatible with Bell constraints and operational no-signalling, define every cross-layer coupling used by the physical claim, and produce a discriminating result beyond existing formalisms.
+Those variables are added only when they make a real predictive difference.
 
-The Layer Before Law question is prior to that burden:
+### 6. Is recovery really available?
 
-> Are quantum theory and general relativity themselves the correct fundamental objects to weld together, or might both be effective physical descriptions whose lawful use depends on a deeper addressed admissibility structure?
+[Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) treats recovery as a route through future state space, not a reassuring assumption.
 
-A failure to meet the later quantum/gravitational recovery burden blocks promotion to a fundamental unified physical theory. It does not by itself erase an independently successful architectural or cross-domain result at a lower claim level.
+A system may still function while its reserve of restorative futures is shrinking.
 
-## Current foundational frontier
+That gives a sharper question than “is it broken yet?”:
 
-The live architecture now specifies the addressed state, admissibility descriptor, active physical-law object, propagation interface, measurement/registration step and recursive readdressing. The remaining open problem is sharper than a generic missing arrow: **the fundamental physical owner/generator of transition has not yet been identified.**
+> **How much lawful room to recover is left?**
 
-The observer layer is therefore a live discriminator, not a conclusion. The current canon does not assume that $O$ causes physical dynamics. It asks whether an operational observer/context variable carries independent prospective load in admissibility $\mathcal Q$, law assembly $\mathfrak C_P$, the transition rule $\mathcal T_P$, or only in measurement/registration and readdressing. Any stronger claim must beat the strongest adequate physical-only state/history/boundary/environment account under controlled testing.
+### 7. How do we detect a missing state variable before the usual marker appears?
 
-See the [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) for the current frontier and test boundary.
+[Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) provides the direct assay.
 
-## Published research objects
+Take states that the current model treats as equivalent. Apply a controlled challenge. If their futures split in a repeatable way, the current state description was not sufficient. Recruit the smallest missing variable or relation that predicts the split, then test it prospectively.
 
-- **MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics**, v2 — DOI `10.5281/zenodo.21973064`; concept DOI `10.5281/zenodo.17780565`; historical v1 DOI `10.5281/zenodo.17780566`.
-- **Bell Constraints as Typed Boundaries: Relation, Access, Completion, and Scale**, v1.0 — DOI `10.5281/zenodo.22100926`; typed Bell/CHSH correspondence and falsification paper; established Bell and quantum-information mathematics retain native ownership.
-- **Layer Before Law**, v1.0 — DOI `10.5281/zenodo.21971270`.
-- **Recursive Constraint Closure and Reachable-State Geometry**, v0.1 — DOI `10.5281/zenodo.21971425`.
-- **Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures**, v1.0 — DOI `10.5281/zenodo.21341521`.
-- **Voynich Manuscript – Systems/Engine Framework** — version DOI `10.5281/zenodo.18178638`.
+The point is not to add complexity. The point is to add state only when the future proves it was missing.
 
-See [Papers and Publications](papers/README.md) for the publication index and exact object boundaries.
+## What the Bell/CHSH result teaches
 
-## What MKUFT does not claim
+The [Cross-Domain Compositional Schema v0.4](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md) was pushed against Bell/CHSH geometry.
 
-MKUFT does not claim that:
+The geometric construction closed cleanly, but its natural four-volume reduced to known CHSH excess. The independent physical residual was therefore **NULL**.
 
-- belief overrides physics;
-- thought can arbitrarily create physical outcomes;
-- every coincidence has external meaning;
-- quantum mechanics permits unconstrained explanations;
-- symbolic resemblance is scientific evidence;
-- an anomaly proves a preferred ontology;
-- a mathematical expression proves the process it describes;
-- structural centrality proves truth;
-- local efficiency proves whole-system coherence;
-- a higher-order object automatically owns an autonomous law for every property;
-- metaphysical meaning substitutes for evidence at another layer;
-- an architectural reframing is already a completed quantum-gravity derivation.
+That is not hidden as a failure.
 
-## Typed cross-layer discipline
+It is useful for two reasons.
 
-One candidate invariant may appear differently at different layers. MKUFT represents that idea schematically as
+First, it shows the method can return “this is a reparameterisation of known structure” instead of forcing novelty.
 
-```math
-K_L = A_L(K;\theta_L),
-```
+Second, it produced a reusable rule: preserve a representation when it is sufficient; reopen it when controlled deformation shows that it has hidden a load-bearing distinction.
 
-where the active layer $L$, variables, evidence, units, and falsifiers must be declared rather than inherited silently.
+The Bell result is therefore a calibration of method, not a claim to have discovered a new Bell law.
 
-A cross-layer relation is treated as a typed map,
+## What ATLD is testing
 
-```math
-C_{LM}:\mathcal X_L\rightarrow\mathcal X_M,
-```
+The AI-facing branch asks whether a structured relational architecture actually improves long-horizon reasoning.
 
-not as proof that the two spaces are physically identical. This discipline is developed in [Cross-Layer Invariants and Layer Addressing](docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md) and [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md).
+A good-looking conversation is not enough.
 
-## Ambiguity, agency, and active traversal
+The architecture should beat fair alternatives when content, information access, time, compute, and revision opportunity are matched. Useful controls include flat structure, isolated components, one-way assistance, complete-history replay, and relation scrambling.
 
-The Silver Update separates unresolved state volume, route connectivity, and preserved access. Representative audit variables such as $M_t$ and $G_t$ are operational scaffolds, not validated universal laws or diagnostic scores.
+If replay or a simpler structure performs just as well, the stronger claim contracts.
 
-The AI-facing ATLD branch asks whether a typed, mutually constraining knowledge architecture produces reproducible functional gain when actively traversed, compared with matched flat, isolated, one-way, replay or scrambled controls.
+The current successor paper is [ATLD 2 v2.0](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md).
 
-The independently published methods paper is:
+## What physics still owes
 
-**Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems**
+A physicist is entitled to ask for the hard things.
 
-- [ATLD publication record](ATLD_STANDALONE_PUBLICATION.md)
-- Version DOI: [10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521)
-- Concept DOI: [10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520)
+MKUFT has not independently derived quantum mechanics, the Born rule, quantum field theory, general relativity, or a finished quantum theory of gravity.
 
-Functional gain does not by itself establish consciousness, personhood, merged identity, or metaphysical status.
+If the architecture is promoted into a claimed fundamental physical theory, it must recover the established quantum and gravitational regimes, preserve Bell compatibility and operational no-signalling, define every claimed physical coupling, close dimensional and conservation bookkeeping, and produce a result that distinguishes it from the strongest adequate ordinary physical model.
 
-## Load-bearing relations and whole-system coherence
+The present Layer Before Law claim is prior to that promotion. It can be tested as an architecture without pretending the later burden has already been paid.
 
-A relation can be structurally central without being true. MKUFT therefore uses controlled removal, coalition ablation and plausible substitution to distinguish load-bearing relations from scaffolds, redundancy, decoration, distortion or locally efficient extraction.
+## What would make MKUFT less interesting or wrong?
 
-The deformation branch also distinguishes local performance from wider integrity. A subsystem may improve its selected score while exporting cost, fragility, agency loss or calibration failure outside the chosen boundary.
+The short version is straightforward.
 
-Within the wider metaphysical interpretation of MKUFT, Love is treated as a primary unity-principle: relation that does not erase legitimate distinction or secure order through capture. That orientation is not inserted into physical equations as an unmeasured force and does not replace evidence at the active layer.
+If the added addresses do no work, remove them.
 
-## Scientific claim discipline
+If a higher-level state does not predict the target property, do not grant it a closed higher-level law.
 
-MKUFT separates seven levels of claim:
+If a cross-layer bridge has no carrier, do not call it a physical mechanism.
+
+If ordinary physics or a simpler model predicts the result equally well, prefer the simpler account.
+
+If an observer-linked effect goes null under adequate controlled testing, contract or remove that branch.
+
+If Bell compatibility, no-signalling, standard-physics recovery, dimensional consistency, or conservation bookkeeping fail where required, the physics-facing claim fails.
+
+If a supposed novelty disappears under strong prior-art comparison, narrow the novelty claim.
+
+If a result survives only because the failure criterion was changed after the result, the test failed.
+
+The full technical statement is [MKUFT Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
+
+## Known communication failure: a correct idea can still be unreadable
+
+This repository has a reader-interface problem that is being actively corrected.
+
+The work was developed recursively. Each new term usually exists because an earlier, simpler formulation failed under pressure. The people who built the chain remember those failures. A new reader sees only the final term.
+
+That creates **dependency-history asymmetry**: the author sees compression; the reader sees jargon.
+
+The repair is not to remove the technical language. The repair is to put the ordinary-English question immediately before it, explain why the distinction exists, show what failure it prevents, and then give the formal term.
+
+A second repair is to stop using links as substitutes for explanation. A reader should know why the next document follows before clicking it.
+
+The repository-level control is [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md).
+
+## Which route should you take?
+
+If you are new to the work, read this page and then [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md).
+
+If you are a physicist, continue to [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), then [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md), then the [current v1.2 synthesis](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
+
+If you work in complex systems, biology, control, or multiscale modelling, continue to [Recursive Constraint Closure](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [Relational Closure and Law Descent](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md), and [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md).
+
+If you work in AI, continue to [ATLD 2](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md).
+
+If you want frozen publications and DOI identities rather than the live module chain, use [Papers and Publications](papers/README.md).
+
+If you want the complete technical dependency map, use the [Canon Map](CANON_MAP.md).
+
+## Claim discipline
+
+MKUFT keeps several claim levels separate:
 
 1. conceptual proposal;
 2. mathematical scaffold;
@@ -200,58 +255,18 @@ MKUFT separates seven levels of claim:
 6. mechanism-level result;
 7. foundational physical theory.
 
-Different branches occupy different levels. A result in one branch does not automatically promote the framework as a whole. See [Scientific Tightening and Claim Discipline](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md).
+Different branches occupy different levels. A result in one branch does not promote the whole framework.
 
-## Recommended reading routes
+A structural relation can be important without being true. A mathematical mapping can be exact without being a new physical mechanism. A higher-order object can be real without owning a sufficient higher-order law. A null result can be scientifically useful.
 
-### Physics and quantum gravity
+Those distinctions are not protective wording. They are part of the test architecture.
 
-1. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
-2. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-3. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
-4. [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
-5. [Dynamic Interface Promotion](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
-6. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
-7. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
-8. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
-9. [MKUFT Core Extended](docs/01_MKUFT_CORE_EXTENDED.md)
-10. [Mathematical Appendix](docs/02_MKUFT_MATH_APPENDIX.md)
-11. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
-12. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
-13. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+## Publications and provenance
 
-### General architecture
+The principal DOI-bearing MKUFT publication is v2: [10.5281/zenodo.21973064](https://doi.org/10.5281/zenodo.21973064).
 
-1. [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md)
-2. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
-3. [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
-4. [Relational Closure and Law Descent](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
-5. [Cross-Scale Performance and Recoverability](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
-6. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
-7. [Canon Map](CANON_MAP.md)
-8. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-9. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
+The current research-facing synthesis is v1.2, dated 30 August 2026, public in this repository, not yet DOI-bearing, and not peer reviewed: [MKUFT Layer Before Law submission synthesis v1.2](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
 
-### AI and typed knowledge architectures
+The complete publication index is [Papers and Publications](papers/README.md).
 
-1. [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md)
-2. [Active Traversal and Functional Emergence](docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
-3. [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
-4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
-5. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
-
-## References and provenance
-
-The repository-level bibliography is [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md). Exact citation, DOI, version and rights information is in [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md), [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md), and [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md).
-
-## Cross-Domain Compositional Schema v0.4 — current publication update
-
-- current version DOI: `10.5281/zenodo.22166468`
-- prior v0.3 DOI: `10.5281/zenodo.22166005`
-- concept DOI: `10.5281/zenodo.22164561`
-- reader route: `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md`
-- publication record: `CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md`
-- live future-sufficiency owner: `docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md`
-- live Bell/tetrahedral owner: `docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md`
-
-Version 0.4 closes the tetrahedral Bell branch as an exact facet-plus-normal coordinate construction on native CHSH geometry. The chart is an invertible reparameterisation, the natural four-volume collapses to CHSH excess, and the physical residual remains NULL. The v0.3 and v0.2 routes remain historical frozen versions.
+The exact DOI-bearing object controls the frozen publication version. Live GitHub work does not silently replace it.
