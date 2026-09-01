@@ -17,6 +17,7 @@
 
 - [Zenodo v0.4 publication](https://doi.org/10.5281/zenodo.22166468)
 - [GitHub reader/citation route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md)
+- [Professional domain instantiation guide](PROFESSIONAL_DOMAIN_INSTANTIATION_GUIDE.md) — a live reader bridge that replaces generic role words with domain-native objects, variables, maps, ablations, measurements, baselines and nulls before a cross-domain scientific claim is evaluated
 - [Frozen carrier identity record](publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md)
 - [Prior GitHub v0.3 reader route](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.3.md)
 - [Canonical live future-sufficiency owner — Module 33S7A](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
@@ -28,6 +29,8 @@
 Version 0.4 is the substantive successor to v0.3 in the same Zenodo version lineage. The concept DOI `10.5281/zenodo.22164561` identifies the version family and resolves to the latest version; the version-specific DOI `10.5281/zenodo.22166468` identifies the frozen v0.4 object. The v0.3 and v0.2 DOIs remain immutable historical versions.
 
 The exact Zenodo v0.4 PDF is the controlling frozen publication carrier. Live GitHub modules may integrate or sharpen the result but do not silently alter the deposited object.
+
+The professional instantiation guide is therefore not a revision of the frozen v0.4 paper. It makes an already required burden explicit for the live reader route: shared role words such as `state`, `dependency`, `scale`, `restore`, `reopen`, `context`, and `target` cannot carry scientific weight in a receiving field until the application names the field-native object, operation, measurement/evaluator, strongest native baseline and failure condition.
 
 ## Exact v0.4 carrier identity
 
@@ -68,6 +71,7 @@ so the immediate geometric-invariant candidate collapses to known CHSH excess. B
 - **25** owns protocol-relative deformation and the reparameterisation/representation-control lesson.
 - **32S3** owns completion/fibre/local-to-global custody; the Bell marginal fibre is a calibration of that existing owner, not a new completion controller.
 - **29 / research SOP** retain promotion and claim-discipline authority.
+- **Professional Domain Instantiation Guide** owns only the reader-facing registration bridge from generic role names to domain-native scientific objects. It cannot override a technical owner or promote a semantic correspondence into evidence.
 
 ## Citation
 
@@ -75,6 +79,6 @@ so the immediate geometric-invariant candidate collapses to known CHSH excess. B
 
 ## Object boundary
 
-The publication record owns DOI/version/citation/licence and frozen-carrier identity. The `papers/` route owns reader discovery. Modules 33S7A, 28A, 25 and 32S3 are evolving live-canon integrations. Zenodo remains publication custody. None of these objects silently replaces another.
+The publication record owns DOI/version/citation/licence and frozen-carrier identity. The `papers/` route owns reader discovery. Modules 33S7A, 28A, 25 and 32S3 are evolving live-canon integrations. Zenodo remains publication custody. The professional instantiation guide is a live reader bridge only. None of these objects silently replaces another.
 
 **Repository PDF mirror:** [`publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf`](publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/Cross-Domain_Compositional_Schema_v0.4_2026-08-29.pdf)
