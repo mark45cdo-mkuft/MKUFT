@@ -84,6 +84,23 @@ If a residual split survives those controls, add the **smallest physically or bi
 
 The low state matters too. If the supposedly equivalent systems remain equivalent under a well-chosen separating challenge, within the declared uncertainty and tolerance, that is not “nothing happened.” It is evidence in favour of preserving the simpler state description for that target, regime and challenge family. MKUFT is therefore not a one-way machine for adding complexity: **controlled splitting pressures the model to reopen; controlled non-splitting can earn provisional preservation.**
 
+There is one more part of the picture. The experiment only has access to a future through its **registration surface**: the measurements, records and readouts actually available. That is the conservative role of `O` in the SIPO shorthand. A split is meaningful only if the declared measurement family can resolve a target-relevant difference beyond its noise and tolerance. If the measurement itself physically disturbs the system, that disturbance belongs to the P-layer instrument and has to be controlled like any other part of the challenge. `O` does not supply a new force merely by being present.
+
+This closes the example back into SIPO rather than leaving it as a downstream assay:
+
+```text
+addressed state + context/history
+→ choose the active law and lawful challenge
+→ propagate physically
+→ register the result through a declared P→(P,O) measurement/readout
+→ split or no split at the target-relevant resolution
+→ use controls and negative space to localise what the result means
+→ preserve the current state description or minimally readdress it
+→ assemble the next law object from the updated address
+```
+
+So the test runs both ways. The current address determines which law and challenge are meaningful; the registered future then tests whether that address was sufficient. That is the recursive return, not an observer-caused-physics claim.
+
 MKUFT separates two claims that are often fused:
 
 > **This organised whole is a legitimate object for the question being asked.**
@@ -117,6 +134,8 @@ W = how the lawful surviving routes are weighted or costed
 ```
 
 The order matters. A route should not become “possible” merely because it is attractive or highly weighted.
+
+SIPO then carries the result forward and back: the addressed state selects the admissible law object, physical propagation produces a continuation, the measurement/registration step creates a P-state plus O-record, and that realised path and record are folded into the next address. The conservative loop is therefore **address → law → physical future → registration → readdress**, with any stronger observer-dependent physical claim requiring separate evidence.
 
 ### 3. Does a higher-order whole actually own the law?
 
@@ -185,6 +204,8 @@ no material split under a strong separating challenge
 ```
 
 The point is not to add complexity. The point is to make the model **earn either reopening or preservation**. A split does not automatically prove hidden internal state, because the challenge or boundary may have differed; a null does not prove metaphysical completeness, because it closes only the declared target and test family.
+
+The registered result then returns to SIPO: it updates the evidence/history/context used to decide whether the next addressed state should remain compressed or recruit a new distinction before the next law object is assembled. That upstream return is part of the same architecture, not an optional afterthought.
 
 ## What the Bell/CHSH result teaches
 
