@@ -20,6 +20,8 @@ MKUFT is a speculative research framework. It is not presented as an accepted co
 
 **Reader deciding whether the work is worth further time:** [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md). It gives immediate relevance by field, known reader-interface failures, scientific failure conditions, and quick ways to challenge the work.
 
+**Reader checking whether an MKUFT term is genuinely distinct or merely familiar science under another handle:** use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). This is an optional cross-check, not another required reading stage. It gives the plain object, closest established neighbours, what those neighbours already own, the residual MKUFT claim, and the reduction/kill condition. It deliberately does not pretend that every term has one exact scientific equivalent.
+
 **Scientific reader following the technical chain:** [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). This is the intermediate bridge between the readable entry and the hard modules. It carries forward what the previous step established, explains what the next equations are trying to say, states what can be skipped by a non-specialist, and exposes an early kill point before linking onward.
 
 **Researcher looking for papers:** [Papers and Publications](papers/README.md). This separates frozen DOI-bearing publications from live modules and repository synthesis documents.
