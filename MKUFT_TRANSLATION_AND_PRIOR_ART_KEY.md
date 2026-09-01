@@ -79,19 +79,19 @@ Read: [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMIN
 
 ## SIPO — Substrate, Information, Physical, Observer
 
-**Plain object:** four typed modelling addresses used to stop different kinds of statement from silently impersonating one another.
+**Plain object:** four typed modelling addresses used to stop different kinds of statement from silently impersonating one another. In the conservative scientific reading, `O` is the declared observation/registration position: what the measurement, record or readout actually makes available to the analysis.
 
 **Closest established neighbours:** typed state spaces, latent/observed-variable distinctions, information-theoretic descriptions, physical state descriptions, measurement/registration models, source-to-observation pipelines.
 
 **Already owned by established science:** latent variables, information structures, physical variables and measurement contexts are not MKUFT inventions.
 
-**MKUFT residual claim:** the S/I/P/O separation is used as an anti-flattening architecture: a relation stated at one address does not become a law, mechanism or evidence at another address without an explicit bridge.
+**MKUFT residual claim:** the S/I/P/O separation is used as an anti-flattening architecture: a relation stated at one address does not become a law, mechanism or evidence at another address without an explicit bridge. The registered result is also carried back into the next addressed state, so the working loop is address → law → physical continuation → registration → readdress.
 
-**Not equivalent to:** four spatial dimensions, four new physical fields, or proof that an independent physical information/substrate layer exists.
+**Not equivalent to:** four spatial dimensions, four new physical fields, proof that an independent physical information/substrate layer exists, or a claim that a conscious observer creates the physical outcome merely by being present.
 
-**Example:** an informational relation can organise a model without thereby becoming a physical force. A physical claim still needs a carrier, observable consequence, units where applicable and a falsifier.
+**Example:** an informational relation can organise a model without thereby becoming a physical force. A measurement record can tell the model which future was resolved without making the observer the cause of that future. Any physical measurement back-action still belongs to the physical interaction and must be modelled there.
 
-**Reduction / kill:** if SIPO typing does not prevent invalid inheritance or improve model/equation hygiene beyond simpler native distinctions, it is decorative bookkeeping.
+**Reduction / kill:** if SIPO typing and return do not prevent invalid inheritance, clarify registration, or improve model/equation hygiene beyond simpler native distinctions, they are decorative bookkeeping.
 
 Read: [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) and [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md).
 
@@ -229,17 +229,17 @@ Read: [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_REST
 
 ## Future-Splitting State Recruitment (FSSR)
 
-**Plain object:** deliberately challenge states the current model treats as equivalent; if their futures split, identify the smallest defensible missing state variable and test it prospectively.
+**Plain object:** deliberately challenge states the current model treats as equivalent and make sure the systems, challenge, boundary conditions, measurement and allowed noise are matched well enough for the question. A split can justify reopening the state; a strong no-split result can justify keeping the simpler description.
 
 **Closest established neighbours:** perturbation experiments, system identification, hidden-state estimation, predictive-state sufficiency, intervention/ablation, state augmentation and mechanism localisation.
 
 **Already owned by established science:** perturbation, hidden-state modelling and state augmentation are standard families.
 
-**MKUFT residual claim:** the particular assay ordering: matched present representation → deliberately different histories where appropriate → lawful future challenge → measured split → minimal state recruitment → fresh-data prediction → removal/restoration deformation test.
+**MKUFT residual claim:** the particular assay ordering: matched candidate state + matched challenge/boundary/readout + declared tolerance → separating lawful future → split or no material split → control and negative-space audit → minimal state recruitment only if a residual survives → fresh-data prediction → removal/restoration deformation test. The registered result then returns into the next addressed state before the next law is selected.
 
-**Example:** matched current neural activity from different recent histories; test whether an apparent connectivity edge disappears and held-out prediction improves after adding the smallest biologically defensible retained-state variable.
+**Example:** match current neural activity as closely as the field permits, preserve deliberately different recent histories where that is the tested candidate, and apply the same controlled challenge. If a future split survives state-matching, intervention, environment, measurement and ordinary-noise controls, test whether the smallest biologically defensible retained-state variable removes an apparent connectivity edge and improves held-out prediction. If a strong separating challenge produces no material split, preserve the simpler state description provisionally for that target and regime.
 
-**Reduction / kill:** if stronger ordinary measurement, noise control or conventional hidden-state estimation removes the split, the stronger FSSR mechanism-localisation language is not earned. If the recruited variable adds nothing on fresh cases, it earns nothing in that system.
+**Reduction / kill:** if better state matching, challenge/boundary control, measurement, noise modelling or conventional hidden-state estimation removes the split, the stronger FSSR mechanism-localisation language is not earned. If the recruited variable adds nothing on fresh cases, it earns nothing in that system. A null under a strong declared challenge removes the recruitment burden from that test rather than licensing complexity by default.
 
 Read: [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md).
 
