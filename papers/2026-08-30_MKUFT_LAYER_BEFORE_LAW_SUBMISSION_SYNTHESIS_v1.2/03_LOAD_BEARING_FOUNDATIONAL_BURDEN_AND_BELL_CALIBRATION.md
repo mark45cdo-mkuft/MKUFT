@@ -165,7 +165,7 @@ Because the chart is an invertible reparameterisation, the chart alone
 cannot be new physics. The v0.4 physical residual is therefore NULL: no
 new Bell inequality, no independent Tsirelson derivation, no quantum
 mechanism, and no measurable physical delta survive native-owner
-subtraction.
+subtraction. Elegance, unfortunately for the candidate invariant, is not an independent observable.
 
 <table>
 <colgroup>
