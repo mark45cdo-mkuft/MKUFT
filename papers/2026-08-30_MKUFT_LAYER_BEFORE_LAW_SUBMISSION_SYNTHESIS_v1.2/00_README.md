@@ -25,6 +25,8 @@ If a proposed cross-domain relation survives in one field, does it survive a hos
 
 Those questions are what connect the four parts below. The paper is not four separate essays.
 
+If you understand those questions but do not yet hold the whole technical dependency chain, use the [Scientific Reader Traversal Guide](../../SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) before or alongside the four parts. It explains what each technical step inherits from the previous one, what the main equations are doing in broad terms, what a non-specialist can safely leave to domain experts, and where each claim is easiest to kill. It is an intermediate bridge, not a substitute for this paper.
+
 ## Reading order — and why each part follows
 
 1. [Front matter and immediate stress tests](01_FRONT_MATTER_AND_STRESS_TESTS.md)  
@@ -79,7 +81,7 @@ If a term is unclear, the intended reading rule is:
 
 > ordinary-English question → failure being prevented → formal distinction → test or falsifier.
 
-For the full plain-language bridge, use [Reader Contact, Translation, and Failure Guide](../../READER_CONTACT_AND_FAILURE_GUIDE.md).
+For the full plain-language bridge, use [Reader Contact, Translation, and Failure Guide](../../READER_CONTACT_AND_FAILURE_GUIDE.md). For the technical handoff chain, use the [Scientific Reader Traversal Guide](../../SCIENTIFIC_READER_TRAVERSAL_GUIDE.md).
 
 ## Submission-carrier integrity
 
