@@ -32,6 +32,21 @@ general-relativistic constraints, boundary-conditioned dynamics, or
 Bell/CHSH geometry. Those native owners are part of the comparison
 burden rather than obstacles to be rhetorically bypassed.
 
+A concrete neuroscience precedent illustrates why retained history and
+hidden intrinsic state belong in that comparison burden rather than being
+claimed as MKUFT discoveries. Na/K-pump dynamics can retain activity
+history and alter later neuronal excitability even after the immediately
+visible electrical state has substantially recovered [21]. Recent work on
+dynamic Bayesian networks and multivariate Granger causality likewise
+shows that inferred neural-information-flow structure depends materially
+on model class, data type, and statistical treatment [22]. MKUFT does not
+claim either result. They provide a useful native-domain setting for the
+future-sufficiency question: when histories compressed to an apparently
+common present state later respond differently under a matched challenge,
+or when omitted intrinsic state can masquerade as relational dependence,
+the stronger relational interpretation should not be promoted until that
+hidden-state alternative has been controlled.
+
 After that subtraction, the candidate contribution is the conjunction
 of:
 
@@ -204,6 +219,10 @@ In that sense, the proposed unity is prior to dynamical unification: a common re
 **19.** McLaughlin MC. Recursive Constraint Closure and Reachable-State Geometry: An Addressed Formalism for Adaptive Systems with Changing Possibility Spaces. Zenodo. 2026. DOI: 10.5281/zenodo.21971425.
 
 **20.** McLaughlin MC. Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse. Version 0.4. Zenodo. 2026. DOI: 10.5281/zenodo.22166468.
+
+**21.** Megwa OF, Pascual LM, Gunay C, Pulver SR, Prinz AA. Temporal dynamics of Na/K pump mediated memory traces: insights from conductance-based models of Drosophila neurons. Frontiers in Neuroscience. 2023;17:1154549. DOI: 10.3389/fnins.2023.1154549.
+
+**22.** Thomas-Hegarty J, Pulver SR, Smith VA. Dynamic Bayesian networks for neural information flow: evaluation of continuous and discrete scoring metrics. Journal of Computational Neuroscience. 2026. DOI: 10.1007/s10827-026-00945-6.
 
 ## Source-provenance note
 
