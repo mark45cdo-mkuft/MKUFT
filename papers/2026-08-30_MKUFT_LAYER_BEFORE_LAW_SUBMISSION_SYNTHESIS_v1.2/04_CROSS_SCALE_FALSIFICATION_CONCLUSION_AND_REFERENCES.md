@@ -94,7 +94,7 @@ and cross-scale auditing. If the capstone cannot be instantiated
 consistently, even that architectural claim must be narrowed. If quantum
 and gravitational recovery fail, the foundational unified-field claim
 fails regardless of successes in non-foundational applications. These
-are contractions, not rescue clauses.
+are contractions, not rescue clauses. The acronym may survive such an outcome; the stronger physics claim would not.
 
 # 13. Discussion
 
@@ -147,10 +147,8 @@ matched-control traversal protocol - but none substitutes for the
 foundational burden. A successful physical branch must still recover
 established quantum and gravitational regimes and produce at least one
 robust prospective discriminator beyond the strongest existing account.
-Until then, MKUFT should be read as a relational architecture for
-physical-law selection and cross-scale dynamics - not as accepted
-physics, and not as a claim that an attractive formal pattern has
-already become a law of nature.
+
+In that sense, the proposed unity is prior to dynamical unification: a common requirement on when a description is entitled to carry a law, not evidence that disparate systems already share one new dynamical law. Until a foundational branch clears the stated recovery and discrimination burdens, MKUFT should therefore be read as a relational architecture for physical-law selection and cross-scale dynamics - not as accepted physics, and not as a claim that an attractive formal pattern has already become a law of nature.
 
 # Declarations
 
