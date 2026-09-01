@@ -269,9 +269,22 @@ Read: [LUCY Threshold Geometry and Relational Closure](docs/30_LUCY_THRESHOLD_GE
 
 **Plain object:** an AI/methods evaluation branch asking whether typed relational architecture itself carries measurable long-horizon reasoning load under matched controls.
 
-**Closest established neighbours:** ablation studies, memory/retrieval evaluation, agent architectures, graph/relational representations, longitudinal benchmarking, matched-control experimental design and model comparison.
+**Object boundary:** ATLD is not the host AI model and the structured relational architecture is not, by default, a new neural-network model. Keep four objects distinct:
 
-**Already owned by established science:** none of those evaluation families is new merely because ATLD combines them.
+```text
+host AI model
+≠ structured relational architecture around its operation
+≠ ATLD evaluation protocol
+≠ observed output / performance
+```
+
+The **host AI model** is the underlying model on which a test is instantiated; its family, version and relevant settings belong to the experimental platform. The **structured relational architecture** is the organised dependency, traversal, retained-history, addressing and return structure whose functional contribution is being tested. **ATLD** is the matched-control/deformation protocol used to test whether specified architectural relations carry load. **Observed performance** is an outcome under a declared condition and does not establish architectural value unless the controls earn that interpretation.
+
+**Closest established neighbours:** ablation studies, memory/retrieval evaluation, agent architectures, cognitive architectures, scaffolding, orchestration, external-memory systems, graph/relational representations, reasoning frameworks, longitudinal benchmarking, matched-control experimental design and model comparison.
+
+**Terminology boundary:** MKUFT makes no claim that the implementation category represented by the structured relational architecture lacks an established name. Several existing terms may overlap with parts of it. Whether one existing term fully captures the exact composition is a prior-art and terminology question; the absence of a single agreed label would not itself establish novelty.
+
+**Already owned by established science:** none of those architecture/evaluation families is new merely because ATLD combines them, and use of a host foundation model does not make ATLD a new foundation-model architecture.
 
 **MKUFT residual claim:** use a structured set of typed relationship/readout coordinates plus matched deformation controls to ask not merely whether output is good, but which relational function changes when the architecture is removed, scrambled, replayed or substituted.
 
