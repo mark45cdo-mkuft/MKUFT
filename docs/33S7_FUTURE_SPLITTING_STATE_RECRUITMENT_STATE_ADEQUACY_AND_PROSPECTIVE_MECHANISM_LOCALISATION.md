@@ -214,6 +214,60 @@ This does not prove the representation is universally complete. It says the curr
 
 > **Do not ask only whether the systems split. Ask whether the state, the poke, the boundary and the allowed uncertainty were equivalent enough that the split has somewhere legitimate to land. Then use both the surviving residual and the eliminated alternatives as data.**
 
+## 4B. Observer/registration closure through SIPO
+
+The FSSR test is not complete until the **registration address** is carried with the state, challenge and boundary. A future can only be said to split relative to a declared target and a declared family of measurements or records capable of resolving that target.
+
+In MKUFT, `O` is used conservatively here as the observer/registration position: the operational readout, record or measurement context through which a physical continuation becomes available to the analysis. This does **not** mean that a conscious observer is assumed to create the split. Where measurement has physical back-action, that interaction belongs to the P-layer instrument; where it is effectively passive for the target, the relevant P-state is unchanged to the declared tolerance.
+
+Module 31 states the observability condition explicitly. If two physical states `x,x'` are indistinguishable under the declared admissible readout family,
+
+```math
+x\sim_O x'
+\quad\Longleftrightarrow\quad
+\mathcal R_{O,q}(x)=\mathcal R_{O,q}(x')
+\quad\forall q\in\mathcal Q_O^{\mathrm{adm}},
+```
+
+then the experiment has not yet resolved a distinction at that O-address. For stochastic or noisy measurements, the corresponding output distributions and preregistered tolerance control.
+
+The target-relative condition is stronger than simply seeing different raw records. A difference matters to FSSR only when unresolved states inside one O-equivalence class still separate the declared future target beyond tolerance. If the target factors through the O-resolved quotient, distinctions hidden below that readout are irrelevant to the declared target and do not force reopening.
+
+This closes FSSR back into the [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md). SIPO already types the cycle as
+
+```text
+current addressed S/I/P/O state + context/history
+→ typed admissibility descriptor
+→ assemble active P-law object
+→ propagate physically
+→ P→(P,O) instrument produces the realised physical state and registration record
+→ realised path + record + context readdress the next state
+→ repeat
+```
+
+FSSR occupies a controlled test inside that cycle:
+
+```text
+candidate addressed state
+→ choose a lawful separating challenge
+→ propagate under the declared P-law and boundary
+→ register the continuation through a declared P→(P,O) instrument/readout
+→ compare target-relevant future distributions
+→ split beyond tolerance OR no material split
+→ use controls/negative space to localise the result
+→ recruit the smallest typed distinction if required, otherwise preserve
+→ Readdress updates state/history/context for the next SIPO cycle
+```
+
+The observer therefore has two disciplined roles in this assay:
+
+1. **resolution:** it specifies what can actually be distinguished by the declared measurement family;
+2. **return:** the registered outcome becomes part of the evidence/history used by `Readdress` to decide whether the next addressed state should preserve its current compression or recruit an additional distinction.
+
+No stronger observer-dependent physical mechanism is inherited from this bookkeeping. An independent O-linked physical effect would require its own measurable carrier, baseline and falsifier.
+
+> **FSSR is not only state → poke → future. The complete loop is addressed state + addressed challenge + boundary + physical propagation + addressed registration → target-relative split or closure → negative-space localisation → preserve or minimally readdress → next SIPO law object.**
+
 ## 5. Independent-continuation gate
 
 The model whose state is being tested may not certify its own state adequacy.
@@ -416,20 +470,40 @@ A stronger I→P interpretation would require additional evidence beyond the pre
 
 ## 12. Recursive closure into MKUFT
 
-FSSR closes back into the parent architecture as
+FSSR closes both **downstream into an experiment** and **upstream back into the addressed SIPO state**. The experiment is not the end of the architecture; its registered result is one input to the next law-selection cycle.
+
+The full return is:
 
 ```text
-Address
-→ admissible future family
-→ challenge against current state equivalence
-→ realised physical continuation
-→ future split or closure
-→ typed recruitment if required
-→ readdressing
-→ new admissible future family.
+addressed S/I/P/O state + history/context
+→ admissible future/challenge family
+→ choose a lawful separating challenge
+→ active P-law + boundary generate a physical continuation
+→ declared P→(P,O) instrument/readout registers that continuation
+→ target-relative future split or closure is assessed at the declared O-resolution
+→ control failures and eliminated alternatives provide negative-space localisation
+→ if required, recruit the smallest typed state/history/boundary distinction that restores held-out closure
+→ if no material split survives, preserve the simpler address provisionally
+→ Readdress incorporates realised path, O-record, context and retained history
+→ next effective possibility/admissibility state
+→ next SIPO law object.
 ```
 
-This makes FSSR a downstream experimental specialisation of 33S4–33S6, not a competing architecture.
+This means FSSR is neither merely a downstream methods paper nor an observer claim. It is an experimental specialisation of the same Layer-Before-Law recursion: the current address determines which law/challenge is meaningful, physical propagation generates the continuation, the declared registration surface determines what distinction is actually observable, and the result returns upstream to test whether the address used to choose the law was sufficient.
+
+The loop is therefore bidirectional in scientific use:
+
+```text
+ADDRESS → LAW → FUTURE → REGISTRATION
+                       ↓
+              SPLIT / NO SPLIT
+                       ↓
+READDRESS ← NEGATIVE-SPACE / CONTROL AUDIT
+```
+
+A split can force a finer address; a clean non-split can preserve the current compression. Neither outcome upgrades the whole framework by itself.
+
+This makes FSSR a downstream experimental specialisation of 33S4–33S6 **and** an upstream diagnostic return into SIPO, not a competing architecture.
 
 ## 13. Public routes
 
@@ -441,4 +515,4 @@ This makes FSSR a downstream experimental specialisation of 33S4–33S6, not a c
 
 ## 14. Standing invariant
 
-> **Do not ask only whether a model predicts well. Ask whether histories it calls the same can be made to behave differently under a lawful future. If they can, the state has failed. Before locating that failure in the state, address the challenge, boundary and uncertainty closely enough to rule out cheaper explanations. Use both the surviving split and the alternatives eliminated by controls as data. Repair the residual with the smallest physically typed information, prove the repair by deformation, and test whether nature demanded that information before the transition announced itself. If a strong separating challenge produces no material split, preserve the simpler state provisionally at that declared scope.**
+> **Do not ask only whether a model predicts well. Ask whether histories it calls the same can be made to behave differently under a lawful future. Address the state, challenge, boundary, registration surface and allowed uncertainty at the resolution the target requires. If a future split survives those controls beyond tolerance, use the eliminated alternatives as negative-space information, recruit the smallest physically typed distinction that restores held-out closure, and return that registered result through SIPO readdressing before assembling the next law object. If a strong separating challenge produces no material split, preserve the simpler state provisionally at that declared scope. Observer/registration determines what distinction is actually available to the analysis; it does not by itself supply a new physical mechanism.**
