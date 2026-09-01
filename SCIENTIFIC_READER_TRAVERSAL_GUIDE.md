@@ -38,6 +38,7 @@ Layer Before Law
 → timing/history as state when needed
 → admissible and restorative futures
 → future-splitting assay
+→ observer/registration return into readdressing
 → hostile controls, prior-art subtraction and falsification
 ```
 
@@ -161,6 +162,19 @@ addressed state
 ```
 
 This is a logical decomposition, not a claim that nature executes a software pipeline.
+
+The return is important. The measurement/registration stage does not merely end the calculation. The realised physical path and registration record become part of the state/history/context used to construct the next address. In the conservative SIPO reading, the loop is therefore:
+
+```text
+address
+→ active law
+→ physical continuation
+→ registration
+→ readdress
+→ next active law
+```
+
+`O` here is the observer/registration position: the declared readout, record or measurement context through which the continuation becomes available to the analysis. It does not by itself imply observer-caused physics. Any physical measurement back-action belongs to the P-layer instrument and must be modelled there.
 
 ### Kill point
 
@@ -349,6 +363,24 @@ Only after a residual split survives those cheaper explanations do you add the *
 
 The reciprocal outcome matters just as much. If a strong separating challenge produces **no material split beyond the declared uncertainty and tolerance**, the current representation survives that attack. That does not prove universal completeness, but it removes the recruitment burden from that test and supports provisional preservation of the simpler state for the declared target, regime and challenge family.
 
+The result also has to be **observable at the declared registration address**. A raw physical difference is not automatically an FSSR result if the measurement family cannot resolve the target-relevant distinction. Conversely, two detailed physical states may remain unresolved by the instrument while still being equivalent for the target; that hidden difference does not force reopening merely because it exists.
+
+In SIPO terms, the test therefore runs:
+
+```text
+addressed state + context/history
+→ choose lawful separating challenge
+→ propagate physically under the active P-law and boundary
+→ register through a declared P→(P,O) instrument/readout
+→ compare target-relevant future distributions at the declared resolution
+→ split beyond tolerance OR no material split
+→ use controls and negative space to localise the result
+→ minimally readdress if required, otherwise preserve
+→ feed realised path + O-record + context/history into the next SIPO address
+```
+
+This is the upstream return that closes the assay. The current address helps determine which law and challenge are meaningful; the registered future then tests whether that address was sufficient.
+
 So the assay is bidirectional:
 
 ```text
@@ -372,19 +404,21 @@ A clean version is:
 - deliberately create different recent state histories where history is the candidate hidden distinction;
 - define and match the challenge itself at the load-bearing coordinates;
 - hold the relevant boundary/environment and measurement conditions fixed as far as the experiment permits;
+- declare what the readout can resolve and the expected measurement/stochastic tolerance;
 - fit the strongest ordinary present-state and stochastic model;
 - state the expected future distribution before looking;
 - test whether the histories produce different future behaviour beyond tolerance;
 - use matching, challenge, environment, uncertainty and probe-induction controls to shrink the explanation space;
 - if a structured residual remains, add the smallest biologically justified history/state variable;
 - ask whether a previously inferred causal edge, connectivity relation or unexplained divergence disappears and held-out prediction improves;
-- if no material split survives, preserve the simpler state rather than adding complexity by taste.
+- if no material split survives, preserve the simpler state rather than adding complexity by taste;
+- fold the registered result back into the next state description before the next prediction.
 
 If the variable adds nothing, the state-recruitment claim earns nothing in that system.
 
 ### Kill point
 
-If the split disappears under better ordinary measurement, tighter state or challenge matching, stronger baseline modelling, noise/stochastic control, environment control, probe-induction control or conventional hidden-state estimation, the stronger mechanism-localisation language is not earned.
+If the split disappears under better ordinary measurement, tighter state or challenge matching, stronger baseline modelling, noise/stochastic control, environment control, probe-induction control or conventional hidden-state estimation, the stronger mechanism-localisation language is not earned. If the declared readout cannot resolve the target-relevant distinction, the experiment has not yet established the required split at that O-address.
 
 ### Why the next step follows
 
@@ -442,7 +476,8 @@ You should be able to state the chain in ordinary language:
 7. add timing or history only when it improves prospective prediction;
 8. treat recovery as an actual reachable route, not an assumption;
 9. deliberately challenge supposedly equivalent states, address the challenge and boundary as carefully as the state, and use both divergence and non-divergence plus eliminated alternatives to decide whether to reopen or preserve;
-10. compare every claimed gain against strong ordinary baselines, prior art and explicit failure conditions.
+10. make sure the declared measurement/registration surface can actually resolve the target-relevant distinction, then return the registered result into the next addressed state;
+11. compare every claimed gain against strong ordinary baselines, prior art and explicit failure conditions.
 
 If the reader can carry that much, the technical modules have a coherent spine even when individual derivations require domain expertise.
 
@@ -476,6 +511,7 @@ The scientific route should satisfy all of the following:
 - each handoff states why the next module follows;
 - each major claim exposes an early kill point;
 - nulls, ordinary explanations and prior art remain visible;
+- observer/registration language states what the readout resolves without smuggling in observer-caused physics;
 - no module gets to survive merely because the vocabulary is difficult to attack.
 
 That is the intended carrier for sober scientific understanding and availability.
