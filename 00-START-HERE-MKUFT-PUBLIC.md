@@ -28,6 +28,8 @@ The measurement/readout is part of that test because it has to be able to resolv
 
 **Scientific reader following the technical chain:** [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). This is the intermediate bridge between the readable entry and the hard modules. It carries forward what the previous step established, explains what the next equations are trying to say, states what can be skipped by a non-specialist, and exposes an early kill point before linking onward.
 
+**Physics, biology/neuroscience, or AI/software professional asking what the shared words mean in their own field:** use the [Professional Domain Instantiation Guide](PROFESSIONAL_DOMAIN_INSTANTIATION_GUIDE.md) before treating terms such as `state`, `dependency`, `scale`, `reopen`, `restore`, or `target` as scientific objects. The shared words are role names only until they are replaced by domain-native variables, maps, interventions, measurements, baselines and nulls. This guide is a reader bridge; it adds no new theory or evidential claim.
+
 **Researcher looking for papers:** [Papers and Publications](papers/README.md). This separates frozen DOI-bearing publications from live modules and repository synthesis documents.
 
 **Researcher looking for the full technical dependency structure:** [Canon Map](CANON_MAP.md). Use this after the scientific traversal guide if you want the complete owner/dependency graph rather than the main human reading path.
