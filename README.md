@@ -18,6 +18,7 @@ This `README.md` is the **repository front door**. It is not a third competing o
 
 - **Want the idea in ordinary English first?** Start with [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md).
 - **Want the scientific chain explained without flattening the equations?** Use the [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). It is the bridge from readable explanation into the hard scientific modules.
+- **Want to check whether an MKUFT term is genuinely distinct or simply familiar science under another handle?** Use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). It is an optional cross-check, not another required reading stage.
 - **Already know the architecture and want the technical dependency map?** Go directly to the [Canon Map](CANON_MAP.md).
 
 You do **not** need to read this README, the Public Overview, and the Scientific Reader Traversal Guide as three versions of the same document. Their jobs are different:
