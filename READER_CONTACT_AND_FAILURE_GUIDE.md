@@ -14,13 +14,13 @@ A reader should be able to answer five questions.
 Before choosing a law, identify the object, scale, boundary, evidence position, admissible states, and lawful transitions. MKUFT calls this Layer Before Law.
 
 **What is new enough to inspect?**  
-Not a finished new law of nature. The current candidate novelty is the typed synthesis: address first, property-specific law descent, reopen when sufficiency fails, future-sufficient state testing, preserve-or-reopen reuse, and explicit strongest-fair-null / falsification discipline.
+Not a finished new law of nature. The present candidate contribution is a disciplined way to ask a sequence of harder questions: have we described the right object; is the higher-level description actually sufficient for the property we want to predict; do two apparently similar present states hide different futures; can the system still recover after perturbation; and does a proposed relation survive strong ordinary and prior-art controls? The technical names for those steps come later in this guide, after the questions they answer.
 
 **What is ordinary or already known?**  
 Many mathematical ingredients have strong prior art: coarse-graining, quotienting, lumpability, closure, reachability, dynamical systems, state sufficiency, Bell/CHSH mathematics, and control ideas. MKUFT does not claim those ingredients as inventions.
 
 **What would make the work fail?**  
-If the extra address structure adds no predictive, explanatory, interventional, or model-selection value; if cross-layer couplings have no carriers; if higher-level laws do not actually descend; if ordinary models perform equally well; or if physics-facing burdens such as Bell compatibility, no-signalling, dimensional consistency, standard-limit recovery, and conservation fail.
+If the extra address structure adds no predictive, explanatory, interventional, or model-selection value; if cross-layer couplings have no carriers; if higher-level laws do not actually close at the claimed level; if ordinary models perform equally well; or if physics-facing burdens such as Bell compatibility, no-signalling, dimensional consistency, standard-limit recovery, and conservation fail.
 
 **Where is the quickest technical attack?**  
 Use [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md), [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), and the [current v1.2 synthesis](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md). A good critique should identify one load-bearing proposition and try to kill it.
@@ -47,7 +47,7 @@ Bad:
 
 Better:
 
-> “A higher-level description may be real but still fail to predict the property we care about. When that happens, lower-level information has to come back into the model. MKUFT calls that failure of property-specific law descent and the correction readdressing.”
+> “A higher-level description can be useful and well-defined yet still fail to predict the property we care about. When that happens, lower-level information has to come back into the model. MKUFT calls the first issue failure of property-specific law descent and the correction readdressing.”
 
 The second version is not less precise. It gives the precision a handle.
 
@@ -129,7 +129,7 @@ A live repository, a frozen DOI paper, a module, a submission synthesis, and a P
 
 ### Relational Closure and Law Descent
 
-**Question:** does the higher-order whole merely exist, or is its state actually sufficient to predict the property we care about?
+**Question:** does the higher-order organisation merely give us a useful object, or is its state actually sufficient to predict the property we care about?
 
 **Failure prevented:** confusing functional organisation with universal higher-level autonomy.
 
@@ -207,11 +207,13 @@ A clean result may be “this is known mathematics assembled into a useful opera
 
 ### If you work in biology or complex systems
 
-Look at the separation between functional identity, closure, property-specific law sufficiency, recoverability, and future-state adequacy.
+Here is a concrete way to attack the idea rather than reading the whole framework first.
 
-Ask whether those distinctions produce a better experiment or a better state variable in a real multiscale system.
+Take two systems whose measured present state looks the same under the model you normally use, but whose recent histories differ in a controlled way. Ask whether those two histories lead to different future behaviour. If they do, fit the strongest ordinary model using the present variables alone, then add the smallest physically defensible history or state variable that distinguishes the futures. If the extra variable removes an apparent interaction, false edge, or unexplained divergence and then predicts held-out cases, the original state description was incomplete. If it adds nothing, the MKUFT-style readdressing claim has earned nothing in that system.
 
-If they do not, the cross-domain claim is weak.
+In a neural or cellular setting, that can be made concrete with matched present activity and deliberately different prior state histories: test whether a causal or connectivity model infers a relation that disappears once the missing history/state coordinate is restored. The exact biological variable must come from the biology, not from MKUFT vocabulary.
+
+That is the practical content behind the separation between functional identity, closure, property-specific law sufficiency, recoverability, and future-state adequacy.
 
 ### If you work in AI
 
