@@ -74,7 +74,15 @@ All three can be true and still answer different questions.
 
 A heart is made of cells, but “list every cell” is not the most useful state description for predicting a heartbeat. At the same time, a high-level heartbeat variable is not automatically sufficient for every biochemical question about the heart.
 
-A biological experiment can make the same point without accepting any MKUFT terminology. Take two systems whose measured present activity is matched but whose recent histories differ. If they later behave differently, ask whether the current state description has thrown away a history variable that matters. Add the smallest biologically defensible history/state coordinate and test whether it improves held-out prediction or removes an apparent causal relation. If it does not, the extra addressing has earned nothing.
+A biological experiment can make the same point without accepting any MKUFT terminology. Take two systems whose measured present activity is matched as closely as the native field allows. Do not only address the systems: address the **challenge** and the **boundary conditions** too. A nominally identical cold shock, drug pulse, mechanical load or stimulus is not experimentally identical unless dose, timing, duration, environment, measurement burden and other load-bearing conditions are controlled tightly enough for the target question.
+
+Now apply the same declared lawful challenge to states the current model calls equivalent. Before looking at the outcome, state what “equivalent” predicts, including the ordinary stochastic spread and uncertainty already allowed by the model.
+
+If the futures split **systematically beyond that declared tolerance**, the experiment has exposed a failure of the current equivalence class. The model has merged states that are not equivalent for that future. The next job is not to announce a mysterious hidden variable: first ask whether the split came from an imperfectly matched state, a non-equivalent challenge, a boundary/environment difference, measurement error, or an already adequate stochastic model. Each successful control removes explanatory territory and is therefore useful negative-space information.
+
+If a residual split survives those controls, add the **smallest physically or biologically defensible missing distinction**—for example a history, phase, metabolic, structural or relational variable—and test it prospectively on fresh cases. If that addition predicts the split and held-out closure improves, the old state description was incomplete for that target. If it does not, reopen the candidate or reject it.
+
+The low state matters too. If the supposedly equivalent systems remain equivalent under a well-chosen separating challenge, within the declared uncertainty and tolerance, that is not “nothing happened.” It is evidence in favour of preserving the simpler state description for that target, regime and challenge family. MKUFT is therefore not a one-way machine for adding complexity: **controlled splitting pressures the model to reopen; controlled non-splitting can earn provisional preservation.**
 
 MKUFT separates two claims that are often fused:
 
@@ -159,9 +167,24 @@ That gives a sharper question than “is it broken yet?”:
 
 [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) provides the direct assay.
 
-Take states that the current model treats as equivalent. Apply a controlled challenge. If their futures split in a repeatable way, the current state description was not sufficient. Recruit the smallest missing variable or relation that predicts the split, then test it prospectively.
+Take states that the current model treats as equivalent. Make the state matching, challenge, boundary conditions and expected uncertainty explicit before testing. Then apply a controlled lawful challenge chosen to expose any hidden difference.
 
-The point is not to add complexity. The point is to add state only when the future proves it was missing.
+Two outcomes carry information:
+
+```text
+repeatable future split beyond declared tolerance
+→ at least one equivalence claim is too coarse
+→ first audit state matching, challenge equivalence, boundary/environment, measurement and ordinary stochastic explanations
+→ use the controls and eliminated alternatives as negative-space data
+→ recruit the smallest typed missing distinction that restores held-out prediction
+→ test prospectively
+
+no material split under a strong separating challenge
+→ the current representation survives that attack
+→ preserve the simpler state provisionally for that target, regime, challenge family and tolerance
+```
+
+The point is not to add complexity. The point is to make the model **earn either reopening or preservation**. A split does not automatically prove hidden internal state, because the challenge or boundary may have differed; a null does not prove metaphysical completeness, because it closes only the declared target and test family.
 
 ## What the Bell/CHSH result teaches
 
