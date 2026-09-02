@@ -4,7 +4,7 @@
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
 **Parent:** [33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)  
 **Layer-Before-Law parent:** [26 — Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)  
-**Status:** live public methodological extension. This note does not modify frozen DOI publications, claim a new physical law, or claim novelty for mathematical invariance/equivariance, nuisance-parameter elimination, quotient constructions, sufficient statistics, or related established methods.
+**Status:** live public methodological extension. This note does not modify frozen DOI publications, claim a new physical law, or claim novelty for mathematical invariance/equivariance, nuisance-parameter elimination, quotient constructions, sufficient statistics, experimental-design optimisation, or related established methods.
 
 ## 1. Purpose
 
@@ -110,12 +110,98 @@ A sideways result is valid only when the following are fixed before outcome insp
 
 1. the target quantity/property/decision;
 2. the nuisance-transform family `G` or an independently justified approximation to it;
-3. the candidate query/readout `Q`;
+3. the candidate query/readout `Q`, or the lawful query family `\mathcal Q` when query generation is under test;
 4. the invariance/equivariance criterion;
 5. the inversion/quotient/recovery rule where required;
-6. the failure tolerance and comparator.
+6. the failure tolerance and comparator;
+7. the measurement/search/restoration-cost accounting used to rank candidate routes.
 
 Post-hoc discovery may still generate a candidate, but it does not count as prospective confirmation of the transformation.
+
+## 5A. Advanced form: prospective interrogation design
+
+The stronger use of SIDEWAYS is not merely to recognise an invariant once somebody has supplied the right question. When a lawful query family can be declared prospectively, the **interrogation itself becomes a search object**.
+
+Let `\mathcal Q` be the admissible query/measurement family for declared target `q`. A candidate design may be ranked schematically by
+
+```math
+\boxed{
+Q^*\in\arg\min_{Q\in\mathcal Q}
+\left[
+R_q(Q)
++\lambda C_{\mathrm{query}}(Q)
++\mu C_{\mathrm{restore}}(Q)
++\nu N_G(Q)
+\right]
+}
+```
+
+subject to preservation of the target and the declared evidential/physical constraints. Here `R_q` is target residual/error, `C_query` interrogation or measurement cost, `C_restore` remaining hidden-state/restoration burden, and `N_G` surviving sensitivity to the nuisance family. The weights are not asserted to be universal constants; where scalarisation would fake precision, use a Pareto front or preregistered lexicographic ordering.
+
+The advanced comparison is therefore
+
+```text
+DOWN | UP | SIDEWAYS-GEN | NULL
+```
+
+not `SIDEWAYS always wins`.
+
+A generated query earns credit only when it is selected before reveal, survives held-out/prospective use, and beats the strongest fair native/domain method after failed query branches, search cost, measurement burden and restoration burden are counted.
+
+### Minimal calibration: common-mode offset
+
+Take
+
+```math
+y_1=x_1+b,
+\qquad
+y_2=x_2+b.
+```
+
+For target
+
+```math
+q=x_1-x_2,
+```
+
+a lawful paired query
+
+```math
+Q(y_1,y_2)=y_1-y_2
+```
+
+removes the unknown common offset `b`:
+
+```math
+Q=(x_1+b)-(x_2+b)=x_1-x_2.
+```
+
+For this target, `b` need not enter the minimum future-sufficient Address. Change the target to `q=x_1`, however, and the same quotient is insufficient; `b` becomes decision-bearing and must be restored, estimated, otherwise controlled, or the target left unresolved.
+
+This calibration makes the target relativity explicit:
+
+```text
+same nuisance + different future question
+→ nuisance unnecessary for one target
+→ nuisance load-bearing for another
+```
+
+### Generator benchmark
+
+When generator performance is claimed, compare against the strongest preregistered native design `B_q^*`. A simple bounded score is
+
+```math
+\boxed{
+G_{\mathrm{side}}(q)
+=F_q(Q^*)-F_q(B_q^*)
+}
+```
+
+where `F_q` must include the declared predictive/discriminating performance and the cost terms that matter to the task. Positive values indicate a prospective gain under the declared benchmark; zero means no demonstrated advantage; negative values mean the native comparator wins.
+
+Do not report only the successful query limb. Failed queries, target-loss candidates, repair attempts and search cost belong to generator lineage when the method is being credited for discovery.
+
+> **The advanced question is not only “what hidden state am I missing?” It is “what lawful experiment or query makes the next sufficient state smaller, cleaner, cheaper, or more discriminating?”**
 
 ## 6. Failure modes
 
@@ -145,6 +231,10 @@ Choosing `Q` after observing which transformation makes the answer look clean is
 
 If the omitted distinction changes the declared future, it is load-bearing and may not be quotiented away merely for simplicity. The correct move is `DOWN`, `UP`, or unresolved status according to the owning domain.
 
+### Search-tree laundering
+
+If many candidate interrogations fail before one works, the winning query cannot erase failed branches or search burden when generator value is claimed.
+
 ## 7. Relation to FSAI
 
 FSAI asks whether states called equivalent remain equivalent across the declared admissible future.
@@ -165,6 +255,8 @@ coordinate not needed for Q-target
 ≠ coordinate irrelevant for all futures
 ```
 
+The advanced form adds a second future-sufficiency question: not only which state must be carried, but which lawful interrogation minimises the state that must be carried for the declared future.
+
 ## 8. Relation to Layer Before Law
 
 LBLP already says:
@@ -180,7 +272,7 @@ The present refinement expands the middle step:
 ```text
 closure failure
 → test whether direct interrogation is itself poorly conditioned
-→ try lawful target-preserving sideways readdressing
+→ compare DOWN / UP / SIDEWAYS-GEN / NULL
 → if SIDEWAYS closes, do not manufacture extra state or new law
 → if SIDEWAYS fails, continue with minimum restoration / higher-address / model-law tests
 ```
@@ -191,17 +283,18 @@ This is especially useful where the scientific nuisance is known to act by a sym
 
 The structural pattern may recur in statistics, control, physics, computation, experimental design, semantics, provenance, or human systems, but the carrier must be rebuilt locally.
 
-Examples of neighbouring established ideas include invariants under group action, equivariant maps, quotient spaces, gauge-invariant observables, nuisance-parameter elimination, sufficient statistics, paired/differential measurements, and representation-independent observables.
+Examples of neighbouring established ideas include invariants under group action, equivariant maps, quotient spaces, gauge-invariant observables, nuisance-parameter elimination, sufficient statistics, paired/differential measurements, experimental design and representation-independent observables.
 
-MKUFT does not claim those ideas individually. The bounded contribution of this note is their explicit placement inside the Future-Sufficient Address repair geometry:
+MKUFT does not claim those ideas individually. The bounded contribution of this note is their explicit placement inside the Future-Sufficient Address repair geometry and prospective interrogation-design burden:
 
 ```text
 restore down
 promote up
-rotate sideways
+generate/rotate sideways
+or return null
 ```
 
-with the same preserve/reopen, strongest-fair-null, prospective, and no-untyped-inheritance burdens already present in the stack.
+with the same preserve/reopen, strongest-fair-null, prospective, generator-accounting and no-untyped-inheritance burdens already present in the stack.
 
 ## 10. Falsification / contraction
 
@@ -210,8 +303,9 @@ The sideways branch contracts if:
 - matched prospective tests show no advantage over direct restoration or native methods;
 - the nuisance family cannot be declared independently enough to prevent post-hoc fitting;
 - transformed queries repeatedly lose target information;
-- ordinary domain-native sufficient statistics already own the entire useful result with no additional organisational value;
-- the three-way repair language adds cognitive overhead without changing prediction, intervention, restoration cost, or scientific discrimination.
+- ordinary domain-native sufficient statistics or experimental-design methods already own the entire useful result with no additional organisational value;
+- search overhead exceeds the measurement/restoration gain;
+- the three-way repair language adds cognitive overhead without changing prediction, intervention, restoration cost, experimental design, or scientific discrimination.
 
 In those cases the useful content should be absorbed into the native owner and the MKUFT-specific claim reduced accordingly.
 
@@ -228,13 +322,14 @@ restore the minimum missing distinction
 UP:
 promote an earned sufficient effective object
 
-SIDEWAYS:
-construct a target-preserving invariant/equivariant query
-that makes the nuisance distinction unnecessary or predictably invertible
+SIDEWAYS-GEN:
+search a lawful query family for a target-preserving invariant/equivariant
+interrogation that makes the nuisance distinction unnecessary or predictably invertible
 
 THEN:
 score against the strongest native comparator
+count failed search branches + measurement/restoration/search cost
 preserve reopening for any wider future that needs the omitted distinction
 ```
 
-> **Sometimes the scientific gain is not learning the hidden variable. It is proving that the right question does not need it.**
+> **Sometimes the scientific gain is not learning the hidden variable. It is prospectively designing and validating a better question that proves the declared target does not need it.**
