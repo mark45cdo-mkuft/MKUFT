@@ -42,6 +42,26 @@ When an exact later Zenodo deposit is created, its DOI and deposited-carrier ide
 
 ## Published DOI papers
 
+### Typed Decomposition-Reconstruction
+
+*A Prospective Generator Test for Hidden Scientific Conflations*
+
+**Version:** 1.0 — 2 September 2026  
+**Version DOI:** [10.5281/zenodo.22258000](https://doi.org/10.5281/zenodo.22258000)  
+**Concept DOI:** [10.5281/zenodo.22257999](https://doi.org/10.5281/zenodo.22257999)  
+**Parent lineage:** [MKUFT concept DOI 10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565) — relation `is derived from`  
+**Licence:** CC BY 4.0
+
+- [Paper route](2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md)
+- [Standalone publication record](../TDR_STANDALONE_PUBLICATION.md)
+- [Frozen identity/checksum record](../publications/TDR_v1.0/README.md)
+- [Prepublication calibration and visual-QA provenance](../publications/TDR_v1.0/PREPUBLICATION_CALIBRATION_REVISION.md)
+- [Live methodological owner — Module 29B](../docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md)
+- [Parent generator accountability — Module 29A](../docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md)
+- [Zenodo v1.0](https://doi.org/10.5281/zenodo.22258000)
+
+The paper freezes TDR as a citable methods object. It includes the ATLD 2 positive diagnostic/no-coordinate-inflation calibration and the Bell productive physical-null calibration, while keeping the prospective performance claim open: publication does **not** establish that `G_gen > 0`.
+
 ### Cross-Domain Compositional Schema
 
 *Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*
@@ -60,7 +80,7 @@ When an exact later Zenodo deposit is created, its DOI and deposited-carrier ide
 - [Bell/CHSH calibration and tetrahedral formalisation — Module 28A](../docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md)
 - [Zenodo v0.4](https://doi.org/10.5281/zenodo.22166468)
 
-Version 0.4 preserves the v0.3 dimensional obstruction and closes the tetrahedral branch at an exact facet-plus-transverse-coordinate chart on native CHSH geometry. The natural four-volume reduces to known CHSH excess; the independent physical residual remains **NULL**. Versions 0.3 and 0.2 remain historical frozen objects rather than current routes.
+Version 0.4 preserves the v0.3 dimensional obstruction and closes the tetrahedral branch at an exact facet-plus-transverse-coordinate chart on native CHSH geometry. The natural four-volume reduces to known CHSH excess; the independent physical residual remains **NULL**. Versions 0.3 and v0.2 remain historical frozen objects rather than current routes.
 
 ### Bell Constraints as Typed Boundaries
 
