@@ -50,6 +50,8 @@ The principal DOI-bearing MKUFT publication remains v2: [10.5281/zenodo.21973064
 
 The **Cross-Domain Compositional Schema v0.4** has version DOI `10.5281/zenodo.22166468` and concept DOI `10.5281/zenodo.22164561`. Its Bell/CHSH calibration returned a **NULL independent new-physics residual**: the exact geometric chart reduced to known CHSH structure. That null is retained as part of the scientific record rather than rewritten as a success claim.
 
+For publication-family identity and navigation, **ATLD 2 v2.0** is DOI `10.5281/zenodo.22068803` with [paper route](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md), [Module 25B measurement fold](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md), and [Module 25C residual-instrument continuation](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md). Its **Chain-Address Invariants v1.0** companion is DOI `10.5281/zenodo.22102379` with [paper route](papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md), [publication record](CHAIN_ADDRESS_STANDALONE_PUBLICATION.md), and [Module 25D live continuation](docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md). These are identity routes, not a promotion of either branch into foundational physics.
+
 ## Fast scientific boundary
 
 MKUFT has not independently derived quantum mechanics, QFT, general relativity, or quantum gravity.
