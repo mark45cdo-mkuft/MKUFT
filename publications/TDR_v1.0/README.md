@@ -8,7 +8,7 @@
 **Parent lineage:** MKUFT concept DOI `10.5281/zenodo.17780565`  
 **Status:** exact PDF prepared for Zenodo publication; DOI registration pending publication of the draft record
 
-## Exact carrier
+## Exact prepared carrier
 
 - Filename: `Typed_Decomposition_Reconstruction_v1.0_2026-09-02.pdf`
 - Pages: 17
@@ -18,6 +18,8 @@
 
 ## Custody rule
 
-The PDF in this directory is the prepared frozen carrier for the reserved DOI. If Zenodo receives this exact byte-identical file, these hashes become the repository-side identity witness for the deposited v1.0 object. If the PDF changes before publication, reserve the same DOI but regenerate and update the hashes before publishing.
+The hashes above identify the external PDF prepared for the reserved Zenodo DOI. The connected GitHub writer used for this release records the source and checksum witness but does not accept the local binary PDF carrier directly. If Zenodo receives this exact byte-identical PDF, these hashes become the repository-side identity witness for the deposited v1.0 object.
 
-After Zenodo publication, verify the deployed file and only then change the publication record from `reserved` to `published`.
+If the PDF changes before publication, regenerate and update the hashes before publishing. A later repository PDF mirror, if added, must either match the deposited object byte-for-byte or be identified explicitly as a distinct convenience carrier.
+
+After Zenodo publication, verify the deposited object and only then change the publication record from `reserved` to `published`.
