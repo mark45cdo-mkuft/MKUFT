@@ -91,7 +91,7 @@ The important point is not that an AI can produce impressive prose. The test is 
 
 ATLD 2 also reports a bounded 15-case exploratory execution pilot. That pilot demonstrates use of the scoring and diagnostic surface; it does **not** establish confirmatory superiority of the structured condition or validate the five candidate residual coordinates.
 
-See [ATLD 2 v2.0](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md) and the [ATLD publication-family record](ATLD_STANDALONE_PUBLICATION.md).
+See [ATLD 2 v2.0](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md), the [ATLD publication-family record](ATLD_STANDALONE_PUBLICATION.md), and the live [Module 25B measurement/self-audit fold](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md).
 
 ### Control, engineering, and adaptive systems
 
