@@ -15,7 +15,7 @@
 **AAF publication:** DOI `10.5281/zenodo.22031333`  
 **FSSR publication:** DOI `10.5281/zenodo.22058303`  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
-**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated through the published Cross-Domain Compositional Schema v0.4 and the later live sideways-interrogation extension. It does not retroactively alter a frozen publication, treat the v0.4 Bell chart as a universal ontology, or promote an invertible representation into a physical mechanism.
+**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated through the published Cross-Domain Compositional Schema v0.4 and the later live sideways-interrogation/query-design extension. It does not retroactively alter a frozen publication, treat the v0.4 Bell chart as a universal ontology, or promote an invertible representation into a physical mechanism.
 
 ## 1. Purpose
 
@@ -29,7 +29,7 @@ The 29 August 2026 compositional-interface fold adds a bounded consequence of th
 
 The published v0.3 formalisation sharpens that fold without creating a second controller. It makes evaluation state/value/restoration burden explicit, treats exact relation ablation as protocol-relative and potentially partial, and keeps the load-bearing verdict unknown when a lawful exact ablation is unavailable or prospectively allowed ablation protocols disagree. Those refinements belong here because they determine whether an interface is actually future-sufficient; native deformation, completion, and domain-specific physics remain owned by their existing modules.
 
-The later 33S7B live extension adds one further bounded repair option: some direct address failures can be resolved not by retaining more state but by changing the interrogation so a declared nuisance distinction becomes invariant, quotientable, or predictably invertible for the target. This is a representation/interrogation repair inside FSAI, not a physical-law claim and not a claim of novelty for invariance/equivariance mathematics.
+The later 33S7B live extension adds one further bounded repair option: some direct address failures can be resolved not by retaining more state but by changing the interrogation so a declared nuisance distinction becomes invariant, quotientable, or predictably invertible for the target. Its advanced form treats the lawful query/measurement family itself as a prospective search object and asks whether a generated interrogation can preserve the target while reducing nuisance sensitivity, measurement burden, restoration burden, or downstream state complexity relative to the strongest fair native method. This is a representation/interrogation repair inside FSAI, not a physical-law claim and not a claim of novelty for invariance/equivariance or experimental-design mathematics.
 
 The scientific content precedes the names. The names and folds make the already-existing relations unambiguous, citable and traversable.
 
@@ -284,9 +284,9 @@ FSAI therefore does **not** mean “keep adding state variables”. It points to
 
 For a compositional interface, the same logic extends from one coordinate `c` to the smallest dependency-complete restorative set `D^*` needed for the widened future-operation family. The minimum is operation-, address-, environment-, representation-, and comparator-relative; it is not assumed to be unique or easy to compute.
 
-### 3A. Sideways sufficiency: make a nuisance distinction unnecessary
+### 3A. Sideways sufficiency and prospective interrogation design
 
-Minimum sufficiency does not require every unresolved coordinate to be explicitly restored. The direct representation may be the problem.
+Minimum sufficiency does not require every unresolved coordinate to be explicitly restored. The direct representation or interrogation may be the problem.
 
 Let `g∈G` be a declared nuisance transform and `Q` a target-preserving transformed query/readout. A sideways repair is admissible when, prospectively, either
 
@@ -302,14 +302,31 @@ Q(g\cdot x)=h_g(Q(x))
 
 with the induced action `h_g` known/invertible enough to recover the declared target. In that transformed future-use family, the nuisance coordinate need not remain in the minimum Address **if removing it no longer permits a target-relevant future split**.
 
-This gives a three-way repair geometry:
+When several lawful interrogations are available, the advanced form asks whether the interrogation itself can be generated prospectively. For an admissible family `\mathcal Q`, a schematic design objective is
+
+```math
+Q^*\in\arg\min_{Q\in\mathcal Q}
+\left[
+R_q(Q)
++\lambda_Q C_{\mathrm{query}}(Q)
++\mu_Q C_{\mathrm{restore}}(Q)
++\nu_Q N_G(Q)
+\right],
+```
+
+subject to target preservation and the declared physical/evidential constraints. The coefficients are bookkeeping choices, not universal constants; Pareto or lexicographic comparison is preferable where scalarisation would fake precision.
+
+This gives a four-way repair geometry:
 
 ```text
-DOWN     restore minimum missing detail
-UP       promote an earned target-sufficient higher object/address
-SIDEWAYS transform the interrogation so the nuisance coordinate becomes
-         invariant, quotientable, or predictably invertible
+DOWN          restore minimum missing detail
+UP            promote an earned target-sufficient higher object/address
+SIDEWAYS-GEN  generate or select a target-preserving interrogation that makes
+              the nuisance invariant, quotientable, or predictably invertible
+NULL          no tested repair earns closure
 ```
+
+The winning route is chosen by target closure, robustness, strongest-native ownership, and total query/measurement/search/restoration burden—not elegance. Failed query branches remain part of generator lineage when the method is credited for discovery.
 
 The sideways branch is owned in detail by [33S7B](33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md). It does not erase the nuisance coordinate from other tasks and does not upgrade a useful representation into new evidence or physics.
 
@@ -317,7 +334,7 @@ The sideways branch is owned in detail by [33S7B](33S7B_SIDEWAYS_INVARIANT_INTER
 
 The Layer-Before-Law methodological consequence is:
 
-> **When a declared model loses predictive closure, test whether the effective Address is incomplete before treating the residual as evidence that the governing law itself must be revised.**
+> **When a declared model loses predictive closure, test whether the effective Address or interrogation is inadequate before treating the residual as evidence that the governing law itself must be revised.**
 
 The operational order is
 
@@ -325,7 +342,8 @@ The operational order is
 closure failure
 → test state/address adequacy
 → test whether the direct interrogation itself is poorly conditioned
-→ smallest lawful typed repair: DOWN / UP / SIDEWAYS as warranted
+→ compare the smallest lawful typed routes: DOWN / UP / SIDEWAYS-GEN / NULL
+→ score against the strongest fair native method and declared costs
 → only then assess whether a law/model revision is still required.
 ```
 
@@ -334,7 +352,7 @@ A compact formal statement is
 ```math
 R_q(\Theta)>\varepsilon_q
 \Longrightarrow
-\text{test }\Theta\oplus c\text{ and lawful target-preserving readdressings}
+\text{test }\Theta\oplus c\text{ and lawful target-preserving readdressings/interrogations}
 \quad\text{before attributing the residual to }F\mapsto F'.
 ```
 
@@ -360,6 +378,8 @@ same declared state
 FSAI states the state-sufficiency commitment. LBLP states the order of scientific diagnosis. FSSR supplies the adversarial experimental procedure and prospective timing test.
 
 For compositional interfaces, a corresponding calibration freezes `F`, `C_F`, the native target semantics, the ablation, and the comparator before the target decision is revealed. The test asks whether the same preserve/refine/reopen/refuse logic survives without post-hoc role invention. [Module 28A](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) supplies the Bell/CHSH hostile calibration of this form. Its executed Phase-0 result is now also reported in the published Cross-Domain Compositional Schema v0.4; Module 28A remains the detailed Bell/tetrahedral calibration and reproducibility owner.
+
+The 33S7B extension adds an active-design variant of the same future-splitting spirit: when the admissible challenge/query family is itself a design choice, candidate interrogations may be generated prospectively to maximise target discrimination or reduce required state, then scored against the strongest native experimental-design baseline. This does not replace FSSR or grant a new mechanism; it specifies another way of choosing a lawful future that attacks or simplifies the state claim.
 
 ## 5A. Closure, reopening, and operational certainty
 
@@ -405,8 +425,8 @@ The bounded claim here is narrower:
 2. **FSAI** is the canonical name assigned to that cross-domain formal criterion;
 3. **LBLP** is the canonical name assigned to its Layer-Before-Law methodological precedence consequence;
 4. the published 29 August 2026 Cross-Domain Compositional Schema v0.3 makes explicit the reuse corollary `closed object → future-sufficient interface → preserve or guaranteed targeted reopen`, together with typed partial instantiation/refusal, restoration-signature-aware evaluation, protocol-relative exact relation ablation, and cardinality-neutral geometry;
-5. the later live 33S7B extension places target-preserving invariant/equivariant interrogation inside the same minimum-sufficiency repair family as a `SIDEWAYS` option alongside restorative `DOWN` and effective-object `UP` moves;
-6. the reported cross-domain result remains a bounded architectural/translational result, not a new algebra, theorem, privileged geometry, physical mechanism, or demonstrated universal cross-domain superiority;
+5. the later live 33S7B extension places target-preserving invariant/equivariant interrogation inside the same minimum-sufficiency repair family and advances it, where prospectively testable, into a query/measurement-design search over `SIDEWAYS-GEN` candidates compared against `DOWN`, `UP`, `NULL`, and the strongest native method;
+6. the reported cross-domain result remains a bounded architectural/translational result, not a new algebra, theorem, privileged geometry, physical mechanism, experimental-design theory, or demonstrated universal cross-domain superiority;
 7. none of these relations upgrades the construction to an experimentally confirmed universal law.
 
 Any stronger law-of-nature or superiority claim requires prospective quantitative success, appropriate ordinary baselines, independent replication and the promotion gates already present in the public canon.
@@ -424,7 +444,7 @@ The relevant scientific ancestry is not created by this note:
 → 33S7 / FSSR — adversarial future splitting, minimal typed recruitment and prospective mechanism timing
 → 25D — provenance-bearing chain address, compressed invariant and typed return
 → 33S7A — canonical naming of FSAI/LBLP plus scoped closure/reopening
-→ 33S7B — sideways invariant/equivariant interrogation as a target-relative minimum-sufficiency repair
+→ 33S7B — sideways invariant/equivariant interrogation and prospective query design as target-relative minimum-sufficiency repair
 → Cross-Domain Compositional Schema v0.2 — bounded preserve-or-reopen interface composition, typed partial instantiation/refusal, and minimal restorative descent at baseline parity
 → Cross-Domain Compositional Schema v0.3/v0.4 — formalised evaluation/ablation/reopening contract plus executed Bell/CHSH hostile calibration and exact tetrahedral-chart closure/null.
 ```
@@ -438,14 +458,15 @@ The named objects contract rather than expand if their burden is not met.
 - If same-state histories do not split under adequate admissible challenges, the tested Address remains sufficient for that declaration.
 - If an ordinary stronger state model closes the residual without a distinct recruitment object, no extra FSSR mechanism-localisation load is earned.
 - If a proposed typed repair does not survive held-out removal/restoration, it is not credited as load-bearing recruitment.
-- If a sideways query closes only by erasing the target, choosing the transform after reveal, or ignoring a nuisance asymmetry, the sideways repair fails.
+- If a sideways query closes only by erasing the target, choosing the transform after reveal, ignoring a nuisance asymmetry, or laundering a long failed search tree into one successful limb, the sideways repair fails.
+- If a generated interrogation does not beat the strongest fair native method after query/search/measurement/restoration burden is counted, no independent generator advantage is established.
 - If adequate readdressing cannot close the residual, LBLP does not forbid law/model revision.
 - If a supposedly closed interface needs a lower distinction that it neither preserved nor guaranteed to restore before use, its compositional sufficiency fails.
 - If exact relation ablation is not lawfully defined, or prospectively allowed ablation protocols disagree, the load-bearing state remains unresolved rather than being forced to `0` or `1`.
 - If cross-domain success requires inventing a target analogue for a field that is genuinely absent, the partial-instantiation/refusal claim fails.
 - If the same structural decision does not survive independently justified changes of arity or ordinary representation, no cardinality-neutral invariant has been established.
 - If a triangle/tetrahedron/simplex produces no discriminator, compression gain, restoration gain, or other named result beyond a matched ordinary carrier, it remains an illustrative chart.
-- Cross-domain use fails if “state failure”, “Address”, “admissible future”, “repair”, “recruitment”, “dependency”, “reopen”, or the nuisance family/query are redefined after seeing each domain’s outcome.
+- Cross-domain use fails if “state failure”, “Address”, “admissible future”, “repair”, “recruitment”, “dependency”, “reopen”, or the nuisance/query family are redefined after seeing each domain’s outcome.
 - Closure language fails if charge, confidence, target closure, complete state resolution, and metaphysical certainty are collapsed into one undifferentiated status.
 
 ## 9. Canonical compression
@@ -458,8 +479,12 @@ Minimum-sufficiency repair:
 When a direct address fails, do not assume the only remedy is more state.
 DOWN restores the minimum missing distinction.
 UP promotes an earned target-sufficient effective object.
-SIDEWAYS changes the interrogation so a nuisance distinction becomes invariant,
-quotientable, or predictably invertible for the declared target.
+SIDEWAYS-GEN prospectively searches/selects a target-preserving interrogation that makes
+an otherwise nuisance distinction invariant, quotientable, or predictably invertible.
+NULL remains available when no tested repair earns closure.
+
+Advanced burden:
+Score the generated interrogation against the strongest native method and include failed query branches, search cost, measurement burden, restoration burden, target preservation and held-out performance. A mathematically neat invariant with no prospective advantage remains a representation result, not a new scientific mechanism.
 
 Compositional FSAI:
 A locally closed object may stand in for its lower structure in a wider composition only for the future-use family it preserves, or while it carries a guaranteed targeted route back to the smallest lower structure required before an omitted relation becomes decision-bearing.
@@ -477,7 +502,7 @@ LBLP:
 When closure fails, test and minimally repair the Address/interrogation before treating the failure as evidence for a changed governing law.
 
 FSSR:
-Choose the future that attacks the state claim, verify the split independently, identify and deform the minimum typed repair, and test when recruitment begins.
+Choose the future that attacks the state claim, verify the split independently, identify and deform the minimum typed repair, and test when recruitment begins. Where the challenge itself is designable, a lawful SIDEWAYS-GEN query may be tested as one candidate way of exposing or eliminating nuisance dependence.
 
 Closure discipline:
 Treat certainty as scoped operational closure only. Keep confidence, charge, and closure separate; when a lawful stronger future reopens the target, readdress and retest.
