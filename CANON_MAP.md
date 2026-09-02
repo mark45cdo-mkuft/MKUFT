@@ -90,23 +90,24 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 1. [ATLD Standalone Publication](ATLD_STANDALONE_PUBLICATION.md)
 2. [Active Traversal and Functional Emergence](docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
 3. [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
-4. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
+4. [External Multi-Agent Case Calibration and Relational Ablation Targets](docs/24C_EXTERNAL_MULTI_AGENT_CASE_CALIBRATION_AND_RELATIONAL_ABLATION_TARGETS.md)
+5. [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
    - [ATLD 2 Residual Coordinate Measurement and Self-Audit — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) — live successor measurement fold for residual-coordinate retention/collapse, no-smuggling, and causal-shadow control; ATLD 2 version DOI `10.5281/zenodo.22068803`.
-5. [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
-6. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
-7. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
-8. [Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
-9. [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
-10. [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
-11. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
-12. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
-13. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
-14. [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
-15. [Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)
-16. [Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
-17. [Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
-18. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
-19. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+6. [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
+7. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
+8. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
+9. [Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
+10. [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
+11. [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
+12. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
+13. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
+14. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
+15. [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
+16. [Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)
+17. [Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
+18. [Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
+19. [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
+20. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
 ## Canon groups
 
@@ -153,6 +154,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **24 — Cross-Support Map:** dependency and limiting relationships among public modules.
 - **24A — Active Traversal:** matched-control hypothesis for functional gain from typed active traversal.
 - **24B — Strongest Fair Null:** full-history replay, strong alternatives, and relationship-specificity controls.
+- **24C — External Multi-Agent Case Calibration:** applies 24A/24B to a public multi-agent incident, retains observed cross-run state transfer and coordination as positive case-level results, and converts the unresolved ownership of those gains into matched relational-ablation targets without reporting strongest-null superadditivity.
 - **25 — Load-Bearing Deformation:** controlled relation-level deformation and whole-system audit.
 - **25A — Fundamental Traversal Coherence Nodes:** provisional node-level organising-load hypothesis.
 - **31 — Context-Conditioned State Comparison:** admissible same-class deformation, measurement-relative state equivalence, target-relative ambiguity closure, support-preserving cross-implementation comparison, addressed abstraction, construction-address robustness, and representation-dependence testing.
