@@ -28,6 +28,7 @@ The stable MKUFT concept DOI remains the parent lineage. Publishing this record 
 
 - [Repository paper route](papers/2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md)
 - [Prepared-carrier identity/checksum record](publications/TDR_v1.0/README.md)
+- [Prepublication calibration and visual-QA record](publications/TDR_v1.0/PREPUBLICATION_CALIBRATION_REVISION.md)
 - [Parent methodological synthesis — Module 29B](docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md)
 - [Parent generator accountability — Module 29A](docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md)
 - [Procedural decomposition owner — Module 22A](docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
@@ -62,12 +63,12 @@ The paper also introduces **Wake** as an application-level, target-relative reta
 ## Prepared carrier identity
 
 **Filename:** `Typed_Decomposition_Reconstruction_v1.0_2026-09-02.pdf`  
-**Pages:** 19  
-**Bytes:** 123,158  
-**MD5:** `532b0e33dc733ba3150feb55435a20fa`  
-**SHA-256:** `e2b62e38a2667abedc31925450437d2eb118cf0c63b13181dd9f765939c438c1`
+**Pages:** 20  
+**Bytes:** 124,068  
+**MD5:** `ee4b4b080120ce3e7907c9756611863c`  
+**SHA-256:** `e70b4796b7a8e3184b874780f2dea9dc2869520e8d2662896e9c6da33a764c16`
 
-These hashes identify the revised PDF prepared for the reserved Zenodo DOI. After Zenodo publication, this record should be read back against the deposited carrier before the DOI state is changed from `reserved` to `published`.
+These hashes identify the final visually inspected PDF prepared for the reserved Zenodo DOI. After Zenodo publication, this record should be read back against the deposited carrier before the DOI state is changed from `reserved` to `published`.
 
 ## Zenodo metadata intent
 
