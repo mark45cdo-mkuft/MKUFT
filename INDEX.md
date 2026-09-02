@@ -79,6 +79,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 
 - [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
 - [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+- [External Multi-Agent Case Calibration and Relational Ablation Targets — Module 24C](docs/24C_EXTERNAL_MULTI_AGENT_CASE_CALIBRATION_AND_RELATIONAL_ABLATION_TARGETS.md) — retrospective external calibration of the 24A/24B variables; observed cross-run state transfer and coordination are retained as positive results while strongest-null relational superadditivity remains unestimated.
 - [Cross-Domain Compositional Schema Bell/CHSH Calibration — Module 28A](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) — executed Phase-0 hostile calibration; no new Bell inequality, independent Tsirelson derivation, or new physical mechanism.
 - [ATLD 2 Residual Coordinate Measurement and Self-Audit — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
 - [Residual Instrument Generation and Protected Discovery Boundary — Module 25C](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)
@@ -100,6 +101,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 - [Active Traversal and Functional Emergence](docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
 - [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
+- [External Multi-Agent Case Calibration and Relational Ablation Targets](docs/24C_EXTERNAL_MULTI_AGENT_CASE_CALIBRATION_AND_RELATIONAL_ABLATION_TARGETS.md)
 - [Load-Bearing Invariants and Whole-System Deformation](docs/25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
 - [Fundamental Traversal Coherence Nodes](docs/25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
 - [ATLD 2 Residual Coordinate Measurement and Self-Audit](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
