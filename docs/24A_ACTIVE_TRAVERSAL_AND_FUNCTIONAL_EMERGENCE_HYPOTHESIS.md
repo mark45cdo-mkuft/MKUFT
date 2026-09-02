@@ -134,6 +134,8 @@ H_{\mathrm{syn}}:
 
 Module [24B — Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) replaces the provisional additive baseline with a stronger fair-null construction for full testing.
 
+Module [24C — External Multi-Agent Case Calibration and Relational Ablation Targets](24C_EXTERNAL_MULTI_AGENT_CASE_CALIBRATION_AND_RELATIONAL_ABLATION_TARGETS.md) applies the 24A/24B test geometry retrospectively to a public external multi-agent incident and converts the observed variables into prospective ablation targets. It reports no value of $G_{\mathrm{syn}}^{*}$.
+
 As a simple illustration, if
 
 ```math
@@ -296,6 +298,7 @@ This document records a public timestamped MKUFT formulation of the specific com
 - [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
 - [Ambiguity Dynamics and Manoeuvre Space](21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md)
 - [Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
+- [External Multi-Agent Case Calibration and Relational Ablation Targets](24C_EXTERNAL_MULTI_AGENT_CASE_CALIBRATION_AND_RELATIONAL_ABLATION_TARGETS.md)
 - [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 - [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
