@@ -6,6 +6,7 @@
 **Address parent:** [33S4 — Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)  
 **Future-equivalence parent:** [33S6 — Addressed Admissible Futures](33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)  
 **Experimental owner:** [33S7 — Future-Splitting State Recruitment](33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)  
+**Sideways-query extension:** [33S7B — Sideways Invariant Interrogation and Nuisance-Quotient Readdressing](33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md)  
 **Ambiguity/calibration support:** [21 — Ambiguity Dynamics and Manoeuvre Space](21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md), [29 — Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)  
 **Layer-Before-Law parent:** [26 — Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)  
 **Compositional-interface publication:** *Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse*, v0.4, DOI `10.5281/zenodo.22166468`; prior v0.3 DOI `10.5281/zenodo.22166005`; earlier v0.2 DOI `10.5281/zenodo.22164562`  
@@ -14,7 +15,7 @@
 **AAF publication:** DOI `10.5281/zenodo.22031333`  
 **FSSR publication:** DOI `10.5281/zenodo.22058303`  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
-**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated through the published Cross-Domain Compositional Schema v0.4. It does not retroactively alter a frozen publication, treat the v0.4 Bell chart as a universal ontology, or promote an invertible representation into a physical mechanism.
+**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated through the published Cross-Domain Compositional Schema v0.4 and the later live sideways-interrogation extension. It does not retroactively alter a frozen publication, treat the v0.4 Bell chart as a universal ontology, or promote an invertible representation into a physical mechanism.
 
 ## 1. Purpose
 
@@ -27,6 +28,8 @@ Modules 33S4, 33S6 and 33S7 already define the operative future-sufficiency cons
 The 29 August 2026 compositional-interface fold adds a bounded consequence of the same future-sufficiency object: a locally closed object may later act as an interface/constituent in a wider composition, and its earlier closure remains valid only for the future-use family for which it was sufficient or while it carries a guaranteed targeted route back to the lower structure before an omitted relation becomes decision-bearing.
 
 The published v0.3 formalisation sharpens that fold without creating a second controller. It makes evaluation state/value/restoration burden explicit, treats exact relation ablation as protocol-relative and potentially partial, and keeps the load-bearing verdict unknown when a lawful exact ablation is unavailable or prospectively allowed ablation protocols disagree. Those refinements belong here because they determine whether an interface is actually future-sufficient; native deformation, completion, and domain-specific physics remain owned by their existing modules.
+
+The later 33S7B live extension adds one further bounded repair option: some direct address failures can be resolved not by retaining more state but by changing the interrogation so a declared nuisance distinction becomes invariant, quotientable, or predictably invertible for the target. This is a representation/interrogation repair inside FSAI, not a physical-law claim and not a claim of novelty for invariance/equivariance mathematics.
 
 The scientific content precedes the names. The names and folds make the already-existing relations unambiguous, citable and traversable.
 
@@ -208,7 +211,6 @@ Direct preservation for an operation is correspondingly
 
 and the preserve-or-reopen contract remains operation-relative. These expressions sharpen the existing FSAI fold; they do not create an independent general theory of satisfiability, causation, or physical intervention.
 
-
 ### Published v0.4 Bell-specific closure of the geometry branch
 
 Version 0.4 does not change the general FSAI law; it gives the preserve/reopen rule a stronger Bell-native calibration. Four Bell context labels may be organised as an abstract indexing simplex with Boolean face/restriction lattice `2^C`, but that address object is distinct from the correlator carrier. Separately, each CHSH facet of the local correlator polytope is a genuine three-dimensional tetrahedron inside `R^4`.
@@ -282,6 +284,35 @@ FSAI therefore does **not** mean “keep adding state variables”. It points to
 
 For a compositional interface, the same logic extends from one coordinate `c` to the smallest dependency-complete restorative set `D^*` needed for the widened future-operation family. The minimum is operation-, address-, environment-, representation-, and comparator-relative; it is not assumed to be unique or easy to compute.
 
+### 3A. Sideways sufficiency: make a nuisance distinction unnecessary
+
+Minimum sufficiency does not require every unresolved coordinate to be explicitly restored. The direct representation may be the problem.
+
+Let `g∈G` be a declared nuisance transform and `Q` a target-preserving transformed query/readout. A sideways repair is admissible when, prospectively, either
+
+```math
+Q(g\cdot x)=Q(x)
+```
+
+for the relevant `g`, or
+
+```math
+Q(g\cdot x)=h_g(Q(x))
+```
+
+with the induced action `h_g` known/invertible enough to recover the declared target. In that transformed future-use family, the nuisance coordinate need not remain in the minimum Address **if removing it no longer permits a target-relevant future split**.
+
+This gives a three-way repair geometry:
+
+```text
+DOWN     restore minimum missing detail
+UP       promote an earned target-sufficient higher object/address
+SIDEWAYS transform the interrogation so the nuisance coordinate becomes
+         invariant, quotientable, or predictably invertible
+```
+
+The sideways branch is owned in detail by [33S7B](33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md). It does not erase the nuisance coordinate from other tasks and does not upgrade a useful representation into new evidence or physics.
+
 ## 4. Layer-Before-Law Precedence Principle (LBLP)
 
 The Layer-Before-Law methodological consequence is:
@@ -293,7 +324,8 @@ The operational order is
 ```text
 closure failure
 → test state/address adequacy
-→ smallest lawful typed readdressing that survives held-out controls
+→ test whether the direct interrogation itself is poorly conditioned
+→ smallest lawful typed repair: DOWN / UP / SIDEWAYS as warranted
 → only then assess whether a law/model revision is still required.
 ```
 
@@ -302,13 +334,13 @@ A compact formal statement is
 ```math
 R_q(\Theta)>\varepsilon_q
 \Longrightarrow
-\text{test }\Theta\oplus c\text{ over adequate lawful }c
+\text{test }\Theta\oplus c\text{ and lawful target-preserving readdressings}
 \quad\text{before attributing the residual to }F\mapsto F'.
 ```
 
-This is a **precedence principle, not a theorem that every anomaly is a state error**. If an adequately specified and independently tested state/address family still fails, law/model revision remains admissible. LBLP prevents state-description failure from being prematurely relabelled as law failure.
+This is a **precedence principle, not a theorem that every anomaly is a state or interrogation error**. If an adequately specified and independently tested state/address/query family still fails, law/model revision remains admissible. LBLP prevents state-description or interrogation failure from being prematurely relabelled as law failure.
 
-The compositional corollary is equally narrow: a wider composition that breaks an earlier interface first tests whether a decision-bearing lower relation was lost or requires descent. It does not imply that the target domain has acquired a new law merely because the former closure ceased to be sufficient.
+The compositional corollary is equally narrow: a wider composition that breaks an earlier interface first tests whether a decision-bearing lower relation was lost, requires descent, or can be rendered non-decision-bearing by a lawful target-preserving transformed query. It does not imply that the target domain has acquired a new law merely because the former closure ceased to be sufficient.
 
 ## 5. Relation to FSSR
 
@@ -365,7 +397,7 @@ The time-address of the claim also remains explicit: present registration, past 
 
 ## 6. Claim and novelty boundary
 
-This naming/fold note does not claim that predictive equivalence, observability, hidden/internal state, active probing, state augmentation, compositionality, black-boxing, interface contracts, dependency graphs, provenance, local-to-global consistency, model discrimination, or experimental design are individually new. Those neighbouring ingredients are established and are treated as such in the parent papers and the compositional-schema prior-art comparison.
+This naming/fold note does not claim that predictive equivalence, observability, hidden/internal state, active probing, state augmentation, compositionality, black-boxing, interface contracts, dependency graphs, provenance, local-to-global consistency, model discrimination, experimental design, invariance/equivariance, quotienting, nuisance-parameter elimination, or sufficient statistics are individually new. Those neighbouring ingredients are established and are treated as such in the parent papers and the compositional-schema prior-art comparison.
 
 The bounded claim here is narrower:
 
@@ -373,8 +405,9 @@ The bounded claim here is narrower:
 2. **FSAI** is the canonical name assigned to that cross-domain formal criterion;
 3. **LBLP** is the canonical name assigned to its Layer-Before-Law methodological precedence consequence;
 4. the published 29 August 2026 Cross-Domain Compositional Schema v0.3 makes explicit the reuse corollary `closed object → future-sufficient interface → preserve or guaranteed targeted reopen`, together with typed partial instantiation/refusal, restoration-signature-aware evaluation, protocol-relative exact relation ablation, and cardinality-neutral geometry;
-5. the reported cross-domain result is presently a bounded architectural/translational result at strong local-baseline parity, not a new algebra, theorem, privileged geometry, physical mechanism, or demonstrated universal cross-domain superiority;
-6. none of these relations upgrades the construction to an experimentally confirmed universal law.
+5. the later live 33S7B extension places target-preserving invariant/equivariant interrogation inside the same minimum-sufficiency repair family as a `SIDEWAYS` option alongside restorative `DOWN` and effective-object `UP` moves;
+6. the reported cross-domain result remains a bounded architectural/translational result, not a new algebra, theorem, privileged geometry, physical mechanism, or demonstrated universal cross-domain superiority;
+7. none of these relations upgrades the construction to an experimentally confirmed universal law.
 
 Any stronger law-of-nature or superiority claim requires prospective quantitative success, appropriate ordinary baselines, independent replication and the promotion gates already present in the public canon.
 
@@ -391,11 +424,12 @@ The relevant scientific ancestry is not created by this note:
 → 33S7 / FSSR — adversarial future splitting, minimal typed recruitment and prospective mechanism timing
 → 25D — provenance-bearing chain address, compressed invariant and typed return
 → 33S7A — canonical naming of FSAI/LBLP plus scoped closure/reopening
+→ 33S7B — sideways invariant/equivariant interrogation as a target-relative minimum-sufficiency repair
 → Cross-Domain Compositional Schema v0.2 — bounded preserve-or-reopen interface composition, typed partial instantiation/refusal, and minimal restorative descent at baseline parity
-→ Cross-Domain Compositional Schema v0.3 — formalised evaluation/ablation/reopening contract plus executed Bell/CHSH Phase-0 hostile calibration.
+→ Cross-Domain Compositional Schema v0.3/v0.4 — formalised evaluation/ablation/reopening contract plus executed Bell/CHSH hostile calibration and exact tetrahedral-chart closure/null.
 ```
 
-The AAF, FSSR, Chain-Address, Bell, and Cross-Domain Compositional Schema DOI-bearing publication objects remain frozen exactly as published at their respective versions. The v0.2 Cross-Domain DOI remains a prior frozen version; v0.3 DOI `10.5281/zenodo.22166005` is the current publication version. This live-canon fold is later scientific integration and must not be silently backdated into either deposited version.
+The AAF, FSSR, Chain-Address, Bell, and Cross-Domain Compositional Schema DOI-bearing publication objects remain frozen exactly as published at their respective versions. The v0.2/v0.3/v0.4 Cross-Domain DOI objects remain frozen publication versions. This live-canon fold is later scientific integration and must not be silently backdated into any deposited version.
 
 ## 8. Failure discipline
 
@@ -404,13 +438,14 @@ The named objects contract rather than expand if their burden is not met.
 - If same-state histories do not split under adequate admissible challenges, the tested Address remains sufficient for that declaration.
 - If an ordinary stronger state model closes the residual without a distinct recruitment object, no extra FSSR mechanism-localisation load is earned.
 - If a proposed typed repair does not survive held-out removal/restoration, it is not credited as load-bearing recruitment.
+- If a sideways query closes only by erasing the target, choosing the transform after reveal, or ignoring a nuisance asymmetry, the sideways repair fails.
 - If adequate readdressing cannot close the residual, LBLP does not forbid law/model revision.
 - If a supposedly closed interface needs a lower distinction that it neither preserved nor guaranteed to restore before use, its compositional sufficiency fails.
 - If exact relation ablation is not lawfully defined, or prospectively allowed ablation protocols disagree, the load-bearing state remains unresolved rather than being forced to `0` or `1`.
 - If cross-domain success requires inventing a target analogue for a field that is genuinely absent, the partial-instantiation/refusal claim fails.
 - If the same structural decision does not survive independently justified changes of arity or ordinary representation, no cardinality-neutral invariant has been established.
 - If a triangle/tetrahedron/simplex produces no discriminator, compression gain, restoration gain, or other named result beyond a matched ordinary carrier, it remains an illustrative chart.
-- Cross-domain use fails if “state failure”, “Address”, “admissible future”, “repair”, “recruitment”, “dependency”, or “reopen” are redefined after seeing each domain’s outcome.
+- Cross-domain use fails if “state failure”, “Address”, “admissible future”, “repair”, “recruitment”, “dependency”, “reopen”, or the nuisance family/query are redefined after seeing each domain’s outcome.
 - Closure language fails if charge, confidence, target closure, complete state resolution, and metaphysical certainty are collapsed into one undifferentiated status.
 
 ## 9. Canonical compression
@@ -418,6 +453,13 @@ The named objects contract rather than expand if their burden is not met.
 ```text
 FSAI:
 A declared Address is sufficient only while histories it calls the same remain equivalent across the declared admissible future.
+
+Minimum-sufficiency repair:
+When a direct address fails, do not assume the only remedy is more state.
+DOWN restores the minimum missing distinction.
+UP promotes an earned target-sufficient effective object.
+SIDEWAYS changes the interrogation so a nuisance distinction becomes invariant,
+quotientable, or predictably invertible for the declared target.
 
 Compositional FSAI:
 A locally closed object may stand in for its lower structure in a wider composition only for the future-use family it preserves, or while it carries a guaranteed targeted route back to the smallest lower structure required before an omitted relation becomes decision-bearing.
@@ -432,7 +474,7 @@ Geometry:
 A simplex/tetrahedron may be a finite chart for independently justified roles. The invariant is the typed relation that survives representation/arity change, not the shape itself unless the shape earns a separate discriminator.
 
 LBLP:
-When closure fails, test and minimally repair the Address before treating the failure as evidence for a changed governing law.
+When closure fails, test and minimally repair the Address/interrogation before treating the failure as evidence for a changed governing law.
 
 FSSR:
 Choose the future that attacks the state claim, verify the split independently, identify and deform the minimum typed repair, and test when recruitment begins.
