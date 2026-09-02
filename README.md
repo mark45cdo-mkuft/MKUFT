@@ -87,7 +87,6 @@ See [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIV
 ### AI and long-horizon reasoning
 
 The ATLD branch asks a testable engineering question: can a structured network of typed relationships improve long-horizon reasoning beyond matched flat, replayed, scrambled, isolated, or one-way alternatives?
-
 The important point is not that an AI can produce impressive prose. The test is whether the relational architecture itself carries measurable load under fair controls, and whether removing or scrambling it produces the predicted deformation.
 
 ATLD 2 also reports a bounded 15-case exploratory execution pilot. That pilot demonstrates use of the scoring and diagnostic surface; it does **not** establish confirmatory superiority of the structured condition or validate the five candidate residual coordinates.
@@ -194,11 +193,15 @@ The current principal DOI-bearing MKUFT publication is **MKUFT — A Relational 
 
 The current research-facing synthesis is **MKUFT — Layer Before Law: A Typed Relational Architecture for Physical-Law Selection, Future-Sufficient Interfaces, and Cross-Scale Dynamics**, v1.2, dated 30 August 2026. It is public in this repository, not yet DOI-bearing, and not peer reviewed: [human-reader route](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
 
-The published **Cross-Domain Compositional Schema v0.4** has version DOI `10.5281/zenodo.22166468` and concept DOI `10.5281/zenodo.22164561`. Its Bell/tetrahedral calibration retains a NULL independent physical residual.
+The published **Cross-Domain Compositional Schema v0.4** has version DOI `10.5281/zenodo.22166468` and concept DOI `10.5281/zenodo.22164561`. Its Bell/tetrahedral calibration retains a NULL independent physical residual. Live calibration/future-sufficiency folds are [Module 28A](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) and [Module 33S7A](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md); exact relation removal is treated as **protocol-relative exact-relation deformation**, not an automatic causal intervention.
 
 The published **Bell Constraints as Typed Boundaries v1.0** has version DOI `10.5281/zenodo.22100926`. Its tested independent Bell-local new-physics delta is NULL; the retained result is the typed relation/access/completion/scale and falsification architecture.
 
+The published **Future-Splitting State Recruitment v1.0** has version DOI `10.5281/zenodo.22058303`: [paper route](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md) and [canonical module fold](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md).
+
 The published **ATLD 2 v2.0** has version DOI `10.5281/zenodo.22068803`. It is a methods/evaluation paper with an exploratory 15-case execution pilot; no confirmatory system superiority or completed validation of the candidate residual coordinates is claimed.
+
+Historical publication-family identity routes retained for provenance include Voynich predecessor DOI `10.5281/zenodo.18178638` and ATLD v1.0 DOI `10.5281/zenodo.21341521`.
 
 For the complete publication list, version identities, frozen carriers, and DOI routes, use [Papers and Publications](papers/README.md).
 
