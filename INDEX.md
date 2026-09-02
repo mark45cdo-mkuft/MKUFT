@@ -47,6 +47,8 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 - [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 - [Scientific Tightening and Claim Discipline](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)
+- [Module 29A — Branch Lineage, Generator Accountability, and Anti-Hydra Discipline](docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md) — parent-level lineage and prospective generator-accountability control.
+- [Module 29B — Typed Decomposition, Reconstruction, and Prospective Generator Audit](docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md) — maps the repeated typed-decomposition operation, subtracts generic prior art, and defines the prospectively killable generator benchmark `G_gen`.
 - [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
 - [Module 32 Novelty Audit and Contribution Boundary](docs/32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md)
 - [Module 32 Supplement — Load-Bearing Relation Sets and Scale-Transition Tests](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md)
