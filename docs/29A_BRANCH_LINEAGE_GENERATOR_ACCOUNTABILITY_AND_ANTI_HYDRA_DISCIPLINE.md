@@ -4,6 +4,7 @@
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
 **Parent claim-discipline owner:** [29 — MKUFT Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)  
 **Falsification owner:** [05 — MKUFT Falsification Summary](05_FALSIFICATION_SUMMARY.md)  
+**Prospective generator-audit companion:** [29B — Typed Decomposition, Reconstruction, and Prospective Generator Audit](29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md)  
 **Status:** standing scientific claim-accountability and branch-lineage control. It introduces no new equation, physical mechanism, ontology, or empirical result.
 
 ## Plain version first
