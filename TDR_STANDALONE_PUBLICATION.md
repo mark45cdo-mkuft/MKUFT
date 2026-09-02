@@ -26,13 +26,13 @@ The stable MKUFT concept DOI remains the parent lineage. Publishing this record 
 
 ## Public and custody routes
 
-- [Repository paper source](papers/2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md)
+- [Repository paper route](papers/2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md)
 - [Prepared-carrier identity/checksum record](publications/TDR_v1.0/README.md)
 - [Parent methodological synthesis — Module 29B](docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md)
 - [Parent generator accountability — Module 29A](docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md)
 - [Procedural decomposition owner — Module 22A](docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
 
-The exact PDF prepared for Zenodo is `Typed_Decomposition_Reconstruction_v1.0_2026-09-02.pdf`. The connected GitHub writer used for this release does not accept the local binary carrier directly, so this repository commit records the source and exact carrier hashes rather than inventing a broken binary-mirror route. Zenodo is the intended frozen publication carrier. A later repository PDF mirror, if added, must match the deposited object byte-for-byte or be identified as a distinct convenience carrier.
+The exact PDF prepared for Zenodo is `Typed_Decomposition_Reconstruction_v1.0_2026-09-02.pdf`. The connected GitHub writer used for this release does not accept the local binary carrier directly, so the repository records the reader route and exact carrier hashes rather than inventing a broken PDF-mirror route. Zenodo is the intended frozen publication carrier.
 
 ## Scientific boundary
 
@@ -48,19 +48,26 @@ F_q(\mathcal G_{\mathrm{TDR}})
 F_{\mathrm{base}}^{*}(q).
 ```
 
-A negative value is an explicit loss for TDR on that task under the frozen comparison envelope.
+A negative value is an explicit loss for TDR on that task under the frozen comparison envelope. The benchmark must also recognise correctly scoped positive retention, reduction, rejection, and abstention rather than rewarding only novelty production or only conservative deflation.
+
+The revised pre-publication manuscript includes two retrospective source-programme calibrations:
+
+- **ATLD 2:** a positive diagnostic result in which RR-14 exposed a real branch-localisation / route-support / calibration seam, but existing machinery already owned it, so no thirteenth coordinate was justified.
+- **Bell/CHSH typed boundaries:** a productive physical null in which the independent Bell-local new-physics delta remained null while the typed correspondence, custody, and falsification architecture remained non-null.
+
+These are calibrations of verdict quality, not prospective evidence that TDR itself beats comparator methods. Scientific caution is not implemented by flattening an earned positive result; salience and evidence authority remain separately typed.
 
 The paper also introduces **Wake** as an application-level, target-relative retained traversal/history variable. Wake is not a new substance, universal memory law, or replacement for domain-native hysteresis. It earns retention only where it improves prospective closure or lawful continuation beyond a simpler present-state description.
 
 ## Prepared carrier identity
 
 **Filename:** `Typed_Decomposition_Reconstruction_v1.0_2026-09-02.pdf`  
-**Pages:** 17  
-**Bytes:** 115,074  
-**MD5:** `16eeaa2a4802669de383403ff9b83780`  
-**SHA-256:** `e56aa4161e712f0911dde51b804c243aa292a1b73b867fcf8de25f8c0d1da758`
+**Pages:** 19  
+**Bytes:** 123,158  
+**MD5:** `532b0e33dc733ba3150feb55435a20fa`  
+**SHA-256:** `e2b62e38a2667abedc31925450437d2eb118cf0c63b13181dd9f765939c438c1`
 
-These hashes identify the PDF prepared for the reserved Zenodo DOI. After Zenodo publication, this record should be read back against the deposited carrier before the DOI state is changed from `reserved` to `published`.
+These hashes identify the revised PDF prepared for the reserved Zenodo DOI. After Zenodo publication, this record should be read back against the deposited carrier before the DOI state is changed from `reserved` to `published`.
 
 ## Zenodo metadata intent
 
