@@ -1,14 +1,16 @@
-# Typed Decomposition-Reconstruction v1.0 — Prepared Carrier Identity
+# Typed Decomposition-Reconstruction v1.0 — Frozen Publication Carrier Identity
 
 **Title:** *Typed Decomposition-Reconstruction: A Prospective Generator Test for Hidden Scientific Conflations*  
 **Author:** Mark Charles McLaughlin  
 **ORCID:** `0009-0005-7736-1511`  
-**Prepared:** 2 September 2026  
-**Reserved DOI:** `10.5281/zenodo.22258000`  
-**Parent lineage:** MKUFT concept DOI `10.5281/zenodo.17780565`  
-**Status:** final visually inspected PDF prepared for Zenodo publication; DOI registration pending publication of the draft record
+**Published:** 2 September 2026  
+**Version DOI:** [`10.5281/zenodo.22258000`](https://doi.org/10.5281/zenodo.22258000)  
+**Concept DOI:** [`10.5281/zenodo.22257999`](https://doi.org/10.5281/zenodo.22257999)  
+**Parent lineage:** MKUFT concept DOI [`10.5281/zenodo.17780565`](https://doi.org/10.5281/zenodo.17780565)  
+**Status:** published open Zenodo preprint; frozen v1.0 carrier identity  
+**Licence:** CC BY 4.0
 
-## Exact prepared carrier
+## Exact frozen carrier
 
 - Filename: `Typed_Decomposition_Reconstruction_v1.0_2026-09-02.pdf`
 - Pages: 20
@@ -16,22 +18,37 @@
 - MD5: `ee4b4b080120ce3e7907c9756611863c`
 - SHA-256: `e70b4796b7a8e3184b874780f2dea9dc2869520e8d2662896e9c6da33a764c16`
 
-## Revision before publication
+The values above identify the v1.0 PDF deposited under version DOI `10.5281/zenodo.22258000`. The concept DOI `10.5281/zenodo.22257999` identifies the TDR publication family across versions.
 
-The earlier 17-page draft was replaced **before DOI registration** after a paper-level calibration audit identified an asymmetry: the draft made TDR's ability to lose explicit but did not state its already-executed positive/productive-null calibrations with equal precision. The revised carrier adds the ATLD 2 positive diagnostic/no-coordinate-inflation case, the Bell productive physical-null/non-null-method case, and an explicit rule that scientific caution must type earned positive results rather than flatten them.
+## Publication relation
 
-No published DOI object was overwritten; DOI `10.5281/zenodo.22258000` remains reserved at this stage.
+```text
+TDR v1.0 — 10.5281/zenodo.22258000
+IS DERIVED FROM
+MKUFT concept — 10.5281/zenodo.17780565
+```
 
-## Final visual-QA reflow before publication
+TDR is a standalone methodological publication derived from MKUFT. It is not a version replacement for the principal MKUFT paper.
 
-A final Zenodo-preview inspection caught a long ATLD/TDR verdict chain extending beyond the visible page boundary and several page turns that opened on context-poor continuations. The PDF was reflowed before publication: long chains were broken into aligned multi-line displays and benchmark/failure/reproducibility sections received layout-only page-turn protection. The scientific claims, equations, comparator burdens, and verdicts were not relaxed or promoted. The final publication candidate is the 20-page carrier identified above.
+## Prepublication revision provenance
 
-All 20 rendered A4 pages were visually inspected after regeneration for clipping, overflow, broken equations, and context-poor page openings.
+The earlier draft was replaced **before DOI registration** after two quality-control passes:
+
+1. a calibration audit repaired asymmetric outcome reporting by adding the ATLD 2 positive diagnostic/no-coordinate-inflation case, the Bell productive physical-null/non-null-method case, and the rule that scientific caution must type earned positives rather than flatten them;
+2. a final Zenodo-preview visual audit reflowed long mathematical chains and context-poor page turns without changing the scientific claims or comparator burdens.
+
+The complete prepublication audit trail remains in [PREPUBLICATION_CALIBRATION_REVISION.md](PREPUBLICATION_CALIBRATION_REVISION.md).
+
+## Scientific boundary
+
+Publication freezes the **method statement**, not a positive performance verdict. The broad TDR generator claim remains prospectively testable and may reduce or fail. In particular, publication does not establish that
+
+```math
+G_{\mathrm{gen}}(q)>0.
+```
+
+The ATLD 2 and Bell examples in v1.0 are retrospective calibrations of correctly typed verdicts rather than prospective demonstrations of TDR superiority.
 
 ## Custody rule
 
-The hashes above identify the external PDF prepared for the reserved Zenodo DOI. The connected GitHub writer records the reader/custody surfaces and checksum witness but does not accept the local binary PDF carrier directly. If Zenodo receives this exact byte-identical PDF, these hashes become the repository-side identity witness for the deposited v1.0 object.
-
-If the PDF changes again before publication, regenerate and update the hashes before publishing. A later repository PDF mirror, if added, must either match the deposited object byte-for-byte or be identified explicitly as a distinct convenience carrier.
-
-After Zenodo publication, verify the deposited object and only then change the publication record from `reserved` to `published`.
+This v1.0 identity is immutable as a publication object. A future version must use its own version DOI and exact carrier witness. Repository revisions may clarify or extend the live method but must not silently redefine the deposited v1.0 carrier.
