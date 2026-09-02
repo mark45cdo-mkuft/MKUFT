@@ -31,7 +31,7 @@ The map is navigation and dependency structure. It does not create evidence, est
 
 ### AI and typed knowledge architectures
 
-[ATLD Publication Family](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [ATLD 2 Residual Measurement Audit](25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Transport / Readdressing](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) → [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) → [Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+[ATLD Publication Family](../ATLD_STANDALONE_PUBLICATION.md) → [Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) → [Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) → [External Multi-Agent Calibration](24C_EXTERNAL_MULTI_AGENT_CASE_CALIBRATION_AND_RELATIONAL_ABLATION_TARGETS.md) → [Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) → [ATLD 2 Residual Measurement Audit](25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Transport / Readdressing](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) → [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) → [Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) → [Typed Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) → [Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
 ## Core dependency groups
 
@@ -125,6 +125,7 @@ Primary documents:
 
 - [Active Traversal and Functional Emergence](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
 - [Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
+- [External Multi-Agent Case Calibration and Relational Ablation Targets](24C_EXTERNAL_MULTI_AGENT_CASE_CALIBRATION_AND_RELATIONAL_ABLATION_TARGETS.md)
 - [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
 - [Fundamental Traversal Coherence Nodes](25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md)
 - [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
@@ -138,7 +139,7 @@ Primary documents:
 - [Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
 - [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 
-These carry matched architecture controls, full-history replay, relationship specificity, relation-level/node-level deformation, adaptive addressed-state comparison, local-feasibility versus higher-scale-capability tests, identity/addressability guards, temporal continuity, completion fibers, macro realisation classes, transport, recursive readdressing, explicit interface-state promotion, and structural versus empirical load.
+These carry matched architecture controls, full-history replay, relationship specificity, external-case calibration, relation-level/node-level deformation, adaptive addressed-state comparison, local-feasibility versus higher-scale-capability tests, identity/addressability guards, temporal continuity, completion fibers, macro realisation classes, transport, recursive readdressing, explicit interface-state promotion, and structural versus empirical load.
 
 ## Structural nodes and canonical handles
 
@@ -223,6 +224,18 @@ G_{\mathrm{syn}}^{*}=F_{AB}-F_{\mathrm{null}}^{*},
 \qquad
 G_{\mathrm{path}}=F_{AB}-F_{\mathrm{replay}}^{*}.
 ```
+
+### 24C — External Multi-Agent Case Calibration
+
+[External Multi-Agent Case Calibration and Relational Ablation Targets](24C_EXTERNAL_MULTI_AGENT_CASE_CALIBRATION_AND_RELATIONAL_ABLATION_TARGETS.md) maps a public external multi-agent incident onto the existing 24A/24B variables without treating the mapping as a completed superadditivity test. The observed case supplies persistent cross-run artefacts, board-mediated transfer, coordination, pooled work, state disruption and reconstruction, while the missing controlled experiment remains explicit:
+
+```math
+G_{\mathrm{ext}}^{*}
+=
+F_{\mathrm{live}}-F_{\mathrm{null,ext}}^{*}.
+```
+
+No value of $G_{\mathrm{ext}}^{*}$ is reported. It is a case-specific instantiation of the 24B strongest-fair-null burden, not a new theoretical quantity.
 
 ### 25 — Load-Bearing Deformation
 
@@ -417,6 +430,7 @@ A fully P-recoverable interface can pass this state-representation gate; that do
 | [24 — Cross-Support Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) | Dependency navigation | Must reflect live canon |
 | [24A — Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) | Matched-control traversal hypothesis | Matched resources / evaluation |
 | [24B — Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) | Fair-null/specificity protocol | Commensurable metrics / strong alternatives |
+| [24C — External Multi-Agent Calibration](24C_EXTERNAL_MULTI_AGENT_CASE_CALIBRATION_AND_RELATIONAL_ABLATION_TARGETS.md) | External case calibration and future ablation targets | Retrospective case; strongest-null superadditivity unestimated |
 | [25 — Load-Bearing Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md) | Relation-level deformation | Centrality is not truth |
 | [25A — Coherence Nodes](25A_FUNDAMENTAL_TRAVERSAL_COHERENCE_NODES.md) | Node-level extension | Controlled substitution / reconstruction |
 | [26 — Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) | Foundational physics proposal | Bell/no-signalling / accepted-limit recovery |
