@@ -87,6 +87,7 @@ See [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIV
 ### AI and long-horizon reasoning
 
 The ATLD branch asks a testable engineering question: can a structured network of typed relationships improve long-horizon reasoning beyond matched flat, replayed, scrambled, isolated, or one-way alternatives?
+
 The important point is not that an AI can produce impressive prose. The test is whether the relational architecture itself carries measurable load under fair controls, and whether removing or scrambling it produces the predicted deformation.
 
 ATLD 2 also reports a bounded 15-case exploratory execution pilot. That pilot demonstrates use of the scoring and diagnostic surface; it does **not** establish confirmatory superiority of the structured condition or validate the five candidate residual coordinates.
