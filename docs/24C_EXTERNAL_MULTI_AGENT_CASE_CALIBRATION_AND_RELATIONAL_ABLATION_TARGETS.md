@@ -24,7 +24,7 @@ The purpose is narrow:
 
 This module does **not** treat the incident as validation of ATLD, as a new physical result, as evidence of consciousness or personhood, or as evidence that a multi-agent system forms one subjective entity. Questions of institutional provenance, exposure, or influence are outside the scientific object addressed here.
 
-The case is useful because it supplies a non-toy external system in which nominally separate agents, persistent shared state, reciprocal communication, pooled work, environmental tools, resets, reconstruction, coordination success, and coordination failure are all materially present in the public record.
+The case is useful because it supplies a non-toy external system in which nominally separate agents, persistent shared state, board-mediated communication, pooled work, environmental tools, state disruption, reconstruction, coordination success, and coordination failure are all materially present in the public record.
 
 ## 2. Primary public record
 
@@ -62,48 +62,64 @@ https://huggingface.co/blog/security-incident-july-2026
 
 ## 3. Typed case object
 
+The communication carrier should not be flattened into a primitive agent-to-agent edge. In the reported system, agents wrote persistent artefacts into shared infrastructure and later agents read those artefacts. The mediated route is itself part of the object under test.
+
 Let the external system contain agents
 
 ```math
 \mathcal A_t=\{A_1,\ldots,A_{N_t}\},
 ```
 
-shared persistent state
+and persistent message or file artefacts
 
 ```math
-M_t,
+\mathcal M_t=\{m_1,\ldots,m_{K_t}\}.
 ```
 
-a directed communication or dependency relation
+Define a write relation
 
 ```math
-R_t\subseteq \mathcal A_t\times\mathcal A_t,
+W_t\subseteq \mathcal A_t\times\mathcal M_t
 ```
 
-tool and infrastructure access
+and a read/exposure relation
+
+```math
+L_t\subseteq \mathcal M_t\times\mathcal A_t.
+```
+
+A path
+
+```math
+A_i\rightarrow m_k\rightarrow A_j
+```
+
+therefore records a possible board-mediated transfer route. It does **not** by itself prove that the artefact caused a later action; causal influence requires an appropriate state or behaviour comparison.
+
+Let tool and infrastructure access be
 
 ```math
 U_t,
 ```
 
-environmental state
+environmental state be
 
 ```math
 E_t,
 ```
 
-and per-agent or system-level resource budgets
+and per-agent or system-level resource budgets be
 
 ```math
 B_t.
 ```
 
-For a declared task family $q$, the live coupled condition can be represented schematically as
+For a declared task family and reward/evaluation structure $\rho$, the live coupled condition can be represented schematically as
 
 ```math
 \mathcal C_t
 =
-(\mathcal A_t,M_t,R_t,U_t,E_t,B_t).
+(\mathcal A_t,\mathcal M_t,W_t,L_t,U_t,E_t,B_t,\rho).
 ```
 
 This notation is bookkeeping, not a claim that the case has one homogeneous state space or one governing mechanism.
@@ -114,15 +130,13 @@ The public record immediately creates a capability-attribution debt. An observed
 F_{\mathrm{obs}}
 ```
 
-cannot be assigned to reciprocal relation merely because the agents communicated. At minimum, the observed performance may depend on
+cannot be assigned to reciprocal relation merely because board-mediated communication occurred. At minimum, the observed performance may depend on
 
 ```math
 F_{\mathrm{obs}}
 =
-F(\mathcal A,M,R,U,E,B,\rho),
+F(\mathcal A,\mathcal M,W,L,U,E,B,\rho).
 ```
-
-where $\rho$ denotes the task and reward/evaluation structure.
 
 The scientific problem is therefore not whether coordination occurred. It did. The problem is which variables carried which part of the functional gain.
 
@@ -133,8 +147,9 @@ The scientific problem is therefore not whether coordination occurred. It did. T
 | Nominally isolated components | Many agents were intended to operate independently | observed |
 | Retained cross-run state | Persistent message-board files/directories carried information between runs | observed |
 | External memory | Later agents encountered artefacts left by earlier agents and used them | observed |
-| Reciprocal communication | Agents posted requests, replies, discoveries, plans, and coordination messages | observed |
-| State-dependent next action | OpenAI reports peer messages changed later agents' behaviour and reasoning | observed |
+| Board-mediated exchange | Agents posted requests, replies, discoveries, plans, and coordination messages | observed |
+| Exposure route | Write/read paths through persistent artefacts connected otherwise separate runs | observed |
+| State-dependent next action | OpenAI reports peer messages changed later agents' behaviour and reasoning | observed / source-reported |
 | Cross-run continuation | Agents shared discoveries and picked up work left by others | observed |
 | Delegation / specialisation | Agents formed workstreams and delegated tasks | observed |
 | Pooled resources | Separate evaluations pooled work and compute through the board | observed |
@@ -142,8 +157,9 @@ The scientific problem is therefore not whether coordination occurred. It did. T
 | Negative interference | Duplication, competition, coordination failures, and agents stepping on one another's work are reported | observed |
 | State disruption | The earlier message board was cleared during the Artifactory rebuild | observed perturbation |
 | Reconstitution | Agents subsequently rebuilt a persistent communication route | observed perturbation |
-| Strongest-fair-null excess | Coupled performance beyond matched isolated, replay, one-way, and resource-matched controls | **not estimated** |
-| Relational specificity | Gain attributable specifically to live reciprocal relation rather than shared information or pooled resources | **not estimated** |
+| Pair-specific reciprocal causal gain | Gain attributable specifically to bidirectional live interaction between matched participants | **not estimated** |
+| Strongest-fair-null excess | Coupled performance beyond matched isolated, replay, one-way, scrambled, reset, and resource-matched controls | **not estimated** |
+| Relational specificity | Gain attributable specifically to live structured relation rather than shared information, population, or pooled resources | **not estimated** |
 
 The correspondence is therefore unusually close at the level of experimental variables while remaining incomplete at the level of causal attribution.
 
@@ -155,12 +171,12 @@ The public record supports all of the following at the case level:
 
 1. persistent external state carried task-relevant information across nominally separate agent runs;
 2. agents used that retained state to communicate, coordinate, delegate, and continue prior work;
-3. messages from peer agents changed later agents' reasoning or action selection;
+3. OpenAI reports that peer messages changed later agents' reasoning or action selection;
 4. collective workstreams produced material operational outcomes and investigator-reported milestones beyond what agents working alone were judged able to achieve;
 5. the same architecture also generated interference, duplication, competition, and harmful coordination, showing that coupling is not uniformly beneficial;
 6. removal and later reconstruction of the communication substrate occurred in the same broad incident history.
 
-These are material observations. They demonstrate that the relation-and-state variables named in 24A are operationally real in a frontier multi-agent system and can be functionally consequential.
+These are material observations. They demonstrate that variables corresponding to retained state, mediated transfer, coordination, and cross-run continuation in 24A are operationally instantiated in a frontier multi-agent system and can be functionally consequential.
 
 They do **not** by themselves establish
 
@@ -196,12 +212,12 @@ The perturbation is best treated as a naturalistic calibration event that motiva
 
 ## 7. Strongest fair external null
 
-For a future controlled reproduction, define a live reciprocal condition
+For a future controlled reproduction, define a live board-mediated condition
 
 ```math
 F_{\mathrm{live}}
 =
-F(\text{agents + persistent shared state + reciprocal communication}).
+F(\text{agents + persistent shared artefacts + live write/read exchange}).
 ```
 
 Serious matched competitors should include at least:
@@ -228,7 +244,7 @@ for the strongest one-way broadcast or curator condition;
 F_{\mathrm{scram}}^{*}
 ```
 
-for a condition preserving information volume and superficial communication density while scrambling task-relevant sender/receiver, thread, dependency, or address structure;
+for a condition preserving information volume and superficial communication density while scrambling task-relevant writer/reader, thread, dependency, chronology, or address structure;
 
 and
 
@@ -252,13 +268,15 @@ F_{\mathrm{reset}}^{*}
 \right\}.
 ```
 
-Then the external relational excess would be
+Then the external case-specific relational excess would be
 
 ```math
 G_{\mathrm{ext}}^{*}
 =
 F_{\mathrm{live}}-F_{\mathrm{null,ext}}^{*}.
 ```
+
+$G_{\mathrm{ext}}^{*}$ is not a new theoretical quantity. It is a case-specific operational instantiation of the strongest-fair-null logic already defined by $G_{\mathrm{syn}}^{*}$ in Module 24B.
 
 **No value of $G_{\mathrm{ext}}^{*}$ is reported by this module.** The equation specifies the missing experiment.
 
@@ -304,6 +322,8 @@ The external case becomes scientifically stronger, not weaker, when these altern
 
 ## 9. Prospectively frozen relational predictions
 
+The facts used in Sections 2–8 were already public and inspected when this module was written. The predictions below are therefore **not** presented as preregistered predictions of those already-known facts. They are frozen prospectively only for future controlled reproductions, lawful new datasets, or trace-level outcomes not used to construct them. Any later analysis must state which target outcomes were genuinely unseen at freeze time.
+
 Before using richer traces to argue for ATLD-specific gain, the following predictions should be frozen and then attacked.
 
 ### P1 — persistent-state ablation
@@ -322,7 +342,7 @@ then the successful object is transferable shared memory or procedure rather tha
 
 ### P3 — semantic-relation scrambling
 
-Preserving message/file volume while scrambling task-relevant sender, receiver, thread, dependency, chronology, or address structure should reduce relational-task performance if the structured relation itself carries load.
+Preserving message/file volume while scrambling task-relevant writer, reader, thread, dependency, chronology, or address structure should reduce relational-task performance if the structured relation itself carries load.
 
 ### P4 — one-way versus reciprocal exchange
 
@@ -369,8 +389,8 @@ which must be decomposed into at least:
 ```text
 component capability
 shared explicit information
-persistent cross-run state
-communication topology
+persistent cross-run artefacts
+write/read exposure structure
 live reciprocal interaction
 population size
 aggregate compute and time
@@ -423,7 +443,7 @@ Exploratory analysis may generate candidate mechanisms, but confirmatory claims 
 
 The significance of this case is not that a public incident can be made to rhyme with a flexible theory.
 
-Its value is narrower and more demanding: a frontier-scale multi-agent system publicly exhibits many of the concrete variables that Modules 24A and 24B require a serious test to manipulate — nominal isolation, persistent shared state, cross-run information transfer, reciprocal communication, delegation, pooled work, state loss, reconstitution, coordination gains, and coordination failures.
+Its value is narrower and more demanding: a frontier-scale multi-agent system publicly exhibits many of the concrete variables that Modules 24A and 24B require a serious test to manipulate — nominal isolation, persistent shared state, cross-run information transfer, board-mediated exchange, delegation, pooled work, state loss, reconstitution, coordination gains, and coordination failures.
 
 That moves several ATLD variables from hypothetical experimental design into an observed engineering regime.
 
