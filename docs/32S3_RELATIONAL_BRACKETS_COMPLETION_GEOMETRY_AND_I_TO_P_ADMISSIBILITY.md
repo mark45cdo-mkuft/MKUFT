@@ -808,6 +808,87 @@ Guruciaga et al. (2026) report that boundary geometry controls polar-defect conf
 
 Schone et al. (2025) report stable cortical hand/finger representations after arm amputation. The permitted structural statement is that **removal of a physical endpoint need not immediately erase every higher-order physical representation associated with that endpoint**. The surviving nervous system remains a physical implementation.
 
+### 12.3 Prince Rupert drop — native-termination calibration
+
+Prince Rupert's drops provide a useful physical calibration because the visible teardrop is not a sufficient state description of the behaviour. Rapid quenching generates a distributed residual-stress field: a strongly compressed exterior surrounding a tensile interior. The head can withstand very large loading, while damage to the tail can expose the tensile region and launch a rapidly propagating fracture process through the drop. Annealing relieves the stored internal stresses and removes the characteristic catastrophic tail-triggered disintegration. Kooij et al. (2021) and Cashman, Liu and Rust (2022) further show that fragmentation statistics and fracture organisation depend on the internal stress field, material state, defects/voids and fragmentation environment.
+
+A physically richer addressed state may therefore be written schematically as
+
+```math
+X_{\mathrm{PRD}}
+=
+\left(
+\Omega,
+\boldsymbol\sigma_{\mathrm{res}}(\mathbf x),
+\Gamma,
+H_q,
+\mathbf m,
+\ldots
+\right),
+```
+
+where `Omega` is the physical geometry/domain, `sigma_res(x)` the residual-stress field, `Gamma` the relevant crack/defect/boundary state, `H_q` the quench or cooling history when it carries target-relevant information not already screened off by the present state, and `m` the material parameters. A visual readout
+
+```math
+y_{\mathrm{vis}}=\Pi_{\mathrm{vis}}(X_{\mathrm{PRD}})
+```
+
+can preserve the recognisable drop morphology while omitting variables that determine the response to perturbation.
+
+The abstract vocabulary terminates natively as follows:
+
+- **formation history** → quench/cooling history;
+- **hidden state** → residual stress, crack/defect, void, or other material state omitted by the chosen readout, not a hidden ontology;
+- **address** → the physical location/orientation and local stress state at a crack tip, tail defect, loaded region, or other declared perturbation site;
+- **admissibility** → the native fracture-mechanics support, threshold, or rate structure governing whether a crack initiates or propagates; where the chosen model warrants it, this may be expressed through criteria such as `G_eff >= G_c` or `K_eff >= K_IC`, without treating either schematic inequality as a universal PRD law;
+- **propagation** → the measured native crack/failure-wave and branching dynamics;
+- **ablation** → a physical intervention such as annealing that relieves residual stress and tests whether the stored stress organisation is load-bearing for catastrophic fragmentation;
+- **higher-dimensional description** → the richer material/state-space description above, not additional physical spacetime dimensions.
+
+The calibrated structural chain is therefore
+
+```text
+quench / formation history
+→ distributed residual material state
+→ addressed local perturbation and fracture condition
+→ admissible crack transition
+→ connected global fragmentation
+```
+
+rather than
+
+```text
+teardrop silhouette
+→ explosion.
+```
+
+This distinction supplies a direct morphology-versus-state discriminator. If the visible form remains recognisably drop-like while annealing removes the residual-stress organisation and the catastrophic response disappears, then morphology alone was not the load-bearing invariant. This does **not** imply that geometry is irrelevant: geometry, shell thickness, defects, voids and boundary conditions remain native parts of the physical state and can alter strength and fragmentation.
+
+History must also not be duplicated after it has done its causal work. If a declared present physical state `x_t` screens off the quench history for target `Y`, schematically
+
+```math
+P(Y\mid x_t,H_q)
+\approx
+P(Y\mid x_t)
+```
+
+within the declared tolerance, then `H_q` remains provenance rather than an additional active state coordinate for that target. If nominally same present states still split by future behaviour as a function of `H_q`, the current address is incomplete or a mediator has been omitted.
+
+The scientific verdict is deliberately bounded:
+
+```text
+native fracture/material account of the demonstrated PRD behaviour
+→ NATIVE-SUFFICIENT
+
+use as a calibration of history + distributed state + address + admissibility + propagation
+→ RETAIN
+
+independent I-layer, new force, extra spacetime dimension, or universal cross-domain mechanism inferred from the drop
+→ NULL
+```
+
+Prince Rupert's drops therefore do not prove MKUFT. They are valuable because they force the relational vocabulary to terminate in ordinary materials mechanics and still leave a non-trivial structural lesson intact: **the apparent object may not contain enough state to explain its own behaviour.**
+
 ## 13. Discriminating tests
 
 ### 13.1 Relation-family and representation robustness
@@ -895,6 +976,9 @@ Historical priority for that exact integration is not asserted without broader l
 - Varley, T. F. and Hoel, E. (2022). *Emergence as the conversion of information: a unifying theory*. Philosophical Transactions of the Royal Society A 380:20210150. DOI `10.1098/rsta.2021.0150`.
 - Zhang, Y., Lucas, M. and Battiston, F. (2023). *Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes*. Nature Communications 14:1605. DOI `10.1038/s41467-023-37190-9`.
 - Huang, L., Chen, X., Mühlenbernd, H. et al. (2013). *Three-dimensional optical holography using a plasmonic metasurface*. Nature Communications 4:2808. DOI `10.1038/ncomms3808`.
+- Chandrasekar, S. and Chaudhri, M. M. (1994). *The explosive disintegration of Prince Rupert's drops*. Philosophical Magazine B 70(6), 1195–1218. DOI `10.1080/01418639408240284`.
+- Kooij, S., van Dalen, G., Molinari, J.-F. et al. (2021). *Explosive fragmentation of Prince Rupert's drops leads to well-defined fragment sizes*. Nature Communications 12:2521. DOI `10.1038/s41467-021-22595-1`.
+- Cashman, K. V., Liu, E. J. and Rust, A. C. (2022). *Prince Rupert's Drops: An analysis of fragmentation by thermal stresses and quench granulation of glass and bubbly glass*. Proceedings of the National Academy of Sciences 119(31):e2202856119. DOI `10.1073/pnas.2202856119`.
 - Guruciaga, P. C. et al. (2026). *Boundary geometry controls a topological defect transition that determines lumen nucleation in embryonic development*. Nature Materials 25, 1278–1287. DOI `10.1038/s41563-026-02594-7`.
 - Schone, H. R. et al. (2025). *Stable cortical body maps before and after arm amputation*. Nature Neuroscience 28, 2015–2021. DOI `10.1038/s41593-025-02037-7`.
 
@@ -921,6 +1005,8 @@ Historical priority for that exact integration is not asserted without broader l
 > **Readout does not create a scale transition. Promotion requires persistence, intervention, new capability, predictive compression, and boundary specificity.**
 
 > **Holography is a deformation-tested physical comparator, not an ontological shortcut.**
+
+> **Prince Rupert's drops calibrate the stronger chain: formation history → distributed native state → addressed local fracture condition → global propagation. The visible teardrop alone is not the invariant.**
 
 > **At every justified scale: typed relations constrain addressed admissibility; stable compatible structure can be promoted to an effective object; that object may become one typed participant in the next bracket.**
 
@@ -952,4 +1038,3 @@ marginal or full-behaviour target
 ```
 
 This is a local-to-global custody example, not a new Bell mechanism. Module 32S3 retains completion/fibre ownership; Module 33S7A owns the preserve/reopen consequence; Module 28A owns the Bell-native calculation. An exact chart of one projection must not be mistaken for completion of the parent object.
-
