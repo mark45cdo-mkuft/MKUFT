@@ -157,7 +157,11 @@ A sustained local-region condition is not automatically a newly discovered physi
 
 The agency branch is weakened if actual and perceived action sets cannot be distinguished; $G_t$ and $\theta_{\mathrm{access}}$ cannot be bounded or estimated; threat-gating does not predict exit avoidance; identity fusion does not predict attractor defence; map restoration does not improve access where material barriers are controlled; or simpler habit, preference, incentive, or impairment accounts perform better.
 
-The framework also fails if it becomes merely a label for disagreement. Capture geometry does not independently prove an external entity.
+The path-dependent extension is additionally weakened if terminal-state variables perform as well as history-aware models on held-out cases; inferred boundary crossings are not reproducible across independent reconstructions; measured exit cost does not track the proposed reinforcement or dependency variables; trajectory reconstruction adds no prospective discrimination; or ordinary lock-in, sunk-cost, habit, switching-cost, path-dependence, coercion, or incentive models close the observations without the proposed composition.
+
+The restorative readdressing extension is weakened if origin/trajectory, present retention pressure, and lawful remainder cannot be distinguished reliably where the model says that distinction is load-bearing; if separating them changes no classification, prediction, intervention, or recovery result; if minimum-destructive correction preserves no more lawful function than simpler domain-native repair; or if restorative reachability is asserted rather than tested from the current state. A true proposition at one address must not be treated as evidence of deception merely because it leaves another live question unresolved.
+
+The framework also fails if it becomes merely a label for disagreement. Capture geometry does not independently prove an external entity, and a historical boundary crossing does not by itself prove either irrecoverability or successful recovery.
 
 ## ESRT / Voynich
 
