@@ -89,7 +89,7 @@ Primary documents:
 - [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
 - [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 
-These carry bounded observer-state hypotheses, measurement-relative observability, action-map access, capture, responsibility, recovery, and the distinction between physical measurement back-action and O-layer record.
+These carry bounded observer-state hypotheses, measurement-relative observability, action-map access, path-dependent boundary crossing, endogenous exit cost, address-separated recovery, responsibility, minimum-destructive readdressing, and the distinction between physical measurement back-action and O-layer record.
 
 ### Boundary and physical bridges
 
@@ -196,6 +196,10 @@ U_t^{\mathrm{access}}
 ```
 
 to distinguish retained capacity from practical access under a declared model.
+
+The same module treats capture as potentially path-dependent: locally defensible transitions can accumulate into a globally inadmissible trajectory, continued participation can increase later exit cost, and recovery is evaluated from the state actually reached rather than from an imagined clean origin.
+
+Where the distinction is load-bearing, Module 23 separately addresses **origin/trajectory**, **present retention pressure**, and **lawful remainder**. A true proposition at one of those addresses does not close a question posed at another. Restorative readdressing therefore preserves history, tests whether a lawful future remains reachable, and avoids coupling correction to unnecessary destruction of capabilities or relations that remain admissible.
 
 ### 24A — Active Traversal
 
@@ -422,11 +426,11 @@ A fully P-recoverable interface can pass this state-representation gate; that do
 | [16 — Gradient Mechanics](16_GRADIENT_MECHANICS_BOUNDARY_SHEAR_GEOMETRY.md) | Boundary-physics hypothesis | Ordinary mechanics / reproducibility |
 | [17 — Dollard Notes](17_MKUFT_DOLLARD_FIELD_GEOMETRY_NOTES.md) | Comparative bridge | Translation is not equivalence |
 | [18 — Clear Public Explanation](18_MKUFT_CLEAR_PUBLIC_EXPLANATION.md) | Plain-language synthesis | Canonical definitions control |
-| [20 — GRACE](20_GRACE_TRAVERSAL_RULE.md) | Traversal filter | Domain evidence / falsification |
+| [20 — GRACE](20_GRACE_TRAVERSAL_RULE.md) | Traversal filter and restorative readdressing route | Domain evidence / falsification / restorative reachability must be tested |
 | [21 — Ambiguity Dynamics](21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md) | Manoeuvre-space model | Declared domain / simpler alternatives |
 | [22 — Cross-Layer Invariants](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md) | Typed address discipline | Layer-specific evidence / coupling tests |
 | [22A — Recursive Address Closure](22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md) | Property-carrier discipline | No untyped inheritance |
-| [23 — Agency Accessibility](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md) | Action-map model | Operational rather than diagnostic use |
+| [23 — Agency Accessibility](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md) | Action-map, path-dependent capture, and restorative-readdressing model | Operational rather than diagnostic use; recovery not assumed |
 | [24 — Cross-Support Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) | Dependency navigation | Must reflect live canon |
 | [24A — Active Traversal](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md) | Matched-control traversal hypothesis | Matched resources / evaluation |
 | [24B — Strongest Fair Null](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md) | Fair-null/specificity protocol | Commensurable metrics / strong alternatives |
@@ -455,4 +459,4 @@ The public repository contains scientific proposals, mathematical and methodolog
 
 ## Compressed rule
 
-> Define the claim at its proper layer, preserve the comparison class and construction address, build the typed admissibility descriptor, assemble the active physical law object, promote an interface into explicit state only when it is trackable, prospectively load-bearing and recursively updated, route the result to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, local restriction, relational completion, macro persistence, or local performance silently become empirical truth.
+> Define the claim at its proper layer, preserve the comparison class and construction address, build the typed admissibility descriptor, assemble the active physical law object, promote an interface into explicit state only when it is trackable, prospectively load-bearing and recursively updated, route the result to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, local restriction, relational completion, macro persistence, local performance, or one true statement at the wrong address silently become empirical or explanatory closure. Where a system has already crossed a declared boundary, preserve the history and lawful remainder, test the restorative future from the state actually reached, and readdress without assuming either irrecoverability or successful recovery.
