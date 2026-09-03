@@ -377,6 +377,7 @@ The compressed update is
 \mathrm{Instrument}_{P\to(P,O)}
 \circ
 \mathrm{Propagate}_{P}^{\,\mathfrak L_P}.
+}
 ```
 
 `Domain before generator` and `support before weighting` are retained as clean specialisations, while the general capstone permits a demonstrated relation to change domain, transition rule, weighting, or a typed combination. The P-only null remains controlling. This closes architecture, not the branch-specific quantum/gravitational derivation.
