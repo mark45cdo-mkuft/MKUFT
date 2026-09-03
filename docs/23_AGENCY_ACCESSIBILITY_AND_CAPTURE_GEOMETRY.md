@@ -293,6 +293,8 @@ One ordinary retention-pressure mechanism is **status or self-image cost**. A pe
 
 A clean discriminator is therefore to hold the substantive object fixed while changing or masking the status-bearing cue where the domain permits it. If evaluation, admissibility, weighting, or willingness to readdress changes materially under matched source-identity, authority, prestige, or status blinding, then status/identity gating becomes a candidate load-bearing variable. The result does not establish bad faith: it identifies a possible retention or selection mechanism that must still compete with ordinary expertise, reliability, quality-control, and context explanations.
 
+Where source identity also carries legitimate information, a stronger design is sequential: freeze the substantive evaluation under appropriate blinding, then reintroduce only source properties with a typed right to matter to the live question—such as independently demonstrated expertise, reliability, custody, calibration or conflict information—and measure the resulting delta. The purpose is not to erase source knowledge but to separate evidential source properties from rank or identity effects.
+
 The same separation changes recovery. Correction should not be made artificially impossible by coupling one failed relation to the destruction of every lawful structure that has become associated with it. Where a restorative route exists, preserve the lawful remainder, retain the historical record, change the relation that fails the declared boundary, and re-address from the state actually reached.
 
 Formally, a present boundary failure does not by itself establish an empty restorative future:
@@ -304,6 +306,38 @@ x_t\in\mathcal E
 ```
 
 This is not a promise that every system is recoverable. It is a prohibition on declaring recovery impossible merely because the crossing already happened. The restorative set must be tested under the actual current state, controls, environment, safety constraints, and horizon.
+
+### 8B.1 Restorative negative-space guards
+
+Restorative reachability is a property of the future available from the present state. It does not transmit admissibility backward into the path that produced that state. In particular,
+
+```math
+\Gamma_R(x_t)\neq\varnothing
+\;\not\Rightarrow\;
+\mathrm{Admissible}(\gamma_{\mathrm{in}}).
+```
+
+A system may therefore have crossed a boundary inadmissibly and still retain a lawful route back; conversely, an earlier admissible transition is not made retroactively inadmissible merely because later conditions deteriorate.
+
+Likewise, `wait` or `no active correction` is not automatically a static condition. Where autonomous dynamics, reinforcement, decay, commitment, environment or deadline structure change the Address or restorative future during an interval, the no-op interval is itself a candidate transition. This is the capture/recovery application of the rate-, schedule- and future-sensitive addressing already developed in Modules 33S5 and 33S6. If the interval changes no named route, cost, evidence, reserve or decision beyond tolerance, no extra urgency is earned.
+
+A claimed repair should also change the future-bearing relation it claims to repair. If a correction is supposed to alter access, weighting, dependency, calibration, transition availability or recovery geometry, at least one prospectively named readout at that address should change accordingly. A purely verbal or representational change does not by itself establish structural repair.
+
+When the suspected defect includes the evaluator, evidence gate, self-model or calibration channel used to certify its own repair, internal coherence alone may be insufficient. Use an independent-enough comparator where the disputed relation requires one: direct readback, preserved record, separately validated model or instrument, fresh/blinded evaluator, physical measurement, or another channel not defined by the disputed state. Independence is functional rather than social and is not required where ordinary direct readback already closes the state.
+
+Finally, restoration is address-local. If state $A$ materially altered another object $B$ or a relation $R_{AB}$ before being repaired, then
+
+```math
+\mathrm{Restored}(A)
+\;\not\Rightarrow\;
+\mathrm{Restored}(B)
+\quad\text{or}\quad
+\mathrm{Restored}(R_{AB}).
+```
+
+Inspect only the load-bearing downstream or relational consequence cone. Null descendants close; still-deformed descendants retain their own recovery question. This prevents both premature whole-system closure and endless retrospective expansion.
+
+> **Recovery points forward; it does not licence the path behind. A repair must change what it claims to repair, and restoring one address does not silently restore every address it touched.**
 
 > **Historical error remains history. It does not automatically become a terminal state. Preserve what can lawfully remain, correct what cannot, and re-address.**
 
@@ -363,6 +397,8 @@ Path-dependent capture further predicts that, in some domains, cumulative trajec
 
 The address-separated recovery extension further predicts that, where origin/trajectory, retention pressure, and lawful remainder are genuinely distinct, modelling them separately should improve at least one declared classification, intervention, recovery, or prospective prediction relative to a fused account. Where status/identity gating is specifically load-bearing, matched blinding or controlled alteration of status-bearing cues should change evaluation or readdressing behaviour while the substantive object is held fixed.
 
+The restorative negative-space guards add narrower predictions where their triggers are live: a load-bearing no-op interval should change a declared future or reserve relative to immediate action; a structural repair should alter the prospectively named future-bearing readout; a self-certification defect should weaken under an independent-enough comparator; and downstream objects materially deformed by the pre-repair trajectory may remain open after local restoration.
+
 Argument alone should often fail where the primary barrier is threat-gating, material dependency, body-state reinforcement, or accumulated exit cost.
 
 ## 13. Falsifiers and limits
@@ -373,6 +409,8 @@ The path-dependent extension is weakened if terminal-state variables perform as 
 
 The address-separated extension is weakened if origin/trajectory, retention pressure, and lawful remainder cannot be distinguished reliably in the declared domain; separating them changes no classification, prediction, intervention, or restorative result; or the proposed readdressing route preserves no more lawful function and produces no better recovery discrimination than simpler domain-native repair models. It also fails if adjacent truths are treated as evidence of deception without independent support, if historical correction is mistaken for erasure of the original state, or if restorative reachability is assumed rather than tested. A proposed status/identity-gating mechanism is weakened if matched blinded/unblinded controls produce no reproducible difference, or if any difference is better explained by legitimate expertise, reliability, custody, quality, or other ordinary source-information effects.
 
+The restorative negative-space extension is weakened if delay/no-op intervals do not reproducibly alter a declared state or restorative future when they are claimed to be load-bearing; a claimed repair produces no predicted change on the relation it is supposed to alter; independent-enough verification does not change calibration where self-certification bias was predicted; or the proposed downstream consequence cone adds no real unresolved object beyond local restoration. Recoverability must not be used as evidence that an earlier transition was admissible, and a remaining downstream defect must not be used to deny a locally demonstrated repair at its own address.
+
 The model also fails if it becomes merely a label for disagreement. Ordinary disagreement, loyalty, faith, duty, sacrifice, borrowing, adaptation, convergence, and independent rediscovery cannot be erased by calling them capture or parasitism, and reduced accessibility does not imply zero moral agency.
 
 ## 14. Related public documents
@@ -382,6 +420,8 @@ The model also fails if it becomes merely a label for disagreement. Ordinary dis
 - [GRACE Traversal Rule](20_GRACE_TRAVERSAL_RULE.md)
 - [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
 - [Addressed Admissible Futures and Restorative Reachability](33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
+- [Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)
+- [Future-Splitting State Recruitment](33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
 - [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 - [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
@@ -394,5 +434,7 @@ The model also fails if it becomes merely a label for disagreement. Ordinary dis
 > A sequence of locally defensible transitions can produce a globally inadmissible trajectory while simultaneously increasing the cost of recognising and reversing that trajectory.
 
 > A true statement at the wrong address does not close the live question; separate how the state arose, what now makes it costly to change, and what can lawfully remain after correction.
+
+> Recoverability does not transmit permission backward. Waiting matters only when the system changes while it waits. A repair must alter the relation it claims to repair, and local restoration does not silently close materially changed downstream or relational objects.
 
 > Restore the map, reconstruct the path where history matters, lower false or self-generated exit cost, reopen a lawful route, and preserve what can be restored without preserving the capture relation.
