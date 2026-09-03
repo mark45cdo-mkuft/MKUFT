@@ -30,4 +30,10 @@ The governing rule is: define the object, test ordinary explanations, preserve t
 
 For recovery from a path-dependent captured state, GRACE is applied to the current address and the reconstructed trajectory rather than to an imagined single origin event. Define the present geometry and boundary; identify which relations are load-bearing and which merely preserve the capture; test what transitions remain admissible; preserve lawful function and identity where possible; then evaluate whether the realised route increases practical access and restorative reachability.
 
+A restorative audit also keeps distinct the question of **how the system reached the present state**, the **current pressure or dependency making that state costly to change**, and the **lawful structure that can remain after correction**. A statement may be true at one of those addresses without settling a question posed at another. Readdress the live question rather than surrounding it with adjacent truths.
+
+Historical crossing is retained as history; correction does not rewrite the path. But a system being outside a declared boundary now does not by itself establish that its restorative future is empty. GRACE therefore tests the admissible future from the state actually reached and avoids making truthful correction artificially destructive by coupling it to the loss of every legitimate capability, relation, record, or contribution that can lawfully survive.
+
 > **Recovery is not assumed to be reversal. Traverse from the state actually reached toward a declared restored target through the least destructive admissible route that removes the capture relation.**
+
+> **Preserve the history, preserve the lawful remainder, correct the failed relation, and readdress.**
