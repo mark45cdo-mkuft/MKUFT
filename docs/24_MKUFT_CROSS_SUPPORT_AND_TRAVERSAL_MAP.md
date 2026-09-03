@@ -89,7 +89,7 @@ Primary documents:
 - [Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
 - [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 
-These carry bounded observer-state hypotheses, measurement-relative observability, action-map access, path-dependent boundary crossing, endogenous exit cost, address-separated recovery, responsibility, minimum-destructive readdressing, and the distinction between physical measurement back-action and O-layer record.
+These carry bounded observer-state hypotheses, measurement-relative observability, action-map access, path-dependent boundary crossing, endogenous exit cost, address-separated recovery, responsibility, minimum-destructive readdressing, and restorative negative-space guards: recoverability is kept separate from prior-path admissibility; a no-op interval is retained only when it changes the future-bearing state; structural repair is required to change the relation it claims to repair; a disputed certifying gate can require an independent-enough check; and local restoration does not silently restore materially changed downstream or relational objects.
 
 ### Boundary and physical bridges
 
@@ -200,6 +200,8 @@ to distinguish retained capacity from practical access under a declared model.
 The same module treats capture as potentially path-dependent: locally defensible transitions can accumulate into a globally inadmissible trajectory, continued participation can increase later exit cost, and recovery is evaluated from the state actually reached rather than from an imagined clean origin.
 
 Where the distinction is load-bearing, Module 23 separately addresses **origin/trajectory**, **present retention pressure**, and **lawful remainder**. A true proposition at one of those addresses does not close a question posed at another. Restorative readdressing therefore preserves history, tests whether a lawful future remains reachable, and avoids coupling correction to unnecessary destruction of capabilities or relations that remain admissible.
+
+The restorative negative-space return keeps several adjacent properties from leaking into one another. A non-empty restorative future does not license the earlier path; waiting is a transition only when time changes the future-bearing state; a claimed repair must change the relation it claims to repair; a certifying gate under test may require an independent-enough comparator; and restoration of one address does not automatically restore downstream or relational addresses materially changed by the earlier trajectory. Modules 33S5–33S7 and Module 25 remain the native owners for the corresponding time, future, independent-continuation and whole-system deformation tests.
 
 ### 24A — Active Traversal
 
@@ -375,7 +377,6 @@ The compressed update is
 \mathrm{Instrument}_{P\to(P,O)}
 \circ
 \mathrm{Propagate}_{P}^{\,\mathfrak L_P}.
-}
 ```
 
 `Domain before generator` and `support before weighting` are retained as clean specialisations, while the general capstone permits a demonstrated relation to change domain, transition rule, weighting, or a typed combination. The P-only null remains controlling. This closes architecture, not the branch-specific quantum/gravitational derivation.
@@ -459,4 +460,4 @@ The public repository contains scientific proposals, mathematical and methodolog
 
 ## Compressed rule
 
-> Define the claim at its proper layer, preserve the comparison class and construction address, build the typed admissibility descriptor, assemble the active physical law object, promote an interface into explicit state only when it is trackable, prospectively load-bearing and recursively updated, route the result to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, local restriction, relational completion, macro persistence, local performance, or one true statement at the wrong address silently become empirical or explanatory closure. Where a system has already crossed a declared boundary, preserve the history and lawful remainder, test the restorative future from the state actually reached, and readdress without assuming either irrecoverability or successful recovery.
+> Define the claim at its proper layer, preserve the comparison class and construction address, build the typed admissibility descriptor, assemble the active physical law object, promote an interface into explicit state only when it is trackable, prospectively load-bearing and recursively updated, route the result to its mathematical and evidential support, keep its falsifier attached, and do not let structural importance, mathematical elegance, local restriction, relational completion, macro persistence, local performance, or one true statement at the wrong address silently become empirical or explanatory closure. Where a system has already crossed a declared boundary, preserve the history and lawful remainder, keep prior-path admissibility separate from present recoverability, require a claimed repair to change its future-bearing relation, return materially changed downstream objects to their own addresses, and readdress without assuming either irrecoverability or successful recovery.
