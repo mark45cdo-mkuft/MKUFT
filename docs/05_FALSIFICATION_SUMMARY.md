@@ -161,6 +161,8 @@ The path-dependent extension is additionally weakened if terminal-state variable
 
 The restorative readdressing extension is weakened if origin/trajectory, present retention pressure, and lawful remainder cannot be distinguished reliably where the model says that distinction is load-bearing; if separating them changes no classification, prediction, intervention, or recovery result; if minimum-destructive correction preserves no more lawful function than simpler domain-native repair; or if restorative reachability is asserted rather than tested from the current state. A true proposition at one address must not be treated as evidence of deception merely because it leaves another live question unresolved.
 
+The restorative negative-space guards are weakened if a claimed load-bearing wait/no-op interval produces no reproducible change in the declared state or restorative future; a claimed structural repair produces no predicted change on the future-bearing relation it is supposed to alter; an independent-enough comparator does not change calibration where self-certification bias was predicted; or a proposed downstream consequence cone adds no unresolved object beyond local restoration. Recoverability must not be counted as evidence that the earlier crossing was admissible, and a remaining downstream defect must not be used to deny a locally demonstrated repair at its own address.
+
 The framework also fails if it becomes merely a label for disagreement. Capture geometry does not independently prove an external entity, and a historical boundary crossing does not by itself prove either irrecoverability or successful recovery.
 
 ## ESRT / Voynich
@@ -254,7 +256,10 @@ A claim is scientifically reviewable only when the reader can identify:
 17. whether each equation is notation, heuristic scaffold, operational model, replicated empirical model, or derived physical mechanism;
 18. whether the branch's declared relation to the parent was fixed before the result where that relation controls evidential propagation;
 19. whether failed/null branches and descendant repairs remain visible in any generator-level performance claim;
-20. whether a post-failure repair was tested on fresh evidence rather than confirmed on the data that generated it.
+20. whether a post-failure repair was tested on fresh evidence rather than confirmed on the data that generated it;
+21. whether restorative reachability is being mistaken for admissibility of the earlier path;
+22. whether a claimed repair changes the future-bearing relation it claims to repair and uses an independent-enough check when the certifying gate itself is disputed;
+23. whether local restoration is being silently promoted into restoration of downstream or relational objects that remain materially changed.
 
 Independent reader routes should reconstruct compatible definitions, equations, layer placements, and falsifiers. A whole-system coherence claim also fails if it depends on excluding the costs of maintaining the relation from the chosen analytical boundary.
 
@@ -276,6 +281,8 @@ Evidence that would materially strengthen the framework includes stable replicat
 - A visible pattern is not proof of its proposed root ontology.
 - Structural centrality is not proof of truth.
 - Local coherence is not automatically whole-system coherence.
+- Recoverability is not retroactive permission.
+- A repaired address does not automatically repair every downstream address it affected.
 - A named update process is not a physical mechanism until state space, coupling, dynamics, recovery limits, and falsifiers are defined.
 - A higher-dimensional representation is not an additional physical dimension unless a physical model earns that claim.
 
