@@ -25,6 +25,14 @@ This `README.md` is the **repository front door**. It is not a third competing o
 - **Want to check whether an MKUFT term is genuinely distinct or simply familiar science under another handle?** Use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). It is an optional cross-check, not another required reading stage.
 - **Already know the architecture and want the technical dependency map?** Go directly to the [Canon Map](CANON_MAP.md).
 
+## Finding the future-sufficiency work
+
+If you reached this repository by searching for “future admissibility” or “future-state sufficiency” in the sense of whether a present state or model remains adequate for future behaviour, the relevant MKUFT research concerns **Address Sufficiency**, **Predictive Closure**, **Addressed Admissible Futures**, and **Future Sufficiency**.
+
+This is a state/model-sufficiency question and is distinct from legal evidence admissibility or courtroom procedure.
+
+For translation between ordinary neighbouring terminology and the native MKUFT terms, use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md).
+
 You do **not** need to read this README, the Public Overview, and the Scientific Reader Traversal Guide as three versions of the same document. Their jobs are different:
 
 ```text
@@ -196,48 +204,20 @@ The current principal DOI-bearing MKUFT publication is **MKUFT — A Relational 
 
 The current research-facing synthesis is **MKUFT — Layer Before Law: A Typed Relational Architecture for Physical-Law Selection, Future-Sufficient Interfaces, and Cross-Scale Dynamics**, v1.2, dated 30 August 2026. It is public in this repository, not yet DOI-bearing, and not peer reviewed: [human-reader route](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
 
-The published **Cross-Domain Compositional Schema v0.4** has version DOI `10.5281/zenodo.22166468` and concept DOI `10.5281/zenodo.22164561`. Its Bell/tetrahedral calibration retains a NULL independent physical residual. Live calibration/future-sufficiency folds are [Module 28A](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) and [Module 33S7A](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md); exact relation removal is treated as **protocol-relative exact-relation deformation**, not an automatic causal intervention.
+The published **Cross-Domain Compositional Schema: Future-Sufficient Interfaces, Load-Bearing Relations, and Preserve-or-Reopen Reuse**, v0.4, DOI `10.5281/zenodo.22166468`, is a formal cross-domain methods paper. Its Bell/CHSH calibration is exact as a representation, but its independent new-physics residual is **NULL** under the tested comparator: the natural tetrahedral volume reduces to known CHSH excess and no new Bell inequality, Tsirelson-bound derivation, quantum mechanism, or measurable physical delta is claimed.
 
-The published **Bell Constraints as Typed Boundaries v1.0** has version DOI `10.5281/zenodo.22100926`. Its tested independent Bell-local new-physics delta is NULL; the retained result is the typed relation/access/completion/scale and falsification architecture.
+The published **Future-Splitting State Recruitment: A Cross-Domain Assay for State Adequacy and Prospective Mechanism Activation**, v1.0, DOI `10.5281/zenodo.22058303`, is the experimental methods owner for the future-sufficiency family.
 
-The published **Future-Splitting State Recruitment v1.0** has version DOI `10.5281/zenodo.22058303`: [paper route](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md) and [canonical module fold](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md).
+The published **Addressed Admissible Futures: Future-Sufficient State, Load-Bearing Relations, and Restorative Reachability**, v0.1, DOI `10.5281/zenodo.22031333`, is the public research object for future-state reachability and restorative geometry.
 
-The published **ATLD 2 v2.0** has version DOI `10.5281/zenodo.22068803`. It is a methods/evaluation paper with an exploratory 15-case execution pilot; no confirmatory system superiority or completed validation of the candidate residual coordinates is claimed.
+The public **Layer Before Law** publication is DOI `10.5281/zenodo.21971270`.
 
-Historical publication-family identity routes retained for provenance include Voynich predecessor DOI `10.5281/zenodo.18178638` and ATLD v1.0 DOI `10.5281/zenodo.21341521`.
+The public **Recursive Constraint Closure and Reachable-State Geometry** publication is DOI `10.5281/zenodo.21971425`.
 
-For the complete publication list, version identities, frozen carriers, and DOI routes, use [Papers and Publications](papers/README.md).
+The published **Bell Constraints as Typed Boundaries: Relation, Access, Completion, and Scale**, v1.0, DOI `10.5281/zenodo.22100926`, keeps Bell-local factorisation, no-signalling, conditioned process closure, local admissibility ownership, completion, and scale/resource custody distinct; its independent Bell-local new-physics delta is NULL under its tested comparison family.
 
-## Where to start
+The published **Active Traversal and Load-Bearing Dependency II (ATLD 2): Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems**, v2.0, DOI `10.5281/zenodo.22068803`, is the current ATLD publication object.
 
-If you want the shortest human route, read:
+The published **Typed Decomposition-Reconstruction: A Prospective Generator Test for Hidden Scientific Conflations**, v1.0, DOI `10.5281/zenodo.22258000`, is the current DOI-bearing methods paper for the decomposition/reconstruction generator test.
 
-1. [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md)
-2. [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md)
-3. [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md)
-4. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
-5. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
-
-The scientific traversal guide is the handoff between plain-language understanding and the hard modules. It explains what the equations are trying to establish and what a non-specialist can leave to domain experts without losing the scientific chain.
-
-If you already know the field and want the technical chain, use the [Canon Map](CANON_MAP.md).
-
-If you want papers rather than live modules, use [Papers and Publications](papers/README.md).
-
-If you want the current submission synthesis, use [MKUFT Layer Before Law v1.2](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
-
-## Development and provenance
-
-This repository is live and continues to develop. DOI-bearing publications remain frozen publication objects; later GitHub work does not silently rewrite them.
-
-Presentation defects, stale links, rendering problems, or confusing explanations are treated as defects to repair, not as intended scientific notation. Changes to the live repository should preserve version identity, provenance, and the difference between a live module, a repository paper route, and a frozen publication.
-
-The project uses AI-assisted research tooling for drafting, checking, traversal, and consistency work. AI output is not treated as scientific evidence merely because an AI produced it.
-
-## Human use
-
-Some MKUFT material also carries practical ideas about boundaries, recovery, relation, responsibility, uncertainty, cohesion, and preserving a route forward after failure. Readers may explore those ideas separately from the physics.
-
-If an AI is used for that purpose, a useful constraint is to ask it to interpret from the supplied MKUFT material without importing outside theories or invented additions. The result remains an interpretation of the framework, not an additional scientific finding.
-
-Some of this work came from equations. Some came from life. They are not the same thing, but they can sometimes illuminate one another.
+See [INDEX.md](INDEX.md), [Papers and Publications](papers/README.md), and [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md) for the full publication routes and exact object identities.
