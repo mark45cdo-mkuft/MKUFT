@@ -18,6 +18,24 @@ Where one ordinary picture carries the relation, use it. Then return to the scie
 
 A metaphor opens the door. It does not become evidence.
 
+Public and scientific explanation are not separate sources of truth. They are different-resolution readouts of the same scientific object. A public explanation may compress more; a technical explanation may expose more native detail. The load-bearing relation, evidence state, failure condition and mechanism boundary must remain the same.
+
+Scientists are also cross-domain readers. Expertise can be extremely deep at one address and temporarily non-native at the next. A clean metaphor can therefore belong in serious scientific explanation when it shortens a genuine conceptual crossing without weakening the science.
+
+The positive test is:
+
+```text
+state the relation the reader must carry
+→ use one clean picture if it materially reduces reconstruction load
+→ state or make obvious where the picture stops
+→ return to the native object
+→ continue with the exact scientific rule
+```
+
+> **A metaphor earns its place by preserving a relation, not by being vivid.**
+
+There is no metaphor quota. If removing the metaphor causes no meaningful loss of understanding, remove it. If the metaphor is required to make the scientific claim true, it has exceeded its role.
+
 Do not change or dilute the mathematics to make it readable. Add a short translation around the mathematics so a non-specialist can tell what question the equation answers, what its pieces are doing, and what would make the move fail.
 
 If an unfamiliar MKUFT term looks like a renamed standard concept, use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). The key does not assign one-to-one scientific equivalents. It asks what established science already owns, what exact residual operation MKUFT is claiming after that ownership is subtracted, and what result would make the separate handle unnecessary. It is an optional cross-check, not another reading stage.
@@ -93,7 +111,7 @@ Long nouns are useful once they carry stable meaning. They are harmful when the 
 
 A metaphor can make a relation obvious and then quietly start doing scientific work it cannot support.
 
-**Control:** use the metaphor to open the door, then return immediately to the actual scientific object. Metaphor is translation, not evidence.
+**Control:** use metaphor positively at genuine conceptual choke points when it preserves a declared relation and materially reduces reconstruction load. Then expose the break point and return immediately to the native scientific owner. Metaphor is translation and crossing support, not evidence, mechanism or ontology. Do not add metaphors by quota, and do not replace a strong reusable one merely for stylistic variety.
 
 ### 5. Scope bleed
 
