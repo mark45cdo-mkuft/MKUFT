@@ -34,6 +34,8 @@ A restorative audit also keeps distinct the question of **how the system reached
 
 Historical crossing is retained as history; correction does not rewrite the path. But a system being outside a declared boundary now does not by itself establish that its restorative future is empty. GRACE therefore tests the admissible future from the state actually reached and avoids making truthful correction artificially destructive by coupling it to the loss of every legitimate capability, relation, record, or contribution that can lawfully survive.
 
+Restorative reachability does not make the path that produced the present state admissible. Where time or inaction can change the Address, exit cost, evidence, reserve, authority, or reachable future, treat the wait interval as a candidate transition rather than assuming the state is frozen. A claimed repair closes only when the load-bearing relation it was meant to change produces the corresponding future-bearing deformation; when the certifying gate is itself part of the disputed state, use an independent-enough check. After local repair, return only materially changed downstream or relational objects and keep any unresolved descendant at its own address rather than silently promoting local recovery into whole-system recovery.
+
 > **Recovery is not assumed to be reversal. Traverse from the state actually reached toward a declared restored target through the least destructive admissible route that removes the capture relation.**
 
-> **Preserve the history, preserve the lawful remainder, correct the failed relation, and readdress.**
+> **Preserve the history, preserve the lawful remainder, correct the failed relation, verify the changed future, and readdress.**
