@@ -35,6 +35,19 @@ Scientific Reader Traversal Guide = scientific handoff into the technical body
 
 If you are unsure where to begin, take the **Public Overview** route.
 
+## Future sufficiency and admissible futures
+
+Readers searching for **future admissibility**, **future-state sufficiency**, **predictive state sufficiency**, **predictive closure**, **reachable futures**, or **minimal sufficient state** may be looking for the same problem family treated here: whether a present state description contains enough information for the future quantity being predicted, and which future states or recovery routes remain reachable. In MKUFT, this is distinct from legal evidence admissibility.
+
+Main routes into that work:
+
+- [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
+- [Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
+- [Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
+- [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
+
+For translation between ordinary neighbouring terminology and the native MKUFT terms, use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md).
+
 ## The idea in one minute
 
 Suppose a scientist asks, “What law governs this thing?”
