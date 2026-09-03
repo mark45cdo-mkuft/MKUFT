@@ -92,6 +92,10 @@ When it writes different spaces such as `X_S`, `X_I`, `X_P` and `X_O`, the equat
 
 When it writes a coupling map like `C_IP : X_I → X_P`, that notation names a task. It does not prove a physical coupling exists. A real physical claim still needs a carrier, units where applicable, observable consequence, baseline and falsifier.
 
+A useful crossing picture is a compiler's type checker. Two expressions can each be valid on their own and still make an invalid operation when their types do not match. In the same way, `admissibility`, `state`, `distance` or `dimension` can be legitimate words in several domains without licensing the same operation between them. Module 27 is doing the scientific equivalent of refusing an illegal cast until the map is declared.
+
+The metaphor stops at the typing relation: nature is not being claimed to execute software. The actual scientific burden remains the declared spaces, maps, units or normalisations, observables, interventions and falsifiers in the native domain.
+
 ### Kill point
 
 If typing adds no protection against invalid comparisons, dimensional mistakes, hidden ontology or cross-layer smuggling, then it is decorative notation.
@@ -268,6 +272,10 @@ The address map groups states according to the variables currently retained. The
 If that future difference is larger than the declared tolerance, the state description is missing something.
 
 This does not tell you what the missing variable is. It tells you that the current representation is insufficient.
+
+A compact picture is a chess position. Two boards can show the same visible arrangement of pieces and still not be the same predictive state: castling rights, en-passant availability or repetition history can change the legal futures. A state description that records only the visible board can therefore merge positions that are not equivalent for the next-move question.
+
+The metaphor stops at that structural point. MKUFT does not claim scientific systems obey chess rules. The native test is still whether states grouped by the declared Address produce materially different target-future distributions beyond the declared tolerance under the relevant domain dynamics.
 
 ### Kill point
 
