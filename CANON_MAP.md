@@ -146,11 +146,11 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 
 ### Structural and traversal
 
-- **20 — GRACE:** Geometry, Relation, Admissibility, Coherence, Emergence as a route check.
+- **20 — GRACE:** Geometry, Relation, Admissibility, Coherence, Emergence as a route check, including minimum-destructive restorative readdressing from the state actually reached.
 - **21 — Ambiguity Dynamics:** unresolved feasible volume, route connectivity, and preserved access under declared assumptions.
 - **22 — Cross-Layer Invariants:** layer-specific addressing, variables, spaces, couplings, and falsifiers.
 - **22A — Recursive Address Closure:** no untyped inheritance of version, licence, evidence, causation, authority, or other properties.
-- **23 — Agency Accessibility:** distinguishes retained capacity from practical access under an explicitly bounded systems model.
+- **23 — Agency Accessibility:** distinguishes retained capacity from practical access, models path-dependent boundary crossing and endogenous exit-cost growth, separates origin/trajectory from present retention pressure and lawful remainder, and tests restorative readdressing without assuming either irrecoverability or recovery.
 - **24 — Cross-Support Map:** dependency and limiting relationships among public modules.
 - **24A — Active Traversal:** matched-control hypothesis for functional gain from typed active traversal.
 - **24B — Strongest Fair Null:** full-history replay, strong alternatives, and relationship-specificity controls.
