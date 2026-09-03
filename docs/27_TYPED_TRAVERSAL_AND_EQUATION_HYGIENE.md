@@ -159,6 +159,27 @@ Informational adjacency and physical proximity are distinct relations:
 
 An I-layer relation may constrain joint physical statistics only through a defined coupling. It does not grant direct write-access to either endpoint's complete physical state.
 
+## 8A. Semantic descent and native termination
+
+When an MKUFT term, abstract relation, or cross-domain pattern is carried into a scientific domain, verbal, visual, algebraic, or morphological resemblance is not enough to give it domain-specific mechanism status.
+
+The term must terminate, to the scope being claimed, in the domain's native owner: the relevant state variable or object, relation or dynamics, observable, intervention or deformation surface, quantitative units or tolerance where applicable, and failure or reduction condition. If that translation cannot be supplied, keep the term explicitly abstract.
+
+In particular:
+
+- `admissibility` must be typed as hard reachable support, transition weighting/kernel, threshold/barrier, viability/capability, or another declared native transition class rather than silently moving between them;
+- `hidden state` means omitted or latent state relative to a declared representation, not an automatically hidden ontology;
+- `higher-dimensional` means a declared state/address/parameter space unless a physical spacetime model supplies additional dimensions and observables;
+- `load-bearing` requires a deformation, ablation, or substitution that changes the declared target in the predicted direction beyond tolerance.
+
+If the native scientific account already explains the demonstrated result, that success is not additional evidence for an independent MKUFT layer, force, or mechanism. The higher relation may retain structural, search, compression, or pedagogical value, but only an independently surviving residual can support a stronger claim.
+
+> **The semantic word must terminate in the native owner, or remain explicitly abstract.**
+
+> **Descend the semantics until the domain can own them. Then subtract what the domain already explains. Only the residual may climb back up.**
+
+A concrete physical calibration is given in [32S3 — Relational Brackets, Completion Geometry, and I→P Admissibility](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md).
+
 ## 9. Substrate measure-space discipline
 
 The substrate scaffold is canonically a measure space,
