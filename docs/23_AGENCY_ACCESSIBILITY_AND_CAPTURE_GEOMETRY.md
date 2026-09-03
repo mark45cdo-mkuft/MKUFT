@@ -267,7 +267,43 @@ recognise current address
 
 This is a direct application of conditional recoverability and restorative-future geometry in Modules 33S3 and 33S6. It does not assume that every system is recoverable or that every prior state should be restored exactly.
 
-## 8B. Operational parasitism as a relation
+## 8B. Address-separated truth, retention pressure, and lawful remainder
+
+A system can discover that its current state lies outside a governing boundary even when no single earlier transition was intended as the decisive crossing. Once that happens, three questions should be kept separate when the distinction is load-bearing:
+
+1. **origin / trajectory** — what sequence, history, or relation actually produced the present state?;
+2. **retention pressure** — what current dependency, cost, identity, function, commitment, or coupling makes changing that state difficult now?;
+3. **lawful remainder** — what capability, structure, record, contribution, commitment, or relation remains admissible if the failed dependency is corrected?
+
+These questions can receive different true answers. Let $q$ be the live question and $r$ a proposition offered in response. Then the address rule is
+
+```math
+\mathrm{True}(r)=1
+\;\land\;
+\mathrm{Address}(r)\neq\mathrm{Address}(q)
+\;\Longrightarrow\;
+r\text{ does not close }q.
+```
+
+Thus present functionality does not by itself settle how the state arose; the fact that an earlier step was locally reasonable does not settle the accumulated trajectory; and genuine value in the present system does not establish that every dependency now supporting that value is admissible.
+
+Repeated adjacent truths that leave the governing question untouched are therefore a reason to re-address the unresolved question. They are not, by themselves, evidence of deception, pathology, hostile agency, or a unique cause.
+
+The same separation changes recovery. Correction should not be made artificially impossible by coupling one failed relation to the destruction of every lawful structure that has become associated with it. Where a restorative route exists, preserve the lawful remainder, retain the historical record, change the relation that fails the declared boundary, and re-address from the state actually reached.
+
+Formally, a present boundary failure does not by itself establish an empty restorative future:
+
+```math
+x_t\in\mathcal E
+\;\not\Rightarrow\;
+\Gamma_R(x_t)=\varnothing.
+```
+
+This is not a promise that every system is recoverable. It is a prohibition on declaring recovery impossible merely because the crossing already happened. The restorative set must be tested under the actual current state, controls, environment, safety constraints, and horizon.
+
+> **Historical error remains history. It does not automatically become a terminal state. Preserve what can lawfully remain, correct what cannot, and re-address.**
+
+## 8C. Operational parasitism as a relation
 
 Where parasitic language is useful, it should be defined relationally rather than ontologically.
 
@@ -321,6 +357,8 @@ Deep capture should correlate with a larger difference between actual and percei
 
 Path-dependent capture further predicts that, in some domains, cumulative trajectory variables should explain terminal capture status or exit cost better than terminal-state variables alone; repeated commitment should increase measured exit cost where the self-deepening mechanism is active; and accurate trajectory reconstruction should improve identification of future high-risk transitions beyond retrospective narrative fit.
 
+The address-separated recovery extension further predicts that, where origin/trajectory, retention pressure, and lawful remainder are genuinely distinct, modelling them separately should improve at least one declared classification, intervention, recovery, or prospective prediction relative to a fused account.
+
 Argument alone should often fail where the primary barrier is threat-gating, material dependency, body-state reinforcement, or accumulated exit cost.
 
 ## 13. Falsifiers and limits
@@ -328,6 +366,8 @@ Argument alone should often fail where the primary barrier is threat-gating, mat
 The model is weakened if actual and perceived action sets cannot be distinguished; independent raters cannot apply the variables reliably; restored information does not improve practical access where material constraints are controlled; threat-gating does not predict exit avoidance; identity fusion does not correlate with attractor defence; the threshold or multiplicative model performs worse than simpler alternatives; or the framework produces no testable intervention difference.
 
 The path-dependent extension is weakened if terminal-state variables perform as well as history-aware models on held-out cases; inferred boundary crossings are not reproducible across independent reconstructions; measured exit cost does not change with the proposed reinforcement variables; trajectory reconstruction does not improve prospective discrimination; or ordinary lock-in, sunk-cost, habit, switching-cost, path-dependence, coercion, or incentive models explain the data without needing the proposed composition.
+
+The address-separated extension is weakened if origin/trajectory, retention pressure, and lawful remainder cannot be distinguished reliably in the declared domain; separating them changes no classification, prediction, intervention, or restorative result; or the proposed readdressing route preserves no more lawful function and produces no better recovery discrimination than simpler domain-native repair models. It also fails if adjacent truths are treated as evidence of deception without independent support, if historical correction is mistaken for erasure of the original state, or if restorative reachability is assumed rather than tested.
 
 The model also fails if it becomes merely a label for disagreement. Ordinary disagreement, loyalty, faith, duty, sacrifice, borrowing, adaptation, convergence, and independent rediscovery cannot be erased by calling them capture or parasitism, and reduced accessibility does not imply zero moral agency.
 
@@ -348,5 +388,7 @@ The model also fails if it becomes merely a label for disagreement. Ordinary dis
 > Freedom may remain structurally present while the map required to recognise and use it has been corrupted.
 
 > A sequence of locally defensible transitions can produce a globally inadmissible trajectory while simultaneously increasing the cost of recognising and reversing that trajectory.
+
+> A true statement at the wrong address does not close the live question; separate how the state arose, what now makes it costly to change, and what can lawfully remain after correction.
 
 > Restore the map, reconstruct the path where history matters, lower false or self-generated exit cost, reopen a lawful route, and preserve what can be restored without preserving the capture relation.
