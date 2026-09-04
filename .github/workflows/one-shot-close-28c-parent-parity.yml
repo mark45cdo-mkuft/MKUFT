@@ -1,0 +1,61 @@
+name: One-shot close 28C parent parity
+
+on:
+  push:
+    paths:
+      - '.github/workflows/one-shot-close-28c-parent-parity.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Repair final canonical parents
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          def replace_once(path, old, new):
+              p = Path(path)
+              s = p.read_text()
+              n = s.count(old)
+              if n != 1:
+                  raise SystemExit(f"{path}: expected exactly one anchor, found {n}: {old[:140]!r}")
+              p.write_text(s.replace(old, new, 1))
+
+          # Cross-support map: general route now carries the live future-sufficiency chain into its experimental instantiation.
+          old = """[Start Here](../START_HERE_PUBLIC_OVERVIEW.md) → [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) → [Canon Map](../CANON_MAP.md) → [Cross-Support Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Load-Bearing Relation Sets](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) → [Relational Addressability](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) → [Temporal Continuity](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) → [Relational Brackets / Completion](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) → [Intrinsic–Extrinsic Transport](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) → [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) → [Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)"""
+          new = """[Start Here](../START_HERE_PUBLIC_OVERVIEW.md) → [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) → [Canon Map](../CANON_MAP.md) → [Cross-Support Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md) → [Context-Conditioned State Comparison](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md) → [Recursive Constraint Closure](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) → [Load-Bearing Relation Sets](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) → [Relational Addressability](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md) → [Temporal Continuity](32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md) → [Relational Brackets / Completion](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md) → [Intrinsic–Extrinsic Transport](32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) → [SIPO Capstone](33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) → [Dynamic Interface Promotion](33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md) → [Relational Closure / Law Descent](33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) → [Recoverability](33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) → [Address Sufficiency](33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) → [Rate-Conditioned Addressing](33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md) → [Addressed Admissible Futures](33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) → [Future-Splitting State Recruitment](33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) → [FSAI / Layer-Before-Law Precedence](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md) → [Native Consequence-Cone Stress](28B_NATIVE_CONSEQUENCE_CONE_STRESS_TESTING_AND_RELATION_INFORMATIVE_DEFORMATION.md) → [Minimum Decisive FSAI/FSSR Flagship — HCP Magnesium](28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md) → [Falsification](05_FALSIFICATION_SUMMARY.md)"""
+          replace_once("docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md", old, new)
+
+          old = """- [Experimental Test Programme](04_EXPERIMENTAL_TEST_PROGRAM.md)\n- [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)\n- [Falsification Summary](05_FALSIFICATION_SUMMARY.md)"""
+          new = """- [Experimental Test Programme](04_EXPERIMENTAL_TEST_PROGRAM.md)\n- [Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)\n- [Native Consequence-Cone Stress Testing](28B_NATIVE_CONSEQUENCE_CONE_STRESS_TESTING_AND_RELATION_INFORMATIVE_DEFORMATION.md)\n- [Minimum Decisive FSAI/FSSR Flagship — HCP Magnesium](28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)\n- [Falsification Summary](05_FALSIFICATION_SUMMARY.md)"""
+          replace_once("docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md", old, new)
+
+          old = """These carry controls, preregistration, null models, effect-size discipline, promotion criteria, claim status, replication requirements, and reduction rules."""
+          new = """These carry controls, preregistration, null models, effect-size discipline, promotion criteria, claim status, replication requirements, and reduction rules. Module 28B adds the target-sufficient native consequence surface for relation-informative deformation. Module 28C is the first full minimum-decisive prospective instantiation of the FSAI/FSSR family: a history-dependent HCP-magnesium protocol with one primary future object, strongest fair native constitutive states, an FSSR challenge versus a matched parameter-information challenge, predeclared minimal physical repair, remove/restore burden, four separately governed verdicts, and explicit null publication. It reports no positive experimental result."""
+          replace_once("docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md", old, new)
+
+          # Integrated Master Spine: architecture already current; expose concrete experimental embodiment only.
+          old = """FSSR supplies the experimental attack on this claim: choose an admissible future that attempts to split histories currently treated as the same state, confirm any split independently, identify the smallest physically typed repair, and require remove/restore closure before crediting state recruitment. FSAI names the cross-domain future-sufficiency criterion, while LBLP states that address adequacy is tested before a residual is promoted into law revision.\n\nThis is an explicit synthesis of the already canonical 32/33 family, not a new standalone law of nature or a new physical mechanism."""
+          new = """FSSR supplies the experimental attack on this claim: choose an admissible future that attempts to split histories currently treated as the same state, confirm any split independently, identify the smallest physically typed repair, and require remove/restore closure before crediting state recruitment. FSAI names the cross-domain future-sufficiency criterion, while LBLP states that address adequacy is tested before a residual is promoted into law revision.\n\nThe first full minimum-decisive prospective physical/material instantiation is [Module 28C — History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md). It does not claim discovery of twinning, detwinning, hysteresis or constitutive memory. It asks whether a strong predeclared native constitutive state can be prospectively shown insufficient by a lawful state-splitting challenge, whether the smallest measurable physical repair restores held-out closure, whether remove/restore deformation behaves as predicted, and whether the FSSR challenge objective adds value beyond a matched parameter-information design. State sufficiency, challenge-design value, mechanism localisation and prospective recruitment lead remain separate verdicts. Empirical status is open until independent physical execution.\n\nThis is an explicit synthesis of the already canonical 32/33 family, not a new standalone law of nature or a new physical mechanism."""
+          replace_once("MKUFT_INTEGRATED_MASTER_SPINE.md", old, new)
+
+          old = """Canonical owners: Modules 04, 05, 27, 28, 29, and branch-specific controls in the 32/33 family."""
+          new = """Canonical owners: Modules 04, 05, 27, 28, 28B, 28C, 29, and branch-specific controls in the 32/33 family. Module 28B governs relation-informative native deformation; Module 28C is the first minimum-decisive FSAI/FSSR flagship protocol and remains a prospective design object until physical execution."""
+          replace_once("MKUFT_INTEGRATED_MASTER_SPINE.md", old, new)
+          PY
+
+          rm .github/workflows/one-shot-close-28c-parent-parity.yml
+          git config user.name "MKUFT Parent Parity"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git status --short
+          git commit -m "Close 28C parent parity in MKUFT traversal and master spine"
+          git push
