@@ -382,8 +382,9 @@ For human-facing recovery, assistance, governance, design, or intervention, hand
 truth / evidence / law / safety / permission first
 → among surviving lawful routes
 → prefer the route that removes the failed/capture relation
-   while needlessly destroying the least lawful capability,
-   dignity, agency, relationship, provenance, or restorative option
+   while preserving as much lawful capability, dignity, agency,
+   relationship, provenance, and restorative option as the target permits
+→ avoid irreversible destruction that adds no target-relevant gain
 → verify the future actually changed
 ```
 
