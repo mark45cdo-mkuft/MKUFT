@@ -423,7 +423,7 @@ For matched histories under a frozen challenge, estimate the future-splitting re
 ```math
 \widehat R_q(Theta_0;u)
 =
-\operatorname{UpperTail}_{pre}
+\mathrm{UpperTail}_{\mathrm{pre}}
 \{d_q(y_h,y_h') : D_Theta(Theta_0(h),Theta_0(h')) <= tau_Theta\}.
 ```
 
