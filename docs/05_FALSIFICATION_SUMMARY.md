@@ -125,6 +125,25 @@ When the parent claims credit as a hypothesis-generating, discriminating, or cro
 
 > **Locality governs what a result proves. Lineage governs what the attempt costs.**
 
+## FSAI/FSSR minimum-decisive flagship
+
+The prospective HCP-magnesium flagship in [28C](28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md) is weakened, narrowed or killed at the exact branch where any of the following occurs:
+
+- a strong frozen separating challenge produces no future split beyond the preregistered tolerance, in which case the simpler state is provisionally preserved for that scope;
+- the apparent split disappears under tighter state matching, challenge/boundary matching, measurement controls or the declared stochastic model;
+- a serious native constitutive state already contains the supposedly missing coordinate and closes held-out futures equally or better;
+- a flexible history-aware ordinary model closes the same future with equal or better predictive performance and the FSSR procedure adds no prospective minimality, interpretability or probe-efficiency gain;
+- the FSSR-selected challenge and a matched parameter-information design are prospectively equivalent, in which case the separate challenge-selection claim is NULL;
+- the candidate repair is selected after confirmatory outcomes, fails held-out restoration, or its removal does not reopen the failure;
+- only an arbitrary latent coordinate closes the future and no stable measurable physical descriptor or invariant subspace survives deformation;
+- the separating challenge creates the candidate mechanism rather than revealing an already future-bearing distinction;
+- generic damage or an ordinary compensating route reproduces the same deformation signature;
+- computational state-variable deletion is treated as physical ablation without a native causal bridge;
+- the claimed recruitment lead `lambda_R < lambda_T` disappears under preregistered confirmation or replication;
+- or independent replication fails.
+
+The experiment returns four separately governed verdicts — **state sufficiency, challenge-design value, mechanism localisation, and prospective lead**. A success in one may not be used to rescue a null or failure in another. Established twinning, detwinning, hysteresis or constitutive memory is native materials-science evidence and is not itself evidence for MKUFT.
+
 ## Layer Before Law and quantum-gravity reframing
 
 The foundational branch in [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) is weakened or rejected if:

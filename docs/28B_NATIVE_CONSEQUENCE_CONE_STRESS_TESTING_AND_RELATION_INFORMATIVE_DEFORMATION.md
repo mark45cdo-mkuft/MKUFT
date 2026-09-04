@@ -7,6 +7,7 @@
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)  
 **Experimental-governance parent:** [28 — Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)  
 **Future-splitting support:** [33S7 — Future-Splitting State Recruitment](33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)  
+**First full flagship instantiation:** [28C — Minimum Decisive FSAI/FSSR HCP Magnesium Protocol](28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)  
 **Public formulation date:** 4 September 2026  
 **Status:** live methodological refinement of relation-deformation and ablation design. It reports no positive empirical result and introduces no new physical law, force, field, causal geometry or universal optimisation principle.
 
@@ -221,6 +222,12 @@ candidate state equivalence
 If removing native context changes which futures are reachable or which relation owns the split, that context was not safely disposable for that target.
 
 If the reduced experiment and native-cone experiment are prospectively equivalent within tolerance, the smaller design is preferred.
+
+## 9A. First full flagship instantiation
+
+[28C — Minimum Decisive FSAI/FSSR Flagship: History-Dependent HCP Magnesium Mechanics](28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md) is the first full protocol in the public canon built explicitly around this native-consequence-cone rule. It fixes one primary reverse-loading trajectory, gives strong native constitutive models full standing, compares an FSSR state-splitting challenge against a matched parameter-information challenge, requires a predeclared minimal measurable repair, separates computational from physical deformation, and keeps state, challenge-design, mechanism-localisation and prospective-lead verdicts distinct.
+
+That protocol is an **instantiation and stress surface**, not evidence that the general consequence-cone language is novel or empirically superior. If the native-cone design adds no discrimination over a standard reduced experiment in that target, 28C requires the consequence-cone delta to contract there.
 
 ## 10. Scale return
 

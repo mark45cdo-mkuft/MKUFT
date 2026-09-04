@@ -361,6 +361,8 @@ A future-equivalence claim is now precise enough to attack experimentally. The n
 
 Read: [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
 
+Flagship implementation: [28C — Minimum Decisive FSAI/FSSR Flagship: History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
+
 ### What you carry in
 
 Addressed Admissible Futures has defined when two histories are allowed to count as the same state for a declared future task.
@@ -434,6 +436,10 @@ A clean version is:
 
 If the variable adds nothing, the state-recruitment claim earns nothing in that system.
 
+### Minimum decisive materials flagship
+
+The first full protocol that forces this logic into a native experimental object is [28C — History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md). It does **not** ask whether magnesium has loading-history effects; native materials science already owns twinning, detwinning, hysteresis and constitutive internal variables. It asks whether a strong predeclared reduced state can be prospectively shown insufficient by a challenge chosen specifically to split false state equivalence, whether the smallest measurable physical repair restores held-out closure, whether remove/restore deformation behaves as predicted, and whether that question-selection strategy adds value beyond a matched parameter-information design. The protocol returns state-sufficiency, challenge-design, mechanism-localisation and prospective-lead verdicts separately so that one partial success cannot promote the others.
+
 ### Kill point
 
 If the split disappears under better ordinary measurement, tighter state or challenge matching, stronger baseline modelling, noise/stochastic control, environment control, probe-induction control or conventional hidden-state estimation, the stronger mechanism-localisation language is not earned. If the declared readout cannot resolve the target-relevant distinction, the experiment has not yet established the required split at that O-address.
@@ -494,6 +500,8 @@ Read:
 
 - [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 - [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+- [Native Consequence-Cone Stress Testing](docs/28B_NATIVE_CONSEQUENCE_CONE_STRESS_TESTING_AND_RELATION_INFORMATIVE_DEFORMATION.md)
+- [Minimum Decisive FSAI/FSSR Flagship Protocol](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
 - [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 

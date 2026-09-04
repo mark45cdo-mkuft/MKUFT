@@ -13,6 +13,7 @@
 **Future-equivalence parent:** [33S6 — Addressed Admissible Futures](33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)  
 **Observability support:** [31 — Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)  
 **Promotion/falsification support:** [28 — Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)  
+**Minimum-decisive flagship implementation:** [28C — History-Dependent HCP Magnesium Mechanics](28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)  
 **Public formulation date:** 22 August 2026  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
 **Status:** canonical experimental specialisation of the 33S4–33S6 future-sufficiency family. It turns future-equivalence into a direct assay of state adequacy, defines state recruitment by independently confirmed failure plus minimal typed repair, and tests whether recruitment can prospectively localise an emerging physical mechanism. It is not a separate law stack, a new force or field, or evidence of autonomous information-to-physical coupling.
@@ -377,6 +378,8 @@ Single-cell fate work supplies systems where present position, state velocity, p
 
 The flagship target is a learned history-dependent constitutive model for HCP magnesium or a comparable material with rich microstate-resolved continuation data.
 
+The full minimum-decisive implementation is now specified in [28C — History-Dependent HCP Magnesium Mechanics](28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md). It preserves the flagship target below but upgrades the execution burden: the confirmatory state must be the strongest practical predeclared domain-native reduced state rather than a straw-man macroscopic state; the FSSR challenge faces a matched parameter-information design; one primary reverse-loading trajectory is frozen; candidate repairs are predeclared and physically typed; computational and physical deformation are kept separate; and state-sufficiency, challenge-design, mechanism-localisation and prospective-lead verdicts cannot promote one another.
+
 The protocol is:
 
 ```text
@@ -509,6 +512,7 @@ This makes FSSR a downstream experimental specialisation of 33S4–33S6 **and** 
 
 - [Published FSSR v1.0 — Zenodo](https://doi.org/10.5281/zenodo.22058303)
 - [FSSR public paper route](../papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md)
+- [Minimum Decisive FSAI/FSSR Flagship — HCP Magnesium](28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
 - [FSSR standalone publication record](../FSSR_STANDALONE_PUBLICATION.md)
 - [AAF parent publication](https://doi.org/10.5281/zenodo.22031333)
 - [Papers and Publications index](../papers/README.md)

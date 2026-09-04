@@ -32,6 +32,7 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 17. [Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)
 18. [Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
 19. [Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
+   - **First minimum-decisive flagship protocol:** [History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
 20. [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
 21. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
 22. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
@@ -59,6 +60,8 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 17. [Standalone Formal Addendum](docs/03_STANDALONE_FORMAL_ADDENDUM.md)
 18. [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
 19. [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+   - [Native Consequence-Cone Stress Testing](docs/28B_NATIVE_CONSEQUENCE_CONE_STRESS_TESTING_AND_RELATION_INFORMATIVE_DEFORMATION.md)
+   - [Minimum Decisive FSAI/FSSR Flagship — HCP Magnesium](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
 20. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 21. [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
 22. [Cross-Domain Compositional Schema Bell/CHSH Calibration](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md)
@@ -122,6 +125,8 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **26 — Layer Before Law:** foundational category proposal with Bell, no-signalling, quantum/gravitational recovery, and discrimination burdens.
 - **27 — Typed Traversal and Equation Hygiene:** typed spaces, dimensional consistency, equation status, and anti-flattening discipline.
 - **28 — Discriminating Experiments and Promotion Gates:** evidence tiers and promotion rules.
+- **28B — Native Consequence-Cone Stress Testing:** relation-informative deformation inside the smallest native environment that preserves the consequences needed for attribution.
+- **28C — Minimum Decisive FSAI/FSSR Flagship:** prospective HCP-magnesium protocol testing state sufficiency, challenge-selection value, minimal physical repair, deformation/restoration, and prospective recruitment lead under strong native nulls. It reports no positive result.
 - **28A — Cross-Domain Compositional Schema Bell/CHSH Calibration:** hostile known-answer calibration of target-relative preserve/refine/reopen/refuse behaviour for the published Cross-Domain v0.3 result, DOI `10.5281/zenodo.22166005`; physical Phase-0 delta remains null.
 - **29 — Scientific Tightening and Claim Discipline:** separates architecture, scaffold, evidence, mechanism, novelty, and claim status.
 - **29A — Branch Lineage, Generator Accountability, and Anti-Hydra Discipline:** preserves local merit while keeping failed branches, repairs, search cost, and correlated descendants in the parent generator’s performance history.

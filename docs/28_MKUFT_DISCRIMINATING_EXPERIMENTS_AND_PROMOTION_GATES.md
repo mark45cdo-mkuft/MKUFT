@@ -358,6 +358,25 @@ A successful ATLD study would establish a functional systems result. It would su
 - direct S-layer coupling;
 - foundational physics.
 
+## 5A. Central-method flagship — FSAI/FSSR state sufficiency in HCP magnesium
+
+The future-sufficiency family now has a dedicated minimum-decisive prospective protocol: [28C — History-Dependent HCP Magnesium Mechanics](28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md).
+
+This does not replace the ATLD programme as the nearest executable Tier-3 candidate. It serves a different purpose: it forces the central FSAI/FSSR claim into one native physical/material system with a single primary future object, a strong predeclared constitutive state, an FSSR-selected separating challenge, a matched parameter-information challenge, held-out confirmation, a smallest physical repair, remove/restore deformation, native consequence-cone controls, and independent replication burden.
+
+The protocol explicitly refuses the weak claim that `magnesium has memory`. Twinning, detwinning, hysteresis and constitutive internal variables are native materials-science objects. MKUFT earns support only if its **state-adequacy and question-selection procedure** adds prospective value beyond the strongest fair domain-native state and experimental-design alternatives.
+
+Its four verdicts remain separate:
+
+```text
+state sufficiency
+challenge-design value
+mechanism localisation
+prospective recruitment lead
+```
+
+A positive result in one does not promote the others. No result is reported by the protocol itself.
+
 ## 6. Flagship lane B — source-class, closure and measured-state pilot
 
 ### 6.1 Status
@@ -570,6 +589,10 @@ A broad difference between two shapes remains ordinary geometry. A predicted res
 ### Immediate empirical priority
 
 Run or externally register the ATLD strongest-fair-null programme, including the complete full-history replay set. It is the most complete near-term flagship because the independent variables, ablations, fair controls and interpretation boundary already exist.
+
+### Central-method experimental priority
+
+Use [28C — Minimum Decisive FSAI/FSSR Flagship](28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md) as the first full prospective native test of the future-sufficiency architecture. Its design is ready for external materials-science collaboration or preregistration; empirical status remains open until fresh physical execution. Do not count established twinning/detwinning behaviour as MKUFT evidence.
 
 ### Immediate physics priority
 
