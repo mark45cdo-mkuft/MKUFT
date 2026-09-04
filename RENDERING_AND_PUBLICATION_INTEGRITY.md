@@ -162,6 +162,18 @@ For any replacement, late-stage regeneration, or same-title publication upload:
 
 This is an object-custody lesson, not merely an ATLD-specific upload anecdote. It applies to every frozen research object whose metadata can remain stable while the underlying bytes change.
 
+## Recursive lesson — FSSR-HCP mathematical carrier fit and deposit-metadata typing, 4 September 2026
+
+The first FSSR-HCP publication candidate was scientifically correct but carried several mathematical relations in code-like/ASCII presentation that was appropriate to a source or computational carrier but unnecessarily weak for a materials-science methods PDF. The final prepublication pass retained literal/procedural syntax where the literal procedure was the object, but rendered genuine mathematical relations in the native scholarly form used by the surrounding paper and then re-inspected all eleven pages.
+
+The resulting rule is:
+
+> **Carrier fit is part of publication correctness. Mathematical content should use domain-native mathematical typography when mathematics is the object; literal code should remain literal only when code/source syntax is itself the object; procedural logic should remain prose or flow logic when forcing it into equation typography would misdescribe the operation.**
+
+A second deposit-stage distinction was made explicit. External repository metadata may expose both bibliographic `References` and typed `Related works`/related-identifier relations. These are not duplicate boxes. Bibliographic references identify works cited by the manuscript; related-work relations encode lineage, derivation, part/whole, version, or other typed object relationships. One must not be used as a substitute for the other merely to make a form look complete.
+
+For the FSSR-HCP v1.0 candidate, the exact intended carrier is 11 pages, 354,874 bytes, MD5 `00909f843060ee7c108025b0b1148735`, SHA-256 `52192346256eb3c5895ed466f913b23ce1bb3a8476fdc555edc2abff2dc6646a`. The Zenodo draft displayed the same file size and MD5 before publication. That is strong prepublication receiver-side candidate identity; DOI registration and final post-publication receiver verification remain separate gates.
+
 ## Publication-object contract
 
 Do not collapse these object types:

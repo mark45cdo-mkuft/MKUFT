@@ -10,8 +10,12 @@
 **FSSR experimental owner:** [33S7 — Future-Splitting State Recruitment](33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)  
 **Observability support:** [31 — Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)  
 **Falsification support:** [05 — MKUFT Falsification Summary](05_FALSIFICATION_SUMMARY.md)  
+**Frozen v1.0 publication route:** [Future-Splitting State Recruitment in History-Dependent HCP Magnesium Mechanics](../papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md)  
+**Reserved Zenodo DOI:** [`10.5281/zenodo.22309144`](https://doi.org/10.5281/zenodo.22309144) — reserved for the exact v1.0 carrier; registration remains external until Zenodo publication  
+**Publication/custody record:** [FSSR-HCP v1.0 standalone publication record](../FSSR_HCP_MAGNESIUM_PROTOCOL_STANDALONE_PUBLICATION.md)  
+**Frozen-carrier identity witness:** [publications/FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0](../publications/FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0/)  
 **Public protocol date:** 4 September 2026  
-**Status:** prospective flagship protocol. No experiment reported here has been executed by MKUFT, and this document reports no positive empirical result. It introduces no new force, field, constitutive law, twinning mechanism, or claim of completed unification.
+**Status:** live canonical flagship protocol; design-closed and frozen into a v1.0 publication candidate under reserved DOI `10.5281/zenodo.22309144`. Empirical status remains OPEN: no experiment reported here has been executed by MKUFT, and neither the live module nor the publication carrier reports a positive empirical result, new force, field, constitutive law, twinning mechanism, or completed unification.
 
 ## 1. Why this protocol exists
 

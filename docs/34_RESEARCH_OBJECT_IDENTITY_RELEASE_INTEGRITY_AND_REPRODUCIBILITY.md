@@ -152,6 +152,7 @@ The current metadata roles remain typed rather than duplicated.
 - standalone publication records carry version-specific DOI, rights, and live-versus-frozen relationships for their exact objects.
 - release manifests carry byte-level artifact identity for declared release sets.
 - [`reproducibility/`](../reproducibility/) carries executable or deterministic verification packages and their typed evidence boundaries.
+- external-deposit bibliographic reference lists and typed related-object/related-identifier relationships remain separate metadata roles: the former records cited literature; the latter records derivation, version, part/whole, citation, or other declared object relationships. Neither silently substitutes for the other.
 
 A new metadata file must not silently take over a role already carried by one of these files. If an external service requires a different authoritative metadata carrier, that transition must be explicit, documented, and checked in the same repository change that introduces it.
 

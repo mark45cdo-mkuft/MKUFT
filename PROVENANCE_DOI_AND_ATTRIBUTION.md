@@ -187,6 +187,27 @@ Public routes:
 
 FSSR is an experimental specialisation of AAF and the 33S4–33S6 future-sufficiency family. It tests whether histories collapsed by a declared state can be separated by an admissible lawful future, then requires the smallest preregistered physically typed augmentation that restores held-out closure. The DOI-bearing Zenodo object freezes v1.0. Later Module 33S7 changes, later empirical results, new domain implementations, or revised challenge designs are not silently backdated into the deposit.
 
+## FSSR-HCP minimum-decisive flagship protocol
+
+**Title:** *Future-Splitting State Recruitment in History-Dependent HCP Magnesium Mechanics: A Minimum-Decisive Prospective Protocol for State Sufficiency, Probe Selection, and Mechanism Localisation*  
+**Author:** Mark Charles McLaughlin  
+**Version:** 1.0  
+**Publication date:** 4 September 2026  
+**Reserved version DOI:** `10.5281/zenodo.22309144`  
+**DOI state at repository fold:** reserved in a Zenodo draft; registration/published-state verification remains OPEN until publication is observed  
+**Licence of exact v1.0 carrier:** CC BY 4.0
+
+Public/custody routes:
+
+- [GitHub paper route](papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md)
+- [Standalone publication/custody record](FSSR_HCP_MAGNESIUM_PROTOCOL_STANDALONE_PUBLICATION.md)
+- [Frozen carrier identity witness](publications/FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0/)
+- [Live canonical protocol — Module 28C](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
+
+Typed external-metadata relations prepared for the deposit are: `IS DERIVED FROM` FSSR v1.0 DOI `10.5281/zenodo.22058303`; `IS DERIVED FROM` AAF v0.1 DOI `10.5281/zenodo.22031333`; `IS DERIVED FROM` Cross-Domain Compositional Schema v0.4 DOI `10.5281/zenodo.22166468`; `IS PART OF` MKUFT concept DOI `10.5281/zenodo.17780565`; and `CITES` principal MKUFT v2 DOI `10.5281/zenodo.21973064`. These relationships are lineage/provenance metadata, not evidence for the magnesium result.
+
+The paper is a separate downstream prospective protocol, not FSSR v1.1 and not a version replacement for the principal MKUFT publication. Its empirical state remains OPEN.
+
 ## Bell Constraints as Typed Boundaries
 
 **Title:** *Bell Constraints as Typed Boundaries: Relation, Access, Completion, and Scale*  
