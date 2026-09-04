@@ -235,3 +235,26 @@ The exact file, version, DOI record, and licence attached to the object being us
 - live Bell/tetrahedral owner: `docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md`
 
 Version 0.4 closes the tetrahedral Bell branch as an exact facet-plus-normal coordinate construction on native CHSH geometry. The chart is an invertible reparameterisation, the natural four-volume collapses to CHSH excess, and the physical residual remains NULL. The v0.3 and v0.2 routes remain historical frozen versions.
+
+## 4 September 2026 — observer-bounded traversal canonical update
+
+The future-sufficiency chain now has two explicit live methodological continuations after Module 33S7A:
+
+- [33S7B — Sideways Invariant Interrogation and Nuisance-Quotient Readdressing](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md) — asks whether a lawful target-preserving interrogation can remove a nuisance distinction from the minimum sufficient state without claiming the distinction is unreal.
+- [33S7C — Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) — makes observer/registration access explicit, screens history back to provenance when present state fully mediates its future effect, and allows realised traversal to change which lawful questions/tests are reachable next.
+
+Reader placement is:
+
+```text
+31 observability
+→ 33S4 future sufficiency
+→ 33S6 admissible/restorative futures
+→ 33S7 future-splitting assay
+→ 33S7A FSAI/LBLP naming and compositional fold
+→ 33S7B interrogation repair
+→ 33S7C observer-bounded recursive discrimination
+```
+
+For human-facing route choice, [20 — GRACE](docs/20_GRACE_TRAVERSAL_RULE.md) carries the associated care-preserving kernel only **after** evidence, law, safety, consent, permission and target constraints have fixed the lawful option set. Care does not alter evidence or physical mechanism status.
+
+These live modules do not modify frozen DOI publications, establish observer-caused physics, or elevate question-selection language into a universal law.
