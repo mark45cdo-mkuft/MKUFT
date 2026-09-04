@@ -55,6 +55,7 @@ Main routes into that work:
 - [Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
 - [Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
 - [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
+- [Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md)
 
 For translation between ordinary neighbouring terminology and the native MKUFT terms, use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md).
 
@@ -143,6 +144,8 @@ From there, **Addressed Admissible Futures** makes the future itself part of the
 
 **Future-Splitting State Recruitment** turns that into an assay. It tests states the model currently treats as equivalent under a controlled separating challenge. A repeatable split beyond the declared tolerance can force the model to reopen only after mismatched state, challenge, boundary, measurement and ordinary stochastic explanations have been tested. A strong no-split result can instead support keeping the simpler representation for that target and regime.
 
+**Observer-Bounded Traversal** then asks what can actually be resolved from the state and registration surface reached. It screens history back to provenance when present state already carries its future-relevant effect, and it allows a realised measurement, comparison, perturbation, representation change or other lawful discriminator to change which test becomes reachable next. This is bounded experimental access, not observer-caused physics.
+
 The **Cross-Domain Compositional Schema v0.4** then attacks this machinery with Bell/CHSH. The positive calibration comes first: after the earlier dimensional objection, the facet-adapted construction closes the native four-correlator object exactly as a three-coordinate CHSH tetrahedral facet address plus one transverse coordinate. That is an exact recovery/reparameterisation of established Bell geometry, not a new Bell theorem. The stronger candidate follows: the natural four-volume collapses to known CHSH excess, so no independent new-physics residual survives. The pair matters—exact native closure, then clean refusal of unsupported promotion.
 
 The separate **Bell Constraints as Typed Boundaries** paper keeps Bell-local factorisation, operational no-signalling, conditioned process closure, local admissibility ownership, completion, and scale/resource custody at distinct addresses. Its independent Bell-local new-physics delta is also **NULL**; the retained result is the typed correspondence and falsification architecture, not a claim to have solved Bell's theorem.
@@ -159,6 +162,8 @@ address the object
 → test whether its present state is sufficient for its future
 → use a controlled future split to test whether missing state is needed
 → preserve the simpler state when a strong no-split result survives the declared test
+→ test what the current observer/registration state can lawfully discriminate next
+→ readdress after the realised result changes state, evidence or access
 → test the architecture against strong ordinary baselines
 → publish nulls as well as wins
 ```
@@ -175,27 +180,21 @@ A second risk is **link substitution**: pointing to ten correct files instead of
 
 A third risk is **academic compression**: technically accurate prose can become so dense that it hides the simple question being asked. Public-facing text should therefore give the ordinary-English object first and the formal object second.
 
+A fourth, opposite risk is **reader-wake reset**: after a reader has earned a distinction, repeatedly restarting it or swapping its stable technical handle for a looser synonym forces unnecessary reconstruction and can flatten the very relation the explanation was meant to preserve. Readability should reduce avoidable reconstruction, not conceptual resolution. The standing control is [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md): explain normally, use a clean metaphor where it genuinely helps, return to the native object, preserve earned context, and propagate reusable interface lessons rather than relearning them locally.
+
 There are scientific failure modes too. MKUFT fails or contracts where:
 
-- an added layer or address distinction makes no useful difference;
-- a higher-level variable cannot predict the declared property better than the lower or multiscale account;
-- a claimed cross-layer coupling has no physical carrier or measurable consequence;
-- an observer-linked claim converges to null under adequate blinded testing;
-- a proposed geometry adds no value beyond ordinary models;
-- a physics-facing branch fails Bell compatibility, no-signalling, dimensional consistency, or standard-physics recovery;
-- a claimed novelty disappears when compared with the strongest fair prior art or ordinary baseline;
-- a result can be reproduced by a flat, replayed, scrambled, or otherwise simpler control;
-- a failed branch is rescued by changing its meaning after the result;
-- failed or null branches are pruned from the live theory and then omitted when the parent framework is credited as a successful scientific generator;
-- a post-failure repair is treated as confirmed by the same evidence that generated the repair rather than tested prospectively.
+- an added layer or address does no predictive, explanatory, interventional, or model-selection work;
+- a proposed cross-layer bridge has no lawful carrier or measurable target expression;
+- a higher-level state fails to close the property claimed for it;
+- an ordinary physical or multiscale model performs equally well;
+- an observer-linked claim cannot survive controlled testing or reduces to ordinary measurement context;
+- a claimed novelty disappears under strong prior-art subtraction;
+- a result survives only because the failure criterion was moved after the fact.
 
-Locality controls what a branch result proves; it does not erase the branch from the parent generator's performance history. A framework may learn from a failure, but a replacement branch requires fresh evidence and the original miss remains on the record. The full rule is in [Branch Lineage, Generator Accountability, and Anti-Hydra Discipline](docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md).
+The full technical failure surface is [MKUFT Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
 
-The full technical list is in the [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
-
-For the reader-interface problem itself, see [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md).
-
-## What is established, what is proposed
+## Claim levels
 
 The mathematics used by MKUFT includes established tools and familiar neighbouring ideas. Similarity to established mathematics validates the *mathematical grammar* where the mapping is correct. It does not validate MKUFT's physical ontology.
 
@@ -256,6 +255,8 @@ This repository is live and continues to develop. DOI-bearing publications remai
 Presentation defects, stale links, rendering problems, or confusing explanations are treated as defects to repair, not as intended scientific notation. Changes to the live repository should preserve version identity, provenance, and the difference between a live module, a repository paper route, and a frozen publication.
 
 The project uses AI-assisted research tooling for drafting, checking, traversal, and consistency work. AI output is not treated as scientific evidence merely because an AI produced it.
+
+The public-writing discipline is recursive as well: when a repeatable reader-interface defect is found, repair the local passage, extract only the transferable lesson, fold that lesson into the standing reader contract, and re-read the affected route from the reader's accumulated context. The aim is that later writing inherits the repair automatically rather than requiring the same correction again.
 
 ## Human use
 
