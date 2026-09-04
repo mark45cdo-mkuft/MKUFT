@@ -40,26 +40,26 @@ This synthesis compresses the principal typed S–I–P–O / active-law-object 
 
 When an exact later Zenodo deposit is created, its DOI and deposited-carrier identity should be added without rewriting this pre-deposit state.
 
-## DOI-reserved / publication-ready papers
+## Published DOI papers
 
 ### Future-Splitting State Recruitment in History-Dependent HCP Magnesium Mechanics
 
 *A Minimum-Decisive Prospective Protocol for State Sufficiency, Probe Selection, and Mechanism Localisation*
 
 **Version:** 1.0 — 4 September 2026  
-**Reserved version DOI:** [`10.5281/zenodo.22309144`](https://doi.org/10.5281/zenodo.22309144)  
-**Status:** exact v1.0 carrier frozen and visually audited; Zenodo DOI registration/published-state verification remains external until the draft is published  
+**Version DOI:** [`10.5281/zenodo.22309144`](https://doi.org/10.5281/zenodo.22309144)  
+**Concept DOI:** [`10.5281/zenodo.22309143`](https://doi.org/10.5281/zenodo.22309143)  
+**Status:** published v1.0 Zenodo preprint; receiver-side PDF matched to the frozen carrier identity  
 **Licence:** CC BY 4.0
 
 - [Publication route](2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md)
 - [Standalone publication/custody record](../FSSR_HCP_MAGNESIUM_PROTOCOL_STANDALONE_PUBLICATION.md)
-- [Frozen carrier identity/checksum record](../publications/FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0/)
+- [Frozen DOI PDF mirror and identity/checksum record](../publications/FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0/)
+- [Zenodo v1.0 publication](https://doi.org/10.5281/zenodo.22309144)
 - [Live canonical protocol — Module 28C](../docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
 - [FSSR parent publication](https://doi.org/10.5281/zenodo.22058303)
 
 This paper freezes the first minimum-decisive HCP-magnesium instantiation of the FSAI/FSSR assay. It does not report an executed magnesium experiment or positive MKUFT result. Its primary purpose is to make the state-sufficiency claim, matched challenge-design comparison, minimal physical repair, remove/restore burden, native consequence cone, null family, and four independent verdicts prospectively immutable before the material answers.
-
-## Published DOI papers
 
 ### Typed Decomposition-Reconstruction
 

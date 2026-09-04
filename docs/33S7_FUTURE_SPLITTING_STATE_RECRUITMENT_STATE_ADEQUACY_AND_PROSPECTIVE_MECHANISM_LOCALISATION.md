@@ -14,7 +14,7 @@
 **Observability support:** [31 — Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)  
 **Promotion/falsification support:** [28 — Discriminating Experiments and Promotion Gates](28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)  
 **Minimum-decisive flagship implementation:** [28C — History-Dependent HCP Magnesium Mechanics](28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)  
-**HCP flagship v1.0 publication route:** [paper route](../papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md) · reserved DOI [`10.5281/zenodo.22309144`](https://doi.org/10.5281/zenodo.22309144)  
+**HCP flagship v1.0 publication route:** [paper route](../papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md) · published DOI [`10.5281/zenodo.22309144`](https://doi.org/10.5281/zenodo.22309144)  
 **Public formulation date:** 22 August 2026  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
 **Status:** canonical experimental specialisation of the 33S4–33S6 future-sufficiency family. It turns future-equivalence into a direct assay of state adequacy, defines state recruitment by independently confirmed failure plus minimal typed repair, and tests whether recruitment can prospectively localise an emerging physical mechanism. It is not a separate law stack, a new force or field, or evidence of autonomous information-to-physical coupling.

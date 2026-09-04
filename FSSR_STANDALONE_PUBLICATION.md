@@ -20,7 +20,7 @@
 - [Professional Domain Instantiation Guide](PROFESSIONAL_DOMAIN_INSTANTIATION_GUIDE.md) — the biology/neuroscience section pins `state`, `history`, `target`, `dependency`, `scale`, `remove`, `restore`, and the null to explicit native variables, maps, ablations and readouts before the shared vocabulary is allowed to carry the experiment
 - [AAF parent publication](https://doi.org/10.5281/zenodo.22031333)
 - [Papers and Publications index](papers/README.md)
-- [Downstream minimum-decisive HCP magnesium flagship v1.0](papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md) — separate publication object, reserved DOI `10.5281/zenodo.22309144`; not a new version of FSSR v1.0
+- [Downstream minimum-decisive HCP magnesium flagship v1.0](papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md) — separate publication object, published DOI `10.5281/zenodo.22309144`; not a new version of FSSR v1.0
 
 The Zenodo PDF is the controlling frozen visual object for version 1.0. The GitHub paper route is the public reader/source route and Module 33S7 is the live canonical MKUFT owner. Later module or repository refinements are later research states and are not silently backdated into the deposited v1.0 object.
 

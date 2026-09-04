@@ -11,11 +11,11 @@
 **Observability support:** [31 — Context-Conditioned State Comparison and Observability](31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)  
 **Falsification support:** [05 — MKUFT Falsification Summary](05_FALSIFICATION_SUMMARY.md)  
 **Frozen v1.0 publication route:** [Future-Splitting State Recruitment in History-Dependent HCP Magnesium Mechanics](../papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md)  
-**Reserved Zenodo DOI:** [`10.5281/zenodo.22309144`](https://doi.org/10.5281/zenodo.22309144) — reserved for the exact v1.0 carrier; registration remains external until Zenodo publication  
+**Published Zenodo DOI:** [`10.5281/zenodo.22309144`](https://doi.org/10.5281/zenodo.22309144) — v1.0 public record; receiver-side PDF matched to the frozen carrier identity  
 **Publication/custody record:** [FSSR-HCP v1.0 standalone publication record](../FSSR_HCP_MAGNESIUM_PROTOCOL_STANDALONE_PUBLICATION.md)  
 **Frozen-carrier identity witness:** [publications/FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0](../publications/FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0/)  
 **Public protocol date:** 4 September 2026  
-**Status:** live canonical flagship protocol; design-closed and frozen into a v1.0 publication candidate under reserved DOI `10.5281/zenodo.22309144`. Empirical status remains OPEN: no experiment reported here has been executed by MKUFT, and neither the live module nor the publication carrier reports a positive empirical result, new force, field, constitutive law, twinning mechanism, or completed unification.
+**Status:** live canonical flagship protocol; design-closed and published as v1.0 under DOI `10.5281/zenodo.22309144`, with receiver-side publication identity verified. Empirical status remains OPEN: no experiment reported here has been executed by MKUFT, and neither the live module nor the publication carrier reports a positive empirical result, new force, field, constitutive law, twinning mechanism, or completed unification.
 
 ## 1. Why this protocol exists
 

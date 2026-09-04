@@ -5,8 +5,9 @@
 **Title:** *Future-Splitting State Recruitment in History-Dependent HCP Magnesium Mechanics: A Minimum-Decisive Prospective Protocol for State Sufficiency, Probe Selection, and Mechanism Localisation*  
 **Version:** 1.0  
 **Publication date:** 4 September 2026  
-**Reserved version DOI:** [`10.5281/zenodo.22309144`](https://doi.org/10.5281/zenodo.22309144)  
-**DOI state:** reserved in Zenodo draft; registration and post-publication landing-page verification remain OPEN  
+**Version DOI:** [`10.5281/zenodo.22309144`](https://doi.org/10.5281/zenodo.22309144)  
+**Concept DOI:** [`10.5281/zenodo.22309143`](https://doi.org/10.5281/zenodo.22309143)  
+**DOI state:** PUBLISHED; public Zenodo record and receiver-side PDF verified against the frozen v1.0 identity  
 **Publication type:** Preprint / prospective methods protocol  
 **Licence:** CC BY 4.0  
 **Parent research programme:** McLaughlin-Kairos Unified Field Theory (MKUFT)
@@ -47,12 +48,12 @@ The four verdicts — state sufficiency, challenge-design value, mechanism local
 **MD5:** `00909f843060ee7c108025b0b1148735`  
 **SHA-256:** `52192346256eb3c5895ed466f913b23ce1bb3a8476fdc555edc2abff2dc6646a`
 
-The Zenodo draft displayed 354.87 KB and MD5 `00909f843060ee7c108025b0b1148735`, matching the exact locally verified candidate. This closes prepublication carrier selection. It does not yet establish DOI registration or post-publication receiver identity; those gates remain open until publication.
+The published Zenodo record was retrieved through its public record endpoint and the receiver-side PDF was independently matched to the frozen candidate: 354,874 bytes, MD5 `00909f843060ee7c108025b0b1148735`, SHA-256 `52192346256eb3c5895ed466f913b23ce1bb3a8476fdc555edc2abff2dc6646a`. The exact public carrier is mirrored in the repository publication folder under the same frozen filename.
 
 ## Closure state
 
 **Scientific design object:** CLOSED at v1.0.  
 **Exact intended carrier selection:** CLOSED.  
 **Empirical result:** OPEN.  
-**Zenodo publication/DOI registration:** OPEN until publication is observed.  
-**Post-publication receiver-side carrier verification:** OPEN until the published file is read back or otherwise independently matched.
+**Zenodo publication/DOI registration:** CLOSED — DOI registered and public.  
+**Post-publication receiver-side carrier verification:** CLOSED — public Zenodo PDF matched exact byte count, MD5 and SHA-256.

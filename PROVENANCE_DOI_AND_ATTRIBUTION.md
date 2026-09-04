@@ -193,12 +193,14 @@ FSSR is an experimental specialisation of AAF and the 33S4–33S6 future-suffici
 **Author:** Mark Charles McLaughlin  
 **Version:** 1.0  
 **Publication date:** 4 September 2026  
-**Reserved version DOI:** `10.5281/zenodo.22309144`  
-**DOI state at repository fold:** reserved in a Zenodo draft; registration/published-state verification remains OPEN until publication is observed  
+**Version DOI:** `10.5281/zenodo.22309144`  
+**Concept DOI:** `10.5281/zenodo.22309143`  
+**DOI state:** PUBLISHED; receiver-side public PDF verified against the frozen v1.0 byte identity  
 **Licence of exact v1.0 carrier:** CC BY 4.0
 
 Public/custody routes:
 
+- [Zenodo v1.0 publication](https://doi.org/10.5281/zenodo.22309144)
 - [GitHub paper route](papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md)
 - [Standalone publication/custody record](FSSR_HCP_MAGNESIUM_PROTOCOL_STANDALONE_PUBLICATION.md)
 - [Frozen carrier identity witness](publications/FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0/)

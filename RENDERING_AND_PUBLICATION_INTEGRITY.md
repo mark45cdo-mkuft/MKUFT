@@ -172,7 +172,7 @@ The resulting rule is:
 
 A second deposit-stage distinction was made explicit. External repository metadata may expose both bibliographic `References` and typed `Related works`/related-identifier relations. These are not duplicate boxes. Bibliographic references identify works cited by the manuscript; related-work relations encode lineage, derivation, part/whole, version, or other typed object relationships. One must not be used as a substitute for the other merely to make a form look complete.
 
-For the FSSR-HCP v1.0 candidate, the exact intended carrier is 11 pages, 354,874 bytes, MD5 `00909f843060ee7c108025b0b1148735`, SHA-256 `52192346256eb3c5895ed466f913b23ce1bb3a8476fdc555edc2abff2dc6646a`. The Zenodo draft displayed the same file size and MD5 before publication. That is strong prepublication receiver-side candidate identity; DOI registration and final post-publication receiver verification remain separate gates.
+For FSSR-HCP v1.0, the exact carrier is 11 pages, 354,874 bytes, MD5 `00909f843060ee7c108025b0b1148735`, SHA-256 `52192346256eb3c5895ed466f913b23ce1bb3a8476fdc555edc2abff2dc6646a`. Prepublication Zenodo draft metadata matched size and MD5; after publication, the public Zenodo carrier was downloaded from the record and independently matched in byte count, MD5 and SHA-256 before the repository accepted it as the frozen DOI mirror. This closes the full candidate → published receiver → verified mirror custody chain without changing the empirical status of the magnesium experiment.
 
 ## Publication-object contract
 
