@@ -221,6 +221,29 @@ The point is not to add complexity. The point is to make the model **earn either
 
 The registered result then returns to SIPO: it updates the evidence/history/context used to decide whether the next addressed state should remain compressed or recruit a new distinction before the next law object is assembled. That upstream return is part of the same architecture, not an optional afterthought.
 
+### 8. What can the observer actually distinguish next?
+
+A future split can be real without every useful next test being available from the current observer or registration state.
+
+Imagine diagnosing a machine through a small inspection hatch. The first view may tell you that two apparently similar cases are heading toward different failures. One measurement lets you open a second panel; only from there does another test become possible. The later test was not secretly available at the start. **The state you reached changed what you could lawfully inspect next.**
+
+That is the plain-English object behind [Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md).
+
+The metaphor stops at access and sequencing. Scientifically, the observer may simply be an instrument/readout arrangement. The available discriminator can be a measurement, comparison, perturbation, representation change, scale move, retrieval, controlled wait, or question. History is carried only while it still changes the declared future after the best present-state description is supplied; otherwise it remains provenance rather than active state burden.
+
+So the recursive return becomes sharper:
+
+```text
+future-bearing distinction remains unresolved
+→ use the smallest lawful discriminator currently reachable
+→ register the realised result
+→ readdress from the state actually reached
+→ allow the next available test family to change
+→ stop when no reachable lawful discriminator changes the declared target
+```
+
+This is not a claim that consciousness creates reality or that there is one uniquely correct question. It is a bounded statement about what a declared observer/experimental arrangement can legitimately resolve from the state it has actually reached.
+
 ## What the Bell/CHSH result teaches
 
 The published [Bell Constraints as Typed Boundaries](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md) analysis keeps Bell-local factorisation, operational no-signalling, conditioned process closure, local admissibility ownership, completion, and scale/resource questions separate. Its tested independent Bell-local new-physics delta is **NULL**. The retained result is methodological: a typed correspondence and falsification architecture that prevents one Bell-related statement from silently substituting for another.
@@ -289,9 +312,13 @@ That creates **dependency-history asymmetry**: the author sees compression; the 
 
 The repair is not to remove the technical language. The repair is to put the ordinary-English question immediately before it, explain why the distinction exists, show what failure it prevents, and then give the formal term.
 
+There is a second, opposite failure. Once the reader has earned a relation, repeatedly restarting it or swapping its technical handle for a looser synonym makes the text harder rather than easier. The reader should be allowed to accumulate understanding. Public prose therefore carries the **minimum sufficient reader wake**: enough prior context for the next move to make sense, but no unnecessary replay and no semantic swapping of an already-earned object.
+
+A clean metaphor is useful when it reduces a genuine conceptual crossing. It should preserve the relation, make its stopping point clear, and then hand the reader back to the native science. The aim is not to reduce the reader's intelligence requirement; it is to reduce avoidable reconstruction work.
+
 A second repair is to stop using links as substitutes for explanation. A reader should know why the next document follows before clicking it.
 
-The repository-level control is [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md).
+The repository-level control is [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md). That guide is also recursive: when a repeatable reader-interface failure is discovered, the local passage is repaired and the transferable lesson is folded into the standing writing discipline so later prose does not recreate the same burden.
 
 ## Which route should you take?
 
