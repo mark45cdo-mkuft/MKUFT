@@ -38,6 +38,63 @@ There is no metaphor quota. If removing the metaphor causes no meaningful loss o
 
 Do not change or dilute the mathematics to make it readable. Add a short translation around the mathematics so a non-specialist can tell what question the equation answers, what its pieces are doing, and what would make the move fail.
 
+### Reader wake is part of the interface
+
+A reader does not arrive at every paragraph as a blank slate. By the time a relation has been explained, pictured, named and used, the reader has acquired a **reader wake**: the smallest previously earned context still needed to understand the next move.
+
+Public writing should respect that wake in both directions.
+
+Do not **under-carry** it. If the next paragraph silently depends on a relation the reader has not yet been given, restore that relation before proceeding.
+
+Do not **over-carry** it. If the reader has already earned a distinction, do not restart from zero, re-explain it in a new vocabulary, or substitute a supposedly simpler phrase that changes the object. Reuse the established handle and add only the delta needed for the next step.
+
+This is the reader-facing analogue of future-sufficient addressing:
+
+```text
+reader state already earned
++ next relation to be crossed
+→ preserve the minimum prior context that still changes comprehension
+→ add the smallest missing relation
+→ continue
+```
+
+The word `wake` here is a communication analogy, not a claim about cognition as a physical MKUFT variable.
+
+A useful editorial test is:
+
+> **If I remove this prior explanation, does the next move become ambiguous? If not, stop carrying it. If I replace it with a simpler phrase, do I collapse a distinction the reader has already earned? If yes, keep the native relation.**
+
+### Respect intelligence; reduce reconstruction burden, not conceptual resolution
+
+Readable prose is not prose that assumes less intelligence. It is prose that makes the dependency structure visible.
+
+Do not explain every technical object as though the reader were a child. Do not swap a precise, already-understood relation for a looser everyday synonym merely because the synonym is shorter. Do not flatten two different objects into one friendly word. And do not force the reader to decode compressed architecture that could have been carried by one clean sentence or picture.
+
+The target is:
+
+> **minimum unnecessary reconstruction, not minimum intellectual demand.**
+
+A capable reader should be allowed to accumulate understanding. Once a technical term has been earned, it becomes useful compression. Once a metaphor has done its crossing work, the prose should return to the native object and trust the reader to carry it.
+
+### Recursive writing audit
+
+These rules apply recursively to the writing itself.
+
+Whenever a reader test, external critique, failed explanation, or new module exposes a repeatable communication defect:
+
+```text
+local wording failure
+→ identify the transferable reader-interface relation
+→ repair the local passage
+→ propagate the lesson to this standing guide if it is genuinely reusable
+→ re-read the affected route from the reader's current wake
+→ keep the lesson only if it reduces reconstruction burden without changing the science
+```
+
+A repaired paragraph is not enough when the same failure can recur elsewhere. Conversely, do not turn every local edit into a new global rule. A lesson earns propagation only when it is transferable and survives comparison against the existing reader contract.
+
+This makes recursive learning a writing discipline rather than a licence for endless expansion: **learn from the failure, compile the durable relation into the interface, then stop making future readers pay the same reconstruction cost.**
+
 If an unfamiliar MKUFT term looks like a renamed standard concept, use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). The key does not assign one-to-one scientific equivalents. It asks what established science already owns, what exact residual operation MKUFT is claiming after that ownership is subtracted, and what result would make the separate handle unnecessary. It is an optional cross-check, not another reading stage.
 
 ## What a reader should be able to tell in five minutes
@@ -113,37 +170,43 @@ A metaphor can make a relation obvious and then quietly start doing scientific w
 
 **Control:** use metaphor positively at genuine conceptual choke points when it preserves a declared relation and materially reduces reconstruction load. Then expose the break point and return immediately to the native scientific owner. Metaphor is translation and crossing support, not evidence, mechanism or ontology. Do not add metaphors by quota, and do not replace a strong reusable one merely for stylistic variety.
 
-### 5. Scope bleed
+### 5. Reader-wake reset or semantic swapping
+
+A text can become harder by trying too aggressively to make each paragraph independently simple. Repeatedly restarting the explanation erases the reader's accumulated structure; repeatedly renaming an already-earned object forces unnecessary remapping and can quietly change its meaning.
+
+**Control:** preserve the smallest prior context still needed for the next move, reuse earned technical handles, and add only the new relation. Re-explain only when the audience, scale, or object has genuinely changed enough that the prior carrier no longer works.
+
+### 6. Scope bleed
 
 One strong result in one branch can accidentally sound like support for the whole framework.
 
 **Control:** claim levels remain local. A Bell calibration result does not prove MKUFT physics. An AI result does not prove the S-layer. A useful cross-domain relation does not become a new law of nature by association.
 
-### 6. Mathematics mistaken for mechanism
+### 7. Mathematics mistaken for mechanism
 
 An equation can be correct as mathematics and still fail to describe nature.
 
 **Control:** every physics-facing claim must identify the physical variables, units, carrier, measurable consequence, ordinary baseline, and falsifier. Similarity to known mathematics validates the mapping where correct; it does not validate the ontology.
 
-### 7. Cross-layer smuggling
+### 8. Cross-layer smuggling
 
 A relation can be meaningful at the information layer without automatically becoming a physical cause.
 
 **Control:** state the source address, target address, carrier, transformation, and expected target expression. If the bridge is not there, keep the claim descriptive or unresolved.
 
-### 8. Null avoidance
+### 9. Null avoidance
 
 A flexible framework can survive anything if every failure is renamed after the result.
 
 **Control:** preserve predeclared failure states. The Bell/CHSH tetrahedral branch is a useful example: the exact construction survived, but the independent new-physics residual became NULL when the four-volume reduced to known CHSH excess. That null remains in the record.
 
-### 9. AI confidence mistaken for evidence
+### 10. AI confidence mistaken for evidence
 
 AI systems can produce fluent technical text, including fluent mistakes.
 
 **Control:** AI assistance is tooling, not validation. Claims must be traceable to mathematics, source material, reproducible calculation, experiment, or clearly labelled inference. Reader criticism is a discriminator, not something to be defeated rhetorically.
 
-### 10. Version and provenance drift
+### 11. Version and provenance drift
 
 A live repository, a frozen DOI paper, a module, a submission synthesis, and a PDF mirror can contain related material without being the same object.
 
@@ -297,6 +360,32 @@ That is the FSSR assay inside the wider SIPO loop. It does not make the observer
 
 [Read Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md).
 
+### Observer-Bounded Traversal
+
+**Question:** once the present state is good enough to expose a real future split, what can this observer or experimental arrangement actually do next to resolve it—and can that available test set change after the system moves?
+
+**Failure prevented:** treating the observer as omniscient, carrying all history forever, assuming the best later question was available earlier, or turning a verbal question into a privileged scientific operator.
+
+**Plain version:** imagine diagnosing a machine through a small inspection hatch. At first you can see only enough to know that two apparently similar cases are heading toward different failures. One measurement lets you open a second panel; from there a test becomes possible that literally could not be performed from the first position. The machine did not reveal a mystical hidden answer. **The state you reached changed what you could lawfully inspect next.**
+
+The picture stops there. In the technical module, the hatch is the declared observer/registration and access state; the available inspections are the reachable discriminator family; and retained history stays active only while removing it would still change the declared future after the best present-state description is supplied.
+
+So the recursive route is:
+
+```text
+current addressed state + current readout/access
+→ detect a future-bearing distinction that is still unresolved
+→ use the smallest lawful discriminator currently reachable
+→ register what actually happened
+→ readdress from the realised state
+→ allow the next discriminator family to change
+→ stop when no reachable discriminator changes the declared target
+```
+
+A question is one possible discriminator. A measurement, comparison, perturbation, representation change, scale move, retrieval, or controlled wait may do the same scientific job more directly.
+
+[Read Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md).
+
 ### Cross-Domain Compositional Schema
 
 **Question:** can the preserve/reopen and future-sufficiency rules transfer into another domain without importing the answer?
@@ -408,6 +497,8 @@ The public-facing standard is simple:
 > **Explain the object before naming the machinery. Explain why the distinction exists before asking the reader to remember it. Explain why the next document follows before giving the link. State how the claim can fail before asking the reader to trust it.**
 
 The translation rule sharpens that contract rather than replacing it: explain normally first, use a clean picture where it reduces load, then return to the technical object and exact science. Metaphor remains translation, never evidence.
+
+Respect the reader's accumulated wake: once a relation has been earned, preserve it, reuse its stable handle, and add the next delta instead of resetting the reader or swapping the object for a looser synonym.
 
 Technical language is useful compression after the meaning is secured.
 
