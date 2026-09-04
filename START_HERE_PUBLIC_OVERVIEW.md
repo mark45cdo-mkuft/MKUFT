@@ -219,6 +219,8 @@ no material split under a strong separating challenge
 
 The point is not to add complexity. The point is to make the model **earn either reopening or preservation**. A split does not automatically prove hidden internal state, because the challenge or boundary may have differed; a null does not prove metaphysical completeness, because it closes only the declared target and test family.
 
+The first full prospective protocol that cashes this assay into a native physical/material experiment is [28C — Minimum Decisive FSAI/FSSR Flagship: History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md). It does **not** ask whether magnesium has loading-history effects; materials science already owns twinning, detwinning, hysteresis and constitutive internal variables. It asks a harder question: can the strongest practical predeclared reduced state be made to fail prospectively under a lawful separating reversal, can the smallest measurable physical repair restore held-out closure, does remove/restore behave as predicted, and does an FSSR state-splitting challenge add anything beyond a matched parameter-information design? The protocol is designed to return a clean preservation/null as readily as a positive recruitment result.
+
 The registered result then returns to SIPO: it updates the evidence/history/context used to decide whether the next addressed state should remain compressed or recruit a new distinction before the next law object is assembled. That upstream return is part of the same architecture, not an optional afterthought.
 
 ### 8. What can the observer actually distinguish next?

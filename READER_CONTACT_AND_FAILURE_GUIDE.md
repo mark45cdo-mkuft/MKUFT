@@ -434,6 +434,14 @@ The readout matters too: the experiment cannot claim a resolved target differenc
 
 That is the practical content behind the separation between functional identity, closure, property-specific law sufficiency, recoverability, future-state adequacy and SIPO readdressing.
 
+### If you work in materials or solid mechanics
+
+There is now a direct flagship attack surface rather than only a generic example: [28C — Minimum Decisive FSAI/FSSR Flagship: History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md).
+
+Do not test the trivial proposition that cyclic magnesium shows path dependence. Start with the strongest practical constitutive state your field already uses, including the internal variables it legitimately owns. Construct near-matched loading histories without looking at their confirmatory futures. On development data choose one reversal specifically to expose false state equivalence and, under the same budget, choose the best ordinary parameter-information challenge. Freeze both. On fresh specimens ask whether the FSSR challenge exposes a held-out reverse-loading split beyond the preregistered tolerance, whether ordinary state/challenge/boundary/measurement/stochastic explanations remove it, and whether the smallest predeclared measurable microstructural repair restores closure. Remove that repair from the predictive state and demand that the failure return; restore it and demand contraction.
+
+A clean result can be **NULL**: the strong native state survives; an established constitutive variable already closes the future; or the ordinary parameter-information design is equally good. Those are successful discriminations, not failures to produce a story. The MKUFT-specific result exists only if something survives after native ownership is subtracted.
+
 ### If you work in AI
 
 Attack ATLD with matched controls.
