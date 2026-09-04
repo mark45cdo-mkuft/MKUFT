@@ -683,6 +683,8 @@ The corresponding state-carriage rule is minimal rather than archival: preserve 
 
 FSSR supplies the experimental attack on this claim: choose an admissible future that attempts to split histories currently treated as the same state, confirm any split independently, identify the smallest physically typed repair, and require remove/restore closure before crediting state recruitment. FSAI names the cross-domain future-sufficiency criterion, while LBLP states that address adequacy is tested before a residual is promoted into law revision.
 
+The first full minimum-decisive prospective physical/material instantiation is [Module 28C — History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md). It does not claim discovery of twinning, detwinning, hysteresis or constitutive memory. It asks whether a strong predeclared native constitutive state can be prospectively shown insufficient by a lawful state-splitting challenge, whether the smallest measurable physical repair restores held-out closure, whether remove/restore deformation behaves as predicted, and whether the FSSR challenge objective adds value beyond a matched parameter-information design. State sufficiency, challenge-design value, mechanism localisation and prospective recruitment lead remain separate verdicts. Empirical status is open until independent physical execution.
+
 This is an explicit synthesis of the already canonical 32/33 family, not a new standalone law of nature or a new physical mechanism.
 
 Canonical owners: Modules 33S4, 33S5, 33S6, 33S7 and 33S7A; temporal and identity support: Modules 32S1 and 32S2.
@@ -799,7 +801,7 @@ calibration
 
 A branch is reduced or removed when its variables cannot be operationalised, simpler models predict equally or better, the effect disappears under controls, results do not replicate, definitions move after failure, or evidence from another layer is used to rescue it.
 
-Canonical owners: Modules 04, 05, 27, 28, 29, and branch-specific controls in the 32/33 family.
+Canonical owners: Modules 04, 05, 27, 28, 28B, 28C, 29, and branch-specific controls in the 32/33 family. Module 28B governs relation-informative native deformation; Module 28C is the first minimum-decisive FSAI/FSSR flagship protocol and remains a prospective design object until physical execution.
 
 ## 14. Metaphysical boundary
 
