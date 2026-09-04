@@ -25,6 +25,8 @@ At each step, keep four things in hand:
 
 You do not need to relearn MKUFT from scratch at every module. The handoff should be continuous.
 
+The guide therefore assumes a **reader wake**: once a relation has been explained and earned, later sections may reuse it rather than resetting the reader. That does not mean hiding dependencies. Carry forward only the prior context still needed for the next step; restore a relation if the next move would otherwise be ambiguous; and do not rename an already-earned object merely to make the next paragraph look locally simpler. The aim is to reduce reconstruction burden without reducing conceptual resolution.
+
 If a module uses equations outside your field, you do not need to verify them line by line to follow the architecture. You should still be able to answer: what are the variables standing for, what relation is being asserted, what is being compared, and what would count as a failed comparison?
 
 If you cannot answer those questions after the prose around an equation, treat that as a reader-interface defect rather than as evidence for or against the science.
@@ -46,7 +48,7 @@ Layer Before Law
 → timing/history as state when needed
 → admissible and restorative futures
 → future-splitting assay
-→ observer/registration return into readdressing
+→ observer-bounded reachable discrimination and readdressing
 → hostile controls, prior-art subtraction and falsification
 ```
 
@@ -438,11 +440,55 @@ If the split disappears under better ordinary measurement, tighter state or chal
 
 ### Why the next step follows
 
-At this point the architecture is easy to overvalue because it is coherent. The final scientific move is hostile subtraction: compare with prior art, strong ordinary baselines and explicit falsification.
+FSSR can establish that the current representation has left a future-bearing distinction unresolved. But that still does not mean an observer can resolve every missing distinction immediately. The next step asks what the current registration/access state can actually discriminate, whether retained history is still doing independent work, and how a realised test can change which test becomes possible next.
 
 ---
 
-## 11. Hostile controls, prior art and falsification — coherence is not confirmation
+## 11. Observer-Bounded Traversal — what can actually be distinguished from the state reached?
+
+Read: [Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md)
+
+### What you carry in
+
+FSSR has given us a controlled future-splitting burden and a declared registration surface. We already know that the present Address may be too coarse and that the readout must be capable of resolving the target-relevant difference.
+
+### What this module adds
+
+It refuses a hidden omniscience assumption.
+
+A bounded observer, instrument, or analysis state does not automatically have access to every useful next test. It has a currently reachable family of discriminating operations: measurements, comparisons, perturbations, representation changes, scale moves, retrievals, controlled waits, or questions where a question is genuinely the right scientific instrument.
+
+A useful picture is diagnosing a machine through an inspection hatch. The first opening may let you establish that two apparently similar cases are heading toward different failures. One measurement may then make a second panel accessible; only from that new state does another test become possible. The later test was not secretly available from the first position. **The realised traversal changed what could lawfully be inspected next.**
+
+The metaphor stops at access and sequencing. The technical claim is not that experiments are machines with literal hatches. It is that the declared system state, observer/registration state, retained decision-bearing history, environment, permissions, evidence and tools can constrain the discriminator family actually available at that step.
+
+The module also screens history. If the best present-state description already carries everything the retained history contributes to the declared future, history remains provenance but drops out as an independently active coordinate. If matched present states still separate prospectively according to bounded trajectory residue after the smallest plausible present-state repair has been tried, that residue may remain decision-bearing for the target.
+
+The recursive route is therefore:
+
+```text
+future-bearing distinction remains unresolved
+→ identify the smallest lawful discriminator currently reachable
+→ execute and register it
+→ separate object change from observer/evidence change
+→ readdress from the state actually reached
+→ allow the reachable discriminator family to change
+→ stop when no reachable lawful discriminator changes the declared target
+```
+
+The important restraint is that there is no universal uniquely “right question.” A verbal question is one discriminator among others. Nor does later access imply earlier hidden knowledge.
+
+### Kill point
+
+If ordinary state/action modelling, experimental design, or adaptive measurement already captures the same operational result with equal or better clarity, the MKUFT-specific discriminator-frontier language contracts to synthesis. If history adds no prospective information once present state is adequately typed, wake drops back to provenance.
+
+### Why the next step follows
+
+The chain is now coherent enough to become seductive. That is precisely when it needs hostile subtraction. The final scientific move asks whether the architecture survives prior art, ordinary baselines, prospective controls and explicit falsification rather than merely telling a beautiful internally consistent story.
+
+---
+
+## 12. Hostile controls, prior art and falsification — coherence is not confirmation
 
 Read:
 
@@ -493,7 +539,8 @@ You should be able to state the chain in ordinary language:
 8. treat recovery as an actual reachable route, not an assumption;
 9. deliberately challenge supposedly equivalent states, address the challenge and boundary as carefully as the state, and use both divergence and non-divergence plus eliminated alternatives to decide whether to reopen or preserve;
 10. make sure the declared measurement/registration surface can actually resolve the target-relevant distinction, then return the registered result into the next addressed state;
-11. compare every claimed gain against strong ordinary baselines, prior art and explicit failure conditions.
+11. do not assume every useful next test is already reachable: use the smallest lawful discriminator available from the state actually reached, screen redundant history back to provenance, and readdress after the result;
+12. compare every claimed gain against strong ordinary baselines, prior art and explicit failure conditions.
 
 If the reader can carry that much, the technical modules have a coherent spine even when individual derivations require domain expertise.
 
@@ -503,11 +550,15 @@ The architecture must not protect itself through vocabulary.
 
 A technical term is legitimate compression only after its referent is clear. If a term changes meaning across modules, if a link replaces an explanation, if a null is softened after the fact, if an equation is used as authority when its variables have not been tied to measurable objects, or if complexity makes a criticism impossible to pin down, treat that as a defect in the work.
 
-The corrective question at every handoff is:
+The corrective questions at every handoff are:
 
 > **What does the reader have to silently invent here in order for the next step to make sense?**
 
-If the answer contains a load-bearing relation, move that relation into the prose.
+and
+
+> **What has the reader already earned that this passage is making them reconstruct for no scientific reason?**
+
+If the first answer contains a load-bearing relation, move that relation into the prose. If the second contains an already-stable relation, preserve its handle and remove the unnecessary reset or synonym swap.
 
 ## Relation to the public reader route
 
@@ -528,6 +579,10 @@ The scientific route should satisfy all of the following:
 - each major claim exposes an early kill point;
 - nulls, ordinary explanations and prior art remain visible;
 - observer/registration language states what the readout resolves without smuggling in observer-caused physics;
+- metaphor is used where it materially reduces a genuine crossing, then hands the reader back to the native object;
+- an earned technical handle is not swapped for a looser synonym merely to make a paragraph look simpler;
+- the reader's accumulated wake is carried at the minimum sufficient resolution rather than reset or endlessly repeated;
+- a reusable reader-interface failure is propagated into the standing writing discipline rather than repaired only once;
 - no module gets to survive merely because the vocabulary is difficult to attack.
 
 That is the intended carrier for sober scientific understanding and availability.
