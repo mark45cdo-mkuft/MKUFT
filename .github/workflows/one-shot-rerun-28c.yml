@@ -1,0 +1,40 @@
+name: One-shot rerun asserted 28C fold
+
+on:
+  push:
+    paths:
+      - '.github/workflows/one-shot-rerun-28c.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fold:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Execute previously asserted patch and close temporary workflows
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import textwrap
+          wf = Path('.github/workflows/one-shot-fold-28c.yml').read_text()
+          start_marker = "          python - <<'PY'\n"
+          end_marker = "\n          PY\n"
+          start = wf.index(start_marker) + len(start_marker)
+          end = wf.index(end_marker, start)
+          script = textwrap.dedent(wf[start:end])
+          exec(compile(script, 'embedded-28c-fold.py', 'exec'), {})
+          PY
+
+          rm .github/workflows/one-shot-fold-28c.yml
+          rm .github/workflows/one-shot-rerun-28c.yml
+          git config user.name "MKUFT Canon Fold"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git status --short
+          git commit -m "Fold minimum decisive FSAI/FSSR flagship through MKUFT canon"
+          git push
