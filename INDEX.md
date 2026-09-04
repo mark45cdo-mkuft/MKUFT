@@ -154,3 +154,23 @@ The exact file, version, publication record, and licence attached to the materia
 - live Bell/tetrahedral owner: `docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md`
 
 Version 0.4 closes the tetrahedral Bell branch as an exact facet-plus-normal coordinate construction on native CHSH geometry. The chart is an invertible reparameterisation, the natural four-volume collapses to CHSH excess, and the physical residual remains NULL. The v0.3 and v0.2 routes remain historical frozen versions.
+
+## 4 September 2026 — observer-bounded traversal update
+
+- [Module 33S7B — Sideways Invariant Interrogation and Nuisance-Quotient Readdressing](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md) — live future-sufficiency repair by target-preserving interrogation/representation; it does not imply that an omitted nuisance is unreal.
+- [Module 33S7C — Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) — live canonical observer/registration fold: retain history only while it still changes the declared future after present-state mediation, recover unresolved future-bearing distinctions through lawful currently reachable discriminators, and allow realised traversal to change the next available question/test family without back-projecting later access into earlier states.
+- [GRACE care-preserving route kernel](docs/20_GRACE_TRAVERSAL_RULE.md) — for human-facing use, care acts only after evidence, law, safety, consent, permission and target constraints determine the lawful option set; it never changes scientific evidence or mechanism status.
+
+Canonical sequence:
+
+```text
+31 observability
+→ 33S4 future sufficiency
+→ 33S6 admissible/restorative futures
+→ 33S7 future-splitting assay
+→ 33S7A FSAI/LBLP
+→ 33S7B interrogation repair
+→ 33S7C observer-bounded recursive discrimination
+```
+
+These are live GitHub canon refinements. They do not silently alter the frozen AAF, FSSR, ATLD, Cross-Domain, or principal MKUFT publication objects.
