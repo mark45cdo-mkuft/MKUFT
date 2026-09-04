@@ -58,6 +58,26 @@ inherit causal status from useful description alone.
 
 This is the meaning of Layer Before Law. The title is admittedly ambitious; the immediate proposal is less theatrical: before attempting to unify laws, it may be prudent to check that they have been assigned to the right objects, and not to promote a residual into law revision until ordinary explanations have been properly challenged.
 
+The operational centre is not a static snapshot rule. For a declared
+target or operation, the effective Address should contain the minimum
+typed distinctions needed to keep materially different admissible futures
+from being falsely merged. If two histories are represented as the same
+state but a lawful future challenge separates their declared target laws
+beyond tolerance, the representation was too coarse for that use. A
+realised transition can therefore change which Address is sufficient;
+the next law object must be assembled from the state actually reached,
+not inherited automatically from the previous address.
+
+This criterion is intentionally type-preserving. A semantic distinction,
+physical variable, retained history term, relational role, or
+observer-positioned record is not admitted because it sounds important.
+It enters the addressed state only when its preservation or removal makes
+a prospective difference to the declared future, transition, recovery,
+closure, or measurement result. Where an observer/registration state is
+constitutive of the declared operation it is subject to the same
+sufficiency test; this does not imply observer-caused physics or make
+semantic and physical variables interchangeable.
+
 | **1** | What is the current effective possibility object?                                    |
 |-------|--------------------------------------------------------------------------------------|
 | **2** | Which relational and physical assignments are admissible?                            |
@@ -257,6 +277,16 @@ state only if every declared admissible challenge leaves their future
 target distributions equivalent. If the wider operation can split those
 supposedly identical states into materially different declared futures,
 the state description was not sufficient for that use. Additional state variables are therefore recruited by evidence rather than by enthusiasm.
+
+This gives the compact membership rule used throughout the architecture:
+
+> **Keep a distinction in the effective Address when removing it would merge states whose materially relevant admissible futures differ; otherwise it has not earned state membership for that declared use.**
+
+The criterion is prospective rather than merely descriptive. It is what
+allows the same architecture to ask whether a physical coordinate,
+retained history term, relation, semantic distinction, scale marker, or
+observer/registration state is doing actual future-bearing work without
+pretending those objects share one ontology.
 
 ## 6.2 Preserve-or-reopen contract
 

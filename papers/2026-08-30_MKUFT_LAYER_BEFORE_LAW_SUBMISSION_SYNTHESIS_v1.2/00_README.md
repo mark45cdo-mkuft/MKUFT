@@ -13,6 +13,14 @@ The paper asks one main question:
 
 > **Before we say which law governs a system, have we described the system at the right address, scale, boundary, and state?**
 
+The operational centre is sharper:
+
+> **For a declared operation, what is the minimum addressed state that keeps materially different admissible futures from being falsely merged—and after a realised transition, what address does the system actually occupy now?**
+
+That is the moving object carried through the paper. An effective state is not sufficient merely because it is a good snapshot. It is sufficient only while distinctions omitted by the representation do not separate the declared future under the allowed challenge, environment, regime, horizon, and tolerance. When a realised transition changes that condition, the next lawful continuation is assembled from the state actually reached rather than from a stale address inherited from the previous step.
+
+The same prospective rule can recurse across scale, composition, recovery, and—where constitutive of the declared operation—observer/registration state. This does **not** make semantics, information, observation, and physics the same kind of object. Each retains its native type and evidential burden. A distinction earns technical load only when preserving or removing it changes a declared prediction, admissible transition, recovery route, closure decision, or other prospectively testable consequence.
+
 The later sections make that question harder.
 
 If a higher-order whole appears, is that whole actually sufficient to predict the property we care about?
@@ -48,12 +56,17 @@ The synthesis carries the principal MKUFT typed S-I-P-O architecture and active-
 In plain English, the chain is:
 
 ```text
-address the object
-→ decide what states and transitions are lawful
+freeze the declared target / use
+→ build the minimum future-sufficient addressed state
+→ decide what states and transitions are lawful there
+→ assemble the active law object
+→ propagate and register the realised continuation
+→ readdress from the state actually reached
 → test whether a higher-level object really carries the target law
-→ test whether the state description predicts the relevant future
 → test whether recovery routes actually exist
-→ remove or scramble relations to see what is load-bearing
+→ widen or perturb the future and ask whether the current state still closes
+→ preserve the compression or reopen the smallest load-bearing lower dependency
+→ remove or scramble relations to see what is carrying load
 → compare against strong ordinary and prior-art baselines
 → keep null results as null results
 ```
@@ -96,7 +109,7 @@ Those binary carriers are not declared DOI-frozen by this route. When a later Ze
 
 The paper does **not** claim a completed unified field theory, a derivation of quantum mechanics/QFT/GR/quantum gravity, or a new Bell law.
 
-It deliberately records the Bell geometric candidate's new-physics residual as **NULL** after native-owner subtraction, while retaining the exact chart and the general preserve-or-reopen lesson.
+The Bell/CHSH calibration carries two separate results. First, the facet-adapted tetrahedral construction gives an exact **3+1** reconstruction of the established native four-correlator object: three independent affine coordinates on the CHSH facet plus one transverse coordinate. That is a positive methodological calibration of the addressed/compositional machinery, not a new Bell theorem or new Bell geometry. Second, when the construction is pushed toward an independent geometric/physical residual, the natural four-volume collapses to known CHSH excess and the new-physics residual is **NULL**. The positive reconstruction is not erased by the later null; the null prevents the reconstruction from being over-promoted.
 
 The ATLD section remains a prospective protocol rather than a claimed passed experiment.
 

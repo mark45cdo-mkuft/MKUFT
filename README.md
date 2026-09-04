@@ -12,6 +12,14 @@ MKUFT is a speculative research framework. It is not presented as an accepted co
 
 That sounds simple. It is also where a large number of modelling errors begin.
 
+## The moving addressed system
+
+The deeper operational claim is dynamic rather than snapshot-based. For a declared target or operation, MKUFT treats an effective Address as sufficient only while it preserves the distinctions needed to keep materially different admissible futures from being falsely merged. A realised transition may therefore change the Address that governs the next lawful continuation: continue from the state actually reached, not from a stale description inherited from the previous step.
+
+That changes the central question from only **“what is the system now?”** to **“what must be distinguished now so that the futures which matter are not incorrectly treated as the same?”** The same criterion can be applied recursively across scale and composition and, where an observer or registration state is constitutive of the declared operation, to that observer/record state as part of the addressed system.
+
+This is not a claim that every semantic distinction is physical, that observation creates a new force, or that one universal coordinate set describes every domain. A semantic, informational, physical, historical, relational, or observer-facing distinction earns technical status only when preserving or removing it changes a declared prediction, admissible transition, recovery route, closure decision, or other prospectively testable consequence.
+
 This work is not intended as a critique of science or of scientific practice. We hold science, and the discipline of its methods, in very high regard. MKUFT is offered in that same spirit: as an attempt to ask whether some difficult problems can be approached more clearly while remaining answerable to evidence, explicit assumptions, falsification, and correction.
 
 **A note on the name:** The author is not particularly fond of the title *McLaughlin–Kairos Unified Field Theory*. The name dates from the beginning of the project, when this was a private, somewhat tongue-in-cheek collection of ideas with no expectation that it would become a public research programme. The work subsequently became more serious, structured, and testable, while the original name persisted as its historical identifier. It should not be read as a claim that a completed unified field theory has been achieved.
@@ -38,6 +46,8 @@ If you are unsure where to begin, take the **Public Overview** route.
 ## Future sufficiency and admissible futures
 
 Readers searching for **future admissibility**, **future-state sufficiency**, **predictive state sufficiency**, **predictive closure**, **reachable futures**, or **minimal sufficient state** may be looking for the same problem family treated here: whether a present state description contains enough information for the future quantity being predicted, and which future states or recovery routes remain reachable. In MKUFT, this is distinct from legal evidence admissibility.
+
+The formal centre of that family is the **Future-Sufficient Address Invariant (FSAI)**: a distinction belongs in the effective Address for a declared task when omitting it would merge histories or states whose materially relevant admissible futures differ beyond the declared tolerance. The Address is therefore target-, horizon-, challenge-, environment-, regime-, and resolution-relative rather than a universal inventory of variables.
 
 Main routes into that work:
 
@@ -133,7 +143,7 @@ From there, **Addressed Admissible Futures** makes the future itself part of the
 
 **Future-Splitting State Recruitment** turns that into an assay. It tests states the model currently treats as equivalent under a controlled separating challenge. A repeatable split beyond the declared tolerance can force the model to reopen only after mismatched state, challenge, boundary, measurement and ordinary stochastic explanations have been tested. A strong no-split result can instead support keeping the simpler representation for that target and regime.
 
-The **Cross-Domain Compositional Schema v0.4** tests whether this machinery can transfer without smuggling a result across domains. Its Bell/CHSH calibration is deliberately important because it returned a **NULL new-physics residual**: the geometric construction reduced to known CHSH structure. The useful result was the exact formal map and the lesson about preserving or reopening a representation, not a new Bell law.
+The **Cross-Domain Compositional Schema v0.4** then attacks this machinery with Bell/CHSH. The positive calibration comes first: after the earlier dimensional objection, the facet-adapted construction closes the native four-correlator object exactly as a three-coordinate CHSH tetrahedral facet address plus one transverse coordinate. That is an exact recovery/reparameterisation of established Bell geometry, not a new Bell theorem. The stronger candidate follows: the natural four-volume collapses to known CHSH excess, so no independent new-physics residual survives. The pair matters—exact native closure, then clean refusal of unsupported promotion.
 
 The separate **Bell Constraints as Typed Boundaries** paper keeps Bell-local factorisation, operational no-signalling, conditioned process closure, local admissibility ownership, completion, and scale/resource custody at distinct addresses. Its independent Bell-local new-physics delta is also **NULL**; the retained result is the typed correspondence and falsification architecture, not a claim to have solved Bell's theorem.
 

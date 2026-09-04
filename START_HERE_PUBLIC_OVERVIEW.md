@@ -10,6 +10,20 @@ This page explains MKUFT in ordinary English first. The formal documents are lin
 
 MKUFT is speculative research. It is not presented as an accepted completed theory of physics.
 
+## The central object in plain English
+
+MKUFT does not treat a scientific system as only a snapshot of what it contains now. For a declared target or operation, the effective **Address** is the smallest typed description that is rich enough to keep materially different admissible futures from being falsely treated as the same state.
+
+That means a variable or distinction belongs in the state when removing it would merge cases that later separate in a way the declared task cares about. If a realised transition changes which distinctions matter, the system must be addressed again from the state actually reached. The next lawful continuation is not inherited automatically from yesterday's description merely because that description was once sufficient.
+
+A useful picture is a chessboard. Two visible arrangements can look identical while castling rights, repetition history, or en-passant availability make their legal futures different. The lesson is not that nature plays chess. It is that a present snapshot can be too coarse when omitted history or relation changes what may happen next.
+
+The same criterion can recurse upward and downward across scale. A locally closed object can become a constituent in a wider system; if the wider use makes a previously omitted relation decision-bearing, the representation must already preserve it or reopen the smallest lower dependency that owns it. Where an observer or registration state is genuinely part of the declared operation, that state is subject to the same sufficiency burden.
+
+This does **not** mean that every semantic distinction is physical, that observation creates a force, or that all domains share one universal coordinate set. Semantic, informational, physical, historical, relational, and observer-facing distinctions remain different typed objects. A distinction earns technical status only when preserving or removing it changes a declared prediction, admissible transition, recovery route, closure decision, measurement result, or other prospectively testable consequence.
+
+There is a semantic consequence worth making explicit. Two statements can both be true while answering different relational addresses. If substituting one for the other leaves the governing question unresolved and changes what the system is allowed to treat as closed or what operations may follow, the semantic distinction has operational load for that task. That is a testable addressing claim, not a claim that semantics is a new physical field.
+
 ## Start with the problem, not the vocabulary
 
 A large scientific model can go wrong before an equation is even chosen.
@@ -213,15 +227,11 @@ The published [Bell Constraints as Typed Boundaries](papers/2026-08-25_BELL_CONS
 
 The [Cross-Domain Compositional Schema v0.4](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md) was then pushed against Bell/CHSH geometry.
 
-The geometric construction closed cleanly, but its natural four-volume reduced to known CHSH excess. The independent physical residual was therefore **NULL**.
+The first result is positive and exact. After the earlier dimensional objection, the facet-adapted construction represents the established four-correlator object as three independent affine coordinates on a native CHSH tetrahedral facet plus one transverse coordinate, with exact reconstruction. That is a hard known-answer calibration of the architecture's preservation/reopening and semantic-address discipline. It is not a new Bell theorem, new CHSH facet, or new quantum mechanism.
 
-That is not hidden as a failure.
+The stronger geometric candidate is then allowed to fail. The natural four-volume reduces exactly to known CHSH excess, so it supplies no independent Bell invariant or physical residual. That stronger new-physics branch is **NULL**.
 
-It is useful for two reasons.
-
-First, it shows the method can return “this is a reparameterisation of known structure” instead of forcing novelty.
-
-Second, it produced a reusable rule: preserve a representation when it is sufficient; reopen it when controlled deformation shows that it has hidden a load-bearing distinction.
+The pair matters: **exact native reconstruction first; clean refusal of unsupported promotion second.** The later null does not erase the positive reconstruction, and the positive reconstruction does not license new physics.
 
 The Bell results are therefore calibrations and correspondence work, not claims to have discovered a new Bell law or solved Bell's theorem.
 

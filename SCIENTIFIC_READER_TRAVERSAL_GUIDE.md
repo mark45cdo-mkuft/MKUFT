@@ -6,6 +6,14 @@ This is not a replacement for the technical modules. It is the intermediate laye
 
 The intended reader is intelligent and scientifically literate, but not assumed to hold a PhD in every field touched by the work. A non-specialist should still be able to follow the questions, the reason each module exists, what the equations are doing in broad terms, and what result would weaken the claim. A domain specialist can then enter the native equations and attack the exact formal burden.
 
+## Carry this object through the whole guide
+
+For a declared operation, MKUFT treats the effective system description as sufficient only while it preserves the minimum typed distinctions needed to keep materially different relevant admissible futures from being falsely merged. This is the central object carried through the scientific chain.
+
+A realised transition can change which Address is sufficient, so the next lawful continuation is constructed from the state actually reached rather than inherited automatically from the previous description. The same criterion can be applied across scale, recursive reuse, recovery, and—where constitutive of the declared operation—observer/registration state.
+
+This is a layer-neutral **test**, not a layer-flattening ontology. Physical variables, semantic relations, retained history, informational structure, and observer-positioned records remain different types. A distinction earns inclusion only when preserving or removing it changes a declared future, transition, recovery route, closure decision, measurement result, or another prospectively testable consequence.
+
 ## How to use this guide
 
 At each step, keep four things in hand:
@@ -23,7 +31,7 @@ If you cannot answer those questions after the prose around an equation, treat t
 
 ## The chain in one sentence
 
-MKUFT asks whether a model has identified the right object and state before assigning a law, then keeps testing whether that state remains sufficient as scale, history, future divergence, recovery and cross-domain transfer are brought under pressure.
+MKUFT asks what distinctions the present representation must retain so states with materially different relevant futures are not falsely treated as the same, uses that addressed state before assigning a law, and then re-tests and readdresses after realised transitions, scale changes, registration, recovery, and widened reuse.
 
 The scientific chain is:
 
@@ -461,7 +469,7 @@ Ask:
 - does a matched replay, flat, scrambled or alternative-pairing control recover the same gain?
 - was the failure criterion changed after the result?
 
-A null result is not an embarrassment. The Bell/CHSH tetrahedral calibration is deliberately kept as an example: the exact geometric construction survived, but the independent new-physics residual became **NULL** because the relevant quantity reduced to known CHSH structure.
+A null result is not an embarrassment. The Bell/CHSH tetrahedral calibration is deliberately kept as a paired example. First, the facet-adapted construction gives an exact **3+1** reconstruction of the established native four-correlator object: three independent affine coordinates on the CHSH tetrahedral facet plus one transverse coordinate. That is a positive known-answer methodological calibration, not new Bell mathematics or new physics. The architecture is then pushed further, and the independent physical/geometric residual becomes **NULL** because the natural four-volume reduces to known CHSH excess. Exact native recovery and refusal of unsupported promotion are separate results.
 
 ### Final kill point
 

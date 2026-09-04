@@ -37,6 +37,32 @@ domain
 
 Do not force everything to fit. Do not call analogy evidence. Do not discard a legitimate neighbouring result merely because it does not confirm MKUFT.
 
+## 0A. Current centre-of-gravity novelty candidates
+
+After subtracting generic priority claims over semantics, predictive-state representations, sufficient statistics, reachability, constraint closure, coarse-graining, observer-relative descriptions, Bell geometry, and the other established ingredients recorded below, the current MKUFT novelty surface should not be described only as “the integration may be novel.” Several explicit technical objects are already strong enough to be presented as **candidate original constructions**, while remaining open to narrowing or removal under stronger prior art.
+
+The common centre is:
+
+> **For a declared task, an effective addressed state is sufficient only while it preserves the minimum typed distinctions needed to keep materially different admissible futures from being falsely merged. A realised transition can change that effective Address, so continuation is re-evaluated from the state actually reached. The same prospective sufficiency rule can govern scale promotion, recursive reuse, recovery, semantic closure, and observer/registration state where those objects are genuinely constitutive of the declared operation, without flattening their native types into one ontology.**
+
+The strongest individually nameable candidate objects are presently:
+
+1. **Future-Sufficient Address Invariant (FSAI)** — state membership is earned by target-relative future discrimination rather than by a fixed universal inventory of variables.
+2. **Addressed Admissible Futures (AAF)** — the current Address induces the declared future object; realised transition and readdressing can change which future geometry governs continuation.
+3. **Restorative-future reserve** — present viability and the robustness/existence of sufficient restorative routes are distinct objects; a system can remain locally viable while its restorative future collapses.
+4. **Future-Splitting State Recruitment (FSSR)** — prospectively challenge states currently treated as equivalent; when their declared futures split beyond tolerance after control audit, recruit the smallest typed missing distinction and require prospective repair/deformation.
+5. **Preserve-or-Guaranteed-Reopen compositional reuse** — a compressed interface may omit lower detail only while the relevant relation is preserved or a prospectively declared typed route can reopen the smallest dependency-complete lower owner before the omission becomes decision-bearing.
+6. **Recursive constraint-closure lifecycle** — local closure → effective object → promotion into a wider relation → future insufficiency → targeted restorative descent → reclosure/re-evaluation, rather than a claim to have invented constraint closure itself.
+7. **Layer-Before-Law Precedence Principle (LBLP)** — test state/address adequacy before promoting a residual into evidence for law revision.
+8. **Addressed semantic closure** — a proposition may be true yet answer the wrong relational address; where that substitution changes whether the governing question is closed and therefore changes admissible continuation, semantic address is operationally load-bearing. This is not a claim to have invented formal semantics or semantic information.
+9. **Actual-address / inherited-self-address divergence** — actions can change the system's current relational address faster than an inherited self-description updates; continued action from stale coordinates can alter restorative futures. This remains a candidate addressed-trajectory formulation, not a claim to have invented path dependence, escalation, or switching cost.
+
+The observer claim is similarly bounded. Observer-relative and measurement-context formalisms have substantial prior art. The candidate MKUFT move is narrower: where observer/registration state is constitutive of the declared operation, it is subjected to the same typed future-sufficiency, measurement, readdressing, and failure burdens as the rest of the addressed system. `O` is not automatically a new physical cause.
+
+Bell is a calibration surface, not one of the novelty claims above. The v0.4 Bell/CHSH branch first gives an exact **3+1** reconstruction of the established four-correlator object using a native CHSH tetrahedral facet address plus one transverse coordinate. That is a positive known-answer methodological calibration, not a new Bell theorem or new Bell geometry. The stronger candidate then fails cleanly: the natural four-volume collapses to known CHSH excess, leaving the independent physical residual **NULL**. The positive reconstruction and the later null are separate load-bearing results.
+
+Historical global priority is not asserted for the list above. The correct scientific burden is now sharper: compare each named candidate against its strongest neighbouring literature and native baseline, retain the residual that survives, and contract any candidate whose exact function is already supplied elsewhere.
+
 ## 1. Recurring MKUFT research grammar
 
 A recurring MKUFT sequence is:
@@ -229,9 +255,11 @@ Current status: **candidate original formal synthesis / operational meta-princip
 
 ## 15. Novelty discipline
 
+The named objects in Section 0A are the current hard novelty surfaces. The purpose of this section is to constrain how their supporting architecture may be described, not to retreat from naming them.
+
 The potentially distinctive MKUFT contributions are not the isolated words *information*, *coherence*, *boundary*, *observer*, *cost*, *holography*, *sheaf*, *interface*, *emergence*, *coarse-graining*, *hysteresis* or *recoverability*. Those concepts have extensive histories.
 
-MKUFT likewise does not claim lexical or generic methodological priority for the phrase **strongest fair null**, for null-hypothesis or adversarial-model comparison in general, or for negative-space / absence-based reasoning. Those are treated as established or neighbouring methodological families. Any candidate contribution must attach to a specifically defined MKUFT integration, ordering, operationalisation, or discriminator that remains after relevant prior-art subtraction.
+MKUFT likewise does not claim lexical or generic methodological priority for the phrase **strongest fair null**, for null-hypothesis or adversarial-model comparison in general, or for negative-space / absence-based reasoning. Formal semantics, dynamic/context-update semantics, causal semantic information, predictive-state representations, sufficient representations, viability/reachability, path dependence and observer-relative formalisms also remove broad priority claims over those ingredients. Any candidate contribution must attach to the specifically defined addressed integration, ordering, operationalisation, or discriminator that remains after relevant prior-art subtraction.
 
 Novelty must be earned by combinations that do concrete work, including:
 
@@ -254,7 +282,8 @@ The public scientific position is best represented by maturity rather than a sup
 
 - **Established external science:** quantum theory, relativity in tested regimes, critical phenomena, active matter, biological regulation, causal abstraction/coarse-graining, viability/reachability, hysteresis, multilevel selection, local-to-global topology/sheaf methods, holographic optics, boundary/junction dynamics, and standard cognitive/systems science.
 - **Well-defined MKUFT methods or scaffolds:** typed traversal, equation hygiene, strongest-fair-null design, deformation tests, context-conditioned state comparison, recursive-constraint/reachable-state geometry, relational completion, I→P support assays, Module 33 law-object assembly, 33S1 interface promotion, 33S2 property-specific law descent/readdressing, and 33S3 cross-scale performance/recoverability separation.
-- **Novelty-positioning audit:** Module 33A records inherited ingredients and the residual candidate synthesis; it is not empirical validation.
+- **Named candidate original constructions:** FSAI; AAF/restorative-future reserve; FSSR; preserve-or-guaranteed-reopen compositional reuse; the recursive closure/promotion/reopen lifecycle; LBLP; addressed semantic closure; and actual-address/self-address divergence, each subject to prior-art subtraction and prospective utility tests.
+- **Novelty-positioning audit:** Module 33A and the Module 32 novelty audit record inherited ingredients and residual candidate syntheses; they are not empirical validation.
 - **Candidate experimental bridges:** LUCY physical specialisations, precision boundary residuals, selected observer-linked assays, and completion/deformation/interface experiments in systems with measurable local-to-global organisation.
 - **Foundational research programme:** Layer Before Law plus concrete physical instantiation/recovery of the closed architectural drivetrain.
 - **Interpretive/application branches:** metaphysical comparison, symbolic comparison, Voynich procedural hypothesis.

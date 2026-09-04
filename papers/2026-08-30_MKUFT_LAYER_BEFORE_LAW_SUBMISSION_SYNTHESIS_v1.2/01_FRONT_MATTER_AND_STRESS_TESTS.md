@@ -40,14 +40,30 @@ while preserving explicit routes back to the source objects.</p></th>
 The McLaughlin-Kairos Unified Field Theory (MKUFT) is an open research
 programme asking an earlier question than direct law unification: before
 laws are combined, has the object that is supposed to own the law been
-typed correctly? The present work does not claim a completed unified
-field theory, a derivation of quantum mechanics, quantum field theory,
-general relativity, or quantum gravity, or a new physical field. It
-proposes a typed architecture in which substrate/possibility,
-informational or relational structure, physical state, and
-observer-positioned record remain distinct objects unless an explicit
-coupling earns their connection. A complete addressed state and measured
-context determine an admissibility descriptor; a law assembler
+typed correctly? The operational proposal is sharper than a static
+addressing rule. For a declared target, horizon, admissible challenge
+family, environment, regime and tolerance, an effective addressed state
+is sufficient only while states it identifies as equivalent remain
+equivalent in the declared admissible future. A distinction belongs in
+the effective Address when omitting it would merge histories whose
+future target laws materially differ; a realised transition can therefore
+require the system to be readdressed from the state actually reached
+rather than from a stale description inherited from the previous step.
+The same prospective criterion can recurse across scale, composition,
+recovery and, where constitutive of the declared operation,
+observer-positioned registration state. This does not equate semantic,
+informational, physical and observational variables: each retains its
+native type and evidential burden, and a distinction earns technical load
+only when preserving or removing it changes a declared prediction,
+admissible transition, recovery route, closure decision or other
+prospectively testable consequence. The present work does not claim a
+completed unified field theory, a derivation of quantum mechanics,
+quantum field theory, general relativity, or quantum gravity, or a new
+physical field. It proposes a typed architecture in which
+substrate/possibility, informational or relational structure, physical
+state, and observer-positioned record remain distinct objects unless an
+explicit coupling earns their connection. A complete addressed state and
+measured context determine an admissibility descriptor; a law assembler
 constructs the active physical-law object - its domain, transition rule,
 and any domain-appropriate weighting; physical propagation and a typed
 measurement instrument produce outcomes and records; the realised path
@@ -57,27 +73,29 @@ compressed interface is admissible for a declared future operation only
 if it preserves every decision-bearing relation or guarantees targeted
 reopening before an omitted relation can affect the result. Three
 immediate stress tests are supplied before the full architecture: an
-exact CHSH/Tsirelson-point calculation whose attractive geometric
-candidate is deliberately reduced to a known quantity; a
+exact CHSH/Tsirelson-point calculation in which a facet-adapted
+three-plus-one coordinate construction reconstructs the established
+four-correlator object exactly before an attractive independent geometric
+candidate is deliberately reduced to known CHSH information; a
 future-splitting criterion that detects when a compressed state has
 become insufficient under widened reuse; and a matched-control ATLD
 protocol that isolates meaningful typed dependency and active traversal
 from graph presence, extra resources, and replay. These objects are not
-assigned the same evidential status: the Bell result is an exact
-calibration with a null new-physics residual, future sufficiency is a
-formal operational criterion, and ATLD is a prospective experimental
-protocol rather than a claimed passed result. The Bell calculation is
-accompanied by a public computational verification package containing
-machine-readable derived values, a standard-library reproduction script,
-captured verification output, and integrity hashes; these data reproduce
-the algebraic calibration and are not empirical evidence for a new
-physical mechanism. MKUFT is therefore presented as a pressure-testable
-relational architecture for physical-law selection, cross-scale
-dynamics, recursive model custody, and the explicit separation of what
-is organised from what remains scientifically unearned. A foundational
-branch succeeds only if it recovers established quantum and
-gravitational regimes and produces a discriminating result beyond the
-strongest existing account.
+assigned the same evidential status: the positive Bell reconstruction is
+an exact known-answer calibration and its stronger new-physics residual
+is null, future sufficiency is a formal operational criterion, and ATLD
+is a prospective experimental protocol rather than a claimed passed
+result. The Bell calculation is accompanied by a public computational
+verification package containing machine-readable derived values, a
+standard-library reproduction script, captured verification output, and
+integrity hashes; these data reproduce the algebraic calibration and are
+not empirical evidence for a new physical mechanism. MKUFT is therefore
+presented as a pressure-testable relational architecture for physical-law
+selection, cross-scale dynamics, recursive model custody, and the
+explicit separation of what is organised from what remains scientifically
+unearned. A foundational branch succeeds only if it recovers established
+quantum and gravitational regimes and produces a discriminating result
+beyond the strongest existing account.
 
 **Keywords:** MKUFT; Layer Before Law; typed state architecture;
 relational admissibility; physical-law selection; SIPO;
@@ -92,15 +110,19 @@ falsifiability.
 <thead>
 <tr class="header">
 <th><p><strong>Contribution at a glance</strong></p>
-<p>The proposal is not "one more equation that unifies everything". It
-is an explicit contract for deciding which addressed object may lawfully
-own a physical law, how that law object is assembled, when a compressed
-description remains sufficient under recursive reuse, and exactly where
-the programme must contract or fail. The next section therefore gives
-three immediate checks before asking the reader to accept any wider
-interpretation: one native Bell calculation, one future-splitting
-sufficiency discriminator, and one executable matched-control AI
-protocol.</p></th>
+<p>The proposal is not "one more equation that unifies everything". Its
+central operational object is a moving addressed system: for a declared
+use, retain the minimum typed distinctions needed to keep materially
+different admissible futures separate; after a realised transition,
+readdress from the state actually reached. That criterion then governs
+when an addressed object may lawfully own a physical law, when a
+compressed description remains sufficient under recursive reuse, when a
+scale transition must preserve or reopen lower structure, and when an
+observer/registration distinction is constitutive rather than optional.
+The next section gives three immediate checks before asking the reader to
+accept any wider interpretation: one native Bell calculation, one
+future-splitting sufficiency discriminator, and one executable
+matched-control AI protocol.</p></th>
 </tr>
 </thead>
 <tbody>
@@ -119,21 +141,22 @@ protocol.</p></th>
 <p>The three objects below are placed before the full architecture so
 they can be checked independently. They do not require acceptance of a
 new ontology. They ask, respectively: does the Bell chart reconstruct
-exactly and then contract when native mathematics explains it; can a
-compressed state be proven insufficient by a future split; and does
-meaningful typed dependency plus active traversal outperform matched
-controls when content and resource budgets are held fixed?</p></th>
+the native four-correlator object exactly and then contract when native
+mathematics explains the stronger residual; can a compressed state be
+proven insufficient by a future split; and does meaningful typed
+dependency plus active traversal outperform matched controls when content
+and resource budgets are held fixed?</p></th>
 </tr>
 </thead>
 <tbody>
 </tbody>
 </table>
 
-| **Object**         | **Immediate check**                                                                                                 | **Scientific status**                                        | **What defeats the stronger claim**                                                                                 |
-|--------------------|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Bell / CHSH        | Insert the symmetric Tsirelson correlator into the facet chart.                                                     | Exact worked calculation; new-physics residual NULL.         | If the chart is non-invertible, mis-reconstructs E, or a claimed invariant reduces to known CHSH information.       |
-| Future sufficiency | Merge two histories, then challenge the merged state prospectively.                                                 | Formal operational discriminator.                            | If all allowed future target laws remain equivalent, the omitted distinction is not required for that declared use. |
-| ATLD               | Hold content and budget fixed; compare typed active traversal with flat, scrambled, no-revisit and replay controls. | Prospective methods protocol; no passed result claimed here. | If matched controls perform equally well, architecture-level gain is not earned.                                    |
+| **Object**         | **Immediate check**                                                                                                 | **Scientific status**                                                        | **What defeats the stronger claim**                                                                                 |
+|--------------------|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Bell / CHSH        | Insert the symmetric Tsirelson correlator into the facet chart and reconstruct the four-correlator object.          | Exact 3+1 known-answer reconstruction; stronger new-physics residual NULL.    | If the chart is non-invertible, mis-reconstructs E, or a claimed invariant reduces to known CHSH information.       |
+| Future sufficiency | Merge two histories, then challenge the merged state prospectively.                                                 | Formal operational discriminator.                                            | If all allowed future target laws remain equivalent, the omitted distinction is not required for that declared use. |
+| ATLD               | Hold content and budget fixed; compare typed active traversal with flat, scrambled, no-revisit and replay controls. | Prospective methods protocol; no passed result claimed here.                 | If matched controls perform equally well, architecture-level gain is not earned.                                    |
 
 ## A. Worked Bell calculation: the symmetric Tsirelson point
 
@@ -168,13 +191,16 @@ barycentric weights are therefore equal.
 <thead>
 <tr class="header">
 <th><p><strong>What is actually obtained</strong></p>
-<p>The result is mathematically clean: three affine tetrahedral
-coordinates plus one transverse CHSH coordinate reconstruct the
-four-correlator object exactly, and the symmetric Tsirelson point
-projects to the facet barycentre. But the natural four-volume is only a
-rescaling of known CHSH excess. The geometric chart is retained; the
-proposed new Bell invariant is not. No new Bell inequality, independent
-Tsirelson derivation, quantum mechanism, or measurable physical delta is
+<p>The first result is positive and exact: three independent affine
+tetrahedral-facet coordinates plus one transverse CHSH coordinate
+reconstruct the established four-correlator object exactly, and the
+symmetric Tsirelson point projects to the facet barycentre. This is a
+known-answer methodological calibration of the addressed/compositional
+machinery, not a new Bell theorem or new Bell geometry. The stronger
+candidate comes next: the natural four-volume is only a rescaling of
+known CHSH excess. The geometric chart is retained; the proposed new Bell
+invariant is not. No new Bell inequality, independent Tsirelson
+derivation, quantum mechanism, or measurable physical delta is
 claimed.</p></th>
 </tr>
 </thead>
@@ -183,9 +209,10 @@ claimed.</p></th>
 </table>
 
 This is intentionally a hostile calibration. The programme is not being
-demonstrated by every attractive construction surviving. It is being
-demonstrated by an attractive construction surviving only at the level
-native Bell mathematics permits.
+demonstrated by every attractive construction surviving. The paired
+result matters: the architecture closes exactly on the native object,
+then refuses the stronger promotion when native Bell mathematics explains
+it.
 
 ## B. Future-splitting test: when a compressed state stops being sufficient
 
@@ -277,15 +304,15 @@ be load-bearing for the claim.
 <thead>
 <tr class="header">
 <th><p><strong>Status discipline</strong></p>
-<p>Bell example: exact mathematical calibration with a deliberately null
-new-physics residual. Future-sufficiency example: formal operational
-criterion whose usefulness depends on prospective instantiation. ATLD
-example: executable experimental protocol whose hypotheses are not
-reported here as having passed. These statuses are intentionally
-different. The point is not that one equation proves the whole
-programme; it is that the same typed discipline generates a calculation,
-a discriminator, and a runnable falsification route without flattening
-them into one evidential class.</p></th>
+<p>Bell example: exact positive 3+1 reconstruction of an established
+native object, followed by a deliberately null stronger new-physics
+residual. Future-sufficiency example: formal operational criterion whose
+usefulness depends on prospective instantiation. ATLD example: executable
+experimental protocol whose hypotheses are not reported here as having
+passed. These statuses are intentionally different. The point is not
+that one equation proves the whole programme; it is that the same typed
+discipline generates a calculation, a discriminator, and a runnable
+falsification route without flattening them into one evidential class.</p></th>
 </tr>
 </thead>
 <tbody>
@@ -294,9 +321,10 @@ them into one evidential class.</p></th>
 
 Why these three belong together: each attacks a different form of false
 closure. Bell asks whether a new representation has been mistaken for
-new physics. Future sufficiency asks whether a locally valid compression
-has been mistaken for a state adequate under widened reuse. ATLD asks
-whether a graph-shaped system has been mistaken for meaningful
+new physics while also testing whether the architecture can recover the
+native object exactly. Future sufficiency asks whether a locally valid
+compression has been mistaken for a state adequate under widened reuse.
+ATLD asks whether a graph-shaped system has been mistaken for meaningful
 relational architecture. In each case, the stronger claim survives only
 if the lower-order explanation is actively removed rather than
 rhetorically ignored.
