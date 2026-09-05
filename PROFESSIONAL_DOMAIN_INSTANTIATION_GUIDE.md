@@ -157,6 +157,61 @@ If not, `r` has not been shown to be load-bearing for that claim.
 
 ---
 
+## Cross-domain carriage and filter-safe translation
+
+A cross-domain claim is not earned because the same words, diagram shape, metaphor, or equation fragment can be displayed in several fields.
+
+The useful order is:
+
+```text
+local domain object closes on native terms
+→ local variables / intervention / measurement / strongest null are explicit
+→ second materially different domain closes independently
+→ only then ask whether the same typed relation survives translation
+```
+
+For a relation to be described publicly as **cross-domain**, require at least two materially different domain instantiations and prefer three where they arise without forcing analogy. Each domain keeps its own mechanism candidates, units, evidence, baselines, failure conditions and causal burden.
+
+The cross-domain result is therefore:
+
+```text
+same typed relation survives
+≠ same underlying mechanism proved
+```
+
+A useful public representation should also pass a **domain-filter independence test**. If one motivating domain is culturally expensive, metaphysical, anomalous, political, identity-bearing, or otherwise likely to be bracketed by a competent reader, ask:
+
+> **If that reader treats this motivating domain as false or unresolved, can the remaining domain-native cases still define, test and falsify the structural relation?**
+
+If no, the architecture is still dependent on that domain and should not be presented as independently cross-domain.
+
+This is the sober translation rule: preserve the relation, evidence status, falsifier and provenance while removing only non-load-bearing ontology, identity or prestige load from the first-pass carrier.
+
+Do not hide a controversial premise that is genuinely required. Do not make a spiritual, anomalous or political source frame do mechanistic work it has not earned. Apply the same discipline to prestigious scientific, institutional, military, professional or technical language: status-bearing vocabulary does not become evidence merely because it sounds conventional.
+
+### Example — one authority-transfer relation, different native domains
+
+A candidate structural relation such as
+
+```text
+high-salience success / experience
+→ exceptional status attribution
+→ wider authority allocation
+```
+
+can be instantiated separately as:
+
+- **science:** breakthrough or prestige salience → researcher/group status → authority claimed outside the demonstrated competence domain;
+- **AI:** benchmark or self-audit success → “safe/aligned/superior” status → broader delegation not earned by the tested task;
+- **leadership/institutions:** crisis success or rank → competence halo → authority imported into unrelated decisions;
+- **spiritual/anomalous experience:** profound experience → chosen/cleaner status → wider epistemic or moral authority.
+
+These examples do not share a proved causal mechanism. They test whether the **typed transfer** survives different native mechanisms and whether each domain can distinguish earned competence/mandate from aura-to-authority leakage.
+
+A claimed cross-domain architecture fails or contracts if one domain supplies all of the evidential content while the others remain decorative analogies, if the mapped roles change meaning after outcomes are known, or if the relation adds no discriminating value beyond the receiving field's established constructs.
+
+---
+
 ## What “scale” is allowed to mean
 
 “Scale” must never function as a licence to move the goalposts.
