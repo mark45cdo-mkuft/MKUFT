@@ -93,6 +93,30 @@ This is a psychological and social systems proposition, not a new physical inter
 
 Within MKUFT's metaphysical interpretation, Love is treated more strongly as a load-bearing unity-principle. Measurable social proxies neither exhaust nor prove that metaphysical claim.
 
+### 10.1 Why equal immediate options need not be equal futures
+
+There is a sharper systems reason not to treat opposite choices as equivalent merely because they have equal immediate force, cost, pleasure, power, or local payoff.
+
+Two actions can be tied on a present readout and still differ in what they leave available to the system afterward. One may preserve trust, correction, communication, reversible coordination and the ability of distinct parts to keep contributing. Another may obtain the same local result by consuming those relations.
+
+That gives a future-facing comparison:
+
+```text
+same or similar immediate payoff
++ different effect on feedback / correction / restorative routes / viable alternatives
+→ different future geometry
+```
+
+This is where cohesion becomes more than a pleasant label. In a declared biological, social, organisational or control problem, a cohesive relation is useful only insofar as it preserves or improves measurable coordination, correction, recoverability or future option structure without erasing necessary boundaries. The relevant question is not whether a choice has been culturally named “light” or “dark”, loving or selfish. It is whether the choice preserves the relations by which the larger system can continue to learn, correct, cooperate and recover.
+
+That distinction also explains why a locally costly act can be favourable at a larger scale. A cell can surrender its own continuation, a team member can absorb a burden, or an institution can accept a short-term cost while preserving a wider organisation. Conversely, a locally attractive gain can be globally expensive when it destroys feedback or pushes cost onto the enclosing system. The mechanisms differ by domain, so the analogy must not be promoted into one universal biological or moral law.
+
+This supplies a bounded bridge to evolutionary scaling. Evolutionary biology already contains native theories of cooperation, multilevel selection, kin selection, reciprocity, major transitions and conflict suppression; MKUFT does not replace them. The cross-scale observation is narrower: **higher-order organisation can persist only where enough lower-level interactions leave the higher-order system viable and capable of correction/reproduction over the relevant horizon.** A strategy that wins locally by repeatedly destroying the relations required for the enclosing organisation cannot be assumed equivalent to one that preserves those relations merely because the immediate local score is tied.
+
+The claim is empirical where applied. It fails if the supposedly more cohesive strategy does not improve the declared future readout, if ordinary evolutionary/game/control models already explain the result equally well, or if “cohesion” cannot be operationalised independently of the desired conclusion.
+
+> **Equal now does not imply equal later. When present options are tied, ask what each one leaves the larger system able to do next.**
+
 ## 11. Boundaries and intelligence
 
 Novel information often appears at interfaces where systems encounter difference: sensory boundaries, ecological edges, disciplinary crossings, social frontiers, and changing task conditions.
@@ -129,7 +153,7 @@ These expressions test whether lower-cost and more numerous admissible routes im
 
 ## 13. Falsifiers and limits
 
-The bridge is weakened if boundary language adds no explanatory or predictive value; one domain's evidence is used as proof in another; physical terms are applied metaphorically without distinction; dimensional claims lack an explicit comparison model; state-space dimension is confused with physical spatial dimension; social or psychological claims perform worse than established theories; or “cost” cannot be defined for the active domain.
+The bridge is weakened if boundary language adds no explanatory or predictive value; one domain's evidence is used as proof in another; physical terms are applied metaphorically without distinction; dimensional claims lack an explicit comparison model; state-space dimension is confused with physical spatial dimension; social or psychological claims perform worse than established theories; “cost” cannot be defined for the active domain; or a claimed cohesion advantage disappears when immediate payoff, information, enforcement, selection level and ordinary domain-native explanations are matched fairly.
 
 ## 14. Related public documents
 
@@ -137,12 +161,13 @@ The bridge is weakened if boundary language adds no explanatory or predictive va
 - [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 - [Agency Accessibility and Capture Geometry](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)
+- [Addressed Admissible Futures and Restorative Reachability](33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
 - [Physics-Facing MKUFT Explanation](13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
 - [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
 - [Cross-Support and Traversal Map](24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 
 ## Summary
 
-Persistent individuality requires maintained distinction, and maintained distinction usually carries cost. The useful questions are: what boundary is maintained, what difference does it preserve, what does maintenance cost, what happens when the boundary becomes too weak or too rigid, and which dimensions are physical rather than abstract or analogical?
+Persistent individuality requires maintained distinction, and maintained distinction usually carries cost. But immediate cost or benefit does not exhaust the comparison: two present choices can be locally tied while leaving very different amounts of feedback, coordination, recoverability and future option structure. The useful questions are therefore: what boundary is maintained, what difference does it preserve, what does maintenance cost, what future relations does a choice preserve or consume, what happens when the boundary becomes too weak or too rigid, and which dimensions are physical rather than abstract or analogical?
 
 The mechanism must be established separately at each layer.
