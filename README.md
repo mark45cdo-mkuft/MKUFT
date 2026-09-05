@@ -12,17 +12,32 @@ MKUFT is a speculative research framework. It is not presented as an accepted co
 
 That sounds simple. It is also where a large number of modelling errors begin.
 
-## The moving addressed system
+## The idea in one minute
 
-The deeper operational claim is dynamic rather than snapshot-based. For a declared target or operation, MKUFT treats an effective Address as sufficient only while it preserves the distinctions needed to keep materially different admissible futures from being falsely merged. A realised transition may therefore change the Address that governs the next lawful continuation: continue from the state actually reached, not from a stale description inherited from the previous step.
+Suppose a scientist asks, “What law governs this thing?”
 
-That changes the central question from only **“what is the system now?”** to **“what must be distinguished now so that the futures which matter are not incorrectly treated as the same?”** The same criterion can be applied recursively across scale and composition and, where an observer or registration state is constitutive of the declared operation, to that observer/record state as part of the addressed system.
+MKUFT says there is a prior question:
 
-This is not a claim that every semantic distinction is physical, that observation creates a new force, or that one universal coordinate set describes every domain. A semantic, informational, physical, historical, relational, or observer-facing distinction earns technical status only when preserving or removing it changes a declared prediction, admissible transition, recovery route, closure decision, or other prospectively testable consequence.
+> **What exactly is the thing, at what scale, in what role, under which boundary conditions, and which changes are actually allowed from that state?**
 
-This work is not intended as a critique of science or of scientific practice. We hold science, and the discipline of its methods, in very high regard. MKUFT is offered in that same spirit: as an attempt to ask whether some difficult problems can be approached more clearly while remaining answerable to evidence, explicit assumptions, falsification, and correction.
+The same material can behave differently when its organisation changes. A cell is not explained by listing its molecules. A neural network is not explained by listing its weights. A flock is not explained by one bird. A quantum experiment is not described correctly if preparation, measurement access, signalling constraints, and the joint state are silently mixed together.
 
-**A note on the name:** The author is not particularly fond of the title *McLaughlin–Kairos Unified Field Theory*. The name dates from the beginning of the project, when this was a private, somewhat tongue-in-cheek collection of ideas with no expectation that it would become a public research programme. The work subsequently became more serious, structured, and testable, while the original name persisted as its historical identifier. It should not be read as a claim that a completed unified field theory has been achieved.
+A perfectly respectable equation can still miss if it has been aimed at the wrong object. Nature is under no obligation to respect the categories in our spreadsheet.
+
+MKUFT calls this **Layer Before Law**. The claim is not that all of those systems obey one new equation. The claim is that the *order of modelling* matters:
+
+```text
+identify the object
+→ identify its role and boundary
+→ identify the active layer and scale
+→ identify which states are possible under the setup
+→ identify which changes the model or physics actually allows
+→ only then ask which law or effective rule is justified for the prediction
+```
+
+If those extra steps add no predictive, explanatory, experimental, or model-selection value, they have not earned their keep.
+
+That failure condition matters. MKUFT is designed to be reduced when its added structure does no work.
 
 ## Choose your route
 
@@ -43,6 +58,16 @@ Scientific Reader Traversal Guide = scientific handoff into the technical body
 
 If you are unsure where to begin, take the **Public Overview** route.
 
+**A note on the name:** *McLaughlin–Kairos Unified Field Theory* began as the title of a private, somewhat tongue-in-cheek collection of ideas. The project became more serious, structured, and testable; the historical name survived. The name is not a claim that a completed unified field theory has been achieved. The claims still have to earn themselves one test at a time.
+
+## The moving addressed system
+
+The deeper operational claim is dynamic rather than snapshot-based. For a declared target or operation, MKUFT treats an effective Address as sufficient only while it preserves the distinctions needed to keep materially different admissible futures from being falsely merged. A realised transition may therefore change the Address that governs the next lawful continuation: continue from the state actually reached, not from a stale description inherited from the previous step.
+
+That changes the central question from only **“what is the system now?”** to **“what must be distinguished now so that the futures which matter are not incorrectly treated as the same?”** The same criterion can be applied recursively across scale and composition and, where an observer or registration state is constitutive of the declared operation, to that observer/record state as part of the addressed system.
+
+A semantic, informational, physical, historical, relational, or observer-facing distinction earns technical status only when preserving or removing it changes a declared prediction, admissible transition, recovery route, closure decision, or other prospectively testable consequence. That is the boundary: the architecture may type several kinds of object, but it does not turn every distinction into a physical variable or every registration state into a new force.
+
 ## Future sufficiency and admissible futures
 
 Readers searching for **future admissibility**, **future-state sufficiency**, **predictive state sufficiency**, **predictive closure**, **reachable futures**, or **minimal sufficient state** may be looking for the same problem family treated here: whether a present state description contains enough information for the future quantity being predicted, and which future states or recovery routes remain reachable. In MKUFT, this is distinct from legal evidence admissibility.
@@ -59,31 +84,6 @@ Main routes into that work:
 - [Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md)
 
 For translation between ordinary neighbouring terminology and the native MKUFT terms, use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md).
-
-## The idea in one minute
-
-Suppose a scientist asks, “What law governs this thing?”
-
-MKUFT says there is a prior question:
-
-> **What exactly is the thing, at what scale, in what role, under which boundary conditions, and which changes are actually allowed from that state?**
-
-The same material can behave differently when its organisation changes. A cell is not explained by listing its molecules. A neural network is not explained by listing its weights. A flock is not explained by one bird. A quantum experiment is not described correctly if preparation, measurement access, signalling constraints, and the joint state are silently mixed together.
-
-MKUFT calls this **Layer Before Law**. The claim is not that all of those systems obey one new equation. The claim is that the *order of modelling* matters:
-
-```text
-identify the object
-→ identify its role and boundary
-→ identify the active layer and scale
-→ identify which states are possible under the setup
-→ identify which changes the model or physics actually allows
-→ only then ask which law or effective rule is justified for the prediction
-```
-
-If those extra steps add no predictive, explanatory, experimental, or model-selection value, they have not earned their keep.
-
-That failure condition matters. MKUFT is designed to be reduced when its added structure does no work.
 
 ## Why a reader from another field might care
 
