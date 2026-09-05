@@ -69,7 +69,7 @@ In a repairable human, social, organisational, or governance object, a local fau
 
 This distinction is address-dependent. Purity remains a legitimate native variable where the domain actually measures purity, sterility, contamination, or signal integrity. The error is not the word *purity*; it is importing a terminal contamination rule into an object whose declared task permits repair and readdressing. Conversely, grace cannot preserve an unsafe relation merely because restoration is preferred. The admissible boundary is fixed first.
 
-A useful cultural carrier is the old contrast between a sword that discriminates and cuts and a vessel associated with restoration: discrimination without a restorative rule can drift into purification, while restoration without discrimination can drift into permissiveness. The comparison stops there. **Excalibur and the Grail are metaphors, not evidence, mechanisms, theology, status certificates, or identities claimed by MKUFT, its author, or its collaborators.** The technical relation must remain intact when those names are removed.
+**Discrimination without a restorative rule can drift into purification, while restoration without discrimination can drift into permissiveness.**
 
 > **Grace preserves lawful remainder after truthful discrimination; it does not purify the evidence or excuse the failed relation.**
 
