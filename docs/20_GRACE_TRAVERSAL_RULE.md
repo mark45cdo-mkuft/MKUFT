@@ -63,6 +63,16 @@ For human-facing applications, this is the clean public expression of the framew
 
 This keeps the moral posture load-bearing without smuggling it into physics or evidence.
 
+### Grace and purity are not interchangeable route rules
+
+In a repairable human, social, organisational, or governance object, a local fault does not by itself make the whole object globally contaminated or terminally excludable. A **purity** rule can become destructive when it promotes one failed relation into a judgement on every lawful remainder: fault becomes contamination, contamination becomes exclusion, and correction loses its route back. **Grace**, as used here, keeps the fault, consequence, evidence, boundary, and required correction intact while refusing that unearned promotion. It asks what lawful capability, dignity, relationship, provenance, contribution, and restorative reach can still survive after the failed relation is removed.
+
+This distinction is address-dependent. Purity remains a legitimate native variable where the domain actually measures purity, sterility, contamination, or signal integrity. The error is not the word *purity*; it is importing a terminal contamination rule into an object whose declared task permits repair and readdressing. Conversely, grace cannot preserve an unsafe relation merely because restoration is preferred. The admissible boundary is fixed first.
+
+A useful cultural carrier is the old contrast between a sword that discriminates and cuts and a vessel associated with restoration: discrimination without a restorative rule can drift into purification, while restoration without discrimination can drift into permissiveness. The comparison stops there. **Excalibur and the Grail are metaphors, not evidence, mechanisms, theology, status certificates, or identities claimed by MKUFT, its author, or its collaborators.** The technical relation must remain intact when those names are removed.
+
+> **Grace preserves lawful remainder after truthful discrimination; it does not purify the evidence or excuse the failed relation.**
+
 > **Recovery is not assumed to be reversal. Traverse from the state actually reached toward a declared restored target through the least destructive admissible route that removes the capture relation.**
 
 > **Preserve the history, preserve the lawful remainder, correct the failed relation, verify the changed future, and readdress.**
