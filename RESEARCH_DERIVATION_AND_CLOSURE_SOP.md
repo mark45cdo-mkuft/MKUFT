@@ -2,7 +2,7 @@
 
 **Status:** standing cross-stack research and publication SOP  
 **Owner:** Mark Charles McLaughlin  
-**Scope:** derivation, red-team review, empirical promotion, standalone-paper creation, canon folding, release identity, recursive learning, and post-write closure  
+**Scope:** derivation, red-team review, empirical promotion, standalone-paper creation, canon folding, release identity, recursive learning, proceduralised method maturation, and post-write closure  
 **Companion controls:** [`docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md`](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), [`docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md`](docs/29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md), [`docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md`](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md), [`docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md), [`RENDERING_AND_PUBLICATION_INTEGRITY.md`](RENDERING_AND_PUBLICATION_INTEGRITY.md), and [`docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md`](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
 
 ## 1. Governing rule
@@ -349,9 +349,9 @@ new permanent anatomy = expensive
 
 This gate is recursive learning, not anti-learning. It prevents every useful correction from turning into another permanent object while leaving a clear promotion path when a residual repeatedly survives the existing body.
 
-## 17A. Recursive Learning Process — wiring, propagation, and fixed-point closure
+## 17A. Recursive Learning Process — wiring, propagation, proceduralised maturity, and fixed-point closure
 
-The no-new-anatomy gate is necessary but not sufficient for durable learning. A lesson has not been learned merely because a good rule can be stated or because a new file exists. The candidate must be compared with the already-earned body, inserted at the correct owner, propagated through changed behaviour, and shown to alter later performance for the relation that justified it.
+The no-new-anatomy gate is necessary but not sufficient for durable learning. A lesson has not been learned merely because a good rule can be stated or because a new file exists. The candidate must be compared with the already-earned body, inserted at the correct owner, propagated through changed behaviour, shown to alter later performance for the relation that justified it, and — where recurrence is expected — matured into a recoverable standing operation rather than a permanent demand on the operator's memory.
 
 Use this ordered loop for corrections, new papers, cross-domain transfers, repeated failures, unexpectedly successful moves, user-supplied insights, and architecture/science refinements:
 
@@ -366,7 +366,9 @@ OBSERVATION / CORRECTION / RESULT
 → SMALLEST DEPENDENCY-COMPLETE PROPAGATION
 → RE-TRAVERSE EVERY NON-NULL AFFECTED DEPENDENCY
 → CONTRADICTION / REGRESSION / FORWARD-BEHAVIOUR TEST
-→ PRESERVE PROVENANCE + REOPENING CONDITION
+→ FOR RECURRING REUSABLE RELATIONS: PROCEDURALISE THE TYPED TRIGGER / CHECK / DELTA-NULL WHERE LAWFUL
+→ STATE AUTOMATION DIVIDEND OR JUSTIFIED IRREDUCIBLE RESIDUE
+→ PRESERVE EXPLICIT DIAGNOSTIC / PROVENANCE / REOPENING PATH
 → REPEAT FROM THE CHANGED BODY
 → CLOSE ONLY WHEN ANOTHER LAWFUL PASS PRODUCES NO LOAD-BEARING GAIN.
 ```
@@ -524,6 +526,54 @@ UNRESOLVED / QUALIFIED / RESTORE-REQUIRED
 
 The repair is not to add a reminder that merely reproduces the desired wording. Reopen at the earliest address where the load-bearing state was lost, restore or re-wire that relation, propagate again, and repeat the persistence test. A lesson is learned only when the failure no longer reappears after the lawful transformations the architecture expects the lesson to survive.
 
+### 17A.6B Proceduralised maturity, automation dividend, and recoverable explicitness
+
+A reusable lesson is not fully operational merely because it is stored, named, and recoverable. Where a relation has a typed recurring trigger and the corresponding check lies inside already-authorised routine operation, mature the lesson into a standing local process:
+
+```text
+mature reusable relation
++ typed trigger
++ propagation / collision / forward survival
+→ trigger appears in the addressed state
+→ run the sufficient check
+→ emit typed delta or null
+→ return to the governing parent
+```
+
+The explicit derivation, owner, provenance, evidence boundary, failure condition, and reopening route must remain recoverable for audit, diagnosis, teaching, reconstruction, and repair. They need not remain in ordinary foreground when the standing check is null.
+
+Keep the separations:
+
+```text
+explicit architecture            ≠ repeated operator recital
+lesson stored                    ≠ lesson manually invoked
+mature method                    ≠ permanent checklist ceremony
+background operation             ≠ forgotten provenance
+automatic recruitment           ≠ automatic evidential authority
+smooth operation                 ≠ deleted diagnostic boundary
+```
+
+A mature process should therefore be tested in at least two modes where feasible:
+
+1. **ordinary-trigger test** — present the typed trigger without naming the lesson, SOP, or internal rule; the same substantive check should recruit if non-null;
+2. **strain/recovery test** — introduce conflict, drift, unexpected output, or audit demand; the explicit owner, provenance, boundary, and failure condition should still be reconstructable.
+
+For every durable recurring refinement, state an **automation dividend** or a justified **irreducible residue**.
+
+A useful automation dividend can include:
+
+- a repeated human reminder or checklist no longer required;
+- a known failure caught before manual intervention;
+- a recurring classification, propagation, recovery, verification, or null check recruited from the addressed state;
+- equal or stronger epistemic protection with less visible procedure;
+- faster lawful recovery because the explicit diagnostic route remains addressable.
+
+An irreducible residue is legitimate where the next step remains genuinely human-owned, externally permission-bound, value-laden, scientifically underdetermined, safety/regulation-bound, or otherwise not lawfully derivable from the current evidence and authority. Examples include selecting a research goal, granting consent, authorising publication or external action, or choosing among live interpretations that the evidence does not distinguish.
+
+Do not use automation to manufacture evidence, confidence, novelty, permission, moral authority, or closure. Do not preserve manual ceremony merely because the architecture has become accustomed to asking for it.
+
+> **Internal methodological sophistication should compile outward as simpler operation while keeping the exact scientific and diagnostic address recoverable.**
+
 ### 17A.7 Provenance, history, and reopening
 
 Preserve enough history to answer:
@@ -552,6 +602,7 @@ another lawful pass
 → no new changed dependency
 → no new discriminator/falsifier
 → no further safe compression
+→ no uncompiled recurrent operator burden that can be retired without losing protection
 → no remaining parent-changing unresolved branch.
 ```
 
@@ -654,4 +705,4 @@ When ordinary prose uses “certain”, bind it to the exact operational scope t
 
 ## Standing invariant
 
-> **Smallest sufficient object → hostile subtraction → baseline reconstruction → residual ablation/restoration → independent test → exact insertion address → dependency-complete propagation → re-traversal from the changed body → compression/handoff/re-entry persistence → typed repair/deformation → residual novelty gate → scale/lineage custody → silent authoring hygiene → typed computational-verification/independent-confirmation boundary → exact publication and release identity → calibrated operational closure with explicit provenance and a reopening condition.**
+> **Smallest sufficient object → hostile subtraction → baseline reconstruction → residual ablation/restoration → independent test → exact insertion address → dependency-complete propagation → re-traversal from the changed body → compression/handoff/re-entry persistence → proceduralised maturity with an automation dividend or justified irreducible residue → typed repair/deformation → residual novelty gate → scale/lineage custody → silent authoring hygiene → typed computational-verification/independent-confirmation boundary → exact publication and release identity → calibrated operational closure with explicit provenance and a reopening condition.**
