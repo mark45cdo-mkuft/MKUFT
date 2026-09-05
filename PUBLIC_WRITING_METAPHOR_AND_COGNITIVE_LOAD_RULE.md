@@ -117,6 +117,55 @@ Metaphor may not change:
 
 Where the metaphor and native science disagree, the native science wins and the metaphor is repaired or removed.
 
+## Sober / filter-passing carrier
+
+A public representation can fail before a technically competent reader reaches the relation because its first carrier asks them to adjudicate a worldview, identity, prestige signal or culturally expensive source frame that is not actually required by the claim.
+
+“Sober” therefore does **not** mean weaker, flatter or emotionally colourless prose. It means the reader can inspect the strongest warranted relation without first accepting a non-load-bearing ontology or authority cue.
+
+Use:
+
+```text
+load-bearing relation
+→ native object / variable / operation / consequence
+→ evidence status + strongest null + falsifier
+→ optional metaphor / source-specific carrier where useful
+```
+
+rather than:
+
+```text
+charged or prestigious carrier
+→ reader must accept/reject the carrier
+→ technical relation may never receive inspection
+```
+
+Where the motivating carrier is not scientifically load-bearing, translate the **carrier**, not the truth. Preserve provenance. Do not disguise a premise that the argument genuinely requires. Do not remove a charged term if doing so silently removes an evidential, mechanistic, moral or historical relation.
+
+The discriminator is simple:
+
+> **Could a competent reader reject or bracket this carrier and still reconstruct the same technical relation, evidence state and falsifier?**
+
+If yes, the carrier should not function as an admission test for the architecture.
+
+If no, the carrier contains a load-bearing premise and must remain visible at the correct address.
+
+Apply this symmetrically. A spiritual/anomalous term can smuggle ontology into mechanism; a prestigious institutional or technical term can smuggle status into authority. Familiarity is not a scientific exemption.
+
+### Over-cooling failure
+
+The mirror failure is to sterilise the public prose until the architecture itself disappears.
+
+```text
+remove charged carrier
+→ relation becomes vague / generic / unfalsifiable
+→ FAIL
+```
+
+Repair by restoring the exact typed relation, native examples and consequence while keeping unsupported ontology or status claims out of the mechanism slot.
+
+> **Filter-passing prose is not camouflage. It is an inspectable carrier whose sceptical reader can reach the real object without being forced through an unrelated belief gate.**
+
 ## Standing audit for public-body edits
 
 Whenever live public MKUFT prose is created or materially revised, inspect each genuine conceptual choke point:
@@ -129,18 +178,21 @@ Whenever live public MKUFT prose is created or materially revised, inspect each 
 6. Does the prose return to the native owner immediately afterward?
 7. Does the picture preserve the same claim boundary and falsifier?
 8. Is the metaphor still needed after the reader has crossed?
+9. Can the reader inspect the relation without accepting a non-load-bearing ontology, identity or prestige carrier?
+10. Is any carrier doing evidential or mechanistic work that its source status has not earned?
+11. If the carrier is removed, do the exact relation, evidence state, provenance and falsifier remain intact?
 
 Add, retain or remove metaphor according to those answers. There is no quota.
 
 ## Recursive learning
 
-When a metaphor repeatedly succeeds or fails across reader tests, extract the transferable relation rather than blindly propagating the wording.
+When a metaphor or carrier repeatedly succeeds or fails across reader tests, extract the transferable relation rather than blindly propagating the wording.
 
 ```text
 reader friction
-→ locate conceptual choke point
-→ test direct prose versus bounded picture
-→ preserve whichever lowers reconstruction load without semantic loss
+→ locate conceptual choke point / admission filter
+→ test direct prose versus bounded picture / filter-safe carrier
+→ preserve whichever lowers reconstruction or filter cost without semantic loss
 → carry reusable lesson into standing writing discipline
 → re-audit affected reader route
 ```
@@ -149,4 +201,4 @@ Do not standardise a metaphor merely because it once worked. Standardise the **r
 
 ## Compression
 
-> **A good scientific metaphor is temporary scaffolding at a conceptual crossing. It should let the reader carry more of the real structure with less unnecessary effort, then get out of the way. One clean picture can be rigorous translation; a parade of pictures is just another cognitive load.**
+> **A good scientific metaphor is temporary scaffolding at a conceptual crossing. A good sober carrier does the same epistemic job at a reader filter: it preserves the full warranted relation while refusing to make an unrelated worldview or prestige cue the price of admission. Let the reader reach the architecture, then let the native science decide whether it survives.**
