@@ -12,6 +12,8 @@ This index provides direct links to the principal public MKUFT documents. The ev
 
 - [README](README.md) — repository front page and reader routes.
 - [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md) — substantive introduction.
+- [Professional Domain Instantiation Guide](PROFESSIONAL_DOMAIN_INSTANTIATION_GUIDE.md) — replaces shared role names with domain-native objects, maps, measurements, baselines and nulls and states the cross-domain carriage burden.
+- [Recursive Exceptionalism / Epistemic Firewall](RECURSIVE_EXCEPTIONALISM_EPISTEMIC_FIREWALL.md) — sober cross-domain route for status/authority transfer, self-sealing correction and prospective measurement without requiring one motivating ontology.
 - [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) — current public synthesis and canonical compression.
 - [Canon Map](CANON_MAP.md) — hierarchy and navigation.
 - [Future-Sufficient Address Invariant — canonical public route](FSAI_CANONICAL_NAMING_NOTE.md) — stable naming/provenance route for FSAI and the Layer-Before-Law Precedence Principle; not a standalone paper.
@@ -98,6 +100,7 @@ This index provides direct links to the principal public MKUFT documents. The ev
 - [Cross-Layer Invariants and Layer Addressing](docs/22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
 - [Recursive Address Closure and Property Transmission](docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
 - [Agency Accessibility and Capture Geometry](docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)
+- [Recursive Exceptionalism, Self-Sealing Authority Capture, and the Epistemic Firewall — Module 23A](docs/23A_RECURSIVE_EXCEPTIONALISM_SELF_SEALING_AUTHORITY_AND_EPISTEMIC_FIREWALL.md) — typed separation of event/evidence/status/authority/moral worth, no-halo-from-hygiene, prospective transfer diagnostics, and ontology-independent cross-domain testing.
 - [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
 - [Active Traversal and Functional Emergence](docs/24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
 - [Strongest Fair Null and Relational Specificity](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
