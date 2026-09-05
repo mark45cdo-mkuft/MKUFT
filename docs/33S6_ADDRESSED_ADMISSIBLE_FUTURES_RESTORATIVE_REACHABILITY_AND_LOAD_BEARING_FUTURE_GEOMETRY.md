@@ -359,6 +359,55 @@ This is an explicit corollary of the existing future-sufficiency and recursive-r
 
 > **Preserve the minimum distinction required to keep materially different futures separate; after transition, continue from the Address actually realised.**
 
+### 9.2 Self-modifying admissibility and action-induced correction geometry
+
+A further corollary appears when the realised action changes not only the state reached but part of the constraint or relational structure used to judge what should happen next.
+
+Module 32 already permits the active admissible-action family and reachable geometry to change with the addressed system. Module 33S3 already separates lower-address performance from higher-address closure and recoverability. The present construction adds no new foundational law; it asks what follows when those existing objects are composed with restorative-future geometry.
+
+Let an action `u_t` be admissible at the current Address under the declared constraints. Its realised transition may produce a new Address `A_{t+1}` in which one or more relations relevant to correction, termination, observability, or restoration have changed. The scientific question is therefore not only whether the action was admissible at `t`, but whether the action deformed a relation that is load-bearing for the later restorative future.
+
+Using the existing readouts, a locally favourable or locally warranted transition can coexist with a reduction in restorative reserve:
+
+```math
+\Delta J_\ell>0
+\qquad\text{while}\qquad
+\rho_R(A_{t+1})<\rho_R(A_t),
+```
+
+or, in a stronger case, with loss of restorative reachability:
+
+```math
+\chi_R(A_t)=1,
+\qquad
+\chi_R(A_{t+1})=0.
+```
+
+The sign pattern is not a universal law and `J_\ell` need not be positive in every sacrificial or emergency case. A constituent may accept a local cost while protecting the enclosing system. The point is narrower: **current local merit, current admissibility, and later restorative sufficiency are different addressed quantities and must not inherit one another's sign or verdict.**
+
+The load-bearing relation test in Section 7 supplies the sharper discriminator. If action `u_t` deforms or removes a relation `C`, and controlled removal of `C` materially changes a preregistered restorative readout `\Psi`, then `\Lambda_C^{\Psi}` identifies the future consequence at the relation actually carrying it. The action has then altered part of the correction/return geometry rather than merely changing a point inside an otherwise fixed future map.
+
+This creates a recursive failure mode that is easy to describe too loosely:
+
+```text
+currently admissible exception
+→ realised transition
+→ correction / termination / return relation is weakened
+→ next Address has less restorative reserve or a different admissible future
+→ the exception is harder to evaluate, terminate, or recover from
+→ readdress from the state actually reached.
+```
+
+The original action need not therefore be retrospectively reclassified as an error merely because the later state is poor. A genuine emergency action can be correct for the information, constraints, and target at `t` while also producing a later Address that requires a different policy. The error would be to inherit the old permission automatically after the transition has changed the object that permission applied to.
+
+A useful recovery statement follows. “Return” need not mean restoration of the exact earlier microstate. In this construction, a lawful route home means reaching a state or relational class in which the declared restorative target is again reachable with sufficient task performance and irreversible-loss bounds. Where correction or feedback relations were lost, restoration of a target-sufficient replacement relation may be enough; where no admissible restorative route exists, the construction must say so rather than promise reversibility.
+
+The ordinary-control null is strong. If a conventional augmented state, constrained optimiser, viability kernel, mode-switching model, or hysteretic control description with the same information predicts the transition, the loss of correction access, and the recovery set equally well, no independent MKUFT mathematics is earned. In that case this section remains a typed composition and cross-domain bookkeeping corollary. It earns additional scientific weight only if the Address/relational construction adds prospective discrimination under matched information and fair baselines.
+
+Human language such as **choice**, **permission**, or **sacrifice** may be useful for one implementation, but the mathematics does not require consciousness, intention, moral worth, or metaphysical free will. Operationally, a choice can be represented as selection among currently admissible continuations; some selections also change which continuations, corrections, or restorative routes remain available afterward. That is a statement about future admissibility, not a proof of philosophical freedom.
+
+> **A transition can be lawful now and still alter the machinery by which its own continuation will later be judged. Readdress the permission as well as the state.**
+
 ## 10. Moving frontier and early structural warning
 
 The minimum-sufficient frontier `\mathcal M_q` can move as the system changes.
@@ -461,7 +510,7 @@ future-sufficient typed Address
 → recursive readdressing.
 ```
 
-The transition-carriage statement in Section 9.1 is a direct corollary of that existing composition: a projected continuation remains valid only while it survives readdressing into the state actually realised. It is made explicit for traversal and state-custody clarity, not claimed as an additional standalone scientific discovery.
+The transition-carriage statement in Section 9.1 is a direct corollary of that existing composition: a projected continuation remains valid only while it survives readdressing into the state actually realised. Section 9.2 adds the corresponding action-induced correction/return-geometry corollary: a currently admissible transition can alter relations that are load-bearing for later evaluation or restoration. Both are made explicit for traversal and state-custody clarity, not claimed as additional standalone scientific discoveries.
 
 The composition earns scientific weight only through prospective discrimination, ablation/restoration, strong baselines and failure conditions. Internal architectural coherence is not evidence by itself.
 
@@ -479,7 +528,9 @@ Reduce, reject or narrow the AAF claim when any of the following occurs:
 - rewired relation structure predicts as well as the real directed relation structure;
 - raw graph density/path count performs as well where a bottleneck-specific reserve advantage was claimed;
 - cross-domain applications require changing the formal definitions after seeing outcomes;
-- a predictive relation is described causally without intervention or a justified causal model.
+- a predictive relation is described causally without intervention or a justified causal model;
+- a claimed self-modifying-admissibility effect disappears once ordinary mode, feedback, constraint, or history state is included in a fair comparator;
+- later harm is used retrospectively to label the earlier action incorrect without showing that the earlier Address, target, or admissibility conditions already made it incorrect.
 
 ## 15. Claim boundary
 
@@ -493,6 +544,7 @@ This module does **not** establish:
 - that predictive load proves causal load;
 - that observer registration causes physical dynamics;
 - an independent informational-layer physical coupling;
+- metaphysical free will from admissible choice structure;
 - fundamental quantum-gravity dynamics.
 
 It supplies a narrower scientific object:
@@ -523,5 +575,7 @@ It supplies a narrower scientific object:
 > **Traversal can rewrite the Address that governs the next admissible future.**
 
 > **A projected continuation survives a realised transition only if it remains admissible from the readdressed state; preserve the minimum distinction needed to keep materially different futures separate.**
+
+> **A lawful action can change the correction or return relations that govern its later continuation; readdress the permission as well as the state.**
 
 > **AAF is a future-object specialisation of the existing S-I-P-O addressed-update architecture, not a separate law stack.**
