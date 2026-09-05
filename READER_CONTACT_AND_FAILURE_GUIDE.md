@@ -242,6 +242,14 @@ The fix is simple:
 
 If the failure teaches a repair, good. That repair is a new hypothesis and needs fresh evidence.
 
+### A blade that must cut inward
+
+Excalibur is useful here only as a familiar image for disciplined discrimination. The important property is not that the blade cuts cleanly outward; it is that the same blade remains applicable to the judgement of the hand holding it.
+
+The method becomes dangerous when successful use of the blade is converted into evidence that its handler is unusually pure, exempt from correction, or immune to the same test. At that point the blade has stopped cutting both ways: scrutiny remains outward while the handler becomes protected from it.
+
+The safer condition is not a pure handler but a correctable one: **the discriminator must remain able to cut against the hand that uses it.**
+
 A simple picture is an exam: you are allowed to study the answers you got wrong. You are not allowed to correct the old paper afterwards and call the corrected paper your original score.
 
 The formal owner for this rule is [Branch Lineage, Generator Accountability, and Anti-Hydra Discipline](docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md).
