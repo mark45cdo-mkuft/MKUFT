@@ -10,20 +10,6 @@ This page explains MKUFT in ordinary English first. The formal documents are lin
 
 MKUFT is speculative research. It is not presented as an accepted completed theory of physics.
 
-## The central object in plain English
-
-MKUFT does not treat a scientific system as only a snapshot of what it contains now. For a declared target or operation, the effective **Address** is the smallest typed description that is rich enough to keep materially different admissible futures from being falsely treated as the same state.
-
-That means a variable or distinction belongs in the state when removing it would merge cases that later separate in a way the declared task cares about. If a realised transition changes which distinctions matter, the system must be addressed again from the state actually reached. The next lawful continuation is not inherited automatically from yesterday's description merely because that description was once sufficient.
-
-A useful picture is a chessboard. Two visible arrangements can look identical while castling rights, repetition history, or en-passant availability make their legal futures different. The lesson is not that nature plays chess. It is that a present snapshot can be too coarse when omitted history or relation changes what may happen next.
-
-The same criterion can recurse upward and downward across scale. A locally closed object can become a constituent in a wider system; if the wider use makes a previously omitted relation decision-bearing, the representation must already preserve it or reopen the smallest lower dependency that owns it. Where an observer or registration state is genuinely part of the declared operation, that state is subject to the same sufficiency burden.
-
-This does **not** mean that every semantic distinction is physical, that observation creates a force, or that all domains share one universal coordinate set. Semantic, informational, physical, historical, relational, and observer-facing distinctions remain different typed objects. A distinction earns technical status only when preserving or removing it changes a declared prediction, admissible transition, recovery route, closure decision, measurement result, or other prospectively testable consequence.
-
-There is a semantic consequence worth making explicit. Two statements can both be true while answering different relational addresses. If substituting one for the other leaves the governing question unresolved and changes what the system is allowed to treat as closed or what operations may follow, the semantic distinction has operational load for that task. That is a testable addressing claim, not a claim that semantics is a new physical field.
-
 ## Start with the problem, not the vocabulary
 
 A large scientific model can go wrong before an equation is even chosen.
@@ -40,13 +26,27 @@ It can treat two states as equivalent because they look the same now even though
 
 It can measure a local improvement while missing damage exported elsewhere.
 
-MKUFT is built around those failure modes.
+A model can be mathematically respectable and still be aimed at the wrong thing. MKUFT is built around that class of failure.
 
 Its central proposal is **Layer Before Law**:
 
 > **Before asking which law governs something, establish what the thing is, where its boundary is, what role it has, what scale is active, what evidence is actually available, and which changes are possible from that state.**
 
 Only after that should the law or effective rule be selected.
+
+## The central object in plain English
+
+A useful picture is a chessboard. Two visible arrangements can look identical while castling rights, repetition history, or en-passant availability make their legal futures different. The lesson is not that nature plays chess. It is that a present snapshot can be too coarse when omitted history or relation changes what may happen next.
+
+MKUFT calls the smallest task-relative description that keeps those future-relevant differences from being falsely merged the effective **Address**. In the formal work it is a typed description: different kinds of state, history, relation, context and registration do not become interchangeable merely because one representation can write them down together.
+
+A variable or distinction belongs in that Address when removing it would merge cases that later separate in a way the declared task cares about. If a realised transition changes which distinctions matter, the system must be addressed again from the state actually reached. The next lawful continuation is not inherited automatically from yesterday's description merely because that description was once sufficient.
+
+The same criterion can recurse upward and downward across scale. A locally closed object can become a constituent in a wider system; if the wider use makes a previously omitted relation decision-bearing, the representation must already preserve it or reopen the smallest lower dependency that owns it. Where an observer or registration state is genuinely part of the declared operation, that state is subject to the same sufficiency burden.
+
+Here is where the picture stops. Semantic, informational, physical, historical, relational, and observer-facing distinctions remain different typed objects. A distinction earns technical status only when preserving or removing it changes a declared prediction, admissible transition, recovery route, closure decision, measurement result, or other prospectively testable consequence. The architecture does not turn every semantic distinction into a physical variable, observation into a new force, or every domain into one universal coordinate set.
+
+There is a semantic consequence worth making explicit. Two statements can both be true while answering different relational addresses. If substituting one for the other leaves the governing question unresolved and changes what the system is allowed to treat as closed or what operations may follow, the semantic distinction has operational load for that task. That is a testable addressing claim, not a claim that semantics is a new physical field.
 
 ## The four-layer shorthand
 
