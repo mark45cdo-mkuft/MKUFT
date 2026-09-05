@@ -218,6 +218,16 @@ This also gives “return” a more useful meaning. Recovery does not require re
 
 There is a modest connection here to choice. Operationally, a choice can be treated as selection among currently admissible continuations. Some selections merely choose a route; others change which routes, corrections, or meaningful alternatives remain available afterward. That is a technical statement about future admissibility and recoverability. It is **not** a mathematical proof of metaphysical free will.
 
+And that exposes a deeper asymmetry that is easy to miss if we judge only the present moment. Two options can look equally available, equally forceful, or even equally rewarding now while leaving very different systems behind them. One can preserve feedback, trust, correction and future alternatives; another can buy the same immediate result by consuming those relations.
+
+So “equal now” is not enough to establish “equivalent choice.” The larger question is:
+
+> **After this choice, what can the system still learn, correct, coordinate, and recover?**
+
+That question is deliberately neutral about religious or moral labels. Traditions may call choices light/dark, loving/selfish, disciplined/rebellious, and disagree intensely about which label belongs where. MKUFT does not settle that dispute by vocabulary. It asks whether the competing choices are actually future-equivalent at the declared Address. If they are not, apparent present symmetry has hidden a structural difference.
+
+The same relation helps explain why cooperation can scale without making “cooperation is always good” into a law. A higher-order biological or social system persists only while enough local interactions preserve the relations that let the larger whole remain viable, correct errors and reproduce or recover. Native evolutionary theories own the mechanisms; MKUFT's contribution here is the cross-scale question about what future structure the local move preserves or consumes.
+
 ### 7. How do we detect a missing state variable before the usual marker appears?
 
 [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) provides the direct assay.
@@ -243,147 +253,62 @@ The point is not to add complexity. The point is to make the model **earn either
 
 The first full prospective protocol that cashes this assay into a native physical/material experiment is [28C — Minimum Decisive FSAI/FSSR Flagship: History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md). It does **not** ask whether magnesium has loading-history effects; materials science already owns twinning, detwinning, hysteresis and constitutive internal variables. It asks a harder question: can the strongest practical predeclared reduced state be made to fail prospectively under a lawful separating reversal, can the smallest measurable physical repair restore held-out closure, does remove/restore behave as predicted, and does an FSSR state-splitting challenge add anything beyond a matched parameter-information design? The protocol is designed to return a clean preservation/null as readily as a positive recruitment result.
 
-The registered result then returns to SIPO: it updates the evidence/history/context used to decide whether the next addressed state should remain compressed or recruit a new distinction before the next law object is assembled. That upstream return is part of the same architecture, not an optional afterthought.
+The registered result then returns to SIPO: it updates the evidence/history/context used to decide whether the next addressed state should remain compressed or recruit a new distinction before the next law object is assembled. That upstream return is part of the architecture, not an optional interpretation after the experiment.
 
-### 8. What can the observer actually distinguish next?
+### 8. Does that mean there is a new physical layer?
 
-A future split can be real without every useful next test being available from the current observer or registration state.
+Not automatically.
 
-Imagine diagnosing a machine through a small inspection hatch. The first view may tell you that two apparently similar cases are heading toward different failures. One measurement lets you open a second panel; only from there does another test become possible. The later test was not secretly available at the start. **The state you reached changed what you could lawfully inspect next.**
+A hidden state variable may simply be an ordinary physical variable that the first model omitted.
 
-That is the plain-English object behind [Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md).
+MKUFT only earns a stronger claim if ordinary physical variables and fair baseline models fail while a new typed relation adds predictive value.
 
-The metaphor stops at access and sequencing. Scientifically, the observer may simply be an instrument/readout arrangement. The available discriminator can be a measurement, comparison, perturbation, representation change, scale move, retrieval, controlled wait, or question. History is carried only while it still changes the declared future after the best present-state description is supplied; otherwise it remains provenance rather than active state burden.
+That is a deliberately high bar.
 
-So the recursive return becomes sharper:
+## What MKUFT is not claiming
 
-```text
-future-bearing distinction remains unresolved
-→ use the smallest lawful discriminator currently reachable
-→ register the realised result
-→ readdress from the state actually reached
-→ allow the next available test family to change
-→ stop when no reachable lawful discriminator changes the declared target
-```
+MKUFT is **not** currently claiming that:
 
-This is not a claim that consciousness creates reality or that there is one uniquely correct question. It is a bounded statement about what a declared observer/experimental arrangement can legitimately resolve from the state it has actually reached.
+- it has experimentally proven a new force;
+- consciousness directly causes wavefunction collapse;
+- semantic meaning automatically changes physical dynamics;
+- every anomaly is evidence of a hidden field;
+- the same equation literally governs cells, societies, and quantum fields;
+- an abstract state-space dimension is automatically a physical spatial dimension;
+- Bell violations permit signalling;
+- a fit to known data is enough to establish a new mechanism.
 
-## What the Bell/CHSH result teaches
+## What would make the framework useful?
 
-The published [Bell Constraints as Typed Boundaries](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md) analysis keeps Bell-local factorisation, operational no-signalling, conditioned process closure, local admissibility ownership, completion, and scale/resource questions separate. Its tested independent Bell-local new-physics delta is **NULL**. The retained result is methodological: a typed correspondence and falsification architecture that prevents one Bell-related statement from silently substituting for another.
+MKUFT becomes useful only if the architecture helps researchers do something better than existing methods.
 
-The [Cross-Domain Compositional Schema v0.4](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md) was then pushed against Bell/CHSH geometry.
+The strongest near-term uses are:
 
-The first result is positive and exact. After the earlier dimensional objection, the facet-adapted construction represents the established four-correlator object as three independent affine coordinates on a native CHSH tetrahedral facet plus one transverse coordinate, with exact reconstruction. That is a hard known-answer calibration of the architecture's preservation/reopening and semantic-address discipline. It is not a new Bell theorem, new CHSH facet, or new quantum mechanism.
+- detecting when a state description is too coarse;
+- identifying which missing variable should be recruited;
+- preventing scale errors;
+- separating local performance from global recoverability;
+- preserving future-relevant history without carrying irrelevant detail;
+- designing stronger cross-domain falsification tests.
 
-The stronger geometric candidate is then allowed to fail. The natural four-volume reduces exactly to known CHSH excess, so it supplies no independent Bell invariant or physical residual. That stronger new-physics branch is **NULL**.
+If those tools do not improve prediction, experimental design, or conceptual clarity, the architecture should contract.
 
-The pair matters: **exact native reconstruction first; clean refusal of unsupported promotion second.** The later null does not erase the positive reconstruction, and the positive reconstruction does not license new physics.
+## Suggested reading path
 
-The Bell results are therefore calibrations and correspondence work, not claims to have discovered a new Bell law or solved Bell's theorem.
+If you are new to the work:
 
-## What ATLD is testing
+1. read [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md);
+2. read [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md);
+3. read [Relational Closure and Law Descent](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md);
+4. read [Cross-Scale Performance and Recoverability](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md);
+5. read [Address Sufficiency](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md);
+6. read [Rate-Conditioned Addressing](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md);
+7. read [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md);
+8. read [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md);
+9. use the [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) whenever a technical handoff leaves your native field.
 
-The AI-facing branch asks whether a structured relational architecture actually improves long-horizon reasoning.
+For the complete repository map, use [INDEX.md](INDEX.md) and [CANON_MAP.md](CANON_MAP.md).
 
-A good-looking conversation is not enough.
+## One-sentence summary
 
-The architecture should beat fair alternatives when content, information access, time, compute, and revision opportunity are matched. Useful controls include flat structure, isolated components, one-way assistance, complete-history replay, and relation scrambling.
-
-If replay or a simpler structure performs just as well, the stronger claim contracts.
-
-[ATLD 2 v2.0](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md) also reports a bounded 15-case exploratory execution pilot. The pilot shows that the scoring surface can be applied and return a shaped diagnostic profile; it does not establish confirmatory superiority of the structured condition or validate the five candidate residual coordinates.
-
-## What physics still owes
-
-A physicist is entitled to ask for the hard things.
-
-MKUFT has not independently derived quantum mechanics, the Born rule, quantum field theory, general relativity, or a finished quantum theory of gravity.
-
-If the architecture is promoted into a claimed fundamental physical theory, it must recover the established quantum and gravitational regimes, preserve Bell compatibility and operational no-signalling, define every claimed physical coupling, close dimensional and conservation bookkeeping, and produce a result that distinguishes it from the strongest adequate ordinary physical model.
-
-The present Layer Before Law claim is prior to that promotion. It can be tested as an architecture without pretending the later burden has already been paid.
-
-## What would make MKUFT less interesting or wrong?
-
-The short version is straightforward.
-
-If the added addresses do no work, remove them.
-
-If a higher-level state does not predict the target property, do not grant it a closed higher-level law.
-
-If a cross-layer bridge has no carrier, do not call it a physical mechanism.
-
-If ordinary physics or a simpler model predicts the result equally well, prefer the simpler account.
-
-If an observer-linked effect goes null under adequate controlled testing, contract or remove that branch.
-
-If Bell compatibility, no-signalling, standard-physics recovery, dimensional consistency, or conservation bookkeeping fail where required, the physics-facing claim fails.
-
-If a supposed novelty disappears under strong prior-art comparison, narrow the novelty claim.
-
-If a result survives only because the failure criterion was changed after the result, the test failed.
-
-The full technical statement is [MKUFT Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
-
-## Known communication failure: a correct idea can still be unreadable
-
-This repository has a reader-interface problem that is being actively corrected.
-
-The work was developed recursively. Each new term usually exists because an earlier, simpler formulation failed under pressure. The people who built the chain remember those failures. A new reader sees only the final term.
-
-That creates **dependency-history asymmetry**: the author sees compression; the reader sees jargon.
-
-The repair is not to remove the technical language. The repair is to put the ordinary-English question immediately before it, explain why the distinction exists, show what failure it prevents, and then give the formal term.
-
-There is a second, opposite failure. Once the reader has earned a relation, repeatedly restarting it or swapping its technical handle for a looser synonym makes the text harder rather than easier. The reader should be allowed to accumulate understanding. Public prose therefore carries the **minimum sufficient reader wake**: enough prior context for the next move to make sense, but no unnecessary replay and no semantic swapping of an already-earned object.
-
-A clean metaphor is useful when it reduces a genuine conceptual crossing. It should preserve the relation, make its stopping point clear, and then hand the reader back to the native science. The aim is not to reduce the reader's intelligence requirement; it is to reduce avoidable reconstruction work.
-
-A second repair is to stop using links as substitutes for explanation. A reader should know why the next document follows before clicking it.
-
-The repository-level control is [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md). That guide is also recursive: when a repeatable reader-interface failure is discovered, the local passage is repaired and the transferable lesson is folded into the standing writing discipline so later prose does not recreate the same burden.
-
-## Which route should you take?
-
-If you are new to the work, read this page and then [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md).
-
-If the public questions are clear but the technical chain is outside your field, use the [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). It explains what each technical step is trying to establish, what the equations mean in broad terms, what can be left to domain specialists, and where each claim is easiest to kill.
-
-If you are a physicist, continue to [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), then [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md), then the [current v1.2 synthesis](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
-
-If you work in complex systems, biology, control, or multiscale modelling, continue to [Recursive Constraint Closure](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [Relational Closure and Law Descent](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md), and [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md).
-
-If you work in AI, continue to [ATLD 2](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md).
-
-If you want frozen publications and DOI identities rather than the live module chain, use [Papers and Publications](papers/README.md).
-
-If you want the complete technical dependency map, use the [Canon Map](CANON_MAP.md).
-
-## Claim discipline
-
-MKUFT keeps several claim levels separate:
-
-1. conceptual proposal;
-2. mathematical scaffold;
-3. operational hypothesis;
-4. discriminating prediction;
-5. replicated empirical relation;
-6. mechanism-level result;
-7. foundational physical theory.
-
-Different branches occupy different levels. A result in one branch does not promote the whole framework.
-
-A structural relation can be important without being true. A mathematical mapping can be exact without being a new physical mechanism. A higher-order description can be a legitimate predictive object without owning a sufficient higher-order law. A null result can be scientifically useful.
-
-Those distinctions are not protective wording. They are part of the test architecture.
-
-## Publications and provenance
-
-The principal DOI-bearing MKUFT publication is v2: [10.5281/zenodo.21973064](https://doi.org/10.5281/zenodo.21973064).
-
-The current research-facing synthesis is v1.2, dated 30 August 2026, public in this repository, not yet DOI-bearing, and not peer reviewed: [MKUFT Layer Before Law submission synthesis v1.2](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
-
-The complete publication index is [Papers and Publications](papers/README.md).
-
-The exact DOI-bearing object controls the frozen publication version. Live GitHub work does not silently replace it.
+> **MKUFT asks whether a system has been described at the right layer, with the right future-relevant state and relations, before deciding which law, mechanism, or interpretation should be allowed to govern it.**
