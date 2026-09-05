@@ -12,6 +12,8 @@ The governing rule is:
 
 The target is lower **unnecessary cognitive load**, not lower intellectual demand.
 
+Public readability has a second burden as well: the reader should be able to experience the work as a continuing investigation rather than a sequence of compliance clauses. Scientific sobriety does not require emotional flatness, bureaucratic cadence, or the removal of every trace of the people doing the thinking.
+
 ## Metaphor is a carrier, not decoration
 
 A metaphor earns inclusion only when it does at least one of the following:
@@ -94,16 +96,69 @@ reader has earned relation r through picture m
 
 This prevents a helpful metaphor from becoming permanent cognitive furniture.
 
+## Continuous reader journey and sober voice
+
+Metaphor is not the only legitimate human carrier. A public research body may also use a low-amplitude human voice across the journey: direct guidance, curiosity, a candid admission, a dry line, a first-person plural where appropriate, or a short sentence that tells the reader why the next question has become unavoidable.
+
+This is not decoration when it reduces real reconstruction burden. A reader who understands each paragraph locally can still lose the object globally if the prose never explains why one section follows another. Public MKUFT should therefore read, where the material allows, as **one investigation becoming progressively harder**, not as a filing cabinet of correct statements.
+
+A useful public cadence is:
+
+```text
+meet the object
+→ see why it matters
+→ gain a concrete handle where needed
+→ meet the formal burden
+→ see what would kill or contract the claim
+→ understand why the next question follows
+```
+
+The scientific route may compress this cadence. It may use fewer metaphors, less conversational phrasing, and denser notation. It may not use technical density as permission to become cryptic.
+
+Public prose may legitimately contain:
+
+- dry humour that rides the already-grounded object;
+- `we` where it honestly names the authors' reasoning or decision rather than borrowing authority;
+- modest personal or historical context where it helps the reader understand why a route exists;
+- direct second-person guidance at a genuine conceptual crossing;
+- a sentence of wonder, curiosity or surprise when the underlying object genuinely warrants it;
+- small admissions of failed candidates, null results, changed minds, or limits where they improve trust and orientation.
+
+Keep the separations hard:
+
+```text
+warmth ≠ persuasion
+human charge ≠ evidential weight
+dry humour ≠ evidence
+we ≠ authority
+personal voice ≠ autobiography
+enjoyable ≠ casual with claims
+humility ≠ self-negation
+technical density ≠ rigour
+sober ≠ sterile
+```
+
+Humility should calibrate the claim, not perform self-erasure. A null result may be stated cleanly without apology. A strong result may be stated plainly without triumphalism. The reader should hear confidence where the object has earned confidence and uncertainty where it has not.
+
+The public path should therefore aim for a **guided investigation**. The scientific path may be a tighter map of the same terrain. Neither should sound as though it was written by a standards committee merely because the subject is serious.
+
+A useful differential test is:
+
+> **If every human sentence were removed, would the claims remain technically unchanged but the reader become materially less able to follow, remember, or anticipate the chain?**
+
+If yes, some of that voice was doing legitimate carrier work. Restore the smallest grounded amount. If the human sentence changes the evidence level, mechanism, ontology or certainty, it was not merely carrying the object and must be repaired.
+
 ## Scientific hygiene
 
-Metaphor may change:
+Metaphor and voice may change:
 
 - accessibility;
 - reconstruction cost;
 - salience;
-- memory of the dependency structure.
+- memory of the dependency structure;
+- continuity of the reader's journey.
 
-Metaphor may not change:
+Metaphor and voice may not change:
 
 - evidence level;
 - claim scope;
@@ -115,7 +170,7 @@ Metaphor may not change:
 - permission;
 - result.
 
-Where the metaphor and native science disagree, the native science wins and the metaphor is repaired or removed.
+Where the human carrier and native science disagree, the native science wins and the carrier is repaired or removed.
 
 ## Sober / filter-passing carrier
 
@@ -157,18 +212,18 @@ Apply this symmetrically. A spiritual/anomalous term can smuggle ontology into m
 The mirror failure is to sterilise the public prose until the architecture itself disappears.
 
 ```text
-remove charged carrier
-→ relation becomes vague / generic / unfalsifiable
+remove charged carrier / human continuity
+→ relation or journey becomes vague / generic / needlessly hard to reconstruct
 → FAIL
 ```
 
-Repair by restoring the exact typed relation, native examples and consequence while keeping unsupported ontology or status claims out of the mechanism slot.
+Repair by restoring the exact typed relation, native examples, grounded voice and consequence while keeping unsupported ontology or status claims out of the mechanism slot.
 
 > **Filter-passing prose is not camouflage. It is an inspectable carrier whose sceptical reader can reach the real object without being forced through an unrelated belief gate.**
 
 ## Standing audit for public-body edits
 
-Whenever live public MKUFT prose is created or materially revised, inspect each genuine conceptual choke point:
+Whenever live public MKUFT prose is created or materially revised, inspect each genuine conceptual choke point and the journey between them:
 
 1. What exact relation must the reader carry next?
 2. Has the reader already earned it?
@@ -181,24 +236,28 @@ Whenever live public MKUFT prose is created or materially revised, inspect each 
 9. Can the reader inspect the relation without accepting a non-load-bearing ontology, identity or prestige carrier?
 10. Is any carrier doing evidential or mechanistic work that its source status has not earned?
 11. If the carrier is removed, do the exact relation, evidence state, provenance and falsifier remain intact?
+12. Does the reader know **why this section follows the previous one**?
+13. Is the prose guiding a reader through a question, or merely cataloguing constraints?
+14. Would one low-amplitude human sentence restore continuity more cheaply than another technical paragraph?
+15. Is the public route warmer and more concrete than the scientific route without changing the claim?
 
-Add, retain or remove metaphor according to those answers. There is no quota.
+Add, retain or remove metaphor and voice according to those answers. There is no quota.
 
 ## Recursive learning
 
-When a metaphor or carrier repeatedly succeeds or fails across reader tests, extract the transferable relation rather than blindly propagating the wording.
+When a metaphor, voice choice or carrier repeatedly succeeds or fails across reader tests, extract the transferable relation rather than blindly propagating the wording.
 
 ```text
 reader friction
-→ locate conceptual choke point / admission filter
-→ test direct prose versus bounded picture / filter-safe carrier
+→ locate conceptual choke point / admission filter / journey break
+→ test direct prose versus bounded picture / grounded human carrier / filter-safe carrier
 → preserve whichever lowers reconstruction or filter cost without semantic loss
 → carry reusable lesson into standing writing discipline
 → re-audit affected reader route
 ```
 
-Do not standardise a metaphor merely because it once worked. Standardise the **reason it worked**.
+Do not standardise a metaphor or joke merely because it once worked. Standardise the **reason it worked**.
 
 ## Compression
 
-> **A good scientific metaphor is temporary scaffolding at a conceptual crossing. A good sober carrier does the same epistemic job at a reader filter: it preserves the full warranted relation while refusing to make an unrelated worldview or prestige cue the price of admission. Let the reader reach the architecture, then let the native science decide whether it survives.**
+> **A good scientific metaphor is temporary scaffolding at a conceptual crossing. A good sober voice keeps the reader oriented between crossings without pretending warmth is evidence. Let the reader meet the object, understand why it matters, enjoy the journey where the material earns it, and then let the native science decide whether the claim survives.**
