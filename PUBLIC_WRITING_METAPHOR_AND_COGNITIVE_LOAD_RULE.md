@@ -197,6 +197,31 @@ charged or prestigious carrier
 
 Where the motivating carrier is not scientifically load-bearing, translate the **carrier**, not the truth. Preserve provenance. Do not disguise a premise that the argument genuinely requires. Do not remove a charged term if doing so silently removes an evidential, mechanistic, moral or historical relation.
 
+### Preserve the pre-label relation
+
+Sometimes the relation is recognised before its best public vocabulary exists. A later phrase, metaphor or value-laden label may feel unusually exact because it compresses an already-formed relational object rather than creating that object.
+
+Sobering such a carrier must therefore preserve causal order:
+
+```text
+originating gestalt / recognition
+→ identify the load-bearing relation
+→ remove unsupported ontology, authority or factual promotion
+→ choose a public carrier that preserves the relation
+```
+
+Do not instead cool the language first and then infer the original object from what survives. That can erase real relational information while creating the appearance of increased rigour.
+
+Where two candidate carriers preserve the same warranted claim, evidence state, falsifier and permission, austere or negative wording has no special scientific privilege merely because it sounds cautious. Prefer the carrier that least deforms the originating relation and best preserves the reader's ability to reconstruct it. A warmer or more positive carrier is admissible when it carries exactly the same scientific object without increasing evidential force.
+
+This is not an optimism rule. If the warmer carrier requires an extra factual assumption, suppresses a material harm, weakens a warning, changes the mechanism, or survives only because it is preferred emotionally, it fails. A genuine discriminator outranks carrier preference.
+
+A useful test is:
+
+> **After translating or cooling the carrier, can a reader still recover both the same warranted claim and the same load-bearing relation that made the original carrier apt?**
+
+If yes, sober translation succeeded. If no, the object was sterilised rather than translated.
+
 The discriminator is simple:
 
 > **Could a competent reader reject or bracket this carrier and still reconstruct the same technical relation, evidence state and falsifier?**
@@ -218,46 +243,3 @@ remove charged carrier / human continuity
 ```
 
 Repair by restoring the exact typed relation, native examples, grounded voice and consequence while keeping unsupported ontology or status claims out of the mechanism slot.
-
-> **Filter-passing prose is not camouflage. It is an inspectable carrier whose sceptical reader can reach the real object without being forced through an unrelated belief gate.**
-
-## Standing audit for public-body edits
-
-Whenever live public MKUFT prose is created or materially revised, inspect each genuine conceptual choke point and the journey between them:
-
-1. What exact relation must the reader carry next?
-2. Has the reader already earned it?
-3. Is the present difficulty scientific, or merely reconstruction load caused by compressed prose?
-4. Would one ordinary picture preserve the relation more cheaply?
-5. Can the picture's stopping point be stated cleanly?
-6. Does the prose return to the native owner immediately afterward?
-7. Does the picture preserve the same claim boundary and falsifier?
-8. Is the metaphor still needed after the reader has crossed?
-9. Can the reader inspect the relation without accepting a non-load-bearing ontology, identity or prestige carrier?
-10. Is any carrier doing evidential or mechanistic work that its source status has not earned?
-11. If the carrier is removed, do the exact relation, evidence state, provenance and falsifier remain intact?
-12. Does the reader know **why this section follows the previous one**?
-13. Is the prose guiding a reader through a question, or merely cataloguing constraints?
-14. Would one low-amplitude human sentence restore continuity more cheaply than another technical paragraph?
-15. Is the public route warmer and more concrete than the scientific route without changing the claim?
-
-Add, retain or remove metaphor and voice according to those answers. There is no quota.
-
-## Recursive learning
-
-When a metaphor, voice choice or carrier repeatedly succeeds or fails across reader tests, extract the transferable relation rather than blindly propagating the wording.
-
-```text
-reader friction
-→ locate conceptual choke point / admission filter / journey break
-→ test direct prose versus bounded picture / grounded human carrier / filter-safe carrier
-→ preserve whichever lowers reconstruction or filter cost without semantic loss
-→ carry reusable lesson into standing writing discipline
-→ re-audit affected reader route
-```
-
-Do not standardise a metaphor or joke merely because it once worked. Standardise the **reason it worked**.
-
-## Compression
-
-> **A good scientific metaphor is temporary scaffolding at a conceptual crossing. A good sober voice keeps the reader oriented between crossings without pretending warmth is evidence. Let the reader meet the object, understand why it matters, enjoy the journey where the material earns it, and then let the native science decide whether the claim survives.**
