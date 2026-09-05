@@ -196,6 +196,28 @@ That gives a sharper question than “is it broken yet?”:
 
 > **How much lawful room to recover is left?**
 
+### 6A. Can a choice consume its own way back?
+
+Sometimes a part of a system does exactly what we normally want in an emergency: it accepts a local cost, relaxes a normal constraint, or takes an exceptional action so the larger system can keep going.
+
+That first move can be correct.
+
+The harder question is what the move changes **about the system’s ability to correct itself afterward**.
+
+Imagine a fire door that has to be forced open to get people out. Forcing it may be entirely justified while the fire is behind you. But if the same act also damages the closer or return signal needed to restore protected operation, the emergency action has changed more than the immediate state. It has changed part of the route by which the system gets back under control.
+
+The metaphor stops there. In the technical work, the relevant object is a constraint, feedback, observability, termination, or restorative relation whose alteration changes the next admissible future.
+
+MKUFT treats this as a composition of existing ideas rather than a new law. A currently admissible action can change the constraints, feedback relations, or restorative routes that define the next admissible future. Local correctness now and reduced global recoverability later can therefore both be true. A bad later state does not, by itself, make the original emergency decision a mistake.
+
+The same shape can appear in an engineering override, a biological protective response, an institution using emergency powers, or a person carrying an exceptional burden for a group. The domain mechanisms are different; the shared question is narrow:
+
+> **Did the action change only the state, or did it also change the relations needed to judge, stop, correct, or recover from that action later?**
+
+This also gives “return” a more useful meaning. Recovery does not require rewinding the system to an identical earlier microstate. A lawful way home may instead be a route to a new state in which enough feedback, correction, and restorative reach have been recovered for the declared task.
+
+There is a modest connection here to choice. Operationally, a choice can be treated as selection among currently admissible continuations. Some selections merely choose a route; others change which routes, corrections, or meaningful alternatives remain available afterward. That is a technical statement about future admissibility and recoverability. It is **not** a mathematical proof of metaphysical free will.
+
 ### 7. How do we detect a missing state variable before the usual marker appears?
 
 [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) provides the direct assay.
