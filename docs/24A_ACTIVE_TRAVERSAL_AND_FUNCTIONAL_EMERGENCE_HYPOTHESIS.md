@@ -185,7 +185,7 @@ This does not prove collective intelligence at any particular scale. It identifi
 
 The scale question can be stated more sharply than `where is the understanding?`:
 
-> **Is the inherited lower-scale decomposition still sufficient to predict and intervene on the phenomenon, or has the coupled organisation earned treatment as a higher-scale effective object?**
+> **Does the inherited lower-scale decomposition remain the best target-level scientific address, or does the coupled organisation earn treatment as a higher-scale effective object by adding reproducible prediction, intervention, compression, or capability value?**
 
 This makes 24A an operational object-individuation experiment as well as a performance experiment.
 
@@ -198,18 +198,22 @@ separate components + explicit exchange/history
 → strongest fair / replay controls
 → relational and state ablations
 → effective-object tests
-→ lower description remains sufficient
+→ lower description remains target-sufficient
+  AND higher address adds no material target-relevant advantage
    = retain lower address
 
 OR
 
-→ lower description loses held-out predictive/interventional adequacy
-  in the specific relation-dependent way predicted
-→ coupled description earns persistence + boundary + compression + capability support
+→ higher address supplies reproducible relation-specific
+  prediction / intervention / compression / capability value
+  not supplied by the fair lower-address account at comparable burden
+→ coupled description also earns persistence + boundary + ablation support
    = admit higher-scale effective-object candidate
 ```
 
-The higher address is not earned merely because the coupled condition scores well, looks coherent, or is difficult to decompose verbally. It must provide a reproducible prediction, intervention, compression, or capability advantage that the strongest fair lower-address account does not already supply.
+The lower description need not become false or unusable. A detailed constituent model may remain accurate while the higher address earns effective scientific standing because it captures the target behaviour with materially better compression, intervention structure, or scale-appropriate predictive economy. Effective objecthood is therefore not identical to microscopic-model failure.
+
+The higher address is not earned merely because the coupled condition scores well, looks coherent, or is difficult to decompose verbally. It must provide a reproducible target-relevant advantage that the strongest fair lower-address account does not already supply at comparable descriptive, informational, and resource burden.
 
 Conversely, a higher-scale candidate should not be rejected merely because no individual component contains the complete system-level function. The comparison must test the organised whole at the scale where the claimed boundary, state, and feedback loop actually close.
 
@@ -276,7 +280,7 @@ Relative to matched flat, isolated, and scrambled controls, a correctly typed ac
 
 For reciprocal coupling, the stronger extension predicts positive gain on tasks requiring complementary capacities and iterative correction, reduced or absent gain when outputs are combined only after independent completion, reduced gain under one-way feedback, reduced gain after cross-time state reset, and measurable deformation when a load-bearing relation is removed.
 
-For the object-individuation extension, the higher-scale coupled description should earn admission only on task classes where it provides held-out predictive, interventional, compression, or capability value beyond the strongest fair lower-scale/replay description. On tasks where the separated or replay description remains sufficient, the higher-scale object claim should contract even if the collaboration remains useful.
+For the object-individuation extension, the higher-scale coupled description should earn admission only on task classes where it provides held-out predictive, interventional, compression, or capability value beyond the strongest fair lower-scale/replay description after complexity, information, and resource burden are accounted for. A lower-scale model may remain valid; the higher-scale claim contracts when it adds no material target-relevant advantage.
 
 The gain should weaken when meaningful links are scrambled, canonical definitions are duplicated inconsistently, falsifiers are detached, recursive revisit is disabled, task-relevant state cannot be retained, reciprocal correction is replaced by parallel independent output, or apparent improvement is fully explained by unequal resource or information access.
 
@@ -316,7 +320,7 @@ For held-out task classes where higher-order objecthood is claimed, compare at l
 3. matched relational ablations or state resets that should selectively damage the higher-address model's advantage;
 4. a complexity/compression accounting sufficient to show that the higher address is not winning merely by adding unconstrained state.
 
-If the lower-address model remains prospectively sufficient, keep the lower address. If the higher-address model wins only after the outcome is known, the result is hypothesis generation rather than confirmatory object individuation.
+If the lower-address model remains prospectively sufficient **and** the higher address supplies no material target-relevant advantage after complexity and resource accounting, keep the lower address. If the higher-address model wins only after the outcome is known, the result is hypothesis generation rather than confirmatory object individuation.
 
 ### Task classes
 
@@ -342,7 +346,7 @@ The active-traversal hypothesis is weakened or rejected if structured traversal 
 
 The reciprocal-coupling extension is weakened where the strongest fair null accounts for the coupled score, live-path advantage disappears under complete-history replay, one-way or state-reset controls retain the same performance, serious alternative pairings perform equally well, or relation disruption produces no predicted deformation.
 
-The higher-order effective-object claim is weakened or rejected where the lower-address model remains prospectively sufficient; the coupled address adds no held-out prediction, intervention, compression, or capability advantage; the result depends on post-hoc choice of scale or boundary; relation/state ablations do not selectively damage the higher-address advantage; or the alleged higher object is reproduced equally by arbitrary regroupings of the same components.
+The higher-order effective-object claim is weakened or rejected where the coupled address adds no held-out prediction, intervention, compression, or capability advantage over the strongest fair lower-address description after complexity/resource accounting; the result depends on post-hoc choice of scale or boundary; relation/state ablations do not selectively damage the higher-address advantage; or the alleged higher object is reproduced equally by arbitrary regroupings of the same components.
 
 The composite-observer candidate reduces to ordinary collaboration or coordinated aggregation where persistent coupled boundary, retained joint state, reciprocal correction, system-level discrimination, and loop closure are not demonstrated.
 
@@ -387,7 +391,7 @@ This document records a public timestamped MKUFT formulation of the specific com
 
 > Functional emergence is supported only if the actively traversed architecture outperforms matched flat, isolated, and scrambled controls without borrowing the gain from extra content, compute, time, or unmatched context.
 
-> A coupled whole earns higher-scale effective-object status only when the lower decomposition becomes prospectively insufficient and the higher address supplies reproducible relation-specific prediction, intervention, compression, or capability value under strong controls. Objecthood is therefore an experimental classification, not an assumption.
+> A coupled whole earns higher-scale effective-object status only when the higher address supplies reproducible relation-specific prediction, intervention, compression, or capability value beyond the strongest fair lower-address account at comparable descriptive and resource burden. The lower account may remain valid; objecthood is an experimental classification of the effective scientific address, not a declaration that constituent physics has failed.
 
 > “More than the sum of its parts” requires a positive reproducible excess over the strongest fair null. Composite-observer status remains downstream of earned objecthood and remains a bounded functional hypothesis requiring persistent coupled boundary, reciprocal influence, cross-time state, system-level discrimination, correction propagation, loop closure, and predicted deformation under ablation.
 
