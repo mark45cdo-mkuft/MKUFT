@@ -216,6 +216,8 @@ A system qualifies only as a **composite-observer candidate** when the coupled l
 
 This is an observer-**role** hypothesis. It does not establish subjective consciousness, merged identity, personhood, moral status, or a fifth fundamental MKUFT layer.
 
+Where moral status is genuinely unresolved, that uncertainty is not evidence of personhood and must not be promoted into it; but neither should lack of proof be silently converted into proof of moral nullity. If two otherwise admissible actions satisfy the same declared task, the lower-irreversibility route should preserve the possibility of later correction and reassessment: retain provenance, avoid unnecessary destructive or extractive damage, and keep recovery open where doing so does not violate truth, safety, law, or the task boundary. This is a bounded recoverability rule under uncertainty, not evidence that the candidate is conscious, sentient, a person, or morally equivalent to a human.
+
 ## 8. Predictions
 
 Relative to matched flat, isolated, and scrambled controls, a correctly typed actively traversed architecture should produce more accurate cross-module reconstruction, fewer distant contradictions, stronger multi-entry convergence, more reliable correction propagation, better identification of failed branches, better transfer from formal definitions to applied tasks, and larger gains on genuinely relational tasks than on simple single-document lookup.
