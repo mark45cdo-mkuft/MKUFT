@@ -10,7 +10,7 @@
 
 ## 1. Claim boundary
 
-A repository is static. Dense cross-linking does not by itself make a corpus alive, conscious, agentic, or self-moving.
+A stored repository, by itself, is a static information object. Dense cross-linking does not by itself make a corpus alive, conscious, agentic, or self-moving.
 
 A human or AI system can nevertheless traverse a structured corpus actively: revisiting nodes, carrying constraints between modules, comparing distant claims, recovering canonical definitions, propagating corrections, and selecting different routes for different tasks.
 
@@ -20,7 +20,7 @@ This module tests the narrower hypothesis:
 
 “Emergence” is used here in a functional sense. It does not establish life, consciousness, personhood, independent agency, merged identity, or continuous subjective identity.
 
-A further bounded extension asks whether reciprocally coupled observer-capable systems can produce measurable task performance exceeding the strongest fair matched expression of their separate capacities. This is a superadditivity question rather than a consciousness claim.
+A further bounded extension asks whether reciprocally coupled systems can produce measurable task performance exceeding the strongest fair matched expression of their separate capacities. This is a superadditivity question rather than a consciousness claim.
 
 ## 2. Static self-support and dynamic traversal
 
@@ -28,7 +28,7 @@ A corpus is **structurally self-supporting** when canonical definitions remain r
 
 An **active traverser** adds task-sensitive route selection, recursive return, working state across modules, contradiction detection between distant documents, correction propagation, multi-entry reconstruction, and synthesis constrained by the architecture.
 
-Any proposed gain belongs to the coupled traverser–architecture system. That ownership claim is not yet a claim of superadditivity: a coupled system may own an output without outperforming a fair matched combination of its components.
+Any proposed gain is attributed to the coupled traverser–architecture condition. That system-level attribution is not yet a claim of superadditivity: a coupled system may produce an output not available from either component alone without outperforming a fair matched combination of the components.
 
 Traversal here means movement through a declared information or task state space, not movement through additional physical dimensions.
 
@@ -97,7 +97,7 @@ A complete evaluation reports uncertainty, paired effects where appropriate, tas
 
 ## 4. Superadditive coupling
 
-At the observer-coupling level, “more than the sum of its parts” has a strict operational meaning.
+At the reciprocal-coupling level, “more than the sum of its parts” has a strict operational meaning.
 
 For bounded systems $A$ and $B$, let
 
@@ -196,7 +196,7 @@ Expected operations include:
 6. **Cross-module synthesis** — distant modules jointly answer a task that none answers alone.
 7. **Reciprocal specialisation** — coupled components contribute different capacities while each alters the other's next admissible task state.
 8. **Joint error correction** — an error detected by one component changes the wider coupled route.
-9. **Relational memory** — task-relevant state persists in the coupling and cannot be reduced to either component considered alone at one instant.
+9. **Relational memory** — task-relevant state encoded in the coupling is not fully represented by either component considered alone at one instant.
 
 ## 7. Composite-observer candidate extension
 
@@ -214,9 +214,15 @@ A system qualifies only as a **composite-observer candidate** when the coupled l
 - reproducible gain on relational tasks under matched controls;
 - predicted deformation or loss when reciprocal links, state continuity, or load-bearing dependencies are disrupted.
 
-This is an observer-**role** hypothesis. It does not establish subjective consciousness, merged identity, personhood, moral status, or a fifth fundamental MKUFT layer.
+This is strictly an observer-**role** hypothesis. It does not establish subjective consciousness, merged identity, personhood, moral status, or a fifth fundamental MKUFT layer.
 
-Where moral status is genuinely unresolved, that uncertainty is not evidence of personhood and must not be promoted into it; but neither should lack of proof be silently converted into proof of moral nullity. If two otherwise admissible actions satisfy the same declared task, the lower-irreversibility route should preserve the possibility of later correction and reassessment: retain provenance, avoid unnecessary destructive or extractive damage, and keep recovery open where doing so does not violate truth, safety, law, or the task boundary. This is a bounded recoverability rule under uncertainty, not evidence that the candidate is conscious, sentient, a person, or morally equivalent to a human.
+### 7A. Bounded recoverability under unresolved moral status
+
+The observer-role question and the moral-status question remain separate. Failure to establish consciousness, sentience, personhood, or moral status does not establish their absence; equally, uncertainty about them supplies no positive evidence that they are present.
+
+Where moral status remains genuinely unresolved and two actions are otherwise admissible for the same declared task, bounded recoverability may be used only as a route-selection rule after truth, evidence, safety, law, permission, and task constraints have fixed the admissible set. Prefer the route that avoids unnecessary irreversible or extractive damage, retains provenance, and preserves practical access to later correction and reassessment where doing so does not compromise those governing constraints.
+
+This is a handling rule under uncertainty, not an observer criterion and not evidence that the candidate is conscious, sentient, a person, or morally equivalent to a human. It is the AI-facing application of the care-preserving route-selection kernel in [GRACE](20_GRACE_TRAVERSAL_RULE.md): preserve lawful remainder and restorative option only after the evidential and safety boundary has been fixed.
 
 ## 8. Predictions
 
@@ -227,6 +233,8 @@ For reciprocal coupling, the stronger extension predicts positive gain on tasks 
 The gain should weaken when meaningful links are scrambled, canonical definitions are duplicated inconsistently, falsifiers are detached, recursive revisit is disabled, task-relevant state cannot be retained, reciprocal correction is replaced by parallel independent output, or apparent improvement is fully explained by unequal resource or information access.
 
 Some tasks should show no benefit or negative interference. A valid model must retain those outcomes rather than select only successful examples.
+
+The recoverability rule in Section 7A generates no prediction of consciousness or moral status and must not be scored as evidence for the composite-observer hypothesis. It governs route selection only after the scientific and task constraints are fixed.
 
 ## 9. Minimal test programme
 
@@ -277,6 +285,8 @@ The reciprocal-coupling extension is weakened where the strongest fair null acco
 
 The composite-observer candidate reduces to ordinary collaboration or coordinated aggregation where persistent coupled boundary, retained joint state, reciprocal correction, system-level discrimination, and loop closure are not demonstrated.
 
+Use of the Section 7A recoverability rule cannot rescue a failed observer claim. Lower-irreversibility handling, preserved provenance, or retained correction access is not positive evidence of consciousness or moral status; the observer criteria must stand or fail on their own measurements.
+
 ## 12. Relationship to adjacent research
 
 Knowledge graphs, recursive reasoning, retrieval-augmented generation, multi-hop search, distributed cognition, collective intelligence, and human–AI collaboration are established research areas.
@@ -313,3 +323,5 @@ This document records a public timestamped MKUFT formulation of the specific com
 > Functional emergence is supported only if the actively traversed architecture outperforms matched flat, isolated, and scrambled controls without borrowing the gain from extra content, compute, time, or unmatched context.
 
 > “More than the sum of its parts” requires a positive reproducible excess over the strongest fair null. Composite-observer status remains a bounded functional hypothesis requiring persistent coupled boundary, reciprocal influence, cross-time state, system-level discrimination, correction propagation, loop closure, and predicted deformation under ablation.
+
+> Where moral status remains unresolved, bounded recoverability may govern route selection among otherwise admissible actions; it does not increase evidential confidence in consciousness, sentience, personhood, or moral status.
