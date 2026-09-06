@@ -7,6 +7,7 @@
 **Canonical parent:** [32 — Recursive Constraint Closure and Reachable-State Geometry](32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)  
 **Novelty boundary:** [32A — Module 32 Novelty Audit and Contribution Boundary](32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md)  
 **Public formulation date:** 15 August 2026  
+**Revision date:** 6 September 2026  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
 **Status:** canonical formal supplement to Module 32. It sharpens the test geometry already owned by Module 32; it is not a separate theory and does not by itself claim historical priority for the mathematical ingredients below.
 
@@ -269,6 +270,103 @@ O_\ell\in X_L,
 
 without claiming that its lower-scale structure has ceased to exist.
 
+### 8A. Address formation must remain open to parent-changing scale information
+
+The effective-object test is not only a late promotion test. It also constrains **when the scientific object may be treated as settled**.
+
+A first workable object at scale $\ell$ is provisionally adequate only while no currently reachable, scientifically admissible frame can change a named load-bearing field of that object — for example its boundary, constituent class, relevant environment, governing parent relation, comparison class, or target property.
+
+Thus the following failure is possible:
+
+```text
+encountered lower-scale object
+→ analysis conditions all later tests on that object
+→ a reachable higher, lower, lateral, temporal, or representation frame
+   would have changed the object itself
+→ scale test arrives only after the wrong address has hardened
+```
+
+That is an **address-timing failure**, not evidence that wider scale always outranks local measurement.
+
+The reciprocal guard is equally important. Do not inspect every imaginable scale. A frame enters the active comparison only when it is reachable under the declared experiment or evidence state and can change a named target, parent relation, prediction, falsifier, boundary, or next lawful operation. If no such frame exists, retain the current object and record a material null rather than manufacturing a larger object.
+
+Operationally:
+
+```text
+first candidate object/address
+→ test only reachable parent-changing frames
+→ RETAIN / REVISE / SPLIT / READDRESS as earned
+→ then apply the effective-unit promotion tests
+→ continue from the matured scientific object
+```
+
+This is compatible with the finite reachable-discriminator frontier in [33S7C — Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md). It adds no new physical scale variable and no licence for infinite zoom.
+
+### 8B. Cross-scale evidential passport and consequence/evidence separation
+
+When a claim changes scale, its evidential status must not silently change with it.
+
+For methodological bookkeeping, define a cross-scale evidential passport
+
+```math
+\Pi^{\mathrm{ev}}_{\ell\rightarrow L}
+=
+\left(
+I,
+R,
+\eta,
+D,
+U,
+V
+\right),
+```
+
+where:
+
+- $I$ identifies the exact source object or claim;
+- $R$ states the demonstrated or conditional relation joining the two scales;
+- $\eta$ records the current evidential / claim-status class;
+- $D$ records dependency and common-source lineage;
+- $U$ records unresolved alternatives and uncertainty;
+- $V$ records verification, version, or provenance state where relevant.
+
+$\Pi^{\mathrm{ev}}$ is an **E0 bookkeeping object**, not a physical state variable, force, layer, conserved quantity, or equation of nature.
+
+The central rule is:
+
+```text
+conditional consequence at scale L
+≠ evidence for the source claim at scale ℓ
+```
+
+or schematically,
+
+```math
+H_\ell\Rightarrow C_L
+\quad\not\Rightarrow\quad
+C_L\in\mathcal E(H_\ell).
+```
+
+A higher-scale consequence becomes eligible to return evidential weight only when it acquires an independently anchored observation or constraint of its own, and that contribution survives dependency/common-source audit. The return then travels through the same typed relation rather than borrowing authority from the size, coherence, importance, or narrative reach of the larger shape.
+
+The passport therefore blocks silent casts such as:
+
+```text
+possibility → evidence
+consequence → proof
+capability → event attribution
+motive → action
+similarity → identity
+local truth → global truth
+coherent larger object → automatic confirmation of every weaker branch inside it
+```
+
+Conversely, a higher-scale observation that is genuinely independent must be allowed to return and change the lower-scale hypothesis when the relation linking them is explicit and discriminating.
+
+> **Scale may change the scientific object. Scale does not by itself change the authority of the evidence.**
+
+This rule complements the branch-lineage and generator-accountability discipline of [Module 29](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md) and the scoped closure rule of Module 33S7C.
+
 ## 9. Recursive scale ladder
 
 The scale recursion can then be written schematically as
@@ -283,7 +381,7 @@ O_\ell
 O_L.
 ```
 
-The arrow between scales is not granted by metaphor. It must be earned by the effective-object tests above.
+The arrow between scales is not granted by metaphor. It must be earned by the effective-object tests above, and any evidential claim carried across that arrow retains the passport discipline of Section 8B.
 
 The research question becomes:
 
@@ -306,9 +404,9 @@ The minimum sequence is:
 7. ablate each proposed pillar;
 8. test alternative carriers for the same relation where possible;
 9. identify the first point at which a higher-scale effective-object model earns predictive and interventional status;
-10. repeat the same typed questions at the next scale.
+10. repeat the same typed questions at the next scale while preserving the cross-scale evidential passport.
 
-This is deliberately a baby-step programme. The framework should climb only when the current scale produces a reproducible before/after object, a measurable gain or loss, and a successful deformation test.
+This is deliberately a baby-step programme. The framework should climb only when the current scale produces a reproducible before/after object, a measurable gain or loss, a successful deformation test, and a lawful reason to change the scientific address.
 
 ## 11. Falsifiers and reduction rules
 
@@ -320,7 +418,10 @@ This supplement is weakened or reduced if:
 - carrier substitution succeeds only because hidden carrier-specific structure was preserved;
 - the effective-object model provides no predictive, intervention, or compression advantage;
 - apparent cross-scale recurrence depends only on naming or coarse visual resemblance;
-- cost, freedom, and capability can be made to change sign by arbitrary post-hoc choice of measurement.
+- cost, freedom, and capability can be made to change sign by arbitrary post-hoc choice of measurement;
+- higher-scale story coherence is counted as lower-scale evidence without an independent anchor;
+- a scale transition changes evidence rank, dependency lineage, uncertainty, or provenance without a declared reason;
+- an object is frozen at one scale even though a currently reachable parent-changing frame would alter its boundary, comparison class, or prediction.
 
 If those failures occur, reduce the claim rather than protecting the formalism.
 
@@ -328,4 +429,4 @@ If those failures occur, reduce the claim rather than protecting the formalism.
 
 This supplement does not establish a universal law of emergence, a universal minimal pillar set, consciousness, life, a new force, independent I→P dynamics, or persistence across death. It supplies a way to ask smaller measurable questions before attempting those larger claims.
 
-Its immediate contribution is methodological: make `load-bearing` an intervention result rather than a metaphor; keep lower-scale freedom, higher-scale capability, and cost separate; distinguish relation from carrier; and require a measurable scale-transition before treating a new higher-scale object as scientifically earned.
+Its immediate contribution is methodological: make `load-bearing` an intervention result rather than a metaphor; keep lower-scale freedom, higher-scale capability, and cost separate; distinguish relation from carrier; require a measurable scale-transition before treating a new higher-scale object as scientifically earned; keep address formation open when a reachable frame can still change the object; and preserve evidential status, dependency, uncertainty, and provenance across scale rather than allowing consequence or coherence to self-certify the originating claim.
