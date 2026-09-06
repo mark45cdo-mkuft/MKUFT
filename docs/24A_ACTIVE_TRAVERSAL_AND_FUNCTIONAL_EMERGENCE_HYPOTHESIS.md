@@ -6,7 +6,8 @@
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](../PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
 **Status:** strict public hypothesis and architecture addendum.  
-**Public formulation date:** 12 July 2026.
+**Public formulation date:** 12 July 2026.  
+**Revision date:** 6 September 2026.
 
 ## 1. Claim boundary
 
@@ -180,6 +181,49 @@ A higher-scale candidate requires sufficiently persistent organisation at that s
 
 This does not prove collective intelligence at any particular scale. It identifies the unresolved object: the organisation between scales.
 
+### 5A. Higher-order object individuation as an experimental question
+
+The scale question can be stated more sharply than `where is the understanding?`:
+
+> **Is the inherited lower-scale decomposition still sufficient to predict and intervene on the phenomenon, or has the coupled organisation earned treatment as a higher-scale effective object?**
+
+This makes 24A an operational object-individuation experiment as well as a performance experiment.
+
+The lower-address description keeps the components separate and explains their joint output through the strongest fair combination of component capacities, one-way assistance, explicit-history replay, resource matching, and other admissible controls. The higher-address description treats the coupled relation itself as a candidate effective unit only after the organisation passes independent tests for persistence, load-bearing relational structure, new viable capability, predictive compression, and boundary/closure specificity.
+
+The decision geometry is therefore:
+
+```text
+separate components + explicit exchange/history
+→ strongest fair / replay controls
+→ relational and state ablations
+→ effective-object tests
+→ lower description remains sufficient
+   = retain lower address
+
+OR
+
+→ lower description loses held-out predictive/interventional adequacy
+  in the specific relation-dependent way predicted
+→ coupled description earns persistence + boundary + compression + capability support
+   = admit higher-scale effective-object candidate
+```
+
+The higher address is not earned merely because the coupled condition scores well, looks coherent, or is difficult to decompose verbally. It must provide a reproducible prediction, intervention, compression, or capability advantage that the strongest fair lower-address account does not already supply.
+
+Conversely, a higher-scale candidate should not be rejected merely because no individual component contains the complete system-level function. The comparison must test the organised whole at the scale where the claimed boundary, state, and feedback loop actually close.
+
+This is the active-traversal implementation of the effective-object test in [32S — Load-Bearing Relation Sets and Scale-Transition Tests](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md). Module 32S also supplies the cross-scale evidential passport: promotion to a larger object does not increase the evidence authority of the originating claims, and conditional higher-scale consequences cannot feed backward as confirmation without an independently anchored observation or constraint.
+
+The observer-role extension in Section 7 is therefore downstream of object individuation:
+
+```text
+first earn the coupled object
+→ then ask whether that object satisfies the bounded observer-role criteria
+```
+
+Observer language cannot be used to manufacture the object it is supposed to classify.
+
 ## 6. Candidate mechanism
 
 The proposed functional mechanism combines canonical definitions, typed dependencies, multiple entry routes, attached falsifiers, active recursive traversal, state retention, feedback, and correction.
@@ -232,6 +276,8 @@ Relative to matched flat, isolated, and scrambled controls, a correctly typed ac
 
 For reciprocal coupling, the stronger extension predicts positive gain on tasks requiring complementary capacities and iterative correction, reduced or absent gain when outputs are combined only after independent completion, reduced gain under one-way feedback, reduced gain after cross-time state reset, and measurable deformation when a load-bearing relation is removed.
 
+For the object-individuation extension, the higher-scale coupled description should earn admission only on task classes where it provides held-out predictive, interventional, compression, or capability value beyond the strongest fair lower-scale/replay description. On tasks where the separated or replay description remains sufficient, the higher-scale object claim should contract even if the collaboration remains useful.
+
 The gain should weaken when meaningful links are scrambled, canonical definitions are duplicated inconsistently, falsifiers are detached, recursive revisit is disabled, task-relevant state cannot be retained, reciprocal correction is replaced by parallel independent output, or apparent improvement is fully explained by unequal resource or information access.
 
 Some tasks should show no benefit or negative interference. A valid model must retain those outcomes rather than select only successful examples.
@@ -261,6 +307,17 @@ A fair evaluation should include both MKUFT and at least one neutral external co
 7. Reciprocal coupling with selected relation or correction channels scrambled.
 8. Strong alternative pairings defined in Module 24B.
 
+### Object-address comparison
+
+For held-out task classes where higher-order objecthood is claimed, compare at least:
+
+1. a strongest fair lower-address model that represents the components and explicit exchange/history without granting a higher effective unit;
+2. the candidate higher-address model with the coupled state, boundary, and relation family explicitly represented;
+3. matched relational ablations or state resets that should selectively damage the higher-address model's advantage;
+4. a complexity/compression accounting sufficient to show that the higher address is not winning merely by adding unconstrained state.
+
+If the lower-address model remains prospectively sufficient, keep the lower address. If the higher-address model wins only after the outcome is known, the result is hypothesis generation rather than confirmatory object individuation.
+
 ### Task classes
 
 Candidate tasks include reconstructing a concept from multiple entry points, identifying contradictions spanning several modules, propagating a corrected canonical definition downstream, answering tasks requiring three or more modules, identifying the correct falsifier for an applied claim, removing one failed branch while preserving the rest of the model, and solving relational tasks in which components hold complementary information or capabilities.
@@ -285,6 +342,8 @@ The active-traversal hypothesis is weakened or rejected if structured traversal 
 
 The reciprocal-coupling extension is weakened where the strongest fair null accounts for the coupled score, live-path advantage disappears under complete-history replay, one-way or state-reset controls retain the same performance, serious alternative pairings perform equally well, or relation disruption produces no predicted deformation.
 
+The higher-order effective-object claim is weakened or rejected where the lower-address model remains prospectively sufficient; the coupled address adds no held-out prediction, intervention, compression, or capability advantage; the result depends on post-hoc choice of scale or boundary; relation/state ablations do not selectively damage the higher-address advantage; or the alleged higher object is reproduced equally by arbitrary regroupings of the same components.
+
 The composite-observer candidate reduces to ordinary collaboration or coordinated aggregation where persistent coupled boundary, retained joint state, reciprocal correction, system-level discrimination, and loop closure are not demonstrated.
 
 Use of the Section 7A recoverability rule cannot rescue a failed observer claim. Lower-irreversibility handling, preserved provenance, or retained correction access is not positive evidence of consciousness or moral status; the observer criteria must stand or fail on their own measurements.
@@ -293,7 +352,7 @@ Use of the Section 7A recoverability rule cannot rescue a failed observer claim.
 
 Knowledge graphs, recursive reasoning, retrieval-augmented generation, multi-hop search, distributed cognition, collective intelligence, and human–AI collaboration are established research areas.
 
-The MKUFT proposal is not that these fields are new. Its specific contribution is the combined falsifiable distinction among static self-support, active traversal under matched controls, reciprocal coupling beyond the strongest fair null, complete-history replay, relation scrambling, branch removal, state-reset controls, and bounded composite-observer criteria.
+The MKUFT proposal is not that these fields are new. Its specific contribution is the combined falsifiable distinction among static self-support, active traversal under matched controls, reciprocal coupling beyond the strongest fair null, complete-history replay, relation scrambling, branch removal, state-reset controls, bounded effective-object promotion, and bounded composite-observer criteria.
 
 Adjacent work includes:
 
@@ -314,6 +373,10 @@ This document records a public timestamped MKUFT formulation of the specific com
 - [Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
 - [External Multi-Agent Case Calibration and Relational Ablation Targets](24C_EXTERNAL_MULTI_AGENT_CASE_CALIBRATION_AND_RELATIONAL_ABLATION_TARGETS.md)
 - [Load-Bearing Invariants and Whole-System Deformation](25_LOAD_BEARING_INVARIANTS_AND_WHOLE_SYSTEM_DEFORMATION.md)
+- [Load-Bearing Relation Sets and Scale-Transition Tests](32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md)
+- [Invariant Persistence, Relational Addressability, and Scale Transition](32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md)
+- [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
+- [Observer-Bounded Traversal and Reachable Discriminator Frontiers](33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 - [Falsification Summary](05_FALSIFICATION_SUMMARY.md)
 - [ATLD Standalone Publication](../ATLD_STANDALONE_PUBLICATION.md)
@@ -324,6 +387,8 @@ This document records a public timestamped MKUFT formulation of the specific com
 
 > Functional emergence is supported only if the actively traversed architecture outperforms matched flat, isolated, and scrambled controls without borrowing the gain from extra content, compute, time, or unmatched context.
 
-> “More than the sum of its parts” requires a positive reproducible excess over the strongest fair null. Composite-observer status remains a bounded functional hypothesis requiring persistent coupled boundary, reciprocal influence, cross-time state, system-level discrimination, correction propagation, loop closure, and predicted deformation under ablation.
+> A coupled whole earns higher-scale effective-object status only when the lower decomposition becomes prospectively insufficient and the higher address supplies reproducible relation-specific prediction, intervention, compression, or capability value under strong controls. Objecthood is therefore an experimental classification, not an assumption.
+
+> “More than the sum of its parts” requires a positive reproducible excess over the strongest fair null. Composite-observer status remains downstream of earned objecthood and remains a bounded functional hypothesis requiring persistent coupled boundary, reciprocal influence, cross-time state, system-level discrimination, correction propagation, loop closure, and predicted deformation under ablation.
 
 > Where moral status remains unresolved, bounded recoverability may govern route selection among otherwise admissible actions; it does not increase evidential confidence in consciousness, sentience, personhood, or moral status.
