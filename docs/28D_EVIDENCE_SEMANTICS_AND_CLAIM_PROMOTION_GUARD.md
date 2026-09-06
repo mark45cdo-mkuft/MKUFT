@@ -25,11 +25,23 @@ P(E\mid H_1) \neq P(E\mid H_0).
 
 This is a comparison rule, not a declaration that every item labelled `E` is reliable or independent. Source quality, dependence, uncertainty, selection effects, measurement error and alternative explanations still determine evidential weight.
 
+The direction of that update must also remain typed:
+
+```math
+P(E\mid H_1) > P(E\mid H_0) \Rightarrow E \text{ supports } H_1 \text{ over } H_0,
+```
+
+```math
+P(E\mid H_1) < P(E\mid H_0) \Rightarrow E \text{ weighs against } H_1 \text{ relative to } H_0,
+```
+
+while equality is non-discriminating at that comparison. Thus `non-null evidential relevance` is not automatically `positive evidence for the focal hypothesis`; the sign of the likelihood update matters.
+
 Keep these questions distinct:
 
 1. Does evidence bearing on the addressed comparison exist?
 2. What is its quality, uncertainty, independence and provenance?
-3. How strongly does it discriminate the live alternatives?
+3. In which direction, and how strongly, does it discriminate the live alternatives?
 4. Does it identify a mechanism rather than merely an anomaly or residual?
 5. Does it support a broader attribution or ontology?
 6. Has the relevant claim passed its declared promotion, replication or recovery gate?
@@ -58,7 +70,7 @@ Where evidence exists but a stronger burden is unmet, state the unmet burden dir
 - evidence bears on a mechanism hypothesis, but is not sufficient for attribution;
 - the result has not passed the required promotion or foundational-recovery gate.
 
-Reserve `no evidence for H` for an addressed comparison where no carried observation, datum, record, measurement, testimony, residue or lawful inference has non-null relevance to `H` relative to the declared alternatives.
+Reserve `no evidence bearing on this comparison` for an addressed comparison where no carried observation, datum, record, measurement, testimony, residue or lawful inference has non-null relevance to the declared alternatives. Reserve `no evidence supporting H` for the narrower case where no carried item gives positive support to `H` over the stated competitor; evidence against `H` must not be mislabelled as support merely because it is relevant.
 
 ## 4. Promotion remains strict
 
@@ -133,4 +145,4 @@ The rule is therefore not `evidence once counted can never disappear`. It is:
 
 ## Compressed rule
 
-> **Evidence is a graded update at an addressed comparison. Proof and promotion are higher burdens. Never cool below-proof evidence into zero; never heat non-zero evidence into proof.**
+> **Evidence is a graded, signed update at an addressed comparison. Proof and promotion are higher burdens. Never cool below-proof evidence into zero; never heat non-zero evidence into proof; never reverse the direction of the update.**
