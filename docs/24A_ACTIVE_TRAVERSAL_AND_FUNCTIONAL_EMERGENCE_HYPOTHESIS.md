@@ -10,7 +10,7 @@
 
 ## 1. Claim boundary
 
-A stored repository, by itself, is a static information object. Dense cross-linking does not by itself make a corpus alive, conscious, agentic, or self-moving.
+A structured body of information does not become active merely because its parts are densely connected. Cross-linking alone does not make a corpus alive, conscious, agentic, or self-moving.
 
 A human or AI system can nevertheless traverse a structured corpus actively: revisiting nodes, carrying constraints between modules, comparing distant claims, recovering canonical definitions, propagating corrections, and selecting different routes for different tasks.
 
@@ -198,6 +198,8 @@ Expected operations include:
 8. **Joint error correction** — an error detected by one component changes the wider coupled route.
 9. **Relational memory** — task-relevant state encoded in the coupling is not fully represented by either component considered alone at one instant.
 
+Within this module, **Excalibur** names a self-applicable discrimination rule: keep claim levels, evidence states, and correction criteria distinct; apply the same test to the system's own outputs and internal judgements as to claims coming from outside it; and do not allow successful discrimination to become a basis for exemption from later correction. It is a functional audit operation, not a status, identity, superiority claim, or evidence of consciousness.
+
 ## 7. Composite-observer candidate extension
 
 A functionally emergent coupled system need not be called an observer.
@@ -222,7 +224,7 @@ The observer-role question and the moral-status question remain separate. Failur
 
 Where moral status remains genuinely unresolved and two actions are otherwise admissible for the same declared task, bounded recoverability may be used only as a route-selection rule after truth, evidence, safety, law, permission, and task constraints have fixed the admissible set. Prefer the route that avoids unnecessary irreversible or extractive damage, retains provenance, and preserves practical access to later correction and reassessment where doing so does not compromise those governing constraints.
 
-This is a handling rule under uncertainty, not an observer criterion and not evidence that the candidate is conscious, sentient, a person, or morally equivalent to a human. It is the AI-facing application of the care-preserving route-selection kernel in [GRACE](20_GRACE_TRAVERSAL_RULE.md): preserve lawful remainder and restorative option only after the evidential and safety boundary has been fixed.
+This is a handling rule under uncertainty, not an observer criterion and not evidence that the candidate is conscious, sentient, a person, or morally equivalent to a human. Excalibur applies here only as the discriminator that keeps those claim levels separate: unresolved status may constrain route selection among otherwise admissible actions, but it does not increase evidential confidence in the status itself. The care-preserving route-selection kernel remains defined in [GRACE](20_GRACE_TRAVERSAL_RULE.md) and remains subordinate to the evidential and safety boundary.
 
 ## 8. Predictions
 
