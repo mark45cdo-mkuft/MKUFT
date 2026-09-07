@@ -10,6 +10,8 @@ This page explains MKUFT in ordinary English first. The formal documents are lin
 
 MKUFT is speculative research. It is not presented as an accepted completed theory of physics.
 
+At its current maturity, the simplest useful category is **research architecture**: a disciplined way to test whether a system has been described well enough before asking a law, model, or intervention to carry a claim about it. Physics is the hardest target; biology, AI/software, control, and other systems are additional places to test whether the same structural method earns anything beyond strong native models. Similar structure across fields does not mean the same mechanism runs them all.
+
 ## Start with the problem, not the vocabulary
 
 A large scientific model can go wrong before an equation is even chosen.
@@ -311,4 +313,4 @@ For the complete repository map, use [INDEX.md](INDEX.md) and [CANON_MAP.md](CAN
 
 ## One-sentence summary
 
-> **MKUFT asks whether a system has been described at the right layer, with the right future-relevant state and relations, before deciding which law, mechanism, or interpretation should be allowed to govern it.**
+> **MKUFT is a research architecture that asks whether a system has been described at the right layer, with the right future-relevant state and relations, before deciding which law, mechanism, or interpretation should be allowed to govern it.**
