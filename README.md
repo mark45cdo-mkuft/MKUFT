@@ -41,22 +41,24 @@ That failure condition matters. MKUFT is designed to be reduced when its added s
 
 ## Choose your route
 
-This `README.md` is the **repository front door**. It is not a third competing overview.
+This `README.md` is the **repository front door**.
 
-- **Want the idea in ordinary English first?** Start with [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md).
+- [MKUFT in plain English](MKUFT_IN_PLAIN_ENGLISH.md)
+- **Want the fuller ordinary-English scientific overview?** Start with [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md).
 - **Want the scientific chain explained without flattening the equations?** Use the [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). It is the bridge from readable explanation into the hard scientific modules.
 - **Want to check whether an MKUFT term is genuinely distinct or simply familiar science under another handle?** Use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). It is an optional cross-check, not another required reading stage.
 - **Already know the architecture and want the technical dependency map?** Go directly to the [Canon Map](CANON_MAP.md).
 
-You do **not** need to read this README, the Public Overview, and the Scientific Reader Traversal Guide as three versions of the same document. Their jobs are different:
+These routes have different jobs:
 
 ```text
 README = orientation and routing
-Public Overview = ordinary-English explanation
+MKUFT in plain English = one-step conceptual explanation
+Public Overview = fuller ordinary-English scientific overview
 Scientific Reader Traversal Guide = scientific handoff into the technical body
 ```
 
-If you are unsure where to begin, take the **Public Overview** route.
+If you are unsure where to begin, take **MKUFT in plain English**.
 
 **A note on the name:** *McLaughlin–Kairos Unified Field Theory* began as the title of a private, somewhat tongue-in-cheek collection of ideas. The project became more serious, structured, and testable; the historical name survived. The name is not a claim that a completed unified field theory has been achieved. The claims still have to earn themselves one test at a time.
 
@@ -234,6 +236,10 @@ For the complete publication list, version identities, frozen carriers, and DOI 
 ## Where to start
 
 If you want the shortest human route, read:
+
+1. [MKUFT in plain English](MKUFT_IN_PLAIN_ENGLISH.md)
+
+If you want to continue into the scientific body, use:
 
 1. [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md)
 2. [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md)
