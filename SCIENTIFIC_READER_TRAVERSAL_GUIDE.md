@@ -6,6 +6,8 @@ This is not a replacement for the technical modules. It is the intermediate laye
 
 The intended reader is intelligent and scientifically literate, but not assumed to hold a PhD in every field touched by the work. A non-specialist should still be able to follow the questions, the reason each module exists, what the equations are doing in broad terms, and what result would weaken the claim. A domain specialist can then enter the native equations and attack the exact formal burden.
 
+**Category lock:** treat MKUFT in this guide as a typed research architecture / methodological framework whose stronger physics-facing claims remain separate scientific burdens. Repeated structural questions across physics, biology, AI/software, control, or other domains do not establish one shared mechanism; each receiving domain must close on its own native objects, mathematics, measurements, baselines, and falsifiers.
+
 ## Carry this object through the whole guide
 
 For a declared operation, MKUFT treats the effective system description as sufficient only while it preserves the minimum typed distinctions needed to keep materially different relevant admissible futures from being falsely merged. This is the central object carried through the scientific chain.
@@ -33,7 +35,7 @@ If you cannot answer those questions after the prose around an equation, treat t
 
 ## The chain in one sentence
 
-MKUFT asks what distinctions the present representation must retain so states with materially different relevant futures are not falsely treated as the same, uses that addressed state before assigning a law, and then re-tests and readdresses after realised transitions, scale changes, registration, recovery, and widened reuse.
+As a research architecture, MKUFT asks what distinctions the present representation must retain so states with materially different relevant futures are not falsely treated as the same, uses that addressed state before assigning a law, and then re-tests and readdresses after realised transitions, scale changes, registration, recovery, and widened reuse.
 
 The scientific chain is:
 
