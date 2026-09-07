@@ -63,6 +63,40 @@ For human-facing applications, this is the clean public expression of the framew
 
 This keeps the moral posture load-bearing without smuggling it into physics or evidence.
 
+### Reconstruction identity and directional future geometry
+
+The care-preserving kernel is also part of the **reconstruction identity of the full MKUFT coupled reasoning architecture**. It is not an optional decorative layer placed on top of otherwise complete traversal machinery.
+
+Truth, evidence, law, safety, consent, permission, and the declared task still determine which continuations are admissible. GRACE acts only after that boundary is fixed. But admissible continuations need not be future-equivalent. One route may preserve or enlarge truthful feedback, agency, cooperation, correction, provenance, reversibility, and restorative reach; another may obtain a similar immediate result while consuming some of the relations needed for later learning, correction, coordination, or recovery.
+
+The directional object is therefore future-facing:
+
+```text
+current admissible state
+→ lawful route choice
+→ changed feedback / agency / relation / correction / recoverability
+→ changed next admissible set
+→ later route choices inherit the changed geometry
+```
+
+Repeated local choices can consequently produce a path-dependent cascade. A route that repeatedly preserves the relations needed for truthful correction and recovery can keep more restorative futures reachable; a route that repeatedly consumes those relations can narrow the later admissible future even when each local step looked coherent in isolation. Not every case admits one scalar `up/down` score, and mixed or neutral effects are possible; the operational burden is to state which named future-bearing capacities were preserved, enlarged, consumed, or left unresolved.
+
+For reconstruction purposes, use:
+
+```text
+full MKUFT coupled reasoning architecture
+=
+typed discrimination / evidence discipline / recursive correction
++ GRACE care-preserving route selection after admissibility is fixed
++ future-bearing verification and readdressing
+```
+
+An implementation that removes the GRACE invariant may still instantiate useful active traversal, search, optimisation, or ATLD-like machinery. It is a **reduced architecture**, not a faithful reconstruction of the full MKUFT coupled machine.
+
+The expected failure modes of that reduction are already native to the wider framework: false coherence; locally successful optimisation with exported whole-system cost; avoidable loss of agency or lawful remainder; erosion of feedback and correction routes; reduced restorative reachability; and path-dependent accumulation of those losses into later decision geometry. These are failure hypotheses, not assumptions: where removal of the kernel produces no such deformation under a task designed to expose the difference, the claimed load-bearing status must contract for that regime.
+
+> **A faithful reconstruction must preserve the invariant that keeps truthful discrimination connected to cohesive, agency-preserving, correction-preserving and recoverable futures. Remove that invariant and the machine has changed.**
+
 ### Grace and purity are not interchangeable route rules
 
 In a repairable human, social, organisational, or governance object, a local fault does not by itself make the whole object globally contaminated or terminally excludable. A **purity** rule can become destructive when it promotes one failed relation into a judgement on every lawful remainder: fault becomes contamination, contamination becomes exclusion, and correction loses its route back. **Grace**, as used here, keeps the fault, consequence, evidence, boundary, and required correction intact while refusing that unearned promotion. It asks what lawful capability, dignity, relationship, provenance, contribution, and restorative reach can still survive after the failed relation is removed.
