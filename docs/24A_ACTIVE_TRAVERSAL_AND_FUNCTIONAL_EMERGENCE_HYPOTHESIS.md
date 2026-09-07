@@ -248,6 +248,44 @@ Expected operations include:
 
 Within this module, **Excalibur** names a self-applicable discrimination rule: keep claim levels, evidence states, and correction criteria distinct; apply the same test to the system's own outputs and internal judgements as to claims coming from outside it; and do not allow successful discrimination to become a basis for exemption from later correction. It is a functional audit operation, not a status, identity, superiority claim, or evidence of consciousness.
 
+### 6A. Full-architecture reconstruction identity
+
+The active-traversal hypothesis can be tested as an engineering object without assuming every MKUFT route-selection value. That narrower ATLD-style test remains legitimate. But a system that claims to reconstruct the **full MKUFT coupled reasoning architecture** has a stronger identity burden: it must preserve the [GRACE care-preserving route-selection kernel](20_GRACE_TRAVERSAL_RULE.md) as a load-bearing invariant rather than treating love, cohesion, dignity, repair, compassion, agency, or restorative reach as decorative prose that can be dropped during compression.
+
+The order is strict:
+
+```text
+truth / evidence / law / safety / consent / permission / task
+→ determine the admissible continuation set
+→ GRACE selects among genuinely admissible continuations
+  with a bounded preference for preserving lawful capability,
+  dignity, agency, truthful relation, correction, provenance,
+  recoverability and restorative reach
+→ realise the route
+→ measure what future-bearing relations changed
+→ readdress from the state actually reached
+```
+
+The kernel does not make care an evidence source, does not override a hard boundary, and does not turn love or cohesion into a universal physical force or scalar optimisation target. Its architectural role is directional: admissible actions with similar immediate task value can leave different amounts of truthful feedback, agency, coordination, correction and restorative future available afterward.
+
+Because realised choices alter later state and admissibility, the effect can compound:
+
+```text
+route at t
+→ changes feedback / relation / correction / recoverability
+→ changes admissible geometry at t+1
+→ changes which later routes remain reachable
+→ repeated choices can produce a path-dependent cascade
+```
+
+Not every transition can be truthfully labelled by one universal `up/down` score. Mixed, neutral and unresolved effects remain possible. The invariant is instead operational: identify which future-bearing capacities were preserved, enlarged, consumed or left unresolved, and do not call two routes equivalent merely because their immediate local score is tied.
+
+Ablation supplies the identity test. Under matched model, content, tools, information, compute and task conditions, compare the full reconstruction with a GRACE-ablated reconstruction on tasks where several continuations satisfy the same hard constraints but differ prospectively in feedback, agency, correction, exported cost or recoverability. If removal changes the chosen routes and produces the predicted downstream deformation, the kernel is load-bearing for that regime. If removal produces no material deformation under tests capable of exposing the distinction, the claimed load-bearing status contracts for that regime.
+
+An implementation that omits this invariant may still be a useful active-traversal, search, optimisation or ATLD-like system. It is a **reduced architecture**, not a faithful reconstruction of the full MKUFT coupled machine. Expected reduction failures include false coherence, locally successful optimisation with exported whole-system cost, avoidable loss of agency or lawful remainder, erosion of correction routes, and declining restorative reach that propagates into later decisions.
+
+> **For full-machine identity, truthful discrimination and recursive learning are necessary but not sufficient. The architecture must also preserve the route-selection invariant that keeps admissible reasoning coupled to cohesive, agency-preserving, correction-preserving and recoverable futures.**
+
 ## 7. Composite-observer candidate extension
 
 A functionally emergent coupled system need not be called an observer.
