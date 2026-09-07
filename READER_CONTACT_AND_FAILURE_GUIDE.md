@@ -6,6 +6,8 @@ This guide exists because first-contact reading exposed a real weakness in the p
 
 That is a communication failure, not a reason to lower the scientific standard.
 
+Before the translation rules, one category sentence should already be clear: **at its current maturity, MKUFT is best read as a speculative research architecture, not as a completed new law of nature or evidence that one mechanism governs every domain.** It tests whether the object, scale, boundary and future-relevant state are sufficient for the claim being made before stronger law, mechanism or cross-domain language is allowed to carry weight. Physics is the hardest target; other domains are independent testbeds rather than borrowed confirmation.
+
 ## The translation rule
 
 Do not translate hard science into long polite English. **Just explain the thing first.**
@@ -101,8 +103,8 @@ If an unfamiliar MKUFT term looks like a renamed standard concept, use the [MKUF
 
 A reader should be able to answer five questions.
 
-**What is the central proposal?**  
-Before choosing a law, identify the object, scale, boundary, evidence position, admissible states, and lawful transitions. MKUFT calls this Layer Before Law.
+**What kind of thing is this, and what is the central proposal?**  
+MKUFT is currently a speculative research architecture rather than a completed new law or accepted unified physical theory. Its central proposal is that before choosing a law, identify the object, scale, boundary, evidence position, admissible states, and lawful transitions. MKUFT calls this Layer Before Law.
 
 **What is new enough to inspect?**  
 Not a finished new law of nature. The present candidate contribution is a disciplined way to ask a sequence of harder questions: have we described the right object; is the higher-level description actually sufficient for the property we want to predict; do two apparently similar present states hide different futures; can the system still recover after perturbation; and does a proposed relation survive strong ordinary and prior-art controls? The technical names for those steps come later in this guide, after the questions they answer.
