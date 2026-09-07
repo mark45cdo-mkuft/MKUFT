@@ -14,6 +14,8 @@ That is the shortest route into the project.
 
 MKUFT is a speculative research framework. It is not presented as an accepted completed unified physical theory.
 
+At its current maturity, the cleanest category is **research architecture**: a disciplined way to test whether a system has been described at the right object, scale, boundary and future-relevant state before asking a law or model to carry a prediction or stronger claim. Physics is its hardest target; biology/neuroscience, AI/software, control and other systems provide independent places to test whether the same structural method adds anything beyond strong native models. Similar structure across domains does not imply one shared mechanism.
+
 A second rule follows in plain English: **extra complexity has to earn itself.** If states the model calls equivalent split under a properly matched challenge beyond the noise and uncertainty already allowed, first rule out mismatch in the state, challenge, environment or measurement; only then add the smallest missing distinction and test it on fresh cases. If a strong separating challenge produces no material split, keep the simpler description provisionally for that target rather than adding complexity by default.
 
 The measurement/readout is part of that test because it has to be able to resolve the claimed difference. MKUFT's `O` address is used conservatively for that observer/registration position; it is not, by itself, a claim that an observer creates the physical outcome.
