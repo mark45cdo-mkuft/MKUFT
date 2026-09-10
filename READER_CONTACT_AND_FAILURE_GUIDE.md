@@ -78,25 +78,6 @@ The target is:
 
 A capable reader should be allowed to accumulate understanding. Once a technical term has been earned, it becomes useful compression. Once a metaphor has done its crossing work, the prose should return to the native object and trust the reader to carry it.
 
-### Recursive writing audit
-
-These rules apply recursively to the writing itself.
-
-Whenever a reader test, external critique, failed explanation, or new module exposes a repeatable communication defect:
-
-```text
-local wording failure
-→ identify the transferable reader-interface relation
-→ repair the local passage
-→ propagate the lesson to this standing guide if it is genuinely reusable
-→ re-read the affected route from the reader's current wake
-→ keep the lesson only if it reduces reconstruction burden without changing the science
-```
-
-A repaired paragraph is not enough when the same failure can recur elsewhere. Conversely, do not turn every local edit into a new global rule. A lesson earns propagation only when it is transferable and survives comparison against the existing reader contract.
-
-This makes recursive learning a writing discipline rather than a licence for endless expansion: **learn from the failure, compile the durable relation into the interface, then stop making future readers pay the same reconstruction cost.**
-
 If an unfamiliar MKUFT term looks like a renamed standard concept, use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). The key does not assign one-to-one scientific equivalents. It asks what established science already owns, what exact residual operation MKUFT is claiming after that ownership is subtracted, and what result would make the separate handle unnecessary. It is an optional cross-check, not another reading stage.
 
 ## What a reader should be able to tell in five minutes
