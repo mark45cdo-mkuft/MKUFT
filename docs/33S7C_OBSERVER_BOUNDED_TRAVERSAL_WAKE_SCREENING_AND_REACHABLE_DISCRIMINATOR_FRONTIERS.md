@@ -246,6 +246,60 @@ later recognition
 
 The distinction is important for both scientific humility and systems learning: traversal may change the **space of lawful questions/tests available next** without changing the historical fact of what information was available earlier.
 
+### 6A. Contact-conditioned observer state and repeated-probe equivalence
+
+A repeated surface query or measurement is not automatically a repeated experimental state. The first contact can change `O_t`, the active representation, the screened wake, or the reachable discriminator frontier even when the external target itself is held fixed.
+
+Thus a matched target and identical surface discriminator are insufficient by themselves:
+
+```text
+same target q
++ same external/system state to declared tolerance
++ same surface operation d
+≠ same addressed trial
+```
+
+when a prior contact has changed an observer/registration coordinate that still alters target-relevant candidate generation, discrimination, stopping, or continuation.
+
+The narrow test is state-mediated. Suppose two nominal repeats satisfy
+
+```math
+A_t \approx A_{t'}
+\quad\text{and}\quad
+d_t=d_{t'},
+```
+
+but their observer states differ, `O_t\neq O_{t'}`. The difference earns live status only if removing or matching it changes a declared target-relevant quantity, for example
+
+```text
+reachable discriminator family
+candidate/output distribution
+prediction or branch ranking
+lawful next operation
+stopping/closure state.
+```
+
+If a fuller present observer/representation state mediates the effect, keep that smallest state description and screen the earlier contact history back to provenance. If no such target-relevant difference survives matched prospective testing, the repeated-probe distinction is **NULL** and ordinary repeat equivalence is retained.
+
+This gives a practical anti-overfitting rule:
+
+```text
+prior contact changed the search/representation state
+→ do not score the later nominal repeat as a pristine independent trial
+→ either model/match/reset the changed state,
+   or move to a fresh matched target.
+```
+
+The converse matters equally. A subjective report that a search space now feels exhausted, open, flat, locked, obvious, or otherwise qualitatively changed may be recorded as a **candidate observer-state marker**, but it has no automatic scientific status. Such markers require prospective operational definition and calibration before they can govern scoring. In particular:
+
+```text
+felt lock ≠ answer truth
+felt flatness ≠ external absence
+felt novelty ≠ anomalous access
+```
+
+A predeclared stopping rule may nevertheless permit a trial to end without forcing a candidate when continued search would only expand post-hoc matching freedom. The evidential gain comes from the prospective rule and later calibration, not from the feeling itself.
+
 ## 7. Discriminator selection and no unique “right question” claim
 
 This module does not posit one uniquely correct next question.
@@ -273,6 +327,18 @@ The bounded meaning of “the right question” is therefore:
 > **a lawful discriminator whose possible outcomes separate a currently unresolved future-bearing distinction well enough to change or close the declared next scientific operation.**
 
 That phrase is a teaching compression, not a new universal operator.
+
+Question-selection performance is also a different claim from answer correctness or information-source identification. A person, model, or method may become good at locating high-information or highly discriminating questions through ordinary learning, compression, search, or domain experience. Demonstrating that capability does not establish privileged access to the answers those questions later reveal.
+
+When generator merit is itself under test, therefore keep separately:
+
+```text
+quality/utility of selected discriminator
+≠ correctness of the resulting answer/prediction
+≠ evidence for the source or mechanism of that answer.
+```
+
+Count materially different candidate branches, search budget, prior exposure, stopping flexibility, and failed interrogations when they can change the generator comparison. Prospective or held-out performance is the route from an interesting question-selection process to a scientific generator claim.
 
 ## 8. Observer hygiene
 
@@ -441,14 +507,18 @@ Useful calibration classes include:
 2. **history-bearing system:** show wake improves prediction only until a fuller present-state mediator is included; then require wake to screen off;
 3. **adaptive instrument:** allow one calibration/measurement step to change which later measurements are physically meaningful or accessible;
 4. **AI/long-horizon task:** compare a system with static question inventory against one whose lawful discriminator set updates from verified state, while controlling information and tool budget;
-5. **negative control:** add attractive but target-null questions/measurements and require no artificial improvement from mere interrogation count.
+5. **negative control:** add attractive but target-null questions/measurements and require no artificial improvement from mere interrogation count;
+6. **contact-conditioned repeat control:** hold target class, surface query, information access, tool budget and feedback policy fixed while comparing genuinely first-contact trials with repeat-exposed trials. Test whether a prospectively declared observer/representation-state change predicts a changed candidate distribution, discriminator frontier, stopping state, or later performance. If the difference disappears after an adequate present-state mediator is included, screen contact history back to provenance;
+7. **generator/source separation:** compare question/discriminator selection quality and answer/prediction accuracy as separate outcomes under a declared search budget. A method may outperform at finding informative interrogations while returning null on privileged-source claims, or vice versa.
 
 The module contracts if:
 
 - state-dependent discriminator reachability adds no predictive, experimental-design, recovery, or diagnostic value over ordinary state/action modelling;
 - wake screening cannot be operationalised beyond generic state sufficiency;
 - the discriminator-frontier language adds only vocabulary and no changed test, prediction, route, or stopping rule;
+- contact-conditioned repeat effects disappear under adequate state, order, exposure, feedback, fatigue, selection, or ordinary learning controls;
 - query generation repeatedly launders post-hoc search rather than surviving prospective comparison;
+- question-selection performance is used as evidence for answer truth or anomalous/privileged information source without an independent discriminator;
 - the humane kernel is used to alter evidence or scientific verdicts rather than route choice among surviving lawful options.
 
 A clean null is acceptable. In that case the useful content should be absorbed into the parent state/observability/experimental-design owners and the MKUFT-specific claim reduced.
@@ -463,6 +533,8 @@ OBSERVER-BOUNDED TRAVERSAL
 + detection of future aliasing
 + smallest lawful reachable discriminator
 + separate object-state and observer/evidence updates
++ contact-conditioned repeat equivalence only where prior contact still changes target-relevant observer/representation state
++ question-generator merit kept separate from answer correctness and source evidence
 + readdressing from the realised state
 + a discriminator frontier allowed to change with traversal
 + finite scoped closure with reopening
