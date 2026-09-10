@@ -340,6 +340,8 @@ quality/utility of selected discriminator
 
 Count materially different candidate branches, search budget, prior exposure, stopping flexibility, and failed interrogations when they can change the generator comparison. Prospective or held-out performance is the route from an interesting question-selection process to a scientific generator claim.
 
+For formal prospective generator benchmarking — including strongest preregistered comparators under matched information, tools, search budget, revision opportunity, and stopping rules — use [29B — Typed Decomposition, Reconstruction, and Prospective Generator Audit](29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md). A positive generator result remains a generator result; it does not by itself identify the information source or mechanism.
+
 ## 8. Observer hygiene
 
 The observer-centred route is useful only if it stays clean. The following separations are mandatory.
