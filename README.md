@@ -263,8 +263,6 @@ Presentation defects, stale links, rendering problems, or confusing explanations
 
 The project uses AI-assisted research tooling for drafting, checking, traversal, and consistency work. AI output is not treated as scientific evidence merely because an AI produced it.
 
-The public-writing discipline is recursive as well: when a repeatable reader-interface defect is found, repair the local passage, extract only the transferable lesson, fold that lesson into the standing reader contract, and re-read the affected route from the reader's accumulated context. The aim is that later writing inherits the repair automatically rather than requiring the same correction again.
-
 ## Human use
 
 Some MKUFT material also carries practical ideas about boundaries, recovery, relation, responsibility, uncertainty, cohesion, and preserving a route forward after failure. Readers may explore those ideas separately from the physics.
