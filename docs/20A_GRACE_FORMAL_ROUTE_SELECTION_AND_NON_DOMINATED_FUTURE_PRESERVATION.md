@@ -136,7 +136,7 @@ For node `j`, define the typed ablation
 ```math
 \Theta^{-j}
 =
-\operatorname{Drop}
+\mathrm{Drop}
 \left(
 \Theta^{\mathrm{full}};\Theta_j
 \right),
@@ -165,7 +165,7 @@ The receiver-aware address is then written schematically as
 ```math
 A_t^{\mathrm{rec}}
 =
-\operatorname{Aug}
+\mathrm{Aug}
 \left(
 A_t;
 \{\Theta_j:j\in J^*\}
