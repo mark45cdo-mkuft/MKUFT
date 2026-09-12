@@ -44,7 +44,7 @@ Let `\Sigma` contain the declared decision specification, including as applicabl
 - evidence state and measurement resolution;
 - law, safety, consent, permission, authority, and boundary constraints;
 - admissible intervention class;
-- relevant affected-node addresses;
+- materially affected nodes or subsystems;
 - target-performance readouts;
 - future-bearing preservation readouts;
 - uncertainty model and coordinate-specific materiality tolerances;
@@ -109,7 +109,9 @@ A task may instead retain a typed vector of acceptable target outcomes rather th
 
 ## 5. Reciprocal affected-node address recruitment
 
-For each materially affected receiving node `j`, let the candidate receiver-side address be schematically
+Let `J_{\mathrm{aff}}` denote the set of nodes or subsystems whose declared downstream consequences may be materially changed by a contemplated interaction.
+
+For each `j\in J_{\mathrm{aff}}`, let the candidate receiver-side address be schematically
 
 ```math
 \Theta_j=(S_j,R_j,C_j),
@@ -119,7 +121,15 @@ where the components retain the meanings established in Module 20: relevant stat
 
 Reported, directly observed, and inferred components remain separately typed. An inferred private state does not become an observation because it appears inside a tuple.
 
-Receiver-side coordinates are recruited through the future-sufficiency burden already owned by Module 33S6. Let `\Theta^{\mathrm{full}}` be the current evidence-supported candidate address and let
+Receiver-side coordinates are recruited through the future-sufficiency burden already owned by Module 33S6. Let `\Theta^{\mathrm{full}}` be an evidence-supported candidate address that satisfies the declared target-relative sufficiency condition
+
+```math
+\mathcal R_q\!\left(\Theta^{\mathrm{full}}\right)
+\leq
+\varepsilon_q.
+```
+
+For node `j`, define the typed ablation
 
 ```math
 \Theta^{-j}
@@ -127,22 +137,26 @@ Receiver-side coordinates are recruited through the future-sufficiency burden al
 \operatorname{Drop}
 \left(
 \Theta^{\mathrm{full}};\Theta_j
-\right)
+\right),
 ```
 
-be the same candidate address with node `j`'s proposed receiver-side coordinate removed. `Drop` is a typed ablation operator, not subtraction in a homogeneous vector space.
+where `Drop` is not subtraction in a homogeneous vector space.
 
-Using the target-relative address residual `\mathcal R_q` from Module 33S6, retain the receiver-side coordinate only when its omission produces unresolved future aliasing beyond the declared tolerance under a challenge capable of exposing the distinction:
+The receiver-side coordinate is verified as load-bearing for the declared target when its removal breaks that sufficiency:
 
 ```math
 \boxed{
 j\in J^*
 \quad\Longleftrightarrow\quad
-\mathcal R_q\!\left(\Theta^{-j}\right)>\varepsilon_q.
+\mathcal R_q\!\left(\Theta^{\mathrm{full}}\right)
+\leq\varepsilon_q
+\quad\land\quad
+\mathcal R_q\!\left(\Theta^{-j}\right)
+>\varepsilon_q.
 }
 ```
 
-Operationally, this means that erasing the receiver-side coordinate would merge states that require materially different target-relevant continuations. If the full candidate address itself still fails the sufficiency test, address closure remains provisional; the receiver coordinate is not allowed to hide an unresolved residual elsewhere.
+If the full candidate address itself remains above tolerance, no receiver-side coordinate is promoted to verified load-bearing status merely because the incomplete model performs badly. Such coordinates may remain provisional candidates while the residual is localised, but address closure has not yet been earned.
 
 The receiver-aware address is then written schematically as
 
@@ -174,17 +188,20 @@ For every `u\in\mathcal U_Q`, let the projected or realised transition produce t
 A_{t+1}^{(u)}.
 ```
 
-Define a declared future-bearing preservation profile
+To prevent several affected nodes from being silently averaged into one welfare quantity, separate whole-system and node-specific consequence profiles where the domain requires them:
 
 ```math
+\boxed{
 \Phi_{\Sigma}(u)
 =
-\bigl(
-\phi_1(u),\ldots,\phi_m(u)
-\bigr).
+\left(
+\Phi_{\mathrm{sys}}(u),
+\{\Phi_j(u)\}_{j\in J_{\mathrm{aff}}}
+\right).
+}
 ```
 
-Each `\phi_r` must be domain-native and oriented so that a larger value means more of the declared desirable capacity is preserved, unless another sign convention is stated explicitly.
+Each retained component of `\Phi_{\mathrm{sys}}` or `\Phi_j` must be domain-native and oriented so that a larger value means more of the declared desirable capacity is preserved, unless another sign convention is stated explicitly.
 
 Possible coordinates, only where independently operationalised, include:
 
@@ -199,6 +216,8 @@ Possible coordinates, only where independently operationalised, include:
 - negative irreversible-loss coordinates derived from declared `D_{\mathrm{irr}}` components.
 
 This list is **not** a mandatory universal vector. A coordinate that does no work in the receiving domain returns null.
+
+The set `J_{\mathrm{aff}}` and the recruited receiver-state set `J^*` are not identical by definition. A node's downstream consequence may matter even when its private or local state does not need to enter the predictive Address.
 
 In particular, `relationship preserved` is not automatically good. An unsafe, coercive, captured, deceptive, or otherwise inadmissible relation may need to terminate. GRACE preserves **lawful future-bearing structure**, not relation-for-relation's-sake.
 
@@ -380,15 +399,15 @@ INPUT:
   candidate routes U_t
   declared specification Σ
 
-1. Recruit only receiver-side coordinates that pass future-sufficiency / ablation.
+1. Identify materially affected nodes and recruit receiver-side state only where future-sufficiency ablation earns it.
 2. Remove routes that fail truth/evidence/law/safety/consent/permission/authority boundaries.
 3. Remove routes that fail the declared task.
-4. Build only domain-native target and future-bearing readouts that can change the decision.
+4. Build only domain-native target, system-level, and node-level future-bearing readouts that can change the decision.
 5. Compare surviving routes coordinate-wise under the declared uncertainty model.
 6. Remove materially dominated routes.
 7. If one route survives, execute if authority permits.
 8. If several survive, apply a justified domain priority, gather a discriminator, escalate, or retain the unresolved set.
-9. Verify realised downstream deformation.
+9. Verify realised downstream deformation at the system and affected-node addresses actually claimed.
 10. Readdress from the state actually reached and repeat only where the object changed.
 ```
 
@@ -404,7 +423,7 @@ Hold hard admissibility and task success constant. Remove the non-dominance comp
 
 ### B. Receiver-aware versus receiver-ablated
 
-Hold the contemplated interaction fixed. Remove one candidate receiver-side coordinate. Test whether the predicted receiving-node response, safety result, route ranking, repair target, or future geometry changes as predicted.
+Hold the contemplated interaction fixed. Remove one candidate receiver-side coordinate from an otherwise target-sufficient address. Test whether the predicted receiving-node response, safety result, route ranking, repair target, or future geometry changes as predicted. If the full address is not sufficient before ablation, do not promote the coordinate as verified load-bearing from that comparison alone.
 
 ### C. Full typed profile versus scalarised proxy
 
@@ -413,6 +432,10 @@ Compare the coordinate-wise route selector with a one-number proxy. Test whether
 ### D. Static plan versus recursive readdressing
 
 Hold the starting plan fixed. Introduce a transition that changes one load-bearing Address coordinate. Test whether the static policy continues down an obsolete route while the readdressed policy lawfully changes continuation.
+
+### E. Aggregated-node versus separately addressed comparison
+
+Hold task and hard boundaries fixed. Compare a single aggregated welfare/readout with separately retained affected-node coordinates. Test whether aggregation hides a material exported cost, agency loss, recoverability loss, or correction-channel deformation borne by one node or subsystem.
 
 A null result is informative. If the formal bridge does not improve the declared outcome or expose a reproducible route distinction under an adequate test, its claimed load-bearing role contracts for that domain.
 
@@ -431,7 +454,7 @@ The present module supplies only the missing bridge:
 ```text
 hard admissibility
 → target-sufficient survivors
-→ typed target + future-bearing profile
+→ typed target + system/node future-bearing profile
 → material non-dominance
 → surviving route set
 → realised transition
@@ -447,6 +470,8 @@ The formalisation should be rejected, reduced, or rewritten where any of the fol
 - coordinate direction is chosen after seeing which route it favours;
 - unrelated units are silently added or weighted without domain justification;
 - receiver state is inferred without evidence and treated as known;
+- receiver-state load is claimed from an already-insufficient full address without an independent discriminator;
+- affected nodes are averaged together in a way that hides a material exported consequence without domain justification;
 - relationship preservation is rewarded even when the relation itself is unsafe or inadmissible;
 - a dominated route is retained only because it is narratively preferred;
 - a genuine target/preservation trade-off is falsely presented as mathematical dominance;
@@ -457,4 +482,4 @@ The formalisation should be rejected, reduced, or rewritten where any of the fol
 
 ## 18. Compact statement
 
-> **Fix the truth and boundary first. Keep only routes that genuinely do the job. Represent future-bearing consequences in their own native coordinates. Remove routes that are needlessly worse without inventing a universal exchange rate between dignity, agency, safety, recovery, provenance, and performance. Then act from the state actually reached and test again.**
+> **Fix the truth and boundary first. Keep only routes that genuinely do the job. Represent future-bearing consequences in their own native coordinates, including affected nodes separately where that distinction is load-bearing. Remove routes that are needlessly worse without inventing a universal exchange rate between dignity, agency, safety, recovery, provenance, and performance. Then act from the state actually reached and test again.**
