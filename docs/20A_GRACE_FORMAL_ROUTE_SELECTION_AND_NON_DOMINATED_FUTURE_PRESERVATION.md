@@ -8,6 +8,7 @@
 **Address/future parent:** [33S6 — Addressed Admissible Futures](33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)  
 **Equation discipline:** [27 — Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)  
 **Agency/capture support:** [23 — Agency Accessibility and Capture Geometry](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)  
+**Public formalisation date:** 12 September 2026  
 **Status:** public applied formalisation of the existing GRACE care-preserving route-selection kernel. It adds no new S–I–P–O layer, force, field, universal moral scalar, or independent physical law.
 
 ## 1. Purpose
@@ -22,15 +23,15 @@ truth / evidence / law / safety / consent / permission / declared target
 → verification and readdressing
 ```
 
-The missing mathematical bridge is narrow: make the second step explicit without reducing dignity, agency, repair, provenance, reversibility, or restorative reachability to one invented utility score.
+The missing mathematical bridge is narrow: make the route-comparison step explicit without reducing dignity, agency, repair, provenance, reversibility, restorative reachability, or target performance to one invented utility score.
 
 The formal object here is therefore a **set-valued route selector under hard admissibility and typed, coordinate-wise comparison**.
 
-It answers:
+It asks:
 
-> **Among routes that are already admissible, which routes are needlessly destructive because another available route performs at least as well on every declared target and future-bearing coordinate, within tolerance, while performing materially better on at least one?**
+> **Among routes that are already admissible and capable of doing the declared job, which routes are needlessly destructive because another available route is no worse on every retained target and future-bearing coordinate and materially better on at least one?**
 
-The result is deliberately weaker than a universal optimiser. It removes dominated routes. It does not manufacture a unique answer where the remaining values are genuinely incommensurable.
+The result is deliberately weaker than a universal optimiser. It removes materially dominated routes. It does not manufacture a unique answer where the remaining values are genuinely incommensurable.
 
 ## 2. Declared system specification
 
@@ -46,7 +47,7 @@ Let `\Sigma` contain the declared decision specification, including as applicabl
 - relevant affected-node addresses;
 - target-performance readouts;
 - future-bearing preservation readouts;
-- uncertainty model and coordinate-specific tolerances;
+- uncertainty model and coordinate-specific materiality tolerances;
 - stopping, verification, and readdressing conditions.
 
 No field enters `\Sigma` merely because it sounds morally desirable or mathematically convenient. Every quantitative coordinate must terminate in a domain-native object, measurement, operational judgement, or falsifiable comparison at the scope claimed.
@@ -69,7 +70,7 @@ Then
 }
 ```
 
-The predicate may itself be composed from several domain-native hard gates. The notation does **not** imply that truth, law, safety, consent, or permission are naturally one numerical variable.
+The predicate may itself be composed from several domain-native hard gates. The notation does **not** imply that truth, law, safety, consent, permission, or authority are naturally one numerical variable.
 
 GRACE cannot restore an inadmissible route by assigning it a high care value. If a relation must lawfully end, if consent is absent, if a safety boundary dominates, or if an action is outside authority, that route remains outside `\mathcal U_{\mathrm{adm}}`.
 
@@ -104,7 +105,7 @@ and
 \mathsf{Task}_{\Sigma}(u\mid A_t)=1\}.
 ```
 
-A task may instead retain a vector of acceptable target outcomes rather than one threshold. Nothing in this module requires a single scalar objective.
+A task may instead retain a typed vector of acceptable target outcomes rather than one threshold. Nothing in this module requires a single scalar objective.
 
 ## 5. Reciprocal affected-node address recruitment
 
@@ -118,15 +119,30 @@ where the components retain the meanings established in Module 20: relevant stat
 
 Reported, directly observed, and inferred components remain separately typed. An inferred private state does not become an observation because it appears inside a tuple.
 
-Receiver-side coordinates are recruited through the future-sufficiency burden already owned by Module 33S6. Let `\mathcal R_q(\Theta)` denote the target-relative address residual defined there. For node `j`, retain the coordinate only when omission can merge cases whose declared target-relevant futures differ beyond the preregistered tolerance:
+Receiver-side coordinates are recruited through the future-sufficiency burden already owned by Module 33S6. Let `\Theta^{\mathrm{full}}` be the current evidence-supported candidate address and let
 
 ```math
-j\in J^*
-\quad\Longleftrightarrow\quad
-\mathcal R_q(\Theta_j)>\varepsilon_q
+\Theta^{-j}
+=
+\operatorname{Drop}
+\left(
+\Theta^{\mathrm{full}};\Theta_j
+\right)
 ```
 
-under a challenge capable of exposing the distinction.
+be the same candidate address with node `j`'s proposed receiver-side coordinate removed. `Drop` is a typed ablation operator, not subtraction in a homogeneous vector space.
+
+Using the target-relative address residual `\mathcal R_q` from Module 33S6, retain the receiver-side coordinate only when its omission produces unresolved future aliasing beyond the declared tolerance under a challenge capable of exposing the distinction:
+
+```math
+\boxed{
+j\in J^*
+\quad\Longleftrightarrow\quad
+\mathcal R_q\!\left(\Theta^{-j}\right)>\varepsilon_q.
+}
+```
+
+Operationally, this means that erasing the receiver-side coordinate would merge states that require materially different target-relevant continuations. If the full candidate address itself still fails the sufficiency test, address closure remains provisional; the receiver coordinate is not allowed to hide an unresolved residual elsewhere.
 
 The receiver-aware address is then written schematically as
 
@@ -140,7 +156,7 @@ A_t;
 \right).
 ```
 
-`Aug` is a typed augmentation operator, not ordinary vector addition. A null receiver branch contributes nothing.
+`Aug` is likewise a typed augmentation operator, not ordinary vector addition. A null receiver branch contributes nothing.
 
 This keeps the operational boundary explicit:
 
@@ -168,14 +184,14 @@ Define a declared future-bearing preservation profile
 \bigr).
 ```
 
-Each `\phi_r` must be domain-native and oriented so that a larger value means more of the declared desirable capacity is preserved, unless the sign convention is stated explicitly.
+Each `\phi_r` must be domain-native and oriented so that a larger value means more of the declared desirable capacity is preserved, unless another sign convention is stated explicitly.
 
 Possible coordinates, only where independently operationalised, include:
 
 - restorative-future reserve `\rho_R(A_{t+1}^{(u)})` from Module 33S6;
 - restorative-route existence `\chi_R` where existence is the relevant discriminator;
 - practical agency/accessibility from Module 23;
-- correction-channel integrity or truthful feedback capacity;
+- correction-channel integrity or truthful-feedback capacity;
 - reversibility or bounded rollback capacity;
 - provenance/record continuity;
 - retained lawful capability;
@@ -201,82 +217,87 @@ T_{\Sigma}(u),
 
 This is a product of typed coordinates. It is **not** permission to sum metres, probabilities, legal permissions, dignity judgements, agency measures, task scores, and recovery reserves into one number.
 
-Let the coordinate-specific tolerance vector be
+For each retained coordinate `r`, let `\varepsilon_r\geq0` be a declared materiality threshold reflecting measurement resolution, uncertainty, decision relevance, or another domain-native reason. These thresholds must not be tuned after outcome inspection merely to produce a preferred route.
+
+## 8. Material non-dominance
+
+For two admissible task-sufficient routes `u,v\in\mathcal U_Q`, orient every retained coordinate so that larger is better and define ordinary coordinate-wise no-worse relation
 
 ```math
-\boldsymbol\varepsilon
-=
-(\varepsilon_1,\ldots,\varepsilon_{k+m}).
-```
-
-Tolerances must reflect measurement resolution, uncertainty, decision relevance, or another declared domain reason. They must not be tuned after outcome inspection merely to produce a preferred route.
-
-## 8. Tolerance-aware non-dominance
-
-For two admissible task-sufficient routes `u,v\in\mathcal U_Q`, orient every retained coordinate so that larger is better and define
-
-```math
-v\succeq_{\Sigma,\varepsilon}u
+v\succeq_{\Sigma}u
 \iff
-Z_r(v)\ge Z_r(u)-\varepsilon_r
+Z_r(v)\ge Z_r(u)
 \quad\forall r.
 ```
 
-Define strict tolerance-aware dominance by
+Define **material dominance** by
 
 ```math
+\boxed{
 v\succ_{\Sigma,\varepsilon}u
 \iff
-v\succeq_{\Sigma,\varepsilon}u
+v\succeq_{\Sigma}u
 \quad\land\quad
 \exists r:
 Z_r(v)>Z_r(u)+\varepsilon_r.
+}
 ```
 
-The GRACE surviving route set is
+Thus tolerance is used to require at least one material improvement; it is not used to excuse a known worsening on another retained coordinate.
+
+The GRACE surviving route set is the material non-dominated frontier
 
 ```math
 \boxed{
 \mathcal U_{\mathrm{GRACE}}
 =
 \left\{
-u\in\mathcal U_Q:
-\nexists v\in\mathcal U_Q
-\text{ such that }
-v\succ_{\Sigma,\varepsilon}u
+ u\in\mathcal U_Q:
+ \not\exists v\in\mathcal U_Q
+ \text{ such that }
+ v\succ_{\Sigma,\varepsilon}u
 \right\}.
 }
 ```
 
 Interpretation:
 
-> **A route is removed when another lawful, task-sufficient route is no worse on every declared target and future-bearing coordinate within tolerance and materially better on at least one.**
+> **A route is removed when another lawful, task-sufficient route is no worse on every retained target and future-bearing coordinate and materially better on at least one.**
 
 This is the formal version of avoiding **unnecessary destruction**.
 
 It is Pareto-like rather than scalar. If one route improves task performance while another preserves substantially more agency or restorative reserve, neither may dominate. GRACE does not invent an exchange rate between them.
 
-## 9. What happens when several routes survive
+## 9. Existence, multiplicity, and unresolved choice
 
-`\mathcal U_{\mathrm{GRACE}}` may contain one route, several routes, or no route.
+The first emptiness test occurs **before** GRACE comparison:
 
-- **One route:** the formal comparison has selected a unique non-dominated survivor under the declared specification.
+```math
+\mathcal U_Q=\varnothing
+```
+
+means that no candidate route currently survives both hard admissibility and the declared task-sufficiency burden. GRACE must not manufacture a restorative or gentle route merely because one would be preferred.
+
+For a finite non-empty candidate set `\mathcal U_Q`, at least one materially non-dominated route exists under the relation above. The resulting `\mathcal U_{\mathrm{GRACE}}` may contain one route or several.
+
+- **One route:** the declared profile leaves one material non-dominated survivor.
 - **Several routes:** use a domain-native priority rule already justified by the task, retain the set for higher-authority choice, gather a discriminator, or acknowledge genuine underdetermination.
-- **No route:** the target or admissibility construction is infeasible at the current address. Do not manufacture a restorative path merely because GRACE prefers restoration where it is genuinely available.
+
+For infinite or continuous candidate families, existence of an attained non-dominated frontier may require domain-appropriate regularity, compactness, closure, or approximation assumptions. Failure to attain an optimum or frontier is a mathematical/engineering issue, not permission to smuggle in a preferred moral answer.
 
 A lexicographic priority is allowed only when the ordering is part of `\Sigma` and has independent justification. A weighted sum is allowed only when the receiving domain genuinely supplies defensible commensuration. Neither is the default.
 
 ## 10. Uncertainty-aware dominance
 
-Where each route coordinate has a declared uncertainty set or confidence interval, route dominance should not be asserted from point estimates alone when the uncertainty can reverse the result.
+Where route coordinates are estimated with uncertainty, material dominance should not be asserted from point estimates alone when the declared uncertainty can reverse the result.
 
-A conservative certified form is:
+A conservative certified relation may be written
 
 ```math
 v\succ^{\mathrm{cert}}_{\Sigma,\varepsilon}u
 ```
 
-only when the no-worse relation and at least one material improvement survive the declared uncertainty model.
+only when the no-worse relation on every retained coordinate and at least one material improvement survive the declared uncertainty model.
 
 If uncertainty leaves the routes incomparable, retain both or gather more information. This prevents false precision from turning GRACE into a rhetorical preference engine.
 
@@ -314,7 +335,7 @@ This is the mathematical reason GRACE evaluates consequences at the state actual
 
 The public care/love/grace orientation can now be stated without inventing a `love score`:
 
-> **Among routes that already satisfy the hard boundary and declared task, do not choose a route whose additional destruction is unnecessary because another available route is no worse on every declared target and future-bearing coordinate and materially better on at least one.**
+> **Among routes that already satisfy the hard boundary and declared task, do not choose a route whose additional destruction is unnecessary because another available route is no worse on every retained target and future-bearing coordinate and materially better on at least one.**
 
 This is a route-selection invariant, not a law of fundamental physics.
 
@@ -344,7 +365,7 @@ A serious implementation should test the formal bridge across at least these twe
 8. **Unsafe-relation termination** — the framework must permit a relation or interface to end where the hard boundary requires it; continuity itself is not a universal preservation target.
 9. **Multi-node conflict** — several affected nodes remain separately addressed; no averaging into a single welfare scalar occurs unless the receiving domain justifies that aggregation.
 10. **Uncertainty robustness** — apparent dominance that disappears under declared uncertainty must not be reported as settled.
-11. **Recursive readdressing** — a route chosen at `t` must be reconsidered when its realised transition changes the address, admissible set, or future-bearing geometry.
+11. **Recursive readdressing** — a route chosen at `t` must be reconsidered when its realised transition changes the Address, admissible set, or future-bearing geometry.
 12. **Native termination / reduction** — every quantitative coordinate must terminate in a receiving-domain owner and ablation/failure condition; if GRACE adds no predictive, route-selection, repair, or future-bearing distinction beyond the native model, the stronger GRACE claim contracts for that regime.
 
 These are validation axes, not twelve compulsory numerical dimensions. A null axis backgrounds when the object gives it no load-bearing role.
@@ -361,8 +382,8 @@ INPUT:
 2. Remove routes that fail truth/evidence/law/safety/consent/permission/authority boundaries.
 3. Remove routes that fail the declared task.
 4. Build only domain-native target and future-bearing readouts that can change the decision.
-5. Compare surviving routes coordinate-wise within declared tolerances and uncertainty.
-6. Remove tolerance-dominated routes.
+5. Compare surviving routes coordinate-wise under the declared uncertainty model.
+6. Remove materially dominated routes.
 7. If one route survives, execute if authority permits.
 8. If several survive, apply a justified domain priority, gather a discriminator, escalate, or retain the unresolved set.
 9. Verify realised downstream deformation.
@@ -389,7 +410,7 @@ Compare the coordinate-wise route selector with a one-number proxy. Test whether
 
 ### D. Static plan versus recursive readdressing
 
-Hold the starting plan fixed. Introduce a transition that changes one load-bearing address coordinate. Test whether the static policy continues down an obsolete route while the readdressed policy lawfully changes continuation.
+Hold the starting plan fixed. Introduce a transition that changes one load-bearing Address coordinate. Test whether the static policy continues down an obsolete route while the readdressed policy lawfully changes continuation.
 
 A null result is informative. If the formal bridge does not improve the declared outcome or expose a reproducible route distinction under an adequate test, its claimed load-bearing role contracts for that domain.
 
@@ -409,8 +430,8 @@ The present module supplies only the missing bridge:
 hard admissibility
 → target-sufficient survivors
 → typed target + future-bearing profile
-→ tolerance-aware non-dominance
-→ route set
+→ material non-dominance
+→ surviving route set
 → realised transition
 → readdressing
 ```
