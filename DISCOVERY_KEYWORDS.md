@@ -104,6 +104,11 @@ Direct routes:
 - action authority
 - future-sufficient continuity
 - receiver-side closure
+- reciprocal address return
+- affected-node address
+- receiver-side state sufficiency
+- receiver-state-conditioned interaction
+- multi-agent receiver-state ablation
 - parent fixed-point closure
 - causal-shadow accounting
 - no-smuggling rule
@@ -142,6 +147,7 @@ Direct routes:
 - `CHAIN_ADDRESS_STANDALONE_PUBLICATION.md`
 - `papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md`
 - `ATLD_STANDALONE_PUBLICATION.md`
+- `docs/20_GRACE_TRAVERSAL_RULE.md`
 - `docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md`
 - `papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md`
 - `FSSR_STANDALONE_PUBLICATION.md`
