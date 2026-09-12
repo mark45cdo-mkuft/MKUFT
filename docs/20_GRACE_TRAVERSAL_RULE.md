@@ -19,6 +19,7 @@ GRACE adds no new S–I–P–O layer and supplies no evidence by itself.
 For the current canonical treatment, use:
 
 - [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md)
+- [GRACE Formal Route Selection and Non-Dominated Future Preservation](20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md)
 - [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
 - [Agency Accessibility and Capture Geometry](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)
 - [Active Traversal and Functional Emergence](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
@@ -64,6 +65,8 @@ For human-facing applications, this is the clean public expression of the framew
 
 This keeps the moral posture load-bearing without smuggling it into physics or evidence.
 
+The formal companion [Module 20A](20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md) makes this route comparison explicit as hard admissibility followed by task sufficiency, typed future-bearing comparison, material non-dominance, realised transition, verification, and readdressing. It deliberately does not introduce a universal care or love scalar.
+
 ### Affected-node reciprocal address return
 
 Care-preserving route choice can still fail if the state of the person, agent, organisation, or coupled subsystem being affected is omitted from the system address even though that state changes what the interaction will do.
@@ -82,7 +85,7 @@ Y_j=F_j(S_j,R_j,C_j,I),
 
 where, for receiving node `j`, `S_j` is the relevant current state, `R_j` is its represented situation where that object is operationally available, `C_j` is the relevant constraint/context state, `I` is the contemplated interaction, and `Y_j` is the declared downstream consequence. This is a bookkeeping form, not a universal psychological, social, or physical law.
 
-A receiver-side coordinate earns a place only when omitting it merges cases whose target-relevant continuations differ beyond the declared tolerance. This is the same future-sufficiency burden developed in Modules 33S6 and 33S7C, applied to a coupled interaction rather than used to promote a new layer.
+A receiver-side coordinate earns a place only when omitting it merges cases whose target-relevant continuations differ beyond the declared tolerance. This is the same future-sufficiency burden developed in Modules 33S6 and 33S7C, applied to a coupled interaction rather than used to promote a new layer. Module 20A gives the explicit typed ablation and route-selection form.
 
 Use:
 
