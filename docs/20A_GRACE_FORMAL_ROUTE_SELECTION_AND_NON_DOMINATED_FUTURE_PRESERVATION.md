@@ -327,7 +327,7 @@ A_{t+1}
 }
 ```
 
-Here `u_t\in\mathcal U_{\mathrm{GRACE}}` denotes the route actually selected for execution under the applicable authority and any justified tie-breaking rule.
+Here `\nu_t\in\mathcal U_{\mathrm{GRACE}}` denotes the route actually selected for execution under the applicable authority and any justified tie-breaking rule.
 
 After the realised transition, the unexecuted suffix of an earlier plan retains standing only if it remains admissible from `A_{t+1}`, as already required by Module 33S6.
 
