@@ -52,6 +52,8 @@ Let `\Sigma` contain the declared decision specification, including as applicabl
 
 No field enters `\Sigma` merely because it sounds morally desirable or mathematically convenient. Every quantitative coordinate must terminate in a domain-native object, measurement, operational judgement, or falsifiable comparison at the scope claimed.
 
+`\mathcal U_t` is also a declared search/candidate surface, not proof that every physically, legally, organisationally, or computationally possible route has been enumerated. Every GRACE result is therefore relative to the candidate family and specification actually supplied. Candidate generation, search coverage, and discovery of omitted routes remain upstream burdens; a non-dominated route inside `\mathcal U_t` is not automatically a globally optimal route outside it.
+
 ## 3. Hard admissibility comes first
 
 Define a typed admissibility predicate
@@ -306,6 +308,8 @@ For infinite or continuous candidate families, existence of an attained non-domi
 
 A lexicographic priority is allowed only when the ordering is part of `\Sigma` and has independent justification. A weighted sum is allowed only when the receiving domain genuinely supplies defensible commensuration. Neither is the default.
 
+`\mathcal U_{\mathrm{GRACE}}` remains candidate-relative. Surviving the comparison establishes non-dominance within the declared route family; it does not establish that a better ungenerated route does not exist.
+
 ## 10. Uncertainty-aware dominance
 
 Where route coordinates are estimated with uncertainty, material dominance should not be asserted from point estimates alone when the declared uncertainty can reverse the result.
@@ -378,9 +382,9 @@ A serious implementation should test the formal bridge across at least these twe
 
 1. **Hard-boundary invariance** — an inadmissible route cannot re-enter because it scores well on preservation.
 2. **Target sufficiency** — GRACE does not protect a route that fails the declared task merely because it is gentle.
-3. **Dominated-route elimination** — a route with equal target performance and strictly worse future-bearing consequences should be removed.
-4. **Non-scalar conflict** — when routes trade target gain against agency, recoverability, reversibility, or another typed value, the model should preserve incomparability unless a justified priority resolves it.
-5. **Receiver-state ablation** — removing a genuinely load-bearing receiver coordinate should deform prediction or route choice in the preregistered direction; removing a null coordinate should not.
+3. **Candidate-family and dominated-route honesty** — non-dominance is asserted only inside the declared candidate family, and a route with equal target performance plus strictly worse future-bearing consequences is removed when a better candidate exists.
+4. **Non-scalar conflict** — when routes trade target gain against agency, recoverability, reversibility, or another typed value, the model preserves incomparability unless a justified priority resolves it.
+5. **Receiver-state ablation** — removing a genuinely load-bearing receiver coordinate from an otherwise sufficient Address deforms prediction or route choice in the preregistered direction; removing a null coordinate does not.
 6. **Reported / observed / inferred separation** — receiver self-report, direct observation, and inferred private state must not silently collapse into one evidence class.
 7. **Adversarial non-inheritance** — modelling a hostile or distorted node may change prediction without transferring its objective, interpretation, permission, or moral authority.
 8. **Unsafe-relation termination** — the framework must permit a relation or interface to end where the hard boundary requires it; continuity itself is not a universal preservation target.
@@ -399,16 +403,17 @@ INPUT:
   candidate routes U_t
   declared specification Σ
 
-1. Identify materially affected nodes and recruit receiver-side state only where future-sufficiency ablation earns it.
-2. Remove routes that fail truth/evidence/law/safety/consent/permission/authority boundaries.
-3. Remove routes that fail the declared task.
-4. Build only domain-native target, system-level, and node-level future-bearing readouts that can change the decision.
-5. Compare surviving routes coordinate-wise under the declared uncertainty model.
-6. Remove materially dominated routes.
-7. If one route survives, execute if authority permits.
-8. If several survive, apply a justified domain priority, gather a discriminator, escalate, or retain the unresolved set.
-9. Verify realised downstream deformation at the system and affected-node addresses actually claimed.
-10. Readdress from the state actually reached and repeat only where the object changed.
+1. Generate or recover the candidate family and state its known search/coverage limits.
+2. Identify materially affected nodes and recruit receiver-side state only where future-sufficiency ablation earns it.
+3. Remove routes that fail truth/evidence/law/safety/consent/permission/authority boundaries.
+4. Remove routes that fail the declared task.
+5. Build only domain-native target, system-level, and node-level future-bearing readouts that can change the decision.
+6. Compare surviving routes coordinate-wise under the declared uncertainty model.
+7. Remove materially dominated routes.
+8. If one route survives, execute if authority permits.
+9. If several survive, apply a justified domain priority, gather a discriminator, escalate, or retain the unresolved set.
+10. Verify realised downstream deformation at the system and affected-node addresses actually claimed.
+11. Readdress from the state actually reached and repeat only where the object changed.
 ```
 
 ## 15. Ablation programme
@@ -452,7 +457,8 @@ This module does not duplicate the existing formal owners.
 The present module supplies only the missing bridge:
 
 ```text
-hard admissibility
+candidate route family
+→ hard admissibility
 → target-sufficient survivors
 → typed target + system/node future-bearing profile
 → material non-dominance
@@ -465,6 +471,7 @@ hard admissibility
 
 The formalisation should be rejected, reduced, or rewritten where any of the following survives audit:
 
+- the candidate family is materially incomplete but a surviving route is described as globally optimal;
 - a supposed hard constraint is actually a soft preference;
 - target or preservation coordinates cannot be operationalised at the claimed scope;
 - coordinate direction is chosen after seeing which route it favours;
@@ -482,4 +489,4 @@ The formalisation should be rejected, reduced, or rewritten where any of the fol
 
 ## 18. Compact statement
 
-> **Fix the truth and boundary first. Keep only routes that genuinely do the job. Represent future-bearing consequences in their own native coordinates, including affected nodes separately where that distinction is load-bearing. Remove routes that are needlessly worse without inventing a universal exchange rate between dignity, agency, safety, recovery, provenance, and performance. Then act from the state actually reached and test again.**
+> **Fix the truth and boundary first. State the route family you actually searched. Keep only routes that genuinely do the job. Represent future-bearing consequences in their own native coordinates, including affected nodes separately where that distinction is load-bearing. Remove routes that are needlessly worse without inventing a universal exchange rate between dignity, agency, safety, recovery, provenance, and performance. Then act from the state actually reached and test again.**
