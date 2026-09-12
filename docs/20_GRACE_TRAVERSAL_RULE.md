@@ -21,6 +21,7 @@ For the current canonical treatment, use:
 - [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md)
 - [Cross-Layer Invariants and Layer Addressing](22_CROSS_LAYER_INVARIANTS_AND_LAYER_ADDRESSING.md)
 - [Agency Accessibility and Capture Geometry](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)
+- [Active Traversal and Functional Emergence](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md)
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 - [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
 - [Addressed Admissible Futures and Restorative Reachability](33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
@@ -62,6 +63,64 @@ For human-facing applications, this is the clean public expression of the framew
 > **Care chooses among surviving lawful routes; it does not edit the truth surface.**
 
 This keeps the moral posture load-bearing without smuggling it into physics or evidence.
+
+### Affected-node reciprocal address return
+
+Care-preserving route choice can still fail if the state of the person, agent, organisation, or coupled subsystem being affected is omitted from the system address even though that state changes what the interaction will do.
+
+For human-facing, multi-agent, institutional, and AI-coupled applications, GRACE therefore adds one bounded address test:
+
+> **When a contemplated interaction can materially affect another node, test whether the receiving node's own operating context changes a parent-relevant consequence. If it does, carry the smallest evidence-supported receiver-side address needed for that decision; if it does not, return null.**
+
+The rule is not mind-reading and does not create a new evidence source. Keep reported, directly observed, and inferred receiver-state variables separate. Uncertain private state remains uncertain.
+
+One architecture-level notation is
+
+```math
+Y_j=F_j(S_j,R_j,C_j,I),
+```
+
+where, for receiving node `j`, `S_j` is the relevant current state, `R_j` is its represented situation where that object is operationally available, `C_j` is the relevant constraint/context state, `I` is the contemplated interaction, and `Y_j` is the declared downstream consequence. This is a bookkeeping form, not a universal psychological, social, or physical law.
+
+A receiver-side coordinate earns a place only when omitting it merges cases whose target-relevant continuations differ beyond the declared tolerance. This is the same future-sufficiency burden developed in Modules 33S6 and 33S7C, applied to a coupled interaction rather than used to promote a new layer.
+
+Use:
+
+```text
+candidate interaction
+→ ask whether receiver-side state can change the parent result
+→ if no: receiver branch returns null
+→ if yes: separate observed / reported / inferred receiver state
+→ project only the consequence supported by that address
+→ return the non-null consequence to the governing parent
+→ choose among still-lawful routes under the existing truth / evidence /
+  law / safety / consent / permission boundary
+→ verify the realised downstream deformation
+```
+
+The perspective/address return is informative, not authoritative:
+
+```text
+understanding the receiving node
+≠ endorsing its interpretation
+≠ excusing harmful behaviour
+≠ transferring its objective into the governing objective
+≠ giving it veto authority over truth, law, safety, consent or boundary
+```
+
+This matters in adversarial cases as much as cooperative ones. Accurate modelling of a hostile, captured, frightened, status-defending, overloaded, or otherwise distorted node may reveal why a softer intervention will fail, why a firmer boundary is required, or which upstream dependency is the actual repair target. Perspective does not carry a fixed `be gentler` sign; it improves the address from which the consequence is judged.
+
+The corresponding projection guard is equally important. `What would I feel if I were them?` is not a substitute for modelling the receiving node. The test is whether the best evidence-supported receiver address changes prediction, admissibility, repair, safety, agency, or recoverability. If the conclusion depends on an unsupported story about hidden motives or feelings, the inference remains open rather than being promoted by empathy language.
+
+Recursive theory-of-mind also stops at future sufficiency. Additional `model of their model of our model` depth is retained only while another level changes a declared prediction, admissibility judgement, repair route, safety boundary, or other target-relevant continuation beyond tolerance. Otherwise the recursion is null.
+
+For human-facing applications, this gives a sober operational reading of dignity: do not erase a person's relevant state and agency from the model merely because the action is being chosen elsewhere. It does not imply agreement, innocence, equal authority, or universal recoverability.
+
+The clean test is ablation. Compare matched decisions or predictions with and without the candidate receiver-side coordinate. If its removal does not produce the predicted downstream deformation under a task capable of exposing the distinction, its claimed load-bearing status contracts for that regime. If receiver-aware modelling adds only narrative detail without improving prediction, discrimination, route choice, or repair, the simpler address should be retained.
+
+This subsection composes, rather than replaces, [Agency Accessibility and Capture Geometry](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md), [Active Traversal and Functional Emergence](24A_ACTIVE_TRAVERSAL_AND_FUNCTIONAL_EMERGENCE_HYPOTHESIS.md), [Addressed Admissible Futures](33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md), and [Observer-Bounded Traversal](33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md).
+
+> **Stand at the other node's address only as far as the evidence and the parent require; return what changes, and do not hand that temporary viewpoint custody of the truth surface.**
 
 ### Reconstruction identity and directional future geometry
 
