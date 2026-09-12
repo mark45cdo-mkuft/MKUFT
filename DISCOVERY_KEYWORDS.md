@@ -109,6 +109,12 @@ Direct routes:
 - receiver-side state sufficiency
 - receiver-state-conditioned interaction
 - multi-agent receiver-state ablation
+- GRACE formal route selection
+- care-preserving route selection
+- typed route profile
+- material non-dominance
+- non-gratuitous-loss invariant
+- non-dominated future preservation
 - parent fixed-point closure
 - causal-shadow accounting
 - no-smuggling rule
@@ -148,6 +154,7 @@ Direct routes:
 - `papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md`
 - `ATLD_STANDALONE_PUBLICATION.md`
 - `docs/20_GRACE_TRAVERSAL_RULE.md`
+- `docs/20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md`
 - `docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md`
 - `papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md`
 - `FSSR_STANDALONE_PUBLICATION.md`
@@ -173,6 +180,7 @@ Historical Cross-Domain v0.3/v0.2 routes remain valid provenance objects but are
 MKUFT A Relational Architecture for Physical Law and Cross-Scale Dynamics Mark Charles McLaughlin Zenodo 10.5281/zenodo.21973064 concept 10.5281/zenodo.17780565 GitHub mark45cdo-mkuft/MKUFT
 MKUFT Layer Before Law Typed Relational Architecture Physical-Law Selection Future-Sufficient Interfaces Preserve-or-Reopen Bell CHSH computational verification v1.2 Mark Charles McLaughlin public repository synthesis not yet DOI-bearing
 Cross-Domain Compositional Schema Future-Sufficient Interfaces Load-Bearing Relations Preserve-or-Reopen Reuse Exact Relation Ablation Restorative Descent Parent Completion Mark Charles McLaughlin Zenodo 10.5281/zenodo.22166468 concept 10.5281/zenodo.22164561
+GRACE Formal Route Selection Non-Dominated Future Preservation Reciprocal Address Return Material Non-Dominance Non-Gratuitous-Loss Invariant MKUFT Mark Charles McLaughlin
 Research Object Identity Provenance Independence Recursive Retrieval Coupling Epistemic Compression False Closure Ancestry Preservation Computational Verification Data Reproducibility Package MKUFT
 ```
 
