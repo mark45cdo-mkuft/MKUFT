@@ -70,6 +70,14 @@ Direct routes:
 - preserve-or-reopen reuse
 - exact relation ablation
 - load-bearing relation
+- Functional Configuration
+- exact residual composition / operation
+- Traversal Coherence Anchor
+- Fundamental Traversal Coherence Node
+- Operator–Target Binding
+- operator/sign-to-target semantic attachment
+- Scale-Relative Role Transition
+- whole downward, part upward
 - restorative descent
 - parent completion
 - typed partial instantiation
@@ -141,6 +149,9 @@ Direct routes:
 
 ## Direct current research-output routes
 
+- `MKUFT_NOMENCLATURE_REFINEMENT_2026-09-14.md`
+- `docs/25A1_TRAVERSAL_COHERENCE_ANCHOR_NOMENCLATURE_REFINEMENT.md`
+- `FSAI_CANONICAL_NAMING_NOTE.md`
 - `papers/README.md`
 - `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md`
 - `CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md`
@@ -179,7 +190,8 @@ Historical Cross-Domain v0.3/v0.2 routes remain valid provenance objects but are
 ```text
 MKUFT A Relational Architecture for Physical Law and Cross-Scale Dynamics Mark Charles McLaughlin Zenodo 10.5281/zenodo.21973064 concept 10.5281/zenodo.17780565 GitHub mark45cdo-mkuft/MKUFT
 MKUFT Layer Before Law Typed Relational Architecture Physical-Law Selection Future-Sufficient Interfaces Preserve-or-Reopen Bell CHSH computational verification v1.2 Mark Charles McLaughlin public repository synthesis not yet DOI-bearing
-Cross-Domain Compositional Schema Future-Sufficient Interfaces Load-Bearing Relations Preserve-or-Reopen Reuse Exact Relation Ablation Restorative Descent Parent Completion Mark Charles McLaughlin Zenodo 10.5281/zenodo.22166468 concept 10.5281/zenodo.22164561
+Cross-Domain Compositional Schema Future-Sufficient Interfaces Load-Bearing Relations Preserve-or-Reopen Reuse Exact Relation Ablation Functional Configuration Operator-Target Binding Scale-Relative Role Transition Mark Charles McLaughlin Zenodo 10.5281/zenodo.22166468 concept 10.5281/zenodo.22164561
+Traversal Coherence Anchor Fundamental Traversal Coherence Node FTCN MKUFT Mark Charles McLaughlin
 GRACE Formal Route Selection Non-Dominated Future Preservation Reciprocal Address Return Material Non-Dominance Non-Gratuitous-Loss Invariant MKUFT Mark Charles McLaughlin
 Research Object Identity Provenance Independence Recursive Retrieval Coupling Epistemic Compression False Closure Ancestry Preservation Computational Verification Data Reproducibility Package MKUFT
 ```
