@@ -3,6 +3,7 @@
 **MKUFT:** McLaughlin–Kairos Unified Field Theory  
 **Author:** Mark Charles McLaughlin  
 **Current principal publication:** [MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics](https://doi.org/10.5281/zenodo.21973064)  
+**Live integrated architecture:** **MKUFT Addressed Relational Traversal Architecture (ARTA)**  
 **MKUFT concept DOI:** [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565)  
 **Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511)
 
@@ -16,6 +17,8 @@ MKUFT is a speculative research framework. It is not presented as an accepted co
 
 At its current maturity, the cleanest category is **research architecture**: a disciplined way to test whether a system has been described at the right object, scale, boundary and future-relevant state before asking a law or model to carry a prediction or stronger claim. Physics is its hardest target; biology/neuroscience, AI/software, control and other systems provide independent places to test whether the same structural method adds anything beyond strong native models. Similar structure across domains does not imply one shared mechanism.
 
+The integrated architecture now has a stable live name: **MKUFT Addressed Relational Traversal Architecture (ARTA)**. MKUFT remains the project/framework/publication lineage; ARTA names the integrated addressed-relational-traversal architecture developed inside it. The naming does not rewrite frozen publications or establish novelty by itself. [Read the canonical ARTA naming/provenance route](ARTA_CANONICAL_NAMING_NOTE.md).
+
 A second rule follows in plain English: **extra complexity has to earn itself.** If states the model calls equivalent split under a properly matched challenge beyond the noise and uncertainty already allowed, first rule out mismatch in the state, challenge, environment or measurement; only then add the smallest missing distinction and test it on fresh cases. If a strong separating challenge produces no material split, keep the simpler description provisionally for that target rather than adding complexity by default.
 
 The measurement/readout is part of that test because it has to be able to resolve the claimed difference. MKUFT's `O` address is used conservatively for that observer/registration position; it is not, by itself, a claim that an observer creates the physical outcome.
@@ -23,6 +26,8 @@ The measurement/readout is part of that test because it has to be able to resolv
 ## Choose your route
 
 **New reader / non-academic reader:** [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md). It explains the questions and why they matter in ordinary English. You are not expected to verify specialist equations outside your field in order to follow the argument.
+
+**Reader asking what the integrated architecture itself is called:** [MKUFT Addressed Relational Traversal Architecture (ARTA) — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md). ARTA is the proper name of the integrated architecture; **Functional Configuration** remains the general class used to test whether an exact assembly itself carries reproducible function.
 
 **Reader deciding whether the work is worth further time:** [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md). It gives immediate relevance by field, known reader-interface failures, scientific failure conditions, and quick ways to challenge the work.
 
@@ -55,6 +60,10 @@ It is public in this repository, not yet DOI-bearing, and not peer reviewed.
 ## Current publication note
 
 The principal DOI-bearing MKUFT publication remains v2: [10.5281/zenodo.21973064](https://doi.org/10.5281/zenodo.21973064).
+
+The **FSSR HCP Magnesium Minimum-Decisive Protocol v1.0** is published at DOI `10.5281/zenodo.22309144` with concept DOI `10.5281/zenodo.22309143`. It prospectively freezes the first minimum-decisive HCP-magnesium instantiation of the FSAI/FSSR assay; it does not report an executed magnesium experiment or a positive MKUFT result.
+
+**Typed Decomposition-Reconstruction (TDR) v1.0** is published at DOI `10.5281/zenodo.22258000` with concept DOI `10.5281/zenodo.22257999`. It freezes the decomposition/reconstruction method and prospective generator comparison; publication does not establish that the prospective generator advantage is positive.
 
 The **Cross-Domain Compositional Schema v0.4** has version DOI `10.5281/zenodo.22166468` and concept DOI `10.5281/zenodo.22164561`. Its Bell/CHSH calibration returned a **NULL independent new-physics residual**: the exact geometric chart reduced to known CHSH structure. That null is retained as part of the scientific record rather than rewritten as a success claim.
 
