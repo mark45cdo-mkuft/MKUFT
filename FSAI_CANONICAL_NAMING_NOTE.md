@@ -21,6 +21,18 @@ The note canonically names two objects already present in the public AAF/FSSR co
 
 FSSR remains the experimental assay that attacks the state-equivalence claim with a bounded lawful future, confirms any split independently, tests the smallest physically typed repair by held-out remove/restore, and compares recruitment with a conventional mechanism marker.
 
+## Live compositional nomenclature refinement — 14 September 2026
+
+The live public nomenclature refinement is recorded in [MKUFT Live Nomenclature Refinement — 14 September 2026](MKUFT_NOMENCLATURE_REFINEMENT_2026-09-14.md). It does not rewrite frozen DOI-bearing publications.
+
+Three names in that refinement attach directly to the future-sufficiency/compositional route:
+
+- **Functional Configuration** — the working assembled object whose exact arrangement contributes reproducible function after native component ownership and obvious simpler compositions are controlled. Earlier wording such as **“exact residual composition / operation”** remains the audit phrase; the surviving residual is evidence for the Functional Configuration rather than the object name itself.
+- **Operator–Target Binding** — the live name for keeping an operator, sign convention, transformation, query, or functional attached to the exact target/context that gives it operational meaning. The Cross-Domain Compositional Schema v0.4 phrase **“operator/sign-to-target semantic attachment”** remains frozen in that DOI-bearing carrier and is not silently rewritten.
+- **Scale-Relative Role Transition** — the generic name for a typed object changing role relative to a wider/narrower composition without ontology change by fiat. The existing mnemonic **“whole downward, part upward”** and the boundary-specific **“scale-role transition of a boundary”** remain valid local descriptions.
+
+These names do not create new controllers. FSAI continues to own target-relative sufficiency and preserve-or-reopen; Module 25 continues to own deformation/load; domain-native formalisms continue to own their scientific mechanisms.
+
 ## Transition-carriage corollary
 
 The same construction has an immediate traversal consequence already implicit in AAF's recursive readdressing:
@@ -100,4 +112,4 @@ For human-facing applications, the [GRACE Traversal Rule](docs/20_GRACE_TRAVERSA
 - **Addressed Admissible Futures (AAF)** — DOI `10.5281/zenodo.22031333`
 - **Future-Splitting State Recruitment (FSSR)** — DOI `10.5281/zenodo.22058303`
 
-The scientific construction predates this naming note. The names and later live folds make the existing invariant, precedence rule, interrogation repair, and observer-bounded traversal consequence stable and discoverable. No frozen publication is silently edited or backdated, and no new universal law-of-nature or empirical-confirmation claim is made by this route.
+The scientific construction predates this naming note. The names and later live folds make the existing invariant, precedence rule, interrogation repair, observer-bounded traversal consequence, and compositional terminology stable and discoverable. No frozen publication is silently edited or backdated, and no new universal law-of-nature or empirical-confirmation claim is made by this route.
