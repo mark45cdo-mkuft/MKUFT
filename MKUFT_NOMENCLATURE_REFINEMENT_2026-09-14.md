@@ -3,7 +3,7 @@
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
 **Status:** live public terminology refinement; not a standalone paper and not a replacement for any frozen DOI-bearing publication.  
-**Purpose:** give stable names to four already-present functional objects without rewriting their scientific ancestry, inflating novelty, or silently changing the meaning of frozen publications.
+**Purpose:** give stable names to already-present functional objects and to the integrated architecture they compose, without rewriting scientific ancestry, inflating novelty, or silently changing the meaning of frozen publications.
 
 ## Provenance boundary
 
@@ -14,6 +14,28 @@ Where earlier public work used a descriptive phrase for the same relation, that 
 The governing rule is:
 
 > **Name the object only when the named distinction changes preservation, testing, comparison, deformation, retrieval, transfer, or lawful continuation. A name that changes no operation is decoration.**
+
+## Integrated architecture — ARTA
+
+The integrated architecture developed across MKUFT now has the live canonical name:
+
+> **MKUFT Addressed Relational Traversal Architecture (ARTA)**
+
+ARTA is the proper name of the integrated MKUFT architecture. **Functional Configuration** remains the general class used to test whether an exact assembly itself carries reproducible function after native/component ownership and obvious simpler compositions are controlled.
+
+The distinction is:
+
+```text
+Functional Configuration
+= general class / operational burden
+
+ARTA
+= this particular integrated MKUFT architecture
+```
+
+The exact ARTA identity, scope, reduction rule, and frozen-publication boundary are owned by [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md).
+
+ARTA does not replace MKUFT as the project/framework/publication lineage and does not retroactively rename any DOI-bearing publication. Existing descriptions such as **relational architecture**, **typed relational architecture**, **constrained traversal**, and **addressed update architecture** remain valid historical descriptions at the scope in which they were written.
 
 ---
 
@@ -127,16 +149,17 @@ If the purported role change adds no new constraint, dependency, sufficiency con
 
 ---
 
-## Relationship between the four terms
+## Relationship between the terms
 
 These terms solve different problems and must not be collapsed:
 
+- **ARTA** names the integrated MKUFT architecture as one functioning scientific configuration.
 - **Functional Configuration** asks whether an exact assembly itself does reproducible work after native-owner subtraction.
 - **Traversal Coherence Anchor** asks whether a structure anchors convergence/recovery beyond generic connectivity and incident relations.
 - **Operator–Target Binding** keeps an operation attached to the exact target that gives the operation meaning.
 - **Scale-Relative Role Transition** records a lawful role change of an already-typed object across composition/scale without inventing a new ontology.
 
-A single system may instantiate more than one of these relations, but evidence for one does not automatically establish another.
+ARTA may instantiate or recruit the other relations where their own trigger and evidence burden are satisfied. Evidence for one does not automatically establish another.
 
 > **No untyped inheritance.**
 
