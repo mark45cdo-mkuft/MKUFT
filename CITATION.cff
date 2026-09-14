@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "For the current principal MKUFT publication, use the preferred citation below."
+message: "For the current principal MKUFT publication, use the preferred citation below. ARTA is the live canonical name of the integrated architecture and does not replace the frozen publication title."
 title: "McLaughlin–Kairos Unified Field Theory (MKUFT) — Public Working Canon"
 authors:
   - family-names: "McLaughlin"
@@ -9,12 +9,17 @@ repository-code: "https://github.com/mark45cdo-mkuft/MKUFT"
 url: "https://github.com/mark45cdo-mkuft/MKUFT"
 keywords:
   - MKUFT
+  - MKUFT Addressed Relational Traversal Architecture
+  - ARTA
+  - Functional Configuration
   - McLaughlin-Kairos Unified Field Theory
   - unified field theory
   - typed SIPO architecture
   - constrained traversal
   - Layer Before Law
   - recursive constraint closure
+  - Future-Splitting State Recruitment
+  - Typed Decomposition-Reconstruction
   - LUCY
   - ATLD
 preferred-citation:
