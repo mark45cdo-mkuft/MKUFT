@@ -5,9 +5,15 @@ This file gives public search systems, citation tools, GitHub search, and AI ret
 ## Principal identity
 
 **Current principal title:** MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics  
-**Short name:** MKUFT  
+**Live integrated architecture:** **MKUFT Addressed Relational Traversal Architecture (ARTA)**  
+**Short project name:** MKUFT  
+**Short architecture handle:** ARTA  
 **Author:** Mark Charles McLaughlin  
 **Repository:** `mark45cdo-mkuft/MKUFT`
+
+Canonical architecture route:
+
+- `ARTA_CANONICAL_NAMING_NOTE.md`
 
 Historical/name variants:
 
@@ -20,6 +26,10 @@ Historical/name variants:
 - MKUFT current v2 DOI: `10.5281/zenodo.21973064`
 - MKUFT concept DOI: `10.5281/zenodo.17780565`
 - MKUFT historical v1 DOI: `10.5281/zenodo.17780566`
+- FSSR HCP magnesium protocol v1.0 DOI: `10.5281/zenodo.22309144`
+- FSSR HCP magnesium protocol concept DOI: `10.5281/zenodo.22309143`
+- Typed Decomposition-Reconstruction v1.0 DOI: `10.5281/zenodo.22258000`
+- Typed Decomposition-Reconstruction concept DOI: `10.5281/zenodo.22257999`
 - Cross-Domain Compositional Schema current v0.4 DOI: `10.5281/zenodo.22166468`
 - Cross-Domain concept DOI: `10.5281/zenodo.22164561`
 - Cross-Domain prior v0.3 DOI: `10.5281/zenodo.22166005`
@@ -55,6 +65,10 @@ Direct routes:
 
 ## Principal research terms
 
+- MKUFT Addressed Relational Traversal Architecture
+- ARTA
+- addressed relational traversal
+- Functional Configuration
 - unified field theory
 - S–I–P–O typed architecture
 - relational architecture for physical law
@@ -70,7 +84,6 @@ Direct routes:
 - preserve-or-reopen reuse
 - exact relation ablation
 - load-bearing relation
-- Functional Configuration
 - exact residual composition / operation
 - Traversal Coherence Anchor
 - Fundamental Traversal Coherence Node
@@ -83,6 +96,9 @@ Direct routes:
 - typed partial instantiation
 - strongest fair null
 - controlled deformation
+- Typed Decomposition-Reconstruction
+- TDR
+- prospective generator test
 - Bell Constraints as Typed Boundaries
 - Bell/CHSH hostile calibration
 - Bell-local factorisation
@@ -128,6 +144,7 @@ Direct routes:
 - no-smuggling rule
 - Future-Splitting State Recruitment
 - FSSR
+- FSSR HCP magnesium protocol
 - state adequacy
 - state recruitment
 - prospective mechanism activation
@@ -149,10 +166,15 @@ Direct routes:
 
 ## Direct current research-output routes
 
+- `ARTA_CANONICAL_NAMING_NOTE.md`
 - `MKUFT_NOMENCLATURE_REFINEMENT_2026-09-14.md`
 - `docs/25A1_TRAVERSAL_COHERENCE_ANCHOR_NOMENCLATURE_REFINEMENT.md`
 - `FSAI_CANONICAL_NAMING_NOTE.md`
 - `papers/README.md`
+- `papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md`
+- `FSSR_HCP_MAGNESIUM_PROTOCOL_STANDALONE_PUBLICATION.md`
+- `papers/2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md`
+- `TDR_STANDALONE_PUBLICATION.md`
 - `papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md`
 - `CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md`
 - `publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md`
@@ -183,13 +205,16 @@ Direct routes:
 - `RESEARCH_DERIVATION_AND_CLOSURE_SOP.md`
 - `reproducibility/README.md`
 
-Historical Cross-Domain v0.3/v0.2 routes remain valid provenance objects but are not the current publication route.
+Historical publication versions remain valid provenance objects but are not substituted for their current version routes.
 
 ## Exact search fingerprints
 
 ```text
+MKUFT Addressed Relational Traversal Architecture ARTA Mark Charles McLaughlin GitHub mark45cdo-mkuft/MKUFT Functional Configuration addressed state typed relations traversal registration readdressing recursive closure
 MKUFT A Relational Architecture for Physical Law and Cross-Scale Dynamics Mark Charles McLaughlin Zenodo 10.5281/zenodo.21973064 concept 10.5281/zenodo.17780565 GitHub mark45cdo-mkuft/MKUFT
 MKUFT Layer Before Law Typed Relational Architecture Physical-Law Selection Future-Sufficient Interfaces Preserve-or-Reopen Bell CHSH computational verification v1.2 Mark Charles McLaughlin public repository synthesis not yet DOI-bearing
+Future-Splitting State Recruitment HCP Magnesium Minimum-Decisive Protocol Mark Charles McLaughlin Zenodo 10.5281/zenodo.22309144 concept 10.5281/zenodo.22309143
+Typed Decomposition-Reconstruction Prospective Generator Test Hidden Scientific Conflations Mark Charles McLaughlin Zenodo 10.5281/zenodo.22258000 concept 10.5281/zenodo.22257999
 Cross-Domain Compositional Schema Future-Sufficient Interfaces Load-Bearing Relations Preserve-or-Reopen Reuse Exact Relation Ablation Functional Configuration Operator-Target Binding Scale-Relative Role Transition Mark Charles McLaughlin Zenodo 10.5281/zenodo.22166468 concept 10.5281/zenodo.22164561
 Traversal Coherence Anchor Fundamental Traversal Coherence Node FTCN MKUFT Mark Charles McLaughlin
 GRACE Formal Route Selection Non-Dominated Future Preservation Reciprocal Address Return Material Non-Dominance Non-Gratuitous-Loss Invariant MKUFT Mark Charles McLaughlin
@@ -198,4 +223,4 @@ Research Object Identity Provenance Independence Recursive Retrieval Coupling Ep
 
 ## Discovery hygiene
 
-Search terms identify objects and relationships. They do not convert a hypothesis, representation, computational replay, or non-DOI synthesis into peer-reviewed evidence. In particular, a deterministic verification package generated from the same derivation remains reproducibility evidence rather than independent empirical confirmation.
+Search terms identify objects and relationships. They do not convert a hypothesis, representation, computational replay, naming decision, or non-DOI synthesis into peer-reviewed evidence. In particular, naming ARTA does not itself establish novelty, and a deterministic verification package generated from the same derivation remains reproducibility evidence rather than independent empirical confirmation.
