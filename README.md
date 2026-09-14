@@ -3,12 +3,15 @@
 **Author:** Mark Charles McLaughlin  
 **Framework:** McLaughlin–Kairos Unified Field Theory (MKUFT)  
 **Current principal publication:** [MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics](https://doi.org/10.5281/zenodo.21973064)  
+**Live integrated architecture:** **MKUFT Addressed Relational Traversal Architecture (ARTA)**  
 **MKUFT concept DOI:** [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565)  
 **Historical v1 DOI:** [10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566)  
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)  
 **Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511) · [LinkedIn](https://www.linkedin.com/in/custodiansystems45/) · [GitHub](https://github.com/mark45cdo-mkuft)
 
 MKUFT is a speculative research framework. It is not presented as an accepted completed theory of physics. Its strongest present claim is narrower: **before a law is applied to a system, the system has to be addressed correctly.**
+
+The integrated architecture developed through that programme now has a stable live name: **MKUFT Addressed Relational Traversal Architecture (ARTA)**. MKUFT remains the project/framework/publication lineage; ARTA names the integrated architecture inside it. Naming ARTA does not rename earlier frozen publications or establish novelty by itself. See [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md).
 
 That sounds simple. It is also where a large number of modelling errors begin.
 
@@ -45,6 +48,7 @@ This `README.md` is the **repository front door**.
 
 - [MKUFT in plain English](MKUFT_IN_PLAIN_ENGLISH.md)
 - **Want the fuller ordinary-English scientific overview?** Start with [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md).
+- **Want the canonical name and exact scope of the integrated architecture?** Use [MKUFT Addressed Relational Traversal Architecture (ARTA) — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md).
 - **Want the scientific chain explained without flattening the equations?** Use the [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). It is the bridge from readable explanation into the hard scientific modules.
 - **Want to check whether an MKUFT term is genuinely distinct or simply familiar science under another handle?** Use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). It is an optional cross-check, not another required reading stage.
 - **Already know the architecture and want the technical dependency map?** Go directly to the [Canon Map](CANON_MAP.md).
@@ -55,6 +59,7 @@ These routes have different jobs:
 README = orientation and routing
 MKUFT in plain English = one-step conceptual explanation
 Public Overview = fuller ordinary-English scientific overview
+ARTA naming route = integrated-architecture identity and provenance
 Scientific Reader Traversal Guide = scientific handoff into the technical body
 ```
 
@@ -171,6 +176,8 @@ address the object
 → publish nulls as well as wins
 ```
 
+This continuing addressed-relational-traversal chain is the live architecture now named **ARTA**. The name does not replace the individual modules or their evidence burdens; it gives the integrated object one stable address.
+
 For the detailed dependency map, use the [Canon Map](CANON_MAP.md) and [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md).
 
 ## Known failure modes — including our own
@@ -219,7 +226,13 @@ The current strongest novelty language is deliberately bounded: parts of the wor
 
 The current principal DOI-bearing MKUFT publication is **MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics**, v2, published 17 August 2026: [DOI 10.5281/zenodo.21973064](https://doi.org/10.5281/zenodo.21973064).
 
+The live integrated architecture has the canonical name **MKUFT Addressed Relational Traversal Architecture (ARTA)** from 14 September 2026. This is a live repository naming/provenance object, not a new DOI publication: [canonical ARTA route](ARTA_CANONICAL_NAMING_NOTE.md).
+
 The current research-facing synthesis is **MKUFT — Layer Before Law: A Typed Relational Architecture for Physical-Law Selection, Future-Sufficient Interfaces, and Cross-Scale Dynamics**, v1.2, dated 30 August 2026. It is public in this repository, not yet DOI-bearing, and not peer reviewed: [human-reader route](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
+
+The published **Future-Splitting State Recruitment in History-Dependent HCP Magnesium Mechanics: A Minimum-Decisive Prospective Protocol for State Sufficiency, Probe Selection, and Mechanism Localisation**, v1.0, has version DOI `10.5281/zenodo.22309144` and concept DOI `10.5281/zenodo.22309143`. It freezes a prospective experimental protocol and does not report an executed magnesium experiment or positive MKUFT result.
+
+The published **Typed Decomposition-Reconstruction: A Prospective Generator Test for Hidden Scientific Conflations**, v1.0, has version DOI `10.5281/zenodo.22258000` and concept DOI `10.5281/zenodo.22257999`. It freezes a methods object and prospective generator benchmark; publication does not establish a positive generator advantage.
 
 The published **Cross-Domain Compositional Schema v0.4** has version DOI `10.5281/zenodo.22166468` and concept DOI `10.5281/zenodo.22164561`. Its Bell/tetrahedral calibration retains a NULL independent physical residual. Live calibration/future-sufficiency folds are [Module 28A](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) and [Module 33S7A](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md); exact relation removal is treated as **protocol-relative exact-relation deformation**, not an automatic causal intervention.
 
@@ -250,6 +263,8 @@ If you want to continue into the scientific body, use:
 The scientific traversal guide is the handoff between plain-language understanding and the hard modules. It explains what the equations are trying to establish and what a non-specialist can leave to domain experts without losing the scientific chain.
 
 If you already know the field and want the technical chain, use the [Canon Map](CANON_MAP.md).
+
+If you want the named integrated architecture and its provenance boundary, use [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md).
 
 If you want papers rather than live modules, use [Papers and Publications](papers/README.md).
 
