@@ -56,6 +56,49 @@ Before a novelty claim:
 
 Prior-art audit precedes publication-strength novelty language.
 
+Historical priority is typed to the **exact object being claimed**. An earlier paper, model, private line of inquiry, or established field may predate one or many ingredients without predating a later integrated construction that joins those ingredients through additional equations, ordering, closure conditions, operational meaning or discriminators.
+
+Use both directions:
+
+```text
+earlier ingredient
+→ inherited prior art for that ingredient
+≠ automatic priority over every later composition containing it
+
+later integration
+→ possible residual composition / ordering / function
+≠ permission to erase the prior art of its ingredients
+```
+
+When priority matters, compare the strongest earlier recoverable **whole object** against the exact later claimed object. Ask whether the earlier source already carries the same load-bearing relations, equations, state variables, ordering, closure and operational consequence, not merely whether it shares a theme or vocabulary.
+
+### 4A. External research as a differential extractor
+
+When another researcher, programme, model, laboratory or expert tradition is compared with MKUFT, do not let comparative wording automatically turn the task into prestige or whole-programme ranking.
+
+Where the live object is scientific reconnaissance, use the external address to extract what can change the current research parent:
+
+```text
+current research object
++ serious external research address
+→ recover evidence / dataset
+→ method / instrument / protocol
+→ distinction / representation
+→ mechanism / causal model
+→ prediction / discriminator / falsifier
+→ failed route / limitation
+→ unresolved edge / open question
+→ transfer boundary
+→ test each candidate against the current parent
+→ return only parent-changing deltas or explicit nulls
+```
+
+The external work must be allowed to damage the current model as readily as support it. Actively inspect what the external source claims that MKUFT does not, what it rejects that MKUFT retains, what it tested that MKUFT has not, what failed, and what evidence would separate the models.
+
+Another researcher's reputation, institutional position, publication count or longevity does not transfer truth. Conversely, a useful local lead in one method or dataset does not establish whole-programme superiority.
+
+> **Compare to learn before comparing to rank. Rank only when ranking is actually the research object.**
+
 ## 5. Calibration before flagship
 
 A new assay or architecture should first prove that it can recover a known distinction in a system where the answer is independently available.
@@ -123,6 +166,46 @@ Where a result claims that a state, address, model, or mechanism is missing some
 7. compare against a stronger ordinary state model using the same information.
 
 A repair that merely improves fit without surviving remove/restore is not yet load-bearing.
+
+### 7A. Causal-branch localisation and high-information discriminators
+
+Temporal co-occurrence is a reason to test a common cause, not a licence to merge causal branches.
+
+When several failures, signals or residuals appear together:
+
+```text
+co-occurrence
+→ common-cause candidate
++ independent-cause candidates
+→ choose the cheapest high-information discriminator
+→ update only the branches the result can causally reach
+→ merge branches only when a causal bridge is earned
+```
+
+Prefer tests that separate whole mechanism families over sequences of low-information setting changes. Independent-host, independent-substrate, held-out-source or remove/restore tests are especially valuable when they localise whether a failure travels with the object, the environment, the relation or the measurement route.
+
+Avoid shotgun mutation when causal attribution matters. Changing many variables at once can recover function while destroying the ability to say which change mattered.
+
+Once a discriminator strongly contracts a branch, stop spending equal effort on that branch unless later evidence reopens it. Conversely, do not use success on one branch to close an untouched branch merely because both failures appeared at the same time.
+
+### 7B. Null-address fidelity
+
+A fair null should remove the candidate relation without gratuitously destroying non-target structure that defines the declared object or sampling process.
+
+For permutation, scrambling, replay, substitution and synthetic-control designs, ask:
+
+```text
+what exact relation is the null meant to remove?
+what background structure is independently part of the object?
+does the perturbation preserve that non-target structure?
+if not, has the null changed the comparison address?
+```
+
+Relevant background structure can include ordering, stratification, total span, marginal distributions, topology, temporal dependence, group membership, sampling design, history and matched resource/information envelopes.
+
+A broader destructive null may still be useful, but it answers a broader or different question. Where multiple serious null addresses are plausible, report material sensitivity across them rather than selecting the one that yields the preferred significance.
+
+The full rule and examples are owned by [Module 24B](docs/24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md).
 
 ## 8. Prospective timing and promotion
 
@@ -705,4 +788,4 @@ When ordinary prose uses “certain”, bind it to the exact operational scope t
 
 ## Standing invariant
 
-> **Smallest sufficient object → hostile subtraction → baseline reconstruction → residual ablation/restoration → independent test → exact insertion address → dependency-complete propagation → re-traversal from the changed body → compression/handoff/re-entry persistence → proceduralised maturity with an automation dividend or justified irreducible residue → typed repair/deformation → residual novelty gate → scale/lineage custody → silent authoring hygiene → typed computational-verification/independent-confirmation boundary → exact publication and release identity → calibrated operational closure with explicit provenance and a reopening condition.**
+> **Smallest sufficient object → exact-object prior-art subtraction → external differential extraction where useful → strongest fair pressure at an address-faithful null → baseline reconstruction → residual ablation/restoration → high-information causal localisation → independent test → exact insertion address → dependency-complete propagation → re-traversal from the changed body → compression/handoff/re-entry persistence → proceduralised maturity with an automation dividend or justified irreducible residue → typed repair/deformation → residual novelty gate → scale/lineage custody → silent authoring hygiene → typed computational-verification/independent-confirmation boundary → exact publication and release identity → calibrated operational closure with explicit provenance and a reopening condition.**
