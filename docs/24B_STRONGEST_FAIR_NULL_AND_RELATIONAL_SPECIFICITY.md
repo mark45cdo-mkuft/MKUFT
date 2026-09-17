@@ -7,7 +7,8 @@
 
 **Status:** public methodological refinement to Modules 24A, 22, 04, and 05.  
 **Public formulation date:** 15 July 2026.  
-**Replay-control refinement:** 23 July 2026.
+**Replay-control refinement:** 23 July 2026.  
+**Null-address fidelity refinement:** 17 September 2026.
 
 ## 1. Core rule
 
@@ -46,8 +47,8 @@ Candidate scalar controls include:
 - $F_A^{*}$ — strongest fair $A$-alone condition;
 - $F_B^{*}$ — strongest fair $B$-alone condition;
 - $F_{\mathrm{ind}}^{*}$ — strongest lawful combination of independently completed outputs;
-- $F_{A\to B}^{*}$ — strongest one-way $A$-to-$B$ assistance;
-- $F_{B\to A}^{*}$ — strongest one-way $B$-to-$A$ assistance;
+- $F_{A\to B}^{*}$ — strongest one-way $A$-to-$B assistance;
+- $F_{B\to A}^{*}$ — strongest one-way $B$-to-$A assistance;
 - $F_{\mathrm{replay}}^{*}$ — strongest full-history replay or transfer condition.
 
 Let $\mathcal P_{\mathrm{replay}}$ be a preregistered set of serious replay conditions. A replay participant may be a matched fresh or reset system supplied with $H_{\mathrm{full}}$ under the same declared resource envelope.
@@ -131,6 +132,43 @@ A merely conceivable condition with no lawful implementation, no commensurable o
 Once the preregistered serious comparator family has been run fairly and the focal result is stable against its strongest member under the declared uncertainty/tolerance, the null comparison closes at that address. Closure does not imply that no stronger competitor can ever be developed. A later serious comparator that becomes operationally admissible reopens the relevant claim and is tested on its merits.
 
 > **Make the null as strong as the serious comparison permits, not as infinite as imagination permits. Preserve the route by which a genuinely stronger comparator would reopen the result.**
+
+### 3B. Null-address fidelity and structure-preserving perturbation
+
+A null can be runnable, reproducible and numerically severe while still answering the wrong comparison if its perturbation destroys non-target structure that defines the object being tested.
+
+Let the observed object be $O$ and let $R$ be the candidate relation whose evidential contribution is under test. A useful null transformation $N_R$ should, where the design permits, remove or scramble $R$ while preserving the other load-bearing coordinates that define the declared comparison class:
+
+```text
+O
+→ identify target relation R
+→ perturb / remove R
+→ preserve non-target load-bearing structure of O
+→ compare the resulting statistic or behaviour
+```
+
+Candidate non-target structure can include:
+
+- ordering or rank structure;
+- total span and declared marginals;
+- stratification or group membership;
+- topology or adjacency;
+- temporal dependence and history;
+- sampling design;
+- matched resource/information envelopes;
+- other constraints that are part of the declared object but not the relation being tested.
+
+Preserve only what is independently part of the object. Do not reverse-engineer a convenient constrained null merely because it protects a preferred result.
+
+If a broader randomisation deliberately destroys one or more of these coordinates, that may still be a valid scientific comparator, but it is a **different null address**. It should be described as such rather than silently treated as the unique answer to the narrower claim.
+
+Where several serious null addresses are plausible, preregister the primary family where possible and report material sensitivity across them. A change in significance under a lawful alternative null is evidence about what carries the result; it is not nuisance to be hidden.
+
+Example: if the claim concerns recurrence within an **ordered scale ladder**, a shuffle that randomly assigns all measured scales to all labels tests arbitrary value-to-label assignment. A second test may preserve the scale classes/order while randomising only the proposed pair relation. These answer different questions. The stronger inference is the one that survives the serious family at the address actually claimed.
+
+This rule generalises beyond permutation tests. Ablation, replay, scrambling, substitution and synthetic controls should remove the candidate relation without gratuitously deleting background structure whose presence defines the target system.
+
+> **Break the relation you are testing, not the object you are trying to test it inside. If the perturbation changes the object's address, carry that change explicitly.**
 
 ## 4. The $2+2\rightarrow6$ illustration
 
@@ -307,3 +345,5 @@ A fast or productive partnership may remain a collaboration rather than a compos
 > Do not win by weakening the separated conditions or hiding the record. Give every component, alternative pairing, and full-history replay condition its strongest fair expression, then ask what reciprocal coupling still adds.
 
 > Superadditivity is gain beyond the strongest fair null. Relational specificity is gain beyond strong alternative couplings. Path dependence is gain beyond complete explicit-history replay. Whatever survives all applicable tests is the actual evidence.
+
+> A fair null must preserve the non-target structure needed to keep the comparison at the claimed address. If the perturbation changes the object, report that new address rather than treating it as the same null.
