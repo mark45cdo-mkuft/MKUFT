@@ -52,6 +52,39 @@ The architecture is not a static taxonomy. It follows lawful change through stat
 
 ARTA is an organising scientific architecture, not one universal domain mechanism and not merely one software engine. Its value is tested by whether the integrated arrangement improves discrimination, prediction, state sufficiency, error localisation, recovery, transfer or other declared outcomes beyond strong native/domain baselines.
 
+## Operational capabilities observed in sustained use
+
+ARTA's practical interest is not exhausted by the fact that it has addresses, typed relations or a recursive traversal form. In sustained use of the current architecture, the integrated arrangement is being used to preserve and recover the **governing object** while reasoning itself changes representation, scale, state, route and level of abstraction.
+
+The operational capabilities presently observed include:
+
+- preserving governing-object identity through recursive reasoning and representation change;
+- returning supported changes to the same governing parent rather than leaving specialist analysis as detached commentary;
+- distinguishing a capability being available from that capability actually being recruited and performed on the current object;
+- detecting object, parent and representation substitution, including cases where description of the architecture or analysis of a correction displaces the task that was meant to be carried;
+- separating several continuity failures that can otherwise appear simply as generic drift or context loss;
+- carrying evidence, provenance, permission and execution state through consequential reasoning transitions;
+- interrogating one governing object from multiple materially relevant addresses while preserving explicit return and continuity constraints;
+- preserving an earned local result when a wider frame changes the parent, while allowing a genuinely parent-changing wider result to return and alter subsequent reasoning;
+- recursively re-running a changed parent so that a supported correction can change what relations are recruited next;
+- distinguishing an earned null from an unperformed inspection and closing on changed-reachable-surface fixed point rather than an arbitrary pass count;
+- recovering from interruption or uncertain execution state without assuming either that prior work remains valid or that the whole object must be rebuilt from zero;
+- distinguishing missing architecture from failure to recruit architecture that was already available;
+- promoting demonstrated reusable corrections while keeping one-off observations local; and
+- testing learning prospectively by asking whether a correction recruits on a later natural case without requiring the operator to reconstruct the lesson manually.
+
+These are not intended as fourteen independent feature claims. They converge on one architectural problem:
+
+> **How can a reasoning system preserve the identity, state, evidence and return path of the object it is reasoning about while that object is repeatedly transformed by reasoning?**
+
+The current multidimensional ATLD/ARTA treatment matters at this point for a specific reason. Additional addresses are useful only if moving among them does not silently replace the object under examination. The dimensional structure expands the materially different positions from which the object can be interrogated; the continuity and return structure attempts to preserve what has already been earned while allowing a genuinely material change of address to alter the governing parent.
+
+This capability list is an operational report from the present MKUFT/ARTA development environment, not a claim that every item is absent from every other AI or agent architecture. Public neighbouring systems contain many relevant capabilities individually or in combinations, including memory, planning, orchestration, evaluation, state management, multi-agent coordination and drift mitigation. In the bounded comparison performed during development, the less readily identified object was the same **integrated emphasis** on governing-object custody, available-versus-performed capability, recursive same-parent return, typed continuity failure and prospective proof that a correction has become automatically recruitable. That observation motivates direct comparison and testing; it does not establish universal uniqueness or whole-system superiority.
+
+The distinction is experimentally useful. A comparator can be challenged with long-running objects that undergo interruption, representation change, specialist analysis and correction. Relevant measurements include object-retention error, silent object/parent substitution, missed recruitment of available capability, loss of evidence/provenance/state, failure of a correction to modify subsequent processing, unnecessary full restart, and recurrence of a previously corrected failure. If simpler or neighbouring architectures preserve these properties equally well or better under fair matched conditions, the stronger ARTA-level engineering claim contracts accordingly.
+
+The public scientific object is therefore the **capability and test burden**, not a disclosure requirement for every implementation detail. Exact internal routing, recruitment topology, control sequencing or recovery implementation is not needed to state or test the outward claim.
+
 ## Relationship to Functional Configuration
 
 **Functional Configuration** is the general MKUFT object class for an exact arrangement whose configuration itself contributes reproducible function after component/native ownership and obvious simpler compositions are controlled.
