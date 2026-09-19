@@ -29,21 +29,21 @@ This rule is symmetric. Poor preservation or poor detectability can weaken a neg
 
 ## 2. Addressed search state
 
-For hypothesis \(H\), target trace \(T\), and declared search or measurement operation, define an addressed search state
+For hypothesis $H$, target trace $T$, and declared search or measurement operation, define an addressed search state
 
-\[
+```math
 \mathcal G
 =
 (\mathcal P,\mathcal A,\mathcal C,\mathcal D,\mathcal N),
-\]
+```
 
 where, in domain-native form:
 
-- \(\mathcal P\) = preservation / persistence conditions for the predicted trace;
-- \(\mathcal A\) = accessibility of the relevant search surface or sample;
-- \(\mathcal C\) = actual coverage / sampling geometry;
-- \(\mathcal D\) = detector, assay, observer, query, archive, or readout sensitivity and resolution;
-- \(\mathcal N\) = nuisance, contamination, censoring, missingness, false-negative, and classification conditions that materially affect registration.
+- $\mathcal P$ = preservation / persistence conditions for the predicted trace;
+- $\mathcal A$ = accessibility of the relevant search surface or sample;
+- $\mathcal C$ = actual coverage / sampling geometry;
+- $\mathcal D$ = detector, assay, observer, query, archive, or readout sensitivity and resolution;
+- $\mathcal N$ = nuisance, contamination, censoring, missingness, false-negative, and classification conditions that materially affect registration.
 
 These symbols are role labels only. A real application must replace them with the field's native quantities, procedures, uncertainties, and controls.
 
@@ -53,36 +53,36 @@ The search state is part of the comparison address only when changing it can cha
 
 Let
 
-\[
+```math
 q_H
 =
 P(\text{detect }T\mid H,\mathcal G)
-\]
+```
 
-be the probability that the declared procedure would register the target trace if \(H\) and the addressed search state held.
+be the probability that the declared procedure would register the target trace if $H$ and the addressed search state held.
 
 For a single binary detection opportunity,
 
-\[
+```math
 P(\varnothing\mid H,\mathcal G)=1-q_H,
-\]
+```
 
-where \(\varnothing\) denotes non-detection.
+where $\varnothing$ denotes non-detection.
 
-For comparison between hypotheses \(H_1\) and \(H_0\), the evidential role of the null depends on the addressed likelihood ratio
+For comparison between hypotheses $H_1$ and $H_0$, the evidential role of the null depends on the addressed likelihood ratio
 
-\[
+```math
 \Lambda_{\varnothing}
 =
 \frac{P(\varnothing\mid H_1,\mathcal G)}
      {P(\varnothing\mid H_0,\mathcal G)}.
-\]
+```
 
 A null is therefore informative only relative to a declared comparison and a declared search state.
 
 If several detection opportunities are combined, do **not** multiply independent miss probabilities unless the domain justifies the independence or dependence model. Correlated coverage, shared blind spots, common calibration errors, repeated use of one archive, or common preprocessing can materially change the joint non-detection probability.
 
-Where \(q_H\) is not known, preserve an interval, distribution, sensitivity analysis, or explicit unresolved state rather than inventing a point estimate.
+Where $q_H$ is not known, preserve an interval, distribution, sensitivity analysis, or explicit unresolved state rather than inventing a point estimate.
 
 ## 4. Preservation is part of the evidential geometry
 
@@ -99,17 +99,17 @@ The relevant question is not whether preservation is imaginable, but whether the
 
 A weak preservation expectation gives a weak absence argument:
 
-\[
+```math
 P(T\text{ preserved and accessible}\mid H,\mathcal G)\ll 1
-\]
+```
 
 does not support
 
-\[
+```math
 \neg H.
-\]
+```
 
-It also does not support \(H\). It limits how much evidential weight can be extracted from the missing trace.
+It also does not support $H$. It limits how much evidential weight can be extracted from the missing trace.
 
 ## 5. Search and sampling coverage
 
