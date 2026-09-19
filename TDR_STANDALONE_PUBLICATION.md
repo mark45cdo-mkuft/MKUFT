@@ -26,18 +26,29 @@ IS DERIVED FROM
 
 The TDR concept DOI `10.5281/zenodo.22257999` identifies the all-versions publication family. The version DOI `10.5281/zenodo.22258000` identifies the frozen v1.0 publication object. The stable MKUFT concept DOI remains the parent research-programme lineage; TDR publication does not replace or version-bump the principal MKUFT publication.
 
-## Public and custody routes
+## Reader and custody routes
 
-- [Live Zenodo v1.0 DOI](https://doi.org/10.5281/zenodo.22258000)
-- [TDR concept DOI / all versions](https://doi.org/10.5281/zenodo.22257999)
+### Read
+
+- [Published Zenodo v1.0 DOI](https://doi.org/10.5281/zenodo.22258000)
 - [Repository paper route](papers/2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md)
+- [TDR concept DOI / all versions](https://doi.org/10.5281/zenodo.22257999)
+
+### Verify publication identity
+
 - [Frozen carrier identity/checksum record](publications/TDR_v1.0/README.md)
-- [Prepublication calibration and visual-QA record](publications/TDR_v1.0/PREPUBLICATION_CALIBRATION_REVISION.md)
+
+### Continue into the live method
+
 - [Parent methodological synthesis — Module 29B](docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md)
 - [Parent generator accountability — Module 29A](docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md)
 - [Procedural decomposition owner — Module 22A](docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
 
-Zenodo is the frozen publication carrier. The live repository preserves reader, lineage, audit, and checksum routes; later repository changes must not silently redefine the deposited v1.0 object.
+### Optional historical provenance
+
+- [Prepublication calibration and visual-QA record](publications/TDR_v1.0/PREPUBLICATION_CALIBRATION_REVISION.md)
+
+Zenodo is the frozen publication carrier. The historical QA record describes prepublication preparation and does not revise the deposited v1.0 object. The live repository may refine the method or its reader routes without silently redefining the DOI-bearing carrier.
 
 ## Scientific boundary
 

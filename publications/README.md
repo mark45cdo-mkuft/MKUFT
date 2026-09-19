@@ -49,13 +49,16 @@ This is a prospectively frozen experimental protocol. It does not report an exec
 **Version DOI:** `10.5281/zenodo.22258000`  
 **Concept DOI:** `10.5281/zenodo.22257999`
 
+**Primary routes**
 - [Human-readable paper route](../papers/2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md)
 - [Standalone publication record](../TDR_STANDALONE_PUBLICATION.md)
 - [Frozen identity/checksum record](TDR_v1.0/README.md)
-- [Prepublication calibration record](TDR_v1.0/PREPUBLICATION_CALIBRATION_REVISION.md)
 - [Live methodological owner — Module 29B](../docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md)
 
-The paper freezes TDR as a citable methods object. Publication does not establish positive prospective generator superiority.
+**Optional historical provenance**
+- [Prepublication calibration and visual-QA record](TDR_v1.0/PREPUBLICATION_CALIBRATION_REVISION.md)
+
+The paper freezes TDR as a citable methods object. Publication does not establish positive prospective generator superiority. The optional QA record documents prepublication preparation and does not alter the frozen DOI object.
 
 ### Cross-Domain Compositional Schema v0.4 — current
 

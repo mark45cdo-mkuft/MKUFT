@@ -1,4 +1,4 @@
-# Start Here — MKUFT Public Route
+# 00 — Start Here: MKUFT Public Entry
 
 **MKUFT:** McLaughlin–Kairos Unified Field Theory  
 **Author:** Mark Charles McLaughlin  
@@ -25,6 +25,10 @@ The measurement/readout is part of that test because it has to be able to resolv
 
 ## Choose your route
 
+**Public entry — you are here.** This page is the level-zero route selector. It gives the project boundary first and then hands the reader to the appropriate level of detail.
+
+**Scientific entry:** [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). Use this when you want to follow the scientific dependency chain without being dropped directly into specialist notation or having to reconstruct why each technical object follows from the previous one.
+
 **New reader / non-academic reader:** [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md). It explains the questions and why they matter in ordinary English. You are not expected to verify specialist equations outside your field in order to follow the argument.
 
 **Reader asking what the integrated architecture itself is called:** [MKUFT Addressed Relational Traversal Architecture (ARTA) — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md). ARTA is the proper name of the integrated architecture; **Functional Configuration** remains the general class used to test whether an exact assembly itself carries reproducible function.
@@ -34,8 +38,6 @@ The measurement/readout is part of that test because it has to be able to resolv
 **Reader checking whether an MKUFT term is genuinely distinct or merely familiar science under another handle:** use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). This is an optional cross-check, not another required reading stage. It gives the plain object, closest established neighbours, what those neighbours already own, the residual MKUFT claim, and the reduction/kill condition. It deliberately does not pretend that every term has one exact scientific equivalent.
 
 **Reader checking what counts as evidence versus proof or claim promotion:** use [Evidence Semantics and Claim-Promotion Guard](docs/28D_EVIDENCE_SEMANTICS_AND_CLAIM_PROMOTION_GUARD.md). It keeps evidence existence, evidential strength, discrimination, mechanism identification, replication and proof separately typed, so an unmet higher gate neither erases lower-stage evidence nor promotes it beyond what was earned.
-
-**Scientific reader following the technical chain:** [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). This is the intermediate bridge between the readable entry and the hard modules. It carries forward what the previous step established, explains what the next equations are trying to say, states what can be skipped by a non-specialist, and exposes an early kill point before linking onward.
 
 **Physics, biology/neuroscience, AI/software, or other professional reader asking what the shared words mean in a receiving field:** use the [Professional Domain Instantiation Guide](PROFESSIONAL_DOMAIN_INSTANTIATION_GUIDE.md) before treating terms such as `state`, `dependency`, `scale`, `reopen`, `restore`, or `target` as scientific objects. The shared words are role names only until they are replaced by domain-native variables, maps, interventions, measurements, baselines and nulls. The guide also states the cross-domain carriage burden: local cases must close on native terms before a shared structural relation is claimed, and mechanism/evidence do not transfer merely because the architecture rhymes.
 

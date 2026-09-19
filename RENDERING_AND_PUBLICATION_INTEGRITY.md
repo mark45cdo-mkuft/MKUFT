@@ -73,9 +73,9 @@ For a larger body update, add a small random sample outside the immediately edit
 
 ## Interruption and write-boundary gate
 
-An interruption, tool-window stop, or changed conversation state creates a new audit boundary.
+A resumed publication/editing sequence after an interruption or changed execution context creates a new audit boundary.
 
-Before resuming a write sequence:
+Before resuming the sequence:
 
 1. read the current branch HEAD;
 2. inspect the most recent commits;
@@ -187,6 +187,23 @@ Do not collapse these object types:
 7. **Drive reading edition or mirror** — convenience carrier; it does not silently become the paper or canonical source.
 
 A module can support a paper without becoming a paper. A paper can originate from modules without erasing their history. A repository release can preserve an exact source/artifact boundary without becoming a scientific publication. A Drive mirror can be useful without owning the scientific object.
+
+### Public QA and provenance receipts
+
+A public QA/provenance receipt may be retained when it helps a reader verify publication identity, chronology, carrier integrity, or a scientifically material prepublication change. It is an **optional provenance object**, not a scientific module and not a substitute for the paper.
+
+The public receipt must be a curated publication-grade summary. It should state:
+
+- what object was being prepared or verified;
+- whether the work occurred before or after DOI registration;
+- what materially changed;
+- whether the change was scientific, editorial, rendering-only, or custody-only;
+- which frozen or live object controls afterward;
+- where the reader should go to read the science or verify exact identity.
+
+Do not publish internal maintenance dialogue, private reasoning architecture, raw conversational transcripts, informal author speech, private trigger history, or author-facing workbench instructions merely because they led to a useful correction. Translate the useful relation into sober reader-facing language. Preserve a private trigger only when it is independently necessary for scientific provenance, authorship, accountability, rights, consent, safety, or correct interpretation of the public object.
+
+A receipt should therefore answer **what changed and what object controls**, not reconstruct the private conversation that produced the change.
 
 ## Research-object identity gate
 

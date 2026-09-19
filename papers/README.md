@@ -71,15 +71,22 @@ This paper freezes the first minimum-decisive HCP-magnesium instantiation of the
 **Parent lineage:** [MKUFT concept DOI 10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565) — relation `is derived from`  
 **Licence:** CC BY 4.0
 
-- [Paper route](2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md)
+**Read**
+- [Zenodo v1.0](https://doi.org/10.5281/zenodo.22258000)
+- [Repository paper route](2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md)
+
+**Verify**
 - [Standalone publication record](../TDR_STANDALONE_PUBLICATION.md)
 - [Frozen identity/checksum record](../publications/TDR_v1.0/README.md)
-- [Prepublication calibration and visual-QA provenance](../publications/TDR_v1.0/PREPUBLICATION_CALIBRATION_REVISION.md)
+
+**Continue the live method**
 - [Live methodological owner — Module 29B](../docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md)
 - [Parent generator accountability — Module 29A](../docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md)
-- [Zenodo v1.0](https://doi.org/10.5281/zenodo.22258000)
 
-The paper freezes TDR as a citable methods object. It includes the ATLD 2 positive diagnostic/no-coordinate-inflation calibration and the Bell productive physical-null calibration, while keeping the prospective performance claim open: publication does **not** establish that `G_gen > 0`.
+**Optional historical provenance**
+- [Prepublication calibration and visual-QA record](../publications/TDR_v1.0/PREPUBLICATION_CALIBRATION_REVISION.md)
+
+The paper freezes TDR as a citable methods object. It includes the ATLD 2 positive diagnostic/no-coordinate-inflation calibration and the Bell productive physical-null calibration, while keeping the prospective performance claim open: publication does **not** establish that `G_gen > 0`. The historical QA record documents preparation completed before DOI registration and is not part of the ordinary scientific reading path.
 
 ### Cross-Domain Compositional Schema
 

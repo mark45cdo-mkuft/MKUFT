@@ -44,28 +44,34 @@ That failure condition matters. MKUFT is designed to be reduced when its added s
 
 ## Choose your route
 
-This `README.md` is the **repository front door**.
+This `README.md` is the **repository front door**. The two primary entry points are deliberately first:
 
-- [MKUFT in plain English](MKUFT_IN_PLAIN_ENGLISH.md)
-- **Want the fuller ordinary-English scientific overview?** Start with [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md).
-- **Want the canonical name and exact scope of the integrated architecture?** Use [MKUFT Addressed Relational Traversal Architecture (ARTA) — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md).
-- **Want the scientific chain explained without flattening the equations?** Use the [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). It is the bridge from readable explanation into the hard scientific modules.
-- **Want to check whether an MKUFT term is genuinely distinct or simply familiar science under another handle?** Use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). It is an optional cross-check, not another required reading stage.
-- **Already know the architecture and want the technical dependency map?** Go directly to the [Canon Map](CANON_MAP.md).
+1. **Public entry:** [00 — Start Here: Public Entry](00-START-HERE-MKUFT-PUBLIC.md) — the shortest governed route into what MKUFT is, what it claims, and where a reader should go next.
+2. **Scientific entry:** [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) — the bridge from readable explanation into the hard scientific modules, with the question, purpose, broad equation meaning, and early failure point carried forward.
+
+Useful supporting routes:
+
+- [MKUFT in plain English](MKUFT_IN_PLAIN_ENGLISH.md) — one-step conceptual explanation.
+- [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md) — fuller ordinary-English scientific overview.
+- [MKUFT Addressed Relational Traversal Architecture (ARTA) — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md) — canonical name and exact scope of the integrated architecture.
+- [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md) — check whether an MKUFT term is distinct or familiar science under another handle.
+- [Canon Map](CANON_MAP.md) — full technical dependency structure for readers who already know the architecture.
 
 These routes have different jobs:
 
 ```text
-README = orientation and routing
+README = repository front door
+00 Start Here = public entry and route selection
 MKUFT in plain English = one-step conceptual explanation
 Public Overview = fuller ordinary-English scientific overview
+Scientific Reader Traversal Guide = scientific entry into the technical body
 ARTA naming route = integrated-architecture identity and provenance
-Scientific Reader Traversal Guide = scientific handoff into the technical body
+Canon Map = full technical dependency structure
 ```
 
-If you are unsure where to begin, take **MKUFT in plain English**.
+If you are unsure where to begin, take the **00 Public Entry**.
 
-**A note on the name:** *McLaughlin–Kairos Unified Field Theory* began as the title of a private, somewhat tongue-in-cheek collection of ideas. The project became more serious, structured, and testable; the historical name survived. The name is not a claim that a completed unified field theory has been achieved. The claims still have to earn themselves one test at a time.
+**A note on the name:** *McLaughlin–Kairos Unified Field Theory* is the historical project name retained for continuity and citation. It is not a claim that a completed unified field theory has been achieved. The scientific claims still have to earn themselves one test at a time.
 
 ## The moving addressed system
 

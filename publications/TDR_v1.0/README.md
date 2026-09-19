@@ -1,5 +1,7 @@
 # Typed Decomposition-Reconstruction v1.0 — Frozen Publication Carrier Identity
 
+> **Reader note:** this page is a publication-custody record, not the scientific paper and not a live research module. To read TDR, use the [repository paper route](../../papers/2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md) or the published DOI below. The optional prepublication QA record documents work completed before DOI registration; it does not describe later changes to the frozen v1.0 carrier.
+
 **Title:** *Typed Decomposition-Reconstruction: A Prospective Generator Test for Hidden Scientific Conflations*  
 **Author:** Mark Charles McLaughlin  
 **ORCID:** `0009-0005-7736-1511`  
@@ -37,7 +39,7 @@ The earlier draft was replaced **before DOI registration** after two quality-con
 1. a calibration audit repaired asymmetric outcome reporting by adding the ATLD 2 positive diagnostic/no-coordinate-inflation case, the Bell productive physical-null/non-null-method case, and the rule that scientific caution must type earned positives rather than flatten them;
 2. a final Zenodo-preview visual audit reflowed long mathematical chains and context-poor page turns without changing the scientific claims or comparator burdens.
 
-The complete prepublication audit trail remains in [PREPUBLICATION_CALIBRATION_REVISION.md](PREPUBLICATION_CALIBRATION_REVISION.md).
+For readers who need the historical preparation record, the curated prepublication audit trail remains in [PREPUBLICATION_CALIBRATION_REVISION.md](PREPUBLICATION_CALIBRATION_REVISION.md). It is optional provenance rather than part of the ordinary scientific reading path.
 
 ## Scientific boundary
 

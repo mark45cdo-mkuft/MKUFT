@@ -1,8 +1,12 @@
-# TDR v1.0 — Prepublication Calibration and Visual-QA Revision
+# TDR v1.0 — Historical Prepublication Calibration and Visual-QA Record
 
 **Date:** 2 September 2026  
-**Reserved DOI:** `10.5281/zenodo.22258000`  
-**State:** prepublication; DOI not yet registered when these revisions were made
+**Version DOI:** `10.5281/zenodo.22258000`  
+**Classification:** historical prepublication provenance  
+**Publication state at the time of the work described below:** DOI reserved; publication not yet registered  
+**Current publication state:** v1.0 published and frozen
+
+> **Purpose and boundary:** this is a curated public provenance record of calibration and presentation work completed **before DOI registration**. It is not a scientific module, not the DOI-bearing paper, and not a postpublication revision log. The controlling v1.0 publication is the frozen 20-page Zenodo carrier. For ordinary reading, use the [TDR paper route](../../papers/2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md). For exact identity, use the [frozen carrier record](README.md).
 
 ## Calibration trigger
 
@@ -49,11 +53,11 @@ The prospective benchmark explicitly requires the score to reward both:
 - correct positive retention; and
 - correct reduction, rejection, or abstention.
 
-A benchmark that rewards only novelty would favour over-splitting. A benchmark that rewards only conservative rejection would recreate the cooling fault.
+A benchmark that rewards only novelty would favour over-splitting. A benchmark that rewards only conservative rejection would bias reporting toward under-recognising correctly earned positive outcomes.
 
 ## Final visual-QA trigger
 
-A Zenodo preview of the revised 19-page carrier exposed one further publication defect before DOI registration: the ATLD/TDR verdict chain extended beyond the visible page boundary. A full rendered-page inspection then identified several page turns that began on context-poor continuations even though no scientific text was missing.
+The final Zenodo preview of the revised 19-page candidate identified a layout overflow before DOI registration: the ATLD/TDR verdict chain extended beyond the visible page boundary. A full rendered-page inspection also found several page turns that opened on context-poor continuations. No scientific text was missing.
 
 The final prepublication repair was deliberately presentation-only:
 
@@ -65,10 +69,6 @@ The final prepublication repair was deliberately presentation-only:
 
 No scientific claim, comparator burden, outcome classification, or evidence status was relaxed or promoted by this layout revision.
 
-## Significance statement
-
-If independent teams can freeze TDR before outcome access and use it to recover decision-bearing distinctions that strong native or generic methods miss, TDR would constitute a **transferable discovery instrument**. That possibility is not claimed as established; it is the reason the prospective benchmark matters.
-
 ## Final prepared carrier
 
 ```text
@@ -79,4 +79,4 @@ MD5: ee4b4b080120ce3e7907c9756611863c
 SHA-256: e70b4796b7a8e3184b874780f2dea9dc2869520e8d2662896e9c6da33a764c16
 ```
 
-The earlier 17-page and 19-page PDF drafts are superseded and must not be deposited under the reserved DOI.
+The earlier 17-page and 19-page candidates were superseded before publication. They are not the DOI-bearing v1.0 object. The published 20-page carrier identified above is the frozen version.

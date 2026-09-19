@@ -14,18 +14,23 @@
 
 > **Object boundary.** This paper is not a new version of the principal MKUFT paper. Its version DOI identifies the frozen TDR v1.0 publication object. Its concept DOI identifies the TDR publication family. The Zenodo relation is `10.5281/zenodo.22258000 IS DERIVED FROM 10.5281/zenodo.17780565`.
 
-## Read / verify the publication
+## Read the publication
 
-- [Live Zenodo v1.0](https://doi.org/10.5281/zenodo.22258000)
-- [TDR concept DOI / all versions](https://doi.org/10.5281/zenodo.22257999)
-- [Standalone publication / DOI custody record](../TDR_STANDALONE_PUBLICATION.md)
-- [Frozen PDF checksum witness](../publications/TDR_v1.0/README.md)
-- [Prepublication calibration and visual-QA record](../publications/TDR_v1.0/PREPUBLICATION_CALIBRATION_REVISION.md)
-- [Parent methodological synthesis — Module 29B](../docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md)
-- [Parent generator accountability — Module 29A](../docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md)
-- [Procedural decomposition owner — Module 22A](../docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
+- **Published v1.0:** [Zenodo DOI `10.5281/zenodo.22258000`](https://doi.org/10.5281/zenodo.22258000)
+- **Publication family / all versions:** [TDR concept DOI `10.5281/zenodo.22257999`](https://doi.org/10.5281/zenodo.22257999)
 
-The frozen publication carrier is the visually audited **20-page** PDF `Typed_Decomposition_Reconstruction_v1.0_2026-09-02.pdf` deposited on Zenodo. The earlier `.source.txt` in this directory is a pre-calibration authoring snapshot retained for provenance; it is not the controlling publication carrier.
+The frozen publication carrier is the visually audited **20-page** PDF `Typed_Decomposition_Reconstruction_v1.0_2026-09-02.pdf` deposited on Zenodo. That v1.0 object is immutable. A later scientific revision requires a new version object; it does not rewrite this carrier.
+
+## Verify identity or continue the live method
+
+- **Verify publication identity:** [Frozen v1.0 carrier/checksum record](../publications/TDR_v1.0/README.md)
+- **Publication metadata and custody:** [Standalone publication record](../TDR_STANDALONE_PUBLICATION.md)
+- **Continue into the live method:** [Module 29B — Typed Decomposition, Reconstruction, and Prospective Generator Audit](../docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md)
+- **Parent generator accountability:** [Module 29A](../docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md)
+- **Procedural decomposition owner:** [Module 22A](../docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
+- **Optional historical provenance:** [Prepublication calibration and visual-QA record](../publications/TDR_v1.0/PREPUBLICATION_CALIBRATION_REVISION.md)
+
+The historical QA record documents work completed **before DOI registration**. It is not a scientific module, not a live revision of v1.0, and not the controlling publication carrier.
 
 ## Abstract
 

@@ -11,13 +11,16 @@ This index is navigation. Scientific claims, equations, evidence status, rights 
 
 ## Start here
 
-- [README](README.md) — repository front door and reader routes.
-- [MKUFT in Plain English](MKUFT_IN_PLAIN_ENGLISH.md) — shortest ordinary-language route.
-- [Start Here — Public Route](00-START-HERE-MKUFT-PUBLIC.md) — compact public routing page.
+1. [00 — Start Here: Public Entry](00-START-HERE-MKUFT-PUBLIC.md) — level-zero public entry and route selector.
+2. [Scientific Entry — Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) — readable handoff into the hard technical chain.
+
+Supporting routes:
+
+- [README](README.md) — repository front door.
+- [MKUFT in Plain English](MKUFT_IN_PLAIN_ENGLISH.md) — shortest ordinary-language conceptual route.
 - [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md) — fuller ordinary-English scientific overview.
 - [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md) — canonical live identity and provenance boundary for the integrated **MKUFT Addressed Relational Traversal Architecture**; not a standalone paper and not a retroactive rename of frozen publications.
 - [Live Nomenclature Refinement — 14 September 2026](MKUFT_NOMENCLATURE_REFINEMENT_2026-09-14.md) — current naming route for ARTA, Functional Configuration, Traversal Coherence Anchor, Operator–Target Binding and Scale-Relative Role Transition.
-- [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) — handoff from readable explanation into the hard technical chain.
 - [Professional Domain Instantiation Guide](PROFESSIONAL_DOMAIN_INSTANTIATION_GUIDE.md) — converts shared role words into domain-native objects, variables, maps, measurements, baselines and nulls.
 - [Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md) — nearest scientific neighbours, native ownership, residual claim and reduction/kill conditions.
 - [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) — current public synthesis and canonical compression.
