@@ -168,7 +168,7 @@ The v2.0 paper is a methods/evaluation object with an exploratory pilot; no conf
 - [Live hypothesis module](../docs/09_VOYNICH_PROCEDURAL_ENGINE.md)
 - [Method appendix](../docs/10_ESRT_ESF_METHOD_APPENDIX.md)
 
-The historical predecessor remains separately citable and is not overwritten by v2.0.
+The historical predecessor remains separately citable and is not overwritten by v2.0. The deposited/public Voynich publication object is DOCX for that historical predecessor; it is intentionally excluded from the DOI-PDF mirror set rather than being converted into a synthetic PDF and mislabelled as the deposited carrier.
 
 ### ATLD v1.0 — historical predecessor
 
