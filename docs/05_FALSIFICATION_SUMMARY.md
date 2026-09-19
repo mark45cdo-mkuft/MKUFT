@@ -215,6 +215,24 @@ The active-traversal branch is weakened if structured traversal produces no repr
 
 Functional gain does not establish life, consciousness, personhood, independent agency, or continuous identity.
 
+## Governing-object continuity and recursive correction
+
+The current ARTA/ATLD engineering interpretation is weakened, narrowed or reduced to ordinary state/context management if, under fair matched long-horizon tasks:
+
+- the claimed governing object cannot be operationally identified well enough for independent scoring;
+- object/parent substitution cannot be distinguished reliably from ordinary answer error or context loss;
+- explicit object-custody and same-parent-return controls do not reduce substitution or correction-propagation failures;
+- capability-available versus capability-recruited/performed cannot be discriminated in a reproducible way;
+- preserving evidence, provenance, permission or execution state across material transitions adds no measurable reliability or recovery value;
+- multidimensional/cross-representation interrogation increases complexity without improving object retention, discrimination, recovery or error localisation;
+- recirculating a supported correction through the changed parent does not improve subsequent recruitment or recurrence behaviour;
+- interruption/re-entry recovery performs no better than materially simpler replay or restart strategies under matched information and compute;
+- a purported reusable repair does not recruit on fresh natural cases without manual restatement, or does no better than an ordinary explicit reminder;
+- simpler memory, workflow, state-machine, retrieval, context-management or agent-orchestration methods reproduce the same capability cluster with equal or better performance and lower burden; or
+- positive results depend on private implementation knowledge that cannot be translated into externally scoreable outputs, deformations or predictions.
+
+No single local failure automatically erases independently earned ARTA results at another task/address. Conversely, one successful continuity demonstration does not establish whole-architecture superiority. The stronger engineering claim belongs to the integrated capability only where matched ablation/comparator tests show that the arrangement carries reproducible load.
+
 ## Superadditivity, fair null, and relational specificity
 
 For scalar comparison, the strongest replay and fair-null controls are
