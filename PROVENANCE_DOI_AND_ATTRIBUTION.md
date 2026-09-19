@@ -82,6 +82,18 @@ The historical record contains two deposited PDFs. The repository keeps those ca
 | **Recursive Constraint Closure and Reachable-State Geometry v0.1** | `10.5281/zenodo.21971425` | — | [paper](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md) · [Module 32](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) | [record](RECURSIVE_CONSTRAINT_CLOSURE_STANDALONE_PUBLICATION.md) | Frozen standalone publication; use exact deposited rights record. |
 | **Voynich v2.0 — Candidate Procedural-Executable Information System** | `10.5281/zenodo.22071229` | `10.5281/zenodo.18178637` | [paper](papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md) · [07](docs/07_ESRT_ESF_AND_VOYNICH_SUPPORT.md) · [09](docs/09_VOYNICH_PROCEDURAL_ENGINE.md) · [10](docs/10_ESRT_ESF_METHOD_APPENDIX.md) | [record](VOYNICH_STANDALONE_PUBLICATION.md) | Historical predecessor DOI `10.5281/zenodo.18178638` remains frozen; exact rights come from the deposited object/source. |
 
+### Frozen repository PDF mirrors
+
+For publication objects with an established byte-preserving repository PDF mirror, the preservation routes are:
+
+- [Future-Splitting State Recruitment v1.0](publications/FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf)
+- [Addressed Admissible Futures v0.1](publications/ADDRESSED_ADMISSIBLE_FUTURES_v0.1_DOI_10.5281_zenodo.22031333.pdf)
+- [Layer Before Law v1.0](publications/LAYER_BEFORE_LAW_v1.0_DOI_10.5281_zenodo.21971270.pdf)
+- [Recursive Constraint Closure and Reachable-State Geometry v0.1](publications/RECURSIVE_CONSTRAINT_CLOSURE_v0.1_DOI_10.5281_zenodo.21971425.pdf)
+- [ATLD Evaluation Protocol v1.0](publications/ATLD_EVALUATION_PROTOCOL_v1.0_DOI_10.5281_zenodo.21341521.pdf)
+
+These are preservation mirrors of frozen publication objects, not live modules. Where a byte-identical repository mirror has not been independently established, the publication record or identity/checksum record should say so rather than manufacturing one.
+
 ## Publication-family boundaries
 
 ### Cross-Domain
