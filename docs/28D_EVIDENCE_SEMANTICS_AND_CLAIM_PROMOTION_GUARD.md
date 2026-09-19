@@ -93,6 +93,27 @@ strong promotion burden must not erase evidence already earned
 
 When a stronger comparator explains the previous residual, the evidential state should update or collapse because the comparison changed. It should not collapse merely because proof, replication or ontology was never established in the first place.
 
+## 5A. Detectability-conditioned negative evidence
+
+A non-detection is evidentially interpretable only relative to the search state that could have produced a detection.
+
+Where absence is load-bearing, route the comparison through [28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md):
+
+```text
+predicted trace
+→ preservation / persistence
+→ accessibility
+→ actual coverage / sampling
+→ detector / readout sensitivity
+→ nuisance / false-negative structure
+→ non-detection likelihood
+→ update.
+```
+
+Poor preservation or weak detectability can reduce the weight of a null; they do not become positive evidence for the missing object. Conversely, when the predicted trace should survive, the relevant surface has been searched well, and the declared readout would reliably detect it, a clean null can be strong negative evidence.
+
+The search state is part of the addressed comparison, not a post-hoc escape hatch.
+
 ## 6. Cross-scale and cross-claim carriage
 
 Evidence must remain attached to the proposition and scale it actually bears on.
@@ -142,6 +163,7 @@ The rule is therefore not `evidence once counted can never disappear`. It is:
 - [24B — Strongest Fair Null and Relational Specificity](24B_STRONGEST_FAIR_NULL_AND_RELATIONAL_SPECIFICITY.md)
 - [05 — Falsification Summary](05_FALSIFICATION_SUMMARY.md)
 - [34 — Research Object Identity, Release Integrity, and Reproducibility](34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
+- [28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md)
 
 ## Compressed rule
 

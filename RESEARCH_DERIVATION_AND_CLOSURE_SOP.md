@@ -124,6 +124,35 @@ Where a result claims that a state, address, model, or mechanism is missing some
 
 A repair that merely improves fit without surviving remove/restore is not yet load-bearing.
 
+## 7A. Negative evidence, search geometry, and mechanism completeness
+
+Where a claim depends materially on **absence, non-detection, or failure to recover a predicted trace**, do not spend the null before the search state is addressed.
+
+At minimum, name in domain-native terms where material:
+
+```text
+predicted trace
+→ expected preservation / persistence
+→ accessible search surface
+→ actual sampling / coverage
+→ detector / readout sensitivity
+→ nuisance / false-negative structure
+→ evidential update.
+```
+
+Use [28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](docs/28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md) for the full public rule.
+
+A poor preservation or detection state can weaken a negative result; it cannot be converted into positive evidence that the missing object existed. A strong high-detectability null must be allowed to contract the claim.
+
+Where a candidate mechanism is proposed, require the mechanism to reproduce the **discriminating object**, not merely demonstrate generic capability in the same material, class, or broad phenomenon. Preserve:
+
+```text
+candidate A fails
+↛ candidate B established.
+```
+
+If process tempo is load-bearing, compare lawful gradual/chronic, pulsed/catastrophic, and mixed candidates under the same object address rather than importing a tempo preference from narrative or precedent.
+
 ## 8. Prospective timing and promotion
 
 If an object claims early warning, mechanism localisation, or transition anticipation, define the conventional comparison marker before confirmation.

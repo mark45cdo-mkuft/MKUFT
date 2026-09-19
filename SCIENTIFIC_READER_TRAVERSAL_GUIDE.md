@@ -502,6 +502,7 @@ Read:
 
 - [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 - [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
+- [Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](docs/28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md)
 - [Native Consequence-Cone Stress Testing](docs/28B_NATIVE_CONSEQUENCE_CONE_STRESS_TESTING_AND_RELATION_INFORMATIVE_DEFORMATION.md)
 - [Minimum Decisive FSAI/FSSR Flagship Protocol](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
 - [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
@@ -526,6 +527,24 @@ Ask:
 - was the failure criterion changed after the result?
 
 A null result is not an embarrassment. The Bell/CHSH tetrahedral calibration is deliberately kept as a paired example. First, the facet-adapted construction gives an exact **3+1** reconstruction of the established native four-correlator object: three independent affine coordinates on the CHSH tetrahedral facet plus one transverse coordinate. That is a positive known-answer methodological calibration, not new Bell mathematics or new physics. The architecture is then pushed further, and the independent physical/geometric residual becomes **NULL** because the natural four-volume reduces to known CHSH excess. Exact native recovery and refusal of unsupported promotion are separate results.
+
+### Negative evidence side-route — when “nothing was found” is load-bearing
+
+When the argument depends materially on non-detection, insert [28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](docs/28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md) before closing the comparison.
+
+Carry:
+
+```text
+predicted trace
+→ preservation / persistence
+→ accessibility
+→ actual coverage
+→ detector / readout sensitivity
+→ false-negative / nuisance structure
+→ null weight.
+```
+
+The side-route has two symmetric kill points: weak detectability prevents the null from being spent strongly, while strong detectability prevents a preferred hypothesis from escaping a clean null merely by appealing to possible loss or missed observation.
 
 ### Final kill point
 

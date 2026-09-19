@@ -114,6 +114,7 @@ For full paper-family navigation, use [Papers and Publications](papers/README.md
 
 ## Experiments, evidence and falsification
 
+- [28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](docs/28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md) — conditions null/absence claims on survival, accessibility, coverage, readout sensitivity and false-negative structure before evidential closure.
 - [Experimental Test Programme](docs/04_EXPERIMENTAL_TEST_PROGRAM.md)
 - [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 - [Cross-Domain Compositional Schema Bell/CHSH Calibration](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md)

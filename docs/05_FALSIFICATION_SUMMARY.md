@@ -63,6 +63,25 @@ Traversal-cost claims are weakened if path availability and cost add no predicti
 
 A theory claiming small bounded modulation becomes internally inconsistent if it requires large uncontrolled departures from accepted physics.
 
+## Preservation/search geometry and mechanism completeness
+
+A negative-evidence claim is weakened or fails when:
+
+- the predicted trace's preservation/persistence state is not addressed where it materially changes detectability;
+- the accessible search surface and actual coverage are conflated;
+- detector/readout sensitivity or false-negative structure is assumed rather than measured, bounded, or explicitly unresolved;
+- search boundaries or detectability assumptions are changed only after the null in order to protect a preferred conclusion;
+- poor preservation is converted into positive evidence that the missing object existed;
+- a strong high-detectability null is dismissed merely because missed detection is conceivable;
+- dependent searches or archives are counted as independent confirmation of absence;
+- the receiving domain's ordinary detection/sampling/taphonomic model closes the inference and MKUFT adds no useful discriminator, ordering, or transfer rule.
+
+Read: [28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md).
+
+A mechanism claim is weakened or fails when generic capability is substituted for reproduction of the discriminating object; when scale, boundary, material, rate, transport, energy, morphology, diagnostic trace, or tolerance requirements that define the object are omitted; or when failure of one candidate mechanism is used as positive identification of another without an independent diagnostic signature.
+
+Where process tempo is material, the comparison is weakened if gradual/chronic, pulsed/catastrophic, or mixed mechanisms are privileged by precedent or narrative rather than by the addressed object and domain-native constraints.
+
 ## Typed traversal and equation-hygiene failures
 
 The formal architecture is weakened if:
@@ -306,6 +325,9 @@ Evidence that would materially strengthen the framework includes stable replicat
 - A higher-dimensional representation is not an additional physical dimension unless a physical model earns that claim.
 
 ## Related public documents
+
+- [28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md)
+
 
 - [Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
 - [Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)

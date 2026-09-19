@@ -51,6 +51,24 @@ If the backward traversal lands on an undefined word such as “it”, “contex
 
 ---
 
+## Negative-evidence instantiation
+
+When the application uses absence or non-detection as evidence, the receiving domain must replace the generic search roles with native objects before the null is evaluated.
+
+Instantiate, where material:
+
+- **predicted trace** = the exact observation, residue, signal, record, state, event class, or measurable feature expected under the hypothesis;
+- **preservation / persistence** = the domain process governing whether the trace survives or remains present until measurement;
+- **accessibility** = which relevant regions, samples, archives, states, time windows, or compartments can actually be interrogated;
+- **coverage / sampling** = what portion of the declared search domain was examined and how it was selected;
+- **detection / readout** = the instrument, assay, observer, classifier, query, archive, or measurement process and its sensitivity/resolution;
+- **false-negative / nuisance structure** = the domain-native reasons a present trace could fail to register;
+- **negative-evidence update** = the change in the addressed hypothesis comparison produced by the null.
+
+If these objects cannot be specified well enough to change the inference, the application may report a non-detection but may not treat it as a precisely calibrated absence claim.
+
+Read: [28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](docs/28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md).
+
 ## Physics instantiation
 
 A physics reader should not be asked to reason from generic layer language alone.

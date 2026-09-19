@@ -245,6 +245,22 @@ Read: [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECR
 
 ---
 
+## Preservation / Search Geometry / Detectability-Conditioned Negative Evidence
+
+**Plain object:** a missing observation is informative only to the degree that the predicted trace should have survived, remained accessible, fallen inside the actual search/sampling coverage, and been resolvable by the declared detector or readout.
+
+**Closest established neighbours:** taphonomy and archaeological visibility, sampling and survey theory, occupancy/detection models, missing-data and censoring models, screening sensitivity/specificity, search-effort and selection-function modelling, archival completeness, information retrieval recall, and false-negative analysis.
+
+**Already owned by established science:** imperfect detection, preservation bias, sampling bias, survey incompleteness, selection effects, false negatives, and inference from absence are established problems. MKUFT does not claim those ingredients as inventions.
+
+**MKUFT residual claim:** place preservation, accessibility, coverage, readout sufficiency and nuisance/false-negative structure inside the addressed comparison **before** non-detection is allowed to close the target; preserve those fields when the inference is translated across domains; and require the evidential weight of the null to change prospectively when the search geometry changes.
+
+**Example:** an archaeological absence claim should distinguish expected material survival, post-depositional history, accessible terrain, actual survey/excavation coverage, recovery method and detection sensitivity before treating a missing trace as strong evidence against a historical hypothesis. Weak preservation can weaken that negative result, but it does not support the lost object.
+
+**Reduction / kill:** if the receiving field's native sampling/detection/taphonomic model already closes the inference with equal or better clarity and the addressed ordering adds no useful prediction, search-design change, falsifier, or transfer value, the MKUFT contribution is synthesis/translation only.
+
+Read: [28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](docs/28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md).
+
 ## LUCY — Local Unified Coherence Yield
 
 **Plain object:** a proposed threshold at which an addressed relational configuration becomes consequential at the next declared layer. In a physical I→P branch, the claim is that a defined relational configuration changes physical transition weighting, admissibility, boundary condition or effective state beyond the adequate physical baseline.

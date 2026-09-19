@@ -78,6 +78,50 @@ A mechanism-level physical claim requires:
 
 A layer name, tuple, weighting term, projection, or named update map is not a completed physical mechanism.
 
+## 5A. Mechanism completeness and positive diagnostics
+
+A mechanism does not close a scientific object merely because it can produce **something broadly similar**.
+
+Where a named mechanism is claimed to explain a discriminating object, require it to reproduce the features that actually identify that object at the declared scale and boundary. Depending on domain, these may include:
+
+- geometry or morphology;
+- material or composition;
+- diagnostic surface / microstructural / spectral signatures;
+- access, kinematic, transport, or production constraints;
+- rate, energy, mass, or information-flow requirements where load-bearing;
+- boundary and environmental conditions;
+- repeatability, tolerance, chronology, or scaling where the claim depends on them.
+
+Use:
+
+```text
+generic capability
+≠ reproduction of the discriminating object
+≠ mechanism identification.
+```
+
+Failure of candidate mechanism `M_A` may leave a residual. It does **not** identify candidate `M_B` without positive evidence that discriminates `M_B` from the remaining alternatives.
+
+A laboratory or computational reconstruction closes only the material, scale, boundary, operating regime, and readout it actually reproduces.
+
+## 5B. Mechanism-tempo symmetry
+
+When process tempo is materially disputed, do not give either gradual/chronic or pulsed/catastrophic descriptions an evidential prior merely because one is culturally familiar.
+
+Where the object permits it, compare the strongest physically or domain-lawful:
+
+```text
+gradual / chronic
+vs pulsed / catastrophic
+vs mixed / repeated-pulse
+```
+
+candidates under the same addressed constraints: source/sink, rate, transport, energy, chronology, recurrence, boundary conditions, and diagnostic signatures.
+
+Historical vindication of one pulsed or catastrophic mechanism is evidence for that case, not transferable credit for the next. Likewise, ordinary familiarity with a gradual mechanism does not rescue it when it fails the discriminating object.
+
+Rate/schedule structure remains governed more generally by [33S5 — Rate-Conditioned Addressing](33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md).
+
 ## 6. Equation-status classes
 
 ### E0 — notation or bookkeeping
@@ -331,6 +375,8 @@ MKUFT is presently best described as:
 The route forward is discriminating derivation and experiment rather than stronger rhetoric.
 
 ## Related public documents
+
+- [28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md)
 
 - [MKUFT Core Extended](01_MKUFT_CORE_EXTENDED.md)
 - [Mathematical Appendix](02_MKUFT_MATH_APPENDIX.md)

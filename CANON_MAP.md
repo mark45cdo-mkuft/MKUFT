@@ -145,6 +145,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 
 ### Research, publication, and object integrity
 
+- **28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence:** conditions non-detection on preservation/persistence, accessibility, actual search coverage, detector/readout sensitivity and false-negative structure; poor detectability weakens a null without supporting the missing object, while a strong addressed null may carry substantial negative evidence. Cross-domain use requires native instantiation rather than a shared mechanism claim.
 - **34 — Research Object Identity, Release Integrity, and Reproducibility:** types live source, commits, release tags, declared artifacts, manifests, citation metadata, reader-facing carriers, and external archives; requires exact artifact hashes/byte counts for declared releases; and makes release identity a reproducible object without changing scientific claim status.
 - **Rendering and Publication Integrity:** governs reader-facing carrier correctness, DOI freeze, receiver-side inspection, and byte-level publication custody.
 - **Research Derivation and Closure SOP:** governs derivation, promotion, publication threshold, interruption recovery, and post-write recursive closure.
