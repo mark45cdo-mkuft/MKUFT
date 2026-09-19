@@ -164,7 +164,7 @@ same endpoint
 
 These are not automatically equivalent.
 
-Again, none of this claims that MKUFT invented hysteresis, path dependence or rate effects. The contribution is the insistence that the current Address must be allowed to recruit those distinctions when they change the future, and discard them when they do not.
+Hysteresis, path dependence and rate effects are established ideas. The MKUFT rule here is to recruit those distinctions into the current Address when they change the future, and discard them when they do not.
 
 ## 8. A system can still work while losing its way home
 
@@ -255,7 +255,7 @@ If a normal physical variable explains the split, use the physical variable.
 
 If native biology explains the biological result, biology owns the mechanism.
 
-If established mathematics already contains the apparent novelty, record the null.
+If established mathematics already contains the apparent extra structure, record that reduction rather than multiplying machinery.
 
 If a higher-level object does no work beyond a convenient description, do not pretend it has gained a new law.
 

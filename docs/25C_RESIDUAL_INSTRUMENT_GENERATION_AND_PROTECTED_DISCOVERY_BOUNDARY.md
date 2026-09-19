@@ -450,11 +450,11 @@ A later live module may sharpen the procedure. It must not silently rewrite a fr
 
 ## 16. Relationship to established methodological families
 
-Nothing in this module depends on claiming that residual analysis, ablation, fault localisation, model comparison, causal testing, benchmark refinement, held-out validation, or measurement revision are new scientific activities.
+This module uses established methodological families including residual analysis, ablation, fault localisation, model comparison, causal testing, benchmark refinement, held-out validation, and measurement revision.
 
 The narrower ATLD/MKUFT proposal is the disciplined composition of these burdens around typed measurement ownership, strongest-fair recovery, mirror failure, no-smuggling removal, causal-shadow control, and explicit instrument shrinkage as well as expansion.
 
-The contribution should therefore be reduced to ordinary residual analysis or benchmark refinement wherever those established methods recover the same diagnostic information with equal or lower complexity and no loss of discriminating power.
+This 25C extension should therefore reduce to ordinary residual analysis or benchmark refinement wherever those established methods recover the same diagnostic information with equal or lower complexity and no loss of discriminating power.
 
 ## 17. Failure and reduction conditions
 

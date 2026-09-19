@@ -11,13 +11,13 @@
 
 MKUFT is a speculative research framework. It is not presented as an accepted completed theory of physics. Its strongest present claim is narrower: **before a law is applied to a system, the system has to be addressed correctly.**
 
-The integrated architecture developed through that programme now has a stable live name: **MKUFT Addressed Relational Traversal Architecture (ARTA)**. MKUFT remains the project/framework/publication lineage; ARTA names the integrated architecture inside it. Naming ARTA does not rename earlier frozen publications or establish novelty by itself. See [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md).
+The integrated architecture developed through that programme now has a stable live name: **MKUFT Addressed Relational Traversal Architecture (ARTA)**. MKUFT remains the project/framework/publication lineage; ARTA names the integrated architecture inside it. Naming ARTA does not rename earlier frozen publications or change their scientific claim status by naming alone. See [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md).
 
 That sounds simple. It is also where a large number of modelling errors begin.
 
 ## The idea in one minute
 
-Suppose a scientist asks, “What law governs this thing?”
+Suppose a system is being modelled and the first question is, “What law or model governs this thing?”
 
 MKUFT says there is a prior question:
 
@@ -110,7 +110,7 @@ If foundational physics is already your field, start with [Layer Before Law](doc
 
 The mathematical interest is mainly structural. When can a higher-level description genuinely carry the law for a property, and when does hidden lower-level information still matter? MKUFT separates the existence of a useful higher-order object from the stronger claim that a closed higher-order law has descended to it.
 
-That question connects to familiar mathematics around quotienting, coarse-graining, lumpability, dynamical systems, closure, reachability, and state sufficiency. MKUFT does **not** claim ownership of those established tools. Its claimed contribution is the way they are assembled, typed, stress-tested, and used to decide when an address is sufficient and when the model must reopen.
+That question connects to familiar mathematics around quotienting, coarse-graining, lumpability, dynamical systems, closure, reachability, and state sufficiency. Those tools remain standard within their native fields. MKUFT's role here is the ordered, typed integration used to test when an Address is sufficient and when the model must reopen.
 
 See [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md).
 
@@ -205,7 +205,7 @@ There are scientific failure modes too. MKUFT fails or contracts where:
 - a higher-level state fails to close the property claimed for it;
 - an ordinary physical or multiscale model performs equally well;
 - an observer-linked claim cannot survive controlled testing or reduces to ordinary measurement context;
-- a claimed novelty disappears under strong prior-art subtraction;
+- a claimed original residue disappears under strong prior-art subtraction;
 - a result survives only because the failure criterion was moved after the fact.
 
 The full technical failure surface is [MKUFT Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
@@ -226,7 +226,7 @@ The framework presently contains several different claim levels:
 
 MKUFT as a whole has **not** reached level 7.
 
-The current strongest novelty language is deliberately bounded: parts of the work are presented as candidate original formal syntheses or operational meta-principles after subtraction of known neighbouring work. Stronger physical claims require prospective quantitative success and independent testing.
+Originality is handled conservatively at the relevant research boundary: parts of the work are presented as candidate formal syntheses or operational meta-principles after subtraction of known neighbouring work. Stronger physical claims require prospective quantitative success and independent testing.
 
 ## Current public research objects
 

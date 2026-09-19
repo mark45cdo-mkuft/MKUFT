@@ -228,7 +228,7 @@ So “equal now” is not enough to establish “equivalent choice.” The large
 
 That question is deliberately neutral about religious or moral labels. Traditions may call choices light/dark, loving/selfish, disciplined/rebellious, and disagree intensely about which label belongs where. MKUFT does not settle that dispute by vocabulary. It asks whether the competing choices are actually future-equivalent at the declared Address. If they are not, apparent present symmetry has hidden a structural difference.
 
-The same relation helps explain why cooperation can scale without making “cooperation is always good” into a law. A higher-order biological or social system persists only while enough local interactions preserve the relations that let the larger whole remain viable, correct errors and reproduce or recover. Native evolutionary theories own the mechanisms; MKUFT's contribution here is the cross-scale question about what future structure the local move preserves or consumes.
+The same relation helps explain why cooperation can scale without making “cooperation is always good” into a law. A higher-order biological or social system persists only while enough local interactions preserve the relations that let the larger whole remain viable, correct errors and reproduce or recover. Native evolutionary theories own the mechanisms; the MKUFT relation used here is the cross-scale question about what future structure the local move preserves or consumes.
 
 ### 7. How do we detect a missing state variable before the usual marker appears?
 

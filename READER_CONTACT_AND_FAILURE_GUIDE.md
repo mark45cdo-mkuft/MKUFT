@@ -22,7 +22,7 @@ A metaphor opens the door. It does not become evidence.
 
 Public and scientific explanation are not separate sources of truth. They are different-resolution readouts of the same scientific object. A public explanation may compress more; a technical explanation may expose more native detail. The load-bearing relation, evidence state, failure condition and mechanism boundary must remain the same.
 
-Scientists are also cross-domain readers. Expertise can be extremely deep at one address and temporarily non-native at the next. A clean metaphor can therefore belong in serious scientific explanation when it shortens a genuine conceptual crossing without weakening the science.
+Every specialist becomes a cross-domain reader outside their own field. Expertise can be extremely deep at one address and temporarily non-native at the next. A clean metaphor can therefore belong in serious technical or scientific explanation when it shortens a genuine conceptual crossing without weakening the underlying object.
 
 The positive test is:
 
@@ -87,11 +87,11 @@ A reader should be able to answer five questions.
 **What kind of thing is this, and what is the central proposal?**  
 MKUFT is currently a speculative research architecture rather than a completed new law or accepted unified physical theory. Its central proposal is that before choosing a law, identify the object, scale, boundary, evidence position, admissible states, and lawful transitions. MKUFT calls this Layer Before Law.
 
-**What is new enough to inspect?**  
-Not a finished new law of nature. The present candidate contribution is a disciplined way to ask a sequence of harder questions: have we described the right object; is the higher-level description actually sufficient for the property we want to predict; do two apparently similar present states hide different futures; can the system still recover after perturbation; and does a proposed relation survive strong ordinary and prior-art controls? The technical names for those steps come later in this guide, after the questions they answer.
+**What is worth inspecting?**  
+Not a finished new law of nature. The present research object is a disciplined way to ask a sequence of harder questions: have we described the right object; is the higher-level description actually sufficient for the property we want to predict; do two apparently similar present states hide different futures; can the system still recover after perturbation; and does a proposed relation survive strong ordinary and prior-art controls? The technical names for those steps come later in this guide, after the questions they answer.
 
 **What is ordinary or already known?**  
-Many mathematical ingredients have strong prior art: coarse-graining, quotienting, lumpability, closure, reachability, dynamical systems, state sufficiency, Bell/CHSH mathematics, and control ideas. MKUFT does not claim those ingredients as inventions.
+Many mathematical ingredients have strong prior art: coarse-graining, quotienting, lumpability, closure, reachability, dynamical systems, state sufficiency, Bell/CHSH mathematics, and control ideas. Their native fields retain those meanings and methods.
 
 **What would make the work fail?**  
 If the extra address structure adds no predictive, explanatory, interventional, or model-selection value; if cross-layer couplings have no carriers; if higher-level laws do not actually close at the claimed level; if ordinary models perform equally well; or if physics-facing burdens such as Bell compatibility, no-signalling, dimensional consistency, standard-limit recovery, and conservation fail.
@@ -164,6 +164,8 @@ A text can become harder by trying too aggressively to make each paragraph indep
 One strong result in one branch can accidentally sound like support for the whole framework.
 
 **Control:** claim levels remain local. A Bell calibration result does not prove MKUFT physics. An AI result does not prove the S-layer. A useful cross-domain relation does not become a new law of nature by association.
+
+Public material is also consumed non-sequentially: search results, screenshots, quoted paragraphs and AI excerpts can detach a sentence from the reader wake that originally made its scope obvious. Where extraction would plausibly convert a module-local claim into a whole-framework claim, or a generic systems relation into instructions for one profession, carry the **minimum local address** needed to prevent that scope change. Do not make every paragraph self-contained; add context only where its absence materially changes the proposition.
 
 ### 7. Mathematics mistaken for mechanism
 

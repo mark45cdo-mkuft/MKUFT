@@ -351,7 +351,7 @@ The recovery extension asks not only whether the system is viable now, but how m
 
 ### Kill point
 
-If standard reachability, viability, predictive-state or control methods already give the same result with equal or better clarity, the MKUFT contribution is at most synthesis or translation.
+If standard reachability, viability, predictive-state or control methods already give the same result with equal or better clarity, the added MKUFT structure at this branch contracts to synthesis or translation.
 
 ### Why the next step follows
 
@@ -522,7 +522,7 @@ Ask:
 - does a simpler physical or multiscale model perform equally well?
 - are any cross-layer claims missing a carrier?
 - does Bell/no-signalling or standard-limit recovery fail?
-- does a claimed novelty collapse under prior-art subtraction?
+- does a claimed original residue collapse under prior-art subtraction?
 - does a matched replay, flat, scrambled or alternative-pairing control recover the same gain?
 - was the failure criterion changed after the result?
 
@@ -531,6 +531,8 @@ A null result is not an embarrassment. The Bell/CHSH tetrahedral calibration is 
 ### Negative evidence side-route — when “nothing was found” is load-bearing
 
 When the argument depends materially on non-detection, insert [28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](docs/28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md) before closing the comparison.
+
+This relation is actor-neutral: it can govern a human, automated, or hybrid search/inference process. The receiving domain or operational system determines the native variables, detector/readout model, coverage, uncertainty and stopping rule.
 
 Carry:
 

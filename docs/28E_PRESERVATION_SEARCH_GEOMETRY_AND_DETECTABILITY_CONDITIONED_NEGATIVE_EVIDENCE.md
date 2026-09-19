@@ -7,9 +7,11 @@
 **Citation:** See [`../PROVENANCE_DOI_AND_ATTRIBUTION.md`](../PROVENANCE_DOI_AND_ATTRIBUTION.md).  
 <!-- MKUFT-PROVENANCE-HEADER:END -->
 
-**Status:** public methodological refinement. It introduces no new force, field, ontology, archaeological chronology, historical conclusion, biological mechanism, or empirical result. It conditions negative evidence on the state of the record, search surface, sampling process, and readout used to obtain the null.
+**Status:** public methodological refinement for conditioning negative evidence on record state, search surface, sampling process, and readout. It does not by itself establish a new physical mechanism or empirical result.
 
 ## 1. Purpose
+
+**Scope:** this module applies wherever a human, automated, or hybrid process uses non-detection from a bounded search/readout as evidence. It is not limited to human-led inquiry and is not an AI or software blueprint. Each application must instantiate preservation, accessibility, coverage, detection/readout and nuisance structure in the receiving domain or operational system.
 
 A non-detection is not a context-free object.
 
@@ -269,17 +271,15 @@ Reduce, reject, or contract the module at the addressed application if:
 9. the module becomes a generic excuse for any absent evidence;
 10. the search state is widened without a corresponding change in the declared target, hypothesis, or comparison class.
 
-## 12. Prior-art and novelty boundary
+## 12. Prior-art and module-scope boundary
 
 Inference from absence, imperfect detection, sampling theory, taphonomy, missing-data models, occupancy/detection models, screening theory, survey selection effects, archival completeness, and search sensitivity are established research areas.
 
-MKUFT does not claim those ingredients as inventions.
+Those ingredients are established. The research contribution specific to 28E is narrower:
 
-The candidate MKUFT contribution is narrower:
+> **place preservation, accessibility, coverage, and readout sufficiency inside the addressed comparison before a non-detection is assigned strong negative evidential weight or used to materially contract or close the addressed hypothesis; preserve that search state through cross-domain or cross-system translation; and require the negative-evidence weight to change prospectively when the search geometry changes.**
 
-> **place preservation, accessibility, coverage, and readout sufficiency inside the addressed comparison before a non-detection is allowed to close a target; preserve that search state through cross-domain translation; and require the negative-evidence weight to change prospectively when the search geometry changes.**
-
-If this ordering supplies no cleaner discrimination, transfer, falsifier, or scientific decision beyond the domain's ordinary model, the MKUFT contribution reduces to synthesis/translation.
+If this ordering supplies no cleaner discrimination, transfer, falsifier, search-design improvement, inference, or decision beyond the receiving domain or operational system's ordinary model, 28E at that application reduces to synthesis/translation.
 
 ## 13. Canonical integration
 
@@ -296,4 +296,4 @@ It changes no frozen DOI-bearing publication.
 
 ## 14. Compressed rule
 
-> **Absence is evidence only through an addressed search. Ask whether the predicted trace should have survived, remained accessible, fallen inside the actual coverage, and been resolvable by the declared readout. Weak detectability weakens a null but does not support the missing object. Strong detectability can make a clean null powerful. Never invent detectability, never count dependent searches as independent, and let the receiving domain's native model win when it already closes the inference more cleanly.**
+> **Absence is evidence only through an addressed search. Ask whether the predicted trace should have survived, remained accessible, fallen inside the actual coverage, and been resolvable by the declared readout. Weak detectability weakens a null but does not support the missing object. Strong detectability can make a clean null powerful. Never invent detectability, never count dependent searches as independent, and let the receiving domain or operational system's native model win when it already closes the inference more cleanly.**

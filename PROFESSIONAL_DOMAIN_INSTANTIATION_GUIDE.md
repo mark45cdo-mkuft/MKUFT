@@ -55,6 +55,8 @@ If the backward traversal lands on an undefined word such as “it”, “contex
 
 When the application uses absence or non-detection as evidence, the receiving domain must replace the generic search roles with native objects before the null is evaluated.
 
+The relation is not limited to human-led inquiry. It applies equally to human, automated, and hybrid search/inference systems whenever a non-detection is used to update a claim or decision. Scientific applications still have to close on the receiving field's native variables, measurements, uncertainty and baselines.
+
 Instantiate, where material:
 
 - **predicted trace** = the exact observation, residue, signal, record, state, event class, or measurable feature expected under the hypothesis;

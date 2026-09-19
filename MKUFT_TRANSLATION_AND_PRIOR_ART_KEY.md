@@ -47,7 +47,7 @@ The examples below are deliberately short. They are translation aids, not substi
 
 **Closest established neighbours:** model specification, system identification, state-space selection, boundary-condition discipline, coarse-graining, effective theories, multiscale modelling.
 
-**Already owned by established science:** scientists already choose variables, scales, domains and boundary conditions; effective descriptions and coarse-grained states are standard.
+**Already owned by established science:** native scientific and engineering practice already includes variable, scale, domain and boundary-condition selection; effective descriptions and coarse-grained states are standard.
 
 **MKUFT residual claim:** the ordering itself is promoted to a standing cross-domain decision rule: object/address sufficiency must be tested before law ownership is granted, and the model must reopen when the chosen address stops carrying the target prediction.
 
@@ -221,7 +221,7 @@ Read: [Rate-Conditioned Addressing](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_P
 
 **Example:** two systems function equally well today, but only one retains a lawful recovery route after the next perturbation.
 
-**Reduction / kill:** if standard reachability/viability/control methods capture the same distinction and prediction with equal or better clarity, the MKUFT contribution is synthesis/translation rather than new mechanism.
+**Reduction / kill:** if standard reachability/viability/control methods capture the same distinction and prediction with equal or better clarity, the added recoverability/addressing structure at this application reduces to synthesis/translation rather than a distinct mechanism.
 
 Read: [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md).
 
@@ -253,11 +253,11 @@ Read: [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECR
 
 **Already owned by established science:** imperfect detection, preservation bias, sampling bias, survey incompleteness, selection effects, false negatives, and inference from absence are established problems. MKUFT does not claim those ingredients as inventions.
 
-**MKUFT residual claim:** place preservation, accessibility, coverage, readout sufficiency and nuisance/false-negative structure inside the addressed comparison **before** non-detection is allowed to close the target; preserve those fields when the inference is translated across domains; and require the evidential weight of the null to change prospectively when the search geometry changes.
+**28E residual claim:** place preservation, accessibility, coverage, readout sufficiency and nuisance/false-negative structure inside the addressed comparison **before** a non-detection is assigned strong negative evidential weight or used to materially contract or close the addressed hypothesis; preserve those fields when the inference is translated across domains or operational systems; and require the evidential weight of the null to change prospectively when the search geometry changes.
 
 **Example:** an archaeological absence claim should distinguish expected material survival, post-depositional history, accessible terrain, actual survey/excavation coverage, recovery method and detection sensitivity before treating a missing trace as strong evidence against a historical hypothesis. Weak preservation can weaken that negative result, but it does not support the lost object.
 
-**Reduction / kill:** if the receiving field's native sampling/detection/taphonomic model already closes the inference with equal or better clarity and the addressed ordering adds no useful prediction, search-design change, falsifier, or transfer value, the MKUFT contribution is synthesis/translation only.
+**Reduction / kill:** if the receiving domain or operational system already closes the inference with equal or better clarity and the addressed ordering adds no useful prediction, search-design change, falsifier, transfer value, or decision improvement, the 28E contribution at that application reduces to synthesis/translation.
 
 Read: [28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](docs/28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md).
 

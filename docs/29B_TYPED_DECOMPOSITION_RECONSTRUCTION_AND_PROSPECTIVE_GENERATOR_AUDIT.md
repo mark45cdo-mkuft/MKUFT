@@ -167,7 +167,7 @@ Reference: Naftali Tishby, Fernando C. Pereira and William Bialek, **The Informa
 
 ### 4.5 Residual candidate after subtraction
 
-The candidate MKUFT contribution is consequently **not** any one of:
+The candidate residual specific to this 29B decomposition/reconstruction method is consequently **not** any one of:
 
 - decomposition;
 - abstraction;
@@ -459,7 +459,7 @@ no prospective advantage
 → contract broad generator claim
 
 full gain explained by established prior art
-→ classify MKUFT contribution as synthesis / translation / implementation
+→ classify this 29B generator result as synthesis / translation / implementation
 
 originating pair only
 → retain implementation-local result
