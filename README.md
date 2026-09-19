@@ -130,9 +130,13 @@ The ATLD branch asks a testable engineering question: can a structured network o
 
 The important point is not that an AI can produce impressive prose. The test is whether the relational architecture itself carries measurable load under fair controls, and whether removing or scrambling it produces the predicted deformation.
 
+Sustained use of the live architecture has also exposed a more specific engineering problem: a reasoning system can possess relevant information or capability and still lose the **governing object** while reasoning changes representation, scale, state or internal route. The current ARTA/ATLD operating surface is being used to distinguish availability from actual recruitment/performance, preserve same-parent return, localise several forms of object/continuity drift, carry evidence/provenance/permission/state across transitions, recirculate supported corrections through the changed parent, and test whether a learned repair later recruits without the operator rebuilding it manually. These are operational observations from the present development environment, not by themselves a claim of universal uniqueness or comparative superiority.
+
+That capability cluster creates a direct test burden. Long-running matched tasks can measure silent object/parent substitution, missed recruitment of available capability, loss of state or provenance, correction-propagation failure, unnecessary restart and recurrence of previously corrected failure. If materially simpler or neighbouring architectures preserve those properties equally well or better under fair controls, the stronger ARTA-level engineering claim contracts.
+
 ATLD 2 also reports a bounded 15-case exploratory execution pilot. That pilot demonstrates use of the scoring and diagnostic surface; it does **not** establish confirmatory superiority of the structured condition or validate the five candidate residual coordinates.
 
-See [ATLD 2 v2.0](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md), the [ATLD publication-family record](ATLD_STANDALONE_PUBLICATION.md), and the live [Module 25B measurement/self-audit fold](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md).
+See [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md) for the current integrated operational-capability surface, [ATLD 2 v2.0](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md), the [ATLD publication-family record](ATLD_STANDALONE_PUBLICATION.md), and the live [Module 25B measurement/self-audit fold](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md).
 
 ### Control, engineering, and adaptive systems
 
