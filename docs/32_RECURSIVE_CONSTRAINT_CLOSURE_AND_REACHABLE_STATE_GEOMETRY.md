@@ -314,6 +314,32 @@ Therefore:
 
 The correct report is typed and scale-separated. Local feasible-state volume and higher-scale capability are different observables unless a lawful map connects them.
 
+### 8A. Operational role is not functional identity
+
+An operational role can be a valid classification at one target address without exhausting the system's functional identity.
+
+Where a role is specified by a declared capability or behavioural criterion, an expansion of `\mathcal K_{L,t}(B)` may make additional roles reachable within the stated budget. That is a reachability result. It does not by itself show that the newly reachable role is constitutive of the organisation that makes the system the relevant functional whole.
+
+Compressed:
+
+> **Reachable operational role does not by itself determine functional identity.**
+
+This matters especially for systems with substantial reserve capacity. Redundancy, power, volume, control authority, interface capacity, resource margin or other domain-defined reserves can enlarge the set of functions, tasks or outcomes the system can lawfully occupy while the load-bearing organisation that defines the functional whole remains unchanged. No universal monotonic relation is assumed: each claimed reserve must be typed and linked to the capability it actually enables.
+
+The reciprocal guard is equally important. Historical origin does not permanently fix functional identity. If persistent reorganisation changes the load-bearing relation, closure structure, environment or other constitutive coordinates that make the system the declared kind of whole, readdress the system under [Module 33S2](33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) rather than preserving an obsolete label by ancestry.
+
+The distinction is target-relative rather than semantic. Let `\Theta_{\mathrm{role}}` denote an operational address that groups systems by a declared current role. If same-role representatives retain materially different target futures under matched interventions and environments, then [Module 33S4](33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) gives
+
+```math
+\mathcal R_q(\Theta_{\mathrm{role}};U,E,\Delta)
+>
+\varepsilon_q,
+```
+
+so the role-only address is insufficient for target `q` over that regime. If instead the residual remains within tolerance, the role-level address may remain a lawful compression for that target even when richer constitutive differences exist.
+
+Therefore do not force every valid local role classification to carry the full constitutive history of the system. Recruit the richer identity/address description only when it changes the declared target, continuation, intervention, recovery or closure result.
+
 ## 9. Recurrent architecture from recurrent constraint classes
 
 A recurring shape or architecture across systems can arise because similar constraints repeatedly favour a similar class of viable solutions.
@@ -447,6 +473,16 @@ Test the same typed constraint/function relation in more than one implementation
 ### 13.8 Overconstraint test
 
 Prospectively add constraints that are predicted to damage rather than enable the higher-scale object. A framework that treats every added restriction as progress fails this test.
+
+### 13.9 Role-aliasing / functional-identity test
+
+Predeclare an operational role criterion and a wider target `q`. Select systems or states that satisfy the same role criterion, then expose them to matched admissible challenges over the declared environment, horizon and tolerance.
+
+If the role-only address groups representatives whose target futures diverge beyond tolerance, the role is insufficient for that wider target. Recruit the smallest typed constitutive coordinate that reduces the residual prospectively or on held-out cases.
+
+If a strong separating challenge leaves the target futures within tolerance, preserve the simpler role-level description for that target rather than importing constitutive detail that adds no predictive or interventional gain.
+
+This test does not ask whether the role label is "really true" in the abstract. It asks **which target the role classification is sufficient to carry**.
 
 ## 14. Predictions
 
