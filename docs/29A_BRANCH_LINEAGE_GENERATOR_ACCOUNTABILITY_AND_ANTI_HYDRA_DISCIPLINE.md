@@ -6,6 +6,7 @@
 **Falsification owner:** [05 — MKUFT Falsification Summary](05_FALSIFICATION_SUMMARY.md)  
 **Prospective generator-audit companion:** [29B — Typed Decomposition, Reconstruction, and Prospective Generator Audit](29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md)  
 **Status:** standing scientific claim-accountability and branch-lineage control. It introduces no new equation, physical mechanism, ontology, or empirical result.
+**Module status:** current numbered MKUFT module.  
 
 ## Plain version first
 

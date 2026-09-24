@@ -16,6 +16,7 @@
 **Frozen-carrier identity witness:** [publications/FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0](../publications/FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0/)  
 **Public protocol date:** 4 September 2026  
 **Status:** live canonical flagship protocol; design-closed and published as v1.0 under DOI `10.5281/zenodo.22309144`, with receiver-side publication identity verified. Empirical status remains OPEN: no experiment reported here has been executed by MKUFT, and neither the live module nor the publication carrier reports a positive empirical result, new force, field, constitutive law, twinning mechanism, or completed unification.
+**Module status:** current numbered MKUFT module.  
 
 ## 1. Why this protocol exists
 

@@ -7,6 +7,7 @@
 **Rate/history support:** [33S5 — Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)  
 **Future-splitting child:** [33S7 — Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)  
 **Status:** canonical companion refinement. It makes transfer into a materially changed terrain, topology, substrate, boundary, scale, challenge family, or measurement regime an explicit trigger to re-test inherited state equivalence. It does not claim that history always matters, that every transfer changes state, that domain shift is novel, or that a failed transfer implies a new physical law.
+**Module status:** current numbered MKUFT module.  
 
 ## 1. Purpose
 

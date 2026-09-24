@@ -10,6 +10,7 @@
 **First full flagship instantiation:** [28C — Minimum Decisive FSAI/FSSR HCP Magnesium Protocol](28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)  
 **Public formulation date:** 4 September 2026  
 **Status:** live methodological refinement of relation-deformation and ablation design. It reports no positive empirical result and introduces no new physical law, force, field, causal geometry or universal optimisation principle.
+**Module status:** current numbered MKUFT module.  
 
 ## 1. Purpose
 

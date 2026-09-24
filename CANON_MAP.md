@@ -29,12 +29,15 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 14. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
 15. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
 16. [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
+   - [Transfer-Conditioned Address Sufficiency, State Aliasing, and Cold Re-embedding](docs/33S4A_TRANSFER_CONDITIONED_ADDRESS_SUFFICIENCY_STATE_ALIASING_AND_COLD_REEMBEDDING.md)
 17. [Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)
 18. [Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
 19. [Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
    - **First minimum-decisive flagship protocol:** [History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
    - **Frozen v1.0 publication route:** [FSSR-HCP magnesium protocol](papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md) — published DOI `10.5281/zenodo.22309144`; receiver-side carrier verified; empirical status remains open
 20. [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
+   - [Sideways Invariant Interrogation and Nuisance-Quotient Readdressing](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md)
+   - [Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md)
 21. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
 22. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 23. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
@@ -128,6 +131,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **28 — Discriminating Experiments and Promotion Gates:** evidence tiers and promotion rules.
 - **28B — Native Consequence-Cone Stress Testing:** relation-informative deformation inside the smallest native environment that preserves the consequences needed for attribution.
 - **28C — Minimum Decisive FSAI/FSSR Flagship:** prospective HCP-magnesium protocol testing state sufficiency, challenge-selection value, minimal physical repair, deformation/restoration, and prospective recruitment lead under strong native nulls. It reports no positive result.
+- **28D — Evidence Semantics and Claim-Promotion Guard:** preserves evidence that exists without inflating it into proof, mechanism identification, attribution, or framework confirmation; failure to reach a stronger gate does not reset weaker evidence to zero.
 - **28A — Cross-Domain Compositional Schema Bell/CHSH Calibration:** hostile known-answer calibration of target-relative preserve/refine/reopen/refuse behaviour for the published Cross-Domain v0.3 result, DOI `10.5281/zenodo.22166005`; physical Phase-0 delta remains null.
 - **29 — Scientific Tightening and Claim Discipline:** separates architecture, scaffold, evidence, mechanism, novelty, and claim status.
 - **29A — Branch Lineage, Generator Accountability, and Anti-Hydra Discipline:** preserves local merit while keeping failed branches, repairs, search cost, and correlated descendants in the parent generator’s performance history.
@@ -136,6 +140,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S1 — Dynamic Interface Promotion:** specifies when a trackable interface that changes the next admissibility/law object and is itself changed by realised dynamics must re-enter the addressed state; it adds a scale-role transition from lower-scale boundary to higher-scale internal relation only after existing promotion tests pass.
 - **33S2 — Relational Closure and Law Descent:** separates historical lineage, functional organisation, closure, and property-specific dynamical sufficiency; names strong, approximate, ensemble, history-augmented, and coupled-multiscale descent classes; and requires bidirectional readdressing when higher-address sufficiency changes.
 - **33S3 — Cross-Scale Performance and Recoverability:** separates lower-address performance from enclosing-scale closure/law-descent margins, rejects inevitable-collapse inference from local gain, defines recovery as target-relative reachability under declared controls, and requires apparent hysteresis to survive state-augmentation tests.
+- **33S4A — Transfer-Conditioned Address Sufficiency:** forces inherited state equivalence to be re-tested when terrain, topology, substrate, boundary, scale, challenge family, or measurement regime changes materially.
 - **33S4 — Address Sufficiency and Predictive Closure:** defines a target-relative address residual over same-address future distributions, separates deterministic from stochastic closure, tests candidate address coordinates by held-out discrimination and ablation/restoration, and routes persistent predictive divergence into readdressing before stronger law claims.
 - **33S5 — Rate-Conditioned Addressing:** separates geometric path from time-parameterised traversal; treats rate, dwell time, phase, and schedule as candidate address coordinates only when they improve target-relative predictive/interventional closure; and demotes them when fuller ordinary state variables close the same residual.
 - **33S6 — Addressed Admissible Futures:** defines the target-relative future-equivalence object induced by a sufficient Address, separates present viability from restorative reachability, defines restorative-future reserve and counterfactual load-bearing relation structure, and closes realised traversal through recursive readdressing. Its standalone v0.1 paper is frozen separately at DOI `10.5281/zenodo.22031333`.
@@ -154,6 +159,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 ### Structural and traversal
 
 - **20 — GRACE:** Geometry, Relation, Admissibility, Coherence, Emergence as a route check, including minimum-destructive restorative readdressing from the state actually reached.
+- **20A — GRACE Formal Route Selection:** applies hard admissibility and target sufficiency before typed non-dominated route comparison; it removes materially dominated lawful routes without inventing a universal scalar utility.
 - **21 — Ambiguity Dynamics:** unresolved feasible volume, route connectivity, and preserved access under declared assumptions.
 - **22 — Cross-Layer Invariants:** layer-specific addressing, variables, spaces, couplings, and falsifiers.
 - **22A — Recursive Address Closure:** no untyped inheritance of version, licence, evidence, causation, authority, or other properties.

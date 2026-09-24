@@ -122,6 +122,14 @@ Where a result claims that a state, address, model, or mechanism is missing some
 6. restore it and require closure to return;
 7. compare against a stronger ordinary state model using the same information.
 
+Before treating a deformation as relation-specific, use [28B — Native Consequence-Cone Stress Testing](docs/28B_NATIVE_CONSEQUENCE_CONE_STRESS_TESTING_AND_RELATION_INFORMATIVE_DEFORMATION.md) to ensure the test is neither too thin to express the native consequence nor so uncontrolled that ownership cannot be localised.
+
+If a previously sufficient Address is transferred into a materially changed terrain, topology, substrate, boundary, scale, challenge family, or measurement regime, apply [33S4A — Transfer-Conditioned Address Sufficiency](docs/33S4A_TRANSFER_CONDITIONED_ADDRESS_SUFFICIENCY_STATE_ALIASING_AND_COLD_REEMBEDDING.md) and re-test inherited state equivalence rather than carrying it across by assumption.
+
+If an apparent state deficiency may be specific to the interrogation rather than intrinsic to the target, test [33S7B — Sideways Invariant Interrogation](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md) before adding a new coordinate. A target-preserving invariant/equivariant query may remove the nuisance burden without declaring the omitted distinction unreal.
+
+A proposed next discriminator must also be reachable from the observer/registration state actually attained. Use [33S7C — Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) rather than assuming access to a test, record, scale, or intervention that the live address does not support.
+
 A repair that merely improves fit without surviving remove/restore is not yet load-bearing.
 
 ## 7A. Negative evidence, search geometry, and mechanism completeness
@@ -142,6 +150,8 @@ predicted trace
 
 Use [28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](docs/28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md) for the full public rule.
 
+Use [28D — Evidence Semantics and Claim-Promotion Guard](docs/28D_EVIDENCE_SEMANTICS_AND_CLAIM_PROMOTION_GUARD.md) for the reciprocal language gate: evidence that exists is not erased because a stronger promotion threshold was missed, and evidence is not inflated into proof, mechanism identification, attribution, or framework confirmation.
+
 A poor preservation or detection state can weaken a negative result; it cannot be converted into positive evidence that the missing object existed. A strong high-detectability null must be allowed to contract the claim.
 
 Where a candidate mechanism is proposed, require the mechanism to reproduce the **discriminating object**, not merely demonstrate generic capability in the same material, class, or broad phenomenon. Preserve:
@@ -158,6 +168,12 @@ If process tempo is load-bearing, compare lawful gradual/chronic, pulsed/catastr
 If an object claims early warning, mechanism localisation, or transition anticipation, define the conventional comparison marker before confirmation.
 
 A lead exists only when the new signal is reproducibly detectable before that independent marker. Simultaneous appearance is not retrospective lead.
+
+For method-level or generator claims, preserve branch lineage. Use [29A — Branch Lineage, Generator Accountability, and Anti-Hydra Discipline](docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md): failed branches, repairs, search cost and correlated descendants remain part of the parent generator's performance history rather than disappearing after a successful repair.
+
+Where a general decomposition/reconstruction method is being credited, use [29B — Typed Decomposition, Reconstruction, and Prospective Generator Audit](docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md) and compare prospectively against the strongest fair native baseline after prior-art subtraction.
+
+When several lawful, task-sufficient research routes remain after truth, evidence, law, safety, consent, permission and target constraints are fixed, [20A — GRACE Formal Route Selection](docs/20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md) may remove materially dominated routes. It must not rescue an inadmissible route or manufacture one universal scalar objective.
 
 ## 9. Paper threshold
 

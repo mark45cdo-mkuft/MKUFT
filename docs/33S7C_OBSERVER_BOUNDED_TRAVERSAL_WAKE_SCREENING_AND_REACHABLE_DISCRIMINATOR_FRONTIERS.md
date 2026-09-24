@@ -13,6 +13,7 @@
 **Public formulation date:** 4 September 2026  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
 **Status:** live canonical methodological refinement. It formalises an observer-bounded traversal consequence of the existing future-sufficiency family: the current state may determine which discriminating operations are reachable next; retained trajectory information remains live only while it still changes the declared future after present-state mediation; and a verbal question is one possible discriminator rather than a privileged master operator. It does not establish a new physical law, observer-caused dynamics, hidden-memory substance, universal theory of questioning, universal value function, or evidence for consciousness-dependent physics.
+**Module status:** current numbered MKUFT module.  
 
 ## 1. Purpose
 

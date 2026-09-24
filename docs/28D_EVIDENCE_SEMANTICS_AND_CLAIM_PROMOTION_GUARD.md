@@ -8,6 +8,7 @@
 <!-- MKUFT-PROVENANCE-HEADER:END -->
 
 **Status:** public methodological clarification. It reports no new empirical result and changes no existing result, evidence tier, promotion gate, DOI claim or scientific status.
+**Module status:** current numbered MKUFT module.  
 
 ## 1. Purpose
 

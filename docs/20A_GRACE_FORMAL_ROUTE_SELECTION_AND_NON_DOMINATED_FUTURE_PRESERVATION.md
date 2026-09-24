@@ -10,6 +10,7 @@
 **Agency/capture support:** [23 — Agency Accessibility and Capture Geometry](23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md)  
 **Public formalisation date:** 12 September 2026  
 **Status:** public applied formalisation of the existing GRACE care-preserving route-selection kernel. It adds no new S–I–P–O layer, force, field, universal moral scalar, or independent physical law.
+**Module status:** current numbered MKUFT module.  
 
 ## 1. Purpose
 

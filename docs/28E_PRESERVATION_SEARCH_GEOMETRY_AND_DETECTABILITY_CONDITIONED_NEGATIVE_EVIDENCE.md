@@ -8,6 +8,7 @@
 <!-- MKUFT-PROVENANCE-HEADER:END -->
 
 **Status:** public methodological refinement for conditioning negative evidence on record state, search surface, sampling process, and readout. It does not by itself establish a new physical mechanism or empirical result.
+**Module status:** current numbered MKUFT module.  
 
 ## 1. Purpose
 

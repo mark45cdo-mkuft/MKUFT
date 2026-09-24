@@ -8,6 +8,7 @@
 **Residual-coordinate owner:** [25C — Residual Instrument Generation and Protected Discovery Boundary](25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)  
 **Predictive-sufficiency owners:** [33S4 — Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md), [33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)  
 **Status:** canonical methodological synthesis and prospective audit companion under Module 29A. It introduces no new physical mechanism, field, ontology, law of nature, or empirical result. It does not claim generic priority for decomposition, abstraction, typing, sufficient representation, causal abstraction, or property transport.  
+**Module status:** current numbered MKUFT module.  
 **Public formulation date:** 2 September 2026.
 
 ## Plain version first

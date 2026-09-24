@@ -293,6 +293,10 @@ The metaphor stops at that structural point. MKUFT does not claim scientific sys
 
 If the observed future divergence is already explained by the declared stochastic model, noise, uncertainty or ordinary hidden state, there is no need for a stronger claim.
 
+### Transfer-conditioned recheck
+
+If a state/address that closed in one regime is moved into a materially changed terrain, topology, substrate, boundary, scale, challenge family, or measurement regime, read [33S4A — Transfer-Conditioned Address Sufficiency, State Aliasing, and Cold Re-embedding](docs/33S4A_TRANSFER_CONDITIONED_ADDRESS_SUFFICIENCY_STATE_ALIASING_AND_COLD_REEMBEDDING.md). Do not inherit equivalence across the transfer by default; re-test whether the same compressed state still closes the declared future.
+
 ### Why the next step follows
 
 A common missing variable is time structure: rate, dwell, phase or recent history. But those variables should not be added automatically. The next module tests when they are actually required.
@@ -446,6 +450,10 @@ The first full protocol that forces this logic into a native experimental object
 
 If the split disappears under better ordinary measurement, tighter state or challenge matching, stronger baseline modelling, noise/stochastic control, environment control, probe-induction control or conventional hidden-state estimation, the stronger mechanism-localisation language is not earned. If the declared readout cannot resolve the target-relevant distinction, the experiment has not yet established the required split at that O-address.
 
+### Sideways repair branch
+
+Before assuming that a failed direct representation requires more hidden state, read [33S7B — Sideways Invariant Interrogation and Nuisance-Quotient Readdressing](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md). A lawful target-preserving change of interrogation can sometimes make a nuisance distinction invariant, equivariant, or predictably removable. If it does, do not carry an unnecessary coordinate merely because the original question was badly posed.
+
 ### Why the next step follows
 
 FSSR can establish that the current representation has left a future-bearing distinction unresolved. But that still does not mean an observer can resolve every missing distinction immediately. The next step asks what the current registration/access state can actually discriminate, whether retained history is still doing independent work, and how a realised test can change which test becomes possible next.
@@ -503,7 +511,10 @@ Read:
 - [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
 - [Discriminating Experiments and Promotion Gates](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md)
 - [Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence](docs/28E_PRESERVATION_SEARCH_GEOMETRY_AND_DETECTABILITY_CONDITIONED_NEGATIVE_EVIDENCE.md)
+- [Evidence Semantics and Claim-Promotion Guard](docs/28D_EVIDENCE_SEMANTICS_AND_CLAIM_PROMOTION_GUARD.md)
 - [Native Consequence-Cone Stress Testing](docs/28B_NATIVE_CONSEQUENCE_CONE_STRESS_TESTING_AND_RELATION_INFORMATIVE_DEFORMATION.md)
+- [Branch Lineage, Generator Accountability, and Anti-Hydra Discipline](docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md)
+- [Typed Decomposition, Reconstruction, and Prospective Generator Audit](docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md)
 - [Minimum Decisive FSAI/FSSR Flagship Protocol](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
 - [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)

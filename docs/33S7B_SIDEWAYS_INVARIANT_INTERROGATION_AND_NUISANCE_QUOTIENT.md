@@ -5,6 +5,7 @@
 **Parent:** [33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)  
 **Layer-Before-Law parent:** [26 — Layer Before Law](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)  
 **Status:** live public methodological extension. This note does not modify frozen DOI publications, claim a new physical law, or claim novelty for mathematical invariance/equivariance, nuisance-parameter elimination, quotient constructions, sufficient statistics, experimental-design optimisation, or related established methods.
+**Module status:** current numbered MKUFT module.  
 
 ## 1. Purpose
 
