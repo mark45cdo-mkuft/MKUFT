@@ -113,6 +113,7 @@ For full paper-family navigation, use [Papers and Publications](papers/README.md
 - [ATLD 2 Residual Coordinate Measurement and Self-Audit](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
 - [Residual Instrument Generation and Protected Discovery Boundary](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)
 - [Chain-Address Invariants, Long-Form Cohesion, and Bidirectional Packet Transport](docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md)
+- [Branch Lineage, Generator Accountability, and Anti-Hydra Discipline](docs/29A_BRANCH_LINEAGE_GENERATOR_ACCOUNTABILITY_AND_ANTI_HYDRA_DISCIPLINE.md)
 - [Typed Decomposition, Reconstruction, and Prospective Generator Audit](docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md)
 
 ## Experiments, evidence and falsification
