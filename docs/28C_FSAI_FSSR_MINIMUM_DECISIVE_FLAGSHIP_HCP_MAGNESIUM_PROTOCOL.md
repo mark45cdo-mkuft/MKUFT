@@ -128,7 +128,7 @@ d_q(y,y')
 \sqrt{\frac{1}{m}(y-y')^T Sigma_0^{-1}(y-y')},
 ```
 
-where `Sigma_0` is estimated only from the calibration/development data and frozen before confirmation. A laboratory may predeclare another defensible trajectory distance, but it may not choose the distance after seeing which one makes the split largest.
+where `Sigma_0` is estimated only from the calibration/development data and frozen before confirmation. If `Sigma_0` is singular or materially ill-conditioned under a predeclared numerical criterion, do not invert it directly. Before confirmation, freeze either a defensible regularised covariance estimator, a pseudoinverse/eigenvalue-truncation rule, or another domain-appropriate trajectory distance, and then use that same rule unchanged on confirmatory data. A laboratory may predeclare another defensible trajectory distance, but it may not choose or tune the distance after seeing which one makes the split largest.
 
 Set `epsilon_q` from baseline replicate variability plus a prospectively declared smallest material difference of interest. Do not define the tolerance by the confirmatory cross-history split.
 
@@ -227,9 +227,9 @@ On development data only, select
 
 ```math
 u_F
-in
-argmax_{u in U}
-J_split(u;Theta_0),
+\in
+\operatorname*{arg\,max}_{u\in U}
+J_{\mathrm{split}}(u;\Theta_0),
 ```
 
 where `J_split` rewards future separation **inside matched `Theta_0` fibres** while penalising measurement instability and challenge-induced mismatch.
