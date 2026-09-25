@@ -615,6 +615,12 @@ The named objects contract rather than expand if their burden is not met.
 FSAI:
 A declared Address is sufficient only while histories it calls the same remain equivalent across the declared admissible future.
 
+Boundary-Claim Sufficiency:
+A load-bearing limit statement is itself an addressed claim.
+Keep only the typed frontier needed to preserve materially different lawful continuations.
+Leave unsupported exterior unresolved rather than converting it into fact or impossibility.
+Use mathematical precision only where it earns real discrimination.
+
 Minimum-sufficiency repair:
 When a direct address fails, do not assume the only remedy is more state.
 DOWN restores the minimum missing distinction.
