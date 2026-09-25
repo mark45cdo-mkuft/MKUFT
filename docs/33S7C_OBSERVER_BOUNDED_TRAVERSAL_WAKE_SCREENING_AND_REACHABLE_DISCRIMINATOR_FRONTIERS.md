@@ -12,7 +12,7 @@
 **Humane traversal support:** [20 — GRACE Traversal Rule](20_GRACE_TRAVERSAL_RULE.md)  
 **Public formulation date:** 4 September 2026  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
-**Status:** live canonical methodological refinement. It formalises an observer-bounded traversal consequence of the existing future-sufficiency family: the current state may determine which discriminating operations are reachable next; retained trajectory information remains live only while it still changes the declared future after present-state mediation; and a verbal question is one possible discriminator rather than a privileged master operator. It does not establish a new physical law, observer-caused dynamics, hidden-memory substance, universal theory of questioning, universal value function, or evidence for consciousness-dependent physics.
+**Status:** live canonical methodological refinement. It formalises an observer-bounded traversal consequence of the existing future-sufficiency family and carries the observer-side Probe-State Separation guard: the current state may determine which discriminating operations are reachable next; retained trajectory information remains live only while it still changes the declared future after present-state mediation; and a verbal question is one possible discriminator rather than a privileged master operator. It does not establish a new physical law, observer-caused dynamics, hidden-memory substance, universal theory of questioning, universal value function, or evidence for consciousness-dependent physics.
 **Module status:** current numbered MKUFT module.  
 
 ## 1. Purpose
@@ -334,7 +334,9 @@ current addressed state
 
 This is the observer-side form of the 33S7A **Probe-State Separation Corollary**:
 
-> **Probe reach != observer-state advance.**
+> **Prospective/modelled probe reach != observer-state advance.**
+
+An executed discriminator can of course be intervention-bearing: if the probe/measurement itself lawfully changes the physical state, observer state, evidence state or accessible frontier, that executed contact is part of the realised transition and the address updates accordingly. The prohibition is against back-projecting the **unexecuted/prospective** endpoint into the present.
 
 The rule is compatible with deep planning and long-horizon simulation. A conditional branch may legitimately influence present experiment choice, control policy, route selection or option preservation. It remains explicitly conditional until the transition/readout that would alter (A), (O), the screened wake or the reachable discriminator frontier is actually earned.
 
