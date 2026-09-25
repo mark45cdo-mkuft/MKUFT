@@ -112,6 +112,20 @@ Keep a reproducibility package only when it leaves the scientific object more ch
 
 ## 7. Smallest typed repair and deformation
 
+Before claiming that an Address is missing something, bind the **cold-entry baseline** correctly.
+
+Use the strongest adequate native state description already justified for the declared object, regime and target. If the realised state is not fully resolved, use a typed uncertainty-bearing state-space object rather than a fictitious point estimate. Do not enlarge the Address merely because more context is available, and do not treat observer situatedness as a requirement to model the observer's whole causal environment.
+
+~~~text
+cold entry
+→ strongest adequate native Address / uncertainty object
+→ target-relevant boundary / environment / registration only
+→ held-out future or discriminator test
+→ add the smallest distinction only if the baseline fails
+~~~
+
+This baseline is provisional rather than privileged. If multiple native descriptions remain comparably adequate, preserve or compare them; do not choose the one that favours the proposed result.
+
 Where a result claims that a state, address, model, or mechanism is missing something:
 
 1. establish that the old description previously closed the declared target;
