@@ -704,13 +704,13 @@ A realised transition may therefore change not only the realised state but the A
 
 Otherwise continuation is selected from the future geometry of the readdressed state actually realised. This does not discard target, law, boundary, environment or intervention constraints that remain valid; it prevents an earlier projected sequence from being treated as authority after the state that justified it has changed.
 
-A named corollary of the same relation is the **Probe-State Separation Corollary**. Let a model/search process at (A_t) generate candidate future addresses (widehat{\mathcal A}_{t+\Delta\mid t}). Then
+A named corollary of the same relation is the **Probe-State Separation Corollary**. Let a model/search process at $A_t$ generate candidate future addresses $\widehat{\mathcal A}_{t+\Delta\mid t}$. Then
 
-~~~math
+```math
 \widehat A_{t+\Delta\mid t}\in\widehat{\mathcal A}_{t+\Delta\mid t}
 \;\not\Longrightarrow\;
 A_t:=\widehat A_{t+\Delta\mid t}.
-~~~
+```
 
 A modelled future may influence present policy, experiment choice or option preservation without becoming present state/evidence authority. Readdress only after the lawful transition or registration that the owning model requires is actually realised. Compactly:
 

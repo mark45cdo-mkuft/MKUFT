@@ -228,7 +228,7 @@ On development data only, select
 ```math
 u_F
 \in
-\operatorname*{arg\,max}_{u\in U}
+\mathrm{arg\,max}_{u\in U}
 J_{\mathrm{split}}(u;\Theta_0),
 ```
 

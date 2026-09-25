@@ -87,15 +87,15 @@ A hard admissibility condition is not merely a very large negative weight.
 
 If
 
-~~~math
+```math
 \mathsf{Adm}_{\Sigma_t}(u\mid A_t)=0,
-~~~
+```
 
 then an extreme downstream benefit, survival estimate, mission gain, welfare score, restorative reserve, or other consequence does **not** by itself imply
 
-~~~math
+```math
 \mathsf{Adm}_{\Sigma_t}(u\mid A_t)=1.
-~~~
+```
 
 The route remains outside the admissible set until the **boundary object that owns the gate** is lawfully readdressed.
 
@@ -124,17 +124,17 @@ It does **not** perform the boundary update merely by being large.
 
 Formally, where (mathcal R_{Omega}) is the lawful boundary-review operator,
 
-~~~math
+```math
 \Sigma'_t
 =
 \mathcal R_{\Omega}(\Sigma_t,A_t,E_t,C_t)
-~~~
+```
 
 may return an updated boundary state or no authorised change. A previously excluded route (u) may re-enter candidate comparison only if
 
-~~~math
+```math
 \mathsf{Adm}_{\Sigma'_t}(u\mid A_t)=1.
-~~~
+```
 
 This distinction matters most in emergency, existential, medical, military, governance and human–AI settings. A decision-support system may estimate catastrophic consequences, identify that the current admissible set is empty or inadequate, expose which boundary creates the conflict, and state what authorised exception would have to be invoked. It must not silently convert consequence magnitude into consent, permission, legal authority, moral authority or command authority.
 

@@ -423,29 +423,29 @@ The future-sufficiency family also implies a narrower operational distinction be
 
 Let (A_t) be the current addressed state for the declared target, and let a model, search, simulation, forecast or discriminator-design process generate a candidate family of future addresses
 
-~~~math
+```math
 \widehat{\mathcal A}_{t+\Delta\mid t}
 =
 \mathcal M(A_t,O_t,\mathcal U,E).
-~~~
+```
 
 Membership in that prospective family does not by itself readdress the current state:
 
-~~~math
+```math
 \boxed{
 \widehat A_{t+\Delta\mid t}\in\widehat{\mathcal A}_{t+\Delta\mid t}
 \;\not\Longrightarrow\;
 A_t:=\widehat A_{t+\Delta\mid t}.
 }
-~~~
+```
 
 A future branch may lawfully influence present action selection,
 
-~~~math
+```math
 a_t
 =
 \pi\!\left(A_t,\widehat{\mathcal F}^{+}_{t}\right),
-~~~
+```
 
 without being promoted into present fact, evidence or state authority.
 
