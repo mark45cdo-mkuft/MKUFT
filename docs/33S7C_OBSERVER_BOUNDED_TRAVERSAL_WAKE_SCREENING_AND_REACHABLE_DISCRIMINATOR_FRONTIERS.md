@@ -301,6 +301,49 @@ felt novelty ≠ anomalous access
 
 A predeclared stopping rule may nevertheless permit a trial to end without forcing a candidate when continued search would only expand post-hoc matching freedom. The evidential gain comes from the prospective rule and later calibration, not from the feeling itself.
 
+### 6B. Prospective probe reach does not advance the current observer address
+
+A reachable or modelled future discriminator can extend far beyond the current contact state without moving the observer's present address.
+
+Let the current scientific state be
+
+~~~text
+(A_t, O_t, W_t^q)
+~~~
+
+and let a model/search process generate a prospective discriminator path or candidate future address. That prospective reach may change which action is rational now, but it does not by itself change the evidence/registration state from which the observer is currently licensed to speak.
+
+Use:
+
+~~~text
+current addressed state
+→ candidate probe / model / discriminator path
+→ conditional consequence cone
+→ realised contact / transition / readout
+→ readdress
+~~~
+
+Do not use:
+
+~~~text
+current addressed state
+→ imagined future node
+→ treat future node as current
+→ generate downstream claims as though the transition occurred
+~~~
+
+This is the observer-side form of the 33S7A **Probe-State Separation Corollary**:
+
+> **Probe reach != observer-state advance.**
+
+The rule is compatible with deep planning and long-horizon simulation. A conditional branch may legitimately influence present experiment choice, control policy, route selection or option preservation. It remains explicitly conditional until the transition/readout that would alter (A), (O), the screened wake or the reachable discriminator frontier is actually earned.
+
+The current observer state may itself be probabilistic, multi-model or uncertainty-bearing. The requirement is not a single deterministic hypothesis; it is a correctly typed current addressed object whose uncertainty and branch structure remain explicit.
+
+Where elapsed time or a declared dynamical law itself constitutes the state transition, lawful model-state propagation may advance the address without a new external observation. What is forbidden is not prediction; it is **silent substitution of a merely projected downstream state for the state actually licensed by the model and realised conditions**.
+
+This guard prevents a false second node from contaminating later evidence, while preserving prospective modelling as a legitimate part of scientific method.
+
 ## 7. Discriminator selection and no unique “right question” claim
 
 This module does not posit one uniquely correct next question.
