@@ -116,6 +116,7 @@ Unless an exact file version expressly states a different licence, the current G
 | [33S7C — Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) | **All rights reserved** for the current numbered module unless an exact later version states otherwise |
 | [33A — Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md) | **All rights reserved** unless an exact version states otherwise |
 | [34 — Research Object Identity, Release Integrity, and Reproducibility](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md) | **All rights reserved** unless an exact version states otherwise |
+| [35 — ARTA Architecture Instantiation and Engine Construction Map](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md) | **All rights reserved** for the current numbered module unless an exact later version states otherwise; this implementation map does not itself grant a software, certification, endorsement, patent, or commercial-implementation licence, and builders should use the single stewardship/use route for project-intent routing |
 
 The current GitHub source, companion, and successor-fold modules are not licensed by the older MKUFT CC BY 4.0 record merely because they cite its DOI, and they are not licensed by standalone publication licences merely because related papers were developed from or folded into related material.
 
