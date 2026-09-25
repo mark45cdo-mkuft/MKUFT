@@ -47,6 +47,8 @@ MKUFT already has two compatible public entry routes:
 
 This note applies at both entry routes.
 
+A builder who wants to instantiate the architecture rather than only read it should use [35 — ARTA Architecture Instantiation and Engine Construction Map](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md). Module 35 points back here for stewardship/use routing; it does not own a second licence policy.
+
 The rights structure also has two compatible use routes:
 
 ### Route A — public-benefit / non-commercial use
