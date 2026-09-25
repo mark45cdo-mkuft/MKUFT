@@ -153,7 +153,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence:** conditions non-detection on preservation/persistence, accessibility, actual search coverage, detector/readout sensitivity and false-negative structure; poor detectability weakens a null without supporting the missing object, while a strong addressed null may carry substantial negative evidence. Cross-domain use requires native instantiation rather than a shared mechanism claim.
 - **34 — Research Object Identity, Release Integrity, and Reproducibility:** types live source, commits, release tags, declared artifacts, manifests, citation metadata, reader-facing carriers, and external archives; requires exact artifact hashes/byte counts for declared releases; and makes release identity a reproducible object without changing scientific claim status.
 - **Rendering and Publication Integrity:** governs reader-facing carrier correctness, DOI freeze, receiver-side inspection, and byte-level publication custody.
-- **Research Derivation and Closure SOP:** governs derivation, promotion, publication threshold, interruption recovery, cold-entry baseline selection, question-source/evidence separation, boundary-claim/representation-transform custody, and post-write recursive closure.
+- **Research Derivation and Closure SOP:** governs derivation, promotion, publication threshold, interruption recovery, cold-entry baseline selection, question-source/evidence separation, boundary-claim/representation-transform custody, **pre-Canon reconciliation against the newest eligible parent-relevant private learning lineage**, and post-write recursive closure.
 - **Release manifests:** machine-readable release identity records governed by Module 34.
 
 ### Structural and traversal
@@ -322,6 +322,7 @@ This fold integrates the later handwritten/C2/K4 boundary and representation-tra
 - **33S7C** owns the observer-traversal consequence: a representation transform may change the currently reachable discriminator family; if it does not change the declared target/observer frontier, the transform collapses NULL.
 - **20A / GRACE Formal Route Selection** owns the governance split: moral understanding/representation, applicable constraint, consequence modelling, causal participation, and sovereign/delegated action authority are separately typed. Understanding does not manufacture sovereignty; lack of sovereignty does not create causal/moral exemption.
 - **Research Derivation and Closure SOP** carries the promotion gate for false incapacity, counterfeit boundary precision, unexecuted transform consequences, search-latitude inflation, and authority transfer by implication.
+- **Research Derivation and Closure SOP §9C** also carries the **pre-Canon state-reconciliation gate**: before public mutation, reconcile the candidate against newer eligible same-parent private learning/corrections; preserve supersession and provenance; collapse duplicate representations of one source; reject unrelated recency; and keep private learning distinct from public authority.
 - **Scientific Reader Traversal Guide** and **Reader Contact and Failure Guide** carry the same relations at reader resolution before the technical formalism depends on them.
 
 Reader chain:
