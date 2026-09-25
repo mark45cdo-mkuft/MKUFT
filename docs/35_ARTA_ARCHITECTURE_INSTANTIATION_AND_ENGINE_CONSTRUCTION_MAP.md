@@ -1,4 +1,3 @@
-
 # 35 — ARTA Architecture Instantiation and Engine Construction Map
 
 **Author:** Mark Charles McLaughlin  
@@ -39,7 +38,7 @@ A builder still needs a different object:
 
 This module is that map.
 
-It is a **construction and conformance layer** over existing canonical owners. It does not replace those owners and does not claim that one software stack, programming language, model family, database, UI, mathematical formalism, or agent design is uniquely correct.
+It is a **construction and conformance layer** over existing canonical owners. It does not replace those owners and does not claim that one software stack, programming language, model family, database, UI, mathematical formalism, memory carrier, or agent design is uniquely correct.
 
 The implementation burden is:
 
@@ -290,7 +289,67 @@ Avoid both:
 - **history hoarding** — carrying transcript mass with no current load;
 - **wake erasure** — dropping history that still changes identity, prediction, recovery, authority, or continuation.
 
-### Stage 10 — recursive learning
+### Stage 10 — persist future-bearing state and make reconstitution testable
+
+A model context, human working memory, scratchpad, or active session may be a useful **working surface**. It is not automatically the engine's canonical memory owner.
+
+For any target that must survive interruption or context loss, every state coordinate whose loss can still change the declared continuation must either:
+
+1. remain available at a declared persistent external memory/state owner; or
+2. be represented by a future-sufficient interface with a reliable reopen/restoration route.
+
+No particular storage technology is required. The external owner may be any memory, state, document, database, service, record system, physical record, or other carrier adequate to the target. What matters is that the implementation can identify the owner, recover the required state, preserve its typing and provenance, and verify it before continuing.
+
+Keep logically distinct where load-bearing:
+
+~~~text
+transient working context
+!= persistent addressed state
+!= provenance / reopen store
+!= recursive-learning owner
+~~~
+
+One physical carrier may implement several of those roles. Their logical distinctions must not collapse merely because they share storage.
+
+For a long-horizon AI or coupled system, persistent addressed state may include, where future-bearing:
+
+- current object / target and Address;
+- active boundary and authority/permission state;
+- unresolved remainder;
+- observer/readout dependencies;
+- decision-bearing wake/history;
+- validity/invalidation conditions;
+- provenance and reopen pointers;
+- surviving recursive-learning state.
+
+Do not preserve all transcript mass merely because persistence is available. Future sufficiency still controls what must remain live, and restorative reachability controls what may be screened away while remaining recoverable.
+
+A fresh AI or other reasoner may improve immediately after reading this module and applying its relations in-context. That is a legitimate **instruction/reasoning-transfer effect**. It is not, by itself, evidence that a persistent ARTA engine has been instantiated.
+
+A persistence/continuity claim earns itself only when a restarted or replacement instance can reconstitute the current future-sufficient Address from the declared external owners, reopen lower state when triggered, preserve provenance and authority distinctions, verify the recovered state, and continue without inventing memory.
+
+~~~text
+TRANSIENT WORKING CONTEXT
+          |
+          v
+CURRENT FUTURE-SUFFICIENT ADDRESS
+          |
+          +--> EXTERNAL PERSISTENT STATE OWNER
+          +--> PROVENANCE / REOPEN OWNER
+          +--> LEARNING OWNER
+          |
+      context/session ends
+          |
+          v
+FRESH / RESTARTED INSTANCE
+          |
+          v
+RECONSTITUTE -> VERIFY -> CONTINUE
+~~~
+
+Persistence does not guarantee present validity. A perfectly preserved state may still be stale if the world, authority envelope, observer conditions, or dependencies changed while the system was inactive. Reconstitution therefore restores the candidate addressed state; current validity must still be checked through the reachable observer, event, discriminator, or revalidation route appropriate to the target.
+
+### Stage 11 — recursive learning
 
 After a materially non-trivial traversal, perform a learning return:
 
@@ -313,7 +372,7 @@ The implementation must separately type:
 
 Internal learning authority does **not** automatically imply permission to send, publish, disclose, certify, or mutate an external system.
 
-### Stage 11 — public Canon / release / publication, where applicable
+### Stage 12 — public Canon / release / publication, where applicable
 
 Use the Research Derivation and Closure SOP and Module 34.
 
@@ -349,6 +408,7 @@ BIND parent / target / authority
 → OBSERVE receiver state
 → READDRESS from realised state
 → SCREEN wake
+→ PERSIST future-bearing state / restoration routes where continuity requires it
 → SQUEEZE learning
 → PERSIST only the non-null delta at its lawful owner
 → fixed point / next object
@@ -429,7 +489,7 @@ Required:
 - observation/registration;
 - readdressing.
 
-Suitable for bounded protocols that do not require persistent learning.
+Suitable for bounded protocols that do not require persistent learning or cross-session continuity.
 
 ### 7.2 Recursive Engine
 
@@ -440,6 +500,8 @@ Adds:
 - persistent learning owner;
 - regression library;
 - existing-owner / no-new-anatomy check.
+
+Where the declared target requires continuity across interruption/context loss, it also requires a persistent external state owner or future-sufficient restoration route plus cold-reconstitution verification.
 
 ### 7.3 Human–AI / institutional decision engine
 
@@ -526,6 +588,12 @@ Derived/rendered/repeated carriers must not be counted as independent evidence w
 ### R14 — null suppression
 
 If added architecture does no predictive, operational, safety, recovery, discrimination, or decision work beyond the strongest adequate native system, it must be removable.
+
+### R15 — context-loss continuity
+
+Where persistent continuity is claimed, discard the active working context/session and start from a fresh or restarted instance with only the declared reconstitution route and external persistent owners. If the engine cannot reconstruct the future-sufficient Address, recover the required provenance/authority distinctions, verify current validity, and continue without invented memory, persistent-engine continuity has not been demonstrated for that target.
+
+A fresh reasoner that merely reads Module 35 and performs better in one context demonstrates instruction/reasoning transfer, not R15 conformance.
 
 ---
 
@@ -685,6 +753,8 @@ The module fails as an implementation map if a competent builder cannot tell:
 - what is optional;
 - what runs first;
 - what changes after execution;
+- where future-bearing state persists when continuity is required;
+- how a fresh/restarted instance reconstitutes and verifies that state;
 - where learning goes;
 - what remains human/lawful-authority owned;
 - what counts as a NULL;
@@ -715,4 +785,4 @@ For a scientific builder, also traverse the strongest fair null, experimental, f
 
 ## 16. Canonical compression
 
-> **Build the smallest engine that preserves the distinctions which actually change the declared continuation. Bind the parent and authority first; type the objects; initialise the strongest adequate Address; preserve the honest boundary and observer state; model futures without moving the present; gate before weighting; execute and observe before claiming; readdress from the state actually reached; retain only future-bearing wake; fold non-null learning at its lawful owner; keep private learning, external action, Canon, and release permission separate; test the engine by regressions and NULLs; and route builders through the exact-object rights state plus the single stewardship owner rather than duplicating policy.**
+> **Build the smallest engine that preserves the distinctions which actually change the declared continuation. Bind the parent and authority first; type the objects; initialise the strongest adequate Address; preserve the honest boundary and observer state; model futures without moving the present; gate before weighting; execute and observe before claiming; readdress from the state actually reached; retain only future-bearing wake; where continuity matters, persist future-bearing state at an adequate external owner or preserve a reliable restoration route, then prove reconstitution from a fresh state without invented memory; treat transient context as a working surface rather than automatic canonical memory; verify recovered state because persistence does not guarantee present validity; fold non-null learning at its lawful owner; keep private learning, external action, Canon, and release permission separate; test the engine by regressions and NULLs; and route builders through the exact-object rights state plus the single stewardship owner rather than duplicating policy.**
