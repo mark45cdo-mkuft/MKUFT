@@ -11,6 +11,8 @@
 
 MKUFT is a speculative research framework. It is not presented as an accepted completed theory of physics. Its strongest present claim is narrower: **before a law is applied to a system, the system has to be addressed correctly.**
 
+> **Using the work:** if you are here to learn, test, teach, criticise, reproduce, or independently implement the ideas for genuine non-commercial public benefit, you are on the intended path. [Read the project’s single stewardship/use route.](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md)
+
 The integrated architecture developed through that programme now has a stable live name: **MKUFT Addressed Relational Traversal Architecture (ARTA)**. MKUFT remains the project/framework/publication lineage; ARTA names the integrated architecture inside it. Naming ARTA does not rename earlier frozen publications or change their scientific claim status by naming alone. See [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md).
 
 That sounds simple. It is also where a large number of modelling errors begin.
@@ -45,15 +47,6 @@ That failure condition matters. MKUFT is designed to be reduced when its added s
 ## Choose your route
 
 This `README.md` is the **repository front door**. The two primary entry points are deliberately first:
-
-### A humble note on using the work
-
-If you are here to **learn, test, teach, criticise, reproduce, or independently implement the ideas for genuine non-commercial public benefit**, the project wants the architecture to be usable without unnecessary fear. Preserve attribution and provenance, mark your own changes honestly, and do not imply endorsement or certification that has not been granted.
-
-Commercial or proprietary use of **protected project material** follows a separate permission route. This is a use-context distinction, not a company-size test, and it does not override the licence attached to any exact file or frozen publication.
-
-[Read **Use This Work — Public-Benefit Use and Commercial Stewardship**](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md).
-
 
 1. **Public entry:** [00 — Start Here: Public Entry](00-START-HERE-MKUFT-PUBLIC.md) — the shortest governed route into what MKUFT is, what it claims, and where a reader should go next.
 2. **Scientific entry:** [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) — the bridge from readable explanation into the hard scientific modules, with the question, purpose, broad equation meaning, and early failure point carried forward.
