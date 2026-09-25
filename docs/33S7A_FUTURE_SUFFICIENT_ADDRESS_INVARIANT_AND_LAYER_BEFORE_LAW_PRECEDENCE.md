@@ -417,6 +417,75 @@ High charge does not promote confidence. Residual uncertainty does not erase cha
 
 The time-address of the claim also remains explicit: present registration, past reconstruction from retained evidence, future prediction, and conditional derivation are not interchangeable evidential objects. This is an access and claim-discipline rule, not an ontology of time.
 
+## 5B. Probe-State Separation Corollary
+
+The future-sufficiency family also implies a narrower operational distinction between **prospective reach** and **current-state authority**.
+
+Let (A_t) be the current addressed state for the declared target, and let a model, search, simulation, forecast or discriminator-design process generate a candidate family of future addresses
+
+~~~math
+\widehat{\mathcal A}_{t+\Delta\mid t}
+=
+\mathcal M(A_t,O_t,\mathcal U,E).
+~~~
+
+Membership in that prospective family does not by itself readdress the current state:
+
+~~~math
+\boxed{
+\widehat A_{t+\Delta\mid t}\in\widehat{\mathcal A}_{t+\Delta\mid t}
+\;\not\Longrightarrow\;
+A_t:=\widehat A_{t+\Delta\mid t}.
+}
+~~~
+
+A future branch may lawfully influence present action selection,
+
+~~~math
+a_t
+=
+\pi\!\left(A_t,\widehat{\mathcal F}^{+}_{t}\right),
+~~~
+
+without being promoted into present fact, evidence or state authority.
+
+Readdressing is earned only when a declared realised or registered update supplies the transition actually required by the owning model:
+
+~~~math
+(A_t,O_t)
+\xrightarrow{\;\tau_t,\,r_t\;}
+(A_{t+1},O_{t+1}).
+~~~
+
+Here (\tau_t) may be a physical transition, intervention, elapsed-time evolution under a declared model, or another lawful state transition, while (r_t) denotes the relevant registration/readout where one is required. The corollary does **not** require a fresh measurement for every state update; it requires that the update be the one actually licensed by the model and realised conditions rather than a merely imagined downstream address.
+
+Compactly:
+
+> **Probe length is not state advancement.**
+
+and:
+
+> **A projected future may guide the present without becoming the present.**
+
+This prevents a specific failure mode:
+
+~~~text
+current address
+→ projected future address
+→ projected address silently treated as realised
+→ downstream reasoning proceeds from an unearned state
+~~~
+
+Call this **speculative-state substitution** or, geometrically, a **false second node**. The correct repair is to return the projected node to model-space, restore the last earned address, and keep any useful prospective branch explicitly conditional until the transition that would promote it is realised/registered.
+
+The reciprocal guard is equally important. This corollary is **not anti-prospection**. Long-horizon modelling, counterfactual branching, admissible-future search, planning and discriminator design remain lawful and may be decision-bearing now. The rule constrains **state authority**, not imagination or planning depth.
+
+Likewise, “one current node” does not mean one deterministic hypothesis. The current addressed state may itself be a distribution, ensemble, equivalence class, branch set or uncertainty-bearing object. The corollary requires one correctly typed **current addressed object**, not a fictitious singleton world-state.
+
+Geometric or cultural illustrations may teach this relation, but no diagram, symbol or visual resemblance supplies independent scientific evidence for it. The scientific warrant is the already-canonical AAF/FSAI/FSSR transition/readdressing structure above.
+
+This is a canonical naming/sharpening of an existing future-sufficiency consequence. It adds no new physical law, ontology, observer privilege or independent mechanism.
+
 ## 6. Claim and novelty boundary
 
 This naming/fold note does not claim that predictive equivalence, observability, hidden/internal state, active probing, state augmentation, compositionality, black-boxing, interface contracts, dependency graphs, provenance, local-to-global consistency, model discrimination, experimental design, invariance/equivariance, quotienting, nuisance-parameter elimination, or sufficient statistics are individually new. Those neighbouring ingredients are established and are treated as such in the parent papers and the compositional-schema prior-art comparison.
