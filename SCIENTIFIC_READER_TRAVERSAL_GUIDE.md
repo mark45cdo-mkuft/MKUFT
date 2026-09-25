@@ -691,6 +691,8 @@ For a non-academic first pass, use [Start Here — Public Overview](START_HERE_P
 
 This scientific traversal guide begins one level later. It assumes the central problem is already understood and carries the reader through the hard scientific chain without restarting from zero at every module.
 
+A reader who has finished the conceptual/scientific route and wants to **instantiate the architecture rather than merely read it** should continue to [35 — ARTA Architecture Instantiation and Engine Construction Map](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md). Module 35 is an implementation map, not a new scientific step and not a software licence.
+
 ## Final reader contract
 
 The scientific route should satisfy all of the following:
