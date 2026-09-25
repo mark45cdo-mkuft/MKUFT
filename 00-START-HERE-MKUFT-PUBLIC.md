@@ -25,11 +25,7 @@ The measurement/readout is part of that test because it has to be able to resolv
 
 ## Before you choose: using the work
 
-This project is public because it is meant to be **read, challenged, tested, taught and — where it genuinely helps — used**. Good-faith non-commercial public-benefit users should not have to approach the architecture as though the repository were a legal trap.
-
-The exact object's licence still controls. Commercial/proprietary use of protected material follows a separate permission route, while lawful independent implementation of ideas or methods is not silently converted into copyright infringement by this note.
-
-[Read **Use This Work — Public-Benefit Use and Commercial Stewardship**](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md).
+Good-faith non-commercial public-benefit use is an intended path; exact-object rights still control. [Read the single canonical stewardship/use route.](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md)
 
 ## Choose your route
 
