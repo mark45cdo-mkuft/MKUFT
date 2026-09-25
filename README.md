@@ -58,6 +58,7 @@ Useful supporting routes:
 - [MKUFT Addressed Relational Traversal Architecture (ARTA) — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md) — canonical name and exact scope of the integrated architecture.
 - [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md) — check whether an MKUFT term is distinct or familiar science under another handle.
 - [Canon Map](CANON_MAP.md) — full technical dependency structure for readers who already know the architecture.
+- [ARTA Engine Construction Map — Module 35](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md) — builder/implementer route for instantiating the live architecture as an engine, workflow, protocol, or human–AI system without inventing a second architecture.
 
 These routes have different jobs:
 
@@ -70,6 +71,7 @@ Scientific Reader Traversal Guide = scientific entry into the technical body
 Stewardship/use route = one shared public-benefit/commercial-use owner for every reader entry
 ARTA naming route = integrated-architecture identity and provenance
 Canon Map = full technical dependency structure
+Module 35 = implementation/engine-construction route for builders
 ```
 
 If you are unsure where to begin, take the **00 Public Entry**.
