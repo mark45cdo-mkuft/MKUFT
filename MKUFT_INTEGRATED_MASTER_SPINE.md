@@ -983,6 +983,16 @@ FSSR / FSAI / LBLP:
 attack same-state equivalence with a lawful future → confirm split independently → recruit the minimum typed repair → remove/restore → readdress
 state/address adequacy before law revision
 
+Directional GRACE geometry:
+after truth/admissibility are fixed, compare surviving routes by named future-bearing capacities
+repeated route choices can widen / narrow / mix the next admissible geometry
+no universal scalar "up/down" law
+
+Metaphysical interrogation:
+metaphysics may supply a question / comparison
+≠ scientific evidence / mechanism / closure
+map shared structure → isolate surplus claim → test only through a domain-native discriminator
+
 Enabling-constraint pair, when comparable:
 Δμ_ℓ < 0 while Δν_L > 0
 
