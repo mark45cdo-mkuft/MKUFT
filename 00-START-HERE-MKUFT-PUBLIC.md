@@ -23,6 +23,14 @@ A second rule follows in plain English: **extra complexity has to earn itself.**
 
 The measurement/readout is part of that test because it has to be able to resolve the claimed difference. MKUFT's `O` address is used conservatively for that observer/registration position; it is not, by itself, a claim that an observer creates the physical outcome.
 
+## Before you choose: using the work
+
+This project is public because it is meant to be **read, challenged, tested, taught and — where it genuinely helps — used**. Good-faith non-commercial public-benefit users should not have to approach the architecture as though the repository were a legal trap.
+
+The exact object's licence still controls. Commercial/proprietary use of protected material follows a separate permission route, while lawful independent implementation of ideas or methods is not silently converted into copyright infringement by this note.
+
+[Read **Use This Work — Public-Benefit Use and Commercial Stewardship**](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md).
+
 ## Choose your route
 
 **Public entry — you are here.** This page is the level-zero route selector. It gives the project boundary first and then hands the reader to the appropriate level of detail.
