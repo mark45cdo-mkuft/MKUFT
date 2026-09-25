@@ -143,6 +143,45 @@ current admissible state
 
 Repeated local choices can consequently produce a path-dependent cascade. A route that repeatedly preserves the relations needed for truthful correction and recovery can keep more restorative futures reachable; a route that repeatedly consumes those relations can narrow the later admissible future even when each local step looked coherent in isolation. Not every case admits one scalar `up/down` score, and mixed or neutral effects are possible; the operational burden is to state which named future-bearing capacities were preserved, enlarged, consumed, or left unresolved.
 
+### Directional evolution as future-geometry shorthand
+
+In human, adaptive or metaphysical discussion it can be useful to speak loosely of a route as moving **upward** or **downward**. MKUFT does not turn that language into one universal scalar, moral field or physical direction.
+
+The canonical content is relational and future-facing.
+
+After truth, evidence, law, safety, consent, permission and the declared target have fixed the admissible set, an “upward” shorthand may be used only where the surviving route **preserves or enlarges named future-bearing capacities** such as:
+
+- truthful feedback;
+- agency and lawful choice;
+- correction and error recovery;
+- cooperation or cohesion where the target genuinely depends on them;
+- provenance and memory needed for later repair;
+- reversibility or option preservation;
+- restorative reachability.
+
+A “downward” shorthand may be used only where a route **consumes or narrows** those same declared capacities while leaving no compensating target-relevant gain that justifies the loss. Mixed, neutral and locally opposite effects remain possible.
+
+Repeated route choices can therefore produce a spiral-like picture:
+
+~~~text
+current admissible geometry
+→ route choice
+→ changed future-bearing capacities
+→ changed next admissible geometry
+→ next route choice inherits that deformation
+→ recursive widening / narrowing / mixed evolution
+~~~
+
+The word **spiral** is a teaching picture for path-dependent recursion. It is not a claim that adaptive, biological or metaphysical evolution follows a literal geometric spiral.
+
+For evolutionary or adaptive applications, the empirical question remains domain-native: which feedback, agency, correction, cooperation, robustness or recovery capacities are actually retained, selected, lost or transformed across iterations? Natural selection is not assigned a moral direction by this shorthand.
+
+The bounded operational statement is:
+
+> **Where several lawful, target-sufficient routes survive, prefer the route that preserves or enlarges the named future-bearing capacities the object will need for truthful correction and recoverability; verify the realised deformation and readdress.**
+
+This is the disciplined content behind informal “choose up” language. The preference acts only after the truth/admissibility boundary is fixed and therefore cannot rescue a false claim, unsafe route or inadmissible action.
+
 For reconstruction purposes, use:
 
 ```text
