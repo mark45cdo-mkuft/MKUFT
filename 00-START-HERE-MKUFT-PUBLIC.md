@@ -37,6 +37,8 @@ Good-faith non-commercial public-benefit use is an intended path; exact-object r
 
 **Reader asking what the integrated architecture itself is called:** [MKUFT Addressed Relational Traversal Architecture (ARTA) — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md). ARTA is the proper name of the integrated architecture; **Functional Configuration** remains the general class used to test whether an exact assembly itself carries reproducible function.
 
+**Builder / implementer asking how to construct the architecture as an engine or workflow:** [35 — ARTA Architecture Instantiation and Engine Construction Map](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md). It gives the implementation-neutral build order, typed runtime packet, recursive-learning/publication separation, conformance profiles and regressions. It is not a software licence or certification.
+
 **Reader deciding whether the work is worth further time:** [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md). It gives immediate relevance by field, known reader-interface failures, scientific failure conditions, and quick ways to challenge the work.
 
 **Reader checking whether an MKUFT term is genuinely distinct or merely familiar science under another handle:** use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). This is an optional cross-check, not another required reading stage. It gives the plain object, closest established neighbours, what those neighbours already own, the residual MKUFT claim, and the reduction/kill condition. It deliberately does not pretend that every term has one exact scientific equivalent.
