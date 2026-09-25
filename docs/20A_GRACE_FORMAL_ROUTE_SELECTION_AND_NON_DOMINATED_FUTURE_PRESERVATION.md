@@ -81,6 +81,75 @@ This preserves the parent rule:
 
 > **Care chooses among surviving lawful routes; it does not edit the truth surface.**
 
+## 3A. Gate-weight separation and authority-custodied readdressing
+
+A hard admissibility condition is not merely a very large negative weight.
+
+If
+
+~~~math
+\mathsf{Adm}_{\Sigma_t}(u\mid A_t)=0,
+~~~
+
+then an extreme downstream benefit, survival estimate, mission gain, welfare score, restorative reserve, or other consequence does **not** by itself imply
+
+~~~math
+\mathsf{Adm}_{\Sigma_t}(u\mid A_t)=1.
+~~~
+
+The route remains outside the admissible set until the **boundary object that owns the gate** is lawfully readdressed.
+
+Compactly:
+
+> **Some costs are not weights. They are gates.**
+
+A consequence can still be decision-bearing. Let (C_t(u)) denote a typed consequence profile and let (Omega) denote the domain-native authority, rule, institution, consent state, emergency doctrine, or other owner capable of changing the applicable boundary. Then a sufficiently serious consequence may trigger a review/readdressing operation,
+
+~~~text
+inadmissible route under Σ_t
++ materially changed consequence/evidence state
+→ identify the owner Ω of the blocking boundary
+→ test whether Ω already contains a lawful exception / necessity / override rule
+→ if yes: apply that rule explicitly and produce a new boundary state Σ'_t
+→ if no or unresolved: preserve the route as inadmissible and return the conflict to the lawful authority owner
+→ only then recompute admissibility
+~~~
+
+The consequence therefore has two possible roles:
+
+1. **inside an already admissible set**, it may contribute to typed route comparison;
+2. **outside that set**, it may justify review, escalation, information gathering, or readdressing of the boundary by its lawful owner.
+
+It does **not** perform the boundary update merely by being large.
+
+Formally, where (mathcal R_{Omega}) is the lawful boundary-review operator,
+
+~~~math
+\Sigma'_t
+=
+\mathcal R_{\Omega}(\Sigma_t,A_t,E_t,C_t)
+~~~
+
+may return an updated boundary state or no authorised change. A previously excluded route (u) may re-enter candidate comparison only if
+
+~~~math
+\mathsf{Adm}_{\Sigma'_t}(u\mid A_t)=1.
+~~~
+
+This distinction matters most in emergency, existential, medical, military, governance and human–AI settings. A decision-support system may estimate catastrophic consequences, identify that the current admissible set is empty or inadequate, expose which boundary creates the conflict, and state what authorised exception would have to be invoked. It must not silently convert consequence magnitude into consent, permission, legal authority, moral authority or command authority.
+
+Where the receiving domain already defines a necessity or emergency exception, that exception belongs in (Sigma) and may be evaluated normally against its declared trigger conditions. The framework does not forbid exceptions. It forbids **unowned exception manufacture**.
+
+Likewise, GRACE does not decide which ethical or legal propositions are hard gates. Those come from the receiving domain, declared authority structure, consent state, law, safety model or task specification. The architectural invariant is only:
+
+> **A gate changes by lawful readdressing at its owner, not by being outweighed downstream.**
+
+If an authorised override is exercised, preserve its provenance and scope. The earlier route is not retroactively rewritten as having always been admissible, and the override does not automatically persist after the realised transition changes the Address.
+
+This composes with Module 33S6:
+
+> **Readdress the permission as well as the state.**
+
 ## 4. Target sufficiency without counterfeit scalarisation
 
 Let the declared target-performance profile be
