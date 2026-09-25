@@ -892,6 +892,16 @@ The public canon must not contain non-public personal data, private corresponden
 
 Development-stage context should be translated into a public invariant or retired rather than published merely because it helped discovery.
 
+### 15.1 Architecture instantiation / engine-construction handoff
+
+The scientific architecture and its public implementation map remain separate objects.
+
+A reader or builder who wants to instantiate ARTA as software, a protocol, a human–AI workflow, a multi-agent system, or an institutional decision process should use [35 — ARTA Architecture Instantiation and Engine Construction Map](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md).
+
+Module 35 composes existing owners into a build order, runtime packet, conformance profiles and regression suite. It does not reopen Module 33's architectural update object, create a new physical mechanism, certify an implementation, or turn one codebase into canonical ARTA.
+
+The detailed rights/use policy remains owned by the [single stewardship/use route](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md); Module 35 points there rather than copying the policy.
+
 ## 16. One-page compression
 
 ```text
@@ -1042,6 +1052,13 @@ Y_L ≥ Y_*
 
 Integrity:
 Define once. Type the address. Build admissibility. Assemble the law object. Promote a relation into explicit state only when it carries prospective recursive load. Earn higher-address law ownership per property. Do not inherit local performance across scale. Treat recovery as conditional reachability. After a realised transition, readdress before inheriting an earlier continuation. Test the coupling. Recover the baseline. Keep the falsifier.
+
+Engine construction:
+Module 35 = implementation-neutral builder map
+canonical owners → typed interfaces → runtime loop → regressions / NULLs
+one implementation != Canon
+internal learning != external action != public Canon
+builder rights/use → exact-object rights + single stewardship owner
 ```
 
 ## 17. Final statement
