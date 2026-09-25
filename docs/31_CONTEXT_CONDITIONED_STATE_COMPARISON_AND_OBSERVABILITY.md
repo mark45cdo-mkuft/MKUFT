@@ -465,6 +465,68 @@ Small $D_K^{\mathrm{rep}}$ across a strong and varied address family supports re
 
 The test is only meaningful when the translations preserve the intended target. A failed comparison caused by changing the subject is not evidence that the original structure was merely observer-created.
 
+### 11.3A Representation–Observer Equivalence Corollary
+
+A lawful representation transform may preserve the underlying comparison object while changing what a particular observer, decoder, instrument, model or receiver can recover from it.
+
+Let `x` be the underlying object/carrier, `T` a lawful transform in the declared representation family, `O` the actual observer/registration system, and `R_O^q(x)` the target-relevant relation recoverable by that observer for target `q`.
+
+Then it is possible that
+
+~~~text
+underlying comparison object preserved
+while
+R_O^q(T(x)) != R_O^q(x)
+~~~
+
+for a representation-sensitive observer.
+
+Therefore:
+
+> **Representation equivalence does not imply observer-operation equivalence.**
+
+Object identity and observer-operation state are separately typed. A rotated image, coordinate transform, re-encoding, reordered presentation, changed projection, or other lawful representation move can leave the source object unchanged while altering readability, classification, discriminator reach, candidate distribution, next lawful operation, or target closure for the actual observer architecture.
+
+The performed route matters:
+
+~~~text
+transform available != transform executed
+transform executed != transformed carrier inspected
+transformed carrier inspected != target relation changed
+~~~
+
+A mathematically definable transform is not an observed transform consequence until the transformed carrier is actually generated/encountered and assessed through the relevant observer/readout route.
+
+Three symmetric errors must be blocked:
+
+1. **transform erasure** — `same underlying object -> transform cannot matter to the observer`;
+2. **transform inflation** — changed observer/readout response -> underlying ontology/object itself changed;
+3. **search-latitude inflation** — many transforms are searched post hoc until one evocative representation appears, then the selected hit is treated as independent confirmation without accounting for the expanded search family.
+
+A fourth bookkeeping guard follows directly:
+
+> **Representation count is not object count.**
+
+Several UI views, projections, rotations, encodings or renderings may still refer to one underlying object.
+
+The target-relative null remains available. If matched testing establishes
+
+~~~text
+R_O^q(T(x)) = R_O^q(x)
+~~~
+
+within the declared tolerance across the relevant transform family, the representation transform collapses to NULL for that target/observer pair. Representation sensitivity is not universal.
+
+Likewise, two observers may differ:
+
+~~~text
+R_O1^q(T(x)) != R_O2^q(T(x))
+~~~
+
+without that difference establishing consciousness, privileged ontology, new physics, or independent mechanism. The first localisation is the **observer–representation relation** itself.
+
+This corollary sharpens the existing measurement-relative and representation-invariance framework. It adds no new physical law.
+
 ### 11.4 Construction-address robustness of conclusions
 
 Let $G_\alpha(x)$ be a prediction, theorem-level consequence, classification, or model conclusion expressed at construction address $\alpha$.
