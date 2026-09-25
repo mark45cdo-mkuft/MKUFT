@@ -159,7 +159,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 ### Structural and traversal
 
 - **20 — GRACE:** Geometry, Relation, Admissibility, Coherence, Emergence as a route check, including minimum-destructive restorative readdressing from the state actually reached and a non-scalar directional future-geometry shorthand for repeated widening/narrowing of named future-bearing capacities after admissibility is fixed.
-- **20A — GRACE Formal Route Selection:** applies hard admissibility and target sufficiency before typed non-dominated route comparison; it removes materially dominated lawful routes without inventing a universal scalar utility.
+- **20A — GRACE Formal Route Selection:** applies hard admissibility and target sufficiency before typed non-dominated route comparison; it removes materially dominated lawful routes without inventing a universal scalar utility, and now makes gate-weight separation explicit: severe consequence may trigger owner-custodied boundary review, but an inadmissible route cannot re-enter by score or consequence magnitude alone.
 - **21 — Ambiguity Dynamics:** unresolved feasible volume, route connectivity, and preserved access under declared assumptions.
 - **22 — Cross-Layer Invariants:** layer-specific addressing, variables, spaces, couplings, and falsifiers.
 - **22A — Recursive Address Closure:** no untyped inheritance of version, licence, evidence, causation, authority, or other properties.
