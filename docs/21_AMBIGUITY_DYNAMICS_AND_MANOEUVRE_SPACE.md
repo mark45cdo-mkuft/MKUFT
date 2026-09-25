@@ -181,6 +181,42 @@ If the earlier claim was correctly scoped to the evidence and challenge family t
 
 > **Do not let charge promote confidence. Do not let uncertainty flatten charge. Do not let decision closure masquerade as complete truth closure.**
 
+## 6B. Specified boundary and unresolved exterior
+
+Honest specification does not require ambiguity to collapse to zero.
+
+A useful boundary can make the current interior and frontier more precise while preserving a genuine unresolved exterior. Schematically, for a declared target `q`:
+
+~~~text
+supported / operational interior
++ typed present frontier
++ unresolved exterior still compatible with current evidence and constraints
+~~~
+
+The third term matters. Removing false ambiguity is not the same operation as declaring every remaining possibility false.
+
+Where the domain admits a geometric carrier, the unresolved exterior may be represented as the part of the feasible region still compatible with the present evidence/constraints but not yet resolved by the target-relative boundary. Where no common metric/topology is justified, retain the same distinction qualitatively rather than drawing decorative geometry.
+
+This gives an important anti-collapse rule:
+
+> **Sharper boundary specification can reduce false manoeuvre space while preserving lawful unresolved possibility.**
+
+That unresolved exterior may be scientifically productive: it can contain candidate hypotheses, future-admissible states, alternative reconstructions, or yet-unreached discriminator routes. It becomes problematic only when unresolved volume is treated as established fact, used to evade a supported boundary, or regenerated strategically to preserve access after clarification should have contracted the object.
+
+Accordingly:
+
+~~~text
+unresolved != impossible
+unresolved != established
+boundary precision != total closure
+feasible exterior != current occupancy
+candidate future != authority to transition
+~~~
+
+The word “positive” should therefore not be treated as a universal sign attached to ambiguity. Any beneficial or harmful role is target- and consequence-relative. The canonical object is the **honest unresolved exterior**, not a scalar moral charge on uncertainty.
+
+This section composes with the Boundary-Claim Sufficiency Corollary in Module 33S7A and with Module 31's target-relative representation/observer tests.
+
 ## 7. Semantic constraint and meaning provenance
 
 Interpretive ambiguity is not flat. Candidate meanings are constrained by the communicative object that actually exists.
