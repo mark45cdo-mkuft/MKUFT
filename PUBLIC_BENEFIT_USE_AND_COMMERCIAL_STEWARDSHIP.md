@@ -158,7 +158,21 @@ If you are here to turn protected project material into proprietary commercial a
 
 If you are unsure which exact rights apply, identify the exact object/version first and check the [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md) and [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md).
 
+## External reference points
+
+This routing was stress-tested against the underlying public licence/copyright boundaries rather than inferred from project preference alone:
+
+- Creative Commons BY-NC-SA 4.0 deed: https://creativecommons.org/licenses/by-nc-sa/4.0/
+- Creative Commons BY-NC-SA 4.0 legal code: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+- Creative Commons FAQ, including software-licensing guidance: https://creativecommons.org/faq/
+- UK copyright overview: https://www.gov.uk/copyright
+- UK IPO/GOV.UK IP basics: https://www.gov.uk/government/publications/ip-basics/ip-basics
+
+These sources should be checked again if the legal question or jurisdiction changes.
+
 ## Legal-status boundary
+
+This note states project stewardship policy and intended routing. It is not legal advice to a particular user or a substitute for professional advice on an ambiguous commercial/licensing case.
 
 This note is a canonical statement of project stewardship policy and intended routing.
 
