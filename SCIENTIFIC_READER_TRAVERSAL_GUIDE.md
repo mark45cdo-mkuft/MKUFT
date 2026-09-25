@@ -496,6 +496,19 @@ This is the same future-sufficiency rule applied to the observer side. If an omi
 
 A bounded observer, instrument, or analysis state does not automatically have access to every useful next test. It has a currently reachable family of discriminating operations: measurements, comparisons, perturbations, representation changes, scale moves, retrievals, controlled waits, or questions where a question is genuinely the right scientific instrument.
 
+Representation changes deserve their own caution. **The same underlying object is not automatically the same operational input for every observer.** A lawful rotation, projection, re-encoding, coordinate change, or reordered presentation may leave the source object unchanged while changing which target relation this observer/decoder can actually recover.
+
+That claim must be performed, not imagined:
+
+~~~text
+transform available
+→ transform executed
+→ transformed carrier inspected through the actual observer/readout
+→ target relation compared
+~~~
+
+If the target relation does not change, the transform is NULL for that observer/target. If it does change, localise the effect first to the observer–representation relation. A changed readout is not by itself evidence that the underlying ontology changed, and several transformed views are not several underlying objects.
+
 A useful picture is diagnosing a machine through an inspection hatch. The first opening may let you establish that two apparently similar cases are heading toward different failures. One measurement may then make a second panel accessible; only from that new state does another test become possible. The later test was not secretly available from the first position. **The realised traversal changed what could lawfully be inspected next.**
 
 The metaphor stops at access and sequencing. The technical claim is not that experiments are machines with literal hatches. It is that the declared system state, observer/registration state, retained decision-bearing history, environment, permissions, evidence and tools can constrain the discriminator family actually available at that step.
