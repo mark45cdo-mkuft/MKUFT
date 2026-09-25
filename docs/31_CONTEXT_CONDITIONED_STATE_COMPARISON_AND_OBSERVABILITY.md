@@ -580,6 +580,7 @@ This module composes rather than replaces existing owners:
 - [27 — Typed Traversal and Equation Hygiene](27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md);
 - [08 — LUCY](08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md);
 - [30 — LUCY Threshold Geometry](30_LUCY_THRESHOLD_GEOMETRY_AND_RELATIONAL_CLOSURE.md).
+- [33S7C — Observer-Bounded Traversal](33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) for the traversal consequence of representation-conditioned observer reach.
 
 The present owner is limited to context-conditioned comparison, admissible deformation, measurement-relative state equivalence, target-relative ambiguity closure, support-preserving cross-implementation comparison, and representation-invariance tests across declared construction addresses.
 
