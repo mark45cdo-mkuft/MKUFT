@@ -345,6 +345,47 @@ Where OCQS is recruited as an operating discipline for authoring, use it to redu
 
 > **The prose should show the discipline by being correct, not by narrating the discipline.**
 
+## 9C. Pre-Canon state reconciliation
+
+Before a live research candidate is propagated into public MKUFT Canon, reconcile it against the newest **eligible parent-relevant private learning lineage**.
+
+The aim is not to read everything again. The aim is to prevent a public write from freezing a candidate that is already stale relative to a same-parent correction, superseding note, or newly earned learning result.
+
+Use:
+
+~~~text
+public candidate c
+→ bind exact parent / target address
+→ bind current public-write permission
+→ identify eligible private learning surfaces for that parent
+→ retrieve newer parent-relevant deltas only
+→ preserve provenance lineage
+→ apply explicit correction / supersession ordering
+→ collapse duplicate representations of one source
+→ reject unrelated recency
+→ merge surviving non-null deltas into c
+→ rerun existing-owner / null / regression / reader-route checks
+→ propagate only if still earned and authorised
+~~~
+
+Eligible surfaces can include live K4 recursive-learning returns, relevant C2/Hybrid learning carriers, same-parent handwritten notes or corrections, private working notes, corrected transcriptions, and other explicitly recruited private research sources. Eligibility is defined by **parent/address relevance, evidence state, and authority**, not by timestamp alone.
+
+Keep these guards explicit:
+
+~~~text
+newer != more relevant
+newer != more authoritative
+separate file / image / transcription != independent evidence
+private learning != public Canon
+public-write capability != proof that the candidate is current
+~~~
+
+Where a later note corrects an earlier interpretation, the later correction governs the live candidate while the earlier carrier remains provenance. Where the latest artifact is unrelated to the candidate parent, collapse it NULL.
+
+If no newer eligible parent-relevant delta exists, reconciliation should close quickly. Do not turn this rule into global repository ceremony.
+
+> **Canon must not publish yesterday's private state. Reconcile the newest relevant lineage, not the newest files.**
+
 ## 10. Frozen/public/live separation
 
 Maintain separate identities for:
