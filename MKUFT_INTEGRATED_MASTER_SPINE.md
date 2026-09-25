@@ -823,6 +823,38 @@ MKUFT contains a wider metaphysical interpretation in which God and Love may hav
 
 Scientific claims remain answerable to the variables, measurements, alternatives, and falsifiers of the domain in which they are made.
 
+### 14.1 Metaphysical interrogation bridge
+
+The boundary above does not require MKUFT to ignore metaphysical systems. It permits a disciplined asymmetry:
+
+> **Metaphysics may supply a question, comparison or candidate interpretation; it may not supply scientific evidence, mechanism or closure by authority.**
+
+A metaphysical system can therefore be interrogated with MKUFT's already-earned relations without importing that system's ontology into the scientific state.
+
+Use:
+
+~~~text
+state the external metaphysical claim in its own terms
+→ identify the exact MKUFT relation it appears to resemble
+→ subtract terminology / metaphor and test whether the relation is already canonical
+→ isolate any surplus claim that remains
+→ ask whether that surplus changes a declared future, discriminator, admissible route or falsifier
+→ if no: retain it as philosophical/metaphysical interpretation
+→ if yes: translate it into a domain-native test without carrying metaphysical authority across the boundary
+~~~
+
+This is especially useful for systems that speak in terms such as unity, polarity, service, ascent/descent, integration, separation or directional evolution. Those words may point toward questions already formalised in MKUFT — for example relational closure, future-sufficient Address, GRACE directional future geometry, agency, restorative reachability or recursive readdressing — but lexical resemblance does not establish equivalence.
+
+The comparison has three legitimate outcomes:
+
+1. **Restatement:** the metaphysical language redescribes an already-canonical MKUFT relation and adds no independent scientific content.
+2. **Question generator:** the metaphysical claim exposes a useful distinction or candidate discriminator that MKUFT can test independently.
+3. **Unresolved surplus:** the metaphysical claim remains meaningful only at the philosophical/metaphysical layer because no lawful scientific discriminator has been earned.
+
+None of those outcomes is a scientific failure. The error would be allowing a metaphysical system to certify the mechanism that the scientific layer has not established.
+
+The reciprocal use is also lawful: MKUFT may sharpen the questions asked of a metaphysical system. For example, instead of asking whether a doctrine is simply “true,” ask which of its claims correspond to already-derived relational structure, which make additional commitments, whether those commitments predict a future split, and what evidence would distinguish structural analogy from independent content.
+
 ## 15. Public integrity boundary
 
 The public canon must not contain non-public personal data, private correspondence, credentials, internal-only operating instructions, or uncleared personal case material.
