@@ -17,7 +17,7 @@
 **AAF publication:** DOI `10.5281/zenodo.22031333`  
 **FSSR publication:** DOI `10.5281/zenodo.22058303`  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
-**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated through the published Cross-Domain Compositional Schema v0.4, the later live sideways-interrogation/query-design extension, and the Probe-State Separation Corollary. It does not retroactively alter a frozen publication, treat the v0.4 Bell chart as a universal ontology, or promote an invertible representation into a physical mechanism.
+**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated through the published Cross-Domain Compositional Schema v0.4, the later live sideways-interrogation/query-design extension, the Probe-State Separation Corollary, and the Boundary-Claim Sufficiency Corollary. It does not retroactively alter a frozen publication, treat the v0.4 Bell chart as a universal ontology, or promote an invertible representation into a physical mechanism.
 
 ## 1. Purpose
 
@@ -487,6 +487,73 @@ Likewise, “one current node” does not mean one deterministic hypothesis. The
 Geometric or cultural illustrations may teach this relation, but no diagram, symbol or visual resemblance supplies independent scientific evidence for it. The scientific warrant is the already-canonical AAF/FSAI/FSSR transition/readdressing structure above.
 
 This is a canonical naming/sharpening of an existing future-sufficiency consequence. It adds no new physical law, ontology, observer privilege or independent mechanism.
+
+## 5C. Boundary-Claim Sufficiency Corollary
+
+A load-bearing statement about what is known, unknown, reachable, impossible, permitted, prohibited, representable, or executable is itself an **addressed state claim**. It is therefore subject to the same minimum-sufficiency burden as any other retained coordinate.
+
+Let a boundary description for target `q` at Address `A_t` be a typed packet
+
+~~~text
+B_t^q
+=
+(
+support/evidence,
+inference/model,
+unresolved remainder,
+access/capability,
+authority/permission,
+admissibility/prohibition,
+representation
+)_t^q
+~~~
+
+where only coordinates that can change the declared target, lawful continuation, discriminator, interpretation, or action need remain explicit.
+
+A boundary description is **future-sufficient** only while collapsing two materially different boundary states does not merge continuations that should remain distinct. Thus:
+
+~~~text
+cannot establish X != cannot model/reason about X
+cannot observe X from this route != X is unknowable
+cannot currently access X != X does not exist
+can perform X != authorised to perform X
+not authorised != incapable
+unresolved != impossible
+mathematically unformalised != outside cause/effect
+formal notation != earned precision
+~~~
+
+The compact rule is:
+
+> **An incapacity claim is itself a boundary claim. Preserve the smallest typed frontier that still separates materially different declared futures and lawful operations.**
+
+A well-formed boundary has three parts:
+
+~~~text
+supported / reachable interior
++ typed present frontier
++ unresolved exterior
+~~~
+
+The unresolved exterior remains open without being promoted either to established fact or to impossibility. This is not vagueness. It is scoped non-closure beyond the present evidential/model/access/authority frontier.
+
+Mathematical formalisation is optional and must earn its use. A state-space surface, inequality, classifier or other formal carrier is warranted where it adds a real discriminator, recurrent test, verification rule or readdressing condition. A mathematically sharp frontier unsupported by the evidence/model is **counterfeit boundary precision**.
+
+Conversely, prose may be the stronger representation when the supported boundary is qualitative, mixed-type, authority-bearing, or not yet measurable on one common scale.
+
+Boundary state is temporal:
+
+~~~text
+B_t^q
+→ new evidence / tool / model / permission / realised state / representation
+→ B_(t+1)^q
+~~~
+
+Therefore a current boundary statement must not silently become a timeless identity claim about the system. Readdress the boundary after any material transition in the coordinate that generated it.
+
+This corollary is target-relative and anti-ceremonial. If the finer boundary distinctions cannot change the declared parent, they collapse to ordinary language. It does not require a visible taxonomy for every trivial limitation.
+
+It is also not a physical mechanism claim. The corollary governs claim typing, Address sufficiency and lawful continuation. It does not prove that every unresolved possibility is physically real, that every system can eventually cross every boundary, or that formalising a limit changes the underlying world.
 
 ## 6. Claim and novelty boundary
 
