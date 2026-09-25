@@ -140,7 +140,7 @@ projected / simulated / candidate future
 → readdress only after the owning model's lawful realised/registered transition
 ~~~
 
-If a derivation has silently instantiated a future node and then built further claims from it as though the transition already occurred, return those claims to model-space, restore the last earned Address, and re-run the downstream chain conditionally. This is not a ban on prediction or planning. The current Address may itself be probabilistic or branched; the requirement is correct typing of current versus prospective state.
+If a derivation has silently instantiated a future node and then built further claims from it as though the transition already occurred, return those claims to model-space, restore the last earned Address, and re-run the downstream chain conditionally. If the probe/measurement/intervention is actually executed and is itself state-changing, treat that executed contact as part of the realised transition rather than forcing it to remain in model-space. This is not a ban on prediction or planning. The current Address may itself be probabilistic or branched; the requirement is correct typing of current versus prospective state.
 
 A repair that merely improves fit without surviving remove/restore is not yet load-bearing.
 
