@@ -18,23 +18,15 @@ They do **not** by themselves mean public domain, open source, CC BY, CC BY-NC-S
 
 ## Public-Benefit Stewardship Policy
 
-The repository also carries a reader-facing stewardship route:
+The canonical reader-facing stewardship/use-routing owner is:
 
 [**Use This Work — Public-Benefit Use and Commercial Stewardship**](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md)
 
-Its purpose is to make project intent clear without blurring the legal status of exact objects.
+This Rights Notice does **not** duplicate that policy. Its job is narrower: identify the legal/rights state of exact objects and preserve licence provenance.
 
-The project welcomes good-faith study, criticism, teaching, testing, experimental reproduction, and lawful independent implementation of ideas and methods, particularly for genuine non-commercial research, education, safety, accessibility, humanitarian, community, and other public-benefit purposes.
+The stewardship route does not broaden or narrow an exact object's licence. Historical Creative Commons grants remain attached to their exact licensed objects; current all-rights-reserved material remains reserved unless an exact licence or written permission says otherwise.
 
-Where a current all-rights-reserved object contains copyright-protected expression that a genuine non-commercial public-benefit project needs to reproduce, adapt, translate, or redistribute beyond what applicable law already permits, the standing project posture is a **presumption in favour of no-fee written permission** where Mark Charles McLaughlin owns the relevant rights and the proposed use preserves attribution/provenance, identifies changes, avoids false endorsement/certification, and does not conflict with law, safety obligations, third-party rights, or an existing licence condition.
-
-That posture is **not itself a blanket copyright licence**. It does not silently relicense current all-rights-reserved files. Obtain written permission where permission is legally required so the exact object, scope, conditions, and duration are clear.
-
-Commercial/proprietary use of protected project material follows the separate written-permission route described in the stewardship note.
-
-The route is classified by the **use**, not by organisation size. A small proprietary paid implementation can be commercial; a large institution may conduct genuinely non-commercial public-interest work. Existing exact licence terms remain controlling.
-
-Nothing in this policy revokes, narrows, or adds restrictions to an existing Creative Commons grant. Rights already granted under an exact CC BY or CC BY-NC-SA release remain available under that licence.
+> **Make the door welcoming; keep the rights exact.**
 
 ## DOI and Citation Rule
 
