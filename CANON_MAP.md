@@ -11,6 +11,11 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
 
 ## Reader routes
 
+### Use / stewardship route
+
+[Use This Work — Public-Benefit Use and Commercial Stewardship](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md) is the **single canonical stewardship/use-routing owner** for all reader entry routes. README, Public Entry, Scientific Reader Traversal, Public Overview and indexes may point to it or summarise it briefly; they do not own independent local policy forks. Exact-object licence and rights records remain controlling.
+
+
 ### General architecture
 
 1. [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md)
