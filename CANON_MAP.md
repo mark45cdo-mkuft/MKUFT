@@ -322,7 +322,7 @@ This fold does not make observer context a physical force, does not infer metaph
 
 ## 25 September 2026 — boundary-claim, representation-observer, and moral-authority fold
 
-This fold integrates the later handwritten/C2/K4 boundary and representation-transform squeeze without adding a new module or physical law.
+This fold integrates the later boundary and representation-transform squeeze without adding a new module or physical law.
 
 - **33S7A** owns the **Boundary-Claim Sufficiency Corollary**: a load-bearing boundary statement is itself an addressed state claim. Distinguish support/evidence, inference/model, unresolved remainder, access/capability, authority/permission, admissibility/prohibition, and representation only where those coordinates change the declared future/action. Preserve unsupported exterior as unresolved rather than promoting a local limit into global impossibility.
 - **21 — Ambiguity Dynamics** owns the **specified boundary + unresolved exterior** consequence: honest specification can reduce false manoeuvre space while preserving lawful unresolved possibility. “Positive ambiguity” is not treated as a universal scalar or moral sign.
