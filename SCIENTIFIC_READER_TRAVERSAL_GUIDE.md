@@ -514,6 +514,36 @@ The chain is now coherent enough to become seductive. That is precisely when it 
 
 ---
 
+### Human/AI decision side-route — hard gates before route weighting
+
+The observer/traversal machinery can be used in human-facing or AI-coupled decision support, but one extra boundary must remain explicit.
+
+A hard condition such as consent, permission, safety, legal authority or command authority is not merely a very large negative term inside an optimiser. If the route fails that condition, it is outside the comparison set.
+
+In ordinary language:
+
+> **Some costs are not weights. They are gates.**
+
+A severe consequence can still change the problem. It may trigger urgent review, expose that no admissible route currently satisfies the task, or activate an already-defined emergency/necessity rule. But the consequence does not itself supply the authority to rewrite the gate.
+
+So the decision route is:
+
+~~~text
+model consequences
+→ apply hard boundaries
+→ compare only surviving routes
+→ if catastrophic consequence collides with the boundary:
+   identify the boundary owner / real exception rule
+   → lawfully readdress the boundary or preserve the unresolved authority fork
+→ then continue
+~~~
+
+For an AI system, consequence modelling and override authority are different objects. The system may expose the collision and its downstream cost without claiming the authority to resolve a human/legal/moral gate that has not been delegated to it.
+
+This is an applied GRACE side-route, not a new physical mechanism.
+
+---
+
 ## 12. Hostile controls, prior art and falsification — coherence is not confirmation
 
 Read:
