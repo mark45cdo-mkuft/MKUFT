@@ -585,4 +585,4 @@ The present owner is limited to context-conditioned comparison, admissible defor
 
 ## 15. Compressed rule
 
-> Preserve the comparison class before perturbing it. Preserve support before transferring a relation. Distinguish measurement resolution from system closure. Close only the target that has earned closure. Every operational model is addressed; abstraction earns strength by surviving lawful changes of address.
+> Preserve the comparison class before perturbing it. Preserve support before transferring a relation. Distinguish measurement resolution from system closure. Close only the target that has earned closure. Every operational model is addressed; abstraction earns strength by surviving lawful changes of address. Representation equivalence does not guarantee observer-operation equivalence: perform and inspect the lawful transform, keep object count separate from representation count, and localise any delta to the observer–representation relation before widening it into ontology.
