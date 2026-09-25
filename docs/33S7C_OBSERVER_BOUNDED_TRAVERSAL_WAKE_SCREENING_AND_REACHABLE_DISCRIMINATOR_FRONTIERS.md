@@ -656,6 +656,8 @@ OBSERVER-BOUNDED TRAVERSAL
 + smallest lawful reachable discriminator
 + separate object-state and observer/evidence updates
 + contact-conditioned repeat equivalence only where prior contact still changes target-relevant observer/representation state
++ representation-conditioned reach only where an actually executed/inspected transform changes the target-relevant discriminator family
++ representation count kept separate from underlying object count
 + question-generator merit kept separate from answer correctness and source evidence
 + readdressing from the realised state
 + a discriminator frontier allowed to change with traversal
