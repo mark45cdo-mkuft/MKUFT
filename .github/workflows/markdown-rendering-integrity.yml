@@ -62,27 +62,51 @@ jobs:
           }
           paren = re.compile(r'\(([^()]*)\)')
 
-          def repair_group(body):
-              if not ('\\' in body or '_' in body or body.startswith('widehat{') or body.startswith('mathcal ')):
-                  return None
-              if body.startswith('widehat{'):
-                  body = '\\' + body
-              if body.startswith('mathcal '):
-                  body = '\\mathcal ' + body[len('mathcal '):]
-              return '$' + body + '$'
-
-          for filename, line_numbers in targets.items():
+          for filename, bad_lines in targets.items():
               path = Path(filename)
               lines = path.read_text(encoding='utf-8').splitlines(keepends=True)
-              for n in sorted(line_numbers):
-                  original = lines[n-1]
-                  def repl(match):
-                      fixed = repair_group(match.group(1))
-                      return fixed if fixed is not None else match.group(0)
+              fence_pairs = set()
+              prose_lines = set()
+              for n in sorted(bad_lines):
+                  i = n - 1
+                  start = None
+                  for j in range(i, -1, -1):
+                      if lines[j].strip() == '~~~math':
+                          start = j
+                          break
+                      if lines[j].strip().startswith(('```', '~~~')):
+                          break
+                  if start is not None:
+                      end = None
+                      for j in range(start + 1, len(lines)):
+                          if lines[j].strip() == '~~~':
+                              end = j
+                              break
+                      if end is None or not (start < i < end):
+                          raise SystemExit(f'{filename}:{n}: malformed math fence')
+                      fence_pairs.add((start, end))
+                  else:
+                      prose_lines.add(i)
+
+              for start, end in fence_pairs:
+                  lines[start] = lines[start].replace('~~~math', '```math', 1)
+                  lines[end] = lines[end].replace('~~~', '```', 1)
+
+              for i in prose_lines:
+                  original = lines[i]
+                  def repl(m):
+                      body = m.group(1)
+                      if '\\' not in body and '_' not in body and not body.startswith('widehat{') and not body.startswith('mathcal '):
+                          return m.group(0)
+                      if body.startswith('widehat{'):
+                          body = '\\' + body
+                      if body.startswith('mathcal '):
+                          body = '\\mathcal ' + body[len('mathcal '):]
+                      return '$' + body + '$'
                   changed = paren.sub(repl, original)
                   if changed == original:
-                      raise SystemExit(f'{filename}:{n}: expected safe carrier repair not found')
-                  lines[n-1] = changed
+                      raise SystemExit(f'{filename}:{i+1}: expected prose math carrier not found')
+                  lines[i] = changed
               path.write_text(''.join(lines), encoding='utf-8')
 
           p = Path('docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md')
