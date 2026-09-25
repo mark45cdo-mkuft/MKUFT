@@ -302,6 +302,8 @@ The `O` in SIPO is used conservatively here as the observer/registration positio
 
 **Plain version:** if two states look the same to your model but reliably go different ways, your model has forgotten something.
 
+At first contact, though, do not respond by stuffing every available fact into the state. Start from the strongest adequate ordinary/native description for the target. If the exact state is uncertain, carry that uncertainty honestly. Extra history, observer context or relational detail joins the live Address only when future behaviour shows that the simpler description merges cases that should not have been merged.
+
 [Read Address Sufficiency and Predictive Closure](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md).
 
 ### Rate-Conditioned Addressing
@@ -359,7 +361,9 @@ That is the FSSR assay inside the wider SIPO loop. It does not make the observer
 
 **Failure prevented:** treating the observer as omniscient, carrying all history forever, assuming the best later question was available earlier, or turning a verbal question into a privileged scientific operator.
 
-**Plain version:** imagine diagnosing a machine through a small inspection hatch. At first you can see only enough to know that two apparently similar cases are heading toward different failures. One measurement lets you open a second panel; from there a test becomes possible that literally could not be performed from the first position. The machine did not reveal a mystical hidden answer. **The state you reached changed what you could lawfully inspect next.**
+**Plain version:** modelling the observer does **not** mean building a model of the whole universe that produced the observer. That would turn causal ancestry into live state whether or not it matters. Carry only the observer/readout/context that can still change the relevant future or the next lawful test. If some omitted context later proves load-bearing, add it then.
+
+Now imagine diagnosing a machine through a small inspection hatch. At first you can see only enough to know that two apparently similar cases are heading toward different failures. One measurement lets you open a second panel; from there a test becomes possible that literally could not be performed from the first position. The machine did not reveal a mystical hidden answer. **The state you reached changed what you could lawfully inspect next.**
 
 The picture stops there. In the technical module, the hatch is the declared observer/registration and access state; the available inspections are the reachable discriminator family; and retained history stays active only while removing it would still change the declared future after the best present-state description is supplied.
 
@@ -378,6 +382,29 @@ current addressed state + current readout/access
 A question is one possible discriminator. A measurement, comparison, perturbation, representation change, scale move, retrieval, or controlled wait may do the same scientific job more directly.
 
 [Read Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md).
+
+### Metaphysical comparison boundary
+
+**Question:** can MKUFT use a metaphysical system without letting belief leak into the scientific evidence surface?
+
+**Failure prevented:** using a doctrine, spiritual vocabulary, symbolic resemblance or philosophical authority to certify a mechanism that the scientific layer has not established.
+
+**Plain version:** a metaphysical system can give you a question worth asking. It cannot answer the laboratory question by authority.
+
+Use the comparison like this:
+
+~~~text
+state the metaphysical claim in its own terms
+→ map only the part that genuinely resembles an MKUFT relation
+→ ask what extra claim remains after the shared wording is removed
+→ does that extra claim predict a new distinction or discriminator?
+   → no: keep it philosophical/metaphysical
+   → yes: translate it into an ordinary domain-native test
+~~~
+
+This is also how directional language such as unity/separation, ascent/descent, service, integration or “up/down” should be handled. GRACE already contains a future-facing route geometry: lawful choices can preserve or consume truthful feedback, agency, correction, cohesion, reversibility and restorative reach. That structural overlap may sharpen the question asked of a metaphysical system; it does not make the metaphysical system evidence for MKUFT or vice versa.
+
+[Read the Metaphysical Boundary in the Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md#14-metaphysical-boundary) and [GRACE Traversal Rule](docs/20_GRACE_TRAVERSAL_RULE.md).
 
 ### Cross-Domain Compositional Schema
 
