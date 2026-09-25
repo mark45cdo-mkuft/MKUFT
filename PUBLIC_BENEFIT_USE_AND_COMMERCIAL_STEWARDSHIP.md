@@ -61,6 +61,8 @@ You do **not** need special project permission merely to:
 - independently implement facts, abstract ideas, scientific principles, mathematical relationships, methods, functionality, or other material that copyright does not monopolise;
 - write your own code implementing an idea or method, provided you are not copying protected source code or other protected expression.
 
+> **If the exact licence or applicable law already gives you the right to do what you are doing, you do not need a second courtesy permission from the project. Use the right you already have, preserve the provenance the licence requires, and carry on.**
+
 Where a current live repository object is **all rights reserved** and a genuine non-commercial public-benefit project needs permission to reproduce, adapt, translate, or redistribute protected text, diagrams, tables, or other expression beyond what applicable law already permits, the project's standing policy is a **presumption in favour of no-fee written permission** where Mark Charles McLaughlin has the rights to grant it and the use:
 
 - is genuinely non-commercial and not primarily directed toward commercial advantage;
