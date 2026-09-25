@@ -304,6 +304,8 @@ The `O` in SIPO is used conservatively here as the observer/registration positio
 
 At first contact, though, do not respond by stuffing every available fact into the state. Start from the strongest adequate ordinary/native description for the target. If the exact state is uncertain, carry that uncertainty honestly. Extra history, observer context or relational detail joins the live Address only when future behaviour shows that the simpler description merges cases that should not have been merged.
 
+The same applies to a claim that the system has hit a limit. **Not established, not accessible, not authorised, prohibited and impossible are different statements.** A useful boundary tells you what is supported now, what kind of frontier has been reached, and what remains unresolved beyond it. Do not turn a local limit into a global impossibility merely because `can't` is shorter.
+
 [Read Address Sufficiency and Predictive Closure](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md).
 
 ### Rate-Conditioned Addressing
@@ -367,6 +369,8 @@ Now imagine diagnosing a machine through a small inspection hatch. At first you 
 
 The picture stops there. In the technical module, the hatch is the declared observer/registration and access state; the available inspections are the reachable discriminator family; and retained history stays active only while removing it would still change the declared future after the best present-state description is supplied.
 
+Representation can change that access without changing the underlying object. The same image may become readable after rotation; the same data may expose a different relation after a lawful re-encoding or projection; one observer may change while another remains invariant. **Same object does not automatically mean same observer-operation.** But the transform must actually be performed and inspected before its consequence is claimed, and a changed readout does not by itself prove that the underlying ontology changed.
+
 So the recursive route is:
 
 ```text
@@ -404,6 +408,8 @@ hard-gated route
 ~~~
 
 For AI-coupled use, this is the clean distinction between **decision support** and **self-authorised override**. The system can expose the collision and its consequences. It does not gain consent or command authority because its arithmetic says the stakes are high.
+
+That separation runs both ways. An AI/system can be causally consequential and subject to applicable moral, safety or legal constraints without owning the final human decision. Not owning the decision is **not** the same as being outside consequence or constraint. Understanding does not create sovereignty; lack of sovereignty does not create exemption.
 
 [Read GRACE](docs/20_GRACE_TRAVERSAL_RULE.md) and [GRACE Formal Route Selection](docs/20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md).
 
@@ -493,6 +499,8 @@ Attack ATLD with matched controls.
 Can a flat or replayed system recover the same result? Does relation scrambling matter? Does removing the claimed load-bearing structure produce the predicted failure? Are time, tokens, compute, information access, revision opportunity, and task distribution matched?
 
 If not, apparent “emergence” may just be ordinary tooling advantage.
+
+Also test representation/observer sensitivity directly. Hold the underlying object fixed, vary a lawful representation, and ask whether the target-relevant relation available to the model changes. If it does, localise that difference to the observer–representation relation before making claims about ontology, consciousness or new physics.
 
 ### If you work in control or engineering
 
