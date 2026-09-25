@@ -8,6 +8,14 @@ The intended reader is intelligent and scientifically literate, but not assumed 
 
 **Category lock:** treat MKUFT in this guide as a typed research architecture / methodological framework whose stronger physics-facing claims remain separate scientific burdens. Repeated structural questions across physics, biology, AI/software, control, or other domains do not establish one shared mechanism; each receiving domain must close on its own native objects, mathematics, measurements, baselines, and falsifiers.
 
+## Use / stewardship route
+
+Scientific scrutiny is welcome. So are good-faith non-commercial efforts to test, teach, reproduce, or independently implement the ideas where they genuinely help.
+
+The exact object's licence and rights status still controls any copying, adaptation, redistribution, software reuse, or other protected-material use. Commercial/proprietary use of protected project material follows a separate route.
+
+[Read **Use This Work — Public-Benefit Use and Commercial Stewardship**](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md).
+
 ## Carry this object through the whole guide
 
 For a declared operation, MKUFT treats the effective system description as sufficient only while it preserves the minimum typed distinctions needed to keep materially different relevant admissible futures from being falsely merged. This is the central object carried through the scientific chain.
