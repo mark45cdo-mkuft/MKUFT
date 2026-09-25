@@ -59,6 +59,28 @@ truth / evidence / law / safety / permission fixed
 
 This is not a universal optimisation function. A required correction can still be costly, an unsafe relation may need to end, and a hard boundary may dominate preservation. The kernel says only that unnecessary destruction is not a scientific virtue.
 
+A further guard is required where downstream consequences become extreme:
+
+> **Some costs are not weights. They are gates.**
+
+If a route is outside the admissible set because of law, safety, consent, permission, authority or another declared hard boundary, a better mission outcome, survival estimate, welfare score or restorative forecast does not silently buy that route back. The consequence may be serious enough to require **boundary review**, but the review belongs to the rule/authority that owns the boundary.
+
+Use:
+
+~~~text
+hard-gated route
++ new catastrophic / existential / mission-critical consequence
+→ model the consequence honestly
+→ identify the exact blocking boundary and its owner
+→ test any already-declared emergency / necessity / override rule
+→ if authorised, readdress the boundary explicitly
+→ if not, preserve the route as inadmissible and return the unresolved authority residue
+~~~
+
+This is especially important in AI-coupled use. A model may expose the collision and its downstream cost. It does not gain consent, legal authority, moral authority or command authority merely by calculating that the stakes are high.
+
+The rule is not anti-exception. A real emergency doctrine or authorised override remains available where the receiving domain actually supplies one. What is prohibited is **unowned exception manufacture**: treating consequence magnitude as if it were itself the permission to cross the gate.
+
 For human-facing applications, this is the clean public expression of the framework's loving/cohesive orientation:
 
 > **Care chooses among surviving lawful routes; it does not edit the truth surface.**
