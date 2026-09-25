@@ -279,6 +279,12 @@ The previous step showed that current performance and recoverability can separat
 
 It asks whether the variables currently used to describe a system are sufficient for the future quantity that matters.
 
+But there is a prior practical question: **what do you start with before any special history or observer context has earned a place?**
+
+MKUFT's answer is not “everything you can think of.” Start with the strongest adequate native description for the system and target. If you do not yet know the exact state, start with the honest uncertainty-bearing state-space object — a distribution, ensemble, admissible set or equivalent native representation — rather than inventing a precise state. Then let future behaviour tell you whether anything else must be recruited.
+
+In plain English: **begin with the best ordinary description that should work; make extra context earn its keep.**
+
 The address map groups states according to the variables currently retained. The residual equation then asks: **among states the model currently calls equivalent, how different can their target futures still be?**
 
 If that future difference is larger than the declared tolerance, the state description is missing something.
@@ -472,6 +478,10 @@ FSSR has given us a controlled future-splitting burden and a declared registrati
 
 It refuses a hidden omniscience assumption.
 
+It also blocks the opposite mistake: **modelling an observer does not mean modelling the whole universe that produced the observer.** A person, instrument or analysis state has an enormous causal history, but most of that history is irrelevant to the declared scientific task. The active observer/address carries only the access, memory, calibration, representation, evidence or context that still changes the relevant future or the next discriminator.
+
+This is the same future-sufficiency rule applied to the observer side. If an omitted part of the wider context later changes the result, recruit it. If it does not, leave it in background/provenance rather than dragging the whole world into the live state.
+
 A bounded observer, instrument, or analysis state does not automatically have access to every useful next test. It has a currently reachable family of discriminating operations: measurements, comparisons, perturbations, representation changes, scale moves, retrievals, controlled waits, or questions where a question is genuinely the right scientific instrument.
 
 A useful picture is diagnosing a machine through an inspection hatch. The first opening may let you establish that two apparently similar cases are heading toward different failures. One measurement may then make a second panel accessible; only from that new state does another test become possible. The later test was not secretly available from the first position. **The realised traversal changed what could lawfully be inspected next.**
@@ -581,7 +591,7 @@ You should be able to state the chain in ordinary language:
 8. treat recovery as an actual reachable route, not an assumption;
 9. deliberately challenge supposedly equivalent states, address the challenge and boundary as carefully as the state, and use both divergence and non-divergence plus eliminated alternatives to decide whether to reopen or preserve;
 10. make sure the declared measurement/registration surface can actually resolve the target-relevant distinction, then return the registered result into the next addressed state;
-11. do not assume every useful next test is already reachable: use the smallest lawful discriminator available from the state actually reached, screen redundant history back to provenance, and readdress after the result;
+11. do not assume every useful next test is already reachable, and do not turn a situated observer into a universe-sized model: start from the strongest adequate native Address, carry only future-bearing observer/wake context, use the smallest lawful discriminator available from the state actually reached, and readdress after the result;
 12. compare every claimed gain against strong ordinary baselines, prior art and explicit failure conditions.
 
 If the reader can carry that much, the technical modules have a coherent spine even when individual derivations require domain expertise.
