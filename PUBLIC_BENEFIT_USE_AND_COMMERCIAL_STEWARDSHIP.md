@@ -17,6 +17,27 @@ Please preserve attribution and provenance, mark your own changes honestly, and 
 
 The project posture toward good-faith public-benefit use is **stewardship and collaboration, not intimidation**.
 
+## One owner, many reader routes
+
+This file is the **canonical stewardship/use-routing owner** for the live MKUFT / ARTA / ATLD research repository.
+
+The README, Public Entry, Scientific Reader Traversal, Public Overview, public index, rights notice, rights matrix, and later architecture/engine maps may **point here or summarise this policy briefly**, but they do not own separate local versions of it.
+
+> **One stewardship owner; many entry routes; no policy forks.**
+
+If a reader-facing summary ever conflicts with this file, first check the exact object/version being used. The controlling order is:
+
+~~~text
+exact object / exact licence or written permission
+→ Rights and Licence Notice / Module Rights Matrix
+→ this stewardship/use-routing policy
+→ thin reader-route summaries
+~~~
+
+This file does not broaden or narrow rights already granted by an exact licence. It states project stewardship intent and the route for obtaining permission where permission is actually required.
+
+**“Public benefit” is a project stewardship description, not a substitute statutory licence category.** The actual legal rights still come from the exact licence, applicable law, or written permission.
+
 ## The two routes are deliberate
 
 MKUFT already has two compatible public entry routes:
