@@ -254,6 +254,16 @@ $M_t$ is a heuristic audit index, not a universal law. The product form must com
 
 Canonical owner: [`docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md`](docs/21_AMBIGUITY_DYNAMICS_AND_MANOEUVRE_SPACE.md).
 
+Honest specification can contract false ambiguity without forcing total closure. A well-formed current boundary separates:
+
+~~~text
+supported / operational interior
++ typed present frontier
++ unresolved exterior
+~~~
+
+The unresolved exterior remains open without being promoted to fact or impossibility. Where no common metric/topology is earned, preserve the distinction qualitatively rather than drawing decorative geometry.
+
 ## 8. Cross-layer addressing
 
 For candidate invariant $K$ at layer $L$,
@@ -651,6 +661,8 @@ R_q(\Theta;\lambda,\Delta,\mathcal U)
 
 Equivalently, histories treated as the same effective state must not retain materially different target futures under the declared admissible challenge family. A distinction enters the effective Address only when omitting it merges futures that split beyond tolerance.
 
+The same criterion applies to **boundary claims**. A load-bearing statement such as `unknown`, `inaccessible`, `incapable`, `unauthorised`, `prohibited`, or `unrepresentable` is itself an addressed claim. Preserve only the boundary coordinates whose collapse would merge materially different lawful continuations, and preserve unsupported exterior as unresolved rather than converting a local limitation into global impossibility. This is the **Boundary-Claim Sufficiency Corollary** owned in 33S7A.
+
 At cold entry, before target-relevant wake has earned independent standing, the framework does **not** require a universe-sized state description merely because an observer is situated inside a larger causal environment. Initialise from the strongest adequate native Address for the declared object/regime/target; if the realised state is unresolved, use the corresponding uncertainty-bearing native state-space object rather than inventing precision. Observer/registration context is compressed by the same future-sufficiency rule: retain only what changes the declared future, reachable discriminator, admissible operation or readout interpretation beyond tolerance.
 
 This gives the entry relation:
@@ -761,11 +773,15 @@ Canonical owners: Modules 08, 22, 27, and the physical specialisation in Module 
 
 OCQS is a bounded observer-state hypothesis. It does not prove remote information, probability modulation, synchronicity, or substrate access. Its value depends on operational measures and comparison with established cognitive models.
 
+Module 31 supplies the representation/observer guard: the same underlying object may remain one object while a lawful transform changes what a particular observer/decoder can recover from it. Representation equivalence therefore does not automatically imply observer-operation equivalence; the transformed carrier must be executed/encountered and inspected through the relevant observer route before a transform consequence is claimed.
+
 ### GRACE
 
 GRACE—Geometry, Relation, Admissibility, Coherence, Emergence—is a traversal filter. It does not create a new layer or supply evidence by acronym.
 
 Its hard-boundary rule is prior to route optimisation. **Some costs are not weights; they are gates.** A severe downstream consequence may justify review of a boundary, but it does not itself manufacture consent, permission, safety clearance, legal/moral authority or command authority. A blocked route re-enters comparison only after the rule/authority that owns the boundary lawfully readdresses it.
+
+For human–AI decision support, moral understanding, applicable constraint, consequence modelling, causal participation and sovereign/delegated action authority remain separately typed. Understanding or causal participation does not manufacture sovereignty; lack of sovereignty does not create exemption from consequence or applicable constraint.
 
 ### ESRT / ESF
 
@@ -966,10 +982,22 @@ Future-sufficient Address:
 R_q(Θ;λ,Δ,𝒰) ≤ ε_q
 A distinction belongs in Address only when omitting it merges materially different declared futures
 
+Boundary-Claim Sufficiency:
+boundary claim = addressed state claim
+retain only the typed frontier needed to keep materially different continuations separate
+preserve unsupported exterior as unresolved, not impossible
+formal precision must earn discrimination
+
 Cold entry / observer compression:
 start from the strongest adequate native Address or uncertainty-bearing native state-space object
 situated observer ≠ universe-sized active model
 carry only observer/context/wake distinctions that still change the declared future or discriminator
+
+Representation–Observer Equivalence:
+same underlying object ≠ guaranteed same observer-operation
+transform available ≠ executed ≠ inspected
+changed observer readout ≠ changed ontology by default
+target-relative transform invariance must be earned
 
 Transition-carried future:
 A_t → 𝓕_t^+ → τ_t → A_(t+1) → 𝓕_(t+1)^+
@@ -995,6 +1023,10 @@ hard boundary ≠ large negative weight
 high consequence may trigger review / escalation
 only the boundary owner / already-declared exception may readdress admissibility
 no unowned exception manufacture
+
+Moral-causal participation / authority:
+understanding + constraint + causal consequence ≠ sovereign action authority
+lack of sovereignty ≠ moral/causal exemption
 
 Metaphysical interrogation:
 metaphysics may supply a question / comparison
