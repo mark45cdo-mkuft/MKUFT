@@ -72,6 +72,46 @@ system state
 
 These objects may couple, but they do not inherit one another's authority.
 
+### 2A. Observer compression — situated does not mean universe-sized
+
+A common modelling regress begins by noticing that an observer was shaped by a larger environment, then concludes that a faithful observer model must carry that entire environment, its causal ancestry, and eventually the whole universe. MKUFT treats that move as an **addressing error** unless the declared target actually requires those distinctions.
+
+Causal ancestry is not automatically live state.
+
+The observer/registration address is subject to the same future-sufficiency burden as any other Address: retain only the observer-side coordinates whose omission would merge cases with materially different target futures, reachable discriminators, admissible operations, evidence states, or next lawful moves.
+
+Let (C_t^O) denote a candidate observer/registration context containing whatever larger history or environment could in principle be represented. A target-relative observer address may be written schematically as
+
+~~~math
+O_t^q = \Pi_O^q(C_t^O),
+~~~
+
+where the compression is adequate only while omitted distinctions do not change the declared future or discriminator frontier beyond tolerance.
+
+In ordinary language:
+
+> **Modelling an observer does not require modelling everything that ever made the observer. It requires the smallest truthful observer/registration state that still separates futures and tests that matter.**
+
+At first entry, where no target-relevant wake has yet earned independent standing, use the cold-entry rule of Module 33S4: begin from the strongest adequate native system/state-space description plus the observer/registration boundary actually required by the task. If the realised state is uncertain, carry that uncertainty honestly rather than inventing precision.
+
+After traversal begins, let evidence do the recruiting:
+
+~~~text
+native cold-entry Address
++ current observer/registration access
+→ act / measure / compare / wait / retrieve
+→ future split or discriminator change?
+   → yes: recruit the smallest missing observer/context/wake distinction
+   → no: keep the compression
+→ readdress from the state actually reached
+~~~
+
+This also stops recursive theory-of-mind or nested observer models from expanding without bound. A further level of “model of their model of our model” remains live only while that extra level changes a declared prediction, admissibility judgement, safety boundary, route, discriminator or other target-relevant continuation beyond tolerance.
+
+The converse guard is essential: compression is not permission to omit inconvenient context. If an excluded boundary, history, social relation, instrument condition, external field or other coordinate produces a reproducible future split, changes the reachable discriminator family, or changes the lawful interpretation of the readout, the current observer/system Address was too small and must be repaired.
+
+A whole-universe model may be appropriate for a target that genuinely requires one. The presence of an observer does not force that burden by itself.
+
 ## 3. Wake as screened decision-bearing trajectory residue
 
 Let the realised trajectory/history up to `t` be `Γ_(0:t)`. Define a provisional target-relative wake
@@ -576,6 +616,7 @@ A clean null is acceptable. In that case the useful content should be absorbed i
 ```text
 OBSERVER-BOUNDED TRAVERSAL
 = target-sufficient addressed state
++ cold-entry observer/system compression rather than universe-sized ancestry
 + declared observer/registration access
 + only history/wake that still changes the future
 + detection of future aliasing
