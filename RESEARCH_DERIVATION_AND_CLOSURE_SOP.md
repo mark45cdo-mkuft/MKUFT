@@ -229,6 +229,8 @@ Where a general decomposition/reconstruction method is being credited, use [29B 
 
 When several lawful, task-sufficient research routes remain after truth, evidence, law, safety, consent, permission and target constraints are fixed, [20A — GRACE Formal Route Selection](docs/20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md) may remove materially dominated routes. It must not rescue an inadmissible route or manufacture one universal scalar objective.
 
+If a materially changed consequence appears to make a hard-gated route newly urgent, treat that as a **boundary-review question**, not as permission to reinsert the route by weighting. Identify the owner of the blocking boundary and any already-declared exception/necessity rule; only a lawful change in that boundary state can change admissibility.
+
 ## 9. Paper threshold
 
 A result is ready for a standalone paper when the paper has one coherent object with:
