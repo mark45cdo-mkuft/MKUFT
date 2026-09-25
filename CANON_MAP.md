@@ -140,7 +140,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S1 — Dynamic Interface Promotion:** specifies when a trackable interface that changes the next admissibility/law object and is itself changed by realised dynamics must re-enter the addressed state; it adds a scale-role transition from lower-scale boundary to higher-scale internal relation only after existing promotion tests pass.
 - **33S2 — Relational Closure and Law Descent:** separates historical lineage, functional organisation, closure, and property-specific dynamical sufficiency; names strong, approximate, ensemble, history-augmented, and coupled-multiscale descent classes; and requires bidirectional readdressing when higher-address sufficiency changes.
 - **33S3 — Cross-Scale Performance and Recoverability:** separates lower-address performance from enclosing-scale closure/law-descent margins, rejects inevitable-collapse inference from local gain, defines recovery as target-relative reachability under declared controls, and requires apparent hysteresis to survive state-augmentation tests.
-- **33S4 — Address Sufficiency and Predictive Closure:** defines a target-relative address residual over same-address future distributions, separates deterministic from stochastic closure, tests candidate address coordinates by held-out discrimination and ablation/restoration, and routes persistent predictive divergence into readdressing before stronger law claims.
+- **33S4 — Address Sufficiency and Predictive Closure:** defines a target-relative address residual over same-address future distributions, separates deterministic from stochastic closure, adds the cold-entry rule `strongest adequate native Address / uncertainty-bearing native state-space object first`, tests candidate address coordinates by held-out discrimination and ablation/restoration, and routes persistent predictive divergence into readdressing before stronger law claims.
 - **33S4A — Transfer-Conditioned Address Sufficiency:** forces inherited state equivalence to be re-tested when terrain, topology, substrate, boundary, scale, challenge family, or measurement regime changes materially.
 - **33S5 — Rate-Conditioned Addressing:** separates geometric path from time-parameterised traversal; treats rate, dwell time, phase, and schedule as candidate address coordinates only when they improve target-relative predictive/interventional closure; and demotes them when fuller ordinary state variables close the same residual.
 - **33S6 — Addressed Admissible Futures:** defines the target-relative future-equivalence object induced by a sufficient Address, separates present viability from restorative reachability, defines restorative-future reserve and counterfactual load-bearing relation structure, and closes realised traversal through recursive readdressing. Its standalone v0.1 paper is frozen separately at DOI `10.5281/zenodo.22031333`.
@@ -153,12 +153,12 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence:** conditions non-detection on preservation/persistence, accessibility, actual search coverage, detector/readout sensitivity and false-negative structure; poor detectability weakens a null without supporting the missing object, while a strong addressed null may carry substantial negative evidence. Cross-domain use requires native instantiation rather than a shared mechanism claim.
 - **34 — Research Object Identity, Release Integrity, and Reproducibility:** types live source, commits, release tags, declared artifacts, manifests, citation metadata, reader-facing carriers, and external archives; requires exact artifact hashes/byte counts for declared releases; and makes release identity a reproducible object without changing scientific claim status.
 - **Rendering and Publication Integrity:** governs reader-facing carrier correctness, DOI freeze, receiver-side inspection, and byte-level publication custody.
-- **Research Derivation and Closure SOP:** governs derivation, promotion, publication threshold, interruption recovery, and post-write recursive closure.
+- **Research Derivation and Closure SOP:** governs derivation, promotion, publication threshold, interruption recovery, cold-entry baseline selection, question-source/evidence separation, and post-write recursive closure.
 - **Release manifests:** machine-readable release identity records governed by Module 34.
 
 ### Structural and traversal
 
-- **20 — GRACE:** Geometry, Relation, Admissibility, Coherence, Emergence as a route check, including minimum-destructive restorative readdressing from the state actually reached.
+- **20 — GRACE:** Geometry, Relation, Admissibility, Coherence, Emergence as a route check, including minimum-destructive restorative readdressing from the state actually reached and a non-scalar directional future-geometry shorthand for repeated widening/narrowing of named future-bearing capacities after admissibility is fixed.
 - **20A — GRACE Formal Route Selection:** applies hard admissibility and target sufficiency before typed non-dominated route comparison; it removes materially dominated lawful routes without inventing a universal scalar utility.
 - **21 — Ambiguity Dynamics:** unresolved feasible volume, route connectivity, and preserved access under declared assumptions.
 - **22 — Cross-Layer Invariants:** layer-specific addressing, variables, spaces, couplings, and falsifiers.
@@ -181,7 +181,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S1 — Dynamic Interface Promotion and Recursive Boundary Closure:** makes a load-bearing interface re-entry test explicit, keeps P-recoverable interface variables distinct from independent I claims, and types the boundary→stateful relation→higher-scale internal-relation role change without assuming that every boundary closes into a new object.
 - **33S2 — Relational Closure, Law Descent, and Bidirectional Readdressing:** tests whether a candidate relational address carries enough state for a declared property and regime, distinguishes predictive from interventional sufficiency, and moves the working address upward, downward, or multiscale when the demonstrated descent class changes.
 - **33S3 — Cross-Scale Performance, Recoverability, and Hysteretic Readdressing:** audits whether lower-address performance aligns with or opposes enclosing-scale closure/law sufficiency, separates degradation from loss of recoverability, and allows asymmetric recovery paths only under a declared target, route class, environment, horizon, and history/state test.
-- **33S4 — Address Sufficiency, Predictive Closure, and Reachable-Future Geometry:** tests whether representatives grouped at one operational address retain materially different target-relevant future distributions, uses residual divergence to localise candidate missing coordinates or model defects, and requires the smallest retained address augmentation to earn held-out predictive or interventional load.
+- **33S4 — Address Sufficiency, Predictive Closure, and Reachable-Future Geometry:** tests whether representatives grouped at one operational address retain materially different target-relevant future distributions, initialises cold entry from the strongest adequate native Address or uncertainty-bearing native state-space object rather than maximal context, uses residual divergence to localise candidate missing coordinates or model defects, and requires the smallest retained address augmentation to earn held-out predictive or interventional load.
 - **33S5 — Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation:** separates geometric-path equivalence from time-parameterised traversal equivalence, tests rate/dwell/schedule as target-relative address coordinates, and demotes schedule when fuller ordinary state closes the residual.
 - **33S6 — Addressed Admissible Futures:** makes the admissible future itself explicit, defines the restorative subset and reserve, measures relation load by future deformation rather than present salience, and re-enters the result through recursive Address update.
 - **33S7 — Future-Splitting State Recruitment:** attacks the current state claim with admissible futures, distinguishes state-adequacy testing from parameter-identification design, and requires independent physical confirmation plus typed repair before a newly necessary distinction is promoted into the effective Address.
@@ -254,7 +254,7 @@ Version 0.4 closes the tetrahedral Bell branch as an exact facet-plus-normal coo
 The future-sufficiency chain now has two explicit live methodological continuations after Module 33S7A:
 
 - [33S7B — Sideways Invariant Interrogation and Nuisance-Quotient Readdressing](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md) — asks whether a lawful target-preserving interrogation can remove a nuisance distinction from the minimum sufficient state without claiming the distinction is unreal.
-- [33S7C — Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) — makes observer/registration access explicit, screens history back to provenance when present state fully mediates its future effect, allows realised traversal to change which lawful questions/tests are reachable next, and carries the observer-side guard that prospective/modelled probe reach does not itself advance the current observer address; an executed intervention may itself be the transition that advances it.
+- [33S7C — Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) — makes observer/registration access explicit, rejects the regress that a situated observer requires a universe-sized active model, screens history back to provenance when present state fully mediates its future effect, allows realised traversal to change which lawful questions/tests are reachable next, and carries the observer-side guard that prospective/modelled probe reach does not itself advance the current observer address; an executed intervention may itself be the transition that advances it.
 
 ### Probe-State Separation placement
 
@@ -282,3 +282,29 @@ Reader placement is:
 For human-facing route choice, [20 — GRACE](docs/20_GRACE_TRAVERSAL_RULE.md) carries the associated care-preserving kernel only **after** evidence, law, safety, consent, permission and target constraints have fixed the lawful option set. Care does not alter evidence or physical mechanism status.
 
 These live modules do not modify frozen DOI publications, establish observer-caused physics, or elevate question-selection language into a universal law.
+
+## 25 September 2026 — cold-entry, observer-compression and directional/metaphysical bridge fold
+
+This fold makes an already-distributed chain explicit without creating a new module or law stack.
+
+- **33S4** owns the **cold-entry Address rule**: when no target-relevant wake has yet earned independent status, start from the strongest adequate native Address for the declared object/regime/target; if the realised state is unresolved, use a typed uncertainty-bearing native state-space object rather than a fictitious point estimate.
+- **33S7C** owns **observer compression**: situated observer/registration context is not a requirement to model the observer's whole causal ancestry or the whole universe. Carry only observer/context/wake distinctions whose omission still changes the declared future, reachable discriminator, admissible operation or readout interpretation beyond tolerance.
+- **20 / GRACE** owns the **directional future-geometry shorthand**: after truth/admissibility are fixed, repeated lawful route choices can widen, narrow or mix the later geometry by preserving or consuming named future-bearing capacities such as truthful feedback, agency, correction, provenance, reversibility, cohesion where target-relevant, and restorative reach. No universal scalar `up/down` law is introduced.
+- **Integrated Master Spine §14.1** owns the **metaphysical interrogation bridge**: metaphysical/philosophical systems may generate questions, comparisons or candidate interpretations, but they do not supply scientific evidence, mechanism or closure by authority. Shared wording is subtracted; any surplus claim must earn a native discriminator or remain philosophical/metaphysical.
+- **Research Derivation and Closure SOP §4A** carries the reciprocal procedural gate: question sources are separated from evidence for the answer.
+- **Scientific Reader Traversal Guide** and **Reader Contact and Failure Guide** carry the same relation at reader resolution so the bridge is explained before the technical formalism depends on it.
+
+The intended reader chain is:
+
+```text
+cold entry
+→ strongest adequate native state / state-space object
+→ future-sufficiency test
+→ screened wake / observer compression
+→ realised traversal and readdressing
+→ lawful route comparison over named future-bearing capacities
+→ optional metaphysical comparison as question-generation only
+→ native discriminator or philosophical remainder
+```
+
+This fold does not make observer context a physical force, does not infer metaphysical truth from structural resemblance, does not assign biological evolution a moral direction, and does not alter frozen DOI publications.
