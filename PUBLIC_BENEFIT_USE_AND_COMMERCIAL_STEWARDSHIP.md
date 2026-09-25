@@ -70,6 +70,8 @@ Commercial users are welcome to seek permission, partnership, or a licence.
 
 ## This is not a company-size test
 
+> **Classify the use, not the logo.**
+
 The boundary is the **use**, not the logo on the door.
 
 A small company building a proprietary paid product is still making a commercial use.
