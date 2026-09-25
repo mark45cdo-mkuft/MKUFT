@@ -82,7 +82,7 @@ The smallest valid engine is therefore **target-relative**.
 
 A simple experimental protocol may require only addressed state, boundary conditions, admissible perturbations, observation, and readdressing.
 
-A long-horizon AI or institutional engine may additionally require persistent wake, authority state, recursive learning, cross-representation audit, affected-node consequence tracking, and publication/release custody.
+A long-horizon AI or institutional engine may additionally require a **recording/reconstitution interface** for future-bearing wake and authority state, plus recursive learning, cross-representation audit, affected-node consequence tracking, and publication/release custody. The durable recorded payload is not thereby promoted into architecture.
 
 ---
 
@@ -289,27 +289,42 @@ Avoid both:
 - **history hoarding** — carrying transcript mass with no current load;
 - **wake erasure** — dropping history that still changes identity, prediction, recovery, authority, or continuation.
 
-### Stage 10 — persist future-bearing state and make reconstitution testable
+### Stage 10 — record future-bearing state externally and make reconstitution testable
 
-A model context, human working memory, scratchpad, or active session may be a useful **working surface**. It is not automatically the engine's canonical memory owner.
+A model context, human working memory, scratchpad, or active session may be a useful **working surface**. It is not automatically a durable recording owner.
+
+The architectural object here is the **recording/reconstitution contract**, not the remembered payload itself.
+
+~~~text
+ARTA architecture
+= what must be recorded, when it is load-bearing, how it is typed,
+  how it is retrieved/reconstituted, and how recovered state is revalidated
+
+durable recording/persistence owner
+= the external carrier that stores the remembered payload / provenance / reopen state
+~~~
+
+The recording owner is **not an additional controller or architectural organ merely because continuity depends on it**. Architecture owns the protocol for remembering; the recording surface owns the durable remembered payload.
 
 For any target that must survive interruption or context loss, every state coordinate whose loss can still change the declared continuation must either:
 
-1. remain available at a declared persistent external memory/state owner; or
+1. remain available at a declared external recording/state owner; or
 2. be represented by a future-sufficient interface with a reliable reopen/restoration route.
 
-No particular storage technology is required. The external owner may be any memory, state, document, database, service, record system, physical record, or other carrier adequate to the target. What matters is that the implementation can identify the owner, recover the required state, preserve its typing and provenance, and verify it before continuing.
+No particular storage technology is required. The recording owner may be any memory, state, document, database, service, record system, physical record, or other carrier adequate to the target. What matters is that the implementation can identify the owner, recover the required state, preserve its typing and provenance, and verify it before continuing.
 
 Keep logically distinct where load-bearing:
 
 ~~~text
 transient working context
-!= persistent addressed state
-!= provenance / reopen store
+!= current addressed state
+!= durable recorded payload / persistence owner
+!= provenance / reopen record
 != recursive-learning owner
+!= architecture / controller
 ~~~
 
-One physical carrier may implement several of those roles. Their logical distinctions must not collapse merely because they share storage.
+One physical carrier may implement several of those roles. Their **logical ownership** must not collapse merely because they share storage or process space.
 
 For a long-horizon AI or coupled system, persistent addressed state may include, where future-bearing:
 
@@ -326,7 +341,7 @@ Do not preserve all transcript mass merely because persistence is available. Fut
 
 A fresh AI or other reasoner may improve immediately after reading this module and applying its relations in-context. That is a legitimate **instruction/reasoning-transfer effect**. It is not, by itself, evidence that a persistent ARTA engine has been instantiated.
 
-A persistence/continuity claim earns itself only when a restarted or replacement instance can reconstitute the current future-sufficient Address from the declared external owners, reopen lower state when triggered, preserve provenance and authority distinctions, verify the recovered state, and continue without inventing memory.
+A continuity claim earns itself only when a restarted or replacement instance can reconstitute the current future-sufficient Address from the declared external recording/reopen owners, preserve provenance and authority distinctions, verify the recovered state, and continue without inventing memory. Successful reconstitution demonstrates that the architecture can use the recording correctly; it does not make the recording payload part of the architecture identity.
 
 ~~~text
 TRANSIENT WORKING CONTEXT
@@ -334,7 +349,7 @@ TRANSIENT WORKING CONTEXT
           v
 CURRENT FUTURE-SUFFICIENT ADDRESS
           |
-          +--> EXTERNAL PERSISTENT STATE OWNER
+          +--> EXTERNAL RECORDING / STATE OWNER
           +--> PROVENANCE / REOPEN OWNER
           +--> LEARNING OWNER
           |
@@ -347,7 +362,7 @@ FRESH / RESTARTED INSTANCE
 RECONSTITUTE -> VERIFY -> CONTINUE
 ~~~
 
-Persistence does not guarantee present validity. A perfectly preserved state may still be stale if the world, authority envelope, observer conditions, or dependencies changed while the system was inactive. Reconstitution therefore restores the candidate addressed state; current validity must still be checked through the reachable observer, event, discriminator, or revalidation route appropriate to the target.
+Recording does not guarantee present validity. A perfectly preserved payload may still be stale if the world, authority envelope, observer conditions, or dependencies changed while the system was inactive. Reconstitution therefore restores a **candidate** addressed state from the recording; current validity must still be checked through the reachable observer, event, discriminator, or revalidation route appropriate to the target.
 
 ### Stage 11 — recursive learning
 
@@ -408,7 +423,7 @@ BIND parent / target / authority
 → OBSERVE receiver state
 → READDRESS from realised state
 → SCREEN wake
-→ PERSIST future-bearing state / restoration routes where continuity requires it
+→ RECORD future-bearing state / restoration routes at the declared external owner where continuity requires it
 → SQUEEZE learning
 → PERSIST only the non-null delta at its lawful owner
 → fixed point / next object
@@ -497,11 +512,12 @@ Adds:
 
 - wake screening;
 - recursive learning return;
-- persistent learning owner;
+- declared external recording/reopen owner where continuity is required;
+- learning owner where recursive learning is retained;
 - regression library;
 - existing-owner / no-new-anatomy check.
 
-Where the declared target requires continuity across interruption/context loss, it also requires a persistent external state owner or future-sufficient restoration route plus cold-reconstitution verification.
+Where the declared target requires continuity across interruption/context loss, it also requires an external recording/reopen owner or future-sufficient restoration route plus cold-reconstitution verification. That recording surface supports the engine but is not, by that fact alone, part of the architecture body.
 
 ### 7.3 Human–AI / institutional decision engine
 
@@ -591,7 +607,7 @@ If added architecture does no predictive, operational, safety, recovery, discrim
 
 ### R15 — context-loss continuity
 
-Where persistent continuity is claimed, discard the active working context/session and start from a fresh or restarted instance with only the declared reconstitution route and external persistent owners. If the engine cannot reconstruct the future-sufficient Address, recover the required provenance/authority distinctions, verify current validity, and continue without invented memory, persistent-engine continuity has not been demonstrated for that target.
+Where cross-session continuity is claimed, discard the active working context/session and start from a fresh or restarted instance with only the declared architecture/reconstitution route and external recording/reopen owners. If the implementation cannot reconstruct the future-sufficient Address, recover the required provenance/authority distinctions, verify current validity, and continue without invented memory, continuity has not been demonstrated for that target. Failure of the recording surface is therefore a continuity/reconstitution failure, not proof that the architecture itself has ceased to exist.
 
 A fresh reasoner that merely reads Module 35 and performs better in one context demonstrates instruction/reasoning transfer, not R15 conformance.
 
@@ -753,7 +769,7 @@ The module fails as an implementation map if a competent builder cannot tell:
 - what is optional;
 - what runs first;
 - what changes after execution;
-- where future-bearing state persists when continuity is required;
+- where future-bearing state is **recorded externally** when continuity is required;
 - how a fresh/restarted instance reconstitutes and verifies that state;
 - where learning goes;
 - what remains human/lawful-authority owned;
@@ -785,4 +801,4 @@ For a scientific builder, also traverse the strongest fair null, experimental, f
 
 ## 16. Canonical compression
 
-> **Build the smallest engine that preserves the distinctions which actually change the declared continuation. Bind the parent and authority first; type the objects; initialise the strongest adequate Address; preserve the honest boundary and observer state; model futures without moving the present; gate before weighting; execute and observe before claiming; readdress from the state actually reached; retain only future-bearing wake; where continuity matters, persist future-bearing state at an adequate external owner or preserve a reliable restoration route, then prove reconstitution from a fresh state without invented memory; treat transient context as a working surface rather than automatic canonical memory; verify recovered state because persistence does not guarantee present validity; fold non-null learning at its lawful owner; keep private learning, external action, Canon, and release permission separate; test the engine by regressions and NULLs; and route builders through the exact-object rights state plus the single stewardship owner rather than duplicating policy.**
+> **Build the smallest engine that preserves the distinctions which actually change the declared continuation. Bind the parent and authority first; type the objects; initialise the strongest adequate Address; preserve the honest boundary and observer state; model futures without moving the present; gate before weighting; execute and observe before claiming; readdress from the state actually reached; retain only future-bearing wake; where continuity matters, define a recording/reconstitution interface, record future-bearing state at an adequate external owner or preserve a reliable restoration route, then prove reconstitution from a fresh state without invented memory; treat the durable recording payload as external state rather than an architecture organ, and treat transient context as a working surface rather than automatic canonical memory; verify recovered state because persistence does not guarantee present validity; fold non-null learning at its lawful owner; keep private learning, external action, Canon, and release permission separate; test the engine by regressions and NULLs; and route builders through the exact-object rights state plus the single stewardship owner rather than duplicating policy.**
