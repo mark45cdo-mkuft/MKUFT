@@ -383,6 +383,30 @@ A question is one possible discriminator. A measurement, comparison, perturbatio
 
 [Read Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md).
 
+### GRACE — some costs are gates, not weights
+
+**Question:** what happens when the downstream benefit of a route is enormous but the route crosses a hard boundary?
+
+**Failure prevented:** letting an optimiser turn consent, permission, safety, law, authority or another hard condition into “just another cost” that can be outweighed by a sufficiently attractive outcome.
+
+**Plain version:** if the route is not allowed, a better score does not make it allowed.
+
+A catastrophic or existential consequence still matters. It may mean the boundary must be reviewed urgently. But that review belongs to the person, law, rule, institution or already-declared emergency/necessity condition that actually owns the boundary.
+
+~~~text
+hard-gated route
++ enormous downstream consequence
+→ calculate the consequence
+→ identify the exact gate
+→ identify who/what can lawfully change it
+→ apply any real existing exception rule
+→ only then recompute which routes are admissible
+~~~
+
+For AI-coupled use, this is the clean distinction between **decision support** and **self-authorised override**. The system can expose the collision and its consequences. It does not gain consent or command authority because its arithmetic says the stakes are high.
+
+[Read GRACE](docs/20_GRACE_TRAVERSAL_RULE.md) and [GRACE Formal Route Selection](docs/20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md).
+
 ### Metaphysical comparison boundary
 
 **Question:** can MKUFT use a metaphysical system without letting belief leak into the scientific evidence surface?
