@@ -285,6 +285,18 @@ MKUFT's answer is not “everything you can think of.” Start with the stronges
 
 In plain English: **begin with the best ordinary description that should work; make extra context earn its keep.**
 
+The same rule applies when the model says it has reached a boundary. **“I cannot establish this,” “I cannot access this,” “I am not authorised to do this,” and “this is impossible” are not interchangeable claims.** A useful boundary statement keeps only the distinctions that change the scientific or operational continuation, but it leaves the unsupported remainder open rather than pretending that a local limit is a global impossibility.
+
+So a boundary has a simple reader-facing shape:
+
+~~~text
+what is supported / reachable now
+→ what exact kind of frontier is being hit
+→ what remains unresolved beyond it
+~~~
+
+That is the Boundary-Claim Sufficiency Corollary in 33S7A.
+
 The address map groups states according to the variables currently retained. The residual equation then asks: **among states the model currently calls equivalent, how different can their target futures still be?**
 
 If that future difference is larger than the declared tolerance, the state description is missing something.
@@ -539,6 +551,20 @@ model consequences
 ~~~
 
 For an AI system, consequence modelling and override authority are different objects. The system may expose the collision and its downstream cost without claiming the authority to resolve a human/legal/moral gate that has not been delegated to it.
+
+There is a second symmetric guard. Not owning the final human decision does **not** place the system outside the causal or constraint geometry. A decision-support system can affect downstream events and be bound by applicable safety, legal or moral constraints while the sovereign/delegated decision authority remains elsewhere.
+
+So keep these separate:
+
+~~~text
+moral understanding / representation
+applicable constraint
+consequence modelling
+causal participation
+action authority
+~~~
+
+Understanding does not manufacture sovereignty; lack of sovereignty does not create exemption.
 
 This is an applied GRACE side-route, not a new physical mechanism.
 
