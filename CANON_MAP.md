@@ -145,7 +145,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S5 — Rate-Conditioned Addressing:** separates geometric path from time-parameterised traversal; treats rate, dwell time, phase, and schedule as candidate address coordinates only when they improve target-relative predictive/interventional closure; and demotes them when fuller ordinary state variables close the same residual.
 - **33S6 — Addressed Admissible Futures:** defines the target-relative future-equivalence object induced by a sufficient Address, separates present viability from restorative reachability, defines restorative-future reserve and counterfactual load-bearing relation structure, and closes realised traversal through recursive readdressing. Its standalone v0.1 paper is frozen separately at DOI `10.5281/zenodo.22031333`.
 - **33S7 — Future-Splitting State Recruitment:** operationalises the 33S4–33S6 sufficiency family by selecting lawful challenges that test whether a declared state has collapsed future-distinguishable histories; requires independent continuation, minimal physically typed repair, remove/restore deformation and strong ordinary nulls; and makes positive recruitment lead relative to a preregistered transition marker a prospective, falsifiable prediction. Its standalone v1.0 paper is frozen separately at DOI `10.5281/zenodo.22058303`.
-- **33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence:** gives stable canonical names to the already-public future-sufficiency criterion and its diagnostic precedence consequence; it now also carries the **Probe-State Separation Corollary**: projected future addresses may guide present policy but do not become present-state/evidence authority until the owning model's lawful realised/registered transition earns readdressing. `Prospective/modelled probe reach ≠ current-state advancement.` This is a sharpening of existing future-sufficiency/readdressing logic, not a new mechanism, theorem, universal law claim, or empirical promotion.
+- **33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence:** gives stable canonical names to the already-public future-sufficiency criterion and its diagnostic precedence consequence; it carries the **Probe-State Separation Corollary** and the **Boundary-Claim Sufficiency Corollary**. Projected futures may guide present policy without becoming present state, and load-bearing boundary claims must preserve the smallest typed frontier that keeps materially different lawful continuations separate while leaving unsupported exterior unresolved. These are sharpenings of existing future-sufficiency/readdressing logic, not new mechanisms, theorems, universal laws, or empirical promotions.
 - **33A — Law Descent and Recoverability Novelty Audit:** hostile targeted prior-art audit for 33S2/33S3. It records inherited ingredients, residual synthesis, confidence bounds, and the prospective burden required for stronger novelty or law claims. It is a positioning/audit document, not an empirical promotion.
 
 ### Research, publication, and object integrity
@@ -153,14 +153,14 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **28E — Preservation, Search Geometry, and Detectability-Conditioned Negative Evidence:** conditions non-detection on preservation/persistence, accessibility, actual search coverage, detector/readout sensitivity and false-negative structure; poor detectability weakens a null without supporting the missing object, while a strong addressed null may carry substantial negative evidence. Cross-domain use requires native instantiation rather than a shared mechanism claim.
 - **34 — Research Object Identity, Release Integrity, and Reproducibility:** types live source, commits, release tags, declared artifacts, manifests, citation metadata, reader-facing carriers, and external archives; requires exact artifact hashes/byte counts for declared releases; and makes release identity a reproducible object without changing scientific claim status.
 - **Rendering and Publication Integrity:** governs reader-facing carrier correctness, DOI freeze, receiver-side inspection, and byte-level publication custody.
-- **Research Derivation and Closure SOP:** governs derivation, promotion, publication threshold, interruption recovery, cold-entry baseline selection, question-source/evidence separation, and post-write recursive closure.
+- **Research Derivation and Closure SOP:** governs derivation, promotion, publication threshold, interruption recovery, cold-entry baseline selection, question-source/evidence separation, boundary-claim/representation-transform custody, and post-write recursive closure.
 - **Release manifests:** machine-readable release identity records governed by Module 34.
 
 ### Structural and traversal
 
 - **20 — GRACE:** Geometry, Relation, Admissibility, Coherence, Emergence as a route check, including minimum-destructive restorative readdressing from the state actually reached and a non-scalar directional future-geometry shorthand for repeated widening/narrowing of named future-bearing capacities after admissibility is fixed.
-- **20A — GRACE Formal Route Selection:** applies hard admissibility and target sufficiency before typed non-dominated route comparison; it removes materially dominated lawful routes without inventing a universal scalar utility, and now makes gate-weight separation explicit: severe consequence may trigger owner-custodied boundary review, but an inadmissible route cannot re-enter by score or consequence magnitude alone.
-- **21 — Ambiguity Dynamics:** unresolved feasible volume, route connectivity, and preserved access under declared assumptions.
+- **20A — GRACE Formal Route Selection:** applies hard admissibility and target sufficiency before typed non-dominated route comparison; it makes gate-weight separation explicit and separately types moral understanding/constraint/consequence modelling/causal participation from sovereign or delegated action authority. Severe consequence may trigger owner-custodied boundary review, but an inadmissible route cannot re-enter by score or consequence magnitude alone, and causal/moral participation does not manufacture sovereignty.
+- **21 — Ambiguity Dynamics:** unresolved feasible volume, route connectivity, preserved access, and the specified-boundary/unresolved-exterior rule: sharper honest boundaries may contract false manoeuvre space without pretending all remaining ambiguity has vanished.
 - **22 — Cross-Layer Invariants:** layer-specific addressing, variables, spaces, couplings, and falsifiers.
 - **22A — Recursive Address Closure:** no untyped inheritance of version, licence, evidence, causation, authority, or other properties.
 - **23 — Agency Accessibility:** distinguishes retained capacity from practical access, models path-dependent boundary crossing and endogenous exit-cost growth, separates origin/trajectory from present retention pressure and lawful remainder, and tests restorative readdressing without assuming either irrecoverability or recovery.
@@ -170,7 +170,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **24C — External Multi-Agent Case Calibration:** applies 24A/24B to a public multi-agent incident, retains observed cross-run state transfer and coordination as positive case-level results, and converts the unresolved ownership of those gains into matched relational-ablation targets without reporting strongest-null superadditivity.
 - **25 — Load-Bearing Deformation:** controlled relation-level deformation and whole-system audit.
 - **25A — Fundamental Traversal Coherence Nodes:** provisional node-level organising-load hypothesis.
-- **31 — Context-Conditioned State Comparison:** admissible same-class deformation, measurement-relative state equivalence, target-relative ambiguity closure, support-preserving cross-implementation comparison, addressed abstraction, construction-address robustness, and representation-dependence testing.
+- **31 — Context-Conditioned State Comparison:** admissible same-class deformation, measurement-relative state equivalence, target-relative ambiguity closure, support-preserving cross-implementation comparison, addressed abstraction, construction-address robustness, representation-dependence testing, and the **Representation–Observer Equivalence Corollary**: one underlying object may remain one object while a lawful representation transform changes target-relevant recoverability for a particular observer/readout.
 - **32 — Recursive Constraint Closure and Reachable-State Geometry:** adaptive addressed-state families, endogenous admissibility, constraint consolidation, scale-separated local feasibility versus higher-scale capability, recurrent constraint-selected architecture, and changing-state-space comparison discipline.
 - **32S — Load-Bearing Relation Sets and Scale-Transition Tests:** minimal load-bearing sets, ablation weights, relation-versus-carrier substitution, cost/freedom/capability separation, and the criteria by which a lower-scale organised whole can earn treatment as an effective higher-scale object.
 - **32S1 — Invariant Persistence, Relational Addressability, and Scale Transition:** separates physical persistence from independent relational addressability; a lower-scale invariant may remain physically instantiated while higher-scale closure removes its independent deployment. It also separates within-address state equivalence, address-class parity, and cross-address continuity of individuality.
@@ -185,7 +185,7 @@ The canonical LUCY object is the **thresholded addressed crossing**. LUCY-1 memb
 - **33S5 — Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation:** separates geometric-path equivalence from time-parameterised traversal equivalence, tests rate/dwell/schedule as target-relative address coordinates, and demotes schedule when fuller ordinary state closes the residual.
 - **33S6 — Addressed Admissible Futures:** makes the admissible future itself explicit, defines the restorative subset and reserve, measures relation load by future deformation rather than present salience, and re-enters the result through recursive Address update.
 - **33S7 — Future-Splitting State Recruitment:** attacks the current state claim with admissible futures, distinguishes state-adequacy testing from parameter-identification design, and requires independent physical confirmation plus typed repair before a newly necessary distinction is promoted into the effective Address.
-- **33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence:** names the cross-domain future-sufficiency role and the state-before-law diagnostic ordering already carried by the 33S4–33S7 chain, including the Probe-State Separation Corollary: model-space reach and current-state authority remain distinct until readdressing is earned. Frozen publication boundaries and existing evidential burden remain unchanged.
+- **33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence:** names the cross-domain future-sufficiency role and the state-before-law diagnostic ordering already carried by the 33S4–33S7 chain, including the Probe-State Separation Corollary and Boundary-Claim Sufficiency Corollary. Model-space reach and current-state authority remain distinct, and boundary claims remain typed current-address claims rather than timeless declarations of impossibility. Frozen publication boundaries and existing evidential burden remain unchanged.
 
 ### Observer, boundary, and physical support
 
@@ -310,3 +310,31 @@ cold entry
 ```
 
 This fold does not make observer context a physical force, does not infer metaphysical truth from structural resemblance, does not assign biological evolution a moral direction, does not allow a high-stakes optimiser to manufacture authority by weighting a hard gate, and does not alter frozen DOI publications.
+
+
+## 25 September 2026 — boundary-claim, representation-observer, and moral-authority fold
+
+This fold integrates the later handwritten/C2/K4 boundary and representation-transform squeeze without adding a new module or physical law.
+
+- **33S7A** owns the **Boundary-Claim Sufficiency Corollary**: a load-bearing boundary statement is itself an addressed state claim. Distinguish support/evidence, inference/model, unresolved remainder, access/capability, authority/permission, admissibility/prohibition, and representation only where those coordinates change the declared future/action. Preserve unsupported exterior as unresolved rather than promoting a local limit into global impossibility.
+- **21 — Ambiguity Dynamics** owns the **specified boundary + unresolved exterior** consequence: honest specification can reduce false manoeuvre space while preserving lawful unresolved possibility. “Positive ambiguity” is not treated as a universal scalar or moral sign.
+- **31 — Context-Conditioned State Comparison** owns the **Representation–Observer Equivalence Corollary**: lawful representation change can preserve underlying object identity while changing what a particular observer/readout can recover. Transform availability, execution, inspection, and target-relation change remain separate performed-route states.
+- **33S7C** owns the observer-traversal consequence: a representation transform may change the currently reachable discriminator family; if it does not change the declared target/observer frontier, the transform collapses NULL.
+- **20A / GRACE Formal Route Selection** owns the governance split: moral understanding/representation, applicable constraint, consequence modelling, causal participation, and sovereign/delegated action authority are separately typed. Understanding does not manufacture sovereignty; lack of sovereignty does not create causal/moral exemption.
+- **Research Derivation and Closure SOP** carries the promotion gate for false incapacity, counterfeit boundary precision, unexecuted transform consequences, search-latitude inflation, and authority transfer by implication.
+- **Scientific Reader Traversal Guide** and **Reader Contact and Failure Guide** carry the same relations at reader resolution before the technical formalism depends on them.
+
+Reader chain:
+
+```text
+current object / target
+→ strongest adequate Address
+→ if a boundary is claimed: type the actual frontier
+→ preserve unresolved exterior
+→ if representation matters: perform/inspect the transform through the actual observer route
+→ localise any delta to observer–representation relation before ontology
+→ keep consequence/constraint/causal participation separate from action authority
+→ readdress after realised evidence, access, permission, state or representation change
+```
+
+This fold does **not** establish AI consciousness/personhood, does not make every unresolved possibility physically real, does not make representation sensitivity universal, does not treat several views as several underlying objects, does not infer changed ontology from changed recognition alone, and does not alter frozen DOI publications.
