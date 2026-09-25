@@ -364,7 +364,7 @@ RECONSTITUTE -> VERIFY -> CONTINUE
 
 Recording does not guarantee present validity. A perfectly preserved payload may still be stale if the world, authority envelope, observer conditions, or dependencies changed while the system was inactive. Reconstitution therefore restores a **candidate** addressed state from the recording; current validity must still be checked through the reachable observer, event, discriminator, or revalidation route appropriate to the target.
 
-### Stage 11 — recursive learning
+### Stage 11 — learning return
 
 After a materially non-trivial traversal, perform a learning return:
 
@@ -378,32 +378,25 @@ A **NULL** return means no architecture-learning mutation is justified.
 
 A **NON-NULL** return must be routed to the implementation's declared learning owner.
 
-The implementation must separately type:
+The implementation must keep learning state distinct from authority to act on another system or to release material externally. A learning result may justify a candidate change inside the implementation; it does not, by itself, authorise sending, publishing, disclosure, certification, or mutation of an external receiver.
 
-- private/internal recursive learning;
-- executable architecture mutation;
-- external action;
-- public publication/Canon mutation.
-
-Internal learning authority does **not** automatically imply permission to send, publish, disclose, certify, or mutate an external system.
-
-### Stage 12 — public Canon / release / publication, where applicable
+### Stage 12 — release / publication boundary, where applicable
 
 Use the Research Derivation and Closure SOP and Module 34.
 
-Before public mutation:
+Before a persistent or public release:
 
-- reconcile the candidate against the newest **eligible parent-relevant** private learning lineage;
+- verify that the candidate is based on the current eligible parent-relevant state;
 - preserve supersession and provenance;
 - collapse duplicate representations of one source;
 - reject unrelated recency;
 - rerun the strongest fair null;
-- verify current public-write authority;
+- verify authority for the exact release/action;
 - update the exact owning surfaces;
 - read back / render / inspect the receiver object;
 - preserve exact version/release identity.
 
-> **Canon must not publish a stale private state. Reconcile the newest relevant lineage, not the newest files.**
+> **A release must be reconciled against the current relevant state, not merely the newest available files.**
 
 ---
 
@@ -538,7 +531,7 @@ Adds:
 
 - strongest fair native/null comparison;
 - evidence/claim promotion gates;
-- pre-Canon state reconciliation;
+- pre-release state reconciliation;
 - reader-route propagation;
 - release/object identity and reproducibility.
 
@@ -592,13 +585,13 @@ History must be retained only where it remains future-bearing — but must not b
 
 After a realised transition, the engine must continue from the reached state, not the prior plan.
 
-### R11 — private/public conflation
+### R11 — learning/action conflation
 
-Internal learning, public Canon, external send/share, and software/system mutation must remain separately authorised channels.
+A learning result must not silently become authority to mutate, send, disclose, certify, publish, or otherwise act on an external receiver.
 
-### R12 — stale Canon candidate
+### R12 — stale release candidate
 
-A public candidate must be reconciled against newer eligible same-parent private learning before publication.
+A persistent or public candidate must be reconciled against the current eligible same-parent state before release.
 
 ### R13 — provenance collapse
 
@@ -830,4 +823,4 @@ For a scientific builder, also traverse the strongest fair null, experimental, f
 
 ## 16. Canonical compression
 
-> **Build the smallest engine that preserves the distinctions which actually change the declared continuation. Bind the parent and authority first; type the objects; initialise the strongest adequate Address; preserve the honest boundary and observer state; model futures without moving the present; gate before weighting; execute and observe before claiming; readdress from the state actually reached; retain only future-bearing wake; where continuity matters, define a recording/reconstitution interface, record future-bearing state at an adequate external owner or preserve a reliable restoration route, then prove reconstitution from a fresh state without invented memory; treat the durable recording payload as external state rather than an architecture organ, and treat transient context as a working surface rather than automatic canonical memory; verify recovered state because persistence does not guarantee present validity; fold non-null learning at its lawful owner; keep private learning, external action, Canon, and release permission separate; test the engine by regressions and NULLs; and route builders through the exact-object rights state plus the single stewardship owner rather than duplicating policy.**
+> **Build the smallest engine that preserves the distinctions which actually change the declared continuation. Bind the parent and authority first; type the objects; initialise the strongest adequate Address; preserve the honest boundary and observer state; model futures without moving the present; gate before weighting; execute and observe before claiming; readdress from the state actually reached; retain only future-bearing wake; where continuity matters, define a recording/reconstitution interface, record future-bearing state at an adequate external owner or preserve a reliable restoration route, then prove reconstitution from a fresh state without invented memory; treat the durable recording payload as external state rather than an architecture organ, and treat transient context as a working surface rather than automatic canonical memory; verify recovered state because persistence does not guarantee present validity; route non-null learning to its declared owner; keep learning state, external action and release authority separately typed; test the engine by regressions and NULLs; and route builders through the exact-object rights state plus the single stewardship owner rather than duplicating policy.**
