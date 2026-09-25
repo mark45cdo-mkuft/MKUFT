@@ -26,6 +26,7 @@ Supporting routes:
 - [Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md) — nearest scientific neighbours, native ownership, residual claim and reduction/kill conditions.
 - [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) — current public synthesis and canonical compression.
 - [Canon Map](CANON_MAP.md) — detailed hierarchy and dependency map.
+- [ARTA Architecture Instantiation and Engine Construction Map — Module 35](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md) — canonical builder/implementer route for assembling the architecture without duplicating owners or licence policy.
 - [Reader Contact and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md) — reader-interface, failure and attack routes.
 
 ## Current principal and research-facing MKUFT objects
