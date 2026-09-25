@@ -17,7 +17,7 @@
 **AAF publication:** DOI `10.5281/zenodo.22031333`  
 **FSSR publication:** DOI `10.5281/zenodo.22058303`  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
-**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated through the published Cross-Domain Compositional Schema v0.4 and the later live sideways-interrogation/query-design extension. It does not retroactively alter a frozen publication, treat the v0.4 Bell chart as a universal ontology, or promote an invertible representation into a physical mechanism.
+**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated through the published Cross-Domain Compositional Schema v0.4, the later live sideways-interrogation/query-design extension, and the Probe-State Separation Corollary. It does not retroactively alter a frozen publication, treat the v0.4 Bell chart as a universal ontology, or promote an invertible representation into a physical mechanism.
 
 ## 1. Purpose
 
@@ -461,7 +461,7 @@ Here (\tau_t) may be a physical transition, intervention, elapsed-time evolution
 
 Compactly:
 
-> **Probe length is not state advancement.**
+> **Prospective/modelled probe reach is not current-state advancement.**
 
 and:
 
@@ -477,6 +477,8 @@ current address
 ~~~
 
 Call this **speculative-state substitution** or, geometrically, a **false second node**. The correct repair is to return the projected node to model-space, restore the last earned address, and keep any useful prospective branch explicitly conditional until the transition that would promote it is realised/registered.
+
+An **executed** probe, intervention, measurement or elapsed-time evolution may itself be the lawful transition that changes the state. The guard applies to the merely projected reach before that execution/transition is earned, not to a real intervention that physically or informationally updates the addressed object.
 
 The reciprocal guard is equally important. This corollary is **not anti-prospection**. Long-horizon modelling, counterfactual branching, admissible-future search, planning and discriminator design remain lawful and may be decision-bearing now. The rule constrains **state authority**, not imagination or planning depth.
 
