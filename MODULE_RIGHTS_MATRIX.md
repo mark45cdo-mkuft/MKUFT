@@ -133,6 +133,7 @@ Unless an exact file states another licence, the current versions of the followi
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 - [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md)
+- [Use This Work — Public-Benefit Use and Commercial Stewardship](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md) — canonical stewardship/use-routing note; it states project intent and permission posture but does not override the licence attached to an exact object
 - [Cross-Domain Compositional Schema Standalone Publication](CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md) as the repository publication record for the CC BY 4.0 v0.3 deposit; this later repository record is not itself a silent relicensing of live modules
 - [Bell Constraints Standalone Publication](BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md) as the repository publication record for the CC BY 4.0 Bell v1.0 deposit
 - [Chain-Address Standalone Publication](CHAIN_ADDRESS_STANDALONE_PUBLICATION.md) as the repository publication record; the exact deposited object's licence/rights status controls
@@ -149,6 +150,7 @@ For any reuse, identify the exact object first:
 2. its version or commit;
 3. any licence stated inside that exact object;
 4. its specific DOI record, if any;
-5. this matrix and [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md) for the current repository position.
+5. this matrix and [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md) for the current repository position;
+6. [Use This Work — Public-Benefit Use and Commercial Stewardship](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md) for the intended public-benefit/commercial use route, remembering that this stewardship policy does not broaden or narrow an exact object's legal licence.
 
-Where those sources differ, the licence attached to the exact material being used controls. A general provenance reference cannot broaden that licence.
+Where those sources differ, the licence attached to the exact material being used controls. A general provenance reference or stewardship statement cannot broaden that licence.
