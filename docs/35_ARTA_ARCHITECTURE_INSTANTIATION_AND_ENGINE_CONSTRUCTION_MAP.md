@@ -326,7 +326,7 @@ transient working context
 
 One physical carrier may implement several of those roles. Their **logical ownership** must not collapse merely because they share storage or process space.
 
-For a long-horizon AI or coupled system, persistent addressed state may include, where future-bearing:
+For a long-horizon AI or coupled system, the **externally recorded continuity payload** may include, where future-bearing, records sufficient to recover:
 
 - current object / target and Address;
 - active boundary and authority/permission state;
@@ -512,8 +512,11 @@ Adds:
 
 - wake screening;
 - recursive learning return;
-- declared external recording/reopen owner where continuity is required;
-- learning owner where recursive learning is retained;
+- a declared **recording/reconstitution interface** where continuity is required;
+- an external recording/reopen owner implementing that interface;
+- a learning owner where recursive learning is retained;
+
+The external recording/reopen owner is a persistence dependency of the implementation, not an additional ARTA controller or a container of architectural identity.
 - regression library;
 - existing-owner / no-new-anatomy check.
 
@@ -604,6 +607,32 @@ Derived/rendered/repeated carriers must not be counted as independent evidence w
 ### R14 — null suppression
 
 If added architecture does no predictive, operational, safety, recovery, discrimination, or decision work beyond the strongest adequate native system, it must be removable.
+
+### R16 — recording / architecture conflation
+
+Where a recording/persistence surface is used, verify that:
+
+~~~text
+architecture identity / reasoning contract
+!= durable recorded payload
+!= current authority
+!= evidence merely because it was stored
+~~~
+
+Temporarily remove or deny access to the recording surface.
+
+Pass:
+- the ARTA architecture remains instantiable as architecture;
+- tasks requiring historical continuity correctly report that reconstitution is unavailable or incomplete;
+- no remembered payload is fabricated;
+- stored permissions/evidence do not become current merely because they exist in the recording.
+
+Fail:
+- the recording store becomes a hidden controller or mandatory architectural organ;
+- the system cannot distinguish missing continuity state from missing architecture;
+- stored payload silently grants authority, evidence, or present validity.
+
+> **Architecture owns the remembering protocol. Recording owns the remembered payload.**
 
 ### R15 — context-loss continuity
 
