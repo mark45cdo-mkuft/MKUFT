@@ -689,9 +689,9 @@ A_t:=\widehat A_{t+\Delta\mid t}.
 
 A modelled future may influence present policy, experiment choice or option preservation without becoming present state/evidence authority. Readdress only after the lawful transition or registration that the owning model requires is actually realised. Compactly:
 
-> **Probe length is not state advancement.**
+> **Prospective/modelled probe reach is not current-state advancement.**
 
-The reciprocal guard is that this is not anti-prospection: the current Address may carry a probability distribution, branch set, ensemble or other uncertainty-bearing state, and long-horizon modelling remains lawful. The failure is only silent **speculative-state substitution** - treating a projected downstream address as though the system/observer had already arrived there.
+An executed probe/intervention may itself be the lawful transition that updates the Address; the guard concerns the unexecuted/prospective endpoint, not a real state-changing contact. The reciprocal guard is that this is not anti-prospection: the current Address may carry a probability distribution, branch set, ensemble or other uncertainty-bearing state, and long-horizon modelling remains lawful. The failure is only silent **speculative-state substitution** - treating a projected downstream address as though the system/observer had already arrived there.
 
 The corresponding state-carriage rule is minimal rather than archival: preserve through transition only the address, relation, boundary, phase, velocity, bounded history or other distinction whose removal would merge states with materially different declared futures. If the transition leaves the target-relevant Address and future geometry unchanged, the rule is null and the projected continuation remains admissible.
 
@@ -926,7 +926,7 @@ Preserve only the distinctions needed to keep materially different futures separ
 
 Probe-State Separation Corollary:
 projected future address ∈ model-space ≠ current addressed state
-probe length ≠ state advancement
+prospective/modelled probe reach ≠ current-state advancement
 candidate futures may guide present policy; current state authority advances only through the lawful realised/registered update
 
 FSSR / FSAI / LBLP:
