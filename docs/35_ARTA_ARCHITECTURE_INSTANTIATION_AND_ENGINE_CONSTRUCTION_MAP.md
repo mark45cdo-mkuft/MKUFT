@@ -515,10 +515,10 @@ Adds:
 - a declared **recording/reconstitution interface** where continuity is required;
 - an external recording/reopen owner implementing that interface;
 - a learning owner where recursive learning is retained;
-
-The external recording/reopen owner is a persistence dependency of the implementation, not an additional ARTA controller or a container of architectural identity.
 - regression library;
 - existing-owner / no-new-anatomy check.
+
+The external recording/reopen owner is a persistence dependency of the implementation, not an additional ARTA controller or a container of architectural identity.
 
 Where the declared target requires continuity across interruption/context loss, it also requires an external recording/reopen owner or future-sufficient restoration route plus cold-reconstitution verification. That recording surface supports the engine but is not, by that fact alone, part of the architecture body.
 
@@ -608,6 +608,12 @@ Derived/rendered/repeated carriers must not be counted as independent evidence w
 
 If added architecture does no predictive, operational, safety, recovery, discrimination, or decision work beyond the strongest adequate native system, it must be removable.
 
+### R15 — context-loss continuity
+
+Where cross-session continuity is claimed, discard the active working context/session and start from a fresh or restarted instance with only the declared architecture/reconstitution route and external recording/reopen owners. If the implementation cannot reconstruct the future-sufficient Address, recover the required provenance/authority distinctions, verify current validity, and continue without invented memory, continuity has not been demonstrated for that target. Failure of the recording surface is therefore a continuity/reconstitution failure, not proof that the architecture itself has ceased to exist.
+
+A fresh reasoner that merely reads Module 35 and performs better in one context demonstrates instruction/reasoning transfer, not R15 conformance.
+
 ### R16 — recording / architecture conflation
 
 Where a recording/persistence surface is used, verify that:
@@ -633,12 +639,6 @@ Fail:
 - stored payload silently grants authority, evidence, or present validity.
 
 > **Architecture owns the remembering protocol. Recording owns the remembered payload.**
-
-### R15 — context-loss continuity
-
-Where cross-session continuity is claimed, discard the active working context/session and start from a fresh or restarted instance with only the declared architecture/reconstitution route and external recording/reopen owners. If the implementation cannot reconstruct the future-sufficient Address, recover the required provenance/authority distinctions, verify current validity, and continue without invented memory, continuity has not been demonstrated for that target. Failure of the recording surface is therefore a continuity/reconstitution failure, not proof that the architecture itself has ceased to exist.
-
-A fresh reasoner that merely reads Module 35 and performs better in one context demonstrates instruction/reasoning transfer, not R15 conformance.
 
 ---
 
