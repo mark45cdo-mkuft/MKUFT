@@ -217,6 +217,48 @@ candidate A fails
 
 If process tempo is load-bearing, compare lawful gradual/chronic, pulsed/catastrophic, and mixed candidates under the same object address rather than importing a tempo preference from narrative or precedent.
 
+## 7B. Boundary-claim and representation-transform custody
+
+Before promoting a statement such as `cannot`, `impossible`, `inaccessible`, `unauthorised`, `prohibited`, or `unrepresentable`, identify which boundary coordinate actually carries the claim.
+
+Use the minimum non-null decomposition:
+
+~~~text
+support / evidence
+inference / model
+unresolved remainder
+access / capability
+authority / permission
+admissibility / prohibition
+representation
+~~~
+
+Do not convert a local limitation into a stronger global claim. In particular:
+
+~~~text
+not established != impossible
+not accessible from this route != nonexistent
+not authorised != incapable
+not yet formalised != outside cause/effect
+~~~
+
+Preserve unsupported exterior as unresolved unless an impossibility or exclusion result has actually been earned. Use a formal mathematical frontier only where the evidence/model justifies it and where the formalism improves discrimination, recurrence, verification, or reopening.
+
+Where a claim depends on a representation transform, keep performed-route state explicit:
+
+~~~text
+transform available
+!= transform executed
+!= transformed carrier inspected through the target observer/readout
+!= target-relevant observer relation changed
+~~~
+
+If multiple transforms are searched, preserve the search family and post-hoc selection burden. Do not count several views of one underlying object as several independent objects or confirmations.
+
+If an observer response changes under a lawful transform, first localise the difference to the observer–representation relation. Do not infer changed ontology, consciousness, privileged access or new physics without an independent bridge.
+
+For human–AI decision objects, consequence modelling and action authority are separately typed. A system may be causally consequential and bound by applicable moral/safety/legal constraints without owning the final human or institutional decision. Conversely, lack of such sovereignty does not create exemption from cause/effect or applicable constraint.
+
 ## 8. Prospective timing and promotion
 
 If an object claims early warning, mechanism localisation, or transition anticipation, define the conventional comparison marker before confirmation.
