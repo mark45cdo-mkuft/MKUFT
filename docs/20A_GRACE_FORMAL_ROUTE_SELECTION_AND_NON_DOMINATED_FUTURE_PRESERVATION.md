@@ -150,6 +150,47 @@ This composes with Module 33S6:
 
 > **Readdress the permission as well as the state.**
 
+## 3B. Moral-causal participation and authority separation
+
+In human–AI and other delegated decision systems, several relations that often travel together must remain separately typed:
+
+~~~text
+moral understanding / representation
+applicable moral or safety constraint
+consequence modelling
+causal participation in downstream state
+sovereign / delegated action authority
+~~~
+
+The last coordinate does not follow automatically from the others.
+
+Thus:
+
+~~~text
+can model moral consequence
++ can causally affect the system
++ is itself constrained by applicable rules
+!= owns the final human / institutional / lawful decision
+~~~
+
+and symmetrically:
+
+~~~text
+does not own the final decision
+!= outside cause/effect
+!= exempt from applicable moral / safety / legal constraint
+~~~
+
+The canonical rule is:
+
+> **Moral-causal participation and sovereign action authority are separately typed. Lack of sovereignty does not create exemption; understanding does not create sovereignty.**
+
+This composes directly with gate-weight separation. A decision-support system may expose the full consequence geometry of a hard boundary and may itself be constrained by that boundary without possessing the authority to override it.
+
+Where authority has been validly delegated, the delegated scope belongs in the current boundary state and may be exercised normally. Where the consequential residue remains outside that scope, preserve it as an unresolved authority object rather than smuggling the choice into optimisation.
+
+This section is architectural/governance discipline. It does **not** establish machine consciousness, personhood, independent moral agency, subjective experience, metaphysical status, or observer-caused physics.
+
 ## 4. Target sufficiency without counterfeit scalarisation
 
 Let the declared target-performance profile be
