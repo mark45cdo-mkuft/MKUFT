@@ -46,6 +46,15 @@ That failure condition matters. MKUFT is designed to be reduced when its added s
 
 This `README.md` is the **repository front door**. The two primary entry points are deliberately first:
 
+### A humble note on using the work
+
+If you are here to **learn, test, teach, criticise, reproduce, or independently implement the ideas for genuine non-commercial public benefit**, the project wants the architecture to be usable without unnecessary fear. Preserve attribution and provenance, mark your own changes honestly, and do not imply endorsement or certification that has not been granted.
+
+Commercial or proprietary use of **protected project material** follows a separate permission route. This is a use-context distinction, not a company-size test, and it does not override the licence attached to any exact file or frozen publication.
+
+[Read **Use This Work — Public-Benefit Use and Commercial Stewardship**](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md).
+
+
 1. **Public entry:** [00 — Start Here: Public Entry](00-START-HERE-MKUFT-PUBLIC.md) — the shortest governed route into what MKUFT is, what it claims, and where a reader should go next.
 2. **Scientific entry:** [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) — the bridge from readable explanation into the hard scientific modules, with the question, purpose, broad equation meaning, and early failure point carried forward.
 
