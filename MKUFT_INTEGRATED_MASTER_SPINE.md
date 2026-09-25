@@ -651,6 +651,19 @@ R_q(\Theta;\lambda,\Delta,\mathcal U)
 
 Equivalently, histories treated as the same effective state must not retain materially different target futures under the declared admissible challenge family. A distinction enters the effective Address only when omitting it merges futures that split beyond tolerance.
 
+At cold entry, before target-relevant wake has earned independent standing, the framework does **not** require a universe-sized state description merely because an observer is situated inside a larger causal environment. Initialise from the strongest adequate native Address for the declared object/regime/target; if the realised state is unresolved, use the corresponding uncertainty-bearing native state-space object rather than inventing precision. Observer/registration context is compressed by the same future-sufficiency rule: retain only what changes the declared future, reachable discriminator, admissible operation or readout interpretation beyond tolerance.
+
+This gives the entry relation:
+
+~~~text
+strongest adequate native state / state-space object
++ only target-relevant boundary / environment / registration
++ no independent wake until future behaviour earns it
+→ realise / observe / intervene
+→ recruit the smallest missing distinction if futures split
+→ readdress
+~~~
+
 AAF makes the recursion explicit:
 
 ```math
@@ -950,6 +963,11 @@ Recovery path need not invert degradation path
 Future-sufficient Address:
 R_q(Θ;λ,Δ,𝒰) ≤ ε_q
 A distinction belongs in Address only when omitting it merges materially different declared futures
+
+Cold entry / observer compression:
+start from the strongest adequate native Address or uncertainty-bearing native state-space object
+situated observer ≠ universe-sized active model
+carry only observer/context/wake distinctions that still change the declared future or discriminator
 
 Transition-carried future:
 A_t → 𝓕_t^+ → τ_t → A_(t+1) → 𝓕_(t+1)^+
