@@ -19,6 +19,7 @@ Supporting routes:
 - [README](README.md) — repository front door.
 - [MKUFT in Plain English](MKUFT_IN_PLAIN_ENGLISH.md) — shortest ordinary-language conceptual route.
 - [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md) — fuller ordinary-English scientific overview.
+- [Use This Work — Public-Benefit Use and Commercial Stewardship](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md) — humane use-routing note: public-benefit/non-commercial intent, exact-object licence custody, and separate commercial permission route.
 - [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md) — canonical live identity and provenance boundary for the integrated **MKUFT Addressed Relational Traversal Architecture**; not a standalone paper and not a retroactive rename of frozen publications.
 - [Live Nomenclature Refinement — 14 September 2026](MKUFT_NOMENCLATURE_REFINEMENT_2026-09-14.md) — current naming route for ARTA, Functional Configuration, Traversal Coherence Anchor, Operator–Target Binding and Scale-Relative Role Transition.
 - [Professional Domain Instantiation Guide](PROFESSIONAL_DOMAIN_INSTANTIATION_GUIDE.md) — converts shared role words into domain-native objects, variables, maps, measurements, baselines and nulls.
@@ -145,6 +146,7 @@ For full paper-family navigation, use [Papers and Publications](papers/README.md
 
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 - [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md)
+- [Public-Benefit Use and Commercial Stewardship](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md)
 - [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md)
 - [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md)
 - [Research Derivation and Closure SOP](RESEARCH_DERIVATION_AND_CLOSURE_SOP.md)
