@@ -386,6 +386,39 @@ Where elapsed time or a declared dynamical law itself constitutes the state tran
 
 This guard prevents a false second node from contaminating later evidence, while preserving prospective modelling as a legitimate part of scientific method.
 
+### 6C. Representation-conditioned observer reach
+
+The observer's reachable discriminator family can depend on representation even where the underlying object is unchanged.
+
+Let `x` be the current object, `T(x)` a lawful transformed representation, and `\mathcal D_O^q(x)` the target-relevant discriminator family actually reachable to observer/registration state `O`.
+
+Then it is possible that
+
+~~~text
+same underlying object
+while
+D_O^q(T(x)) != D_O^q(x)
+~~~
+
+because the transform changes readability, feature accessibility, candidate generation, comparison geometry, or another observer-side operation.
+
+This does not imply that the object's ontology changed. It means the **observer–representation address** changed.
+
+Therefore, when a transform is proposed as load-bearing:
+
+~~~text
+transform available
+→ execute transform
+→ inspect through actual observer/registration route
+→ test target-relevant discriminator delta
+→ if non-null: readdress observer/representation state
+→ if null: collapse transform branch
+~~~
+
+Do not claim the consequence of a transform that was never executed/inspected, and do not count several transformed views as several independent underlying objects or independent confirmations.
+
+The parent representation-invariance and observer-equivalence tests are owned by Module 31. This section only states the traversal consequence: a changed representation can alter what the bounded observer can lawfully ask or recover next.
+
 ## 7. Discriminator selection and no unique “right question” claim
 
 This module does not posit one uniquely correct next question.
