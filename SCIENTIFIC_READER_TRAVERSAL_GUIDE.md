@@ -10,11 +10,7 @@ The intended reader is intelligent and scientifically literate, but not assumed 
 
 ## Use / stewardship route
 
-Scientific scrutiny is welcome. So are good-faith non-commercial efforts to test, teach, reproduce, or independently implement the ideas where they genuinely help.
-
-The exact object's licence and rights status still controls any copying, adaptation, redistribution, software reuse, or other protected-material use. Commercial/proprietary use of protected project material follows a separate route.
-
-[Read **Use This Work — Public-Benefit Use and Commercial Stewardship**](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md).
+Scientific scrutiny and good-faith non-commercial public-benefit use are intended paths. Exact-object rights remain controlling. [Use the single canonical stewardship/use route.](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md)
 
 ## Carry this object through the whole guide
 
