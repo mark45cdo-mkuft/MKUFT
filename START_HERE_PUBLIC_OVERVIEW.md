@@ -14,11 +14,7 @@ At its current maturity, the simplest useful category is **research architecture
 
 ## Use it without unnecessary fear
 
-If you are reading this because you want to learn from the architecture, test it, teach it, reproduce its experiments, criticise it, or independently implement its ideas for genuine non-commercial public benefit, that is an intended use of the public research surface.
-
-The project asks for honest attribution and provenance, not deference. The exact material's licence still controls protected copying or adaptation, and commercial/proprietary use of protected project material follows a separate permission route.
-
-[Read **Use This Work — Public-Benefit Use and Commercial Stewardship**](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md).
+Good-faith non-commercial public-benefit use is an intended path. Preserve provenance, check the exact object, and [use the single canonical stewardship/use route](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md).
 
 ## Start with the problem, not the vocabulary
 
