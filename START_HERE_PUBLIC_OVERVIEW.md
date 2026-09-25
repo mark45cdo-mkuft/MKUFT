@@ -12,6 +12,14 @@ MKUFT is speculative research. It is not presented as an accepted completed theo
 
 At its current maturity, the simplest useful category is **research architecture**: a disciplined way to test whether a system has been described well enough before asking a law, model, or intervention to carry a claim about it. Physics is the hardest target; biology, AI/software, control, and other systems are additional places to test whether the same structural method earns anything beyond strong native models. Similar structure across fields does not mean the same mechanism runs them all.
 
+## Use it without unnecessary fear
+
+If you are reading this because you want to learn from the architecture, test it, teach it, reproduce its experiments, criticise it, or independently implement its ideas for genuine non-commercial public benefit, that is an intended use of the public research surface.
+
+The project asks for honest attribution and provenance, not deference. The exact material's licence still controls protected copying or adaptation, and commercial/proprietary use of protected project material follows a separate permission route.
+
+[Read **Use This Work — Public-Benefit Use and Commercial Stewardship**](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md).
+
 ## Start with the problem, not the vocabulary
 
 A large scientific model can go wrong before an equation is even chosen.
