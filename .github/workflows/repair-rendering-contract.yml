@@ -1,0 +1,87 @@
+name: One-shot rendering-contract repair
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/repair-rendering-contract.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Repair only the four diagnosed rendering-contract files
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          import subprocess
+
+          files = [
+              Path('MKUFT_INTEGRATED_MASTER_SPINE.md'),
+              Path('docs/20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md'),
+              Path('docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md'),
+              Path('docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md'),
+          ]
+
+          # Same command family enforced by tools/check_markdown_rendering.py.
+          math_command = re.compile(
+              r"\\(?:mathcal|mathfrak|mathbf|mathrm|text|alpha|beta|gamma|delta|Delta|lambda|Lambda|"
+              r"Psi|Xi|Pi|rho|mu|nu|sum|int|boxed|left|right|rightarrow|longrightarrow|rightleftarrows|"
+              r"approx|neq|in|le|ge|circ|mid|widetilde|bigsqcup|lVert|rVert|qquad|quad|times|subseteq)\\b"
+          )
+          paren = re.compile(r"\\(([^()]*\\\\[^()]*)\\)")
+
+          def repair_line(line):
+              # Preserve literal-code carriers.
+              visible = re.sub(r"`[^`]*`", "", line)
+              if '$' in visible or not math_command.search(visible):
+                  return line
+
+              def repl(m):
+                  body = m.group(1)
+                  # One historical leak omitted the command slash before widehat.
+                  if body.startswith('widehat{'):
+                      body = '\\' + body
+                  return '$' + body + '$'
+
+              return paren.sub(repl, line)
+
+          for path in files:
+              text = path.read_text(encoding='utf-8')
+              # The repository's own checker records operatorname as unsupported in the
+              # observed public carrier. This is notation-only: arg max is unchanged.
+              text = text.replace(r'\\operatorname*{arg\\,max}', r'\\mathrm{arg\\,max}')
+
+              out = []
+              in_fence = False
+              for line in text.splitlines(keepends=True):
+                  stripped = line.strip()
+                  if stripped.startswith('```') or stripped.startswith('~~~'):
+                      in_fence = not in_fence
+                      out.append(line)
+                      continue
+                  out.append(line if in_fence else repair_line(line))
+              path.write_text(''.join(out), encoding='utf-8')
+
+          # Hard gate: never commit unless the repository's own rendering contract passes.
+          subprocess.run(['python', 'tools/test_markdown_rendering_checker.py'], check=True)
+          subprocess.run(['python', 'tools/check_markdown_rendering.py'], check=True)
+          PY
+      - name: Commit repaired carriers
+        run: |
+          if git diff --quiet -- MKUFT_INTEGRATED_MASTER_SPINE.md docs/20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md; then
+            echo 'No repair delta produced.'
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add MKUFT_INTEGRATED_MASTER_SPINE.md docs/20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md
+          git commit -m 'Fix Markdown math carriers caught by integrity gate'
+          git push origin HEAD:main
