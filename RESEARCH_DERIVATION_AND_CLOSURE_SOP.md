@@ -130,6 +130,18 @@ If an apparent state deficiency may be specific to the interrogation rather than
 
 A proposed next discriminator must also be reachable from the observer/registration state actually attained. Use [33S7C — Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) rather than assuming access to a test, record, scale, or intervention that the live address does not support.
 
+Before reasoning downstream from a projected future address, apply the **Probe-State Separation Corollary** in Module 33S7A and its observer-side guard in 33S7C:
+
+~~~text
+projected / simulated / candidate future
+→ may guide present action, challenge selection or experiment design
+→ remains explicitly conditional
+→ does not become current state/evidence authority
+→ readdress only after the owning model's lawful realised/registered transition
+~~~
+
+If a derivation has silently instantiated a future node and then built further claims from it as though the transition already occurred, return those claims to model-space, restore the last earned Address, and re-run the downstream chain conditionally. This is not a ban on prediction or planning. The current Address may itself be probabilistic or branched; the requirement is correct typing of current versus prospective state.
+
 A repair that merely improves fit without surviving remove/restore is not yet load-bearing.
 
 ## 7A. Negative evidence, search geometry, and mechanism completeness
