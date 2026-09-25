@@ -91,6 +91,8 @@ The public scientific object is therefore the **capability and test burden**, no
 
 **ARTA** is the proper name of this particular integrated MKUFT architecture.
 
+A reader who wants to **instantiate ARTA as an engine, workflow, protocol, or human–AI system** should continue to [35 — ARTA Architecture Instantiation and Engine Construction Map](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md). Module 35 is the canonical builder map; it does not redefine ARTA, replace the scientific owners, certify an implementation, or duplicate the separate stewardship/licence policy.
+
 The relation is therefore:
 
 ```text
