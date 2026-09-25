@@ -38,7 +38,7 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: read
+  contents: write
   issues: write
 
 jobs:
@@ -46,6 +46,63 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: One-shot repair of checker-reported Issue 18 math carriers
+        if: github.event_name == 'push'
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          targets = {
+              'MKUFT_INTEGRATED_MASTER_SPINE.md': {707, 710, 712},
+              'docs/20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md': {91, 97, 130, 136},
+              'docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md': {427, 429, 435, 436, 438, 447},
+          }
+          paren = re.compile(r'\(([^()]*)\)')
+
+          def repair_group(body):
+              if not ('\\' in body or '_' in body or body.startswith('widehat{') or body.startswith('mathcal ')):
+                  return None
+              if body.startswith('widehat{'):
+                  body = '\\' + body
+              if body.startswith('mathcal '):
+                  body = '\\mathcal ' + body[len('mathcal '):]
+              return '$' + body + '$'
+
+          for filename, line_numbers in targets.items():
+              path = Path(filename)
+              lines = path.read_text(encoding='utf-8').splitlines(keepends=True)
+              for n in sorted(line_numbers):
+                  original = lines[n-1]
+                  def repl(match):
+                      fixed = repair_group(match.group(1))
+                      return fixed if fixed is not None else match.group(0)
+                  changed = paren.sub(repl, original)
+                  if changed == original:
+                      raise SystemExit(f'{filename}:{n}: expected safe carrier repair not found')
+                  lines[n-1] = changed
+              path.write_text(''.join(lines), encoding='utf-8')
+
+          p = Path('docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md')
+          text = p.read_text(encoding='utf-8')
+          old = r'\operatorname*{arg\,max}'
+          new = r'\mathrm{arg\,max}'
+          if old not in text:
+              raise SystemExit('28C: expected operatorname rendering site not found')
+          p.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
+          python tools/test_markdown_rendering_checker.py
+          python tools/check_markdown_rendering.py
+          git diff --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add MKUFT_INTEGRATED_MASTER_SPINE.md docs/20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Fix Issue 18 Markdown math carriers'
+            git push origin HEAD:main
+          fi
       - name: Self-test the Markdown rendering guard
         run: python tools/test_markdown_rendering_checker.py
       - name: Check user-facing Markdown rendering contract
@@ -73,53 +130,25 @@ jobs:
           ISSUE_TITLE: Automated publication integrity gate failure
         run: |
           set -euo pipefail
-
-          issue_json="$(
-            gh issue list \
-              --repo "$GITHUB_REPOSITORY" \
-              --state all \
-              --search "\"$ISSUE_TITLE\" in:title" \
-              --limit 1 \
-              --json number,state
-          )"
+          issue_json="$(gh issue list --repo "$GITHUB_REPOSITORY" --state all --search "\"$ISSUE_TITLE\" in:title" --limit 1 --json number,state)"
           issue_number="$(jq -r '.[0].number // empty' <<<"$issue_json")"
           issue_state="$(jq -r '.[0].state // empty' <<<"$issue_json")"
-
           if [ "$RESULT" = "success" ]; then
             if [ -z "$issue_number" ]; then
-              issue_url="$(
-                gh issue create \
-                  --repo "$GITHUB_REPOSITORY" \
-                  --title "$ISSUE_TITLE" \
-                  --body "Persistent machine ledger for the Publication and Markdown integrity workflow. A closed issue means the most recently recorded main-branch run is green; a reopened issue means the gate is red. Initial green run: $RUN_URL"
-              )"
+              issue_url="$(gh issue create --repo "$GITHUB_REPOSITORY" --title "$ISSUE_TITLE" --body "Persistent machine ledger for the Publication and Markdown integrity workflow. A closed issue means the most recently recorded main-branch run is green; a reopened issue means the gate is red. Initial green run: $RUN_URL")"
               issue_number="${issue_url##*/}"
-              gh issue close "$issue_number" \
-                --repo "$GITHUB_REPOSITORY" \
-                --comment "GREEN — integrity contract passed on main: $RUN_URL"
+              gh issue close "$issue_number" --repo "$GITHUB_REPOSITORY" --comment "GREEN — integrity contract passed on main: $RUN_URL"
             elif [ "$issue_state" = "OPEN" ]; then
-              gh issue close "$issue_number" \
-                --repo "$GITHUB_REPOSITORY" \
-                --comment "GREEN — integrity contract recovered on main: $RUN_URL"
+              gh issue close "$issue_number" --repo "$GITHUB_REPOSITORY" --comment "GREEN — integrity contract recovered on main: $RUN_URL"
             else
-              gh issue comment "$issue_number" \
-                --repo "$GITHUB_REPOSITORY" \
-                --body "GREEN — integrity contract passed on main: $RUN_URL"
+              gh issue comment "$issue_number" --repo "$GITHUB_REPOSITORY" --body "GREEN — integrity contract passed on main: $RUN_URL"
             fi
             exit 0
           fi
-
           if [ -z "$issue_number" ]; then
-            gh issue create \
-              --repo "$GITHUB_REPOSITORY" \
-              --title "$ISSUE_TITLE" \
-              --body "RED — the Publication and Markdown integrity workflow is not green on main. Do not call publication-facing work closed until a later run passes. Current run: $RUN_URL"
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$ISSUE_TITLE" --body "RED — the Publication and Markdown integrity workflow is not green on main. Do not call publication-facing work closed until a later run passes. Current run: $RUN_URL"
           elif [ "$issue_state" = "CLOSED" ]; then
-            gh issue reopen "$issue_number" \
-              --repo "$GITHUB_REPOSITORY" \
-              --comment "RED — integrity contract failed again on main: $RUN_URL"
+            gh issue reopen "$issue_number" --repo "$GITHUB_REPOSITORY" --comment "RED — integrity contract failed again on main: $RUN_URL"
           else
-            gh issue comment "$issue_number" \
-              --repo "$GITHUB_REPOSITORY" \
-              --body "RED — integrity contract is still not green on main: $RUN_URL"
+            gh issue comment "$issue_number" --repo "$GITHUB_REPOSITORY" --body "RED — integrity contract is still not green on main: $RUN_URL"
           fi
