@@ -74,6 +74,36 @@ A_{\Theta}(x)=A_{\Theta}(x').
 
 This equivalence is target-independent at the level of address construction. Whether it is sufficient is target-dependent.
 
+### 2A. Cold-entry Address initialization
+
+A first description of a system does **not** become better by attempting to include every causal influence, every available record, or the whole environment from which the system arose. That would confuse causal ancestry with the minimum state required for the declared task.
+
+At cold entry, before target-relevant wake/history has earned independent status, initialise from the **strongest adequate native Address** for the declared object, regime and target.
+
+There are two common cases.
+
+1. **The realised state is adequately registered.** Use the strongest fair native state description already justified for that class of system, together with the boundary, environment, intervention and registration conditions required by the target.
+2. **The realised state is not yet fully resolved.** Initialise a typed uncertainty-bearing object over the strongest adequate native state space — for example a distribution, ensemble, admissible set or equivalence class — rather than inventing a precise point state that has not been observed.
+
+Schematically,
+
+~~~text
+first contact
+→ strongest adequate native state / state-space description
+→ only the boundary / environment / registration needed for the declared target
+→ no independent wake coordinate unless future behaviour earns it
+→ challenge / observe / intervene
+→ readdress when a future split exposes a missing distinction
+~~~
+
+“Native” means the strongest ordinary/domain-grounded representation appropriate to the declared regime, not the simplest convenient model and not a preferred MKUFT interpretation. If several native baselines remain comparably adequate, preserve that ambiguity or compare them; do not silently select the one that favours the desired continuation.
+
+This initial Address is **provisional compression, not privileged prior truth**. It survives only while representatives grouped together remain equivalent for the declared future within tolerance. A later future split may earn bounded history, observer/registration context, relation state, scale, phase, rate, boundary state or another coordinate into the Address. If no such deformation appears, additional context remains unnecessary.
+
+The cold-entry rule therefore complements predictive closure:
+
+> **Begin with the strongest adequate native Address; let future-bearing deformation earn the extra state.**
+
 ## 3. Target-relative predictive closure
 
 Let
@@ -493,6 +523,8 @@ It supplies a narrower scientific question:
 ## 17. Compressed rules
 
 > **Address sufficiency is target-relative, not absolute.**
+
+> **Begin cold entry from the strongest adequate native Address or uncertainty-bearing native state-space object; do not manufacture extra context before a future-bearing split earns it.**
 
 > **Predictive closure means same-address distinctions no longer change the declared target future beyond tolerance.**
 
