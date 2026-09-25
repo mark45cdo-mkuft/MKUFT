@@ -368,7 +368,7 @@ public candidate c
 → propagate only if still earned and authorised
 ~~~
 
-Eligible surfaces can include live K4 recursive-learning returns, relevant C2/Hybrid learning carriers, same-parent handwritten notes or corrections, private working notes, corrected transcriptions, and other explicitly recruited private research sources. Eligibility is defined by **parent/address relevance, evidence state, and authority**, not by timestamp alone.
+Eligible surfaces can include authorised same-parent private learning returns, handwritten notes or corrections, private working notes, corrected transcriptions, and other explicitly recruited private research sources. Eligibility is defined by **parent/address relevance, evidence state, and authority**, not by timestamp alone.
 
 Keep these guards explicit:
 
