@@ -56,6 +56,34 @@ Before a novelty claim:
 
 Prior-art audit precedes publication-strength novelty language.
 
+## 4A. Question-source separation
+
+A source can be valuable because it suggests a question without becoming evidence for the answer.
+
+This applies to:
+
+- metaphysical or philosophical systems;
+- historical or symbolic material;
+- cross-domain analogy;
+- AI-generated hypotheses;
+- informal human intuition;
+- another non-native source whose language appears to match the target.
+
+Use:
+
+~~~text
+source suggests a relation / question
+→ restate the candidate in target-domain terms
+→ remove source authority and source-specific vocabulary
+→ identify the strongest native baseline
+→ define the discriminator / failure condition
+→ test independently
+~~~
+
+If the candidate loses all scientific content when the source language is removed, keep it as interpretation or question-generation provenance rather than a scientific claim.
+
+A metaphysical system may therefore sharpen what is worth asking, but it cannot certify the physical mechanism, evidence state or answer that the scientific layer must establish independently.
+
 ## 5. Calibration before flagship
 
 A new assay or architecture should first prove that it can recover a known distinction in a system where the answer is independently available.
