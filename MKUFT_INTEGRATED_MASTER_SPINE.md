@@ -765,6 +765,8 @@ OCQS is a bounded observer-state hypothesis. It does not prove remote informatio
 
 GRACE—Geometry, Relation, Admissibility, Coherence, Emergence—is a traversal filter. It does not create a new layer or supply evidence by acronym.
 
+Its hard-boundary rule is prior to route optimisation. **Some costs are not weights; they are gates.** A severe downstream consequence may justify review of a boundary, but it does not itself manufacture consent, permission, safety clearance, legal/moral authority or command authority. A blocked route re-enters comparison only after the rule/authority that owns the boundary lawfully readdresses it.
+
 ### ESRT / ESF
 
 ESRT/ESF test whether an artefact or representation contains reproducible **addressing, state, and flow** structure. A pass identifies an executable-system candidate, not a hidden meaning or historical use by assertion.
@@ -987,6 +989,12 @@ Directional GRACE geometry:
 after truth/admissibility are fixed, compare surviving routes by named future-bearing capacities
 repeated route choices can widen / narrow / mix the next admissible geometry
 no universal scalar "up/down" law
+
+Gate / weight separation:
+hard boundary ≠ large negative weight
+high consequence may trigger review / escalation
+only the boundary owner / already-declared exception may readdress admissibility
+no unowned exception manufacture
 
 Metaphysical interrogation:
 metaphysics may supply a question / comparison
