@@ -679,6 +679,20 @@ A realised transition may therefore change not only the realised state but the A
 
 Otherwise continuation is selected from the future geometry of the readdressed state actually realised. This does not discard target, law, boundary, environment or intervention constraints that remain valid; it prevents an earlier projected sequence from being treated as authority after the state that justified it has changed.
 
+A named corollary of the same relation is the **Probe-State Separation Corollary**. Let a model/search process at (A_t) generate candidate future addresses (widehat{\mathcal A}_{t+\Delta\mid t}). Then
+
+~~~math
+\widehat A_{t+\Delta\mid t}\in\widehat{\mathcal A}_{t+\Delta\mid t}
+\;\not\Longrightarrow\;
+A_t:=\widehat A_{t+\Delta\mid t}.
+~~~
+
+A modelled future may influence present policy, experiment choice or option preservation without becoming present state/evidence authority. Readdress only after the lawful transition or registration that the owning model requires is actually realised. Compactly:
+
+> **Probe length is not state advancement.**
+
+The reciprocal guard is that this is not anti-prospection: the current Address may carry a probability distribution, branch set, ensemble or other uncertainty-bearing state, and long-horizon modelling remains lawful. The failure is only silent **speculative-state substitution** - treating a projected downstream address as though the system/observer had already arrived there.
+
 The corresponding state-carriage rule is minimal rather than archival: preserve through transition only the address, relation, boundary, phase, velocity, bounded history or other distinction whose removal would merge states with materially different declared futures. If the transition leaves the target-relevant Address and future geometry unchanged, the rule is null and the projected continuation remains admissible.
 
 FSSR supplies the experimental attack on this claim: choose an admissible future that attempts to split histories currently treated as the same state, confirm any split independently, identify the smallest physically typed repair, and require remove/restore closure before crediting state recruitment. FSAI names the cross-domain future-sufficiency criterion, while LBLP states that address adequacy is tested before a residual is promoted into law revision.
@@ -687,7 +701,7 @@ The first full minimum-decisive prospective physical/material instantiation is [
 
 This is an explicit synthesis of the already canonical 32/33 family, not a new standalone law of nature or a new physical mechanism.
 
-Canonical owners: Modules 33S4, 33S5, 33S6, 33S7 and 33S7A; temporal and identity support: Modules 32S1 and 32S2.
+Canonical owners: Modules 33S4, 33S5, 33S6, 33S7 and 33S7A; observer/probe implementation support: Module 33S7C; temporal and identity support: Modules 32S1 and 32S2.
 
 ## 10. LUCY
 
@@ -909,6 +923,11 @@ Transition-carried future:
 A_t → 𝓕_t^+ → τ_t → A_(t+1) → 𝓕_(t+1)^+
 γ_(t,rem)^proj ∈ 𝓕^+(A_(t+1)) for an earlier projected suffix to remain admissible
 Preserve only the distinctions needed to keep materially different futures separate
+
+Probe-State Separation Corollary:
+projected future address ∈ model-space ≠ current addressed state
+probe length ≠ state advancement
+candidate futures may guide present policy; current state authority advances only through the lawful realised/registered update
 
 FSSR / FSAI / LBLP:
 attack same-state equivalence with a lawful future → confirm split independently → recruit the minimum typed repair → remove/restore → readdress
