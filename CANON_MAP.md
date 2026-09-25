@@ -290,6 +290,7 @@ This fold makes an already-distributed chain explicit without creating a new mod
 - **33S4** owns the **cold-entry Address rule**: when no target-relevant wake has yet earned independent status, start from the strongest adequate native Address for the declared object/regime/target; if the realised state is unresolved, use a typed uncertainty-bearing native state-space object rather than a fictitious point estimate.
 - **33S7C** owns **observer compression**: situated observer/registration context is not a requirement to model the observer's whole causal ancestry or the whole universe. Carry only observer/context/wake distinctions whose omission still changes the declared future, reachable discriminator, admissible operation or readout interpretation beyond tolerance.
 - **20 / GRACE** owns the **directional future-geometry shorthand**: after truth/admissibility are fixed, repeated lawful route choices can widen, narrow or mix the later geometry by preserving or consuming named future-bearing capacities such as truthful feedback, agency, correction, provenance, reversibility, cohesion where target-relevant, and restorative reach. No universal scalar `up/down` law is introduced.
+- **20A / GRACE Formal Route Selection** owns **gate-weight separation and authority-custodied readdressing**: hard admissibility conditions are outside route weighting. A catastrophic or existential consequence may trigger urgent review of the blocking boundary, but only the boundary's lawful owner or an already-declared exception/necessity rule may change admissibility. Consequence magnitude does not manufacture consent, permission, safety clearance, legal/moral authority or command authority.
 - **Integrated Master Spine §14.1** owns the **metaphysical interrogation bridge**: metaphysical/philosophical systems may generate questions, comparisons or candidate interpretations, but they do not supply scientific evidence, mechanism or closure by authority. Shared wording is subtracted; any surplus claim must earn a native discriminator or remain philosophical/metaphysical.
 - **Research Derivation and Closure SOP §4A** carries the reciprocal procedural gate: question sources are separated from evidence for the answer.
 - **Scientific Reader Traversal Guide** and **Reader Contact and Failure Guide** carry the same relation at reader resolution so the bridge is explained before the technical formalism depends on it.
@@ -303,8 +304,9 @@ cold entry
 → screened wake / observer compression
 → realised traversal and readdressing
 → lawful route comparison over named future-bearing capacities
+→ hard gates remain outside weighting; severe consequences may trigger owner-custodied boundary review
 → optional metaphysical comparison as question-generation only
 → native discriminator or philosophical remainder
 ```
 
-This fold does not make observer context a physical force, does not infer metaphysical truth from structural resemblance, does not assign biological evolution a moral direction, and does not alter frozen DOI publications.
+This fold does not make observer context a physical force, does not infer metaphysical truth from structural resemblance, does not assign biological evolution a moral direction, does not allow a high-stakes optimiser to manufacture authority by weighting a hard gate, and does not alter frozen DOI publications.
