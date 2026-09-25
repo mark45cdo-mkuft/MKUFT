@@ -67,6 +67,7 @@ README = repository front door
 MKUFT in plain English = one-step conceptual explanation
 Public Overview = fuller ordinary-English scientific overview
 Scientific Reader Traversal Guide = scientific entry into the technical body
+Stewardship/use route = one shared public-benefit/commercial-use owner for every reader entry
 ARTA naming route = integrated-architecture identity and provenance
 Canon Map = full technical dependency structure
 ```
