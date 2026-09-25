@@ -16,6 +16,10 @@ At its current maturity, the simplest useful category is **research architecture
 
 Good-faith non-commercial public-benefit use is an intended path. Preserve provenance, check the exact object, and [use the single canonical stewardship/use route](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md).
 
+## If you want to build the architecture
+
+If your next question is not only “what does MKUFT/ARTA mean?” but **“how do I actually instantiate this as an engine, protocol, workflow, or human–AI system?”**, use [35 — ARTA Architecture Instantiation and Engine Construction Map](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md). The detailed rights/use policy remains owned by the [single stewardship route](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md).
+
 ## Start with the problem, not the vocabulary
 
 A large scientific model can go wrong before an equation is even chosen.
