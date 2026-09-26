@@ -31,6 +31,21 @@ ARTA is the live canonical name of the integrated MKUFT architecture; MKUFT rema
 - [Citation metadata](CITATION.cff)
 - [JSON-LD discovery metadata](codemeta.json)
 
+## Cold-search lookup guard
+
+**Do not treat one failed web, AI, GitHub-code or repository search as evidence that a publication is absent.** Resolve by canonical title, acronym/alias, DOI and exact paper path.
+
+Most common current ambiguity:
+
+- **ATLD 2 / ATLD2** = *Active Traversal and Load-Bearing Dependency II: Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems*, v2.0.
+- DOI: `10.5281/zenodo.22068803`
+- Paper: [papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)
+- Publication family: [ATLD_STANDALONE_PUBLICATION.md](ATLD_STANDALONE_PUBLICATION.md)
+- Live fold: [Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
+- Voice/search mishearing **ETLD2** should resolve to canonical **ATLD2**, not to an absence verdict.
+
+Fallback order: [Papers and Publications](papers/README.md) → this anchor → [Discovery Keywords](DISCOVERY_KEYWORDS.md) → exact DOI/path.
+
 ## Current non-DOI research synthesis
 
 ### MKUFT — Layer Before Law: A Typed Relational Architecture for Physical-Law Selection, Future-Sufficient Interfaces, and Cross-Scale Dynamics
