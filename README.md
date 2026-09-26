@@ -9,6 +9,28 @@
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)  
 **Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511) · [LinkedIn](https://www.linkedin.com/in/custodiansystems45/) · [GitHub](https://github.com/mark45cdo-mkuft)
 
+
+## Find a paper fast — title / acronym / DOI lookup
+
+Cold search, AI retrieval and GitHub code search can miss a public object even when the exact file is present. **A search miss is not an absence verdict.** Use the canonical paper index and exact DOI/path before concluding that a paper does not exist.
+
+| Search handle / alias | Canonical public object | DOI / route |
+|---|---|---|
+| **ATLD 2 / ATLD2** *(voice/search mishearing: ETLD2)* | **Active Traversal and Load-Bearing Dependency II — Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems**, v2.0 | DOI `10.5281/zenodo.22068803` · [paper](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md) · [publication family](ATLD_STANDALONE_PUBLICATION.md) · [Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) |
+| **ATLD / ATLD v1** | Active Traversal and Load-Bearing Dependency — predecessor v1.0 | DOI `10.5281/zenodo.21341521` · [papers index](papers/README.md) |
+| **Chain-Address / Chain-Address Invariants** | Chain-Address Invariants for Long-Horizon AI Systems, v1.0 | DOI `10.5281/zenodo.22102379` · [paper](papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md) |
+| **FSSR / Future-Splitting State Recruitment** | Future-Splitting State Recruitment, v1.0 | DOI `10.5281/zenodo.22058303` · [paper](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md) |
+| **FSSR HCP / magnesium protocol** | Future-Splitting State Recruitment in History-Dependent HCP Magnesium Mechanics, v1.0 | DOI `10.5281/zenodo.22309144` · [paper](papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md) |
+| **AAF / Addressed Admissible Futures** | Addressed Admissible Futures, v0.1 | DOI `10.5281/zenodo.22031333` · [paper](papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md) |
+| **TDR / Typed Decomposition-Reconstruction** | Typed Decomposition-Reconstruction, v1.0 | DOI `10.5281/zenodo.22258000` · [paper](papers/2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md) |
+| **Cross-Domain / Compositional Schema** | Cross-Domain Compositional Schema, v0.4 | DOI `10.5281/zenodo.22166468` · [paper](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md) |
+| **Bell Constraints** | Bell Constraints as Typed Boundaries, v1.0 | DOI `10.5281/zenodo.22100926` · [paper](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md) |
+| **Layer Before Law** | Layer Before Law, v1.0 | DOI `10.5281/zenodo.21971270` · [paper](papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md) |
+| **Recursive Constraint Closure / RCC** | Recursive Constraint Closure and Reachable-State Geometry, v0.1 | DOI `10.5281/zenodo.21971425` · [paper](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md) |
+| **Voynich / ESRT / ESF** | The Voynich Manuscript as a Candidate Procedural-Executable Information System, v2.0 | DOI `10.5281/zenodo.22071229` · [paper](papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md) |
+
+**Cold-search fallback:** [Papers and Publications](papers/README.md) → [Public Discovery Anchor](PUBLIC_DISCOVERY_ANCHOR.md) → [Discovery Keywords](DISCOVERY_KEYWORDS.md) → exact DOI/path. Do not infer “not public” or “not present” from one failed search layer.
+
 MKUFT is a speculative research framework. It is not presented as an accepted completed theory of physics. Its strongest present claim is narrower: **before a law is applied to a system, the system has to be addressed correctly.**
 
 > **Using the work:** if you are here to learn, test, teach, criticise, reproduce, or independently implement the ideas for genuine non-commercial public benefit, you are on the intended path. [Read the project’s single stewardship/use route.](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md)
