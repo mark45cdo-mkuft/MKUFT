@@ -82,9 +82,9 @@ The observer/registration address is subject to the same future-sufficiency burd
 
 Let (C_t^O) denote a candidate observer/registration context containing whatever larger history or environment could in principle be represented. A target-relative observer address may be written schematically as
 
-~~~math
+```math
 O_t^q = \Pi_O^q(C_t^O),
-~~~
+```
 
 where the compression is adequate only while omitted distinctions do not change the declared future or discriminator frontier beyond tolerance.
 
