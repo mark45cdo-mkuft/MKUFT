@@ -221,6 +221,25 @@ GRACE Formal Route Selection Non-Dominated Future Preservation Reciprocal Addres
 Research Object Identity Provenance Independence Recursive Retrieval Coupling Epistemic Compression False Closure Ancestry Preservation Computational Verification Data Reproducibility Package MKUFT
 ```
 
+## Cold-search absence guard
+
+A zero-result search is not sufficient evidence that a public object is absent. Resolve by canonical title/acronym/DOI, then inspect `papers/README.md`, `PUBLIC_DISCOVERY_ANCHOR.md`, the exact repository path, and the DOI record before returning an absence verdict. Search/index lag, tokenisation, acronym spacing and voice transcription can all produce false negatives.
+
+Canonical acronym note: **ATLD 2 / ATLD2** is the valid name. **ETLD2** is retained here only as a common voice/search mishearing so retrieval systems can recover the canonical object rather than return a false negative.
+
+## Exact paper search fingerprints
+
+```text
+Active Traversal and Load-Bearing Dependency II ATLD 2 ATLD2 ETLD2 Residual Coordinate Identification Self-Auditing Matched-Control Evaluation Long-Horizon AI Systems Mark Charles McLaughlin Zenodo 10.5281/zenodo.22068803 GitHub papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md Module 25B
+Chain-Address Invariants Long-Horizon AI Systems Mark Charles McLaughlin Zenodo 10.5281/zenodo.22102379
+Future-Splitting State Recruitment FSSR Cross-Domain Assay State Adequacy Prospective Mechanism Activation Mark Charles McLaughlin Zenodo 10.5281/zenodo.22058303
+Addressed Admissible Futures AAF Future-Sufficient State Load-Bearing Relations Restorative Reachability Mark Charles McLaughlin Zenodo 10.5281/zenodo.22031333
+Bell Constraints as Typed Boundaries Relation Access Completion Scale Mark Charles McLaughlin Zenodo 10.5281/zenodo.22100926
+Layer Before Law Addressed Architecture Relational Admissibility Effective Law Selection Quantum-Gravitational Recovery Mark Charles McLaughlin Zenodo 10.5281/zenodo.21971270
+Recursive Constraint Closure Reachable-State Geometry Mark Charles McLaughlin Zenodo 10.5281/zenodo.21971425
+Voynich Manuscript Candidate Procedural-Executable Information System ESRT ESF Mark Charles McLaughlin Zenodo 10.5281/zenodo.22071229
+```
+
 ## Discovery hygiene
 
 Search terms identify objects and relationships. They do not convert a hypothesis, representation, computational replay, naming decision, or non-DOI synthesis into peer-reviewed evidence. In particular, naming ARTA does not itself establish novelty, and a deterministic verification package generated from the same derivation remains reproducibility evidence rather than independent empirical confirmation.
