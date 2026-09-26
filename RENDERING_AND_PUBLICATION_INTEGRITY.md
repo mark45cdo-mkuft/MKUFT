@@ -262,6 +262,45 @@ Published DOI papers must additionally have a publication record that identifies
 - readable public route.
 
 A paper must not become undiscoverable merely because later canon work moved its source ideas into modules.
+## Repository public-metadata freshness gate
+
+The repository's GitHub **About/description, homepage/primary link, and topics/tags are part of the public discovery carrier**. A clean README and correct paper index do not close repository discovery if these outer metadata fields remain materially stale.
+
+During a repository-wide public audit, publication/discovery audit, or any change that materially updates the repository's stable public identity, inspect the **live repository metadata** rather than relying on a screenshot or remembered settings.
+
+Compare the live metadata against the current public owners, especially:
+
+- `README.md`;
+- `00-START-HERE-MKUFT-PUBLIC.md`;
+- the current canonical architecture/project naming route;
+- `PUBLIC_DISCOVERY_ANCHOR.md`;
+- `DISCOVERY_KEYWORDS.md`;
+- the current principal publication route where it materially defines the public whole.
+
+Classify each metadata field as:
+
+- **CURRENT** — truthful and still representative of the current public whole;
+- **STALE** — not necessarily false, but materially narrower, superseded, or missing a now-load-bearing public identity/discovery handle;
+- **WRONG** — materially false, obsolete, misleading, or routed to the wrong object;
+- **NULL** — checked and no change is earned.
+
+The About line should describe the current repository **as a whole**, not freeze one historically central paper or branch as the permanent identity of a broader live architecture.
+
+Topics/tags are a finite discovery surface. Curate them for stable current identity, major live research branches, and useful retrieval handles. Do not endlessly append every internal term, and do not preserve redundant or misleading tags merely because they were once useful. Removing a stale discovery tag does not erase provenance; provenance remains in the repository and publication records.
+
+Recheck this metadata surface when any of the following can change receiver reconstruction or searchability:
+
+1. a stable architecture/project name is adopted or materially refined;
+2. the public front door or principal publication route changes;
+3. a major research branch becomes part of the repository's public identity;
+4. a discovery/indexing repair exposes a missing public handle;
+5. a repository-wide publication/release/discovery audit is being closed.
+
+Do not force metadata churn for ordinary commits that do not alter the public identity.
+
+If the live metadata is stale or wrong and mutation authority/tooling is available, update only the earned fields and verify the **receiver-side repository metadata after the change**. If the metadata cannot be changed in the current execution context, record the exact pending About/homepage/topic delta and keep that public-surface item **OPEN**. File-level correctness does not by itself close an unresolved external metadata surface.
+
+> **Repository discovery metadata is part of publication integrity. Truthful-but-stale is still a public-surface defect when it materially misrepresents the current whole or hides a load-bearing discovery handle.**
 
 ## Drive rule
 
