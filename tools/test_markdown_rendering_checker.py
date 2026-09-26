@@ -89,6 +89,17 @@ The literal label `D_{\mathrm{irr}}(\gamma)` denotes the irreversible-loss vecto
     )
 
     require_failure(
+        "tilde math fence",
+        r"""# Bad
+
+~~~math
+\mathcal F(x)
+~~~
+""",
+        "unsupported tilde math fence",
+    )
+
+    require_failure(
         "legacy display delimiter",
         """# Bad\n\n$$\nx=1\n$$\n""",
         "legacy display-math delimiter",

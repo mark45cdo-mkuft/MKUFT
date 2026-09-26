@@ -117,6 +117,12 @@ def audit(path: Path):
     for lineno, line in enumerate(text.splitlines(), 1):
         stripped = line.strip()
 
+        if stripped.lower() == "~~~math":
+            problems.append(
+                f"line {lineno}: unsupported tilde math fence; use fenced ```math"
+            )
+            continue
+
         if stripped.startswith("```"):
             if not in_fence:
                 in_fence = True
