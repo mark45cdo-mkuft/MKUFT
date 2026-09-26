@@ -451,11 +451,11 @@ without being promoted into present fact, evidence or state authority.
 
 Readdressing is earned only when a declared realised or registered update supplies the transition actually required by the owning model:
 
-~~~math
+```math
 (A_t,O_t)
 \xrightarrow{\;\tau_t,\,r_t\;}
 (A_{t+1},O_{t+1}).
-~~~
+```
 
 Here (\tau_t) may be a physical transition, intervention, elapsed-time evolution under a declared model, or another lawful state transition, while (r_t) denotes the relevant registration/readout where one is required. The corollary does **not** require a fresh measurement for every state update; it requires that the update be the one actually licensed by the model and realised conditions rather than a merely imagined downstream address.
 
