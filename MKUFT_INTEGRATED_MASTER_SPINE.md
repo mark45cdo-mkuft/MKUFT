@@ -663,6 +663,8 @@ Equivalently, histories treated as the same effective state must not retain mate
 
 The same criterion applies to **boundary claims**. A load-bearing statement such as `unknown`, `inaccessible`, `incapable`, `unauthorised`, `prohibited`, or `unrepresentable` is itself an addressed claim. Preserve only the boundary coordinates whose collapse would merge materially different lawful continuations, and preserve unsupported exterior as unresolved rather than converting a local limitation into global impossibility. This is the **Boundary-Claim Sufficiency Corollary** owned in 33S7A.
 
+The same family now carries a **Boundary-Driven Readdressing / Parent-Admissibility Corollary**. A path that is unavailable at one Address is not thereby globally prohibited; a wider parent may reopen the claim only when it supplies the missing typed relation and the parent law object actually admits the path. Conversely, merely naming a wider frame does not legalise a transition. After lawful readdressing, directional roles such as `upstream` and `downstream` are recomputed relative to the new declared relation rather than inherited automatically. This is a methodological/addressing rule, not evidence for retrocausation or a reversible physical arrow of time.
+
 At cold entry, before target-relevant wake has earned independent standing, the framework does **not** require a universe-sized state description merely because an observer is situated inside a larger causal environment. Initialise from the strongest adequate native Address for the declared object/regime/target; if the realised state is unresolved, use the corresponding uncertainty-bearing native state-space object rather than inventing precision. Observer/registration context is compressed by the same future-sufficiency rule: retain only what changes the declared future, reachable discriminator, admissible operation or readout interpretation beyond tolerance.
 
 This gives the entry relation:
@@ -997,6 +999,12 @@ boundary claim = addressed state claim
 retain only the typed frontier needed to keep materially different continuations separate
 preserve unsupported exterior as unresolved, not impossible
 formal precision must earn discrimination
+
+Boundary-Driven Readdressing / Parent Admissibility:
+local non-reachability != global prohibition
+named wider frame != lawful rescue
+readdress only through a typed parent relation actually admitted by the parent law object
+recompute relation-relative direction after relation/address change
 
 Cold entry / observer compression:
 start from the strongest adequate native Address or uncertainty-bearing native state-space object
