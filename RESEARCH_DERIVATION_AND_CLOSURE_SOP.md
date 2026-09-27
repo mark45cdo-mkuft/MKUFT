@@ -698,6 +698,36 @@ This ordering is mandatory:
 
 > **First prove the existing body cannot already do the work. Then prove the surviving residual actually does work.**
 
+### 17A.2A Representation-neutral premise gate
+
+When testing whether a general system factors through a proposed architecture, state the premise class in representation-neutral semantic obligations before using the architecture's own implementation nouns.
+
+Do not use:
+
+```text
+define valid comparators as already preserving X / X-update
+→ prove valid comparators factor through X / X-update
+```
+
+where `X` is the representation or operator whose necessity is under test.
+
+Instead use:
+
+```text
+declare the semantic behaviour that must be preserved
+→ permit a comparator to realise that behaviour in its own native representation
+→ ask whether a semantics-preserving map to the proposed architecture can be constructed
+→ reject the result if the proof has to smuggle the proposed internal variables/operators into the premise class
+```
+
+Audit question:
+
+> **Could a valid strongest comparator satisfy the premise contract without already containing a variable, operator, label, or decomposition named like the candidate architecture?**
+
+If not, the result may be circular even when every individual definition is internally consistent.
+
+This is a proof/novelty hygiene gate, not a requirement that every domain use identical representation.
+
 ### 17A.3 Insertion-address rule
 
 A surviving lesson is inserted at the smallest existing owner whose declared function actually changes.
