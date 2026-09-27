@@ -28,6 +28,7 @@ The paper is a formal research programme/conjecture object. Publication does not
 
 ## Routes
 
+- [Carrier identity record](CARRIER_IDENTITY.txt)
 - [Repository paper route](../../papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md)
 - [Standalone publication record](../../MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md)
 - [Zenodo v1.0](https://doi.org/10.5281/zenodo.22998394)
