@@ -227,6 +227,7 @@ This prevents explanatory copies from developing competing equations, notation, 
 
 ## Publications, references, and provenance
 
+- [Minimal Addressed Operator Standalone Publication](MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md)
 - [Future-Splitting State Recruitment Standalone Publication](FSSR_STANDALONE_PUBLICATION.md)
 - [Addressed Admissible Futures Standalone Publication](AAF_STANDALONE_PUBLICATION.md)
 - [Future-Sufficient Address Invariant canonical naming route](FSAI_CANONICAL_NAMING_NOTE.md)
@@ -348,3 +349,40 @@ current object / target
 ```
 
 This fold does **not** establish AI consciousness/personhood, does not make every unresolved possibility physically real, does not make representation sensitivity universal, does not treat several views as several underlying objects, does not infer changed ontology from changed recognition alone, and does not alter frozen DOI publications.
+
+
+## 27 September 2026 — Minimal Addressed Operator publication route
+
+The DOI-bearing preprint [*Toward a Minimal Addressed Operator for Sequential Inquiry: Factorisation, Readdressing, and Recursive Scale Handoff in MKUFT*](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md), v1.0, is now a frozen citable research-programme object.
+
+- version DOI: `10.5281/zenodo.22998394`
+- concept DOI: `10.5281/zenodo.22998393`
+- publication record: `MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md`
+- carrier identity/checksum: `publications/MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0/`
+
+This publication does **not** create a new Canon module or ARTA controller.
+
+Live ownership remains distributed:
+
+- **33S4** owns target-relative Address sufficiency and smallest earned state repair;
+- **33S7B** owns prospectively fixed interrogation/query burden and post-hoc-query leakage guards;
+- **Module 35** owns the executable ARTA build/runtime/conformance sequence;
+- the DOI-bearing MKUFT/ATLD parents retain their frozen historical claims.
+
+The paper's new public role is narrower: it asks whether those already-published relations admit a representation-independent clean-inquiry factorisation and, separately, when a lawful inquiry move admits a prospectively justified minimal representative.
+
+Therefore:
+
+```text
+new DOI paper
+!= new engine anatomy
+!= proved universal theorem
+!= retroactive rewrite of parent publications
+
+new DOI paper
+= frozen factorisation/minimality research programme
++ prior-art/null comparison object
++ citable conformance hypothesis
+```
+
+Any later proof, reduction, or empirical discriminator must become a new result/version rather than being read backward into v1.0.
