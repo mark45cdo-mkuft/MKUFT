@@ -17,7 +17,16 @@ ROOT = Path(__file__).resolve().parents[1]
 
 RECEIVER_SAFE_MARKER = "<!-- MKUFT_RENDER_MODE: receiver-safe -->"
 RECEIVER_SAFE_REQUIRED = {
+    "README.md",
+    "00-START-HERE-MKUFT-PUBLIC.md",
     "START_HERE_PUBLIC_OVERVIEW.md",
+    "MKUFT_IN_PLAIN_ENGLISH.md",
+    "INDEX.md",
+    "PUBLIC_DISCOVERY_ANCHOR.md",
+    "SCIENTIFIC_READER_TRAVERSAL_GUIDE.md",
+    "papers/README.md",
+    "publications/README.md",
+    "MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md",
     "papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md",
 }
 INLINE_MATH = re.compile(r"(?<!\\)\$[^$\n]+(?<!\\)\$")
@@ -113,9 +122,7 @@ def audit(path: Path):
     except ValueError:
         rel = None
 
-    receiver_safe = RECEIVER_SAFE_MARKER in text
-    if rel in RECEIVER_SAFE_REQUIRED and not receiver_safe:
-        problems.append("required receiver-safe route is missing the receiver-safe marker")
+    receiver_safe = RECEIVER_SAFE_MARKER in text or rel in RECEIVER_SAFE_REQUIRED
 
     if "\ufffd" in text:
         problems.append("contains Unicode replacement character U+FFFD")

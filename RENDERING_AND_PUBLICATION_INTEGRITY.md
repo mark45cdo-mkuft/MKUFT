@@ -18,7 +18,9 @@ Public GitHub Markdown has two distinct carrier classes. They must not be collap
 
 ### Receiver-safe reader routes
 
-A route marked `<!-- MKUFT_RENDER_MODE: receiver-safe -->` must remain readable when the client does **not** invoke MathJax or another TeX renderer.
+A route marked `<!-- MKUFT_RENDER_MODE: receiver-safe -->`, or listed by the standing checker as a required public entry route, must remain readable when the client does **not** invoke MathJax or another TeX renderer.
+
+The standing required receiver-safe entry surface currently includes the repository README, public start routes, plain-English route, public index/discovery route, scientific reader guide, papers/publications indexes, the MAO standalone record, and the MAO GitHub reading route.
 
 For those routes:
 
