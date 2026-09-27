@@ -387,6 +387,28 @@ A question is one possible discriminator. A measurement, comparison, perturbatio
 
 [Read Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md).
 
+### Boundary-Driven Readdressing
+
+**Question:** if something is impossible, unreachable, originless, or one-way at the current Address, when is a wider description allowed to change that verdict?
+
+**Failure prevented:** turning a local limit into global impossibility, or doing the opposite and using a vague “higher frame” as permission to rescue any contradiction.
+
+**Plain version:** a bigger map helps only if it contains a real road.
+
+```text
+local limit
+→ first test same-address model / measurement / representation error
+→ test whether the current Address is sufficient for the stronger claim
+→ identify the smallest typed parent relation that could change the result
+→ require the parent to actually admit the path
+→ readdress
+→ recompute which way the relevant arrows point
+```
+
+`Upstream` and `downstream` belong to a declared relation. They are not permanent labels glued to an object. A change of relation can change direction without implying that physical time itself has reversed.
+
+[Read the Boundary-Driven Readdressing / Parent-Admissibility Corollary](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary).
+
 ### GRACE — some costs are gates, not weights
 
 **Question:** what happens when the downstream benefit of a route is enormous but the route crosses a hard boundary?
