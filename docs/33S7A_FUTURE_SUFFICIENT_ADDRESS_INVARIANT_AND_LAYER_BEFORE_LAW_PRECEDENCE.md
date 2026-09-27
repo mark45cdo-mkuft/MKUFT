@@ -17,7 +17,7 @@
 **AAF publication:** DOI `10.5281/zenodo.22031333`  
 **FSSR publication:** DOI `10.5281/zenodo.22058303`  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
-**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated through the published Cross-Domain Compositional Schema v0.4, the later live sideways-interrogation/query-design extension, the Probe-State Separation Corollary, and the Boundary-Claim Sufficiency Corollary. It does not retroactively alter a frozen publication, treat the v0.4 Bell chart as a universal ontology, or promote an invertible representation into a physical mechanism.
+**Status:** canonical nomenclature, precedence, and live compositional-interface fold for the future-sufficiency family, updated through the published Cross-Domain Compositional Schema v0.4, the later live sideways-interrogation/query-design extension, the Probe-State Separation Corollary, the Boundary-Claim Sufficiency Corollary, and the Boundary-Driven Readdressing / Parent-Admissibility Corollary. It does not retroactively alter a frozen publication, treat the v0.4 Bell chart as a universal ontology, or promote an invertible representation into a physical mechanism.
 
 ## 1. Purpose
 
@@ -555,6 +555,107 @@ This corollary is target-relative and anti-ceremonial. If the finer boundary dis
 
 It is also not a physical mechanism claim. The corollary governs claim typing, Address sufficiency and lawful continuation. It does not prove that every unresolved possibility is physically real, that every system can eventually cross every boundary, or that formalising a limit changes the underlying world.
 
+## 5D. Boundary-Driven Readdressing and Parent-Admissibility Corollary
+
+A load-bearing local boundary can fail in two opposite ways if its Address is not kept explicit.
+
+One error promotes a local result too far:
+
+```text
+not reachable / representable / derivable at the current Address
+→ therefore impossible in every admissible parent
+```
+
+The other error does the reverse:
+
+```text
+a wider frame can be named
+→ therefore the locally forbidden path is now lawful
+```
+
+Neither inference is licensed by scale or abstraction alone.
+
+Let `A_l` be the Address under which a local transition/path claim is made and let `A_p` be a candidate parent Address that contains an additional typed relation `R` omitted by the local description. Write
+
+```math
+\Gamma_{A_l}(x\rightarrow y)
+```
+
+for the path/transition family admitted under the local law object and
+
+```math
+\Gamma^{R}_{A_p}(x\rightarrow y)
+```
+
+for the corresponding parent family when the candidate relation is included.
+
+A local non-reachability result
+
+```math
+\Gamma_{A_l}(x\rightarrow y)=\varnothing
+```
+
+does **not** by itself establish
+
+```math
+\Gamma_{A_p}(x\rightarrow y)=\varnothing.
+```
+
+Conversely, merely naming `A_p` or `R` does not establish a lawful parent route. Readdressing changes the verdict only when the omitted relation is independently typed, target-relevant, and the parent law object actually admits the path:
+
+```math
+\Gamma^{R}_{A_p}(x\rightarrow y)\neq\varnothing.
+```
+
+The operational rule is therefore:
+
+```text
+local boundary becomes load-bearing
+→ first test same-address model / measurement / representation error
+→ if the defect survives, test whether the local Address is sufficient for the stronger claim
+→ identify the smallest typed parent relation that could change the result
+→ test parent admissibility
+→ readdress only if the parent actually admits the route
+→ recompute the declared future / closure / directional role
+```
+
+### Relation-relative direction
+
+Directional labels such as `upstream`, `downstream`, `input`, `output`, `parent`, `child`, `earlier cause`, or `later consequence` belong to a declared relation. If `\alpha` and `\beta` are different ordering relations, then
+
+```math
+\operatorname{dir}_{\alpha}(x,y)
+\not\Rightarrow
+\operatorname{dir}_{\beta}(x,y)
+```
+
+without a typed mapping that preserves the ordering.
+
+The same object may therefore be downstream under one relation and upstream under another without contradiction. This is a relation/address statement; it does **not** by itself establish retrocausation, a reversible physical arrow of time, or a new causal mechanism.
+
+### Parent-closure guard
+
+A wider parent may close a path that looks open, originless, or impossible in a restricted projection only when the parent contains the missing relation and the complete path remains lawful there. This is **closure by restored relation**, not closure by contradiction.
+
+A closed relational, computational, or control loop is not by itself a closed timelike curve.
+
+### Null and reduction conditions
+
+This corollary returns NULL for the declared target when:
+
+- a same-address model, measurement, numerical, or representation repair already closes the apparent boundary;
+- the local Address is already sufficient for the stronger claim;
+- no independently typed parent relation can be identified;
+- the parent still excludes the route;
+- readdressing changes no target future, closure decision, discriminator, lawful action, or directional role;
+- an ordinary domain-native hierarchical/contextual model captures the same result with equal or better precision.
+
+The corollary is therefore a canonical methodological sharpening of the existing FSAI/LBLP/readdressing architecture. It adds no new physical law, privileged geometry, universal causal direction, or evidence that every local impossibility has a higher-level rescue.
+
+Compactly:
+
+> **The edge is information about Address before it is evidence for new law. A wider parent changes a local boundary only through a typed lawful relation, and any directional role must be recomputed after readdressing.**
+
 ## 6. Claim and novelty boundary
 
 This naming/fold note does not claim that predictive equivalence, observability, hidden/internal state, active probing, state augmentation, compositionality, black-boxing, interface contracts, dependency graphs, provenance, local-to-global consistency, model discrimination, experimental design, invariance/equivariance, quotienting, nuisance-parameter elimination, or sufficient statistics are individually new. Those neighbouring ingredients are established and are treated as such in the parent papers and the compositional-schema prior-art comparison.
@@ -566,8 +667,9 @@ The bounded claim here is narrower:
 3. **LBLP** is the canonical name assigned to its Layer-Before-Law methodological precedence consequence;
 4. the published 29 August 2026 Cross-Domain Compositional Schema v0.3 makes explicit the reuse corollary `closed object → future-sufficient interface → preserve or guaranteed targeted reopen`, together with typed partial instantiation/refusal, restoration-signature-aware evaluation, protocol-relative exact relation ablation, and cardinality-neutral geometry;
 5. the later live 33S7B extension places target-preserving invariant/equivariant interrogation inside the same minimum-sufficiency repair family and advances it, where prospectively testable, into a query/measurement-design search over `SIDEWAYS-GEN` candidates compared against `DOWN`, `UP`, `NULL`, and the strongest native method;
-6. the reported cross-domain result remains a bounded architectural/translational result, not a new algebra, theorem, privileged geometry, physical mechanism, experimental-design theory, or demonstrated universal cross-domain superiority;
-7. none of these relations upgrades the construction to an experimentally confirmed universal law.
+6. the Boundary-Driven Readdressing / Parent-Admissibility Corollary makes explicit the bounded relation `local boundary claim → smallest typed lawful parent → readdress → recompute admissibility and relation-relative direction`, while blocking both local-to-global impossibility inflation and higher-frame rescue by assertion;
+7. the reported cross-domain result remains a bounded architectural/translational result, not a new algebra, theorem, privileged geometry, physical mechanism, experimental-design theory, or demonstrated universal cross-domain superiority;
+8. none of these relations upgrades the construction to an experimentally confirmed universal law.
 
 Any stronger law-of-nature or superiority claim requires prospective quantitative success, appropriate ordinary baselines, independent replication and the promotion gates already present in the public canon.
 
@@ -585,6 +687,8 @@ The relevant scientific ancestry is not created by this note:
 → 25D — provenance-bearing chain address, compressed invariant and typed return
 → 33S7A — canonical naming of FSAI/LBLP plus scoped closure/reopening
 → 33S7B — sideways invariant/equivariant interrogation and prospective query design as target-relative minimum-sufficiency repair
+→ 33S7C — observer-bounded traversal, wake screening and reachable discriminator frontiers
+→ 33S7A §5D — boundary-driven readdressing, typed parent admissibility and relation-relative direction
 → Cross-Domain Compositional Schema v0.2 — bounded preserve-or-reopen interface composition, typed partial instantiation/refusal, and minimal restorative descent at baseline parity
 → Cross-Domain Compositional Schema v0.3/v0.4 — formalised evaluation/ablation/reopening contract plus executed Bell/CHSH hostile calibration and exact tetrahedral-chart closure/null.
 ```
@@ -601,6 +705,8 @@ The named objects contract rather than expand if their burden is not met.
 - If a sideways query closes only by erasing the target, choosing the transform after reveal, ignoring a nuisance asymmetry, or laundering a long failed search tree into one successful limb, the sideways repair fails.
 - If a generated interrogation does not beat the strongest fair native method after query/search/measurement/restoration burden is counted, no independent generator advantage is established.
 - If adequate readdressing cannot close the residual, LBLP does not forbid law/model revision.
+- If a local non-reachability claim is promoted to global impossibility without an Address-sufficiency argument, or if a named wider frame is allowed to legalise a transition that remains inadmissible at the parent Address, the Boundary-Driven Readdressing / Parent-Admissibility corollary fails.
+- If a direction label is carried across a material relation/address change without a typed mapping that preserves the ordering, the relation-relative-direction claim fails.
 - If a supposedly closed interface needs a lower distinction that it neither preserved nor guaranteed to restore before use, its compositional sufficiency fails.
 - If exact relation ablation is not lawfully defined, or prospectively allowed ablation protocols disagree, the load-bearing state remains unresolved rather than being forced to `0` or `1`.
 - If cross-domain success requires inventing a target analogue for a field that is genuinely absent, the partial-instantiation/refusal claim fails.
@@ -620,6 +726,12 @@ A load-bearing limit statement is itself an addressed claim.
 Keep only the typed frontier needed to preserve materially different lawful continuations.
 Leave unsupported exterior unresolved rather than converting it into fact or impossibility.
 Use mathematical precision only where it earns real discrimination.
+
+Boundary-Driven Readdressing / Parent Admissibility:
+local non-reachability != global prohibition
+named wider frame != lawful rescue
+readdress only through the smallest typed parent relation that actually changes lawful continuation
+recompute upstream/downstream and other directional roles after the relation/address changes.
 
 Minimum-sufficiency repair:
 When a direct address fails, do not assume the only remedy is more state.
