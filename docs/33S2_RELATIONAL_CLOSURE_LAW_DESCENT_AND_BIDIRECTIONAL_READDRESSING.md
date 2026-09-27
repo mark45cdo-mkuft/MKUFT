@@ -259,6 +259,19 @@ Coupled layers or scales need not readdress simultaneously. During a genuine tra
 
 A transient mismatch is not automatically failure. It is admissible only where a typed transition model predicts the lead–lag and the downstream variable subsequently resolves within the declared bounds. Otherwise the mismatch is evidence against the proposed transition route.
 
+### Direction labels after readdressing
+
+The same objects can occupy different directional roles under different declared relations. A label such as `upstream` or `downstream` earned at one Address is therefore not automatically inherited after readdressing.
+
+After a material relation/address change, either:
+
+- a typed mapping preserves the ordering;
+- the direction reverses under the newly declared relation;
+- the objects become incomparable under that relation; or
+- a different directional vocabulary is required.
+
+For the coupled local/global boundary guard, use [33S7A §5D — Boundary-Driven Readdressing and Parent-Admissibility Corollary](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary).
+
 ## 10. Closure margin versus law-descent margin
 
 The organised whole can remain intact even after a formerly sufficient higher-level law becomes inadequate for a particular property.
