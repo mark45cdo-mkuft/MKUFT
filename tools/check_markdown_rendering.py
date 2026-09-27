@@ -37,7 +37,7 @@ SCIENTIFIC_ROOT_ROUTES = {
 LITERAL_CONTEXT_BEFORE = re.compile(
     r"(?:literal(?: source)?(?: token| fragment| command| notation)?|source token|source fragment|"
     r"filename|file name|file path|repository identifier|code span|code-style label|identifier string)"
-    r"\\s*$",
+    r"\s*$",
     re.IGNORECASE,
 )
 
