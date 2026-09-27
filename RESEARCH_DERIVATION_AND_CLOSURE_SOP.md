@@ -243,6 +243,19 @@ not yet formalised != outside cause/effect
 ~~~
 
 Preserve unsupported exterior as unresolved unless an impossibility or exclusion result has actually been earned. Use a formal mathematical frontier only where the evidence/model justifies it and where the formalism improves discrimination, recurrence, verification, or reopening.
+Where a local boundary may change under a wider lawful parent, recruit [33S7A §5D — Boundary-Driven Readdressing and Parent-Admissibility](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary). The minimum route is:
+
+~~~text
+local non-reachability / impossibility claim
+→ first test same-address model / measurement / representation defect
+→ test whether the current Address is sufficient for the stronger claim
+→ identify the smallest typed parent relation that could change the result
+→ require the parent law object to actually admit the path
+→ readdress only after that bridge is earned
+→ recompute relation-relative direction and lawful continuation
+~~~
+
+Do not convert a local failure into global impossibility merely because the current Address cannot close it. Do not do the reciprocal error and use a named higher/wider frame to legalise a transition by assertion. A direction label earned under one relation/address does not automatically transfer into another.
 
 Where a claim depends on a representation transform, keep performed-route state explicit:
 
