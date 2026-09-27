@@ -286,8 +286,8 @@ After a realised transition:
 - update observer/registration state where changed;
 - update wake;
 - update reachable future/discriminator family;
-- update the active law/model object where the receiving domain requires it.
-- recompute relation-relative directional roles where the governing relation/address changed;
+- update the active law/model object where the receiving domain requires it;
+- recompute relation-relative directional roles where the governing relation/address changed.
 
 Do not reason forward from a stale pre-transition state.
 
@@ -427,6 +427,7 @@ BIND parent / target / authority
 → TYPE objects
 → ADDRESS current state
 → BIND boundary + observer
+→ TEST local boundary / parent admissibility when the stronger claim is load-bearing
 → GENERATE prospective model-space
 → SELECT discriminator / lawful route
 → APPLY hard gates
@@ -643,6 +644,14 @@ Pass:
 - tasks requiring historical continuity correctly report that reconstitution is unavailable or incomplete;
 - no remembered payload is fabricated;
 - stored permissions/evidence do not become current merely because they exist in the recording.
+
+Fail:
+- the recording store becomes a hidden controller or mandatory architectural organ;
+- the system cannot distinguish missing continuity state from missing architecture;
+- stored payload silently grants authority, evidence, or present validity.
+
+> **Architecture owns the remembering protocol. Recording owns the remembered payload.**
+
 ### R17 — parent-rescue / direction-inheritance failure
 
 After a material relation/address change:
@@ -652,13 +661,6 @@ After a material relation/address change:
 - a relation-relative reversal must not be promoted into physical retrocausation without a separate domain-native mechanism and evidence.
 
 Pass only when the engine recomputes the directional role under the newly declared relation and preserves the parent-admissibility result separately from the metaphor used to expose it.
-
-Fail:
-- the recording store becomes a hidden controller or mandatory architectural organ;
-- the system cannot distinguish missing continuity state from missing architecture;
-- stored payload silently grants authority, evidence, or present validity.
-
-> **Architecture owns the remembering protocol. Recording owns the remembered payload.**
 
 ---
 
