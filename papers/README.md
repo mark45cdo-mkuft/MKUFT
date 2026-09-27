@@ -42,6 +42,26 @@ When an exact later Zenodo deposit is created, its DOI and deposited-carrier ide
 
 ## Published DOI papers
 
+### Toward a Minimal Addressed Operator for Sequential Inquiry
+
+*Factorisation, Readdressing, and Recursive Scale Handoff in MKUFT*
+
+**Version:** 1.0 — 27 September 2026  
+**Version DOI:** [`10.5281/zenodo.22998394`](https://doi.org/10.5281/zenodo.22998394)  
+**Concept DOI:** [`10.5281/zenodo.22998393`](https://doi.org/10.5281/zenodo.22998393)  
+**Status:** published Zenodo preprint / formal research programme  
+**Licence:** CC BY-NC-SA 4.0
+
+- [Human-readable paper route](2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md)
+- [Standalone publication/custody record](../MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md)
+- [Frozen carrier identity/checksum record](../publications/MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0/)
+- [Zenodo v1.0 publication](https://doi.org/10.5281/zenodo.22998394)
+- [Address Sufficiency — Module 33S4](../docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
+- [Sideways Invariant Interrogation — Module 33S7B](../docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md)
+- [ARTA Engine Construction Map — Module 35](../docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md)
+
+The paper asks whether a clean sequential inquiry process admits a representation-independent addressed factorisation. It separates general clean factorisation from optional minimal-query refinement, keeps recursive scale handoff as a distinct conditional construction, and exposes strong reduction/null routes through Bayesian design, POMDP/predictive-state methods, active learning, active inference, canonical history quotients, minimal sufficient information transition systems, and compositional systems. No universal theorem or new ARTA controller is claimed.
+
 ### Future-Splitting State Recruitment in History-Dependent HCP Magnesium Mechanics
 
 *A Minimum-Decisive Prospective Protocol for State Sufficiency, Probe Selection, and Mechanism Localisation*
