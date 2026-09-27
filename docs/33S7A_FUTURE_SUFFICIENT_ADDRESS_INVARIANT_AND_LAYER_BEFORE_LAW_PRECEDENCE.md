@@ -624,9 +624,9 @@ local boundary becomes load-bearing
 Directional labels such as `upstream`, `downstream`, `input`, `output`, `parent`, `child`, `earlier cause`, or `later consequence` belong to a declared relation. If `\alpha` and `\beta` are different ordering relations, then
 
 ```math
-\operatorname{dir}_{\alpha}(x,y)
+\mathrm{dir}_{\alpha}(x,y)
 \not\Rightarrow
-\operatorname{dir}_{\beta}(x,y)
+\mathrm{dir}_{\beta}(x,y)
 ```
 
 without a typed mapping that preserves the ordering.
