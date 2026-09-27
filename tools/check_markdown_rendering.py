@@ -69,7 +69,11 @@ def looks_like_literal_resource(span: str) -> bool:
     s = span.strip()
     if re.search(r"\.(?:md|py|json|pdf|txt|yml|yaml|cff|csv|tsv|png|jpg|jpeg|svg)$", s, re.IGNORECASE):
         return True
-    if s.startswith(("http://", "https://", "10.5281/", "MKUFT_PREPRINTS_")):
+    if s.startswith(("http://", "https://", "MKUFT_PREPRINTS_")):
+        return True
+    if re.fullmatch(r"10\.\d{4,9}/\S+", s):
+        return True
+    if re.fullmatch(r"(?:[A-Za-z0-9._-]{2,}/)+[A-Za-z0-9._-]{2,}/?", s):
         return True
     if re.match(r"^(?:[A-Za-z]:[\\\\/]|\.{0,2}/|/)[^\s]+$", s):
         return True

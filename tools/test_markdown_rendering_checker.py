@@ -174,6 +174,22 @@ Choose `\eta=1/2`.
         "mathematical notation is in a literal inline-code carrier",
     )
 
+    require_pass(
+        "DOI-shaped literal is not mathematics",
+        """# Good
+
+The source DOI is `10.1162/isal_a_00030`.
+""",
+    )
+
+    require_pass(
+        "extensionless repository path is not mathematics",
+        """# Good
+
+Use `reproducibility/MKUFT_PREPRINTS_v1.2_BELL_CHSH_CALIBRATION`.
+""",
+    )
+
     require_failure(
         "numeric interval is semantic mathematics",
         """# Bad
