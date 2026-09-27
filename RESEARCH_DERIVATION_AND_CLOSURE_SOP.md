@@ -243,6 +243,7 @@ not yet formalised != outside cause/effect
 ~~~
 
 Preserve unsupported exterior as unresolved unless an impossibility or exclusion result has actually been earned. Use a formal mathematical frontier only where the evidence/model justifies it and where the formalism improves discrimination, recurrence, verification, or reopening.
+
 Where a local boundary may change under a wider lawful parent, recruit [33S7A §5D — Boundary-Driven Readdressing and Parent-Admissibility](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary). The minimum route is:
 
 ~~~text
