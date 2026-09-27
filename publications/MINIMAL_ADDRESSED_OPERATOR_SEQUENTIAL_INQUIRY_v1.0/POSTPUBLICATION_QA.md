@@ -42,3 +42,21 @@ Publication freezes a formal research programme and conjecture/falsification obj
 ## Repository propagation rule
 
 The DOI object may be indexed and cross-referenced from live MKUFT. Live modules remain current owners and must not be rewritten as though v1.0 proved more than the paper claims.
+
+
+## Repository release-manifest boundary
+
+No concrete `release-manifests/*.json` record is backfilled for the exact Zenodo PDF in this propagation.
+
+Reason: the v1.0 PDF was prepared, audited, and deposited before this public-repository propagation, and no pre-deposit public source commit plus annotated/signed Git release tag was established for that exact PDF carrier. Creating such a tuple afterward would falsely imply a source-commit/tag-to-PDF release chain that was not actually observed.
+
+The exact external object is instead fixed here by:
+
+- Zenodo version DOI and concept DOI;
+- published filename;
+- byte count and page count;
+- receiver-side MD5;
+- locally computed SHA-256;
+- postpublication Zenodo metadata inspection.
+
+If a byte-verified repository binary mirror and lawful repository release/tag are later created, a concrete Module 34 manifest may then be added for that repository release state without rewriting the historical Zenodo v1.0 custody.
