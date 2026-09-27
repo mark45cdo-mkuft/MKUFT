@@ -21,6 +21,82 @@ MATH_COMMAND = re.compile(
     r"approx|neq|in|le|ge|circ|mid|widetilde|bigsqcup|lVert|rVert|qquad|quad|times|subseteq)\b"
 )
 INLINE_CODE = re.compile(r"`[^`]*`")
+INLINE_CODE_CAPTURE = re.compile(r"`([^`\\n]+)`")
+
+SCIENTIFIC_ROOT_ROUTES = {
+    "MKUFT_INTEGRATED_MASTER_SPINE.md",
+    "SCIENTIFIC_READER_TRAVERSAL_GUIDE.md",
+    "PROFESSIONAL_DOMAIN_INSTANTIATION_GUIDE.md",
+    "FSAI_CANONICAL_NAMING_NOTE.md",
+    "ATLD_STANDALONE_PUBLICATION.md",
+    "AAF_STANDALONE_PUBLICATION.md",
+    "FSSR_STANDALONE_PUBLICATION.md",
+    "TDR_STANDALONE_PUBLICATION.md",
+}
+
+LITERAL_CONTEXT = re.compile(
+    r"\\b(?:literal|source token|source fragment|command|syntax|filename|file name|path|"
+    r"repository identifier|code span|code-style|identifier string)\\b",
+    re.IGNORECASE,
+)
+
+PLAIN_GREEK_NAMES = {
+    "Theta", "Sigma", "Delta", "Omega", "Phi", "Psi", "Pi", "Gamma",
+    "lambda", "rho", "epsilon", "varepsilon", "tau", "chi", "kappa",
+    "eta", "nu", "alpha", "gamma", "mu", "sigma", "pi",
+}
+
+
+def is_scientific_route(path: Path) -> bool:
+    try:
+        rel = path.relative_to(ROOT).as_posix()
+    except ValueError:
+        # Fixture files exercise the same scientific-route rules.
+        return True
+    return rel.startswith("docs/") or rel.startswith("papers/") or rel in SCIENTIFIC_ROOT_ROUTES
+
+
+def looks_like_literal_resource(span: str) -> bool:
+    s = span.strip()
+    if "/" in s or "\\\\" in s:
+        return True
+    if re.search(r"\\.(?:md|py|json|pdf|txt|yml|yaml|cff|csv|tsv|png|jpg|jpeg|svg)$", s, re.IGNORECASE):
+        return True
+    if s.startswith(("http://", "https://", "10.5281/", "MKUFT_PREPRINTS_")):
+        return True
+    return False
+
+
+def looks_like_semantic_math(span: str) -> bool:
+    s = span.strip()
+    if not s or looks_like_literal_resource(s):
+        return False
+    if MATH_COMMAND.search(s) or re.search(r"\\\\[A-Za-z]+", s):
+        return True
+    if re.search(r"[A-Za-zΑ-Ωα-ω][A-Za-z0-9]*(?:_|\\^)", s):
+        return True
+    if re.search(r"(?:<=|>=|!=|≤|≥|∈|∉|→|↔|⇒|⇔|≈|≃|≠)", s):
+        return True
+    if s in PLAIN_GREEK_NAMES:
+        return True
+    if re.fullmatch(r"[A-Za-z]", s):
+        return True
+    if re.fullmatch(r"(?:Drop|Aug|Eval|Abl|Adm|Rec)", s):
+        return True
+    return False
+
+
+def audit_semantic_inline_code(line: str, lineno: int):
+    if LITERAL_CONTEXT.search(line):
+        return []
+    problems = []
+    for match in INLINE_CODE_CAPTURE.finditer(line):
+        span = match.group(1)
+        if looks_like_semantic_math(span):
+            problems.append(
+                f"line {lineno}: mathematical notation is in a literal inline-code carrier: `{span}`; use $...$ for semantic inline mathematics"
+            )
+    return problems
 
 # GitHub's public math carrier rejects these in this repository's observed rendering path.
 BANNED_MATH_MACROS = {
@@ -148,9 +224,13 @@ def audit(path: Path):
         if r"\(" in line or r"\)" in line:
             problems.append(f"line {lineno}: legacy inline-math delimiter; use $...$")
 
-        # Inline code is a literal carrier, not a math carrier. Strip it before enforcing
-        # math-rendering rules so documentation and deliberate literal notation do not
-        # trip the same guard that protects actual mathematics.
+        # Inline code is a literal carrier, not a math carrier. On scientific routes,
+        # reject math-like spans when they are being used semantically rather than
+        # explicitly quoted as literal source/code.
+        if is_scientific_route(path):
+            problems.extend(audit_semantic_inline_code(line, lineno))
+
+        # Strip literal-code carriers before checking the remaining prose for naked TeX.
         visible = INLINE_CODE.sub("", line)
 
         for macro, replacement in BANNED_MATH_MACROS.items():

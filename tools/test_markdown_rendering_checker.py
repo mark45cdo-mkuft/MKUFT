@@ -69,10 +69,36 @@ The historical failure used the literal command `\operatorname` inside a math ca
     )
 
     require_pass(
-        "literal TeX notation with an English key",
+        "literal TeX notation explicitly typed as literal source",
         r"""# Good
 
-The literal label `D_{\mathrm{irr}}(\gamma)` denotes the irreversible-loss vector.
+The literal source token `D_{\mathrm{irr}}(\gamma)` is quoted here as source syntax, not used as the mathematical carrier.
+""",
+    )
+
+    require_failure(
+        "semantic TeX notation wrongly carried as inline code",
+        r"""# Bad
+
+Let `D_{\mathrm{irr}}(\gamma)` denote the irreversible-loss vector.
+""",
+        "mathematical notation is in a literal inline-code carrier",
+    )
+
+    require_failure(
+        "single-letter mathematical variable wrongly carried as inline code",
+        r"""# Bad
+
+Fix target `q` before testing.
+""",
+        "mathematical notation is in a literal inline-code carrier",
+    )
+
+    require_pass(
+        "semantic inline mathematics uses the math carrier",
+        r"""# Good
+
+Let $D_{\mathrm{irr}}(\gamma)$ denote the irreversible-loss vector and fix target $q$ before testing.
 """,
     )
 
