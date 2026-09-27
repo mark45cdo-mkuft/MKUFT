@@ -447,6 +447,23 @@ complete registry != selective reader route
 
 When a new stable phrase belongs to an existing owner rather than a new standalone object, index the phrase and route it to the existing owner/section. Do not manufacture a phantom module merely to make search retrieval easier.
 
+Keep authored discovery state separate from externally observed indexing:
+
+~~~text
+public discovery/index source updated
+!= external search index refreshed
+!= receiver-side search hit observed
+~~~
+
+Use explicit states where material:
+
+- **ROUTED IN SOURCE** — the live repository discovery/index surface contains the correct terms and route;
+- **EXTERNAL INDEX OBSERVED** — a receiver-side search actually resolves the intended live object;
+- **INDEX PENDING / UNVERIFIED** — the source is correct but the external index has not yet returned the object;
+- **INDEX CONFLICT** — the search surface resolves a stale, phantom, stronger, or weaker object.
+
+A zero-result search immediately after a commit is not evidence of absence. Index lag, tokenisation and cache state remain ordinary explanations. Conversely, do not report external indexing as verified when only the source files have been edited.
+
 Audits must report not only what changed but also which high-risk surfaces were inspected and returned **NULL**. This makes absence of a mutation an auditable result rather than an accidental omission.
 
 An indexing/discovery audit should be able to answer:
@@ -458,7 +475,7 @@ An indexing/discovery audit should be able to answer:
 5. which surfaces were checked and intentionally left unchanged?
 6. whether engine/builder behaviour changed;
 7. whether object identity, rights, provenance, DOI or release state changed;
-8. what receiver-side search/retrieval check was performed.
+8. what receiver-side search/retrieval check was performed and whether the result is `EXTERNAL INDEX OBSERVED`, `INDEX PENDING / UNVERIFIED`, or `INDEX CONFLICT`.
 
 > **Canon must be scientifically correct, route-correct, and retrievable at the claim level it actually earned.**
 
