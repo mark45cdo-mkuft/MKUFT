@@ -85,7 +85,6 @@ The historical record contains two deposited PDFs. The repository keeps those ca
 
 ### Frozen repository PDF mirrors
 
-- [Minimal Addressed Operator v1.0 carrier identity/checksum](publications/MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0/README.md)
 For publication objects with an established byte-preserving repository PDF mirror, the preservation routes are:
 
 - [Future-Splitting State Recruitment v1.0](publications/FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf)
