@@ -103,6 +103,24 @@ Let $D_{\mathrm{irr}}(\gamma)$ denote the irreversible-loss vector and fix targe
     )
 
     require_failure(
+        "inline mapping wrongly carried as code",
+        r"""# Bad
+
+The projection is `P -> E`.
+""",
+        "mathematical notation is in a literal inline-code carrier",
+    )
+
+    require_failure(
+        "starred mathematical coordinate wrongly carried as code",
+        r"""# Bad
+
+Recruit candidate `c*` before confirmation.
+""",
+        "mathematical notation is in a literal inline-code carrier",
+    )
+
+    require_failure(
         "unclosed TeX grouping brace",
         """# Bad\n\n```math\n\\boxed{\\mathcal F(x)\n```\n""",
         "unclosed TeX grouping brace",

@@ -77,7 +77,11 @@ def looks_like_semantic_math(span: str) -> bool:
         return True
     if re.search(r"(?:<=|>=|!=|≤|≥|∈|∉|≈|≃|≠)", s):
         return True
+    if re.search(r"(?:->|<->)", s):
+        return True
     if re.search(r"(?:→|↔|⇒|⇔)", s) and not re.search(r"\s", s):
+        return True
+    if re.fullmatch(r"[A-Za-zΑ-Ωα-ω]\*", s):
         return True
     if s in PLAIN_GREEK_NAMES:
         return True
