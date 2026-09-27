@@ -47,7 +47,7 @@ Public routes:
 
 ## 2. Future-sufficient Address
 
-Let $H_t$ denote retained history and let `Σ` denote the declared target, horizon, physical/transition model, environment/boundary class, admissible intervention class, measurement resolution and other genuinely load-bearing typed constraints.
+Let $H_t$ denote retained history and let $\Sigma$ denote the declared target, horizon, physical/transition model, environment/boundary class, admissible intervention class, measurement resolution and other genuinely load-bearing typed constraints.
 
 Two histories are future-equivalent when
 
@@ -67,7 +67,7 @@ The effective Address is
 \boxed{A_t=[H_t]_{\sim_{\Sigma}}.}
 ```
 
-For a target $q$, candidate coordinate description `Θ`, declared discrepancy $d$ and tolerance $\varepsilon_q$, define
+For a target $q$, candidate coordinate description $\Theta$, declared discrepancy $d$ and tolerance $\varepsilon_q$, define
 
 ```math
 \boxed{
@@ -81,7 +81,7 @@ For a target $q$, candidate coordinate description `Θ`, declared discrepancy $d
 }
 ```
 
-`Θ` is target-sufficient when
+$\Theta$ is target-sufficient when
 
 ```math
 \mathcal R_q(\Theta)\leq\varepsilon_q.
@@ -138,7 +138,7 @@ with present viability margin
 
 Present viability does not imply recoverability.
 
-Let $G(A_t)$ be a restored target, `Q(γ)` task sufficiency with threshold `κ`, and $D_{\mathrm{irr}}(\gamma)$ a vector of declared irreversible losses bounded by $d_R$. The restorative future is
+Let $G(A_t)$ be a restored target, $Q(\gamma)$ task sufficiency with threshold $\kappa$, and $D_{\mathrm{irr}}(\gamma)$ a vector of declared irreversible losses bounded by $d_R$. The restorative future is
 
 ```math
 \boxed{
@@ -164,7 +164,7 @@ Its existence indicator is
 
 ## 5. Restorative-future reserve
 
-Let $\mathcal D$ be a preregistered family of meaningful admissibility-structure deformations with cost `c(Δ)`. Define
+Let $\mathcal D$ be a preregistered family of meaningful admissibility-structure deformations with cost $c(\Delta)$. Define
 
 ```math
 \boxed{
@@ -188,7 +188,7 @@ H>0
 
 ## 6. Load-bearing relation by deformation
 
-Let $C$ be a relation or coalition and let `Ψ` be a preregistered future readout. Define
+Let $C$ be a relation or coalition and let $\Psi$ be a preregistered future readout. Define
 
 ```math
 \boxed{

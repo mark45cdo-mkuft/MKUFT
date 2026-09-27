@@ -106,7 +106,7 @@ This paper freezes the first minimum-decisive HCP-magnesium instantiation of the
 **Optional historical provenance**
 - [Prepublication calibration and visual-QA record](../publications/TDR_v1.0/PREPUBLICATION_CALIBRATION_REVISION.md)
 
-The paper freezes TDR as a citable methods object. It includes the ATLD 2 positive diagnostic/no-coordinate-inflation calibration and the Bell productive physical-null calibration, while keeping the prospective performance claim open: publication does **not** establish that `G_gen > 0`. The historical QA record documents preparation completed before DOI registration and is not part of the ordinary scientific reading path.
+The paper freezes TDR as a citable methods object. It includes the ATLD 2 positive diagnostic/no-coordinate-inflation calibration and the Bell productive physical-null calibration, while keeping the prospective performance claim open: publication does **not** establish that $G_{\mathrm{gen}}>0$. The historical QA record documents preparation completed before DOI registration and is not part of the ordinary scientific reading path.
 
 ### Cross-Domain Compositional Schema
 

@@ -95,7 +95,7 @@ x\sim_{\Theta}x'
 A_{\Theta}(x)=A_{\Theta}(x').
 ```
 
-For target $q$, horizon `Δ`, intervention class $U$, environment class $E$, transition kernel $K^\Delta$, and discrepancy $d_Q$, define the target-relative address residual
+For target $q$, horizon $\Delta$, intervention class $U$, environment class $E$, transition kernel $K^\Delta$, and discrepancy $d_Q$, define the target-relative address residual
 
 ```math
 \mathcal R_q(\Theta;U,E,\Delta)
