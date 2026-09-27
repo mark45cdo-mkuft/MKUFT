@@ -18,6 +18,8 @@ ARTA is the live canonical name of the integrated MKUFT architecture; MKUFT rema
 
 - [README](README.md)
 - [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md)
+- [Minimal Addressed Operator v1.0 paper](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md)
+- [Minimal Addressed Operator publication record](MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md)
 - [Papers and Publications](papers/README.md)
 - [Start Here — Public Overview](00-START-HERE-MKUFT-PUBLIC.md)
 - [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md)
@@ -64,6 +66,7 @@ The synthesis provides one compact route through the typed S–I–P–O / activ
 - **MKUFT current principal publication v2:** `10.5281/zenodo.21973064`
 - **MKUFT concept DOI:** `10.5281/zenodo.17780565`
 - **MKUFT historical v1:** `10.5281/zenodo.17780566`
+- **Minimal Addressed Operator for Sequential Inquiry v1.0:** version DOI `10.5281/zenodo.22998394`; concept DOI `10.5281/zenodo.22998393`
 - **FSSR HCP Magnesium Minimum-Decisive Protocol v1.0:** version DOI `10.5281/zenodo.22309144`; concept DOI `10.5281/zenodo.22309143`
 - **Typed Decomposition-Reconstruction v1.0:** version DOI `10.5281/zenodo.22258000`; concept DOI `10.5281/zenodo.22257999`
 - **Cross-Domain Compositional Schema v0.4:** version DOI `10.5281/zenodo.22166468`; concept DOI `10.5281/zenodo.22164561`; prior v0.3 DOI `10.5281/zenodo.22166005`; earlier v0.2 DOI `10.5281/zenodo.22164562`
@@ -99,6 +102,8 @@ The synthesis provides one compact route through the typed S–I–P–O / activ
 - [Voynich v2.0 paper](papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md)
 
 ## Public search fingerprints
+
+Toward a Minimal Addressed Operator for Sequential Inquiry Factorisation Readdressing Recursive Scale Handoff MKUFT Mark Charles McLaughlin Zenodo 10.5281/zenodo.22998394 concept 10.5281/zenodo.22998393
 
 MKUFT · Addressed Relational Traversal Architecture · ARTA · Mark Charles McLaughlin · Functional Configuration · addressed state · typed relations · traversal · registration · readdressing · recursive closure · GitHub `mark45cdo-mkuft/MKUFT`
 
