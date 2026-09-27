@@ -699,7 +699,8 @@ You should be able to state the chain in ordinary language:
 9. deliberately challenge supposedly equivalent states, address the challenge and boundary as carefully as the state, and use both divergence and non-divergence plus eliminated alternatives to decide whether to reopen or preserve;
 10. make sure the declared measurement/registration surface can actually resolve the target-relevant distinction, then return the registered result into the next addressed state;
 11. do not assume every useful next test is already reachable, and do not turn a situated observer into a universe-sized model: start from the strongest adequate native Address, carry only future-bearing observer/wake context, use the smallest lawful discriminator available from the state actually reached, and readdress after the result;
-12. compare every claimed gain against strong ordinary baselines, prior art and explicit failure conditions.
+12. do not turn local non-reachability into global impossibility or use a vague wider frame as automatic rescue: require the smallest typed lawful parent relation, then recompute admissibility and relation-relative direction after readdressing;
+13. compare every claimed gain against strong ordinary baselines, prior art and explicit failure conditions.
 
 If the reader can carry that much, the technical modules have a coherent spine even when individual derivations require domain expertise.
 
