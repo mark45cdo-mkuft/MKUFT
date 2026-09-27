@@ -19,7 +19,7 @@ It does not replace the exact publication record for any paper and does not sile
 5. The exact object being cited or reused controls its version and rights identity.
 6. Where a licence has not been verified for the exact object, do not infer one from a neighbouring publication.
 7. Current paper discovery is owned by [`papers/README.md`](papers/README.md); frozen repository carriers and checksum witnesses are indexed by [`publications/README.md`](publications/README.md).
-8. Carrier integrity is governed by [`RENDERING_AND_PUBLICATION_INTEGRITY.md`](RENDERING_AND_PUBLICATION_INTEGRITY.md); stable release identity is governed by [`docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md`](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md).
+8. Mechanical carrier checks are documented in the [repository rendering tooling note](RENDERING_AND_PUBLICATION_INTEGRITY.md), which is non-canon; research/publication closure is governed by [`RESEARCH_DERIVATION_AND_CLOSURE_SOP.md`](RESEARCH_DERIVATION_AND_CLOSURE_SOP.md), and stable release identity by [`docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md`](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md).
 9. Semantic agreement among mirrors, summaries, metadata files, or AI retrieval results is not independent provenance. Independence depends on recoverable ancestry and custody.
 10. Historical wording and names remain part of the record. Later naming refinement is prospective unless a frozen publication itself used the later term.
 

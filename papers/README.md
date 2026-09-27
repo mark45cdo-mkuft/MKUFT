@@ -278,4 +278,4 @@ A paper is not identified by formatting alone. Keep separate:
 6. **computational verification package** — reproducibility carrier whose derived outputs remain typed separately from independent confirmation;
 7. **Drive mirror/reading edition** — convenience carrier, not a silent replacement for any of the above.
 
-See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md), [Module 34](../docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md), and the [Research Derivation and Closure SOP](../RESEARCH_DERIVATION_AND_CLOSURE_SOP.md) for the standing identity, verification, evidence and publication rules.
+See the [repository rendering tooling note — non-canon](../RENDERING_AND_PUBLICATION_INTEGRITY.md), [Module 34](../docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md), and the [Research Derivation and Closure SOP](../RESEARCH_DERIVATION_AND_CLOSURE_SOP.md) for mechanical carrier checks, identity, verification, evidence and publication rules.

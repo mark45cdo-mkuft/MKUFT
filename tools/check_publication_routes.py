@@ -435,8 +435,6 @@ REQUIRED = {
     "RENDERING_AND_PUBLICATION_INTEGRITY.md": [
         "Source correctness does not prove publication correctness",
         "Every standalone paper must have a direct route",
-        "receiver-safe",
-        "intended client is part of the Address",
     ],
 }
 
@@ -467,8 +465,7 @@ REQUIRED[f"papers/{MAO_PAPER}"] = [
     "33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md",
     "35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md",
     "No universal minimal-inquiry theorem is claimed",
-    "MKUFT_RENDER_MODE: receiver-safe",
-    "Iₙ = (Aₙ, Tₙ)",
+    "```math",
     "general factorisation does **not** require locally minimal query choice",
 ]
 REQUIRED[MAO_RECORD] = [
@@ -554,17 +551,9 @@ def main():
         if author.get("identifier") != "https://orcid.org/0009-0005-7736-1511":
             failures.append("codemeta.json: author ORCID route missing or incorrect")
 
-    rendering_text = (ROOT / "RENDERING_AND_PUBLICATION_INTEGRITY.md").read_text(encoding="utf-8")
-    if rendering_text.count("# MKUFT Rendering and Publication Integrity") != 1:
-        failures.append("rendering integrity document has duplicated or missing top-level identity")
-    if rendering_text.count("## Carrier contract") != 1:
-        failures.append("rendering integrity document has duplicated or missing carrier contract")
-
     mao_text = (ROOT / f"papers/{MAO_PAPER}").read_text(encoding="utf-8")
     if "\\[" in mao_text or "\\]" in mao_text or "\\(" in mao_text or "\\)" in mao_text:
-        failures.append("Minimal Addressed Operator paper route exposes legacy TeX delimiters")
-    if "```math" in mao_text or "$A_n$" in mao_text or "$T_n$" in mao_text:
-        failures.append("Minimal Addressed Operator reader route is not receiver-safe")
+        failures.append("Minimal Addressed Operator paper route uses raw TeX display/inline delimiters instead of GitHub math carriers")
     if mao_text.count("```") % 2:
         failures.append("Minimal Addressed Operator paper route has unbalanced fenced blocks")
     citation_text = (ROOT / "CITATION.cff").read_text(encoding="utf-8")

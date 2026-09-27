@@ -150,7 +150,7 @@ For full paper-family navigation, use [Papers and Publications](papers/README.md
 - [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md)
 - [Public-Benefit Use and Commercial Stewardship](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md)
 - [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md)
-- [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md)
+- [Repository rendering tooling note — non-canon](RENDERING_AND_PUBLICATION_INTEGRITY.md)
 - [Research Derivation and Closure SOP](RESEARCH_DERIVATION_AND_CLOSURE_SOP.md)
 - [Research Object Identity, Release Integrity, and Reproducibility](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
 - [Papers and Publications](papers/README.md)

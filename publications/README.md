@@ -225,4 +225,4 @@ Do not infer publication status, licence, version identity, or independent evide
 
 The current Cross-Domain publication is **v0.4**, DOI `10.5281/zenodo.22166468`; v0.3 and v0.2 remain historical. The live architecture name **ARTA** is prospective from 14 September 2026 and does not rename any frozen carrier.
 
-See [Rendering and Publication Integrity](../RENDERING_AND_PUBLICATION_INTEGRITY.md), [Provenance, DOI, and Attribution](../PROVENANCE_DOI_AND_ATTRIBUTION.md), and [Papers and Publications](../papers/README.md) for the complementary custody routes.
+See the [repository rendering tooling note — non-canon](../RENDERING_AND_PUBLICATION_INTEGRITY.md), [Provenance, DOI, and Attribution](../PROVENANCE_DOI_AND_ATTRIBUTION.md), and [Papers and Publications](../papers/README.md) for the complementary custody routes.

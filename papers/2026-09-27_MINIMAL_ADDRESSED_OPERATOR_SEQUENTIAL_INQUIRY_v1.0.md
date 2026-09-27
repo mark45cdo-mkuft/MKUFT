@@ -1,4 +1,3 @@
-<!-- MKUFT_RENDER_MODE: receiver-safe -->
 # Toward a Minimal Addressed Operator for Sequential Inquiry
 ## Factorisation, Readdressing, and Recursive Scale Handoff in MKUFT
 
@@ -25,8 +24,6 @@
 
 The frozen Zenodo carrier is the citable publication object. The live modules remain the current scientific/architectural owners and may continue to evolve without silently rewriting v1.0.
 
-> **Receiver-safe GitHub reading edition.** This route uses Unicode/plain-text mathematical notation so that the scientific meaning remains readable in GitHub clients that do not invoke MathJax. The frozen DOI PDF remains the publication-grade mathematical carrier; this rendering repair does not revise that frozen object.
-
 ## Abstract
 
 This preprint asks whether, after domain-specific objectives, mechanisms, and representations are stripped away, a clean sequential inquiry process admits a representation-independent addressed factorisation.
@@ -41,44 +38,46 @@ No universal minimal-inquiry theorem is claimed. This v1.0 preprint freezes the 
 
 The general candidate is
 
-```text
-Iₙ = (Aₙ, Tₙ)
-  ── qₙ ∈ Q†(Aₙ,Tₙ) ──▶
-Oₙ ~ K_O(· | Aₙ,Tₙ,qₙ)
-  ── oₙ ──▶
-Iₙ₊₁ = R_I(Aₙ,Tₙ,qₙ,oₙ)
+```math
+I_n=(A_n,T_n)
+\xrightarrow{\;q_n\in\mathcal Q^{\dagger}(A_n,T_n)\;}
+O_n\sim K_O(\cdot\mid A_n,T_n,q_n)
+\xrightarrow{\;o_n\;}
+I_{n+1}=\mathcal R_I(A_n,T_n,q_n,o_n).
 ```
 
 Here:
 
-- **Aₙ** is the current addressed state;
-- **Tₙ** is the declared target;
-- **qₙ** is a lawful target-relevant inquiry move;
-- **Oₙ** is the prospective stochastic outcome variable;
-- **oₙ** is the registered realised outcome;
-- **R_I** returns the post-change inquiry state, including any target persistence, refinement, closure, or replacement.
+- $A_n$ is the current addressed state;
+- $T_n$ is the declared target;
+- $q_n$ is a lawful target-relevant inquiry move;
+- $O_n$ is the prospective stochastic outcome variable;
+- $o_n$ is the registered realised outcome;
+- $\mathcal R_I$ returns the post-change inquiry state, including any target persistence, refinement, closure, or replacement.
 
 The general factorisation does **not** require locally minimal query choice.
 
 A minimal representative is a separate refinement problem. Where a prospectively fixed burden order is informative and replacement conditions are earned, the candidate minimal set is
 
-```text
-Qₘᵢₙ(A,T) = the minimal elements of Q†(A,T) under the preorder ≼(A,T)
+```math
+\mathcal Q_{\min}(A,T)=
+\mathrm{Min}_{\preceq_{A,T}}\mathcal Q^\dagger(A,T).
 ```
 
 If that set is empty, no minimum is earned.
 
 ## Prospective replacement
 
-Replacement cannot be justified by looking at the outcome after one branch has already been selected. For a common target-relevant continuation-class map **C_T**, each lawful query induces a prospective continuation kernel
+Replacement cannot be justified by looking at the outcome after one branch has already been selected. For a common target-relevant continuation-class map $C_T$, each lawful query induces a prospective continuation kernel
 
-```text
-Π_q(A,T) =
-  push-forward of K_O(· | A,T,q)
-  through C_T ∘ R_I(A,T,q,·)
+```math
+\Pi_q^{A,T}
+=
+\left(C_T\circ\mathcal R_I(A,T,q,\cdot)\right)_{\#}
+K_O(\cdot\mid A,T,q).
 ```
 
-This is the same prospective push-forward relation carried by the frozen paper, written here without TeX dependence. Minimal replacement is therefore tested before outcome reveal, against a prospectively declared discrepancy/tolerance and burden order. Where an established native order such as Blackwell informativeness already settles the comparison, that result remains owned by the native theory rather than being renamed as MKUFT minimality.
+Minimal replacement is therefore tested before outcome reveal, against a prospectively declared discrepancy/tolerance and burden order. Where an established native order such as Blackwell informativeness already settles the comparison, that result remains owned by the native theory rather than being renamed as MKUFT minimality.
 
 ## Clean-inquiry contract
 
@@ -128,9 +127,24 @@ A reduction is a valid scientific result. The paper does not survive merely beca
 
 The current ARTA engine already executes the operational sequence:
 
-```text
-bind → type → address → prospect → select lawful route
-→ execute → observe → readdress → learn/continue
+```math
+\text{bind}
+\rightarrow
+\text{type}
+\rightarrow
+\text{address}
+\rightarrow
+\text{prospect}
+\rightarrow
+\text{select lawful route}
+\rightarrow
+\text{execute}
+\rightarrow
+\text{observe}
+\rightarrow
+\text{readdress}
+\rightarrow
+\text{learn/continue}.
 ```
 
 The paper therefore serves as a **compression and conformance research object**, not a new controller. If the factorisation programme succeeds, it may provide a compact implementation-neutral contract against which different engines can be tested. If it fails, the engine remains owned by its existing modules and the paper contracts to a synthesis/reduction result.

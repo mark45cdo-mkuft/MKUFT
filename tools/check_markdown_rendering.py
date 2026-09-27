@@ -15,22 +15,6 @@ import unicodedata
 
 ROOT = Path(__file__).resolve().parents[1]
 
-RECEIVER_SAFE_MARKER = "<!-- MKUFT_RENDER_MODE: receiver-safe -->"
-RECEIVER_SAFE_REQUIRED = {
-    "README.md",
-    "00-START-HERE-MKUFT-PUBLIC.md",
-    "START_HERE_PUBLIC_OVERVIEW.md",
-    "MKUFT_IN_PLAIN_ENGLISH.md",
-    "INDEX.md",
-    "PUBLIC_DISCOVERY_ANCHOR.md",
-    "SCIENTIFIC_READER_TRAVERSAL_GUIDE.md",
-    "papers/README.md",
-    "publications/README.md",
-    "MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md",
-    "papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md",
-}
-INLINE_MATH = re.compile(r"(?<!\\)\$[^$\n]+(?<!\\)\$")
-
 MATH_COMMAND = re.compile(
     r"\\(?:mathcal|mathfrak|mathbf|mathrm|text|alpha|beta|gamma|delta|Delta|lambda|Lambda|"
     r"Psi|Xi|Pi|rho|mu|nu|sum|int|boxed|left|right|rightarrow|longrightarrow|rightleftarrows|"
@@ -117,13 +101,6 @@ def audit(path: Path):
     text = path.read_text(encoding="utf-8")
     problems = []
 
-    try:
-        rel = path.relative_to(ROOT).as_posix()
-    except ValueError:
-        rel = None
-
-    receiver_safe = RECEIVER_SAFE_MARKER in text or rel in RECEIVER_SAFE_REQUIRED
-
     if "\ufffd" in text:
         problems.append("contains Unicode replacement character U+FFFD")
 
@@ -152,10 +129,6 @@ def audit(path: Path):
                 fence_kind = stripped[3:].strip().lower()
                 fence_start = lineno
                 fence_lines = []
-                if receiver_safe and fence_kind == "math":
-                    problems.append(
-                        f"line {lineno}: receiver-safe route relies on fenced math; use receiver-independent notation"
-                    )
             else:
                 if fence_kind == "math":
                     problems.extend(audit_math_fence(path, fence_start, fence_lines))
@@ -179,15 +152,6 @@ def audit(path: Path):
         # math-rendering rules so documentation and deliberate literal notation do not
         # trip the same guard that protects actual mathematics.
         visible = INLINE_CODE.sub("", line)
-
-        if receiver_safe and INLINE_MATH.search(visible):
-            problems.append(
-                f"line {lineno}: receiver-safe route uses inline TeX math; use receiver-independent notation"
-            )
-        if receiver_safe and re.search(r"\\[A-Za-z]+", visible):
-            problems.append(
-                f"line {lineno}: receiver-safe route exposes a TeX command to the reader"
-            )
 
         for macro, replacement in BANNED_MATH_MACROS.items():
             if macro in visible:

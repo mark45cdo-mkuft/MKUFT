@@ -26,7 +26,7 @@ ARTA is the live canonical name of the integrated MKUFT architecture; MKUFT rema
 - [Canon Map](CANON_MAP.md)
 - [Public Index](INDEX.md)
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
-- [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md)
+- [Repository rendering tooling note — non-canon](RENDERING_AND_PUBLICATION_INTEGRITY.md)
 - [Research Derivation and Closure SOP](RESEARCH_DERIVATION_AND_CLOSURE_SOP.md)
 - [Module 34 — Research Object Identity, Release Integrity, and Reproducibility](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
 - [Reproducibility index](reproducibility/README.md)

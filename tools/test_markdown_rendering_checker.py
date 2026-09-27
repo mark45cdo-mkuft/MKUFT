@@ -111,41 +111,6 @@ The literal label `D_{\mathrm{irr}}(\gamma)` denotes the irreversible-loss vecto
         "TeX-like command is outside an explicit GitHub math carrier",
     )
 
-    require_failure(
-        "receiver-safe fenced math",
-        r"""<!-- MKUFT_RENDER_MODE: receiver-safe -->
-# Bad
-
-```math
-A_n = T_n
-```
-""",
-        "receiver-safe route relies on fenced math",
-    )
-
-    require_failure(
-        "receiver-safe inline TeX math",
-        r"""<!-- MKUFT_RENDER_MODE: receiver-safe -->
-# Bad
-
-The current state is $A_n$.
-""",
-        "receiver-safe route uses inline TeX math",
-    )
-
-    require_pass(
-        "receiver-safe Unicode equation",
-        """<!-- MKUFT_RENDER_MODE: receiver-safe -->
-# Good
-
-```text
-Iₙ = (Aₙ, Tₙ) → Oₙ → Iₙ₊₁
-```
-
-Aₙ is the current addressed state.
-""",
-    )
-
     require_pass(
         "current TVT-safe constructions",
         r"""# Good

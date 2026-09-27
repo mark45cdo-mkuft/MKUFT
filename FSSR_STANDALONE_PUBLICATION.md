@@ -76,4 +76,4 @@ See:
 - [Rights and Licence Notice](RIGHTS_AND_LICENSE_NOTICE.md)
 - [Module Rights Matrix](MODULE_RIGHTS_MATRIX.md)
 - [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md)
-- [Rendering and Publication Integrity](RENDERING_AND_PUBLICATION_INTEGRITY.md)
+- [Repository rendering tooling note — non-canon](RENDERING_AND_PUBLICATION_INTEGRITY.md)
