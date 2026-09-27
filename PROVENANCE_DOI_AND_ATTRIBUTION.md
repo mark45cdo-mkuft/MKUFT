@@ -70,6 +70,7 @@ The historical record contains two deposited PDFs. The repository keeps those ca
 
 | Publication object | Current version DOI | Concept / family DOI | Live / reader route | Publication record | Status boundary |
 |---|---|---|---|---|---|
+| **Minimal Addressed Operator for Sequential Inquiry v1.0** | `10.5281/zenodo.22998394` | `10.5281/zenodo.22998393` | [paper](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md) · [33S4](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) · [33S7B](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md) · [Module 35](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md) | [record](MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md) | Formal preprint/research programme; general factorisation and minimality remain conjectural. Exact v1.0 deposit: CC BY-NC-SA 4.0. |
 | **FSSR in History-Dependent HCP Magnesium Mechanics — Minimum-Decisive Protocol v1.0** | `10.5281/zenodo.22309144` | `10.5281/zenodo.22309143` | [paper](papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md) · [Module 28C](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md) | [record](FSSR_HCP_MAGNESIUM_PROTOCOL_STANDALONE_PUBLICATION.md) | Prospective protocol; no executed magnesium result claimed. Exact v1.0 carrier: CC BY 4.0. |
 | **Typed Decomposition-Reconstruction v1.0** | `10.5281/zenodo.22258000` | `10.5281/zenodo.22257999` | [paper](papers/2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md) · [Module 29B](docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md) | [record](TDR_STANDALONE_PUBLICATION.md) | Methods paper; prospective `G_gen` advantage remains open. Exact deposit: CC BY 4.0. |
 | **Cross-Domain Compositional Schema v0.4** | `10.5281/zenodo.22166468` | `10.5281/zenodo.22164561` | [paper](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md) · [33S7A](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md) · [28A](docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) | [record](CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md) | Current version is **v0.4**; prior v0.3 DOI `10.5281/zenodo.22166005` and v0.2 DOI `10.5281/zenodo.22164562` remain historical. Exact v0.4 deposit: CC BY 4.0. Independent Bell/CHSH physical residual remains NULL. |
@@ -84,6 +85,7 @@ The historical record contains two deposited PDFs. The repository keeps those ca
 
 ### Frozen repository PDF mirrors
 
+- [Minimal Addressed Operator v1.0 carrier identity/checksum](publications/MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0/README.md)
 For publication objects with an established byte-preserving repository PDF mirror, the preservation routes are:
 
 - [Future-Splitting State Recruitment v1.0](publications/FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0_DOI_10.5281_zenodo.22058303.pdf)
@@ -109,6 +111,10 @@ ATLD v1.0 (`10.5281/zenodo.21341521`) and ATLD 2 v2.0 (`10.5281/zenodo.22068803`
 ### FSSR and HCP flagship
 
 FSSR v1.0 (`10.5281/zenodo.22058303`) is the parent assay publication. The HCP magnesium protocol v1.0 (`10.5281/zenodo.22309144`) is a separately frozen, domain-specific prospective protocol derived from that research family; publication of the protocol does not constitute an experimental result.
+
+### Minimal Addressed Operator
+
+Minimal Addressed Operator v1.0 (`10.5281/zenodo.22998394`) is a standalone formal preprint extracted from the existing MKUFT/ATLD/ARTA lineage. Its concept DOI is `10.5281/zenodo.22998393`. It freezes a candidate clean-inquiry factorisation and prospective minimal-replacement research programme; Modules 33S4, 33S7B and 35 remain live owners and do not become frozen inside the paper beyond the exact pinned snapshot cited by v1.0.
 
 ### TDR
 
