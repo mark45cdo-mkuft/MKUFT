@@ -433,8 +433,11 @@ REQUIRED = {
         "33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md",
     ],
     "RENDERING_AND_PUBLICATION_INTEGRITY.md": [
-        "Source correctness does not prove publication correctness",
-        "Every standalone paper must have a direct route",
+        "non-canon repository operations note",
+        "display mathematics uses fenced",
+        "receiver/client rendering defect does **not** authorise",
+        "Automated integrity checks should report failure",
+        "Keep formatting governance out of scientific canon",
     ],
 }
 
