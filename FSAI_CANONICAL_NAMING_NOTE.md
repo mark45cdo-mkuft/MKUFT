@@ -99,6 +99,18 @@ History is screened back to provenance where the present typed state already med
 
 Canonical technical owner: [Module 33S7C — Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md).
 
+## Boundary-driven readdressing / parent-admissibility corollary
+
+The live FSAI/LBLP owner now states one further bounded consequence in [33S7A §5D](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary):
+
+```text
+local non-reachability != global prohibition
+named wider frame != lawful rescue
+typed parent relation + parent-law admissibility → legitimate readdressing
+readdressing → recompute relation-relative direction
+```
+
+This does not establish retrocausation, a new physical time direction, or a privileged geometry. It keeps local/global boundary claims and directional roles attached to the Address/relation that earned them.
 ## Scientific and humane boundary
 
 The observer-bounded extension does not make the observer a privileged physical cause. Observation, object state, evidence state, and interpretation remain separately typed. Likewise, a humane or loving orientation is not an evidence term.
@@ -112,4 +124,4 @@ For human-facing applications, the [GRACE Traversal Rule](docs/20_GRACE_TRAVERSA
 - **Addressed Admissible Futures (AAF)** — DOI `10.5281/zenodo.22031333`
 - **Future-Splitting State Recruitment (FSSR)** — DOI `10.5281/zenodo.22058303`
 
-The scientific construction predates this naming note. The names and later live folds make the existing invariant, precedence rule, interrogation repair, observer-bounded traversal consequence, and compositional terminology stable and discoverable. No frozen publication is silently edited or backdated, and no new universal law-of-nature or empirical-confirmation claim is made by this route.
+The scientific construction predates this naming note. The names and later live folds make the existing invariant, precedence rule, interrogation repair, observer-bounded traversal consequence, boundary-driven readdressing / parent-admissibility consequence, and compositional terminology stable and discoverable. No frozen publication is silently edited or backdated, and no new universal law-of-nature or empirical-confirmation claim is made by this route.
