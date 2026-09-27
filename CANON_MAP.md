@@ -42,6 +42,7 @@ This map gives the current public hierarchy of MKUFT. It is navigation, not evid
    - **First minimum-decisive flagship protocol:** [History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
    - **Frozen v1.0 publication route:** [FSSR-HCP magnesium protocol](papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md) — published DOI `10.5281/zenodo.22309144`; receiver-side carrier verified; empirical status remains open
 21. [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
+   - **Live corollary:** [Boundary-Driven Readdressing and Parent-Admissibility](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary) — local non-reachability is not global prohibition; a wider parent changes admissibility only through a typed lawful relation; relation-relative direction is recomputed after readdressing.
    - [Sideways Invariant Interrogation and Nuisance-Quotient Readdressing](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md)
    - [Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md)
 22. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
