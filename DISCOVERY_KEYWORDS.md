@@ -167,6 +167,12 @@ Direct routes:
 - ESF
 - NLT structural grammar
 - Addressing State Flow
+- minimal addressed operator
+- sequential inquiry
+- clean inquiry factorisation
+- prospective continuation kernel
+- prospective minimal replacement
+- recursive scale handoff
 
 ## Direct current research-output routes
 
@@ -175,6 +181,9 @@ Direct routes:
 - `docs/25A1_TRAVERSAL_COHERENCE_ANCHOR_NOMENCLATURE_REFINEMENT.md`
 - `FSAI_CANONICAL_NAMING_NOTE.md`
 - `papers/README.md`
+- `papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md`
+- `MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md`
+- `publications/MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0/README.md`
 - `papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md`
 - `FSSR_HCP_MAGNESIUM_PROTOCOL_STANDALONE_PUBLICATION.md`
 - `papers/2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md`
@@ -214,6 +223,7 @@ Historical publication versions remain valid provenance objects but are not subs
 ## Exact search fingerprints
 
 ```text
+Minimal Addressed Operator Sequential Inquiry Factorisation Readdressing Recursive Scale Handoff MKUFT Mark Charles McLaughlin Zenodo 10.5281/zenodo.22998394 concept 10.5281/zenodo.22998393 GitHub papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md
 MKUFT Addressed Relational Traversal Architecture ARTA Mark Charles McLaughlin GitHub mark45cdo-mkuft/MKUFT Functional Configuration addressed state typed relations traversal registration readdressing recursive closure
 MKUFT A Relational Architecture for Physical Law and Cross-Scale Dynamics Mark Charles McLaughlin Zenodo 10.5281/zenodo.21973064 concept 10.5281/zenodo.17780565 GitHub mark45cdo-mkuft/MKUFT
 MKUFT Layer Before Law Typed Relational Architecture Physical-Law Selection Future-Sufficient Interfaces Preserve-or-Reopen Bell CHSH computational verification v1.2 Mark Charles McLaughlin public repository synthesis not yet DOI-bearing
@@ -235,6 +245,7 @@ Canonical acronym note: **ATLD 2 / ATLD2** is the valid name. **ETLD2** is retai
 ## Exact paper search fingerprints
 
 ```text
+Toward a Minimal Addressed Operator for Sequential Inquiry Factorisation Readdressing Recursive Scale Handoff in MKUFT Mark Charles McLaughlin Zenodo 10.5281/zenodo.22998394
 Active Traversal and Load-Bearing Dependency II ATLD 2 ATLD2 ETLD2 Residual Coordinate Identification Self-Auditing Matched-Control Evaluation Long-Horizon AI Systems Mark Charles McLaughlin Zenodo 10.5281/zenodo.22068803 GitHub papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md Module 25B
 Chain-Address Invariants Long-Horizon AI Systems Mark Charles McLaughlin Zenodo 10.5281/zenodo.22102379
 Future-Splitting State Recruitment FSSR Cross-Domain Assay State Adequacy Prospective Mechanism Activation Mark Charles McLaughlin Zenodo 10.5281/zenodo.22058303
