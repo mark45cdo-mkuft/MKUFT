@@ -241,7 +241,7 @@ Freeze $u_F$ before confirmatory continuation.
 Using the same development data, challenge family, experimental budget and access to the current ordinary model, select a comparator
 
 ```math
-u_PI
+u_{\mathrm{PI}}
 ```
 
 that maximises a standard parameter-information or parameter-identification objective.
@@ -273,7 +273,7 @@ If $u_F$ and $u_{\mathrm{PI}}$ are equivalent under fair tuning and produce equi
 For the primary target, define the smallest target-sufficient native consequence surface
 
 ```math
-K_q(r | a,E,U,Delta)
+K_q(r \mid a,E,U,\Delta)
 ```
 
 around the state-sufficiency relation $r$.
@@ -370,7 +370,7 @@ Before Stage 2, commit or externally preregister:
 material/batch inclusion rules
 history-pair generator
 Theta_0 and all ordinary comparators
-U, u_F, u_PI, u_STD
+U, u_F, u_{\mathrm{PI}}, u_STD
 q, Delta, d, epsilon_q, tau_Theta
 candidate repair library and simplicity order
 primary and secondary endpoints
@@ -611,13 +611,13 @@ FAIL-TO-LOCALISE
 ```text
 FSSR-GAIN
   u_F gives prospectively stronger or cheaper state-adequacy discrimination
-  than u_PI under matched budget
+  than u_{\mathrm{PI}} under matched budget
 
 EQUIVALENT / NULL
-  u_F and u_PI are materially equivalent
+  u_F and u_{\mathrm{PI}} are materially equivalent
 
 WORSE
-  u_PI is prospectively superior
+  u_{\mathrm{PI}} is prospectively superior
 ```
 
 ### V3 — Mechanism-localisation verdict
@@ -726,7 +726,7 @@ A later execution must create a new result object containing the exact preregist
 strong native state Theta_0
 → construct near-matched histories without seeing their confirmatory futures
 → choose u_F to attack false state equivalence
-→ choose u_PI under the same budget to attack parameter uncertainty
+→ choose u_{\mathrm{PI}} under the same budget to attack parameter uncertainty
 → freeze both
 → continue independently inside the smallest native consequence cone
 → split beyond tolerance OR preserve the state
@@ -734,7 +734,7 @@ strong native state Theta_0
 → recruit the smallest predeclared measurable repair c*
 → test held-out closure
 → remove c* and demand reopening; restore and demand contraction
-→ compare u_F against u_PI
+→ compare u_F against u_{\mathrm{PI}}
 → localise physically only as far as native deformation allows
 → compare lambda_R with the frozen macroscopic marker lambda_T
 → return four separate verdicts

@@ -336,7 +336,7 @@ For compact comparison only, after fixing the coding protocol before inspecting 
 \bar R=\frac{1}{12}\sum_{i=1}^{6}R_i,
 ```
 
-so both lie in `[0,1]`.
+so both lie in $[0,1]$.
 
 Report the pair:
 

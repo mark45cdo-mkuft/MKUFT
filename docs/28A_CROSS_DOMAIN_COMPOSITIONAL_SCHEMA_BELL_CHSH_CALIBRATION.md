@@ -415,7 +415,7 @@ E_{xy}=0
 
 Then every conditional outcome probability is $1/4$, the correlators are all zero, and both local marginals are independent of the remote setting.
 
-**Behaviour $P_{\mathrm{sig}}$:** choose `\eta=1/2` and
+**Behaviour $P_{\mathrm{sig}}$:** choose $\eta=1/2$ and
 
 ```math
 A_{xy}=\eta(-1)^y,
@@ -425,7 +425,7 @@ B_{xy}=0,
 E_{xy}=0.
 ```
 
-All probabilities lie in `[1/8,3/8]`, so the conditional tables are valid. The four correlators remain
+All probabilities lie in $[1/8,3/8]$, so the conditional tables are valid. The four correlators remain
 
 ```math
 (E_{00},E_{01},E_{10},E_{11})=(0,0,0,0),
@@ -548,7 +548,7 @@ At the stated unbiased-marginal correlator scope, both tuples satisfy the approp
 \right|=\pi,
 ```
 
-while the second gives `3\pi/4` for that representative sign form; the required symmetry-equivalent correlator inequalities remain satisfied. This makes the comparison a targeted **object-level ablation/restoration across valid quantum-correlator points**, not merely a generic no-signalling construction.
+while the second gives $3\pi/4$ for that representative sign form; the required symmetry-equivalent correlator inequalities remain satisfied. This makes the comparison a targeted **object-level ablation/restoration across valid quantum-correlator points**, not merely a generic no-signalling construction.
 
 The scope condition is load-bearing: this does **not** assert a physical intervention that independently changes one observed correlator while an underlying experimental realisation is otherwise held fixed. The ablation is a formal comparison between lawful correlator objects under the declared interface test.
 
@@ -752,7 +752,7 @@ Therefore the TBC closes correlator questions but not general no-signalling/full
 
 ### 14.5 Surgical ablation and geometric null
 
-For the symmetric Tsirelson correlator $E_Q=(t,t,t,-t)^T$, `t=1/sqrt(2)`, neutralising only $E_11$ changes both the transverse coordinate and the projected tetrahedral address; restoring the addressed correlator restores the original chart state. This remains an object-level comparison between lawful correlator points, not a claim that one experimental correlator can be physically intervened on in isolation.
+For the symmetric Tsirelson correlator $E_Q=(t,t,t,-t)^T$, $t=1/\sqrt{2}$, neutralising only $E_11$ changes both the transverse coordinate and the projected tetrahedral address; restoring the addressed correlator restores the original chart state. This remains an object-level comparison between lawful correlator points, not a claim that one experimental correlator can be physically intervened on in isolation.
 
 The natural four-dimensional simplex volume formed by the selected CHSH facet and an off-facet point is
 
