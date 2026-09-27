@@ -18,11 +18,11 @@
 - MD5: \`20d1e3e6f715b826f03cac92d7875644\`
 - SHA-256: \`6773e5eaa7bdce75dfc77f191eec4858004ee202532602a9ddd225373947511f\`
 
-The Zenodo record displayed the same MD5 as the final local carrier used for upload. This directory mirrors that final PDF and records its checksum.
+The Zenodo record displayed the same MD5 as the final local carrier used for upload. This directory records the frozen carrier identity and checksum. The exact binary remains under Zenodo publication custody unless a byte-verified repository mirror is added separately.
 
 ## Custody boundary
 
-The DOI-bearing PDF is frozen. The repository paper route and live modules may improve navigation, comparison, reader explanation, or later science, but they do not silently revise the deposited v1.0 object.
+The DOI-bearing PDF is frozen at Zenodo. The repository paper route and live modules may improve navigation, comparison, reader explanation, or later science, but they do not silently revise the deposited v1.0 object.
 
 The paper is a formal research programme/conjecture object. Publication does not promote the general factorisation conjecture or minimality refinement into a proved theorem.
 
