@@ -554,6 +554,12 @@ def main():
         if author.get("identifier") != "https://orcid.org/0009-0005-7736-1511":
             failures.append("codemeta.json: author ORCID route missing or incorrect")
 
+    rendering_text = (ROOT / "RENDERING_AND_PUBLICATION_INTEGRITY.md").read_text(encoding="utf-8")
+    if rendering_text.count("# MKUFT Rendering and Publication Integrity") != 1:
+        failures.append("rendering integrity document has duplicated or missing top-level identity")
+    if rendering_text.count("## Carrier contract") != 1:
+        failures.append("rendering integrity document has duplicated or missing carrier contract")
+
     mao_text = (ROOT / f"papers/{MAO_PAPER}").read_text(encoding="utf-8")
     if "\\[" in mao_text or "\\]" in mao_text or "\\(" in mao_text or "\\)" in mao_text:
         failures.append("Minimal Addressed Operator paper route exposes legacy TeX delimiters")
