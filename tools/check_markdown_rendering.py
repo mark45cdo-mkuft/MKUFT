@@ -53,7 +53,7 @@ PLAIN_GREEK_IN_MATH = re.compile(
     r"lambda|rho|epsilon|varepsilon|tau|chi|kappa|eta|nu|alpha|beta|gamma|delta|mu|sigma|pi)"
     r"(?=$|[^A-Za-z0-9])"
 )
-UNBRACED_MULTI_SUBSCRIPT = re.compile(r"_[A-Za-z]{2,}\b")
+UNBRACED_MULTI_SUBSCRIPT = re.compile(r"_(?:PI|STD|split|macro|rev|pre|adm|irr|eff|role|gen|hold|full|sched|rel|drv|sys|res|query|restore)\b")
 
 
 def is_scientific_route(path: Path) -> bool:
