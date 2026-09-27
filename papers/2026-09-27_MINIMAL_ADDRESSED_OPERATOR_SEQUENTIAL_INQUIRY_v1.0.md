@@ -61,7 +61,7 @@ A minimal representative is a separate refinement problem. Where a prospectively
 
 ```math
 \mathcal Q_{\min}(A,T)=
-\operatorname{Min}_{\preceq_{A,T}}\mathcal Q^\dagger(A,T).
+\mathrm{Min}_{\preceq_{A,T}}\mathcal Q^\dagger(A,T).
 ```
 
 If that set is empty, no minimum is earned.
