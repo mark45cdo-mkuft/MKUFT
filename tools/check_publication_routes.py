@@ -455,6 +455,9 @@ REQUIRED["START_HERE_PUBLIC_OVERVIEW.md"].extend([MAO_PAPER, "conjecture/falsifi
 REQUIRED["docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md"].extend([MAO_VERSION, MAO_PAPER])
 REQUIRED["docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md"].extend([MAO_VERSION, MAO_PAPER])
 REQUIRED["docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md"].extend([MAO_PAPER, "conformance research", "not new engine anatomy"])
+REQUIRED["SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md"].extend([MAO_VERSION, MAO_PAPER, "not yet promoted"])
+REQUIRED["SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md"].extend([MAO_VERSION, MAO_CONCEPT, MAO_PAPER])
+REQUIRED["RESEARCH_DERIVATION_AND_CLOSURE_SOP.md"].extend(["Representation-neutral premise gate", "proposed internal variables/operators"])
 
 REQUIRED[f"papers/{MAO_PAPER}"] = [
     MAO_VERSION, MAO_CONCEPT, MAO_RECORD,
@@ -601,7 +604,7 @@ def main():
             print(f"FAIL: {failure}")
         return 1
 
-    print("PASS: publication routes, DOI custody, Bell/Cross-Domain folds, historical/current version lineages, deposited PDF mirrors, discovery metadata, rights routing, and module/paper boundaries are intact.")
+    print("PASS: publication routes, DOI custody, Minimal Addressed Operator routing, Bell/Cross-Domain folds, historical/current version lineages, deposited PDF mirrors where declared, discovery metadata, rights routing, and module/paper boundaries are intact.")
     return 0
 
 
