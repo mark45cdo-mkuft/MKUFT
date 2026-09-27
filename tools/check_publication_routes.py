@@ -36,6 +36,13 @@ CROSS_DOMAIN_MODULE = "33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFOR
 CROSS_DOMAIN_BELL_MODULE = "28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md"
 CROSS_DOMAIN_MD5 = "d5a56561e82ca5d64a8766ca8122a956"
 CROSS_DOMAIN_SHA256 = "bcb5c7618962bac98c2ae0ad097f7bba8e9758d4c86879b6546d037736c73b83"
+MAO_VERSION = "10.5281/zenodo.22998394"
+MAO_CONCEPT = "10.5281/zenodo.22998393"
+MAO_PAPER = "2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md"
+MAO_RECORD = "MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md"
+MAO_DIR = "publications/MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0"
+MAO_MD5 = "20d1e3e6f715b826f03cac92d7875644"
+MAO_SHA256 = "6773e5eaa7bdce75dfc77f191eec4858004ee202532602a9ddd225373947511f"
 
 FROZEN_PDF_MIRRORS = [
     "publications/MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf",
@@ -431,6 +438,50 @@ REQUIRED = {
     ],
 }
 
+# Minimal Addressed Operator v1.0 is DOI-bearing but has no byte-verified
+# repository PDF mirror in this commit. Keep it out of FROZEN_PDF_MIRRORS.
+REQUIRED["README.md"].extend([MAO_VERSION, MAO_CONCEPT, MAO_PAPER, MAO_RECORD])
+REQUIRED["INDEX.md"].extend([MAO_VERSION, MAO_CONCEPT, MAO_PAPER, MAO_RECORD])
+REQUIRED["CANON_MAP.md"].extend([MAO_VERSION, MAO_PAPER, MAO_RECORD, "new DOI paper"])
+REQUIRED["papers/README.md"].extend([MAO_VERSION, MAO_CONCEPT, MAO_PAPER, MAO_RECORD, "No universal theorem"])
+REQUIRED["publications/README.md"].extend([MAO_VERSION, MAO_CONCEPT, MAO_PAPER, MAO_RECORD, MAO_DIR])
+REQUIRED["PUBLIC_DISCOVERY_ANCHOR.md"].extend([MAO_VERSION, MAO_CONCEPT, MAO_PAPER, MAO_RECORD])
+REQUIRED["DISCOVERY_KEYWORDS.md"].extend([MAO_VERSION, MAO_CONCEPT, MAO_PAPER, MAO_RECORD, "minimal addressed operator"])
+REQUIRED["PROVENANCE_DOI_AND_ATTRIBUTION.md"].extend([MAO_VERSION, MAO_CONCEPT, MAO_PAPER, MAO_RECORD])
+REQUIRED["MODULE_RIGHTS_MATRIX.md"].extend([MAO_VERSION, MAO_CONCEPT, "CC BY-NC-SA 4.0"])
+REQUIRED["RIGHTS_AND_LICENSE_NOTICE.md"].extend([MAO_VERSION, MAO_CONCEPT, MAO_RECORD, "CC BY-NC-SA 4.0"])
+REQUIRED["SCIENTIFIC_READER_TRAVERSAL_GUIDE.md"].extend([MAO_PAPER, "stress/conformance paper"])
+REQUIRED["START_HERE_PUBLIC_OVERVIEW.md"].extend([MAO_PAPER, "conjecture/falsification programme"])
+REQUIRED["docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md"].extend([MAO_VERSION, MAO_PAPER])
+REQUIRED["docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md"].extend([MAO_VERSION, MAO_PAPER])
+REQUIRED["docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md"].extend([MAO_PAPER, "conformance research", "not new engine anatomy"])
+
+REQUIRED[f"papers/{MAO_PAPER}"] = [
+    MAO_VERSION, MAO_CONCEPT, MAO_RECORD,
+    "33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md",
+    "33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md",
+    "35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md",
+    "No universal minimal-inquiry theorem is claimed",
+    "```math",
+    "general factorisation does **not** require locally minimal query choice",
+]
+REQUIRED[MAO_RECORD] = [
+    MAO_VERSION, MAO_CONCEPT, MAO_MD5, MAO_SHA256, f"papers/{MAO_PAPER}",
+    MAO_DIR, "CC BY-NC-SA 4.0", "does **not**",
+]
+REQUIRED[f"{MAO_DIR}/README.md"] = [
+    MAO_VERSION, MAO_CONCEPT, MAO_MD5, MAO_SHA256, "449,957", "26",
+    MAO_PAPER, MAO_RECORD, "CARRIER_IDENTITY.txt",
+]
+REQUIRED[f"{MAO_DIR}/CARRIER_IDENTITY.txt"] = [
+    MAO_VERSION, MAO_CONCEPT, MAO_MD5, MAO_SHA256,
+    "repository_binary_mirror=not_present_in_this_commit",
+    "custody=Zenodo_frozen_publication",
+]
+REQUIRED[f"{MAO_DIR}/POSTPUBLICATION_QA.md"] = [
+    MAO_VERSION, MAO_CONCEPT, MAO_MD5, MAO_SHA256,
+    "expected eight", "proved universal factorisation theorem",
+]
 FROZEN_ATLD = [
     "publications/ATLD_Evaluation_Protocol_v1.0/README.md",
     "publications/ATLD_Evaluation_Protocol_v1.0/SHA256SUMS.txt",
@@ -473,6 +524,8 @@ def main():
             BELL_CONCEPT,
             CROSS_DOMAIN_VERSION,
             CROSS_DOMAIN_PREVIOUS,
+            MAO_VERSION,
+            MAO_CONCEPT,
         ):
             url = f"https://doi.org/{doi}"
             if url not in citations:
@@ -481,16 +534,24 @@ def main():
         current_voynich_url = f"https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/{VOYNICH_CURRENT_PAPER}"
         current_cross_domain_url = f"https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/{CROSS_DOMAIN_PAPER}"
         current_bell_url = f"https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/{BELL_PAPER}"
+        current_mao_url = f"https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/{MAO_PAPER}"
         if current_voynich_url not in subjects:
             failures.append("codemeta.json: current Voynich v2 paper route missing")
         if current_cross_domain_url not in subjects:
             failures.append("codemeta.json: current Cross-Domain v0.3 paper route missing")
         if current_bell_url not in subjects:
             failures.append("codemeta.json: Bell v1.0 paper route missing")
+        if current_mao_url not in subjects:
+            failures.append("codemeta.json: Minimal Addressed Operator v1.0 paper route missing")
         author = codemeta.get("author", {})
         if author.get("identifier") != "https://orcid.org/0009-0005-7736-1511":
             failures.append("codemeta.json: author ORCID route missing or incorrect")
 
+    mao_text = (ROOT / f"papers/{MAO_PAPER}").read_text(encoding="utf-8")
+    if "\\[" in mao_text or "\\]" in mao_text or "\\(" in mao_text or "\\)" in mao_text:
+        failures.append("Minimal Addressed Operator paper route uses raw TeX display/inline delimiters instead of GitHub math carriers")
+    if mao_text.count("```") % 2:
+        failures.append("Minimal Addressed Operator paper route has unbalanced fenced blocks")
     citation_text = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
     if MKUFT_VERSION not in citation_text:
         failures.append("CITATION.cff: current principal MKUFT DOI missing")
