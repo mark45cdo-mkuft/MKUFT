@@ -27,7 +27,7 @@ The live scientific owners remain the current MKUFT modules. The paper is a cita
 ## Repository routes
 
 - [Human-readable paper route](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md)
-- [Frozen carrier mirror / checksum / postpublication QA](publications/MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0/)
+- [Frozen carrier identity / checksum / postpublication QA](publications/MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0/)
 - [Papers and Publications index](papers/README.md)
 - [Publications and Frozen Mirrors](publications/README.md)
 - [Provenance and DOI custody](PROVENANCE_DOI_AND_ATTRIBUTION.md)
@@ -41,7 +41,7 @@ The live scientific owners remain the current MKUFT modules. The paper is a cita
 **MD5:** \`20d1e3e6f715b826f03cac92d7875644\`  
 **SHA-256:** \`6773e5eaa7bdce75dfc77f191eec4858004ee202532602a9ddd225373947511f\`
 
-The published Zenodo record displayed the same MD5 as the locally frozen final carrier. The repository mirror below is the same final PDF used for the Zenodo upload.
+The published Zenodo record displayed the same MD5 as the locally frozen final carrier. This repository records the carrier identity and checksum; the frozen binary remains under Zenodo publication custody unless a byte-verified repository mirror is added separately.
 
 ## Canon relationship
 
