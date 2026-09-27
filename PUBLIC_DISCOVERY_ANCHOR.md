@@ -92,6 +92,7 @@ The synthesis provides one compact route through the typed S–I–P–O / activ
 - [ATLD 2 paper](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md)
 - [ATLD 2 canonical measurement fold — Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md)
 - [Future-Splitting State Recruitment paper](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md)
+- [Boundary-Driven Readdressing / Parent-Admissibility Corollary](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary)
 - [Addressed Admissible Futures paper](papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md)
 - [Layer Before Law paper](papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md)
 - [Recursive Constraint Closure paper](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md)
