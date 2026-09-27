@@ -86,6 +86,8 @@ def looks_like_semantic_math(span: str) -> bool:
         return False
     if re.search(r"[Α-Ωα-ω]", s):
         return True
+    if "×" in s or "÷" in s:
+        return True
     if re.search(r"[A-Za-zΑ-Ωα-ω][⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁽⁾]+", s):
         return True
     if re.fullmatch(r"\d+/\d+", s):
@@ -151,7 +153,8 @@ def audit_semantic_inline_code(line: str, lineno: int):
         if LITERAL_CONTEXT_BEFORE.search(prefix):
             continue
         span = match.group(1)
-        if looks_like_semantic_math(span):
+        numeric_in_math_sentence = bool(re.fullmatch(r"[-+]?\d+(?:\.\d+)?", span.strip()) and "$" in line)
+        if looks_like_semantic_math(span) or numeric_in_math_sentence:
             problems.append(
                 f"line {lineno}: mathematical notation is in a literal inline-code carrier: `{span}`; use $...$ for semantic inline mathematics"
             )

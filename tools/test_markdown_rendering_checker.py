@@ -200,6 +200,24 @@ All probabilities lie in `[1/8,3/8]`.
     )
 
     require_failure(
+        "bare numeric pill inside mathematical sentence",
+        """# Bad
+
+Changing $E_{11}$ from $-1/\\sqrt{2}$ to `0` changes $S$.
+""",
+        "mathematical notation is in a literal inline-code carrier",
+    )
+
+    require_failure(
+        "multiplication-sign dimension notation is mathematics",
+        """# Bad
+
+Use the binary `2×2×2` Bell scenario.
+""",
+        "mathematical notation is in a literal inline-code carrier",
+    )
+
+    require_failure(
         "standalone ASCII Greek name inside display math",
         """# Bad
 
