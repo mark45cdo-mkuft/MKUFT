@@ -21,7 +21,7 @@ MATH_COMMAND = re.compile(
     r"approx|neq|in|le|ge|circ|mid|widetilde|bigsqcup|lVert|rVert|qquad|quad|times|subseteq)\b"
 )
 INLINE_CODE = re.compile(r"`[^`]*`")
-INLINE_CODE_CAPTURE = re.compile(r"`([^`\\n]+)`")
+INLINE_CODE_CAPTURE = re.compile(r"`([^`\n]+)`")
 
 SCIENTIFIC_ROOT_ROUTES = {
     "MKUFT_INTEGRATED_MASTER_SPINE.md",
@@ -35,8 +35,8 @@ SCIENTIFIC_ROOT_ROUTES = {
 }
 
 LITERAL_CONTEXT = re.compile(
-    r"\\b(?:literal|source token|source fragment|command|syntax|filename|file name|path|"
-    r"repository identifier|code span|code-style|identifier string)\\b",
+    r"\b(?:literal|source token|source fragment|command|syntax|filename|file name|path|"
+    r"repository identifier|code span|code-style|identifier string)\b",
     re.IGNORECASE,
 )
 
@@ -71,9 +71,9 @@ def looks_like_semantic_math(span: str) -> bool:
     s = span.strip()
     if not s or looks_like_literal_resource(s):
         return False
-    if MATH_COMMAND.search(s) or re.search(r"\\\\[A-Za-z]+", s):
+    if MATH_COMMAND.search(s) or re.search(r"\\[A-Za-z]+", s):
         return True
-    if re.search(r"[A-Za-zΑ-Ωα-ω][A-Za-z0-9]*(?:_|\\^)", s):
+    if re.search(r"[A-Za-zΑ-Ωα-ω][A-Za-z0-9]*(?:_|\^)", s):
         return True
     if re.search(r"(?:<=|>=|!=|≤|≥|∈|∉|→|↔|⇒|⇔|≈|≃|≠)", s):
         return True
