@@ -50,7 +50,7 @@ where the public ATLD paper defines the readouts as:
 - $K$ — correction propagation;
 - $G$ — calibration;
 - $L$ — branch-failure localisation/repair;
-- `E` — efficiency plus evidence-path validity.
+- $E$ — efficiency plus evidence-path validity.
 
 ATLD 2 does not reinterpret those seven after seeing the successor candidates. Their causal role remains the frozen predecessor surface.
 

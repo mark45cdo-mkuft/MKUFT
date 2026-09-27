@@ -31,7 +31,7 @@ The methodological target is therefore the **smallest target-sufficient native c
 Let $r$ be a candidate load-bearing relation at Address $a$. Fix before confirmatory testing:
 
 - target $q$;
-- prediction horizon `Δ`;
+- prediction horizon $\Delta$;
 - admissible intervention/deformation family $U$;
 - environment and boundary class $E$;
 - measurement/registration family $O$;

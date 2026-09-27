@@ -109,7 +109,7 @@ A nominally identical reversal is not automatically the same challenge. Amplitud
 Use **one primary future object** for the principal claim:
 
 ```math
-q = sigma_rev(epsilon)
+q = \sigma_{\mathrm{rev}}(\varepsilon)
 ```
 
 —the reverse-loading macroscopic stress trajectory over a preregistered strain window after the challenged state.
@@ -117,7 +117,7 @@ q = sigma_rev(epsilon)
 Sample the trajectory on a fixed grid:
 
 ```math
-y = [sigma(epsilon_1),...,sigma(epsilon_m)].
+y = [\sigma(\varepsilon_1),\ldots,\sigma(\varepsilon_m)].
 ```
 
 A default trajectory discrepancy is the covariance-standardised distance
@@ -125,7 +125,7 @@ A default trajectory discrepancy is the covariance-standardised distance
 ```math
 d_q(y,y')
 =
-\sqrt{\frac{1}{m}(y-y')^T Sigma_0^{-1}(y-y')},
+\sqrt{\frac{1}{m}(y-y')^T \Sigma_0^{-1}(y-y')},
 ```
 
 where $\Sigma_0$ is estimated only from the calibration/development data and frozen before confirmation. If $\Sigma_0$ is singular or materially ill-conditioned under a predeclared numerical criterion, do not invert it directly. Before confirmation, freeze either a defensible regularised covariance estimator, a pseudoinverse/eigenvalue-truncation rule, or another domain-appropriate trajectory distance, and then use that same rule unchanged on confirmatory data. A laboratory may predeclare another defensible trajectory distance, but it may not choose or tune the distance after seeing which one makes the split largest.
@@ -201,7 +201,7 @@ Do not cherry-pick individual specimens after inspecting their futures.
 Define the match prospectively:
 
 ```math
-D_Theta(Theta_0(h),Theta_0(h')) <= tau_Theta,
+D_{\Theta}(\Theta_0(h),\Theta_0(h')) \le \tau_{\Theta},
 ```
 
 where the metric and tolerance are frozen from development/calibration variability and model sensitivity.
@@ -422,10 +422,10 @@ For Tier-3 consideration require, as applicable:
 For matched histories under a frozen challenge, estimate the future-splitting residual using the preregistered trajectory discrepancy:
 
 ```math
-\widehat R_q(Theta_0;u)
+\widehat R_q(\Theta_0;u)
 =
 \mathrm{UpperTail}_{\mathrm{pre}}
-\{d_q(y_h,y_h') : D_Theta(Theta_0(h),Theta_0(h')) <= tau_Theta\}.
+\{d_q(y_h,y_h') : D_{\Theta}(\Theta_0(h),\Theta_0(h')) \le \tau_{\Theta}\}.
 ```
 
 $\mathrm{UpperTail}_{\mathrm{pre}}$ must be fixed before confirmation — for example a specified high quantile with uncertainty or another robust worst-case estimator justified by the sample design.
@@ -433,7 +433,7 @@ $\mathrm{UpperTail}_{\mathrm{pre}}$ must be fixed before confirmation — for ex
 State insufficiency for the declared experiment requires
 
 ```math
-\widehat R_q(Theta_0;u_F) > epsilon_q
+\widehat R_q(\Theta_0;u_F) > \varepsilon_q
 ```
 
 with the uncertainty/precision rule preregistered.
@@ -441,7 +441,7 @@ with the uncertainty/precision rule preregistered.
 A recruitment candidate $c$ closes only when the held-out repaired state satisfies
 
 ```math
-\widehat R_q(Theta_0 \oplus c;u_F) <= epsilon_q.
+\widehat R_q(\Theta_0 \oplus c;u_F) \le \varepsilon_q.
 ```
 
 The **ablation/reopening check** is
@@ -506,12 +506,12 @@ The exact envelope, $\varepsilon_T$, and persistence rule are Stage-1 objects an
 Define
 
 ```math
-L = lambda_T - lambda_R,
+L = \lambda_T - \lambda_R,
 ```
 
 where $\lambda_R$ is the earliest prospectively confirmed loading coordinate at which $\Theta_0$ requires $c^*$ to preserve the declared future within $\varepsilon_q$.
 
-A positive lead claim requires `L>0` with preregistered uncertainty. If the intervals overlap or the lead disappears under replication, the prospective-lead claim is NULL even if state recruitment itself remains valid.
+A positive lead claim requires $L>0$ with preregistered uncertainty. If the intervals overlap or the lead disappears under replication, the prospective-lead claim is NULL even if state recruitment itself remains valid.
 
 ## 17. Strongest fair null family
 
@@ -657,7 +657,7 @@ A strong flagship result requires the exact conjunction claimed in advance. Succ
 | Split survives; established ordinary variable closes | repair valid | ordinary state reconstruction; MKUFT novelty null unless challenge/minimality adds prospective value |
 | Split survives; $c^*$ closes held-out; $u_{\mathrm{PI}}$ matches $u_F$ | recruitment supported | challenge-objective delta null |
 | Split survives; $c^*$ closes; ablation reopens; $u_F$ beats $u_{\mathrm{PI}}$ | strong methodological support | FSAI/FSSR procedure adds prospective value in this domain |
-| Same plus independent physical deformation/replication and `L>0` | Tier-3 candidate result | bounded mechanism-level flagship support only |
+| Same plus independent physical deformation/replication and $L>0$ | Tier-3 candidate result | bounded mechanism-level flagship support only |
 | Repair fails held-out or cannot survive ordinary baselines | recruitment fails | contract branch; do not add more hidden state post hoc |
 
 ## 20. Preregistration, power and analysis custody

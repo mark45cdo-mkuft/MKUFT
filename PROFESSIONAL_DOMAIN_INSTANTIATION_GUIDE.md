@@ -92,7 +92,7 @@ Likewise, a formally valid representation is allowed to exist even when it was m
 
 ### Minimal physics example
 
-Suppose lower states $x$ are mapped to a proposed higher description `y = pi(x)` and the target property is $q$.
+Suppose lower states $x$ are mapped to a proposed higher description $y = \pi(x)$ and the target property is $q$.
 
 The higher description is sufficient for $q$ only if lower states grouped together by $\pi$ remain equivalent for the declared target under matched intervention/environment conditions. If two lower states with the same $y$ generate materially different target futures, the higher description must reopen lower detail or remain explicitly multiscale.
 

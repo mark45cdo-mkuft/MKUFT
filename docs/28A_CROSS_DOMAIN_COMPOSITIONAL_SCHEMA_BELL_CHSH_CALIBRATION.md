@@ -413,7 +413,7 @@ E_{xy}=0
 \quad\forall x,y.
 ```
 
-Then every conditional outcome probability is `1/4`, the correlators are all zero, and both local marginals are independent of the remote setting.
+Then every conditional outcome probability is $1/4$, the correlators are all zero, and both local marginals are independent of the remote setting.
 
 **Behaviour $P_{\mathrm{sig}}$:** choose `\eta=1/2` and
 
@@ -696,7 +696,7 @@ v_3=(1,1,-1,-1)^{\mathsf T},
 v_4=(1,1,1,1)^{\mathsf T}.
 ```
 
-With these columns in $V$, `det V=16`; the facet is a regular tetrahedron in its three-dimensional affine hyperplane, with Euclidean 3-volume `8/3` in the standard correlator embedding.
+With these columns in $V$, $\det V=16$; the facet is a regular tetrahedron in its three-dimensional affine hyperplane, with Euclidean 3-volume $8/3$ in the standard correlator embedding.
 
 ### 14.3 Facet-adapted Tetrahedral Bell Chart
 
@@ -720,7 +720,7 @@ E=V\lambda+\frac{\nu}{4}c,
 }
 ```
 
-The constrained codomain is four-dimensional: $\lambda$ contributes three independent affine coordinates and $\nu$ contributes the fourth. The map is an affine bijection for the four-correlator object relative to the selected CHSH orientation. On the local facet `nu=0` and non-negative $\lambda$ are ordinary barycentric weights; away from the facet the chart remains invertible while the projected coordinates need not remain inside the simplex.
+The constrained codomain is four-dimensional: $\lambda$ contributes three independent affine coordinates and $\nu$ contributes the fourth. The map is an affine bijection for the four-correlator object relative to the selected CHSH orientation. On the local facet $\nu=0$ and non-negative $\lambda$ are ordinary barycentric weights; away from the facet the chart remains invertible while the projected coordinates need not remain inside the simplex.
 
 Thus the v0.3 four-versus-three objection is preserved, not reversed: **tetrahedron alone is insufficient; tetrahedral facet address plus one transverse coordinate is complete.** Symmetry-equivalent CHSH orientations carry the same construction under Bell relabelling, so no displayed orientation is physically privileged.
 

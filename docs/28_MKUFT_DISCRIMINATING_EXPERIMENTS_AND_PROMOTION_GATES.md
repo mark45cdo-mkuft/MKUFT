@@ -318,7 +318,7 @@ F_AB > reset, relation-scrambled, or correction-disrupted conditions
 
 on relational tasks requiring iterative correction, while advantages should shrink on simple lookup tasks.
 
-If reset, relation scrambling and correction-channel disruption do not produce the predicted deformation, the ATLD architecture is not load-bearing. If a competent full-history replay condition matches `F_AB`, the result supports transferable explicit architecture or record-mediated intelligence, but not a stronger live traversal-path claim.
+If reset, relation scrambling and correction-channel disruption do not produce the predicted deformation, the ATLD architecture is not load-bearing. If a competent full-history replay condition matches $F_{AB}$, the result supports transferable explicit architecture or record-mediated intelligence, but not a stronger live traversal-path claim.
 
 ### 5.4 Full-history replay control
 
@@ -345,7 +345,7 @@ The discriminator is:
 
 > Does traversing and forming the history together change later system function differently from merely possessing and competently using a complete record of that history?
 
-If the answer is no, the architecture may still be important because it is portable and externally recoverable. If the answer is reproducibly yes, `G_path > 0` identifies a path-dependent functional contribution not reducible to explicit information or familiarity alone.
+If the answer is no, the architecture may still be important because it is portable and externally recoverable. If the answer is reproducibly yes, $G_{\mathrm{path}}>0$ identifies a path-dependent functional contribution not reducible to explicit information or familiarity alone.
 
 ### 5.5 Interpretation boundary
 
@@ -419,7 +419,7 @@ This design does **not** assume that future observation rewrites a completed pas
 
 ### 6.5 Measured state
 
-Define `κ` prospectively from a small registered set of measures. Candidate inputs may include:
+Define $\kappa$ prospectively from a small registered set of measures. Candidate inputs may include:
 
 - task engagement and compliance;
 - preregistered heart-rate-variability features;
@@ -449,7 +449,7 @@ A stronger candidate signature, if justified and frozen after Stage 1, would hav
 |I_Q| > |I_C| ≈ |I_D|
 ```
 
-with the route/state contrast concentrated in `R2` at higher measured `κ`, absent in $D$, stable across time, and replicated on a second quantum-source architecture.
+with the route/state contrast concentrated in `R2` at higher measured $\kappa$, absent in $D$, stable across time, and replicated on a second quantum-source architecture.
 
 This ordering is a proposal for discrimination, not an established consequence of the present MKUFT equations.
 
@@ -461,7 +461,7 @@ Estimate:
 
 - source stability;
 - sham false-positive rate;
-- reliability of `κ`;
+- reliability of $\kappa$;
 - plausible interaction family;
 - variance and smallest detectable effect;
 - whether any source ordering is defensible.
@@ -491,7 +491,7 @@ The O-linked physical-modulation branch is weakened if:
 - $I_M$ converges to zero under adequate precision;
 - effects appear equally in deterministic streams;
 - apparent results track hardware drift, allocation, expectation or analyst choice;
-- `κ` is unreliable or does not scale with the effect;
+- $\kappa$ is unreliable or does not scale with the effect;
 - the Stage 2 fingerprint fails;
 - the classical or ordinary model predicts the data equally well.
 
@@ -517,9 +517,9 @@ where:
 
 - $\Gamma_{\mathrm{obs}}$ is the measured decoherence, dephasing, heating or transition rate;
 - $\Gamma_{\mathrm{std}}$ is the full accepted device-and-environment prediction;
-- `θ` contains declared physical parameters such as mass, frequency, temperature, quality factor, preparation, geometry, shielding and readout;
+- $\theta$ contains declared physical parameters such as mass, frequency, temperature, quality factor, preparation, geometry, shielding and readout;
 - $δ\Gamma_M$ is the proposed MKUFT residual with the same units as $\Gamma_{\mathrm{obs}}$;
-- `α` is a bounded parameter set estimated or constrained by data.
+- $\alpha$ is a bounded parameter set estimated or constrained by data.
 
 If expressed through a master equation, the additional dynamics must preserve the required probability, positivity and no-signalling conditions.
 
@@ -539,7 +539,7 @@ No laboratory protocol is promoted until the model supplies:
 ### 7.4 Experimental sequence
 
 1. **Device qualification** — reproduce accepted decoherence and injected-signal recovery.
-2. **Discovery sweep** — estimate `α` on one bounded parameter region without metaphysical interpretation.
+2. **Discovery sweep** — estimate $\alpha$ on one bounded parameter region without metaphysical interpretation.
 3. **Freeze** — lock the residual form and all preprocessing.
 4. **Held-out sweep** — predict new masses, temperatures, quality factors or preparation states.
 5. **Second platform** — test whether the same law transfers to a distinct oscillator architecture where generality is claimed.
@@ -578,7 +578,7 @@ Then require MKUFT to predict before confirmation:
 - the parameter or orientation where it crosses zero or changes slope;
 - the scaling exponent or bounded response family;
 - the matched geometry in which $r$ should vanish;
-- a held-out region of `θ`.
+- a held-out region of $\theta$.
 
 Finite-element, thermal, electromagnetic, mechanical and material models must be treated as part of the null, not as later objections.
 
