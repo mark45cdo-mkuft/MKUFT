@@ -55,6 +55,7 @@ Layer Before Law
 → admissible and restorative futures
 → future-splitting assay
 → observer-bounded reachable discrimination and readdressing
+→ boundary-driven readdressing / parent-admissibility check
 → hostile controls, prior-art subtraction and falsification
 ```
 
@@ -536,6 +537,39 @@ The important restraint is that there is no universal uniquely “right question
 ### Kill point
 
 If ordinary state/action modelling, experimental design, or adaptive measurement already captures the same operational result with equal or better clarity, the MKUFT-specific discriminator-frontier language contracts to synthesis. If history adds no prospective information once present state is adequately typed, wake drops back to provenance.
+
+### Why the next step follows
+
+Observer-bounded traversal tells us what can actually be resolved from the state reached. One more category error remains before hostile subtraction: a limit found at the current Address can be mistaken either for a global impossibility, or for something that can be waved away merely by invoking a larger frame.
+
+---
+
+## 11A. Boundary-Driven Readdressing — when may a wider parent change the verdict?
+
+Read: [33S7A §5D — Boundary-Driven Readdressing and Parent-Admissibility Corollary](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary)
+
+### What you carry in
+
+We already know that a boundary statement is an addressed claim and that a bounded observer has only the discriminator family reachable from the state actually attained.
+
+### What this adds
+
+It blocks two symmetrical mistakes:
+
+```text
+local non-reachability → global impossibility
+named wider frame → automatic lawful rescue
+```
+
+Neither follows.
+
+Use the smallest lawful parent that actually carries the missing relation. A wider Address changes the verdict only when the omitted relation is independently typed, target-relevant, and admitted by the parent law object.
+
+Directional language must be re-evaluated at the same time. `Upstream`, `downstream`, `input`, `output`, `parent`, or `child` belong to a declared relation. If the relation changes, the direction may remain, reverse, become incomparable, or require different language. That fact does not by itself establish physical retrocausation or a reversible arrow of time.
+
+### Kill point
+
+If a same-address model/measurement/representation repair closes the apparent boundary, no parent promotion is earned. If the wider parent adds no typed relation or no change in lawful continuation, the parent branch is NULL. If ordinary hierarchical/contextual modelling already captures the same target result with equal or better precision, the MKUFT-specific contribution contracts to named synthesis.
 
 ### Why the next step follows
 
