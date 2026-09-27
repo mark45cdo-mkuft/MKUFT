@@ -45,6 +45,26 @@ Licence stated in source material: CC BY 4.0
 
 The CC BY 4.0 licence applies to the exact material released under that MKUFT record. It remains effective for that material and is not revoked or narrowed by later repository notices.
 
+### Minimal Addressed Operator standalone preprint
+
+```text
+Toward a Minimal Addressed Operator for Sequential Inquiry:
+Factorisation, Readdressing, and Recursive Scale Handoff in MKUFT
+Version: 1.0
+Version DOI: 10.5281/zenodo.22998394
+Concept DOI: 10.5281/zenodo.22998393
+Author: Mark Charles McLaughlin
+Copyright: © 2026 Mark Charles McLaughlin
+Public licence: CC BY-NC-SA 4.0
+Software licence: none granted by the manuscript
+```
+
+The CC BY-NC-SA 4.0 licence applies to the exact v1.0 deposited preprint. It does not silently relicense live Modules 33S4, 33S7B, Module 35, the repository paper route, or other later/current repository text unless those exact objects separately state that licence.
+
+The publication is a formal conjecture/research-programme object. Its licence does not promote the conjecture into a proved theorem, and its DOI does not create software, patent, certification, or commercial-implementation rights beyond the exact Creative Commons grant on the deposited manuscript.
+
+See `MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md` for exact citation and custody.
+
 ### ATLD publication family
 
 Current release:
