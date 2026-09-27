@@ -336,6 +336,7 @@ If you are new to the work:
 8. read [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md);
 9. read [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md), including the live boundary-driven readdressing / parent-admissibility corollary;
 10. use the [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) whenever a technical handoff leaves your native field.
+11. if you want the current formal question about whether the whole inquiry loop itself has a representation-independent factorisation, read the [Minimal Addressed Operator preprint](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md). Treat it as a conjecture/falsification programme, not a proved universal theorem.
 
 For the complete repository map, use [INDEX.md](INDEX.md) and [CANON_MAP.md](CANON_MAP.md).
 
