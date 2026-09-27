@@ -635,6 +635,7 @@ Read:
 - [Minimum Decisive FSAI/FSSR Flagship Protocol](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
 - [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
 - [Scientific References and Current Literature](SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md)
+- [Minimal Addressed Operator v1.0 preprint](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md) — optional capstone stress object after the chain; formal research programme, not a new canonical step.
 
 ### What you carry in
 
@@ -643,6 +644,8 @@ The chain has now produced a coherent addressed architecture and several operati
 ### What this step does
 
 It tries to remove the romance from that coherence.
+
+The Minimal Addressed Operator preprint packages this entire hostile question at one higher-order address: can the clean inquiry loop itself be factorised without importing MKUFT vocabulary by definition, and does any claimed minimal representative survive the strongest native comparators? Use it as a **stress/conformance paper**, not as evidence that the universal factorisation conjecture has already been proved.
 
 Ask:
 
