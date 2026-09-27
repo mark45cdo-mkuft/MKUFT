@@ -121,6 +121,7 @@ Main routes into that work:
 - [Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
 - [Minimum Decisive FSAI/FSSR Flagship — History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md) — [v1.0 frozen publication route](papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md), published DOI `10.5281/zenodo.22309144`
 - [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
+  - [Boundary-Driven Readdressing and Parent-Admissibility Corollary](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary) — keeps local non-reachability distinct from global prohibition, requires a typed lawful parent before a wider frame can change the verdict, and recomputes relation-relative direction after readdressing.
 - [Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md)
 
 For translation between ordinary neighbouring terminology and the native MKUFT terms, use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md).
