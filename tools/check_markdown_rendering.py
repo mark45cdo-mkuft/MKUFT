@@ -41,10 +41,16 @@ LITERAL_CONTEXT = re.compile(
 )
 
 PLAIN_GREEK_NAMES = {
-    "Theta", "Sigma", "Delta", "Omega", "Phi", "Psi", "Pi", "Gamma",
+    "Theta", "Sigma", "Delta", "Omega", "Phi", "Psi", "Pi", "Gamma", "Lambda", "Xi",
     "lambda", "rho", "epsilon", "varepsilon", "tau", "chi", "kappa",
-    "eta", "nu", "alpha", "gamma", "mu", "sigma", "pi",
+    "eta", "nu", "alpha", "beta", "gamma", "delta", "mu", "sigma", "pi",
 }
+
+PLAIN_GREEK_IN_MATH = re.compile(
+    r"(?<!\\\\)\\b(?:Theta|Sigma|Delta|Omega|Phi|Psi|Pi|Gamma|Lambda|Xi|"
+    r"lambda|rho|epsilon|varepsilon|tau|chi|kappa|eta|nu|alpha|beta|gamma|delta|mu|sigma|pi)"
+    r"(?=_[A-Za-z0-9{])"
+)
 
 
 def is_scientific_route(path: Path) -> bool:
@@ -69,7 +75,13 @@ def looks_like_literal_resource(span: str) -> bool:
 
 def looks_like_semantic_math(span: str) -> bool:
     s = span.strip()
-    if not s or looks_like_literal_resource(s):
+    if not s:
+        return False
+    if re.fullmatch(r"[Α-Ωα-ω]", s):
+        return True
+    if re.fullmatch(r"\\d+(?:\\.\\d+)?/\\d+(?:\\.\\d+)?", s):
+        return True
+    if looks_like_literal_resource(s):
         return False
     if MATH_COMMAND.search(s) or re.search(r"\\[A-Za-z]+", s):
         return True
@@ -88,6 +100,12 @@ def looks_like_semantic_math(span: str) -> bool:
     if re.fullmatch(r"[A-Za-z]", s):
         return True
     if re.fullmatch(r"(?:Drop|Aug|Eval|Abl|Adm|Rec)", s):
+        return True
+    if re.match(r"^(?:det|rank|tr)\\s+[A-Za-zΑ-Ωα-ω][^=]*=", s):
+        return True
+    if re.match(r"^(?:Theta|Sigma|Delta|Omega|Phi|Psi|Pi|Gamma|Lambda|Xi|lambda|rho|epsilon|varepsilon|tau|chi|kappa|eta|nu|alpha|beta|gamma|delta|mu|sigma|pi)\\s*=", s):
+        return True
+    if re.match(r"^[A-Za-zΑ-Ωα-ω](?:[_^][^=\\s]+)?\\s*=", s):
         return True
     return False
 
@@ -154,6 +172,12 @@ def audit_math_fence(path: Path, start_line: int, lines):
             problems.append(
                 f"math fence opened line {start_line}: unsupported GitHub math macro {macro}; {replacement}"
             )
+
+    plain_greek = PLAIN_GREEK_IN_MATH.search(text)
+    if plain_greek:
+        problems.append(
+            f"math fence opened line {start_line}: ASCII Greek-name token {plain_greek.group(0)} is not TeX Greek notation"
+        )
 
     ok, first_negative, depth = unescaped_brace_balance(text)
     if not ok:

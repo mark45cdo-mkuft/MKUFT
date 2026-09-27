@@ -121,6 +121,54 @@ Recruit candidate `c*` before confirmation.
     )
 
     require_failure(
+        "bare Unicode Greek symbol wrongly carried as code",
+        """# Bad
+
+Fix horizon `Δ` before testing.
+""",
+        "mathematical notation is in a literal inline-code carrier",
+    )
+
+    require_failure(
+        "simple mathematical fraction wrongly carried as code",
+        """# Bad
+
+The Euclidean volume is `8/3`.
+""",
+        "mathematical notation is in a literal inline-code carrier",
+    )
+
+    require_failure(
+        "simple mathematical equality wrongly carried as code",
+        """# Bad
+
+On the facet `nu=0`.
+""",
+        "mathematical notation is in a literal inline-code carrier",
+    )
+
+    require_failure(
+        "ASCII Greek-name token inside display math",
+        """# Bad
+
+```math
+x^T Sigma_0^{-1} x
+```
+""",
+        "ASCII Greek-name token",
+    )
+
+    require_pass(
+        "TeX Greek token inside display math",
+        """# Good
+
+```math
+x^T \\Sigma_0^{-1} x
+```
+""",
+    )
+
+    require_failure(
         "unclosed TeX grouping brace",
         """# Bad\n\n```math\n\\boxed{\\mathcal F(x)\n```\n""",
         "unclosed TeX grouping brace",
