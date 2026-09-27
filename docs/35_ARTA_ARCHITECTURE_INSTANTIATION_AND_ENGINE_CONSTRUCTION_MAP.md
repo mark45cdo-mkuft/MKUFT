@@ -560,6 +560,20 @@ An implementation may satisfy more than one profile.
 
 Profiles are **conformance scopes**, not product certifications.
 
+### 7.4A Published inquiry-factorisation research object
+
+The DOI-bearing preprint [*Toward a Minimal Addressed Operator for Sequential Inquiry*](../papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md), v1.0, extracts the existing ARTA/MKUFT sequence into a candidate representation-independent clean-inquiry factorisation.
+
+Its role here is **conformance research**, not new engine anatomy.
+
+The general engine profile remains free to choose any lawful target-relevant move. Local minimality is an optional refinement only where an independently fixed burden order and prospective replacement test earn it.
+
+The paper therefore supplies an additional hostile question for engine implementations:
+
+> **Can the implementation satisfy object/context fidelity, target relevance, lawful operation, outcome custody, realised-state update, post-change state fidelity, and recursive continuation without merely hard-coding the proposed Address/readdressing vocabulary into the comparator definition?**
+
+A positive answer would support a common semantic contract. A clean reduction to POMDP, Bayesian-design, active-learning, minimal-ITS, predictive-state, or another native formalism remains an allowed outcome.
+
 ---
 
 ## 8. Mandatory regressions
