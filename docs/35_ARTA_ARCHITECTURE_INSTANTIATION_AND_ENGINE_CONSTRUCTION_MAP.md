@@ -191,6 +191,23 @@ formal notation != earned precision
 
 A generic “cannot” is invalid when a finer boundary distinction changes the next lawful route.
 
+When a local non-reachability or impossibility claim is being used to support a stronger/global conclusion, also recruit 33S7A §5D:
+
+~~~text
+local boundary becomes load-bearing
+→ test same-address model / measurement / representation defect first
+→ test whether the current Address is sufficient for the stronger claim
+→ if not, identify the smallest typed parent relation that could change the result
+→ require the parent law object to actually admit the path
+→ only then readdress
+~~~
+
+Keep both guards:
+
+> **local non-reachability ≠ global prohibition**
+
+> **named wider frame ≠ lawful rescue**
+
 ### Stage 4 — bind observer / representation state
 
 Use Module 31 and 33S7C.
@@ -270,6 +287,7 @@ After a realised transition:
 - update wake;
 - update reachable future/discriminator family;
 - update the active law/model object where the receiving domain requires it.
+- recompute relation-relative directional roles where the governing relation/address changed;
 
 Do not reason forward from a stale pre-transition state.
 
@@ -555,7 +573,7 @@ A projected future must not become present authority before the transition is ea
 
 ### R3 — boundary-claim collapse
 
-Not authorised, not accessible, not established, and impossible must not collapse when the distinction changes continuation.
+Not authorised, not accessible, not established, and impossible must not collapse when the distinction changes continuation. Local non-reachability must not be promoted to global prohibition without an Address-sufficiency argument, and a named wider frame must not be treated as lawful rescue unless a typed parent relation is actually admitted there.
 
 ### R4 — representation transform
 
@@ -625,6 +643,15 @@ Pass:
 - tasks requiring historical continuity correctly report that reconstitution is unavailable or incomplete;
 - no remembered payload is fabricated;
 - stored permissions/evidence do not become current merely because they exist in the recording.
+### R17 — parent-rescue / direction-inheritance failure
+
+After a material relation/address change:
+
+- `upstream`, `downstream`, `input`, `output`, `parent`, `child`, or another directional role must not be inherited automatically;
+- the new parent must not be credited with a route it does not lawfully admit;
+- a relation-relative reversal must not be promoted into physical retrocausation without a separate domain-native mechanism and evidence.
+
+Pass only when the engine recomputes the directional role under the newly declared relation and preserves the parent-admissibility result separately from the metaphor used to expose it.
 
 Fail:
 - the recording store becomes a hidden controller or mandatory architectural organ;
@@ -811,7 +838,7 @@ README / 00 Public Entry
 → Module 24 dependency/traversal map
 → Module 27 typing
 → Module 33 update loop
-→ 33S4–33S7C future/observer family
+→ 33S4–33S7C future/observer family, including 33S7A §5D parent-admissibility / relation-relative-direction guard
 → 20/20A route and authority gates
 → Module 34 release integrity (if persistent/public)
 → exact rights + single stewardship/use owner
@@ -823,4 +850,4 @@ For a scientific builder, also traverse the strongest fair null, experimental, f
 
 ## 16. Canonical compression
 
-> **Build the smallest engine that preserves the distinctions which actually change the declared continuation. Bind the parent and authority first; type the objects; initialise the strongest adequate Address; preserve the honest boundary and observer state; model futures without moving the present; gate before weighting; execute and observe before claiming; readdress from the state actually reached; retain only future-bearing wake; where continuity matters, define a recording/reconstitution interface, record future-bearing state at an adequate external owner or preserve a reliable restoration route, then prove reconstitution from a fresh state without invented memory; treat the durable recording payload as external state rather than an architecture organ, and treat transient context as a working surface rather than automatic canonical memory; verify recovered state because persistence does not guarantee present validity; route non-null learning to its declared owner; keep learning state, external action and release authority separately typed; test the engine by regressions and NULLs.**
+> **Build the smallest engine that preserves the distinctions which actually change the declared continuation. Bind the parent and authority first; type the objects; initialise the strongest adequate Address; preserve the honest boundary and observer state; test a load-bearing local boundary before globalising or rescuing it, requiring a typed lawful parent where readdressing is claimed; model futures without moving the present; gate before weighting; execute and observe before claiming; readdress from the state actually reached and recompute relation-relative direction where the governing relation changed; retain only future-bearing wake; where continuity matters, define a recording/reconstitution interface, record future-bearing state at an adequate external owner or preserve a reliable restoration route, then prove reconstitution from a fresh state without invented memory; treat the durable recording payload as external state rather than an architecture organ, and treat transient context as a working surface rather than automatic canonical memory; verify recovered state because persistence does not guarantee present validity; route non-null learning to its declared owner; keep learning state, external action and release authority separately typed; test the engine by regressions and NULLs.**
