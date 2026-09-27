@@ -10,7 +10,7 @@
     "McLaughlin–Kairos Unified Field Theory",
     "Unified Field Theory. McLaughlin–Kairos. MKUFT"
   ],
-  "description": "The current principal publication and evolving public research canon of the McLaughlin–Kairos Unified Field Theory by Mark Charles McLaughlin. The integrated live architecture is canonically named MKUFT Addressed Relational Traversal Architecture (ARTA). The DOI-bearing MKUFT v2 publication remains frozen at Zenodo while live GitHub modules retain their own revision history and publication boundaries. The public research stack also includes the FSSR HCP Magnesium minimum-decisive protocol, Typed Decomposition-Reconstruction, Cross-Domain Compositional Schema v0.4, Bell Constraints as Typed Boundaries, Chain-Address Invariants, ATLD 2, Future-Splitting State Recruitment, Addressed Admissible Futures, Layer Before Law, Recursive Constraint Closure, the Voynich v2.0 applied-research publication, a non-DOI Layer Before Law v1.2 synthesis, and reproducibility packages.",
+  "description": "The current principal publication and evolving public research canon of the McLaughlin–Kairos Unified Field Theory by Mark Charles McLaughlin. The integrated live architecture is canonically named MKUFT Addressed Relational Traversal Architecture (ARTA). The DOI-bearing MKUFT v2 publication remains frozen at Zenodo while live GitHub modules retain their own revision history and publication boundaries. The public research stack also includes the FSSR HCP Magnesium minimum-decisive protocol, Typed Decomposition-Reconstruction, Cross-Domain Compositional Schema v0.4, Bell Constraints as Typed Boundaries, Chain-Address Invariants, ATLD 2, Future-Splitting State Recruitment, Addressed Admissible Futures, Layer Before Law, Recursive Constraint Closure, the Voynich v2.0 applied-research publication, a non-DOI Layer Before Law v1.2 synthesis, the Minimal Addressed Operator v1.0 preprint, and reproducibility packages.",
   "identifier": "https://doi.org/10.5281/zenodo.21973064",
   "url": "https://github.com/mark45cdo-mkuft/MKUFT",
   "version": "v2",
@@ -41,7 +41,9 @@
     "https://doi.org/10.5281/zenodo.21971425",
     "https://doi.org/10.5281/zenodo.22071229",
     "https://doi.org/10.5281/zenodo.18178637",
-    "https://doi.org/10.5281/zenodo.18178638"
+    "https://doi.org/10.5281/zenodo.18178638",
+    "https://doi.org/10.5281/zenodo.22998394",
+    "https://doi.org/10.5281/zenodo.22998393"
   ],
   "subjectOf": [
     "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/ARTA_CANONICAL_NAMING_NOTE.md",
@@ -57,7 +59,8 @@
     "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md",
     "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md",
     "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md",
-    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md"
+    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md",
+    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md"
   ],
   "author": {
     "@type": "Person",
@@ -145,7 +148,12 @@
     "ESRT",
     "ESF",
     "NLT structural grammar",
-    "Addressing State Flow"
+    "Addressing State Flow",
+    "Minimal Addressed Operator",
+    "sequential inquiry",
+    "clean inquiry factorisation",
+    "prospective minimal replacement",
+    "recursive scale handoff"
   ],
   "headline": "MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics"
 }
