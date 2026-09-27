@@ -7,3 +7,4 @@ zenodo_version_doi=10.5281/zenodo.22998394
 zenodo_concept_doi=10.5281/zenodo.22998393
 repository_binary_mirror=not_present_in_this_commit
 custody=Zenodo_frozen_publication
+release_manifest_state=not_backfilled_no_predeposit_repo_release_tuple
