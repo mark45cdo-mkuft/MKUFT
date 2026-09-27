@@ -63,6 +63,27 @@ Bell is a calibration surface, not one of the novelty claims above. The v0.4 Bel
 
 Historical global priority is not asserted for the list above. The correct scientific burden is now sharper: compare each named candidate against its strongest neighbouring literature and native baseline, retain the residual that survives, and contract any candidate whose exact function is already supplied elsewhere.
 
+## 0B. Higher-order factorisation programme — not yet promoted
+
+The 27 September 2026 preprint [*Toward a Minimal Addressed Operator for Sequential Inquiry*](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md), DOI `10.5281/zenodo.22998394`, asks a higher-order question about the recurring architecture above:
+
+> **Do the already-published Address, lawful-query, realised-outcome, post-change-state and recursive-continuation burdens admit a representation-independent clean-inquiry factorisation, and under what additional conditions does a lawful move admit a prospectively justified minimal representative?**
+
+This object is **not** added to the hard novelty list in §0A merely because it now has a DOI.
+
+Its residual remains conditional on hostile subtraction against Bayesian experimental design, Blackwell comparison, rational metareasoning, POMDP/predictive-state methods, active learning, active inference, canonical history quotients, minimal sufficient information transition systems, and compositional/open-system formalisms.
+
+The paper therefore occupies a deliberately lower claim tier:
+
+```text
+published citable conjecture / factorisation programme
+!= proved universal factorisation theorem
+!= proved minimal-inquiry theorem
+!= new ARTA controller
+```
+
+If a stronger native formalism recovers the complete semantic contract with no residual, record the reduction. If a representation-independent factorisation or discriminating operational residual survives, promote only that surviving result in a later object/version.
+
 ## 1. Recurring MKUFT research grammar
 
 A recurring MKUFT sequence is:
