@@ -30,6 +30,21 @@ The historical Zenodo record contains those two deposited PDFs rather than one a
 
 ## Current DOI-bearing standalone papers
 
+### Minimal Addressed Operator for Sequential Inquiry v1.0
+
+**Title:** *Toward a Minimal Addressed Operator for Sequential Inquiry: Factorisation, Readdressing, and Recursive Scale Handoff in MKUFT*  
+**Version DOI:** `10.5281/zenodo.22998394`  
+**Concept DOI:** `10.5281/zenodo.22998393`  
+**Licence:** CC BY-NC-SA 4.0
+
+- [Human-readable paper route](../papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md)
+- [Standalone publication record](../MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md)
+- [Frozen carrier identity/checksum record](MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0/)
+- [Zenodo v1.0](https://doi.org/10.5281/zenodo.22998394)
+- [ARTA Engine Construction Map — Module 35](../docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md)
+
+This publication freezes the candidate addressed-inquiry contract, factorisation conjecture, prospective minimal-replacement problem, recursive-scale handoff, strongest nulls, and falsification programme. Publication does not establish a universal minimal-inquiry theorem or add a new ARTA controller.
+
 ### FSSR HCP Magnesium Minimum-Decisive Protocol v1.0
 
 **Title:** *Future-Splitting State Recruitment in History-Dependent HCP Magnesium Mechanics: A Minimum-Decisive Prospective Protocol for State Sufficiency, Probe Selection, and Mechanism Localisation*  
