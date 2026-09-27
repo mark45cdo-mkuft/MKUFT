@@ -47,7 +47,7 @@ PLAIN_GREEK_NAMES = {
 }
 
 PLAIN_GREEK_IN_MATH = re.compile(
-    r"(?<!\\\\)\\b(?:Theta|Sigma|Delta|Omega|Phi|Psi|Pi|Gamma|Lambda|Xi|"
+    r"(?<!\\)\b(?:Theta|Sigma|Delta|Omega|Phi|Psi|Pi|Gamma|Lambda|Xi|"
     r"lambda|rho|epsilon|varepsilon|tau|chi|kappa|eta|nu|alpha|beta|gamma|delta|mu|sigma|pi)"
     r"(?=_[A-Za-z0-9{])"
 )
@@ -79,7 +79,7 @@ def looks_like_semantic_math(span: str) -> bool:
         return False
     if re.fullmatch(r"[Α-Ωα-ω]", s):
         return True
-    if re.fullmatch(r"\\d+(?:\\.\\d+)?/\\d+(?:\\.\\d+)?", s):
+    if re.fullmatch(r"\d+(?:\.\d+)?/\d+(?:\.\d+)?", s):
         return True
     if looks_like_literal_resource(s):
         return False
@@ -101,11 +101,11 @@ def looks_like_semantic_math(span: str) -> bool:
         return True
     if re.fullmatch(r"(?:Drop|Aug|Eval|Abl|Adm|Rec)", s):
         return True
-    if re.match(r"^(?:det|rank|tr)\\s+[A-Za-zΑ-Ωα-ω][^=]*=", s):
+    if re.match(r"^(?:det|rank|tr)\s+[A-Za-zΑ-Ωα-ω][^=]*=", s):
         return True
-    if re.match(r"^(?:Theta|Sigma|Delta|Omega|Phi|Psi|Pi|Gamma|Lambda|Xi|lambda|rho|epsilon|varepsilon|tau|chi|kappa|eta|nu|alpha|beta|gamma|delta|mu|sigma|pi)\\s*=", s):
+    if re.match(r"^(?:Theta|Sigma|Delta|Omega|Phi|Psi|Pi|Gamma|Lambda|Xi|lambda|rho|epsilon|varepsilon|tau|chi|kappa|eta|nu|alpha|beta|gamma|delta|mu|sigma|pi)\s*=", s):
         return True
-    if re.match(r"^[A-Za-zΑ-Ωα-ω](?:[_^][^=\\s]+)?\\s*=", s):
+    if re.match(r"^[A-Za-zΑ-Ωα-ω](?:[_^][^=\\s]+)?\s*=", s):
         return True
     return False
 
