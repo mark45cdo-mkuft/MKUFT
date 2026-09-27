@@ -265,6 +265,25 @@ The first full prospective protocol that cashes this assay into a native physica
 
 The registered result then returns to SIPO: it updates the evidence/history/context used to decide whether the next addressed state should remain compressed or recruit a new distinction before the next law object is assembled. That upstream return is part of the architecture, not an optional interpretation after the experiment.
 
+### 7A. When is “impossible here” actually impossible?
+
+A failure at one Address is not automatically a failure everywhere.
+
+If a local model says there is no route from one state to another, MKUFT first asks whether the local Address is rich enough to support the stronger claim. Sometimes the answer is yes and the prohibition stands. Sometimes a wider but still lawful parent contains a relation the local view omitted.
+
+But a larger frame is not a magic escape hatch. It changes the result only if the missing relation is real, typed, relevant to the target, and the parent model actually permits the path.
+
+That gives two guards:
+
+```text
+impossible in this local description != impossible in every lawful parent
+imagining a wider frame != proving the path is allowed
+```
+
+The same applies to directional words. Something can be `downstream` under one relation and `upstream` under another because the arrows belong to the relation being described, not permanently to the object. That does not, by itself, imply backwards physical causation.
+
+[Read the technical corollary in 33S7A §5D.](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary)
+
 ### 8. Does that mean there is a new physical layer?
 
 Not automatically.
