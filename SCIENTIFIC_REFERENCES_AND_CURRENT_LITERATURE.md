@@ -183,6 +183,7 @@ A changing literature can change the scientific context of an MKUFT branch. The 
 ## 16. Closely related MKUFT documents
 
 - [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
+- [Minimal Addressed Operator v1.0](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md) — higher-order factorisation/minimality research programme with its own explicit prior-art/null audit.
 - [Physics-Facing MKUFT Explanation](docs/13_PHYSICS_FACING_MKUFT_EXPLANATION.md)
 - [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
 - [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md)
@@ -200,6 +201,7 @@ A changing literature can change the scientific context of an MKUFT branch. The 
 
 ## 17. MKUFT publications and archived provenance
 
+- McLaughlin, Mark Charles. (2026). *Toward a Minimal Addressed Operator for Sequential Inquiry: Factorisation, Readdressing, and Recursive Scale Handoff in MKUFT*. Version DOI `10.5281/zenodo.22998394`; concept DOI `10.5281/zenodo.22998393`.
 - McLaughlin, Mark Charles. *Unified Field Theory. McLaughlin–Kairos. MKUFT*. DOI `10.5281/zenodo.17780566`.
 - McLaughlin, Mark Charles. (2026). *Active Traversal and Load-Bearing Dependency in Typed Knowledge Architectures: A Matched-Control Evaluation Protocol for AI Systems*. Version DOI `10.5281/zenodo.21341521`; concept DOI `10.5281/zenodo.21341520`.
 - *Voynich Manuscript – Systems/Engine Framework* is recorded in the project provenance trail with concept DOI `10.5281/zenodo.18178637`. Formal bibliographic metadata and rights for that node should be taken from the exact deposited record rather than inferred from the MKUFT licence.
