@@ -60,7 +60,7 @@ def looks_like_literal_resource(span: str) -> bool:
     s = span.strip()
     if "/" in s or "\\\\" in s:
         return True
-    if re.search(r"\\.(?:md|py|json|pdf|txt|yml|yaml|cff|csv|tsv|png|jpg|jpeg|svg)$", s, re.IGNORECASE):
+    if re.search(r"\.(?:md|py|json|pdf|txt|yml|yaml|cff|csv|tsv|png|jpg|jpeg|svg)$", s, re.IGNORECASE):
         return True
     if s.startswith(("http://", "https://", "10.5281/", "MKUFT_PREPRINTS_")):
         return True
@@ -75,7 +75,9 @@ def looks_like_semantic_math(span: str) -> bool:
         return True
     if re.search(r"[A-Za-zΑ-Ωα-ω][A-Za-z0-9]*(?:_|\^)", s):
         return True
-    if re.search(r"(?:<=|>=|!=|≤|≥|∈|∉|→|↔|⇒|⇔|≈|≃|≠)", s):
+    if re.search(r"(?:<=|>=|!=|≤|≥|∈|∉|≈|≃|≠)", s):
+        return True
+    if re.search(r"(?:→|↔|⇒|⇔)", s) and not re.search(r"\s", s):
         return True
     if s in PLAIN_GREEK_NAMES:
         return True
