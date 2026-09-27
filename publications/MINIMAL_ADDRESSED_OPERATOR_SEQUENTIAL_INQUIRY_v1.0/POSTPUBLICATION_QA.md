@@ -60,3 +60,18 @@ The exact external object is instead fixed here by:
 - postpublication Zenodo metadata inspection.
 
 If a byte-verified repository binary mirror and lawful repository release/tag are later created, a concrete Module 34 manifest may then be added for that repository release state without rewriting the historical Zenodo v1.0 custody.
+
+## Repository receiver-side rendering repair
+
+A postpublication reader-side check in the GitHub Android application showed that the repository's original MAO Markdown route displayed valid fenced TeX mathematics and inline math syntax literally rather than rendering it.
+
+This was a **GitHub reading-route rendering defect**, not a defect in the frozen Zenodo PDF and not a scientific revision.
+
+The repository repair therefore:
+
+- leaves DOI `10.5281/zenodo.22998394` and its frozen bytes unchanged;
+- converts the GitHub MAO reading route to receiver-safe Unicode/plain-text notation;
+- preserves the same inquiry-state, lawful-move, prospective-outcome, realised-outcome, readdressing, minimality, and continuation-kernel relations;
+- strengthens the standing rendering checker with a receiver-safe mode and fixture tests for this exact failure class.
+
+The controlling publication remains the frozen DOI carrier. The repaired Markdown is a reader-facing repository representation of that object and its live canon relations.

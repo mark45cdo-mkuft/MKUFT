@@ -1,3 +1,4 @@
+<!-- MKUFT_RENDER_MODE: receiver-safe -->
 # Start Here — Public Overview of MKUFT
 
 **Author:** Mark Charles McLaughlin  
@@ -62,9 +63,7 @@ There is a semantic consequence worth making explicit. Two statements can both b
 
 MKUFT often writes:
 
-```math
-S \rightarrow I \rightarrow P \rightarrow O
-```
+**S → I → P → O**
 
 These letters are addresses, not four ordinary spatial dimensions.
 
