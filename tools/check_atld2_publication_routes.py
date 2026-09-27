@@ -179,7 +179,11 @@ REQUIRED = {
     "docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md": [MODULE.split("/", 1)[1], "ATLD 2 Residual Measurement Audit"],
     "README.md": [ATLD2_VERSION, PAPER, MODULE],
     "RESEARCH_DERIVATION_AND_CLOSURE_SOP.md": ["Residual novelty / no-new-anatomy gate", "smuggling"],
-    "RENDERING_AND_PUBLICATION_INTEGRITY.md": ["ATLD 2 stale-carrier substitution", "Right title + right DOI + right metadata do not prove right frozen bytes"],
+    "docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md": [
+        "A DOI does not prove that two files have identical bytes",
+        "Citation metadata does not prove that the intended carrier was uploaded",
+        "receiver-side verification of the deposited object",
+    ],
 }
 
 
