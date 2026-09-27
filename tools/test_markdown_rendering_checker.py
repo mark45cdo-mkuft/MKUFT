@@ -130,6 +130,24 @@ Fix horizon `Δ` before testing.
     )
 
     require_failure(
+        "math span is not shielded by ordinary prose word path",
+        """# Bad
+
+Let `X⁺` denote the future path object after `t`.
+""",
+        "mathematical notation is in a literal inline-code carrier",
+    )
+
+    require_failure(
+        "unicode Greek with subscript is semantic mathematics",
+        """# Bad
+
+Let `Π_adm` be the admissible policy family.
+""",
+        "mathematical notation is in a literal inline-code carrier",
+    )
+
+    require_failure(
         "simple mathematical fraction wrongly carried as code",
         """# Bad
 

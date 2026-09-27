@@ -34,9 +34,10 @@ SCIENTIFIC_ROOT_ROUTES = {
     "TDR_STANDALONE_PUBLICATION.md",
 }
 
-LITERAL_CONTEXT = re.compile(
-    r"\b(?:literal|source token|source fragment|command|syntax|filename|file name|path|"
-    r"repository identifier|code span|code-style|identifier string)\b",
+LITERAL_CONTEXT_BEFORE = re.compile(
+    r"(?:literal(?: source)?(?: token| fragment| command| notation)?|source token|source fragment|"
+    r"filename|file name|file path|repository identifier|code span|code-style label|identifier string)"
+    r"\\s*$",
     re.IGNORECASE,
 )
 
@@ -77,7 +78,9 @@ def looks_like_semantic_math(span: str) -> bool:
     s = span.strip()
     if not s:
         return False
-    if re.fullmatch(r"[Α-Ωα-ω]", s):
+    if re.search(r"[Α-Ωα-ω]", s):
+        return True
+    if re.search(r"[A-Za-zΑ-Ωα-ω][⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁽⁾]+", s):
         return True
     if re.fullmatch(r"\d+/\d+", s):
         return True
@@ -113,10 +116,11 @@ def looks_like_semantic_math(span: str) -> bool:
 
 
 def audit_semantic_inline_code(line: str, lineno: int):
-    if LITERAL_CONTEXT.search(line):
-        return []
     problems = []
     for match in INLINE_CODE_CAPTURE.finditer(line):
+        prefix = line[max(0, match.start() - 96):match.start()]
+        if LITERAL_CONTEXT_BEFORE.search(prefix):
+            continue
         span = match.group(1)
         if looks_like_semantic_math(span):
             problems.append(
