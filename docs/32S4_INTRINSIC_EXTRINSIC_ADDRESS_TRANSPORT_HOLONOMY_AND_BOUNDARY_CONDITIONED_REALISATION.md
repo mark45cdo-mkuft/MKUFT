@@ -35,7 +35,7 @@ Let
 x_t\in\mathcal X_{\alpha_t}
 ```
 
-be a realised state at construction address `alpha_t`.
+be a realised state at construction address $\alpha_t$.
 
 Let
 
@@ -61,7 +61,7 @@ The split
 
 is claim-relative. It is not an assertion that nature factorises into two independent substances.
 
-For an admissible relocation or re-embedding operation `g`, intrinsic preservation means
+For an admissible relocation or re-embedding operation $g$, intrinsic preservation means
 
 ```math
 d_{\mathcal K}\!\left(
@@ -96,7 +96,7 @@ For physical applications, let
 
 be the addressed family of physical state spaces.
 
-For an intrinsic relational class `kappa`, extrinsic address `b`, and relevant history `h`, define the **compatible P-realisation set**
+For an intrinsic relational class $\kappa$, extrinsic address $b$, and relevant history $h$, define the **compatible P-realisation set**
 
 ```math
 \boxed{
@@ -109,7 +109,7 @@ p\in\mathfrak P:
 }
 ```
 
-`chi_P` is an implementation-specific compatibility test and may include several typed relations from Module 32S3. The set can be empty, broad, narrow, or split across several physical construction addresses.
+$\chi_P$ is an implementation-specific compatibility test and may include several typed relations from Module 32S3. The set can be empty, broad, narrow, or split across several physical construction addresses.
 
 This creates a bundle-compatible addressed family
 
@@ -130,7 +130,7 @@ intrinsic relational specification
 ≠ actual physical occupancy
 ```
 
-A non-empty `F_P` means that the declared model permits one or more P-realisations at that address. It does not mean that one of them is actually occupied. An empty set means the model supplies no compatible P-realisation under the tested conditions; it does not imply that a hidden physical object remains present but invisible.
+A non-empty $F_P$ means that the declared model permits one or more P-realisations at that address. It does not mean that one of them is actually occupied. An empty set means the model supplies no compatible P-realisation under the tested conditions; it does not imply that a hidden physical object remains present but invisible.
 
 This is the sober version of a `latent address`: **a relational specification may remain mathematically addressable even when current P-occupancy is absent.**
 
@@ -182,7 +182,7 @@ The important new point is that the map may be **path-dependent**:
 T_{\gamma_1}\neq T_{\gamma_2}
 ```
 
-even when `gamma_1` and `gamma_2` have the same endpoints.
+even when $\gamma_1$ and $\gamma_2$ have the same endpoints.
 
 This gives a precise place for history to remain load-bearing after ordinary endpoint coordinates agree.
 
@@ -210,7 +210,7 @@ If
 
 under the declared observable/equivalence relation, the system carries a **non-trivial path memory** around that loop.
 
-Where the implementation is genuinely a connection on a bundle, `H_gamma` may be called holonomy in the standard mathematical sense. Otherwise `loop transport` is the safer term.
+Where the implementation is genuinely a connection on a bundle, $H_\gamma$ may be called holonomy in the standard mathematical sense. Otherwise `loop transport` is the safer term.
 
 Berry's geometric phase and Simon's bundle/holonomy formulation are established physical precedents showing that a system can return to the same endpoint in parameter space while retaining a path-dependent geometric phase.
 
@@ -226,7 +226,7 @@ This is the connection-level sharpening of Module 32S2's history guard.
 
 An object generally participates in several relation families at once: internal organisation, local environment, larger-scale boundary, field context, observer-accessible readout, and other declared layers/scales.
 
-Let the jointly relevant constraints be indexed by `(s,r)`, where `s` denotes scale/layer address and `r` a typed relation. For one total candidate state `z`, define
+Let the jointly relevant constraints be indexed by `(s,r)`, where $s$ denotes scale/layer address and $r$ a typed relation. For one total candidate state $z$, define
 
 ```math
 \mathfrak C_{\mathrm{nested}}
@@ -258,7 +258,7 @@ If the final condition fails, the correct conclusion is **loss or change of admi
 
 Established physics supplies direct P-layer examples in which external boundary conditions change available physical mode structure.
 
-For a field/operator `L_b` under boundary/context `b`, an admissible mode family may be represented schematically by
+For a field/operator $L_b$ under boundary/context $b$, an admissible mode family may be represented schematically by
 
 ```math
 \widehat L_b\phi_n^{(b)}
@@ -348,7 +348,7 @@ U_{\mathrm{out}}
 \mathcal H_{b,R}\left[U_0\right],
 ```
 
-where `b` contains the remaining physical boundary/propagation conditions and `R` the declared readout plane or transform.
+where $b$ contains the remaining physical boundary/propagation conditions and $R$ the declared readout plane or transform.
 
 Geometric-phase metasurfaces provide direct optical examples in which the orientation of subwavelength elements determines local phase and the collective phase distribution reconstructs a holographic field only after propagation.
 
@@ -464,7 +464,7 @@ Return the system to the same declared context after a loop and test for a prere
 
 ### 10.4 Context-conditioned realisation test
 
-Preserve the intrinsic relation class while changing one external relation at a time. Predict how `F_P(kappa;b,h)` changes. A claim that context shapes realisation must predict the direction/class of the change before measurement.
+Preserve the intrinsic relation class while changing one external relation at a time. Predict how $F_P(\kappa;b,h)$ changes. A claim that context shapes realisation must predict the direction/class of the change before measurement.
 
 ### 10.5 Boundary-spectrum test
 

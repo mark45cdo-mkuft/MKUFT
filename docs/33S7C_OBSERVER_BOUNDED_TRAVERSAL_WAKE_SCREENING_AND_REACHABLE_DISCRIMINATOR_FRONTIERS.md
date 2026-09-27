@@ -47,7 +47,7 @@ The scientific object is therefore **distinction recovery under bounded access**
 
 ## 2. Observer-bounded addressed state
 
-Let the current system address be `A_t`, and let `O_t` denote the declared observer/registration state relevant to the task. `O_t` may include, only where load-bearing:
+Let the current system address be $A_t$, and let $O_t$ denote the declared observer/registration state relevant to the task. $O_t$ may include, only where load-bearing:
 
 - available readout family;
 - instrument state and calibration;
@@ -59,7 +59,7 @@ Let the current system address be `A_t`, and let `O_t` denote the declared obser
 - evidence/provenance state;
 - another typed access coordinate that changes what can be discriminated.
 
-`O_t` is not automatically a conscious subject and is not automatically a new physical degree of freedom. In many experiments it is simply the declared measurement/registration arrangement already owned by Module 31 and the SIPO `P→(P,O)` instrument.
+$O_t$ is not automatically a conscious subject and is not automatically a new physical degree of freedom. In many experiments it is simply the declared measurement/registration arrangement already owned by Module 31 and the SIPO $P\to (P,O)$ instrument.
 
 The methodological separation is:
 
@@ -114,19 +114,19 @@ A whole-universe model may be appropriate for a target that genuinely requires o
 
 ## 3. Wake as screened decision-bearing trajectory residue
 
-Let the realised trajectory/history up to `t` be `Γ_(0:t)`. Define a provisional target-relative wake
+Let the realised trajectory/history up to $t$ be $\Gamma_{0:t}$. Define a provisional target-relative wake
 
 ```math
 W_t^q = \Pi_q\!\left(\Gamma_{0:t}\right),
 ```
 
-where `Π_q` retains only trajectory information whose removal can still change the declared target future, recovery, cost, admissibility, identity, parent relation, prediction, or next lawful operation.
+where $\Pi_q$ retains only trajectory information whose removal can still change the declared target future, recovery, cost, admissibility, identity, parent relation, prediction, or next lawful operation.
 
 The wake is not the whole transcript, and the notation does not assert a physical wake substance.
 
 The central hygiene rule is **screening**.
 
-Let `Y` be a declared future consequence. If the present typed address mediates the history for that target to the declared tolerance,
+Let $Y$ be a declared future consequence. If the present typed address mediates the history for that target to the declared tolerance,
 
 ```math
 \mathbb P(Y\mid A_t,W_t^q)
@@ -156,9 +156,9 @@ provenance retained ≠ foreground state burden
 
 ## 4. Future aliasing and distinction-recovery burden
 
-Let `Σ_t^q` be the family of live states/histories still compatible with the current address, evidence, and uncertainty model for target `q`.
+Let $\Sigma_t^q$ be the family of live states/histories still compatible with the current address, evidence, and uncertainty model for target $q$.
 
-The current representation is sufficient when unresolved alternatives inside that family no longer change the target-relevant future beyond tolerance. It is insufficient when there exist `s_i,s_j∈Σ_t^q` such that
+The current representation is sufficient when unresolved alternatives inside that family no longer change the target-relevant future beyond tolerance. It is insufficient when there exist $s_i,s_j\in \Sigma_t^q$ such that
 
 ```math
 \mathrm{Future}_q(s_i)
@@ -205,7 +205,7 @@ Schematically,
 
 This is not a universal mathematical definition of all possible experiments. It is an E0/E1 bookkeeping scaffold for the admissible discrimination family actually available at the declared state.
 
-A candidate discriminator `d∈\mathcal D_t^q` is target-relevant when there exist live states `s_i,s_j` such that
+A candidate discriminator $d\in \mathcal D_t^q$ is target-relevant when there exist live states $s_i,s_j$ such that
 
 ```math
 \mathrm{Future}_q(s_i)
@@ -289,7 +289,7 @@ The distinction is important for both scientific humility and systems learning: 
 
 ### 6A. Contact-conditioned observer state and repeated-probe equivalence
 
-A repeated surface query or measurement is not automatically a repeated experimental state. The first contact can change `O_t`, the active representation, the screened wake, or the reachable discriminator frontier even when the external target itself is held fixed.
+A repeated surface query or measurement is not automatically a repeated experimental state. The first contact can change $O_t$, the active representation, the screened wake, or the reachable discriminator frontier even when the external target itself is held fixed.
 
 Thus a matched target and identical surface discriminator are insufficient by themselves:
 
@@ -310,7 +310,7 @@ A_t \approx A_{t'}
 d_t=d_{t'},
 ```
 
-but their observer states differ, `O_t\neq O_{t'}`. The difference earns live status only if removing or matching it changes a declared target-relevant quantity, for example
+but their observer states differ, $O_t\neq O_{t'}$. The difference earns live status only if removing or matching it changes a declared target-relevant quantity, for example
 
 ```text
 reachable discriminator family
@@ -390,7 +390,7 @@ This guard prevents a false second node from contaminating later evidence, while
 
 The observer's reachable discriminator family can depend on representation even where the underlying object is unchanged.
 
-Let `x` be the current object, `T(x)` a lawful transformed representation, and `\mathcal D_O^q(x)` the target-relevant discriminator family actually reachable to observer/registration state `O`.
+Let $x$ be the current object, `T(x)` a lawful transformed representation, and $\mathcal D_O^q(x)$ the target-relevant discriminator family actually reachable to observer/registration state $O$.
 
 Then it is possible that
 
@@ -479,7 +479,7 @@ A raw difference matters only when it survives the measurement/error model and c
 
 ### 8.3 Inaccessible is not nonexistent
 
-Failure to resolve a distinction at the present `O` address is not evidence that the distinction does not exist. It only bounds what the current readout family licenses.
+Failure to resolve a distinction at the present $O$ address is not evidence that the distinction does not exist. It only bounds what the current readout family licenses.
 
 ### 8.4 Later access is not retrospective access
 
@@ -507,7 +507,7 @@ This boundary is structural, not apologetic. Scientific cleanliness is what allo
 
 The reachable discriminator frontier is not an invitation to infinite questioning.
 
-For a bounded target `q`, stop expanding the active frontier when the strongest currently reachable lawful discriminator family cannot change, beyond tolerance, any of the declared:
+For a bounded target $q$, stop expanding the active frontier when the strongest currently reachable lawful discriminator family cannot change, beyond tolerance, any of the declared:
 
 - target conclusion;
 - next lawful operation;
@@ -535,7 +535,7 @@ Modules 33S3 and 33S6 already reject the assumption that recovery must reverse t
 
 > a node may recover lawful continuation by reaching a future state whose addressed relations restore the governing target, even when the literal old route is unavailable.
 
-Let `P` denote the governing parent relation and `A_τ`, `τ>t`, a candidate recovered state. A schematic restorative condition is
+Let $P$ denote the governing parent relation and $A_\tau$, `τ>t`, a candidate recovered state. A schematic restorative condition is
 
 ```math
 \mathrm{HOME}_q(A_\tau\mid P)
@@ -546,7 +546,7 @@ when, at the declared resolution:
 - the governing parent relation is restored/preserved;
 - any still decision-bearing wake survives;
 - evidence, provenance, permission, and lineage are not rewritten;
-- continuation from `A_τ` is lawful.
+- continuation from $A_\tau$ is lawful.
 
 Thus:
 

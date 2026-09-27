@@ -185,7 +185,7 @@ If the earlier claim was correctly scoped to the evidence and challenge family t
 
 Honest specification does not require ambiguity to collapse to zero.
 
-A useful boundary can make the current interior and frontier more precise while preserving a genuine unresolved exterior. Schematically, for a declared target `q`:
+A useful boundary can make the current interior and frontier more precise while preserving a genuine unresolved exterior. Schematically, for a declared target $q$:
 
 ~~~text
 supported / operational interior

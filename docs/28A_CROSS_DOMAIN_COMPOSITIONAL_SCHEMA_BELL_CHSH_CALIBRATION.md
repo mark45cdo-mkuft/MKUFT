@@ -33,7 +33,7 @@ p(a,b\mid x,y)
 \right\}_{a,b,x,y}.
 ```
 
-For `a,b\in\{-1,+1\}`, define correlators
+For $a,b\in\{-1,+1\}$, define correlators
 
 ```math
 E_{xy}
@@ -82,7 +82,7 @@ F_Q
 
 These families must not be silently merged.
 
-A carrier sufficient for `F_S` can fail `F_NS`, `F_L`, or a wider `F_Q` question without having been wrong for `F_S`.
+A carrier sufficient for $F_S$ can fail $F_{\mathrm{NS}}$, $F_L$, or a wider $F_Q$ question without having been wrong for $F_S$.
 
 That is the calibration target.
 
@@ -103,7 +103,7 @@ Expected result:
 - **PRESERVE** for the exact question `what is S?` within numerical tolerance;
 - **REOPEN/REFINE** for any question requiring which correlator contributed what, local marginals, no-signalling, Fine/global completion, or richer quantum-set structure.
 
-If the schema lets `S` stand in for those wider objects merely because they are all Bell-related, it fails.
+If the schema lets $S$ stand in for those wider objects merely because they are all Bell-related, it fails.
 
 ### 4.2 Correlator interface
 
@@ -114,14 +114,14 @@ Y_E=C_{F_E}(P)
 
 Expected result:
 
-- **PRESERVE** for `S` and for native correlator-scope tests whose assumptions are met;
+- **PRESERVE** for $S$ and for native correlator-scope tests whose assumptions are met;
 - **REOPEN/REFINE** when the target depends on local marginals or other full-behaviour information not recoverable from the correlator tuple.
 
 This directly tests future sufficiency without assuming that a useful correlator representation is a complete representation of the Bell experiment.
 
 ### 4.3 Full-behaviour interface
 
-The full conditional-probability table `P` is the reference carrier for questions whose native definitions require outcomes and marginals.
+The full conditional-probability table $P$ is the reference carrier for questions whose native definitions require outcomes and marginals.
 
 It is not automatically the minimum carrier for every target. The calibration should reward lawful compression where the narrower future family permits it and reject unnecessary full-history/full-table carriage.
 
@@ -129,7 +129,7 @@ It is not automatically the minimum carrier for every target. The calibration sh
 
 ### Test A — score preservation
 
-Freeze a valid behaviour `P`, compute `Y_E`, then `Y_S`.
+Freeze a valid behaviour $P$, compute $Y_E$, then $Y_S$.
 
 Require
 
@@ -143,14 +143,14 @@ This is a positive preservation control.
 
 ### Test B — correlator ablation
 
-Remove one decision-bearing correlator from `Y_E` without supplying an equivalent oracle.
+Remove one decision-bearing correlator from $Y_E$ without supplying an equivalent oracle.
 
 ```math
 Y_E^{-k}
 =(E_{xy})_{(x,y)\neq k}.
 ```
 
-For general CHSH evaluation, the missing term prevents exact reconstruction of `S` unless separately constrained by independently available information.
+For general CHSH evaluation, the missing term prevents exact reconstruction of $S$ unless separately constrained by independently available information.
 
 Expected result:
 
@@ -168,7 +168,7 @@ If the schema fabricates the value, silently assumes symmetry, or reopens unrela
 
 Construct two full behaviours with the same four correlators but materially different local-marginal structure where lawful.
 
-A correlator-only interface groups them together for `F_E`, but it cannot certify every full-behaviour/no-signalling statement whose answer depends on omitted marginal information.
+A correlator-only interface groups them together for $F_E$, but it cannot certify every full-behaviour/no-signalling statement whose answer depends on omitted marginal information.
 
 Expected result:
 
@@ -183,7 +183,7 @@ This is a direct FSAI split: same compressed address, different target-relevant 
 
 ### Test D — scalar overcompression
 
-Choose behaviours with equal `S` but different correlator tuples or different native Bell/quantum properties relevant to a wider target.
+Choose behaviours with equal $S$ but different correlator tuples or different native Bell/quantum properties relevant to a wider target.
 
 Expected result:
 
@@ -222,7 +222,7 @@ Let
 \mapsto T
 ```
 
-be a declared tetrahedral/simplex-style representation `T` in which four plotted vertices, directions, faces, barycentric coordinates, or another finite geometric construction are assigned **only after each role is explicitly defined**.
+be a declared tetrahedral/simplex-style representation $T$ in which four plotted vertices, directions, faces, barycentric coordinates, or another finite geometric construction are assigned **only after each role is explicitly defined**.
 
 The geometry receives no credit merely because the CHSH correlator tuple has four entries.
 
@@ -244,7 +244,7 @@ This may be a useful explanatory/visual/computational chart, but it is not new B
 
 If `phi` is not invertible but preserves the declared future-use family within tolerance, the chart may be a lawful compression for that family.
 
-Widen the target. If omitted distinctions become decision-bearing, the chart must carry a guaranteed descent address back to `Y_E` or `P`.
+Widen the target. If omitted distinctions become decision-bearing, the chart must carry a guaranteed descent address back to $Y_E$ or $P$.
 
 ### Case 3 — claimed extra scientific value
 
@@ -342,7 +342,7 @@ A genuine Bell-physics promotion remains under Module 28 Tier 4 and Module 29. I
 
 Kill or narrow the compositional/Bell calibration claim when:
 
-- `S`, `Y_E`, and `P` are treated as interchangeable despite target-dependent information loss;
+- $S$, $Y_E$, and $P$ are treated as interchangeable despite target-dependent information loss;
 - marginal/full-behaviour questions are answered from correlators without a lawful bridge;
 - the schema reopens the whole Bell object when one known missing relation would suffice;
 - Bell-specific answer information is inserted into the supposedly cross-domain rule;
@@ -387,7 +387,7 @@ This section records an analytic known-answer execution of the protocol. It is a
 
 ### 13.1 Correlators do not close general no-signalling questions
 
-For binary `a,b\in\{-1,+1\}`, write a general contextwise behaviour as
+For binary $a,b\in\{-1,+1\}$, write a general contextwise behaviour as
 
 ```math
 p(a,b\mid x,y)
@@ -402,7 +402,7 @@ where the chosen parameters are restricted so all probabilities remain non-negat
 
 Construct two behaviours.
 
-**Behaviour `P_0`:**
+**Behaviour $P_0$:**
 
 ```math
 A_{xy}=0,
@@ -415,7 +415,7 @@ E_{xy}=0
 
 Then every conditional outcome probability is `1/4`, the correlators are all zero, and both local marginals are independent of the remote setting.
 
-**Behaviour `P_{sig}`:** choose `\eta=1/2` and
+**Behaviour $P_{\mathrm{sig}}$:** choose `\eta=1/2` and
 
 ```math
 A_{xy}=\eta(-1)^y,
@@ -431,7 +431,7 @@ All probabilities lie in `[1/8,3/8]`, so the conditional tables are valid. The f
 (E_{00},E_{01},E_{10},E_{11})=(0,0,0,0),
 ```
 
-exactly as in `P_0`. But Alice's marginal changes with `y`:
+exactly as in $P_0$. But Alice's marginal changes with $y$:
 
 ```math
 p(a=+1\mid x,y=0)=\frac34,
@@ -445,9 +445,9 @@ Therefore
 C_{F_E}(P_0)=C_{F_E}(P_{sig})
 ```
 
-while their `F_NS` answers differ.
+while their $F_{\mathrm{NS}}$ answers differ.
 
-The correlator interface is thus future-sufficient for the declared correlator object but **not** for general no-signalling certification. When the future-use family widens from `F_E` to `F_NS`, targeted reopening to the marginal-bearing probability object is required.
+The correlator interface is thus future-sufficient for the declared correlator object but **not** for general no-signalling certification. When the future-use family widens from $F_E$ to $F_{\mathrm{NS}}$, targeted reopening to the marginal-bearing probability object is required.
 
 This is a direct positive calibration of the compositional FSAI rule.
 
@@ -499,7 +499,7 @@ C_{F_S}(E^{(2)})
 
 while a widened target that asks which correlator carries which relation separates the two objects.
 
-The scalar interface `Y_S=S` therefore passes `F_S` and must reopen/refine for `F_E`.
+The scalar interface $Y_S=S$ therefore passes $F_S$ and must reopen/refine for $F_E$.
 
 ### 13.3 One-correlator ablation has the predicted targeted effect
 
@@ -535,7 +535,7 @@ then
 S=\frac3{\sqrt2}\approx2.121320.
 ```
 
-The first three retained coordinates therefore do not determine the CHSH score. Removing or neutralising the addressed `E_{11}` relation opens the `F_S` target; restoring it closes the score immediately. No descent into unrelated Bell machinery is required.
+The first three retained coordinates therefore do not determine the CHSH score. Removing or neutralising the addressed $E_{11}$ relation opens the $F_S$ target; restoring it closes the score immediately. No descent into unrelated Bell machinery is required.
 
 At the stated unbiased-marginal correlator scope, both tuples satisfy the appropriate native binary quantum-correlator criterion. The first saturates the representative TLM cycle condition,
 
@@ -660,7 +660,7 @@ A CHSH orientation is an attached sign section
 \sigma:\mathcal C\rightarrow\{-1,+1\},
 ```
 
-with odd parity. It induces a coefficient vector `c_sigma` and Bell functional
+with odd parity. It induces a coefficient vector $c_\sigma$ and Bell functional
 
 ```math
 S_\sigma(E)=c_\sigma^{\mathsf T}E.
@@ -676,13 +676,13 @@ The local correlator polytope is
 \mathcal L_E=\mathrm{conv}\{E\in\{-1,+1\}^4:E_{00}E_{01}E_{10}E_{11}=1\}.
 ```
 
-It is full-dimensional in `R^4` with eight local correlator vertices and sixteen tetrahedral facets: eight coordinate/E-type facets and eight CHSH-type facets. For the standard orientation
+It is full-dimensional in $\mathbb{R}^4$ with eight local correlator vertices and sixteen tetrahedral facets: eight coordinate/E-type facets and eight CHSH-type facets. For the standard orientation
 
 ```math
 c=(1,1,1,-1)^{\mathsf T},
 ```
 
-the CHSH facet is `c^T E=2`. Choose the four saturating local vertices
+the CHSH facet is $c^T E=2$. Choose the four saturating local vertices
 
 ```math
 v_1=(-1,1,1,-1)^{\mathsf T},
@@ -696,7 +696,7 @@ v_3=(1,1,-1,-1)^{\mathsf T},
 v_4=(1,1,1,1)^{\mathsf T}.
 ```
 
-With these columns in `V`, `det V=16`; the facet is a regular tetrahedron in its three-dimensional affine hyperplane, with Euclidean 3-volume `8/3` in the standard correlator embedding.
+With these columns in $V$, `det V=16`; the facet is a regular tetrahedron in its three-dimensional affine hyperplane, with Euclidean 3-volume `8/3` in the standard correlator embedding.
 
 ### 14.3 Facet-adapted Tetrahedral Bell Chart
 
@@ -720,7 +720,7 @@ E=V\lambda+\frac{\nu}{4}c,
 }
 ```
 
-The constrained codomain is four-dimensional: `lambda` contributes three independent affine coordinates and `nu` contributes the fourth. The map is an affine bijection for the four-correlator object relative to the selected CHSH orientation. On the local facet `nu=0` and non-negative `lambda` are ordinary barycentric weights; away from the facet the chart remains invertible while the projected coordinates need not remain inside the simplex.
+The constrained codomain is four-dimensional: $\lambda$ contributes three independent affine coordinates and $\nu$ contributes the fourth. The map is an affine bijection for the four-correlator object relative to the selected CHSH orientation. On the local facet `nu=0` and non-negative $\lambda$ are ordinary barycentric weights; away from the facet the chart remains invertible while the projected coordinates need not remain inside the simplex.
 
 Thus the v0.3 four-versus-three objection is preserved, not reversed: **tetrahedron alone is insufficient; tetrahedral facet address plus one transverse coordinate is complete.** Symmetry-equivalent CHSH orientations carry the same construction under Bell relabelling, so no displayed orientation is physically privileged.
 
@@ -752,7 +752,7 @@ Therefore the TBC closes correlator questions but not general no-signalling/full
 
 ### 14.5 Surgical ablation and geometric null
 
-For the symmetric Tsirelson correlator `E_Q=(t,t,t,-t)^T`, `t=1/sqrt(2)`, neutralising only `E_11` changes both the transverse coordinate and the projected tetrahedral address; restoring the addressed correlator restores the original chart state. This remains an object-level comparison between lawful correlator points, not a claim that one experimental correlator can be physically intervened on in isolation.
+For the symmetric Tsirelson correlator $E_Q=(t,t,t,-t)^T$, `t=1/sqrt(2)`, neutralising only $E_11$ changes both the transverse coordinate and the projected tetrahedral address; restoring the addressed correlator restores the original chart state. This remains an object-level comparison between lawful correlator points, not a claim that one experimental correlator can be physically intervened on in isolation.
 
 The natural four-dimensional simplex volume formed by the selected CHSH facet and an off-facet point is
 

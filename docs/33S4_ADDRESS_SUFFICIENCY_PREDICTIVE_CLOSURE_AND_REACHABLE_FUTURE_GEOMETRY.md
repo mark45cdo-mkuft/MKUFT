@@ -33,7 +33,7 @@ Compressed rule:
 
 ## 2. Operational address map
 
-Let `X` be a state space containing the variables required by the implementation under study. Let `Theta` denote a declared typed coordinate family used to construct an operational address.
+Let $X$ be a state space containing the variables required by the implementation under study. Let $\Theta$ denote a declared typed coordinate family used to construct an operational address.
 
 Define
 
@@ -41,7 +41,7 @@ Define
 A_{\Theta}:\mathcal X\rightarrow\mathcal Z_{\Theta}.
 ```
 
-For a realised state `x`,
+For a realised state $x$,
 
 ```math
 z=A_{\Theta}(x)
@@ -49,7 +49,7 @@ z=A_{\Theta}(x)
 
 is the operational address used for the present prediction or intervention problem.
 
-The coordinate family `Theta` may include, where load-bearing and measurable:
+The coordinate family $\Theta$ may include, where load-bearing and measurable:
 
 - state variables;
 - relational variables;
@@ -112,7 +112,7 @@ Let
 q:\mathcal X\rightarrow\mathcal Q
 ```
 
-be the declared target quantity or observable, and let `Delta` be the prediction horizon.
+be the declared target quantity or observable, and let $\Delta$ be the prediction horizon.
 
 Let
 
@@ -120,7 +120,7 @@ Let
 K^{\Delta}(\cdot\mid x,u,e)
 ```
 
-be the physical or modelled transition kernel over horizon `Delta` under intervention/control `u` and environment `e`.
+be the physical or modelled transition kernel over horizon $\Delta$ under intervention/control $u$ and environment $e$.
 
 The pushed-forward target distribution is
 
@@ -128,7 +128,7 @@ The pushed-forward target distribution is
 q_*K^{\Delta}(\cdot\mid x,u,e).
 ```
 
-Choose a declared discrepancy `d_Q` on target distributions. For deterministic targets this may reduce to a metric on `Q`; for stochastic targets it must compare probability distributions using a stated choice such as total variation, Wasserstein distance, another probability metric, or a domain-specific preregistered discrepancy.
+Choose a declared discrepancy $d_Q$ on target distributions. For deterministic targets this may reduce to a metric on $Q$; for stochastic targets it must compare probability distributions using a stated choice such as total variation, Wasserstein distance, another probability metric, or a domain-specific preregistered discrepancy.
 
 Define the **address residual**
 
@@ -142,7 +142,7 @@ Define the **address residual**
  \right).
 ```
 
-For a preregistered tolerance `epsilon_q`, the address is **predictively sufficient for `q`** over the declared regime when
+For a preregistered tolerance $\varepsilon_q$, the address is **predictively sufficient for $q$** over the declared regime when
 
 ```math
 \boxed{
@@ -179,7 +179,7 @@ A_{\Theta}(x)=A_{\Theta}(x')
 
 for the declared regime.
 
-If `epsilon_q=0`, same-address representatives must produce the same target future under matched conditions.
+If $\varepsilon_q=0$, same-address representatives must produce the same target future under matched conditions.
 
 ### 4.2 Stochastic case
 
@@ -203,7 +203,7 @@ Therefore:
 
 ## 5. Reachable-future geometry at an address
 
-For an address value `z` under fixed matched intervention `u` and environment `e`, define the target-future family
+For an address value $z$ under fixed matched intervention $u$ and environment $e$, define the target-future family
 
 ```math
 \mathscr P_{q,\Delta}(z,u,e;\Theta)
@@ -234,7 +234,7 @@ Then
 
 on the tested region.
 
-The conditioning on the same `u` and `e` is essential: differences caused by changing the intervention or environment are not same-address representative divergence unless those quantities were themselves omitted from the declared matching conditions.
+The conditioning on the same $u$ and $e$ is essential: differences caused by changing the intervention or environment are not same-address representative divergence unless those quantities were themselves omitted from the declared matching conditions.
 
 This gives a direct geometric interpretation:
 
@@ -246,7 +246,7 @@ This is a geometry of **target-relevant future distributions**, not a claim that
 
 ## 6. Address refinement and completion gain
 
-Let `c` be a candidate additional coordinate and define
+Let $c$ be a candidate additional coordinate and define
 
 ```math
 \Theta^+=\Theta\cup\{c\}.
@@ -278,7 +278,7 @@ A larger address is not automatically a better address.
 
 ## 7. Monotonic refinement in the exact construction
 
-If `Theta_1` is a subset of `Theta_2`, then exact address refinement partitions each `Theta_1` equivalence class into equal or smaller classes.
+If $\Theta_1$ is a subset of $\Theta_2$, then exact address refinement partitions each $\Theta_1$ equivalence class into equal or smaller classes.
 
 Under the same target, transition kernel, intervention/environment set, and discrepancy,
 
@@ -333,14 +333,14 @@ same claimed address
 
 Residual divergence can constrain what kind of coordinate is missing without uniquely determining it.
 
-Let `B` be the set of same-address representative pairs contributing materially to the residual. A candidate coordinate `c` is useful only if it separates those pairs in a way that predicts the observed target divergence.
+Let $B$ be the set of same-address representative pairs contributing materially to the residual. A candidate coordinate $c$ is useful only if it separates those pairs in a way that predicts the observed target divergence.
 
 A practical search sequence is:
 
 1. identify the target and the same-address pairs producing the largest stable residual;
 2. classify the difference by candidate type — state, relation, history, boundary, environment, preparation, scale, interface, measurement, or model regime;
 3. add the smallest independently measurable candidate coordinate;
-4. recompute or re-estimate `R_q`;
+4. recompute or re-estimate $R_q$;
 5. require prospective or held-out improvement;
 6. remove the candidate again to verify that closure degrades as predicted;
 7. retain the coordinate only if the effect survives the ablation/restoration cycle.
@@ -360,7 +360,7 @@ An address may satisfy
 \leq\varepsilon_q
 ```
 
-for an observational or passive regime while failing under a broader intervention class `U_int`:
+for an observational or passive regime while failing under a broader intervention class $U_{\mathrm{int}}$:
 
 ```math
 \mathcal R_q(\Theta;U_{\mathrm{int}},E,\Delta)
@@ -385,7 +385,7 @@ If
 \leq\varepsilon_q,
 ```
 
-the address has earned predictive closure for `q` over the declared regime. That result may support law descent at that address to the demonstrated strength.
+the address has earned predictive closure for $q$ over the declared regime. That result may support law descent at that address to the demonstrated strength.
 
 If
 
@@ -420,7 +420,7 @@ Begin with a controlled deterministic or stochastic system whose relevant state 
 1. construct a candidate sufficient address;
 2. verify target closure on held-out trajectories;
 3. remove one known load-bearing coordinate;
-4. measure the increase in `R_q`;
+4. measure the increase in $R_q$;
 5. restore the coordinate;
 6. require the residual to return toward its original level.
 

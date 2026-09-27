@@ -39,15 +39,15 @@ The scientific content precedes the names. The names and folds make the already-
 
 Fix before testing:
 
-- a target `q`;
-- horizon `\Delta`;
-- admissible challenge family `\mathcal U`;
-- environment/boundary class `E`;
-- physical regime `\lambda`;
-- discrepancy `d`;
-- tolerance `\varepsilon_q`.
+- a target $q$;
+- horizon $\Delta$;
+- admissible challenge family $\mathcal U$;
+- environment/boundary class $E$;
+- physical regime $\lambda$;
+- discrepancy $d$;
+- tolerance $\varepsilon_q$.
 
-Let `\Theta` map retained histories into a candidate effective state. Exact future sufficiency requires
+Let $\Theta$ map retained histories into a candidate effective state. Exact future sufficiency requires
 
 ```math
 \boxed{
@@ -80,7 +80,7 @@ Let
 X=\{N_i,R_j\}
 ```
 
-be a lower relational object containing typed nodes/objects `N_i` and those relations `R_j` that may matter to a declared future-operation family `F`. Let
+be a lower relational object containing typed nodes/objects $N_i$ and those relations $R_j$ that may matter to a declared future-operation family $F$. Let
 
 ```math
 \boxed{
@@ -90,7 +90,7 @@ Y=C_F(X)
 
 be a closure/compression used as the interface presented to the next composition.
 
-`C_F` is not a new universal compression operator. It denotes the domain-specific construction being tested. The scientific question is whether `Y` can lawfully stand in for `X` for the declared future use.
+$C_F$ is not a new universal compression operator. It denotes the domain-specific construction being tested. The scientific question is whether $Y$ can lawfully stand in for $X$ for the declared future use.
 
 A compositional interface is admissible when either the relevant lower relation is preserved at the interface or the interface guarantees targeted reopening before the omitted relation is allowed to become decision-bearing:
 
@@ -125,7 +125,7 @@ lower relations
 → Y becomes a constituent/part in a wider composition
 ```
 
-The earlier closure is not erased when `Y` becomes a part. Equally, local closure does not export unlimited authority upward. When the wider operation asks a question outside the original future-use family, the interface must either already preserve the newly decision-bearing relation or reopen the required lower structure.
+The earlier closure is not erased when $Y$ becomes a part. Equally, local closure does not export unlimited authority upward. When the wider operation asks a question outside the original future-use family, the interface must either already preserve the newly decision-bearing relation or reopen the required lower structure.
 
 This relation is continuous with Module 32S effective-object formation, Module 33S1 dynamic-interface promotion, Module 33S2 property-specific law descent, Module 33S6 restorative reachability, and Module 25D chain-address transport. It adds no second scale-transition, restoration, transport, or law-ownership controller.
 
@@ -166,7 +166,7 @@ Under Module 29, the set/map/interface expressions in this section are **E0 form
 
 ### Published v0.3 evaluation and ablation refinement
 
-The published v0.3 paper makes the interface comparison explicit enough to preserve restoration burden as part of the state being compared. For a declared future operation `f_k`, use
+The published v0.3 paper makes the interface comparison explicit enough to preserve restoration burden as part of the state being compared. For a declared future operation $f_k$, use
 
 ```math
 \mathrm{Eval}_k(X)
@@ -174,9 +174,9 @@ The published v0.3 paper makes the interface comparison explicit enough to prese
 \bigl(s_k(X),v_k(X),\rho_k(X)\bigr),
 ```
 
-where `s_k` is the typed evaluation/admissibility state, `v_k` is the returned value when defined, and `\rho_k` is null when no restoration is required or otherwise records the prospectively declared family/equivalence class of minimal valid restorative descents. Multiplicity is preserved; uniqueness is not assumed.
+where $s_k$ is the typed evaluation/admissibility state, $v_k$ is the returned value when defined, and $\rho_k$ is null when no restoration is required or otherwise records the prospectively declared family/equivalence class of minimal valid restorative descents. Multiplicity is preserved; uniqueness is not assumed.
 
-For a typed relation `R_j`, exact relation ablation is a **predeclared lawful protocol**, not an automatic causal intervention. Let
+For a typed relation $R_j$, exact relation ablation is a **predeclared lawful protocol**, not an automatic causal intervention. Let
 
 ```math
 \mathrm{Abl}_j(X)
@@ -215,9 +215,9 @@ and the preserve-or-reopen contract remains operation-relative. These expression
 
 ### Published v0.4 Bell-specific closure of the geometry branch
 
-Version 0.4 does not change the general FSAI law; it gives the preserve/reopen rule a stronger Bell-native calibration. Four Bell context labels may be organised as an abstract indexing simplex with Boolean face/restriction lattice `2^C`, but that address object is distinct from the correlator carrier. Separately, each CHSH facet of the local correlator polytope is a genuine three-dimensional tetrahedron inside `R^4`.
+Version 0.4 does not change the general FSAI law; it gives the preserve/reopen rule a stronger Bell-native calibration. Four Bell context labels may be organised as an abstract indexing simplex with Boolean face/restriction lattice `2^C`, but that address object is distinct from the correlator carrier. Separately, each CHSH facet of the local correlator polytope is a genuine three-dimensional tetrahedron inside $\mathbb{R}^4$.
 
-For a selected CHSH facet orientation `c`, the published Facet-adapted Tetrahedral Bell Chart uses
+For a selected CHSH facet orientation $c$, the published Facet-adapted Tetrahedral Bell Chart uses
 
 ```math
 \nu=c^{\mathsf T}E-2,
@@ -235,7 +235,7 @@ E=V\lambda+\frac{\nu}{4}c,
 \mathbf1^{\mathsf T}\lambda=1.
 ```
 
-The three-coordinate tetrahedral facet address plus one transverse coordinate closes the four-correlator object exactly, while the same interface does **not** close full Bell behaviour: local marginals remain in the fibre of `P -> E` and must be reopened when a wider operation asks a marginal/no-signalling question.
+The three-coordinate tetrahedral facet address plus one transverse coordinate closes the four-correlator object exactly, while the same interface does **not** close full Bell behaviour: local marginals remain in the fibre of $P \to E$ and must be reopened when a wider operation asks a marginal/no-signalling question.
 
 The deeper FSAI lesson is therefore not “tetrahedra are privileged”. It is:
 
@@ -266,7 +266,7 @@ A candidate Address is adequate when
 R_q(\Theta;\lambda,\Delta,\mathcal U)\leq\varepsilon_q.
 ```
 
-If omission of a physically typed distinction `c` produces reproducible closure failure while lawful restoration of `c` restores held-out closure, then `c` is address-load-bearing for that declared future:
+If omission of a physically typed distinction $c$ produces reproducible closure failure while lawful restoration of $c$ restores held-out closure, then $c$ is address-load-bearing for that declared future:
 
 ```math
 R_q(\Theta)>\varepsilon_q,
@@ -284,27 +284,27 @@ R_q(\Theta\oplus c)\leq\varepsilon_q.
 
 FSAI therefore does **not** mean “keep adding state variables”. It points toward the minimum-sufficient frontier: retain distinctions that carry declared future load and permit distinctions to drop out when they do not.
 
-For a compositional interface, the same logic extends from one coordinate `c` to the smallest dependency-complete restorative set `D^*` needed for the widened future-operation family. The minimum is operation-, address-, environment-, representation-, and comparator-relative; it is not assumed to be unique or easy to compute.
+For a compositional interface, the same logic extends from one coordinate $c$ to the smallest dependency-complete restorative set $D^*$ needed for the widened future-operation family. The minimum is operation-, address-, environment-, representation-, and comparator-relative; it is not assumed to be unique or easy to compute.
 
 ### 3A. Sideways sufficiency and prospective interrogation design
 
 Minimum sufficiency does not require every unresolved coordinate to be explicitly restored. The direct representation or interrogation may be the problem.
 
-Let `g∈G` be a declared nuisance transform and `Q` a target-preserving transformed query/readout. A sideways repair is admissible when, prospectively, either
+Let $g\in G$ be a declared nuisance transform and $Q$ a target-preserving transformed query/readout. A sideways repair is admissible when, prospectively, either
 
 ```math
 Q(g\cdot x)=Q(x)
 ```
 
-for the relevant `g`, or
+for the relevant $g$, or
 
 ```math
 Q(g\cdot x)=h_g(Q(x))
 ```
 
-with the induced action `h_g` known/invertible enough to recover the declared target. In that transformed future-use family, the nuisance coordinate need not remain in the minimum Address **if removing it no longer permits a target-relevant future split**.
+with the induced action $h_g$ known/invertible enough to recover the declared target. In that transformed future-use family, the nuisance coordinate need not remain in the minimum Address **if removing it no longer permits a target-relevant future split**.
 
-When several lawful interrogations are available, the advanced form asks whether the interrogation itself can be generated prospectively. For an admissible family `\mathcal Q`, a schematic design objective is
+When several lawful interrogations are available, the advanced form asks whether the interrogation itself can be generated prospectively. For an admissible family $\mathcal Q$, a schematic design objective is
 
 ```math
 Q^*\in\arg\min_{Q\in\mathcal Q}
@@ -379,7 +379,7 @@ same declared state
 
 FSAI states the state-sufficiency commitment. LBLP states the order of scientific diagnosis. FSSR supplies the adversarial experimental procedure and prospective timing test.
 
-For compositional interfaces, a corresponding calibration freezes `F`, `C_F`, the native target semantics, the ablation, and the comparator before the target decision is revealed. The test asks whether the same preserve/refine/reopen/refuse logic survives without post-hoc role invention. [Module 28A](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) supplies the Bell/CHSH hostile calibration of this form. Its executed Phase-0 result is now also reported in the published Cross-Domain Compositional Schema v0.4; Module 28A remains the detailed Bell/tetrahedral calibration and reproducibility owner.
+For compositional interfaces, a corresponding calibration freezes $F$, $C_F$, the native target semantics, the ablation, and the comparator before the target decision is revealed. The test asks whether the same preserve/refine/reopen/refuse logic survives without post-hoc role invention. [Module 28A](28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md) supplies the Bell/CHSH hostile calibration of this form. Its executed Phase-0 result is now also reported in the published Cross-Domain Compositional Schema v0.4; Module 28A remains the detailed Bell/tetrahedral calibration and reproducibility owner.
 
 The 33S7B extension adds an active-design variant of the same future-splitting spirit: when the admissible challenge/query family is itself a design choice, candidate interrogations may be generated prospectively to maximise target discrimination or reduce required state, then scored against the strongest native experimental-design baseline. This does not replace FSSR or grant a new mechanism; it specifies another way of choosing a lawful future that attacks or simplifies the state claim.
 
@@ -387,13 +387,13 @@ The 33S7B extension adds an active-design variant of the same future-splitting s
 
 Future sufficiency is a scoped closure statement, not a declaration of metaphysical certainty.
 
-Suppose a state is closed for target `q` under a declared challenge family `\mathcal U_1`:
+Suppose a state is closed for target $q$ under a declared challenge family $\mathcal U_1$:
 
 ```math
 R_q(\Theta;\lambda,\Delta,\mathcal U_1)\leq\varepsilon_q.
 ```
 
-If a later or broader lawful challenge family `\mathcal U_2` contains continuations that expose a material split,
+If a later or broader lawful challenge family $\mathcal U_2$ contains continuations that expose a material split,
 
 ```math
 \mathcal U_1\subseteq\mathcal U_2,
@@ -401,7 +401,7 @@ If a later or broader lawful challenge family `\mathcal U_2` contains continuati
 R_q(\Theta;\lambda,\Delta,\mathcal U_2)>\varepsilon_q,
 ```
 
-then the correct operation is **reopening and readdressing** for the stronger declaration. The earlier closure need not have been irrational or false as a scoped operational statement if `\mathcal U_2` was genuinely outside its declared burden. If the separating continuation already belonged to `\mathcal U_1`, then the earlier closure was overclaimed.
+then the correct operation is **reopening and readdressing** for the stronger declaration. The earlier closure need not have been irrational or false as a scoped operational statement if $\mathcal U_2$ was genuinely outside its declared burden. If the separating continuation already belonged to $\mathcal U_1$, then the earlier closure was overclaimed.
 
 This gives the future-sufficiency version of operational certainty:
 
@@ -492,7 +492,7 @@ This is a canonical naming/sharpening of an existing future-sufficiency conseque
 
 A load-bearing statement about what is known, unknown, reachable, impossible, permitted, prohibited, representable, or executable is itself an **addressed state claim**. It is therefore subject to the same minimum-sufficiency burden as any other retained coordinate.
 
-Let a boundary description for target `q` at Address `A_t` be a typed packet
+Let a boundary description for target $q$ at Address $A_t$ be a typed packet
 
 ~~~text
 B_t^q
@@ -621,7 +621,7 @@ local boundary becomes load-bearing
 
 ### Relation-relative direction
 
-Directional labels such as `upstream`, `downstream`, `input`, `output`, `parent`, `child`, `earlier cause`, or `later consequence` belong to a declared relation. If `\alpha` and `\beta` are different ordering relations, then
+Directional labels such as `upstream`, `downstream`, `input`, `output`, `parent`, `child`, `earlier cause`, or `later consequence` belong to a declared relation. If $\alpha$ and $\beta$ are different ordering relations, then
 
 ```math
 \mathrm{dir}_{\alpha}(x,y)

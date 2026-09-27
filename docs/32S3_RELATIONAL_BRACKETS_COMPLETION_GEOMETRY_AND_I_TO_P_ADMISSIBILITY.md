@@ -27,7 +27,7 @@ The shared object is a typed **constraint-to-admissibility grammar**, not a clai
 
 ## 2. Local coordinates, geometric overlap, and typed relation scopes
 
-Let a declared system at time `t` have addressed components or regions
+Let a declared system at time $t$ have addressed components or regions
 
 ```math
 \mathcal U_t=\{U_1,\ldots,U_n\},
@@ -63,7 +63,7 @@ Define a broader typed relation-scope family
 \mathfrak E_t=\{r_1,\ldots,r_m\}.
 ```
 
-Each relation `r` has a non-empty support
+Each relation $r$ has a non-empty support
 
 ```math
 S(r)\subseteq\{1,\ldots,n\},
@@ -79,7 +79,7 @@ Geometric overlap relations form at most a typed subfamily
 \mathfrak E_t^{\mathrm{geom}}\subseteq\mathfrak E_t.
 ```
 
-For a relation `r` and coordinate `i\in S(r)`, let
+For a relation $r$ and coordinate $i\in S(r)$, let
 
 ```math
 \eta_{i\rightarrow r}:
@@ -88,7 +88,7 @@ For a relation `r` and coordinate `i\in S(r)`, let
 \mathcal Y_{r,i}
 ```
 
-extract or translate the state information relevant to that relation. For a genuine geometric overlap, `eta` may reduce to an ordinary restriction map onto the shared domain. For other relation types it must be separately defined and justified.
+extract or translate the state information relevant to that relation. For a genuine geometric overlap, $\eta$ may reduce to an ordinary restriction map onto the shared domain. For other relation types it must be separately defined and justified.
 
 > **Spatial overlap is one way for relations to be load-bearing; it is not assumed to be the only way.**
 
@@ -114,9 +114,9 @@ e_r(a_t)
 \geq0,
 ```
 
-where `Psi_r` is defined so that `e_r=0` means exact compatibility under that relation and larger values mean larger disagreement in the declared residual geometry.
+where $\Psi_r$ is defined so that $e_r=0$ means exact compatibility under that relation and larger values mean larger disagreement in the declared residual geometry.
 
-Let `epsilon_r` be a preregistered tolerance in the same units as `e_r`. Define
+Let $\varepsilon_r$ be a preregistered tolerance in the same units as $e_r$. Define
 
 ```math
 \chi_B(a_t)
@@ -152,7 +152,7 @@ For reporting, retain
 \left(e_r(a_t)\right)_{r\in\mathfrak E_t}.
 ```
 
-Only after each residual has a lawful scale `s_r>0` may a dimensionless aggregate be formed:
+Only after each residual has a lawful scale $s_r>0$ may a dimensionless aggregate be formed:
 
 ```math
 \widetilde e_r
@@ -175,7 +175,7 @@ w_r\ge0,
 \quad p\ge1.
 ```
 
-If no lawful normalisation exists, do not manufacture `E_B`; retain the typed residual vector.
+If no lawful normalisation exists, do not manufacture $E_B$; retain the typed residual vector.
 
 Define
 
@@ -195,13 +195,13 @@ N_t,
 }
 ```
 
-where `Theta_t` contains declared tolerances, normalisations, comparison rules, and representation assumptions.
+where $\Theta_t$ contains declared tolerances, normalisations, comparison rules, and representation assumptions.
 
 The bracket is not a container surrounding an object. It specifies **which coordinates participate in which relations and what joint assignments those relations permit**.
 
 ## 4. Completion geometry — a missing address as a conditional fiber
 
-Suppose coordinate `k` is missing, unobserved, or intentionally ablated while the remaining partial assignment
+Suppose coordinate $k$ is missing, unobserved, or intentionally ablated while the remaining partial assignment
 
 ```math
 a_{-k}
@@ -249,7 +249,7 @@ e_r(a_{-k})\leq\varepsilon_r
 \right]
 ```
 
-for residuals well-defined without coordinate `k`, and the local completion test
+for residuals well-defined without coordinate $k$, and the local completion test
 
 ```math
 \chi_{B,k}(a_{-k}\oplus_k x)
@@ -298,7 +298,7 @@ Let
 \prod_{i\neq k}\mathcal F_t(U_i)
 ```
 
-forget coordinate `k`, and let
+forget coordinate $k$, and let
 
 ```math
 \pi_k:\mathcal L_t\rightarrow\mathcal F_t(U_k)
@@ -345,7 +345,7 @@ Thus:
 
 Local validity and parent completion are different questions. A set of lower objects may each be valid at its own address while their proposed joint parent has no compatible completion because a shared identity, resource, boundary condition, import, runtime, measurement context, or other relation receives mutually incompatible requirements.
 
-For lower objects `Y_1,\ldots,Y_m` proposed for one parent composition `P`, write schematically
+For lower objects $Y_1,\ldots,Y_m$ proposed for one parent composition $P$, write schematically
 
 ```math
 \Omega_P^{\mathrm{comp}}(Y_1,\ldots,Y_m)
@@ -380,7 +380,7 @@ This is the 32S3 owner-side fold of the published Cross-Domain v0.3 local-to-glo
 
 ## 5. Ambiguity, persistence, and temporal mismatch exposure
 
-Where a lawful measure `mu_k` exists,
+Where a lawful measure $\mu_k$ exists,
 
 ```math
 A_{k,t}^{\mathrm{comp}}
@@ -415,7 +415,7 @@ P_B(t;\tau)\ge1-\delta_B.
 
 If relation scopes, state spaces, encodings, tolerances, or comparison rules change materially, use Module 31 transport/comparison discipline, partition the interval, or do not report one persistence scalar.
 
-Where a lawful dimensionless aggregate `E_B(t)` exists,
+Where a lawful dimensionless aggregate $E_B(t)$ exists,
 
 ```math
 D_B(t;T)
@@ -423,7 +423,7 @@ D_B(t;T)
 \int_{t-T}^{t}E_B(s)\,ds
 ```
 
-defines mismatch exposure. It has units of time when `E_B` is dimensionless and is not automatically energy, entropy, damage, disease burden, or maintenance cost.
+defines mismatch exposure. It has units of time when $E_B$ is dimensionless and is not automatically energy, entropy, damage, disease burden, or maintenance cost.
 
 Mismatch earns a **cost** interpretation only if it predicts or causally changes a separately measured typed cost object
 
@@ -437,7 +437,7 @@ under held-out or interventional testing.
 
 ## 6. Addressed constraint-to-admissibility operator
 
-At declared layer/address `lambda`, let
+At declared layer/address $\lambda$, let
 
 ```math
 \mathfrak X_\lambda
@@ -456,9 +456,9 @@ Let
 \mathcal Z_{\lambda,t}^{R}
 ```
 
-denote the realised typed relation-state object generated by the declared relation scopes and current organisation. `\mathcal Z^R` is implementation-specific; it is not assumed to be one universal relation space.
+denote the realised typed relation-state object generated by the declared relation scopes and current organisation. $\mathcal Z^R$ is implementation-specific; it is not assumed to be one universal relation space.
 
-For current construction address `alpha_t`, define schematically
+For current construction address $\alpha_t$, define schematically
 
 ```math
 \mathcal Q_{\lambda,t}:
@@ -493,7 +493,7 @@ Let
 p_t\in\mathcal P_t
 ```
 
-be measured physical state, `H_t^P` the relevant measured physical history, and
+be measured physical state, $H_t^P$ the relevant measured physical history, and
 
 ```math
 i_t\in\mathcal I_t
@@ -556,7 +556,7 @@ d_\Omega
 >\eta_\Omega.
 ```
 
-A non-zero conditional difference is not automatically causal. If `i` cannot be changed or causally identified independently of relevant P variables, report predictive association rather than causal I→P evidence.
+A non-zero conditional difference is not automatically causal. If $i$ cannot be changed or causally identified independently of relevant P variables, report predictive association rather than causal I→P evidence.
 
 The existing physical-only null remains controlling:
 
@@ -663,7 +663,7 @@ R_{\ell\rightarrow L}^{-1}(y).
 }
 ```
 
-For any compatible `a` with `R(a)=y`,
+For any compatible $a$ with `R(a)=y`,
 
 ```math
 \mathcal M_y=[a]_{\sim_R}.
@@ -679,11 +679,11 @@ a_t\neq a_{t'}
 R(a_t)=R(a_{t'})=y,
 ```
 
-provided both states remain in `\mathcal M_y`.
+provided both states remain in $\mathcal M_y$.
 
 This gives a precise systems meaning to **lower-level turnover with higher-level persistence**. It does not by itself prove metaphysical identity, personal identity, or an autonomous macro cause. The macrostate must still pass the Module 32S promotion tests, and any same-self claim remains governed by Modules 32S1 and 32S2.
 
-When a trajectory leaves `\mathcal M_y`, the declared macrostate changes under this readout. Whether the individuality persists through that macrostate change is a separate identity-continuity question.
+When a trajectory leaves $\mathcal M_y$, the declared macrostate changes under this readout. Whether the individuality persists through that macrostate change is a separate identity-continuity question.
 
 ### 9.4 Promotion and recursive handoff
 
@@ -754,7 +754,7 @@ At a declared implementation:
 - **P role:** a physical system realises one actual state or trajectory inside the physically admissible region;
 - **O role:** an observer-positioned measurement/registration map returns bounded records or observables.
 
-A higher-scale readout `R_(ell→L)` used to define an endogenous macro variable is **not automatically the O-layer**. It may be a P-level effective description. It belongs to O only where the map represents observer-positioned registration under the definitions of the master spine.
+A higher-scale readout $R_{\ell\to L}$ used to define an endogenous macro variable is **not automatically the O-layer**. It may be a P-level effective description. It belongs to O only where the map represents observer-positioned registration under the definitions of the master spine.
 
 This distinction matters because otherwise coarse-graining by an analyst could be mistaken for a real scale transition in the system.
 
@@ -827,7 +827,7 @@ H_q,
 \right),
 ```
 
-where `Omega` is the physical geometry/domain, `sigma_res(x)` the residual-stress field, `Gamma` the relevant crack/defect/boundary state, `H_q` the quench or cooling history when it carries target-relevant information not already screened off by the present state, and `m` the material parameters. A visual readout
+where $\Omega$ is the physical geometry/domain, $\sigma_{\mathrm{res}}(x)$ the residual-stress field, $\Gamma$ the relevant crack/defect/boundary state, $H_q$ the quench or cooling history when it carries target-relevant information not already screened off by the present state, and $m$ the material parameters. A visual readout
 
 ```math
 y_{\mathrm{vis}}=\Pi_{\mathrm{vis}}(X_{\mathrm{PRD}})
@@ -840,7 +840,7 @@ The abstract vocabulary terminates natively as follows:
 - **formation history** → quench/cooling history;
 - **hidden state** → residual stress, crack/defect, void, or other material state omitted by the chosen readout, not a hidden ontology;
 - **address** → the physical location/orientation and local stress state at a crack tip, tail defect, loaded region, or other declared perturbation site;
-- **admissibility** → the native fracture-mechanics support, threshold, or rate structure governing whether a crack initiates or propagates; where the chosen model warrants it, this may be expressed through criteria such as `G_eff >= G_c` or `K_eff >= K_IC`, without treating either schematic inequality as a universal PRD law;
+- **admissibility** → the native fracture-mechanics support, threshold, or rate structure governing whether a crack initiates or propagates; where the chosen model warrants it, this may be expressed through criteria such as $G_{\mathrm{eff}} \ge G_c$ or $K_{\mathrm{eff}} \ge K_{\mathrm{IC}}$, without treating either schematic inequality as a universal PRD law;
 - **propagation** → the measured native crack/failure-wave and branching dynamics;
 - **ablation** → a physical intervention such as annealing that relieves residual stress and tests whether the stored stress organisation is load-bearing for catastrophic fragmentation;
 - **higher-dimensional description** → the richer material/state-space description above, not additional physical spacetime dimensions.
@@ -864,7 +864,7 @@ teardrop silhouette
 
 This distinction supplies a direct morphology-versus-state discriminator. If the visible form remains recognisably drop-like while annealing removes the residual-stress organisation and the catastrophic response disappears, then morphology alone was not the load-bearing invariant. This does **not** imply that geometry is irrelevant: geometry, shell thickness, defects, voids and boundary conditions remain native parts of the physical state and can alter strength and fragmentation.
 
-History must also not be duplicated after it has done its causal work. If a declared present physical state `x_t` screens off the quench history for target `Y`, schematically
+History must also not be duplicated after it has done its causal work. If a declared present physical state $x_t$ screens off the quench history for target $Y$, schematically
 
 ```math
 P(Y\mid x_t,H_q)
@@ -872,7 +872,7 @@ P(Y\mid x_t,H_q)
 P(Y\mid x_t)
 ```
 
-within the declared tolerance, then `H_q` remains provenance rather than an additional active state coordinate for that target. If nominally same present states still split by future behaviour as a function of `H_q`, the current address is incomplete or a mediator has been omitted.
+within the declared tolerance, then $H_q$ remains provenance rather than an additional active state coordinate for that target. If nominally same present states still split by future behaviour as a function of $H_q$, the current address is incomplete or a mediator has been omitted.
 
 The scientific verdict is deliberately bounded:
 
@@ -909,7 +909,7 @@ Compare pairwise-only models with preregistered higher-order relation scopes. Cl
 
 ### 13.5 Realisation-class persistence test
 
-For a proposed macrostate `y`, perturb lower-scale variables inside the predicted realisation class `M_y`. The macrostate should remain stable under within-class perturbations and change in the predicted way when the trajectory crosses the class boundary. Compare against alternative readouts and arbitrary coarse-grainings.
+For a proposed macrostate $y$, perturb lower-scale variables inside the predicted realisation class $M_y$. The macrostate should remain stable under within-class perturbations and change in the predicted way when the trajectory crosses the class boundary. Compare against alternative readouts and arbitrary coarse-grainings.
 
 ### 13.6 Temporal mismatch test
 
@@ -1018,7 +1018,7 @@ Cross-Domain Compositional Schema v0.4 supplies a clean external calibration of 
 \pi_E:P\longmapsto E
 ```
 
-is many-to-one: behaviours with the same four correlators can retain different local-marginal structure. The v0.4 Facet-adapted Tetrahedral Bell Chart is an exact coordinate chart for the correlator object `E`,
+is many-to-one: behaviours with the same four correlators can retain different local-marginal structure. The v0.4 Facet-adapted Tetrahedral Bell Chart is an exact coordinate chart for the correlator object $E$,
 
 ```math
 E=V\lambda+\frac{\nu}{4}c,
@@ -1026,7 +1026,7 @@ E=V\lambda+\frac{\nu}{4}c,
 \mathbf1^{\mathsf T}\lambda=1,
 ```
 
-but the inverse image `pi_E^{-1}(E)` remains a fibre of full behaviours. Consequently:
+but the inverse image $\pi_E^{-1}(E)$ remains a fibre of full behaviours. Consequently:
 
 ```text
 correlator/TBC target

@@ -127,10 +127,10 @@ D(O)
 
 where:
 
-- `D` is the Module 22A decomposition already defined;
-- `T` supplies typed addresses;
-- `\mathcal C_P` is the property-specific carrier/admissibility burden;
-- `\Pi` is a domain-specific prospective evaluation, not a universal physical operator.
+- $D$ is the Module 22A decomposition already defined;
+- $T$ supplies typed addresses;
+- $\mathcal C_P$ is the property-specific carrier/admissibility burden;
+- $\Pi$ is a domain-specific prospective evaluation, not a universal physical operator.
 
 Under Module 29 this expression is **E0/E1 methodological notation**. It is not an E4 physical law and is not offered as a mathematically novel decomposition theorem.
 
@@ -202,15 +202,15 @@ Historical priority for that exact conjunction is **not asserted here**. The pre
 
 Module 29A already requires the parent generator to face a finite prospective portfolio test. This section supplies a compact measurable object for that requirement.
 
-Let `\mathcal Q_{\mathrm{hold}}` be a held-out, prospectively frozen task family. For each task `q\in\mathcal Q_{\mathrm{hold}}`, let:
+Let $\mathcal Q_{\mathrm{hold}}$ be a held-out, prospectively frozen task family. For each task $q\in\mathcal Q_{\mathrm{hold}}$, let:
 
-- `\mathcal G` denote the MKUFT generator procedure under test;
-- `\mathcal B_q` be a preregistered family of strong comparator generators appropriate to that task;
-- `F_q(M)` be a preregistered **higher-is-better** portfolio score for method `M` under the same declared information, time, compute, human assistance, tool access, branch/search budget, revision opportunity and stopping rule.
+- $\mathcal G$ denote the MKUFT generator procedure under test;
+- $\mathcal B_q$ be a preregistered family of strong comparator generators appropriate to that task;
+- $F_q(M)$ be a preregistered **higher-is-better** portfolio score for method $M$ under the same declared information, time, compute, human assistance, tool access, branch/search budget, revision opportunity and stopping rule.
 
 The score must include the complete serious attempt portfolio according to the frozen protocol. Failed branches, false positives, post-hoc repairs and search cost may not disappear merely because a successful descendant later exists.
 
-Define the strongest native baseline for task `q` as
+Define the strongest native baseline for task $q$ as
 
 ```math
 F_{\mathrm{base}}^{*}(q)
@@ -253,7 +253,7 @@ No cross-task mean is permitted merely because every task has a number. If task 
 
 with the preregistered portfolio rule.
 
-If each `F_q` has been prospectively normalised to a common direction and scale and task weights `w_q` are fixed before outcome inspection, with
+If each $F_q$ has been prospectively normalised to a common direction and scale and task weights $w_q$ are fixed before outcome inspection, with
 
 ```math
 w_q\ge0,
@@ -272,7 +272,7 @@ w_q G_{\mathrm{gen}}(q).
 }
 ```
 
-A finite generator-level hypothesis can then be stated as, for a preregistered material margin `\delta_{\mathrm{gen}}\ge0`,
+A finite generator-level hypothesis can then be stated as, for a preregistered material margin $\delta_{\mathrm{gen}}\ge0$,
 
 ```math
 H_{\mathrm{gen}}:
@@ -327,7 +327,7 @@ and
 G_{\mathrm{path}}=F_{AB}-F_{\mathrm{replay}}^{*},
 ```
 
-which ask whether a reciprocal Mark–Kairos or other `A\leftrightarrow B` configuration outperforms strong separated, one-way and replay controls.
+which ask whether a reciprocal Mark–Kairos or other $A\leftrightarrow B$ configuration outperforms strong separated, one-way and replay controls.
 
 This module's
 
@@ -433,7 +433,7 @@ The loop is usable only because substantial supporting machinery is already in p
 
 Without those controls, `look for a hidden distinction` is just flexible pattern search. It can always produce another story after the answer is known.
 
-The scientific achievement of a mature method, if it survives, is partly that the visible operation becomes simpler while the controls remain underneath it. That engineering fact does not establish that the method works better than alternatives; `G_{\mathrm{gen}}` exists to test exactly that.
+The scientific achievement of a mature method, if it survives, is partly that the visible operation becomes simpler while the controls remain underneath it. That engineering fact does not establish that the method works better than alternatives; $G_{\mathrm{gen}}$ exists to test exactly that.
 
 ---
 
@@ -441,7 +441,7 @@ The scientific achievement of a mature method, if it survives, is partly that th
 
 The broad generator candidate weakens, contracts or fails if any applicable condition holds:
 
-- prospective `G_{\mathrm{gen}}` does not exceed the strongest fair baseline under the declared margin and uncertainty;
+- prospective $G_{\mathrm{gen}}$ does not exceed the strongest fair baseline under the declared margin and uncertainty;
 - apparent successful distinctions are selected after outcome inspection;
 - fresh failures disappear from the Module 29A lineage ledger;
 - performance gain is explained by extra time, information, compute, human guidance, model access or revision opportunity;

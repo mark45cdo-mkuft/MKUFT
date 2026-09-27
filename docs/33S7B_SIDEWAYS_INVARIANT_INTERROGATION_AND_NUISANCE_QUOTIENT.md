@@ -36,9 +36,9 @@ This is a methodological addition to the FSAI/LBLP repair family, not a claim th
 
 ## 2. Basic construction
 
-Let `x` be a target-bearing state and let an unknown nuisance transform `g` belong to a declared family `G`. A direct readout may depend on `g` in a way that prevents target closure.
+Let $x$ be a target-bearing state and let an unknown nuisance transform $g$ belong to a declared family $G$. A direct readout may depend on $g$ in a way that prevents target closure.
 
-Seek a transformed query/readout `Q` with one of two properties.
+Seek a transformed query/readout $Q$ with one of two properties.
 
 ### Invariant form
 
@@ -59,7 +59,7 @@ Q(g\cdot x)=h_g\!\left(Q(x)\right)
 }
 ```
 
-where the induced action `h_g` is known well enough that the target can be recovered by a predeclared inversion, quotient, or equivalence operation.
+where the induced action $h_g$ is known well enough that the target can be recovered by a predeclared inversion, quotient, or equivalence operation.
 
 The second case matters because useful sideways readdressing need not make the nuisance literally invisible. It is enough for the nuisance action to become **known in the transformed interrogation geometry**.
 
@@ -110,8 +110,8 @@ This adds no new controller. `DOWN` remains ordinary FSAI restorative readdressi
 A sideways result is valid only when the following are fixed before outcome inspection to the extent the domain permits:
 
 1. the target quantity/property/decision;
-2. the nuisance-transform family `G` or an independently justified approximation to it;
-3. the candidate query/readout `Q`, or the lawful query family `\mathcal Q` when query generation is under test;
+2. the nuisance-transform family $G$ or an independently justified approximation to it;
+3. the candidate query/readout $Q$, or the lawful query family $\mathcal Q$ when query generation is under test;
 4. the invariance/equivariance criterion;
 5. the inversion/quotient/recovery rule where required;
 6. the failure tolerance and comparator;
@@ -123,7 +123,7 @@ Post-hoc discovery may still generate a candidate, but it does not count as pros
 
 The stronger use of SIDEWAYS is not merely to recognise an invariant once somebody has supplied the right question. When a lawful query family can be declared prospectively, the **interrogation itself becomes a search object**.
 
-Let `\mathcal Q` be the admissible query/measurement family for declared target `q`. A candidate design may be ranked schematically by
+Let $\mathcal Q$ be the admissible query/measurement family for declared target $q$. A candidate design may be ranked schematically by
 
 ```math
 \boxed{
@@ -137,7 +137,7 @@ R_q(Q)
 }
 ```
 
-subject to preservation of the target and the declared evidential/physical constraints. Here `R_q` is target residual/error, `C_query` interrogation or measurement cost, `C_restore` remaining hidden-state/restoration burden, and `N_G` surviving sensitivity to the nuisance family. The weights are not asserted to be universal constants; where scalarisation would fake precision, use a Pareto front or preregistered lexicographic ordering.
+subject to preservation of the target and the declared evidential/physical constraints. Here $R_q$ is target residual/error, $C_{\mathrm{query}}$ interrogation or measurement cost, $C_{\mathrm{restore}}$ remaining hidden-state/restoration burden, and $N_G$ surviving sensitivity to the nuisance family. The weights are not asserted to be universal constants; where scalarisation would fake precision, use a Pareto front or preregistered lexicographic ordering.
 
 The advanced comparison is therefore
 
@@ -171,13 +171,13 @@ a lawful paired query
 Q(y_1,y_2)=y_1-y_2
 ```
 
-removes the unknown common offset `b`:
+removes the unknown common offset $b$:
 
 ```math
 Q=(x_1+b)-(x_2+b)=x_1-x_2.
 ```
 
-For this target, `b` need not enter the minimum future-sufficient Address. Change the target to `q=x_1`, however, and the same quotient is insufficient; `b` becomes decision-bearing and must be restored, estimated, otherwise controlled, or the target left unresolved.
+For this target, $b$ need not enter the minimum future-sufficient Address. Change the target to $q=x_1$, however, and the same quotient is insufficient; $b$ becomes decision-bearing and must be restored, estimated, otherwise controlled, or the target left unresolved.
 
 This calibration makes the target relativity explicit:
 
@@ -189,7 +189,7 @@ same nuisance + different future question
 
 ### Generator benchmark
 
-When generator performance is claimed, compare against the strongest preregistered native design `B_q^*`. A simple bounded score is
+When generator performance is claimed, compare against the strongest preregistered native design $B_q^*$. A simple bounded score is
 
 ```math
 \boxed{
@@ -198,7 +198,7 @@ G_{\mathrm{side}}(q)
 }
 ```
 
-where `F_q` must include the declared predictive/discriminating performance and the cost terms that matter to the task. Positive values indicate a prospective gain under the declared benchmark; zero means no demonstrated advantage; negative values mean the native comparator wins.
+where $F_q$ must include the declared predictive/discriminating performance and the cost terms that matter to the task. Positive values indicate a prospective gain under the declared benchmark; zero means no demonstrated advantage; negative values mean the native comparator wins.
 
 Do not report only the successful query limb. Failed queries, target-loss candidates, repair attempts and search cost belong to generator lineage when the method is being credited for discovery.
 
@@ -218,7 +218,7 @@ nuisance erased
 
 ### Incomplete nuisance family
 
-A transform may cancel one nuisance branch while a hidden asymmetry remains elsewhere. If the declared `G` was incomplete, closure is not earned.
+A transform may cancel one nuisance branch while a hidden asymmetry remains elsewhere. If the declared $G$ was incomplete, closure is not earned.
 
 ### Reparameterisation-only novelty
 
@@ -226,7 +226,7 @@ An invertible or quotient representation can be useful without adding evidence o
 
 ### Post-hoc operator choice
 
-Choosing `Q` after observing which transformation makes the answer look clean is calibration leakage, not prospective discrimination.
+Choosing $Q$ after observing which transformation makes the answer look clean is calibration leakage, not prospective discrimination.
 
 ### Forced quotient
 
@@ -244,7 +244,7 @@ Sideways interrogation adds a complementary question:
 
 > **Is the apparent state insufficiency intrinsic to the target, or only to the chosen interrogation?**
 
-Let a direct representation `R` fail because histories/states differing by nuisance transform `g` produce different direct readouts. If a lawful `Q` preserves the declared target while satisfying the required invariance/equivariance relation, the nuisance coordinate is not load-bearing **for that transformed future-use family**.
+Let a direct representation $R$ fail because histories/states differing by nuisance transform $g$ produce different direct readouts. If a lawful $Q$ preserves the declared target while satisfying the required invariance/equivariance relation, the nuisance coordinate is not load-bearing **for that transformed future-use family**.
 
 This does not erase the coordinate from reality or from other tasks. A later target may require reopening it.
 

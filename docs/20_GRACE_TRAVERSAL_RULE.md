@@ -105,7 +105,7 @@ One architecture-level notation is
 Y_j=F_j(S_j,R_j,C_j,I),
 ```
 
-where, for receiving node `j`, `S_j` is the relevant current state, `R_j` is its represented situation where that object is operationally available, `C_j` is the relevant constraint/context state, `I` is the contemplated interaction, and `Y_j` is the declared downstream consequence. This is a bookkeeping form, not a universal psychological, social, or physical law.
+where, for receiving node $j$, $S_j$ is the relevant current state, $R_j$ is its represented situation where that object is operationally available, $C_j$ is the relevant constraint/context state, $I$ is the contemplated interaction, and $Y_j$ is the declared downstream consequence. This is a bookkeeping form, not a universal psychological, social, or physical law.
 
 A receiver-side coordinate earns a place only when omitting it merges cases whose target-relevant continuations differ beyond the declared tolerance. This is the same future-sufficiency burden developed in Modules 33S6 and 33S7C, applied to a coupled interaction rather than used to promote a new layer. Module 20A gives the explicit typed ablation and route-selection form.
 

@@ -28,13 +28,13 @@ The methodological target is therefore the **smallest target-sufficient native c
 
 ## 2. Definition
 
-Let `r` be a candidate load-bearing relation at Address `a`. Fix before confirmatory testing:
+Let $r$ be a candidate load-bearing relation at Address $a$. Fix before confirmatory testing:
 
-- target `q`;
+- target $q$;
 - prediction horizon `Δ`;
-- admissible intervention/deformation family `U`;
-- environment and boundary class `E`;
-- measurement/registration family `O`;
+- admissible intervention/deformation family $U$;
+- environment and boundary class $E$;
+- measurement/registration family $O$;
 - discrepancy and closure tolerance;
 - strongest adequate ordinary null family.
 
@@ -44,13 +44,13 @@ Define
 \mathcal K_q(r\mid a,E,\mathcal U,\Delta)
 ```
 
-as the smallest practically adequate native neighbourhood containing the relations, interfaces, observables and recovery/parent links whose presence is required for a deformation of `r` to express its declared target-relevant downstream consequences.
+as the smallest practically adequate native neighbourhood containing the relations, interfaces, observables and recovery/parent links whose presence is required for a deformation of $r$ to express its declared target-relevant downstream consequences.
 
-`\mathcal K_q` is an experimental-design/addressing object. The word **cone** does not imply a relativistic light cone, a new causal metric, a physical field, or a universal graph geometry.
+$\mathcal K_q$ is an experimental-design/addressing object. The word **cone** does not imply a relativistic light cone, a new causal metric, a physical field, or a universal graph geometry.
 
 Depending on the native domain and target, the cone may include:
 
-- direct dependencies and dependants of `r`;
+- direct dependencies and dependants of $r$;
 - boundary/environment relations capable of carrying the same result;
 - compensating or redundant routes;
 - target-relevant observables and readouts;
@@ -63,17 +63,17 @@ The content of the cone is earned by the native system and declared target. It i
 
 ## 3. Why an isolated break can be weak evidence
 
-Suppose removing `r` produces a large performance loss in a stripped-down test fixture.
+Suppose removing $r$ produces a large performance loss in a stripped-down test fixture.
 
-That result may establish that `r` was necessary **for that fixture**. It does not by itself establish:
+That result may establish that $r$ was necessary **for that fixture**. It does not by itself establish:
 
-- that `r` is load-bearing in the native system;
+- that $r$ is load-bearing in the native system;
 - that the same downstream relation fails first natively;
 - that no redundant route compensates;
 - that the parent-scale object loses closure;
 - that the observed loss is not generic intervention damage;
-- that restoration of `r` restores the predicted native signature;
-- or that `r`, rather than an adjacent resource removed with it, owns the effect.
+- that restoration of $r$ restores the predicted native signature;
+- or that $r$, rather than an adjacent resource removed with it, owns the effect.
 
 A dramatic break is therefore not automatically a discriminating break.
 
@@ -107,7 +107,7 @@ A reduced model is acceptable when the removed context cannot change the declare
 
 A stress is relation-informative when its possible outcomes can discriminate at least one declared question such as:
 
-- whether `r` is load-bearing for `q`;
+- whether $r$ is load-bearing for $q$;
 - which neighbouring relation deforms first;
 - whether redundancy compensates;
 - whether local failure reaches the governing parent;
@@ -141,11 +141,11 @@ Where lawful and feasible, select only the controls capable of changing attribut
 
 ### Native baseline
 
-`r` intact inside the declared native consequence cone.
+$r$ intact inside the declared native consequence cone.
 
 ### Targeted deformation
 
-Remove, scramble, weaken or otherwise deform `r` while preserving ordinary resources as far as the native experiment permits.
+Remove, scramble, weaken or otherwise deform $r$ while preserving ordinary resources as far as the native experiment permits.
 
 ### Thin/toy control
 
@@ -153,7 +153,7 @@ Apply the nominal deformation in a reduced environment lacking one or more nativ
 
 ### Restore
 
-Restore `r` or the smallest typed repair and test whether the predicted deformation contracts.
+Restore $r$ or the smallest typed repair and test whether the predicted deformation contracts.
 
 ### Compensation control
 
@@ -165,13 +165,13 @@ Vary the medium or boundary only where it can plausibly carry the same observed 
 
 ### Generic-damage control
 
-Where the intervention itself can degrade the system, compare against a matched disturbance that removes comparable resource without selectively targeting `r`.
+Where the intervention itself can degrade the system, compare against a matched disturbance that removes comparable resource without selectively targeting $r$.
 
 Not every experiment needs every arm. Adding controls that cannot change the interpretation is not methodological strength.
 
 ## 7. Native-ownership and causal restraint
 
-A predicted deformation after targeting `r` does not automatically establish that `r` is the mechanism owner.
+A predicted deformation after targeting $r$ does not automatically establish that $r$ is the mechanism owner.
 
 Before relation-specific promotion, test adequate alternatives including:
 

@@ -49,10 +49,10 @@ This is a distinct companion publication, not ATLD 2 v2.1 and not a replacement 
 
 Its closest ATLD 2 inheritance is:
 
-- `O` — exact object/address custody;
-- `R` — future-sufficient continuity/re-entry fidelity;
-- `V` — receiver-side closure;
-- `F` — parent fixed-point closure and lawful stopping/fallback.
+- $O$ — exact object/address custody;
+- $R$ — future-sufficient continuity/re-entry fidelity;
+- $V$ — receiver-side closure;
+- $F$ — parent fixed-point closure and lawful stopping/fallback.
 
 The companion paper adds no thirteenth ATLD coordinate. It operationalises a continuity/transport consequence through verified-arrival-before-compression, minimum-sufficiency pressure, selective removal/restoration, cold-start reconstruction, payload/carrier/counter-route testing, versioned stale-address rejection, and a separately typed non-inverse return route.
 
@@ -72,11 +72,11 @@ Recommended exact-version citation:
 
 ATLD 2 preserves the causal grammar of v1.0 and makes **measurement refinement** the object of study. It keeps the original seven-coordinate outcome vector and proposes five candidate residual readouts:
 
-- `O` — exact object/address custody;
-- `U` — permission/action-state integrity;
-- `R` — future-sufficient continuity/re-entry fidelity;
-- `V` — receiver-side closure;
-- `F` — parent fixed-point closure.
+- $O$ — exact object/address custody;
+- $U$ — permission/action-state integrity;
+- $R$ — future-sufficient continuity/re-entry fidelity;
+- $V$ — receiver-side closure;
+- $F$ — parent fixed-point closure.
 
 The candidates are not granted permanent status by naming them. They must survive selective direct and mirror deformation, coordinate removal, strongest-existing-coordinate substitution, coalition testing, causal-shadow accounting, no-smuggling controls, neutral-domain transfer, and cross-model replication.
 
@@ -86,7 +86,7 @@ ATLD 2 additionally defines route support separately from endpoint correctness u
 
 The v2.0 paper reports a fixed 15-case Release Relay execution pilot. Google Gemini was first run in Fast mode and then with Pro mode explicitly selected; Deep Think was not enabled. The Pro-mode trace is the scored foreign comparator. A non-blind private structured condition was also applied to the same packet.
 
-The pilot is a worked scoring application, not confirmatory coordinate validation and not evidence of system superiority. Its useful result is that the ATLD 2 surface returned a shaped diagnostic profile. The observed RR-14 foreign-system defect was already captured by `L` plus route support/first-break, with movement in `G`; no thirteenth coordinate was justified.
+The pilot is a worked scoring application, not confirmatory coordinate validation and not evidence of system superiority. Its useful result is that the ATLD 2 surface returned a shaped diagnostic profile. The observed RR-14 foreign-system defect was already captured by $L$ plus route support/first-break, with movement in $G$; no thirteenth coordinate was justified.
 
 ## Claim boundary
 

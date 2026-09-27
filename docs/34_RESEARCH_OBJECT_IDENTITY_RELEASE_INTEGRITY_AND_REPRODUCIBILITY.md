@@ -28,7 +28,7 @@ This module supplies that identity contract without collapsing distinct carriers
 
 ## 2. Typed research-object family
 
-For a declared release version `v`, distinguish at least the following objects where they exist:
+For a declared release version $v$, distinguish at least the following objects where they exist:
 
 - **live source state** — the mutable repository state from which a release is prepared;
 - **source commit** — the exact Git commit selected for the release boundary;
@@ -54,17 +54,17 @@ Define a release identity record
 
 where:
 
-- `C_v` is the exact source commit;
-- `T_v` is the release tag;
-- `A_v` is the declared artifact set;
-- `H_v` is the artifact identity map, including SHA-256 and byte count;
-- `M_v` is the release/citation metadata state;
-- `D_v` is the external publication identifier set, such as a version DOI, where one exists;
-- `P_v` is any additional independent preservation identifier, where one exists.
+- $C_v$ is the exact source commit;
+- $T_v$ is the release tag;
+- $A_v$ is the declared artifact set;
+- $H_v$ is the artifact identity map, including SHA-256 and byte count;
+- $M_v$ is the release/citation metadata state;
+- $D_v$ is the external publication identifier set, such as a version DOI, where one exists;
+- $P_v$ is any additional independent preservation identifier, where one exists.
 
 Not every release requires every optional external identifier. The minimum reproducible release boundary is the smallest tuple that lets another operator recover the exact source state and verify the declared artifacts without inference from filenames alone.
 
-For an artifact `a \in A_v`, byte identity requires
+For an artifact $a \in A_v$, byte identity requires
 
 ```math
 H_v(a)=\left(\mathrm{SHA256}(a),\mathrm{bytes}(a)\right).
@@ -229,7 +229,7 @@ The purpose of this requirement is not defensive priority assertion. It is a gen
 
 A deterministic calculation package can be a first-class research object when it makes a named derivation or transformation independently re-executable. Typical carriers include a script, machine-readable derived values, captured output, and integrity hashes. Its role must remain typed.
 
-For a source derivation `D`, verifier `V`, and derived output `O`, the ordinary ancestry is:
+For a source derivation $D$, verifier $V$, and derived output $O$, the ordinary ancestry is:
 
 ```text
 D
@@ -239,7 +239,7 @@ D
 
 A successful replay can establish that the declared implementation reproduces the declared output under the frozen inputs and conventions. It can expose arithmetic, transcription, implementation, tolerance, or carrier drift. It can materially improve reproducibility.
 
-It does **not** create a new independent evidential source merely because `O` is stored as a CSV, JSON object, repository record, later execution, or externally hosted file. Where the verifier is deterministically generated from the same equations and assumptions, the support remains genealogically dependent on `D`.
+It does **not** create a new independent evidential source merely because $O$ is stored as a CSV, JSON object, repository record, later execution, or externally hosted file. Where the verifier is deterministically generated from the same equations and assumptions, the support remains genealogically dependent on $D$.
 
 Use the standing distinction:
 

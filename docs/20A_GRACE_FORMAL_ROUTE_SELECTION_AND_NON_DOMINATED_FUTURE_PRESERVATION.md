@@ -36,9 +36,9 @@ The result is deliberately weaker than a universal optimiser. It removes materia
 
 ## 2. Declared system specification
 
-Let `A_t` be the addressed state at time `t`. Let `\mathcal U_t` be the candidate action/intervention family available at that address.
+Let $A_t$ be the addressed state at time $t$. Let $\mathcal U_t$ be the candidate action/intervention family available at that address.
 
-Let `\Sigma` contain the declared decision specification, including as applicable:
+Let $\Sigma$ contain the declared decision specification, including as applicable:
 
 - target variables and success conditions;
 - prediction horizon;
@@ -51,9 +51,9 @@ Let `\Sigma` contain the declared decision specification, including as applicabl
 - uncertainty model and coordinate-specific materiality tolerances;
 - stopping, verification, and readdressing conditions.
 
-No field enters `\Sigma` merely because it sounds morally desirable or mathematically convenient. Every quantitative coordinate must terminate in a domain-native object, measurement, operational judgement, or falsifiable comparison at the scope claimed.
+No field enters $\Sigma$ merely because it sounds morally desirable or mathematically convenient. Every quantitative coordinate must terminate in a domain-native object, measurement, operational judgement, or falsifiable comparison at the scope claimed.
 
-`\mathcal U_t` is also a declared search/candidate surface, not proof that every physically, legally, organisationally, or computationally possible route has been enumerated. Every GRACE result is therefore relative to the candidate family and specification actually supplied. Candidate generation, search coverage, and discovery of omitted routes remain upstream burdens; a non-dominated route inside `\mathcal U_t` is not automatically a globally optimal route outside it.
+$\mathcal U_t$ is also a declared search/candidate surface, not proof that every physically, legally, organisationally, or computationally possible route has been enumerated. Every GRACE result is therefore relative to the candidate family and specification actually supplied. Candidate generation, search coverage, and discovery of omitted routes remain upstream burdens; a non-dominated route inside $\mathcal U_t$ is not automatically a globally optimal route outside it.
 
 ## 3. Hard admissibility comes first
 
@@ -75,7 +75,7 @@ Then
 
 The predicate may itself be composed from several domain-native hard gates. The notation does **not** imply that truth, law, safety, consent, permission, or authority are naturally one numerical variable.
 
-GRACE cannot restore an inadmissible route by assigning it a high care value. If a relation must lawfully end, if consent is absent, if a safety boundary dominates, or if an action is outside authority, that route remains outside `\mathcal U_{\mathrm{adm}}`.
+GRACE cannot restore an inadmissible route by assigning it a high care value. If a relation must lawfully end, if consent is absent, if a safety boundary dominates, or if an action is outside authority, that route remains outside $\mathcal U_{\mathrm{adm}}$.
 
 This preserves the parent rule:
 
@@ -222,9 +222,9 @@ A task may instead retain a typed vector of acceptable target outcomes rather th
 
 ## 5. Reciprocal affected-node address recruitment
 
-Let `J_{\mathrm{aff}}` denote the set of nodes or subsystems whose declared downstream consequences may be materially changed by a contemplated interaction.
+Let $J_{\mathrm{aff}}$ denote the set of nodes or subsystems whose declared downstream consequences may be materially changed by a contemplated interaction.
 
-For each `j\in J_{\mathrm{aff}}`, let the candidate receiver-side address be schematically
+For each $j\in J_{\mathrm{aff}}$, let the candidate receiver-side address be schematically
 
 ```math
 \Theta_j=(S_j,R_j,C_j),
@@ -234,7 +234,7 @@ where the components retain the meanings established in Module 20: relevant stat
 
 Reported, directly observed, and inferred components remain separately typed. An inferred private state does not become an observation because it appears inside a tuple.
 
-Receiver-side coordinates are recruited through the future-sufficiency burden already owned by Module 33S6. Let `\Theta^{\mathrm{full}}` be an evidence-supported candidate address that satisfies the declared target-relative sufficiency condition
+Receiver-side coordinates are recruited through the future-sufficiency burden already owned by Module 33S6. Let $\Theta^{\mathrm{full}}$ be an evidence-supported candidate address that satisfies the declared target-relative sufficiency condition
 
 ```math
 \mathcal R_q\!\left(\Theta^{\mathrm{full}}\right)
@@ -242,7 +242,7 @@ Receiver-side coordinates are recruited through the future-sufficiency burden al
 \varepsilon_q.
 ```
 
-For node `j`, define the typed ablation
+For node $j$, define the typed ablation
 
 ```math
 \Theta^{-j}
@@ -253,7 +253,7 @@ For node `j`, define the typed ablation
 \right),
 ```
 
-where `Drop` is not subtraction in a homogeneous vector space.
+where $\mathrm{Drop}$ is not subtraction in a homogeneous vector space.
 
 The receiver-side coordinate is verified as load-bearing for the declared target when its removal breaks that sufficiency:
 
@@ -283,7 +283,7 @@ A_t;
 \right).
 ```
 
-`Aug` is likewise a typed augmentation operator, not ordinary vector addition. A null receiver branch contributes nothing.
+$\mathrm{Aug}$ is likewise a typed augmentation operator, not ordinary vector addition. A null receiver branch contributes nothing.
 
 This keeps the operational boundary explicit:
 
@@ -295,7 +295,7 @@ Receiver state can improve prediction or route choice without inheriting truth, 
 
 ## 6. Future-bearing preservation profile
 
-For every `u\in\mathcal U_Q`, let the projected or realised transition produce the next addressed state
+For every $u\in\mathcal U_Q$, let the projected or realised transition produce the next addressed state
 
 ```math
 A_{t+1}^{(u)}.
@@ -314,23 +314,23 @@ To prevent several affected nodes from being silently averaged into one welfare 
 }
 ```
 
-Each retained component of `\Phi_{\mathrm{sys}}` or `\Phi_j` must be domain-native and oriented so that a larger value means more of the declared desirable capacity is preserved, unless another sign convention is stated explicitly.
+Each retained component of $\Phi_{\mathrm{sys}}$ or $\Phi_j$ must be domain-native and oriented so that a larger value means more of the declared desirable capacity is preserved, unless another sign convention is stated explicitly.
 
 Possible coordinates, only where independently operationalised, include:
 
-- restorative-future reserve `\rho_R(A_{t+1}^{(u)})` from Module 33S6;
-- restorative-route existence `\chi_R` where existence is the relevant discriminator;
+- restorative-future reserve $\rho_R(A_{t+1}^{(u)})$ from Module 33S6;
+- restorative-route existence $\chi_R$ where existence is the relevant discriminator;
 - practical agency/accessibility from Module 23;
 - correction-channel integrity or truthful-feedback capacity;
 - reversibility or bounded rollback capacity;
 - provenance/record continuity;
 - retained lawful capability;
 - retained lawful relationship or interface where that relation is itself admissible and future-bearing;
-- negative irreversible-loss coordinates derived from declared `D_{\mathrm{irr}}` components.
+- negative irreversible-loss coordinates derived from declared $D_{\mathrm{irr}}$ components.
 
 This list is **not** a mandatory universal vector. A coordinate that does no work in the receiving domain returns null.
 
-The set `J_{\mathrm{aff}}` and the recruited receiver-state set `J^*` are not identical by definition. A node's downstream consequence may matter even when its private or local state does not need to enter the predictive Address.
+The set $J_{\mathrm{aff}}$ and the recruited receiver-state set $J^*$ are not identical by definition. A node's downstream consequence may matter even when its private or local state does not need to enter the predictive Address.
 
 In particular, `relationship preserved` is not automatically good. An unsafe, coercive, captured, deceptive, or otherwise inadmissible relation may need to terminate. GRACE preserves **lawful future-bearing structure**, not relation-for-relation's-sake.
 
@@ -349,11 +349,11 @@ T_{\Sigma}(u),
 
 This is a product of typed coordinates. It is **not** permission to sum metres, probabilities, legal permissions, dignity judgements, agency measures, task scores, and recovery reserves into one number.
 
-For each retained coordinate `r`, let `\varepsilon_r\geq0` be a declared materiality threshold reflecting measurement resolution, uncertainty, decision relevance, or another domain-native reason. These thresholds must not be tuned after outcome inspection merely to produce a preferred route.
+For each retained coordinate $r$, let $\varepsilon_r\geq0$ be a declared materiality threshold reflecting measurement resolution, uncertainty, decision relevance, or another domain-native reason. These thresholds must not be tuned after outcome inspection merely to produce a preferred route.
 
 ## 8. Material non-dominance
 
-For two admissible task-sufficient routes `u,v\in\mathcal U_Q`, orient every retained coordinate so that larger is better and define ordinary coordinate-wise no-worse relation
+For two admissible task-sufficient routes $u,v\in\mathcal U_Q$, orient every retained coordinate so that larger is better and define ordinary coordinate-wise no-worse relation
 
 ```math
 v\succeq_{\Sigma}u
@@ -410,16 +410,16 @@ The first emptiness test occurs **before** GRACE comparison:
 
 means that no candidate route currently survives both hard admissibility and the declared task-sufficiency burden. GRACE must not manufacture a restorative or gentle route merely because one would be preferred.
 
-For a finite non-empty candidate set `\mathcal U_Q`, at least one materially non-dominated route exists under the relation above. The resulting `\mathcal U_{\mathrm{GRACE}}` may contain one route or several.
+For a finite non-empty candidate set $\mathcal U_Q$, at least one materially non-dominated route exists under the relation above. The resulting $\mathcal U_{\mathrm{GRACE}}$ may contain one route or several.
 
 - **One route:** the declared profile leaves one material non-dominated survivor.
 - **Several routes:** use a domain-native priority rule already justified by the task, retain the set for higher-authority choice, gather a discriminator, or acknowledge genuine underdetermination.
 
 For infinite or continuous candidate families, existence of an attained non-dominated frontier may require domain-appropriate regularity, compactness, closure, or approximation assumptions. Failure to attain an optimum or frontier is a mathematical/engineering issue, not permission to smuggle in a preferred moral answer.
 
-A lexicographic priority is allowed only when the ordering is part of `\Sigma` and has independent justification. A weighted sum is allowed only when the receiving domain genuinely supplies defensible commensuration. Neither is the default.
+A lexicographic priority is allowed only when the ordering is part of $\Sigma$ and has independent justification. A weighted sum is allowed only when the receiving domain genuinely supplies defensible commensuration. Neither is the default.
 
-`\mathcal U_{\mathrm{GRACE}}` remains candidate-relative. Surviving the comparison establishes non-dominance within the declared route family; it does not establish that a better ungenerated route does not exist.
+$\mathcal U_{\mathrm{GRACE}}$ remains candidate-relative. Surviving the comparison establishes non-dominance within the declared route family; it does not establish that a better ungenerated route does not exist.
 
 ## 10. Uncertainty-aware dominance
 
@@ -437,7 +437,7 @@ If uncertainty leaves the routes incomparable, retain both or gather more inform
 
 ## 11. Recursive readdressing
 
-GRACE route selection is not a one-shot plan frozen at `t`.
+GRACE route selection is not a one-shot plan frozen at $t$.
 
 The complete recursion is
 
@@ -461,9 +461,9 @@ A_{t+1}
 }
 ```
 
-Here `u_t\in\mathcal U_{\mathrm{GRACE}}` denotes the route actually selected for execution under the applicable authority and any justified tie-breaking rule.
+Here $u_t\in\mathcal U_{\mathrm{GRACE}}$ denotes the route actually selected for execution under the applicable authority and any justified tie-breaking rule.
 
-After the realised transition, the unexecuted suffix of an earlier plan retains standing only if it remains admissible from `A_{t+1}`, as already required by Module 33S6.
+After the realised transition, the unexecuted suffix of an earlier plan retains standing only if it remains admissible from $A_{t+1}$, as already required by Module 33S6.
 
 This is the mathematical reason GRACE evaluates consequences at the state actually reached rather than treating an earlier humane intention as proof that later steps remain humane, lawful, effective, or recoverable.
 
@@ -501,7 +501,7 @@ A serious implementation should test the formal bridge across at least these twe
 8. **Unsafe-relation termination** — the framework must permit a relation or interface to end where the hard boundary requires it; continuity itself is not a universal preservation target.
 9. **Multi-node conflict** — several affected nodes remain separately addressed; no averaging into a single welfare scalar occurs unless the receiving domain justifies that aggregation.
 10. **Uncertainty robustness** — apparent dominance that disappears under declared uncertainty must not be reported as settled.
-11. **Recursive readdressing** — a route chosen at `t` must be reconsidered when its realised transition changes the Address, admissible set, or future-bearing geometry.
+11. **Recursive readdressing** — a route chosen at $t$ must be reconsidered when its realised transition changes the Address, admissible set, or future-bearing geometry.
 12. **Native termination / reduction** — every quantitative coordinate must terminate in a receiving-domain owner and ablation/failure condition; if GRACE adds no predictive, route-selection, repair, or future-bearing distinction beyond the native model, the stronger GRACE claim contracts for that regime.
 
 These are validation axes, not twelve compulsory numerical dimensions. A null axis backgrounds when the object gives it no load-bearing role.

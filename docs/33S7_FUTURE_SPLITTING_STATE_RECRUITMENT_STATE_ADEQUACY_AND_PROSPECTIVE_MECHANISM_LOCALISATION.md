@@ -55,7 +55,7 @@ This is the canonical MKUFT owner for the live FSSR object. The Zenodo v1.0 pape
 
 ## 2. Declared state-adequacy problem
 
-Let `H_t` be retained history and let
+Let $H_t$ be retained history and let
 
 ```math
 \Theta:\mathcal H\rightarrow\mathcal Z_{\Theta}
@@ -65,13 +65,13 @@ be a candidate state representation.
 
 Fix before testing:
 
-- target `q`;
-- prediction horizon `\Delta`;
-- admissible challenge/intervention family `\mathcal U`;
-- environment and boundary class `E`;
-- physical regime `\lambda`;
-- discrepancy `d`;
-- closure tolerance `\varepsilon_q`.
+- target $q$;
+- prediction horizon $\Delta$;
+- admissible challenge/intervention family $\mathcal U$;
+- environment and boundary class $E$;
+- physical regime $\lambda$;
+- discrepancy $d$;
+- closure tolerance $\varepsilon_q$.
 
 Two histories are target-relative future-equivalent when
 
@@ -98,7 +98,7 @@ Operationally:
 
 ## 3. Future-splitting residual
 
-For histories collapsed by `\Theta`, define
+For histories collapsed by $\Theta$, define
 
 ```math
 \delta_{q,\Delta}(h,h';u,\lambda)
@@ -120,7 +120,7 @@ R_q(\Theta;\lambda,\Delta,\mathcal U)
 }
 ```
 
-`\Theta` is `\varepsilon_q`-sufficient when
+$\Theta$ is $\varepsilon_q$-sufficient when
 
 ```math
 R_q(\Theta;\lambda,\Delta,\mathcal U)\leq\varepsilon_q.
@@ -150,7 +150,7 @@ The exact invariant is partition refinement. A broader admissible future family 
 
 ## 4. Future-splitting challenge
 
-FSSR does not ask for the most informative experiment in general. It asks for the admissible continuation that most strongly tests the claim that `\Theta` is already a state.
+FSSR does not ask for the most informative experiment in general. It asks for the admissible continuation that most strongly tests the claim that $\Theta$ is already a state.
 
 A development-stage challenge may be chosen by
 
@@ -161,7 +161,7 @@ u^{\star}
 \widehat{\mathcal J}_{\mathrm{split}}(u;\Theta,\lambda),
 ```
 
-where `\widehat{\mathcal J}_{\mathrm{split}}` scores future divergence inside matched or near-matched candidate-state fibres.
+where $\widehat{\mathcal J}_{\mathrm{split}}$ scores future divergence inside matched or near-matched candidate-state fibres.
 
 The challenge design is frozen before confirmatory evaluation.
 
@@ -220,7 +220,7 @@ This does not prove the representation is universally complete. It says the curr
 
 The FSSR test is not complete until the **registration address** is carried with the state, challenge and boundary. A future can only be said to split relative to a declared target and a declared family of measurements or records capable of resolving that target.
 
-In MKUFT, `O` is used conservatively here as the observer/registration position: the operational readout, record or measurement context through which a physical continuation becomes available to the analysis. This does **not** mean that a conscious observer is assumed to create the split. Where measurement has physical back-action, that interaction belongs to the P-layer instrument; where it is effectively passive for the target, the relevant P-state is unchanged to the declared tolerance.
+In MKUFT, $O$ is used conservatively here as the observer/registration position: the operational readout, record or measurement context through which a physical continuation becomes available to the analysis. This does **not** mean that a conscious observer is assumed to create the split. Where measurement has physical back-action, that interaction belongs to the P-layer instrument; where it is effectively passive for the target, the relevant P-state is unchanged to the declared tolerance.
 
 Module 31 states the observability condition explicitly. If two physical states `x,x'` are indistinguishable under the declared admissible readout family,
 
@@ -278,7 +278,7 @@ A closed Markov surrogate can make two histories identical by construction and t
 
 Confirmatory future divergence must therefore come from an independent continuation source:
 
-- a microstate-resolved simulator not defined by `\Theta`;
+- a microstate-resolved simulator not defined by $\Theta$;
 - a separately validated higher-fidelity physical model;
 - or the physical experiment itself.
 
@@ -286,7 +286,7 @@ This gate is mandatory for a positive FSSR claim.
 
 ## 6. State recruitment
 
-Suppose `\Theta_0` is adequate in a baseline regime and later fails:
+Suppose $\Theta_0$ is adequate in a baseline regime and later fails:
 
 ```math
 R_q(\Theta_0;\lambda_0)\leq\varepsilon_q,
@@ -294,7 +294,7 @@ R_q(\Theta_0;\lambda_0)\leq\varepsilon_q,
 R_q(\Theta_0;\lambda_1)>\varepsilon_q.
 ```
 
-Let `c` be a preregistered physically typed candidate augmentation: a measurable scalar, vector, field summary, relational descriptor, history functional, boundary variable, or coalition.
+Let $c$ be a preregistered physically typed candidate augmentation: a measurable scalar, vector, field summary, relational descriptor, history functional, boundary variable, or coalition.
 
 Define a recruitment candidate by
 
@@ -327,7 +327,7 @@ For a neural latent state, an arbitrary neuron or coordinate is not automaticall
 
 ## 7. Prospective recruitment prediction
 
-Let `\lambda_R` be the earliest regime at which a new typed augmentation is required to restore closure and let `\lambda_T` be a preregistered conventional transition/mechanism marker.
+Let $\lambda_R$ be the earliest regime at which a new typed augmentation is required to restore closure and let $\lambda_T$ be a preregistered conventional transition/mechanism marker.
 
 Define recruitment lead
 
@@ -343,7 +343,7 @@ For time-resolved systems,
 
 The principal prospective prediction is:
 
-> **In systems where an emerging mechanism becomes future-discriminating before its conventional macroscopic marker is overt, a reproducible state-recruitment event can occur first, so that `L>0` or `L_t>0`.**
+> **In systems where an emerging mechanism becomes future-discriminating before its conventional macroscopic marker is overt, a reproducible state-recruitment event can occur first, so that `L>0` or $L_t>0$.**
 
 This is not asserted as universal. The prediction fails in systems where the mechanism and the conventional marker become informative simultaneously, where the candidate state already contains the relevant distinction, or where no stable physically typed repair exists.
 
@@ -361,7 +361,7 @@ U_j(x,y,0)=A(x,y)e^{i\phi_j(x,y)},
 |U_1|^2=|U_2|^2=A^2.
 ```
 
-Under propagation `\mathcal P_z`,
+Under propagation $\mathcal P_z$,
 
 ```math
 I_j(x,y,z)=|\mathcal P_z U_j|^2.

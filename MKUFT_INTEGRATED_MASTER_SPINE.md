@@ -362,7 +362,7 @@ Typed compatibility tests select
 \{a\in\mathcal L_t:\chi_B(a)=1\}.
 ```
 
-For a missing coordinate `k`, the compatible completion is the missing-coordinate image of the fiber over the retained assignment:
+For a missing coordinate $k$, the compatible completion is the missing-coordinate image of the fiber over the retained assignment:
 
 ```math
 \mathfrak F_{k,t}(a_{-k})
@@ -386,7 +386,7 @@ A declared higher-scale readout
 R_{\ell\rightarrow L}:\mathfrak C_{B,\ell}\supseteq\mathrm{Dom}(R)\rightarrow\mathcal Y_L
 ```
 
-induces equivalence classes. For macrostate `y`, the compatible lower-scale realisation class is
+induces equivalence classes. For macrostate $y$, the compatible lower-scale realisation class is
 
 ```math
 \boxed{

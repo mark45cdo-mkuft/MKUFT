@@ -92,9 +92,9 @@ Likewise, a formally valid representation is allowed to exist even when it was m
 
 ### Minimal physics example
 
-Suppose lower states `x` are mapped to a proposed higher description `y = pi(x)` and the target property is `q`.
+Suppose lower states $x$ are mapped to a proposed higher description `y = pi(x)` and the target property is $q$.
 
-The higher description is sufficient for `q` only if lower states grouped together by `pi` remain equivalent for the declared target under matched intervention/environment conditions. If two lower states with the same `y` generate materially different target futures, the higher description must reopen lower detail or remain explicitly multiscale.
+The higher description is sufficient for $q$ only if lower states grouped together by $\pi$ remain equivalent for the declared target under matched intervention/environment conditions. If two lower states with the same $y$ generate materially different target futures, the higher description must reopen lower detail or remain explicitly multiscale.
 
 That is a claim about specified objects and maps, not a semantic instruction to “change scale until it resolves”.
 
@@ -134,9 +134,9 @@ versus
 
 In this application:
 
-- **state** = the explicitly measured vector or structured state `X_t`;
-- **history** = the pre-specified biologically defensible variable `H_t`, not generic “memory”;
-- **target** = `Y_{t+Delta}`, fixed before the outcome is inspected;
+- **state** = the explicitly measured vector or structured state $X_t$;
+- **history** = the pre-specified biologically defensible variable $H_t$, not generic “memory”;
+- **target** = $Y_{t+\Delta}$, fixed before the outcome is inspected;
 - **dependency** = the specified contribution/relation connecting the candidate variable to the declared target;
 - **remove/ablate** = evaluate the same task without that variable/relation, or with a pre-specified lawful neutralisation/scramble where appropriate;
 - **restore/reopen** = reintroduce the smallest biologically defensible omitted state/history variable or dependency-complete set required by the widened operation;
@@ -169,11 +169,11 @@ For a matched-control ATLD-style application:
 - **baseline** = matched content and resource budgets with flat, isolated, scrambled, no-revisit, replay, or stronger ordinary architecture controls as appropriate;
 - **null** = the typed relation/traversal condition does not outperform or deform differently from the strongest matched comparator.
 
-For a claimed dependency `r`, the useful question is not “does it matter?” but:
+For a claimed dependency $r$, the useful question is not “does it matter?” but:
 
-> Under the frozen task and evaluator, does lawful removal or neutralisation of `r` produce the predicted downstream deformation, and does restoring the smallest dependency-complete structure recover it?
+> Under the frozen task and evaluator, does lawful removal or neutralisation of $r$ produce the predicted downstream deformation, and does restoring the smallest dependency-complete structure recover it?
 
-If not, `r` has not been shown to be load-bearing for that claim.
+If not, $r$ has not been shown to be load-bearing for that claim.
 
 ---
 

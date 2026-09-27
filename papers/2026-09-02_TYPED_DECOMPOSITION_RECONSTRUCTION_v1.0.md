@@ -95,7 +95,7 @@ x\sim_{\Theta}x'
 A_{\Theta}(x)=A_{\Theta}(x').
 ```
 
-For target `q`, horizon `Δ`, intervention class `U`, environment class `E`, transition kernel `K^Δ`, and discrepancy `d_Q`, define the target-relative address residual
+For target $q$, horizon `Δ`, intervention class $U$, environment class $E$, transition kernel $K^\Delta$, and discrepancy $d_Q$, define the target-relative address residual
 
 ```math
 \mathcal R_q(\Theta;U,E,\Delta)
@@ -119,7 +119,7 @@ The representation closes for the declared target when
 
 A residual above tolerance is a diagnostic trigger, not proof of one preferred hidden variable or ontology.
 
-For a candidate coordinate `c`, let
+For a candidate coordinate $c$, let
 
 ```math
 \Theta^+=\Theta\cup\{c\}
@@ -147,7 +147,7 @@ The paper works the same procedural burden through physics, biology, and AI with
 
 ## Wake and Wake Gap
 
-Let available traversal history be `H_{0:t}` and a candidate retained compression be
+Let available traversal history be $H_{0:t}$ and a candidate retained compression be
 
 ```math
 W_t=\Phi(H_{0:t}).
@@ -173,7 +173,7 @@ A **Wake Gap** is a target-relative difference in retained traversal state that 
 
 ## Prospective generator test
 
-For prospectively frozen task `q`, let `\mathcal G_{\mathrm{TDR}}` be TDR, `\mathcal B_q` the preregistered serious-comparator family, and `F_q(M)` the matched-resource portfolio score.
+For prospectively frozen task $q$, let $\mathcal G_{\mathrm{TDR}}$ be TDR, $\mathcal B_q$ the preregistered serious-comparator family, and $F_q(M)$ the matched-resource portfolio score.
 
 ```math
 F_{\mathrm{base}}^{*}(q)
@@ -205,7 +205,7 @@ The score must include false positives, failed branches, repairs, search cost, a
 
 The equations are methodological/statistical scaffolds until the task family, comparators, score, resource envelope, stopping rule, uncertainty model, and protected outcomes are frozen and run. They are not physical laws.
 
-The broad TDR claim should reduce or fail if the method is hindsight-dependent, unstable across independent analysts, no better than native methods, complexity-inflating, unable to abstain, dependent on privileged resource advantages, or consistently null/negative under `G_gen`.
+The broad TDR claim should reduce or fail if the method is hindsight-dependent, unstable across independent analysts, no better than native methods, complexity-inflating, unable to abstain, dependent on privileged resource advantages, or consistently null/negative under $G_{\mathrm{gen}}$.
 
 Publication establishes a frozen, citable **method object**. It does not establish TDR generator superiority.
 

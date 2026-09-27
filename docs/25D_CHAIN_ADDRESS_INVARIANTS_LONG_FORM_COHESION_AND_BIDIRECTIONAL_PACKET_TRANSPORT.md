@@ -21,7 +21,7 @@
 
 ## 1. Purpose and owner boundary
 
-ATLD v1.0 supplies the causal grammar: matched information/resources, active typed traversal, and controlled deformation of candidate load-bearing relations. ATLD 2 adds long-horizon residual measurement, especially `R` — future-sufficient continuity/re-entry fidelity — and `V` — receiver-side closure. Module 25C then provides residual ownership, no-smuggling, shrinkage, held-out testing, and protected-discovery discipline.
+ATLD v1.0 supplies the causal grammar: matched information/resources, active typed traversal, and controlled deformation of candidate load-bearing relations. ATLD 2 adds long-horizon residual measurement, especially $R$ — future-sufficient continuity/re-entry fidelity — and $V$ — receiver-side closure. Module 25C then provides residual ownership, no-smuggling, shrinkage, held-out testing, and protected-discovery discipline.
 
 Module 25D asks the next operational question:
 
@@ -268,7 +268,7 @@ C_B^{\mathrm{cold}}=\mathrm{FAIL},
 
 the jacket omitted load-bearing state. Enlarge $\kappa$, refine $\alpha$, or retain the full route.
 
-This is the direct operational bridge to ATLD 2 `R` and `V`: the packet must carry future-sufficient state and permit receiver-side reconstruction, not merely point into latent shared context.
+This is the direct operational bridge to ATLD 2 $R$ and $V$: the packet must carry future-sufficient state and permit receiver-side reconstruction, not merely point into latent shared context.
 
 ## 9. Bidirectional validation without false invertibility
 

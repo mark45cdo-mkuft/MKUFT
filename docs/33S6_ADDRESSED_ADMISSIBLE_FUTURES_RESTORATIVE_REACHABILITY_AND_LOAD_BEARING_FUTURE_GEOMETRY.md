@@ -47,7 +47,7 @@ This is a specialisation of the existing S-I-P-O update architecture, not a comp
 
 ## 2. Future-sufficient Address
 
-Let `H_t` denote the retained history available at time `t`. Let `Σ` denote the declared system specification: target variables, prediction horizon, physical dynamics or transition kernel, boundary/environment class, admissible intervention class, measurement resolution, and any typed relational constraints that genuinely determine continuation.
+Let $H_t$ denote the retained history available at time $t$. Let `Σ` denote the declared system specification: target variables, prediction horizon, physical dynamics or transition kernel, boundary/environment class, admissible intervention class, measurement resolution, and any typed relational constraints that genuinely determine continuation.
 
 Let `X⁺` denote the future path object after `t`, and let `Π_adm` be the admissible policy/intervention family.
 
@@ -81,7 +81,7 @@ Thus velocity, phase, charge, rate, schedule, hysteresis, boundary state, connec
 
 ## 3. Operational address residual and minimum-sufficient frontier
 
-For a target `q` over horizon `Δ`, let `Θ(H_t)` be a candidate coordinate description. Let `\mathcal L(q^+\mid h)` be the conditional law of the future target and let `d` be a declared discrepancy.
+For a target $q$ over horizon `Δ`, let $\Theta(H_t)$ be a candidate coordinate description. Let $\mathcal L(q^+\mid h)$ be the conditional law of the future target and let $d$ be a declared discrepancy.
 
 Define
 
@@ -97,13 +97,13 @@ Define
 }
 ```
 
-The Address is `ε_q`-sufficient when
+The Address is $\varepsilon_q$-sufficient when
 
 ```math
 \mathcal R_q(\Theta)\leq\varepsilon_q.
 ```
 
-If `Θ_2` lawfully augments `Θ_1` without discarding a load-bearing parent relation, the induced equivalence classes refine rather than broaden, so the exact residual obeys
+If $\Theta_2$ lawfully augments $\Theta_1$ without discarding a load-bearing parent relation, the induced equivalence classes refine rather than broaden, so the exact residual obeys
 
 ```math
 \Theta_1\subseteq\Theta_2
@@ -126,7 +126,7 @@ Define the sufficient family and its minimal elements:
 \text{no proper lawful subset is sufficient}\}.
 ```
 
-`\mathcal S_q` is upward closed under lawful augmentation, while `\mathcal M_q` may contain several incomparable minimal descriptions. The result is a **minimum-sufficient address frontier**, not a claim that one universal scale must always govern.
+$\mathcal S_q$ is upward closed under lawful augmentation, while $\mathcal M_q$ may contain several incomparable minimal descriptions. The result is a **minimum-sufficient address frontier**, not a claim that one universal scale must always govern.
 
 The frontier remains target-, horizon-, intervention-, environment-, resolution- and tolerance-relative.
 
@@ -150,7 +150,7 @@ The future object is prior to any one summary of it. Path count, probability, to
 
 ## 5. Present viability is not restorative reachability
 
-Let `J(a)` index the load-bearing viability constraints at address `a`. Define
+Let `J(a)` index the load-bearing viability constraints at address $a$. Define
 
 ```math
 \mathcal V(a)
@@ -168,7 +168,7 @@ H(z,a)=\min_{j\in J(a)} h_j(z;a).
 
 `H>0` says the present state lies inside the declared viable region. It does **not** establish that a sufficient path remains to maintain or restore the required organisation.
 
-Let `G(A_t)` be a declared restored/recovered target set. Let `Q(\gamma)` measure task sufficiency with threshold `\kappa`, and let `D_{\mathrm{irr}}(\gamma)` be a vector of domain-defined irreversible losses constrained by `d_R`.
+Let $G(A_t)$ be a declared restored/recovered target set. Let $Q(\gamma)$ measure task sufficiency with threshold $\kappa$, and let $D_{\mathrm{irr}}(\gamma)$ be a vector of domain-defined irreversible losses constrained by $d_R$.
 
 Define the restorative future
 
@@ -204,7 +204,7 @@ This keeps three objects distinct:
 
 ## 6. Restorative-future reserve
 
-Existence can be brittle. Let `\mathcal D` be a preregistered family of physically/operationally meaningful deformations of the admissibility structure, with cost `c(\Delta)`.
+Existence can be brittle. Let $\mathcal D$ be a preregistered family of physically/operationally meaningful deformations of the admissibility structure, with cost $c(\Delta)$.
 
 Define restorative-future reserve
 
@@ -222,9 +222,9 @@ c(\Delta):
 
 Interpretation:
 
-- high `\rho_R`: substantial admissibility deformation is required before every sufficient restorative route disappears;
-- low `\rho_R`: restoration remains possible but fragile;
-- `\chi_R=0`: no sufficient restorative route remains under the declared construction.
+- high $\rho_R$: substantial admissibility deformation is required before every sufficient restorative route disappears;
+- low $\rho_R$: restoration remains possible but fragile;
+- $\chi_R=0$: no sufficient restorative route remains under the declared construction.
 
 A system can therefore satisfy
 
@@ -240,7 +240,7 @@ The deformation family and cost must be declared before outcome inspection. They
 
 ## 7. Counterfactual load-bearing relation
 
-Let `C` be a relation or coalition of relations in the typed structure carrying the restorative future. Let `\Psi` be a preregistered functional readout of that future: existence, reserve, recovery probability, time-to-restoration, irreversible cost, or another declared quantity.
+Let $C$ be a relation or coalition of relations in the typed structure carrying the restorative future. Let $\Psi$ be a preregistered functional readout of that future: existence, reserve, recovery probability, time-to-restoration, irreversible cost, or another declared quantity.
 
 Define relational load by counterfactual deformation:
 
@@ -254,7 +254,7 @@ Define relational load by counterfactual deformation:
 }
 ```
 
-A relation is **load-bearing relative to `(A_t,\Psi)`** when removing or deforming it materially changes the declared future readout. It is terminally load-bearing when removal changes `\chi_R` from `1` to `0`.
+A relation is **load-bearing relative to $(A_t,\Psi)$** when removing or deforming it materially changes the declared future readout. It is terminally load-bearing when removal changes $\chi_R$ from `1` to `0`.
 
 This rejects weak proxies:
 
@@ -267,9 +267,9 @@ A dormant backup relation may carry almost no present flow while dominating futu
 
 ## 8. Finite graph estimator
 
-For finite trajectory data, approximate the restorative future by a directed or time-expanded network `K_R`. Nodes represent addressed states or microstates; directed edges represent empirically supported admissible transitions; `c_e` is a preregistered edge capacity/robustness weight.
+For finite trajectory data, approximate the restorative future by a directed or time-expanded network $K_R$. Nodes represent addressed states or microstates; directed edges represent empirically supported admissible transitions; $c_e$ is a preregistered edge capacity/robustness weight.
 
-For present node `s` and restorative target set `G`, a graph estimator of reserve is
+For present node $s$ and restorative target set $G$, a graph estimator of reserve is
 
 ```math
 \boxed{
@@ -365,7 +365,7 @@ A further corollary appears when the realised action changes not only the state 
 
 Module 32 already permits the active admissible-action family and reachable geometry to change with the addressed system. Module 33S3 already separates lower-address performance from higher-address closure and recoverability. The present construction adds no new foundational law; it asks what follows when those existing objects are composed with restorative-future geometry.
 
-Let an action `u_t` be admissible at the current Address under the declared constraints. Its realised transition may produce a new Address `A_{t+1}` in which one or more relations relevant to correction, termination, observability, or restoration have changed. The scientific question is therefore not only whether the action was admissible at `t`, but whether the action deformed a relation that is load-bearing for the later restorative future.
+Let an action $u_t$ be admissible at the current Address under the declared constraints. Its realised transition may produce a new Address $A_{t+1}$ in which one or more relations relevant to correction, termination, observability, or restoration have changed. The scientific question is therefore not only whether the action was admissible at $t$, but whether the action deformed a relation that is load-bearing for the later restorative future.
 
 Using the existing readouts, a locally favourable or locally warranted transition can coexist with a reduction in restorative reserve:
 
@@ -383,9 +383,9 @@ or, in a stronger case, with loss of restorative reachability:
 \chi_R(A_{t+1})=0.
 ```
 
-The sign pattern is not a universal law and `J_\ell` need not be positive in every sacrificial or emergency case. A constituent may accept a local cost while protecting the enclosing system. The point is narrower: **current local merit, current admissibility, and later restorative sufficiency are different addressed quantities and must not inherit one another's sign or verdict.**
+The sign pattern is not a universal law and $J_\ell$ need not be positive in every sacrificial or emergency case. A constituent may accept a local cost while protecting the enclosing system. The point is narrower: **current local merit, current admissibility, and later restorative sufficiency are different addressed quantities and must not inherit one another's sign or verdict.**
 
-The load-bearing relation test in Section 7 supplies the sharper discriminator. If action `u_t` deforms or removes a relation `C`, and controlled removal of `C` materially changes a preregistered restorative readout `\Psi`, then `\Lambda_C^{\Psi}` identifies the future consequence at the relation actually carrying it. The action has then altered part of the correction/return geometry rather than merely changing a point inside an otherwise fixed future map.
+The load-bearing relation test in Section 7 supplies the sharper discriminator. If action $u_t$ deforms or removes a relation $C$, and controlled removal of $C$ materially changes a preregistered restorative readout $\Psi$, then $\Lambda_C^{\Psi}$ identifies the future consequence at the relation actually carrying it. The action has then altered part of the correction/return geometry rather than merely changing a point inside an otherwise fixed future map.
 
 This creates a recursive failure mode that is easy to describe too loosely:
 
@@ -398,7 +398,7 @@ currently admissible exception
 → readdress from the state actually reached.
 ```
 
-The original action need not therefore be retrospectively reclassified as an error merely because the later state is poor. A genuine emergency action can be correct for the information, constraints, and target at `t` while also producing a later Address that requires a different policy. The error would be to inherit the old permission automatically after the transition has changed the object that permission applied to.
+The original action need not therefore be retrospectively reclassified as an error merely because the later state is poor. A genuine emergency action can be correct for the information, constraints, and target at $t$ while also producing a later Address that requires a different policy. The error would be to inherit the old permission automatically after the transition has changed the object that permission applied to.
 
 A useful recovery statement follows. “Return” need not mean restoration of the exact earlier microstate. In this construction, a lawful route home means reaching a state or relational class in which the declared restorative target is again reachable with sufficient task performance and irreversible-loss bounds. Where correction or feedback relations were lost, restoration of a target-sufficient replacement relation may be enough; where no admissible restorative route exists, the construction must say so rather than promise reversibility.
 
@@ -410,9 +410,9 @@ Human language such as **choice**, **permission**, or **sacrifice** may be usefu
 
 ## 10. Moving frontier and early structural warning
 
-The minimum-sufficient frontier `\mathcal M_q` can move as the system changes.
+The minimum-sufficient frontier $\mathcal M_q$ can move as the system changes.
 
-A coarse Address may initially close a target. Later, states carrying the same coarse description can diverge because a previously dormant lower-scale, cross-scale, temporal, interface or relational coordinate has become dynamically load-bearing. Then `\mathcal R_q` rises above tolerance and readdressing is required.
+A coarse Address may initially close a target. Later, states carrying the same coarse description can diverge because a previously dormant lower-scale, cross-scale, temporal, interface or relational coordinate has become dynamically load-bearing. Then $\mathcal R_q$ rises above tolerance and readdressing is required.
 
 A direct test sequence is:
 
@@ -478,7 +478,7 @@ Core fixed elements include:
 - candidate Address: pre-5 h p21 history plus NCS regimen and elapsed time since the most recent dose;
 - leave-one-biological-replicate-out evaluation;
 - directed time-addressed transition network estimated only from training folds;
-- `\chi_R` and `\rho_R` as AAF readouts;
+- $\chi_R$ and $\rho_R$ as AAF readouts;
 - regularised same-history baseline as the crucial comparator;
 - time-history scrambling, relation-preserving/relation-destroying controls and label permutation;
 - a strong result only if AAF readouts improve held-out prediction and the real directed relation structure beats the rewired control.

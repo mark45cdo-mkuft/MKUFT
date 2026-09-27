@@ -27,7 +27,7 @@ Compressed rule:
 
 ## 2. State as a compression of history
 
-Let `h` denote a physically or operationally admissible history and let
+Let $h$ denote a physically or operationally admissible history and let
 
 ```math
 \Theta:\mathcal H\rightarrow\mathcal Z_\Theta
@@ -35,7 +35,7 @@ Let `h` denote a physically or operationally admissible history and let
 
 be the candidate state representation used for a declared task.
 
-The map `\Theta` is a compression. Histories satisfying
+The map $\Theta$ is a compression. Histories satisfying
 
 ```math
 \Theta(h)=\Theta(h')
@@ -45,7 +45,7 @@ are treated as equivalent by the present representation even though they need no
 
 That compression is lawful only to the extent that the discarded distinctions do not alter the declared target-relevant future beyond tolerance.
 
-For regime `\lambda`, challenge family `\mathcal U_\lambda`, target `q`, horizon `\Delta`, environment/boundary class `E_\lambda`, and discrepancy `d_Q`, define the within-state future divergence
+For regime $\lambda$, challenge family $\mathcal U_\lambda$, target $q$, horizon $\Delta$, environment/boundary class $E_\lambda$, and discrepancy $d_Q$, define the within-state future divergence
 
 ```math
 D_\lambda(h,h')
@@ -57,7 +57,7 @@ D_\lambda(h,h')
  \right].
 ```
 
-A candidate compression is sufficient over the tested region of regime `\lambda` when
+A candidate compression is sufficient over the tested region of regime $\lambda$ when
 
 ```math
 \Theta(h)=\Theta(h')
@@ -69,7 +69,7 @@ This is the same family of sufficiency claim already formalised in 33S4/FSSR, st
 
 ## 3. Transfer-conditioned state aliasing
 
-Suppose `\Theta` has survived the declared sufficiency burden in source regime `\lambda_0`:
+Suppose $\Theta$ has survived the declared sufficiency burden in source regime $\lambda_0$:
 
 ```math
 \Theta(h)=\Theta(h')
@@ -77,7 +77,7 @@ Suppose `\Theta` has survived the declared sufficiency burden in source regime `
 D_{\lambda_0}(h,h')\leq\varepsilon_q.
 ```
 
-Now transfer or re-embed the system into a target regime `\lambda_1` whose materially relevant terrain, topology, substrate, boundary, scale, challenge family, or registration conditions differ.
+Now transfer or re-embed the system into a target regime $\lambda_1$ whose materially relevant terrain, topology, substrate, boundary, scale, challenge family, or registration conditions differ.
 
 Portability of the old compression is a new empirical claim:
 
@@ -112,9 +112,9 @@ Define the **transfer-aliasing excess**
 }
 ```
 
-where `\mathcal R_q` is the target-relative residual defined by 33S4/FSSR on the target regime.
+where $\mathcal R_q$ is the target-relative residual defined by 33S4/FSSR on the target regime.
 
-A positive `\mathcal A_{\mathrm{tr}}` does not identify the missing coordinate. It only says that the inherited equivalence relation is insufficient for the declared target in the transferred regime.
+A positive $\mathcal A_{\mathrm{tr}}$ does not identify the missing coordinate. It only says that the inherited equivalence relation is insufficient for the declared target in the transferred regime.
 
 ## 4. The assumption-smuggling mechanism
 
@@ -138,7 +138,7 @@ That implication is not guaranteed.
 
 The methodological point is stronger than generic `missing context`.
 
-A model can inherit a state representation, feature set, coarse-graining, ontology, preparation class, or measurement quotient from `\lambda_0`; once inherited, those choices determine which distinctions are even available to later reasoning. A purely forward analysis inside the inherited representation may therefore be unable to recover a coordinate that was discarded before the analysis began.
+A model can inherit a state representation, feature set, coarse-graining, ontology, preparation class, or measurement quotient from $\lambda_0$; once inherited, those choices determine which distinctions are even available to later reasoning. A purely forward analysis inside the inherited representation may therefore be unable to recover a coordinate that was discarded before the analysis began.
 
 The error is not necessarily in the later law application. It may lie in the **pre-law construction of the object and state**.
 
@@ -210,7 +210,7 @@ Only after address/model repair fails under strong controls does the burden move
 
 ## 7. Transfer-conditioned address completion gain
 
-Let `c` be a candidate coordinate exposed by the target regime and let
+Let $c$ be a candidate coordinate exposed by the target regime and let
 
 ```math
 \Theta^+=\Theta\cup\{c\}.
@@ -273,7 +273,7 @@ intrinsic organisation preserved
 
 33S4A adds the predictive-state consequence.
 
-Even if the intrinsic descriptor `\kappa` is preserved under re-embedding, the state compressor `\Theta` used for a particular target may cease to be sufficient because the new extrinsic address changes which hidden distinctions matter to future behaviour.
+Even if the intrinsic descriptor $\kappa$ is preserved under re-embedding, the state compressor $\Theta$ used for a particular target may cease to be sufficient because the new extrinsic address changes which hidden distinctions matter to future behaviour.
 
 Conversely, a changed context does not imply intrinsic damage or state inadequacy if the target futures remain closed.
 
@@ -290,7 +290,7 @@ re-embedding / transport
 
 33S5 already shows that the same path can produce different realised states when schedule, dwell or relaxation relations differ. 33S4A generalises the trigger beyond temporal transfer: any materially changed address dimension can reopen the sufficiency burden.
 
-33S7 supplies the experimental engine. A transfer into `\lambda_1` can itself define the lawful separating future or challenge family used to test whether histories compressed together by `\Theta` remain equivalent.
+33S7 supplies the experimental engine. A transfer into $\lambda_1$ can itself define the lawful separating future or challenge family used to test whether histories compressed together by $\Theta$ remain equivalent.
 
 The combined route is:
 
@@ -316,7 +316,7 @@ A positive result requires a target future split beyond tolerance that survives 
 
 ### 11.2 Topology-transfer test
 
-Hold local component states as closely matched as possible while changing a controlled connectivity or interaction topology. Test whether representatives formerly grouped by `\Theta` now split prospectively.
+Hold local component states as closely matched as possible while changing a controlled connectivity or interaction topology. Test whether representatives formerly grouped by $\Theta$ now split prospectively.
 
 If adding a topology coordinate closes the target and ablation reopens it, the original state was not portable to that topology for the declared task.
 

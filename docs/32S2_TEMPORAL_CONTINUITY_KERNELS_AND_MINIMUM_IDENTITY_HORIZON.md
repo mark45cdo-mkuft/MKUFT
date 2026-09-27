@@ -11,7 +11,7 @@
 
 ## 1. Core refinement
 
-Module 32S1 correctly distinguishes within-address state equivalence, address-class parity, and cross-address continuity, but its compact continuation test is written primarily on the realised self-state `s_t` at one time.
+Module 32S1 correctly distinguishes within-address state equivalence, address-class parity, and cross-address continuity, but its compact continuation test is written primarily on the realised self-state $s_t$ at one time.
 
 For many adaptive or living systems, that is too thin. The object that carries continuity may be a **recent trajectory of self-states and relations**, not one instantaneous state. The immediate past is therefore the smallest temporal candidate, while a longer recent history may be required when memory, adaptation, lineage, hysteresis, or path-dependence is constitutive.
 
@@ -27,7 +27,7 @@ Let the operational self-state from Module 32S1 be
 s_t\in\mathcal S_t.
 ```
 
-For an integer history depth `m >= 1`, define the recent self-history
+For an integer history depth $m \ge 1$, define the recent self-history
 
 ```math
 h_t^{(m)}
@@ -47,7 +47,7 @@ h_t^{(1)}=(s_{t-1},s_t).
 
 A single instantaneous state is recovered only as the degenerate point-state case and should not be called a temporal-continuity test.
 
-For irregular or continuous time, use a declared recent interval `[t-\tau,t]` rather than forcing equal discrete steps.
+For irregular or continuous time, use a declared recent interval $[t-\tau,t]$ rather than forcing equal discrete steps.
 
 ## 3. Continuity-bearing history functional
 
@@ -62,7 +62,7 @@ K_t^{(m)}:
 
 be a declared **continuity-bearing history functional**. It extracts the relation or invariant family claimed to carry identity continuity over that history window.
 
-`K_t^(m)` may depend on ordered transition structure, boundary persistence, maintenance relations, system–environment coupling, lineage, memory, or another declared identity-bearing relation. It must not be chosen post-hoc merely because it makes continuity appear.
+$K_t^(m)$ may depend on ordered transition structure, boundary persistence, maintenance relations, system–environment coupling, lineage, memory, or another declared identity-bearing relation. It must not be chosen post-hoc merely because it makes continuity appear.
 
 No universal weighted sum is assumed. If a particular implementation uses recency weights, those weights must be justified and preregistered. The immediate past may dominate in one system while a longer path-dependent history is load-bearing in another.
 
@@ -81,7 +81,7 @@ T_{a\rightarrow b}^{\mathrm{hist},(m)}:
 \mathcal H_b^{(m)}.
 ```
 
-Temporal continuity to tolerance `epsilon_J` requires
+Temporal continuity to tolerance $\varepsilon_J$ requires
 
 ```math
 d_J\!\left(
@@ -102,7 +102,7 @@ This is the temporal extension of the same-self parity guard:
 
 The framework should not assume that more remembered history is always better or more constitutive.
 
-Define the **minimum identity horizon** `m*` as the smallest recent history depth that supports a stable, non-post-hoc continuity discrimination under the declared tests:
+Define the **minimum identity horizon** $m^*$ as the smallest recent history depth that supports a stable, non-post-hoc continuity discrimination under the declared tests:
 
 ```math
 m^*
@@ -113,7 +113,7 @@ m^*
 \right\},
 ```
 
-where `C_id(m)=1` means that the continuity criterion at depth `m` survives the preregistered perturbation, replay, and held-out checks.
+where $C_{\mathrm{id}}(m)=1$ means that the continuity criterion at depth $m$ survives the preregistered perturbation, replay, and held-out checks.
 
 A stronger operational requirement is that shorter histories fail or materially degrade the discrimination:
 
@@ -134,7 +134,7 @@ Useful tests include:
 
 - **history truncation:** progressively shorten the recent history and identify where continuity discrimination fails;
 - **temporal shuffle:** preserve the same states but scramble their order; a trajectory-bearing identity relation should degrade if order is constitutive;
-- **immediate-past ablation:** remove or replace `s_(t-1)` while retaining older history to test whether the immediate predecessor is specifically load-bearing;
+- **immediate-past ablation:** remove or replace $s_{t-1}$ while retaining older history to test whether the immediate predecessor is specifically load-bearing;
 - **remote-history ablation:** remove older states while retaining the immediate trajectory to determine whether continuity is local or genuinely long-memory;
 - **matched-state / different-history control:** compare systems with similar present state but different recent trajectories;
 - **matched-history / perturbed-endpoint control:** test whether the history relation remains predictive when the current endpoint is perturbed within the admissible identity class.

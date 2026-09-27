@@ -93,4 +93,4 @@ These values identify the exact v1.0 PDF accepted for the Zenodo publication. A 
 
 **Published object:** CLOSED at v1.0 carrier identity.  
 **Live methodological owner:** Module 29B under Module 29A; Module 22A retains the procedural decomposition owner.  
-**Prospective performance claim:** OPEN / not yet established. Publication of the method does not promote `G_gen` superiority.
+**Prospective performance claim:** OPEN / not yet established. Publication of the method does not promote $G_{\mathrm{gen}}$ superiority.

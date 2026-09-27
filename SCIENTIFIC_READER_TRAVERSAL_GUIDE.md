@@ -75,7 +75,7 @@ The public entry has already established the main idea: before asking which law 
 
 It turns that idea into a scientific proposal. The model is not allowed to say merely “use the right context.” It must specify an addressed state, an admissibility description, a physical law object, propagation, measurement/registration, and readdressing.
 
-The early equations are bookkeeping equations. When the module writes a complete addressed state such as `U_t`, the equation is saying: **the state used for prediction may need more than the instantaneous physical variables alone; it may also need relation, context and retained history where those are demonstrably load-bearing.**
+The early equations are bookkeeping equations. When the module writes a complete addressed state such as $U_t$, the equation is saying: **the state used for prediction may need more than the instantaneous physical variables alone; it may also need relation, context and retained history where those are demonstrably load-bearing.**
 
 When it later writes an active law object as a tuple of domain, transition and weighting, the point is: **a law is not only an equation; it also has a domain on which it is valid, a rule for change, and sometimes a weighting or selection structure.**
 
@@ -105,9 +105,9 @@ Layer Before Law has introduced several kinds of object: physical state, relatio
 
 It stops those objects being flattened into one vague geometry simply because the same notation can be used for all of them.
 
-When it writes different spaces such as `X_S`, `X_I`, `X_P` and `X_O`, the equation is not claiming four new physical dimensions. It is saying: **these variables may be different kinds of mathematical object, and any map between them must declare what it maps from and to.**
+When it writes different spaces such as $X_S$, $X_I$, $X_P$ and $X_O$, the equation is not claiming four new physical dimensions. It is saying: **these variables may be different kinds of mathematical object, and any map between them must declare what it maps from and to.**
 
-When it writes a coupling map like `C_IP : X_I → X_P`, that notation names a task. It does not prove a physical coupling exists. A real physical claim still needs a carrier, units where applicable, observable consequence, baseline and falsifier.
+When it writes a coupling map like $C_{\mathrm{IP}} : X_I \to X_P$, that notation names a task. It does not prove a physical coupling exists. A real physical claim still needs a carrier, units where applicable, observable consequence, baseline and falsifier.
 
 A useful crossing picture is a compiler's type checker. Two expressions can each be valid on their own and still make an invalid operation when their types do not match. In the same way, `admissibility`, `state`, `distance` or `dimension` can be legitimate words in several domains without licensing the same operation between them. Module 27 is doing the scientific equivalent of refusing an illegal cast until the map is declared.
 
@@ -195,7 +195,7 @@ address
 → next active law
 ```
 
-`O` here is the observer/registration position: the declared readout, record or measurement context through which the continuation becomes available to the analysis. It does not by itself imply observer-caused physics. Any physical measurement back-action belongs to the P-layer instrument and must be modelled there.
+$O$ here is the observer/registration position: the declared readout, record or measurement context through which the continuation becomes available to the analysis. It does not by itself imply observer-caused physics. Any physical measurement back-action belongs to the P-layer instrument and must be modelled there.
 
 ### Kill point
 

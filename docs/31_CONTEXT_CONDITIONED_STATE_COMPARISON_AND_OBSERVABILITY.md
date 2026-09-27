@@ -469,7 +469,7 @@ The test is only meaningful when the translations preserve the intended target. 
 
 A lawful representation transform may preserve the underlying comparison object while changing what a particular observer, decoder, instrument, model or receiver can recover from it.
 
-Let `x` be the underlying object/carrier, `T` a lawful transform in the declared representation family, `O` the actual observer/registration system, and `R_O^q(x)` the target-relevant relation recoverable by that observer for target `q`.
+Let $x$ be the underlying object/carrier, $T$ a lawful transform in the declared representation family, $O$ the actual observer/registration system, and $R_O^q(x)$ the target-relevant relation recoverable by that observer for target $q$.
 
 Then it is possible that
 
@@ -499,7 +499,7 @@ A mathematically definable transform is not an observed transform consequence un
 
 Three symmetric errors must be blocked:
 
-1. **transform erasure** — `same underlying object -> transform cannot matter to the observer`;
+1. **transform erasure** — $same underlying object \to transform cannot matter to the observer$;
 2. **transform inflation** — changed observer/readout response -> underlying ontology/object itself changed;
 3. **search-latitude inflation** — many transforms are searched post hoc until one evocative representation appears, then the selected hit is treated as independent confirmation without accounting for the expanded search family.
 

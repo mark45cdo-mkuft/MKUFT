@@ -46,7 +46,7 @@ A stronger mechanism-localisation claim is tested separately again:
 
 A prospective-lead claim is also separate:
 
-> **Where the microstructural mechanism becomes future-discriminating before the conventional macroscopic constitutive marker is overt, state recruitment can occur first: `lambda_R < lambda_T`.**
+> **Where the microstructural mechanism becomes future-discriminating before the conventional macroscopic constitutive marker is overt, state recruitment can occur first: $\lambda_R < \lambda_T$.**
 
 None of these claims inherits success from another automatically.
 
@@ -128,9 +128,9 @@ d_q(y,y')
 \sqrt{\frac{1}{m}(y-y')^T Sigma_0^{-1}(y-y')},
 ```
 
-where `Sigma_0` is estimated only from the calibration/development data and frozen before confirmation. If `Sigma_0` is singular or materially ill-conditioned under a predeclared numerical criterion, do not invert it directly. Before confirmation, freeze either a defensible regularised covariance estimator, a pseudoinverse/eigenvalue-truncation rule, or another domain-appropriate trajectory distance, and then use that same rule unchanged on confirmatory data. A laboratory may predeclare another defensible trajectory distance, but it may not choose or tune the distance after seeing which one makes the split largest.
+where $\Sigma_0$ is estimated only from the calibration/development data and frozen before confirmation. If $\Sigma_0$ is singular or materially ill-conditioned under a predeclared numerical criterion, do not invert it directly. Before confirmation, freeze either a defensible regularised covariance estimator, a pseudoinverse/eigenvalue-truncation rule, or another domain-appropriate trajectory distance, and then use that same rule unchanged on confirmatory data. A laboratory may predeclare another defensible trajectory distance, but it may not choose or tune the distance after seeing which one makes the split largest.
 
-Set `epsilon_q` from baseline replicate variability plus a prospectively declared smallest material difference of interest. Do not define the tolerance by the confirmatory cross-history split.
+Set $\varepsilon_q$ from baseline replicate variability plus a prospectively declared smallest material difference of interest. Do not define the tolerance by the confirmatory cross-history split.
 
 Secondary readouts may include:
 
@@ -147,17 +147,17 @@ Secondary readouts localise the mechanism and test the repair. They do not repla
 
 ## 7. State hierarchy — no straw-man baseline
 
-### 7.1 Calibration state `Theta_macro`
+### 7.1 Calibration state $\Theta_{\mathrm{macro}}$
 
 A deliberately coarse macroscopic state may be used only as a calibration surface, for example current stress, strain, temperature and loading direction.
 
-A history split under `Theta_macro` is expected in many cyclic magnesium regimes and does **not** constitute the flagship result.
+A history split under $\Theta_{\mathrm{macro}}$ is expected in many cyclic magnesium regimes and does **not** constitute the flagship result.
 
-### 7.2 Confirmatory state `Theta_0`
+### 7.2 Confirmatory state $\Theta_0$
 
 The confirmatory object is the **strongest practical reduced domain-native constitutive state selected before confirmatory data**.
 
-`Theta_0` must include every state variable that the chosen serious ordinary model normally requires and that is available under the agreed measurement budget. If a modern twinning–detwinning model already owns residual twin fraction, hardening state, texture or another internal coordinate, that variable cannot be artificially omitted merely to manufacture FSSR success.
+$\Theta_0$ must include every state variable that the chosen serious ordinary model normally requires and that is available under the agreed measurement budget. If a modern twinning–detwinning model already owns residual twin fraction, hardening state, texture or another internal coordinate, that variable cannot be artificially omitted merely to manufacture FSSR success.
 
 ### 7.3 Flexible ordinary baselines
 
@@ -184,7 +184,7 @@ For the strongest claim, physical experiment is the decisive continuation and th
 
 ## 8. Controlled history construction
 
-Construct a bounded family of loading histories capable of reaching states that are near-matched under `Theta_0` while retaining different microstructural histories.
+Construct a bounded family of loading histories capable of reaching states that are near-matched under $\Theta_0$ while retaining different microstructural histories.
 
 A useful development family can include paths such as:
 
@@ -206,13 +206,13 @@ D_Theta(Theta_0(h),Theta_0(h')) <= tau_Theta,
 
 where the metric and tolerance are frozen from development/calibration variability and model sensitivity.
 
-The state-matching audit must verify that apparent future splitting is not better explained by residual mismatch already visible inside `Theta_0`.
+The state-matching audit must verify that apparent future splitting is not better explained by residual mismatch already visible inside $\Theta_0$.
 
 ## 9. Challenge family and the question-behind-the-question test
 
-FSSR does not simply ask for a strong reversal. It asks which lawful future best tests whether `Theta_0` is really a state for `q`.
+FSSR does not simply ask for a strong reversal. It asks which lawful future best tests whether $\Theta_0$ is really a state for $q$.
 
-Create one bounded admissible challenge family `U`, preferably by varying only a small number of native controls such as:
+Create one bounded admissible challenge family $U$, preferably by varying only a small number of native controls such as:
 
 - reversal direction;
 - reversal amplitude;
@@ -232,9 +232,9 @@ u_F
 J_{\mathrm{split}}(u;\Theta_0),
 ```
 
-where `J_split` rewards future separation **inside matched `Theta_0` fibres** while penalising measurement instability and challenge-induced mismatch.
+where $J_{\mathrm{split}}$ rewards future separation **inside matched $\Theta_0$ fibres** while penalising measurement instability and challenge-induced mismatch.
 
-Freeze `u_F` before confirmatory continuation.
+Freeze $u_F$ before confirmatory continuation.
 
 ### 9.2 Parameter-information comparator
 
@@ -250,11 +250,11 @@ The exact native method may be Fisher-information, posterior-entropy reduction, 
 
 ### 9.3 Standard-practice comparator
 
-Where useful, add one ordinary laboratory reversal `u_STD` selected by domain convention before confirmatory outcomes are inspected.
+Where useful, add one ordinary laboratory reversal $u_{\mathrm{STD}}$ selected by domain convention before confirmatory outcomes are inspected.
 
 ### 9.4 Fair comparison
 
-`u_F`, `u_PI` and `u_STD` must receive matched:
+$u_F$, $u_{\mathrm{PI}}$ and $u_{\mathrm{STD}}$ must receive matched:
 
 ```text
 specimen / continuation budget
@@ -266,7 +266,7 @@ stopping rule
 confirmatory holdout
 ```
 
-If `u_F` and `u_PI` are equivalent under fair tuning and produce equivalent held-out discrimination, the **separate FSSR challenge-selection claim is NULL**, even if the underlying state-recruitment event is real.
+If $u_F$ and $u_{\mathrm{PI}}$ are equivalent under fair tuning and produce equivalent held-out discrimination, the **separate FSSR challenge-selection claim is NULL**, even if the underlying state-recruitment event is real.
 
 ## 10. Native consequence cone
 
@@ -276,7 +276,7 @@ For the primary target, define the smallest target-sufficient native consequence
 K_q(r | a,E,U,Delta)
 ```
 
-around the state-sufficiency relation `r`.
+around the state-sufficiency relation $r$.
 
 For this experiment, the candidate cone should include only the native structure capable of changing attribution or the primary future, for example:
 
@@ -302,7 +302,7 @@ The cone is sufficient, not maximal.
 
 ## 11. Candidate repair library
 
-Predeclare a physically measurable candidate library `C` **after development and before confirmation**. Remove any coordinate already present in `Theta_0`.
+Predeclare a physically measurable candidate library $C$ **after development and before confirmation**. Remove any coordinate already present in $\Theta_0$.
 
 A nested example is:
 
@@ -342,7 +342,7 @@ Demonstrate:
 - known twinning/detwinning response in the selected orientation/loading regime;
 - boundary, alignment, rate and thermal stability;
 - injected or synthetic analysis checks where appropriate;
-- baseline replicate distribution needed for `Sigma_0`, `tau_Theta` and `epsilon_q`.
+- baseline replicate distribution needed for $\Sigma_0$, $\tau_\Theta$ and $\varepsilon_q$.
 
 This stage earns instrument competence only.
 
@@ -350,13 +350,13 @@ This stage earns instrument competence only.
 
 Using one bounded development set:
 
-- choose/freeze `Theta_0` and serious ordinary baselines;
+- choose/freeze $\Theta_0$ and serious ordinary baselines;
 - define the controlled history-pair generator;
-- define the challenge family `U`;
-- select `u_F`, `u_PI` and optional `u_STD`;
+- define the challenge family $U$;
+- select $u_F$, $u_{\mathrm{PI}}$ and optional $u_{\mathrm{STD}}$;
 - define the candidate repair library and simplicity order;
 - set the primary trajectory discrepancy and tolerance;
-- set the conventional macroscopic transition marker `lambda_T`;
+- set the conventional macroscopic transition marker $\lambda_T$;
 - estimate variance and prospective precision/power;
 - freeze exclusion, stopping and QC rules.
 
@@ -387,24 +387,24 @@ Use fresh specimens or independently prepared material not used to choose the ab
 
 The primary confirmatory questions are:
 
-1. Do histories matched under frozen `Theta_0` split beyond `epsilon_q` under `u_F`?
+1. Do histories matched under frozen $\Theta_0$ split beyond $\varepsilon_q$ under $u_F$?
 2. Does the strongest state/challenge/boundary/measurement/stochastic null explain the split?
-3. Does one frozen physical augmentation `c*` restore held-out closure?
-4. Does removing `c*` from the repaired predictive state reopen the held-out failure?
-5. Does `u_F` expose state inadequacy more strongly or efficiently than `u_PI` under matched budget?
+3. Does one frozen physical augmentation $c^*$ restore held-out closure?
+4. Does removing $c^*$ from the repaired predictive state reopen the held-out failure?
+5. Does $u_F$ expose state inadequacy more strongly or efficiently than $u_{\mathrm{PI}}$ under matched budget?
 
 ### Stage 3 — native deformation / mechanism localisation
 
 Use the strongest lawful combination available:
 
 - validated CPFE/EVPSC or other high-fidelity model with targeted internal-state deformation;
-- prospectively selected physical history interventions that vary the candidate microstructural coordinate while matching the rest of `Theta_0` as closely as the native system permits;
+- prospectively selected physical history interventions that vary the candidate microstructural coordinate while matching the rest of $\Theta_0$ as closely as the native system permits;
 - compensation controls that vary the strongest alternative slip/twin route;
 - restoration/reversal tests that predict contraction of the deformation signature.
 
 A computational intervention is **computational evidence**. Do not call it physical ablation merely because a state variable was zeroed in code.
 
-If exact physical isolation of `c*` is not feasible, mechanism ownership remains bounded or unresolved rather than being declared by model convenience.
+If exact physical isolation of $c^*$ is not feasible, mechanism ownership remains bounded or unresolved rather than being declared by model convenience.
 
 ### Stage 4 — independent replication
 
@@ -428,7 +428,7 @@ For matched histories under a frozen challenge, estimate the future-splitting re
 \{d_q(y_h,y_h') : D_Theta(Theta_0(h),Theta_0(h')) <= tau_Theta\}.
 ```
 
-`UpperTail_pre` must be fixed before confirmation — for example a specified high quantile with uncertainty or another robust worst-case estimator justified by the sample design.
+$\mathrm{UpperTail}_{\mathrm{pre}}$ must be fixed before confirmation — for example a specified high quantile with uncertainty or another robust worst-case estimator justified by the sample design.
 
 State insufficiency for the declared experiment requires
 
@@ -438,7 +438,7 @@ State insufficiency for the declared experiment requires
 
 with the uncertainty/precision rule preregistered.
 
-A recruitment candidate `c` closes only when the held-out repaired state satisfies
+A recruitment candidate $c$ closes only when the held-out repaired state satisfies
 
 ```math
 \widehat R_q(Theta_0 \oplus c;u_F) <= epsilon_q.
@@ -501,7 +501,7 @@ lambda_T = earliest loading coordinate at which the macroscopic trajectory
            envelope by more than epsilon_T for the required consecutive increments.
 ```
 
-The exact envelope, `epsilon_T`, and persistence rule are Stage-1 objects and must be frozen.
+The exact envelope, $\varepsilon_T$, and persistence rule are Stage-1 objects and must be frozen.
 
 Define
 
@@ -509,7 +509,7 @@ Define
 L = lambda_T - lambda_R,
 ```
 
-where `lambda_R` is the earliest prospectively confirmed loading coordinate at which `Theta_0` requires `c*` to preserve the declared future within `epsilon_q`.
+where $\lambda_R$ is the earliest prospectively confirmed loading coordinate at which $\Theta_0$ requires $c^*$ to preserve the declared future within $\varepsilon_q$.
 
 A positive lead claim requires `L>0` with preregistered uncertainty. If the intervals overlap or the lead disappears under replication, the prospective-lead claim is NULL even if state recruitment itself remains valid.
 
@@ -519,7 +519,7 @@ The flagship must actively attempt to die under at least these alternatives.
 
 ### N1 — state mismatch
 
-The matched histories were not actually equivalent under `Theta_0`. Tighter matching or a variable already owned by the ordinary state removes the split.
+The matched histories were not actually equivalent under $\Theta_0$. Tighter matching or a variable already owned by the ordinary state removes the split.
 
 **Verdict:** ordinary matching failure; no FSSR recruitment credit.
 
@@ -551,17 +551,17 @@ DIC/EBSD/XRD acquisition, registration, interpolation or analysis pipeline creat
 
 The split lies inside the frozen variability model.
 
-**Verdict:** preserve `Theta_0` for the declared scope.
+**Verdict:** preserve $\Theta_0$ for the declared scope.
 
 ### N7 — probe induction
 
-`u_F` creates the candidate mechanism rather than exposing a pre-existing future distinction.
+$u_F$ creates the candidate mechanism rather than exposing a pre-existing future distinction.
 
 **Verdict:** state-recruitment interpretation contracts.
 
 ### N8 — parameter-design equivalence
 
-`u_PI` selects the same/equivalent challenge and achieves equal held-out state discrimination under matched budget.
+$u_{\mathrm{PI}}$ selects the same/equivalent challenge and achieves equal held-out state discrimination under matched budget.
 
 **Verdict:** FSSR challenge-design delta is NULL; any valid state-recruitment result remains separately scored.
 
@@ -573,7 +573,7 @@ Only a high-dimensional latent coordinate closes, with no stable physical descri
 
 ### N10 — repair overfit
 
-`c*` closes development data but not fresh confirmation or removal/restoration.
+$c^*$ closes development data but not fresh confirmation or removal/restoration.
 
 **Verdict:** recruitment fails.
 
@@ -652,11 +652,11 @@ A strong flagship result requires the exact conjunction claimed in advance. Succ
 
 | Confirmatory pattern | State verdict | FSSR-specific interpretation |
 |---|---|---|
-| No split under strongest lawful `u_F` | preserve `Theta_0` | clean null; simpler state survives |
+| No split under strongest lawful $u_F$ | preserve $\Theta_0$ | clean null; simpler state survives |
 | Split disappears with tighter matching/boundary control | no state failure | experiment found a misaddressed state/challenge |
 | Split survives; established ordinary variable closes | repair valid | ordinary state reconstruction; MKUFT novelty null unless challenge/minimality adds prospective value |
-| Split survives; `c*` closes held-out; `u_PI` matches `u_F` | recruitment supported | challenge-objective delta null |
-| Split survives; `c*` closes; ablation reopens; `u_F` beats `u_PI` | strong methodological support | FSAI/FSSR procedure adds prospective value in this domain |
+| Split survives; $c^*$ closes held-out; $u_{\mathrm{PI}}$ matches $u_F$ | recruitment supported | challenge-objective delta null |
+| Split survives; $c^*$ closes; ablation reopens; $u_F$ beats $u_{\mathrm{PI}}$ | strong methodological support | FSAI/FSSR procedure adds prospective value in this domain |
 | Same plus independent physical deformation/replication and `L>0` | Tier-3 candidate result | bounded mechanism-level flagship support only |
 | Repair fails held-out or cannot survive ordinary baselines | recruitment fails | contract branch; do not add more hidden state post hoc |
 
@@ -664,7 +664,7 @@ A strong flagship result requires the exact conjunction claimed in advance. Succ
 
 Do not guess a universal specimen count in this protocol.
 
-Stage 0/1 estimates variance and measurement repeatability; Stage 2 sample size follows a prospective precision/power calculation tied to the frozen `epsilon_q`, smallest effect of interest and hierarchical structure of specimens/grains/measurements.
+Stage 0/1 estimates variance and measurement repeatability; Stage 2 sample size follows a prospective precision/power calculation tied to the frozen $\varepsilon_q$, smallest effect of interest and hierarchical structure of specimens/grains/measurements.
 
 Require:
 

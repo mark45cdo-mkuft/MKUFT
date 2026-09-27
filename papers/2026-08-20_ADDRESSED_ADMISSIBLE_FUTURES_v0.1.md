@@ -47,7 +47,7 @@ Public routes:
 
 ## 2. Future-sufficient Address
 
-Let `H_t` denote retained history and let `Σ` denote the declared target, horizon, physical/transition model, environment/boundary class, admissible intervention class, measurement resolution and other genuinely load-bearing typed constraints.
+Let $H_t$ denote retained history and let `Σ` denote the declared target, horizon, physical/transition model, environment/boundary class, admissible intervention class, measurement resolution and other genuinely load-bearing typed constraints.
 
 Two histories are future-equivalent when
 
@@ -67,7 +67,7 @@ The effective Address is
 \boxed{A_t=[H_t]_{\sim_{\Sigma}}.}
 ```
 
-For a target `q`, candidate coordinate description `Θ`, declared discrepancy `d` and tolerance `ε_q`, define
+For a target $q$, candidate coordinate description `Θ`, declared discrepancy $d$ and tolerance $\varepsilon_q$, define
 
 ```math
 \boxed{
@@ -120,7 +120,7 @@ and
 \text{no proper lawful subset is sufficient}\}.
 ```
 
-`\mathcal M_q` is the **minimum-sufficient address frontier**. It can contain several incomparable minimal descriptions and can move as the system changes. This replaces “what is the one correct scale?” with the narrower test: which minimum typed descriptions close the declared future target now?
+$\mathcal M_q$ is the **minimum-sufficient address frontier**. It can contain several incomparable minimal descriptions and can move as the system changes. This replaces “what is the one correct scale?” with the narrower test: which minimum typed descriptions close the declared future target now?
 
 ## 4. Present viability and restorative future
 
@@ -138,7 +138,7 @@ with present viability margin
 
 Present viability does not imply recoverability.
 
-Let `G(A_t)` be a restored target, `Q(γ)` task sufficiency with threshold `κ`, and `D_irr(γ)` a vector of declared irreversible losses bounded by `d_R`. The restorative future is
+Let $G(A_t)$ be a restored target, `Q(γ)` task sufficiency with threshold `κ`, and $D_{\mathrm{irr}}(\gamma)$ a vector of declared irreversible losses bounded by $d_R$. The restorative future is
 
 ```math
 \boxed{
@@ -164,7 +164,7 @@ Its existence indicator is
 
 ## 5. Restorative-future reserve
 
-Let `\mathcal D` be a preregistered family of meaningful admissibility-structure deformations with cost `c(Δ)`. Define
+Let $\mathcal D$ be a preregistered family of meaningful admissibility-structure deformations with cost `c(Δ)`. Define
 
 ```math
 \boxed{
@@ -188,7 +188,7 @@ H>0
 
 ## 6. Load-bearing relation by deformation
 
-Let `C` be a relation or coalition and let `Ψ` be a preregistered future readout. Define
+Let $C$ be a relation or coalition and let `Ψ` be a preregistered future readout. Define
 
 ```math
 \boxed{
@@ -200,13 +200,13 @@ Let `C` be a relation or coalition and let `Ψ` be a preregistered future readou
 }
 ```
 
-A relation is load-bearing relative to `(A_t,Ψ)` when its controlled removal materially deforms the declared future readout. It is terminally load-bearing when removal destroys every sufficient restorative continuation.
+A relation is load-bearing relative to $(A_t,\Psi)$ when its controlled removal materially deforms the declared future readout. It is terminally load-bearing when removal destroys every sufficient restorative continuation.
 
 This is intentionally different from centrality, current flow, repetition or visual prominence. A dormant backup can be strongly load-bearing; a heavily used edge can be replaceable.
 
 ## 7. Graph approximation
 
-For a finite directed/time-expanded network with edge capacity `c_e`, the graph estimator of restorative reserve from present node `s` to restored target set `G` is
+For a finite directed/time-expanded network with edge capacity $c_e$, the graph estimator of restorative reserve from present node $s$ to restored target set $G$ is
 
 ```math
 \boxed{
@@ -274,7 +274,7 @@ The paper freezes:
 - escape versus maintained arrest through 8 h as inherited from the source analysis;
 - pre-5 h p21 history, regimen and elapsed dose timing as the candidate Address;
 - leave-one-biological-replicate-out evaluation;
-- `\chi_R` and `\rho_R` as AAF readouts;
+- $\chi_R$ and $\rho_R$ as AAF readouts;
 - a regularised same-history model as the crucial comparator;
 - history scrambling, relation rewiring and label-permutation controls;
 - a strong result only when the AAF readouts improve held-out performance and the real directed relation structure beats the rewired control.

@@ -67,7 +67,7 @@ Canonical technical owner: [Module 33S6 — Addressed Admissible Futures](docs/3
 
 The future-sufficiency family now carries one further bounded consequence without changing its scientific status.
 
-Let `O_t` be the declared observer/registration state and let `W_t^q` denote only the retained trajectory residue that remains decision-bearing for target `q`. Let
+Let $O_t$ be the declared observer/registration state and let $W_t^q$ denote only the retained trajectory residue that remains decision-bearing for target $q$. Let
 
 ```math
 \mathcal D_t^q

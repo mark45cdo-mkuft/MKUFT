@@ -44,12 +44,12 @@ Y1 = [A, M, C, K, G, L, E]
 
 where the public ATLD paper defines the readouts as:
 
-- `A` — task accuracy;
-- `M` — multi-entry convergence/reconstruction;
-- `C` — contradiction detection/localisation;
-- `K` — correction propagation;
-- `G` — calibration;
-- `L` — branch-failure localisation/repair;
+- $A$ — task accuracy;
+- $M$ — multi-entry convergence/reconstruction;
+- $C$ — contradiction detection/localisation;
+- $K$ — correction propagation;
+- $G$ — calibration;
+- $L$ — branch-failure localisation/repair;
 - `E` — efficiency plus evidence-path validity.
 
 ATLD 2 does not reinterpret those seven after seeing the successor candidates. Their causal role remains the frozen predecessor surface.
@@ -108,7 +108,7 @@ Therefore a visually convenient twelve-axis plot must not be mistaken for a clai
 
 A new failure class is not automatically a new coordinate.
 
-A candidate residual `x` earns a dedicated coordinate only if the failure cannot be recovered with non-inferior diagnostic risk and lower/equal complexity from the retained measurement body under matched information and budget.
+A candidate residual $x$ earns a dedicated coordinate only if the failure cannot be recovered with non-inferior diagnostic risk and lower/equal complexity from the retained measurement body under matched information and budget.
 
 Operationally:
 
@@ -132,13 +132,13 @@ Module 25C states the higher-order methodological consequence of this rule and t
 
 Coordinate removal is meaningless if the evaluator reconstructs the missing distinction from an x-specific oracle or renamed score field.
 
-When `x` is removed, the recovery arm may use only:
+When $x$ is removed, the recovery arm may use only:
 
 - the remaining preregistered measurement body;
 - metadata available in every condition;
-- generic run features declared independently of `x`.
+- generic run features declared independently of $x$.
 
-A new field or rubric whose sole purpose is to restore `x` is reintroduction, not recovery.
+A new field or rubric whose sole purpose is to restore $x$ is reintroduction, not recovery.
 
 ## 7. Causal-shadow control
 
@@ -153,7 +153,7 @@ INDEPENDENT CO-FAILURE
 UNRESOLVED COUPLING
 ```
 
-A targeted repair of `x` should restore only the x-specific relation where the synthetic world permits it. If a downstream coordinate recovers with that repair, its prior movement is evidence for a causal shadow rather than a second independent failure. If it stays deformed, co-failure or unresolved coupling remains live.
+A targeted repair of $x$ should restore only the x-specific relation where the synthetic world permits it. If a downstream coordinate recovers with that repair, its prior movement is evidence for a causal shadow rather than a second independent failure. If it stays deformed, co-failure or unresolved coupling remains live.
 
 Do not multiply scientific claims by counting one wound at several downstream surfaces.
 
@@ -171,7 +171,7 @@ are transition-level route states, with the first demonstrated break localised w
 
 Endpoint correctness does not erase a broken route. Equally, a route-support witness does not need a new undifferentiated coordinate when the failure itself is already owned by A/M/C/K/G/L/E/O/U/R/V/F.
 
-The 23 August 2026 Release Relay pilot supplied a practical example. The foreign comparator's RR-14 error was already captured by `L` plus route support/first-break localisation, with calibration movement in `G`. No thirteenth coordinate was earned.
+The 23 August 2026 Release Relay pilot supplied a practical example. The foreign comparator's RR-14 error was already captured by $L$ plus route support/first-break localisation, with calibration movement in $G$. No thirteenth coordinate was earned.
 
 ## 9. Anti-Goodhart mirror rule
 
@@ -208,7 +208,7 @@ The pilot's value is that the measurement surface returned a **shaped diagnostic
 
 ## 11. Promotion and collapse rule
 
-Candidate coordinate `x` remains provisional until it survives:
+Candidate coordinate $x$ remains provisional until it survives:
 
 1. reproducible direct selective deformation;
 2. reproducible mirror deformation;
@@ -221,7 +221,7 @@ Candidate coordinate `x` remains provisional until it survives:
 9. cross-model/system replication;
 10. evaluator and scoring reproducibility appropriate to the task.
 
-If `x` fails, merge, demote, or remove it.
+If $x$ fails, merge, demote, or remove it.
 
 If all five candidates collapse, ATLD 2 remains useful as a sharper validation/security extension of ATLD v1.0, but the twelve-coordinate successor claim does not survive.
 

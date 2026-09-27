@@ -158,7 +158,7 @@ The prospective HCP-magnesium flagship in [28C](28C_FSAI_FSSR_MINIMUM_DECISIVE_F
 - the separating challenge creates the candidate mechanism rather than revealing an already future-bearing distinction;
 - generic damage or an ordinary compensating route reproduces the same deformation signature;
 - computational state-variable deletion is treated as physical ablation without a native causal bridge;
-- the claimed recruitment lead `lambda_R < lambda_T` disappears under preregistered confirmation or replication;
+- the claimed recruitment lead $\lambda_R < \lambda_T$ disappears under preregistered confirmation or replication;
 - or independent replication fails.
 
 The experiment returns four separately governed verdicts — **state sufficiency, challenge-design value, mechanism localisation, and prospective lead**. A success in one may not be used to rescue a null or failure in another. Established twinning, detwinning, hysteresis or constitutive memory is native materials-science evidence and is not itself evidence for MKUFT.

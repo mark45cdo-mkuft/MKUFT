@@ -24,7 +24,7 @@ Let the fuller relational object be
 X=(N,R,\tau,\alpha),
 ```
 
-where `N` is the bounded constituent family, `R` the typed relation family, `\tau` the type/address/scope assignment, and `\alpha` only those auxiliary coordinates that are operationally real in the target domain. For a declared future-operation family `F`, a closure is
+where $N$ is the bounded constituent family, $R$ the typed relation family, $\tau$ the type/address/scope assignment, and $\alpha$ only those auxiliary coordinates that are operationally real in the target domain. For a declared future-operation family $F$, a closure is
 
 ```math
 Y=C_F(X).
@@ -95,9 +95,9 @@ S=E_{00}+E_{01}+E_{10}-E_{11},
 
 v0.3 records three useful interface results:
 
-1. different correlator tuples can share the same scalar `S`, so a score-only closure can be valid for score questions while failing a widened correlator question;
+1. different correlator tuples can share the same scalar $S$, so a score-only closure can be valid for score questions while failing a widened correlator question;
 2. full behaviours can share the same four correlators while differing in signalling marginals, so a correlator-only closure cannot certify general no-signalling and must reopen the probability/marginal object when the target widens;
-3. holding `E_{00}=E_{01}=E_{10}=1/\sqrt2`, changing only `E_{11}` from `-1/\sqrt2` to `0` changes `S` from `2\sqrt2` to `3/\sqrt2`; at the stated unbiased-marginal correlator scope both tuples satisfy the appropriate native quantum-correlator criterion, so this is an object-level targeted ablation/restoration example inside the native quantum-correlator set.
+3. holding `E_{00}=E_{01}=E_{10}=1/\sqrt2`, changing only $E_{11}$ from `-1/\sqrt2` to `0` changes $S$ from $2\\sqrt{2}$ to `3/\sqrt2`; at the stated unbiased-marginal correlator scope both tuples satisfy the appropriate native quantum-correlator criterion, so this is an object-level targeted ablation/restoration example inside the native quantum-correlator set.
 
 The physical Phase-0 verdict is **NULL**:
 

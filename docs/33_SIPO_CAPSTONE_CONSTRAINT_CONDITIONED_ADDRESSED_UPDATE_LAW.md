@@ -10,7 +10,7 @@
 **Novelty boundary:** [32A — Module 32 Novelty Audit and Contribution Boundary](32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md)  
 **Public formulation date:** 15 August 2026  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
-**Status:** canonical architectural capstone for the current MKUFT S–I–P–O loop. It replaces the previously undefined `Update_SIPO` placeholder with a typed factorisation. It closes the **architectural update object**, not the empirical unification problem. It does not by itself derive quantum mechanics, general relativity, the Born rule, Bell correlations, a new force, an independent I layer, or a unique microscopic ontology.
+**Status:** canonical architectural capstone for the current MKUFT S–I–P–O loop. It replaces the previously undefined $\mathrm{Update}_{\mathrm{SIPO}}$ placeholder with a typed factorisation. It closes the **architectural update object**, not the empirical unification problem. It does not by itself derive quantum mechanics, general relativity, the Born rule, Bell correlations, a new force, an independent I layer, or a unique microscopic ontology.
 
 ## 1. Why this capstone exists
 
@@ -42,7 +42,7 @@ S^\star=(\Omega^\star,\Sigma^\star,\mu^\star)
 
 as the ambient structured-possibility hypothesis.
 
-Do not silently interpret every recursive update as changing the whole ambient substrate. At time `t`, use an effective possibility object
+Do not silently interpret every recursive update as changing the whole ambient substrate. At time $t$, use an effective possibility object
 
 ```math
 S_t^{\mathrm{eff}}
@@ -58,7 +58,7 @@ S_t^{\mathrm{eff}}
 
 where the active support, sigma-algebra and measure are declared by the implementation.
 
-The conservative meaning of the recursive `O→S` leg is:
+The conservative meaning of the recursive $O\to S$ leg is:
 
 > **a realised physical/registered outcome changes the state, history, context and relations from which the next effective possibility set is computed.**
 
@@ -636,7 +636,7 @@ Historical priority for that exact conjunction is not asserted without broader r
 
 ## 17. Closure statement
 
-The live-canon `Update_SIPO` is no longer only an unnamed arrow.
+The live-canon $\mathrm{Update}_{\mathrm{SIPO}}$ is no longer only an unnamed arrow.
 
 The architectural chain is
 

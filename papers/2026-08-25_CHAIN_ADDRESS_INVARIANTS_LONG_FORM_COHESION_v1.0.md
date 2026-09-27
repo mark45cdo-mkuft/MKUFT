@@ -28,13 +28,13 @@ The method is adjacent to sufficient statistics, information bottlenecks, predic
 
 ATLD v1.0 introduced a matched-control protocol for asking whether meaningful typed dependency architecture and active recursive traversal contribute causal functional gain beyond the same information presented through flatter or disrupted controls. ATLD 2 preserved that causal grammar while asking whether important long-horizon failures remain outside the original measurement body. Its candidate residual coordinates include:
 
-- `O` — exact object/address custody;
-- `U` — permission/action-state integrity;
-- `R` — future-sufficient continuity/re-entry fidelity;
-- `V` — receiver-side closure;
-- `F` — parent fixed-point closure.
+- $O$ — exact object/address custody;
+- $U$ — permission/action-state integrity;
+- $R$ — future-sufficient continuity/re-entry fidelity;
+- $V$ — receiver-side closure;
+- $F$ — parent fixed-point closure.
 
-The present paper is attached to that lineage but does not add another ATLD coordinate. It addresses an operational burden that becomes visible once `R` and `V` are taken seriously: a system may require a long sequence of typed handoffs to discover or reach a destination, yet repeatedly replaying the entire history is expensive and exposes the system to cumulative composition drift. A compact summary may be cheaper but can succeed only because the receiver already holds hidden history, reconstructs the wrong sibling object, or accommodates ambiguous shorthand.
+The present paper is attached to that lineage but does not add another ATLD coordinate. It addresses an operational burden that becomes visible once $R$ and $V$ are taken seriously: a system may require a long sequence of typed handoffs to discover or reach a destination, yet repeatedly replaying the entire history is expensive and exposes the system to cumulative composition drift. A compact summary may be cheaper but can succeed only because the receiver already holds hidden history, reconstructs the wrong sibling object, or accommodates ambiguous shorthand.
 
 The question is therefore:
 
@@ -319,7 +319,7 @@ C_B^{\mathrm{cold}}=\mathrm{FAIL},
 
 then the compact jacket omitted load-bearing state. The lawful response is to enlarge $\kappa$, refine $\alpha$, or retain the full history.
 
-This is the direct operational bridge to ATLD 2's `R` and `V` readouts. Future-sufficient continuity is not the reproduction of familiar text, and receiver-side closure is not established merely because the source believes the handoff is correct.
+This is the direct operational bridge to ATLD 2's $R$ and $V$ readouts. Future-sufficient continuity is not the reproduction of familiar text, and receiver-side closure is not established merely because the source believes the handoff is correct.
 
 ## 10. Bidirectional validation without false invertibility
 

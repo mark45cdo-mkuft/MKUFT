@@ -18,7 +18,7 @@
 
 History-dependent dynamical systems are commonly modelled by augmenting observable state with latent or internal variables. Modern methods can learn such variables, select latent dimension, impose thermodynamic structure and optimise experiments for parameter identifiability; predictive-state formalisms define state by the futures a history supports under admissible inputs; and active-probing methods can expose approaching transitions. These results leave a narrower empirical question: can the **failure and repair of a state representation itself** serve as a prospective physical signal and mechanism-localisation instrument?
 
-Future-Splitting State Recruitment (FSSR) provides a direct test. A candidate state map `Θ` is sufficient for target `q`, horizon `Δ`, regime `λ` and challenge family `U` only when histories mapped to the same state remain future-equivalent within a preregistered tolerance. A future-splitting challenge is an admissible continuation chosen to maximise divergence between futures of histories that `Θ` has merged. If confirmatory divergence exceeds tolerance under an independent continuation source, `Θ` has failed. The state is then augmented by the smallest preregistered, physically typed coordinate or coalition that restores predictive closure on held-out data; reproducible failure, restoration and remove/restore deformation define a **state-recruitment event**.
+Future-Splitting State Recruitment (FSSR) provides a direct test. A candidate state map `Θ` is sufficient for target $q$, horizon `Δ`, regime `λ` and challenge family $U$ only when histories mapped to the same state remain future-equivalent within a preregistered tolerance. A future-splitting challenge is an admissible continuation chosen to maximise divergence between futures of histories that `Θ` has merged. If confirmatory divergence exceeds tolerance under an independent continuation source, `Θ` has failed. The state is then augmented by the smallest preregistered, physically typed coordinate or coalition that restores predictive closure on held-out data; reproducible failure, restoration and remove/restore deformation define a **state-recruitment event**.
 
 FSSR makes three discriminating predictions. First, where an emerging physical mechanism becomes future-discriminating before its conventional macroscopic marker is overt, recruitment can precede that marker. Second, recruitment can occur without a detectable change in snapshot intrinsic dimension because the missing distinction may reside in history, phase, boundary relation or another coordinate absent from the instantaneous observable manifold. Third, loading selected to falsify state adequacy need not coincide with loading selected to maximise parameter information. The paper specifies independent-continuation, near-state matching, probe-induction and nested-confirmation gates; a deterministic holographic calibration; a single-cell biological anchor; and a flagship test in learned history-dependent constitutive mechanics.
 
@@ -45,13 +45,13 @@ Public routes:
 
 ## 2. State adequacy as a future claim
 
-Let `H_t` denote retained history. A candidate state representation is
+Let $H_t$ denote retained history. A candidate state representation is
 
 ```math
 \Theta:\mathcal H\rightarrow\mathcal Z_{\Theta}.
 ```
 
-Fix target `q`, horizon `\Delta`, admissible challenge family `\mathcal U`, regime `\lambda`, environment/boundary class `E`, discrepancy `d` and closure tolerance `\varepsilon_q`.
+Fix target $q$, horizon $\Delta$, admissible challenge family $\mathcal U$, regime $\lambda$, environment/boundary class $E$, discrepancy $d$ and closure tolerance $\varepsilon_q$.
 
 Two histories are future-equivalent when
 
@@ -76,7 +76,7 @@ Thus “same state” is not merely a coordinate convention. It is an empirical 
 
 ## 3. Closure residual
 
-For histories collapsed by `\Theta`, define challenge-conditioned divergence
+For histories collapsed by $\Theta$, define challenge-conditioned divergence
 
 ```math
 \delta_{q,\Delta}(h,h';u,\lambda)
@@ -98,7 +98,7 @@ R_q(\Theta;\lambda,\Delta,\mathcal U)
 }
 ```
 
-`\Theta` is `\varepsilon_q`-sufficient when
+$\Theta$ is $\varepsilon_q$-sufficient when
 
 ```math
 R_q(\Theta;\lambda,\Delta,\mathcal U)\leq\varepsilon_q.
@@ -159,7 +159,7 @@ R_q(\Theta_0;\lambda_0)\leq\varepsilon_q,
 R_q(\Theta_0;\lambda_1)>\varepsilon_q.
 ```
 
-For a preregistered physically typed candidate augmentation `c`, define a repair when
+For a preregistered physically typed candidate augmentation $c$, define a repair when
 
 ```math
 R_q(\Theta_0\oplus c;\lambda_1)\leq\varepsilon_q.
@@ -191,7 +191,7 @@ An arbitrary latent neuron is not automatically a physical mechanism. Mechanism-
 
 ## 7. Prospective prediction
 
-Let `\lambda_R` denote the earliest regime in which a new typed augmentation is required, and let `\lambda_T` denote a preregistered conventional transition marker.
+Let $\lambda_R$ denote the earliest regime in which a new typed augmentation is required, and let $\lambda_T$ denote a preregistered conventional transition marker.
 
 ```math
 \boxed{L=\lambda_T-\lambda_R.}

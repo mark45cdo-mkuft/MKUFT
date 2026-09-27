@@ -161,7 +161,7 @@ Examples include replacing a causal dependency with correlation, replacing agenc
 
 The Cross-Domain Compositional Schema v0.3 sharpens a deformation rule that belongs at this module's assay layer: **exact relation ablation is a prospectively declared lawful protocol, not an automatic delete operation and not automatically a physical intervention.**
 
-Let `\mathcal A_r` be the preregistered family of lawful protocols capable of removing, neutralising, substituting, or counterfactually suppressing the exact addressed relation `r` while holding the declared comparison object fixed as far as the domain permits. For a declared future-operation family `F`, the assay returns a three-way state
+Let $\mathcal A_r$ be the preregistered family of lawful protocols capable of removing, neutralising, substituting, or counterfactually suppressing the exact addressed relation $r$ while holding the declared comparison object fixed as far as the domain permits. For a declared future-operation family $F$, the assay returns a three-way state
 
 ```math
 \mathrm{LB}_F(r;\mathcal G,\mathcal A_r)
@@ -184,7 +184,7 @@ Module 33S7A owns the corresponding preserve/reopen consequence for future-suffi
 
 ### 7.3B Reparameterisation-control deformation
 
-The published Cross-Domain v0.4 Bell continuation adds a specific null control to the deformation family. A candidate geometry may survive exact ablation and reconstruction yet still be only a change of coordinates. Where a proposed representation `Phi` is bijective on the tested object, compare every claimed prediction, admissibility decision, and statistic under `Phi` and `Phi^{-1}` before assigning reality or generative load.
+The published Cross-Domain v0.4 Bell continuation adds a specific null control to the deformation family. A candidate geometry may survive exact ablation and reconstruction yet still be only a change of coordinates. Where a proposed representation $\Phi$ is bijective on the tested object, compare every claimed prediction, admissibility decision, and statistic under $\Phi$ and $\Phi^{-1}$ before assigning reality or generative load.
 
 ```text
 same physical object

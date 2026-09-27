@@ -100,7 +100,7 @@ generic capability
 ≠ mechanism identification.
 ```
 
-Failure of candidate mechanism `M_A` may leave a residual. It does **not** identify candidate `M_B` without positive evidence that discriminates `M_B` from the remaining alternatives.
+Failure of candidate mechanism $M_A$ may leave a residual. It does **not** identify candidate $M_B$ without positive evidence that discriminates $M_B$ from the remaining alternatives.
 
 A laboratory or computational reconstruction closes only the material, scale, boundary, operating regime, and readout it actually reproduces.
 

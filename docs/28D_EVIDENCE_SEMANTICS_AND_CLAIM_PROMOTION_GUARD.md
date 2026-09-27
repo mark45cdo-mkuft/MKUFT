@@ -24,7 +24,7 @@ At an explicitly addressed comparison between live hypotheses, a datum, observat
 P(E\mid H_1) \neq P(E\mid H_0).
 ```
 
-This is a comparison rule, not a declaration that every item labelled `E` is reliable or independent. Source quality, dependence, uncertainty, selection effects, measurement error and alternative explanations still determine evidential weight.
+This is a comparison rule, not a declaration that every item labelled $E$ is reliable or independent. Source quality, dependence, uncertainty, selection effects, measurement error and alternative explanations still determine evidential weight.
 
 The direction of that update must also remain typed:
 
@@ -71,7 +71,7 @@ Where evidence exists but a stronger burden is unmet, state the unmet burden dir
 - evidence bears on a mechanism hypothesis, but is not sufficient for attribution;
 - the result has not passed the required promotion or foundational-recovery gate.
 
-Reserve `no evidence bearing on this comparison` for an addressed comparison where no carried observation, datum, record, measurement, testimony, residue or lawful inference has non-null relevance to the declared alternatives. Reserve `no evidence supporting H` for the narrower case where no carried item gives positive support to `H` over the stated competitor; evidence against `H` must not be mislabelled as support merely because it is relevant.
+Reserve `no evidence bearing on this comparison` for an addressed comparison where no carried observation, datum, record, measurement, testimony, residue or lawful inference has non-null relevance to the declared alternatives. Reserve `no evidence supporting H` for the narrower case where no carried item gives positive support to $H$ over the stated competitor; evidence against $H$ must not be mislabelled as support merely because it is relevant.
 
 ## 4. Promotion remains strict
 

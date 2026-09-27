@@ -36,7 +36,7 @@ Compressed rule:
 
 ## 2. Geometric path versus time-parameterised traversal
 
-Let `\mathcal U` be a declared control/context space and let
+Let $\mathcal U$ be a declared control/context space and let
 
 ```math
 u:[0,T]\rightarrow\mathcal U
@@ -44,7 +44,7 @@ u:[0,T]\rightarrow\mathcal U
 
 be a time-parameterised control or context schedule.
 
-The image and orientation of `u` define the geometric route through `\mathcal U`; the map from physical time into that route defines its schedule.
+The image and orientation of $u$ define the geometric route through $\mathcal U$; the map from physical time into that route defines its schedule.
 
 Let
 
@@ -68,7 +68,7 @@ u_2(t)=u_1(\phi(t)).
 }
 ```
 
-Where differentiability is required by the implementation, `\phi` must be correspondingly regular.
+Where differentiability is required by the implementation, $\phi$ must be correspondingly regular.
 
 This relation preserves route order while allowing different rates and dwell times. It therefore distinguishes three objects:
 
@@ -94,7 +94,7 @@ x(0)=x_0.
 }
 ```
 
-No explicit `\dot u` term is required for schedule dependence to appear. If `x` responds with finite dynamics, changing the timing of `u(t)` changes the forcing history seen by `x` and may therefore change `x(T)`.
+No explicit $\dot u$ term is required for schedule dependence to appear. If $x$ responds with finite dynamics, changing the timing of `u(t)` changes the forcing history seen by $x$ and may therefore change `x(T)`.
 
 Thus it is generally invalid to infer
 
@@ -118,13 +118,13 @@ If a measurable internal adaptation state `z(t)` closes the result through a ful
 \dot z=g(x,z,u,e),
 ```
 
-then `z` belongs in the operational address and rate need not be promoted as an independent causal variable.
+then $z$ belongs in the operational address and rate need not be promoted as an independent causal variable.
 
 > **Rate can be a useful address coordinate or proxy without being a fundamental cause.**
 
 ## 4. Rate/schedule as a candidate address coordinate
 
-Module 33S4 defines an operational address from a typed coordinate family `\Theta` and retains a new coordinate only when it reduces target-relevant residual divergence under held-out or prospective testing.
+Module 33S4 defines an operational address from a typed coordinate family $\Theta$ and retains a new coordinate only when it reduces target-relevant residual divergence under held-out or prospective testing.
 
 For schedule-sensitive candidates, define
 
@@ -134,9 +134,9 @@ For schedule-sensitive candidates, define
 \Theta\cup\{c_{\mathrm{sched}}\},
 ```
 
-where `c_sched` may be, depending on the implementation:
+where $c_{\mathrm{sched}}$ may be, depending on the implementation:
 
-- a local rate `\dot u(t)` where differentiability and coordinate meaning are lawful;
+- a local rate $\dot u(t)$ where differentiability and coordinate meaning are lawful;
 - a metric-qualified speed where the control space has a declared metric;
 - dwell times in declared regions;
 - phase within a forcing protocol;
@@ -158,7 +158,7 @@ The candidate earns load through the existing completion-gain object
 
 with the same held-out, prospective, leakage, complexity, and negative-control burdens as Module 33S4.
 
-If `c_sched` produces no stable reduction in the target residual, the current address does not earn schedule augmentation for that target and regime.
+If $c_{\mathrm{sched}}$ produces no stable reduction in the target residual, the current address does not earn schedule augmentation for that target and regime.
 
 If a fuller measurable state closes the same residual with equal or better predictive/interventional performance, prefer that state description over an irreducible rate claim.
 
@@ -207,7 +207,7 @@ If no lawful metric exists on the active space, do **not** manufacture distance 
 
 ## 6. Competing timescales and adaptive reorganisation
 
-Where the system has a measurable or operationally estimable relaxation/adaptation timescale `\tau_{\mathrm{rel}}` and the imposed change has a characteristic driving timescale `\tau_{\mathrm{drv}}`, a dimensionless comparison may be written as
+Where the system has a measurable or operationally estimable relaxation/adaptation timescale $\tau_{\mathrm{rel}}$ and the imposed change has a characteristic driving timescale $\tau_{\mathrm{drv}}$, a dimensionless comparison may be written as
 
 ```math
 \boxed{
@@ -221,9 +221,9 @@ This is a comparator, not a universal MKUFT constant.
 
 Very schematically:
 
-- `\chi\ll1` is compatible with a quasi-static regime in which internal relaxation is fast compared with the drive;
-- `\chi` of order unity indicates that internal response and imposed change occur on comparable timescales, so lag or schedule sensitivity may become important;
-- `\chi\gg1` indicates that the drive is fast relative to the declared relaxation process and tracking may fail or become strongly history-dependent.
+- $\chi\ll1$ is compatible with a quasi-static regime in which internal relaxation is fast compared with the drive;
+- $\chi$ of order unity indicates that internal response and imposed change occur on comparable timescales, so lag or schedule sensitivity may become important;
+- $\chi\gg1$ indicates that the drive is fast relative to the declared relaxation process and tracking may fail or become strongly history-dependent.
 
 No universal numerical threshold is asserted. Different systems can contain several relaxation times, several control timescales, nonlinear response, stochastic transitions, or regime-specific thresholds.
 
@@ -278,7 +278,7 @@ The hierarchy is diagnostic, not ontological.
 
 ## 8. Relation to scale transition and higher-order availability
 
-Suppose a lower state `x` is mapped to a candidate higher relational state
+Suppose a lower state $x$ is mapped to a candidate higher relational state
 
 ```math
 \pi_R:X\rightarrow Y.
@@ -286,7 +286,7 @@ Suppose a lower state `x` is mapped to a candidate higher relational state
 
 A higher-order capability or law address may become available only after the lower system has entered and maintained the relation set required for that higher state.
 
-If the imposed traversal changes faster than the relevant lower organisation can settle, two nominally similar endpoint controls can leave the system in different members of `X`, different closure margins, or different admissible higher-address classes.
+If the imposed traversal changes faster than the relevant lower organisation can settle, two nominally similar endpoint controls can leave the system in different members of $X$, different closure margins, or different admissible higher-address classes.
 
 Therefore a claim of higher-address availability must not be inferred from the external control coordinate alone.
 
@@ -434,7 +434,7 @@ If schedule information remains load-bearing, it belongs in the typed history/co
 
 > **Endpoint equivalence does not establish path equivalence. Path equivalence does not establish time-parameterised trajectory equivalence.**
 
-> **A rate effect can arise from ordinary finite response; do not manufacture a fundamental `\dot u` coupling when a fuller state closes the dynamics.**
+> **A rate effect can arise from ordinary finite response; do not manufacture a fundamental $\dot u$ coupling when a fuller state closes the dynamics.**
 
 > **Rate, dwell time, and schedule are candidate address coordinates, not automatic coordinates. They earn load by prospective residual reduction.**
 

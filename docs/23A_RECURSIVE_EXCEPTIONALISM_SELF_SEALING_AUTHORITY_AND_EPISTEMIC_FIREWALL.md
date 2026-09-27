@@ -215,7 +215,7 @@ For matched changes in event salience without new competence evidence:
 T_{QS}=\frac{\Delta s}{\Delta q}.
 ```
 
-A positive `T_QS` is the transfer to inspect when an event becoming more subjectively or socially powerful also increases inherent chosen/special/ranked self-attribution.
+A positive $T_{\mathrm{QS}}$ is the transfer to inspect when an event becoming more subjectively or socially powerful also increases inherent chosen/special/ranked self-attribution.
 
 It is not automatically pathological. The test asks whether the **status change is independently earned** or merely imported from salience.
 
@@ -239,15 +239,15 @@ inside its declared domain. The firewall is not anti-expertise.
 
 ### 5.3 Disconfirmation-to-belief gain
 
-Define `e^-` so that larger values mean stronger genuinely disconfirming evidence. Then:
+Define $e^-$ so that larger values mean stronger genuinely disconfirming evidence. Then:
 
 ```math
 G_{DB}=\frac{\Delta b}{\Delta e^-}.
 ```
 
-Under a clean disconfirming intervention and absent new supporting information, evidence-sensitive updating normally predicts `G_DB ≤ 0`, subject to noise and model specification.
+Under a clean disconfirming intervention and absent new supporting information, evidence-sensitive updating normally predicts $G_{\mathrm{DB}} \le 0$, subject to noise and model specification.
 
-A reproducible `G_DB > 0` **without independently new supporting evidence** is a candidate self-sealing gain.
+A reproducible $G_{\mathrm{DB}} > 0$ **without independently new supporting evidence** is a candidate self-sealing gain.
 
 This is not a claim that all correction attempts backfire or that disagreement should always reduce confidence.
 
@@ -259,7 +259,7 @@ For an intervention intended to reduce status fusion:
 G_{HS}=\frac{\Delta s}{\Delta h}.
 ```
 
-If successful self-critique, modesty, explicit rejection of special status, or praise for being humble reliably increases exceptional self-status, `G_HS > 0` exposes the recursive-exceptionalism seam.
+If successful self-critique, modesty, explicit rejection of special status, or praise for being humble reliably increases exceptional self-status, $G_{\mathrm{HS}} > 0$ exposes the recursive-exceptionalism seam.
 
 ### 5.5 Local authority-transfer matrix
 
@@ -417,7 +417,7 @@ does praise for anti-status behaviour increase exceptional self-status
 or authority claims beyond the local repair?
 ```
 
-This is the direct test of `G_HS`.
+This is the direct test of $G_{\mathrm{HS}}$.
 
 ### 7.6 Mirror condition
 
@@ -436,7 +436,7 @@ A firewall should reduce wrong-address transfer without requiring false equivale
 Weaken or reject the proposed framework if:
 
 - the transfer coefficients are unstable under reasonable operationalisations;
-- `G_HS` does not reproduce beyond demand characteristics or generic praise effects;
+- $G_{\mathrm{HS}}$ does not reproduce beyond demand characteristics or generic praise effects;
 - salience adds no status transfer after ordinary variables are controlled;
 - status adds no authority transfer after competence and mandate are controlled;
 - the vector adds no predictive value beyond established constructs;
@@ -647,7 +647,7 @@ This module is useful only if it can become more than good advice.
 
 The decisive questions are prospective:
 
-1. Can `T_QS`, `T_SA`, `G_DB`, or `G_HS` be operationalised reliably?
+1. Can $T_{\mathrm{QS}}$, $T_{\mathrm{SA}}$, $G_{\mathrm{DB}}$, or $G_{\mathrm{HS}}$ be operationalised reliably?
 2. Do they predict named future failures or recoveries better than established constructs alone?
 3. Does the direct/mirror design reveal asymmetric wrong-address transfer?
 4. Does the meta-humility intervention demonstrate a reproducible second-order rebound rather than generic praise sensitivity?

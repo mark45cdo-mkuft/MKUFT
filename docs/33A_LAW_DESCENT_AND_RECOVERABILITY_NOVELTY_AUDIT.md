@@ -63,7 +63,7 @@ Coarse-graining can create non-Markovian dynamics. Mori–Zwanzig methods explic
 
 Control and viability theory already distinguish admissible/safe state sets, viability, invariance, controllability and reachability under declared control classes and constraints.
 
-**Boundary:** the binary recoverability scaffold `Rec_H` in 33S3 is not a new reachability theorem or a claim to have invented viability kernels.
+**Boundary:** the binary recoverability scaffold $Rec_H$ in 33S3 is not a new reachability theorem or a claim to have invented viability kernels.
 
 ### 2.7 Hysteresis, alternative stable states and recovery dynamics are established
 
@@ -124,8 +124,8 @@ No exact prior formulation of that full inference rule was located in this audit
 
 33S2 defines separate margins for:
 
-- loss/fracture of the relation constituting the organised whole, `M_C`;
-- loss of higher-address law sufficiency for a declared property, `M_D(q)`.
+- loss/fracture of the relation constituting the organised whole, $M_C$;
+- loss of higher-address law sufficiency for a declared property, $M_D(q)$.
 
 The essential consequence is that a higher-order object can remain real and organised after the simpler macro law for a particular property has failed.
 
@@ -181,7 +181,7 @@ Each component has strong antecedents, but the audit did not locate this exact t
 
 The tuple
 
-`(ΔJ_l, ΔM_C, ΔM_D(q))`
+$(\DeltaJ_l, \DeltaM_C, \DeltaM_D(q))$
 
 forces local performance, whole-level closure and higher-law sufficiency to be measured separately. The alignment classes — aligned, antagonistic, neutral/decoupled and mixed/property-relative — do not claim a universal biological or physical mechanism.
 
@@ -242,10 +242,10 @@ A weak synthesis merely renames familiar concepts. The 33S2/33S3 family is stron
 
 It does so by generating distinct measurable objects and possible boundary orderings:
 
-- `M_D(q)` — property-specific higher-law sufficiency margin;
-- `M_C` — constitutive closure margin;
-- `Rec_H` — target- and control-relative recoverability;
-- `J_l` — lower-address performance variable;
+- $M_D(q)$ — property-specific higher-law sufficiency margin;
+- $M_C$ — constitutive closure margin;
+- $Rec_H$ — target- and control-relative recoverability;
+- $J_l$ — lower-address performance variable;
 - cross-scale sign/alignment classes;
 - explicit descent-strength classes;
 - prospective readdressing conditions;
@@ -290,14 +290,14 @@ Repeated prospective success of that kind would support calling the residual a *
 | Predictive vs interventional adequacy | causal abstraction / causal consistency | inherited principle | Low |
 | Functional object ≠ autonomous law for every property | emergence, autonomy, effective dynamics adjacent | explicit separation plus operational gate | Moderate candidate |
 | Lineage → function → closure → law sufficiency | pieces distributed across fields | exact four-object decision chain not located | Moderate candidate |
-| Closure margin `M_C` vs descent margin `M_D(q)` | adjacent stability/reduction concepts | paired margin inside addressed-law ownership | Moderate candidate |
+| Closure margin $M_C$ vs descent margin $M_D(q)$ | adjacent stability/reduction concepts | paired margin inside addressed-law ownership | Moderate candidate |
 | Bidirectional evidence-triggered readdressing | adaptive multiscale modelling broadly | tied specifically to property-law sufficiency without deleting higher object | Moderate candidate |
 | Address before law ownership | effective theories/coarse-graining adjacent | exact recursive rule not located | **Moderate–high candidate synthesis** |
 | Local vs whole performance | multilevel selection / cancer | inherited principle | Low |
 | Recoverability as constrained reachability | viability/control theory | inherited mathematical family | Low |
 | Hysteresis/asymmetric return | dynamical systems/ecology | inherited principle | Low |
 | State augmentation before irreducible history | Mori–Zwanzig / higher-order closure | inherited principle; useful guard | Low |
-| `M_D(q)` vs `M_C` vs `Rec_H` as separate boundaries | pieces exist separately | exact integrated three-boundary object not located | Moderate candidate |
+| $M_D(q)$ vs $M_C$ vs $Rec_H$ as separate boundaries | pieces exist separately | exact integrated three-boundary object not located | Moderate candidate |
 | Cross-scale alignment tuple + readdressing | multilevel fitness + addressed-law architecture | integrated operational bridge | Moderate candidate |
 | Full 33S2/33S3 generator | no single equivalent located in searched literature | candidate original formal synthesis / meta-principle | **Moderate–high candidate** |
 

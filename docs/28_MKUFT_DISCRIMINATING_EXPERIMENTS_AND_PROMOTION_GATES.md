@@ -302,7 +302,7 @@ Required outcome dimensions should include:
 
 ### 5.3 Required deformation pattern
 
-A flagship result should not be merely `F_AB > F_A`.
+A flagship result should not be merely $F_{\mathrm{AB}} > F_A$.
 
 The predicted pattern for a traversal-path-specific claim is:
 
@@ -322,7 +322,7 @@ If reset, relation scrambling and correction-channel disruption do not produce t
 
 ### 5.4 Full-history replay control
 
-The confirmatory protocol must freeze a complete history bundle `H_full` before held-out tasks are released. It should include, where relevant:
+The confirmatory protocol must freeze a complete history bundle $H_{\mathrm{full}}$ before held-out tasks are released. It should include, where relevant:
 
 - the complete interaction transcript;
 - the exact repository and document versions used;
@@ -399,9 +399,9 @@ after hardware, traffic, timing, expectancy and analysis flexibility are control
 
 Use at least:
 
-- `Q` — independently certified quantum random source;
-- `C` — calibrated classical physical stochastic source with matched extraction and throughput;
-- `D` — deterministic pseudorandom stream generated from committed hidden seeds.
+- $Q$ — independently certified quantum random source;
+- $C$ — calibrated classical physical stochastic source with matched extraction and throughput;
+- $D$ — deterministic pseudorandom stream generated from committed hidden seeds.
 
 The deterministic stream is a crucial negative control. Any apparent change in its precommitted output indicates selection, leakage, logging, allocation or analysis failure.
 
@@ -435,7 +435,7 @@ Do not label participants “coherent” after inspecting RNG outcomes.
 
 ### 6.6 Primary outcome
 
-Use a source-calibrated blockwise divergence score `D` from each source’s accepted null model. The confirmatory object is not a raw excess of ones.
+Use a source-calibrated blockwise divergence score $D$ from each source’s accepted null model. The confirmatory object is not a raw excess of ones.
 
 A candidate three-way interaction is:
 
@@ -449,7 +449,7 @@ A stronger candidate signature, if justified and frozen after Stage 1, would hav
 |I_Q| > |I_C| ≈ |I_D|
 ```
 
-with the route/state contrast concentrated in `R2` at higher measured `κ`, absent in `D`, stable across time, and replicated on a second quantum-source architecture.
+with the route/state contrast concentrated in `R2` at higher measured `κ`, absent in $D$, stable across time, and replicated on a second quantum-source architecture.
 
 This ordering is a proposal for discrimination, not an established consequence of the present MKUFT equations.
 
@@ -488,7 +488,7 @@ This pilot is promoted only if the full preregistered fingerprint replicates. A 
 
 The O-linked physical-modulation branch is weakened if:
 
-- `I_M` converges to zero under adequate precision;
+- $I_M$ converges to zero under adequate precision;
 - effects appear equally in deterministic streams;
 - apparent results track hardware drift, allocation, expectation or analyst choice;
 - `κ` is unreliable or does not scale with the effect;
@@ -515,10 +515,10 @@ For a declared platform, the minimum target is:
 
 where:
 
-- `Γ_obs` is the measured decoherence, dephasing, heating or transition rate;
-- `Γ_std` is the full accepted device-and-environment prediction;
+- $\Gamma_{\mathrm{obs}}$ is the measured decoherence, dephasing, heating or transition rate;
+- $\Gamma_{\mathrm{std}}$ is the full accepted device-and-environment prediction;
 - `θ` contains declared physical parameters such as mass, frequency, temperature, quality factor, preparation, geometry, shielding and readout;
-- `δΓ_M` is the proposed MKUFT residual with the same units as `Γ_obs`;
+- $δ\Gamma_M$ is the proposed MKUFT residual with the same units as $\Gamma_{\mathrm{obs}}$;
 - `α` is a bounded parameter set estimated or constrained by data.
 
 If expressed through a master equation, the additional dynamics must preserve the required probability, positivity and no-signalling conditions.
@@ -529,7 +529,7 @@ No laboratory protocol is promoted until the model supplies:
 
 - dimensions and sign;
 - parameter scaling;
-- ordinary limit `δΓ_M → 0`;
+- ordinary limit $δ\Gamma_M \to 0$;
 - detectable parameter region;
 - predicted null region;
 - sensitivity analysis;
@@ -543,7 +543,7 @@ No laboratory protocol is promoted until the model supplies:
 3. **Freeze** — lock the residual form and all preprocessing.
 4. **Held-out sweep** — predict new masses, temperatures, quality factors or preparation states.
 5. **Second platform** — test whether the same law transfers to a distinct oscillator architecture where generality is claimed.
-6. **Adversarial model comparison** — compare `Γ_std`, `Γ_std + δΓ_M`, collapse models and flexible residual baselines.
+6. **Adversarial model comparison** — compare $\Gamma_{\mathrm{std}}$, $\Gamma_{\mathrm{std}} + δ\Gamma_M$, collapse models and flexible residual baselines.
 
 ### 7.5 Success condition
 
@@ -574,10 +574,10 @@ r(θ) = y_observed(θ) - y_standard(θ)
 
 Then require MKUFT to predict before confirmation:
 
-- the sign of `r`;
+- the sign of $r$;
 - the parameter or orientation where it crosses zero or changes slope;
 - the scaling exponent or bounded response family;
-- the matched geometry in which `r` should vanish;
+- the matched geometry in which $r$ should vanish;
 - a held-out region of `θ`.
 
 Finite-element, thermal, electromagnetic, mechanical and material models must be treated as part of the null, not as later objections.
