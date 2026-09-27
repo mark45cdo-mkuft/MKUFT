@@ -689,6 +689,8 @@ Pass:
 - receiver-side retrieval reaches the live owner using the canonical phrase and reasonable ordinary-language terms;
 - the retrieved wording preserves the exact claim level and object identity.
 
+If the public source is correct but the external index has not yet refreshed, report `INDEX PENDING / UNVERIFIED` rather than converting a zero-result search into absence or falsely claiming `EXTERNAL INDEX OBSERVED`. Treat `ROUTED IN SOURCE` and externally observed retrieval as separate conformance states.
+
 > **Owner-correct is necessary; retrieval-correct is part of public conformance.**
 
 ---
