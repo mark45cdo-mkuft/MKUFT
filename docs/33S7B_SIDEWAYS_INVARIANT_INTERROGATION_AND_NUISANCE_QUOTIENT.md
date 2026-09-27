@@ -334,3 +334,9 @@ preserve reopening for any wider future that needs the omitted distinction
 ```
 
 > **Sometimes the scientific gain is not learning the hidden variable. It is prospectively designing and validating a better question that proves the declared target does not need it.**
+
+## 12. Related publication — Minimal Addressed Operator
+
+The 27 September 2026 preprint [*Toward a Minimal Addressed Operator for Sequential Inquiry*](../papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md), DOI `10.5281/zenodo.22998394`, imports this module's prospective query-family/burden discipline as a guard against post-hoc minimality.
+
+The paper does not promote every lawful interrogation into a minimal query. It separates general clean factorisation from a later minimal-representative refinement whose order, comparator, and replacement burden must be fixed prospectively.
