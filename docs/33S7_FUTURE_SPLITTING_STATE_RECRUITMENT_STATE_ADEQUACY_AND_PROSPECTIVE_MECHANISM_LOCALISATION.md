@@ -343,7 +343,7 @@ For time-resolved systems,
 
 The principal prospective prediction is:
 
-> **In systems where an emerging mechanism becomes future-discriminating before its conventional macroscopic marker is overt, a reproducible state-recruitment event can occur first, so that `L>0` or $L_t>0$.**
+> **In systems where an emerging mechanism becomes future-discriminating before its conventional macroscopic marker is overt, a reproducible state-recruitment event can occur first, so that $L>0$ or $L_t>0$.**
 
 This is not asserted as universal. The prediction fails in systems where the mechanism and the conventional marker become informative simultaneously, where the candidate state already contains the relevant distinction, or where no stable physically typed repair exists.
 

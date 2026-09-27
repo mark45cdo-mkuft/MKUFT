@@ -47,9 +47,9 @@ This is a specialisation of the existing S-I-P-O update architecture, not a comp
 
 ## 2. Future-sufficient Address
 
-Let $H_t$ denote the retained history available at time $t$. Let `Σ` denote the declared system specification: target variables, prediction horizon, physical dynamics or transition kernel, boundary/environment class, admissible intervention class, measurement resolution, and any typed relational constraints that genuinely determine continuation.
+Let $H_t$ denote the retained history available at time $t$. Let $\Sigma$ denote the declared system specification: target variables, prediction horizon, physical dynamics or transition kernel, boundary/environment class, admissible intervention class, measurement resolution, and any typed relational constraints that genuinely determine continuation.
 
-Let `X⁺` denote the future path object after `t`, and let `Π_adm` be the admissible policy/intervention family.
+Let $X^+$ denote the future path object after $t$, and let $\Pi_{\mathrm{adm}}$ be the admissible policy/intervention family.
 
 Two histories are **future-equivalent** when they generate the same future law for every admissible policy:
 
@@ -81,7 +81,7 @@ Thus velocity, phase, charge, rate, schedule, hysteresis, boundary state, connec
 
 ## 3. Operational address residual and minimum-sufficient frontier
 
-For a target $q$ over horizon `Δ`, let $\Theta(H_t)$ be a candidate coordinate description. Let $\mathcal L(q^+\mid h)$ be the conditional law of the future target and let $d$ be a declared discrepancy.
+For a target $q$ over horizon $\Delta$, let $\Theta(H_t)$ be a candidate coordinate description. Let $\mathcal L(q^+\mid h)$ be the conditional law of the future target and let $d$ be a declared discrepancy.
 
 Define
 
@@ -166,7 +166,7 @@ H(z,a)=\min_{j\in J(a)} h_j(z;a).
 }
 ```
 
-`H>0` says the present state lies inside the declared viable region. It does **not** establish that a sufficient path remains to maintain or restore the required organisation.
+$H>0$ says the present state lies inside the declared viable region. It does **not** establish that a sufficient path remains to maintain or restore the required organisation.
 
 Let $G(A_t)$ be a declared restored/recovered target set. Let $Q(\gamma)$ measure task sufficiency with threshold $\kappa$, and let $D_{\mathrm{irr}}(\gamma)$ be a vector of domain-defined irreversible losses constrained by $d_R$.
 
@@ -440,7 +440,7 @@ For a one-dimensional body with bounded acceleration,
 |u|\leq u_{\max},
 ```
 
-and unsafe boundary `x=1`, the minimum stopping distance for positive velocity is
+and unsafe boundary $x=1$, the minimum stopping distance for positive velocity is
 
 ```math
 \boxed{

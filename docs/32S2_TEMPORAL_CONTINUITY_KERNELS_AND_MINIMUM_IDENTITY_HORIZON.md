@@ -39,7 +39,7 @@ h_t^{(m)}
 \mathcal H_t^{(m)}.
 ```
 
-The smallest genuinely temporal case is `m=1`, which retains the immediate predecessor and current state:
+The smallest genuinely temporal case is $m=1$, which retains the immediate predecessor and current state:
 
 ```math
 h_t^{(1)}=(s_{t-1},s_t).

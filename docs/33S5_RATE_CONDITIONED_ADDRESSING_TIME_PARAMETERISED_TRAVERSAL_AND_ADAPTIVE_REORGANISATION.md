@@ -166,7 +166,7 @@ If a fuller measurable state closes the same residual with equal or better predi
 
 The familiar distance–velocity–time relation is useful only after the space and metric have been declared.
 
-If the control/context space `\mathcal U` carries a legitimate metric `g`, define the path length
+If the control/context space $\mathcal U$ carries a legitimate metric $g$, define the path length
 
 ```math
 \boxed{

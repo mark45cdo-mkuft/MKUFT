@@ -535,7 +535,7 @@ Modules 33S3 and 33S6 already reject the assumption that recovery must reverse t
 
 > a node may recover lawful continuation by reaching a future state whose addressed relations restore the governing target, even when the literal old route is unavailable.
 
-Let $P$ denote the governing parent relation and $A_\tau$, `τ>t`, a candidate recovered state. A schematic restorative condition is
+Let $P$ denote the governing parent relation and $A_\tau$, $\tau>t$, a candidate recovered state. A schematic restorative condition is
 
 ```math
 \mathrm{HOME}_q(A_\tau\mid P)

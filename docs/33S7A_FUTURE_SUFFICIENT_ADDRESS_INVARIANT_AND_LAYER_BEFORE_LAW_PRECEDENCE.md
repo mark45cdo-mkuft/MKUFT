@@ -575,7 +575,7 @@ a wider frame can be named
 
 Neither inference is licensed by scale or abstraction alone.
 
-Let `A_l` be the Address under which a local transition/path claim is made and let `A_p` be a candidate parent Address that contains an additional typed relation `R` omitted by the local description. Write
+Let $A_l$ be the Address under which a local transition/path claim is made and let $A_p$ be a candidate parent Address that contains an additional typed relation $R$ omitted by the local description. Write
 
 ```math
 \Gamma_{A_l}(x\rightarrow y)
@@ -601,7 +601,7 @@ does **not** by itself establish
 \Gamma_{A_p}(x\rightarrow y)=\varnothing.
 ```
 
-Conversely, merely naming `A_p` or `R` does not establish a lawful parent route. Readdressing changes the verdict only when the omitted relation is independently typed, target-relevant, and the parent law object actually admits the path:
+Conversely, merely naming $A_p$ or $R$ does not establish a lawful parent route. Readdressing changes the verdict only when the omitted relation is independently typed, target-relevant, and the parent law object actually admits the path:
 
 ```math
 \Gamma^{R}_{A_p}(x\rightarrow y)\neq\varnothing.
