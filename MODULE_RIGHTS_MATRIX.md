@@ -21,6 +21,7 @@ This matrix identifies the rights status of current public repository objects wi
 
 | Object | Exact record | Rights status |
 |---|---|---|
+| Minimal Addressed Operator v1.0 | [Version DOI 10.5281/zenodo.22998394](https://doi.org/10.5281/zenodo.22998394); [concept DOI 10.5281/zenodo.22998393](https://doi.org/10.5281/zenodo.22998393) | **CC BY-NC-SA 4.0** for the exact deposited v1.0 preprint; live Modules 33S4, 33S7B and 35 and repository routes retain separate current-object rights |
 | MKUFT version-1 deposited work | [DOI 10.5281/zenodo.17780566](https://doi.org/10.5281/zenodo.17780566) | **CC BY 4.0** for the exact deposited material identified by that record |
 | ATLD standalone manuscript v1.0 | [Version DOI 10.5281/zenodo.21341521](https://doi.org/10.5281/zenodo.21341521); [concept DOI 10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520) | **CC BY-NC-SA 4.0** for the exact manuscript; commercial exercise of the licensed copyright rights requires separate written permission |
 | ATLD 2 standalone manuscript v2.0 | [Version DOI 10.5281/zenodo.22068803](https://doi.org/10.5281/zenodo.22068803); [concept DOI 10.5281/zenodo.21341520](https://doi.org/10.5281/zenodo.21341520); predecessor DOI `10.5281/zenodo.21341521` | **CC BY-NC-SA 4.0** for the exact v2.0 manuscript; the live Module 25B fold and later Modules 25C–25D retain separate current-repository rights |
