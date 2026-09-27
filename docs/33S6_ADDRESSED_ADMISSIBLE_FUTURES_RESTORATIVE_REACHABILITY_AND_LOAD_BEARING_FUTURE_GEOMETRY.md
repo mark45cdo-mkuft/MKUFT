@@ -254,7 +254,7 @@ Define relational load by counterfactual deformation:
 }
 ```
 
-A relation is **load-bearing relative to $(A_t,\Psi)$** when removing or deforming it materially changes the declared future readout. It is terminally load-bearing when removal changes $\chi_R$ from `1` to `0`.
+A relation is **load-bearing relative to $(A_t,\Psi)$** when removing or deforming it materially changes the declared future readout. It is terminally load-bearing when removal changes $\chi_R$ from $1$ to $0$.
 
 This rejects weak proxies:
 

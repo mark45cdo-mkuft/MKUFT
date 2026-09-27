@@ -24,7 +24,7 @@ The calibration therefore attacks the schema with strong native ownership. If th
 
 ## 2. Native Bell object and non-negotiable baseline
 
-Let the full observed behaviour in the binary `2×2×2` Bell scenario be
+Let the full observed behaviour in the binary $2\times2\times2$ Bell scenario be
 
 ```math
 P
