@@ -103,7 +103,7 @@ Compactly:
 
 > **Some costs are not weights. They are gates.**
 
-A consequence can still be decision-bearing. Let (C_t(u)) denote a typed consequence profile and let (Omega) denote the domain-native authority, rule, institution, consent state, emergency doctrine, or other owner capable of changing the applicable boundary. Then a sufficiently serious consequence may trigger a review/readdressing operation,
+A consequence can still be decision-bearing. Let $C_t(u)$ denote a typed consequence profile and let $\Omega$ denote the domain-native authority, rule, institution, consent state, emergency doctrine, or other owner capable of changing the applicable boundary. Then a sufficiently serious consequence may trigger a review/readdressing operation,
 
 ~~~text
 inadmissible route under Σ_t
@@ -122,7 +122,7 @@ The consequence therefore has two possible roles:
 
 It does **not** perform the boundary update merely by being large.
 
-Formally, where (mathcal R_{Omega}) is the lawful boundary-review operator,
+Formally, where $\mathcal R_{\Omega}$ is the lawful boundary-review operator,
 
 ```math
 \Sigma'_t
@@ -138,7 +138,7 @@ may return an updated boundary state or no authorised change. A previously exclu
 
 This distinction matters most in emergency, existential, medical, military, governance and human–AI settings. A decision-support system may estimate catastrophic consequences, identify that the current admissible set is empty or inadequate, expose which boundary creates the conflict, and state what authorised exception would have to be invoked. It must not silently convert consequence magnitude into consent, permission, legal authority, moral authority or command authority.
 
-Where the receiving domain already defines a necessity or emergency exception, that exception belongs in (Sigma) and may be evaluated normally against its declared trigger conditions. The framework does not forbid exceptions. It forbids **unowned exception manufacture**.
+Where the receiving domain already defines a necessity or emergency exception, that exception belongs in $\Sigma$ and may be evaluated normally against its declared trigger conditions. The framework does not forbid exceptions. It forbids **unowned exception manufacture**.
 
 Likewise, GRACE does not decide which ethical or legal propositions are hard gates. Those come from the receiving domain, declared authority structure, consent state, law, safety model or task specification. The architectural invariant is only:
 

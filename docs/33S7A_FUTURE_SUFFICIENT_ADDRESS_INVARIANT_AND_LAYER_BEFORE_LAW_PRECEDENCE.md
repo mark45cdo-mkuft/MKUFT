@@ -421,7 +421,7 @@ The time-address of the claim also remains explicit: present registration, past 
 
 The future-sufficiency family also implies a narrower operational distinction between **prospective reach** and **current-state authority**.
 
-Let (A_t) be the current addressed state for the declared target, and let a model, search, simulation, forecast or discriminator-design process generate a candidate family of future addresses
+Let $A_t$ be the current addressed state for the declared target, and let a model, search, simulation, forecast or discriminator-design process generate a candidate family of future addresses
 
 ```math
 \widehat{\mathcal A}_{t+\Delta\mid t}
@@ -457,7 +457,7 @@ Readdressing is earned only when a declared realised or registered update suppli
 (A_{t+1},O_{t+1}).
 ```
 
-Here (\tau_t) may be a physical transition, intervention, elapsed-time evolution under a declared model, or another lawful state transition, while (r_t) denotes the relevant registration/readout where one is required. The corollary does **not** require a fresh measurement for every state update; it requires that the update be the one actually licensed by the model and realised conditions rather than a merely imagined downstream address.
+Here $\tau_t$ may be a physical transition, intervention, elapsed-time evolution under a declared model, or another lawful state transition, while $r_t$ denotes the relevant registration/readout where one is required. The corollary does **not** require a fresh measurement for every state update; it requires that the update be the one actually licensed by the model and realised conditions rather than a merely imagined downstream address.
 
 Compactly:
 

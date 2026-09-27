@@ -80,7 +80,7 @@ Causal ancestry is not automatically live state.
 
 The observer/registration address is subject to the same future-sufficiency burden as any other Address: retain only the observer-side coordinates whose omission would merge cases with materially different target futures, reachable discriminators, admissible operations, evidence states, or next lawful moves.
 
-Let (C_t^O) denote a candidate observer/registration context containing whatever larger history or environment could in principle be represented. A target-relative observer address may be written schematically as
+Let $C_t^O$ denote a candidate observer/registration context containing whatever larger history or environment could in principle be represented. A target-relative observer address may be written schematically as
 
 ```math
 O_t^q = \Pi_O^q(C_t^O),
