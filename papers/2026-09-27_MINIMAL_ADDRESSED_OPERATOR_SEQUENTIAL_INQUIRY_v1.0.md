@@ -17,7 +17,7 @@
 
 - [Zenodo v1.0](https://doi.org/10.5281/zenodo.22998394)
 - [Standalone publication / custody record](../MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md)
-- [Frozen carrier mirror and checksum record](../publications/MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0/)
+- [Frozen carrier identity/checksum record](../publications/MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0/)
 - [Address Sufficiency — Module 33S4](../docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
 - [Sideways Invariant Interrogation — Module 33S7B](../docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md)
 - [ARTA Engine Construction Map — Module 35](../docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md)
