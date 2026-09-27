@@ -22,6 +22,7 @@ MATH_COMMAND = re.compile(
 )
 INLINE_CODE = re.compile(r"`[^`]*`")
 INLINE_CODE_CAPTURE = re.compile(r"`([^`\n]+)`")
+INLINE_MATH_CAPTURE = re.compile(r"(?<!\\)\$([^$\n]+)\$(?!\$)")
 
 SCIENTIFIC_ROOT_ROUTES = {
     "MKUFT_INTEGRATED_MASTER_SPINE.md",
@@ -49,9 +50,9 @@ PLAIN_GREEK_NAMES = {
 
 PLAIN_GREEK_IN_MATH = re.compile(
     r"(?<!\\)\b(?:Theta|Sigma|Delta|Omega|Phi|Psi|Pi|Gamma|Lambda|Xi|"
-    r"lambda|rho|epsilon|varepsilon|tau|chi|kappa|eta|nu|alpha|beta|gamma|delta|mu|sigma|pi)"
-    r"(?=_[A-Za-z0-9{])"
+    r"lambda|rho|epsilon|varepsilon|tau|chi|kappa|eta|nu|alpha|beta|gamma|delta|mu|sigma|pi)\b"
 )
+UNBRACED_MULTI_SUBSCRIPT = re.compile(r"_[A-Za-z]{2,}\b")
 
 
 def is_scientific_route(path: Path) -> bool:
@@ -65,11 +66,11 @@ def is_scientific_route(path: Path) -> bool:
 
 def looks_like_literal_resource(span: str) -> bool:
     s = span.strip()
-    if "/" in s or "\\\\" in s:
-        return True
     if re.search(r"\.(?:md|py|json|pdf|txt|yml|yaml|cff|csv|tsv|png|jpg|jpeg|svg)$", s, re.IGNORECASE):
         return True
     if s.startswith(("http://", "https://", "10.5281/", "MKUFT_PREPRINTS_")):
+        return True
+    if re.match(r"^(?:[A-Za-z]:[\\\\/]|\.{0,2}/|/)[^\s]+$", s):
         return True
     return False
 
@@ -83,6 +84,8 @@ def looks_like_semantic_math(span: str) -> bool:
     if re.search(r"[A-Za-zΑ-Ωα-ω][⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁽⁾]+", s):
         return True
     if re.fullmatch(r"\d+/\d+", s):
+        return True
+    if re.fullmatch(r"\[\s*\d+(?:/\d+)?\s*,\s*\d+(?:/\d+)?\s*\]", s):
         return True
     if looks_like_literal_resource(s):
         return False
@@ -115,6 +118,27 @@ def looks_like_semantic_math(span: str) -> bool:
     return False
 
 
+def strip_textual_math_commands(expr: str) -> str:
+    # Ignore explicit text/roman labels when checking for accidental ASCII Greek names.
+    return re.sub(r"\\(?:text|mathrm|mathbf|mathsf)\{[^{}]*\}", "", expr)
+
+
+def audit_math_surface(expr: str, where: str):
+    problems = []
+    surface = strip_textual_math_commands(expr)
+    plain_greek = PLAIN_GREEK_IN_MATH.search(surface)
+    if plain_greek:
+        problems.append(
+            f"{where}: ASCII Greek-name token {plain_greek.group(0)} is not TeX Greek notation"
+        )
+    bad_subscript = UNBRACED_MULTI_SUBSCRIPT.search(surface)
+    if bad_subscript:
+        problems.append(
+            f"{where}: unbraced multi-letter subscript {bad_subscript.group(0)}; use _{{...}} and romanise label subscripts where appropriate"
+        )
+    return problems
+
+
 def audit_semantic_inline_code(line: str, lineno: int):
     problems = []
     for match in INLINE_CODE_CAPTURE.finditer(line):
@@ -126,6 +150,13 @@ def audit_semantic_inline_code(line: str, lineno: int):
             problems.append(
                 f"line {lineno}: mathematical notation is in a literal inline-code carrier: `{span}`; use $...$ for semantic inline mathematics"
             )
+    return problems
+
+
+def audit_inline_math(line: str, lineno: int):
+    problems = []
+    for match in INLINE_MATH_CAPTURE.finditer(line):
+        problems.extend(audit_math_surface(match.group(1), f"line {lineno} inline math"))
     return problems
 
 # GitHub's public math carrier rejects these in this repository's observed rendering path.
@@ -179,11 +210,7 @@ def audit_math_fence(path: Path, start_line: int, lines):
                 f"math fence opened line {start_line}: unsupported GitHub math macro {macro}; {replacement}"
             )
 
-    plain_greek = PLAIN_GREEK_IN_MATH.search(text)
-    if plain_greek:
-        problems.append(
-            f"math fence opened line {start_line}: ASCII Greek-name token {plain_greek.group(0)} is not TeX Greek notation"
-        )
+    problems.extend(audit_math_surface(text, f"math fence opened line {start_line}"))
 
     ok, first_negative, depth = unescaped_brace_balance(text)
     if not ok:
@@ -265,6 +292,7 @@ def audit(path: Path):
         # explicitly quoted as literal source/code.
         if is_scientific_route(path):
             problems.extend(audit_semantic_inline_code(line, lineno))
+            problems.extend(audit_inline_math(line, lineno))
 
         # Strip literal-code carriers before checking the remaining prose for naked TeX.
         visible = INLINE_CODE.sub("", line)

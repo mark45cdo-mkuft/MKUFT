@@ -166,6 +166,55 @@ On the facet `nu=0`.
     )
 
     require_failure(
+        "TeX fraction expression is not mistaken for a file path",
+        r"""# Bad
+
+Choose `\eta=1/2`.
+""",
+        "mathematical notation is in a literal inline-code carrier",
+    )
+
+    require_failure(
+        "numeric interval is semantic mathematics",
+        """# Bad
+
+All probabilities lie in `[1/8,3/8]`.
+""",
+        "mathematical notation is in a literal inline-code carrier",
+    )
+
+    require_failure(
+        "standalone ASCII Greek name inside display math",
+        """# Bad
+
+```math
+K_q(r\mid a,E,U,Delta)
+```
+""",
+        "ASCII Greek-name token Delta",
+    )
+
+    require_failure(
+        "unbraced multi-letter display subscript",
+        """# Bad
+
+```math
+u_PI = 1
+```
+""",
+        "unbraced multi-letter subscript",
+    )
+
+    require_failure(
+        "unbraced multi-letter inline subscript",
+        """# Bad
+
+The comparator is $u_PI$.
+""",
+        "unbraced multi-letter subscript",
+    )
+
+    require_failure(
         "ASCII Greek-name token inside display math",
         """# Bad
 
