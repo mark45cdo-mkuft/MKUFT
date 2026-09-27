@@ -1,0 +1,9 @@
+filename=Toward_a_Minimal_Addressed_Operator_for_Sequential_Inquiry_MKUFT_Preprint_v1.0_K4_FINAL.pdf
+bytes=449957
+pages=26
+md5=20d1e3e6f715b826f03cac92d7875644
+sha256=6773e5eaa7bdce75dfc77f191eec4858004ee202532602a9ddd225373947511f
+zenodo_version_doi=10.5281/zenodo.22998394
+zenodo_concept_doi=10.5281/zenodo.22998393
+repository_binary_mirror=not_present_in_this_commit
+custody=Zenodo_frozen_publication
