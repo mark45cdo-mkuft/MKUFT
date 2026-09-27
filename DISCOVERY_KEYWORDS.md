@@ -81,6 +81,10 @@ Direct routes:
 - quantum-gravitational recovery
 - Cross-Domain Compositional Schema
 - future-sufficient interface
+- Boundary-Driven Readdressing
+- Parent Admissibility
+- relation-relative direction
+- local non-reachability / global prohibition boundary
 - preserve-or-reopen reuse
 - exact relation ablation
 - load-bearing relation
@@ -218,6 +222,7 @@ Typed Decomposition-Reconstruction Prospective Generator Test Hidden Scientific 
 Cross-Domain Compositional Schema Future-Sufficient Interfaces Load-Bearing Relations Preserve-or-Reopen Reuse Exact Relation Ablation Functional Configuration Operator-Target Binding Scale-Relative Role Transition Mark Charles McLaughlin Zenodo 10.5281/zenodo.22166468 concept 10.5281/zenodo.22164561
 Traversal Coherence Anchor Fundamental Traversal Coherence Node FTCN MKUFT Mark Charles McLaughlin
 GRACE Formal Route Selection Non-Dominated Future Preservation Reciprocal Address Return Material Non-Dominance Non-Gratuitous-Loss Invariant MKUFT Mark Charles McLaughlin
+Boundary-Driven Readdressing Parent Admissibility relation-relative direction local non-reachability global prohibition 33S7A FSAI Layer Before Law MKUFT Mark Charles McLaughlin GitHub mark45cdo-mkuft/MKUFT
 Research Object Identity Provenance Independence Recursive Retrieval Coupling Epistemic Compression False Closure Ancestry Preservation Computational Verification Data Reproducibility Package MKUFT
 ```
 
