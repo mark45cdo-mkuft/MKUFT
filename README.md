@@ -16,6 +16,7 @@ Cold search, AI retrieval and GitHub code search can miss a public object even w
 
 | Search handle / alias | Canonical public object | DOI / route |
 |---|---|---|
+| **Minimal Addressed Operator / sequential inquiry** | **Toward a Minimal Addressed Operator for Sequential Inquiry: Factorisation, Readdressing, and Recursive Scale Handoff in MKUFT**, v1.0 | DOI `10.5281/zenodo.22998394` · concept DOI `10.5281/zenodo.22998393` · [paper](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md) · [publication record](MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md) · [Module 35](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md) |
 | **ATLD 2 / ATLD2** *(voice/search mishearing: ETLD2)* | **Active Traversal and Load-Bearing Dependency II — Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems**, v2.0 | DOI `10.5281/zenodo.22068803` · [paper](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md) · [publication family](ATLD_STANDALONE_PUBLICATION.md) · [Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) |
 | **ATLD / ATLD v1** | Active Traversal and Load-Bearing Dependency — predecessor v1.0 | DOI `10.5281/zenodo.21341521` · [papers index](papers/README.md) |
 | **Chain-Address / Chain-Address Invariants** | Chain-Address Invariants for Long-Horizon AI Systems, v1.0 | DOI `10.5281/zenodo.22102379` · [paper](papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md) |
@@ -267,6 +268,8 @@ The current principal DOI-bearing MKUFT publication is **MKUFT — A Relational 
 The live integrated architecture has the canonical name **MKUFT Addressed Relational Traversal Architecture (ARTA)** from 14 September 2026. This is a live repository naming/provenance object, not a new DOI publication: [canonical ARTA route](ARTA_CANONICAL_NAMING_NOTE.md).
 
 The current research-facing synthesis is **MKUFT — Layer Before Law: A Typed Relational Architecture for Physical-Law Selection, Future-Sufficient Interfaces, and Cross-Scale Dynamics**, v1.2, dated 30 August 2026. It is public in this repository, not yet DOI-bearing, and not peer reviewed: [human-reader route](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
+
+The published **Toward a Minimal Addressed Operator for Sequential Inquiry: Factorisation, Readdressing, and Recursive Scale Handoff in MKUFT**, v1.0, has version DOI `10.5281/zenodo.22998394` and concept DOI `10.5281/zenodo.22998393`. It freezes a formal factorisation/minimal-replacement research programme extracted from the existing MKUFT/ATLD/ARTA lineage; it does not establish a universal theorem or add a new ARTA controller.
 
 The published **Future-Splitting State Recruitment in History-Dependent HCP Magnesium Mechanics: A Minimum-Decisive Prospective Protocol for State Sufficiency, Probe Selection, and Mechanism Localisation**, v1.0, has version DOI `10.5281/zenodo.22309144` and concept DOI `10.5281/zenodo.22309143`. It freezes a prospective experimental protocol and does not report an executed magnesium experiment or positive MKUFT result.
 
