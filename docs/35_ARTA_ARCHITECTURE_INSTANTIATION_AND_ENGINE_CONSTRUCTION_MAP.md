@@ -552,6 +552,8 @@ Adds:
 - evidence/claim promotion gates;
 - pre-release state reconciliation;
 - reader-route propagation;
+- public indexing/discovery-surface audit;
+- receiver-side retrieval verification;
 - release/object identity and reproducibility.
 
 An implementation may satisfy more than one profile.
@@ -661,6 +663,33 @@ After a material relation/address change:
 - a relation-relative reversal must not be promoted into physical retrocausation without a separate domain-native mechanism and evidence.
 
 Pass only when the engine recomputes the directional role under the newly declared relation and preserves the parent-admissibility result separately from the metaphor used to expose it.
+
+### R18 — public owner / retrieval-surface divergence
+
+For a scientific/publication engine, mutate a public Canon owner while leaving one or more receiver-facing retrieval surfaces stale.
+
+Candidate stale surfaces include:
+
+- README / public entry;
+- Start Here;
+- Scientific Reader route;
+- Index / Canon Map;
+- discovery keywords / public discovery anchor;
+- engine/builder map where behaviour changed;
+- citation / machine-readable metadata where object identity changed.
+
+Fail:
+- the canonical owner is correct but a legitimate reader/search/audit route still resolves to a stale name, missing relation, phantom object, or stronger/weaker claim;
+- every surface is edited mechanically despite being NULL;
+- a discovery surface promotes a corollary into a new module, paper, DOI or mechanism without object-level support.
+
+Pass:
+- every relevant surface is classified NON-NULL or NULL;
+- only non-null surfaces change;
+- receiver-side retrieval reaches the live owner using the canonical phrase and reasonable ordinary-language terms;
+- the retrieved wording preserves the exact claim level and object identity.
+
+> **Owner-correct is necessary; retrieval-correct is part of public conformance.**
 
 ---
 
