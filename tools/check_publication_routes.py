@@ -480,6 +480,7 @@ REQUIRED[f"{MAO_DIR}/CARRIER_IDENTITY.txt"] = [
     MAO_VERSION, MAO_CONCEPT, MAO_MD5, MAO_SHA256,
     "repository_binary_mirror=not_present_in_this_commit",
     "custody=Zenodo_frozen_publication",
+    "release_manifest_state=not_backfilled_no_predeposit_repo_release_tuple",
 ]
 REQUIRED[f"{MAO_DIR}/POSTPUBLICATION_QA.md"] = [
     MAO_VERSION, MAO_CONCEPT, MAO_MD5, MAO_SHA256,
