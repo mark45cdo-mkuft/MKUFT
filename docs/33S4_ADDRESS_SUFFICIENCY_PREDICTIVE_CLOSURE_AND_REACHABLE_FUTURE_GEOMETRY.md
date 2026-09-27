@@ -535,3 +535,10 @@ It supplies a narrower scientific question:
 > **Add the smallest coordinate that earns held-out predictive or interventional load. More context is not more complete address by default.**
 
 > **If the address no longer closes the property, readdress and retest law ownership.**
+
+
+## 18. Related publication — Minimal Addressed Operator
+
+The 27 September 2026 preprint [*Toward a Minimal Addressed Operator for Sequential Inquiry*](../papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md), DOI `10.5281/zenodo.22998394`, uses this module as one of its pinned live derivation owners.
+
+The paper does not replace this module. It asks whether target-relative Address sufficiency, lawful inquiry, realised outcome custody, and post-change readdressing can be represented as part of a more general clean-inquiry factorisation. If that factorisation reduces to stronger native mathematics, this module retains its existing local role unchanged.
