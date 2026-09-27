@@ -400,6 +400,68 @@ If no newer eligible parent-relevant delta exists, reconciliation should close q
 
 > **Canon must not publish yesterday's private state. Reconcile the newest relevant lineage, not the newest files.**
 
+## 9D. Public indexing / discovery handshake
+
+A public scientific mutation is not closed when the canonical owner alone is correct.
+
+During candidate construction, before release/merge closure, classify the changed object's **retrieval surface** as deliberately as its scientific owner.
+
+Use:
+
+~~~text
+changed canonical owner / relation
+→ exact live title / section / path
+→ ordinary-language phrases and known aliases
+→ public reader routes
+→ navigation / registry surfaces
+→ discovery / indexing surfaces
+→ builder / engine / audit surfaces
+→ rights / provenance / frozen-release surfaces where identity actually changed
+→ mark each edge NON-NULL or NULL
+→ mutate only NON-NULL surfaces
+→ verify receiver-side retrieval without claim inflation
+~~~
+
+Minimum audit roster, where present:
+
+- `README` and public entry;
+- `START_HERE_PUBLIC_OVERVIEW.md` / equivalent ordinary-reader route;
+- `SCIENTIFIC_READER_TRAVERSAL_GUIDE.md`;
+- reader-contact / failure guide;
+- `INDEX.md` and `CANON_MAP.md` or other claimed-complete/navigation surfaces;
+- `DISCOVERY_KEYWORDS.md`, `PUBLIC_DISCOVERY_ANCHOR.md`, citation metadata, machine-readable metadata, or equivalent search/index surfaces;
+- architecture/engine construction maps when implementation behaviour changed;
+- Research Derivation / publication SOPs when the closure procedure itself changed;
+- rights/provenance/DOI/release surfaces only when object identity, licence, publication family, version or release state changed.
+
+Guards:
+
+~~~text
+indexed != experimentally supported
+searchable != novel
+alias != identity
+public discovery metadata != claim elevation
+new corollary != new module / DOI / rights object by default
+complete registry != selective reader route
+~~~
+
+When a new stable phrase belongs to an existing owner rather than a new standalone object, index the phrase and route it to the existing owner/section. Do not manufacture a phantom module merely to make search retrieval easier.
+
+Audits must report not only what changed but also which high-risk surfaces were inspected and returned **NULL**. This makes absence of a mutation an auditable result rather than an accidental omission.
+
+An indexing/discovery audit should be able to answer:
+
+1. what is the live scientific owner?
+2. what private parent-relevant deltas were reconciled before writing?
+3. what exact canonical name and ordinary search phrases should recover it?
+4. which reader/navigation/discovery surfaces changed?
+5. which surfaces were checked and intentionally left unchanged?
+6. whether engine/builder behaviour changed;
+7. whether object identity, rights, provenance, DOI or release state changed;
+8. what receiver-side search/retrieval check was performed.
+
+> **Canon must be scientifically correct, route-correct, and retrievable at the claim level it actually earned.**
+
 ## 10. Frozen/public/live separation
 
 Maintain separate identities for:
