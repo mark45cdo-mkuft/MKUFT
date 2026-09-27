@@ -49,8 +49,9 @@ PLAIN_GREEK_NAMES = {
 }
 
 PLAIN_GREEK_IN_MATH = re.compile(
-    r"(?<!\\)\b(?:Theta|Sigma|Delta|Omega|Phi|Psi|Pi|Gamma|Lambda|Xi|"
-    r"lambda|rho|epsilon|varepsilon|tau|chi|kappa|eta|nu|alpha|beta|gamma|delta|mu|sigma|pi)\b"
+    r"(?<![A-Za-z0-9\\\\])(?:Theta|Sigma|Delta|Omega|Phi|Psi|Pi|Gamma|Lambda|Xi|"
+    r"lambda|rho|epsilon|varepsilon|tau|chi|kappa|eta|nu|alpha|beta|gamma|delta|mu|sigma|pi)"
+    r"(?=$|[^A-Za-z0-9])"
 )
 UNBRACED_MULTI_SUBSCRIPT = re.compile(r"_[A-Za-z]{2,}\b")
 
