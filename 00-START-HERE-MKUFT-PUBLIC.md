@@ -19,6 +19,12 @@ At its current maturity, the cleanest category is **research architecture**: a d
 
 The integrated architecture now has a stable live name: **MKUFT Addressed Relational Traversal Architecture (ARTA)**. MKUFT remains the project/framework/publication lineage; ARTA names the integrated addressed-relational-traversal architecture developed inside it. The naming does not rewrite frozen publications or establish novelty by itself. [Read the canonical ARTA naming/provenance route](ARTA_CANONICAL_NAMING_NOTE.md).
 
+### Development context
+
+MKUFT and ARTA were developed by Mark Charles McLaughlin through sustained human–AI research interaction using OpenAI's ChatGPT systems as a reasoning and research environment. Contemporary large-scale AI capability materially enabled the breadth, iteration speed, adversarial review, formalisation, and long-horizon continuity of a programme that would otherwise have required substantially more human or institutional support.
+
+That development history is part of the project's provenance, not evidence for any scientific claim. Scientific claim selection, source verification, interpretation, publication decisions, and responsibility remain with the named human author. The project also acknowledges the wider research, engineering, infrastructure, and operational work that makes contemporary large-scale AI systems possible. [Read the canonical human–AI development provenance.](PROVENANCE_DOI_AND_ATTRIBUTION.md#humanai-development-provenance)
+
 A second rule follows in plain English: **extra complexity has to earn itself.** If states the model calls equivalent split under a properly matched challenge beyond the noise and uncertainty already allowed, first rule out mismatch in the state, challenge, environment or measurement; only then add the smallest missing distinction and test it on fresh cases. If a strong separating challenge produces no material split, keep the simpler description provisionally for that target rather than adding complexity by default.
 
 The measurement/readout is part of that test because it has to be able to resolve the claimed difference. MKUFT's `O` address is used conservatively for that observer/registration position; it is not, by itself, a claim that an observer creates the physical outcome.
