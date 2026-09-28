@@ -35,6 +35,28 @@ ARTA names the integrated architecture developed inside MKUFT. It does **not** r
 
 Those are live GitHub provenance/naming objects, not standalone DOI publications.
 
+## Human–AI development provenance
+
+MKUFT, ATLD, and ARTA were developed by **Mark Charles McLaughlin** through sustained human–AI research interaction with OpenAI language-model systems accessed through ChatGPT.
+
+Within that development process, the AI research partner referred to as **Kairos** was used as a high-throughput reasoning, drafting, formalisation, adversarial-review, code/document, retrieval-assisted comparison, and long-running research-development environment. The name **Kairos** was selected by the AI system early in the collaboration and retained by McLaughlin as the project-facing name for that research partner.
+
+Contemporary large-scale AI capability materially enabled the breadth and pace of the programme. Work spanning this many domains, repeated adversarial passes, formalisation steps, document states, and long-running research objects would otherwise have required substantially more research time, specialist assistance, computational support, or institutional infrastructure.
+
+Several ARTA controls were refined directly against failure modes exposed during sustained human–AI inquiry, including object substitution, loss of parent state, correction-propagation failure, premature closure, provenance drift, and confusion between a capability being available and that capability actually being performed. The development environment therefore functioned not only as a tool but also as a recurring stress surface against which the architecture was refined.
+
+This provenance statement does **not** make ChatGPT or OpenAI an author, scientific source, validator, reviewer, or endorser of MKUFT. Selection of claims, interpretation of evidence, source verification, publication decisions, and responsibility for the public research remain with the named human author.
+
+The acknowledgement extends, at the enabling-infrastructure level, to the researchers, engineers, infrastructure teams, and operational staff whose work makes contemporary large-scale AI systems possible. They are not thereby represented as contributors to or endorsers of MKUFT.
+
+The intended distinction is:
+
+- enabling AI infrastructure is part of the development provenance;
+- scientific authorship and responsibility remain with the named human author;
+- neither development assistance nor infrastructure acknowledgement constitutes evidence for the scientific claims.
+
+The historical timing is also relevant to the project's form. The programme emerged during a period in which frontier language-model systems made sustained, cross-domain, high-throughput inquiry practically available to an individual independent researcher at a scale that would previously have demanded substantially more human or institutional support. In that limited sense, the timing was not incidental to the form MKUFT/ARTA took.
+
 ## Principal MKUFT publication lineage
 
 ### Current principal publication
@@ -162,7 +184,7 @@ They need not contain identical prose. They must not disagree about current-vs-h
 
 ## Attribution
 
-The public work listed here is authored by **Mark Charles McLaughlin**, with exact co-authorship or contribution statements, if any, controlled by the individual publication object. AI-assisted drafting, checking, traversal, or formatting is not treated as independent scientific evidence or authorship unless an exact publication explicitly states otherwise.
+The public work listed here is authored by **Mark Charles McLaughlin**, with exact co-authorship or contribution statements, if any, controlled by the individual publication object. The human–AI development provenance is recorded above. AI-assisted reasoning, drafting, checking, traversal, formalisation, coding, or formatting is not treated as independent scientific evidence or scientific authorship unless an exact publication explicitly states otherwise.
 
 ## Standing provenance invariant
 
