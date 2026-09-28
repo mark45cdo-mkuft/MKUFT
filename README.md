@@ -38,6 +38,8 @@ MKUFT is a speculative research framework. It is not presented as an accepted co
 
 The integrated architecture developed through that programme now has a stable live name: **MKUFT Addressed Relational Traversal Architecture (ARTA)**. MKUFT remains the project/framework/publication lineage; ARTA names the integrated architecture inside it. Naming ARTA does not rename earlier frozen publications or change their scientific claim status by naming alone. See [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md).
 
+**Development provenance:** MKUFT/ARTA has been developed by Mark Charles McLaughlin through sustained human–AI research using OpenAI's ChatGPT systems as a reasoning and research environment. Contemporary large-scale AI capability materially enabled the breadth and pace of the programme; scientific responsibility, claim selection, source verification and publication custody remain with the named human author. [Read the full development provenance.](PROVENANCE_DOI_AND_ATTRIBUTION.md)
+
 That sounds simple. It is also where a large number of modelling errors begin.
 
 ## The idea in one minute
