@@ -196,6 +196,8 @@ Yes. If so, the state description is missing something important.
 
 Those variables are added only when they make a real predictive difference.
 
+The same criterion applies across interruption. If one unresolved branch would lead to a materially different lawful continuation when resumed, a long-horizon implementation should preserve enough re-entry state to recover and revalidate that branch. Once the branch is closed, invalidated, or safely reconstructible from the current parent, carrying it live is unnecessary. The builder-level version is in [Module 35 — ARTA Architecture Instantiation and Engine Construction Map](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md#stage-9a--preserve-unresolved-future-bearing-re-entry-state).
+
 ### 6. Is recovery really available?
 
 [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) treats recovery as a route through future state space, not a reassuring assumption.
