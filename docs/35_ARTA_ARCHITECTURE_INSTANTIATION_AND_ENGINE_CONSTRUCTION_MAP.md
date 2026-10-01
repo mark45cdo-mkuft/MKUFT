@@ -307,6 +307,29 @@ Avoid both:
 - **history hoarding** — carrying transcript mass with no current load;
 - **wake erasure** — dropping history that still changes identity, prediction, recovery, authority, or continuation.
 
+### Stage 9A — preserve unresolved future-bearing re-entry state
+
+If an unresolved branch will still change the declared continuation after interruption, preserve the **smallest re-entry record** that lets a later instance recover the same branch rather than reconstruct it from the full transcript.
+
+Where load-bearing, record:
+
+~~~text
+parent / target / current Address
+last verified baseline
+unresolved relation
+dependencies still conditioning it
+material change already accumulated
+awaited discriminator or update
+re-entry condition
+closure / invalidation condition
+~~~
+
+On return, verify that the record is still current, compare against the baseline, carry only new material change into the parent, and readdress from the state actually reached.
+
+Retire the record when the branch closes, becomes invalid, or can be reconstructed from the current parent without changing continuation.
+
+This is a continuity refinement inside the existing recording/reconstitution contract, not a new ARTA controller or scientific variable.
+
 ### Stage 10 — record future-bearing state externally and make reconstitution testable
 
 A model context, human working memory, scratchpad, or active session may be a useful **working surface**. It is not automatically a durable recording owner.
