@@ -131,6 +131,9 @@ Direct routes:
 - object custody
 - action authority
 - future-sufficient continuity
+- future-bearing re-entry
+- object-local re-entry state
+- unresolved-branch continuity
 - receiver-side closure
 - reciprocal address return
 - affected-node address
