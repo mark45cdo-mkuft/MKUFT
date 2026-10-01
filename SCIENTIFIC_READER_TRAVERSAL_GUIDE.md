@@ -747,6 +747,7 @@ The scientific route should satisfy all of the following:
 - metaphor is used where it materially reduces a genuine crossing, then hands the reader back to the native object;
 - an earned technical handle is not swapped for a looser synonym merely to make a paragraph look simpler;
 - the reader's accumulated wake is carried at the minimum sufficient resolution rather than reset or endlessly repeated;
+- an interrupted future-bearing branch carries enough re-entry state to resume the same unresolved object without keeping the whole transcript or reconstructing it from guesswork;
 - no module gets to survive merely because the vocabulary is difficult to attack.
 
 That is the intended carrier for sober scientific understanding and availability.
