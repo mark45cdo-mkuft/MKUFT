@@ -134,6 +134,8 @@ Direct routes:
 - future-bearing re-entry
 - object-local re-entry state
 - unresolved-branch continuity
+- wake screening
+- recording/reconstitution contract
 - receiver-side closure
 - reciprocal address return
 - affected-node address
@@ -195,6 +197,7 @@ Direct routes:
 - `CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md`
 - `publications/CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4/README.md`
 - `docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md`
+- `docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md`
 - `docs/28A_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_BELL_CHSH_CALIBRATION.md`
 - `papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md`
 - `BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md`
@@ -236,6 +239,7 @@ Cross-Domain Compositional Schema Future-Sufficient Interfaces Load-Bearing Rela
 Traversal Coherence Anchor Fundamental Traversal Coherence Node FTCN MKUFT Mark Charles McLaughlin
 GRACE Formal Route Selection Non-Dominated Future Preservation Reciprocal Address Return Material Non-Dominance Non-Gratuitous-Loss Invariant MKUFT Mark Charles McLaughlin
 Boundary-Driven Readdressing Parent Admissibility relation-relative direction local non-reachability global prohibition 33S7A FSAI Layer Before Law MKUFT Mark Charles McLaughlin GitHub mark45cdo-mkuft/MKUFT
+ARTA Engine Construction Map Module 35 future-bearing re-entry object-local re-entry state unresolved branch continuity wake screening recording reconstitution MKUFT Mark Charles McLaughlin GitHub mark45cdo-mkuft/MKUFT
 Research Object Identity Provenance Independence Recursive Retrieval Coupling Epistemic Compression False Closure Ancestry Preservation Computational Verification Data Reproducibility Package MKUFT
 ```
 
