@@ -124,6 +124,10 @@ If different histories still lead to different futures after the present is prop
 
 MKUFT is therefore a compression framework as much as an expansion framework. It adds distinctions only when the future proves they carry load.
 
+An interrupted problem sometimes needs a **bookmark rather than a diary**. If one unresolved question still controls what happens next, keep only enough to return to the same question: where the object was, what had last been verified, what remains unresolved, what new observation would change the answer, and what would close the branch. When that branch is settled — or can be reconstructed without losing anything that changes the future — discard the bookmark.
+
+That is the idea of **future-bearing re-entry**. The aim is neither total memory nor amnesia. It is to preserve the smallest residue that prevents a later restart from becoming a different problem.
+
 ## 6. The right object may change with scale
 
 Think of an orchestra.
