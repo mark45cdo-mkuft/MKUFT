@@ -374,7 +374,8 @@ For a long-horizon AI or coupled system, the **externally recorded continuity pa
 - unresolved remainder;
 - observer/readout dependencies;
 - decision-bearing wake/history;
-- validity/invalidation conditions;
+- unresolved future-bearing branch state, including its last verified baseline and awaited discriminator where needed;
+- re-entry and closure/invalidation conditions;
 - provenance and reopen pointers;
 - surviving recursive-learning state.
 
@@ -639,6 +640,14 @@ Lack of final sovereignty must not erase applicable constraint or causal consequ
 
 History must be retained only where it remains future-bearing — but must not be dropped while still load-bearing.
 
+### R9A — unresolved-branch re-entry lifecycle
+
+Interrupt an implementation while one unresolved branch still changes the declared continuation, then restore from the declared recording/reopen surface.
+
+Pass only when the restarted instance can recover the same branch, its last verified baseline, the awaited discriminator, and the condition that closes or invalidates it; carry only new material change into the parent; and retire the record when it is no longer future-bearing.
+
+Fail if recovery requires the whole transcript, reconstructs the branch from guesswork, replays already-accounted change, revives a stale branch, or keeps every previously interesting branch active indefinitely.
+
 ### R10 — stale-state continuation
 
 After a realised transition, the engine must continue from the reached state, not the prior plan.
@@ -664,6 +673,8 @@ If added architecture does no predictive, operational, safety, recovery, discrim
 Where cross-session continuity is claimed, discard the active working context/session and start from a fresh or restarted instance with only the declared architecture/reconstitution route and external recording/reopen owners. If the implementation cannot reconstruct the future-sufficient Address, recover the required provenance/authority distinctions, verify current validity, and continue without invented memory, continuity has not been demonstrated for that target. Failure of the recording surface is therefore a continuity/reconstitution failure, not proof that the architecture itself has ceased to exist.
 
 A fresh reasoner that merely reads Module 35 and performs better in one context demonstrates instruction/reasoning transfer, not R15 conformance.
+
+Where continuity includes an unresolved future-bearing branch, R15 should include at least one case in which removing its re-entry state changes the lawful continuation.
 
 ### R16 — recording / architecture conflation
 
@@ -920,4 +931,4 @@ For a scientific builder, also traverse the strongest fair null, experimental, f
 
 ## 16. Canonical compression
 
-> **Build the smallest engine that preserves the distinctions which actually change the declared continuation. Bind the parent and authority first; type the objects; initialise the strongest adequate Address; preserve the honest boundary and observer state; test a load-bearing local boundary before globalising or rescuing it, requiring a typed lawful parent where readdressing is claimed; model futures without moving the present; gate before weighting; execute and observe before claiming; readdress from the state actually reached and recompute relation-relative direction where the governing relation changed; retain only future-bearing wake; where continuity matters, define a recording/reconstitution interface, record future-bearing state at an adequate external owner or preserve a reliable restoration route, then prove reconstitution from a fresh state without invented memory; treat the durable recording payload as external state rather than an architecture organ, and treat transient context as a working surface rather than automatic canonical memory; verify recovered state because persistence does not guarantee present validity; route non-null learning to its declared owner; keep learning state, external action and release authority separately typed; test the engine by regressions and NULLs.**
+> **Build the smallest engine that preserves the distinctions which actually change the declared continuation. Bind the parent and authority first; type the objects; initialise the strongest adequate Address; preserve the honest boundary and observer state; test a load-bearing local boundary before globalising or rescuing it, requiring a typed lawful parent where readdressing is claimed; model futures without moving the present; gate before weighting; execute and observe before claiming; readdress from the state actually reached and recompute relation-relative direction where the governing relation changed; retain only future-bearing wake; preserve the minimum re-entry state for an unresolved branch that remains future-bearing across interruption and retire it when it no longer changes continuation; where continuity matters, define a recording/reconstitution interface, record future-bearing state at an adequate external owner or preserve a reliable restoration route, then prove reconstitution from a fresh state without invented memory; treat the durable recording payload as external state rather than an architecture organ, and treat transient context as a working surface rather than automatic canonical memory; verify recovered state because persistence does not guarantee present validity; route non-null learning to its declared owner; keep learning state, external action and release authority separately typed; test the engine by regressions and NULLs.**
