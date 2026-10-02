@@ -386,3 +386,31 @@ new DOI paper
 ```
 
 Any later proof, reduction, or empirical discriminator must become a new result/version rather than being read backward into v1.0.
+
+## 2 October 2026 — coalition-conditioned discriminator-frontier corollary
+
+This fold adds **no new module**. It narrows a relation already distributed across the current public body and binds it to its existing owners.
+
+- **33S7C** now owns the observer-side corollary: a selected coalition of separately registered partial exposures may change the target-relevant reachable discriminator frontier relative to admissible proper subsets under a matched observer/resource envelope.
+- **25C** remains the coalition/ablation/dependence/no-smuggling owner.
+- **29B** remains the prospective generator-comparison owner, including matched information, tools, compute, search budget, revision opportunity and stopping rule.
+- **Minimal Addressed Operator v1.0** remains a frozen research-programme object; this live corollary does not silently revise that DOI paper.
+- **Module 35** carries the implementation consequence without exposing private K4 recruitment/search machinery.
+
+The load-bearing guard is:
+
+```text
+new discriminator reachable
+!= answer true
+!= mechanism true
+!= source identified
+```
+
+Proper-subset ablation prevents a larger coalition from receiving irreducible credit when a smaller admissible coalition reaches an equivalent discriminator. Provenance/dependence control prevents repeated or derived carriers from masquerading as independent contributors. The corollary makes no monotonicity claim: additional information may open, close, merge, block or reprioritise the frontier.
+
+Prior-art subtraction is explicit. Generic multivariate synergy, coalition effects, value of information, active learning and adaptive test selection are not claimed as MKUFT inventions. The residual public claim is the addressed integration of those burdens with observer-bounded discriminator reach, realised-state readdressing, answer/source separation and strongest-fair prospective comparison.
+
+Reader route: [33S7C §6D](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md#6d-coalition-conditioned-discriminator-frontier-corollary).
+
+This live-canon refinement changes no DOI identity, licence, frozen publication, or public-rights object.
+

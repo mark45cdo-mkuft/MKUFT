@@ -730,6 +730,8 @@ This is an explicit synthesis of the already canonical 32/33 family, not a new s
 
 Canonical owners: Modules 33S4, 33S5, 33S6, 33S7 and 33S7A; observer/probe implementation support: Module 33S7C; temporal and identity support: Modules 32S1 and 32S2.
 
+The live 33S7C corollary also allows a selected coalition of separately registered partial exposures to change the target-relevant discriminator frontier relative to admissible proper subsets under matched resources. The coalition may therefore earn access to a new discriminator, but not the discriminator's answer, mechanism, or source attribution. Coalition/dependence/ablation control remains with Module 25C and prospective generator merit remains with Module 29B.
+
 ## 10. LUCY
 
 LUCY means **Local Unified Coherence Yield**.

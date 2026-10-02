@@ -169,6 +169,8 @@ The relevant MKUFT test is quantitative: does its representation improve complet
 
 Learning, skilled performance, attention, confidence calibration, prediction and subjective-time effects can be studied with ordinary cognitive models. A path-cost description is useful only if it predicts measured performance better than simpler alternatives. Observer variables do not earn physical-modulation status merely because they predict cognition.
 
+The same hostile subtraction applies to coalition-conditioned inquiry. Williams & Beer-style partial information decomposition already provides explicit prior art for information available only jointly from multiple sources, while adaptive-submodular / active-learning work provides prior art for changing test selection under partial observation. MKUFT therefore does **not** claim generic novelty for synergy, coalition effects, value of information, or adaptive question selection. The narrower live residual in 33S7C is the typed integration of provenance/dependence, observer-bounded discriminator reach, proper-subset ablation, matched resource/search envelopes, realised-state readdressing, and the guard that a newly reachable discriminator does not inherit answer/mechanism/source truth.
+
 ## 9. Boundaries across domains
 
 Boundaries are central in physical, biological, informational and social systems, but their mechanisms differ. A useful shared interrogation is:
@@ -295,14 +297,15 @@ Novelty must be earned by combinations that do concrete work, including:
 9. dynamic-interface promotion only where explicit state representation adds prospective recursive discrimination;
 10. property-specific law descent and evidence-triggered readdressing only where the declared sufficiency test passes;
 11. separation of law-sufficiency, closure and recoverability boundaries only where those quantities are operationally measurable;
-12. eventual concrete physical instantiation that recovers established limits and predicts something competitors do not.
+12. eventual concrete physical instantiation that recovers established limits and predicts something competitors do not;
+13. coalition-conditioned discriminator-frontier residuals only where proper-subset/dependence/matched-resource controls show a genuinely new target-relevant discriminator class, without treating the newly reachable discriminator as evidence for its answer.
 
 ## 16. Current scientific ranking
 
 The public scientific position is best represented by maturity rather than a support leaderboard:
 
 - **Established external science:** quantum theory, relativity in tested regimes, critical phenomena, active matter, biological regulation, causal abstraction/coarse-graining, viability/reachability, hysteresis, multilevel selection, local-to-global topology/sheaf methods, holographic optics, boundary/junction dynamics, and standard cognitive/systems science.
-- **Well-defined MKUFT methods or scaffolds:** typed traversal, equation hygiene, strongest-fair-null design, deformation tests, context-conditioned state comparison, recursive-constraint/reachable-state geometry, relational completion, I→P support assays, Module 33 law-object assembly, 33S1 interface promotion, 33S2 property-specific law descent/readdressing, and 33S3 cross-scale performance/recoverability separation.
+- **Well-defined MKUFT methods or scaffolds:** typed traversal, equation hygiene, strongest-fair-null design, deformation tests, context-conditioned state comparison, recursive-constraint/reachable-state geometry, relational completion, I→P support assays, Module 33 law-object assembly, 33S1 interface promotion, 33S2 property-specific law descent/readdressing, 33S3 cross-scale performance/recoverability separation, and 33S7C observer-bounded / coalition-conditioned discriminator-frontier testing.
 - **Named candidate original constructions:** FSAI; AAF/restorative-future reserve; FSSR; preserve-or-guaranteed-reopen compositional reuse; the recursive closure/promotion/reopen lifecycle; LBLP; addressed semantic closure; and actual-address/self-address divergence, each subject to prior-art subtraction and prospective utility tests.
 - **Novelty-positioning audit:** Module 33A and the Module 32 novelty audit record inherited ingredients and residual candidate syntheses; they are not empirical validation.
 - **Candidate experimental bridges:** LUCY physical specialisations, precision boundary residuals, selected observer-linked assays, and completion/deformation/interface experiments in systems with measurable local-to-global organisation.

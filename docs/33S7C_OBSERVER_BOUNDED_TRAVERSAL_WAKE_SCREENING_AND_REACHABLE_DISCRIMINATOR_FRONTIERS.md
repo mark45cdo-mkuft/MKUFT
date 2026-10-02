@@ -8,11 +8,13 @@
 **Experimental parent:** [33S7 — Future-Splitting State Recruitment](33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)  
 **FSAI parent:** [33S7A — Future-Sufficient Address Invariant and Layer-Before-Law Precedence](33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)  
 **Interrogation parent:** [33S7B — Sideways Invariant Interrogation and Nuisance-Quotient Readdressing](33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md)  
+**Coalition / ablation parent:** [25C — Residual Instrument Generation and Protected Discovery Boundary](25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md)  
+**Prospective generator-audit parent:** [29B — Typed Decomposition, Reconstruction, and Prospective Generator Audit](29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md)  
 **Scientific claim boundary:** [29 — Scientific Tightening and Claim Discipline](29_MKUFT_SCIENTIFIC_TIGHTENING_AND_CLAIM_DISCIPLINE.md)  
 **Humane traversal support:** [20 — GRACE Traversal Rule](20_GRACE_TRAVERSAL_RULE.md)  
 **Public formulation date:** 4 September 2026  
 **Rights:** Copyright © 2026 Mark Charles McLaughlin. All rights reserved unless an exact later publication states otherwise.  
-**Status:** live canonical methodological refinement. It formalises an observer-bounded traversal consequence of the existing future-sufficiency family and carries the observer-side Probe-State Separation guard: the current state may determine which discriminating operations are reachable next; retained trajectory information remains live only while it still changes the declared future after present-state mediation; and a verbal question is one possible discriminator rather than a privileged master operator. It does not establish a new physical law, observer-caused dynamics, hidden-memory substance, universal theory of questioning, universal value function, or evidence for consciousness-dependent physics.
+**Status:** live canonical methodological refinement. It formalises an observer-bounded traversal consequence of the existing future-sufficiency family and carries the observer-side Probe-State Separation guard: the current state may determine which discriminating operations are reachable next; retained trajectory information remains live only while it still changes the declared future after present-state mediation; and a verbal question is one possible discriminator rather than a privileged master operator. The 2 October 2026 live corollary adds coalition-conditioned discriminator-frontier testing: selected, separately registered partial exposures may jointly make a target-relevant discriminator reachable without thereby earning the discriminator's answer, mechanism, or source claim. It does not establish a new physical law, observer-caused dynamics, hidden-memory substance, universal theory of questioning, generic synergy theorem, universal value function, or evidence for consciousness-dependent physics.
 **Module status:** current numbered MKUFT module.  
 
 ## 1. Purpose
@@ -419,6 +421,94 @@ Do not claim the consequence of a transform that was never executed/inspected, a
 
 The parent representation-invariance and observer-equivalence tests are owned by Module 31. This section only states the traversal consequence: a changed representation can alter what the bounded observer can lawfully ask or recover next.
 
+### 6D. Coalition-conditioned discriminator-frontier corollary
+
+A bounded observer may sometimes receive several separately registered partial exposures whose **joint registration changes which target-relevant discriminator is reachable**, even though no member or admissible smaller coalition reaches an equivalent discriminator under matched conditions.
+
+This is not a claim that combinations are intrinsically evidentially stronger, and it is not a new theory of multivariate synergy. Generic joint-only information and adaptive query/test selection already have substantial prior art. The MKUFT claim here is narrower: once provenance, dependence, observer state, resource envelope and target are typed, a selected coalition may change the **reachable discriminator frontier** without changing the evidential status of the answer before that discriminator is executed.
+
+Let the separately registered exposure/evidence family be
+
+```math
+\mathcal E
+=
+\{e_1,\ldots,e_n\},
+```
+
+with provenance and dependence retained rather than silently treating all members as independent.
+
+Let
+
+```math
+\mathfrak C_q
+\subseteq
+2^{\mathcal E}
+```
+
+be a **prospectively declared or domain-natively justified** family of coalitions relevant to target $q$. The full power set is not a default search requirement, and post-hoc subset mining after the desired answer is known is exploratory rather than confirmatory.
+
+For a coalition $S\in\mathfrak C_q$, lawfully register only the information carried by $S$, preserve the matched observer/access/permission/resource envelope, and readdress before evaluating the reachable discriminator family. Write the resulting frontier schematically as
+
+```math
+\mathcal D_t^q[S].
+```
+
+Two discriminators are treated as equivalent for this test when they induce the same declared target-relevant partition, prediction, decision consequence, falsifier, recovery route, or closure state to the stated tolerance. Let
+
+```math
+[\mathcal D_t^q[S]]_q
+```
+
+denote the set of those target-equivalence classes.
+
+The **coalition-conditioned frontier residual** is then
+
+```math
+\boxed{
+\Delta_{\mathcal D}^{q}(S)
+=
+[\mathcal D_t^q[S]]_q
+\setminus
+\bigcup_{\substack{
+S'\in\mathfrak C_q\\
+S'\subsetneq S
+}}
+[\mathcal D_t^q[S']]_q.
+}
+```
+
+A non-empty residual means only that the selected coalition reaches at least one target-relevant discriminator class that no admissible proper subset reaches under the matched envelope:
+
+```math
+\Delta_{\mathcal D}^{q}(S)\neq\varnothing.
+```
+
+It does **not** imply:
+
+```text
+new discriminator reachable
+→ answer true
+→ mechanism true
+→ source identified
+```
+
+Those arrows are invalid without the ordinary evidence and execution burdens.
+
+The proper-subset comparison is load-bearing. If $A+B$ already reaches an equivalent discriminator, then $A+B+C$ receives no irreducible three-way credit for that discriminator. If one member carries the whole effect, reduce to that member. If repeated, transformed or derived carriers share lineage, collapse the dependence before coalition credit. If a fair control replacement preserves the frontier change, the proposed interaction weakens or dies.
+
+The corollary also makes **no monotonicity claim**. Adding information can open, close, merge, block, or reprioritise discriminators because it can alter Address, observer state, evidence state, admissibility or stopping conditions. The scientific object is the matched target-relevant frontier difference, not a claim that more inputs always mean more questions.
+
+Use [25C](25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md) for coalition, removal/substitution, causal-shadow and no-smuggling controls. Use [29B](29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md) when generator merit is claimed, including matched information, tools, compute, search budget, revision opportunity and stopping rules.
+
+Prior-art subtraction remains explicit:
+
+- Williams, P. L. & Beer, R. D. (2010), *Nonnegative Decomposition of Multivariate Information*, arXiv:1004.2515 — generic multivariate redundancy/synergy structure;
+- Golovin, D. & Krause, A. (2011), *Adaptive Submodularity: Theory and Applications in Active Learning and Stochastic Optimization*, *Journal of Artificial Intelligence Research* 42, 427–486; arXiv:1003.3967 — adaptive selection under partial observation.
+
+Therefore the public MKUFT residual is **not** the invention of synergy, coalition effects, value of information, active learning, or adaptive question selection. It is the addressed integration of coalition/dependence control with observer-bounded reachable-discriminator geometry, realised-state readdressing, answer/source separation and prospective strongest-baseline comparison.
+
+> **A coalition may earn a new discriminator without earning the discriminator's answer.**
+
 ## 7. Discriminator selection and no unique “right question” claim
 
 This module does not posit one uniquely correct next question.
@@ -631,6 +721,7 @@ Useful calibration classes include:
 5. **negative control:** add attractive but target-null questions/measurements and require no artificial improvement from mere interrogation count;
 6. **contact-conditioned repeat control:** hold target class, surface query, information access, tool budget and feedback policy fixed while comparing genuinely first-contact trials with repeat-exposed trials. Test whether a prospectively declared observer/representation-state change predicts a changed candidate distribution, discriminator frontier, stopping state, or later performance. If the difference disappears after an adequate present-state mediator is included, screen contact history back to provenance;
 7. **generator/source separation:** compare question/discriminator selection quality and answer/prediction accuracy as separate outcomes under a declared search budget. A method may outperform at finding informative interrogations while returning null on privileged-source claims, or vice versa.
+8. **coalition-conditioned frontier control:** prospectively declare or domain-natively justify a sparse coalition family; hold observer/access/tool/search resources matched; compare each claimed coalition effect against admissible proper subsets, dependence-collapsed controls and fair member substitutions; score discriminator utility separately from downstream answer correctness.
 
 The module contracts if:
 
@@ -640,6 +731,8 @@ The module contracts if:
 - contact-conditioned repeat effects disappear under adequate state, order, exposure, feedback, fatigue, selection, or ordinary learning controls;
 - query generation repeatedly launders post-hoc search rather than surviving prospective comparison;
 - question-selection performance is used as evidence for answer truth or anomalous/privileged information source without an independent discriminator;
+- coalition-conditioned frontier effects disappear after proper-subset ablation, dependence correction, matched resource/search control or strong native interaction-aware baselines;
+- arbitrary post-hoc subset mining is counted as confirmatory evidence for a preferred higher-order pattern;
 - the humane kernel is used to alter evidence or scientific verdicts rather than route choice among surviving lawful options.
 
 A clean null is acceptable. In that case the useful content should be absorbed into the parent state/observability/experimental-design owners and the MKUFT-specific claim reduced.
@@ -658,6 +751,8 @@ OBSERVER-BOUNDED TRAVERSAL
 + contact-conditioned repeat equivalence only where prior contact still changes target-relevant observer/representation state
 + representation-conditioned reach only where an actually executed/inspected transform changes the target-relevant discriminator family
 + representation count kept separate from underlying object count
++ coalition-conditioned frontier residuals only after proper-subset / dependence / matched-resource controls
++ newly reachable discriminator kept separate from answer, mechanism and source truth
 + question-generator merit kept separate from answer correctness and source evidence
 + readdressing from the realised state
 + a discriminator frontier allowed to change with traversal

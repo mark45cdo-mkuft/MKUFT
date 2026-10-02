@@ -168,6 +168,15 @@ The 33S2/33S3 family sits close to several mature literatures. The following sou
 
 These works remove broad novelty claims for causal abstraction, lumpability, property-oriented reduction, macro causal efficacy, history/memory repair, reachability/viability, hysteresis/resilience and multilevel performance conflict. The residual MKUFT claim is documented separately in Module 33A: a candidate addressed-law decision architecture that uses property-specific sufficiency, closure, recoverability and evidence-triggered readdressing as distinct operational objects. That residual remains open to stronger prior art and empirical failure.
 
+## 14A. Multivariate information synergy and adaptive inquiry
+
+The 33S7C coalition-conditioned discriminator-frontier corollary sits next to mature work on multivariate synergy and adaptive test selection. These sources therefore function as **prior art and hostile comparators**, not support-by-resemblance:
+
+- Williams, P. L. & Beer, R. D. (2010). “Nonnegative Decomposition of Multivariate Information.” arXiv:1004.2515. The redundancy-lattice / partial-information programme explicitly represents information available redundantly, uniquely, or synergistically across source subsets.
+- Golovin, D. & Krause, A. (2011). “Adaptive Submodularity: Theory and Applications in Active Learning and Stochastic Optimization.” *Journal of Artificial Intelligence Research* 42, 427–486; arXiv:1003.3967. Adaptive policies under partial observation already establish that later test/action selection can depend on information gathered earlier.
+
+These works remove broad novelty claims for “joint sources reveal something no source reveals alone,” generic coalition effects, value-of-information logic, and adaptive question/test selection. The residual MKUFT object is narrower: a typed addressed observer state, a prospectively admissible coalition family, dependence/provenance control, matched resources, proper-subset ablation, target-equivalent discriminator classes, realised-state readdressing, and explicit separation of discriminator reach from answer/mechanism/source truth. If strong native methods recover that full burden with equal or better clarity/performance, the MKUFT-specific claim contracts.
+
 ## 15. Evidence and claim standard
 
 For each cited neighbour, ask:

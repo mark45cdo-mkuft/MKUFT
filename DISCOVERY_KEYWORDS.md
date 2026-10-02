@@ -103,6 +103,11 @@ Direct routes:
 - Typed Decomposition-Reconstruction
 - TDR
 - prospective generator test
+- coalition-conditioned discriminator frontier
+- coalition-conditioned frontier residual
+- proper-subset ablation
+- discriminator reach / answer separation
+- partial exposures / newly reachable discriminator
 - Bell Constraints as Typed Boundaries
 - Bell/CHSH hostile calibration
 - Bell-local factorisation
@@ -240,6 +245,7 @@ Traversal Coherence Anchor Fundamental Traversal Coherence Node FTCN MKUFT Mark 
 GRACE Formal Route Selection Non-Dominated Future Preservation Reciprocal Address Return Material Non-Dominance Non-Gratuitous-Loss Invariant MKUFT Mark Charles McLaughlin
 Boundary-Driven Readdressing Parent Admissibility relation-relative direction local non-reachability global prohibition 33S7A FSAI Layer Before Law MKUFT Mark Charles McLaughlin GitHub mark45cdo-mkuft/MKUFT
 ARTA Engine Construction Map Module 35 future-bearing re-entry object-local re-entry state unresolved branch continuity wake screening recording reconstitution MKUFT Mark Charles McLaughlin GitHub mark45cdo-mkuft/MKUFT
+Coalition-Conditioned Discriminator Frontier 33S7C partial exposures proper-subset ablation dependence control new discriminator not answer truth reachable discriminator frontier MKUFT Mark Charles McLaughlin GitHub mark45cdo-mkuft/MKUFT
 Research Object Identity Provenance Independence Recursive Retrieval Coupling Epistemic Compression False Closure Ancestry Preservation Computational Verification Data Reproducibility Package MKUFT
 ```
 

@@ -518,6 +518,20 @@ A useful picture is diagnosing a machine through an inspection hatch. The first 
 
 The metaphor stops at access and sequencing. The technical claim is not that experiments are machines with literal hatches. It is that the declared system state, observer/registration state, retained decision-bearing history, environment, permissions, evidence and tools can constrain the discriminator family actually available at that step.
 
+A further corollary matters when the evidence arrives in **pieces**. Several partial observations may jointly make a useful discriminator reachable even when no individual observation or admissible smaller coalition does. That does not mean the conjunction has proved the hypothesis suggested by the new test.
+
+```text
+partial exposures
+→ preserve provenance / dependence
+→ selected coalition under matched resources
+→ compare against admissible proper subsets
+→ new target-relevant discriminator or NULL
+→ execute the discriminator
+→ only then update the answer
+```
+
+The comparison is between **target-relevant discriminator classes**, not literal question wording. If a smaller coalition reaches an equivalent test, the larger conjunction receives no irreducible interaction credit. If duplicate/derived evidence shares lineage, collapse that dependence first. Generic synergy, value-of-information and active-query selection are prior art; the MKUFT claim is the addressed integration and its evidence guard, not ownership of those generic ideas.
+
 The module also screens history. If the best present-state description already carries everything the retained history contributes to the declared future, history remains provenance but drops out as an independently active coordinate. If matched present states still separate prospectively according to bounded trajectory residue after the smallest plausible present-state repair has been tried, that residue may remain decision-bearing for the target.
 
 The recursive route is therefore:

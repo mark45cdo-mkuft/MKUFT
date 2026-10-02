@@ -249,6 +249,27 @@ current addressed state
 
 > **Prospective/modelled probe reach ≠ current-state advancement.**
 
+### Stage 5A — test coalition-conditioned frontier changes where partial exposures interact
+
+When several separately registered observations, measurements, records or partial state descriptions may interact, do **not** treat the conjunction itself as confirmation and do not brute-force every subset by default.
+
+Use the 33S7C coalition-conditioned discriminator-frontier corollary:
+
+```text
+typed partial exposures
+→ prospectively declared / domain-justified candidate coalition
+→ preserve provenance + dependence
+→ register coalition under matched access / permission / tool / search budget
+→ readdress
+→ compare reachable discriminator classes against admissible proper subsets
+→ NEW FRONTIER RESIDUAL or NULL
+→ execute the surviving discriminator
+→ only then update answer / mechanism / source claims
+```
+
+A coalition earns implementation attention only when its interaction can change a named target-relevant discriminator or continuation. Equivalent discriminators reached by a smaller admissible coalition collapse the larger interaction claim. Repeated or derived carriers do not count as independent contributors merely because they are separately stored.
+
+> **New discriminator reach is not answer truth.**
 ### Stage 6 — apply hard gates before route comparison
 
 Use GRACE 20/20A.
@@ -623,6 +644,12 @@ Transform availability must not be reported as executed observer evidence.
 ### R5 — representation/object multiplication
 
 Several views or encodings of one source must not become several independent source objects.
+
+### R5A — coalition / answer inflation
+
+Several partial exposures may jointly change the reachable discriminator frontier without proving the answer suggested by that discriminator. Pass only when the implementation preserves provenance/dependence, compares against admissible proper subsets under matched resources, and keeps discriminator reach separate from answer/mechanism/source truth.
+
+Fail if arbitrary subset mining, duplicate carriers, or a larger information/search budget is counted as a coalition effect.
 
 ### R6 — gate/weight collapse
 

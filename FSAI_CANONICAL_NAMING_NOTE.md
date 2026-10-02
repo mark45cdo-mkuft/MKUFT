@@ -99,6 +99,31 @@ History is screened back to provenance where the present typed state already med
 
 Canonical technical owner: [Module 33S7C — Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md).
 
+## Coalition-conditioned discriminator-frontier corollary
+
+The observer-bounded owner now carries a second narrow consequence without creating a new named principle or module.
+
+For a prospectively admissible coalition $S$ of separately registered partial exposures, define the target-relevant reachable discriminator frontier only after lawful registration, provenance/dependence preservation, matched observer/resource conditions, and readdressing. Compare the resulting discriminator classes against admissible proper subsets.
+
+A non-null coalition residual means:
+
+```text
+selected conjunction
+→ new target-relevant discriminator class reachable
+```
+
+not:
+
+```text
+selected conjunction
+→ answer true
+→ mechanism true
+→ source identified
+```
+
+If a proper subset reaches an equivalent discriminator, the larger coalition receives no irreducible credit for that discriminator. If dependence correction, member substitution, matched-budget control or a strong native interaction-aware baseline removes the frontier difference, the coalition claim contracts.
+
+This corollary claims no generic priority over multivariate synergy, coalition effects, value of information, active learning or adaptive test selection. Canonical technical owner: [Module 33S7C §6D](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md#6d-coalition-conditioned-discriminator-frontier-corollary).
 ## Boundary-driven readdressing / parent-admissibility corollary
 
 The live FSAI/LBLP owner now states one further bounded consequence in [33S7A §5D](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary):

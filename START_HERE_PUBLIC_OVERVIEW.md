@@ -320,6 +320,7 @@ The strongest near-term uses are:
 - preventing scale errors;
 - separating local performance from global recoverability;
 - preserving future-relevant history without carrying irrelevant detail;
+- testing whether a selected coalition of partial observations makes a new discriminator reachable without mistaking that new test for evidence of its answer;
 - designing stronger cross-domain falsification tests.
 
 If those tools do not improve prediction, experimental design, or conceptual clarity, the architecture should contract.
@@ -337,8 +338,9 @@ If you are new to the work:
 7. read [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md);
 8. read [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md);
 9. read [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md), including the live boundary-driven readdressing / parent-admissibility corollary;
-10. use the [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) whenever a technical handoff leaves your native field.
-11. if you want the current formal question about whether the whole inquiry loop itself has a representation-independent factorisation, read the [Minimal Addressed Operator preprint](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md). Treat it as a conjecture/falsification programme, not a proved universal theorem.
+10. read [Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md), including the coalition-conditioned discriminator-frontier corollary when several partial exposures may jointly change which test is reachable;
+11. use the [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) whenever a technical handoff leaves your native field;
+12. if you want the current formal question about whether the whole inquiry loop itself has a representation-independent factorisation, read the [Minimal Addressed Operator preprint](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md). Treat it as a conjecture/falsification programme, not a proved universal theorem.
 
 For the complete repository map, use [INDEX.md](INDEX.md) and [CANON_MAP.md](CANON_MAP.md).
 

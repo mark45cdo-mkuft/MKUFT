@@ -371,6 +371,10 @@ The picture stops there. In the technical module, the hatch is the declared obse
 
 Representation can change that access without changing the underlying object. The same image may become readable after rotation; the same data may expose a different relation after a lawful re-encoding or projection; one observer may change while another remains invariant. **Same object does not automatically mean same observer-operation.** But the transform must actually be performed and inspected before its consequence is claimed, and a changed readout does not by itself prove that the underlying ontology changed.
 
+The same logic now covers **coalitions of partial evidence**. Suppose A, B and C are each insufficient, but together they make a particular measurement or comparison possible. That can be scientifically meaningful: the conjunction may have changed the test frontier. It still has not proved the answer. Compare A+B+C against admissible proper subsets under matched resources, collapse duplicate/derived evidence, and only give the conjunction irreducible credit if the new discriminator disappears when the load-bearing member or relation is removed.
+
+> **A coalition may earn a new discriminator without earning the discriminator's answer.**
+
 So the recursive route is:
 
 ```text
