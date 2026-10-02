@@ -312,6 +312,22 @@ Read: [ATLD 2 v2.0](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v
 
 ---
 
+## Coalition-Conditioned Discriminator Frontier
+
+**Plain object:** several separately registered partial exposures may jointly make a target-relevant test, comparison, measurement or other discriminator reachable even when no admissible proper subset reaches an equivalent discriminator under matched conditions.
+
+**Closest established neighbours:** partial information decomposition and multivariate synergy; coalition/interactions analysis; value of information; active learning; Bayesian/adaptive experimental design; adaptive submodularity.
+
+**Already owned by established science:** generic synergy, joint-only information, coalition effects, and the fact that information gathered so far can change which test or action should be selected next.
+
+**MKUFT residual claim:** an addressed observer-side corollary that couples provenance/dependence control, a prospectively admissible coalition family, proper-subset ablation, matched observer/tool/search resources, target-equivalent discriminator classes, realised-state readdressing, and the explicit guard that a newly reachable discriminator does not inherit answer, mechanism, or source truth.
+
+**Reduction / kill:** if strong native interaction-aware or adaptive-design methods recover the same target-relevant discriminator frontier with equal or better clarity/performance, or if the apparent coalition residual disappears under proper-subset, dependence, substitution or matched-resource controls, the MKUFT-specific claim contracts to translation/synthesis.
+
+Read: [33S7C §6D — Coalition-conditioned discriminator-frontier corollary](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md#6d-coalition-conditioned-discriminator-frontier-corollary), [25C](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md), and [29B](docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md).
+
+---
+
 ## Preserve / Reopen
 
 **Plain object:** keep a representation while it remains sufficient for the declared task; reopen hidden detail when a controlled test shows that the compression has lost a load-bearing distinction.

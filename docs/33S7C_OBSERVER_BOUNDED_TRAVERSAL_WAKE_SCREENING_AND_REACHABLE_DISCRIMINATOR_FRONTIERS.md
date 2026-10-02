@@ -503,7 +503,7 @@ Use [25C](25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md
 Prior-art subtraction remains explicit:
 
 - Williams, P. L. & Beer, R. D. (2010), *Nonnegative Decomposition of Multivariate Information*, arXiv:1004.2515 — generic multivariate redundancy/synergy structure;
-- Golovin, D. & Krause, A. (2011), *Adaptive Submodularity: Theory and Applications in Active Learning and Stochastic Optimization*, *Journal of Artificial Intelligence Research* 42, 427–486; arXiv:1003.3967 — adaptive selection under partial observation.
+- Golovin, D. & Krause, A. (2011), *Adaptive Submodularity: Theory and Applications in Active Learning and Stochastic Optimization*, *Journal of Artificial Intelligence Research* 42, 427–486; DOI `10.1613/jair.3278`; arXiv:1003.3967 — adaptive selection under partial observation.
 
 Therefore the public MKUFT residual is **not** the invention of synergy, coalition effects, value of information, active learning, or adaptive question selection. It is the addressed integration of coalition/dependence control with observer-bounded reachable-discriminator geometry, realised-state readdressing, answer/source separation and prospective strongest-baseline comparison.
 
