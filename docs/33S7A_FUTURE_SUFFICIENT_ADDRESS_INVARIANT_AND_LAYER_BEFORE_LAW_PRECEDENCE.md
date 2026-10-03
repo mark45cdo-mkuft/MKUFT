@@ -21,6 +21,17 @@
 
 ## 1. Purpose
 
+### Plain orientation
+
+This family asks one underlying question:
+
+> **When is a compressed description of a system good enough to stand in for the fuller history for the future use we care about?**
+
+If histories grouped into the same present state still split into materially different declared futures under a lawful test, the compression was too coarse for that use. If they do not split, the simpler state remains sufficient for that target and regime.
+
+The three names below divide that one idea into distinct jobs: a **criterion** for sufficiency, an **ordering rule** for what to test before revising a law, and an **experimental assay** that tries to make a false equivalence reveal itself.
+
+
 Modules 33S4, 33S6 and 33S7 already define the operative future-sufficiency construction. This note gives that construction a stable canonical name and separates three different scientific objects that must not be flattened together:
 
 - **Future-Sufficient Address Invariant (FSAI):** the cross-domain formal criterion for when a declared Address is sufficient for a declared future;

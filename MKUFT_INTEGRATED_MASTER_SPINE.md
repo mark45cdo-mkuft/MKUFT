@@ -16,6 +16,8 @@ MKUFT is a speculative research framework, not an accepted completed physical th
 
 This master spine is a **synthesis and routing document**. Dedicated modules own full derivations, definitions, experiments, references, and falsifiers. If a compressed expression here conflicts with its canonical owner, the canonical owner controls and this spine must be corrected.
 
+The main human route is [00 — Start Here](00-START-HERE-MKUFT-PUBLIC.md) → [Extended Overview](START_HERE_PUBLIC_OVERVIEW.md) → [Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) → exact technical owner. Direct entry into a technical owner remains legitimate through search, citation, index or specialist use, but that owner should locally state enough of its question and object that the mathematics is not asked to explain its own purpose.
+
 MKUFT survives only where it remains:
 
 - typed by domain and layer;
@@ -23,7 +25,7 @@ MKUFT survives only where it remains:
 - explicit about whether an equation is notation, scaffold, model, or derived mechanism;
 - open to ordinary explanations and strong alternatives;
 - falsifiable at the branch where the claim is made;
-- reconstructable from several public entry routes without changing meaning.
+- reconstructable through the single public reader route, and locally intelligible when a reader lawfully enters a technical owner directly.
 
 ## 1. Core research question
 

@@ -11,7 +11,9 @@ The wider public synthesis is now maintained in the [Integrated Master Spine](..
 
 The retirement avoids a recurring failure mode: multiple explanatory files independently compressing LUCY, path weighting, observer terms, symbolic material, or cross-layer claims until their notation and evidential status diverge from the formal owners.
 
-Current public routes:
+For current reading, enter through the single reader route: [00 — Start Here](../00-START-HERE-MKUFT-PUBLIC.md) → [Extended Overview](../START_HERE_PUBLIC_OVERVIEW.md) → [Technical Continuation](../SCIENTIFIC_READER_TRAVERSAL_GUIDE.md).
+
+Technical destinations retained from this historical page:
 
 - [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) — current synthesis and canonical compression.
 - [Physics-Facing MKUFT Explanation](13_PHYSICS_FACING_MKUFT_EXPLANATION.md) — technical explanation.

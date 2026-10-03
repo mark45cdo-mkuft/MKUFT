@@ -9,7 +9,9 @@
 
 This file previously carried a separate plain-language synthesis. To prevent explanatory prose from developing its own equations, notation, or claim status, the current public explanation is now routed through the canonical synthesis and formal owners.
 
-Use these current routes:
+For current reading, enter through the single reader route: [00 — Start Here](../00-START-HERE-MKUFT-PUBLIC.md) → [Extended Overview](../START_HERE_PUBLIC_OVERVIEW.md) → [Technical Continuation](../SCIENTIFIC_READER_TRAVERSAL_GUIDE.md).
+
+Technical destinations retained from this historical page:
 
 - [Integrated Master Spine](../MKUFT_INTEGRATED_MASTER_SPINE.md) — current public synthesis and canonical compression.
 - [Start Here — Public Overview](../START_HERE_PUBLIC_OVERVIEW.md) — reader-facing introduction.

@@ -464,6 +464,68 @@ Reader continuity is subordinate to comprehension. Preserve an already-clear rel
 
 During a reader-route repair, do not cosmetically rewrite valid Markdown/LaTeX or equation source merely to make the surrounding prose simpler. Scientific notation changes only when the scientific object or rendering is actually defective.
 
+### Local-entry / deep-link accessibility
+
+A single progressive reader route does **not** imply that technical owners may be locally opaque.
+
+Readers can arrive directly through search, citation, DOI metadata, an index, a deep link, an AI retrieval surface, or specialist practice. A live technical owner should therefore be **locally receivable** at its entry surface.
+
+Before the first non-trivial formal burden, expose the minimum explanation needed to recover:
+
+- **what object or question** the module owns;
+- **why the distinction matters** for the declared task;
+- **what ordinary/native account or prior owner** is already in force;
+- **what the formalism is doing** rather than merely what its symbols are called;
+- **what status, limit, null, or kill condition** prevents the notation from self-promoting.
+
+This is a minimum local bridge, not a demand for a second essay in every file.
+
+Use the smallest carrier that genuinely closes reconstruction:
+
+```text
+clear purpose / question already sufficient
+→ NULL
+
+dense inherited nomenclature before the object is recoverable
+→ add a short plain orientation
+
+mathematical appendix with locally defined symbols and a clear handoff
+→ usually NULL
+
+concrete example materially improves understanding
+→ use one
+
+concrete example adds only bulk
+→ omit it
+```
+
+A direct-entry reader does **not** need the entire front-door tutorial repeated locally. The test is narrower:
+
+> **Can a competent reader tell what is being formalised and why before the notation is asked to carry the explanation?**
+
+Retired compatibility pages retained for stable links must redirect readers into the single current reader route. They may list technical destinations, but they must not present those destinations as competing current reader routes.
+
+A reader/accessibility audit is not closed until it has inspected, at minimum:
+
+1. the global reader route and route-control surfaces;
+2. the entry layer of live technical owners materially reachable from that route;
+3. likely direct/deep-link technical owners where compressed nomenclature is load-bearing;
+4. retired compatibility pointers that remain externally reachable;
+5. changed equation-bearing carriers for notation/rendering preservation.
+
+Already-good technical owners should return **NULL** rather than receive ceremonial prose.
+
+The closure condition is therefore:
+
+```text
+globally route-correct
++ locally receivable at technical entry
++ native scientific burden preserved
++ valid math carrier preserved
+→ reader audit may close
+```
+
+
 When a new stable phrase belongs to an existing owner rather than a new standalone object, index the phrase and route it to the existing owner/section. Do not manufacture a phantom module merely to make search retrieval easier.
 
 Keep authored discovery state separate from externally observed indexing:

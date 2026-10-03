@@ -12,6 +12,15 @@
 
 ## 1. Purpose
 
+### Plain orientation
+
+This audit asks a simple question before the chronology and terminology become dense:
+
+> **Which parts of the Module 32 family are already supplied by existing science and mathematics, and what exact operational remainder, if any, is still distinctive enough to test as MKUFT?**
+
+It is therefore a subtraction exercise, not a catalogue of everything the architecture contains. Established ingredients stay credited to their native fields; only the residual conjunction that survives comparison remains a candidate MKUFT contribution.
+
+
 Module 32 began from an independently reached chain about recursive learning, self-maintained constraint, changing future reach, and scale-dependent freedom/capability. Same-day refinement then added load-bearing-set tests, relation-versus-carrier substitution, relational addressability, same-self parity, temporal-continuity kernels, typed relation scopes, completion fibers, quotient-based scale readout, macrostate realisation classes, temporal mismatch exposure, an I→P transition-support assay, an intrinsic/extrinsic address split with path transport, loop-history tests, context-indexed P-realisation fibers and boundary-conditioned physical comparators, a capstone factorisation in which the complete addressed state/context produces a typed admissibility descriptor and active physical law object, and finally a dynamic-interface promotion gate specifying when a load-bearing relation must be represented explicitly in the recursively updated state.
 
 A literature audit found substantial prior and adjacent work. The scientific task is therefore not to defend every ingredient as new. It is to identify what prior work already supplies, what the current MKUFT integration adds operationally, and what remains only a candidate contribution pending broader review and empirical use.

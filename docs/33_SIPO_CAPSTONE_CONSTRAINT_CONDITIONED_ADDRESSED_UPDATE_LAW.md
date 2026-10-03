@@ -14,6 +14,19 @@
 
 ## 1. Why this capstone exists
 
+### Plain orientation
+
+Earlier modules define pieces of the update separately: what state is being described, which constraints and boundaries matter, which futures are admissible, which physical rule applies there, what outcome is realised, and how that outcome changes the next state description.
+
+This capstone does one job:
+
+> **assemble those pieces into one typed update without pretending they are all the same kind of object.**
+
+In ordinary language, the sequence is: identify the current addressed state → determine the lawful domain and rule for that state → propagate → register what actually happened → rebuild the next addressed state from the realised result.
+
+The formal notation below is the compact carrier for that sequence; it is not a claim that the notation itself supplies a new physical mechanism.
+
+
 Layer Before Law introduced
 
 ```math
