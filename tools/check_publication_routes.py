@@ -462,6 +462,48 @@ REQUIRED.setdefault("SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md", []).extend([MAO_VE
 REQUIRED.setdefault("SCIENTIFIC_REFERENCES_AND_CURRENT_LITERATURE.md", []).extend([MAO_VERSION, MAO_CONCEPT, MAO_PAPER])
 REQUIRED.setdefault("RESEARCH_DERIVATION_AND_CLOSURE_SOP.md", []).extend(["Representation-neutral premise gate", "proposed internal variables/operators"])
 
+# Reader-route / discovery anti-regression gates.
+REQUIRED.setdefault("README.md", []).extend([
+    "00-START-HERE-MKUFT-PUBLIC.md",
+    "START_HERE_PUBLIC_OVERVIEW.md",
+    "SCIENTIFIC_READER_TRAVERSAL_GUIDE.md",
+    "one progressive human reading route",
+])
+REQUIRED.setdefault("INDEX.md", []).extend([
+    "Start here — one progressive reader route",
+    "Step 2 — Extended Overview",
+    "Step 3 — Technical Continuation",
+])
+REQUIRED.setdefault("PUBLIC_DISCOVERY_ANCHOR.md", []).extend([
+    "Single progressive reader route",
+    "Step 2 — Extended Overview",
+    "Step 3 — Technical Continuation",
+    "local technical-entry receivability",
+])
+REQUIRED.setdefault("DISCOVERY_KEYWORDS.md", []).extend([
+    "MKUFT Single Reader Route",
+    "Technical Continuation",
+    "local technical-entry receivability",
+    "deep-link accessibility",
+    "Scientific Reader Traversal Guide",
+])
+REQUIRED.setdefault("SCIENTIFIC_READER_TRAVERSAL_GUIDE.md", []).extend([
+    "Step 3 — Technical Continuation",
+    "same progressive route",
+])
+REQUIRED.setdefault("RESEARCH_DERIVATION_AND_CLOSURE_SOP.md", []).extend([
+    "Local-entry / deep-link accessibility",
+    "globally route-correct",
+    "locally receivable at technical entry",
+])
+REQUIRED.setdefault("codemeta.json", []).extend([
+    "00-START-HERE-MKUFT-PUBLIC.md",
+    "START_HERE_PUBLIC_OVERVIEW.md",
+    "SCIENTIFIC_READER_TRAVERSAL_GUIDE.md",
+    "single progressive reader route",
+    "local technical-entry receivability",
+])
+
 REQUIRED[f"papers/{MAO_PAPER}"] = [
     MAO_VERSION, MAO_CONCEPT, MAO_RECORD,
     "33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md",

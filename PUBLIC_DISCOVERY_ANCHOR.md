@@ -14,14 +14,24 @@ This page is a compact discovery and identity surface. Frozen DOI-bearing public
 
 ARTA is the live canonical name of the integrated MKUFT architecture; MKUFT remains the project/framework/publication lineage. Naming ARTA does not rename frozen publications or establish novelty by itself. See [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md).
 
-## Main public routes
+## Main reader route and discovery surfaces
+
+### Single progressive reader route
+
+1. [00 — Start Here: MKUFT Single Reader Route](00-START-HERE-MKUFT-PUBLIC.md)
+2. [Step 2 — Extended Overview](START_HERE_PUBLIC_OVERVIEW.md)
+3. [Step 3 — Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) — stable legacy filename retained for existing links.
+4. Follow the exact technical owner required by the question.
+
+A reader may also arrive directly at a technical owner through search, citation, DOI metadata, index, deep link or AI retrieval. Current public authoring therefore requires both **global route coherence** and **local technical-entry receivability**.
+
+### Discovery / identity / technical destinations
 
 - [README](README.md)
 - [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md)
 - [Minimal Addressed Operator v1.0 paper](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md)
 - [Minimal Addressed Operator publication record](MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md)
 - [Papers and Publications](papers/README.md)
-- [Start Here — Public Overview](00-START-HERE-MKUFT-PUBLIC.md)
 - [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md)
 - [Canon Map](CANON_MAP.md)
 - [Public Index](INDEX.md)

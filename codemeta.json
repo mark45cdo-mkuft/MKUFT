@@ -60,7 +60,11 @@
     "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md",
     "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md",
     "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md",
-    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md"
+    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md",
+    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/00-START-HERE-MKUFT-PUBLIC.md",
+    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/START_HERE_PUBLIC_OVERVIEW.md",
+    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/SCIENTIFIC_READER_TRAVERSAL_GUIDE.md",
+    "https://github.com/mark45cdo-mkuft/MKUFT/blob/main/INDEX.md"
   ],
   "author": {
     "@type": "Person",
@@ -153,7 +157,13 @@
     "sequential inquiry",
     "clean inquiry factorisation",
     "prospective minimal replacement",
-    "recursive scale handoff"
+    "recursive scale handoff",
+    "single progressive reader route",
+    "MKUFT Single Reader Route",
+    "Technical Continuation",
+    "object-first explanation",
+    "local technical-entry receivability",
+    "deep-link accessibility"
   ],
   "headline": "MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics"
 }

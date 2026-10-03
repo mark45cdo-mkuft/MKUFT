@@ -15,6 +15,16 @@ Canonical architecture route:
 
 - `ARTA_CANONICAL_NAMING_NOTE.md`
 
+Canonical reader-route discovery:
+
+- **MKUFT Single Reader Route** — `00-START-HERE-MKUFT-PUBLIC.md`
+- **Step 2 — Extended Overview** — `START_HERE_PUBLIC_OVERVIEW.md`
+- **Step 3 — Technical Continuation** — `SCIENTIFIC_READER_TRAVERSAL_GUIDE.md`
+- legacy filename/search alias: **Scientific Reader Traversal Guide**
+- reader-accessibility terms: **single progressive reader route**, **object-first explanation**, **local technical-entry receivability**, **deep-link accessibility**
+
+These terms route readers to the current explanatory architecture. They do not create a second scientific object or alter claim status.
+
 Historical/name variants:
 
 - McLaughlin–Kairos Unified Field Theory
@@ -254,6 +264,13 @@ Research Object Identity Provenance Independence Recursive Retrieval Coupling Ep
 A zero-result search is not sufficient evidence that a public object is absent. Resolve by canonical title/acronym/DOI, then inspect `papers/README.md`, `PUBLIC_DISCOVERY_ANCHOR.md`, the exact repository path, and the DOI record before returning an absence verdict. Search/index lag, tokenisation, acronym spacing and voice transcription can all produce false negatives.
 
 Canonical acronym note: **ATLD 2 / ATLD2** is the valid name. **ETLD2** is retained here only as a common voice/search mishearing so retrieval systems can recover the canonical object rather than return a false negative.
+
+## Reader-route search fingerprints
+
+```text
+MKUFT Single Reader Route Start Here Extended Overview Technical Continuation object-first explanation local technical-entry receivability deep-link accessibility Mark Charles McLaughlin GitHub mark45cdo-mkuft/MKUFT
+Scientific Reader Traversal Guide legacy filename Technical Continuation MKUFT single progressive reader route
+```
 
 ## Exact paper search fingerprints
 

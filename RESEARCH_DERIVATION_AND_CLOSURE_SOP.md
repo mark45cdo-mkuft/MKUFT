@@ -560,6 +560,45 @@ An indexing/discovery audit should be able to answer:
 
 > **Canon must be scientifically correct, route-correct, and retrievable at the claim level it actually earned.**
 
+### Audit-feedback / discovered-omission delta capture
+
+During a live audit, patch or reader review, a newly raised correction, omission, edge case or “forgotten dimension” is a **candidate delta**. It must be evaluated before the audit closes.
+
+Do **not** automatically turn every remark into canon or another rule. Type the delta by what it actually changes:
+
+```text
+new observation / correction
+→ does it change only the current object?
+   → OBJECT-LOCAL repair
+
+→ does it expose a reusable public authoring / audit rule?
+   → SOP-LEVEL propagation
+
+→ does it change reader/navigation/discovery retrieval?
+   → INDEX / DISCOVERY propagation
+
+→ does it concern internal execution / reasoning architecture rather than public science?
+   → route to the private method owner; do not leak the private trigger into public prose
+
+→ is it already covered or non-load-bearing?
+   → NULL
+
+→ does it establish an independently load-bearing scientific object?
+   → only then consider a new canonical owner
+```
+
+For every non-null audit correction, ask before closure:
+
+1. was the immediate object repaired?
+2. does the same failure class remain executable elsewhere?
+3. which existing owner should prevent recurrence?
+4. does any index/checker/handshake need to know about the new stable term or route?
+5. which candidate propagation surfaces were inspected and returned NULL?
+
+The objective is **learning without rule proliferation**:
+
+> **Every meaningful correction is considered for propagation; only future-bearing corrections are persisted beyond the local parent.**
+
 ## 10. Frozen/public/live separation
 
 Maintain separate identities for:
