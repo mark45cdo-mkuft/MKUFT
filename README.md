@@ -91,17 +91,6 @@ Cold search, AI retrieval and GitHub code search can miss a public object even w
 
 **Cold-search fallback:** [Papers and Publications](papers/README.md) → [Public Discovery Anchor](PUBLIC_DISCOVERY_ANCHOR.md) → [Discovery Keywords](DISCOVERY_KEYWORDS.md) → exact DOI/path. Do not infer “not public” or “not present” from one failed search layer.
 
-MKUFT is a speculative research framework. It is not presented as an accepted completed theory of physics. Its strongest present claim is narrower: **before a law is applied to a system, the system has to be addressed correctly.**
-
-> **Using the work:** if you are here to learn, test, teach, criticise, reproduce, or independently implement the ideas for genuine non-commercial public benefit, you are on the intended path. [Read the project’s single stewardship/use route.](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md)
-
-The integrated architecture developed through that programme now has a stable live name: **MKUFT Addressed Relational Traversal Architecture (ARTA)**. MKUFT remains the project/framework/publication lineage; ARTA names the integrated architecture inside it. Naming ARTA does not rename earlier frozen publications or change their scientific claim status by naming alone. See [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md).
-
-**Development provenance:** MKUFT/ARTA has been developed by Mark Charles McLaughlin through sustained human–AI research using OpenAI's ChatGPT systems as a reasoning and research environment. Contemporary large-scale AI capability materially enabled the breadth and pace of the programme; scientific responsibility, claim selection, source verification and publication custody remain with the named human author. [Read the full development provenance.](PROVENANCE_DOI_AND_ATTRIBUTION.md)
-
-That sounds simple. It is also where a large number of modelling errors begin.
-
-
 ## Why a reader from another field might care
 
 ### Physics

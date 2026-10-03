@@ -464,8 +464,6 @@ Reader continuity is subordinate to comprehension. Preserve an already-clear rel
 
 During a reader-route repair, do not cosmetically rewrite valid Markdown/LaTeX or equation source merely to make the surrounding prose simpler. Scientific notation changes only when the scientific object or rendering is actually defective.
 
-~~~
-
 When a new stable phrase belongs to an existing owner rather than a new standalone object, index the phrase and route it to the existing owner/section. Do not manufacture a phantom module merely to make search retrieval easier.
 
 Keep authored discovery state separate from externally observed indexing:
