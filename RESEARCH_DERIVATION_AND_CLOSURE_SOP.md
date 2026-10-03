@@ -425,9 +425,10 @@ changed canonical owner / relation
 Minimum audit roster, where present:
 
 - `README` and public entry;
-- `START_HERE_PUBLIC_OVERVIEW.md` / equivalent ordinary-reader route;
-- `SCIENTIFIC_READER_TRAVERSAL_GUIDE.md`;
-- reader-contact / failure guide;
+- `00-START-HERE-MKUFT-PUBLIC.md` — single public entry;
+- `START_HERE_PUBLIC_OVERVIEW.md` — deeper stage of the same route;
+- `SCIENTIFIC_READER_TRAVERSAL_GUIDE.md` — stable legacy filename for the technical continuation of that same route, not a second reader class;
+- reader-contact / failure guide — optional attack/translation support, not a parallel route;
 - `INDEX.md` and `CANON_MAP.md` or other claimed-complete/navigation surfaces;
 - `DISCOVERY_KEYWORDS.md`, `PUBLIC_DISCOVERY_ANCHOR.md`, citation metadata, machine-readable metadata, or equivalent search/index surfaces;
 - architecture/engine construction maps when implementation behaviour changed;
@@ -443,6 +444,26 @@ alias != identity
 public discovery metadata != claim elevation
 new corollary != new module / DOI / rights object by default
 complete registry != selective reader route
+~~~
+
+For current MKUFT public authoring, the reader route is **singular and progressive**:
+
+```text
+object / concrete carrier
+→ ordinary scientific treatment
+→ strongest ordinary/null explanation
+→ remaining discriminator
+→ MKUFT term
+→ formal statement / equation
+→ exact technical owner
+```
+
+Do not regenerate separate “public” and “scientific reader” explanatory worlds. Scientific depth is deeper on the same route; domain specialists and technical owners are exits with native burden.
+
+Reader continuity is subordinate to comprehension. Preserve an already-clear relation; if prior terminology has become opaque, re-explain the object and reconnect the formal term rather than preserving confusion for the sake of wake/continuity.
+
+During a reader-route repair, do not cosmetically rewrite valid Markdown/LaTeX or equation source merely to make the surrounding prose simpler. Scientific notation changes only when the scientific object or rendering is actually defective.
+
 ~~~
 
 When a new stable phrase belongs to an existing owner rather than a new standalone object, index the phrase and route it to the existing owner/section. Do not manufacture a phantom module merely to make search retrieval easier.

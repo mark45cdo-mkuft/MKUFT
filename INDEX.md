@@ -9,25 +9,25 @@
 
 This index is navigation. Scientific claims, equations, evidence status, rights and frozen-object identity remain owned by their dedicated modules, publication records and deposited carriers.
 
-## Start here
+## Start here — one progressive reader route
 
-1. [00 — Start Here: Public Entry](00-START-HERE-MKUFT-PUBLIC.md) — level-zero public entry and route selector.
-2. [Scientific Entry — Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) — readable handoff into the hard technical chain.
+1. [00 — Start Here: MKUFT Single Reader Route](00-START-HERE-MKUFT-PUBLIC.md) — concrete problem, ordinary scientific handling, core MKUFT terms only after the object is clear.
+2. [Step 2 — Extended Overview](START_HERE_PUBLIC_OVERVIEW.md) — same route with more architecture and scientific depth.
+3. [Step 3 — Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) — legacy filename retained for stable links; deeper technical handoff on the same route.
+4. Follow the exact technical owners linked from that continuation.
 
-Supporting routes:
+Supporting surfaces:
 
 - [README](README.md) — repository front door.
-- [MKUFT in Plain English](MKUFT_IN_PLAIN_ENGLISH.md) — shortest ordinary-language conceptual route.
-- [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md) — fuller ordinary-English scientific overview.
-- [Use This Work — Public-Benefit Use and Commercial Stewardship](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md) — **single canonical stewardship/use-routing owner** shared by all reader entry routes: public-benefit/non-commercial intent, exact-object licence custody, and separate commercial permission route.
-- [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md) — canonical live identity and provenance boundary for the integrated **MKUFT Addressed Relational Traversal Architecture**; not a standalone paper and not a retroactive rename of frozen publications.
-- [Live Nomenclature Refinement — 14 September 2026](MKUFT_NOMENCLATURE_REFINEMENT_2026-09-14.md) — current naming route for ARTA, Functional Configuration, Traversal Coherence Anchor, Operator–Target Binding and Scale-Relative Role Transition.
-- [Professional Domain Instantiation Guide](PROFESSIONAL_DOMAIN_INSTANTIATION_GUIDE.md) — converts shared role words into domain-native objects, variables, maps, measurements, baselines and nulls.
-- [Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md) — nearest scientific neighbours, native ownership, residual claim and reduction/kill conditions.
-- [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) — current public synthesis and canonical compression.
+- [MKUFT in Plain English](MKUFT_IN_PLAIN_ENGLISH.md) — optional narrative explanation.
+- [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md) — optional critique/attack support.
+- [Use This Work — Public-Benefit Use and Commercial Stewardship](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md) — single canonical stewardship/use owner.
+- [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md) — integrated-architecture identity and provenance boundary.
+- [Professional Domain Instantiation Guide](PROFESSIONAL_DOMAIN_INSTANTIATION_GUIDE.md) — domain-native variables, maps, measurements, baselines and nulls.
+- [Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md) — nearest scientific neighbours and reduction conditions.
+- [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md) — current public synthesis/canonical compression.
 - [Canon Map](CANON_MAP.md) — detailed hierarchy and dependency map.
-- [ARTA Architecture Instantiation and Engine Construction Map — Module 35](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md) — canonical builder/implementer route for assembling the architecture without duplicating owners or licence policy, including future-bearing wake screening, object-local re-entry state, and recording/reconstitution tests.
-- [Reader Contact and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md) — reader-interface, failure and attack routes.
+- [ARTA Architecture Instantiation and Engine Construction Map — Module 35](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md) — builder/implementer exit, not another reader route.
 
 ## Current principal and research-facing MKUFT objects
 

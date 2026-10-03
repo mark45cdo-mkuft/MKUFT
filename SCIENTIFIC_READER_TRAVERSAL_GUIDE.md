@@ -1,67 +1,29 @@
-# Scientific Reader Traversal Guide
+# Step 3 — Technical Continuation: MKUFT Single Reader Route
 
-**Purpose:** carry a capable technical reader through the live MKUFT scientific chain without requiring them to reconstruct the development history, while preserving the full technical objects and equations unchanged.
+> **Stable-link note:** the filename `SCIENTIFIC_READER_TRAVERSAL_GUIDE.md` is retained so existing links do not break. This file is no longer a separate “scientific reader” route. It is the technical continuation of the same reader staircase begun in [00 — Start Here](00-START-HERE-MKUFT-PUBLIC.md) and [Step 2 — Extended Overview](START_HERE_PUBLIC_OVERVIEW.md).
 
-This is not a replacement for the technical modules. It is the intermediate layer between a readable public entry and the hard scientific owners.
+## What you should already understand
 
-The intended reader is intelligent and scientifically literate, but not assumed to hold a PhD in every field touched by the work. A non-specialist should still be able to follow the questions, the reason each module exists, what the equations are doing in broad terms, and what result would weaken the claim. A domain specialist can then enter the native equations and attack the exact formal burden.
+Before continuing, you should be able to explain in ordinary language why a present state description can be too coarse for a future prediction, why ordinary/native explanations are tested first, what MKUFT means by a task-relative **Address**, and why extra state/history should be removed when it adds no predictive or discriminatory value.
 
-**Category lock:** treat MKUFT in this guide as a typed research architecture / methodological framework whose stronger physics-facing claims remain separate scientific burdens. Repeated structural questions across physics, biology, AI/software, control, or other domains do not establish one shared mechanism; each receiving domain must close on its own native objects, mathematics, measurements, baselines, and falsifiers.
+If any of those are unclear, return to the earlier step. Do not solve confusion by carrying more jargon.
 
-## Use / stewardship route
+## How to use this continuation
 
-Scientific scrutiny and good-faith non-commercial public-benefit use are intended paths. Exact-object rights remain controlling. [Use the single canonical stewardship/use route.](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md)
-
-## Carry this object through the whole guide
-
-For a declared operation, MKUFT treats the effective system description as sufficient only while it preserves the minimum typed distinctions needed to keep materially different relevant admissible futures from being falsely merged. This is the central object carried through the scientific chain.
-
-A realised transition can change which Address is sufficient, so the next lawful continuation is constructed from the state actually reached rather than inherited automatically from the previous description. The same criterion can be applied across scale, recursive reuse, recovery, and—where constitutive of the declared operation—observer/registration state.
-
-This is a layer-neutral **test**, not a layer-flattening ontology. Physical variables, semantic relations, retained history, informational structure, and observer-positioned records remain different types. A distinction earns inclusion only when preserving or removing it changes a declared future, transition, recovery route, closure decision, measurement result, or another prospectively testable consequence.
-
-## How to use this guide
-
-At each step, keep four things in hand:
-
-1. **what was established in the previous step;**
-2. **what problem remains open;**
-3. **what the next formal object is trying to do;**
-4. **what would make that move fail.**
-
-You do not need to relearn MKUFT from scratch at every module. The handoff should be continuous.
-
-The guide therefore assumes a **reader wake**: once a relation has been explained and earned, later sections may reuse it rather than resetting the reader. That does not mean hiding dependencies. Carry forward only the prior context still needed for the next step; restore a relation if the next move would otherwise be ambiguous; and do not rename an already-earned object merely to make the next paragraph look locally simpler. The aim is to reduce reconstruction burden without reducing conceptual resolution.
-
-If a module uses equations outside your field, you do not need to verify them line by line to follow the architecture. You should still be able to answer: what are the variables standing for, what relation is being asserted, what is being compared, and what would count as a failed comparison?
-
-If you cannot answer those questions after the prose around an equation, treat that as a reader-interface defect rather than as evidence for or against the science.
-
-## The chain in one sentence
-
-As a research architecture, MKUFT asks what distinctions the present representation must retain so states with materially different relevant futures are not falsely treated as the same, uses that addressed state before assigning a law, and then re-tests and readdresses after realised transitions, scale changes, registration, recovery, and widened reuse.
-
-The scientific chain is:
+Each technical step below keeps the same pattern:
 
 ```text
-Layer Before Law
-→ equation/type hygiene
-→ changing reachable state under constraints
-→ active law object
-→ higher-level law sufficiency
-→ local performance versus whole-system integrity
-→ predictive state sufficiency
-→ timing/history as state when needed
-→ admissible and restorative futures
-→ future-splitting assay
-→ observer-bounded reachable discrimination and readdressing
-→ boundary-driven readdressing / parent-admissibility check
-→ hostile controls, prior-art subtraction and falsification
+what you already know
+→ question this module asks
+→ what the formalism is trying to do
+→ strongest ordinary / native challenge
+→ kill point
+→ why the next step follows
 ```
 
-The rest of this guide explains why each arrow follows.
+You are not required to verify specialist mathematics outside your field merely to follow the argument. The technical owner remains responsible for the exact derivation.
 
----
+Do not preserve a confusing phrase merely because it was introduced earlier. Preserve the scientific relation, re-explain it if necessary, then reconnect the formal term.
 
 ## 1. Layer Before Law — first question: are we modelling the right object?
 
@@ -737,31 +699,22 @@ and
 
 If the first answer contains a load-bearing relation, move that relation into the prose. If the second contains an already-stable relation, preserve its handle and remove the unnecessary reset or synonym swap.
 
-## Relation to the public reader route
 
-For a non-academic first pass, use [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md) and [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md).
+## Relation to the single reader route
 
-This scientific traversal guide begins one level later. It assumes the central problem is already understood and carries the reader through the hard scientific chain without restarting from zero at every module.
+This file is **Step 3**, not a parallel scientific entrance.
 
-A reader who has finished the conceptual/scientific route and wants to **instantiate the architecture rather than merely read it** should continue to [35 — ARTA Architecture Instantiation and Engine Construction Map](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md). Module 35 is an implementation map, not a new scientific step and not a software licence.
+```text
+00 Start Here
+→ Extended Overview
+→ Technical Continuation
+→ exact technical owner
+```
+
+A specialist may jump directly to the technical owner. A new reader may take every step. Both inspect the same scientific object under the same evidence and falsification standards.
 
 ## Final reader contract
 
-The scientific route should satisfy all of the following:
+> **Know what the object is, what the next formal step is trying to establish, what ordinary/native account could already explain it, and what would make the stronger move fail.**
 
-- the question appears before the specialist name;
-- the reason the distinction exists is stated before the formalism depends on it;
-- equations are surrounded by enough prose to say what the variables mean and what relation is being tested;
-- the reader knows what can be skipped when they lack the native mathematics;
-- each module inherits the previous result instead of pretending to be a fresh universe;
-- each handoff states why the next module follows;
-- each major claim exposes an early kill point;
-- nulls, ordinary explanations and prior art remain visible;
-- observer/registration language states what the readout resolves without smuggling in observer-caused physics;
-- metaphor is used where it materially reduces a genuine crossing, then hands the reader back to the native object;
-- an earned technical handle is not swapped for a looser synonym merely to make a paragraph look simpler;
-- the reader's accumulated wake is carried at the minimum sufficient resolution rather than reset or endlessly repeated;
-- an interrupted future-bearing branch carries enough re-entry state to resume the same unresolved object without keeping the whole transcript or reconstructing it from guesswork;
-- no module gets to survive merely because the vocabulary is difficult to attack.
-
-That is the intended carrier for sober scientific understanding and availability.
+Technical language becomes useful compression only after the underlying relation is understood.

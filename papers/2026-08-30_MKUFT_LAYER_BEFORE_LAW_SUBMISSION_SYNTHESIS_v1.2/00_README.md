@@ -9,31 +9,32 @@ This directory is the GitHub text mirror of the v1.2 submission synthesis prepar
 
 ## What this paper is trying to do
 
-The paper asks one main question:
+The paper starts from a modelling problem that is already familiar in science:
 
-> **Before we say which law governs a system, have we described the system at the right address, scale, boundary, and state?**
+> **A model can use the right mathematics and still fail because the state description was not sufficient for the prediction being asked of it.**
 
-The operational centre is sharper:
+Imagine two systems that the current model calls equivalent. Give them the same controlled challenge.
 
-> **For a declared operation, what is the minimum addressed state that keeps materially different admissible futures from being falsely merged—and after a realised transition, what address does the system actually occupy now?**
+If their target futures remain equivalent within the uncertainty already allowed, the simpler description survives.
 
-That is the moving object carried through the paper. An effective state is not sufficient merely because it is a good snapshot. It is sufficient only while distinctions omitted by the representation do not separate the declared future under the allowed challenge, environment, regime, horizon, and tolerance. When a realised transition changes that condition, the next lawful continuation is assembled from the state actually reached rather than from a stale address inherited from the previous step.
+If their futures separate, first test ordinary explanations: mismatch, boundary conditions, measurement, known internal variables, hysteresis, stochastic variation, or another established native mechanism.
 
-The same prospective rule can recurse across scale, composition, recovery, and—where constitutive of the declared operation—observer/registration state. This does **not** make semantics, information, observation, and physics the same kind of object. Each retains its native type and evidential burden. A distinction earns technical load only when preserving or removing it changes a declared prediction, admissible transition, recovery route, closure decision, or other prospectively testable consequence.
+If one of those closes the split, use it.
 
-The later sections make that question harder.
+Only if a reproducible residual remains does the paper ask whether the state description needs an additional typed distinction.
 
-If a higher-order whole appears, is that whole actually sufficient to predict the property we care about?
+MKUFT calls the task-relative description an **Address**. The paper then asks a harder sequence of questions:
 
-If two states look the same now but lead to different futures, what state information is missing?
+- when is that Address sufficient for the target future?
+- when may a higher-order whole carry a closed law for the property being predicted?
+- after a realised transition, which state/address is actually live now?
+- when can a compressed interface be safely reused?
+- when must lower-level detail be reopened?
+- can the same structural rule survive hostile known-answer calibration without importing the answer?
 
-If a system is damaged, does it still have a lawful route back?
+That is the moving object carried through the four parts.
 
-If a proposed cross-domain relation survives in one field, does it survive a hostile known-answer test in another without importing the answer?
-
-Those questions are what connect the four parts below. The paper is not four separate essays.
-
-If you understand those questions but do not yet hold the whole technical dependency chain, use the [Scientific Reader Traversal Guide](../../SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) before or alongside the four parts. It explains what each technical step inherits from the previous one, what the main equations are doing in broad terms, what a non-specialist can safely leave to domain experts, and where each claim is easiest to kill. It is an intermediate bridge, not a substitute for this paper.
+If you need the broader explanation first, follow the same repository route: [00 — Start Here](../../00-START-HERE-MKUFT-PUBLIC.md) → [Extended Overview](../../START_HERE_PUBLIC_OVERVIEW.md) → [Technical Continuation](../../SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). The last filename is retained for stable links; it is not a separate scientific-reader route.
 
 ## Reading order — and why each part follows
 
@@ -84,17 +85,17 @@ Reproducibility package:
 
 - [`reproducibility/MKUFT_PREPRINTS_v1.2_BELL_CHSH_CALIBRATION`](../../reproducibility/MKUFT_PREPRINTS_v1.2_BELL_CHSH_CALIBRATION/)
 
-## Known reader-interface risk
+## Reader interface
 
-This synthesis is dense because it joins several mature branches. A new reader can therefore see the final vocabulary without seeing the earlier failures that created each distinction.
+This synthesis is dense because it joins several mature branches.
 
-The public repository now treats that as a known interface failure called **dependency-history asymmetry**.
+If a term becomes difficult, return to the object rather than carrying an unexplained handle:
 
-If a term is unclear, the intended reading rule is:
+> ordinary question → concrete/native example → strongest ordinary explanation → remaining distinction → formal term → test or falsifier.
 
-> ordinary-English question → failure being prevented → formal distinction → test or falsifier.
+The main reader route is [00 — Start Here](../../00-START-HERE-MKUFT-PUBLIC.md) → [Extended Overview](../../START_HERE_PUBLIC_OVERVIEW.md) → [Technical Continuation](../../SCIENTIFIC_READER_TRAVERSAL_GUIDE.md).
 
-For the full plain-language bridge, use [Reader Contact, Translation, and Failure Guide](../../READER_CONTACT_AND_FAILURE_GUIDE.md). For the technical handoff chain, use the [Scientific Reader Traversal Guide](../../SCIENTIFIC_READER_TRAVERSAL_GUIDE.md).
+For critique/failure support, use [Reader Contact, Translation, and Failure Guide](../../READER_CONTACT_AND_FAILURE_GUIDE.md).
 
 ## Submission-carrier integrity
 

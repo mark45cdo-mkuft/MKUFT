@@ -9,6 +9,65 @@
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)  
 **Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511) · [LinkedIn](https://www.linkedin.com/in/custodiansystems45/) · [GitHub](https://github.com/mark45cdo-mkuft)
 
+MKUFT is a speculative research programme, not a completed accepted unified theory of physics. Its working question is simpler than its full machinery:
+
+> **Before asking a law or model to predict what happens next, have we described the right thing, with the distinctions that actually matter for that prediction?**
+
+## Start here — one reader route
+
+If you are new to the project, start with **[00 — Start Here: MKUFT Single Reader Route](00-START-HERE-MKUFT-PUBLIC.md)**.
+
+There is no separate public route and scientific-reader route. The same staircase becomes more technical as it goes:
+
+```text
+ordinary object / question
+→ concrete example
+→ how we already handle the ordinary case in science
+→ strongest ordinary explanation
+→ remaining testable distinction, if any
+→ MKUFT term
+→ formal statement / equation
+→ exact technical owner
+```
+
+A scientist can move faster or jump directly to a technical owner. A new reader can take the same route more slowly. The scientific burden does not change.
+
+## The problem before the vocabulary
+
+Consider two chessboards with exactly the same pieces on exactly the same squares.
+
+A photograph can make them look like the same game state. But they may not allow the same next moves. On one board a king and rook may still have castling rights; on the other they may have moved earlier and returned. The visible arrangement is the same, but part of the state needed to predict the legal future is missing from the photograph.
+
+Nothing mysterious happened. The description was simply too coarse for the question.
+
+We do this constantly in science. We choose variables that we hope capture enough of a system to predict the quantity we care about. Often they do. Sometimes two systems that look equivalent in those variables behave differently under the same controlled test.
+
+Take two material samples whose present measurements have been matched as closely as the experiment allows, but whose loading or heat-treatment histories differ. Apply the same predeclared challenge. If their later behaviour separates beyond the uncertainty already allowed by the best ordinary model, the first move is not to invent a new field. We check ordinary explanations: imperfect matching, microstructure, hysteresis, environment, measurement, known internal variables, stochastic variation, or another established mechanism.
+
+If an ordinary variable closes the split, use it.
+
+If no material split appears under a strong test, keep the simpler description.
+
+If a reproducible residual survives, then the state description may need one additional distinction for that declared question.
+
+MKUFT calls the task-relative description that carries those necessary distinctions an **Address**. The name comes after the idea: the Address is not a new substance; it is the state description we are actually asking a law or model to act on.
+
+This is the core of **Layer Before Law**:
+
+> **Describe the system well enough for the question before asking a law to govern that description.**
+
+MKUFT earns additional machinery only when it improves prediction, discrimination, experiment design, error localisation, recovery, or model selection beyond strong native methods.
+
+## Development status
+
+MKUFT is actively developed through sustained collaboration between Mark Charles McLaughlin and **ChatGPT**. ChatGPT is the working AI system; the distinctive part is the structured ARTA/ARIA research method, state handling, adversarial review, recursive checking and architecture used with it.
+
+The repository should therefore be read as a live research body rather than a finished textbook. Structural audits can temporarily leave a neighbouring explanation, route or notation bridge behind the current science. When that happens, it is an editorial/integration defect to repair. Older commits can sometimes preserve a clearer local explanation, but they do not override the current scientific state merely because the prose was better.
+
+Some formal sections are necessarily difficult. Readers may use ChatGPT, symbolic mathematics tools, specialist references or domain expertise to unpack notation and derivations. That assistance does not replace independent inspection of the mathematics.
+
+Naming and development provenance are recorded in [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md).
+
 
 ## Find a paper fast — title / acronym / DOI lookup
 
@@ -42,92 +101,6 @@ The integrated architecture developed through that programme now has a stable li
 
 That sounds simple. It is also where a large number of modelling errors begin.
 
-## The idea in one minute
-
-Suppose a system is being modelled and the first question is, “What law or model governs this thing?”
-
-MKUFT says there is a prior question:
-
-> **What exactly is the thing, at what scale, in what role, under which boundary conditions, and which changes are actually allowed from that state?**
-
-The same material can behave differently when its organisation changes. A cell is not explained by listing its molecules. A neural network is not explained by listing its weights. A flock is not explained by one bird. A quantum experiment is not described correctly if preparation, measurement access, signalling constraints, and the joint state are silently mixed together.
-
-A perfectly respectable equation can still miss if it has been aimed at the wrong object. Nature is under no obligation to respect the categories in our spreadsheet.
-
-MKUFT calls this **Layer Before Law**. The claim is not that all of those systems obey one new equation. The claim is that the *order of modelling* matters:
-
-```text
-identify the object
-→ identify its role and boundary
-→ identify the active layer and scale
-→ identify which states are possible under the setup
-→ identify which changes the model or physics actually allows
-→ only then ask which law or effective rule is justified for the prediction
-```
-
-If those extra steps add no predictive, explanatory, experimental, or model-selection value, they have not earned their keep.
-
-That failure condition matters. MKUFT is designed to be reduced when its added structure does no work.
-
-## Choose your route
-
-This `README.md` is the **repository front door**. The two primary entry points are deliberately first:
-
-1. **Public entry:** [00 — Start Here: Public Entry](00-START-HERE-MKUFT-PUBLIC.md) — the shortest governed route into what MKUFT is, what it claims, and where a reader should go next.
-2. **Scientific entry:** [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) — the bridge from readable explanation into the hard scientific modules, with the question, purpose, broad equation meaning, and early failure point carried forward.
-
-Useful supporting routes:
-
-- [MKUFT in plain English](MKUFT_IN_PLAIN_ENGLISH.md) — one-step conceptual explanation.
-- [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md) — fuller ordinary-English scientific overview.
-- [MKUFT Addressed Relational Traversal Architecture (ARTA) — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md) — canonical name and exact scope of the integrated architecture.
-- [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md) — check whether an MKUFT term is distinct or familiar science under another handle.
-- [Canon Map](CANON_MAP.md) — full technical dependency structure for readers who already know the architecture.
-- [ARTA Engine Construction Map — Module 35](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md) — builder/implementer route for instantiating the live architecture as an engine, workflow, protocol, or human–AI system without inventing a second architecture.
-
-These routes have different jobs:
-
-```text
-README = repository front door
-00 Start Here = public entry and route selection
-MKUFT in plain English = one-step conceptual explanation
-Public Overview = fuller ordinary-English scientific overview
-Scientific Reader Traversal Guide = scientific entry into the technical body
-Stewardship/use route = one shared public-benefit/commercial-use owner for every reader entry
-ARTA naming route = integrated-architecture identity and provenance
-Canon Map = full technical dependency structure
-Module 35 = implementation/engine-construction route for builders
-```
-
-If you are unsure where to begin, take the **00 Public Entry**.
-
-**A note on the name:** *McLaughlin–Kairos Unified Field Theory* is the historical project name retained for continuity and citation. It is not a claim that a completed unified field theory has been achieved. The scientific claims still have to earn themselves one test at a time.
-
-## The moving addressed system
-
-The deeper operational claim is dynamic rather than snapshot-based. For a declared target or operation, MKUFT treats an effective Address as sufficient only while it preserves the distinctions needed to keep materially different admissible futures from being falsely merged. A realised transition may therefore change the Address that governs the next lawful continuation: continue from the state actually reached, not from a stale description inherited from the previous step.
-
-That changes the central question from only **“what is the system now?”** to **“what must be distinguished now so that the futures which matter are not incorrectly treated as the same?”** The same criterion can be applied recursively across scale and composition and, where an observer or registration state is constitutive of the declared operation, to that observer/record state as part of the addressed system.
-
-A semantic, informational, physical, historical, relational, or observer-facing distinction earns technical status only when preserving or removing it changes a declared prediction, admissible transition, recovery route, closure decision, or other prospectively testable consequence. That is the boundary: the architecture may type several kinds of object, but it does not turn every distinction into a physical variable or every registration state into a new force.
-
-## Future sufficiency and admissible futures
-
-Readers searching for **future admissibility**, **future-state sufficiency**, **predictive state sufficiency**, **predictive closure**, **reachable futures**, or **minimal sufficient state** may be looking for the same problem family treated here: whether a present state description contains enough information for the future quantity being predicted, and which future states or recovery routes remain reachable. In MKUFT, this is distinct from legal evidence admissibility.
-
-The formal centre of that family is the **Future-Sufficient Address Invariant (FSAI)**: a distinction belongs in the effective Address for a declared task when omitting it would merge histories or states whose materially relevant admissible futures differ beyond the declared tolerance. The Address is therefore target-, horizon-, challenge-, environment-, regime-, and resolution-relative rather than a universal inventory of variables.
-
-Main routes into that work:
-
-- [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
-- [Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
-- [Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
-- [Minimum Decisive FSAI/FSSR Flagship — History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md) — [v1.0 frozen publication route](papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md), published DOI `10.5281/zenodo.22309144`
-- [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
-  - [Boundary-Driven Readdressing and Parent-Admissibility Corollary](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary) — keeps local non-reachability distinct from global prohibition, requires a typed lawful parent before a wider frame can change the verdict, and recomputes relation-relative direction after readdressing.
-- [Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md)
-
-For translation between ordinary neighbouring terminology and the native MKUFT terms, use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md).
 
 ## Why a reader from another field might care
 
@@ -135,7 +108,7 @@ For translation between ordinary neighbouring terminology and the native MKUFT t
 
 The physics-facing question is not “can we decorate quantum mechanics and gravity with new words?” It is whether the objects being unified have first been addressed correctly. MKUFT therefore puts hard burdens on itself: recover established quantum and gravitational limits before claiming fundamental unification; preserve Bell compatibility and operational no-signalling; define any physical coupling it uses; and beat the strongest adequate ordinary physical account before calling an extra layer physically necessary.
 
-If foundational physics is already your field, start with [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), then use the [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md) to see where the physics-facing claims are allowed to fail. If physics is not your native field, use the [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) first; it explains what each technical step inherits, what the equations are doing in broad terms, and what can be left to domain specialists without losing the argument.
+If foundational physics is already your field, you may jump directly to [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) and the [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md). Otherwise continue through the same human route: [Start Here](00-START-HERE-MKUFT-PUBLIC.md) → [Extended Overview](START_HERE_PUBLIC_OVERVIEW.md) → [Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). The technical continuation keeps the question, broad equation purpose, native owner and early failure point visible without creating a second reader class.
 
 ### Mathematics
 
@@ -291,35 +264,34 @@ For the complete publication list, version identities, frozen carriers, and DOI 
 
 ## Where to start
 
-If you want the shortest human route, read:
+There is **one progressive human reading route**:
 
-1. [MKUFT in plain English](MKUFT_IN_PLAIN_ENGLISH.md)
+1. [00 — Start Here: MKUFT Single Reader Route](00-START-HERE-MKUFT-PUBLIC.md)
+2. [Step 2 — Extended Overview](START_HERE_PUBLIC_OVERVIEW.md)
+3. [Step 3 — Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) — legacy filename retained for stable links; this is deeper technical material on the same route.
+4. Follow the linked technical owners only where the question requires them.
 
-If you want to continue into the scientific body, use:
+Useful side exits do not create extra reader routes:
 
-1. [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md)
-2. [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md)
-3. [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md)
-4. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md)
-5. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
-
-The scientific traversal guide is the handoff between plain-language understanding and the hard modules. It explains what the equations are trying to establish and what a non-specialist can leave to domain experts without losing the scientific chain.
-
-If you already know the field and want the technical chain, use the [Canon Map](CANON_MAP.md).
-
-If you want the named integrated architecture and its provenance boundary, use [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md).
-
-If you want papers rather than live modules, use [Papers and Publications](papers/README.md).
-
-If you want the current submission synthesis, use [MKUFT Layer Before Law v1.2](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
+- [MKUFT in Plain English](MKUFT_IN_PLAIN_ENGLISH.md) — optional narrative explanation.
+- [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md) — optional attack/critique support.
+- [Canon Map](CANON_MAP.md) — full technical dependency map.
+- [Papers and Publications](papers/README.md) — publication and DOI lookup.
+- [MKUFT Layer Before Law v1.2](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md) — current research-facing synthesis.
 
 ## Development and provenance
 
-This repository is live and continues to develop. DOI-bearing publications remain frozen publication objects; later GitHub work does not silently rewrite them.
+This repository is a live research body. DOI-bearing publications remain frozen publication objects; later GitHub work does not silently rewrite them.
 
-Presentation defects, stale links, rendering problems, or confusing explanations are treated as defects to repair, not as intended scientific notation. Changes to the live repository should preserve version identity, provenance, and the difference between a live module, a repository paper route, and a frozen publication.
+MKUFT has been developed through sustained collaboration between Mark Charles McLaughlin and **ChatGPT**. The working AI system is ChatGPT; ARTA/ARIA and related architecture names describe the structured research method and system organisation used during that collaboration, not a hidden bespoke neural-network laboratory.
 
-The project uses AI-assisted research tooling for drafting, checking, traversal, and consistency work. AI output is not treated as scientific evidence merely because an AI produced it.
+Because the repository develops iteratively, an architectural audit can improve the underlying object faster than every neighbouring explanation is rewritten. A module, introduction, notation bridge or route can therefore temporarily become harder to follow than an earlier version. Earlier commits may be useful for recovering a clearer explanation, but current HEAD remains authoritative for current claims and structure.
+
+Internal methodological language can also become too visible in public scientific prose when the research method and framework share vocabulary. That is treated as an editorial/integration defect to repair, not as automatic scientific content.
+
+Advanced mathematics is allowed to remain advanced. The reader-facing burden is different: before a difficult derivation is encountered, the reader should be able to tell what problem it addresses, what its main objects or variables represent, what ordinary/null account is being compared, and what would make the move fail.
+
+For dated development and naming provenance, use [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md).
 
 ## Human use
 

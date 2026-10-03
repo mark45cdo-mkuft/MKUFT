@@ -9,46 +9,32 @@
 
 This map gives the current public hierarchy of MKUFT. It is navigation, not evidence. Dedicated modules own their full definitions, equations, experimental burdens, references, and falsifiers.
 
-## Reader routes
+## Reader route and specialist exits
 
-### Use / stewardship route
+### Use / stewardship
 
-[Use This Work — Public-Benefit Use and Commercial Stewardship](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md) is the **single canonical stewardship/use-routing owner** for all reader entry routes. README, Public Entry, Scientific Reader Traversal, Public Overview and indexes may point to it or summarise it briefly; they do not own independent local policy forks. Exact-object licence and rights records remain controlling.
+[Use This Work — Public-Benefit Use and Commercial Stewardship](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md) is the single canonical stewardship/use owner. Reader pages may point to it or summarise it briefly; they do not own independent policy forks.
 
+### One progressive human route
 
-### General architecture
+1. [00 — Start Here: MKUFT Single Reader Route](00-START-HERE-MKUFT-PUBLIC.md)
+2. [Step 2 — Extended Overview](START_HERE_PUBLIC_OVERVIEW.md)
+3. [Step 3 — Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) — stable legacy filename; same route, deeper technical burden.
+4. Exact technical owners as required by the question.
 
-1. [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md)
-2. [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md)
-3. [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
-4. [ARTA Engine Construction Map](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md) — implementation/instantiation route for builders; does not add a new scientific mechanism.
-5. [Recursive Address Closure and Property Transmission](docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
-6. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
-7. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
-8. [Load-Bearing Relation Sets and Scale-Transition Tests](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md)
-9. [Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md)
-10. [Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
-11. [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
-12. [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
-13. [SIPO Capstone: Constraint-Conditioned Addressed Update Law](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
-14. [Dynamic Interface Promotion and Recursive Boundary Closure](docs/33S1_DYNAMIC_INTERFACE_PROMOTION_AND_RECURSIVE_BOUNDARY_CLOSURE.md)
-15. [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md)
-16. [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md)
-17. [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md)
-   - [Transfer-Conditioned Address Sufficiency, State Aliasing, and Cold Re-embedding](docs/33S4A_TRANSFER_CONDITIONED_ADDRESS_SUFFICIENCY_STATE_ALIASING_AND_COLD_REEMBEDDING.md)
-18. [Rate-Conditioned Addressing, Time-Parameterised Traversal, and Adaptive Reorganisation](docs/33S5_RATE_CONDITIONED_ADDRESSING_TIME_PARAMETERISED_TRAVERSAL_AND_ADAPTIVE_REORGANISATION.md)
-19. [Addressed Admissible Futures, Restorative Reachability, and Load-Bearing Future Geometry](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md)
-20. [Future-Splitting State Recruitment, State Adequacy, and Prospective Mechanism Localisation](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md)
-   - **First minimum-decisive flagship protocol:** [History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
-   - **Frozen v1.0 publication route:** [FSSR-HCP magnesium protocol](papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md) — published DOI `10.5281/zenodo.22309144`; receiver-side carrier verified; empirical status remains open
-21. [Future-Sufficient Address Invariant and Layer-Before-Law Precedence](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md)
-   - **Live corollary:** [Boundary-Driven Readdressing and Parent-Admissibility](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary) — local non-reachability is not global prohibition; a wider parent changes admissibility only through a typed lawful relation; relation-relative direction is recomputed after readdressing.
-   - [Sideways Invariant Interrogation and Nuisance-Quotient Readdressing](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md)
-   - [Observer-Bounded Traversal, Wake Screening, and Reachable Discriminator Frontiers](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md)
-22. [Law Descent and Recoverability Novelty Audit](docs/33A_LAW_DESCENT_AND_RECOVERABILITY_NOVELTY_AUDIT.md)
-23. [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md)
-24. [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md)
-25. [Research Object Identity, Release Integrity, and Reproducibility](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md)
+### General architecture / technical exits
+
+1. [Integrated Master Spine](MKUFT_INTEGRATED_MASTER_SPINE.md)
+2. [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md)
+3. [ARTA Engine Construction Map](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md) — implementation/instantiation exit; not another reader route.
+4. [Recursive Address Closure and Property Transmission](docs/22A_RECURSIVE_ADDRESS_CLOSURE_AND_PROPERTY_TRANSMISSION.md)
+5. [Context-Conditioned State Comparison and Observability](docs/31_CONTEXT_CONDITIONED_STATE_COMPARISON_AND_OBSERVABILITY.md)
+6. [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md)
+7. [Load-Bearing Relation Sets and Scale-Transition Tests](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md)
+8. [Invariant Persistence, Relational Addressability, and Scale Transition](docs/32S1_INVARIANT_PERSISTENCE_RELATIONAL_ADDRESSABILITY_AND_SCALE_TRANSITION.md)
+9. [Temporal Continuity Kernels and Minimum Identity Horizon](docs/32S2_TEMPORAL_CONTINUITY_KERNELS_AND_MINIMUM_IDENTITY_HORIZON.md)
+10. [Relational Brackets, Completion Geometry, and I→P Admissibility](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md)
+11. [Intrinsic–Extrinsic Address Transport, Holonomy, and Boundary-Conditioned Realisation](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md)
 
 ### Physics and quantum gravity
 
@@ -303,7 +289,7 @@ This fold makes an already-distributed chain explicit without creating a new mod
 - **20A / GRACE Formal Route Selection** owns **gate-weight separation and authority-custodied readdressing**: hard admissibility conditions are outside route weighting. A catastrophic or existential consequence may trigger urgent review of the blocking boundary, but only the boundary's lawful owner or an already-declared exception/necessity rule may change admissibility. Consequence magnitude does not manufacture consent, permission, safety clearance, legal/moral authority or command authority.
 - **Integrated Master Spine §14.1** owns the **metaphysical interrogation bridge**: metaphysical/philosophical systems may generate questions, comparisons or candidate interpretations, but they do not supply scientific evidence, mechanism or closure by authority. Shared wording is subtracted; any surplus claim must earn a native discriminator or remain philosophical/metaphysical.
 - **Research Derivation and Closure SOP §4A** carries the reciprocal procedural gate: question sources are separated from evidence for the answer.
-- **Scientific Reader Traversal Guide** and **Reader Contact and Failure Guide** carry the same relation at reader resolution so the bridge is explained before the technical formalism depends on it.
+- **Technical Continuation** (stable legacy filename `SCIENTIFIC_READER_TRAVERSAL_GUIDE.md`) and **Reader Contact and Failure Guide** carry the same relation at reader resolution so the bridge is explained before the technical formalism depends on it.
 
 The intended reader chain is:
 
@@ -333,7 +319,7 @@ This fold integrates the later boundary and representation-transform squeeze wit
 - **20A / GRACE Formal Route Selection** owns the governance split: moral understanding/representation, applicable constraint, consequence modelling, causal participation, and sovereign/delegated action authority are separately typed. Understanding does not manufacture sovereignty; lack of sovereignty does not create causal/moral exemption.
 - **Research Derivation and Closure SOP** carries the promotion gate for false incapacity, counterfeit boundary precision, unexecuted transform consequences, search-latitude inflation, and authority transfer by implication.
 - **Research Derivation and Closure SOP §9C** also carries the **pre-Canon state-reconciliation gate**: before public mutation, reconcile the candidate against newer eligible same-parent private learning/corrections; preserve supersession and provenance; collapse duplicate representations of one source; reject unrelated recency; and keep private learning distinct from public authority.
-- **Scientific Reader Traversal Guide** and **Reader Contact and Failure Guide** carry the same relations at reader resolution before the technical formalism depends on them.
+- **Technical Continuation** (stable legacy filename `SCIENTIFIC_READER_TRAVERSAL_GUIDE.md`) and **Reader Contact and Failure Guide** carry the same relations at reader resolution before the technical formalism depends on them.
 
 Reader chain:
 

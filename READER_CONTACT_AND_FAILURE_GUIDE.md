@@ -1,84 +1,51 @@
-# Reader Contact, Translation, and Failure Guide
+# MKUFT Reader Contact, Translation, and Failure Guide
 
-**Purpose:** give a new reader enough plain-English structure to decide whether MKUFT deserves deeper technical attention, without asking them to learn the repository's private development history first.
+**Purpose:** optional attack/critique support for readers who already have the basic object from [00 — Start Here](00-START-HERE-MKUFT-PUBLIC.md). This file is **not another reading route**.
 
-This guide exists because first-contact reading exposed a real weakness in the public interface: the technical structure can be careful while the explanation of *why the structure exists* arrives too late.
+MKUFT is best read at its current maturity as a speculative research architecture, not as a completed new law of nature or evidence that one mechanism governs every domain.
 
-That is a communication failure, not a reason to lower the scientific standard.
+## Translation rule
 
-Before the translation rules, one category sentence should already be clear: **at its current maturity, MKUFT is best read as a speculative research architecture, not as a completed new law of nature or evidence that one mechanism governs every domain.** It tests whether the object, scale, boundary and future-relevant state are sufficient for the claim being made before stronger law, mechanism or cross-domain language is allowed to carry weight. Physics is the hardest target; other domains are independent testbeds rather than borrowed confirmation.
+Do not translate hard science into longer hard English.
 
-## The translation rule
+First identify the object.
 
-Do not translate hard science into long polite English. **Just explain the thing first.**
-
-Simple words can still make a complicated paragraph. The test is not whether jargon has been removed. The test is how many new things the reader has to hold in their head at once.
-
-Where one ordinary picture carries the relation, use it. Then return to the science.
-
-> **Explain it normally → give the clean picture if it helps → name the technical object → give the exact scientific rule.**
-
-A metaphor opens the door. It does not become evidence.
-
-Public and scientific explanation are not separate sources of truth. They are different-resolution readouts of the same scientific object. A public explanation may compress more; a technical explanation may expose more native detail. The load-bearing relation, evidence state, failure condition and mechanism boundary must remain the same.
-
-Every specialist becomes a cross-domain reader outside their own field. Expertise can be extremely deep at one address and temporarily non-native at the next. A clean metaphor can therefore belong in serious technical or scientific explanation when it shortens a genuine conceptual crossing without weakening the underlying object.
-
-The positive test is:
+A useful explanatory sequence is:
 
 ```text
-state the relation the reader must carry
-→ use one clean picture if it materially reduces reconstruction load
-→ state or make obvious where the picture stops
-→ return to the native object
-→ continue with the exact scientific rule
+ordinary question
+→ concrete carrier
+→ native/scientific example
+→ strongest ordinary account
+→ remaining distinction, if any
+→ MKUFT term
+→ exact scientific rule / test
 ```
 
-> **A metaphor earns its place by preserving a relation, not by being vivid.**
+A metaphor can carry a relation across a conceptual gap. It does not become evidence or mechanism.
 
-There is no metaphor quota. If removing the metaphor causes no meaningful loss of understanding, remove it. If the metaphor is required to make the scientific claim true, it has exceeded its role.
+Do not alter valid mathematics merely to make a page look friendlier. Instead explain what question the equation addresses, what its main symbols mean, what is being compared, and what would make the move fail.
 
-Do not change or dilute the mathematics to make it readable. Add a short translation around the mathematics so a non-specialist can tell what question the equation answers, what its pieces are doing, and what would make the move fail.
+### Preserve understanding, not wording for its own sake
 
-### Reader wake is part of the interface
+A reader accumulates understanding as the route progresses.
 
-A reader does not arrive at every paragraph as a blank slate. By the time a relation has been explained, pictured, named and used, the reader has acquired a **reader wake**: the smallest previously earned context still needed to understand the next move.
+That continuity matters, but it is subordinate to comprehension.
 
-Public writing should respect that wake in both directions.
+If an established term remains clear, reuse it.
 
-Do not **under-carry** it. If the next paragraph silently depends on a relation the reader has not yet been given, restore that relation before proceeding.
+If the existing wording has become opaque, re-explain the relation in ordinary language and reconnect the formal term afterward.
 
-Do not **over-carry** it. If the reader has already earned a distinction, do not restart from zero, re-explain it in a new vocabulary, or substitute a supposedly simpler phrase that changes the object. Reuse the established handle and add only the delta needed for the next step.
+Do not make a reader start from zero at every paragraph. Equally, do not force a reader to carry a confusing phrase merely because it appeared earlier.
 
-This is the reader-facing analogue of future-sufficient addressing:
-
-```text
-reader state already earned
-+ next relation to be crossed
-→ preserve the minimum prior context that still changes comprehension
-→ add the smallest missing relation
-→ continue
-```
-
-The word `wake` here is a communication analogy, not a claim about cognition as a physical MKUFT variable.
-
-A useful editorial test is:
-
-> **If I remove this prior explanation, does the next move become ambiguous? If not, stop carrying it. If I replace it with a simpler phrase, do I collapse a distinction the reader has already earned? If yes, keep the native relation.**
+The invariant is the scientific object and its evidence/scope boundary, not the local wording.
 
 ### Respect intelligence; reduce reconstruction burden, not conceptual resolution
 
 Readable prose is not prose that assumes less intelligence. It is prose that makes the dependency structure visible.
 
-Do not explain every technical object as though the reader were a child. Do not swap a precise, already-understood relation for a looser everyday synonym merely because the synonym is shorter. Do not flatten two different objects into one friendly word. And do not force the reader to decode compressed architecture that could have been carried by one clean sentence or picture.
+A competent reader should not have to reverse-engineer who or what is acting, where the relation lives, why it matters, or what would change if it were removed.
 
-The target is:
-
-> **minimum unnecessary reconstruction, not minimum intellectual demand.**
-
-A capable reader should be allowed to accumulate understanding. Once a technical term has been earned, it becomes useful compression. Once a metaphor has done its crossing work, the prose should return to the native object and trust the reader to carry it.
-
-If an unfamiliar MKUFT term looks like a renamed standard concept, use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). The key does not assign one-to-one scientific equivalents. It asks what established science already owns, what exact residual operation MKUFT is claiming after that ownership is subtracted, and what result would make the separate handle unnecessary. It is an optional cross-check, not another reading stage.
 
 ## What a reader should be able to tell in five minutes
 
@@ -153,11 +120,11 @@ A metaphor can make a relation obvious and then quietly start doing scientific w
 
 **Control:** use metaphor positively at genuine conceptual choke points when it preserves a declared relation and materially reduces reconstruction load. Then expose the break point and return immediately to the native scientific owner. Metaphor is translation and crossing support, not evidence, mechanism or ontology. Do not add metaphors by quota, and do not replace a strong reusable one merely for stylistic variety.
 
-### 5. Reader-wake reset or semantic swapping
+### 5. Continuity used against comprehension
 
-A text can become harder by trying too aggressively to make each paragraph independently simple. Repeatedly restarting the explanation erases the reader's accumulated structure; repeatedly renaming an already-earned object forces unnecessary remapping and can quietly change its meaning.
+A text can become harder in two opposite ways: by restarting every explanation from zero, or by preserving an old technical phrase after that phrase has stopped helping the reader reconstruct the object.
 
-**Control:** preserve the smallest prior context still needed for the next move, reuse earned technical handles, and add only the new relation. Re-explain only when the audience, scale, or object has genuinely changed enough that the prior carrier no longer works.
+**Control:** preserve accumulated understanding, not wording for its own sake. Reuse a technical handle when it is clear. Re-explain the relation and reconnect the handle when continuity would otherwise increase confusion.
 
 ### 6. Scope bleed
 
@@ -165,7 +132,7 @@ One strong result in one branch can accidentally sound like support for the whol
 
 **Control:** claim levels remain local. A Bell calibration result does not prove MKUFT physics. An AI result does not prove the S-layer. A useful cross-domain relation does not become a new law of nature by association.
 
-Public material is also consumed non-sequentially: search results, screenshots, quoted paragraphs and AI excerpts can detach a sentence from the reader wake that originally made its scope obvious. Where extraction would plausibly convert a module-local claim into a whole-framework claim, or a generic systems relation into instructions for one profession, carry the **minimum local address** needed to prevent that scope change. Do not make every paragraph self-contained; add context only where its absence materially changes the proposition.
+Public material is also consumed non-sequentially: search results, screenshots, quoted paragraphs and AI excerpts can detach a sentence from the surrounding context that originally made its scope obvious. Where extraction would plausibly convert a module-local claim into a whole-framework claim, or a generic systems relation into instructions for one profession, carry the **minimum local address** needed to prevent that scope change. Do not make every paragraph self-contained; add context only where its absence materially changes the proposition.
 
 ### 7. Mathematics mistaken for mechanism
 
@@ -564,17 +531,18 @@ Useful attacks include:
 
 A good kill is useful. It removes dead weight.
 
-## Reading routes
+## Where this guide sits
 
-**Fastest conceptual route:** [Public Overview](START_HERE_PUBLIC_OVERVIEW.md) → [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) → [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
+This is an optional support file, not a parallel route.
 
-**Scientific traversal route:** [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) → the linked technical owners. Use this when the public questions are clear but the hard chain would otherwise require you to reconstruct the missing intermediate relations yourself.
+The main route is:
 
-**Current research synthesis:** [MKUFT Layer Before Law v1.2](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
+1. [00 — Start Here](00-START-HERE-MKUFT-PUBLIC.md)
+2. [Step 2 — Extended Overview](START_HERE_PUBLIC_OVERVIEW.md)
+3. [Step 3 — Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md)
+4. exact technical owners
 
-**Full technical dependency route:** [Canon Map](CANON_MAP.md).
-
-**Frozen publications and DOI identities:** [Papers and Publications](papers/README.md).
+Use this guide when you want failure modes, critique strategy, field-specific attack surfaces or translation checks without changing the main route.
 
 ## Final reader contract
 
@@ -584,7 +552,7 @@ The public-facing standard is simple:
 
 The translation rule sharpens that contract rather than replacing it: explain normally first, use a clean picture where it reduces load, then return to the technical object and exact science. Metaphor remains translation, never evidence.
 
-Respect the reader's accumulated wake: once a relation has been earned, preserve it, reuse its stable handle, and add the next delta instead of resetting the reader or swapping the object for a looser synonym.
+Respect the reader's accumulated understanding: once a relation is clear, reuse its stable handle. If the handle itself has become an obstacle, explain the relation again and reconnect the term.
 
 Technical language is useful compression after the meaning is secured.
 

@@ -1,4 +1,4 @@
-# 00 — Start Here: MKUFT Public Entry
+# 00 — Start Here: MKUFT Single Reader Route
 
 **MKUFT:** McLaughlin–Kairos Unified Field Theory  
 **Author:** Mark Charles McLaughlin  
@@ -7,88 +7,201 @@
 **MKUFT concept DOI:** [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565)  
 **Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511)
 
-MKUFT asks a prior question before choosing a law:
+MKUFT is a speculative research programme. It is not presented as a completed accepted unified theory of physics.
 
-> **What exactly is the object, at what scale and boundary, and which changes are actually possible from its present state?**
+This page is the first step of **one progressive reader route**. You do not need a separate “public” route and “scientific” route. The explanation becomes more technical only after the object has been made clear.
 
-That is the shortest route into the project.
+## 1. Start with an ordinary problem
 
-MKUFT is a speculative research framework. It is not presented as an accepted completed unified physical theory.
+Suppose two descriptions look the same.
 
-At its current maturity, the cleanest category is **research architecture**: a disciplined way to test whether a system has been described at the right object, scale, boundary and future-relevant state before asking a law or model to carry a prediction or stronger claim. Physics is its hardest target; biology/neuroscience, AI/software, control and other systems provide independent places to test whether the same structural method adds anything beyond strong native models. Similar structure across domains does not imply one shared mechanism.
+Does that mean the underlying states are the same **for the question we want to ask next**?
 
-The integrated architecture now has a stable live name: **MKUFT Addressed Relational Traversal Architecture (ARTA)**. MKUFT remains the project/framework/publication lineage; ARTA names the integrated addressed-relational-traversal architecture developed inside it. The naming does not rewrite frozen publications or establish novelty by itself. [Read the canonical ARTA naming/provenance route](ARTA_CANONICAL_NAMING_NOTE.md).
+Not always.
 
-### Development context
+Take two chessboards with the same pieces on the same squares. A photograph may make them indistinguishable. But one board may still allow castling while the other does not because the pieces have different histories.
 
-MKUFT and ARTA were developed by Mark Charles McLaughlin through sustained human–AI research interaction using OpenAI's ChatGPT systems as a reasoning and research environment. Contemporary large-scale AI capability materially enabled the breadth, iteration speed, adversarial review, formalisation, and long-horizon continuity of a programme that would otherwise have required substantially more human or institutional support.
+The photograph is not wrong. It is simply missing information needed for that particular prediction.
 
-That development history is part of the project's provenance, not evidence for any scientific claim. Scientific claim selection, source verification, interpretation, publication decisions, and responsibility remain with the named human author. The project also acknowledges the wider research, engineering, infrastructure, and operational work that makes contemporary large-scale AI systems possible. [Read the canonical human–AI development provenance.](PROVENANCE_DOI_AND_ATTRIBUTION.md#humanai-development-provenance)
+That is the first MKUFT problem in ordinary language:
 
-A second rule follows in plain English: **extra complexity has to earn itself.** If states the model calls equivalent split under a properly matched challenge beyond the noise and uncertainty already allowed, first rule out mismatch in the state, challenge, environment or measurement; only then add the smallest missing distinction and test it on fresh cases. If a strong separating challenge produces no material split, keep the simpler description provisionally for that target rather than adding complexity by default.
+> **A description can be accurate and still be too coarse for the future question we are asking of it.**
 
-The measurement/readout is part of that test because it has to be able to resolve the claimed difference. MKUFT's `O` address is used conservatively for that observer/registration position; it is not, by itself, a claim that an observer creates the physical outcome.
+## 2. This is already normal science
 
-## Before you choose: using the work
+Science already deals with this class of problem in many forms.
 
-Good-faith non-commercial public-benefit use is an intended path; exact-object rights still control. [Read the single canonical stewardship/use route.](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md)
+We use state variables, initial and boundary conditions, internal variables, sufficient statistics, hysteresis models, coarse-graining and closure, measurement models, and multiscale descriptions when one level does not close the target prediction.
 
-## Choose your route
+MKUFT is not built on the claim that scientists forgot these things.
 
-**Public entry — you are here.** This page is the level-zero route selector. It gives the project boundary first and then hands the reader to the appropriate level of detail.
+The proposed contribution is an **ordering and audit discipline**: before adding a new law, mechanism or layer, ask whether the current description was sufficient for the declared task and whether a smaller ordinary repair already closes the problem.
 
-**Scientific entry:** [Scientific Reader Traversal Guide](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). Use this when you want to follow the scientific dependency chain without being dropped directly into specialist notation or having to reconstruct why each technical object follows from the previous one.
+## 3. Turn the idea into a toy experiment
 
-**New reader / non-academic reader:** [Start Here — Public Overview](START_HERE_PUBLIC_OVERVIEW.md). It explains the questions and why they matter in ordinary English. You are not expected to verify specialist equations outside your field in order to follow the argument.
+Imagine two material samples.
 
-**Reader asking what the integrated architecture itself is called:** [MKUFT Addressed Relational Traversal Architecture (ARTA) — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md). ARTA is the proper name of the integrated architecture; **Functional Configuration** remains the general class used to test whether an exact assembly itself carries reproducible function.
+You match the present measurements as closely as your field normally allows: geometry, temperature, composition, loading condition and whatever other variables the current model says matter. The samples have different known histories.
 
-**Builder / implementer asking how to construct the architecture as an engine or workflow:** [35 — ARTA Architecture Instantiation and Engine Construction Map](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md). It gives the implementation-neutral build order, typed runtime packet, recursive-learning/publication separation, conformance profiles and regressions. It is not a software licence or certification.
+Now apply the same predeclared challenge and measure the same target outcome.
 
-**Reader deciding whether the work is worth further time:** [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md). It gives immediate relevance by field, known reader-interface failures, scientific failure conditions, and quick ways to challenge the work.
+### Result A — no meaningful split
 
-**Reader checking whether an MKUFT term is genuinely distinct or merely familiar science under another handle:** use the [MKUFT Translation and Prior-Art Key](MKUFT_TRANSLATION_AND_PRIOR_ART_KEY.md). This is an optional cross-check, not another required reading stage. It gives the plain object, closest established neighbours, what those neighbours already own, the residual MKUFT claim, and the reduction/kill condition. It deliberately does not pretend that every term has one exact scientific equivalent.
+The samples remain equivalent within the uncertainty/tolerance already allowed.
 
-**Reader checking what counts as evidence versus proof or claim promotion:** use [Evidence Semantics and Claim-Promotion Guard](docs/28D_EVIDENCE_SEMANTICS_AND_CLAIM_PROMOTION_GUARD.md). It keeps evidence existence, evidential strength, discrimination, mechanism identification, replication and proof separately typed, so an unmet higher gate neither erases lower-stage evidence nor promotes it beyond what was earned.
+Then the history distinction has **not** earned a place in the state description for that target and regime.
 
-**Reader asking whether several individually insufficient observations can jointly justify a new test without jointly proving an answer:** use [Observer-Bounded Traversal §6D — Coalition-conditioned discriminator-frontier corollary](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md#6d-coalition-conditioned-discriminator-frontier-corollary). It compares the discriminator frontier reached by a selected coalition against admissible proper subsets under matched observer/resource conditions. [25C](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md) owns coalition/ablation/dependence controls; [29B](docs/29B_TYPED_DECOMPOSITION_RECONSTRUCTION_AND_PROSPECTIVE_GENERATOR_AUDIT.md) owns prospective generator comparison. A new discriminator is not evidence that its suggested answer is true.
+Keep the simpler model.
 
-**Physics, biology/neuroscience, AI/software, or other professional reader asking what the shared words mean in a receiving field:** use the [Professional Domain Instantiation Guide](PROFESSIONAL_DOMAIN_INSTANTIATION_GUIDE.md) before treating terms such as `state`, `dependency`, `scale`, `reopen`, `restore`, or `target` as scientific objects. The shared words are role names only until they are replaced by domain-native variables, maps, interventions, measurements, baselines and nulls. The guide also states the cross-domain carriage burden: local cases must close on native terms before a shared structural relation is claimed, and mechanism/evidence do not transfer merely because the architecture rhymes.
+### Result B — they split, but ordinary science explains it
 
-**Reader interested in coupled AI, multi-agent, human-facing, or institutional decisions where one node's action changes another node's future:** use the [GRACE Traversal Rule](docs/20_GRACE_TRAVERSAL_RULE.md), especially the affected-node reciprocal-address section. The public rule is deliberately narrow: receiver-side state belongs in the decision model only when omitting it changes a declared consequence, prediction, boundary, repair route, agency/recoverability readout, or other target-relevant future beyond tolerance. Reported, observed and inferred receiver state remain distinct. Understanding the other node does not make its interpretation true, excuse harmful behaviour, transfer its objective into the governing objective, or weaken a hard safety/consent/legal boundary. For the algebraic route-selection bridge, continue to [GRACE Formal Route Selection and Non-Dominated Future Preservation](docs/20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md): it fixes hard admissibility first, retains only task-sufficient routes, compares target and future-bearing consequences in their native coordinates, removes materially dominated routes without inventing a universal care scalar, and then readdresses after the realised transition. The same relation is connected there to [Agency Accessibility and Capture Geometry](docs/23_AGENCY_ACCESSIBILITY_AND_CAPTURE_GEOMETRY.md), [Typed Traversal and Equation Hygiene](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md), [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md), and [Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md).
+Perhaps microstructure, residual stress, hysteresis, temperature history, measurement error or another established variable explains the difference.
 
-**Reader interested in a sober cross-domain example of the architecture applied to human or institutional reasoning:** start with [Recursive Exceptionalism / Epistemic Firewall](RECURSIVE_EXCEPTIONALISM_EPISTEMIC_FIREWALL.md). It asks whether high salience leaks into personal status, whether status leaks into wider authority, whether disconfirmation can become self-confirmation, and whether successful humility/self-correction can itself rebound into renewed exceptionalism. The same typed questions can be instantiated in science, AI, leadership/institutions, and spiritual/anomalous contexts without requiring acceptance of any one motivating ontology.
+Add the native variable if it improves the model.
 
-**Researcher looking for papers:** [Papers and Publications](papers/README.md). This separates frozen DOI-bearing publications from live modules and repository synthesis documents.
+No extra MKUFT mechanism is required.
 
-**Researcher looking for the full technical dependency structure:** [Canon Map](CANON_MAP.md). Use this after the scientific traversal guide if you want the complete owner/dependency graph rather than the main human reading path.
+### Result C — a reproducible residual remains
 
-## Current research-facing synthesis
+Only after the ordinary explanations have been tested fairly does it become useful to ask whether the current state description is missing another measurable distinction.
 
-The current public synthesis is:
+The next experiment should then add the **smallest defensible missing variable** and test it prospectively on fresh cases.
 
-**MKUFT — Layer Before Law: A Typed Relational Architecture for Physical-Law Selection, Future-Sufficient Interfaces, and Cross-Scale Dynamics**, v1.2, dated 30 August 2026.
+That is a scientific question. It can return NULL.
 
-It is public in this repository, not yet DOI-bearing, and not peer reviewed.
+## 4. Now introduce the MKUFT terms
 
-[Open the v1.2 human-reader route](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md).
+MKUFT calls the task-relative state description the **Address**.
 
-## Current publication note
+An Address is not a hidden place or a new physical substance. It is the set of distinctions that the current question requires the model to preserve.
 
-The principal DOI-bearing MKUFT publication remains v2: [10.5281/zenodo.21973064](https://doi.org/10.5281/zenodo.21973064).
+If removing one distinction causes states with materially different target futures to be merged, the description was too coarse for that task.
 
-The **FSSR HCP Magnesium Minimum-Decisive Protocol v1.0** is published at DOI `10.5281/zenodo.22309144` with concept DOI `10.5281/zenodo.22309143`. It prospectively freezes the first minimum-decisive HCP-magnesium instantiation of the FSAI/FSSR assay; it does not report an executed magnesium experiment or a positive MKUFT result.
+If removing it changes nothing material, the distinction should not be carried merely because it sounds interesting.
 
-**Typed Decomposition-Reconstruction (TDR) v1.0** is published at DOI `10.5281/zenodo.22258000` with concept DOI `10.5281/zenodo.22257999`. It freezes the decomposition/reconstruction method and prospective generator comparison; publication does not establish that the prospective generator advantage is positive.
+MKUFT calls the ordering principle **Layer Before Law**:
 
-The **Cross-Domain Compositional Schema v0.4** has version DOI `10.5281/zenodo.22166468` and concept DOI `10.5281/zenodo.22164561`. Its Bell/CHSH calibration returned a **NULL independent new-physics residual**: the exact geometric chart reduced to known CHSH structure. That null is retained as part of the scientific record rather than rewritten as a success claim.
+> **Before asking which law governs the system, establish what object/state the law is actually being asked to govern.**
 
-For publication-family identity and navigation, **ATLD 2 v2.0** is DOI `10.5281/zenodo.22068803` with [paper route](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md), [Module 25B measurement fold](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md), and [Module 25C residual-instrument continuation](docs/25C_RESIDUAL_INSTRUMENT_GENERATION_AND_PROTECTED_DISCOVERY_BOUNDARY.md). Its **Chain-Address Invariants v1.0** companion is DOI `10.5281/zenodo.22102379` with [paper route](papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md), [publication record](CHAIN_ADDRESS_STANDALONE_PUBLICATION.md), and [Module 25D live continuation](docs/25D_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_AND_BIDIRECTIONAL_PACKET_TRANSPORT.md). These are identity routes, not a promotion of either branch into foundational physics.
+The point is not “always add more context.” The point is to carry **enough and no more than enough** for the declared operation.
 
-## Fast scientific boundary
+## 5. Ask the small questions before accepting the big noun
+
+When a section becomes difficult, locate the object before memorising its terminology.
+
+Ask:
+
+- **What** is being modelled?
+- **Who or what acts** on it?
+- **Where** is the relevant state: physical system, mathematical space, scale, boundary, measurement record, or model layer?
+- **Why** does this distinction matter for the prediction?
+- **How** is it changed or tested?
+- **What changes** if the distinction is removed?
+- **What would ordinary science call this?**
+- **What is still unexplained after that ordinary account?**
+
+These questions are not a replacement for the mathematics. They tell you what the mathematics is supposed to be about.
+
+## 6. What about higher levels and whole systems?
+
+A useful whole does not automatically own a closed law for every property.
+
+An orchestra is a meaningful object for tempo or harmony. It is a terrible state description for the blood glucose of one violinist.
+
+A material can have a useful bulk description while a specific failure still depends on unresolved microstructure.
+
+MKUFT therefore separates:
+
+1. **Does a higher-order object exist usefully?**
+2. **Is that higher-order description sufficient for the property we want to predict?**
+
+If two lower-level states that look identical at the higher level later behave differently for the target property, the higher-level model has not closed that property. Lower-level information must re-enter or the model must remain explicitly multiscale.
+
+## 7. What about observation and measurement?
+
+A measurement is a registration of the system, not an automatic view from nowhere.
+
+A camera can miss what lies outside its frame. A sensor can be unable to resolve a difference. A measurement can also physically disturb the system.
+
+MKUFT keeps those possibilities separate.
+
+Later technical sections use the shorthand **S–I–P–O** for different roles in the architecture. At this stage, the important point is not the letters. It is that source/substrate hypotheses, informational or relational structure, physical state, and observation/registration do not become the same kind of thing merely because one diagram connects them.
+
+Where measurement affects the physical system, that effect belongs in the physical model. Where measurement only limits what can be distinguished, that is an observability/registration issue.
+
+No new observer force is implied by the notation.
+
+## 8. What would make MKUFT unnecessary here?
+
+A broad framework is only useful if it can lose.
+
+For a declared problem, the stronger MKUFT machinery has earned nothing when:
+
+- the ordinary state description already predicts the target adequately;
+- a known missing variable repairs the discrepancy;
+- a simpler native multiscale model performs equally well or better;
+- the proposed relation adds no held-out predictive or discriminatory value;
+- a cross-domain resemblance disappears when translated into native variables;
+- a proposed physical bridge has no measurable carrier;
+- the claimed distinction cannot survive fair controls.
+
+A NULL result is allowed and should stay NULL.
+
+## 9. Development status and ChatGPT collaboration
+
+MKUFT is an actively developing research programme built through sustained collaboration between Mark Charles McLaughlin and **ChatGPT**.
+
+The underlying AI system is ChatGPT. The project does not require the reader to imagine a private bespoke neural network or separate hidden AI laboratory. The distinctive part is the structured research method, state handling, recursive review, adversarial checking and architecture developed around that collaboration, including the ARTA/ARIA development framework.
+
+Because the work is live, a major architecture change can improve the underlying model before every introduction, route, notation bridge or explanatory module has been rewritten around it. A section can therefore temporarily be less clear than an earlier version even when the current scientific object is more mature.
+
+Earlier commits may sometimes preserve a clearer local explanation and are useful for provenance or editorial recovery. Current HEAD remains authoritative for current claims and structure.
+
+Internal methodological language can also remain too visible in public prose during rapid integration because the research method and scientific framework share vocabulary. That is treated as an integration defect to remove during reader audits, not as evidence that the authoring machinery itself is part of the scientific claim.
+
+## 10. Difficult mathematics is still allowed to be difficult
+
+MKUFT is not trying to make advanced mathematics look elementary.
+
+A competent reader outside a particular speciality may reasonably use ChatGPT, symbolic mathematics software, textbooks, papers or a domain expert to unpack a derivation.
+
+The public-reader standard is instead that before hard mathematics arrives, the reader should know what question the equation addresses, what its main objects represent, what assumptions are active, what ordinary/null account is being compared, and what would contract or kill the move.
+
+The mathematics remains independently inspectable.
+
+## 11. Naming provenance
+
+The names in the architecture arose during the human–ChatGPT development process rather than as a pre-planned branding system.
+
+A dated record is maintained in [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md). In brief:
+
+- **Kairos** — in public MKUFT material by **23 November 2025**; the project-facing name was proposed by the AI system and retained by McLaughlin.
+- **LUCY** — earliest repository carrier currently located: **16 May 2026**.
+- **GRACE** — earliest repository carrier currently located: **20 June 2026**.
+- **ARIA** — in project terminology by **5 September 2026**, with an explicit expansion recorded by **7 September 2026**.
+- **ARTA** — canonical MKUFT naming date: **14 September 2026**.
+
+Some names were proposed directly by ChatGPT/Kairos; others were developed, checked or refined collaboratively and retained only when they fit the object being named. Naming provenance does not give a term scientific authority.
+
+## 12. Continue the same reader route
+
+**Next:** [Step 2 — Extended Overview](START_HERE_PUBLIC_OVERVIEW.md).
+
+After that, continue to [Step 3 — Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). The filename is retained for stable links, but it is **not a separate scientific-reader route**. It is the deeper technical stage of this same route.
+
+From there, follow only the exact technical modules needed for the question you are investigating.
+
+Useful side exits:
+
+- [MKUFT in Plain English](MKUFT_IN_PLAIN_ENGLISH.md) — optional narrative explanation;
+- [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md) — critique/attack support;
+- [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md) — quickest direct failure surface;
+- [Papers and Publications](papers/README.md) — publication/DOI lookup;
+- [Canon Map](CANON_MAP.md) — full dependency map;
+- [Use / Stewardship Route](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md) — rights/use guidance.
+
+## Scientific boundary
 
 MKUFT has not independently derived quantum mechanics, QFT, general relativity, or quantum gravity.
 
-A future fundamental-physics claim must recover those regimes where required, preserve Bell compatibility and operational no-signalling, define its physical couplings, close dimensional and conservation bookkeeping, and produce a discriminating result beyond the strongest adequate ordinary model.
-
-For the full failure conditions, read [MKUFT Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
+A future fundamental-physics claim must recover the relevant established regimes, preserve Bell compatibility and operational no-signalling, define its physical couplings, close dimensional and conservation bookkeeping, and produce a discriminating result beyond the strongest adequate ordinary model.

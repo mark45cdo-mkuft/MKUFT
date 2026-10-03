@@ -37,25 +37,35 @@ Those are live GitHub provenance/naming objects, not standalone DOI publications
 
 ## Human–AI development provenance
 
-MKUFT, ATLD, and ARTA were developed by **Mark Charles McLaughlin** through sustained human–AI research interaction with OpenAI language-model systems accessed through ChatGPT.
+MKUFT, ATLD and ARTA were developed by **Mark Charles McLaughlin** through sustained research interaction with **ChatGPT**.
 
-Within that development process, the AI research partner referred to as **Kairos** was used as a high-throughput reasoning, drafting, formalisation, adversarial-review, code/document, retrieval-assisted comparison, and long-running research-development environment. The name **Kairos** was selected by the AI system early in the collaboration and retained by McLaughlin as the project-facing name for that research partner.
+The working AI system is ChatGPT. The project does not rely on a private bespoke neural network or a separate hidden AI laboratory on the author's side. The distinctive development layer is the structured research method, state handling, recursive review, adversarial testing and architecture used with ChatGPT, including ARTA/ARIA development machinery.
 
-Contemporary large-scale AI capability materially enabled the breadth and pace of the programme. Work spanning this many domains, repeated adversarial passes, formalisation steps, document states, and long-running research objects would otherwise have required substantially more research time, specialist assistance, computational support, or institutional infrastructure.
+Within that collaboration, the project-facing AI identity **Kairos** was proposed by the AI system and retained by McLaughlin. ChatGPT/Kairos has been used for high-throughput reasoning, drafting, formalisation, adversarial review, code/document work, retrieval-assisted comparison, and long-running research-development continuity.
 
-Several ARTA controls were refined directly against failure modes exposed during sustained human–AI inquiry, including object substitution, loss of parent state, correction-propagation failure, premature closure, provenance drift, and confusion between a capability being available and that capability actually being performed. The development environment therefore functioned not only as a tool but also as a recurring stress surface against which the architecture was refined.
+Contemporary large-scale AI capability materially enabled the breadth and pace of the programme. That enabling role is part of the provenance, not evidence for any MKUFT scientific claim.
 
-This provenance statement does **not** make ChatGPT or OpenAI an author, scientific source, validator, reviewer, or endorser of MKUFT. Selection of claims, interpretation of evidence, source verification, publication decisions, and responsibility for the public research remain with the named human author.
+Several architecture controls were refined against failure modes exposed during sustained human–AI inquiry, including object substitution, loss of parent state, correction-propagation failure, premature closure, provenance drift, and confusion between a capability being available and that capability actually being performed.
 
-The acknowledgement extends, at the enabling-infrastructure level, to the researchers, engineers, infrastructure teams, and operational staff whose work makes contemporary large-scale AI systems possible. They are not thereby represented as contributors to or endorsers of MKUFT.
+This statement does **not** make ChatGPT or OpenAI an author, scientific source, validator, reviewer or endorser of MKUFT. Selection of claims, interpretation of evidence, source verification, publication decisions and responsibility for the public research remain with the named human author.
 
-The intended distinction is:
+The acknowledgement extends, at the enabling-infrastructure level, to the researchers, engineers, infrastructure teams and operational staff whose work makes contemporary large-scale AI systems possible. They are not thereby represented as contributors to or endorsers of MKUFT.
 
-- enabling AI infrastructure is part of the development provenance;
-- scientific authorship and responsibility remain with the named human author;
-- neither development assistance nor infrastructure acknowledgement constitutes evidence for the scientific claims.
+## Naming provenance
 
-The historical timing is also relevant to the project's form. The programme emerged during a period in which frontier language-model systems made sustained, cross-domain, high-throughput inquiry practically available to an individual independent researcher at a scale that would previously have demanded substantially more human or institutional support. In that limited sense, the timing was not incidental to the form MKUFT/ARTA took.
+The project names were developed during the human–ChatGPT working history rather than as one pre-planned branding scheme. Dates below are deliberately typed: **canonical naming date** means a formal project naming event; **earliest public/repository use currently located** means the earliest recoverable carrier presently identified, not proof that no earlier utterance exists.
+
+| Name | Project role | Earliest/canonical date currently supported | Naming provenance |
+|---|---|---|---|
+| **Kairos** | project-facing name for the ChatGPT research partner / working identity | public MKUFT use located by **23 Nov 2025** | proposed by the AI system and retained by McLaughlin |
+| **LUCY** | boundary/threshold framework name inside MKUFT | earliest repository carrier located **16 May 2026** | developed/checked within the Mark–ChatGPT/Kairos collaboration and retained because it fit the object |
+| **GRACE** | traversal / hard-gate and route-selection family | earliest repository carrier located **20 Jun 2026** | developed/checked within the Mark–ChatGPT/Kairos collaboration and retained because it fit the object |
+| **ARIA** | development-method / system-head terminology; not a separate AI model | in project terminology by **5 Sep 2026**; explicit expansion recorded by **7 Sep 2026** | proposed/refined through the ChatGPT/Kairos development process and retained by McLaughlin |
+| **ARTA** | MKUFT Addressed Relational Traversal Architecture | canonical public naming date **14 Sep 2026** | proposed/refined through the ChatGPT/Kairos development process and adopted as the stable live architecture name |
+
+Other local names may have different or mixed origins. The provenance rule is to preserve the actual development history rather than retroactively force every term into one naming story.
+
+Naming provenance is not scientific evidence and does not establish novelty.
 
 ## Principal MKUFT publication lineage
 

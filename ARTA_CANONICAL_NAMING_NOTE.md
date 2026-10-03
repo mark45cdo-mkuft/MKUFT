@@ -119,6 +119,9 @@ Useful prose forms are:
 
 ## Provenance and frozen-publication rule
 
+The **ARTA** name was proposed/refined through the ChatGPT/Kairos side of the human–AI development process and retained by Mark Charles McLaughlin because it matched the integrated object being named. The canonical public naming date is **14 September 2026**. This naming history is provenance, not evidence for scientific novelty.
+
+
 The canonical ARTA name is prospective from 14 September 2026.
 
 It does not:

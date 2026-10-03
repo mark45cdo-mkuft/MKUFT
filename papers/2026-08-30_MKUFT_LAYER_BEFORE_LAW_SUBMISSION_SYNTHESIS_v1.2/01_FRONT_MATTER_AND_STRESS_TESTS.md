@@ -37,65 +37,17 @@ while preserving explicit routes back to the source objects.</p></th>
 
 # Abstract
 
-The McLaughlin-Kairos Unified Field Theory (MKUFT) is an open research
-programme asking an earlier question than direct law unification: before
-laws are combined, has the object that is supposed to own the law been
-typed correctly? The operational proposal is sharper than a static
-addressing rule. For a declared target, horizon, admissible challenge
-family, environment, regime and tolerance, an effective addressed state
-is sufficient only while states it identifies as equivalent remain
-equivalent in the declared admissible future. A distinction belongs in
-the effective Address when omitting it would merge histories whose
-future target laws materially differ; a realised transition can therefore
-require the system to be readdressed from the state actually reached
-rather than from a stale description inherited from the previous step.
-The same prospective criterion can recurse across scale, composition,
-recovery and, where constitutive of the declared operation,
-observer-positioned registration state. This does not equate semantic,
-informational, physical and observational variables: each retains its
-native type and evidential burden, and a distinction earns technical load
-only when preserving or removing it changes a declared prediction,
-admissible transition, recovery route, closure decision or other
-prospectively testable consequence. The present work does not claim a
-completed unified field theory, a derivation of quantum mechanics,
-quantum field theory, general relativity, or quantum gravity, or a new
-physical field. It proposes a typed architecture in which
-substrate/possibility, informational or relational structure, physical
-state, and observer-positioned record remain distinct objects unless an
-explicit coupling earns their connection. A complete addressed state and
-measured context determine an admissibility descriptor; a law assembler
-constructs the active physical-law object - its domain, transition rule,
-and any domain-appropriate weighting; physical propagation and a typed
-measurement instrument produce outcomes and records; the realised path
-then readdresses the next effective possibility object. The architecture
-is extended by a future-sufficiency rule for recursive reuse: a
-compressed interface is admissible for a declared future operation only
-if it preserves every decision-bearing relation or guarantees targeted
-reopening before an omitted relation can affect the result. Three
-immediate stress tests are supplied before the full architecture: an
-exact CHSH/Tsirelson-point calculation in which a facet-adapted
-three-plus-one coordinate construction reconstructs the established
-four-correlator object exactly before an attractive independent geometric
-candidate is deliberately reduced to known CHSH information; a
-future-splitting criterion that detects when a compressed state has
-become insufficient under widened reuse; and a matched-control ATLD
-protocol that isolates meaningful typed dependency and active traversal
-from graph presence, extra resources, and replay. These objects are not
-assigned the same evidential status: the positive Bell reconstruction is
-an exact known-answer calibration and its stronger new-physics residual
-is null, future sufficiency is a formal operational criterion, and ATLD
-is a prospective experimental protocol rather than a claimed passed
-result. The Bell calculation is accompanied by a public computational
-verification package containing machine-readable derived values, a
-standard-library reproduction script, captured verification output, and
-integrity hashes; these data reproduce the algebraic calibration and are
-not empirical evidence for a new physical mechanism. MKUFT is therefore
-presented as a pressure-testable relational architecture for physical-law
-selection, cross-scale dynamics, recursive model custody, and the
-explicit separation of what is organised from what remains scientifically
-unearned. A foundational branch succeeds only if it recovers established
-quantum and gravitational regimes and produces a discriminating result
-beyond the strongest existing account.
+The McLaughlin–Kairos Unified Field Theory (MKUFT) is an open research programme built around a prior modelling question: **before selecting or combining laws, is the state description sufficient for the prediction being asked of it?**
+
+The operational test is prospective. If two systems are treated as equivalent by the current description, place them under the same declared challenge and compare the target future within a stated tolerance. If they remain equivalent, the simpler state description survives for that task and regime. If they separate, the first explanations remain ordinary ones: imperfect state matching, boundary or environmental mismatch, measurement limits, known internal variables, hysteresis, stochastic variation, or an established native mechanism. Only a residual that survives those controls motivates adding the smallest defensible missing distinction and testing it on fresh cases.
+
+MKUFT calls the task-relative state description an **Address** and the ordering rule **Layer Before Law**. A distinction belongs in the Address only when removing it changes a declared prediction, admissible transition, recovery route, measurement result or other target-relevant future beyond the allowed tolerance. After a realised transition, the next model is assembled from the state actually reached rather than automatically inheriting a stale prior description.
+
+The architecture keeps substrate/source hypotheses, informational or relational structure, physical state, and observation/registration as typed objects rather than treating them as interchangeable. The present work does not claim a completed unified field theory, a derivation of quantum mechanics, quantum field theory, general relativity or quantum gravity, or a new physical field.
+
+Three stress surfaces are placed early in the paper. First, a Bell/CHSH known-answer calibration gives an exact 3+1 reconstruction of the established four-correlator object, while the stronger candidate independent geometric/new-physics residual contracts to known CHSH information and remains **NULL**. Second, a future-splitting criterion tests when a compressed state description has become insufficient. Third, a matched-control ATLD protocol tests whether typed dependency and active traversal add measurable long-horizon AI performance beyond flat, scrambled, replay and related controls.
+
+These objects have different evidential status. The Bell reconstruction is a mathematical calibration, future sufficiency is a formal operational criterion, and ATLD remains a prospective experimental protocol. The foundational physics branch succeeds only if it recovers the required established regimes and produces a discriminating result beyond the strongest adequate ordinary account.
 
 **Keywords:** MKUFT; Layer Before Law; typed state architecture;
 relational admissibility; physical-law selection; SIPO;
@@ -110,19 +62,7 @@ falsifiability.
 <thead>
 <tr class="header">
 <th><p><strong>Contribution at a glance</strong></p>
-<p>The proposal is not "one more equation that unifies everything". Its
-central operational object is a moving addressed system: for a declared
-use, retain the minimum typed distinctions needed to keep materially
-different admissible futures separate; after a realised transition,
-readdress from the state actually reached. That criterion then governs
-when an addressed object may lawfully own a physical law, when a
-compressed description remains sufficient under recursive reuse, when a
-scale transition must preserve or reopen lower structure, and when an
-observer/registration distinction is constitutive rather than optional.
-The next section gives three immediate checks before asking the reader to
-accept any wider interpretation: one native Bell calculation, one
-future-splitting sufficiency discriminator, and one executable
-matched-control AI protocol.</p></th>
+<p>The proposal is not that every system needs more variables or that one new equation governs every domain. It is an audit rule for model sufficiency. First identify the object and target prediction. Then ask whether the current state description keeps apart cases that can produce materially different target futures under the same declared challenge. If ordinary variables already close the result, retain the ordinary model. If a reproducible residual remains, add the smallest defensible missing distinction and test it prospectively. The later architecture extends that rule across scale, recursive reuse, recovery and measurement while keeping each domain's mechanism and evidence burden native. The next section therefore begins with independent checks rather than asking the reader to accept the full vocabulary first.</p></th>
 </tr>
 </thead>
 <tbody>
