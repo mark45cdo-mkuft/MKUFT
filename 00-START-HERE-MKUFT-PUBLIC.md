@@ -9,7 +9,7 @@
 
 MKUFT is a speculative research programme. It is not presented as a completed accepted unified theory of physics.
 
-This page is the first step of **one progressive reader route**. You do not need a separate “public” route and “scientific” route. The explanation becomes more technical only after the object has been made clear.
+This page is the first step of **one progressive reader route**. The explanation becomes more technical only after the object has been made clear.
 
 ## 1. Start with an ordinary problem
 
@@ -63,7 +63,9 @@ No extra MKUFT mechanism is required.
 
 ### Result C — a reproducible residual remains
 
-Only after the ordinary explanations have been tested fairly does it become useful to ask whether the current state description is missing another measurable distinction.
+Here, **residual** means a repeatable difference that is still left after the ordinary explanations have been tested fairly.
+
+Only then does it become useful to ask whether the current state description is missing another measurable distinction.
 
 The next experiment should then add the **smallest defensible missing variable** and test it prospectively on fresh cases.
 
@@ -145,13 +147,13 @@ For a declared problem, the stronger MKUFT machinery has earned nothing when:
 - a proposed physical bridge has no measurable carrier;
 - the claimed distinction cannot survive fair controls.
 
-A NULL result is allowed and should stay NULL.
+A **NULL** result here simply means the extra MKUFT machinery earned nothing for that test. That is an acceptable scientific outcome and should stay NULL.
 
 ## 9. Development status and ChatGPT collaboration
 
 MKUFT is an actively developing research programme built through sustained collaboration between Mark Charles McLaughlin and **ChatGPT**.
 
-The underlying AI system is ChatGPT. The project does not require the reader to imagine a private bespoke neural network or separate hidden AI laboratory. The distinctive part is the structured research method, state handling, recursive review, adversarial checking and architecture developed around that collaboration, including the ARTA/ARIA development framework.
+The underlying AI system is ChatGPT. **ARTA/ARIA name the structured research method and architecture used with it**, including state handling, recursive review and adversarial checking.
 
 Because the work is live, a major architecture change can improve the underlying model before every introduction, route, notation bridge or explanatory module has been rewritten around it. A section can therefore temporarily be less clear than an earlier version even when the current scientific object is more mature.
 
@@ -187,7 +189,7 @@ Some names were proposed directly by ChatGPT/Kairos; others were developed, chec
 
 **Next:** [Step 2 — Extended Overview](START_HERE_PUBLIC_OVERVIEW.md).
 
-After that, continue to [Step 3 — Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). The filename is retained for stable links, but it is **not a separate scientific-reader route**. It is the deeper technical stage of this same route.
+After that, continue to [Step 3 — Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). The filename is retained for stable links; this is the deeper technical stage of the same route.
 
 From there, follow only the exact technical modules needed for the question you are investigating.
 

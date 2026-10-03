@@ -42,7 +42,7 @@ If they split, first ask whether better state matching, boundary control, measur
 
 If one of those closes the result, that field owns the explanation.
 
-If a structured residual survives, add the smallest measurable distinction capable of repairing the prediction and test it on fresh cases.
+If a repeatable difference remains after those ordinary controls, add the smallest measurable distinction capable of repairing the prediction and test it on fresh cases.
 
 This is the scientific content behind the simpler rule:
 

@@ -34,7 +34,7 @@ MKUFT calls the task-relative description an **Address**. The paper then asks a 
 
 That is the moving object carried through the four parts.
 
-If you need the broader explanation first, follow the same repository route: [00 — Start Here](../../00-START-HERE-MKUFT-PUBLIC.md) → [Extended Overview](../../START_HERE_PUBLIC_OVERVIEW.md) → [Technical Continuation](../../SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). The last filename is retained for stable links; it is not a separate scientific-reader route.
+If you need the broader explanation first, follow the repository route: [00 — Start Here](../../00-START-HERE-MKUFT-PUBLIC.md) → [Extended Overview](../../START_HERE_PUBLIC_OVERVIEW.md) → [Technical Continuation](../../SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). The last filename is retained for stable links.
 
 ## Reading order — and why each part follows
 

@@ -1,6 +1,6 @@
 # Step 3 — Technical Continuation: MKUFT Single Reader Route
 
-> **Stable-link note:** the filename `SCIENTIFIC_READER_TRAVERSAL_GUIDE.md` is retained so existing links do not break. This file is no longer a separate “scientific reader” route. It is the technical continuation of the same reader staircase begun in [00 — Start Here](00-START-HERE-MKUFT-PUBLIC.md) and [Step 2 — Extended Overview](START_HERE_PUBLIC_OVERVIEW.md).
+> **Stable-link note:** the filename `SCIENTIFIC_READER_TRAVERSAL_GUIDE.md` is retained so existing links do not break. This page is **Step 3 — Technical Continuation** in the reader staircase begun in [00 — Start Here](00-START-HERE-MKUFT-PUBLIC.md) and [Step 2 — Extended Overview](START_HERE_PUBLIC_OVERVIEW.md).
 
 ## What you should already understand
 
@@ -702,7 +702,7 @@ If the first answer contains a load-bearing relation, move that relation into th
 
 ## Relation to the single reader route
 
-This file is **Step 3**, not a parallel scientific entrance.
+This file is **Step 3** of the same progressive route.
 
 ```text
 00 Start Here

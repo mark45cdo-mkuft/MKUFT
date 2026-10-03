@@ -1,6 +1,6 @@
 # MKUFT Reader Contact, Translation, and Failure Guide
 
-**Purpose:** optional attack/critique support for readers who already have the basic object from [00 — Start Here](00-START-HERE-MKUFT-PUBLIC.md). This file is **not another reading route**.
+**Purpose:** optional attack/critique support alongside the main reader route, for readers who already have the basic object from [00 — Start Here](00-START-HERE-MKUFT-PUBLIC.md).
 
 MKUFT is best read at its current maturity as a speculative research architecture, not as a completed new law of nature or evidence that one mechanism governs every domain.
 
@@ -533,7 +533,7 @@ A good kill is useful. It removes dead weight.
 
 ## Where this guide sits
 
-This is an optional support file, not a parallel route.
+This is an optional support file alongside the main route.
 
 The main route is:
 

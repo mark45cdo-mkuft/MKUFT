@@ -17,7 +17,7 @@ MKUFT is a speculative research programme, not a completed accepted unified theo
 
 If you are new to the project, start with **[00 — Start Here: MKUFT Single Reader Route](00-START-HERE-MKUFT-PUBLIC.md)**.
 
-There is no separate public route and scientific-reader route. The same staircase becomes more technical as it goes:
+The same reader staircase becomes more technical as it goes:
 
 ```text
 ordinary object / question
@@ -60,7 +60,7 @@ MKUFT earns additional machinery only when it improves prediction, discriminatio
 
 ## Development status
 
-MKUFT is actively developed through sustained collaboration between Mark Charles McLaughlin and **ChatGPT**. ChatGPT is the working AI system; the distinctive part is the structured ARTA/ARIA research method, state handling, adversarial review, recursive checking and architecture used with it.
+MKUFT is actively developed through sustained collaboration between Mark Charles McLaughlin and **ChatGPT**. ChatGPT is the working AI system. **ARTA/ARIA refer to the structured research method and architecture used with it**, including state handling, adversarial review and recursive checking.
 
 The repository should therefore be read as a live research body rather than a finished textbook. Structural audits can temporarily leave a neighbouring explanation, route or notation bridge behind the current science. When that happens, it is an editorial/integration defect to repair. Older commits can sometimes preserve a clearer local explanation, but they do not override the current scientific state merely because the prose was better.
 

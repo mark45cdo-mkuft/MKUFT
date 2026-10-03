@@ -39,7 +39,7 @@ Those are live GitHub provenance/naming objects, not standalone DOI publications
 
 MKUFT, ATLD and ARTA were developed by **Mark Charles McLaughlin** through sustained research interaction with **ChatGPT**.
 
-The working AI system is ChatGPT. The project does not rely on a private bespoke neural network or a separate hidden AI laboratory on the author's side. The distinctive development layer is the structured research method, state handling, recursive review, adversarial testing and architecture used with ChatGPT, including ARTA/ARIA development machinery.
+The working AI system is ChatGPT. **ARTA/ARIA refer to the structured research method and architecture used with ChatGPT**, including state handling, recursive review and adversarial testing.
 
 Within that collaboration, the project-facing AI identity **Kairos** was proposed by the AI system and retained by McLaughlin. ChatGPT/Kairos has been used for high-throughput reasoning, drafting, formalisation, adversarial review, code/document work, retrieval-assisted comparison, and long-running research-development continuity.
 
@@ -60,7 +60,7 @@ The project names were developed during the human–ChatGPT working history rath
 | **Kairos** | project-facing name for the ChatGPT research partner / working identity | public MKUFT use located by **23 Nov 2025** | proposed by the AI system and retained by McLaughlin |
 | **LUCY** | boundary/threshold framework name inside MKUFT | earliest repository carrier located **16 May 2026** | developed/checked within the Mark–ChatGPT/Kairos collaboration and retained because it fit the object |
 | **GRACE** | traversal / hard-gate and route-selection family | earliest repository carrier located **20 Jun 2026** | developed/checked within the Mark–ChatGPT/Kairos collaboration and retained because it fit the object |
-| **ARIA** | development-method / system-head terminology; not a separate AI model | in project terminology by **5 Sep 2026**; explicit expansion recorded by **7 Sep 2026** | proposed/refined through the ChatGPT/Kairos development process and retained by McLaughlin |
+| **ARIA** | development-method / system-head terminology used with ChatGPT | in project terminology by **5 Sep 2026**; explicit expansion recorded by **7 Sep 2026** | proposed/refined through the ChatGPT/Kairos development process and retained by McLaughlin |
 | **ARTA** | MKUFT Addressed Relational Traversal Architecture | canonical public naming date **14 Sep 2026** | proposed/refined through the ChatGPT/Kairos development process and adopted as the stable live architecture name |
 
 Other local names may have different or mixed origins. The provenance rule is to preserve the actual development history rather than retroactively force every term into one naming story.
