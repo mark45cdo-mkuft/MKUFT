@@ -454,7 +454,8 @@ REQUIRED.setdefault("PROVENANCE_DOI_AND_ATTRIBUTION.md", []).extend([MAO_VERSION
 REQUIRED.setdefault("MODULE_RIGHTS_MATRIX.md", []).extend([MAO_VERSION, MAO_CONCEPT, "CC BY-NC-SA 4.0"])
 REQUIRED.setdefault("RIGHTS_AND_LICENSE_NOTICE.md", []).extend([MAO_VERSION, MAO_CONCEPT, MAO_RECORD, "CC BY-NC-SA 4.0"])
 REQUIRED.setdefault("SCIENTIFIC_READER_TRAVERSAL_GUIDE.md", []).extend([MAO_PAPER, "stress/conformance paper"])
-REQUIRED.setdefault("START_HERE_PUBLIC_OVERVIEW.md", []).extend([MAO_PAPER, "conjecture/falsification programme"])
+# MAO is intentionally downstream of Step 2 in the current single progressive reader route.
+# Step 3 carries the stress/conformance handoff; discovery/DOI surfaces above retain direct MAO routes.
 REQUIRED.setdefault("docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md", []).extend([MAO_VERSION, MAO_PAPER])
 REQUIRED.setdefault("docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md", []).extend([MAO_VERSION, MAO_PAPER])
 REQUIRED.setdefault("docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md", []).extend([MAO_PAPER, "conformance research", "not new engine anatomy"])
