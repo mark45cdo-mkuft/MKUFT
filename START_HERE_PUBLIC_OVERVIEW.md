@@ -176,62 +176,41 @@ That gives a sharper question than “is it broken yet?”:
 
 ### 6A. Can a choice consume its own way back?
 
-Sometimes a part of a system does exactly what we normally want in an emergency: it accepts a local cost, relaxes a normal constraint, or takes an exceptional action so the larger system can keep going.
+An action can be locally justified and still change the system’s later ability to stop, correct or recover.
 
-That first move can be correct.
+A simple example is an emergency override. Using it may be the right immediate action, while also altering feedback, observability, constraints or restorative routes needed afterward. The useful question is therefore:
 
-The harder question is what the move changes **about the system’s ability to correct itself afterward**.
+> **Did the action change only the current state, or did it also change the relations needed to judge, stop, correct or recover from that action later?**
 
-Imagine a fire door that has to be forced open to get people out. Forcing it may be entirely justified while the fire is behind you. But if the same act also damages the closer or return signal needed to restore protected operation, the emergency action has changed more than the immediate state. It has changed part of the route by which the system gets back under control.
+MKUFT treats this as a composition of existing control, reachability and recovery ideas rather than a new law. Local correctness now and reduced recoverability later can both be true.
 
-The metaphor stops there. In the technical work, the relevant object is a constraint, feedback, observability, termination, or restorative relation whose alteration changes the next admissible future.
+“Return” also does not mean rewinding to an identical earlier microstate. For a declared task, recovery may mean reaching a new state in which enough corrective structure and viable future options have been restored.
 
-MKUFT treats this as a composition of existing ideas rather than a new law. A currently admissible action can change the constraints, feedback relations, or restorative routes that define the next admissible future. Local correctness now and reduced global recoverability later can therefore both be true. A bad later state does not, by itself, make the original emergency decision a mistake.
+This operational language should not be over-read. Selecting among admissible continuations is not a proof of metaphysical free will, and the framework does not assign universal moral labels to particular choices. The receiving domain owns the mechanism.
 
-The same shape can appear in an engineering override, a biological protective response, an institution using emergency powers, or a person carrying an exceptional burden for a group. The domain mechanisms are different; the shared question is narrow:
-
-> **Did the action change only the state, or did it also change the relations needed to judge, stop, correct, or recover from that action later?**
-
-This also gives “return” a more useful meaning. Recovery does not require rewinding the system to an identical earlier microstate. A lawful way home may instead be a route to a new state in which enough feedback, correction, and restorative reach have been recovered for the declared task.
-
-There is a modest connection here to choice. Operationally, a choice can be treated as selection among currently admissible continuations. Some selections merely choose a route; others change which routes, corrections, or meaningful alternatives remain available afterward. That is a technical statement about future admissibility and recoverability. It is **not** a mathematical proof of metaphysical free will.
-
-And that exposes a deeper asymmetry that is easy to miss if we judge only the present moment. Two options can look equally available, equally forceful, or even equally rewarding now while leaving very different systems behind them. One can preserve feedback, trust, correction and future alternatives; another can buy the same immediate result by consuming those relations.
-
-So “equal now” is not enough to establish “equivalent choice.” The larger question is:
-
-> **After this choice, what can the system still learn, correct, coordinate, and recover?**
-
-That question is deliberately neutral about religious or moral labels. Traditions may call choices light/dark, loving/selfish, disciplined/rebellious, and disagree intensely about which label belongs where. MKUFT does not settle that dispute by vocabulary. It asks whether the competing choices are actually future-equivalent at the declared Address. If they are not, apparent present symmetry has hidden a structural difference.
-
-The same relation helps explain why cooperation can scale without making “cooperation is always good” into a law. A higher-order biological or social system persists only while enough local interactions preserve the relations that let the larger whole remain viable, correct errors and reproduce or recover. Native evolutionary theories own the mechanisms; the MKUFT relation used here is the cross-scale question about what future structure the local move preserves or consumes.
+Read: [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) and, for human/AI decision applications, [GRACE Traversal](docs/20_GRACE_TRAVERSAL_RULE.md).
 
 ### 7. How do we detect a missing state variable before the usual marker appears?
 
-[Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) provides the direct assay.
+[Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) turns the sufficiency question into a direct assay.
 
-Take states that the current model treats as equivalent. Make the state matching, challenge, boundary conditions and expected uncertainty explicit before testing. Then apply a controlled lawful challenge chosen to expose any hidden difference.
-
-Two outcomes carry information:
+Match the candidate present state, challenge, boundary conditions, readout and expected uncertainty as well as the receiving field allows. Then choose a lawful challenge intended to separate states the current model treats as equivalent.
 
 ```text
-repeatable future split beyond declared tolerance
-→ at least one equivalence claim is too coarse
-→ first audit state matching, challenge equivalence, boundary/environment, measurement and ordinary stochastic explanations
-→ use the controls and eliminated alternatives as negative-space data
-→ recruit the smallest typed missing distinction that restores held-out prediction
-→ test prospectively
+repeatable split beyond declared tolerance
+→ the current equivalence is too coarse for that test
+→ first audit ordinary mismatch, environment, measurement and stochastic explanations
+→ recruit the smallest defensible missing distinction only if a residual survives
+→ test the repair on fresh cases
 
-no material split under a strong separating challenge
-→ the current representation survives that attack
-→ preserve the simpler state provisionally for that target, regime, challenge family and tolerance
+no material split under a strong declared challenge
+→ preserve the simpler representation provisionally
+→ only for that target, regime, challenge family and tolerance
 ```
 
-The point is not to add complexity. The point is to make the model **earn either reopening or preservation**. A split does not automatically prove hidden internal state, because the challenge or boundary may have differed; a null does not prove metaphysical completeness, because it closes only the declared target and test family.
+A split does not identify the hidden mechanism by itself, and a null does not prove that the state is complete for every possible question.
 
-The first full prospective protocol that cashes this assay into a native physical/material experiment is [28C — Minimum Decisive FSAI/FSSR Flagship: History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md). It does **not** ask whether magnesium has loading-history effects; materials science already owns twinning, detwinning, hysteresis and constitutive internal variables. It asks a harder question: can the strongest practical predeclared reduced state be made to fail prospectively under a lawful separating reversal, can the smallest measurable physical repair restore held-out closure, does remove/restore behave as predicted, and does an FSSR state-splitting challenge add anything beyond a matched parameter-information design? The protocol is designed to return a clean preservation/null as readily as a positive recruitment result.
-
-The registered result then returns to SIPO: it updates the evidence/history/context used to decide whether the next addressed state should remain compressed or recruit a new distinction before the next law object is assembled. That upstream return is part of the architecture, not an optional interpretation after the experiment.
+The first full prospective materials instantiation is [28C — Minimum Decisive FSAI/FSSR Flagship: History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md). It does **not** ask whether magnesium has history effects; established materials science already owns those. It asks whether FSSR challenge selection and the smallest measurable state repair add anything beyond a strong native constitutive state and a matched ordinary experimental-design comparator. The protocol remains prospective and is designed to return a clean preservation/null as readily as a positive recruitment result.
 
 ### 7A. When is “impossible here” actually impossible?
 
