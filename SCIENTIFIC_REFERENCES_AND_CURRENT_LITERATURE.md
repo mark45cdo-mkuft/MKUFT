@@ -168,6 +168,19 @@ The 33S2/33S3 family sits close to several mature literatures. The following sou
 
 These works remove broad novelty claims for causal abstraction, lumpability, property-oriented reduction, macro causal efficacy, history/memory repair, reachability/viability, hysteresis/resilience and multilevel performance conflict. The residual MKUFT claim is documented separately in Module 33A: a candidate addressed-law decision architecture that uses property-specific sufficiency, closure, recoverability and evidence-triggered readdressing as distinct operational objects. That residual remains open to stronger prior art and empirical failure.
 
+### Predictive-state and state-equivalence comparators
+
+The future-sufficiency and FSSR branches also sit close to older work on predictive state and state equivalence. These are treated as **prior art and hostile comparators** at the component level:
+
+- Littman, M. L., Sutton, R. S. & Singh, S. (2001; NIPS 2001, published in *Advances in Neural Information Processing Systems 14*). “Predictive Representations of State,” 1555–1561.
+- Singh, S., James, M. R. & Rudary, M. R. (2004). “Predictive State Representations: A New Theory for Modeling Dynamical Systems.” *Proceedings of UAI 2004*, 512–518.
+- Givan, R., Dean, T. & Greig, M. (2003). “Equivalence notions and model minimization in Markov decision processes.” *Artificial Intelligence* 147(1–2), 163–223. DOI `10.1016/S0004-3702(02)00376-4`.
+- Barnett, N. & Crutchfield, J. P. (2015). “Computational Mechanics of Input–Output Processes: Structured Transformations and the ε-Transducer.” *Journal of Statistical Physics* 161(2), 404–451. DOI `10.1007/s10955-015-1327-5`; arXiv:1412.2690, first submitted 8 December 2014.
+
+These works establish older machinery for action-conditional predictive state, policy-relevant state equivalence/model minimisation, and predictive models of stochastic input-output processes. They therefore block any broad MKUFT claim to have invented future-predictive state sufficiency, controlled-input predictive state, or state merging by future behaviour **in isolation**.
+
+The remaining MKUFT comparison burden is narrower and harder: determine whether the typed conjunction of task-relative Address sufficiency, property-specific law ownership, matched prospective challenge, smallest justified reopen/recruitment, and recursive reuse/recovery produces a distinct operational result beyond those native formalisms. That residual remains a same-scale formal/empirical comparison question; citation alone neither establishes nor removes it.
+
 ## 14A. Multivariate information synergy and adaptive inquiry
 
 The 33S7C coalition-conditioned discriminator-frontier corollary sits next to mature work on multivariate synergy and adaptive test selection. These sources therefore function as **prior art and hostile comparators**, not support-by-resemblance:
