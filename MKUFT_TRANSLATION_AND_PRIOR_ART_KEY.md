@@ -177,11 +177,11 @@ Read: [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S
 
 **Plain object:** does the state the model currently keeps contain enough information to distinguish the future quantity the task cares about?
 
-**Closest established neighbours:** Markov/state sufficiency, predictive-state representations, hidden-state models, sufficient statistics, state augmentation, observability and system identification.
+**Closest established neighbours:** Markov/state sufficiency, predictive-state representations (PSRs), MDP state abstraction/bisimulation and model minimisation, computational-mechanics causal-state models and ε-transducers, hidden-state models, sufficient statistics, state augmentation, observability and system identification.
 
-**Already owned by established science:** hidden state and predictive sufficiency are not new concepts.
+**Already owned by established science:** action-conditional predictive state is established in PSRs; policy-relevant state equivalence and model minimisation are established in MDP abstraction/bisimulation; computational mechanics provides predictive causal-state models and an input-output ε-transducer formalism. Hidden state, future-predictive state construction and predictive sufficiency are therefore not MKUFT inventions.
 
-**MKUFT residual claim:** place the sufficiency question explicitly inside the address/law-ownership chain so that future divergence becomes a controlled reason to reopen the state rather than an excuse for post-hoc complexity.
+**MKUFT residual claim:** not the invention of future-predictive state itself, but placing task-relative sufficiency inside an explicit address/law-ownership/readdressing chain so that controlled future divergence becomes a reason to reopen the representation, while a strong no-split result preserves the simpler state provisionally rather than licensing post-hoc complexity.
 
 **Example:** two systems the model calls equivalent now diverge later beyond the declared tolerance; the current representation is insufficient even before the missing variable has been identified.
 
@@ -231,11 +231,13 @@ Read: [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_REST
 
 **Plain object:** deliberately challenge states the current model treats as equivalent and make sure the systems, challenge, boundary conditions, measurement and allowed noise are matched well enough for the question. A split can justify reopening the state; a strong no-split result can justify keeping the simpler description.
 
-**Closest established neighbours:** perturbation experiments, system identification, hidden-state estimation, predictive-state sufficiency, intervention/ablation, state augmentation and mechanism localisation.
+**Closest established neighbours:** perturbation experiments, system identification, hidden-state estimation, predictive-state representations, controlled input-output predictive models such as ε-transducers, MDP state abstraction/bisimulation, intervention/ablation, state augmentation and mechanism localisation.
 
-**Already owned by established science:** perturbation, hidden-state modelling and state augmentation are standard families.
+**Already owned by established science:** perturbation, hidden-state modelling and state augmentation are standard families. Action-conditional future prediction, controlled input-output state modelling, and state-equivalence/minimisation under future behaviour also have substantial pre-MKUFT formalisms.
 
-**MKUFT residual claim:** the particular assay ordering: matched candidate state + matched challenge/boundary/readout + declared tolerance → separating lawful future → split or no material split → control and negative-space audit → minimal state recruitment only if a residual survives → fresh-data prediction → removal/restoration deformation test. The registered result then returns into the next addressed state before the next law is selected.
+**MKUFT residual claim:** the particular assay ordering: matched candidate state + matched challenge/boundary/readout + declared tolerance → separating lawful future → split or no material split → control and negative-space audit → minimal state recruitment only if a residual survives → fresh-data prediction → removal/restoration deformation test. The registered result then returns into the next addressed state before the next law is selected. The candidate distinctiveness is this full operational composition and its integration with addressed law ownership/readdressing, not any one predictive-state ingredient in isolation.
+
+**Prior-art boundary:** the comparator families above predate MKUFT and therefore constrain component-level novelty. They do not by themselves establish equivalence to the complete FSSR assay; that comparison must be made at the level of the whole declared operation and its prospective consequences, not vocabulary alone.
 
 **Example:** match current neural activity as closely as the field permits, preserve deliberately different recent histories where that is the tested candidate, and apply the same controlled challenge. If a future split survives state-matching, intervention, environment, measurement and ordinary-noise controls, test whether the smallest biologically defensible retained-state variable removes an apparent connectivity edge and improves held-out prediction. If a strong separating challenge produces no material split, preserve the simpler state description provisionally for that target and regime.
 
