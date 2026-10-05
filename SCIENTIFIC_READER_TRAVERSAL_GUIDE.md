@@ -111,7 +111,7 @@ If the reachable state and admissible transitions depend on the addressed organi
 
 ---
 
-## 4. SIPO Capstone — assemble the active law object without pretending the architecture is already a physical theory
+## 4. SIPO Capstone — assemble the active law object while keeping architectural and physical claims separate
 
 Read: [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md)
 
@@ -549,7 +549,7 @@ If a same-address model/measurement/representation repair closes the apparent bo
 
 ### Why the next step follows
 
-The chain is now coherent enough to become seductive. That is precisely when it needs hostile subtraction. The final scientific move asks whether the architecture survives prior art, ordinary baselines, prospective controls and explicit falsification rather than merely telling a beautiful internally consistent story.
+The chain is now coherent enough to become seductive. That is precisely when it needs hostile subtraction. The final scientific move asks whether the architecture survives prior art, ordinary baselines, prospective controls and explicit falsification rather than relying on internal coherence alone.
 
 ---
 
@@ -596,7 +596,7 @@ The chain has now produced a coherent addressed architecture and several operati
 
 ### What this step does
 
-It tries to remove the romance from that coherence.
+It asks whether that coherence survives hostile subtraction against native science, prior art and explicit failure conditions.
 
 The Minimal Addressed Operator preprint packages this entire hostile question at one higher-order address: can the clean inquiry loop itself be factorised without importing MKUFT vocabulary by definition, and does any claimed minimal representative survive the strongest native comparators? Use it as a **stress/conformance paper**, not as evidence that the universal factorisation conjecture has already been proved.
 
@@ -610,7 +610,7 @@ Ask:
 - does a matched replay, flat, scrambled or alternative-pairing control recover the same gain?
 - was the failure criterion changed after the result?
 
-A null result is not an embarrassment. The Bell/CHSH tetrahedral calibration is deliberately kept as a paired example. First, the facet-adapted construction gives an exact **3+1** reconstruction of the established native four-correlator object: three independent affine coordinates on the CHSH tetrahedral facet plus one transverse coordinate. That is a positive known-answer methodological calibration, not new Bell mathematics or new physics. The architecture is then pushed further, and the independent physical/geometric residual becomes **NULL** because the natural four-volume reduces to known CHSH excess. Exact native recovery and refusal of unsupported promotion are separate results.
+A null result is a valid scientific outcome. The Bell/CHSH tetrahedral calibration is deliberately kept as a paired example. First, the facet-adapted construction gives an exact **3+1** reconstruction of the established native four-correlator object: three independent affine coordinates on the CHSH tetrahedral facet plus one transverse coordinate. That is a positive known-answer methodological calibration, not new Bell mathematics or new physics. The architecture is then pushed further, and the independent physical/geometric residual becomes **NULL** because the natural four-volume reduces to known CHSH excess. Exact native recovery and refusal of unsupported promotion are separate results.
 
 ### Negative evidence side-route — when “nothing was found” is load-bearing
 
