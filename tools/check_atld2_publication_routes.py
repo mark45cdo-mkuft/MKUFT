@@ -160,16 +160,9 @@ REQUIRED = {
     ],
     "publications/README.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, "ATLD2_Evaluation_Protocol_v2.0/", MODULE],
     "INDEX.md": [ATLD2_VERSION, PAPER, MODULE, RESIDUAL_MODULE, CHAIN_MODULE],
-    "00-START-HERE-MKUFT-PUBLIC.md": [
-        ATLD2_VERSION,
-        CHAIN_VERSION,
-        PAPER,
-        CHAIN_PAPER,
-        CHAIN_PUBLICATION,
-        MODULE,
-        RESIDUAL_MODULE,
-        CHAIN_MODULE,
-    ],
+    # The current Step-1 reader surface is intentionally object-first and does not
+    # carry specialist ATLD2/Chain publication routes. Those remain positively
+    # gated through INDEX/discovery/publication/canon surfaces below.
     "PUBLIC_DISCOVERY_ANCHOR.md": [ATLD2_VERSION, ATLD_CONCEPT, PAPER, MODULE, "ATLD 2"],
     "DISCOVERY_KEYWORDS.md": [ATLD2_VERSION, ATLD_CONCEPT, PAPER, MODULE, "residual coordinate identification"],
     "RIGHTS_AND_LICENSE_NOTICE.md": [ATLD2_VERSION, ATLD_CONCEPT, ATLD1_VERSION, MODULE, "CC BY-NC-SA 4.0"],
