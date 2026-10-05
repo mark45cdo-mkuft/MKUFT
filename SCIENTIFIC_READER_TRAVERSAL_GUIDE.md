@@ -555,45 +555,22 @@ The chain is now coherent enough to become seductive. That is precisely when it 
 
 ### Human/AI decision side-route — hard gates before route weighting
 
-The observer/traversal machinery can be used in human-facing or AI-coupled decision support, but one extra boundary must remain explicit.
+For human-facing or AI-coupled decisions, some conditions are **admissibility gates**, not merely large penalties inside an optimiser. Consent, permission, safety, legal authority or command authority can therefore exclude a route before the remaining routes are compared.
 
-A hard condition such as consent, permission, safety, legal authority or command authority is not merely a very large negative term inside an optimiser. If the route fails that condition, it is outside the comparison set.
+A consequence model may expose a collision between an objective and a hard boundary. It does not manufacture authority to override that boundary.
 
-In ordinary language:
+Keep distinct:
 
-> **Some costs are not weights. They are gates.**
-
-A severe consequence can still change the problem. It may trigger urgent review, expose that no admissible route currently satisfies the task, or activate an already-defined emergency/necessity rule. But the consequence does not itself supply the authority to rewrite the gate.
-
-So the decision route is:
-
-~~~text
-model consequences
-→ apply hard boundaries
-→ compare only surviving routes
-→ if catastrophic consequence collides with the boundary:
-   identify the boundary owner / real exception rule
-   → lawfully readdress the boundary or preserve the unresolved authority fork
-→ then continue
-~~~
-
-For an AI system, consequence modelling and override authority are different objects. The system may expose the collision and its downstream cost without claiming the authority to resolve a human/legal/moral gate that has not been delegated to it.
-
-There is a second symmetric guard. Not owning the final human decision does **not** place the system outside the causal or constraint geometry. A decision-support system can affect downstream events and be bound by applicable safety, legal or moral constraints while the sovereign/delegated decision authority remains elsewhere.
-
-So keep these separate:
-
-~~~text
-moral understanding / representation
-applicable constraint
+```text
 consequence modelling
+applicable constraint
 causal participation
 action authority
-~~~
+```
 
-Understanding does not manufacture sovereignty; lack of sovereignty does not create exemption.
+If a real exception or emergency rule exists, follow its actual owner and readdress lawfully. Otherwise preserve the unresolved authority fork rather than silently converting cost into permission.
 
-This is an applied GRACE side-route, not a new physical mechanism.
+This is an applied GRACE side-route, not a new physical mechanism. Read [GRACE Traversal](docs/20_GRACE_TRAVERSAL_RULE.md) and [GRACE Formal Route Selection](docs/20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md).
 
 ---
 
