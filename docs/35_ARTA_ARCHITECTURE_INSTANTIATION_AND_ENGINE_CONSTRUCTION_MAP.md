@@ -675,9 +675,22 @@ Pass only when the restarted instance can recover the same branch, its last veri
 
 Fail if recovery requires the whole transcript, reconstructs the branch from guesswork, replays already-accounted change, revives a stale branch, or keeps every previously interesting branch active indefinitely.
 
-### R10 — stale-state continuation
+### R10 — stale-state continuation and observer-side readdressing
 
-After a realised transition, the engine must continue from the reached state, not the prior plan.
+After a realised transition, the engine must continue from the **verified reached state**, not the prior plan. A source/version change can alter the observer's evidence and the next lawful inquiry while leaving the original target and the historical validity of the old plan intact. Source freshness, evidence registration, plan validity and external-object change are separate tests.
+
+**Worked software/analysis calibration (not a new physical effect):** At source version (v_0), a plan correctly identifies a missing constraint and proposes installing it. Before execution, version (v_1) is reported to contain that constraint. The engine must first verify the actual source and relevant content at (v_1), then decide whether the plan's dependency still holds. If the constraint is present and closes the original deficit, continuing the installation plan is stale; the next inquiry is what work, if any, remains necessary for the **same goal**. The (v_0) observation remains true *at* (v_0), not a mistaken description retroactively. Unaffected sibling tasks remain valid.
+
+Compare the following cases under a predeclared target, identical task limits and the same permitted readback:
+
+1. **Verified material update:** the missing constraint is actually installed at (v_1); invalidate only dependent plan steps, preserve the historical source record, and readdress the next question.
+2. **Verified irrelevant update:** a label, comment or unrelated component changes while the target deficit persists; retain the still-valid plan rather than forcing a new explanation.
+3. **Unverified update report:** the new version or its content cannot be inspected; keep the current source claim qualified and the dependent execution blocked, not presumed complete.
+4. **Changed authority address:** a repository, branch or action-permission boundary differs; evidence of the new source does not itself transfer the old action grant. Rebind permission before any dependent action.
+
+**Pass:** source/readback evidence changes the observer/inquiry state where warranted, the same target is preserved, only affected descendants are invalidated, and an unperformed or unverified step is never reported as realised. **Fail:** the engine executes an obsolete plan, rewrites earlier history, invents a changed external subject from a new representation, drops unaffected siblings, or treats source recognition as action authority.
+
+A strong ordinary version-control, state-estimation or workflow engine that handles all four cases equally well is an adequate comparator. This regression is a **proposed conformance/calibration case**, not an independently executed benchmark or evidence of a new Observer law.
 
 ### R11 — learning/action conflation
 
