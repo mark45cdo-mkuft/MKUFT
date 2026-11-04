@@ -67,9 +67,9 @@ That question leads into the proposed S–I–P–O architecture. It offers a di
 
 The original four-role shorthand is:
 
-\`\`\`math
+```math
 S \rightarrow I \rightarrow P \rightarrow O
-\`\`\`
+```
 
 - **S:** hypothesised source or possibility.
 - **I:** relational or informational constraints.
@@ -93,13 +93,13 @@ In both systems, **each single instrument** produces zero or one equally often. 
 
 But the three-bit relationship differs. In E the parity is even; in O it is odd:
 
-\`\`\`math
+```math
 A\oplus B\oplus C =
 \begin{cases}
 0 & \text{System E},\\
 1 & \text{System O}.
 \end{cases}
-\`\`\`
+```
 
 So the whole correctly linked triple distinguishes two systems that all its individual and pairwise marginals cannot distinguish.
 
