@@ -8,75 +8,31 @@
 
 This is **Step 2 of the same reader route**, continuing from [Step 1 — Start Here](00-START-HERE-MKUFT-PUBLIC.md). We have already seen how an excellent law can fail to answer the intended question when the state offered to it omits a relevant distinction. Now the questions become more interesting: *how do we detect the missing distinction, and what if it belongs in the relationship among observations rather than any observation alone?*
 
-## Start with the problem, not the vocabulary
+## 1. When the parts do not tell the whole story
 
-A scientific model is a selective map of a system. It must leave things out. The art lies in knowing whether the omitted details can affect the particular future, property or experiment we care about.
+Step 1 introduced the physical ambition and some of the problems that motivated it. We can now ask a harder question: **what must be true before a collection of parts legitimately becomes one predictive object?**
 
-That is already familiar territory in physics, statistics, engineering and control theory. MKUFT's research question begins there but extends to the **address of the law itself**: the object, relation, boundary and set of physically admissible states on which an effective law is supposed to operate.
+A single bird follows its own motion. A flock has changing edges, collective direction and patterns of movement that cannot be read off from a picture of one bird. Established collective-motion models can explain much of this using interactions among individuals and their environment. The question for an addressed relational description is narrower: *which measured relations carry a prediction at the flock scale, and when must we descend to individual behaviour again?*
 
-The central scientific challenge is whether making those dependencies explicit improves something that existing theory does not already handle adequately—and, for the foundational physics proposal, whether a lawful deeper construction can recover known quantum and gravitational results.
+This is not the claim that a flock possesses a new fundamental force. It is a way of discovering whether a higher-level description has actually earned the right to govern a particular question.
 
-## A concrete carrier: two chessboards
+A similar issue appears inside physical theories themselves. A material's bulk properties depend on microstructure and preparation. Boundary conditions affect field solutions. A useful law often belongs to a specified regime and set of admissible states, not to a formula detached from its subject.
 
-Imagine two photographs of a chessboard. The pieces occupy exactly the same squares. One game has never moved its king or relevant rook. In the other, the rook moved and later returned.
+The foundational MKUFT proposal asks whether that **relationship between object, admissible domain and effective law** can be made explicit enough to contribute to deeper physics. The stronger question remains open: can it supply any independently justified physical coupling or recovery not already supplied by existing mathematics?
 
-To the photograph, the arrangements are identical. To a player contemplating castling, they are different states with different legal futures.
+## 2. Three different meanings of “more”
 
-The lesson is not that chess contains a hidden force. It is that **state equivalence depends on the question and on which history a description preserves**.
+A useful investigation may change in three quite different ways.
 
-The same mathematical concern appears in dynamical systems and statistical modelling. If we call two histories the same state, we have made a prediction: for the target and challenge family in question, they can now be treated equivalently. A future disagreement tests whether that compression was justified.
+**A wider scale.** Many parts form a candidate whole. The question is whether a higher-level state predicts a specified property, not whether everything about the parts can be forgotten.
 
-## The scientific version: a controlled material test
+**A richer relation.** The same three instruments may reveal no difference in their individual results while a correctly aligned joint measurement distinguishes two possibilities. That is about *which observations must be linked*, not necessarily about physical size.
 
-Consider two pieces of material with near-matched present measurements but different controlled loading histories. Challenge them under matched conditions and compare a predeclared future response.
+**A better question.** Sometimes the measurements are adequate but the experiment asks a question that cannot discriminate the models. A lawful change of interrogation may remove an irrelevant nuisance or expose a meaningful difference.
 
-Established materials science already has mechanisms—microstructure, hardening, residual stress, rate effects and hysteresis—that may explain a difference. Those are not MKUFT discoveries.
+These routes can combine, but they are not synonyms. Moving up a scale does not conjure missing measurements. Changing the question does not change the object by itself. And calling a combination a whole does not prove it carries a new law.
 
-The additional FSSR proposal is procedural: deliberately search for a future challenge that would expose an inadequate state compression, *then* let the strongest native constitutive model account for the difference. Only a remaining, reproducible, prediction-bearing distinction warrants further recruitment. The [prospective magnesium protocol](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md) is designed for precisely that comparison; its protocol is not an already completed positive experiment.
-
-The possible outcomes matter equally: the current model survives; a known state variable repairs it; or a residual motivates a fresh test.
-
-## Now name the object: the Address
-
-An **Address** is a task-relative specification of what system and state are meant, including whichever relations, boundary conditions, scale, relevant history and observation position actually bear on the question.
-
-A good Address carries enough distinction to prevent states with different declared target futures from being merged. It need not remember the whole past or represent every microscopic detail. Too little information gives a false equivalence; too much can obscure the needed structure.
-
-The formal [Address Sufficiency](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) and [FSSR](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) modules make that statement testable.
-
-## Accessible vectors: what, who, where, why
-
-When a formal passage becomes difficult, the most useful questions are often ordinary ones.
-
-**What is the target?** Is it a vehicle, an observation, a probability distribution or a physical-law object?  
-**Where does the relevant relation live?** At a component, interface, whole system or measuring apparatus?  
-**What would the rival predict?** Which observation could distinguish them?  
-**What changes when the model is readdressed?** The world, the representation, the observer, or only the question?
-
-The words are simple; the distinctions are consequential. Changing the observer's viewpoint does not automatically change the physical object. Changing a boundary may genuinely change which law or solution domain applies.
-
-## Layer Before Law
-
-MKUFT's ordering principle is that the object and admissible state must be addressed before law ownership is assigned.
-
-A law is more than a formula written on paper. A differential equation, for example, needs an applicable domain and boundary conditions to specify the physical problem it is solving. MKUFT asks whether relational or contextual dependencies should be treated as part of a typed *effective law object*, and whether that factorisation has scientific value beyond established physical modelling.
-
-That question leads into the proposed S–I–P–O architecture. It offers a disciplined language for source possibility, relational structure, physical process and observer-positioned registration. It is an **architectural hypothesis**, not an experimentally established chain of four physical media.
-
-## Technical shorthand you will meet later
-
-The original four-role shorthand is:
-
-```math
-S \rightarrow I \rightarrow P \rightarrow O
-```
-
-- **S:** hypothesised source or possibility.
-- **I:** relational or informational constraints.
-- **P:** physical expression and evolution.
-- **O:** bounded observation, registration and records.
-
-A further update computes the next effective possibility/Address from the result actually reached. The loop does not imply that making an observation rewrites a universal substrate. A physical interaction between proposed layers must be defined and tested rather than read out of the arrows.
+The next small mathematical example shows why this distinction matters.
 
 ## A relationship can carry information that its parts do not
 
@@ -109,37 +65,29 @@ If our instruments record only unlinked summaries, their common single and pair 
 
 That is why [Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) and [Sideways Inquiry](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md) matter. Sometimes the more productive scientific move is not another explanation for existing observations, but a better arrangement for making the alternatives distinguishable.
 
-## How to read equations outside your field
+## The mathematical contract
 
 An equation should arrive after you know which object it governs. Identify the inputs, the transformation, what is held fixed, the competing explanation and the observable consequence. Only then ask how the notation expresses those relations.
 
 The exact derivations remain in the technical modules and papers. Explanation can make them approachable without diluting their assumptions or replacing an unresolved scientific step with a metaphor.
 
-## From object to law
+## 3. When does a relation become a law-bearing object?
 
-The current public architecture can be read as one continuing question.
+The [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) asks how an addressed state, a domain of admissible possibilities and a domain-valid physical rule fit together without confusing one for another.
 
-### 1. What is the object?
+Its compact technical shorthand is:
 
-[Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) says the object, scale, boundary, and admissible state must be established before law ownership is assumed.
+~~~text
+D = domain of admissible states and paths
+T = transition rule or generator in that domain
+W = optional domain-appropriate weighting or selection structure
+~~~
 
-### 2. What information must the state contain?
+The symbols name distinct *roles*, not three newly discovered physical substances. A large weight cannot rescue a physically inadmissible path; a law needs its applicable domain, units, normalisation and established limiting behaviour.
 
-The [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) assembles the addressed state into a local law object. In plain English, it asks: what do we have to know before we are entitled to say which transitions are possible and how they should be weighted?
+That sounds abstract until an experiment changes its boundary. A violin string's permitted vibrational modes depend on its tension, material and end constraints. A changed boundary does not invalidate the wave equation; it changes the physical problem whose solutions we are considering. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) develops the proposed generalisation and sets the quantum/gravity recovery burden.
 
-A useful shorthand is:
-
-```text
-D = the domain of admissible physical states and paths
-T = the applicable transition rule or generator
-W = an optional, domain-appropriate weighting or selection structure
-```
-
-These are different mathematical types; a weighting does not make an inadmissible path possible. A real physical model must supply the domain, rule and weighting with the appropriate units, normalisations and established limiting behaviour.
-
-The order matters. A route should not become “possible” merely because it is attractive or highly weighted.
-
-SIPO then carries the result forward and back: the addressed state selects the admissible law object, physical propagation produces a continuation, the measurement/registration step creates a P-state plus O-record, and that realised path and record are folded into the next address. The conservative loop is therefore **address → law → physical future → registration → readdress**, with any stronger observer-dependent physical claim requiring separate evidence.
+The loop is then **address → applicable law → physical evolution → registration → new address**. Each realised change can alter the next question, without treating observation as magic or claiming a completed physical unification.
 
 ### 3. Does a higher-order whole actually own the law?
 
@@ -156,6 +104,14 @@ If the higher level is sufficient, it can carry an effective law for that proper
 
 If not, the model has to reopen lower-level detail or stay multiscale.
 
+### 3A. Could a boundary change what becomes physically possible?
+
+A familiar physical boundary does more than divide two regions: it can restrict the modes, flows or states that the system supports. A soap film, a conducting cavity and a cell membrane make this vivid, though their governing mechanisms differ.
+
+The [LUCY threshold framework](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md) asks whether a proposed relational-closure condition can be specified tightly enough to produce a *measurable* change at a declared physical boundary. The [boundary-conditioned realisation module](docs/32S4_INTRINSIC_EXTRINSIC_ADDRESS_TRANSPORT_HOLONOMY_AND_BOUNDARY_CONDITIONED_REALISATION.md) compares this with genuine physical mode and boundary effects.
+
+This is the difficult point where a plausible architecture must either acquire a defined physical carrier and an independently discriminating experiment—or remain a useful structural hypothesis. Its fascination is in the possibility, not in pretending the possibility has already been verified.
+
 ### 4. Does good local performance mean the whole is healthy?
 
 No.
@@ -166,9 +122,9 @@ A part can improve its own score while the wider system becomes harder to restor
 
 That matters in biology, engineering, institutions, AI and control systems. The claim travels between those domains as an investigative distinction, not as one newly demonstrated physical law.
 
-### 5. Can two states look the same now but have different futures?
+### 5. When must history or timing be carried forward?
 
-Yes. If so, the state description is missing something important.
+A present measurement may be sufficient in one regime and insufficient in another. The question is **which additional history, rate or timing is actually needed**, not whether the whole past must be preserved.
 
 [Address Sufficiency, Predictive Closure, and Reachable-Future Geometry](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) asks whether the present Address is rich enough to predict the future distinctions the task actually cares about.
 
@@ -204,7 +160,7 @@ This operational language should not be over-read. Selecting among admissible co
 
 Read: [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) and, for human/AI decision applications, [GRACE Traversal](docs/20_GRACE_TRAVERSAL_RULE.md).
 
-### 7. How do we detect a missing state variable before the usual marker appears?
+### 7. How can an experiment challenge its own description?
 
 [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) turns the sufficiency question into a direct assay.
 
@@ -279,6 +235,14 @@ The foundational **physical** proposal faces a larger obligation. It must specif
 
 These distinctions leave the scientific question open while making it possible to judge each result on its own terms.
 
+## 4. A small operator for a large research problem
+
+The [Minimal Addressed Operator](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md) explores whether the discipline above can be written as a compact sequence: identify the object and target, establish lawful choices, perform a properly bounded inquiry, register the actual result and readdress what can happen next.
+
+That is useful precisely because it is vulnerable to reduction. Existing sequential decision theory, sufficient-state models, causal abstraction, experimental design and adaptive control may already contain many of its ingredients. The proposed integration must show where its specific ordering and retained distinctions add value beyond those neighbours.
+
+The most consequential future application might not be a new piece of terminology at all. It could be a better experiment, a cleaner failure diagnosis, or a physical derivation whose assumptions are finally clear enough to test. Each would have to be judged at its own scientific level.
+
 ## What would make the framework useful?
 
 MKUFT becomes useful only if the architecture helps researchers do something better than existing methods.
@@ -295,7 +259,7 @@ The strongest near-term uses are:
 
 If those tools do not improve prediction, experimental design, or conceptual clarity, the architecture should contract.
 
-## Continue the same route
+## Continue into the technical owners
 
 1. You are here: **Step 2 — Extended Overview**.
 2. Continue to [Step 3 — Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md).
