@@ -47,6 +47,16 @@ Readable prose is not prose that assumes less intelligence. It is prose that mak
 A competent reader should not have to reverse-engineer who or what is acting, where the relation lives, why it matters, or what would change if it were removed.
 
 
+### One authorial voice across different levels of grain
+
+There is one scientific investigation, not a friendly story at the entrance and an unrelated professor speaking after the first equation. The reader's *required reconstruction* changes with the depth of the passage; the claim and evidence standard do not.
+
+For a passage on the observer, begin with the actual problem: a car passes behind a building and disappears from one camera's view while remaining visible from another. A capable reader immediately sees the distinction: **loss of observation does not establish loss of the object**. Then identify the ordinary explanation—occlusion and the observation geometry—before introducing the task-relative Address or the formal readdressing rule. At the scientific level, specify target, observer state, readout, lawful comparison and the prediction that would differ. The picture carries the relation; the equation constrains it. Neither proves an unusual physical mechanism.
+
+Use the *same composed register* from the first contact to the mathematical owner. Warmth can come from a clear physical scene, intellectual curiosity and why a result matters, without casual chat residue or grand scientific claims. Precision can come from a valid equation and an honestly specified falsifier, without opaque formalism offered in place of an explanation. Do not patronise an intelligent non-specialist; do not lower the burden of a university-standard derivation just to maintain readability. Give the bridge at the point it is required, then leave earned terminology intact.
+
+A new cross-domain or observer insight may warrant a clearer explanation or a link to the existing technical owner, rather than a new paper. Keep the scientific claim, human relevance, existing ordinary account, source identity and potential failure distinct. If the bridge changes none of these for the reader, omit it. These editorial controls act **during authorship**; do not paste an instruction checklist or a series of self-defensive caveats into the public prose.
+
 ## What a reader should be able to tell in five minutes
 
 A reader should be able to answer five questions.
