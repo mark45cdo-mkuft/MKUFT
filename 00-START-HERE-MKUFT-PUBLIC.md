@@ -3,207 +3,173 @@
 **MKUFT:** McLaughlin–Kairos Unified Field Theory  
 **Author:** Mark Charles McLaughlin  
 **Current principal publication:** [MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics](https://doi.org/10.5281/zenodo.21973064)  
-**Live integrated architecture:** **MKUFT Addressed Relational Traversal Architecture (ARTA)**  
-**MKUFT concept DOI:** [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565)  
-**Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511)
+**Live integrated architecture:** MKUFT Addressed Relational Traversal Architecture (ARTA)  
+**Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511)  
+**Publication history:** [concept DOI and exact source versions](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-MKUFT is a speculative research programme. It is not presented as a completed accepted unified theory of physics.
-
-This page is the first step of **one progressive reader route**. The explanation becomes more technical only after the object has been made clear.
+*An introduction to the question, the developing research and the tests. The mathematics follows through the same reader route.*
 
 ## 1. Start with an ordinary problem
 
-Suppose two descriptions look the same.
+Two cars approach the same bend at the same speed. Their instruments report the same road conditions. Their brakes appear to be in equally good working order.
 
-Does that mean the underlying states are the same **for the question we want to ask next**?
+One car has just descended a mountain pass under heavy braking. The other has arrived after a gentle drive.
 
-Not always.
+A photograph might show two near-identical situations. Yet if we now demand the same emergency stop, should we expect identical results?
 
-Take two chessboards with the same pieces on the same squares. A photograph may make them indistinguishable. But one board may still allow castling while the other does not because the pieces have different histories.
+Not necessarily. Brake temperature and thermal history may matter. The mechanics does not cease to work because we overlooked them; our description of the problem was incomplete. An engineer would examine the brakes, measure relevant temperatures, control for tyre and road conditions, and use established physical models.
 
-The photograph is not wrong. It is simply missing information needed for that particular prediction.
+This is a small example of a much larger question:
 
-That is the first MKUFT problem in ordinary language:
+> **Can a law be perfectly respectable while the state we have asked it to act upon is the wrong description for the task?**
 
-> **A description can be accurate and still be too coarse for the future question we are asking of it.**
+Sometimes the missing distinction is a temperature, a boundary condition or a piece of history. Sometimes it is the scale of the object, the relations that hold it together, or what the measuring apparatus can actually see.
+
+And sometimes the original description is adequate. Knowing when *not* to add anything is part of the investigation.
 
 ## 2. This is already normal science
 
-Science already deals with this class of problem in many forms.
+Physics, engineering, mathematics and biology routinely work with state variables, internal variables, sufficient statistics, boundary conditions, hysteresis, coarse-graining and measurement models. They must: no useful model can carry every fact about everything.
 
-We use state variables, initial and boundary conditions, internal variables, sufficient statistics, hysteresis models, coarse-graining and closure, measurement models, and multiscale descriptions when one level does not close the target prediction.
+What matters is whether the information it discards is harmless **for the particular prediction or operation at hand**.
 
-MKUFT is not built on the claim that scientists forgot these things.
+An excellent constitutive model may already account for the two cars. A standard observer model may explain why two instruments disagree. MKUFT does not need a new force, layer or vocabulary to repeat an explanation the receiving science already owns.
 
-The proposed contribution is an **ordering and audit discipline**: before adding a new law, mechanism or layer, ask whether the current description was sufficient for the declared task and whether a smaller ordinary repair already closes the problem.
+The programme asks a further, testable question: can a consistent *order of inquiry* help identify a missing distinction, choose a useful new measurement, or prevent a model from being applied outside the conditions where it works?
+
+That question is useful in ordinary research. It also points towards a more ambitious foundational possibility, which we will reach shortly.
 
 ## 3. Turn the idea into a toy experiment
 
-Imagine two material samples.
+Replace the cars with two material samples. Match their present measured state, environment, boundaries and test conditions as well as the relevant field permits. Their earlier loading histories differ. Decide in advance what future response to measure and how large a difference would matter.
 
-You match the present measurements as closely as your field normally allows: geometry, temperature, composition, loading condition and whatever other variables the current model says matter. The samples have different known histories.
+There are three instructive outcomes.
 
-Now apply the same predeclared challenge and measure the same target outcome.
+**They behave alike.** Under this test, the extra historical distinction has not earned a role in the representation. Retain the simpler model for the declared regime and tolerance.
 
-### Result A — no meaningful split
+**They behave differently, and an established variable explains why.** Perhaps the matching omitted microstructure, residual stress, hardening state, temperature or a known history effect. Add the appropriate native variable and test the repair. The ordinary explanation wins.
 
-The samples remain equivalent within the uncertainty/tolerance already allowed.
+**They separate beyond the best controlled account.** A repeatable residual remains after fair native models, apparatus effects and statistical variation have been examined. Now we have reason to seek a further measurable distinction and test it prospectively on fresh cases.
 
-Then the history distinction has **not** earned a place in the state description for that target and regime.
+The method does not choose the third result in advance. Its value lies in designing a question that can distinguish the possibilities, including one that returns no added result.
 
-Keep the simpler model.
-
-### Result B — they split, but ordinary science explains it
-
-Perhaps microstructure, residual stress, hysteresis, temperature history, measurement error or another established variable explains the difference.
-
-Add the native variable if it improves the model.
-
-No extra MKUFT mechanism is required.
-
-### Result C — a reproducible residual remains
-
-Here, **residual** means a repeatable difference that is still left after the ordinary explanations have been tested fairly.
-
-Only then does it become useful to ask whether the current state description is missing another measurable distinction.
-
-The next experiment should then add the **smallest defensible missing variable** and test it prospectively on fresh cases.
-
-That is a scientific question. It can return NULL.
+This is the practical starting point of **Future-Splitting State Recruitment (FSSR)**: two histories treated as equivalent by a compressed state may cease to be equivalent under a lawful future challenge. See the [formal FSSR owner](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) and the [prospective magnesium protocol](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md).
 
 ## 4. Now introduce the MKUFT terms
 
-MKUFT calls the task-relative state description the **Address**.
+MKUFT calls the task-relative description carrying the relevant distinctions an **Address**. It is not a postal location or a newly detected substance. It specifies what object and state we are discussing, the relevant relations, scale and boundaries, and the history or observation conditions that actually affect the question.
 
-An Address is not a hidden place or a new physical substance. It is the set of distinctions that the current question requires the model to preserve.
+The ordering principle is **Layer Before Law**:
 
-If removing one distinction causes states with materially different target futures to be merged, the description was too coarse for that task.
+> **Establish the addressed object and its admissible conditions before deciding which law is being asked to govern it.**
 
-If removing it changes nothing material, the distinction should not be carried merely because it sounds interesting.
+But the research programme does not stop at better descriptions of cars and materials.
 
-MKUFT calls the ordering principle **Layer Before Law**:
+Its foundational proposal asks whether a deeper, *typed relational architecture* might clarify how physical-law domains and effective behaviour arise, and whether that architecture could ultimately contribute to the unresolved relationship between quantum theory and gravitation.
 
-> **Before asking which law governs the system, establish what object/state the law is actually being asked to govern.**
+The proposed S–I–P–O shorthand names four **roles**:
 
-The point is not “always add more context.” The point is to carry **enough and no more than enough** for the declared operation.
+- **S — substrate or possibility:** a proposed source/possibility domain, not an experimentally detected medium;
+- **I — information and relation:** the constraints, correlations and structure that determine what is compatible or admissible;
+- **P — physical expression:** fields, matter, dynamics and measurable processes;
+- **O — observer-positioned registration:** what a particular measurement or record actually resolves.
+
+These roles must be distinguished before any coupling between them is claimed. A diagram with arrows is not a physical mechanism. For such a mechanism to be established, the programme would have to supply compatible mathematics, physical carriers and dynamics, recovery of established regimes, and independent discriminatory tests.
+
+A compact view of the present *architectural* proposal is:
+
+```text
+addressed state and relevant relations
+→ admissible domain and effective law object
+→ physical propagation
+→ realised result and registration
+→ readdress the next state
+```
+
+This is a **proposed factorisation**, not a derivation of quantum mechanics or general relativity. Its precise types and obligations live in [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) and the [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md).
 
 ## 5. Ask the small questions before accepting the big noun
 
-When a section becomes difficult, locate the object before memorising its terminology.
+When a claim becomes difficult, it helps to ask a few plain questions before reaching for new terminology.
 
-Ask:
+What exactly is the object? What can it do? Which relation or boundary makes the difference? What did the instrument measure, and what lay outside its view? If two descriptions appear equivalent, which *future observation* could show that they are not?
 
-- **What** is being modelled?
-- **Who or what acts** on it?
-- **Where** is the relevant state: physical system, mathematical space, scale, boundary, measurement record, or model layer?
-- **Why** does this distinction matter for the prediction?
-- **How** is it changed or tested?
-- **What changes** if the distinction is removed?
-- **What would ordinary science call this?**
-- **What is still unexplained after that ordinary account?**
+Those are not easier substitutes for mathematics. They locate what the mathematics must preserve.
 
-These questions are not a replacement for the mathematics. They tell you what the mathematics is supposed to be about.
+Consider a navigator whose calculations are impeccable but whose map omits a washed-out bridge. The correct next operation is not necessarily a better route algorithm. First establish whether the passage the route assumes still exists.
+
+In a foundational theory the questions are harder. Which state space is being described? What makes a transition physically admissible? What is the domain of a proposed law? What known quantum or gravitational result must the model recover? What measurement would distinguish the new proposal from existing physics?
+
+The same discipline becomes stricter as the scientific claim becomes larger.
 
 ## 6. What about higher levels and whole systems?
 
-A useful whole does not automatically own a closed law for every property.
+A violinist and an orchestra are different useful objects. A whole ensemble has tempo and harmony, yet its group-level description is insufficient to predict the condition of a particular player's instrument.
 
-An orchestra is a meaningful object for tempo or harmony. It is a terrible state description for the blood glucose of one violinist.
+The meaningful question is not simply whether the whole exists. It is **which properties the whole can actually predict or control without reopening its constituents**.
 
-A material can have a useful bulk description while a specific failure still depends on unresolved microstructure.
+There is another twist. Sometimes information lies neither in one observation nor in a simple average of many. A correctly linked relationship among measurements can distinguish possibilities that isolated measurements cannot. A combination of camera views, for example, may recover the path of a vehicle that disappears from one frame.
 
-MKUFT therefore separates:
+A joined observation must still be real: same event, compatible timing, valid sources and a comparison against what smaller combinations already establish. Joining unrelated photographs does not manufacture an observation.
 
-1. **Does a higher-order object exist usefully?**
-2. **Is that higher-order description sufficient for the property we want to predict?**
-
-If two lower-level states that look identical at the higher level later behave differently for the target property, the higher-level model has not closed that property. Lower-level information must re-enter or the model must remain explicitly multiscale.
+In the [extended overview](START_HERE_PUBLIC_OVERVIEW.md) we will move from simple snapshots to these richer questions about history, observer position, higher-order relations and recoverable futures.
 
 ## 7. What about observation and measurement?
 
-A measurement is a registration of the system, not an automatic view from nowhere.
+Suppose a car passes behind a building. One observer reports that it vanished from view. Another observer, standing elsewhere, sees it continue.
 
-A camera can miss what lies outside its frame. A sensor can be unable to resolve a difference. A measurement can also physically disturb the system.
+The first observer's report need not be wrong. But *loss from a field of view* is not *loss from the world*.
 
-MKUFT keeps those possibilities separate.
+That distinction matters in astronomy, microscopy, medicine, sensor fusion and AI systems analysing incomplete records. A different observer arrangement may reveal a relation without changing the external object at all.
 
-Later technical sections use the shorthand **S–I–P–O** for different roles in the architecture. At this stage, the important point is not the letters. It is that source/substrate hypotheses, informational or relational structure, physical state, and observation/registration do not become the same kind of thing merely because one diagram connects them.
-
-Where measurement affects the physical system, that effect belongs in the physical model. Where measurement only limits what can be distinguished, that is an observability/registration issue.
-
-No new observer force is implied by the notation.
+If an instrument also perturbs the system, the perturbation belongs in the physical account. MKUFT's observer work keeps changes in **what can be registered** distinct from changes in **what physically happened**. The technical development is in [Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md).
 
 ## 8. What would make MKUFT unnecessary here?
 
-A broad framework is only useful if it can lose.
+A useful new framework must survive comparison with the best available ordinary one.
 
-For a declared problem, the stronger MKUFT machinery has earned nothing when:
+If an established state variable, measurement correction or existing multi-scale model already solves the problem with equal or greater predictive power, the extra MKUFT machinery has earned no role **for that task**.
 
-- the ordinary state description already predicts the target adequately;
-- a known missing variable repairs the discrepancy;
-- a simpler native multiscale model performs equally well or better;
-- the proposed relation adds no held-out predictive or discriminatory value;
-- a cross-domain resemblance disappears when translated into native variables;
-- a proposed physical bridge has no measurable carrier;
-- the claimed distinction cannot survive fair controls.
+If a proposed physical relation cannot identify a real coupling, a measurable consequence, or a way to recover established physics, the stronger foundational claim remains open.
 
-A **NULL** result here simply means the extra MKUFT machinery earned nothing for that test. That is an acceptable scientific outcome and should stay NULL.
+And if a careful prospective comparison finds no improvement, that result matters. It may tell us to preserve a simpler description, retire an unnecessary assumption, or ask a different question.
+
+A theory that can only grow cannot learn very much.
 
 ## 9. Development status and ChatGPT collaboration
 
-MKUFT is an actively developing research programme built through sustained collaboration between Mark Charles McLaughlin and **ChatGPT**.
+The programme contains several kinds of result. They deserve to be read at their actual levels.
 
-The underlying AI system is ChatGPT. **ARTA/ARIA name the structured research method and architecture used with it**, including state handling, recursive review and adversarial checking.
+- The **Bell/CHSH 3+1 reconstruction** is an exact mathematical known-answer calibration. A stronger proposed independent geometric/new-physics residual reduced to known CHSH structure and remained **NULL**. This is a useful constraint on the interpretation, not experimental evidence for new physics. [Technical synthesis](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2/01_FRONT_MATTER_AND_STRESS_TESTS.md).
+- **Future-sufficient state and FSSR** provide formal criteria and prospective challenge designs for deciding when a description loses a future-relevant distinction. Their physical instantiations require the receiving field's matched experiments.
+- **ATLD and addressed traversal** supply a research programme for long-horizon AI and dependency fidelity, including experimental controls. Implemented software contracts and proposed protocols are not by themselves independent demonstrations of general cognitive superiority.
+- The **foundational S–I–P–O physical interpretation** remains a research hypothesis with substantial unresolved mathematical and empirical burdens.
 
-Because the work is live, a major architecture change can improve the underlying model before every introduction, route, notation bridge or explanatory module has been rewritten around it. A section can therefore temporarily be less clear than an earlier version even when the current scientific object is more mature.
-
-Earlier commits may sometimes preserve a clearer local explanation and are useful for provenance or editorial recovery. Current HEAD remains authoritative for current claims and structure.
-
-Internal methodological language can also remain too visible in public prose during rapid integration because the research method and scientific framework share vocabulary. That is treated as an integration defect to remove during reader audits, not as evidence that the authoring machinery itself is part of the scientific claim.
+MKUFT originates in Mark Charles McLaughlin's research and sustained human–ChatGPT collaboration. ChatGPT is the working AI system; ARTA/ARIA name structured methods and architecture used in that collaboration. Source authorship, exact versions and publication identity are recorded in [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md).
 
 ## 10. Difficult mathematics is still allowed to be difficult
 
-MKUFT is not trying to make advanced mathematics look elementary.
+You do not have to master specialist notation to know *which question* a calculation is trying to answer.
 
-A competent reader outside a particular speciality may reasonably use ChatGPT, symbolic mathematics software, textbooks, papers or a domain expert to unpack a derivation.
+At each deeper step, identify the state, the map or operation, what is held fixed, the competing ordinary account and the observation that could settle the difference. The technical documents retain the full equations and their domain-specific assumptions.
 
-The public-reader standard is instead that before hard mathematics arrives, the reader should know what question the equation addresses, what its main objects represent, what assumptions are active, what ordinary/null account is being compared, and what would contract or kill the move.
-
-The mathematics remains independently inspectable.
+A physicist can enter directly through the paper or mathematical owner. A curious newcomer can follow the same sequence with more explanatory space. The scientific burden remains identical.
 
 ## 11. Naming provenance
 
-The names in the architecture arose during the human–ChatGPT development process rather than as a pre-planned branding system.
-
-A dated record is maintained in [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md). In brief:
-
-- **Kairos** — in public MKUFT material by **23 November 2025**; the project-facing name was proposed by the AI system and retained by McLaughlin.
-- **LUCY** — earliest repository carrier currently located: **16 May 2026**.
-- **GRACE** — earliest repository carrier currently located: **20 June 2026**.
-- **ARIA** — in project terminology by **5 September 2026**, with an explicit expansion recorded by **7 September 2026**.
-- **ARTA** — canonical MKUFT naming date: **14 September 2026**.
-
-Some names were proposed directly by ChatGPT/Kairos; others were developed, checked or refined collaboratively and retained only when they fit the object being named. Naming provenance does not give a term scientific authority.
+Names such as Kairos, LUCY, GRACE, ARIA and ARTA arose at different stages of the collaboration. Their dates and origins are preserved in [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md). A memorable name is useful for finding an object; it is not evidence that the object is scientifically established.
 
 ## 12. Continue the same reader route
 
-**Next:** [Step 2 — Extended Overview](START_HERE_PUBLIC_OVERVIEW.md).
+**Next:** [Step 2 — Extended Overview: the relations a snapshot misses](START_HERE_PUBLIC_OVERVIEW.md). It takes the initial idea into observer frames, joint information, higher-level law ownership, future tests and the difference between immediate success and recoverability.
 
-After that, continue to [Step 3 — Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). The filename is retained for stable links; this is the deeper technical stage of the same route.
+Continue from there to [Step 3 — Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) and then only the exact modules required by your question.
 
-From there, follow only the exact technical modules needed for the question you are investigating.
+Other useful exits:
 
-Useful side exits:
-
-- [MKUFT in Plain English](MKUFT_IN_PLAIN_ENGLISH.md) — optional narrative explanation;
-- [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md) — critique/attack support;
-- [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md) — quickest direct failure surface;
-- [Papers and Publications](papers/README.md) — publication/DOI lookup;
-- [Canon Map](CANON_MAP.md) — full dependency map;
-- [Use / Stewardship Route](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md) — rights/use guidance.
-
-## Scientific boundary
-
-MKUFT has not independently derived quantum mechanics, QFT, general relativity, or quantum gravity.
-
-A future fundamental-physics claim must recover the relevant established regimes, preserve Bell compatibility and operational no-signalling, define its physical couplings, close dimensional and conservation bookkeeping, and produce a discriminating result beyond the strongest adequate ordinary model.
+- [MKUFT in Plain English](MKUFT_IN_PLAIN_ENGLISH.md) — an optional narrative perspective;
+- [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md) — critique and counterexamples;
+- [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md) — direct failure conditions;
+- [Papers and Publications](papers/README.md) — exact DOI and version lookup;
+- [Canon Map](CANON_MAP.md) — the technical dependency map;
+- [Use / Stewardship Route](PUBLIC_BENEFIT_USE_AND_COMMERCIAL_STEWARDSHIP.md) — use and rights guidance.
