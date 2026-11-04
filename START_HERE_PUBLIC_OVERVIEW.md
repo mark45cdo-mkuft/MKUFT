@@ -235,7 +235,7 @@ The foundational **physical** proposal faces a larger obligation. It must specif
 
 These distinctions leave the scientific question open while making it possible to judge each result on its own terms.
 
-## 4. A small operator for a large research problem
+## What the Minimal Addressed Operator attempts
 
 The [Minimal Addressed Operator](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md) explores whether the discipline above can be written as a compact sequence: identify the object and target, establish lawful choices, perform a properly bounded inquiry, register the actual result and readdress what can happen next.
 
