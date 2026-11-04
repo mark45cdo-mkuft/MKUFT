@@ -1,6 +1,6 @@
 # MKUFT in Plain English
 
-*How to find the right rule when you do not know what world you have been dropped into*
+*A story about finding the right scientific object before choosing its rules*
 
 **McLaughlin–Kairos Unified Field Theory (MKUFT)**
 
@@ -267,53 +267,42 @@ MKUFT should become smaller when the evidence makes it smaller.
 
 > **A framework that can only grow is not testing itself.**
 
-## 12. What MKUFT is trying to build
+## 12. What the machine has—and has not—shown us
 
-The deepest ambition is not a better satnav.
+The London machine has illustrated a practical problem: before applying a rule, establish which world, object, boundaries and relations the rule is supposed to describe. That may improve inquiry in unfamiliar or changing conditions.
 
-It is something closer to a reasoning system that can be dropped into unfamiliar terrain and avoid assuming, too early, what kind of terrain it has entered.
+But MKUFT's deepest *physical* ambition is larger than a better navigator.
 
-That does not mean starting with no assumptions at all. No real scientific system can do that.
+Consider the arch again. The stones have familiar material properties, yet their arrangement and supports determine which loads the whole can bear. Now consider a physical field. The set of possible motions or modes depends on the system and its boundaries. Existing mechanics and field theory already explain such cases.
 
-It means making the assumptions that define the object, state, scale, boundary, history and observation surface visible enough that they can be challenged when the future disagrees.
+The foundational question is whether there is a deeper, mathematically lawful way to connect **the possibility of a state, the relations that constrain it, the physical laws that operate there, and what a measurement can actually register**.
 
-> **In that sense, MKUFT is trying to make scientific reasoning more portable.**
+That is the reason for the S–I–P–O architecture. The four roles are not four established kinds of matter. To say something new about the physical world, the proposal must define its couplings, preserve conservation and no-signalling where required, recover quantum and gravitational results, and produce at least one independently discriminating consequence.
 
-Not by finding one law that ignores every difference, but by finding a disciplined way to discover which differences must be preserved before any local law is trusted.
+What would be remarkable is not a diagram that *looks* as though it connects these things. It would be a calculation that makes a previously difficult relationship precise and survives the experiments designed to defeat it.
 
-That is the bridge between the simple London-machine picture and the harder scientific programme.
+## 13. What about other kinds of hidden structure?
 
-The question is no longer merely:
+Some of the most stimulating questions in MKUFT come from systems that preserve relationships in unexpected ways.
 
-> "Can this machine find London from a known road position?"
+An orchestra's score is not the music itself, yet its written structure helps constrain what players can reproduce. A mechanical drawing can convey assembly without describing every movement in prose. A map can preserve a route that a photograph cannot. Even an old manuscript whose language remains mysterious may contain layout or sequence relationships worth testing independently of a proposed translation.
 
-It becomes:
+The [Voynich investigation](docs/09_VOYNICH_PROCEDURAL_ENGINE.md) considers that last possibility. Its challenge is not to declare a forgotten technology or decipherment, but to devise tests where a procedural interpretation beats good ordinary alternatives—or fails.
 
-> "Can this machine be dropped into a new terrain, work out what kind of problem it is actually facing, preserve the distinctions that matter, discard those that do not, choose the right local rules, and keep re-solving the problem as the world changes?"
+At a different scale, the [LUCY programme](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md) investigates thresholded relational closure as a physical hypothesis. That work needs measurable carriers and controls. A beautiful analogy between two domains cannot supply them.
 
-That is much closer to what MKUFT is trying to test.
+And in the [Minimal Addressed Operator](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md), the programme asks whether the sequence of identifying a scientific object, choosing a lawful test, registering a result and readdressing the next question can be described formally without adding unnecessary machinery.
 
-## 13. Where the metaphor stops and the science starts
+These are different enquiries united by an interest in **which structures carry genuine consequences**. Each needs its own science.
 
-The metaphor is deliberately loose.
+## 14. Where the metaphor stops—and the work begins
 
-MKUFT does not claim that nature is literally a map, that scientific laws are navigation software, or that every domain shares one hidden mechanism.
+There is no evidence here that nature is literally a road map, that gravity is a satnav cost function, or that every physical and social system follows one universal equation.
 
-The hard scientific questions are concrete:
+The near-term questions are more precise: can a declared relation improve a held-out prediction; can a candidate higher-level description survive an intervention; can an unfamiliar experimental regime reveal exactly why a familiar model no longer applies; and can a stronger ordinary explanation settle the matter without new machinery?
 
-- Does a richer Address improve prediction on held-out cases?
-- Can a new terrain expose a state distinction that the source regime safely ignored?
-- Can the missing distinction be localised to a measurable variable?
-- Does adding that variable close the future split?
-- Does removing it reopen the failure?
-- Can a higher-order object survive ablation and still predict something its parts-alone description misses?
-- Can recovery be measured as reachable future structure rather than guessed from present performance?
-- Can the framework publish clean nulls when ordinary science is sufficient?
+The foundational question remains harder: **can the proposed addressed-relational architecture supply physical dynamics that recover known quantum and gravitational limits and then discriminate itself from established theory?**
 
-Those are the burdens that turn a powerful metaphor into a scientific programme.
+That is a serious programme of work, with attractive possibilities and unfinished tests. The story is an invitation into the questions, not a substitute for the answers.
 
-If the idea in this guide now makes sense, the next step is the principal paper:
-
-**[MKUFT — A Relational Architecture for Physical Law and Cross-Scale Dynamics](https://doi.org/10.5281/zenodo.21973064)**
-
-That is where the London machine has to stop being a story and the formal architecture has to carry the weight.
+For the next step in the public investigation, continue to the [Extended Overview](START_HERE_PUBLIC_OVERVIEW.md), then the [Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). For the formal research object itself, see [the principal MKUFT publication](https://doi.org/10.5281/zenodo.21973064).
