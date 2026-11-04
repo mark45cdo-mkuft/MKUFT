@@ -9,87 +9,52 @@
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)  
 **Researcher identity:** [ORCID](https://orcid.org/0009-0005-7736-1511) · [LinkedIn](https://www.linkedin.com/in/custodiansystems45/) · [GitHub](https://github.com/mark45cdo-mkuft)
 
-MKUFT is a speculative research programme, not a completed accepted unified theory of physics. Its working question is simpler than its full machinery:
+MKUFT is an open research programme investigating whether **the objects and relations on which physical laws act must be addressed more carefully before a deeper unification is possible**. Its central question is:
 
-> **Before asking a law or model to predict what happens next, have we described the right thing, with the distinctions that actually matter for that prediction?**
+> **Before choosing or combining laws, have we established the object, the conditions under which its states are admissible, and the distinctions that actually matter for what happens next?**
+
+That question has a practical side: it can improve how we test state descriptions, observers, higher-order systems and recoverability. It also has a larger, unresolved physics side: whether a typed relational architecture could contribute to recovering quantum and gravitational behaviour from a deeper lawful account. The latter remains a hypothesis with significant mathematical and experimental obligations, not a completed unified field theory.
 
 ## Start here — one reader route
 
-If you are new to the project, start with **[00 — Start Here: MKUFT Single Reader Route](00-START-HERE-MKUFT-PUBLIC.md)**.
+**[Begin with MKUFT: a physical question, a test and the wider possibility](00-START-HERE-MKUFT-PUBLIC.md)**.
 
-The same reader staircase becomes more technical as it goes:
+The explanation advances rather than restarting at each step:
 
 ```text
-ordinary object / question
-→ concrete example
-→ how we already handle the ordinary case in science
-→ strongest ordinary explanation
-→ remaining testable distinction, if any
-→ MKUFT term
-→ formal statement / equation
-→ exact technical owner
+an observable problem and its ordinary explanation
+→ a controlled difference in what the model can predict
+→ an Address and the relationships the original view omitted
+→ a broader S–I–P–O research hypothesis
+→ exact equations, experimental alternatives and failure conditions
 ```
 
-A scientist can move faster or jump directly to a technical owner. A new reader can take the same route more slowly. The scientific burden does not change.
+Continue through the [Extended Overview](START_HERE_PUBLIC_OVERVIEW.md) to the [Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). Technical readers may enter directly through a paper or the [Canon Map](CANON_MAP.md); their scientific requirements are the same.
 
 ## The problem before the vocabulary
 
-Consider two chessboards with exactly the same pieces on exactly the same squares.
+A mathematical rule can be correct and still be applied to the wrong physical problem.
 
-A photograph can make them look like the same game state. But they may not allow the same next moves. On one board a king and rook may still have castling rights; on the other they may have moved earlier and returned. The visible arrangement is the same, but part of the state needed to predict the legal future is missing from the photograph.
+Consider a heat-flow model. The same differential expression does not specify by itself whether a boundary is insulated, open to the environment, or exchanging heat with another material. Those conditions affect which solutions describe the actual system. The remedy may be completely ordinary: establish the physical domain, its boundaries and measured state before computing the prediction.
 
-Nothing mysterious happened. The description was simply too coarse for the question.
+Now ask a less ordinary question. *What if some apparent conflicts between effective descriptions are partly conflicts between the kinds of object, boundary or relational state each description assumes?* Could an explicit typed sequence—state, admissibility, applicable law, physical evolution, registration and readdressing—help us find where the mismatch begins?
 
-We do this constantly in science. We choose variables that we hope capture enough of a system to predict the quantity we care about. Often they do. Sometimes two systems that look equivalent in those variables behave differently under the same controlled test.
+That is the motivating enquiry behind **Layer Before Law** and the proposed **S–I–P–O** architecture. It does not ask readers to disregard established physical laws. It asks the programme to show, case by case, whether the extra organisation achieves anything the strongest ordinary methods do not.
 
-Take two material samples whose present measurements have been matched as closely as the experiment allows, but whose loading or heat-treatment histories differ. Apply the same predeclared challenge. If their later behaviour separates beyond the uncertainty already allowed by the best ordinary model, the first move is not to invent a new field. We check ordinary explanations: imperfect matching, microstructure, hysteresis, environment, measurement, known internal variables, stochastic variation, or another established mechanism.
+There is already work to inspect: an exact Bell/CHSH 3+1 reconstruction with its proposed extra geometric novelty reduced to a known-answer NULL; formal state-sufficiency and future-splitting criteria; and prospective tests of addressed traversal in AI and material systems. These are *different types of result*. None alone completes the physical-unification task. Their exact mathematical and experimental owners are linked from the reader route and [publication index](papers/README.md).
 
-If an ordinary variable closes the split, use it.
-
-If no material split appears under a strong test, keep the simpler description.
-
-If a reproducible residual survives, then the state description may need one additional distinction for that declared question.
-
-MKUFT calls the task-relative description that carries those necessary distinctions an **Address**. The name comes after the idea: the Address is not a new substance; it is the state description we are actually asking a law or model to act on.
-
-This is the core of **Layer Before Law**:
-
-> **Describe the system well enough for the question before asking a law to govern that description.**
-
-MKUFT earns additional machinery only when it improves prediction, discrimination, experiment design, error localisation, recovery, or model selection beyond strong native methods.
+The useful scientific tension is straightforward: **what does a richer description reveal, and when is it simply unnecessary?** A framework must be able to answer both.
 
 ## Development status
 
 MKUFT is actively developed through sustained collaboration between Mark Charles McLaughlin and **ChatGPT**. ChatGPT is the working AI system. **ARTA/ARIA refer to the structured research method and architecture used with it**, including state handling, adversarial review and recursive checking.
 
-The repository should therefore be read as a live research body rather than a finished textbook. Structural audits can temporarily leave a neighbouring explanation, route or notation bridge behind the current science. When that happens, it is an editorial/integration defect to repair. Older commits can sometimes preserve a clearer local explanation, but they do not override the current scientific state merely because the prose was better.
+The repository is a live research body. The reader route provides a stable entrance; the technical owners carry the current definitions, formal work and open questions; DOI-bearing publications preserve their own frozen identities. When explanatory prose lags behind a research delta, the appropriate repair is to restore the scientific relationship and its readable handoff, not to replace the evidence or quietly rewrite a deposited paper.
 
 Some formal sections are necessarily difficult. Readers may use ChatGPT, symbolic mathematics tools, specialist references or domain expertise to unpack notation and derivations. That assistance does not replace independent inspection of the mathematics.
 
 Naming and development provenance are recorded in [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md).
 
-
-## Find a paper fast — title / acronym / DOI lookup
-
-Cold search, AI retrieval and GitHub code search can miss a public object even when the exact file is present. **A search miss is not an absence verdict.** Use the canonical paper index and exact DOI/path before concluding that a paper does not exist.
-
-| Search handle / alias | Canonical public object | DOI / route |
-|---|---|---|
-| **Minimal Addressed Operator / sequential inquiry** | **Toward a Minimal Addressed Operator for Sequential Inquiry: Factorisation, Readdressing, and Recursive Scale Handoff in MKUFT**, v1.0 | DOI `10.5281/zenodo.22998394` · concept DOI `10.5281/zenodo.22998393` · [paper](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md) · [publication record](MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md) · [Module 35](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md) |
-| **ATLD 2 / ATLD2** *(voice/search mishearing: ETLD2)* | **Active Traversal and Load-Bearing Dependency II — Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems**, v2.0 | DOI `10.5281/zenodo.22068803` · [paper](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md) · [publication family](ATLD_STANDALONE_PUBLICATION.md) · [Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) |
-| **ATLD / ATLD v1** | Active Traversal and Load-Bearing Dependency — predecessor v1.0 | DOI `10.5281/zenodo.21341521` · [papers index](papers/README.md) |
-| **Chain-Address / Chain-Address Invariants** | Chain-Address Invariants for Long-Horizon AI Systems, v1.0 | DOI `10.5281/zenodo.22102379` · [paper](papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md) |
-| **FSSR / Future-Splitting State Recruitment** | Future-Splitting State Recruitment, v1.0 | DOI `10.5281/zenodo.22058303` · [paper](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md) |
-| **FSSR HCP / magnesium protocol** | Future-Splitting State Recruitment in History-Dependent HCP Magnesium Mechanics, v1.0 | DOI `10.5281/zenodo.22309144` · [paper](papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md) |
-| **AAF / Addressed Admissible Futures** | Addressed Admissible Futures, v0.1 | DOI `10.5281/zenodo.22031333` · [paper](papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md) |
-| **TDR / Typed Decomposition-Reconstruction** | Typed Decomposition-Reconstruction, v1.0 | DOI `10.5281/zenodo.22258000` · [paper](papers/2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md) |
-| **Cross-Domain / Compositional Schema** | Cross-Domain Compositional Schema, v0.4 | DOI `10.5281/zenodo.22166468` · [paper](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md) |
-| **Bell Constraints** | Bell Constraints as Typed Boundaries, v1.0 | DOI `10.5281/zenodo.22100926` · [paper](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md) |
-| **Layer Before Law** | Layer Before Law, v1.0 | DOI `10.5281/zenodo.21971270` · [paper](papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md) |
-| **Recursive Constraint Closure / RCC** | Recursive Constraint Closure and Reachable-State Geometry, v0.1 | DOI `10.5281/zenodo.21971425` · [paper](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md) |
-| **Voynich / ESRT / ESF** | The Voynich Manuscript as a Candidate Procedural-Executable Information System, v2.0 | DOI `10.5281/zenodo.22071229` · [paper](papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md) |
-
-**Cold-search fallback:** [Papers and Publications](papers/README.md) → [Public Discovery Anchor](PUBLIC_DISCOVERY_ANCHOR.md) → [Discovery Keywords](DISCOVERY_KEYWORDS.md) → exact DOI/path. Do not infer “not public” or “not present” from one failed search layer.
 
 ## Why a reader from another field might care
 
@@ -267,6 +232,28 @@ Useful side exits do not create extra reader routes:
 - [Canon Map](CANON_MAP.md) — full technical dependency map.
 - [Papers and Publications](papers/README.md) — publication and DOI lookup.
 - [MKUFT Layer Before Law v1.2](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md) — current research-facing synthesis.
+
+## Find a paper fast — title / acronym / DOI lookup
+
+Cold search, AI retrieval and GitHub code search can miss a public object even when the exact file is present. **A search miss is not an absence verdict.** Use the canonical paper index and exact DOI/path before concluding that a paper does not exist.
+
+| Search handle / alias | Canonical public object | DOI / route |
+|---|---|---|
+| **Minimal Addressed Operator / sequential inquiry** | **Toward a Minimal Addressed Operator for Sequential Inquiry: Factorisation, Readdressing, and Recursive Scale Handoff in MKUFT**, v1.0 | DOI `10.5281/zenodo.22998394` · concept DOI `10.5281/zenodo.22998393` · [paper](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md) · [publication record](MINIMAL_ADDRESSED_OPERATOR_STANDALONE_PUBLICATION.md) · [Module 35](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md) |
+| **ATLD 2 / ATLD2** *(voice/search mishearing: ETLD2)* | **Active Traversal and Load-Bearing Dependency II — Residual Coordinate Identification and Self-Auditing Matched-Control Evaluation for Long-Horizon AI Systems**, v2.0 | DOI `10.5281/zenodo.22068803` · [paper](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md) · [publication family](ATLD_STANDALONE_PUBLICATION.md) · [Module 25B](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md) |
+| **ATLD / ATLD v1** | Active Traversal and Load-Bearing Dependency — predecessor v1.0 | DOI `10.5281/zenodo.21341521` · [papers index](papers/README.md) |
+| **Chain-Address / Chain-Address Invariants** | Chain-Address Invariants for Long-Horizon AI Systems, v1.0 | DOI `10.5281/zenodo.22102379` · [paper](papers/2026-08-25_CHAIN_ADDRESS_INVARIANTS_LONG_FORM_COHESION_v1.0.md) |
+| **FSSR / Future-Splitting State Recruitment** | Future-Splitting State Recruitment, v1.0 | DOI `10.5281/zenodo.22058303` · [paper](papers/2026-08-22_FUTURE_SPLITTING_STATE_RECRUITMENT_v1.0.md) |
+| **FSSR HCP / magnesium protocol** | Future-Splitting State Recruitment in History-Dependent HCP Magnesium Mechanics, v1.0 | DOI `10.5281/zenodo.22309144` · [paper](papers/2026-09-04_FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0.md) |
+| **AAF / Addressed Admissible Futures** | Addressed Admissible Futures, v0.1 | DOI `10.5281/zenodo.22031333` · [paper](papers/2026-08-20_ADDRESSED_ADMISSIBLE_FUTURES_v0.1.md) |
+| **TDR / Typed Decomposition-Reconstruction** | Typed Decomposition-Reconstruction, v1.0 | DOI `10.5281/zenodo.22258000` · [paper](papers/2026-09-02_TYPED_DECOMPOSITION_RECONSTRUCTION_v1.0.md) |
+| **Cross-Domain / Compositional Schema** | Cross-Domain Compositional Schema, v0.4 | DOI `10.5281/zenodo.22166468` · [paper](papers/2026-08-29_CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_v0.4.md) |
+| **Bell Constraints** | Bell Constraints as Typed Boundaries, v1.0 | DOI `10.5281/zenodo.22100926` · [paper](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md) |
+| **Layer Before Law** | Layer Before Law, v1.0 | DOI `10.5281/zenodo.21971270` · [paper](papers/2026-08-16_LAYER_BEFORE_LAW_CANONICAL_PREPRINT_v1.0.md) |
+| **Recursive Constraint Closure / RCC** | Recursive Constraint Closure and Reachable-State Geometry, v0.1 | DOI `10.5281/zenodo.21971425` · [paper](papers/2026-08-15_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY_PREPRINT.md) |
+| **Voynich / ESRT / ESF** | The Voynich Manuscript as a Candidate Procedural-Executable Information System, v2.0 | DOI `10.5281/zenodo.22071229` · [paper](papers/2026-08-23_VOYNICH_ESRT_ESF_CONSOLIDATED_v2.0.md) |
+
+**Cold-search fallback:** [Papers and Publications](papers/README.md) → [Public Discovery Anchor](PUBLIC_DISCOVERY_ANCHOR.md) → [Discovery Keywords](DISCOVERY_KEYWORDS.md) → exact DOI/path. Do not infer “not public” or “not present” from one failed search layer.
 
 ## Development and provenance
 
