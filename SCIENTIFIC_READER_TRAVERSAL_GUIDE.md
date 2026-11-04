@@ -4,9 +4,11 @@
 
 ## What you should already understand
 
-Before continuing, you should be able to explain in ordinary language why a present state description can be too coarse for a future prediction, why ordinary/native explanations are tested first, what MKUFT means by a task-relative **Address**, and why extra state/history should be removed when it adds no predictive or discriminatory value.
+The first two steps have introduced the central question at two different grains. A description may miss a future-relevant state distinction; an observer may miss a relation because of its frame or available measurements; and a whole system may have useful properties without its state being sufficient for every prediction.
 
-If any of those are unclear, return to the earlier step. Do not solve confusion by carrying more jargon.
+You should now recognise MKUFT's larger proposal as well: **an addressed state, an admissibility structure and an effective law object belong to one typed scientific question**, while the proposed S–I–P–O physical interpretation still has to earn its physical couplings and recover established theories.
+
+If a particular relation is unclear, revisit the [introductory physical example](00-START-HERE-MKUFT-PUBLIC.md) or [extended observer and joint-information example](START_HERE_PUBLIC_OVERVIEW.md), then return to the exact module. A reader should not have to memorise a list of terms to follow a scientific dependency.
 
 ## How to use this continuation
 
@@ -24,6 +26,8 @@ what you already know
 You are not required to verify specialist mathematics outside your field merely to follow the argument. The technical owner remains responsible for the exact derivation.
 
 Do not preserve a confusing phrase merely because it was introduced earlier. Preserve the scientific relation, re-explain it if necessary, then reconnect the formal term.
+
+**Different modules have different evidential status.** A typed factorisation specifies what must be defined; a known-answer mathematical reconstruction establishes a calculation; a prospective experiment specifies what should be measured; a successful comparison would add evidence about a claimed advantage. None silently substitutes for another. The foundational unification claim is a further burden. The technical owners below carry the precise version of each object, including strong ordinary alternatives and failure conditions.
 
 ## 1. Layer Before Law — first question: are we modelling the right object?
 
