@@ -9,51 +9,43 @@
 
 *An introduction to the question, the developing research and the tests. The mathematics follows through the same reader route.*
 
-## 1. Start with an ordinary problem
+## 1. The puzzle is bigger than an equation
 
-Two cars approach the same bend at the same speed. Their instruments report the same road conditions. Their brakes appear to be in equally good working order.
+A whirlpool can hold a recognisable shape while the water moving through it is continually replaced. An arch can support a weight that the same stones, piled without their supporting relations, cannot. A living cell maintains a boundary while matter and energy pass through it.
 
-One car has just descended a mountain pass under heavy braking. The other has arrived after a gentle drive.
+None of these requires an unfamiliar physical force. Fluid dynamics, mechanics and cell biology already explain their own examples. But they make a striking question visible: **when does the arrangement of a system become part of what the system *is*, rather than merely a description of its parts?**
 
-A photograph might show two near-identical situations. Yet if we now demand the same emergency stop, should we expect identical results?
+Sometimes the right scientific object is a water molecule; sometimes it is the organised flow. Sometimes a relation is only a convenient summary. Sometimes it is indispensable to predicting what will happen when a load, boundary or constituent changes.
 
-Not necessarily. Brake temperature and thermal history may matter. The mechanics does not cease to work because we overlooked them; our description of the problem was incomplete. An engineer would examine the brakes, measure relevant temperatures, control for tyre and road conditions, and use established physical models.
+The hard task is to tell the difference, not to declare every pattern an emergence.
 
-This is a small example of a much larger question:
+MKUFT approaches a larger question from that starting point: could a carefully typed architecture of **possibility, relations, physical expression and observation** help explain how effective laws belong to different kinds and scales of physical object? And could that eventually contribute something to the still-open relationship between quantum theory and gravitation?
 
-> **Can a law be perfectly respectable while the state we have asked it to act upon is the wrong description for the task?**
+That is the founding ambition under investigation, not an accomplished unification.
 
-Sometimes the missing distinction is a temperature, a boundary condition or a piece of history. Sometimes it is the scale of the object, the relations that hold it together, or what the measuring apparatus can actually see.
+## 2. How the questions grew
 
-And sometimes the original description is adequate. Knowing when *not* to add anything is part of the investigation.
+One strand of MKUFT explores the world in terms of possible states, permitted connections, constraints, traversal, and what different paths cost. It raises provocative questions: what if some useful descriptions of time emerge from the ordering of physical change? Could a gradient in the accessibility or cost of routes ever enter a legitimate gravitational account? What makes a boundary stable enough for a higher-scale physical object to persist?
 
-## 2. This is already normal science
+These are **questions and candidate mathematical interpretations**, not established facts about time or gravity. Ordinary dynamics, relativity and quantum theory remain the required comparators. The programme cannot obtain a physical field by renaming a graph.
 
-Physics, engineering, mathematics and biology routinely work with state variables, internal variables, sufficient statistics, boundary conditions, hysteresis, coarse-graining and measurement models. They must: no useful model can carry every fact about everything.
+Another strand arose around systems whose meaning may be carried by arrangement rather than words alone: a diagram, a procedure, an observation, or a set of interacting agents. The [Voynich procedural-structure investigation](docs/09_VOYNICH_PROCEDURAL_ENGINE.md) is an example. It asks whether position, sequence and layout might constrain a process, while testing conventional linguistic, scribal, illustrative and statistical alternatives. It has not translated the manuscript or established its historical purpose.
 
-What matters is whether the information it discards is harmless **for the particular prediction or operation at hand**.
+The common thread is worth exploring: **what relationships must a description preserve before the description can do useful work?**
 
-An excellent constitutive model may already account for the two cars. A standard observer model may explain why two instruments disagree. MKUFT does not need a new force, layer or vocabulary to repeat an explanation the receiving science already owns.
+That question runs through the foundational physical proposal, the applied systems work, and the later AI and scientific-inquiry methods. Those branches do not all possess the same kind of evidence; nor do they need to share one physical mechanism to be worth studying.
 
-The programme asks a further, testable question: can a consistent *order of inquiry* help identify a missing distinction, choose a useful new measurement, or prevent a model from being applied outside the conditions where it works?
+## 3. Something you can actually test
 
-That question is useful in ordinary research. It also points towards a more ambitious foundational possibility, which we will reach shortly.
+Imagine an arch built from stones. Photograph it. Then remove one strategically important stone and measure how the load redistributes—or whether the arch remains standing. Replace the stone with a mechanically comparable substitute, or rearrange the same material into a pile, and repeat under controlled conditions.
 
-## 3. Turn the idea into a toy experiment
+The interesting outcome is not simply that an arch can collapse. Established structural mechanics already predicts the relevant forces, friction, boundary support and failure modes.
 
-Replace the cars with two material samples. Match their present measured state, environment, boundaries and test conditions as well as the relevant field permits. Their earlier loading histories differ. Decide in advance what future response to measure and how large a difference would matter.
+The interesting **scientific question** is whether a proposed relational description identifies the load-bearing structure accurately, distinguishes which interventions matter, and predicts the result better or more economically than an adequate existing model.
 
-There are three instructive outcomes.
+If the existing model closes the problem, it wins. If a new relation remains useful after that comparison, it must state where, for which property, and under which measurements and conditions.
 
-**They behave alike.** Under this test, the extra historical distinction has not earned a role in the representation. Retain the simpler model for the declared regime and tolerance.
-
-**They behave differently, and an established variable explains why.** Perhaps the matching omitted microstructure, residual stress, hardening state, temperature or a known history effect. Add the appropriate native variable and test the repair. The ordinary explanation wins.
-
-**They separate beyond the best controlled account.** A repeatable residual remains after fair native models, apparatus effects and statistical variation have been examined. Now we have reason to seek a further measurable distinction and test it prospectively on fresh cases.
-
-The method does not choose the third result in advance. Its value lies in designing a question that can distinguish the possibilities, including one that returns no added result.
-
-This is the practical starting point of **Future-Splitting State Recruitment (FSSR)**: two histories treated as equivalent by a compressed state may cease to be equivalent under a lawful future challenge. See the [formal FSSR owner](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) and the [prospective magnesium protocol](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md).
+This is the spirit of the programme's scale-transition and relational-closure work. A higher-order whole is not made real by calling it a whole; it earns its status through what its organisation can reliably explain, preserve or predict. [Load-Bearing Relation Sets](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) and [Law Descent](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) turn that into explicit tests.
 
 ## 4. Now introduce the MKUFT terms
 
@@ -88,55 +80,49 @@ addressed state and relevant relations
 
 This is a **proposed factorisation**, not a derivation of quantum mechanics or general relativity. Its precise types and obligations live in [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) and the [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md).
 
-## 5. Ask the small questions before accepting the big noun
+## 5. The difficult physical question
 
-When a claim becomes difficult, it helps to ask a few plain questions before reaching for new terminology.
+Physics already understands a great deal about the examples above. MKUFT's larger ambition begins where analogy must stop.
 
-What exactly is the object? What can it do? Which relation or boundary makes the difference? What did the instrument measure, and what lay outside its view? If two descriptions appear equivalent, which *future observation* could show that they are not?
+A foundational proposal would need to say which mathematical state spaces describe its S–I–P–O roles, how a physically meaningful relation affects admissible dynamics, and how the resulting formulation recovers the quantum and gravitational predictions that have already survived demanding tests.
 
-Those are not easier substitutes for mathematics. They locate what the mathematics must preserve.
+The challenge is not to invent a grander vocabulary than physics. It is to produce an exact result that established accounts do not already provide. The [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) preprint states the quantum/gravity obligations; the [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) assembles the proposed typed law object.
 
-Consider a navigator whose calculations are impeccable but whose map omits a washed-out bridge. The correct next operation is not necessarily a better route algorithm. First establish whether the passage the route assumes still exists.
+There is something absorbing about the question even while the answer remains open: **could the conditions that make a physical state possible be part of the explanation of which effective law describes it?** A successful theory must eventually answer with equations and experiments, not enthusiasm alone.
 
-In a foundational theory the questions are harder. Which state space is being described? What makes a transition physically admissible? What is the domain of a proposed law? What known quantum or gravitational result must the model recover? What measurement would distinguish the new proposal from existing physics?
+## 6. Where the research takes surprising turns
 
-The same discipline becomes stricter as the scientific claim becomes larger.
+Consider an observer watching a road disappear around a hill. The vehicle has left their view, not necessarily the road. A second observer may see the continuation. Put several correctly timed observations together and a new relationship can become measurable without the outside world having changed.
 
-## 6. What about higher levels and whole systems?
+Now consider a colony of cells. Its collective behaviour may have its own useful description, but that description cannot automatically answer every question about the individual cells. A higher-level model earns its usefulness **property by property**.
 
-A violinist and an orchestra are different useful objects. A whole ensemble has tempo and harmony, yet its group-level description is insufficient to predict the condition of a particular player's instrument.
+Or return to the Voynich manuscript. Could a drawing encode relations or steps that survive even when the language is unreadable? Perhaps. The interesting move is to specify the pattern a procedural interpretation predicts, then check whether ordinary interpretations predict it just as well.
 
-The meaningful question is not simply whether the whole exists. It is **which properties the whole can actually predict or control without reopening its constituents**.
+These examples do not prove one underlying mechanism. They illustrate why **observer position, relation, scale and admissible action** are worth keeping distinct—and why their connections are worth testing.
 
-There is another twist. Sometimes information lies neither in one observation nor in a simple average of many. A correctly linked relationship among measurements can distinguish possibilities that isolated measurements cannot. A combination of camera views, for example, may recover the path of a vehicle that disappears from one frame.
+## 7. Why it might matter beyond a physics paper
 
-A joined observation must still be real: same event, compatible timing, valid sources and a comparison against what smaller combinations already establish. Joining unrelated photographs does not manufacture an observation.
+In engineering, a system may remain operational while losing the reserve needed to recover from a later fault. In biology, apparently stable present measurements may conceal a change in how an organism can respond. In AI research, a correct answer can coexist with lost context, provenance or control of what question was being answered.
 
-In the [extended overview](START_HERE_PUBLIC_OVERVIEW.md) we will move from simple snapshots to these richer questions about history, observer position, higher-order relations and recoverable futures.
+Those are already studied problems in their own disciplines. MKUFT's applied work asks whether a shared discipline of **addressing, comparison, intervention and readdressing** can make useful distinctions portable without claiming the same equation governs all of them.
 
-## 7. What about observation and measurement?
+The [Minimal Addressed Operator](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md) asks how much of that inquiry cycle can be expressed in a compact formal structure. [ATLD](ATLD_STANDALONE_PUBLICATION.md) develops matched-control questions for long-horizon AI work. [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) asks not just whether a system works now but which recoverable futures remain available.
 
-Suppose a car passes behind a building. One observer reports that it vanished from view. Another observer, standing elsewhere, sees it continue.
+These are meaningful research routes, not proof that a single physical theory has conquered several subjects.
 
-The first observer's report need not be wrong. But *loss from a field of view* is not *loss from the world*.
+## 8. How the programme can be wrong
 
-That distinction matters in astronomy, microscopy, medicine, sensor fusion and AI systems analysing incomplete records. A different observer arrangement may reveal a relation without changing the external object at all.
+A serious unification proposal has to accommodate a disappointing answer.
 
-If an instrument also perturbs the system, the perturbation belongs in the physical account. MKUFT's observer work keeps changes in **what can be registered** distinct from changes in **what physically happened**. The technical development is in [Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md).
+If known physics supplies the complete mechanism, no new physical layer has been earned. If an apparent cross-domain pattern dissolves under a better comparison, the analogy remains a comparison. If a formal construction re-expresses known mathematics without independent residue, record the exact result and its limitation.
 
-## 8. What would make MKUFT unnecessary here?
+The Bell/CHSH work already provides that kind of example: a three-plus-one-coordinate reconstruction closes a known mathematical object, while an additional proposed geometric novelty reduces to established CHSH content. That is useful calibration, not new Bell physics.
 
-A useful new framework must survive comparison with the best available ordinary one.
+And if a carefully designed experiment makes no material distinction, MKUFT should be able to say that the simpler model survives **for the tested question**.
 
-If an established state variable, measurement correction or existing multi-scale model already solves the problem with equal or greater predictive power, the extra MKUFT machinery has earned no role **for that task**.
+A framework that cannot become smaller under evidence cannot be trusted to become larger.
 
-If a proposed physical relation cannot identify a real coupling, a measurable consequence, or a way to recover established physics, the stronger foundational claim remains open.
-
-And if a careful prospective comparison finds no improvement, that result matters. It may tell us to preserve a simpler description, retire an unnecessary assumption, or ask a different question.
-
-A theory that can only grow cannot learn very much.
-
-## 9. Development status and ChatGPT collaboration
+## 9. What has actually been established
 
 The programme contains several kinds of result. They deserve to be read at their actual levels.
 
@@ -147,7 +133,7 @@ The programme contains several kinds of result. They deserve to be read at their
 
 MKUFT originates in Mark Charles McLaughlin's research and sustained human–ChatGPT collaboration. ChatGPT is the working AI system; ARTA/ARIA name structured methods and architecture used in that collaboration. Source authorship, exact versions and publication identity are recorded in [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md).
 
-## 10. Difficult mathematics is still allowed to be difficult
+## 10. Following the mathematics
 
 You do not have to master specialist notation to know *which question* a calculation is trying to answer.
 
@@ -155,13 +141,13 @@ At each deeper step, identify the state, the map or operation, what is held fixe
 
 A physicist can enter directly through the paper or mathematical owner. A curious newcomer can follow the same sequence with more explanatory space. The scientific burden remains identical.
 
-## 11. Naming provenance
+## 11. Names and source history
 
 Names such as Kairos, LUCY, GRACE, ARIA and ARTA arose at different stages of the collaboration. Their dates and origins are preserved in [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md). A memorable name is useful for finding an object; it is not evidence that the object is scientifically established.
 
-## 12. Continue the same reader route
+## 12. Where to go next
 
-**Next:** [Step 2 — Extended Overview: the relations a snapshot misses](START_HERE_PUBLIC_OVERVIEW.md). It takes the initial idea into observer frames, joint information, higher-level law ownership, future tests and the difference between immediate success and recoverability.
+**Next:** [Step 2 — Extended Overview: how relations become testable](START_HERE_PUBLIC_OVERVIEW.md). It moves into experimental consequences, joint information, higher-level law ownership, the limits of observers and the mathematical paths that follow.
 
 Continue from there to [Step 3 — Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md) and then only the exact modules required by your question.
 
