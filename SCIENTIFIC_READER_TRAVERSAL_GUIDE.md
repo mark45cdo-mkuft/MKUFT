@@ -2,32 +2,29 @@
 
 > **Stable-link note:** the filename `SCIENTIFIC_READER_TRAVERSAL_GUIDE.md` is retained so existing links do not break. This page is **Step 3 — Technical Continuation** in the reader staircase begun in [00 — Start Here](00-START-HERE-MKUFT-PUBLIC.md) and [Step 2 — Extended Overview](START_HERE_PUBLIC_OVERVIEW.md).
 
-## What you should already understand
+## The next question belongs to the mathematics
 
-The first two steps have introduced the central question at two different grains. A description may miss a future-relevant state distinction; an observer may miss a relation because of its frame or available measurements; and a whole system may have useful properties without its state being sufficient for every prediction.
+You have reached the end of the public introduction, not the end of the investigation. The preceding pages have presented the larger physical proposal, a physical relation that can be tested, a higher-scale whole, an observer problem and the possibility of a minimal inquiry operator.
 
-You should now recognise MKUFT's larger proposal as well: **an addressed state, an admissibility structure and an effective law object belong to one typed scientific question**, while the proposed S–I–P–O physical interpretation still has to earn its physical couplings and recover established theories.
+From here, the important change is **not another retelling**. It is that each hypothesis must acquire the exact mathematical assumptions, native comparison and failure condition appropriate to its own discipline.
 
-If a particular relation is unclear, revisit the [introductory physical example](00-START-HERE-MKUFT-PUBLIC.md) or [extended observer and joint-information example](START_HERE_PUBLIC_OVERVIEW.md), then return to the exact module. A reader should not have to memorise a list of terms to follow a scientific dependency.
+This is a **navigable technical companion**, not another 6,000-word introduction to memorise in order. Each numbered section points to an owning research module, explains one actual increase in mathematical burden, and gives the quickest serious way the claim could fail.
 
-## How to use this continuation
+## Select the question you came to investigate
 
-Each technical step below keeps the same pattern:
+- **Could this contribute to foundational physics?** Start with [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), [Typed Traversal](docs/27_TYPED_TRAVERSAL_AND_EQUATION_HYGIENE.md) and the [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md). Establish the physical carrier and recovery of known theory before claiming a new law.
+- **When does a whole acquire an effective law?** Use [Recursive Constraint Closure](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [Scale Transition](docs/32S_LOAD_BEARING_RELATION_SETS_AND_SCALE_TRANSITION_TESTS.md) and [Law Descent](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md). Distinguish the existence of an organised whole from property-specific dynamical sufficiency.
+- **What happens to recovery and viability?** Read [Cross-Scale Recoverability](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) and [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md). Ask what is reachable after a perturbation, not merely what succeeds now.
+- **How can an inquiry discover what it is missing?** Go to [Address Sufficiency](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md), [Sideways Inquiry](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md), [Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) and the [Minimal Addressed Operator](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md). Compare against established methods of experimental design and statistical sufficiency.
+- **Where does observation become evidence?** Use [Discriminating Experiments](docs/28_MKUFT_DISCRIMINATING_EXPERIMENTS_AND_PROMOTION_GATES.md), the [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md) and [Novelty Audit](docs/32A_MODULE_32_NOVELTY_AUDIT_AND_CONTRIBUTION_BOUNDARY.md). An exact calculation, a proposed experiment and an independent empirical result are different objects.
 
-```text
-what you already know
-→ question this module asks
-→ what the formalism is trying to do
-→ strongest ordinary / native challenge
-→ kill point
-→ why the next step follows
-```
+A specialist can enter directly at any owner. Readers arriving through the public route may select the branch that genuinely interests them. They do not need to restart the same explanation to earn entry.
 
-You are not required to verify specialist mathematics outside your field merely to follow the argument. The technical owner remains responsible for the exact derivation.
+## How each technical section works
 
-Do not preserve a confusing phrase merely because it was introduced earlier. Preserve the scientific relation, re-explain it if necessary, then reconnect the formal term.
+Within each section below, the recurring headings provide navigation: **what enters, what the formalism adds, its decisive alternative or failure, and what becomes possible next**. Their repeated structure is a useful retrieval device, not another set of claims to read as continuous narrative.
 
-**Different modules have different evidential status.** A typed factorisation specifies what must be defined; a known-answer mathematical reconstruction establishes a calculation; a prospective experiment specifies what should be measured; a successful comparison would add evidence about a claimed advantage. None silently substitutes for another. The foundational unification claim is a further burden. The technical owners below carry the precise version of each object, including strong ordinary alternatives and failure conditions.
+Mathematical form does not establish physical mechanism by itself. A formal known-answer reconstruction establishes that reconstruction; a prospective protocol specifies a possible test; independent evidence would have to come from the test and its strongest adequate control. The foundational quantum/gravity recovery remains open.
 
 ## 1. Layer Before Law — first question: are we modelling the right object?
 
@@ -642,60 +639,18 @@ If no controlled observation, calculation or intervention can distinguish the ad
 
 ---
 
-## What a non-specialist should be able to carry through the whole route
+## A useful technical return
 
-You do not need to solve every equation to follow the scientific logic.
+After inspecting a module, you should be able to say **which object it defines, what new calculation or experimental choice it permits, which established account could already explain it, and what specific result would make its stronger claim fail**.
 
-You should be able to state the chain in ordinary language:
+You need not bring the whole route with you to understand one equation. Equally, a locally valid equation cannot certify the unification proposal or another branch. Return to the precise owner and evidence status whenever the question changes.
 
-1. describe the right object before choosing its law;
-2. keep different kinds of variable mathematically distinct;
-3. allow constraints and history to change what futures are reachable when evidence requires it;
-4. do not assume a useful higher-level whole owns a closed law for every property;
-5. do not confuse local gain with whole-system integrity or recoverability;
-6. if same-looking states have different futures, the state description is incomplete;
-7. add timing or history only when it improves prospective prediction;
-8. treat recovery as an actual reachable route, not an assumption;
-9. deliberately challenge supposedly equivalent states, address the challenge and boundary as carefully as the state, and use both divergence and non-divergence plus eliminated alternatives to decide whether to reopen or preserve;
-10. make sure the declared measurement/registration surface can actually resolve the target-relevant distinction, then return the registered result into the next addressed state;
-11. do not assume every useful next test is already reachable, and do not turn a situated observer into a universe-sized model: start from the strongest adequate native Address, carry only future-bearing observer/wake context, use the smallest lawful discriminator available from the state actually reached, and readdress after the result;
-12. do not turn local non-reachability into global impossibility or use a vague wider frame as automatic rescue: require the smallest typed lawful parent relation, then recompute admissibility and relation-relative direction after readdressing;
-13. compare every claimed gain against strong ordinary baselines, prior art and explicit failure conditions.
+The mathematical questions remain open where the physical couplings, accepted limits or decisive experimental comparisons have not been supplied. The value of a clear map is that a researcher can tell *where the unfinished work actually begins*.
 
-If the reader can carry that much, the technical modules have a coherent spine even when individual derivations require domain expertise.
+## Return to the research
 
-## Reader-interface red-team rule
+This file is **Step 3** of the one progressive route: [First Contact](00-START-HERE-MKUFT-PUBLIC.md) → [Extended Overview](START_HERE_PUBLIC_OVERVIEW.md) → **Technical Continuation** → the exact scientific module or publication.
 
-The architecture must not protect itself through vocabulary.
+For the entire dependency graph use the [Canon Map](CANON_MAP.md). For the public formulation, publication identity and critical comparison routes, use the [README](README.md) and [Research Publications](papers/README.md).
 
-A technical term is legitimate compression only after its referent is clear. If a term changes meaning across modules, if a link replaces an explanation, if a null is softened after the fact, if an equation is used as authority when its variables have not been tied to measurable objects, or if complexity makes a criticism impossible to pin down, treat that as a defect in the work.
-
-The corrective questions at every handoff are:
-
-> **What does the reader have to silently invent here in order for the next step to make sense?**
-
-and
-
-> **What has the reader already earned that this passage is making them reconstruct for no scientific reason?**
-
-If the first answer contains a load-bearing relation, move that relation into the prose. If the second contains an already-stable relation, preserve its handle and remove the unnecessary reset or synonym swap.
-
-
-## Relation to the single reader route
-
-This file is **Step 3** of the same progressive route.
-
-```text
-00 Start Here
-→ Extended Overview
-→ Technical Continuation
-→ exact technical owner
-```
-
-A specialist may jump directly to the technical owner. A new reader may take every step. Both inspect the same scientific object under the same evidence and falsification standards.
-
-## Final reader contract
-
-> **Know what the object is, what the next formal step is trying to establish, what ordinary/native account could already explain it, and what would make the stronger move fail.**
-
-Technical language becomes useful compression only after the underlying relation is understood.
+A good technical explanation need not sound impersonal. It must let the actual mathematical object—and what it could reveal or rule out—carry the interest.
