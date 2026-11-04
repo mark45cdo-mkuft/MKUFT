@@ -75,6 +75,19 @@ The exact derivations remain in the technical modules and papers. Explanation ca
 
 The [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) asks how an addressed state, a domain of admissible possibilities and a domain-valid physical rule fit together without confusing one for another.
 
+The original four-role shorthand is:
+
+```math
+S \rightarrow I \rightarrow P \rightarrow O
+```
+
+- **S:** hypothesised source or possibility.
+- **I:** relational or informational constraints.
+- **P:** physical expression and evolution.
+- **O:** bounded observation, registration and records.
+
+A further update computes the next effective possibility/Address from the result actually reached. The loop does not imply that making an observation rewrites a universal substrate. A physical interaction between proposed layers must be defined and tested rather than read out of the arrows.
+
 Its compact technical shorthand is:
 
 ~~~text
