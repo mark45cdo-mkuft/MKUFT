@@ -8,7 +8,7 @@ You have reached the end of the public introduction, not the end of the investig
 
 From here, the important change is **not another retelling**. It is that each hypothesis must acquire the exact mathematical assumptions, native comparison and failure condition appropriate to its own discipline.
 
-This is a **navigable technical companion**, not another 6,000-word introduction to memorise in order. Each numbered section points to an owning research module, explains one actual increase in mathematical burden, and gives the quickest serious way the claim could fail.
+This is the technical stage of the **same progressive route**, presented as a navigable companion rather than another 6,000-word introduction to memorise in order. Each numbered section points to an owning research module, explains one actual increase in mathematical burden, and gives the quickest serious way the claim could fail.
 
 ## Select the question you came to investigate
 
