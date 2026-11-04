@@ -6,102 +6,114 @@
 **MKUFT concept DOI:** [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565)  
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-This is **Step 2 of the same reader route** begun in [00 — Start Here](00-START-HERE-MKUFT-PUBLIC.md).
-
-The aim here is to add scientific depth without making the reader change conceptual worlds.
+This is **Step 2 of the same reader route**, continuing from [Step 1 — Start Here](00-START-HERE-MKUFT-PUBLIC.md). We have already seen how an excellent law can fail to answer the intended question when the state offered to it omits a relevant distinction. Now the questions become more interesting: *how do we detect the missing distinction, and what if it belongs in the relationship among observations rather than any observation alone?*
 
 ## Start with the problem, not the vocabulary
 
-In science we routinely compress a complicated system into a smaller set of variables. That is necessary. A useful model cannot carry every microscopic fact.
+A scientific model is a selective map of a system. It must leave things out. The art lies in knowing whether the omitted details can affect the particular future, property or experiment we care about.
 
-The question is whether the compression is **good enough for the prediction we are asking it to make**.
+That is already familiar territory in physics, statistics, engineering and control theory. MKUFT's research question begins there but extends to the **address of the law itself**: the object, relation, boundary and set of physically admissible states on which an effective law is supposed to operate.
 
-Two states may look identical in the variables we chose and still differ in what they can do next. When that happens, ordinary possibilities come first: mismatched state, challenge or boundary conditions; measurement limits; a known internal variable; hysteresis; stochastic variation; or use outside the regime where closure was justified.
+The central scientific challenge is whether making those dependencies explicit improves something that existing theory does not already handle adequately—and, for the foundational physics proposal, whether a lawful deeper construction can recover known quantum and gravitational results.
 
 ## A concrete carrier: two chessboards
 
-Imagine two chessboards with the same pieces on the same squares.
+Imagine two photographs of a chessboard. The pieces occupy exactly the same squares. One game has never moved its king or relevant rook. In the other, the rook moved and later returned.
 
-A photograph says they are identical. The rules of chess may say otherwise.
+To the photograph, the arrangements are identical. To a player contemplating castling, they are different states with different legal futures.
 
-On one board the king and rook may still have castling rights. On the other they may have moved earlier and returned. The present image is identical, but the legal futures differ.
+The lesson is not that chess contains a hidden force. It is that **state equivalence depends on the question and on which history a description preserves**.
 
-The missing information is not mysterious. The photograph simply did not encode everything required for the next-move question.
+The same mathematical concern appears in dynamical systems and statistical modelling. If we call two histories the same state, we have made a prediction: for the target and challenge family in question, they can now be treated equivalently. A future disagreement tests whether that compression was justified.
 
 ## The scientific version: a controlled material test
 
-Now replace the chessboards with two material samples.
+Consider two pieces of material with near-matched present measurements but different controlled loading histories. Challenge them under matched conditions and compare a predeclared future response.
 
-Suppose their present measurements are matched as closely as the current constitutive model and experimental methods allow, while their prior loading histories differ.
+Established materials science already has mechanisms—microstructure, hardening, residual stress, rate effects and hysteresis—that may explain a difference. Those are not MKUFT discoveries.
 
-Apply the same predeclared challenge and measure the same target response.
+The additional FSSR proposal is procedural: deliberately search for a future challenge that would expose an inadequate state compression, *then* let the strongest native constitutive model account for the difference. Only a remaining, reproducible, prediction-bearing distinction warrants further recruitment. The [prospective magnesium protocol](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md) is designed for precisely that comparison; its protocol is not an already completed positive experiment.
 
-If the futures remain equivalent within predicted uncertainty, the simpler state description survives.
-
-If they split, first ask whether better state matching, boundary control, measurement, microstructure, residual stress, hardening state, hysteresis, stochastic variation or another native mechanism removes the effect.
-
-If one of those closes the result, that field owns the explanation.
-
-If a repeatable difference remains after those ordinary controls, add the smallest measurable distinction capable of repairing the prediction and test it on fresh cases.
-
-This is the scientific content behind the simpler rule:
-
-> **Before changing the law, check whether the state description was sufficient for the question.**
+The possible outcomes matter equally: the current model survives; a known state variable repairs it; or a residual motivates a fresh test.
 
 ## Now name the object: the Address
 
-MKUFT calls the task-relative state description the **Address**.
+An **Address** is a task-relative specification of what system and state are meant, including whichever relations, boundary conditions, scale, relevant history and observation position actually bear on the question.
 
-An Address answers: what system/state are we actually talking about, at what scale and boundary, which distinctions affect the target future, what measurement conditions matter, and which parts of history still change the prediction?
+A good Address carries enough distinction to prevent states with different declared target futures from being merged. It need not remember the whole past or represent every microscopic detail. Too little information gives a false equivalence; too much can obscure the needed structure.
 
-If removing a distinction changes no declared prediction, transition, recovery route or measurement result, that distinction has not earned its place for that task.
+The formal [Address Sufficiency](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) and [FSSR](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) modules make that statement testable.
 
 ## Accessible vectors: what, who, where, why
 
-When an MKUFT section becomes difficult, locate the object before memorising the noun.
+When a formal passage becomes difficult, the most useful questions are often ordinary ones.
 
-**What** is the object?  
-**Who or what acts** on it?  
-**Where** does the relevant distinction live?  
-**Why** does it matter for the target?  
-**How** would we test it?  
-**What changes** if it is removed?
+**What is the target?** Is it a vehicle, an observation, a probability distribution or a physical-law object?  
+**Where does the relevant relation live?** At a component, interface, whole system or measuring apparatus?  
+**What would the rival predict?** Which observation could distinguish them?  
+**What changes when the model is readdressed?** The world, the representation, the observer, or only the question?
 
-These are not extra metaphysics. They are ordinary checks that the model and the reader are talking about the same thing.
+The words are simple; the distinctions are consequential. Changing the observer's viewpoint does not automatically change the physical object. Changing a boundary may genuinely change which law or solution domain applies.
 
 ## Layer Before Law
 
-The central ordering rule is:
+MKUFT's ordering principle is that the object and admissible state must be addressed before law ownership is assigned.
 
-> **Describe the relevant object/state first; then ask which law or effective rule is justified there.**
+A law is more than a formula written on paper. A differential equation, for example, needs an applicable domain and boundary conditions to specify the physical problem it is solving. MKUFT asks whether relational or contextual dependencies should be treated as part of a typed *effective law object*, and whether that factorisation has scientific value beyond established physical modelling.
 
-Often the ordinary description is already sufficient. Sometimes a known native variable is missing. Sometimes the correct answer is explicitly multiscale.
-
-The stronger MKUFT claim exists only where the ordered audit adds something that survives those simpler outcomes.
+That question leads into the proposed S–I–P–O architecture. It offers a disciplined language for source possibility, relational structure, physical process and observer-positioned registration. It is an **architectural hypothesis**, not an experimentally established chain of four physical media.
 
 ## Technical shorthand you will meet later
 
-MKUFT often writes:
+The original four-role shorthand is:
 
-```math
+\`\`\`math
 S \rightarrow I \rightarrow P \rightarrow O
-```
+\`\`\`
 
-At this stage, read those letters as different roles that must not be silently collapsed:
+- **S:** hypothesised source or possibility.
+- **I:** relational or informational constraints.
+- **P:** physical expression and evolution.
+- **O:** bounded observation, registration and records.
 
-- **S** — substrate/source possibility;
-- **I** — informational/relational structure;
-- **P** — physical state;
-- **O** — observation/registration.
+A further update computes the next effective possibility/Address from the result actually reached. The loop does not imply that making an observation rewrites a universal substrate. A physical interaction between proposed layers must be defined and tested rather than read out of the arrows.
 
-The arrows do not prove that each layer physically causes the next. A valid physical claim still needs a carrier, units, dynamics, measurable consequence and comparison against established physics.
+## A relationship can carry information that its parts do not
+
+Now imagine three binary instruments, A, B and C. We have two possible mathematical systems, each giving four equally likely joint outcomes.
+
+| System E | System O |
+|---|---|
+| 000 | 001 |
+| 011 | 010 |
+| 101 | 100 |
+| 110 | 111 |
+
+In both systems, **each single instrument** produces zero or one equally often. Even every **pair** has the same distribution: 00, 01, 10 and 11 each occurs a quarter of the time.
+
+But the three-bit relationship differs. In E the parity is even; in O it is odd:
+
+\`\`\`math
+A\oplus B\oplus C =
+\begin{cases}
+0 & \text{System E},\\
+1 & \text{System O}.
+\end{cases}
+\`\`\`
+
+So the whole correctly linked triple distinguishes two systems that all its individual and pairwise marginals cannot distinguish.
+
+This is a standard information-theoretic example, **not** a novel MKUFT theorem or a measurement of a hidden physical force. Its value here is to make the scientific question concrete: *could the current observer arrangement be incapable of registering the relation needed for the next test?*
+
+If our instruments record only unlinked summaries, their common single and pair distributions do not let us recover the missing parity result. The next step is to obtain **validly joined measurements of the same events**, or to design a lawful intervention—not to pretend the information was already present.
+
+That is why [Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) and [Sideways Inquiry](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md) matter. Sometimes the more productive scientific move is not another explanation for existing observations, but a better arrangement for making the alternatives distinguishable.
 
 ## How to read equations outside your field
 
-Before a hard equation, the surrounding prose should tell you what question it answers, what its main symbols represent, what is held fixed, what native baseline is being compared, and what would make the move fail.
+An equation should arrive after you know which object it governs. Identify the inputs, the transformation, what is held fixed, the competing explanation and the observable consequence. Only then ask how the notation expresses those relations.
 
-ChatGPT, symbolic mathematics tools, textbooks, papers or a specialist can help unpack the algebra. That assistance is translation, not evidence.
-
+The exact derivations remain in the technical modules and papers. Explanation can make them approachable without diluting their assumptions or replacing an unresolved scientific step with a metaphor.
 
 ## From object to law
 
@@ -118,10 +130,12 @@ The [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDAT
 A useful shorthand is:
 
 ```text
-D = what states are admissible here
-T = what transitions are lawful here
-W = how the lawful surviving routes are weighted or costed
+D = the domain of admissible physical states and paths
+T = the applicable transition rule or generator
+W = an optional, domain-appropriate weighting or selection structure
 ```
+
+These are different mathematical types; a weighting does not make an inadmissible path possible. A real physical model must supply the domain, rule and weighting with the appropriate units, normalisations and established limiting behaviour.
 
 The order matters. A route should not become “possible” merely because it is attractive or highly weighted.
 
@@ -148,9 +162,9 @@ No.
 
 [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md) separates local performance from whole-system closure, law sufficiency, and recoverability.
 
-A part can improve its own score while the wider system becomes harder to restore.
+A part can improve its own score while the wider system becomes harder to restore. Consider a pumping station that meets every local throughput target while drawing down the reserve needed to respond to the next major fault. The local number and the whole-system future tell different, compatible stories.
 
-That matters in biology, engineering, institutions, AI, and control systems.
+That matters in biology, engineering, institutions, AI and control systems. The claim travels between those domains as an investigative distinction, not as one newly demonstrated physical law.
 
 ### 5. Can two states look the same now but have different futures?
 
@@ -208,7 +222,9 @@ no material split under a strong declared challenge
 → only for that target, regime, challenge family and tolerance
 ```
 
-A split does not identify the hidden mechanism by itself, and a null does not prove that the state is complete for every possible question.
+A split exposes an inadequacy in the *declared* state equivalence; it does not identify a hidden mechanism by itself. A null preserves the simpler description for the tested question and regime, not for every possible future.
+
+The hard part is choosing a challenge that teaches us something. A new experiment can improve a theory even when its result tells us that the extra complexity was unnecessary.
 
 The first full prospective materials instantiation is [28C — Minimum Decisive FSAI/FSSR Flagship: History-Dependent HCP Magnesium Mechanics](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md). It does **not** ask whether magnesium has history effects; established materials science already owns those. It asks whether FSSR challenge selection and the smallest measurable state repair add anything beyond a strong native constitutive state and a matched ordinary experimental-design comparator. The protocol remains prospective and is designed to return a clean preservation/null as readily as a positive recruitment result.
 
@@ -231,6 +247,16 @@ The same applies to directional words. Something can be `downstream` under one r
 
 [Read the technical corollary in 33S7A §5D.](docs/33S7A_FUTURE_SUFFICIENT_ADDRESS_INVARIANT_AND_LAYER_BEFORE_LAW_PRECEDENCE.md#5d-boundary-driven-readdressing-and-parent-admissibility-corollary)
 
+### 7B. Could the question, rather than the answer, be misaddressed?
+
+Three independent measurements may all be accurate and still fail to register a relationship that only a joint observation can resolve. Alternatively, the experiment may have joined the wrong samples, confused reporting time with event time, or disturbed what it intended to observe.
+
+[Sideways Invariant Interrogation](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md) asks whether a different lawful question can preserve the intended target while removing an unnecessary obstacle or exposing a new discriminator. [Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) asks what measurements actually lie within the current observer and resource envelope, including a properly registered coalition of partial views.
+
+The question might be as simple as: *Which additional view would distinguish the two explanations, and can we obtain it without changing the thing we want to measure?*
+
+The proposed question earns a test opportunity, not a favourable answer. When no valid observation can be obtained, the missing result stays open.
+
 ### 8. Does that mean there is a new physical layer?
 
 Not automatically.
@@ -241,18 +267,17 @@ MKUFT only earns a stronger claim if ordinary physical variables and fair baseli
 
 That is a deliberately high bar.
 
-## What MKUFT is not claiming
+## What remains to be established
 
-MKUFT is **not** currently claiming that:
+The research has several different scientific statuses, and the distinction between them matters.
 
-- it has experimentally proven a new force;
-- consciousness directly causes wavefunction collapse;
-- semantic meaning automatically changes physical dynamics;
-- every anomaly is evidence of a hidden field;
-- the same equation literally governs cells, societies, and quantum fields;
-- an abstract state-space dimension is automatically a physical spatial dimension;
-- Bell violations permit signalling;
-- a fit to known data is enough to establish a new mechanism.
+The Bell/CHSH 3+1 chart gives an **exact reconstruction of an established mathematical object**. It does not yield an independent new-physics residual: that stronger claim reduced to known CHSH content.
+
+Future-sufficiency conditions, typed state models and Sideways query designs are **formal and methodological proposals**. Their value can be tested in the relevant sciences against adequate native tools, including matched controls and negative results.
+
+The foundational **physical** proposal faces a larger obligation. It must specify real couplings and dynamics, recover the required quantum, gravitational and field-theory regimes, preserve Bell compatibility and no-signalling, and show a new discriminating result rather than a suggestive analogy. Observer position, semantic meaning or a pattern shared by two domains cannot fill in that missing physical derivation.
+
+These distinctions leave the scientific question open while making it possible to judge each result on its own terms.
 
 ## What would make the framework useful?
 
@@ -280,4 +305,4 @@ If those tools do not improve prediction, experimental design, or conceptual cla
 
 ## One-sentence summary
 
-> **MKUFT is a research architecture that asks whether a system has been described at the right layer, with the right future-relevant state and relations, before deciding which law, mechanism, or interpretation should be allowed to govern it.**
+> **MKUFT investigates whether addressed relational structure helps determine the conditions under which effective physical laws operate, while developing testable methods for state sufficiency, observation, cross-scale behaviour and recoverable futures—and keeping the remaining foundational physics burden open.**
