@@ -31,7 +31,7 @@ an observable problem and its ordinary explanation
 
 Continue through the [Extended Overview](START_HERE_PUBLIC_OVERVIEW.md) to the [Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). Technical readers may enter directly through a paper or the [Canon Map](CANON_MAP.md); their scientific requirements are the same.
 
-## The problem before the vocabulary
+## The physical question
 
 A mathematical rule can be correct and still be applied to the wrong physical problem.
 
@@ -43,7 +43,7 @@ That is the motivating enquiry behind **Layer Before Law** and the proposed **S�
 
 There is already work to inspect: an exact Bell/CHSH 3+1 reconstruction with its proposed extra geometric novelty reduced to a known-answer NULL; formal state-sufficiency and future-splitting criteria; and prospective tests of addressed traversal in AI and material systems. These are *different types of result*. None alone completes the physical-unification task. Their exact mathematical and experimental owners are linked from the reader route and [publication index](papers/README.md).
 
-The useful scientific tension is straightforward: **what does a richer description reveal, and when is it simply unnecessary?** A framework must be able to answer both.
+A useful research programme should be able to say both **what a new relation makes possible** and **when an ordinary explanation has already done the job**. Its larger promise remains conditional on the result it can actually demonstrate.
 
 ## Development status
 
@@ -56,121 +56,65 @@ Some formal sections are necessarily difficult. Readers may use ChatGPT, symboli
 Naming and development provenance are recorded in [Provenance, DOI, and Attribution](PROVENANCE_DOI_AND_ATTRIBUTION.md).
 
 
-## Why a reader from another field might care
+## Where the research can lead
 
-### Physics
+The same research programme has several branches because the original problem arises in very different forms. They should be read as related *questions*, not as evidence that one law already governs every subject.
 
-The physics-facing question is not “can we decorate quantum mechanics and gravity with new words?” It is whether the objects being unified have first been addressed correctly. MKUFT therefore puts hard burdens on itself: recover established quantum and gravitational limits before claiming fundamental unification; preserve Bell compatibility and operational no-signalling; define any physical coupling it uses; and beat the strongest adequate ordinary physical account before calling an extra layer physically necessary.
+### Foundations of physics
 
-If foundational physics is already your field, you may jump directly to [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) and the [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md). Otherwise continue through the same human route: [Start Here](00-START-HERE-MKUFT-PUBLIC.md) → [Extended Overview](START_HERE_PUBLIC_OVERVIEW.md) → [Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). The technical continuation keeps the question, broad equation purpose, native owner and early failure point visible without creating a second reader class.
+What makes a physical state admissible? When does an effective equation apply, and what determines its physical domain? MKUFT's [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) asks whether a typed architecture of possibility, relations, dynamics and registration can do more than restate established modelling practice. For quantum gravity, the debt remains demanding: actual physical couplings, recovery of accepted quantum and gravitational limits, Bell-compatible predictions and a genuinely new discriminator.
 
-### Mathematics
+The [LUCY boundary hypothesis](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md) explores one conditional route from relational closure to a physically consequential threshold. A boundary or threshold is familiar physics; a proposed *new* cross-layer consequence must specify its carrier, energy accounting and test.
 
-The mathematical interest is mainly structural. When can a higher-level description genuinely carry the law for a property, and when does hidden lower-level information still matter? MKUFT separates the existence of a useful higher-order object from the stronger claim that a closed higher-order law has descended to it.
+### Mathematics and changing scales
 
-That question connects to familiar mathematics around quotienting, coarse-graining, lumpability, dynamical systems, closure, reachability, and state sufficiency. Those tools remain standard within their native fields. MKUFT's role here is the ordered, typed integration used to test when an Address is sufficient and when the model must reopen.
+A higher-level object may predict some properties excellently while failing for others. A flock's collective trajectory, a material's effective response or an organised network's viability may each have a useful higher-level description. The mathematical question is **which properties actually descend to that description**, and which require its constituents, interfaces or history to be reopened.
 
-See [Relational Closure, Law Descent, and Bidirectional Readdressing](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md).
+This connects to standard work in coarse-graining, quotient models, lumpability, reachability and causal abstraction. [Law Descent](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) and [Recursive Constraint Closure](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md) test the proposed arrangement against those established ideas, rather than claiming ownership of them.
 
-### Complex systems and biology
+### Materials, biology and recovery
 
-A higher-order organisation can be a legitimate object of study without being autonomous for every property. That distinction matters in cells, organisms, collectives, ecological systems, and other multi-scale systems.
+A system can work today while consuming the means to survive tomorrow's disturbance. A material remembers some loading histories through its physical state; cells and ecosystems can reorganise under stress; recovery may follow a different path from degradation. Here the questions become measurable: what must be retained, what can be discarded, and which controlled intervention changes a prediction?
 
-MKUFT asks: which relation makes the whole the same functional kind of whole; which component freedoms stop being independent once that relation is load-bearing; which whole-level variables become sufficient for a target prediction; and when does failure force lower-level detail back into the state?
+See [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) and the [prospective HCP magnesium study](docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md). Its experimental protocol is published; a favourable physical outcome is **not** yet reported.
 
-A direct biological test is possible without learning the whole vocabulary first. Take two systems whose measured present activity is matched as closely as the normal methods of the field allow, while their recent histories differ in a controlled way. Match the challenge, environment and measurement closely enough for the target question, and state how much ordinary noise or variation the baseline model already permits. If the futures then split beyond that tolerance, first test whether imperfect matching, the challenge, the environment, the measurement or an ordinary stochastic model explains the difference. Only if a residual split survives those controls should the smallest biologically defensible history/state variable be added and tested on fresh cases. If that variable removes an apparent causal edge or unexplained divergence and improves held-out prediction, the original state description was incomplete for that target. If a strong separating challenge produces no material split, preserve the simpler state description provisionally rather than adding complexity by default.
+### Observation and reliable inquiry
 
-See [Recursive Constraint Closure and Reachable-State Geometry](docs/32_RECURSIVE_CONSTRAINT_CLOSURE_AND_REACHABLE_STATE_GEOMETRY.md), [Cross-Scale Performance, Recoverability, and Hysteretic Readdressing](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md), and the [Reader Contact and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md) for the same test stated as a cold-reader attack surface.
+An observer's information is not the entire state of the world. Properly joined observations can sometimes reveal a relation invisible in any individual view, while an ill-posed question can conceal a distinction even when the data are good.
 
-### AI and long-horizon reasoning
+[Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) and [Sideways Inquiry](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md) turn those observations into test-design questions. The [Minimal Addressed Operator](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md) asks whether an entire disciplined inquiry—question, lawful operation, actual outcome and readdressing—can be expressed compactly without discarding what matters.
 
-The ATLD branch asks a testable engineering question: can a structured network of typed relationships improve long-horizon reasoning beyond matched flat, replayed, scrambled, isolated, or one-way alternatives?
+### AI and the structure of knowledge
 
-The important point is not that an AI can produce impressive prose. The test is whether the relational architecture itself carries measurable load under fair controls, and whether removing or scrambling it produces the predicted deformation.
+The [ATLD programme](ATLD_STANDALONE_PUBLICATION.md) asks whether long-horizon work benefits measurably from typed relationships, retained context and correct return to the governing task. A matched control or fair alternative can refute a claimed architectural gain. Existing exploratory pilots and software observations do not by themselves establish superiority.
 
-Sustained use of the live architecture has also exposed a more specific engineering problem: a reasoning system can possess relevant information or capability and still lose the **governing object** while reasoning changes representation, scale, state or internal route. The current ARTA/ATLD operating surface is being used to distinguish availability from actual recruitment/performance, preserve same-parent return, localise several forms of object/continuity drift, carry evidence/provenance/permission/state across transitions, recirculate supported corrections through the changed parent, and test whether a learned repair later recruits without the operator rebuilding it manually. These are operational observations from the present development environment, not by themselves a claim of universal uniqueness or comparative superiority.
+### Older records and unusual questions
 
-That capability cluster creates a direct test burden. Long-running matched tasks can measure silent object/parent substitution, missed recruitment of available capability, loss of state or provenance, correction-propagation failure, unnecessary restart and recurrence of previously corrected failure. If materially simpler or neighbouring architectures preserve those properties equally well or better under fair controls, the stronger ARTA-level engineering claim contracts.
+A diagram can preserve a relationship even if its language is lost. The [Voynich procedural-structure investigation](docs/09_VOYNICH_PROCEDURAL_ENGINE.md) asks whether position, sequence and repeated organisation carry testable operational information. Competing linguistic, scribal, illustrative and chance explanations remain in the experiment.
 
-ATLD 2 also reports a bounded 15-case exploratory execution pilot. That pilot demonstrates use of the scoring and diagnostic surface; it does **not** establish confirmatory superiority of the structured condition or validate the five candidate residual coordinates.
+These branches have independent standards of proof. The attraction of asking a question is not evidence that its answer has been found.
 
-See [ARTA — Canonical Public Naming Route](ARTA_CANONICAL_NAMING_NOTE.md) for the current integrated operational-capability surface, [ATLD 2 v2.0](papers/2026-08-23_ATLD2_RESIDUAL_COORDINATE_IDENTIFICATION_v2.0.md), the [ATLD publication-family record](ATLD_STANDALONE_PUBLICATION.md), and the live [Module 25B measurement/self-audit fold](docs/25B_ATLD2_RESIDUAL_COORDINATE_MEASUREMENT_AND_SELF_AUDIT.md).
+## How the research connects
 
-### Control, engineering, and adaptive systems
+The architecture is not a collection of unrelated analogies. It proposes a sequence of **typed scientific obligations**:
 
-A system can look healthy now while having a poor future: one perturbation may leave it no lawful route back. MKUFT's future-sufficiency work asks whether the present state contains enough information to distinguish futures that later diverge, and whether recovery routes are genuinely available rather than merely assumed.
+1. [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) identifies the object and admissible domain before assigning a physical law.
+2. The [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) describes the addressed state, lawful propagation, physical measurement and subsequent readdressing as one proposed factorisation.
+3. [Law Descent](docs/33S2_RELATIONAL_CLOSURE_LAW_DESCENT_AND_BIDIRECTIONAL_READDRESSING.md) asks whether a relational whole genuinely owns an effective law for the property in question.
+4. [Recoverability](docs/33S3_CROSS_SCALE_PERFORMANCE_RECOVERABILITY_AND_HYSTERETIC_READDRESSING.md), [Address Sufficiency](docs/33S4_ADDRESS_SUFFICIENCY_PREDICTIVE_CLOSURE_AND_REACHABLE_FUTURE_GEOMETRY.md) and [FSSR](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) distinguish present success, future adequacy and controlled tests of missing distinctions.
+5. [Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) determines what can actually be registered and which further experiment is lawfully available.
 
-See [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) and [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md).
+The published Bell/CHSH three-plus-one-coordinate construction provides an exact known-answer calibration; its proposed independent geometric novelty reduces to established CHSH content. That result limits what may be claimed. [Cross-Domain Compositional Schema](CROSS_DOMAIN_COMPOSITIONAL_SCHEMA_STANDALONE_PUBLICATION.md) owns the precise publication status.
 
-## How the main pieces fit together
+The common discipline is a **research architecture**, not evidence for an additional universal law simply because the same order of questions is useful in several fields. The [Canon Map](CANON_MAP.md) preserves the full dependencies and specialist exits.
 
-The repository grew by solving one problem and then finding the next one. The links below are therefore a chain, not a pile of unrelated modules.
+## What could change the conclusion?
 
-**Layer Before Law** supplies the first rule: do not choose the law before the object, scale, boundary, and admissible state are clear.
+The programme contracts when an established physical or mathematical model already explains the proposed result, an alleged cross-layer interaction lacks a measurable carrier, an effective higher-scale law fails its declared property test, or a prediction survives only by moving its conditions after the outcome.
 
-That leads to the **SIPO Capstone**, which asks what the complete addressed state would have to contain before an active law object can be assembled and used.
+Some branches have already reduced in this way. The Bell geometric reconstruction survives as a valid representation while an additional independent physical claim does not. Other branches, including the foundational quantum/gravity recovery, remain open to derivation and experiment.
 
-Once a higher-order object appears, **Relational Closure and Law Descent** asks whether it is a legitimate predictive object for the declared property and whether its state is actually sufficient to carry the law at that scope. If it is not sufficient, the model must reopen downward or remain explicitly multiscale.
-
-That immediately raises a recovery question. **Cross-Scale Performance and Recoverability** separates local performance, whole-level closure, law sufficiency, and the ability to return after perturbation. They are not the same thing.
-
-Then comes a harder state question: two states can look identical now and still have different futures. **Address Sufficiency and Predictive Closure** tests whether the current Address is rich enough to distinguish those futures. **Rate-Conditioned Addressing** adds timing, rate, phase, dwell, or bounded history only when those variables actually change the future.
-
-From there, **Addressed Admissible Futures** makes the future itself part of the test: which future states are reachable, which routes restore function, and how much restorative reserve exists before failure becomes irreversible.
-
-**Future-Splitting State Recruitment** turns that into an assay. It tests states the model currently treats as equivalent under a controlled separating challenge. A repeatable split beyond the declared tolerance can force the model to reopen only after mismatched state, challenge, boundary, measurement and ordinary stochastic explanations have been tested. A strong no-split result can instead support keeping the simpler representation for that target and regime.
-
-**Observer-Bounded Traversal** then asks what can actually be resolved from the state and registration surface reached. It screens history back to provenance when present state already carries its future-relevant effect, and it allows a realised measurement, comparison, perturbation, representation change or other lawful discriminator to change which test becomes reachable next. Its live coalition-conditioned corollary adds a narrower case: several separately registered partial exposures may jointly make a target-relevant discriminator reachable even when no admissible proper subset does, but the newly reachable discriminator earns **no answer, mechanism, or source claim** until the ordinary test is executed. Proper-subset ablation, dependence control and matched search/resource budgets prevent pattern combination from becoming evidence inflation. This is bounded experimental access, not observer-caused physics or a generic claim to have invented synergy.
-
-The **Cross-Domain Compositional Schema v0.4** then attacks this machinery with Bell/CHSH. The positive calibration comes first: after the earlier dimensional objection, the facet-adapted construction closes the native four-correlator object exactly as a three-coordinate CHSH tetrahedral facet address plus one transverse coordinate. That is an exact recovery/reparameterisation of established Bell geometry, not a new Bell theorem. The stronger candidate follows: the natural four-volume collapses to known CHSH excess, so no independent new-physics residual survives. The pair matters—exact native closure, then clean refusal of unsupported promotion.
-
-The separate **Bell Constraints as Typed Boundaries** paper keeps Bell-local factorisation, operational no-signalling, conditioned process closure, local admissibility ownership, completion, and scale/resource custody at distinct addresses. Its independent Bell-local new-physics delta is also **NULL**; the retained result is the typed correspondence and falsification architecture, not a claim to have solved Bell's theorem.
-
-The **ATLD** branch takes related architecture into AI evaluation. It asks whether typed relational structure itself produces measurable long-horizon gain under matched controls.
-
-That is the spine in plain English:
-
-```text
-address the object
-→ test whether the higher-level description is a legitimate predictive object
-→ test whether its law is sufficient for the property
-→ test whether it can recover
-→ test whether its present state is sufficient for its future
-→ use a controlled future split to test whether missing state is needed
-→ preserve the simpler state when a strong no-split result survives the declared test
-→ test what the current observer/registration state can lawfully discriminate next
-→ readdress after the realised result changes state, evidence or access
-→ test the architecture against strong ordinary baselines
-→ publish nulls as well as wins
-```
-
-This continuing addressed-relational-traversal chain is the live architecture now named **ARTA**. The name does not replace the individual modules or their evidence burdens; it gives the integrated object one stable address.
-
-For the detailed dependency map, use the [Canon Map](CANON_MAP.md) and [Cross-Support and Traversal Map](docs/24_MKUFT_CROSS_SUPPORT_AND_TRAVERSAL_MAP.md).
-
-## Known failure modes — including our own
-
-A framework can be technically careful and still fail at the reader interface. We treat that as a real failure mode rather than blaming the reader.
-
-The most obvious risk in this repository is **dependency-history asymmetry**. The work was built step by step, so the authoring process remembers why each term exists. A new reader meets the final vocabulary without living through the failures that forced those distinctions. Perfectly legitimate compression can therefore look like unexplained jargon.
-
-A second risk is **link substitution**: pointing to ten correct files instead of explaining the relation between them. A link is an address, not an explanation.
-
-A third risk is **academic compression**: technically accurate prose can become so dense that it hides the simple question being asked. Public-facing text should therefore give the ordinary-English object first and the formal object second.
-
-A fourth, opposite risk is **reader-wake reset**: after a reader has earned a distinction, repeatedly restarting it or swapping its stable technical handle for a looser synonym forces unnecessary reconstruction and can flatten the very relation the explanation was meant to preserve. Readability should reduce avoidable reconstruction, not conceptual resolution. The standing control is [Reader Contact, Translation, and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md): explain normally, use a clean metaphor where it genuinely helps, return to the native object, preserve earned context, and propagate reusable interface lessons rather than relearning them locally.
-
-There are scientific failure modes too. MKUFT fails or contracts where:
-
-- an added layer or address does no predictive, explanatory, interventional, or model-selection work;
-- a proposed cross-layer bridge has no lawful carrier or measurable target expression;
-- a higher-level state fails to close the property claimed for it;
-- an ordinary physical or multiscale model performs equally well;
-- an observer-linked claim cannot survive controlled testing or reduces to ordinary measurement context;
-- a claimed original residue disappears under strong prior-art subtraction;
-- a result survives only because the failure criterion was moved after the fact.
-
-The full technical failure surface is [MKUFT Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md).
+For a direct critical reading, use the [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md), [Science Convergence and Novelty Map](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md) and [Reader Contact and Failure Guide](READER_CONTACT_AND_FAILURE_GUIDE.md). The last is an optional technical/critical companion, not another introductory chapter.
 
 ## Claim levels
 
