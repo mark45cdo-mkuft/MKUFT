@@ -55,26 +55,26 @@ For a passage on the observer, begin with the actual problem: a car passes behin
 
 Use the *same composed register* from the first contact to the mathematical owner. Warmth can come from a clear physical scene, intellectual curiosity and why a result matters, without casual chat residue or grand scientific claims. Precision can come from a valid equation and an honestly specified falsifier, without opaque formalism offered in place of an explanation. Do not patronise an intelligent non-specialist; do not lower the burden of a university-standard derivation just to maintain readability. Give the bridge at the point it is required, then leave earned terminology intact.
 
-A new cross-domain or observer insight may warrant a clearer explanation or a link to the existing technical owner, rather than a new paper. Keep the scientific claim, human relevance, existing ordinary account, source identity and potential failure distinct. If the bridge changes none of these for the reader, omit it. These editorial controls act **during authorship**; do not paste an instruction checklist or a series of self-defensive caveats into the public prose.
+A new cross-domain or observer insight may warrant a clearer explanation or a link to the existing technical owner, rather than a new paper. Keep the scientific claim, human relevance, existing ordinary account, source identity and potential failure distinct. Let the *new question or result* move a reader forward; do not repeat a previous introduction simply to make a newly linked document feel self-contained. Standalone technical records may repeat precise provenance because their role is different.
+
+These editorial controls operate **during authorship**, not as a second voice inside the science. The public argument should carry its own interest through phenomena, consequences, tests, unanswered questions and earned conclusions—not through declarations about the author's personality, a private conversation, or why the writing has been restrained.
 
 ## What a reader should be able to tell in five minutes
 
-A reader should be able to answer five questions.
+**What is the larger scientific object?**  
+MKUFT is an evolving foundational research programme. Its proposed S–I–P–O architecture asks whether correctly typed possibility, relational constraint, physical evolution and observer registration can help determine the conditions under which effective laws operate. Recovery of established quantum theory and gravitation, and any independently new physical mechanism, remain open obligations—not achievements already established by the architecture.
 
-**What kind of thing is this, and what is the central proposal?**  
-MKUFT is currently a speculative research architecture rather than a completed new law or accepted unified physical theory. Its central proposal is that before choosing a law, identify the object, scale, boundary, evidence position, admissible states, and lawful transitions. MKUFT calls this Layer Before Law.
+**Why explore it?**  
+The attraction is not only procedural. Constraints can support real higher-order behaviour; boundaries can determine physical modes; observers can record different partial views of one event; ancient diagrams may preserve relational instructions without an accessible language. These are stimulating questions with existing sciences and interpretations that must be allowed to win. Their worth lies in the hypotheses and tests they open, not in presumed common origin.
 
-**What is worth inspecting?**  
-Not a finished new law of nature. The present research object is a disciplined way to ask a sequence of harder questions: have we described the right object; is the higher-level description actually sufficient for the property we want to predict; do two apparently similar present states hide different futures; can the system still recover after perturbation; and does a proposed relation survive strong ordinary and prior-art controls? The technical names for those steps come later in this guide, after the questions they answer.
+**What has actually been done?**  
+The public body contains typed mathematical proposals, a Bell/CHSH known-answer three-plus-one reconstruction whose proposed independent geometric novelty returned a NULL, formal state-sufficiency and inquiry structures, technical comparison methods, and prospective experiments. These are distinct evidence classes. A demonstrated mathematical reconstruction is not a validated physical theory; a published experimental protocol is not a positive experimental result.
 
-**What is ordinary or already known?**  
-Many mathematical ingredients have strong prior art: coarse-graining, quotienting, lumpability, closure, reachability, dynamical systems, state sufficiency, Bell/CHSH mathematics, and control ideas. Their native fields retain those meanings and methods.
+**What would make a branch fail?**  
+If a stronger established model already supplies the whole account; if a claimed new physical layer lacks a defined carrier, correct units, standard-limit recovery or discriminating observation; if a higher-scale model fails its own property-specific prediction; or if an effect survives only because its failure condition is made flexible after the result.
 
-**What would make the work fail?**  
-If the extra address structure adds no predictive, explanatory, interventional, or model-selection value; if cross-layer couplings have no carriers; if higher-level laws do not actually close at the claimed level; if ordinary models perform equally well; or if physics-facing burdens such as Bell compatibility, no-signalling, dimensional consistency, standard-limit recovery, and conservation fail.
-
-**Where is the quickest technical attack?**  
-Use [Falsification Summary](docs/05_FALSIFICATION_SUMMARY.md), [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md), and the [current v1.2 synthesis](papers/2026-08-30_MKUFT_LAYER_BEFORE_LAW_SUBMISSION_SYNTHESIS_v1.2.md). A good critique should identify one load-bearing proposition and try to kill it.
+**Where can I look without retracing every introduction?**  
+Take the [single public progression](00-START-HERE-MKUFT-PUBLIC.md) to the [Extended Overview](START_HERE_PUBLIC_OVERVIEW.md), then select the relevant branch in the [Technical Continuation](SCIENTIFIC_READER_TRAVERSAL_GUIDE.md). The [Plain English narrative](MKUFT_IN_PLAIN_ENGLISH.md) is a companion story, not a different theory; the [Canon Map](CANON_MAP.md) serves specialist navigation. Direct critical entry is available through [Falsification](docs/05_FALSIFICATION_SUMMARY.md), [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) and [novelty comparisons](SCIENCE_CONVERGENCE_AND_NOVELTY_MAP.md).
 
 ## Known reader-interface failure modes
 
