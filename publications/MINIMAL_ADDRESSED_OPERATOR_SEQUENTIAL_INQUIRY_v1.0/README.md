@@ -2,21 +2,21 @@
 
 **Title:** *Toward a Minimal Addressed Operator for Sequential Inquiry: Factorisation, Readdressing, and Recursive Scale Handoff in MKUFT*  
 **Author:** Mark Charles McLaughlin  
-**ORCID:** \`0009-0005-7736-1511\`  
+**ORCID:** `0009-0005-7736-1511`  
 **Version:** 1.0  
 **Date:** 27 September 2026  
-**Version DOI:** [\`10.5281/zenodo.22998394\`](https://doi.org/10.5281/zenodo.22998394)  
-**Concept DOI:** [\`10.5281/zenodo.22998393\`](https://doi.org/10.5281/zenodo.22998393)  
+**Version DOI:** [`10.5281/zenodo.22998394`](https://doi.org/10.5281/zenodo.22998394)  
+**Concept DOI:** [`10.5281/zenodo.22998393`](https://doi.org/10.5281/zenodo.22998393)  
 **Licence:** CC BY-NC-SA 4.0  
 **Status:** PUBLISHED Zenodo preprint.
 
 ## Exact carrier
 
-- Filename: \`Toward_a_Minimal_Addressed_Operator_for_Sequential_Inquiry_MKUFT_Preprint_v1.0_K4_FINAL.pdf\`
+- Filename: `Toward_a_Minimal_Addressed_Operator_for_Sequential_Inquiry_MKUFT_Preprint_v1.0_K4_FINAL.pdf`
 - Pages: 26
 - Bytes: 449,957
-- MD5: \`20d1e3e6f715b826f03cac92d7875644\`
-- SHA-256: \`6773e5eaa7bdce75dfc77f191eec4858004ee202532602a9ddd225373947511f\`
+- MD5: `20d1e3e6f715b826f03cac92d7875644`
+- SHA-256: `6773e5eaa7bdce75dfc77f191eec4858004ee202532602a9ddd225373947511f`
 
 The Zenodo record displayed the same MD5 as the final local carrier used for upload. This directory records the frozen carrier identity and checksum. The exact binary remains under Zenodo publication custody unless a byte-verified repository mirror is added separately.
 
