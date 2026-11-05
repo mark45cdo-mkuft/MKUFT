@@ -17,7 +17,7 @@
 
 - **[Exact Zenodo v1.0 publication](https://doi.org/10.5281/zenodo.22100926)**
 - [Standalone publication record](../BELL_CONSTRAINTS_STANDALONE_PUBLICATION.md)
-- [Frozen DOI PDF mirror](../publications/BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0_DOI_10.5281_zenodo.22100926.pdf)
+- [Frozen publication identity and verification record](../publications/BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0/README.md)
 - [Frozen identity/checksum record](../publications/BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0/)
 - [Papers and Publications index](README.md)
 
