@@ -2,12 +2,12 @@
 ## Factorisation, Readdressing, and Recursive Scale Handoff in MKUFT
 
 **Author:** Mark Charles McLaughlin  
-**ORCID:** \`0009-0005-7736-1511\`  
+**ORCID:** `0009-0005-7736-1511`  
 **Affiliation:** Independent Researcher, United Kingdom  
 **Version:** 1.0  
 **Publication date:** 27 September 2026  
-**Version DOI:** [\`10.5281/zenodo.22998394\`](https://doi.org/10.5281/zenodo.22998394)  
-**Concept DOI:** [\`10.5281/zenodo.22998393\`](https://doi.org/10.5281/zenodo.22998393)  
+**Version DOI:** [`10.5281/zenodo.22998394`](https://doi.org/10.5281/zenodo.22998394)  
+**Concept DOI:** [`10.5281/zenodo.22998393`](https://doi.org/10.5281/zenodo.22998393)  
 **Licence:** CC BY-NC-SA 4.0  
 **Status:** published Zenodo preprint / formal research programme.
 
@@ -91,7 +91,7 @@ The paper tests whether a representation-independent implementation can preserve
 6. **post-change state fidelity**;
 7. **recursive continuation** from the state actually reached.
 
-MKUFT's typed Address and readdressing are candidate realisations of those obligations. A valid factorisation must construct those roles from the comparator semantics; it cannot assume that the compared system already contains variables or operations named \`Address\` or \`readdressing\`.
+MKUFT's typed Address and readdressing are candidate realisations of those obligations. A valid factorisation must construct those roles from the comparator semantics; it cannot assume that the compared system already contains variables or operations named `Address` or `readdressing`.
 
 ## Enabling moves
 
@@ -164,20 +164,20 @@ It does not freeze a future theorem as already proved.
 
 The mutable public-canon dependencies used in the derivation were pinned in the paper to MKUFT commit:
 
-\`770f4abcffdacdea085c39db8b3fd39324e46bcc\`.
+`770f4abcffdacdea085c39db8b3fd39324e46bcc`.
 
 ## Direct parent DOI lineage
 
 The Zenodo record declares this paper as derived from the following publication objects:
 
-- MKUFT v2 — \`10.5281/zenodo.21973064\`
-- Layer Before Law v1.0 — \`10.5281/zenodo.21971270\`
-- Recursive Constraint Closure v0.1 — \`10.5281/zenodo.21971425\`
-- Addressed Admissible Futures v0.1 — \`10.5281/zenodo.22031333\`
-- ATLD v1.0 — \`10.5281/zenodo.21341521\`
-- ATLD 2 v2.0 — \`10.5281/zenodo.22068803\`
-- Chain-Address Invariants v1.0 — \`10.5281/zenodo.22102379\`
-- Cross-Domain Compositional Schema v0.4 — \`10.5281/zenodo.22166468\`
+- MKUFT v2 — `10.5281/zenodo.21973064`
+- Layer Before Law v1.0 — `10.5281/zenodo.21971270`
+- Recursive Constraint Closure v0.1 — `10.5281/zenodo.21971425`
+- Addressed Admissible Futures v0.1 — `10.5281/zenodo.22031333`
+- ATLD v1.0 — `10.5281/zenodo.21341521`
+- ATLD 2 v2.0 — `10.5281/zenodo.22068803`
+- Chain-Address Invariants v1.0 — `10.5281/zenodo.22102379`
+- Cross-Domain Compositional Schema v0.4 — `10.5281/zenodo.22166468`
 
 These relations establish the declared derivation lineage. They do not imply that the exact v1.0 factorisation conjecture appeared verbatim in every parent object.
 
