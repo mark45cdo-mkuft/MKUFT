@@ -2,11 +2,11 @@
 
 **Title:** *Toward a Minimal Addressed Operator for Sequential Inquiry: Factorisation, Readdressing, and Recursive Scale Handoff in MKUFT*  
 **Author:** Mark Charles McLaughlin  
-**ORCID:** \`0009-0005-7736-1511\`  
+**ORCID:** `0009-0005-7736-1511`  
 **Version:** 1.0  
 **Publication date:** 27 September 2026  
-**Version DOI:** [\`10.5281/zenodo.22998394\`](https://doi.org/10.5281/zenodo.22998394)  
-**Concept DOI:** [\`10.5281/zenodo.22998393\`](https://doi.org/10.5281/zenodo.22998393)  
+**Version DOI:** [`10.5281/zenodo.22998394`](https://doi.org/10.5281/zenodo.22998394)  
+**Concept DOI:** [`10.5281/zenodo.22998393`](https://doi.org/10.5281/zenodo.22998393)  
 **Licence:** CC BY-NC-SA 4.0  
 **Status:** PUBLISHED Zenodo preprint.
 
@@ -35,11 +35,11 @@ The live scientific owners remain the current MKUFT modules. The paper is a cita
 
 ## Frozen carrier identity
 
-**Zenodo filename:** \`Toward_a_Minimal_Addressed_Operator_for_Sequential_Inquiry_MKUFT_Preprint_v1.0_K4_FINAL.pdf\`  
+**Zenodo filename:** `Toward_a_Minimal_Addressed_Operator_for_Sequential_Inquiry_MKUFT_Preprint_v1.0_K4_FINAL.pdf`  
 **Pages:** 26  
 **Bytes:** 449,957  
-**MD5:** \`20d1e3e6f715b826f03cac92d7875644\`  
-**SHA-256:** \`6773e5eaa7bdce75dfc77f191eec4858004ee202532602a9ddd225373947511f\`
+**MD5:** `20d1e3e6f715b826f03cac92d7875644`  
+**SHA-256:** `6773e5eaa7bdce75dfc77f191eec4858004ee202532602a9ddd225373947511f`
 
 The published Zenodo record displayed the same MD5 as the locally frozen final carrier. This repository records the carrier identity and checksum; the frozen binary remains under Zenodo publication custody unless a byte-verified repository mirror is added separately.
 
@@ -56,16 +56,16 @@ The paper is **not** a replacement owner for those modules. Later canonical refi
 
 ## Derivation lineage
 
-The Zenodo record declares \`is derived from\` for:
+The Zenodo record declares `is derived from` for:
 
-- \`10.5281/zenodo.21973064\`
-- \`10.5281/zenodo.21971270\`
-- \`10.5281/zenodo.21971425\`
-- \`10.5281/zenodo.22031333\`
-- \`10.5281/zenodo.21341521\`
-- \`10.5281/zenodo.22068803\`
-- \`10.5281/zenodo.22102379\`
-- \`10.5281/zenodo.22166468\`
+- `10.5281/zenodo.21973064`
+- `10.5281/zenodo.21971270`
+- `10.5281/zenodo.21971425`
+- `10.5281/zenodo.22031333`
+- `10.5281/zenodo.21341521`
+- `10.5281/zenodo.22068803`
+- `10.5281/zenodo.22102379`
+- `10.5281/zenodo.22166468`
 
 ## Publication/citation boundary
 
