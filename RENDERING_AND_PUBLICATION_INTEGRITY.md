@@ -2,7 +2,7 @@
 
 **Status:** non-canon repository operations note.  
 **Scientific status:** not an MKUFT scientific module, theory claim, evidence owner, or architecture owner.  
-**Operational ownership:** K4/C2 own reasoning, recruitment, receiver and recursive-learning discipline. MKUFT research/publication closure remains governed by [RESEARCH_DERIVATION_AND_CLOSURE_SOP.md](RESEARCH_DERIVATION_AND_CLOSURE_SOP.md) and release identity by [Module 34](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md).
+**Operational boundary:** This repository-rendering note does not select or control any external reasoning architecture, recruitment method, receiver or recursive-learning workflow. MKUFT research/publication closure remains governed by [RESEARCH_DERIVATION_AND_CLOSURE_SOP.md](RESEARCH_DERIVATION_AND_CLOSURE_SOP.md) and release identity by [Module 34](docs/34_RESEARCH_OBJECT_IDENTITY_RELEASE_INTEGRITY_AND_REPRODUCIBILITY.md).
 
 ## House carrier
 
