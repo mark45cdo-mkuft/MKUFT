@@ -593,6 +593,12 @@ Care, love, dignity, cohesion, or a preference for humane restoration may govern
 
 This boundary is structural, not apologetic. Scientific cleanliness is what allows humane orientation to remain genuine rather than becoming rhetoric attached to an overclaim.
 
+### 8.9 A relation may be accessible only through a lawful joint readout
+
+Quantum correlations are a useful discipline check on this module. A properly joined pair of records can reveal something neither remote laboratory could transmit through its local outcomes alone. But local inaccessibility does not authorise an imagined faster-than-light message, and a change in readout does not imply that the observer altered the underlying physics.
+
+This is a distinction between the **relation**, its **physical realisation**, and the **available observer operation**. The proposed I→P interpretation is developed at [32S3, §7A](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md#7a-nonlocal-relation-physical-access-and-causal-order--a-prospective-interpretation), with the existing no-signalling mathematics owned by [Layer Before Law, §8.2](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md#82-no-signalling-target). This observer module does not claim new quantum behaviour or a conscious-observer effect.
+
 ## 9. Scoped closure and finite frontier
 
 The reachable discriminator frontier is not an invitation to infinite questioning.

@@ -359,6 +359,8 @@ Where OCQS is recruited as an operating discipline for authoring, use it to redu
 
 > **The prose should show the discipline by being correct, not by narrating the discipline.**
 
+For a conjecture originating in a whole-system intuition, retain the *why-care* picture when it changes a reader's understanding of the scientific question. Give the reader one concrete phenomenon, the strongest native explanation, the remaining difference being investigated, the precise formal owner and a clean failure condition. A philosophical or theological interpretation may motivate the question, but its purpose-language cannot be silently turned into a derived physical mechanism. Equally, removing all human significance can amputate the question that actually led to the experiment. A technically competent non-specialist should be able to reconstruct the topology without private context; a specialist must find the original mathematics and claim level intact.
+
 ## 9C. Pre-Canon state reconciliation
 
 Before a live research candidate is propagated into public MKUFT Canon, reconcile it against the newest **eligible parent-relevant private learning lineage**.

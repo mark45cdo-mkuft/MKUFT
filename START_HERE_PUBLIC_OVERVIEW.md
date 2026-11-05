@@ -6,7 +6,7 @@
 **MKUFT concept DOI:** [10.5281/zenodo.17780565](https://doi.org/10.5281/zenodo.17780565)  
 **Citation and provenance:** [PROVENANCE_DOI_AND_ATTRIBUTION.md](PROVENANCE_DOI_AND_ATTRIBUTION.md)
 
-This is **Step 2 of the same reader route**, continuing from [Step 1 — Start Here](00-START-HERE-MKUFT-PUBLIC.md). We have already seen how an excellent law can fail to answer the intended question when the state offered to it omits a relevant distinction. Now the questions become more interesting: *how do we detect the missing distinction, and what if it belongs in the relationship among observations rather than any observation alone?*
+This is **Step 2 of the same reader route**, continuing from [Step 1 — Start Here](00-START-HERE-MKUFT-PUBLIC.md). We have seen why a correct law can be given an incomplete description of its subject. The next step is more revealing: *how can we discover the distinction we have missed, especially when it lies in the relationship between observations rather than inside any one of them?*
 
 ## 1. When the parts do not tell the whole story
 
@@ -226,13 +226,27 @@ The question might be as simple as: *Which additional view would distinguish the
 
 The proposed question earns a test opportunity, not a favourable answer. When no valid observation can be obtained, the missing result stays open.
 
+### 7C. When a connection cannot be used as a message
+
+Imagine two distant laboratories measuring parts of an entangled quantum system. When their results are later brought together, the measurements can reveal correlations that cannot be explained by ordinary Bell-local hidden instructions. Yet neither laboratory can choose a message and send it instantly to the other by changing its local measurement.
+
+That difference is not a small technicality. **A relationship can be present without granting either participant a remote control.** In quantum theory this is made precise by *no-signalling*: a distant choice cannot change the probabilities available in the other laboratory's local record. Joint correlations and local communication power are different mathematical questions.
+
+Now widen the view. Human beings already redirect rivers, harness tremendous energy and alter planetary environments. A civilisation with much greater capabilities might influence systems over astronomical distances. Under the usual relativistic assumptions, an unrestricted faster-than-light messaging capability could also produce conflicting causal orderings. One can therefore ask whether restrictions on making information *physically actionable* belong to a deeper principle of consistency, rather than merely to the limitations of our present technology.
+
+There is a further philosophical reading: perhaps those boundaries allow intelligence, agency and responsibility to develop without giving any emerging civilisation unconstrained access to another's causal history. A theological interpretation might describe such order as part of divine intention. That is an intelligible question about *why* a coherent world has these properties, not a measurement of God's purpose or evidence that a conscious observer is needed to enforce the equations.
+
+MKUFT gives the physical part of the question an exact address. **I** is a candidate description of relations and constraints; **P** is the physical dynamics through which usable signals and interventions must be realised; **O** records what a situated observer can actually access. The I-layer has not been shown to propagate faster than light; without an independently defined physical distance and time for that layer, assigning it a speed would be premature.
+
+The testable issue is whether an information-layer relation changes a future physical prediction beyond a complete ordinary quantum/physical account **while preserving no-signalling**. The existing mathematical owners are [Layer Before Law, §8](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md#8-entanglement-as-a-worked-constraint-case), [Relational Brackets and I→P Admissibility, §7](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md#7-ip-as-an-admissibility-question-not-a-message-pipe-assumption), and the [Bell Constraints paper](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md). They provide constraints and possible tests, not yet an independent physical derivation of the conjecture.
+
 ### 8. Does that mean there is a new physical layer?
 
 Not automatically.
 
-A hidden state variable may simply be an ordinary physical variable that the first model omitted.
+A hidden state variable may simply be an ordinary physical variable that the first model omitted. And an observer's inability to send a signal does not, by itself, imply a separate information-bearing medium: standard quantum mechanics already produces non-signalling correlations.
 
-MKUFT only earns a stronger claim if ordinary physical variables and fair baseline models fail while a new typed relation adds predictive value.
+MKUFT only earns a stronger claim if the strongest adequate physical account is held fixed and a new, operationally defined typed relation adds independent predictive or interventional content without breaking established physics.
 
 That is a deliberately high bar.
 

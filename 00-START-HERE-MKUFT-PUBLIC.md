@@ -25,7 +25,7 @@ That is the founding ambition under investigation, not an accomplished unificati
 
 ## 2. How the questions grew
 
-One strand of MKUFT explores the world in terms of possible states, permitted connections, constraints, traversal, and what different paths cost. It raises provocative questions: what if some useful descriptions of time emerge from the ordering of physical change? Could a gradient in the accessibility or cost of routes ever enter a legitimate gravitational account? What makes a boundary stable enough for a higher-scale physical object to persist?
+One strand begins with a simple wonder: a clock records physical change, yet a description of the world must also account for which changes can follow which others. What makes a route through possible states available, forbidden, costly or stable? Might the ordering of physical change, the constraints on possible paths, or the gradients between them teach us something about effective descriptions of time or gravitation? What allows a boundary to remain stable enough for a larger organised object to persist?
 
 These are **questions and candidate mathematical interpretations**, not established facts about time or gravity. Ordinary dynamics, relativity and quantum theory remain the required comparators. The programme cannot obtain a physical field by renaming a graph.
 
@@ -88,7 +88,7 @@ A foundational proposal would need to say which mathematical state spaces descri
 
 The challenge is not to invent a grander vocabulary than physics. It is to produce an exact result that established accounts do not already provide. The [Layer Before Law](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md) preprint states the quantum/gravity obligations; the [SIPO Capstone](docs/33_SIPO_CAPSTONE_CONSTRAINT_CONDITIONED_ADDRESSED_UPDATE_LAW.md) assembles the proposed typed law object.
 
-There is something absorbing about the question even while the answer remains open: **could the conditions that make a physical state possible be part of the explanation of which effective law describes it?** A successful theory must eventually answer with equations and experiments, not enthusiasm alone.
+There is something absorbing about the question even while the answer remains open: **could the conditions that make a physical state possible be part of the explanation of which effective law describes it?** Entangled systems pose a particularly demanding version: they exhibit nonlocal correlations without providing an unrestricted messaging channel. Why must a relationship and an ability to command it be different? Step 2 follows that question; the technical work must still recover the established no-signalling result rather than borrow it as proof of a new layer.
 
 ## 6. Where the research takes surprising turns
 
@@ -102,7 +102,7 @@ These examples do not prove one underlying mechanism. They illustrate why **obse
 
 ## 7. Why it might matter beyond a physics paper
 
-In engineering, a system may remain operational while losing the reserve needed to recover from a later fault. In biology, apparently stable present measurements may conceal a change in how an organism can respond. In AI research, a correct answer can coexist with lost context, provenance or control of what question was being answered.
+In engineering, a pumping station may meet today's demand while spending the reserve needed for tomorrow's fault. A biological system can appear stable while its ability to recover changes. An AI system can answer a question correctly yet lose which larger question the answer was meant to serve. In each case, the present looks adequate until the future asks more of it.
 
 Those are already studied problems in their own disciplines. MKUFT's applied work asks whether a shared discipline of **addressing, comparison, intervention and readdressing** can make useful distinctions portable without claiming the same equation governs all of them.
 

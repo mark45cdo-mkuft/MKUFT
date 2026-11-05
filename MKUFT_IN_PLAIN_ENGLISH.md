@@ -217,6 +217,10 @@ If the measuring instrument physically disturbs the system, that disturbance bel
 
 Observation changes what can be known before it is allowed to become a claim about what physically exists.
 
+There is an even stranger example in established physics. Two distant laboratories can measure entangled systems and later discover correlations that no ordinary local instruction scheme can reproduce. But neither laboratory can exploit those correlations to send a chosen instant message. The relationship appears in the correctly combined results; it does not give either observer unrestricted control over the other's record.
+
+Think of the difference between discovering that two parts of a system belong to one pattern and possessing a switch that can change the distant part at will. Those are different abilities. MKUFT asks whether separating **the relation, the physical channel and what an observer can access** might illuminate deeper constraints on causation. The formal no-signalling rule is established quantum physics; any extra information-layer mechanism or purpose behind it remains for the research to demonstrate. [Step 2 explores the question](START_HERE_PUBLIC_OVERVIEW.md#7c-when-a-connection-cannot-be-used-as-a-message).
+
 ## 10. The loop: find the world, then find the route
 
 Put the pieces together and the London machine becomes a useful picture of the whole architecture.
@@ -279,7 +283,7 @@ The foundational question is whether there is a deeper, mathematically lawful wa
 
 That is the reason for the S–I–P–O architecture. The four roles are not four established kinds of matter. To say something new about the physical world, the proposal must define its couplings, preserve conservation and no-signalling where required, recover quantum and gravitational results, and produce at least one independently discriminating consequence.
 
-What would be remarkable is not a diagram that *looks* as though it connects these things. It would be a calculation that makes a previously difficult relationship precise and survives the experiments designed to defeat it.
+What would be remarkable is not a diagram that *looks* as though it connects these things. It would be a calculation that makes a previously difficult relationship precise and survives the experiments designed to defeat it. The questions that lead us there matter too: how physical order remains coherent, why some relations can be observed but not commanded, and how a world capable of producing minds and civilisations constrains what they can do.
 
 ## 13. What about other kinds of hidden structure?
 

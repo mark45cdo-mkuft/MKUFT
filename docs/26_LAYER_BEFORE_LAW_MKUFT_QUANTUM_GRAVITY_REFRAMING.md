@@ -486,6 +486,14 @@ for all admissible distant settings.
 
 The verbal statement "the relation belongs to the pair" is not enough. The no-signalling property must be derived from the instantiated dynamics.
 
+### 8.2A Relation is not remote write-power
+
+The result has a useful human interpretation as well as a formal constraint. Two separated systems may belong to one quantum correlation structure without either experimenter gaining control over the other laboratory's record. The ability to describe the **joint relation** and the ability to **send a chosen message** are different operational resources.
+
+MKUFT asks whether the same distinction can be expressed within a deeper addressed-admissibility architecture: an I-level relation may constrain which joint states are compatible while P-level dynamics and the measurement instrument determine which interventions and signals are physically available. That is a candidate interpretation, not an additional no-signalling theorem or evidence of a separate carrier. In particular, observer registration cannot be promoted to conscious causation merely because the question mentions an observer.
+
+The formal follow-on is [32S3, §7A — Nonlocal relation, physical access and causal order](32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md#7a-nonlocal-relation-physical-access-and-causal-order--a-prospective-interpretation). It states the stronger I→P discriminator and the ordinary quantum null. If that comparator is complete, the extra physical claim contracts; the existing no-signalling mathematics remains untouched.
+
 ### 8.3 Strongest-fair quantum null
 
 The strongest fair null is that $R_{XY}$ adds nothing beyond an adequate standard joint quantum state $\rho_{XY}$ plus the complete physical preparation, measurement, boundary, history and environment description.

@@ -578,6 +578,18 @@ under an adequate physical description, the I-layer variable may remain a useful
 
 A stronger independent I→P candidate requires representation robustness, a strongest adequate P baseline, held-out predictive or interventional gain, relation-specific deformation that does not merely introduce an uncontrolled P change, ordinary-limit recovery, and an explicit falsifier.
 
+### 7A. Nonlocal relation, physical access and causal order — a prospective interpretation
+
+A pair of distant quantum systems provides a demanding example of the distinction between *having a relationship* and *having a channel*. The joined measurement outcomes may exhibit Bell-nonlocal correlations. But a distant experimental choice cannot be used to write a freely chosen message into the other laboratory's local outcome distribution. The precise operational no-signalling equalities and Bell-local countermodel are stated in [Layer Before Law, §8](26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md#8-entanglement-as-a-worked-constraint-case) and the [Bell Constraints paper](../papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md).
+
+One candidate MKUFT interpretation is that an I-addressed relation can constrain the joint admissibility of physical descriptions without furnishing either endpoint with independent remote write-power. In the S–I–P–O grammar, **I** identifies the proposed relational distinction, **P** owns the physically realised transition and any usable signal, and **O** specifies what a situated measurement can register. This is a proposal about the *placement* of the question. It is not evidence that I has its own faster-than-light velocity, exists outside spacetime, constitutes a new causal carrier, or needs a human mind to enforce a quantum law.
+
+The motivating higher-order question deserves to remain visible. Consistent causal ordering matters in a universe where physical systems—and eventually technologically capable civilisations—can influence distant events. If a chosen superluminal message could be turned into a causal loop under the usual relativistic assumptions, restrictions on information becoming physically actionable acquire evident significance. Reading that order as protective of developing intelligence, or as purposeful design, is a philosophical or theological interpretation. No purpose, developmental threshold or consciousness-dependent enforcement mechanism is inferred from the Bell data.
+
+The strongest fair null is a complete ordinary quantum account: joint state, preparation, apparatus, physical histories, environment, local operations and ordinary communication. That account already predicts the relevant correlations and no-signalling. A stronger I→P mechanism must specify the relation variable, a physically lawful discriminator, the outcome it changes beyond this null, and the experimental conditions under which the change can be independently identified while preserving established limits. The transition-kernel and relation-deformation tests above supply the candidate assay; an observed correlation by itself does not supply causal I→P evidence.
+
+This branch remains **OPEN as physical mechanism**. Its present value is a clearly addressed research question that connects nonlocal relation, physical control and observer access without collapsing them into one claim.
+
 ## 8. Operational semantic load-bearingness
 
 The word `semantic` should not mean merely `meaningful to an observer`.

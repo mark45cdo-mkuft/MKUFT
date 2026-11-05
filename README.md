@@ -13,7 +13,9 @@ MKUFT is an open research programme investigating whether **the objects and rela
 
 > **Before choosing or combining laws, have we established the object, the conditions under which its states are admissible, and the distinctions that actually matter for what happens next?**
 
-That question has a practical side: it can improve how we test state descriptions, observers, higher-order systems and recoverability. It also has a larger, unresolved physics side: whether a typed relational architecture could contribute to recovering quantum and gravitational behaviour from a deeper lawful account. The latter remains a hypothesis with significant mathematical and experimental obligations, not a completed unified field theory.
+The distinction matters wherever an arrangement changes what a system can do. The same stones can form a load-bearing arch or an unstable pile; the same materials can support different behaviour when their boundaries, history or organisation change. Ordinary mechanics and materials science explain such examples. Their value here is to expose a more ambitious question: **can we make the relationship between an object's possible states, its organising relations and its applicable laws precise enough to test across different regimes?**
+
+MKUFT develops formal methods for that question in systems, observers and recoverability, while investigating a much harder foundational possibility: whether an addressed relational architecture contributes to recovering quantum and gravitational behaviour. The latter is an unfinished physical research programme, not an accomplished unification.
 
 ## Start here — one reader route
 
@@ -37,7 +39,7 @@ A mathematical rule can be correct and still be applied to the wrong physical pr
 
 Consider a heat-flow model. The same differential expression does not specify by itself whether a boundary is insulated, open to the environment, or exchanging heat with another material. Those conditions affect which solutions describe the actual system. The remedy may be completely ordinary: establish the physical domain, its boundaries and measured state before computing the prediction.
 
-Now ask a less ordinary question. *What if some apparent conflicts between effective descriptions are partly conflicts between the kinds of object, boundary or relational state each description assumes?* Could an explicit typed sequence—state, admissibility, applicable law, physical evolution, registration and readdressing—help us find where the mismatch begins?
+Now move from the calculation to the question that motivated the architecture. *What if some apparent conflicts between effective descriptions begin because they describe different kinds of object, boundary or relational state?* The goal is not to replace their equations with a slogan. It is to expose which assumptions are doing physical work, and whether a typed sequence—state, admissibility, law, evolution, registration and readdressing—can locate a difference that a good native model has not already captured.
 
 That is the motivating enquiry behind **Layer Before Law** and the proposed **S–I–P–O** architecture. It does not ask readers to disregard established physical laws. It asks the programme to show, case by case, whether the extra organisation achieves anything the strongest ordinary methods do not.
 
@@ -80,7 +82,7 @@ See [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTOR
 
 ### Observation and reliable inquiry
 
-An observer's information is not the entire state of the world. Properly joined observations can sometimes reveal a relation invisible in any individual view, while an ill-posed question can conceal a distinction even when the data are good.
+An observer's information is not the entire state of the world. Properly joined observations can reveal a relationship invisible in any individual view; a badly arranged question can conceal one even when the measurements are accurate. Physics gives a particularly sharp example: entangled systems can show correlations that neither distant laboratory can turn into a chosen faster-than-light message. **A relation existing and an observer being able to use it as a channel are not the same proposition.** Why that boundary holds, and what a deeper relational architecture would have to explain about it, is an open research question—not an established new mechanism.
 
 [Observer-Bounded Traversal](docs/33S7C_OBSERVER_BOUNDED_TRAVERSAL_WAKE_SCREENING_AND_REACHABLE_DISCRIMINATOR_FRONTIERS.md) and [Sideways Inquiry](docs/33S7B_SIDEWAYS_INVARIANT_INTERROGATION_AND_NUISANCE_QUOTIENT.md) turn those observations into test-design questions. The [Minimal Addressed Operator](papers/2026-09-27_MINIMAL_ADDRESSED_OPERATOR_SEQUENTIAL_INQUIRY_v1.0.md) asks whether an entire disciplined inquiry—question, lawful operation, actual outcome and readdressing—can be expressed compactly without discarding what matters.
 
