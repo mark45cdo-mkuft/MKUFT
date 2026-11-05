@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - '**/*.md'
+      - '**/*.pdf'
+      - '**/SHA256SUMS.txt'
       - 'codemeta.json'
       - 'CITATION.cff'
       - 'release-manifests/**'
@@ -20,6 +22,8 @@ on:
   pull_request:
     paths:
       - '**/*.md'
+      - '**/*.pdf'
+      - '**/SHA256SUMS.txt'
       - 'codemeta.json'
       - 'CITATION.cff'
       - 'release-manifests/**'
