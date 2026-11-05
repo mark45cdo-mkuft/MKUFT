@@ -125,7 +125,7 @@ The [LUCY threshold framework](docs/08_LUCY_BOUNDARY_THRESHOLD_FRAMEWORK.md) ask
 
 This is the difficult point where a plausible architecture must either acquire a defined physical carrier and an independently discriminating experiment—or remain a useful structural hypothesis. Its fascination is in the possibility, not in pretending the possibility has already been verified.
 
-### 4. Does good local performance mean the whole is healthy?
+## 4. Does good local performance mean the whole is healthy?
 
 No.
 
@@ -135,7 +135,7 @@ A part can improve its own score while the wider system becomes harder to restor
 
 That matters in biology, engineering, institutions, AI and control systems. The claim travels between those domains as an investigative distinction, not as one newly demonstrated physical law.
 
-### 5. When must history or timing be carried forward?
+## 5. When must history or timing be carried forward?
 
 A present measurement may be sufficient in one regime and insufficient in another. The question is **which additional history, rate or timing is actually needed**, not whether the whole past must be preserved.
 
@@ -147,7 +147,7 @@ Those variables are added only when they make a real predictive difference.
 
 The same criterion applies across interruption. If one unresolved branch would lead to a materially different lawful continuation when resumed, a long-horizon implementation should preserve enough re-entry state to recover and revalidate that branch. Once the branch is closed, invalidated, or safely reconstructible from the current parent, carrying it live is unnecessary. The builder-level version is in [Module 35 — ARTA Architecture Instantiation and Engine Construction Map](docs/35_ARTA_ARCHITECTURE_INSTANTIATION_AND_ENGINE_CONSTRUCTION_MAP.md#stage-9a--preserve-unresolved-future-bearing-re-entry-state).
 
-### 6. Is recovery really available?
+## 6. Is recovery really available?
 
 [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) treats recovery as a route through future state space, not a reassuring assumption.
 
@@ -173,7 +173,7 @@ This operational language should not be over-read. Selecting among admissible co
 
 Read: [Addressed Admissible Futures](docs/33S6_ADDRESSED_ADMISSIBLE_FUTURES_RESTORATIVE_REACHABILITY_AND_LOAD_BEARING_FUTURE_GEOMETRY.md) and, for human/AI decision applications, [GRACE Traversal](docs/20_GRACE_TRAVERSAL_RULE.md).
 
-### 7. How can an experiment challenge its own description?
+## 7. How can an experiment challenge its own description?
 
 [Future-Splitting State Recruitment](docs/33S7_FUTURE_SPLITTING_STATE_RECRUITMENT_STATE_ADEQUACY_AND_PROSPECTIVE_MECHANISM_LOCALISATION.md) turns the sufficiency question into a direct assay.
 
@@ -240,7 +240,7 @@ MKUFT gives the physical part of the question an exact address. **I** is a candi
 
 The testable issue is whether an information-layer relation changes a future physical prediction beyond a complete ordinary quantum/physical account **while preserving no-signalling**. The existing mathematical owners are [Layer Before Law, §8](docs/26_LAYER_BEFORE_LAW_MKUFT_QUANTUM_GRAVITY_REFRAMING.md#8-entanglement-as-a-worked-constraint-case), [Relational Brackets and I→P Admissibility, §7](docs/32S3_RELATIONAL_BRACKETS_COMPLETION_GEOMETRY_AND_I_TO_P_ADMISSIBILITY.md#7-ip-as-an-admissibility-question-not-a-message-pipe-assumption), and the [Bell Constraints paper](papers/2026-08-25_BELL_CONSTRAINTS_TYPED_BOUNDARIES_v1.0.md). They provide constraints and possible tests, not yet an independent physical derivation of the conjecture.
 
-### 8. Does that mean there is a new physical layer?
+## 8. Does that mean there is a new physical layer?
 
 Not automatically.
 
