@@ -14,7 +14,7 @@ A live module, repository paper route, reading edition, convenience mirror and D
 
 - [Frozen v2 DOI PDF mirror](MKUFT_RELATIONAL_ARCHITECTURE_v2_DOI_10.5281_zenodo.21973064.pdf)
 - [Human-reader publication index](../papers/README.md#current-principal-mkuft-publication)
-- [Provenance and DOI custody](../PROVENANCE_DOI_AND_ATTRIBUTION.md#current-principal-mkuft-publication)
+- [Provenance and DOI custody](../PROVENANCE_DOI_AND_ATTRIBUTION.md#current-principal-publication)
 
 The repository PDF is a preservation mirror of the frozen v2 carrier. Later live MKUFT/ARTA work is not part of that deposited object unless separately published as such.
 
