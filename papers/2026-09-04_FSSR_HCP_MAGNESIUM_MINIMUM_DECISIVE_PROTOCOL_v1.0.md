@@ -6,9 +6,9 @@
 **Affiliation:** Independent Researcher  
 **Version:** 1.0  
 **Publication date:** 4 September 2026  
-**Reserved DOI:** [`10.5281/zenodo.22309144`](https://doi.org/10.5281/zenodo.22309144)  
+**Version DOI:** [`10.5281/zenodo.22309144`](https://doi.org/10.5281/zenodo.22309144)  
 **Licence:** CC BY 4.0  
-**Status:** frozen, visually audited prospective publication candidate. DOI registration/published-state verification remains open until the Zenodo draft is published. No empirical magnesium experiment is reported.
+**Status:** published Zenodo v1.0 prospective methods protocol. DOI registration and frozen-carrier receiver-side identity verification are complete; empirical magnesium testing remains OPEN. No empirical magnesium experiment or positive scientific result is reported.
 
 > **Object boundary.** This is a separate downstream protocol paper derived from the FSSR/FSAI research line. It is not FSSR v1.1, not a new version of the principal MKUFT paper, and not experimental confirmation of MKUFT, FSAI, FSSR, a new constitutive law, twinning mechanism, force, field, or completed unification.
 
@@ -16,7 +16,7 @@
 
 - [Live canonical protocol — Module 28C](../docs/28C_FSAI_FSSR_MINIMUM_DECISIVE_FLAGSHIP_HCP_MAGNESIUM_PROTOCOL.md)
 - [Standalone publication/custody record](../FSSR_HCP_MAGNESIUM_PROTOCOL_STANDALONE_PUBLICATION.md)
-- [Frozen carrier identity and prepublication QA](../publications/FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0/)
+- [Frozen DOI carrier identity, prepublication QA, and postpublication receiver verification](../publications/FSSR_HCP_MAGNESIUM_MINIMUM_DECISIVE_PROTOCOL_v1.0/)
 - [FSSR parent publication](https://doi.org/10.5281/zenodo.22058303)
 - [AAF parent publication](https://doi.org/10.5281/zenodo.22031333)
 - [Cross-Domain Compositional Schema v0.4](https://doi.org/10.5281/zenodo.22166468)
