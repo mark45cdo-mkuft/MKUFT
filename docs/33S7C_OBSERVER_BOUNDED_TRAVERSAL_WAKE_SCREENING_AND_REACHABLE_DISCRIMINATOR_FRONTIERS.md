@@ -509,6 +509,8 @@ Therefore the public MKUFT residual is **not** the invention of synergy, coaliti
 
 > **A coalition may earn a new discriminator without earning the discriminator's answer.**
 
+A known-answer illustration is already given in [Step 2's three-bit parity example](../START_HERE_PUBLIC_OVERVIEW.md#a-relationship-can-carry-information-that-its-parts-do-not). The two full triple distributions have identical single-variable and pairwise marginals, but a lawfully joined three-variable readout distinguishes them. This shows why separate summaries need not make the same discriminator available as registered joint events. It does not, by itself, establish a physical coalition-frontier gain: that requires the provenance, observer-access, matched-resource, proper-subset and executed-discriminator conditions above. The example and this corollary therefore perform distinct, complementary jobs.
+
 ## 7. Discriminator selection and no unique “right question” claim
 
 This module does not posit one uniquely correct next question.
