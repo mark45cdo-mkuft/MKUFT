@@ -154,6 +154,8 @@ For a preregistered tolerance $\varepsilon_q$, the address is **predictively suf
 
 This is **predictive closure at the declared address**. It does not imply complete knowledge of the underlying system.
 
+**A repeated phase need not preserve the whole state.** In twelve-tone equal temperament, an integer semitone index may be written $n=12k+r$, where $r\in\{0,\ldots,11\}$ identifies pitch class and $k$ the octave register. With a fixed reference frequency $f_0$, the equal-temperament rule $f_n=f_0 2^{n/12}$ gives $f_{n+12}=2f_n$. The remainder $r$ is sufficient for a task asking only pitch class, but not for one requiring absolute frequency when $k$ can vary. This is an illustration of **target-relative address sufficiency**, not a universal twelvefold physical law. An additional register earns its place only where the declared target or continuation requires it.
+
 ## 4. Deterministic and stochastic cases
 
 ### 4.1 Deterministic case
