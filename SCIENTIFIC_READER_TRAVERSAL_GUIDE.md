@@ -574,6 +574,8 @@ action authority
 
 If a real exception or emergency rule exists, follow its actual owner and readdress lawfully. Otherwise preserve the unresolved authority fork rather than silently converting cost into permission.
 
+Consider someone whose firm boundaries kept them safe in an unsafe setting. A safer setting may allow renewed connection, but a route back is not automatically suitable: the person must be able to refuse, the environment must actually support the change, and that support must survive a setback. The pace matters too. Two outwardly similar outcomes can conceal different histories and remaining choices. This example brings agency, admissibility, restorative resilience, rate, and continuity together without treating one as a substitute for another.
+
 This is an applied GRACE side-route, not a new physical mechanism. Read [GRACE Traversal](docs/20_GRACE_TRAVERSAL_RULE.md) and [GRACE Formal Route Selection](docs/20A_GRACE_FORMAL_ROUTE_SELECTION_AND_NON_DOMINATED_FUTURE_PRESERVATION.md).
 
 ---
