@@ -320,7 +320,7 @@ If ordinary physical state and forcing history explain the rate effect, do not p
 
 ### Why the next step follows
 
-Once present state and timing/history are made sufficient for a target, the model can ask a stronger question: what future states are still reachable, and how much of that future remains restorative?
+**There are two different repairs.** Recovering missing state or history may repair the *description*: it allows futures previously confused by the model to be distinguished. It does not, by itself, repair the *system*. Likewise, making an outward measurement look normal need not restore the routes needed to survive the next disturbance. The next module therefore asks which restorative futures remain reachable under declared interventions, and how robust those routes are.
 
 ---
 
