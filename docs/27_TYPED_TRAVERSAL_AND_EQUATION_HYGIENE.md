@@ -42,6 +42,8 @@ A **layer address** identifies the kind of description currently active:
 
 A layer is not automatically a spatial dimension or numerical coordinate.
 
+**Equal counts do not establish equivalent geometry.** The star graph $K_{1,3}$ contains four vertices (three outer vertices and one central hub) and three edges: seven graph elements. A filled abstract triangle, treated as a two-simplex together with all its nonempty faces, contains three vertices, three perimeter edges and one two-dimensional face: seven simplices. Despite the matching count, their incidence relations and element types differ. In particular, a central hub is not an integrating face, and neither representation by itself supplies an extra physical dimension or a conscious observer. Any proposed translation must identify the original object, the relation map, the preserved target-relevant properties and what the map loses.
+
 ## 4. Typed cross-layer state
 
 The compact addressed state is
